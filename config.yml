@@ -1,9 +1,9 @@
 # information-hub — configuration
 # Taxonomy engine: layers (hierarchical), collections, sources, quotas.
 # V3: multi-provider (roles: collect/check) + quality thresholds + 2-phase runs.
-# GitHub UI မှာ code မထိဘဲ ပြင်လို့ရတယ်။
-
-# ---- Providers (fully auto — env key ရှိတဲ့ provider ကိုပဲ enable) ----
+# Editable directly on GitHub (no code changes required).
+#
+# ---- Providers (fully auto — only providers with env keys are enabled) ----
 providers:
   groq:
     enabled: true
@@ -47,7 +47,7 @@ storage:
   data_dir: data
   max_daily_items_total: 6            # multi-provider capacity
 
-# Classification layers — hierarchical (ထည့်/ဖျက်/ပြင်လို့ရ)
+# Classification layers — hierarchical (add / remove / edit freely)
 taxonomy:
   regions:
     asia:     [myanmar, thailand, china]

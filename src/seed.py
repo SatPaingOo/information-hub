@@ -1,6 +1,6 @@
 """information-hub — seed data generator.
 
-Creates the initial sample dataset (structure သရုပ်ပြ) so the repo ships
+Creates the initial sample dataset (structure demonstration) so the repo ships
 with real-looking Obsidian-ready content + index + registry.
 
 Run:  python -m src.seed

@@ -288,7 +288,7 @@ class Config:
         return [c for c in self.collections.values() if c.enabled]
 
     def collections_by_priority(self) -> list[CollectionConfig]:
-        """Enabled collections sorted by priority descending (များလေ အရင်ရလေ)."""
+        """Enabled collections sorted by priority descending (highest first)."""
         return sorted(self.enabled_collections(), key=lambda c: c.priority, reverse=True)
 
     def providers_for_role(self, role: str) -> list[ProviderConfig]:
