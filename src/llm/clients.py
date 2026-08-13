@@ -158,19 +158,22 @@ def _parse_json_tolerant(text: str) -> dict[str, Any]:
     """Parse JSON from model text, stripping ```json fences if present.
 
     Falls back to slicing the first ``{`` … ``}`` block so models without
-    JSON mode (which may wrap output in prose) still work.
+    JSON mode (which may wrap output in prose) still work.  Only objects are
+    accepted — a top-level array is rejected so callers get a dict.
     """
     text = text.strip()
     try:
-        return json.loads(text)
+        result = json.loads(text)
     except json.JSONDecodeError:
         # strip markdown fences
         if text.startswith("```"):
             text = text.split("\n", 1)[-1].rsplit("```", 1)[0].strip()
-            return json.loads(text)
-        # slice first balanced {...} block
-        start = text.find("{")
-        if start >= 0:
+            result = json.loads(text)
+        else:
+            # slice first balanced {...} block
+            start = text.find("{")
+            if start < 0:
+                raise
             depth = 0
             for i in range(start, len(text)):
                 if text[i] == "{":
@@ -178,8 +181,13 @@ def _parse_json_tolerant(text: str) -> dict[str, Any]:
                 elif text[i] == "}":
                     depth -= 1
                     if depth == 0:
-                        return json.loads(text[start:i + 1])
-        raise
+                        result = json.loads(text[start:i + 1])
+                        break
+            else:
+                raise
+    if not isinstance(result, dict):
+        raise ProviderError(f"model returned non-object JSON ({type(result).__name__})")
+    return result
 
 
 def _extract_google_text(data: dict[str, Any]) -> str:

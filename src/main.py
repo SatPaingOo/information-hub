@@ -233,6 +233,11 @@ def run_collect(cfg: Config, registry: Registry, store: Store, indexer: Indexer,
                             cfg, collection, candidate, fulltext,
                             known_entities, related, priority_text)
                         record = pm.generate(spec, SYSTEM_DEEP_DIVE, prompt)
+                    if not isinstance(record, dict):
+                        logger.info("[%s] attempt %d non-dict model response",
+                                    collection.name, attempt + 1)
+                        record = None
+                        continue
                     record = _finalize_record(record, candidate, collection)
                     errors = validate_record(record, cfg.content.min_words)
                     if not errors:
