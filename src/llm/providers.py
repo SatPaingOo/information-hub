@@ -216,8 +216,10 @@ class ProviderManager:
                            model=spec.model, latency_ms=latency)
             return data
         except ProviderError as e:
+            # Any 4xx/5xx makes the model unusable for this run (e.g. a
+            # decommissioned model id) — mark it down so pick_collect rotates.
             self.registry.record_provider_failure(spec.provider, spec.model,
-                                                  mark_down=e.status_code in RETRYABLE)
+                                                  mark_down=e.status_code is not None and e.status_code >= 400)
             self.log.event("collect", "call_error", provider=spec.provider,
                            model=spec.model, status="error",
                            detail=f"HTTP {e.status_code}: {e}")
@@ -253,7 +255,7 @@ class ProviderManager:
             return data
         except ProviderError as e:
             self.registry.record_provider_failure(spec.provider, spec.model,
-                                                  mark_down=e.status_code in RETRYABLE)
+                                                  mark_down=e.status_code is not None and e.status_code >= 400)
             self.log.event("check", "verify_error", provider=spec.provider,
                            model=spec.model, status="error",
                            detail=f"HTTP {e.status_code}: {e}")

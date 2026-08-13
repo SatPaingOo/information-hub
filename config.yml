@@ -10,7 +10,7 @@ providers:
     keys_env: GROQ_API_KEY            # single key env name
     role: collect                     # deep-dive generation
     format: openai                    # /chat/completions
-    models: [llama-3.1-70b-versatile, llama-3.1-8b-instant]   # fallback order
+    models: [llama-3.3-70b-versatile, llama-3.1-8b-instant]   # fallback order
     budget: { max_items: 2, max_calls: 10 }
   openrouter:
     enabled: true
