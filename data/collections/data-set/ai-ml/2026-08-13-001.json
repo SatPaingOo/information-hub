@@ -1,0 +1,72 @@
+{
+  "id": "info:item:ai-ml:global:2026-08-13-001",
+  "key": "2026-08-13-001",
+  "date": "2026-08-13",
+  "content_type": "briefing",
+  "topic": "ai-ml",
+  "region": "global",
+  "categories": [
+    "research"
+  ],
+  "source": {
+    "name": "arXiv",
+    "url": "https://arxiv.org/abs/2608.00001",
+    "type": "sample"
+  },
+  "title": "A new benchmark for long-horizon agentic AI reasoning",
+  "tldr": "A new evaluation framework measures agents on planning, tool use, and recovery — and finds frontier models still degrade on long tasks.",
+  "background": "This is a representative sample deep-dive. It exists to demonstrate the data structure, layer classification, entity linking, and related-item edges that the daily pipeline produces automatically. The paper introduces a new evaluation framework for agentic systems, moving beyond single-turn benchmarks toward long-horizon tasks that require planning, tool use, and recovery from errors. Early results show that current frontier models handle routine sub-tasks well but degrade sharply when a task requires sustained multi-step reasoning with intermediate feedback. The authors argue that composite scoring across planning, execution, and self-correction provides a more useful signal than headline accuracy numbers. ",
+  "analysis": [
+    {
+      "heading": "What changed",
+      "content": "The paper introduces a new evaluation framework for agentic systems, moving beyond single-turn benchmarks toward long-horizon tasks that require planning, tool use, and recovery from errors. Early results show that current frontier models handle routine sub-tasks well but degrade sharply when a task requires sustained multi-step reasoning with intermediate feedback. The authors argue that composite scoring across planning, execution, and self-correction provides a more useful signal than headline accuracy numbers.  The benchmark publishes per-phase scores, so model comparisons are no longer a single number."
+    },
+    {
+      "heading": "Why it matters",
+      "content": "As agents move into production workflows, evaluation that matches real task structure is the gating factor for adoption."
+    },
+    {
+      "heading": "What to watch",
+      "content": "Whether the major labs adopt the suite as a release gate, and how scores shift across model generations."
+    }
+  ],
+  "key_facts": [
+    "Sample dataset shipped with the repository to demonstrate structure.",
+    "Daily pipeline regenerates these files from Gemini output.",
+    "Classification layers are queryable via data/collections/index/."
+  ],
+  "implications": [
+    "Readers can follow related items through stable item IDs.",
+    "Entity notes accumulate backlinks as new items are published."
+  ],
+  "outlook": "The daily workflow extends this dataset automatically.",
+  "entities": [
+    {
+      "type": "concept",
+      "name": "Agentic AI",
+      "relation": "evaluates"
+    },
+    {
+      "type": "concept",
+      "name": "Retrieval-Augmented Generation",
+      "relation": "uses"
+    },
+    {
+      "type": "company",
+      "name": "OpenAI",
+      "relation": "mentioned"
+    },
+    {
+      "type": "company",
+      "name": "Anthropic",
+      "relation": "mentioned"
+    }
+  ],
+  "tags": [
+    "benchmark",
+    "agents",
+    "seed"
+  ],
+  "related_items": [],
+  "word_count": 274
+}

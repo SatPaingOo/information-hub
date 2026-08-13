@@ -1,0 +1,136 @@
+{
+  "nodes": [
+    {
+      "id": "info:item:ai-ml:global:2026-08-13-001",
+      "type": "item",
+      "date": "2026-08-13",
+      "title": "A new benchmark for long-horizon agentic AI reasoning"
+    },
+    {
+      "id": "info:entity:concept:Agentic AI",
+      "type": "concept",
+      "name": "Agentic AI"
+    },
+    {
+      "id": "info:entity:concept:Retrieval-Augmented Generation",
+      "type": "concept",
+      "name": "Retrieval-Augmented Generation"
+    },
+    {
+      "id": "info:entity:company:OpenAI",
+      "type": "company",
+      "name": "OpenAI"
+    },
+    {
+      "id": "info:entity:company:Anthropic",
+      "type": "company",
+      "name": "Anthropic"
+    },
+    {
+      "id": "info:item:ai-ml:global:2026-08-13-002",
+      "type": "item",
+      "date": "2026-08-13",
+      "title": "Open-source retrieval stacks narrow the gap on enterprise RAG"
+    },
+    {
+      "id": "info:item:geopolitics:myanmar:2026-08-13-003",
+      "type": "item",
+      "date": "2026-08-13",
+      "title": "Myanmar's digital economy: connectivity grows while governance lags"
+    },
+    {
+      "id": "info:entity:concept:Myanmar Digital Economy",
+      "type": "concept",
+      "name": "Myanmar Digital Economy"
+    },
+    {
+      "id": "info:entity:concept:Data Governance",
+      "type": "concept",
+      "name": "Data Governance"
+    }
+  ],
+  "edges": [
+    {
+      "source": "info:item:ai-ml:global:2026-08-13-001",
+      "target": "info:entity:concept:Agentic AI",
+      "relation": "evaluates"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-13-001",
+      "target": "info:entity:concept:Retrieval-Augmented Generation",
+      "relation": "uses"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-13-001",
+      "target": "info:entity:company:OpenAI",
+      "relation": "mentioned"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-13-001",
+      "target": "info:entity:company:Anthropic",
+      "relation": "mentioned"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-13-002",
+      "target": "info:entity:concept:Retrieval-Augmented Generation",
+      "relation": "uses"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-13-002",
+      "target": "info:entity:company:OpenAI",
+      "relation": "mentioned"
+    },
+    {
+      "source": "info:item:geopolitics:myanmar:2026-08-13-003",
+      "target": "info:entity:concept:Myanmar Digital Economy",
+      "relation": "analyzes"
+    },
+    {
+      "source": "info:item:geopolitics:myanmar:2026-08-13-003",
+      "target": "info:entity:concept:Data Governance",
+      "relation": "discusses"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:company:OpenAI",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:concept:Agentic AI",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:concept:Retrieval-Augmented Generation",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:concept:Agentic AI",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:concept:Retrieval-Augmented Generation",
+      "relation": "co-occurs",
+      "weight": "2"
+    },
+    {
+      "source": "info:entity:concept:Agentic AI",
+      "target": "info:entity:concept:Retrieval-Augmented Generation",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Data Governance",
+      "target": "info:entity:concept:Myanmar Digital Economy",
+      "relation": "co-occurs",
+      "weight": "1"
+    }
+  ]
+}

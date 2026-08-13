@@ -1,0 +1,20 @@
+# information-hub — collection policies
+# "ဘာကို ပိုစုမယ် / ဘာကို ဖယ်မယ်" — Gemini selector က ဒါကို လိုက်ပြီး
+# "ဒီနေ့ ဘာတွေ စုမလဲ" ကို rank လုပ်တယ်။
+
+# weight များလေလေ — ရွေးချယ်ခံရဖို့ အလားအလာ များလေလေ
+priority:
+  - { type: topic,   value: "agentic AI",      weight: 3 }
+  - { type: topic,   value: "LLM",             weight: 2 }
+  - { type: region,  value: "myanmar",         weight: 2 }
+  - { type: entity,  value: "OpenAI",          weight: 2 }
+  - { type: entity,  value: "Gemini",          weight: 2 }
+  - { type: entity,  value: "Anthropic",       weight: 2 }
+  - { type: keyword, value: "regulation",      weight: 1 }
+  - { type: keyword, value: "open-source",     weight: 1 }
+
+# hard filter — ဒါနဲ့ ကိုက်ရင် drop
+exclude:
+  - { type: keyword, value: "press-release" }
+  - { type: keyword, value: "sponsored" }
+  - { type: source,  value: "example.com" }

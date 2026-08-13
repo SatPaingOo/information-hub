@@ -1,0 +1,1 @@
+"""information-hub — src package."""

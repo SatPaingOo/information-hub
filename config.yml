@@ -1,0 +1,66 @@
+# information-hub — configuration
+# Taxonomy engine: layers, collections, sources, quotas — အားလုံး ဒီမှာ ချိန်။
+# GitHub UI မှာ code မထိဘဲ ပြင်လို့ရတယ်။
+
+gemini:
+  model: gemini-2.5-flash
+  temperature: 0.4
+  max_output_tokens: 2048
+  retries: 2
+
+storage:
+  data_dir: data
+  max_daily_items_total: 3      # တစ်နေ့စုစုပေါင်း deep-dive item အရေအတွက် (free tier quota)
+
+# Classification layers — ထည့်/ဖျက်/ပြင်လို့ရတယ်
+taxonomy:
+  content_types: [article, briefing, analysis, digest]
+  topics:        [ai-ml, dev-oss, geopolitics, economy, health, energy]
+  regions:       [global, myanmar, us, eu, asia]
+  categories:    [research, industry, policy, product, open-source]
+
+# Collections — key-value: source group + default classification + quotas
+collections:
+  myanmar-news:
+    enabled: true
+    content_type: digest
+    topics: [geopolitics, economy]
+    regions: [myanmar]
+    categories: [policy, industry]
+    primary_layer: region          # canonical physical folder layer
+    sources:
+      - { type: rss, url: "https://www.irrawaddy.com/feed" }
+      - { type: rss, url: "https://myanmar-now.org/en/feed/" }
+    limits: { max_candidates: 12, max_daily_items: 1 }
+
+  ai-research:
+    enabled: true
+    content_type: briefing
+    topics: [ai-ml]
+    regions: [global]
+    categories: [research]
+    primary_layer: topic
+    sources:
+      - { type: arxiv, query: "cat:cs.AI OR cat:cs.LG" }
+      - { type: rss, url: "https://techcrunch.com/category/artificial-intelligence/feed/" }
+    limits: { max_candidates: 12, max_daily_items: 1 }
+
+  us-tech:
+    enabled: true
+    content_type: article
+    topics: [ai-ml, dev-oss]
+    regions: [us]
+    categories: [product, open-source]
+    primary_layer: topic
+    sources:
+      - { type: github, topic: "machine-learning", since: "daily" }
+      - { type: rss, url: "https://www.theverge.com/rss/index.xml" }
+    limits: { max_candidates: 10, max_daily_items: 1 }
+
+# Deep-dive content requirements
+content:
+  min_words: 500
+  target_words: [600, 1000]
+  fulltext_max_chars: 6000       # article page extract cap
+  similarity_window: 30          # dedup — နောက်ဆုံး N items နဲ့ ယှဉ်
+  similarity_threshold: 0.55     # token-overlap ratio → duplicate flag
