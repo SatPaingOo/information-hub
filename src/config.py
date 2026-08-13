@@ -5,6 +5,7 @@ and exposes them as typed plain dicts/dataclasses.
 
 V2: nested (hierarchical) taxonomy, relations, multi-key policy,
     collection priority/frequency/api_key controls.
+V3: providers (roles collect/check) + quality thresholds + run phases.
 """
 
 from __future__ import annotations
@@ -20,6 +21,42 @@ ROOT = Path(__file__).resolve().parent.parent
 
 VALID_FREQUENCIES = ("daily", "every-2-days", "weekly")
 VALID_KEY_STRATEGIES = ("round_robin", "least_used")
+VALID_PROVIDER_FORMATS = ("google", "openai")
+VALID_ROLES = ("collect", "check")
+
+
+@dataclass
+class ProviderConfig:
+    name: str
+    enabled: bool = True
+    keys_env: str = ""
+    role: str = "collect"
+    format: str = "openai"
+    models: list[str] = field(default_factory=list)
+    discover: str | None = None         # "free_models" → runtime auto-discover
+    search_tool: str | None = None      # "google_search" for check providers
+    base_url: str = ""
+    max_items: int = 2
+    max_calls: int = 10
+
+    def env_keys(self) -> list[str]:
+        raw = os.environ.get(self.keys_env, "") if self.keys_env else ""
+        if not raw:
+            raw = _read_dotenv(self.keys_env)
+        if not raw:
+            return []
+        return [k.strip() for k in raw.split(",") if k.strip()]
+
+
+@dataclass
+class QualityConfig:
+    reject_threshold: float = 0.5
+    max_ai_verify_per_run: int = 10
+
+
+@dataclass
+class RunConfig:
+    phases: list[str] = field(default_factory=lambda: ["collect", "check"])
 
 
 @dataclass
@@ -69,7 +106,7 @@ def _read_dotenv(name: str) -> str:
 @dataclass
 class StorageConfig:
     data_dir: Path = field(default_factory=lambda: ROOT / "data")
-    max_daily_items_total: int = 3
+    max_daily_items_total: int = 6
 
 
 @dataclass
@@ -120,7 +157,6 @@ class Taxonomy:
         }
 
     def parents_of(self, node: str) -> list[str]:
-        """All layer parents containing `node` as a child."""
         parents: list[str] = []
         for layer in (self.regions, self.topics, self.categories):
             for parent, children in layer.items():
@@ -135,7 +171,6 @@ class Taxonomy:
         return []
 
     def all_nodes(self) -> list[str]:
-        """Every taxonomy node name (parents + children)."""
         nodes: set[str] = set()
         for layer in (self.regions, self.topics, self.categories):
             for parent, children in layer.items():
@@ -157,7 +192,6 @@ class Taxonomy:
 
 
 def _normalize_layer(raw: Any) -> dict[str, list[str]]:
-    """Accept nested map {parent: [children]} or flat list [leaf, ...]."""
     if isinstance(raw, dict):
         return {str(k): [str(c) for c in (v or [])] for k, v in raw.items()}
     if isinstance(raw, list):
@@ -173,6 +207,9 @@ class Config:
     taxonomy: Taxonomy
     collections: dict[str, CollectionConfig]
     relations: list[dict[str, str]]
+    providers: dict[str, ProviderConfig]
+    quality: QualityConfig
+    run: RunConfig
     policies: dict[str, Any]
     path: Path
 
@@ -201,7 +238,7 @@ class Config:
         )
         storage = StorageConfig(
             data_dir=Path(str(raw.get("storage", {}).get("data_dir", "data"))),
-            max_daily_items_total=raw.get("storage", {}).get("max_daily_items_total", 3),
+            max_daily_items_total=raw.get("storage", {}).get("max_daily_items_total", 6),
         )
         content_raw = raw.get("content", {})
         target = content_raw.get("target_words", [600, 1000])
@@ -219,6 +256,20 @@ class Config:
             for name in raw.get("collections", {})
         }
         relations = [dict(r) for r in (raw.get("relations", []) or [])]
+
+        providers_raw = raw.get("providers", {})
+        providers = {
+            name: _provider_from(name, providers_raw.get(name, {}))
+            for name in providers_raw
+        }
+        quality_raw = raw.get("quality", {})
+        quality = QualityConfig(
+            reject_threshold=quality_raw.get("reject_threshold", 0.5),
+            max_ai_verify_per_run=quality_raw.get("max_ai_verify_per_run", 10),
+        )
+        run_raw = raw.get("run", {})
+        run = RunConfig(phases=list(run_raw.get("phases", ["collect", "check"])))
+
         return cls(
             gemini=gemini,
             storage=storage,
@@ -226,6 +277,9 @@ class Config:
             taxonomy=taxonomy,
             collections=collections,
             relations=relations,
+            providers=providers,
+            quality=quality,
+            run=run,
             policies=policies,
             path=cfg_path,
         )
@@ -236,6 +290,31 @@ class Config:
     def collections_by_priority(self) -> list[CollectionConfig]:
         """Enabled collections sorted by priority descending (များလေ အရင်ရလေ)."""
         return sorted(self.enabled_collections(), key=lambda c: c.priority, reverse=True)
+
+    def providers_for_role(self, role: str) -> list[ProviderConfig]:
+        """Enabled providers with keys available for the given role."""
+        out: list[ProviderConfig] = []
+        for p in self.providers.values():
+            if p.enabled and p.role == role and p.env_keys():
+                out.append(p)
+        return out
+
+
+def _provider_from(name: str, raw: dict[str, Any]) -> ProviderConfig:
+    budget = raw.get("budget", {})
+    return ProviderConfig(
+        name=name,
+        enabled=raw.get("enabled", True),
+        keys_env=raw.get("keys_env", ""),
+        role=raw.get("role", "collect"),
+        format=raw.get("format", "openai"),
+        models=[str(m) for m in raw.get("models", [])],
+        discover=raw.get("discover"),
+        search_tool=raw.get("search_tool"),
+        base_url=raw.get("base_url", ""),
+        max_items=int(budget.get("max_items", 2)),
+        max_calls=int(budget.get("max_calls", 10)),
+    )
 
 
 def _collection_from(name: str, raw: dict[str, Any]) -> CollectionConfig:

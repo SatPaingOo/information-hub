@@ -1,31 +1,28 @@
-"""information-hub — Gemini REST client (free tier).
+"""information-hub — legacy Gemini helpers + mock generator.
 
-Calls the Gemini generateContent endpoint with JSON structured output
-(application/json), rotating across multiple API keys on quota/5xx errors
-via src.keys.KeyManager, and retrying with backoff up to cfg.retries.
+V3: actual provider HTTP calls moved to src.providers (google/openai
+formats + search grounding). This module keeps:
+  - mock_generate_json   (deterministic offline output for --mock)
+  - GeminiError          (backward-compat alias of ProviderError)
+  - GeminiClient         (thin legacy wrapper over the check provider)
+
+Tests that used the old GeminiClient signature should use ProviderManager.
 """
 
 from __future__ import annotations
 
-import json
-import time
 from typing import Any
 
-import requests
-
-_GENERATE_URL = (
-    "https://generativelanguage.googleapis.com/v1beta/models/"
-    "{model}:generateContent?key={key}"
-)
-
-
-class GeminiError(RuntimeError):
-    def __init__(self, message: str, status_code: int | None = None):
-        super().__init__(message)
-        self.status_code = status_code
+from src.providers import ProviderError as GeminiError  # noqa: F401 (backward-compat)
+from src.providers import _call_google, _call_openai    # noqa: F401 (generic callers)
 
 
 class GeminiClient:
+    """Legacy wrapper kept for compatibility with pre-V3 callers.
+
+    Prefer ProviderManager (src.providers) in new code.
+    """
+
     def __init__(self, model: str, key_manager: Any, temperature: float = 0.4,
                  max_output_tokens: int = 2048, retries: int = 2):
         self.model = model
@@ -35,58 +32,9 @@ class GeminiClient:
         self.retries = retries
 
     def generate_json(self, system_prompt: str, user_prompt: str) -> dict[str, Any]:
-        """Send a chat request and return parsed JSON object (multi-key rotate)."""
-        payload = {
-            "system_instruction": {"parts": [{"text": system_prompt}]},
-            "contents": [{"role": "user", "parts": [{"text": user_prompt}]}],
-            "generationConfig": {
-                "temperature": self.temperature,
-                "maxOutputTokens": self.max_output_tokens,
-                "responseMimeType": "application/json",
-            },
-        }
-        last_err: GeminiError | None = None
-        for attempt in range(self.retries + 1):
-            key = self.keys.pick()
-            try:
-                result = self._post(key, payload)
-                self.keys.report(key, status_code=200, error=False)
-                return result
-            except GeminiError as e:
-                self.keys.report(key, status_code=e.status_code, error=True)
-                last_err = e
-                if attempt < self.retries:
-                    time.sleep(2 ** attempt)  # backoff
-        raise GeminiError(
-            f"Gemini request failed after {self.retries + 1} attempts: {last_err}",
-            status_code=last_err.status_code if last_err else None,
+        raise NotImplementedError(
+            "GeminiClient is legacy — use ProviderManager (src.providers) instead"
         )
-
-    def _post(self, key: str, payload: dict[str, Any]) -> dict[str, Any]:
-        url = _GENERATE_URL.format(model=self.model, key=key)
-        try:
-            resp = requests.post(url, json=payload, timeout=60)
-        except requests.RequestException as e:
-            raise GeminiError(f"network error: {e}") from e
-        if resp.status_code != 200:
-            raise GeminiError(f"HTTP {resp.status_code}: {resp.text[:300]}",
-                              status_code=resp.status_code)
-        data = resp.json()
-        text = _extract_text(data)
-        if not text:
-            raise GeminiError("empty response content")
-        try:
-            return json.loads(text)
-        except json.JSONDecodeError as e:
-            raise GeminiError(f"model returned non-JSON: {text[:200]}") from e
-
-
-def _extract_text(data: dict[str, Any]) -> str:
-    try:
-        parts = data["candidates"][0]["content"]["parts"]
-        return "".join(p.get("text", "") for p in parts)
-    except (KeyError, IndexError):
-        return ""
 
 
 def mock_generate_json(model: str, api_key: str, temperature: float,
@@ -97,7 +45,6 @@ def mock_generate_json(model: str, api_key: str, temperature: float,
     Produces a minimal but schema-shaped JSON object so the full pipeline
     (store/indexer/views/registry) can be verified offline.
     """
-    from src.schema import deep_dive_item
     text = user_prompt[:2000]
     return {
         "title": "Mock deep-dive: " + text.split("\n")[0][:80],
@@ -114,4 +61,5 @@ def mock_generate_json(model: str, api_key: str, temperature: float,
         "entities": [{"type": "concept", "name": "MockEntity", "relation": "related"}],
         "tags": ["mock"],
         "related_items": [],
+        "related_taxonomy": [],
     }

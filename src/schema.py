@@ -80,6 +80,41 @@ DEEP_DIVE_SCHEMA = {
                 },
             },
         },
+        "provenance": {
+            "type": "object",
+            "properties": {
+                "generated_by": {
+                    "type": "object",
+                    "properties": {
+                        "provider": {"type": "string"},
+                        "model": {"type": "string"},
+                        "prompt_version": {"type": "string"},
+                        "supports_json": {"type": "boolean"},
+                    },
+                },
+                "schema_version": {"type": "string"},
+            },
+        },
+        "grounding": {
+            "type": "object",
+            "properties": {
+                "checked_by": {"type": "object"},
+                "checked_at": {"type": "string"},
+                "grounding_score": {"type": ["number", "null"]},
+                "claims_total": {"type": "integer"},
+                "claims_grounded": {"type": "integer"},
+                "sources_verified": {"type": "array", "items": {"type": "object"}},
+                "method": {"type": "string"},
+            },
+        },
+        "review": {
+            "type": "object",
+            "properties": {
+                "status": {"type": "string", "enum": ["verified", "pending_review"]},
+                "approved_by": {"type": "object"},
+                "approved_at": {"type": "string"},
+            },
+        },
         "word_count": {"type": "integer", "minimum": 1},
     },
 }

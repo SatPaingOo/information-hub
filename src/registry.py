@@ -26,6 +26,7 @@ class Registry:
         self.meta = self._load("meta.json")
         self.keys = self._load("keys.json")
         self.collections = self._load("collections.json")
+        self.providers = self._load("providers.json")
 
     # ---- persistence -------------------------------------------------
     def _load(self, name: str) -> dict[str, Any]:
@@ -44,6 +45,7 @@ class Registry:
             self._dump("meta.json", self.meta)
             self._dump("keys.json", self.keys)
             self._dump("collections.json", self.collections)
+            self._dump("providers.json", self.providers)
 
     def _dump(self, name: str, data: dict[str, Any]) -> None:
         path = self.dir / name
@@ -60,6 +62,24 @@ class Registry:
         entry["candidates_found"] = candidates
         entry["items_published"] = published
         entry["last_error"] = error
+        # reputation defaults (V3 quality)
+        entry.setdefault("grounding_failures", 0)
+        entry.setdefault("grounding_scores", [])
+
+    def record_grounding(self, source_name: str, grounding_score: float | None,
+                         failed: bool = False) -> None:
+        """Update source reputation with a grounding outcome."""
+        entry = self.sources.setdefault(source_name, {})
+        scores = entry.setdefault("grounding_scores", [])
+        if grounding_score is not None:
+            scores.append(grounding_score)
+            if len(scores) > 50:  # keep bounded
+                del scores[: len(scores) - 50]
+        if failed:
+            entry["grounding_failures"] = entry.get("grounding_failures", 0) + 1
+        entry["avg_grounding_score"] = (
+            round(sum(scores) / len(scores), 3) if scores else None
+        )
 
     def source_stats(self, source_name: str) -> dict[str, Any]:
         return self.sources.get(source_name, {})
@@ -74,8 +94,9 @@ class Registry:
         return False
 
     def record_item(self, record: dict[str, Any], status: str,
-                    gemini_calls: int, validated: bool) -> None:
-        self.items[url_hash(record["source"]["url"])] = {
+                    gemini_calls: int, validated: bool,
+                    provider: str = "", model: str = "") -> None:
+        base = {
             "id": record["id"],
             "key": record["key"],
             "title_hash": title_hash(record["title"]),
@@ -84,17 +105,32 @@ class Registry:
             "word_count": record.get("word_count", 0),
             "gemini_calls": gemini_calls,
             "validated": validated,
+            "provider": provider,
+            "model": model,
+            "grounding_score": None,
+            "review_status": "pending_review",
+            "approved_by": None,
+            "approved_at": None,
         }
-        self.items[title_hash(record["title"])] = {
-            "id": record["id"],
-            "key": record["key"],
-            "title_hash": title_hash(record["title"]),
-            "url_hash": url_hash(record["source"]["url"]),
-            "status": status,
-            "word_count": record.get("word_count", 0),
-            "gemini_calls": gemini_calls,
-            "validated": validated,
-        }
+        self.items[url_hash(record["source"]["url"])] = base
+        self.items[title_hash(record["title"])] = base
+
+    def update_approval(self, item_id: str, grounding_score: float,
+                        approved_by_type: str, approved_by_provider: str,
+                        approved_by_model: str) -> None:
+        """Record grounding result + approval trail for an item."""
+        for entry in self.items.values():
+            if entry.get("id") == item_id:
+                entry["grounding_score"] = grounding_score
+                entry["review_status"] = (
+                    "verified" if grounding_score >= 0.5 else "pending_review"
+                )
+                entry["approved_by"] = {
+                    "type": approved_by_type,
+                    "provider": approved_by_provider,
+                    "model": approved_by_model,
+                }
+                entry["approved_at"] = _utcnow()
 
     def item_status(self, item_id: str) -> dict[str, Any] | None:
         for entry in self.items.values():
@@ -144,6 +180,47 @@ class Registry:
         if not next_due:
             return True  # never ran → run now
         return next_due <= run_date
+
+    # ---- provider health/budget (V3 self-managing) ---------------------
+    def provider_model_stats(self, provider: str, model: str) -> dict[str, Any]:
+        stats = self.providers.setdefault(provider, {}).setdefault(
+            model, {"calls": 0, "items": 0, "errors": 0,
+                    "consecutive_failures": 0, "healthy": True,
+                    "last_health_check": None, "latency_ms": None,
+                    "supports_json": True, "exhausted_until": None})
+        return stats
+
+    def record_provider_call(self, provider: str, model: str, *, items: int = 0,
+                             latency_ms: int | None = None) -> None:
+        stats = self.provider_model_stats(provider, model)
+        stats["calls"] = stats.get("calls", 0) + 1
+        stats["items"] = stats.get("items", 0) + items
+        if latency_ms is not None:
+            stats["latency_ms"] = latency_ms
+        stats["consecutive_failures"] = 0
+        stats["last_health_check"] = _utcnow()
+
+    def record_provider_failure(self, provider: str, model: str,
+                                mark_down: bool = False) -> None:
+        stats = self.provider_model_stats(provider, model)
+        stats["errors"] = stats.get("errors", 0) + 1
+        stats["consecutive_failures"] = stats.get("consecutive_failures", 0) + 1
+        stats["last_health_check"] = _utcnow()
+        if mark_down:
+            stats["healthy"] = False
+
+    def provider_healthy(self, provider: str, model: str) -> bool:
+        stats = self.provider_model_stats(provider, model)
+        return bool(stats.get("healthy", True))
+
+    def provider_calls(self, provider: str, model: str) -> int:
+        return self.provider_model_stats(provider, model).get("calls", 0)
+
+    def provider_items(self, provider: str, model: str) -> int:
+        return self.provider_model_stats(provider, model).get("items", 0)
+
+    def set_provider_json_support(self, provider: str, model: str, supports: bool) -> None:
+        self.provider_model_stats(provider, model)["supports_json"] = supports
 
     # ---- meta ---------------------------------------------------------
     def next_sequence(self, date: str) -> int:

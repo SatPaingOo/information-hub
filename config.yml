@@ -1,26 +1,53 @@
 # information-hub — configuration
-# Taxonomy engine: layers (hierarchical), collections, sources, quotas, key policy.
+# Taxonomy engine: layers (hierarchical), collections, sources, quotas.
+# V3: multi-provider (roles: collect/check) + quality thresholds + 2-phase runs.
 # GitHub UI မှာ code မထိဘဲ ပြင်လို့ရတယ်။
 
-gemini:
+# ---- Providers (fully auto — env key ရှိတဲ့ provider ကိုပဲ enable) ----
+providers:
+  groq:
+    enabled: true
+    keys_env: GROQ_API_KEY            # single key env name
+    role: collect                     # deep-dive generation
+    format: openai                    # /chat/completions
+    models: [llama-3.1-70b-versatile, llama-3.1-8b-instant]   # fallback order
+    budget: { max_items: 2, max_calls: 10 }
+  openrouter:
+    enabled: true
+    keys_env: OPENROUTER_API_KEY
+    role: collect
+    format: openai
+    discover: free_models             # runtime auto-discover free models (no hardcode)
+    budget: { max_items: 2, max_calls: 10 }
+  gemini:
+    enabled: true
+    keys_env: GEMINI_API_KEYS         # comma-separated multi-key
+    role: check                       # search-grounding verification ONLY
+    format: google
+    models: [gemini-2.5-flash]
+    search_tool: google_search        # enable web-search grounding
+    budget: { max_items: 10, max_calls: 15 }
+
+# ---- Quality engine (phase check) ----
+quality:
+  reject_threshold: 0.5               # grounding score below → pending_review
+  max_ai_verify_per_run: 10           # Gemini free tier search budget cap
+
+# ---- Run phases ----
+run:
+  phases: [collect, check]
+
+gemini:                               # legacy keys (gemini.* still used by prompts)
   model: gemini-2.5-flash
   temperature: 0.4
   max_output_tokens: 2048
   retries: 2
-  # Multi-key: env ထဲက GEMINI_API_KEYS (comma-separated) ကနေ ယူတယ်
-  #   round_robin  = key တွေကို လှည့်ပတ်သုံး
-  #   least_used   = registry stats မှာ call နည်းတဲ့ key ကို ဦးစားပေးသုံး
-  key_strategy: least_used
-  key_policy:
-    rotate_on_error: [429, 500]
-    max_errors_per_key: 3
 
 storage:
   data_dir: data
-  max_daily_items_total: 3      # တစ်နေ့စုစုပေါင်း deep-dive item အရေအတွက် (free tier quota)
+  max_daily_items_total: 6            # multi-provider capacity
 
 # Classification layers — hierarchical (ထည့်/ဖျက်/ပြင်လို့ရ)
-# Flat list လဲ ရတယ် — ဒါဆိုရင် leaf-only အဖြစ် treat လုပ်မယ်
 taxonomy:
   regions:
     asia:     [myanmar, thailand, china]
@@ -36,8 +63,7 @@ taxonomy:
     industry: [product, open-source]
   content_types: [article, briefing, analysis, digest]
 
-# Optional static cross-layer relations (config-defined):
-#   from/to = taxonomy node name, type = relation label
+# Optional static cross-layer relations (config-defined)
 relations:
   - { from: myanmar, to: geopolitics, type: relates }
   - { from: myanmar, to: economy,    type: relates }
@@ -45,20 +71,16 @@ relations:
   - { from: us,      to: dev-oss,    type: relates }
 
 # Collections — key-value: source group + default classification + quotas
-#   priority  = ပိုစုတဲ့ကောင် (များလေ quota အရင်ရလေ)
-#   frequency = daily | every-2-days | weekly
-#   api_key   = key id (GEMINI_API_KEYS ထဲက keyN) | "auto" = least_used strategy
 collections:
   myanmar-news:
     enabled: true
     priority: 3
     frequency: daily
-    api_key: auto
     content_type: digest
     topics: [geopolitics, economy]
     regions: [myanmar]
     categories: [policy, industry]
-    primary_layer: region          # canonical physical folder layer
+    primary_layer: region
     sources:
       - { type: rss, url: "https://www.irrawaddy.com/feed" }
       - { type: rss, url: "https://myanmar-now.org/en/feed/" }
@@ -68,7 +90,6 @@ collections:
     enabled: true
     priority: 2
     frequency: daily
-    api_key: auto
     content_type: briefing
     topics: [ai-ml]
     regions: [global]
@@ -83,7 +104,6 @@ collections:
     enabled: true
     priority: 1
     frequency: every-2-days
-    api_key: auto
     content_type: article
     topics: [ai-ml, dev-oss]
     regions: [us]
@@ -98,6 +118,6 @@ collections:
 content:
   min_words: 500
   target_words: [600, 1000]
-  fulltext_max_chars: 6000       # article page extract cap
-  similarity_window: 30          # dedup — နောက်ဆုံး N items နဲ့ ယှဉ်
-  similarity_threshold: 0.55     # token-overlap ratio → duplicate flag
+  fulltext_max_chars: 6000
+  similarity_window: 30
+  similarity_threshold: 0.55

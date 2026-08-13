@@ -89,6 +89,11 @@ def _rec(key: str, topic: str, region: str, ctype: str, categories: list[str],
             {"node": topic, "relation": "primary_topic"},
             {"node": region, "relation": "primary_region"},
         ],
+        "provenance": {
+            "generated_by": {"provider": "sample", "model": "seed-generator",
+                             "prompt_version": "v3", "supports_json": True},
+            "schema_version": "v3",
+        },
         "word_count": 0,
     }
     rec["word_count"] = word_count(rec)

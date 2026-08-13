@@ -1,11 +1,15 @@
-"""information-hub — pipeline orchestrator.
+"""information-hub — pipeline orchestrator (V3).
+
+Two-phase operation:
+  Phase collect  — Groq/OpenRouter free models generate deep-dives (self-managing)
+  Phase check    — Gemini search-grounding verifies today's claims → score + review
 
 Usage:
-    python -m src.main --mock                  # no API key; deterministic sample run
-    python -m src.main                         # real run (GEMINI_API_KEY required)
-    python -m src.main --collection ai-research
-    python -m src.main --date 2026-08-14
-    python -m src.main --limit 1               # max items this run
+    python -m src.main --mock --phase collect    # offline generation (no API keys)
+    python -m src.main --phase collect          # real collect
+    python -m src.main --phase check            # verify today's items (Gemini search)
+    python -m src.main --phase both             # collect then check (default)
+    python -m src.main --collection ai-research --force
 """
 
 from __future__ import annotations
@@ -15,14 +19,15 @@ import datetime as dt
 import json
 import sys
 from pathlib import Path
-from typing import Any, Callable
+from typing import Any
 
-from src.config import CollectionConfig, Config, GeminiConfig
-from src.fulltext import extract as extract_fulltext
-from src.gemini import GeminiClient, GeminiError
+from src.config import CollectionConfig, Config
 from src.dedup import similarity_flags
-from src.keys import KeyManager, KeyManagerError
+from src.fulltext import extract as extract_fulltext
 from src.indexer import Indexer
+from src.logging_util import RunLog, setup_logging
+from src.providers import ProviderError, ProviderManager
+from src.quality import GroundingEngine
 from src.registry import Registry
 from src.schema import validate_record, word_count
 from src.sources import Candidate, fetch_collection
@@ -41,6 +46,9 @@ SYSTEM_DEEP_DIVE = (
     "and reach the requested word count. Output valid JSON only, matching the "
     "exact schema keys provided."
 )
+
+PROMPT_VERSION = "v3.1"
+SCHEMA_VERSION = "v3"
 
 
 def build_select_prompt(cfg: Config, collection: CollectionConfig,
@@ -135,60 +143,18 @@ def _today() -> str:
     return dt.date.today().isoformat()
 
 
-# ---- selection (real = Gemini, mock = local scoring) -----------------
-def select_via_gemini(gemini: GeminiClient, cfg: Config, collection: CollectionConfig,
-                      candidates: list[Candidate],
-                      recent_records: list[dict[str, Any]],
-                      priority_text: str, exclude_text: str,
-                      registry: Registry | None = None) -> list[int]:
-    prompt = build_select_prompt(cfg, collection, candidates, recent_records,
-                                 priority_text, exclude_text, registry)
-    result = gemini.generate_json(SYSTEM_SELECT, prompt)
-    selected = result.get("selected", [])
-    return [int(i) for i in selected if isinstance(i, (int, str)) and str(i).lstrip("-").isdigit()]
+def _utcnow() -> str:
+    return dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
 
 
-def select_mock(cfg: Config, collection: CollectionConfig,
-                candidates: list[Candidate],
-                recent_records: list[dict[str, Any]],
-                priority_text: str, exclude_text: str,
-                registry: Registry | None = None) -> list[int]:
-    """Deterministic local selection for --mock: prefer policy-priority match."""
-    picked: list[int] = []
-    for i, c in enumerate(candidates[:collection.max_candidates]):
-        if len(picked) >= collection.max_daily_items:
-            break
-        if registry and registry.has_seen(c.title, c.url):
-            continue
-        sim = similarity_flags(recent_records, c.title, c.summary,
-                               threshold=cfg.content.similarity_threshold)
-        if sim["duplicate"]:
-            continue
-        picked.append(i)  # mock: take first fresh candidates deterministically
-    return picked
-
-
-# ---- deep-dive --------------------------------------------------------
-def deep_dive_via_gemini(gemini: GeminiClient, cfg: Config, collection: CollectionConfig,
-                         candidate: Candidate, fulltext: str,
-                         known_entities: list[str], related_items: list[str],
-                         policy_text: str) -> dict[str, Any]:
-    prompt = build_deep_dive_prompt(cfg, collection, candidate, fulltext,
-                                    known_entities, related_items, policy_text)
-    return gemini.generate_json(SYSTEM_DEEP_DIVE, prompt)
-
-
+# ---- deep-dive mock (deterministic, candidate-aware) --------------------
 def deep_dive_mock(cfg: Config, collection: CollectionConfig,
                    candidate: Candidate, fulltext: str,
                    known_entities: list[str], related_items: list[str],
                    policy_text: str) -> dict[str, Any]:
-    """Deterministic record for --mock mode (schema-shaped, no API).
-
-    Generates enough body text to pass the minimum-word-count gate so the
-    full pipeline (validate → store → index → registry) can be verified.
-    """
-    topic = collection.topics[0] if collection.topics else "misc"
-    region = collection.regions[0] if collection.regions else "global"
+    """Deterministic record for --mock mode (schema-shaped, no API)."""
+    topic = _candidate_topic(collection)
+    region = _candidate_region(collection)
     return {
         "id": f"info:item:{topic}:{region}:{candidate.key}",
         "key": candidate.key,
@@ -276,6 +242,26 @@ def _mock_bullets(candidate: Candidate, kind: str, count: int) -> list[str]:
     ]
 
 
+def select_mock(cfg: Config, collection: CollectionConfig,
+                candidates: list[Candidate],
+                recent_records: list[dict[str, Any]],
+                priority_text: str, exclude_text: str,
+                registry: Registry | None = None) -> list[int]:
+    """Deterministic local selection for --mock: prefer policy-priority match."""
+    picked: list[int] = []
+    for i, c in enumerate(candidates[:collection.max_candidates]):
+        if len(picked) >= collection.max_daily_items:
+            break
+        if registry and registry.has_seen(c.title, c.url):
+            continue
+        sim = similarity_flags(recent_records, c.title, c.summary,
+                               threshold=cfg.content.similarity_threshold)
+        if sim["duplicate"]:
+            continue
+        picked.append(i)  # mock: take first fresh candidates deterministically
+    return picked
+
+
 def _finalize_record(record: dict[str, Any], candidate: Candidate,
                      collection: CollectionConfig) -> dict[str, Any]:
     """Ensure id/key/date/word_count are correct before storing."""
@@ -283,8 +269,8 @@ def _finalize_record(record: dict[str, Any], candidate: Candidate,
     record["date"] = candidate.date
     record["content_type"] = collection.content_type
     record["source"] = candidate.source
-    topic = record.get("topic") or (collection.topics[0] if collection.topics else "misc")
-    region = record.get("region") or (collection.regions[0] if collection.regions else "global")
+    topic = record.get("topic") or _candidate_topic(collection)
+    region = record.get("region") or _candidate_region(collection)
     record["topic"] = topic
     record["region"] = region
     record["id"] = f"info:item:{topic}:{region}:{candidate.key}"
@@ -292,86 +278,78 @@ def _finalize_record(record: dict[str, Any], candidate: Candidate,
     return record
 
 
-# ---- runner ------------------------------------------------------------
-def run(mock: bool, collection_filter: str | None, date_override: str | None,
-        limit: int | None, force: bool = False) -> int:
-    cfg = Config.load()
-    registry = Registry(cfg.storage.data_dir / "collections" / "registry")
-    store = Store(cfg.storage.data_dir)
-    indexer = Indexer(cfg.storage.data_dir)
-
+# ---- phase: collect ------------------------------------------------------
+def run_collect(cfg: Config, registry: Registry, store: Store, indexer: Indexer,
+                run_log: RunLog, logger: Any, pm: ProviderManager, *,
+                mock: bool, collection_filter: str | None, date_override: str | None,
+                limit: int | None, force: bool) -> int:
     known_entities = _known_entities(indexer, store)
-    known_ids = {r["id"] for r in store.iter_records()}
-
-    if mock:
-        gemini: Any = _MockBackend()
-    else:
-        if not cfg.gemini.api_keys():
-            print("ERROR: no API keys set (use --mock for offline run, or set "
-                  "GEMINI_API_KEYS)", file=sys.stderr)
-            return 2
-        key_manager = KeyManager(cfg.gemini, registry)
-        try:
-            key_manager.pick()  # fail fast if all keys exhausted
-        except KeyManagerError as e:
-            print(f"ERROR: {e}", file=sys.stderr)
-            return 2
-        gemini = GeminiClient(cfg.gemini.model, key_manager,
-                              cfg.gemini.temperature, cfg.gemini.max_output_tokens,
-                              cfg.gemini.retries)
-
     priority_text = _policy_text(cfg.policies.get("priority", []))
     exclude_text = _policy_text(cfg.policies.get("exclude", []))
 
     run_date = date_override or _today()
 
-    # Action control: priority order (များလေ အရင်ရလေ) + due-date check
     collections = cfg.collections_by_priority()
     if collection_filter:
         collections = [c for c in collections if c.name == collection_filter]
         if not collections:
             print(f"No enabled collection named {collection_filter!r}", file=sys.stderr)
             return 2
-    due_collections: list[CollectionConfig] = []
+    due: list[CollectionConfig] = []
     for c in collections:
         if force or registry.is_due(c.name, run_date, c.frequency):
-            due_collections.append(c)
+            due.append(c)
         else:
-            print(f"[{c.name}] not due (frequency={c.frequency}) — skipping "
-                  f"(use --force to override)")
-    collections = due_collections
+            logger.info("[%s] not due (frequency=%s) — skipping (use --force)", c.name, c.frequency)
+    collections = due
 
     run_records: list[dict[str, Any]] = []
     total_quota = cfg.storage.max_daily_items_total
     if limit:
         total_quota = min(total_quota, limit)
-
-    seq = registry.next_sequence(run_date)  # per-date counter (stable keys)
+    seq = registry.next_sequence(run_date)
 
     for collection in collections:
         if total_quota <= 0:
             break
         try:
-            if mock:
-                candidates = _mock_candidates(collection)
-            else:
-                candidates = fetch_collection(collection.name, collection.sources,
-                                              collection.max_candidates)
+            candidates = _mock_candidates(collection) if mock else \
+                fetch_collection(collection.name, collection.sources,
+                                 collection.max_candidates)
         except Exception as e:
             registry.record_fetch(collection.name, 0, 0, error=str(e))
-            print(f"[{collection.name}] fetch error: {e}", file=sys.stderr)
+            logger.error("[%s] fetch error: %s", collection.name, e)
             continue
         if not candidates:
             registry.record_fetch(collection.name, 0, 0)
-            print(f"[{collection.name}] no candidates")
+            logger.info("[%s] no candidates", collection.name)
             continue
 
         recent = store.iter_records()
-        selected = gemini.select(cfg, collection, candidates, recent,
-                                 priority_text, exclude_text, registry)
+
+        # selector (mock = local heuristic; real = collect provider)
+        if mock:
+            selected = select_mock(cfg, collection, candidates, recent,
+                                   priority_text, exclude_text, registry)
+        else:
+            spec = pm.pick_collect(collection.name)
+            if spec is None:
+                registry.record_fetch(collection.name, len(candidates), 0)
+                logger.warning("[%s] no collect provider available", collection.name)
+                continue
+            prompt = build_select_prompt(cfg, collection, candidates, recent,
+                                         priority_text, exclude_text, registry)
+            try:
+                result = pm.generate(spec, SYSTEM_SELECT, prompt, items=0)
+                selected = [int(i) for i in result.get("selected", [])]
+            except ProviderError as e:
+                logger.error("[%s] select failed: %s", collection.name, e)
+                registry.record_fetch(collection.name, len(candidates), 0)
+                continue
+
         if not selected:
             registry.record_fetch(collection.name, len(candidates), 0)
-            print(f"[{collection.name}] nothing selected")
+            logger.info("[%s] nothing selected", collection.name)
             continue
 
         published = 0
@@ -379,7 +357,6 @@ def run(mock: bool, collection_filter: str | None, date_override: str | None,
             if total_quota <= 0:
                 break
             candidate = candidates[idx]
-            # stable key/date — date is an attribute, not a folder
             candidate.key = f"{run_date}-{seq:03d}"
             candidate.date = run_date
             candidate.stable_id = f"info:item:{_candidate_topic(collection)}:" \
@@ -391,44 +368,154 @@ def run(mock: bool, collection_filter: str | None, date_override: str | None,
             related = _find_related(candidate, store.iter_records())
 
             record = None
+            gen_provider, gen_model = "mock", "mock"
             for attempt in range(cfg.gemini.retries + 1):
                 try:
-                    record = gemini.deep_dive(cfg, collection, candidate, fulltext,
-                                              known_entities, related, priority_text)
+                    if mock:
+                        record = deep_dive_mock(cfg, collection, candidate, fulltext,
+                                                known_entities, related, priority_text)
+                        gen_provider, gen_model = "mock", "mock-generator"
+                    else:
+                        spec = pm.pick_collect(collection.name)
+                        if spec is None:
+                            logger.warning("[%s] no collect provider for deep-dive",
+                                           collection.name)
+                            break
+                        gen_provider, gen_model = spec.provider, spec.model
+                        prompt = build_deep_dive_prompt(
+                            cfg, collection, candidate, fulltext,
+                            known_entities, related, priority_text)
+                        record = pm.generate(spec, SYSTEM_DEEP_DIVE, prompt)
                     record = _finalize_record(record, candidate, collection)
                     errors = validate_record(record, cfg.content.min_words)
                     if not errors:
                         break
-                    print(f"[{collection.name}] attempt {attempt + 1} invalid: {errors[:2]}")
+                    logger.info("[%s] attempt %d invalid: %s",
+                                collection.name, attempt + 1, errors[:2])
                     record = None
-                except GeminiError as e:
-                    print(f"[{collection.name}] gemini error: {e}", file=sys.stderr)
+                except ProviderError as e:
+                    logger.error("[%s] generate error: %s", collection.name, e)
                     record = None
             if record is None:
                 continue
 
+            record["provenance"] = {
+                "generated_by": {"provider": gen_provider, "model": gen_model,
+                                 "prompt_version": PROMPT_VERSION,
+                                 "supports_json": True},
+                "schema_version": SCHEMA_VERSION,
+            }
             store.write_record(record, _primary_layer_value(collection, record))
             registry.record_item(record, status="published",
-                                 gemini_calls=attempt + 1, validated=True)
-            known_ids.add(record["id"])
-            for e in record.get("entities", []):
-                known_entities.add(e["name"])
+                                 gemini_calls=attempt + 1, validated=True,
+                                 provider=gen_provider, model=gen_model)
+            run_log.event("collect", "published", collection=collection.name,
+                          item_id=record["id"], provider=gen_provider, model=gen_model,
+                          detail=record["title"][:80])
+            known_entities.update(e["name"] for e in record.get("entities", []))
             run_records.append(record)
             total_quota -= 1
             published += 1
-            print(f"[{collection.name}] published {record['key']} — {record['title'][:60]}")
+            logger.info("[%s] published %s — %s", collection.name,
+                        record["key"], record["title"][:60])
 
         registry.record_fetch(collection.name, len(candidates), published)
         registry.record_collection_run(collection.name, collection.frequency, run_date)
 
-    timestamp = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
+    timestamp = _utcnow()
     if run_records:
         store.write_raw_run(timestamp, run_records)
     indexer.rebuild(store.iter_records(), taxonomy=cfg.taxonomy, relations=cfg.relations)
     registry.mark_run([r["id"] for r in run_records], quota_used=len(run_records))
     registry.save()
+    logger.info("collect done: %d item(s) published", len(run_records))
+    return 0
 
-    print(f"Done: {len(run_records)} item(s) published this run.")
+
+# ---- phase: check ---------------------------------------------------------
+def run_check(cfg: Config, registry: Registry, store: Store, indexer: Indexer,
+              run_log: RunLog, logger: Any, pm: ProviderManager, *,
+              mock: bool, date_override: str | None) -> int:
+    run_date = date_override or _today()
+    engine = GroundingEngine(cfg, registry, run_log, pm)
+    records_today = [r for r in store.iter_records() if r.get("date") == run_date]
+    if not records_today:
+        logger.info("check: no items for %s", run_date)
+        registry.save()
+        return 0
+
+    cap = cfg.quality.max_ai_verify_per_run
+    checked = 0
+    for rec in records_today[:cap]:
+        spec = pm.pick_check()
+        if spec is None:
+            logger.warning("check: no healthy check provider — stopping")
+            break
+        result = engine.check_record(rec, spec)
+        if result["grounding_score"] is None:
+            logger.info("check: %s — skipped (%s)", rec["id"], result.get("reason"))
+            continue
+        rec["grounding"] = {
+            "checked_by": {"provider": spec.provider, "model": spec.model,
+                           "search_tool": spec.search_tool},
+            "checked_at": _utcnow(),
+            "grounding_score": result["grounding_score"],
+            "claims_total": result["claims_total"],
+            "claims_grounded": result["claims_grounded"],
+            "sources_verified": result["sources_verified"],
+            "method": result["method"],
+        }
+        status = result.get("review_status", "pending_review")
+        rec["review"] = {
+            "status": status,
+            "approved_by": {"type": "ai", "provider": spec.provider,
+                            "model": spec.model},
+            "approved_at": _utcnow(),
+        }
+        store.write_record(rec, _layer_of_record(rec))
+        logger.info("check: %s score=%s status=%s sources=%d",
+                    rec["id"], result["grounding_score"], status,
+                    len(result["sources_verified"]))
+        checked += 1
+
+    if checked:
+        indexer.rebuild(store.iter_records(), taxonomy=cfg.taxonomy, relations=cfg.relations)
+    registry.save()
+    logger.info("check done: %d item(s) verified", checked)
+    return 0
+
+
+# ---- runner ------------------------------------------------------------
+def run(mock: bool, phase: str, collection_filter: str | None,
+        date_override: str | None, limit: int | None, force: bool) -> int:
+    cfg = Config.load()
+    registry = Registry(cfg.storage.data_dir / "collections" / "registry")
+    store = Store(cfg.storage.data_dir)
+    indexer = Indexer(cfg.storage.data_dir)
+    run_date = date_override or _today()
+    logger = setup_logging(cfg.storage.data_dir, run_date, phase)
+    run_log = RunLog(registry.dir)
+
+    pm = ProviderManager(cfg, registry, run_log, mock=mock)
+
+    phases = [phase] if phase in ("collect", "check") else list(cfg.run.phases)
+    if phase == "both":
+        phases = ["collect", "check"]
+    if phase == "both" and mock:
+        phases = ["collect", "check"]  # mock both
+
+    for p in phases:
+        run_log.event(p, "phase_start")
+        if p == "collect":
+            rc = run_collect(cfg, registry, store, indexer, run_log, logger, pm,
+                             mock=mock, collection_filter=collection_filter,
+                             date_override=date_override, limit=limit, force=force)
+            if rc != 0:
+                return rc
+        elif p == "check":
+            run_check(cfg, registry, store, indexer, run_log, logger, pm,
+                      mock=mock, date_override=date_override)
+        run_log.event(p, "phase_end")
     return 0
 
 
@@ -438,7 +525,11 @@ def _primary_layer_value(collection: CollectionConfig, record: dict[str, Any]) -
         return record.get("region", "global")
     if layer == "content_type":
         return record.get("content_type", "article")
-    return record.get("topic", "misc")  # default: topic
+    return record.get("topic", "misc")
+
+
+def _layer_of_record(record: dict[str, Any]) -> str:
+    return record.get("topic", "misc")
 
 
 def _candidate_topic(collection: CollectionConfig) -> str:
@@ -459,7 +550,6 @@ def _known_entities(indexer: Indexer, store: Store) -> set[str]:
 
 
 def _find_related(candidate: Candidate, records: list[dict[str, Any]]) -> list[str]:
-    """Related items = recent records sharing topic/collection (mock-friendly)."""
     out: list[str] = []
     for r in sorted(records, key=lambda x: x.get("date", ""), reverse=True):
         if r.get("topic") == candidate.collection or r.get("collection") == candidate.collection:
@@ -521,28 +611,12 @@ def _mock_candidates(collection: CollectionConfig) -> list[Candidate]:
     return out
 
 
-class _MockBackend:
-    """Adapter that makes select/deep_dive work identically offline."""
-
-    def select(self, cfg: Config, collection: CollectionConfig,
-               candidates: list[Candidate], recent: list[dict[str, Any]],
-               priority_text: str, exclude_text: str,
-               registry: Registry | None = None) -> list[int]:
-        return select_mock(cfg, collection, candidates, recent,
-                           priority_text, exclude_text, registry)
-
-    def deep_dive(self, cfg: Config, collection: CollectionConfig,
-                  candidate: Candidate, fulltext: str,
-                  known_entities: list[str], related: list[str],
-                  policy_text: str) -> dict[str, Any]:
-        return deep_dive_mock(cfg, collection, candidate, fulltext,
-                              known_entities, related, policy_text)
-
-
 def main() -> None:
     parser = argparse.ArgumentParser(description="information-hub pipeline")
     parser.add_argument("--mock", action="store_true",
-                        help="run offline with deterministic mock data (no API key)")
+                        help="run offline with deterministic mock data (no API keys)")
+    parser.add_argument("--phase", default="both", choices=["collect", "check", "both"],
+                        help="which phase to run (collect=generate, check=verify)")
     parser.add_argument("--collection", default=None,
                         help="run only this collection name")
     parser.add_argument("--date", default=None,
@@ -552,7 +626,7 @@ def main() -> None:
     parser.add_argument("--force", action="store_true",
                         help="run collections even if not due (bypass frequency check)")
     args = parser.parse_args()
-    sys.exit(run(mock=args.mock, collection_filter=args.collection,
+    sys.exit(run(mock=args.mock, phase=args.phase, collection_filter=args.collection,
                  date_override=args.date, limit=args.limit, force=args.force))
 
 
