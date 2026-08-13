@@ -119,7 +119,7 @@ class GroundingEngine:
             "claims_total": total,
             "claims_grounded": grounded,
             "sources_verified": sources,
-            "method": "gemini-search",
+            "method": method,
             "review_status": status,
         }
 
