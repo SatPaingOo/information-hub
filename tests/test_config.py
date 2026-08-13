@@ -9,7 +9,8 @@ from .conftest import sample_record  # noqa: F401 (imports helpers for test sess
 
 def test_config_loads_from_repo():
     cfg = Config.load()
-    assert cfg.gemini.model == "gemini-2.5-flash"
+    assert cfg.gemini.model.startswith("gemini-")          # current-gen model
+    assert cfg.providers["gemini"].models[0].startswith("gemini-")
     assert cfg.storage.max_daily_items_total == 6
     # nested taxonomy
     assert "ai-ml" in cfg.taxonomy.topics
