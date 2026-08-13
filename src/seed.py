@@ -12,10 +12,10 @@ import datetime as dt
 import json
 
 from src.config import Config
-from src.indexer import Indexer
-from src.registry import Registry
-from src.schema import validate_record, word_count
-from src.store import Store
+from src.models.schema import validate_record, word_count
+from src.storage.indexer import Indexer
+from src.storage.registry import Registry
+from src.storage.store import Store
 
 _TOPIC_BODY = (
     "This is a representative sample deep-dive. It exists to demonstrate the "

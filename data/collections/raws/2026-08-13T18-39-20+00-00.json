@@ -1,0 +1,262 @@
+{
+  "run_timestamp": "2026-08-13T18:39:20+00:00",
+  "items": [
+    {
+      "id": "info:item:ai-ml:global:2026-08-13-001",
+      "key": "2026-08-13-001",
+      "date": "2026-08-13",
+      "content_type": "briefing",
+      "topic": "ai-ml",
+      "region": "global",
+      "categories": [
+        "research"
+      ],
+      "source": {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2608.00001",
+        "type": "sample"
+      },
+      "title": "A new benchmark for long-horizon agentic AI reasoning",
+      "tldr": "A new evaluation framework measures agents on planning, tool use, and recovery — and finds frontier models still degrade on long tasks.",
+      "background": "This is a representative sample deep-dive. It exists to demonstrate the data structure, layer classification, entity linking, and related-item edges that the daily pipeline produces automatically. The paper introduces a new evaluation framework for agentic systems, moving beyond single-turn benchmarks toward long-horizon tasks that require planning, tool use, and recovery from errors. Early results show that current frontier models handle routine sub-tasks well but degrade sharply when a task requires sustained multi-step reasoning with intermediate feedback. The authors argue that composite scoring across planning, execution, and self-correction provides a more useful signal than headline accuracy numbers. ",
+      "analysis": [
+        {
+          "heading": "What changed",
+          "content": "The paper introduces a new evaluation framework for agentic systems, moving beyond single-turn benchmarks toward long-horizon tasks that require planning, tool use, and recovery from errors. Early results show that current frontier models handle routine sub-tasks well but degrade sharply when a task requires sustained multi-step reasoning with intermediate feedback. The authors argue that composite scoring across planning, execution, and self-correction provides a more useful signal than headline accuracy numbers.  The benchmark publishes per-phase scores, so model comparisons are no longer a single number."
+        },
+        {
+          "heading": "Why it matters",
+          "content": "As agents move into production workflows, evaluation that matches real task structure is the gating factor for adoption."
+        },
+        {
+          "heading": "What to watch",
+          "content": "Whether the major labs adopt the suite as a release gate, and how scores shift across model generations."
+        }
+      ],
+      "key_facts": [
+        "Sample dataset shipped with the repository to demonstrate structure.",
+        "Daily pipeline regenerates these files from Gemini output.",
+        "Classification layers are queryable via data/collections/index/."
+      ],
+      "implications": [
+        "Readers can follow related items through stable item IDs.",
+        "Entity notes accumulate backlinks as new items are published."
+      ],
+      "outlook": "The daily workflow extends this dataset automatically.",
+      "entities": [
+        {
+          "type": "concept",
+          "name": "Agentic AI",
+          "relation": "evaluates"
+        },
+        {
+          "type": "concept",
+          "name": "Retrieval-Augmented Generation",
+          "relation": "uses"
+        },
+        {
+          "type": "company",
+          "name": "OpenAI",
+          "relation": "mentioned"
+        },
+        {
+          "type": "company",
+          "name": "Anthropic",
+          "relation": "mentioned"
+        }
+      ],
+      "tags": [
+        "benchmark",
+        "agents",
+        "seed"
+      ],
+      "related_items": [],
+      "related_taxonomy": [
+        {
+          "node": "ai-ml",
+          "relation": "primary_topic"
+        },
+        {
+          "node": "global",
+          "relation": "primary_region"
+        }
+      ],
+      "provenance": {
+        "generated_by": {
+          "provider": "sample",
+          "model": "seed-generator",
+          "prompt_version": "v3",
+          "supports_json": true
+        },
+        "schema_version": "v3"
+      },
+      "word_count": 274
+    },
+    {
+      "id": "info:item:ai-ml:global:2026-08-13-002",
+      "key": "2026-08-13-002",
+      "date": "2026-08-13",
+      "content_type": "briefing",
+      "topic": "ai-ml",
+      "region": "global",
+      "categories": [
+        "research",
+        "open-source"
+      ],
+      "source": {
+        "name": "GitHub Trending",
+        "url": "https://github.com/topics/machine-learning",
+        "type": "sample"
+      },
+      "title": "Open-source retrieval stacks narrow the gap on enterprise RAG",
+      "tldr": "Hybrid sparse-plus-dense retrieval and graph stores are closing the quality gap with proprietary RAG pipelines.",
+      "background": "This is a representative sample deep-dive. It exists to demonstrate the data structure, layer classification, entity linking, and related-item edges that the daily pipeline produces automatically. Open-source tooling for retrieval-augmented generation continues to consolidate around a few dominant patterns: chunk-then-embed pipelines, graph-based knowledge stores, and increasingly small on-device models. The trade-off between retrieval quality and latency remains the central engineering question, and recent releases push harder on hybrid sparse-plus-dense retrieval to close that gap. Teams evaluating these stacks should benchmark against their own corpus rather than relying on published leaderboards. ",
+      "analysis": [
+        {
+          "heading": "The shift",
+          "content": "Open-source tooling for retrieval-augmented generation continues to consolidate around a few dominant patterns: chunk-then-embed pipelines, graph-based knowledge stores, and increasingly small on-device models. The trade-off between retrieval quality and latency remains the central engineering question, and recent releases push harder on hybrid sparse-plus-dense retrieval to close that gap. Teams evaluating these stacks should benchmark against their own corpus rather than relying on published leaderboards.  Vector databases now ship hybrid search by default rather than as an add-on."
+        },
+        {
+          "heading": "Enterprise angle",
+          "content": "Companies can now achieve competitive retrieval quality without commercial licensing, changing the build-vs-buy calculus."
+        },
+        {
+          "heading": "Watch for",
+          "content": "Benchmarks that include latency and cost, not just accuracy, and growing adoption of graph-native retrieval."
+        }
+      ],
+      "key_facts": [
+        "Sample dataset shipped with the repository to demonstrate structure.",
+        "Daily pipeline regenerates these files from Gemini output.",
+        "Classification layers are queryable via data/collections/index/."
+      ],
+      "implications": [
+        "Readers can follow related items through stable item IDs.",
+        "Entity notes accumulate backlinks as new items are published."
+      ],
+      "outlook": "The daily workflow extends this dataset automatically.",
+      "entities": [
+        {
+          "type": "concept",
+          "name": "Retrieval-Augmented Generation",
+          "relation": "uses"
+        },
+        {
+          "type": "company",
+          "name": "OpenAI",
+          "relation": "mentioned"
+        }
+      ],
+      "tags": [
+        "rag",
+        "vector-db",
+        "open-source",
+        "seed"
+      ],
+      "related_items": [],
+      "related_taxonomy": [
+        {
+          "node": "ai-ml",
+          "relation": "primary_topic"
+        },
+        {
+          "node": "global",
+          "relation": "primary_region"
+        }
+      ],
+      "provenance": {
+        "generated_by": {
+          "provider": "sample",
+          "model": "seed-generator",
+          "prompt_version": "v3",
+          "supports_json": true
+        },
+        "schema_version": "v3"
+      },
+      "word_count": 252
+    },
+    {
+      "id": "info:item:geopolitics:myanmar:2026-08-13-003",
+      "key": "2026-08-13-003",
+      "date": "2026-08-13",
+      "content_type": "digest",
+      "topic": "geopolitics",
+      "region": "myanmar",
+      "categories": [
+        "policy",
+        "industry"
+      ],
+      "source": {
+        "name": "Sample RSS",
+        "url": "https://example.com/myanmar-digital",
+        "type": "sample"
+      },
+      "title": "Myanmar's digital economy: connectivity grows while governance lags",
+      "tldr": "Mobile-first finance and connectivity expand across Myanmar, but unclear data-governance rules cap foreign technology partnerships.",
+      "background": "This is a representative sample deep-dive. It exists to demonstrate the data structure, layer classification, entity linking, and related-item edges that the daily pipeline produces automatically. Myanmar's digital economy is moving in two directions at once: expanding mobile-first financial services on the ground, and a policy environment that remains uncertain around data governance and foreign technology partnerships. Connectivity investment continues in major urban centers, while rural adoption grows through low-cost devices and messaging-based services. Observers note that regulatory clarity will determine whether the current momentum translates into durable infrastructure or remains concentrated in a small set of services. ",
+      "analysis": [
+        {
+          "heading": "On the ground",
+          "content": "Myanmar's digital economy is moving in two directions at once: expanding mobile-first financial services on the ground, and a policy environment that remains uncertain around data governance and foreign technology partnerships. Connectivity investment continues in major urban centers, while rural adoption grows through low-cost devices and messaging-based services. Observers note that regulatory clarity will determine whether the current momentum translates into durable infrastructure or remains concentrated in a small set of services.  Messaging-based commerce is the fastest-growing segment, especially outside Yangon."
+        },
+        {
+          "heading": "Policy tension",
+          "content": "Ambiguity around data residency and licensing creates friction for international platforms and fintech investors."
+        },
+        {
+          "heading": "Outlook",
+          "content": "The next 12 months of regulatory announcements will shape whether digital services scale nationally or stay niche."
+        }
+      ],
+      "key_facts": [
+        "Sample dataset shipped with the repository to demonstrate structure.",
+        "Daily pipeline regenerates these files from Gemini output.",
+        "Classification layers are queryable via data/collections/index/."
+      ],
+      "implications": [
+        "Readers can follow related items through stable item IDs.",
+        "Entity notes accumulate backlinks as new items are published."
+      ],
+      "outlook": "The daily workflow extends this dataset automatically.",
+      "entities": [
+        {
+          "type": "concept",
+          "name": "Myanmar Digital Economy",
+          "relation": "analyzes"
+        },
+        {
+          "type": "concept",
+          "name": "Data Governance",
+          "relation": "discusses"
+        }
+      ],
+      "tags": [
+        "digital-economy",
+        "fintech",
+        "seed"
+      ],
+      "related_items": [],
+      "related_taxonomy": [
+        {
+          "node": "geopolitics",
+          "relation": "primary_topic"
+        },
+        {
+          "node": "myanmar",
+          "relation": "primary_region"
+        }
+      ],
+      "provenance": {
+        "generated_by": {
+          "provider": "sample",
+          "model": "seed-generator",
+          "prompt_version": "v3",
+          "supports_json": true
+        },
+        "schema_version": "v3"
+      },
+      "word_count": 266
+    }
+  ],
+  "item_count": 3
+}

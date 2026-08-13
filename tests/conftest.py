@@ -38,6 +38,6 @@ def sample_record(key: str = "2026-08-14-001", title: str = "Sample deep dive ti
         "related_items": [],
         "word_count": 0,
     }
-    from src.schema import word_count
+    from src.models.schema import word_count
     rec["word_count"] = word_count(rec)
     return rec
