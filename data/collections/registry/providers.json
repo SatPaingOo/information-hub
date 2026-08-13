@@ -1,1 +1,226 @@
-{}
+{
+  "groq": {
+    "llama-3.1-70b-versatile": {
+      "calls": 0,
+      "items": 0,
+      "errors": 3,
+      "consecutive_failures": 3,
+      "healthy": true,
+      "last_health_check": "2026-08-13T18:50:11+00:00",
+      "latency_ms": null,
+      "supports_json": true,
+      "exhausted_until": null
+    },
+    "llama-3.1-8b-instant": {
+      "calls": 0,
+      "items": 0,
+      "errors": 0,
+      "consecutive_failures": 0,
+      "healthy": true,
+      "last_health_check": null,
+      "latency_ms": null,
+      "supports_json": true,
+      "exhausted_until": null
+    }
+  },
+  "openrouter": {
+    "google/gemma-4-26b-a4b-it:free": {
+      "calls": 0,
+      "items": 0,
+      "errors": 0,
+      "consecutive_failures": 0,
+      "healthy": true,
+      "last_health_check": null,
+      "latency_ms": null,
+      "supports_json": true,
+      "exhausted_until": null
+    },
+    "google/gemma-4-31b-it:free": {
+      "calls": 0,
+      "items": 0,
+      "errors": 0,
+      "consecutive_failures": 0,
+      "healthy": true,
+      "last_health_check": null,
+      "latency_ms": null,
+      "supports_json": true,
+      "exhausted_until": null
+    },
+    "google/lyria-3-clip-preview": {
+      "calls": 0,
+      "items": 0,
+      "errors": 0,
+      "consecutive_failures": 0,
+      "healthy": true,
+      "last_health_check": null,
+      "latency_ms": null,
+      "supports_json": true,
+      "exhausted_until": null
+    },
+    "google/lyria-3-pro-preview": {
+      "calls": 0,
+      "items": 0,
+      "errors": 0,
+      "consecutive_failures": 0,
+      "healthy": true,
+      "last_health_check": null,
+      "latency_ms": null,
+      "supports_json": true,
+      "exhausted_until": null
+    },
+    "liquid/lfm-2.5-2.6b:free": {
+      "calls": 0,
+      "items": 0,
+      "errors": 0,
+      "consecutive_failures": 0,
+      "healthy": true,
+      "last_health_check": null,
+      "latency_ms": null,
+      "supports_json": true,
+      "exhausted_until": null
+    },
+    "nvidia/nemotron-3-super-120b-a12b:free": {
+      "calls": 0,
+      "items": 0,
+      "errors": 0,
+      "consecutive_failures": 0,
+      "healthy": true,
+      "last_health_check": null,
+      "latency_ms": null,
+      "supports_json": true,
+      "exhausted_until": null
+    },
+    "nvidia/nemotron-nano-9b-v2:free": {
+      "calls": 0,
+      "items": 0,
+      "errors": 0,
+      "consecutive_failures": 0,
+      "healthy": true,
+      "last_health_check": null,
+      "latency_ms": null,
+      "supports_json": true,
+      "exhausted_until": null
+    },
+    "openai/gpt-oss-20b:free": {
+      "calls": 0,
+      "items": 0,
+      "errors": 0,
+      "consecutive_failures": 0,
+      "healthy": true,
+      "last_health_check": null,
+      "latency_ms": null,
+      "supports_json": true,
+      "exhausted_until": null
+    },
+    "openrouter/free": {
+      "calls": 0,
+      "items": 0,
+      "errors": 0,
+      "consecutive_failures": 0,
+      "healthy": true,
+      "last_health_check": null,
+      "latency_ms": null,
+      "supports_json": true,
+      "exhausted_until": null
+    },
+    "cohere/north-mini-code:free": {
+      "calls": 0,
+      "items": 0,
+      "errors": 0,
+      "consecutive_failures": 0,
+      "healthy": true,
+      "last_health_check": null,
+      "latency_ms": null,
+      "supports_json": true,
+      "exhausted_until": null
+    },
+    "nvidia/nemotron-3-nano-30b-a3b:free": {
+      "calls": 0,
+      "items": 0,
+      "errors": 0,
+      "consecutive_failures": 0,
+      "healthy": true,
+      "last_health_check": null,
+      "latency_ms": null,
+      "supports_json": true,
+      "exhausted_until": null
+    },
+    "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free": {
+      "calls": 0,
+      "items": 0,
+      "errors": 0,
+      "consecutive_failures": 0,
+      "healthy": true,
+      "last_health_check": null,
+      "latency_ms": null,
+      "supports_json": true,
+      "exhausted_until": null
+    },
+    "nvidia/nemotron-3-ultra-550b-a55b:free": {
+      "calls": 0,
+      "items": 0,
+      "errors": 0,
+      "consecutive_failures": 0,
+      "healthy": true,
+      "last_health_check": null,
+      "latency_ms": null,
+      "supports_json": true,
+      "exhausted_until": null
+    },
+    "nvidia/nemotron-3.5-content-safety:free": {
+      "calls": 0,
+      "items": 0,
+      "errors": 0,
+      "consecutive_failures": 0,
+      "healthy": true,
+      "last_health_check": null,
+      "latency_ms": null,
+      "supports_json": true,
+      "exhausted_until": null
+    },
+    "nvidia/nemotron-3.5-lightning:free": {
+      "calls": 0,
+      "items": 0,
+      "errors": 0,
+      "consecutive_failures": 0,
+      "healthy": true,
+      "last_health_check": null,
+      "latency_ms": null,
+      "supports_json": true,
+      "exhausted_until": null
+    },
+    "nvidia/nemotron-nano-12b-v2-vl:free": {
+      "calls": 0,
+      "items": 0,
+      "errors": 0,
+      "consecutive_failures": 0,
+      "healthy": true,
+      "last_health_check": null,
+      "latency_ms": null,
+      "supports_json": true,
+      "exhausted_until": null
+    },
+    "poolside/laguna-s-2.1:free": {
+      "calls": 0,
+      "items": 0,
+      "errors": 0,
+      "consecutive_failures": 0,
+      "healthy": true,
+      "last_health_check": null,
+      "latency_ms": null,
+      "supports_json": true,
+      "exhausted_until": null
+    },
+    "poolside/laguna-xs-2.1:free": {
+      "calls": 0,
+      "items": 0,
+      "errors": 0,
+      "consecutive_failures": 0,
+      "healthy": true,
+      "last_health_check": null,
+      "latency_ms": null,
+      "supports_json": true,
+      "exhausted_until": null
+    }
+  }
+}
