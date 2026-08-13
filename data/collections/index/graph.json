@@ -62,6 +62,85 @@
       "name": "open-source"
     },
     {
+      "id": "info:item:ai-ml:global:2026-08-13-006",
+      "type": "item",
+      "date": "2026-08-13",
+      "title": "Bayesian policy selection using active inference"
+    },
+    {
+      "id": "info:entity:concept:free energy principle",
+      "type": "concept",
+      "name": "free energy principle"
+    },
+    {
+      "id": "info:entity:concept:mountain car problem",
+      "type": "concept",
+      "name": "mountain car problem"
+    },
+    {
+      "id": "info:entity:concept:expected free energy",
+      "type": "concept",
+      "name": "expected free energy"
+    },
+    {
+      "id": "info:entity:concept:generative model",
+      "type": "concept",
+      "name": "generative model"
+    },
+    {
+      "id": "taxonomy/misc/agentic AI",
+      "type": "taxonomy",
+      "name": "agentic AI"
+    },
+    {
+      "id": "taxonomy/misc/reinforcement learning",
+      "type": "taxonomy",
+      "name": "reinforcement learning"
+    },
+    {
+      "id": "taxonomy/misc/machine learning theory",
+      "type": "taxonomy",
+      "name": "machine learning theory"
+    },
+    {
+      "id": "info:item:ai-ml:us:2026-08-13-007",
+      "type": "item",
+      "date": "2026-08-13",
+      "title": "Meta adds AI screening to detect WhatsApp scams"
+    },
+    {
+      "id": "info:entity:company:Meta",
+      "type": "company",
+      "name": "Meta"
+    },
+    {
+      "id": "taxonomy/region/us",
+      "type": "taxonomy",
+      "layer": "region",
+      "name": "us"
+    },
+    {
+      "id": "taxonomy/category/product",
+      "type": "taxonomy",
+      "layer": "category",
+      "name": "product"
+    },
+    {
+      "id": "taxonomy/misc/Mobile Security",
+      "type": "taxonomy",
+      "name": "Mobile Security"
+    },
+    {
+      "id": "taxonomy/misc/AI Governance",
+      "type": "taxonomy",
+      "name": "AI Governance"
+    },
+    {
+      "id": "taxonomy/misc/Meta Platforms",
+      "type": "taxonomy",
+      "name": "Meta Platforms"
+    },
+    {
       "id": "info:item:geopolitics:myanmar:2026-08-13-003",
       "type": "item",
       "date": "2026-08-13",
@@ -124,12 +203,6 @@
       "type": "taxonomy",
       "layer": "region",
       "name": "americas"
-    },
-    {
-      "id": "taxonomy/region/us",
-      "type": "taxonomy",
-      "layer": "region",
-      "name": "us"
     },
     {
       "id": "taxonomy/region/canada",
@@ -238,12 +311,6 @@
       "type": "taxonomy",
       "layer": "category",
       "name": "health"
-    },
-    {
-      "id": "taxonomy/category/product",
-      "type": "taxonomy",
-      "layer": "category",
-      "name": "product"
     }
   ],
   "edges": [
@@ -331,6 +398,131 @@
       "source": "info:item:ai-ml:global:2026-08-13-002",
       "target": "taxonomy/misc/global",
       "relation": "primary_region"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-13-006",
+      "target": "info:entity:concept:free energy principle",
+      "relation": "Theoretical foundation of active inference, positing that self-organizing systems minimize surprise through action and perception."
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-13-006",
+      "target": "info:entity:concept:mountain car problem",
+      "relation": "Canonical reinforcement learning benchmark used in the paper to evaluate active inference against standard RL methods."
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-13-006",
+      "target": "info:entity:concept:expected free energy",
+      "relation": "Key quantity minimized in active inference to select policies, balancing extrinsic reward and information-seeking behavior."
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-13-006",
+      "target": "info:entity:concept:generative model",
+      "relation": "Environment model learned by the agent to predict sensory outcomes of actions, enabling internal simulation and planning."
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-13-006",
+      "target": "info:item:ai-ml:global:2024-05-10-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-13-006",
+      "target": "info:item:ai-ml:global:2025-02-28-009",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-13-006",
+      "target": "taxonomy/topic/ai-ml",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-13-006",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-13-006",
+      "target": "taxonomy/category/research",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-13-006",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-13-006",
+      "target": "taxonomy/misc/reinforcement learning",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-13-006",
+      "target": "taxonomy/misc/machine learning theory",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:ai-ml:us:2026-08-13-007",
+      "target": "info:entity:company:Meta",
+      "relation": "developer and deployer of Scam Alert on WhatsApp"
+    },
+    {
+      "source": "info:item:ai-ml:us:2026-08-13-007",
+      "target": "info:entity:company:OpenAI",
+      "relation": "competitor in generative AI space influencing edge AI development"
+    },
+    {
+      "source": "info:item:ai-ml:us:2026-08-13-007",
+      "target": "info:entity:concept:Agentic AI",
+      "relation": "underlying paradigm for Scam Alert’s autonomous warning system"
+    },
+    {
+      "source": "info:item:ai-ml:us:2026-08-13-007",
+      "target": "info:entity:company:Anthropic",
+      "relation": "key player in AI model development, comparable to Meta’s on‑device approach"
+    },
+    {
+      "source": "info:item:ai-ml:us:2026-08-13-007",
+      "target": "info:item:ai-ml:us:2026-08-13-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:ai-ml:us:2026-08-13-007",
+      "target": "info:item:ai-ml:us:2026-08-13-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:ai-ml:us:2026-08-13-007",
+      "target": "taxonomy/topic/ai-ml",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:us:2026-08-13-007",
+      "target": "taxonomy/region/us",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:us:2026-08-13-007",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:us:2026-08-13-007",
+      "target": "taxonomy/category/open-source",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:us:2026-08-13-007",
+      "target": "taxonomy/misc/Mobile Security",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:ai-ml:us:2026-08-13-007",
+      "target": "taxonomy/misc/AI Governance",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:ai-ml:us:2026-08-13-007",
+      "target": "taxonomy/misc/Meta Platforms",
+      "relation": "relates"
     },
     {
       "source": "info:item:geopolitics:myanmar:2026-08-13-003",
@@ -494,15 +686,21 @@
     },
     {
       "source": "info:entity:company:Anthropic",
-      "target": "info:entity:company:OpenAI",
+      "target": "info:entity:company:Meta",
       "relation": "co-occurs",
       "weight": "1"
     },
     {
       "source": "info:entity:company:Anthropic",
+      "target": "info:entity:company:OpenAI",
+      "relation": "co-occurs",
+      "weight": "2"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
       "target": "info:entity:concept:Agentic AI",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -511,10 +709,22 @@
       "weight": "1"
     },
     {
-      "source": "info:entity:company:OpenAI",
+      "source": "info:entity:company:Meta",
+      "target": "info:entity:company:OpenAI",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Meta",
       "target": "info:entity:concept:Agentic AI",
       "relation": "co-occurs",
       "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:concept:Agentic AI",
+      "relation": "co-occurs",
+      "weight": "2"
     },
     {
       "source": "info:entity:company:OpenAI",
