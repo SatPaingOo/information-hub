@@ -1,5 +1,5 @@
 # information-hub — configuration
-# Taxonomy engine: layers, collections, sources, quotas — အားလုံး ဒီမှာ ချိန်။
+# Taxonomy engine: layers (hierarchical), collections, sources, quotas, key policy.
 # GitHub UI မှာ code မထိဘဲ ပြင်လို့ရတယ်။
 
 gemini:
@@ -7,22 +7,53 @@ gemini:
   temperature: 0.4
   max_output_tokens: 2048
   retries: 2
+  # Multi-key: env ထဲက GEMINI_API_KEYS (comma-separated) ကနေ ယူတယ်
+  #   round_robin  = key တွေကို လှည့်ပတ်သုံး
+  #   least_used   = registry stats မှာ call နည်းတဲ့ key ကို ဦးစားပေးသုံး
+  key_strategy: least_used
+  key_policy:
+    rotate_on_error: [429, 500]
+    max_errors_per_key: 3
 
 storage:
   data_dir: data
   max_daily_items_total: 3      # တစ်နေ့စုစုပေါင်း deep-dive item အရေအတွက် (free tier quota)
 
-# Classification layers — ထည့်/ဖျက်/ပြင်လို့ရတယ်
+# Classification layers — hierarchical (ထည့်/ဖျက်/ပြင်လို့ရ)
+# Flat list လဲ ရတယ် — ဒါဆိုရင် leaf-only အဖြစ် treat လုပ်မယ်
 taxonomy:
+  regions:
+    asia:     [myanmar, thailand, china]
+    americas: [us, canada]
+    europe:   [uk, germany]
+  topics:
+    ai-ml:        [llm, agents, vision]
+    geopolitics:  [conflict, trade]
+    dev-oss:      []
+  categories:
+    economy:  [macro, trade, fintech]
+    society:  [human, education, health]
+    industry: [product, open-source]
   content_types: [article, briefing, analysis, digest]
-  topics:        [ai-ml, dev-oss, geopolitics, economy, health, energy]
-  regions:       [global, myanmar, us, eu, asia]
-  categories:    [research, industry, policy, product, open-source]
+
+# Optional static cross-layer relations (config-defined):
+#   from/to = taxonomy node name, type = relation label
+relations:
+  - { from: myanmar, to: geopolitics, type: relates }
+  - { from: myanmar, to: economy,    type: relates }
+  - { from: llm,     to: agents,     type: related }
+  - { from: us,      to: dev-oss,    type: relates }
 
 # Collections — key-value: source group + default classification + quotas
+#   priority  = ပိုစုတဲ့ကောင် (များလေ quota အရင်ရလေ)
+#   frequency = daily | every-2-days | weekly
+#   api_key   = key id (GEMINI_API_KEYS ထဲက keyN) | "auto" = least_used strategy
 collections:
   myanmar-news:
     enabled: true
+    priority: 3
+    frequency: daily
+    api_key: auto
     content_type: digest
     topics: [geopolitics, economy]
     regions: [myanmar]
@@ -31,10 +62,13 @@ collections:
     sources:
       - { type: rss, url: "https://www.irrawaddy.com/feed" }
       - { type: rss, url: "https://myanmar-now.org/en/feed/" }
-    limits: { max_candidates: 12, max_daily_items: 1 }
+    limits: { max_candidates: 12, max_daily_items: 2 }
 
   ai-research:
     enabled: true
+    priority: 2
+    frequency: daily
+    api_key: auto
     content_type: briefing
     topics: [ai-ml]
     regions: [global]
@@ -47,6 +81,9 @@ collections:
 
   us-tech:
     enabled: true
+    priority: 1
+    frequency: every-2-days
+    api_key: auto
     content_type: article
     topics: [ai-ml, dev-oss]
     regions: [us]

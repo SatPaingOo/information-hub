@@ -11,8 +11,10 @@ def test_config_loads_from_repo():
     cfg = Config.load()
     assert cfg.gemini.model == "gemini-2.5-flash"
     assert cfg.storage.max_daily_items_total == 3
+    # nested taxonomy
     assert "ai-ml" in cfg.taxonomy.topics
-    assert "myanmar" in cfg.taxonomy.regions
+    assert "llm" in cfg.taxonomy.children_of("ai-ml")
+    assert "myanmar" in cfg.taxonomy.children_of("asia")
     assert "myanmar-news" in cfg.collections
     assert cfg.collections["myanmar-news"].primary_layer == "region"
     assert cfg.collections["ai-research"].content_type == "briefing"

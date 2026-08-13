@@ -119,5 +119,46 @@ def entity_markdown(name: str, entity_type: str,
     return "\n".join(lines)
 
 
+def taxonomy_note_markdown(node: str, layer: str,
+                           children: list[str],
+                           parents: list[str],
+                           items: list[dict[str, Any]],
+                           related_nodes: list[tuple[str, str]]) -> str:
+    """Taxonomy node note: hierarchy context + linked items + cross-layer edges."""
+    lines = ["---", f"node: \"{node}\"", f"layer: {layer}",
+             f"item_count: {len(items)}", "---", "",
+             f"# {node}", "", f"*Taxonomy layer: {layer}*", ""]
+
+    if parents:
+        lines.append("## Parents")
+        lines.append("")
+        for p in parents:
+            lines.append(f"- [[{p}]]")
+        lines.append("")
+
+    if children:
+        lines.append("## Children")
+        lines.append("")
+        for c in children:
+            lines.append(f"- [[{c}]]")
+        lines.append("")
+
+    if related_nodes:
+        lines.append("## Cross-layer relations")
+        lines.append("")
+        for rel_node, rel_type in sorted(related_nodes):
+            lines.append(f"- [[{rel_node}]] — *{rel_type}*")
+        lines.append("")
+
+    lines.append("## Items")
+    lines.append("")
+    if not items:
+        lines.append("_No items yet._")
+        return "\n".join(lines)
+    for it in sorted(items, key=lambda i: i.get("date", ""), reverse=True):
+        lines.append(f"- {it['date']} · [[{it['id']}]] — {it['title']}")
+    return "\n".join(lines)
+
+
 def _yaml_list(items: list[str]) -> str:
     return "[" + ", ".join(json.dumps(i, ensure_ascii=False) for i in items) + "]"

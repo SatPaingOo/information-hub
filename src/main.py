@@ -21,6 +21,7 @@ from src.config import CollectionConfig, Config, GeminiConfig
 from src.fulltext import extract as extract_fulltext
 from src.gemini import GeminiClient, GeminiError
 from src.dedup import similarity_flags
+from src.keys import KeyManager, KeyManagerError
 from src.indexer import Indexer
 from src.registry import Registry
 from src.schema import validate_record, word_count
@@ -99,7 +100,9 @@ def build_deep_dive_prompt(cfg: Config, collection: CollectionConfig,
         f"JSON schema (fill exactly):\n{_schema_instruction(collection)}\n"
         f"Set \"date\" to {candidate.date!r}, \"key\" to {candidate.key!r}, "
         f"\"id\" to {candidate.stable_id!r}.\n"
-        f"List at least 2 entities and 2 related/plausible related_items."
+        f"List at least 2 entities and 2 related/plausible related_items, and "
+        f"fill related_taxonomy with 1-3 taxonomy node names this story connects to "
+        f"(e.g. regions, topics, categories from the known taxonomy)."
     )
 
 
@@ -123,6 +126,7 @@ def _schema_instruction(collection: CollectionConfig) -> str:
         "entities": [{"type": "concept|company|model|person", "name": "...", "relation": "..."}],
         "tags": ["..."],
         "related_items": ["info:item:..."],
+        "related_taxonomy": [{"node": "<taxonomy node name>", "relation": "relates"}],
         "word_count": 700,
     }, indent=2)
 
@@ -211,6 +215,10 @@ def deep_dive_mock(cfg: Config, collection: CollectionConfig,
         ],
         "tags": ["mock"],
         "related_items": related_items[:2],
+        "related_taxonomy": [
+            {"node": topic, "relation": "primary_topic"},
+            {"node": region, "relation": "primary_region"},
+        ],
         "word_count": 0,  # patched by _finalize_record
     }
 
@@ -286,7 +294,7 @@ def _finalize_record(record: dict[str, Any], candidate: Candidate,
 
 # ---- runner ------------------------------------------------------------
 def run(mock: bool, collection_filter: str | None, date_override: str | None,
-        limit: int | None) -> int:
+        limit: int | None, force: bool = False) -> int:
     cfg = Config.load()
     registry = Registry(cfg.storage.data_dir / "collections" / "registry")
     store = Store(cfg.storage.data_dir)
@@ -298,10 +306,17 @@ def run(mock: bool, collection_filter: str | None, date_override: str | None,
     if mock:
         gemini: Any = _MockBackend()
     else:
-        if not cfg.gemini.api_key:
-            print("ERROR: GEMINI_API_KEY not set (use --mock for offline run)", file=sys.stderr)
+        if not cfg.gemini.api_keys():
+            print("ERROR: no API keys set (use --mock for offline run, or set "
+                  "GEMINI_API_KEYS)", file=sys.stderr)
             return 2
-        gemini = GeminiClient(cfg.gemini.model, cfg.gemini.api_key,
+        key_manager = KeyManager(cfg.gemini, registry)
+        try:
+            key_manager.pick()  # fail fast if all keys exhausted
+        except KeyManagerError as e:
+            print(f"ERROR: {e}", file=sys.stderr)
+            return 2
+        gemini = GeminiClient(cfg.gemini.model, key_manager,
                               cfg.gemini.temperature, cfg.gemini.max_output_tokens,
                               cfg.gemini.retries)
 
@@ -310,12 +325,21 @@ def run(mock: bool, collection_filter: str | None, date_override: str | None,
 
     run_date = date_override or _today()
 
-    collections = cfg.enabled_collections()
+    # Action control: priority order (များလေ အရင်ရလေ) + due-date check
+    collections = cfg.collections_by_priority()
     if collection_filter:
         collections = [c for c in collections if c.name == collection_filter]
         if not collections:
             print(f"No enabled collection named {collection_filter!r}", file=sys.stderr)
             return 2
+    due_collections: list[CollectionConfig] = []
+    for c in collections:
+        if force or registry.is_due(c.name, run_date, c.frequency):
+            due_collections.append(c)
+        else:
+            print(f"[{c.name}] not due (frequency={c.frequency}) — skipping "
+                  f"(use --force to override)")
+    collections = due_collections
 
     run_records: list[dict[str, Any]] = []
     total_quota = cfg.storage.max_daily_items_total
@@ -395,11 +419,12 @@ def run(mock: bool, collection_filter: str | None, date_override: str | None,
             print(f"[{collection.name}] published {record['key']} — {record['title'][:60]}")
 
         registry.record_fetch(collection.name, len(candidates), published)
+        registry.record_collection_run(collection.name, collection.frequency, run_date)
 
     timestamp = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
     if run_records:
         store.write_raw_run(timestamp, run_records)
-        indexer.rebuild(store.iter_records())
+    indexer.rebuild(store.iter_records(), taxonomy=cfg.taxonomy, relations=cfg.relations)
     registry.mark_run([r["id"] for r in run_records], quota_used=len(run_records))
     registry.save()
 
@@ -524,9 +549,11 @@ def main() -> None:
                         help="date override (YYYY-MM-DD) — record date")
     parser.add_argument("--limit", type=int, default=None,
                         help="max total items for this run")
+    parser.add_argument("--force", action="store_true",
+                        help="run collections even if not due (bypass frequency check)")
     args = parser.parse_args()
     sys.exit(run(mock=args.mock, collection_filter=args.collection,
-                 date_override=args.date, limit=args.limit))
+                 date_override=args.date, limit=args.limit, force=args.force))
 
 
 if __name__ == "__main__":

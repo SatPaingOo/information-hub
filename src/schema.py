@@ -69,6 +69,17 @@ DEEP_DIVE_SCHEMA = {
         },
         "tags": {"type": "array", "items": {"type": "string"}},
         "related_items": {"type": "array", "items": {"type": "string"}},
+        "related_taxonomy": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "required": ["node", "relation"],
+                "properties": {
+                    "node": {"type": "string"},
+                    "relation": {"type": "string"},
+                },
+            },
+        },
         "word_count": {"type": "integer", "minimum": 1},
     },
 }

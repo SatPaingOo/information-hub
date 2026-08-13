@@ -24,6 +24,8 @@ class Registry:
         self.sources = self._load("sources.json")
         self.items = self._load("items.json")
         self.meta = self._load("meta.json")
+        self.keys = self._load("keys.json")
+        self.collections = self._load("collections.json")
 
     # ---- persistence -------------------------------------------------
     def _load(self, name: str) -> dict[str, Any]:
@@ -40,6 +42,8 @@ class Registry:
             self._dump("sources.json", self.sources)
             self._dump("items.json", self.items)
             self._dump("meta.json", self.meta)
+            self._dump("keys.json", self.keys)
+            self._dump("collections.json", self.collections)
 
     def _dump(self, name: str, data: dict[str, Any]) -> None:
         path = self.dir / name
@@ -98,6 +102,49 @@ class Registry:
                 return entry
         return None
 
+    # ---- key budget (multi API key) ------------------------------------
+    def key_stats(self, key: str) -> dict[str, Any]:
+        return self.keys.setdefault(key, {"calls": 0, "errors": 0, "last_used": "",
+                                          "failed": False})
+
+    def record_key_use(self, key: str) -> None:
+        stats = self.key_stats(key)
+        stats["calls"] = stats.get("calls", 0) + 1
+        stats["last_used"] = _utcnow()
+
+    def record_key_result(self, key: str, status_code: int | None,
+                          error: bool, max_errors: int = 3) -> None:
+        stats = self.key_stats(key)
+        if error:
+            stats["errors"] = stats.get("errors", 0) + 1
+        else:
+            stats["errors"] = 0  # success resets the error streak
+        if status_code is not None and status_code >= 400:
+            # transient 429/500 don't disable permanently, but hard 4xx does
+            if status_code not in (429, 500, 502, 503, 504):
+                stats["failed"] = True
+        if stats.get("errors", 0) >= max_errors:
+            stats["failed"] = True
+
+    # ---- collection due tracking (action control) -----------------------
+    def collection_stats(self, name: str) -> dict[str, Any]:
+        return self.collections.setdefault(name, {"last_run": None, "next_due": None,
+                                                  "runs": 0})
+
+    def record_collection_run(self, name: str, frequency: str, run_date: str) -> None:
+        stats = self.collection_stats(name)
+        stats["last_run"] = run_date
+        stats["runs"] = stats.get("runs", 0) + 1
+        stats["next_due"] = _next_due(run_date, frequency)
+
+    def is_due(self, name: str, run_date: str, frequency: str) -> bool:
+        """True if the collection should run on run_date given its frequency."""
+        stats = self.collection_stats(name)
+        next_due = stats.get("next_due")
+        if not next_due:
+            return True  # never ran → run now
+        return next_due <= run_date
+
     # ---- meta ---------------------------------------------------------
     def next_sequence(self, date: str) -> int:
         """Return the next NNN for a date based on keys already stored."""
@@ -123,3 +170,17 @@ class Registry:
 def _utcnow() -> str:
     import datetime as dt
     return dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
+
+
+def _next_due(run_date: str, frequency: str) -> str:
+    """Next scheduled date for a frequency (ISO date strings, UTC)."""
+    import datetime as dt
+    try:
+        base = dt.date.fromisoformat(run_date)
+    except ValueError:
+        base = dt.date.today()
+    if frequency == "weekly":
+        return (base + dt.timedelta(days=7)).isoformat()
+    if frequency == "every-2-days":
+        return (base + dt.timedelta(days=2)).isoformat()
+    return base.isoformat()  # daily → due every day (next_due == today)

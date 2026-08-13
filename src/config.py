@@ -2,6 +2,9 @@
 
 Loads config.yml (taxonomy engine) + policies.yml (collection rules)
 and exposes them as typed plain dicts/dataclasses.
+
+V2: nested (hierarchical) taxonomy, relations, multi-key policy,
+    collection priority/frequency/api_key controls.
 """
 
 from __future__ import annotations
@@ -15,6 +18,15 @@ import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
 
+VALID_FREQUENCIES = ("daily", "every-2-days", "weekly")
+VALID_KEY_STRATEGIES = ("round_robin", "least_used")
+
+
+@dataclass
+class KeyPolicy:
+    rotate_on_error: list[int] = field(default_factory=lambda: [429, 500])
+    max_errors_per_key: int = 3
+
 
 @dataclass
 class GeminiConfig:
@@ -22,23 +34,34 @@ class GeminiConfig:
     temperature: float = 0.4
     max_output_tokens: int = 2048
     retries: int = 2
+    key_strategy: str = "least_used"
+    key_policy: KeyPolicy = field(default_factory=KeyPolicy)
+
+    def api_keys(self) -> list[str]:
+        """All configured keys from GEMINI_API_KEYS (multi) or GEMINI_API_KEY (legacy)."""
+        keys = os.environ.get("GEMINI_API_KEYS", "")
+        if not keys:
+            keys = os.environ.get("GEMINI_API_KEY", "")
+            if not keys:
+                keys = _read_dotenv("GEMINI_API_KEYS") or _read_dotenv("GEMINI_API_KEY")
+        if not keys:
+            return []
+        return [k.strip() for k in keys.split(",") if k.strip()]
 
     @property
     def api_key(self) -> str:
-        key = os.environ.get("GEMINI_API_KEY", "")
-        if not key:
-            key = _read_dotenv_key()
-        return key
+        """Legacy single-key accessor (first key)."""
+        keys = self.api_keys()
+        return keys[0] if keys else ""
 
 
-def _read_dotenv_key() -> str:
-    """Read GEMINI_API_KEY from a local .env file if present (dev only)."""
+def _read_dotenv(name: str) -> str:
     env_file = ROOT / ".env"
     if not env_file.exists():
         return ""
     for line in env_file.read_text(encoding="utf-8").splitlines():
         line = line.strip()
-        if line.startswith("GEMINI_API_KEY="):
+        if line.startswith(name + "="):
             return line.split("=", 1)[1].strip().strip('"').strip("'")
     return ""
 
@@ -62,6 +85,9 @@ class ContentConfig:
 class CollectionConfig:
     name: str
     enabled: bool = True
+    priority: int = 1
+    frequency: str = "daily"
+    api_key: str = "auto"           # key id from GEMINI_API_KEYS, or "auto"
     content_type: str = "article"
     topics: list[str] = field(default_factory=list)
     regions: list[str] = field(default_factory=list)
@@ -72,12 +98,71 @@ class CollectionConfig:
     max_daily_items: int = 1
 
 
-@dataclass
 class Taxonomy:
-    content_types: list[str] = field(default_factory=list)
-    topics: list[str] = field(default_factory=list)
-    regions: list[str] = field(default_factory=list)
-    categories: list[str] = field(default_factory=list)
+    """Hierarchical classification layers.
+
+    Each layer maps parent -> children. A flat list (old format) is accepted
+    and treated as leaf-only nodes under an implicit parent "".
+    """
+
+    def __init__(self, raw: dict[str, Any]):
+        raw = raw or {}
+        self.content_types: list[str] = list(raw.get("content_types", []))
+        self.regions: dict[str, list[str]] = _normalize_layer(raw.get("regions", []))
+        self.topics: dict[str, list[str]] = _normalize_layer(raw.get("topics", []))
+        self.categories: dict[str, list[str]] = _normalize_layer(raw.get("categories", []))
+
+    def layers(self) -> dict[str, dict[str, list[str]]]:
+        return {
+            "regions": self.regions,
+            "topics": self.topics,
+            "categories": self.categories,
+        }
+
+    def parents_of(self, node: str) -> list[str]:
+        """All layer parents containing `node` as a child."""
+        parents: list[str] = []
+        for layer in (self.regions, self.topics, self.categories):
+            for parent, children in layer.items():
+                if node in children:
+                    parents.append(parent)
+        return parents
+
+    def children_of(self, node: str) -> list[str]:
+        for layer in (self.regions, self.topics, self.categories):
+            if node in layer:
+                return list(layer[node])
+        return []
+
+    def all_nodes(self) -> list[str]:
+        """Every taxonomy node name (parents + children)."""
+        nodes: set[str] = set()
+        for layer in (self.regions, self.topics, self.categories):
+            for parent, children in layer.items():
+                nodes.add(parent)
+                nodes.update(children)
+        return sorted(nodes)
+
+    def layer_of(self, node: str) -> str | None:
+        for layer_name, mapping in (("region", self.regions),
+                                    ("topic", self.topics),
+                                    ("category", self.categories)):
+            if node in mapping or any(node in v for v in mapping.values()):
+                return layer_name
+        return None
+
+    def node_id(self, node: str) -> str:
+        layer = self.layer_of(node) or "misc"
+        return f"taxonomy/{layer}/{node}"
+
+
+def _normalize_layer(raw: Any) -> dict[str, list[str]]:
+    """Accept nested map {parent: [children]} or flat list [leaf, ...]."""
+    if isinstance(raw, dict):
+        return {str(k): [str(c) for c in (v or [])] for k, v in raw.items()}
+    if isinstance(raw, list):
+        return {str(n): [] for n in raw}
+    return {}
 
 
 @dataclass
@@ -87,6 +172,7 @@ class Config:
     content: ContentConfig
     taxonomy: Taxonomy
     collections: dict[str, CollectionConfig]
+    relations: list[dict[str, str]]
     policies: dict[str, Any]
     path: Path
 
@@ -100,29 +186,46 @@ class Config:
         with open(pol_path, encoding="utf-8") as f:
             policies = yaml.safe_load(f) or {}
 
-        gemini = GeminiConfig(**raw.get("gemini", {}))
+        gemini_raw = raw.get("gemini", {})
+        key_policy_raw = gemini_raw.get("key_policy", {}) or {}
+        gemini = GeminiConfig(
+            model=gemini_raw.get("model", "gemini-2.5-flash"),
+            temperature=gemini_raw.get("temperature", 0.4),
+            max_output_tokens=gemini_raw.get("max_output_tokens", 2048),
+            retries=gemini_raw.get("retries", 2),
+            key_strategy=gemini_raw.get("key_strategy", "least_used"),
+            key_policy=KeyPolicy(
+                rotate_on_error=list(key_policy_raw.get("rotate_on_error", [429, 500])),
+                max_errors_per_key=int(key_policy_raw.get("max_errors_per_key", 3)),
+            ),
+        )
         storage = StorageConfig(
             data_dir=Path(str(raw.get("storage", {}).get("data_dir", "data"))),
             max_daily_items_total=raw.get("storage", {}).get("max_daily_items_total", 3),
         )
-        content = ContentConfig(**raw.get("content", {}))
-        tax = raw.get("taxonomy", {})
-        taxonomy = Taxonomy(
-            content_types=tax.get("content_types", []),
-            topics=tax.get("topics", []),
-            regions=tax.get("regions", []),
-            categories=tax.get("categories", []),
+        content_raw = raw.get("content", {})
+        target = content_raw.get("target_words", [600, 1000])
+        content = ContentConfig(
+            min_words=content_raw.get("min_words", 500),
+            target_words=(target[0], target[1]) if isinstance(target, list) and len(target) == 2
+                         else (600, 1000),
+            fulltext_max_chars=content_raw.get("fulltext_max_chars", 6000),
+            similarity_window=content_raw.get("similarity_window", 30),
+            similarity_threshold=content_raw.get("similarity_threshold", 0.55),
         )
+        taxonomy = Taxonomy(raw.get("taxonomy", {}))
         collections = {
             name: _collection_from(name, raw.get("collections", {}).get(name, {}))
             for name in raw.get("collections", {})
         }
+        relations = [dict(r) for r in (raw.get("relations", []) or [])]
         return cls(
             gemini=gemini,
             storage=storage,
             content=content,
             taxonomy=taxonomy,
             collections=collections,
+            relations=relations,
             policies=policies,
             path=cfg_path,
         )
@@ -130,16 +233,23 @@ class Config:
     def enabled_collections(self) -> list[CollectionConfig]:
         return [c for c in self.collections.values() if c.enabled]
 
+    def collections_by_priority(self) -> list[CollectionConfig]:
+        """Enabled collections sorted by priority descending (များလေ အရင်ရလေ)."""
+        return sorted(self.enabled_collections(), key=lambda c: c.priority, reverse=True)
+
 
 def _collection_from(name: str, raw: dict[str, Any]) -> CollectionConfig:
     limits = raw.get("limits", {})
     return CollectionConfig(
         name=name,
         enabled=raw.get("enabled", True),
+        priority=int(raw.get("priority", 1)),
+        frequency=raw.get("frequency", "daily"),
+        api_key=str(raw.get("api_key", "auto")),
         content_type=raw.get("content_type", "article"),
-        topics=raw.get("topics", []),
-        regions=raw.get("regions", []),
-        categories=raw.get("categories", []),
+        topics=[str(t) for t in raw.get("topics", [])],
+        regions=[str(r) for r in raw.get("regions", [])],
+        categories=[str(c) for c in raw.get("categories", [])],
         primary_layer=raw.get("primary_layer", "topic"),
         sources=raw.get("sources", []),
         max_candidates=limits.get("max_candidates", 12),

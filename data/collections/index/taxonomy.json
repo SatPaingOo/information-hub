@@ -1,0 +1,239 @@
+{
+  "nodes": {
+    "asia": {
+      "layer": "region",
+      "children": [
+        "myanmar",
+        "thailand",
+        "china"
+      ],
+      "parents": [],
+      "item_count": 0
+    },
+    "myanmar": {
+      "layer": "region",
+      "children": [],
+      "parents": [
+        "asia"
+      ],
+      "item_count": 2
+    },
+    "thailand": {
+      "layer": "region",
+      "children": [],
+      "parents": [
+        "asia"
+      ],
+      "item_count": 0
+    },
+    "china": {
+      "layer": "region",
+      "children": [],
+      "parents": [
+        "asia"
+      ],
+      "item_count": 0
+    },
+    "americas": {
+      "layer": "region",
+      "children": [
+        "us",
+        "canada"
+      ],
+      "parents": [],
+      "item_count": 0
+    },
+    "us": {
+      "layer": "region",
+      "children": [],
+      "parents": [
+        "americas"
+      ],
+      "item_count": 0
+    },
+    "canada": {
+      "layer": "region",
+      "children": [],
+      "parents": [
+        "americas"
+      ],
+      "item_count": 0
+    },
+    "europe": {
+      "layer": "region",
+      "children": [
+        "uk",
+        "germany"
+      ],
+      "parents": [],
+      "item_count": 0
+    },
+    "uk": {
+      "layer": "region",
+      "children": [],
+      "parents": [
+        "europe"
+      ],
+      "item_count": 0
+    },
+    "germany": {
+      "layer": "region",
+      "children": [],
+      "parents": [
+        "europe"
+      ],
+      "item_count": 0
+    },
+    "ai-ml": {
+      "layer": "topic",
+      "children": [
+        "llm",
+        "agents",
+        "vision"
+      ],
+      "parents": [],
+      "item_count": 4
+    },
+    "llm": {
+      "layer": "topic",
+      "children": [],
+      "parents": [
+        "ai-ml"
+      ],
+      "item_count": 0
+    },
+    "agents": {
+      "layer": "topic",
+      "children": [],
+      "parents": [
+        "ai-ml"
+      ],
+      "item_count": 0
+    },
+    "vision": {
+      "layer": "topic",
+      "children": [],
+      "parents": [
+        "ai-ml"
+      ],
+      "item_count": 0
+    },
+    "geopolitics": {
+      "layer": "topic",
+      "children": [
+        "conflict",
+        "trade"
+      ],
+      "parents": [],
+      "item_count": 2
+    },
+    "conflict": {
+      "layer": "topic",
+      "children": [],
+      "parents": [
+        "geopolitics"
+      ],
+      "item_count": 0
+    },
+    "trade": {
+      "layer": "topic",
+      "children": [],
+      "parents": [
+        "geopolitics",
+        "economy"
+      ],
+      "item_count": 0
+    },
+    "dev-oss": {
+      "layer": "topic",
+      "children": [],
+      "parents": [],
+      "item_count": 0
+    },
+    "economy": {
+      "layer": "category",
+      "children": [
+        "macro",
+        "trade",
+        "fintech"
+      ],
+      "parents": [],
+      "item_count": 0
+    },
+    "macro": {
+      "layer": "category",
+      "children": [],
+      "parents": [
+        "economy"
+      ],
+      "item_count": 0
+    },
+    "fintech": {
+      "layer": "category",
+      "children": [],
+      "parents": [
+        "economy"
+      ],
+      "item_count": 0
+    },
+    "society": {
+      "layer": "category",
+      "children": [
+        "human",
+        "education",
+        "health"
+      ],
+      "parents": [],
+      "item_count": 0
+    },
+    "human": {
+      "layer": "category",
+      "children": [],
+      "parents": [
+        "society"
+      ],
+      "item_count": 0
+    },
+    "education": {
+      "layer": "category",
+      "children": [],
+      "parents": [
+        "society"
+      ],
+      "item_count": 0
+    },
+    "health": {
+      "layer": "category",
+      "children": [],
+      "parents": [
+        "society"
+      ],
+      "item_count": 0
+    },
+    "industry": {
+      "layer": "category",
+      "children": [
+        "product",
+        "open-source"
+      ],
+      "parents": [],
+      "item_count": 1
+    },
+    "product": {
+      "layer": "category",
+      "children": [],
+      "parents": [
+        "industry"
+      ],
+      "item_count": 0
+    },
+    "open-source": {
+      "layer": "category",
+      "children": [],
+      "parents": [
+        "industry"
+      ],
+      "item_count": 1
+    }
+  }
+}

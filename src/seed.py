@@ -85,6 +85,10 @@ def _rec(key: str, topic: str, region: str, ctype: str, categories: list[str],
         "entities": entities,
         "tags": tags + ["seed"],
         "related_items": [],
+        "related_taxonomy": [
+            {"node": topic, "relation": "primary_topic"},
+            {"node": region, "relation": "primary_region"},
+        ],
         "word_count": 0,
     }
     rec["word_count"] = word_count(rec)
@@ -196,7 +200,7 @@ def main() -> None:
         registry.record_item(rec, status="seed", gemini_calls=0, validated=True)
 
     store.write_raw_run(run_ts, records)
-    indexer.rebuild(store.iter_records())
+    indexer.rebuild(store.iter_records(), taxonomy=cfg.taxonomy, relations=cfg.relations)
     registry.mark_run([r["id"] for r in records], quota_used=len(records))
     registry.save()
 

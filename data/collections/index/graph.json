@@ -27,10 +27,39 @@
       "name": "Anthropic"
     },
     {
+      "id": "taxonomy/topic/ai-ml",
+      "type": "taxonomy",
+      "layer": "topic",
+      "name": "ai-ml"
+    },
+    {
+      "id": "taxonomy/region/global",
+      "type": "taxonomy",
+      "layer": "region",
+      "name": "global"
+    },
+    {
+      "id": "taxonomy/category/research",
+      "type": "taxonomy",
+      "layer": "category",
+      "name": "research"
+    },
+    {
+      "id": "taxonomy/misc/global",
+      "type": "taxonomy",
+      "name": "global"
+    },
+    {
       "id": "info:item:ai-ml:global:2026-08-13-002",
       "type": "item",
       "date": "2026-08-13",
       "title": "Open-source retrieval stacks narrow the gap on enterprise RAG"
+    },
+    {
+      "id": "taxonomy/category/open-source",
+      "type": "taxonomy",
+      "layer": "category",
+      "name": "open-source"
     },
     {
       "id": "info:item:geopolitics:myanmar:2026-08-13-003",
@@ -47,6 +76,174 @@
       "id": "info:entity:concept:Data Governance",
       "type": "concept",
       "name": "Data Governance"
+    },
+    {
+      "id": "taxonomy/topic/geopolitics",
+      "type": "taxonomy",
+      "layer": "topic",
+      "name": "geopolitics"
+    },
+    {
+      "id": "taxonomy/region/myanmar",
+      "type": "taxonomy",
+      "layer": "region",
+      "name": "myanmar"
+    },
+    {
+      "id": "taxonomy/category/policy",
+      "type": "taxonomy",
+      "layer": "category",
+      "name": "policy"
+    },
+    {
+      "id": "taxonomy/category/industry",
+      "type": "taxonomy",
+      "layer": "category",
+      "name": "industry"
+    },
+    {
+      "id": "taxonomy/region/asia",
+      "type": "taxonomy",
+      "layer": "region",
+      "name": "asia"
+    },
+    {
+      "id": "taxonomy/region/thailand",
+      "type": "taxonomy",
+      "layer": "region",
+      "name": "thailand"
+    },
+    {
+      "id": "taxonomy/region/china",
+      "type": "taxonomy",
+      "layer": "region",
+      "name": "china"
+    },
+    {
+      "id": "taxonomy/region/americas",
+      "type": "taxonomy",
+      "layer": "region",
+      "name": "americas"
+    },
+    {
+      "id": "taxonomy/region/us",
+      "type": "taxonomy",
+      "layer": "region",
+      "name": "us"
+    },
+    {
+      "id": "taxonomy/region/canada",
+      "type": "taxonomy",
+      "layer": "region",
+      "name": "canada"
+    },
+    {
+      "id": "taxonomy/region/europe",
+      "type": "taxonomy",
+      "layer": "region",
+      "name": "europe"
+    },
+    {
+      "id": "taxonomy/region/uk",
+      "type": "taxonomy",
+      "layer": "region",
+      "name": "uk"
+    },
+    {
+      "id": "taxonomy/region/germany",
+      "type": "taxonomy",
+      "layer": "region",
+      "name": "germany"
+    },
+    {
+      "id": "taxonomy/topic/llm",
+      "type": "taxonomy",
+      "layer": "topic",
+      "name": "llm"
+    },
+    {
+      "id": "taxonomy/topic/agents",
+      "type": "taxonomy",
+      "layer": "topic",
+      "name": "agents"
+    },
+    {
+      "id": "taxonomy/topic/vision",
+      "type": "taxonomy",
+      "layer": "topic",
+      "name": "vision"
+    },
+    {
+      "id": "taxonomy/topic/conflict",
+      "type": "taxonomy",
+      "layer": "topic",
+      "name": "conflict"
+    },
+    {
+      "id": "taxonomy/topic/trade",
+      "type": "taxonomy",
+      "layer": "topic",
+      "name": "trade"
+    },
+    {
+      "id": "taxonomy/topic/dev-oss",
+      "type": "taxonomy",
+      "layer": "topic",
+      "name": "dev-oss"
+    },
+    {
+      "id": "taxonomy/category/economy",
+      "type": "taxonomy",
+      "layer": "category",
+      "name": "economy"
+    },
+    {
+      "id": "taxonomy/category/macro",
+      "type": "taxonomy",
+      "layer": "category",
+      "name": "macro"
+    },
+    {
+      "id": "taxonomy/category/trade",
+      "type": "taxonomy",
+      "layer": "category",
+      "name": "trade"
+    },
+    {
+      "id": "taxonomy/category/fintech",
+      "type": "taxonomy",
+      "layer": "category",
+      "name": "fintech"
+    },
+    {
+      "id": "taxonomy/category/society",
+      "type": "taxonomy",
+      "layer": "category",
+      "name": "society"
+    },
+    {
+      "id": "taxonomy/category/human",
+      "type": "taxonomy",
+      "layer": "category",
+      "name": "human"
+    },
+    {
+      "id": "taxonomy/category/education",
+      "type": "taxonomy",
+      "layer": "category",
+      "name": "education"
+    },
+    {
+      "id": "taxonomy/category/health",
+      "type": "taxonomy",
+      "layer": "category",
+      "name": "health"
+    },
+    {
+      "id": "taxonomy/category/product",
+      "type": "taxonomy",
+      "layer": "category",
+      "name": "product"
     }
   ],
   "edges": [
@@ -71,6 +268,31 @@
       "relation": "mentioned"
     },
     {
+      "source": "info:item:ai-ml:global:2026-08-13-001",
+      "target": "taxonomy/topic/ai-ml",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-13-001",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-13-001",
+      "target": "taxonomy/category/research",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-13-001",
+      "target": "taxonomy/topic/ai-ml",
+      "relation": "primary_topic"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-13-001",
+      "target": "taxonomy/misc/global",
+      "relation": "primary_region"
+    },
+    {
       "source": "info:item:ai-ml:global:2026-08-13-002",
       "target": "info:entity:concept:Retrieval-Augmented Generation",
       "relation": "uses"
@@ -81,6 +303,36 @@
       "relation": "mentioned"
     },
     {
+      "source": "info:item:ai-ml:global:2026-08-13-002",
+      "target": "taxonomy/topic/ai-ml",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-13-002",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-13-002",
+      "target": "taxonomy/category/research",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-13-002",
+      "target": "taxonomy/category/open-source",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-13-002",
+      "target": "taxonomy/topic/ai-ml",
+      "relation": "primary_topic"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-13-002",
+      "target": "taxonomy/misc/global",
+      "relation": "primary_region"
+    },
+    {
       "source": "info:item:geopolitics:myanmar:2026-08-13-003",
       "target": "info:entity:concept:Myanmar Digital Economy",
       "relation": "analyzes"
@@ -89,6 +341,156 @@
       "source": "info:item:geopolitics:myanmar:2026-08-13-003",
       "target": "info:entity:concept:Data Governance",
       "relation": "discusses"
+    },
+    {
+      "source": "info:item:geopolitics:myanmar:2026-08-13-003",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:geopolitics:myanmar:2026-08-13-003",
+      "target": "taxonomy/region/myanmar",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:geopolitics:myanmar:2026-08-13-003",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:geopolitics:myanmar:2026-08-13-003",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:geopolitics:myanmar:2026-08-13-003",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "primary_topic"
+    },
+    {
+      "source": "info:item:geopolitics:myanmar:2026-08-13-003",
+      "target": "taxonomy/region/myanmar",
+      "relation": "primary_region"
+    },
+    {
+      "source": "taxonomy/region/asia",
+      "target": "taxonomy/region/myanmar",
+      "relation": "parent_of"
+    },
+    {
+      "source": "taxonomy/region/asia",
+      "target": "taxonomy/region/thailand",
+      "relation": "parent_of"
+    },
+    {
+      "source": "taxonomy/region/asia",
+      "target": "taxonomy/region/china",
+      "relation": "parent_of"
+    },
+    {
+      "source": "taxonomy/region/americas",
+      "target": "taxonomy/region/us",
+      "relation": "parent_of"
+    },
+    {
+      "source": "taxonomy/region/americas",
+      "target": "taxonomy/region/canada",
+      "relation": "parent_of"
+    },
+    {
+      "source": "taxonomy/region/europe",
+      "target": "taxonomy/region/uk",
+      "relation": "parent_of"
+    },
+    {
+      "source": "taxonomy/region/europe",
+      "target": "taxonomy/region/germany",
+      "relation": "parent_of"
+    },
+    {
+      "source": "taxonomy/topic/ai-ml",
+      "target": "taxonomy/topic/llm",
+      "relation": "parent_of"
+    },
+    {
+      "source": "taxonomy/topic/ai-ml",
+      "target": "taxonomy/topic/agents",
+      "relation": "parent_of"
+    },
+    {
+      "source": "taxonomy/topic/ai-ml",
+      "target": "taxonomy/topic/vision",
+      "relation": "parent_of"
+    },
+    {
+      "source": "taxonomy/topic/geopolitics",
+      "target": "taxonomy/topic/conflict",
+      "relation": "parent_of"
+    },
+    {
+      "source": "taxonomy/topic/geopolitics",
+      "target": "taxonomy/topic/trade",
+      "relation": "parent_of"
+    },
+    {
+      "source": "taxonomy/category/economy",
+      "target": "taxonomy/category/macro",
+      "relation": "parent_of"
+    },
+    {
+      "source": "taxonomy/category/economy",
+      "target": "taxonomy/category/trade",
+      "relation": "parent_of"
+    },
+    {
+      "source": "taxonomy/category/economy",
+      "target": "taxonomy/category/fintech",
+      "relation": "parent_of"
+    },
+    {
+      "source": "taxonomy/category/society",
+      "target": "taxonomy/category/human",
+      "relation": "parent_of"
+    },
+    {
+      "source": "taxonomy/category/society",
+      "target": "taxonomy/category/education",
+      "relation": "parent_of"
+    },
+    {
+      "source": "taxonomy/category/society",
+      "target": "taxonomy/category/health",
+      "relation": "parent_of"
+    },
+    {
+      "source": "taxonomy/category/industry",
+      "target": "taxonomy/category/product",
+      "relation": "parent_of"
+    },
+    {
+      "source": "taxonomy/category/industry",
+      "target": "taxonomy/category/open-source",
+      "relation": "parent_of"
+    },
+    {
+      "source": "taxonomy/region/myanmar",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "taxonomy/region/myanmar",
+      "target": "taxonomy/category/economy",
+      "relation": "relates"
+    },
+    {
+      "source": "taxonomy/topic/llm",
+      "target": "taxonomy/topic/agents",
+      "relation": "related"
+    },
+    {
+      "source": "taxonomy/region/us",
+      "target": "taxonomy/topic/dev-oss",
+      "relation": "relates"
     },
     {
       "source": "info:entity:company:Anthropic",
