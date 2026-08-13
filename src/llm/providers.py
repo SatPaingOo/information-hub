@@ -83,7 +83,9 @@ class ProviderManager:
 
         Mock mode: env keys are not required (auto-enable all configured).
         Real mode: providers without keys are auto-disabled and logged.
+        Models marked down on a previous day are re-enabled (fresh attempt).
         """
+        self.registry.reset_health_if_stale()
         specs: list[ModelSpec] = []
         for p in self.cfg.providers.values():
             if not p.enabled or p.role != role:
@@ -224,6 +226,11 @@ class ProviderManager:
                            model=spec.model, status="error",
                            detail=f"HTTP {e.status_code}: {e}")
             raise
+        except Exception as e:  # defensive — never crash the pipeline
+            self.registry.record_provider_failure(spec.provider, spec.model, mark_down=True)
+            self.log.event("collect", "call_error", provider=spec.provider,
+                           model=spec.model, status="error", detail=str(e))
+            raise ProviderError(f"unexpected error: {e}") from e
 
     def verify(self, spec: ModelSpec, system_prompt: str,
                user_prompt: str) -> dict[str, Any]:
@@ -260,6 +267,11 @@ class ProviderManager:
                            model=spec.model, status="error",
                            detail=f"HTTP {e.status_code}: {e}")
             raise
+        except Exception as e:  # defensive — never crash the pipeline
+            self.registry.record_provider_failure(spec.provider, spec.model, mark_down=True)
+            self.log.event("check", "verify_error", provider=spec.provider,
+                           model=spec.model, status="error", detail=str(e))
+            raise ProviderError(f"unexpected error: {e}") from e
 
     def ping(self, spec: ModelSpec) -> bool:
         """Cheap health ping (max_tokens=1). Returns True if responsive."""

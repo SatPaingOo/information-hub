@@ -223,6 +223,21 @@ class Registry:
         stats = self.provider_model_stats(provider, model)
         return bool(stats.get("healthy", True))
 
+    def reset_health_if_stale(self) -> None:
+        """Re-enable models whose last health check was a previous day.
+
+        Registry persists across runs (committed with the data), so models
+        marked down during one run are retried once per day.
+        """
+        import datetime as dt
+        today = dt.date.today().isoformat()
+        for provider, models in self.providers.items():
+            for model, stats in models.items():
+                last = stats.get("last_health_check", "")
+                if stats.get("healthy") is False and not last.startswith(today):
+                    stats["healthy"] = True
+                    stats["consecutive_failures"] = 0
+
     def provider_calls(self, provider: str, model: str) -> int:
         return self.provider_model_stats(provider, model).get("calls", 0)
 

@@ -50,7 +50,7 @@ class ProviderError(RuntimeError):
 
 
 def call_openai(spec: Any, key: str, system: str, user: str,
-                json_mode: bool = True, max_tokens: int = 2048,
+                json_mode: bool = True, max_tokens: int = 4096,
                 temperature: float = 0.4) -> dict[str, Any]:
     """Call an OpenAI-compatible ``/chat/completions`` endpoint.
 
@@ -63,8 +63,9 @@ def call_openai(spec: Any, key: str, system: str, user: str,
         max_tokens / temperature: generation config.
 
     Returns:
-        Parsed JSON object from the model (non-JSON responses are not
-        supported here — collectors always request JSON).
+        Parsed JSON object from the model.  When ``json_mode`` is False the
+        text is still parsed as JSON (fenced ````` ```json ```` blocks are
+        stripped) so non-JSON-mode free models can be used.
 
     Raises:
         ProviderError: on network failure, HTTP error, or bad response.
@@ -93,14 +94,16 @@ def call_openai(spec: Any, key: str, system: str, user: str,
                             status_code=resp.status_code)
     try:
         content = resp.json()["choices"][0]["message"]["content"]
-        return json.loads(content)
-    except (KeyError, IndexError, ValueError, json.JSONDecodeError) as e:
+        if not content:
+            raise ProviderError("empty model content")
+        return _parse_json_tolerant(content)
+    except (KeyError, IndexError, ValueError, TypeError, json.JSONDecodeError) as e:
         raise ProviderError(f"bad response: {e}") from e
 
 
 def call_google(spec: Any, key: str, system: str, user: str,
                 json_mode: bool = True, search_tool: str | None = None,
-                max_tokens: int = 2048, temperature: float = 0.4) -> dict[str, Any]:
+                max_tokens: int = 4096, temperature: float = 0.4) -> dict[str, Any]:
     """Call the Gemini ``:generateContent`` endpoint.
 
     Args:
@@ -145,10 +148,38 @@ def call_google(spec: Any, key: str, system: str, user: str,
         raise ProviderError("empty response content")
     if json_mode:
         try:
-            return json.loads(text)
+            return _parse_json_tolerant(text)
         except json.JSONDecodeError as e:
             raise ProviderError(f"non-JSON response: {text[:200]}") from e
     return {"text": text, "grounding": _extract_grounding(data)}
+
+
+def _parse_json_tolerant(text: str) -> dict[str, Any]:
+    """Parse JSON from model text, stripping ```json fences if present.
+
+    Falls back to slicing the first ``{`` … ``}`` block so models without
+    JSON mode (which may wrap output in prose) still work.
+    """
+    text = text.strip()
+    try:
+        return json.loads(text)
+    except json.JSONDecodeError:
+        # strip markdown fences
+        if text.startswith("```"):
+            text = text.split("\n", 1)[-1].rsplit("```", 1)[0].strip()
+            return json.loads(text)
+        # slice first balanced {...} block
+        start = text.find("{")
+        if start >= 0:
+            depth = 0
+            for i in range(start, len(text)):
+                if text[i] == "{":
+                    depth += 1
+                elif text[i] == "}":
+                    depth -= 1
+                    if depth == 0:
+                        return json.loads(text[start:i + 1])
+        raise
 
 
 def _extract_google_text(data: dict[str, Any]) -> str:
@@ -156,7 +187,7 @@ def _extract_google_text(data: dict[str, Any]) -> str:
     try:
         parts = data["candidates"][0]["content"]["parts"]
         return "".join(p.get("text", "") for p in parts)
-    except (KeyError, IndexError):
+    except (KeyError, IndexError, TypeError):
         return ""
 
 
