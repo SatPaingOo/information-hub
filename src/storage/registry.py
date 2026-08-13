@@ -227,10 +227,11 @@ class Registry:
         """Re-enable models whose last health check was a previous day.
 
         Registry persists across runs (committed with the data), so models
-        marked down during one run are retried once per day.
+        marked down during one run are retried once per day.  Comparison is
+        done in UTC to match the ``last_health_check`` timestamps.
         """
         import datetime as dt
-        today = dt.date.today().isoformat()
+        today = dt.datetime.now(dt.timezone.utc).date().isoformat()
         for provider, models in self.providers.items():
             for model, stats in models.items():
                 last = stats.get("last_health_check", "")
