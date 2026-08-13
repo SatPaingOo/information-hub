@@ -152,25 +152,30 @@ class GroundingEngine:
         }
 
     def _lexical(self, claims: list[str], fulltext: str,
-                 coverage: float = 0.5) -> dict[str, Any]:
-        """Local, API-free grounding: claim token coverage in source fulltext.
+                 min_shared: int = 3) -> dict[str, Any]:
+        """Local, API-free grounding: shared-token evidence in source fulltext.
 
-        A claim is "grounded" when at least ``coverage`` of its significant
-        tokens appear in the source article text.  Used as a fallback when the
-        Gemini search quota is unavailable — the pipeline still produces a
-        score, review status and (empty) citation list.
+        A claim is "grounded" when it shares at least ``min_shared``
+        significant tokens with the source article text.  Deep-dives
+        paraphrase their sources, so a small absolute overlap is the right
+        signal (a 50% ratio would fail almost every paraphrase).  Used as a
+        fallback when the Gemini search quota is unavailable — the pipeline
+        still produces a score, review status and (empty) citation list.
         """
         import re
-        tokens = set(re.findall(r"[a-z0-9']+", (fulltext or "").lower()))
+        stop = {"the", "and", "for", "with", "from", "that", "this", "are",
+                "was", "were", "its", "their", "more", "than", "over", "into",
+                "about", "what", "which", "will", "been", "have", "has", "had"}
+        tokens = {t for t in re.findall(r"[a-z0-9']+", (fulltext or "").lower())
+                  if t not in stop}
         grounded = 0
         for claim in claims:
-            claim_tokens = set(re.findall(r"[a-z0-9']+", claim.lower()))
-            # skip stopword-ish tiny claims
+            claim_tokens = {t for t in re.findall(r"[a-z0-9']+", claim.lower())
+                            if t not in stop}
             if len(claim_tokens) < 4:
                 grounded += 1  # too short to verify meaningfully
                 continue
-            hit = len(claim_tokens & tokens) / len(claim_tokens)
-            if hit >= coverage:
+            if len(claim_tokens & tokens) >= min_shared:
                 grounded += 1
         return {
             "claims_total": len(claims),
