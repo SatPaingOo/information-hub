@@ -88,7 +88,7 @@ class Indexer:
             "source": r["source"]["name"], "source_url": r["source"]["url"],
             "entities": [e["name"] for e in r.get("entities", [])],
             "tags": r.get("tags", []),
-            "file": f"data-set/{_layer_of(r)}/{r['key']}.json",
+            "file": f"data-set/{_record_name(r)}.json",
         } for r in sorted(records, key=lambda x: x["date"], reverse=True)]
         (self.index_dir / "index.json").write_text(
             json.dumps(index, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
@@ -318,6 +318,12 @@ class Indexer:
                 )
                 (layer_dir / _safe_name(node)).with_suffix(".md").write_text(
                     md + "\n", encoding="utf-8")
+
+
+def _record_name(rec: dict[str, Any]) -> str:
+    """Flat readable record filename: ``<key>-<title-slug>``."""
+    from src.storage.store import record_filename
+    return record_filename(rec)
 
 
 def _layer_of(rec: dict[str, Any]) -> str:

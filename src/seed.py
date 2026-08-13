@@ -200,8 +200,7 @@ def main() -> None:
     registry = Registry(cfg.storage.data_dir / "collections" / "registry")
 
     for rec in records:
-        layer = rec["topic"]
-        store.write_record(rec, layer)
+        store.write_record(rec)
         registry.record_item(rec, status="seed", gemini_calls=0, validated=True)
 
     store.write_raw_run(run_ts, records)

@@ -104,21 +104,6 @@ def _find_related(candidate: Candidate, records: list[dict[str, Any]]) -> list[s
     return out
 
 
-def _primary_layer_value(collection: CollectionConfig, record: dict[str, Any]) -> str:
-    """Canonical physical folder layer value for a record."""
-    layer = collection.primary_layer
-    if layer == "region":
-        return record.get("region", "global")
-    if layer == "content_type":
-        return record.get("content_type", "article")
-    return record.get("topic", "misc")
-
-
-def _layer_of_record(record: dict[str, Any]) -> str:
-    """Topic-based layer for re-storing a record during check phase."""
-    return record.get("topic", "misc")
-
-
 # ---- phase: collect ------------------------------------------------------
 def run_collect(cfg: Config, registry: Registry, store: Store, indexer: Indexer,
                 run_log: RunLog, logger: Any, pm: ProviderManager, *,
@@ -257,7 +242,7 @@ def run_collect(cfg: Config, registry: Registry, store: Store, indexer: Indexer,
                                  "supports_json": True},
                 "schema_version": SCHEMA_VERSION,
             }
-            store.write_record(record, _primary_layer_value(collection, record))
+            store.write_record(record)
             registry.record_item(record, status="published",
                                  gemini_calls=attempt + 1, validated=True,
                                  provider=gen_provider, model=gen_model)
@@ -330,7 +315,7 @@ def run_check(cfg: Config, registry: Registry, store: Store, indexer: Indexer,
                             "model": spec.model},
             "approved_at": _utcnow(),
         }
-        store.write_record(rec, _layer_of_record(rec))
+        store.write_record(rec)
         logger.info("check: %s score=%s status=%s sources=%d",
                     rec["id"], result["grounding_score"], status,
                     len(result["sources_verified"]))

@@ -14,10 +14,9 @@ from ..conftest import sample_record
 
 def _fake_store(tmp_path: Path) -> Store:
     store = Store(tmp_path)
-    store.write_record(sample_record(key="2026-08-14-001"), "ai-ml")
-    store.write_record(sample_record(key="2026-08-14-002", topic="geopolitics",
-                                     region="myanmar", title="Myanmar policy story"),
-                       "myanmar")
+    store.write_record(sample_record(key="2026-08-14-001", title="First story"))
+    store.write_record(sample_record(key="2026-08-14-002", title="Myanmar policy story",
+                                     topic="geopolitics", region="myanmar"))
     return store
 
 
@@ -32,10 +31,11 @@ def test_indexer_rebuilds_layers(tmp_path: Path):
     assert (indexer.index_dir / "by-date" / "2026-08-14.json").exists()
     assert (indexer.index_dir / "by-entity" / "RAG.json").exists()
 
-    # master index
+    # master index — flat file path (no topic/region folder)
     index = json.loads((indexer.index_dir / "index.json").read_text(encoding="utf-8"))
     assert len(index) == 2
-    assert index[0]["topic"] in ("ai-ml", "geopolitics")
+    assert all("data-set/2026-08-14-00" in r["file"] for r in index)
+    assert "/ai-ml/" not in index[0]["file"]
 
     # graph
     graph = json.loads((indexer.index_dir / "graph.json").read_text(encoding="utf-8"))
@@ -50,9 +50,9 @@ def test_indexer_rebuilds_layers(tmp_path: Path):
 def test_graph_contains_taxonomy_nodes_and_edges(tmp_path: Path):
     cfg = Config.load()
     store = Store(tmp_path)
-    store.write_record(sample_record(topic="ai-ml", region="global"), "ai-ml")
+    store.write_record(sample_record(topic="ai-ml", region="global", title="AI story one"))
     store.write_record(sample_record(key="2026-08-14-002", topic="geopolitics",
-                                     region="myanmar"), "geopolitics")
+                                     region="myanmar", title="Myanmar story"))
     indexer = Indexer(tmp_path)
     indexer.rebuild(store.iter_records(), taxonomy=cfg.taxonomy, relations=cfg.relations)
 
@@ -76,7 +76,7 @@ def test_graph_contains_taxonomy_nodes_and_edges(tmp_path: Path):
 def test_taxonomy_index_and_notes(tmp_path: Path):
     cfg = Config.load()
     store = Store(tmp_path)
-    store.write_record(sample_record(topic="ai-ml", region="global"), "ai-ml")
+    store.write_record(sample_record(topic="ai-ml", region="global", title="AI story"))
     indexer = Indexer(tmp_path)
     indexer.rebuild(store.iter_records(), taxonomy=cfg.taxonomy, relations=cfg.relations)
 
