@@ -222,5 +222,29 @@
       "supports_json": false,
       "exhausted_until": null
     }
+  },
+  "gemini": {
+    "gemini-3.5-flash-lite": {
+      "calls": 0,
+      "items": 0,
+      "errors": 1,
+      "consecutive_failures": 1,
+      "healthy": false,
+      "last_health_check": "2026-08-13T19:55:35+00:00",
+      "latency_ms": null,
+      "supports_json": true,
+      "exhausted_until": null
+    },
+    "gemini-3.5-flash": {
+      "calls": 0,
+      "items": 0,
+      "errors": 1,
+      "consecutive_failures": 1,
+      "healthy": false,
+      "last_health_check": "2026-08-13T19:55:35+00:00",
+      "latency_ms": null,
+      "supports_json": true,
+      "exhausted_until": null
+    }
   }
 }
