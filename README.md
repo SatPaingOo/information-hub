@@ -104,7 +104,7 @@ information-hub/                        ← monorepo root
 ## Developer
 
 - **Sat Paing Oo**
-- Repo: https://github.com/<your-user>/information-hub-github-action
+- Repo: https://github.com/SatPaingOo/information-hub-github-action
 
 ---
 
