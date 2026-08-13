@@ -121,8 +121,15 @@ class ProviderManager:
         return list(p.models)
 
     def _discover_openrouter_free(self) -> list[str]:
-        """Fetch OpenRouter free models (pricing==0), JSON-capable first."""
+        """Fetch OpenRouter free models (pricing==0), JSON-capable first.
+
+        Records each model's JSON-mode capability in the registry so
+        ``models_for_role`` can pick ``supports_json`` and fall back to the
+        tolerant prompt-JSON path for models without native JSON mode.
+        """
         if self.mock:
+            for m in ("qwen/qwen-2.5-7b-instruct:free", "liquid/lfm-2.5-2.6b:free"):
+                self.registry.set_provider_json_support("openrouter", m, True)
             return ["qwen/qwen-2.5-7b-instruct:free", "liquid/lfm-2.5-2.6b:free"]
         try:
             resp = requests.get(
@@ -146,7 +153,10 @@ class ProviderManager:
             json_ok = "response_format" in params or "structured_outputs" in params
             free.append((mid, json_ok))
         free.sort(key=lambda x: (not x[1], x[0]))  # JSON-capable first
-        result = [mid for mid, _ in free]
+        result: list[str] = []
+        for mid, json_ok in free:
+            self.registry.set_provider_json_support("openrouter", mid, json_ok)
+            result.append(mid)
         self.log.event("collect", "discovered_models", provider="openrouter",
                        detail=f"{len(result)} free models")
         return result
