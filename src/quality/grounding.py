@@ -59,25 +59,30 @@ class GroundingEngine:
         last_err: Exception | None = None
         # Retry transient failures (429/5xx/network) with backoff — the Gemini
         # free tier is frequently rate-limited on quick consecutive calls.
-        for attempt in range(self.cfg.gemini.retries + 1):
-            try:
-                result = self.pm.verify(spec, SYSTEM_VERIFY, prompt)
-                break
-            except Exception as e:  # verify failed → retry transient, else give up
-                last_err = e
-                status = getattr(e, "status_code", None)
-                transient = status is None or status in (429, 500, 502, 503, 504)
-                if not transient or attempt >= self.cfg.gemini.retries:
+        if spec is not None:
+            for attempt in range(self.cfg.gemini.retries + 1):
+                try:
+                    result = self.pm.verify(spec, SYSTEM_VERIFY, prompt)
                     break
-                time.sleep(3 * (attempt + 1))  # backoff before retrying
+                except Exception as e:  # verify failed → retry transient, else give up
+                    last_err = e
+                    status = getattr(e, "status_code", None)
+                    transient = status is None or status in (429, 500, 502, 503, 504)
+                    if not transient or attempt >= self.cfg.gemini.retries:
+                        break
+                    time.sleep(3 * (attempt + 1))  # backoff before retrying
 
         if result is not None:
             parsed = self._parse(result, claims)
             return self._finalize(record, parsed, spec, method="gemini-search")
 
         # Fallback: lexical grounding against the source fulltext (no API).
+        if spec is None:
+            reason = "no check provider available"
+        else:
+            reason = f"gemini unavailable: {last_err}"
         self.log.event("check", "verify_failed", item_id=record["id"],
-                       status="error", detail=f"gemini unavailable: {last_err}")
+                       status="error", detail=reason)
         parsed = self._lexical(claims, fulltext)
         return self._finalize(record, parsed, spec, method="lexical")
 
