@@ -83,6 +83,8 @@ def test_lexical_fallback_without_spec(tmp_path: Path):
         "background context sentence repeated analysis content",
         "analysis content about the key development facts",
     ]
+    reg.record_item(rec, status="published", gemini_calls=1, validated=True,
+                    provider="mock", model="mock")
     result = engine.check_record(rec, spec=None, fulltext=" ".join([
         "background context sentence analysis content development",
         "fact sentence repeated wording",
