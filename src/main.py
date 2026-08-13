@@ -22,6 +22,7 @@ from __future__ import annotations
 import argparse
 import datetime as dt
 import sys
+import time
 from typing import Any
 
 from src.collect.fulltext import extract as extract_fulltext
@@ -297,6 +298,7 @@ def run_check(cfg: Config, registry: Registry, store: Store, indexer: Indexer,
         result = engine.check_record(rec, spec)
         if result["grounding_score"] is None:
             logger.info("check: %s — skipped (%s)", rec["id"], result.get("reason"))
+            time.sleep(2)  # pace rate-limited free tier between items
             continue
         rec["grounding"] = {
             "checked_by": {"provider": spec.provider, "model": spec.model,
@@ -320,6 +322,7 @@ def run_check(cfg: Config, registry: Registry, store: Store, indexer: Indexer,
                     rec["id"], result["grounding_score"], status,
                     len(result["sources_verified"]))
         checked += 1
+        time.sleep(3)  # pace rate-limited free tier between verify calls
 
     if checked:
         indexer.rebuild(store.iter_records(), taxonomy=cfg.taxonomy, relations=cfg.relations)

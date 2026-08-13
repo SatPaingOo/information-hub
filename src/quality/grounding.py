@@ -15,6 +15,7 @@ Role: phase check — consumed by ``main.run_check``.
 
 from __future__ import annotations
 
+import time
 from typing import Any
 
 from src.config import Config
@@ -47,15 +48,30 @@ class GroundingEngine:
                     "claims_grounded": 0, "sources_verified": [],
                     "method": "none", "reason": "no claims"}
         prompt = _build_verify_prompt(record, claims)
-        try:
-            result = self.pm.verify(spec, SYSTEM_VERIFY, prompt)
-            parsed = self._parse(result, claims)
-        except Exception as e:  # verification unavailable → leave unverified
+        result = None
+        last_err: Exception | None = None
+        # Retry transient failures (429/5xx/network) with backoff — the Gemini
+        # free tier is frequently rate-limited on quick consecutive calls.
+        for attempt in range(self.cfg.gemini.retries + 1):
+            try:
+                result = self.pm.verify(spec, SYSTEM_VERIFY, prompt)
+                break
+            except Exception as e:  # verify failed → retry transient, else give up
+                last_err = e
+                status = getattr(e, "status_code", None)
+                transient = status is None or status in (429, 500, 502, 503, 504)
+                if not transient or attempt >= self.cfg.gemini.retries:
+                    break
+                time.sleep(3 * (attempt + 1))  # backoff before retrying
+
+        if result is None:
             self.log.event("check", "verify_failed", item_id=record["id"],
-                           status="error", detail=str(e))
+                           status="error", detail=str(last_err))
             return {"grounding_score": None, "claims_total": len(claims),
                     "claims_grounded": 0, "sources_verified": [],
-                    "method": "gemini-search", "reason": f"verify error: {e}"}
+                    "method": "gemini-search", "reason": f"verify error: {last_err}"}
+
+        parsed = self._parse(result, claims)
 
         total = parsed["claims_total"]
         grounded = parsed["claims_grounded"]
