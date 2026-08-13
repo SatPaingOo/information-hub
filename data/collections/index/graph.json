@@ -102,6 +102,58 @@
       "name": "industry"
     },
     {
+      "id": "info:item:geopolitics:myanmar:2026-08-13-004",
+      "type": "item",
+      "date": "2026-08-13",
+      "title": "‘One Rohingya from every household’: Myanmar junta formalises forced conscription in Rakhine State"
+    },
+    {
+      "id": "info:entity:concept:Forced Conscription",
+      "type": "concept",
+      "name": "Forced Conscription"
+    },
+    {
+      "id": "info:entity:concept:Rohingya Minority",
+      "type": "concept",
+      "name": "Rohingya Minority"
+    },
+    {
+      "id": "taxonomy/misc/regions",
+      "type": "taxonomy",
+      "name": "regions"
+    },
+    {
+      "id": "taxonomy/misc/topics",
+      "type": "taxonomy",
+      "name": "topics"
+    },
+    {
+      "id": "taxonomy/misc/categories",
+      "type": "taxonomy",
+      "name": "categories"
+    },
+    {
+      "id": "info:item:geopolitics:myanmar:2026-08-13-005",
+      "type": "item",
+      "date": "2026-08-13",
+      "title": "Escalation of Aerial Warfare in Rakhine: Junta Airstrikes Target Civilian Populations Amidst Arakan Army Gains"
+    },
+    {
+      "id": "info:entity:concept:Arakan Army",
+      "type": "concept",
+      "name": "Arakan Army"
+    },
+    {
+      "id": "info:entity:concept:Myanmar Military",
+      "type": "concept",
+      "name": "Myanmar Military"
+    },
+    {
+      "id": "taxonomy/misc/policy",
+      "type": "taxonomy",
+      "name": "policy"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -373,6 +425,116 @@
       "relation": "primary_region"
     },
     {
+      "source": "info:item:geopolitics:myanmar:2026-08-13-004",
+      "target": "info:entity:concept:Forced Conscription",
+      "relation": "Policy"
+    },
+    {
+      "source": "info:item:geopolitics:myanmar:2026-08-13-004",
+      "target": "info:entity:concept:Rohingya Minority",
+      "relation": "Group"
+    },
+    {
+      "source": "info:item:geopolitics:myanmar:2026-08-13-004",
+      "target": "info:item:human_rights:myanmar:2021-02-01-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:geopolitics:myanmar:2026-08-13-004",
+      "target": "info:item:geopolitics:asia:2022-01-01-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:geopolitics:myanmar:2026-08-13-004",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:geopolitics:myanmar:2026-08-13-004",
+      "target": "taxonomy/region/myanmar",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:geopolitics:myanmar:2026-08-13-004",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:geopolitics:myanmar:2026-08-13-004",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:geopolitics:myanmar:2026-08-13-004",
+      "target": "taxonomy/misc/regions",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:geopolitics:myanmar:2026-08-13-004",
+      "target": "taxonomy/misc/topics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:geopolitics:myanmar:2026-08-13-004",
+      "target": "taxonomy/misc/categories",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:geopolitics:myanmar:2026-08-13-005",
+      "target": "info:entity:concept:Arakan Army",
+      "relation": "ethnic armed group controlling much of Rakhine State"
+    },
+    {
+      "source": "info:item:geopolitics:myanmar:2026-08-13-005",
+      "target": "info:entity:concept:Myanmar Military",
+      "relation": "performing airstrikes on civilian targets"
+    },
+    {
+      "source": "info:item:geopolitics:myanmar:2026-08-13-005",
+      "target": "info:item:geopolitics:myanmar:2026-08-13-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:geopolitics:myanmar:2026-08-13-005",
+      "target": "info:item:geopolitics:myanmar:2026-08-13-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:geopolitics:myanmar:2026-08-13-005",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:geopolitics:myanmar:2026-08-13-005",
+      "target": "taxonomy/region/myanmar",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:geopolitics:myanmar:2026-08-13-005",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:geopolitics:myanmar:2026-08-13-005",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:geopolitics:myanmar:2026-08-13-005",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:geopolitics:myanmar:2026-08-13-005",
+      "target": "taxonomy/region/myanmar",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:geopolitics:myanmar:2026-08-13-005",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -529,8 +691,20 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:concept:Arakan Army",
+      "target": "info:entity:concept:Myanmar Military",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:concept:Data Governance",
       "target": "info:entity:concept:Myanmar Digital Economy",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Forced Conscription",
+      "target": "info:entity:concept:Rohingya Minority",
       "relation": "co-occurs",
       "weight": "1"
     }

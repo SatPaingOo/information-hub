@@ -12,36 +12,47 @@
       "exhausted_until": null
     },
     "llama-3.1-8b-instant": {
-      "calls": 0,
+      "calls": 1,
+      "items": 1,
+      "errors": 0,
+      "consecutive_failures": 0,
+      "healthy": true,
+      "last_health_check": "2026-08-13T19:22:56+00:00",
+      "latency_ms": 1530,
+      "supports_json": true,
+      "exhausted_until": null
+    },
+    "llama-3.3-70b-versatile": {
+      "calls": 1,
       "items": 0,
       "errors": 0,
       "consecutive_failures": 0,
       "healthy": true,
-      "last_health_check": null,
-      "latency_ms": null,
+      "last_health_check": "2026-08-13T19:22:53+00:00",
+      "latency_ms": 601,
       "supports_json": true,
       "exhausted_until": null
     }
   },
   "openrouter": {
     "google/gemma-4-26b-a4b-it:free": {
-      "calls": 0,
-      "items": 0,
+      "calls": 1,
+      "items": 1,
       "errors": 0,
       "consecutive_failures": 0,
       "healthy": true,
-      "last_health_check": null,
-      "latency_ms": null,
+      "last_health_check": "2026-08-13T19:24:16+00:00",
+      "latency_ms": 78753,
       "supports_json": true,
       "exhausted_until": null
     },
     "google/gemma-4-31b-it:free": {
       "calls": 0,
       "items": 0,
-      "errors": 0,
-      "consecutive_failures": 0,
-      "healthy": true,
-      "last_health_check": null,
+      "errors": 1,
+      "consecutive_failures": 1,
+      "healthy": false,
+      "last_health_check": "2026-08-13T19:24:16+00:00",
       "latency_ms": null,
       "supports_json": true,
       "exhausted_until": null
@@ -49,10 +60,10 @@
     "google/lyria-3-clip-preview": {
       "calls": 0,
       "items": 0,
-      "errors": 0,
-      "consecutive_failures": 0,
-      "healthy": true,
-      "last_health_check": null,
+      "errors": 1,
+      "consecutive_failures": 1,
+      "healthy": false,
+      "last_health_check": "2026-08-13T19:24:16+00:00",
       "latency_ms": null,
       "supports_json": true,
       "exhausted_until": null
