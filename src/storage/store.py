@@ -107,3 +107,22 @@ class Store:
             except (json.JSONDecodeError, OSError):
                 continue
         return records
+
+    def iter_raw_frames(self, run_date: str) -> list[dict[str, Any]]:
+        """Load the raw AI output frames for a date (check-phase grounding).
+
+        Args:
+            run_date: ISO date (``YYYY-MM-DD``) — matches the frame filename
+                prefix ``<run_timestamp>.json``.
+
+        Returns:
+            List of raw frame dicts for that date (each frame has ``items``
+            which may carry a ``fulltext`` field used for lexical grounding).
+        """
+        frames: list[dict[str, Any]] = []
+        for path in sorted(self.raws.glob(f"{run_date}*.json")):
+            try:
+                frames.append(json.loads(path.read_text(encoding="utf-8")))
+            except (json.JSONDecodeError, OSError):
+                continue
+        return frames

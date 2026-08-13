@@ -137,6 +137,7 @@ def run_collect(cfg: Config, registry: Registry, store: Store, indexer: Indexer,
     collections = due
 
     run_records: list[dict[str, Any]] = []
+    fulltext_by_id: dict[str, str] = {}   # record id -> source fulltext (for check)
     total_quota = cfg.storage.max_daily_items_total
     if limit:
         total_quota = min(total_quota, limit)
@@ -251,6 +252,7 @@ def run_collect(cfg: Config, registry: Registry, store: Store, indexer: Indexer,
                           item_id=record["id"], provider=gen_provider, model=gen_model,
                           detail=record["title"][:80])
             known_entities.update(e["name"] for e in record.get("entities", []))
+            fulltext_by_id[record["id"]] = fulltext or ""
             run_records.append(record)
             total_quota -= 1
             published += 1
@@ -262,7 +264,11 @@ def run_collect(cfg: Config, registry: Registry, store: Store, indexer: Indexer,
 
     timestamp = _utcnow()
     if run_records:
-        store.write_raw_run(timestamp, run_records)
+        # attach source fulltext to the raw frame (check phase uses it for
+        # lexical grounding when the Gemini search quota is unavailable)
+        raw_items = [{**rec, "fulltext": fulltext_by_id.get(rec["id"], "")}
+                     for rec in run_records]
+        store.write_raw_run(timestamp, raw_items)
     indexer.rebuild(store.iter_records(), taxonomy=cfg.taxonomy, relations=cfg.relations)
     registry.mark_run([r["id"] for r in run_records], quota_used=len(run_records))
     registry.save()
@@ -288,21 +294,25 @@ def run_check(cfg: Config, registry: Registry, store: Store, indexer: Indexer,
         registry.save()
         return 0
 
+    # raw frames carry the source fulltext → lexical grounding fallback
+    fulltext_by_id: dict[str, str] = {}
+    for frame in store.iter_raw_frames(run_date):
+        for item in frame.get("items", []):
+            fulltext_by_id[item.get("id", "")] = item.get("fulltext", "")
+
     cap = cfg.quality.max_ai_verify_per_run
     checked = 0
     for rec in records_today[:cap]:
-        spec = pm.pick_check()
-        if spec is None:
-            logger.warning("check: no healthy check provider — stopping")
-            break
-        result = engine.check_record(rec, spec)
+        spec = pm.pick_check()   # None → lexical fallback (no Gemini quota)
+        result = engine.check_record(rec, spec, fulltext_by_id.get(rec["id"], ""))
         if result["grounding_score"] is None:
             logger.info("check: %s — skipped (%s)", rec["id"], result.get("reason"))
             time.sleep(2)  # pace rate-limited free tier between items
             continue
         rec["grounding"] = {
-            "checked_by": {"provider": spec.provider, "model": spec.model,
-                           "search_tool": spec.search_tool},
+            "checked_by": {"provider": spec.provider if spec else result["method"],
+                           "model": spec.model if spec else "lexical",
+                           "search_tool": spec.search_tool if spec else None},
             "checked_at": _utcnow(),
             "grounding_score": result["grounding_score"],
             "claims_total": result["claims_total"],
@@ -313,8 +323,9 @@ def run_check(cfg: Config, registry: Registry, store: Store, indexer: Indexer,
         status = result.get("review_status", "pending_review")
         rec["review"] = {
             "status": status,
-            "approved_by": {"type": "ai", "provider": spec.provider,
-                            "model": spec.model},
+            "approved_by": {"type": "ai",
+                            "provider": spec.provider if spec else result["method"],
+                            "model": spec.model if spec else "lexical"},
             "approved_at": _utcnow(),
         }
         store.write_record(rec)

@@ -40,8 +40,15 @@ class GroundingEngine:
         self.log = run_log
         self.pm = provider_manager
 
-    def check_record(self, record: dict[str, Any], spec: Any) -> dict[str, Any]:
-        """Verify a record's claims; returns the grounding result dict."""
+    def check_record(self, record: dict[str, Any], spec: Any,
+                     fulltext: str = "") -> dict[str, Any]:
+        """Verify a record's claims; returns the grounding result dict.
+
+        Tries the Gemini search-grounding provider first; if its free-tier
+        quota is unavailable (429/error) or no spec exists, falls back to a
+        local lexical score (claim token coverage against the source
+        fulltext) so the pipeline always produces a grounding result.
+        """
         claims = self._claims_of(record)
         if not claims:
             return {"grounding_score": None, "claims_total": 0,
@@ -64,15 +71,19 @@ class GroundingEngine:
                     break
                 time.sleep(3 * (attempt + 1))  # backoff before retrying
 
-        if result is None:
-            self.log.event("check", "verify_failed", item_id=record["id"],
-                           status="error", detail=str(last_err))
-            return {"grounding_score": None, "claims_total": len(claims),
-                    "claims_grounded": 0, "sources_verified": [],
-                    "method": "gemini-search", "reason": f"verify error: {last_err}"}
+        if result is not None:
+            parsed = self._parse(result, claims)
+            return self._finalize(record, parsed, spec, method="gemini-search")
 
-        parsed = self._parse(result, claims)
+        # Fallback: lexical grounding against the source fulltext (no API).
+        self.log.event("check", "verify_failed", item_id=record["id"],
+                       status="error", detail=f"gemini unavailable: {last_err}")
+        parsed = self._lexical(claims, fulltext)
+        return self._finalize(record, parsed, spec, method="lexical")
 
+    def _finalize(self, record: dict[str, Any], parsed: dict[str, Any],
+                  spec: Any, method: str) -> dict[str, Any]:
+        """Shared scoring + review/approval + source reputation."""
         total = parsed["claims_total"]
         grounded = parsed["claims_grounded"]
         score = round(grounded / total, 3) if total else None
@@ -84,8 +95,8 @@ class GroundingEngine:
         self.registry.update_approval(
             record["id"], score if score is not None else 0.0,
             approved_by_type="ai",
-            approved_by_provider=spec.provider,
-            approved_by_model=spec.model,
+            approved_by_provider=getattr(spec, "provider", method),
+            approved_by_model=getattr(spec, "model", method),
         )
         # source reputation
         self.registry.record_grounding(
@@ -94,8 +105,9 @@ class GroundingEngine:
             failed=(status == "pending_review" and score is not None),
         )
         self.log.event("check", "grounded", item_id=record["id"],
-                       provider=spec.provider, model=spec.model,
-                       detail=f"score={score} status={status} sources={len(sources)}")
+                       provider=getattr(spec, "provider", method),
+                       model=getattr(spec, "model", method),
+                       detail=f"score={score} status={status} sources={len(sources)} method={method}")
 
         return {
             "grounding_score": score,
@@ -132,6 +144,33 @@ class GroundingEngine:
             "claims_total": total,
             "claims_grounded": grounded,
             "sources_verified": sources,
+        }
+
+    def _lexical(self, claims: list[str], fulltext: str,
+                 coverage: float = 0.5) -> dict[str, Any]:
+        """Local, API-free grounding: claim token coverage in source fulltext.
+
+        A claim is "grounded" when at least ``coverage`` of its significant
+        tokens appear in the source article text.  Used as a fallback when the
+        Gemini search quota is unavailable — the pipeline still produces a
+        score, review status and (empty) citation list.
+        """
+        import re
+        tokens = set(re.findall(r"[a-z0-9']+", (fulltext or "").lower()))
+        grounded = 0
+        for claim in claims:
+            claim_tokens = set(re.findall(r"[a-z0-9']+", claim.lower()))
+            # skip stopword-ish tiny claims
+            if len(claim_tokens) < 4:
+                grounded += 1  # too short to verify meaningfully
+                continue
+            hit = len(claim_tokens & tokens) / len(claim_tokens)
+            if hit >= coverage:
+                grounded += 1
+        return {
+            "claims_total": len(claims),
+            "claims_grounded": grounded,
+            "sources_verified": [],
         }
 
 

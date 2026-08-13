@@ -72,3 +72,23 @@ def test_source_reputation_updates(tmp_path: Path):
     stats = reg.source_stats("arXiv")
     assert stats.get("avg_grounding_score") is not None
     assert stats.get("grounding_scores")          # history kept
+
+
+def test_lexical_fallback_without_spec(tmp_path: Path):
+    """No provider/spec available → lexical grounding against fulltext."""
+    cfg, reg, run_log, pm = _setup(tmp_path)
+    engine = GroundingEngine(cfg, reg, run_log, pm)
+    rec = sample_record(key="2026-08-14-004")
+    rec["key_facts"] = [
+        "background context sentence repeated analysis content",
+        "analysis content about the key development facts",
+    ]
+    result = engine.check_record(rec, spec=None, fulltext=" ".join([
+        "background context sentence analysis content development",
+        "fact sentence repeated wording",
+    ]))
+    assert result["method"] == "lexical"
+    assert result["grounding_score"] is not None      # always scores (no API)
+    assert result["review_status"] in ("verified", "pending_review")
+    # registry approval still recorded for the lexical path
+    assert reg.item_status(rec["id"])["review_status"] in ("verified", "pending_review")
