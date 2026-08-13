@@ -1,7 +1,7 @@
 ---
 node: "product"
 layer: category
-item_count: 1
+item_count: 0
 ---
 
 # product
@@ -14,4 +14,4 @@ item_count: 1
 
 ## Items
 
-- 2026-08-13 · [[info:item:ai-ml:us:2026-08-13-007]] — Meta adds AI screening to detect WhatsApp scams
+_No items yet._
