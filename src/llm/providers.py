@@ -29,6 +29,21 @@ from src.utils.logging_util import RunLog
 
 UA = {"User-Agent": "information-hub/0.3 (research aggregator)"}
 
+# HTTP statuses treated as transient (rate limits / upstream hiccups) —
+# the model stays eligible for the next pick instead of being marked down.
+TRANSIENT_STATUSES = (429, 500, 502, 503, 504)
+
+
+def _should_mark_down(status_code: int | None) -> bool:
+    """True if this error status permanently disables the model for the run.
+
+    Hard 4xx (decommissioned model, bad request) → down (rotate).
+    Transient 429/5xx → stay up (may succeed on the next attempt).
+    """
+    if status_code is None:
+        return True
+    return status_code >= 400 and status_code not in TRANSIENT_STATUSES
+
 
 @dataclass
 class ModelSpec:
@@ -228,10 +243,12 @@ class ProviderManager:
                            model=spec.model, latency_ms=latency)
             return data
         except ProviderError as e:
-            # Any 4xx/5xx makes the model unusable for this run (e.g. a
-            # decommissioned model id) — mark it down so pick_collect rotates.
-            self.registry.record_provider_failure(spec.provider, spec.model,
-                                                  mark_down=e.status_code is not None and e.status_code >= 400)
+            # Hard 4xx (decommissioned/bad config) marks the model down so
+            # pick_collect rotates.  Transient 429/5xx stay up — the next
+            # pick may retry them (rate limits are often momentary).
+            self.registry.record_provider_failure(
+                spec.provider, spec.model,
+                mark_down=_should_mark_down(e.status_code))
             self.log.event("collect", "call_error", provider=spec.provider,
                            model=spec.model, status="error",
                            detail=f"HTTP {e.status_code}: {e}")
@@ -271,8 +288,9 @@ class ProviderManager:
                            model=spec.model, latency_ms=latency)
             return data
         except ProviderError as e:
-            self.registry.record_provider_failure(spec.provider, spec.model,
-                                                  mark_down=e.status_code is not None and e.status_code >= 400)
+            self.registry.record_provider_failure(
+                spec.provider, spec.model,
+                mark_down=_should_mark_down(e.status_code))
             self.log.event("check", "verify_error", provider=spec.provider,
                            model=spec.model, status="error",
                            detail=f"HTTP {e.status_code}: {e}")
