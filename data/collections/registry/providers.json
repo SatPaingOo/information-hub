@@ -12,13 +12,13 @@
       "exhausted_until": null
     },
     "llama-3.1-8b-instant": {
-      "calls": 0,
+      "calls": 1,
       "items": 0,
       "errors": 0,
       "consecutive_failures": 0,
       "healthy": true,
-      "last_health_check": "2026-08-13T19:47:44+00:00",
-      "latency_ms": null,
+      "last_health_check": "2026-08-14T03:24:00+00:00",
+      "latency_ms": 400,
       "supports_json": true,
       "exhausted_until": null
     }
@@ -38,10 +38,10 @@
     "google/gemma-4-31b-it:free": {
       "calls": 0,
       "items": 0,
-      "errors": 0,
-      "consecutive_failures": 0,
+      "errors": 10,
+      "consecutive_failures": 10,
       "healthy": true,
-      "last_health_check": "2026-08-13T19:49:17+00:00",
+      "last_health_check": "2026-08-14T03:24:04+00:00",
       "latency_ms": null,
       "supports_json": true,
       "exhausted_until": null
@@ -212,6 +212,17 @@
       "exhausted_until": null
     },
     "poolside/laguna-xs-2.1:free": {
+      "calls": 0,
+      "items": 0,
+      "errors": 0,
+      "consecutive_failures": 0,
+      "healthy": true,
+      "last_health_check": null,
+      "latency_ms": null,
+      "supports_json": false,
+      "exhausted_until": null
+    },
+    "dots-studio/dots-3-note-preview:free": {
       "calls": 0,
       "items": 0,
       "errors": 0,
