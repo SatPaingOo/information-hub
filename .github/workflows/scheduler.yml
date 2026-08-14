@@ -2,10 +2,12 @@ name: scheduler
 
 on:
   schedule:
-    # Dynamic heartbeat — no fixed run times. Runs every 15 min, reads
-    # registry/schedule.json {collect_next_run, check_next_run, target_remaining}
-    # and runs a phase only when it is due (provider cooldowns/budgets drive it).
-    - cron: "*/15 * * * *"
+    # DYNAMIC cron — the pipeline rewrites this line to the next run time
+    # (date-specific M H D M *) after every run.  No fixed run times.
+    - cron: "47 5 14 8 *"
+    # SAFETY fallback — daily 01:00 UTC. Never rewritten; keeps the system
+    # alive if a dynamic cron goes stale (e.g. crashed mid-run).
+    - cron: "0 1 * * *"
   workflow_dispatch: {}        # manual: run due phases now (or --force-phase)
 
 permissions:
@@ -13,7 +15,7 @@ permissions:
 
 concurrency:
   group: scheduler
-  cancel-in-progress: false    # one heartbeat job at a time (git safety)
+  cancel-in-progress: false    # one scheduler job at a time (git safety)
 
 jobs:
   heartbeat:
@@ -37,14 +39,14 @@ jobs:
       - name: Run tests
         run: python -m pytest tests/ -q
 
-      - name: Run scheduler (due phases only)
+      - name: Run scheduler (due phases + cron update)
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           GEMINI_API_KEYS: ${{ secrets.GEMINI_API_KEYS }}
         run: python -m src.run.scheduler
 
-      - name: Commit generated data
+      - name: Commit generated data (incl. updated cron)
         run: |
           git config user.name "information-hub[bot]"
           git config user.email "information-hub[bot]@users.noreply.github.com"
@@ -52,7 +54,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "chore: scheduler heartbeat $(date -u +%Y-%m-%dT%H-%M)"
+            git commit -m "chore: scheduler run $(date -u +%Y-%m-%dT%H-%M)"
             git pull --rebase origin main || true
             git push
           fi

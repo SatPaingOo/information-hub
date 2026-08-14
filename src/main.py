@@ -273,21 +273,17 @@ def run_collect(cfg: Config, registry: Registry, store: Store, indexer: Indexer,
     indexer.rebuild(store.iter_records(), taxonomy=cfg.taxonomy, relations=cfg.relations)
     registry.mark_run([r["id"] for r in run_records], quota_used=len(run_records))
 
-    # RunController — persist schedule so the heartbeat knows when to resume
+    # RunController — persist schedule so the workflow cron points at the
+    # next possible run (drives when scheduler.yml fires again)
     from src.run.controller import RunController
     controller = RunController(cfg, registry, run_log, cfg.storage.data_dir)
     controller.report_progress(len(run_records))
     next_run = controller.decide_next_run()
-    if next_run is not None:
-        controller.write_schedule(collect_next_run=next_run)
-        logger.info("collect done: %d item(s) published — target %s/%s, "
-                    "next run ≈ %s UTC (provider cooldowns)",
-                    len(run_records), controller.load_schedule().get("target_remaining", 0),
-                    cfg.targets.total_per_day, next_run)
-    else:
-        controller.write_schedule(collect_next_run=None)
-        logger.info("collect done: %d item(s) published — daily target met or "
-                    "providers available", len(run_records))
+    controller.write_schedule(collect_next_run=next_run)
+    remaining = controller.load_schedule().get("target_remaining", 0)
+    logger.info("collect done: %d item(s) published — target %s/%s, "
+                "next run ≈ %s UTC", len(run_records), remaining,
+                cfg.targets.total_per_day, next_run)
     registry.save()
     return 0
 

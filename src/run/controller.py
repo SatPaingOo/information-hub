@@ -97,23 +97,37 @@ class RunController:
                 earliest = deadline
         return earliest.isoformat(timespec="seconds") if earliest else None
 
-    def decide_next_run(self) -> str | None:
-        """Next collect run time, or None when the daily target is met.
+    def decide_next_run(self) -> str:
+        """Next collect run time — ALWAYS a concrete UTC datetime.
 
-        = earliest provider cooldown expiry + a small jitter (so the
-        heartbeat does not re-run before the cooldown truly lapses).
+        - daily target met, or every collect provider at daily budget
+          → next UTC day 01:00 (fresh quotas/target)
+        - some provider in cooldown → earliest cooldown expiry + jitter
+        - otherwise (budget remains) → short re-check delay
         """
-        if self.registry.provider_items_used("groq") >= 0 and \
-                self._daily_target_met():
-            return None
+        now = dt.datetime.now(dt.timezone.utc)
+        if self._daily_target_met() or self._providers_exhausted():
+            nxt = now + dt.timedelta(days=1)
+            return nxt.replace(hour=1, minute=0, second=0, microsecond=0).isoformat()
         resume = self.earliest_provider_resume()
-        if resume is None:
-            return None
-        jitter = self.cfg.run_control.heartbeat_minutes * 60 * 0.5
-        deadline = dt.datetime.fromisoformat(resume)
-        if deadline.tzinfo is None:
-            deadline = deadline.replace(tzinfo=dt.timezone.utc)
-        return (deadline + dt.timedelta(seconds=jitter)).isoformat(timespec="seconds")
+        if resume is not None:
+            jitter = self.cfg.run_control.heartbeat_minutes * 60 * 0.5
+            deadline = dt.datetime.fromisoformat(resume)
+            if deadline.tzinfo is None:
+                deadline = deadline.replace(tzinfo=dt.timezone.utc)
+            return (deadline + dt.timedelta(seconds=jitter)).isoformat(timespec="seconds")
+        delay = self.cfg.run_control.heartbeat_minutes
+        return (now + dt.timedelta(minutes=delay)).isoformat(timespec="seconds")
+
+    def _providers_exhausted(self) -> bool:
+        """True when every collect provider is at its daily token/item budget."""
+        for p in self.cfg.providers.values():
+            if not p.enabled or p.role != "collect":
+                continue
+            if (self.registry.provider_items_used(p.name) < p.max_daily_items
+                    and self.registry.provider_tokens_used(p.name) < p.max_daily_tokens):
+                return False
+        return True
 
     def _daily_target_met(self) -> bool:
         schedule = self.load_schedule()

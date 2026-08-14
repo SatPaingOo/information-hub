@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import datetime as dt
 from pathlib import Path
 
 from src.config import Config
@@ -27,15 +28,15 @@ def test_schedule_roundtrip(tmp_path: Path):
     assert schedule["target_remaining"] == 25
 
 
-def test_decide_next_run_none_when_no_cooldown(tmp_path: Path):
-    """No provider cooldown → a run is possible now (None = no wait)."""
+def test_earliest_provider_resume_none_when_no_cooldown(tmp_path: Path):
+    """No provider cooldown → a run is possible now (None = callable)."""
     cfg, reg, run_log = _setup(tmp_path)
     ctl = RunController(cfg, reg, run_log, tmp_path)
     ctl.write_schedule(target_remaining=cfg.targets.total_per_day)
     assert ctl.earliest_provider_resume() is None
 
 
-def test_decide_next_run_after_cooldown(tmp_path: Path):
+def test_earliest_provider_resume_after_cooldown(tmp_path: Path):
     cfg, reg, run_log = _setup(tmp_path)
     ctl = RunController(cfg, reg, run_log, tmp_path)
     # ALL providers in cooldown → earliest expiry is the next run time
@@ -45,15 +46,53 @@ def test_decide_next_run_after_cooldown(tmp_path: Path):
     resume = ctl.earliest_provider_resume()
     assert resume is not None
     assert resume.startswith("2099-01-01")     # earliest cooldown expiry
-    assert ctl.decide_next_run() is not None    # next run scheduled
 
 
-def test_target_met_stops_next_run(tmp_path: Path):
+def test_decide_next_run_cooldown_points_to_earliest(tmp_path: Path):
+    cfg, reg, run_log = _setup(tmp_path)
+    ctl = RunController(cfg, reg, run_log, tmp_path)
+    reg.set_provider_cooldown("openrouter", "2099-01-01T00:00:00+00:00")
+    reg.set_provider_cooldown("groq", "2099-01-02T00:00:00+00:00")
+    reg.set_provider_cooldown("gemini", "2099-01-03T00:00:00+00:00")
+    nxt = ctl.decide_next_run()
+    assert nxt is not None
+    assert nxt.startswith("2099-01-01")        # earliest expiry (+ jitter)
+
+
+def test_decide_next_run_budget_left_short_delay(tmp_path: Path):
+    """No cooldown, budget remains → short re-check delay (not None)."""
+    cfg, reg, run_log = _setup(tmp_path)
+    ctl = RunController(cfg, reg, run_log, tmp_path)
+    nxt = ctl.decide_next_run()
+    assert nxt is not None                      # always a concrete time
+    # within a few minutes from now
+    when = dt.datetime.fromisoformat(nxt)
+    assert (when - dt.datetime.now(dt.timezone.utc)).total_seconds() < 3600
+
+
+def test_decide_next_run_target_met_schedules_next_day(tmp_path: Path):
+    """Target met → next run is tomorrow 01:00 UTC (fresh day)."""
     cfg, reg, run_log = _setup(tmp_path)
     ctl = RunController(cfg, reg, run_log, tmp_path)
     ctl.write_schedule(target_remaining=0)      # target met
-    reg.set_provider_cooldown("openrouter", "2099-01-01T00:00:00+00:00")
-    assert ctl.decide_next_run() is None        # no more runs today
+    nxt = ctl.decide_next_run()
+    assert nxt is not None
+    when = dt.datetime.fromisoformat(nxt)
+    assert when.hour == 1 and when.minute == 0
+    tomorrow = dt.datetime.now(dt.timezone.utc) + dt.timedelta(days=1)
+    assert when.date() == tomorrow.date()
+
+
+def test_decide_next_run_providers_exhausted_next_day(tmp_path: Path):
+    """All collect providers at daily budget → next day 01:00."""
+    cfg, reg, run_log = _setup(tmp_path)
+    ctl = RunController(cfg, reg, run_log, tmp_path)
+    for p in cfg.providers.values():
+        if p.role == "collect":
+            reg.record_provider_call(p.name, "m", tokens=p.max_daily_tokens)
+    nxt = ctl.decide_next_run()
+    when = dt.datetime.fromisoformat(nxt)
+    assert when.hour == 1 and when.minute == 0
 
 
 def test_progress_updates_remaining(tmp_path: Path):
@@ -67,7 +106,6 @@ def test_progress_updates_remaining(tmp_path: Path):
 def test_should_continue_stops_at_target_and_deadline(tmp_path: Path):
     cfg, reg, run_log = _setup(tmp_path)
     ctl = RunController(cfg, reg, run_log, tmp_path)
-    import datetime as dt
     start = dt.datetime.now(dt.timezone.utc)
     assert ctl.should_continue(start, collected=cfg.targets.total_per_day) is False
     assert ctl.should_continue(start, collected=0) is True
