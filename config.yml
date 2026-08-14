@@ -1,8 +1,8 @@
 # information-hub — configuration
 # Taxonomy engine: layers (hierarchical), collections, sources, quotas.
-# V3: multi-provider (roles: collect/check) + quality thresholds + 2-phase runs.
+# V6+: token-aware daily budgets + dynamic run control (no fixed run times).
 # Editable directly on GitHub (no code changes required).
-#
+
 # ---- Providers (fully auto — only providers with env keys are enabled) ----
 # Token-aware daily budgets (per provider, auto-reset each UTC day):
 #   max_daily_items   — daily item ceiling
@@ -32,28 +32,17 @@ providers:
     search_tool: google_search        # enable web-search grounding
     budget: { max_daily_items: 10, max_daily_tokens: 5000, max_output_tokens: 2048 }
 
-# ---- Targets (daily content goals) ----
-targets:
-  total_per_day: 30                   # နေ့စဉ် content target (models မအားရင် controller က schedule)
-  collections:
-    myanmar-news: 4
-    ai-research: 3
-    us-tech: 2
-
-# ---- Run control ----
-run:
-  max_job_minutes: 25                 # Actions 30-min timeout အောက်မှာ ရပ်ဖို့
-  heartbeat_minutes: 15               # scheduler cron interval (schedule.json due စစ်)
-  cooldown_base_seconds: 30           # exponential backoff base for cooldowns
-
 # ---- Quality engine (phase check) ----
 quality:
   reject_threshold: 0.5               # grounding score below → pending_review
   max_ai_verify_per_run: 10           # Gemini free tier search budget cap
 
-# ---- Run phases ----
+# ---- Run control (dynamic scheduler) ----
 run:
   phases: [collect, check]
+  max_job_minutes: 25                 # Actions 30-min timeout အောက်မှာ ရပ်ဖို့
+  heartbeat_minutes: 15               # scheduler cron interval (schedule.json due စစ်)
+  cooldown_base_seconds: 30           # exponential backoff base for cooldowns
 
 gemini:                               # legacy keys (gemini.* still used by prompts/retries)
   model: gemini-3.5-flash-lite
@@ -63,7 +52,17 @@ gemini:                               # legacy keys (gemini.* still used by prom
 
 storage:
   data_dir: data
-  max_daily_items_total: 30           # hard ceiling (targets above)
+  max_daily_items_total: 10           # free-tier daily capacity (Groq 4 + OpenRouter 6)
+
+# ---- Targets (daily content goals — free tier can produce ~10/day) ----
+targets:
+  total_per_day: 10
+  collections:
+    myanmar-news: 2
+    world-news: 2
+    tech-news: 3
+    politics: 2
+    products: 1
 
 # Classification layers — hierarchical (add / remove / edit freely)
 taxonomy:
@@ -74,6 +73,9 @@ taxonomy:
   topics:
     ai-ml:        [llm, agents, vision]
     geopolitics:  [conflict, trade]
+    world:        []
+    politics:     []
+    products:     []
     dev-oss:      []
   categories:
     economy:  [macro, trade, fintech]
@@ -89,6 +91,8 @@ relations:
   - { from: us,      to: dev-oss,    type: relates }
 
 # Collections — key-value: source group + default classification + quotas
+#   priority  = ပိုစုတဲ့ကောင် (များလေ quota အရင်ရလေ)
+#   frequency = daily | every-2-days | weekly
 collections:
   myanmar-news:
     enabled: true
@@ -98,38 +102,62 @@ collections:
     topics: [geopolitics, economy]
     regions: [myanmar]
     categories: [policy, industry]
-    primary_layer: region
     sources:
       - { type: rss, url: "https://www.irrawaddy.com/feed" }
       - { type: rss, url: "https://myanmar-now.org/en/feed/" }
     limits: { max_candidates: 12, max_daily_items: 2 }
 
-  ai-research:
+  world-news:
+    enabled: true
+    priority: 3
+    frequency: daily
+    content_type: digest
+    topics: [world, geopolitics]
+    regions: [global]
+    categories: [policy, industry]
+    sources:
+      - { type: rss, url: "https://feeds.bbci.co.uk/news/world/rss.xml" }
+      - { type: rss, url: "https://www.aljazeera.com/xml/rss/all.xml" }
+    limits: { max_candidates: 12, max_daily_items: 2 }
+
+  tech-news:
     enabled: true
     priority: 2
     frequency: daily
     content_type: briefing
-    topics: [ai-ml]
-    regions: [global]
-    categories: [research]
-    primary_layer: topic
+    topics: [ai-ml, dev-oss]
+    regions: [global, us]
+    categories: [research, product, open-source]
     sources:
       - { type: arxiv, query: "cat:cs.AI OR cat:cs.LG" }
-      - { type: rss, url: "https://techcrunch.com/category/artificial-intelligence/feed/" }
-    limits: { max_candidates: 12, max_daily_items: 1 }
+      - { type: rss, url: "https://techcrunch.com/feed/" }
+      - { type: rss, url: "https://www.theverge.com/rss/index.xml" }
+    limits: { max_candidates: 12, max_daily_items: 3 }
 
-  us-tech:
+  politics:
+    enabled: true
+    priority: 2
+    frequency: daily
+    content_type: digest
+    topics: [politics, geopolitics]
+    regions: [global]
+    categories: [policy]
+    sources:
+      - { type: rss, url: "https://feeds.bbci.co.uk/news/politics/rss.xml" }
+      - { type: rss, url: "https://www.politico.eu/feed/" }
+    limits: { max_candidates: 12, max_daily_items: 2 }
+
+  products:
     enabled: true
     priority: 1
-    frequency: every-2-days
+    frequency: daily
     content_type: article
-    topics: [ai-ml, dev-oss]
-    regions: [us]
-    categories: [product, open-source]
-    primary_layer: topic
+    topics: [products]
+    regions: [global, us]
+    categories: [product]
     sources:
-      - { type: github, topic: "machine-learning", since: "daily" }
-      - { type: rss, url: "https://www.theverge.com/rss/index.xml" }
+      - { type: rss, url: "https://www.producthunt.com/feed" }
+      - { type: rss, url: "https://techcrunch.com/gadgets/feed/" }
     limits: { max_candidates: 10, max_daily_items: 1 }
 
 # Deep-dive content requirements

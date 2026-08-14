@@ -157,21 +157,35 @@ _MOCK_STORIES = {
         ("Parliamentary debate on digital policy in Myanmar",
          "https://example.com/mm-policy-1"),
     ],
-    "ai-research": [
+    "world-news": [
+        ("Global supply chains face new pressure as shipping costs surge",
+         "https://example.com/world-supply-1"),
+        ("UN climate summit ends with new funding pledge for developing nations",
+         "https://example.com/world-climate-1"),
+        ("Major earthquake strikes the Pacific region, tsunami warnings issued",
+         "https://example.com/world-quake-1"),
+    ],
+    "tech-news": [
         ("A New Benchmark for Agentic AI Reasoning",
          "https://arxiv.org/abs/2608.00001"),
         ("Scaling Laws for Multimodal LLMs at Inference Time",
          "https://arxiv.org/abs/2608.00002"),
-        ("Efficient Retrieval-Augmented Generation with Sparse Indexes",
-         "https://arxiv.org/abs/2608.00003"),
-    ],
-    "us-tech": [
         ("OpenAI releases new agent tooling for developers",
-         "https://example.com/us-openai-1"),
+         "https://example.com/tech-openai-1"),
+    ],
+    "politics": [
+        ("Parliament passes landmark digital regulation bill",
+         "https://example.com/pol-digital-1"),
+        ("Election reform proposal sparks debate in EU parliament",
+         "https://example.com/pol-election-1"),
+        ("Trade ministers agree on a new tariff framework",
+         "https://example.com/pol-trade-1"),
+    ],
+    "products": [
+        ("New foldable phone hits the market with record battery life",
+         "https://example.com/prod-phone-1"),
         ("Open-source vector database gains momentum",
-         "https://example.com/us-oss-1"),
-        ("US startup funding surges in AI infrastructure",
-         "https://example.com/us-funding-1"),
+         "https://example.com/prod-oss-1"),
     ],
 }
 

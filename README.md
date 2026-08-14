@@ -87,7 +87,7 @@ python -m src.main --mock --phase both              # offline demo (no keys)
 python -m src.main --phase collect                  # real collect
 python -m src.main --phase check                    # verify today's items
 python -m src.main --phase both                     # collect + check
-python -m src.main --collection ai-research --force # single collection, bypass due check
+python -m src.main --collection tech-news --force # single collection, bypass due check
 python -m src.main --date 2026-08-14                # run for a specific date
 python -m src.seed                                  # generate the sample dataset
 ```
@@ -140,8 +140,12 @@ data/
   daily target is met / providers are exhausted) and rewrites the dynamic cron
   line in `scheduler.yml` — the workflow fires only when it can actually
   collect. A static daily-01:00 safety cron is never rewritten.
-- **Config**: `targets.total_per_day` (e.g. 30) + per-provider
+- **Config**: `targets.total_per_day` (10 — free-tier daily capacity:
+  Groq 4 + OpenRouter 6) + per-provider
   `budget: {max_daily_items, max_daily_tokens, max_output_tokens}`.
+- **Collections**: `myanmar-news`, `world-news`, `tech-news`, `politics`,
+  `products` — world/tech/politics/product news prioritized; per-collection
+  daily targets live in `targets.collections`.
 
 ## Provenance trail (per item — "who did what")
 

@@ -11,25 +11,28 @@ def test_config_loads_from_repo():
     cfg = Config.load()
     assert cfg.gemini.model.startswith("gemini-")          # current-gen model
     assert cfg.providers["gemini"].models[0].startswith("gemini-")
-    assert cfg.storage.max_daily_items_total == 30
-    assert cfg.targets.total_per_day == 30
+    assert cfg.storage.max_daily_items_total == 10
+    assert cfg.targets.total_per_day == 10
     assert cfg.run_control.heartbeat_minutes == 15
     # nested taxonomy
     assert "ai-ml" in cfg.taxonomy.topics
     assert "llm" in cfg.taxonomy.children_of("ai-ml")
     assert "myanmar" in cfg.taxonomy.children_of("asia")
     assert "myanmar-news" in cfg.collections
-    assert cfg.collections["myanmar-news"].primary_layer == "region"
-    assert cfg.collections["ai-research"].content_type == "briefing"
+    assert cfg.collections["myanmar-news"].content_type == "digest"
+    assert cfg.collections["tech-news"].content_type == "briefing"
+    # per-collection daily targets sum to the total
+    assert sum(cfg.targets.collections.values()) == cfg.targets.total_per_day
 
 
 def test_enabled_collections_only():
     cfg = Config.load()
     for c in cfg.enabled_collections():
         assert c.enabled
-    # all three sample collections are enabled by default
+    # five collections cover world/tech/politics/products + myanmar
     names = {c.name for c in cfg.enabled_collections()}
-    assert {"myanmar-news", "ai-research", "us-tech"} <= names
+    assert {"myanmar-news", "world-news", "tech-news",
+            "politics", "products"} <= names
 
 
 def test_taxonomy_nested_parse():
@@ -67,4 +70,5 @@ def test_priority_order():
     cfg = Config.load()
     ordered = cfg.collections_by_priority()
     assert ordered[0].name == "myanmar-news"      # priority 3 first
-    assert ordered[-1].name == "us-tech"          # priority 1 last
+    assert ordered[1].name == "world-news"        # priority 3 second
+    assert ordered[-1].name == "products"         # priority 1 last
