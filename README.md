@@ -18,6 +18,13 @@ checked and approved it).
 
 ---
 
+## 📚 Docs
+
+- [Architecture](./docs/ARCHITECTURE.md) — system overview, phases, package layers
+- [Data Format](./docs/DATA_FORMAT.md) — record schema, storage layout, provenance
+- [Run Control](./docs/RUN_CONTROL.md) — dynamic self-scheduling engine
+- [Configuration](./docs/CONFIGURATION.md) — config.yml / policies.yml reference
+
 ## ⚠️ Setup — read carefully
 
 ### 1. Required API keys (all free)
