@@ -360,7 +360,7 @@ def run(mock: bool, phase: str, collection_filter: str | None,
         date_override: str | None, limit: int | None, force: bool) -> int:
     """Top-level runner: load config, wire dependencies, execute phases."""
     cfg = Config.load()
-    registry = Registry(cfg.storage.data_dir / "collections" / "registry")
+    registry = Registry(cfg.storage.data_dir / "state")
     store = Store(cfg.storage.data_dir)
     indexer = Indexer(cfg.storage.data_dir)
     run_date = date_override or _today()

@@ -75,7 +75,7 @@ def _rec(key: str, topic: str, region: str, ctype: str, categories: list[str],
         "key_facts": [
             "Sample dataset shipped with the repository to demonstrate structure.",
             "Daily pipeline regenerates these files from Gemini output.",
-            "Classification layers are queryable via data/collections/index/.",
+            "Classification layers are queryable via data/views/.",
         ],
         "implications": [
             "Readers can follow related items through stable item IDs.",
@@ -188,7 +188,7 @@ def build_seed_records() -> list[dict]:
 def main() -> None:
     cfg = Config.load()
     store = Store(cfg.storage.data_dir)
-    registry = Registry(cfg.storage.data_dir / "collections" / "registry")
+    registry = Registry(cfg.storage.data_dir / "state")
     indexer = Indexer(cfg.storage.data_dir)
 
     records = build_seed_records()
@@ -197,7 +197,7 @@ def main() -> None:
     # reset the registry so seed is self-contained
     for f in registry.dir.iterdir():
         f.unlink()
-    registry = Registry(cfg.storage.data_dir / "collections" / "registry")
+    registry = Registry(cfg.storage.data_dir / "state")
 
     for rec in records:
         store.write_record(rec)

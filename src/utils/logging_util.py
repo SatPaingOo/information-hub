@@ -2,8 +2,8 @@
 
 Writes:
   - console output (INFO/ERROR)
-  - data/collections/logs/run-<date>-<phase>.log   (human-readable file)
-  - registry/run-log.jsonl                          (machine events: phase,
+  - data/logs/run-<date>-<phase>.log                 (human-readable file)
+  - data/state/run-log.jsonl                         (machine events: phase,
     provider, model, status, latency, error — full provenance trail)
 
 Role: both phases — consumed by main and llm.providers / quality.grounding.
@@ -24,7 +24,7 @@ def _utcnow() -> str:
 
 def setup_logging(data_dir: Path, run_date: str, phase: str) -> logging.Logger:
     """Configure root logger with console + file handlers; return the logger."""
-    log_dir = data_dir / "collections" / "logs"
+    log_dir = data_dir / "logs"
     log_dir.mkdir(parents=True, exist_ok=True)
     log_path = log_dir / f"run-{run_date}-{phase}.log"
 
@@ -45,7 +45,7 @@ def setup_logging(data_dir: Path, run_date: str, phase: str) -> logging.Logger:
 
 
 class RunLog:
-    """Appends structured events to registry/run-log.jsonl (JSON lines)."""
+    """Appends structured events to data/state/run-log.jsonl (JSON lines)."""
 
     def __init__(self, registry_dir: Path):
         self.path = Path(registry_dir) / "run-log.jsonl"

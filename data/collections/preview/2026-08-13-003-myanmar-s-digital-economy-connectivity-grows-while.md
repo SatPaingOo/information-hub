@@ -8,7 +8,7 @@ region: myanmar
 categories: ["policy", "industry"]
 source: "Sample RSS"
 source_url: "https://example.com/myanmar-digital"
-word_count: 266
+word_count: 265
 tags: ["digital-economy", "fintech", "seed"]
 ---
 
@@ -36,7 +36,7 @@ The next 12 months of regulatory announcements will shape whether digital servic
 
 - Sample dataset shipped with the repository to demonstrate structure.
 - Daily pipeline regenerates these files from Gemini output.
-- Classification layers are queryable via data/collections/index/.
+- Classification layers are queryable via data/views/.
 
 ## Implications
 

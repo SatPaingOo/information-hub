@@ -4,7 +4,7 @@ A layer-based deep-dive intelligence system that collects data daily via
 **GitHub Actions + free AI providers** and stores it three ways: **raw data
 frame** → **human preview (.md)** → **machine dataset (.json)**. Every item
 is classified across **region / content-type / topic / category** layers — to
-find "Myanmar-related" content, open `index/by-region/myanmar.json`. The date
+find "Myanmar-related" content, open `views/by-region/myanmar.json`. The date
 is an attribute, never a folder.
 
 **Two-phase pipeline**: `collect` (Groq/OpenRouter free models write
@@ -102,7 +102,7 @@ policies.yml (what to prioritize/exclude)
         │
         ▼  scheduler.yml (dynamic cron — pipeline rewrites it)
 ── Dynamic run-control ────────────────────────────────
-  scheduler reads registry/schedule.json → runs due phases
+  scheduler reads state/schedule.json → runs due phases
   → RunController gates model calls (cooldown + token budget)
   → recomputes next run time → rewrites workflow cron
 ── Phase collect ──────────────────────────────────────
@@ -114,15 +114,18 @@ policies.yml (what to prioritize/exclude)
   → grounding_score → review status + approval trail → source reputation
         │
         ▼
-data/collections/
-├─ raws/           AI output data frame (UTC datetime) — audit + dedup reference
-├─ preview/        .md human view (Obsidian-ready: frontmatter + wikilinks + Related)
-├─ data-set/       .json machine dataset (schema enforced — AI training/commercial)
-├─ index/          generated layer views: by-topic/region/content-type/category/date/entity
-│                  + index.json + graph.json (GraphRAG-ready) + taxonomy.json
-├─ registry/       key-value tracking: sources / items / meta / providers / collections
-│                  + schedule.json + run-log.jsonl (full provenance events)
-└─ logs/           run-<date>-<phase>.log (human-readable)
+data/
+├─ collections/          ← PURE DATA (the collected product)
+│   ├─ raws/             AI output data frame (UTC datetime) — audit + dedup reference
+│   ├─ preview/          .md human view (Obsidian-ready: frontmatter + wikilinks + Related)
+│   └─ data-set/         .json machine dataset (schema enforced — AI training/commercial)
+├─ state/                ← SYSTEM STATE (auto-run brain)
+│   ├─ items.json  sources.json  providers.json  meta.json
+│   ├─ collections.json  keys.json  schedule.json  run-log.jsonl
+├─ views/                ← DERIVED (always rebuildable from data-set/)
+│   ├─ by-topic/ by-region/ by-content-type/ by-category/ by-date/ by-entity/
+│   ├─ index.json  graph.json (GraphRAG-ready)  taxonomy.json
+└─ logs/                 ← run-<date>-<phase>.log (human-readable)
 ```
 
 ## Dynamic run control (no fixed run times)
@@ -151,11 +154,11 @@ data/collections/
                   "approved_by": {"type": "ai", "provider": "gemini", "model": "..."} }
 }
 ```
-- `registry/items.json` — per-item approval trail (provider/model/score/review/approved_by)
-- `registry/run-log.jsonl` + `logs/` — provider pick/call/rotate/grounding events
+- `state/items.json` — per-item approval trail (provider/model/score/review/approved_by)
+- `state/run-log.jsonl` + `logs/` — provider pick/call/rotate/grounding events
 - Score `< 0.5` → `pending_review` (data is kept, not deleted) — a human can mark
   it `verified` by editing the registry
-- **Source reputation**: `registry/sources.json` — per-source `avg_grounding_score`
+- **Source reputation**: `state/sources.json` — per-source `avg_grounding_score`
   + failures → tells you which sources to trust
 
 ## Self-managing providers (fully auto)
@@ -166,7 +169,7 @@ data/collections/
 - **Health-check + rotation**: cheap ping → healthy/unhealthy → on 429/5xx move
   to the next model → next provider → graceful skip + log
 - **Budget**: per provider+model `max_calls` / `max_items` per run
-  (`registry/providers.json`)
+  (`state/providers.json`)
 - Free models without JSON mode are handled with prompt-JSON + tolerant parsing
 
 ## Config — taxonomy engine
@@ -192,7 +195,7 @@ against these.
 Key = `YYYY-MM-DD-NNN` · Stable ID = `info:item:<topic>:<region>:<key>`
 (foreign key). The `.md` preview is generated from the `.json` — for Obsidian,
 just open `data/collections/preview` as a vault. For GraphRAG, ingest
-`data/collections/index/graph.json` plus the `data-set/**` records directly.
+`data/views/graph.json` plus the `data-set/**` records directly.
 
 ## Project layout (standard layered)
 

@@ -8,7 +8,7 @@ region: global
 categories: ["research"]
 source: "arXiv"
 source_url: "https://arxiv.org/abs/2608.00001"
-word_count: 274
+word_count: 273
 tags: ["benchmark", "agents", "seed"]
 ---
 
@@ -36,7 +36,7 @@ Whether the major labs adopt the suite as a release gate, and how scores shift a
 
 - Sample dataset shipped with the repository to demonstrate structure.
 - Daily pipeline regenerates these files from Gemini output.
-- Classification layers are queryable via data/collections/index/.
+- Classification layers are queryable via data/views/.
 
 ## Implications
 

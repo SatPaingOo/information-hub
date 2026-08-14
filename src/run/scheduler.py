@@ -1,11 +1,12 @@
 """information-hub — scheduler (run layer, cron-driven entry point).
 
 Runs when the scheduler.yml cron fires.  Reads the persisted schedule
-(registry/schedule.json), runs the due phase(s) under the pipeline lock, then
-RECOMPUTES the next run time (provider cooldowns/budgets via RunController)
-and REWRITES the dynamic cron line in ``.github/workflows/scheduler.yml`` so
-the workflow only fires again when collection is actually possible — no fixed
-run times, no every-N-minute heartbeat.
+(data/state/schedule.json), runs the due phase(s) under the pipeline lock,
+then RECOMPUTES the next run time (provider cooldowns/budgets via
+RunController) and REWRITES the dynamic cron line in
+``.github/workflows/scheduler.yml`` so the workflow only fires again when
+collection is actually possible — no fixed run times, no every-N-minute
+heartbeat.
 
   - collect is due when collect_next_run <= now AND target_remaining > 0
   - check   is due when check_next_run   <= now
@@ -120,7 +121,7 @@ def main() -> int:
     args = parser.parse_args()
 
     cfg = Config.load()
-    registry = Registry(cfg.storage.data_dir / "collections" / "registry")
+    registry = Registry(cfg.storage.data_dir / "state")
     run_log = RunLog(registry.dir)
     schedule = json_load(registry.dir / "schedule.json")
 

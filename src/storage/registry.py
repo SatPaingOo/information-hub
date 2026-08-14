@@ -1,19 +1,22 @@
 """information-hub — key-value registry (storage layer).
 
 Tracks pipeline + content status for the whole system.  Files under
-``data/collections/registry/``:
+``data/state/`` (system state — the auto-run brain, NOT collected data):
 
   sources.json      per-source: last_fetched, candidates, published, errors,
                     grounding reputation (avg score / failures)
   items.json        per-item: status, word_count, provider/model,
                     grounding_score, review_status, approval trail
-  meta.json         last run, quotas_used, processed ids (dedup reference)
+  meta.json         last run, quotas_used, processed ids, pipeline lock
   keys.json         (legacy V2) multi-key budget — kept for back-compat
   collections.json  per-collection due tracking (frequency / next_due)
-  providers.json    per provider+model health / budget (self-managing)
+  providers.json    per provider: daily token/item quotas, cooldown_until,
+                    per-model health — the rate-limit gate state
+  schedule.json     next-run times + target_remaining (run-control)
+  run-log.jsonl     machine event log (full provenance trail)
 
 Role: both phases — consumed by main, llm.providers, quality.grounding,
-collect.dedup (via checksums).
+run.controller and run.scheduler.
 """
 
 from __future__ import annotations

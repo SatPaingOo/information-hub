@@ -8,7 +8,7 @@ region: global
 categories: ["research", "open-source"]
 source: "GitHub Trending"
 source_url: "https://github.com/topics/machine-learning"
-word_count: 252
+word_count: 251
 tags: ["rag", "vector-db", "open-source", "seed"]
 ---
 
@@ -36,7 +36,7 @@ Benchmarks that include latency and cost, not just accuracy, and growing adoptio
 
 - Sample dataset shipped with the repository to demonstrate structure.
 - Daily pipeline regenerates these files from Gemini output.
-- Classification layers are queryable via data/collections/index/.
+- Classification layers are queryable via data/views/.
 
 ## Implications
 

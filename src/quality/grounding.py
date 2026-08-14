@@ -7,7 +7,7 @@ Gemini check provider with ``google_search`` grounding.  Produces:
   sources_verified [{url,title}]  cited sources from search grounding
   review status + approval trail  verified | pending_review (+ approved_by)
 
-Also updates per-source reputation (registry/sources.json):
+Also updates per-source reputation (data/state/sources.json):
   items / grounding_failures / avg_grounding_score
 
 Role: phase check — consumed by ``main.run_check``.

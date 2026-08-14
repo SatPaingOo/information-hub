@@ -1,11 +1,13 @@
 """information-hub — RunController (run layer).
 
 Decides WHEN to run and HOW MUCH to collect based on persisted rate-limit
-state (provider cooldowns + token budgets) and daily content targets.
+state (provider cooldowns + token budgets in ``data/state/``) and daily
+content targets.
 
 Responsibilities:
   - decide_next_run   — earliest time any provider can be called again
-  - write_schedule    — persist {collect_next_run, check_next_run, target_remaining}
+  - write_schedule    — persist data/state/schedule.json {collect_next_run,
+    check_next_run, target_remaining}
   - progress/summary  — run-log events for target tracking and deadlines
 
 The scheduler (src/run/scheduler.py) reads the schedule and triggers runs;
@@ -43,7 +45,7 @@ class RunController:
         self.cfg = cfg
         self.registry = registry
         self.log = run_log
-        self.schedule_dir = data_dir / "collections" / "registry"
+        self.schedule_dir = data_dir / "state"
         self.schedule_dir.mkdir(parents=True, exist_ok=True)
 
     # ---- schedule persistence ------------------------------------------

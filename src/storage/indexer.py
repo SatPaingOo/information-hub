@@ -1,16 +1,17 @@
 """information-hub — indexer (storage layer).
 
-Rebuilds the generated classification layer views from canonical records:
+Rebuilds the generated classification layer views (under ``data/views/`` —
+derived, always rebuildable from the canonical records in ``data-set/``):
 
-  index/by-topic/<topic>.json          -> item ids + titles
-  index/by-region/<region>.json
-  index/by-content-type/<type>.json
-  index/by-category/<category>.json
-  index/by-date/<date>.json
-  index/by-entity/<entity>.json
-  index/index.json                     master flat view
-  index/graph.json                     nodes + edges (GraphRAG-ready)
-  index/taxonomy.json                  hierarchy flat view (parent -> children + counts)
+  views/by-topic/<topic>.json          -> item ids + titles
+  views/by-region/<region>.json
+  views/by-content-type/<type>.json
+  views/by-category/<category>.json
+  views/by-date/<date>.json
+  views/by-entity/<entity>.json
+  views/index.json                     master flat view
+  views/graph.json                     nodes + edges (GraphRAG-ready)
+  views/taxonomy.json                  hierarchy flat view (parent -> children + counts)
   preview/daily/<date>.md              Obsidian daily hub (generated)
   preview/entities/<type>/<name>.md    entity node notes (generated)
   preview/taxonomy/<layer>/<node>.md   taxonomy node notes (generated)
@@ -33,9 +34,8 @@ from src.render.markdown import daily_index_markdown, entity_markdown, taxonomy_
 class Indexer:
     def __init__(self, data_dir: Path):
         base = Path(data_dir)
-        self.collections = base / "collections"
-        self.index_dir = self.collections / "index"
-        self.preview = self.collections / "preview"
+        self.preview = base / "collections" / "preview"
+        self.index_dir = base / "views"          # derived views (rebuildable)
         self.index_dir.mkdir(parents=True, exist_ok=True)
 
     def rebuild(self, records: list[dict[str, Any]],
