@@ -1,7 +1,7 @@
 ---
 node: "economy"
 layer: category
-item_count: 1
+item_count: 0
 ---
 
 # economy
@@ -16,9 +16,8 @@ item_count: 1
 
 ## Cross-layer relations
 
-- [[geopolitics]] — *relates*
 - [[myanmar]] — *relates*
 
 ## Items
 
-- 2026-08-13 · [[info:item:geopolitics:myanmar:2026-08-13-004]] — ‘One Rohingya from every household’: Myanmar junta formalises forced conscription in Rakhine State
+_No items yet._

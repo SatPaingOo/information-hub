@@ -17,6 +17,9 @@ consumed by ``llm.providers.ProviderManager``.
 from __future__ import annotations
 
 import json
+import re
+import time
+from datetime import datetime, timezone
 from typing import Any
 
 import requests
@@ -42,11 +45,14 @@ RETRYABLE = (429, 500, 502, 503, 504)
 
 
 class ProviderError(RuntimeError):
-    """Raised on any provider call failure; carries an optional HTTP status."""
+    """Raised on any provider call failure; carries an optional HTTP status
+    and, for rate-limit errors, the server's suggested wait (seconds)."""
 
-    def __init__(self, message: str, status_code: int | None = None):
+    def __init__(self, message: str, status_code: int | None = None,
+                 retry_after: float | None = None):
         super().__init__(message)
         self.status_code = status_code
+        self.retry_after = retry_after
 
 
 def call_openai(spec: Any, key: str, system: str, user: str,
@@ -63,9 +69,8 @@ def call_openai(spec: Any, key: str, system: str, user: str,
         max_tokens / temperature: generation config.
 
     Returns:
-        Parsed JSON object from the model.  When ``json_mode`` is False the
-        text is still parsed as JSON (fenced ````` ```json ```` blocks are
-        stripped) so non-JSON-mode free models can be used.
+        A tuple ``(parsed_json, tokens_used)`` where ``tokens_used`` is the
+        provider-reported total token count (0 when the API omits usage).
 
     Raises:
         ProviderError: on network failure, HTTP error, or bad response.
@@ -90,13 +95,18 @@ def call_openai(spec: Any, key: str, system: str, user: str,
     except requests.RequestException as e:
         raise ProviderError(f"network error: {e}") from e
     if resp.status_code != 200:
-        raise ProviderError(f"HTTP {resp.status_code}: {resp.text[:300]}",
-                            status_code=resp.status_code)
+        raise ProviderError(
+            f"HTTP {resp.status_code}: {resp.text[:300]}",
+            status_code=resp.status_code,
+            retry_after=_parse_retry_after(resp, resp.text),
+        )
     try:
-        content = resp.json()["choices"][0]["message"]["content"]
+        data = resp.json()
+        content = data["choices"][0]["message"]["content"]
         if not content:
             raise ProviderError("empty model content")
-        return _parse_json_tolerant(content)
+        tokens = _extract_openai_usage(data)
+        return _parse_json_tolerant(content), tokens
     except (KeyError, IndexError, ValueError, TypeError, json.JSONDecodeError) as e:
         raise ProviderError(f"bad response: {e}") from e
 
@@ -116,8 +126,9 @@ def call_google(spec: Any, key: str, system: str, user: str,
         max_tokens / temperature: generation config.
 
     Returns:
-        Parsed JSON object in json_mode, otherwise
-        ``{"text": ..., "grounding": [...]}``.
+        A tuple ``(result, tokens_used)`` — in json_mode ``result`` is the
+        parsed JSON object; otherwise ``{"text": ..., "grounding": [...]}``.
+        ``tokens_used`` is the provider-reported total token count.
 
     Raises:
         ProviderError: on network failure, HTTP error, or non-JSON response.
@@ -140,18 +151,75 @@ def call_google(spec: Any, key: str, system: str, user: str,
     except requests.RequestException as e:
         raise ProviderError(f"network error: {e}") from e
     if resp.status_code != 200:
-        raise ProviderError(f"HTTP {resp.status_code}: {resp.text[:300]}",
-                            status_code=resp.status_code)
+        raise ProviderError(
+            f"HTTP {resp.status_code}: {resp.text[:300]}",
+            status_code=resp.status_code,
+            retry_after=_parse_retry_after(resp, resp.text),
+        )
     data = resp.json()
     text = _extract_google_text(data)
     if not text:
         raise ProviderError("empty response content")
+    tokens = _extract_google_usage(data)
     if json_mode:
         try:
-            return _parse_json_tolerant(text)
+            return _parse_json_tolerant(text), tokens
         except json.JSONDecodeError as e:
             raise ProviderError(f"non-JSON response: {text[:200]}") from e
-    return {"text": text, "grounding": _extract_grounding(data)}
+    return {"text": text, "grounding": _extract_grounding(data)}, tokens
+
+
+def _parse_retry_after(resp: Any, body: str) -> float | None:
+    """Extract a server-suggested wait (seconds) for a rate-limit error.
+
+    Checks, in order: ``Retry-After`` header (seconds or HTTP-date),
+    ``x-ratelimit-reset`` header (epoch seconds), and a ``"try again in Ns"``
+    phrase in the response body (Groq-style quota errors).
+    """
+    import re
+    h = resp.headers.get("Retry-After")
+    if h:
+        try:
+            return float(h)
+        except ValueError:
+            from email.utils import parsedate_to_datetime
+            try:
+                when = parsedate_to_datetime(h)
+                if when.tzinfo is None:
+                    when = when.replace(tzinfo=timezone.utc)
+                return max(0.0, (when - datetime.now(timezone.utc)).total_seconds())
+            except Exception:
+                pass
+    reset = resp.headers.get("x-ratelimit-reset")
+    if reset:
+        try:
+            epoch = float(reset)
+            return max(0.0, epoch - time.time())
+        except ValueError:
+            pass
+    m = re.search(r"try again in ([\d.]+)s", body, re.I)
+    if m:
+        try:
+            return float(m.group(1))
+        except ValueError:
+            pass
+    return None
+
+
+def _extract_openai_usage(data: dict[str, Any]) -> int:
+    """Total tokens from an OpenAI-format response (0 when omitted)."""
+    try:
+        return int(data["usage"]["total_tokens"])
+    except (KeyError, TypeError, ValueError):
+        return 0
+
+
+def _extract_google_usage(data: dict[str, Any]) -> int:
+    """Total tokens from a Gemini response (0 when omitted)."""
+    try:
+        return int(data["usageMetadata"]["totalTokenCount"])
+    except (KeyError, TypeError, ValueError):
+        return 0
 
 
 def _parse_json_tolerant(text: str) -> dict[str, Any]:

@@ -57,34 +57,39 @@ class GroundingEngine:
         prompt = _build_verify_prompt(record, claims)
         result = None
         last_err: Exception | None = None
+        used_spec = None
         # Retry transient failures (429/5xx/network) with backoff — the Gemini
-        # free tier is frequently rate-limited on quick consecutive calls.
-        if spec is not None:
-            for attempt in range(self.cfg.gemini.retries + 1):
-                try:
-                    result = self.pm.verify(spec, SYSTEM_VERIFY, prompt)
+        # free tier is frequently rate-limited.  A FRESH spec is picked on each
+        # attempt so a provider put into cooldown is not retried stale.
+        for attempt in range(self.cfg.gemini.retries + 1):
+            used_spec = self.pm.pick_check()
+            if used_spec is None:
+                last_err = last_err or RuntimeError("no check provider available")
+                break
+            try:
+                result = self.pm.verify(used_spec, SYSTEM_VERIFY, prompt)
+                break
+            except Exception as e:  # verify failed → retry transient, else give up
+                last_err = e
+                status = getattr(e, "status_code", None)
+                transient = status is None or status in (429, 500, 502, 503, 504)
+                if not transient or attempt >= self.cfg.gemini.retries:
                     break
-                except Exception as e:  # verify failed → retry transient, else give up
-                    last_err = e
-                    status = getattr(e, "status_code", None)
-                    transient = status is None or status in (429, 500, 502, 503, 504)
-                    if not transient or attempt >= self.cfg.gemini.retries:
-                        break
-                    time.sleep(3 * (attempt + 1))  # backoff before retrying
+                time.sleep(3 * (attempt + 1))  # backoff before retrying
 
         if result is not None:
             parsed = self._parse(result, claims)
-            return self._finalize(record, parsed, spec, method="gemini-search")
+            return self._finalize(record, parsed, used_spec, method="gemini-search")
 
         # Fallback: lexical grounding against the source fulltext (no API).
-        if spec is None:
+        if used_spec is None:
             reason = "no check provider available"
         else:
             reason = f"gemini unavailable: {last_err}"
         self.log.event("check", "verify_failed", item_id=record["id"],
                        status="error", detail=reason)
         parsed = self._lexical(claims, fulltext)
-        return self._finalize(record, parsed, spec, method="lexical")
+        return self._finalize(record, parsed, used_spec, method="lexical")
 
     def _finalize(self, record: dict[str, Any], parsed: dict[str, Any],
                   spec: Any, method: str) -> dict[str, Any]:
@@ -121,6 +126,7 @@ class GroundingEngine:
             "sources_verified": sources,
             "method": method,
             "review_status": status,
+            "_spec": spec,
         }
 
     # ---- helpers ---------------------------------------------------------

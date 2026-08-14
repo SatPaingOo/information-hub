@@ -59,11 +59,42 @@ def test_registry_source_reputation(tmp_path: Path):
 
 def test_registry_provider_budget(tmp_path: Path):
     reg = Registry(tmp_path)
-    reg.record_provider_call("groq", "llama-3.1-8b-instant", items=2, latency_ms=50)
+    reg.record_provider_call("groq", "llama-3.1-8b-instant", items=2,
+                             tokens=500, latency_ms=50)
     stats = reg.provider_model_stats("groq", "llama-3.1-8b-instant")
     assert stats["calls"] == 1
     assert stats["items"] == 2
     assert reg.provider_calls("groq", "llama-3.1-8b-instant") == 1
     assert reg.provider_items("groq", "llama-3.1-8b-instant") == 2
+    # provider-aggregate token quota
+    assert reg.provider_tokens_used("groq") == 500
+    assert reg.provider_items_used("groq") == 2
     reg.record_provider_failure("groq", "llama-3.1-8b-instant", mark_down=True)
     assert reg.provider_healthy("groq", "llama-3.1-8b-instant") is False
+
+
+def test_registry_daily_quota_reset(tmp_path: Path, monkeypatch):
+    reg = Registry(tmp_path)
+    reg.record_provider_call("groq", "llama-3.1-8b-instant", tokens=900)
+    assert reg.provider_tokens_used("groq") == 900
+    # simulate a new UTC day → counters auto-reset
+    monkeypatch.setattr("src.storage.registry._utc_today", lambda: "2026-08-15")
+    reg.reset_provider_quotas_if_new_day()
+    assert reg.provider_tokens_used("groq") == 0
+    assert reg.provider_items_used("groq") == 0
+
+
+def test_registry_cooldown_persist(tmp_path: Path):
+    reg = Registry(tmp_path)
+    reg.set_provider_cooldown("openrouter", "2026-08-14T12:00:00+00:00")
+    assert reg.provider_cooldown_until("openrouter") == "2026-08-14T12:00:00+00:00"
+    reg.set_provider_cooldown("openrouter", None)
+    assert reg.provider_cooldown_until("openrouter") is None
+
+
+def test_registry_lock(tmp_path: Path):
+    reg = Registry(tmp_path)
+    assert reg.acquire_lock() is True
+    assert reg.acquire_lock() is False      # already held
+    reg.release_lock()
+    assert reg.acquire_lock() is True       # re-acquirable

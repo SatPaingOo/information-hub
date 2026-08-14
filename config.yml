@@ -4,6 +4,10 @@
 # Editable directly on GitHub (no code changes required).
 #
 # ---- Providers (fully auto — only providers with env keys are enabled) ----
+# Token-aware daily budgets (per provider, auto-reset each UTC day):
+#   max_daily_items   — daily item ceiling
+#   max_daily_tokens  — daily token ceiling (counted from API usage)
+#   max_output_tokens — per-call output cap (free tiers cap output too)
 providers:
   groq:
     enabled: true
@@ -11,14 +15,14 @@ providers:
     role: collect                     # deep-dive generation
     format: openai                    # /chat/completions
     models: [llama-3.3-70b-versatile, llama-3.1-8b-instant]   # fallback order
-    budget: { max_items: 2, max_calls: 10 }
+    budget: { max_daily_items: 4, max_daily_tokens: 3000, max_output_tokens: 1500 }
   openrouter:
     enabled: true
     keys_env: OPENROUTER_API_KEY
     role: collect
     format: openai
     discover: free_models             # runtime auto-discover free models (no hardcode)
-    budget: { max_items: 2, max_calls: 10 }
+    budget: { max_daily_items: 6, max_daily_tokens: 4000, max_output_tokens: 2048 }
   gemini:
     enabled: true
     keys_env: GEMINI_API_KEYS         # comma-separated multi-key
@@ -26,7 +30,21 @@ providers:
     format: google
     models: [gemini-3.5-flash-lite, gemini-3.5-flash]   # current-gen (2.5-flash retired for new users)
     search_tool: google_search        # enable web-search grounding
-    budget: { max_items: 10, max_calls: 15 }
+    budget: { max_daily_items: 10, max_daily_tokens: 5000, max_output_tokens: 2048 }
+
+# ---- Targets (daily content goals) ----
+targets:
+  total_per_day: 30                   # နေ့စဉ် content target (models မအားရင် controller က schedule)
+  collections:
+    myanmar-news: 4
+    ai-research: 3
+    us-tech: 2
+
+# ---- Run control ----
+run:
+  max_job_minutes: 25                 # Actions 30-min timeout အောက်မှာ ရပ်ဖို့
+  heartbeat_minutes: 15               # scheduler cron interval (schedule.json due စစ်)
+  cooldown_base_seconds: 30           # exponential backoff base for cooldowns
 
 # ---- Quality engine (phase check) ----
 quality:
@@ -37,7 +55,7 @@ quality:
 run:
   phases: [collect, check]
 
-gemini:                               # legacy keys (gemini.* still used by prompts)
+gemini:                               # legacy keys (gemini.* still used by prompts/retries)
   model: gemini-3.5-flash-lite
   temperature: 0.4
   max_output_tokens: 2048
@@ -45,7 +63,7 @@ gemini:                               # legacy keys (gemini.* still used by prom
 
 storage:
   data_dir: data
-  max_daily_items_total: 6            # multi-provider capacity
+  max_daily_items_total: 30           # hard ceiling (targets above)
 
 # Classification layers — hierarchical (add / remove / edit freely)
 taxonomy:

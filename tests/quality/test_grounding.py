@@ -24,13 +24,12 @@ def _setup(tmp_path: Path):
 def test_check_record_mock_scores_and_verifies(tmp_path: Path):
     cfg, reg, run_log, pm = _setup(tmp_path)
     engine = GroundingEngine(cfg, reg, run_log, pm)
-    spec = ModelSpec(provider="gemini", model="gemini-2.5-flash",
-                     fmt="google", search_tool="google_search")
     rec = sample_record(key="2026-08-14-001")
     # items are registered during collect before check verifies them
     reg.record_item(rec, status="published", gemini_calls=1, validated=True,
                     provider="mock", model="mock")
-    result = engine.check_record(rec, spec)
+    # check_record picks a FRESH check provider internally (mock → gemini)
+    result = engine.check_record(rec, spec=None)
 
     assert result["method"] == "gemini-search"
     assert result["grounding_score"] >= 0.5          # mock: 2/3 grounded
@@ -38,11 +37,11 @@ def test_check_record_mock_scores_and_verifies(tmp_path: Path):
     assert result["sources_verified"]                # citations present
     assert result["review_status"] == "verified"
 
-    # registry approval trail updated
+    # registry approval trail updated (approver = internally-picked gemini)
     status = reg.item_status(rec["id"])
     assert status["review_status"] == "verified"
     assert status["approved_by"]["provider"] == "gemini"
-    assert status["approved_by"]["model"] == "gemini-2.5-flash"
+    assert status["approved_by"]["model"].startswith("gemini-")
     assert status["approved_by"]["type"] == "ai"
 
 
@@ -74,8 +73,8 @@ def test_source_reputation_updates(tmp_path: Path):
     assert stats.get("grounding_scores")          # history kept
 
 
-def test_lexical_fallback_without_spec(tmp_path: Path):
-    """No provider/spec available → lexical grounding against fulltext."""
+def test_lexical_fallback_when_provider_unavailable(tmp_path: Path):
+    """Gemini budget exhausted → pick_check None → lexical grounding."""
     cfg, reg, run_log, pm = _setup(tmp_path)
     engine = GroundingEngine(cfg, reg, run_log, pm)
     rec = sample_record(key="2026-08-14-004")
@@ -85,6 +84,9 @@ def test_lexical_fallback_without_spec(tmp_path: Path):
     ]
     reg.record_item(rec, status="published", gemini_calls=1, validated=True,
                     provider="mock", model="mock")
+    # exhaust the gemini daily token budget so no check provider is available
+    gem = cfg.providers["gemini"]
+    reg.record_provider_call("gemini", gem.models[0], tokens=gem.max_daily_tokens)
     result = engine.check_record(rec, spec=None, fulltext=" ".join([
         "background context sentence analysis content development",
         "fact sentence repeated wording",

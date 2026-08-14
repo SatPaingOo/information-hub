@@ -11,7 +11,9 @@ def test_config_loads_from_repo():
     cfg = Config.load()
     assert cfg.gemini.model.startswith("gemini-")          # current-gen model
     assert cfg.providers["gemini"].models[0].startswith("gemini-")
-    assert cfg.storage.max_daily_items_total == 6
+    assert cfg.storage.max_daily_items_total == 30
+    assert cfg.targets.total_per_day == 30
+    assert cfg.run_control.heartbeat_minutes == 15
     # nested taxonomy
     assert "ai-ml" in cfg.taxonomy.topics
     assert "llm" in cfg.taxonomy.children_of("ai-ml")

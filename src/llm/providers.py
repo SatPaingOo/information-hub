@@ -30,19 +30,8 @@ from src.utils.logging_util import RunLog
 UA = {"User-Agent": "information-hub/0.3 (research aggregator)"}
 
 # HTTP statuses treated as transient (rate limits / upstream hiccups) —
-# the model stays eligible for the next pick instead of being marked down.
+# transient failures put the whole provider into a persisted cooldown.
 TRANSIENT_STATUSES = (429, 500, 502, 503, 504)
-
-
-def _should_mark_down(status_code: int | None) -> bool:
-    """True if this error status permanently disables the model for the run.
-
-    Hard 4xx (decommissioned model, bad request) → down (rotate).
-    Transient 429/5xx → stay up (may succeed on the next attempt).
-    """
-    if status_code is None:
-        return True
-    return status_code >= 400 and status_code not in TRANSIENT_STATUSES
 
 
 @dataclass
@@ -91,13 +80,8 @@ class ProviderManager:
         self._key_index: dict[str, int] = {}
         self._discovered: dict[str, list[str]] = {}
         self._phase = "collect"
-        # provider -> unix ts until which we skip it (rate-limit cooldown).
-        # When a provider's free pool is 429-rate-limited, ALL its models are
-        # affected — so we back off the whole provider and rotate to another.
-        self._provider_cooldown_until: dict[str, float] = {}
-        # provider -> consecutive 429 count (to mark a provider down)
-        self._provider_429_count: dict[str, int] = {}
-        # per-model consecutive 429s within this run (temporary down)
+        # per-model consecutive 429s within this run (temporary down).
+        # Provider-level cooldown is PERSISTED in the registry (survives runs).
         self._model_429_count: dict[str, int] = {}
 
     # ---- model discovery ------------------------------------------------
@@ -107,8 +91,10 @@ class ProviderManager:
         Mock mode: env keys are not required (auto-enable all configured).
         Real mode: providers without keys are auto-disabled and logged.
         Models marked down on a previous day are re-enabled (fresh attempt).
+        Daily provider token quotas are reset when the UTC day changed.
         """
         self.registry.reset_health_if_stale()
+        self.registry.reset_provider_quotas_if_new_day()
         specs: list[ModelSpec] = []
         for p in self.cfg.providers.values():
             if not p.enabled or p.role != role:
@@ -186,24 +172,47 @@ class ProviderManager:
 
     # ---- selection -------------------------------------------------------
     def _provider_available(self, provider: str) -> bool:
-        """True if this provider is not in a rate-limit cooldown window."""
-        until = self._provider_cooldown_until.get(provider, 0.0)
-        if until > time.monotonic():
-            return False
-        return True
+        """True if the provider is not in a persisted rate-limit cooldown."""
+        until = self.registry.provider_cooldown_until(provider)
+        if not until:
+            return True
+        try:
+            from datetime import datetime, timezone
+            deadline = datetime.fromisoformat(until)
+            if deadline.tzinfo is None:
+                deadline = deadline.replace(tzinfo=timezone.utc)
+            return datetime.now(timezone.utc) >= deadline
+        except ValueError:
+            return True
 
-    def pick_collect(self, collection: str) -> ModelSpec | None:
+    def can_call(self, spec: ModelSpec, est_output_tokens: int = 0) -> bool:
+        """Pre-call rate-limit gate (called BEFORE any HTTP request).
+
+        Returns False when the provider is in a persisted cooldown OR its
+        daily token/item budget would be exceeded by this call.
+        """
+        if not self._provider_available(spec.provider):
+            return False
+        cfg_p = self.cfg.providers.get(spec.provider)
+        if not cfg_p:
+            return False
+        if self.registry.provider_items_used(spec.provider) >= cfg_p.max_daily_items:
+            return False
+        projected = self.registry.provider_tokens_used(spec.provider) + est_output_tokens
+        return projected <= cfg_p.max_daily_tokens
+
+    def pick_collect(self, collection: str, est_output_tokens: int = 0) -> ModelSpec | None:
         """Pick the best healthy collect model (deep-dive generation).
 
-        Returns the model with the fewest calls among healthy models still
-        within budget, skipping providers in a rate-limit cooldown, or None
-        when every collect model is down/exhausted/cooldown.
+        Returns the model with the fewest calls among healthy models that pass
+        the pre-call gate (cooldown + budget), or None when every collect
+        model is down/exhausted/rate-limited.
         """
         self._phase = "collect"
         for spec in self._ranked_collect():
-            if not self._provider_available(spec.provider):
+            if not self.can_call(spec, est_output_tokens):
                 continue
-            if self._within_budget(spec) and self.registry.provider_healthy(spec.provider, spec.model):
+            if self.registry.provider_healthy(spec.provider, spec.model):
                 self.log.event("collect", "pick_model", collection=collection,
                                provider=spec.provider, model=spec.model)
                 return spec
@@ -215,7 +224,7 @@ class ProviderManager:
         """Pick the healthy check provider (Gemini search grounding)."""
         self._phase = "check"
         for spec in self.models_for_role("check"):
-            if not self._provider_available(spec.provider):
+            if not self.can_call(spec, est_output_tokens=300):
                 continue
             if self.registry.provider_healthy(spec.provider, spec.model):
                 self.log.event("check", "pick_model", provider=spec.provider,
@@ -234,16 +243,13 @@ class ProviderManager:
         ))
 
     def _within_budget(self, spec: ModelSpec) -> bool:
-        """True if this model has not exceeded its per-run calls/items budget."""
-        p = self.cfg.providers.get(spec.provider)
-        if not p:
-            return False
-        return (self.registry.provider_calls(spec.provider, spec.model) < p.max_calls
-                and self.registry.provider_items(spec.provider, spec.model) < p.max_items)
+        """Deprecated — replaced by the token-aware ``can_call`` gate."""
+        return self.can_call(spec)
 
     # ---- calls ------------------------------------------------------------
     def generate(self, spec: ModelSpec, system_prompt: str,
-                 user_prompt: str, items: int = 1) -> dict[str, Any]:
+                 user_prompt: str, items: int = 1,
+                 est_output_tokens: int = 0) -> dict[str, Any]:
         """Generate a deep-dive via the selected collect model (JSON output)."""
         if self.mock:
             return self.mock_generator(system_prompt, user_prompt)
@@ -251,19 +257,24 @@ class ProviderManager:
         key = self._next_key(spec)
         try:
             if spec.fmt == "google":
-                data = call_google(spec, key, system_prompt, user_prompt,
-                                   json_mode=True)
+                data, tokens = call_google(spec, key, system_prompt, user_prompt,
+                                           json_mode=True,
+                                           max_tokens=self._max_output(spec))
             else:
-                data = call_openai(spec, key, system_prompt, user_prompt,
-                                   json_mode=spec.supports_json)
+                data, tokens = call_openai(spec, key, system_prompt, user_prompt,
+                                           json_mode=spec.supports_json,
+                                           max_tokens=self._max_output(spec))
             latency = int((time.monotonic() - start) * 1000)
             self.registry.record_provider_call(spec.provider, spec.model,
-                                               items=items, latency_ms=latency)
+                                               items=items, tokens=tokens,
+                                               latency_ms=latency)
             self.log.event("collect", "call_ok", provider=spec.provider,
-                           model=spec.model, latency_ms=latency)
+                           model=spec.model, latency_ms=latency,
+                           detail=f"tokens={tokens}")
             return data
         except ProviderError as e:
-            self._record_failure(spec, e.status_code, phase="collect")
+            self._record_failure(spec, e.status_code, phase="collect",
+                                 retry_after=e.retry_after)
             raise
         except Exception as e:  # defensive — never crash the pipeline
             self.registry.record_provider_failure(spec.provider, spec.model, mark_down=True)
@@ -291,22 +302,30 @@ class ProviderManager:
         start = time.monotonic()
         key = self._next_key(spec)
         try:
-            data = call_google(spec, key, system_prompt, user_prompt,
-                               json_mode=True, search_tool=spec.search_tool)
+            data, tokens = call_google(spec, key, system_prompt, user_prompt,
+                                       json_mode=True, search_tool=spec.search_tool,
+                                       max_tokens=self._max_output(spec))
             latency = int((time.monotonic() - start) * 1000)
             self.registry.record_provider_call(spec.provider, spec.model,
-                                               latency_ms=latency)
+                                               tokens=tokens, latency_ms=latency)
             self.log.event("check", "verify_ok", provider=spec.provider,
-                           model=spec.model, latency_ms=latency)
+                           model=spec.model, latency_ms=latency,
+                           detail=f"tokens={tokens}")
             return data
         except ProviderError as e:
-            self._record_failure(spec, e.status_code, phase="check")
+            self._record_failure(spec, e.status_code, phase="check",
+                                 retry_after=e.retry_after)
             raise
         except Exception as e:  # defensive — never crash the pipeline
             self.registry.record_provider_failure(spec.provider, spec.model, mark_down=True)
             self.log.event("check", "verify_error", provider=spec.provider,
                            model=spec.model, status="error", detail=str(e))
             raise ProviderError(f"unexpected error: {e}") from e
+
+    def _max_output(self, spec: ModelSpec) -> int:
+        """Per-call output cap from the provider config."""
+        p = self.cfg.providers.get(spec.provider)
+        return p.max_output_tokens if p else 2048
 
     def ping(self, spec: ModelSpec) -> bool:
         """Cheap health ping (max_tokens=1). Returns True if responsive."""
@@ -333,29 +352,37 @@ class ProviderManager:
 
     # ---- failure handling --------------------------------------------------
     def _record_failure(self, spec: ModelSpec, status_code: int | None,
-                        phase: str) -> None:
-        """Handle a failed provider call: cooldown/down + provenance log.
+                        phase: str, retry_after: float | None = None) -> None:
+        """Handle a failed provider call: persisted cooldown/down + log.
 
-        429/5xx (transient): put the whole provider into a cooldown window so
-        the next pick rotates to a different provider; after a few consecutive
-        429s the model is also marked down for this run.
+        429/5xx (transient): put the whole provider into a persisted cooldown
+        (registry) so later picks rotate to a different provider — even across
+        runs.  Cooldown respects the server's ``Retry-After`` when present.
         Hard 4xx (decommissioned/bad config): mark the model down immediately.
         """
         transient = status_code in TRANSIENT_STATUSES or status_code is None
         if transient:
-            # whole provider cooldown (~2 min) — its free pool is rate-limited
-            self._provider_cooldown_until[spec.provider] = \
-                time.monotonic() + 120
-            key = f"{spec.provider}/{spec.model}"
-            n = self._model_429_count.get(key, 0) + 1
-            self._model_429_count[key] = n
-            mark_down = n >= 3  # hammering the same rate-limited model is futile
+            base = float(self.cfg.run_control.cooldown_base_seconds)
+            model_key = f"{spec.provider}/{spec.model}"
+            n = self._model_429_count.get(model_key, 0) + 1
+            self._model_429_count[model_key] = n
+            backoff = base * (2 ** (n - 1))
+            wait = retry_after if retry_after and retry_after > backoff else backoff
+            wait = min(wait, 900)  # cap at 15 min (job deadline bound)
+            mark_down = n >= 3
         else:
+            wait = 0.0
             mark_down = True
+
         self.registry.record_provider_failure(spec.provider, spec.model,
                                               mark_down=mark_down)
+        if transient and wait > 0:
+            import datetime as dt
+            until = (dt.datetime.now(dt.timezone.utc)
+                     + dt.timedelta(seconds=wait)).isoformat(timespec="seconds")
+            self.registry.set_provider_cooldown(spec.provider, until)
         self.log.event(phase, "call_error", provider=spec.provider,
                        model=spec.model, status="error",
                        detail=f"HTTP {status_code}: {spec.provider} "
                               f"{'cooldown' if transient else 'down'} "
-                              f"(mark_down={mark_down})")
+                              f"(wait={wait:.0f}s mark_down={mark_down})")

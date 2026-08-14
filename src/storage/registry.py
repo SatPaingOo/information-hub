@@ -191,53 +191,121 @@ class Registry:
             return True  # never ran → run now
         return next_due <= run_date
 
-    # ---- provider health/budget (V3 self-managing) ---------------------
+    # ---- provider quota/budget (V6 token-aware, persisted) ---------------
+    def provider_state(self, provider: str) -> dict[str, Any]:
+        """Provider-level state: daily quota counters + cooldown + models.
+
+        Structure::
+
+            {quota_date, tokens_used, items, calls, errors,
+             cooldown_until, models: {model: {calls, items, errors, ...}}}
+
+        Migrates the old ``{model: stats}`` shape on first access.
+        """
+        state = self.providers.setdefault(provider, {})
+        if "models" not in state or not isinstance(state.get("models"), dict):
+            # old shape: {model: stats} → new shape with a models sub-dict
+            models = {k: v for k, v in state.items() if isinstance(v, dict)}
+            state = {
+                "quota_date": _utc_today(),
+                "tokens_used": 0,
+                "items": 0,
+                "calls": 0,
+                "errors": 0,
+                "cooldown_until": None,
+                "models": models,
+            }
+            self.providers[provider] = state
+        state.setdefault("quota_date", _utc_today())
+        state.setdefault("tokens_used", 0)
+        state.setdefault("items", 0)
+        state.setdefault("calls", 0)
+        state.setdefault("errors", 0)
+        state.setdefault("cooldown_until", None)
+        state.setdefault("models", {})
+        return state
+
+    def reset_provider_quotas_if_new_day(self) -> None:
+        """Reset per-provider daily counters when the UTC day changed.
+
+        Called at run start — replaces the manual ``reset provider health``
+        commits: tokens_used/items/calls/errors/cooldown_until all reset.
+        """
+        today = _utc_today()
+        for provider in list(self.providers.keys()):
+            state = self.provider_state(provider)
+            if state.get("quota_date") != today:
+                state["quota_date"] = today
+                state["tokens_used"] = 0
+                state["items"] = 0
+                state["calls"] = 0
+                state["errors"] = 0
+                state["cooldown_until"] = None
+
     def provider_model_stats(self, provider: str, model: str) -> dict[str, Any]:
-        stats = self.providers.setdefault(provider, {}).setdefault(
+        state = self.provider_state(provider)
+        stats = state["models"].setdefault(
             model, {"calls": 0, "items": 0, "errors": 0,
                     "consecutive_failures": 0, "healthy": True,
                     "last_health_check": None, "latency_ms": None,
-                    "supports_json": True, "exhausted_until": None})
+                    "supports_json": True})
         return stats
 
-    def record_provider_call(self, provider: str, model: str, *, items: int = 0,
+    def record_provider_call(self, provider: str, model: str, *,
+                             items: int = 0, tokens: int = 0,
                              latency_ms: int | None = None) -> None:
-        stats = self.provider_model_stats(provider, model)
+        state = self.provider_state(provider)
+        state["calls"] = state.get("calls", 0) + 1
+        state["items"] = state.get("items", 0) + items
+        state["tokens_used"] = state.get("tokens_used", 0) + tokens
+        stats = state["models"].setdefault(
+            model, {"calls": 0, "items": 0, "errors": 0,
+                    "consecutive_failures": 0, "healthy": True,
+                    "last_health_check": None, "latency_ms": None,
+                    "supports_json": True})
         stats["calls"] = stats.get("calls", 0) + 1
         stats["items"] = stats.get("items", 0) + items
         if latency_ms is not None:
             stats["latency_ms"] = latency_ms
         stats["consecutive_failures"] = 0
         stats["last_health_check"] = _utcnow()
+        self.providers[provider] = state
 
     def record_provider_failure(self, provider: str, model: str,
                                 mark_down: bool = False) -> None:
-        stats = self.provider_model_stats(provider, model)
+        state = self.provider_state(provider)
+        state["errors"] = state.get("errors", 0) + 1
+        stats = state["models"].setdefault(
+            model, {"calls": 0, "items": 0, "errors": 0,
+                    "consecutive_failures": 0, "healthy": True,
+                    "last_health_check": None, "latency_ms": None,
+                    "supports_json": True})
         stats["errors"] = stats.get("errors", 0) + 1
         stats["consecutive_failures"] = stats.get("consecutive_failures", 0) + 1
         stats["last_health_check"] = _utcnow()
         if mark_down:
             stats["healthy"] = False
+        self.providers[provider] = state
 
     def provider_healthy(self, provider: str, model: str) -> bool:
-        stats = self.provider_model_stats(provider, model)
-        return bool(stats.get("healthy", True))
+        return bool(self.provider_model_stats(provider, model).get("healthy", True))
 
-    def reset_health_if_stale(self) -> None:
-        """Re-enable models whose last health check was a previous day.
+    # ---- persisted cooldown (rate-limit state across runs) ----------------
+    def set_provider_cooldown(self, provider: str, until_iso: str | None) -> None:
+        """Persist a provider cooldown deadline (ISO UTC) or clear it."""
+        state = self.provider_state(provider)
+        state["cooldown_until"] = until_iso
+        self.providers[provider] = state
 
-        Registry persists across runs (committed with the data), so models
-        marked down during one run are retried once per day.  Comparison is
-        done in UTC to match the ``last_health_check`` timestamps.
-        """
-        import datetime as dt
-        today = dt.datetime.now(dt.timezone.utc).date().isoformat()
-        for provider, models in self.providers.items():
-            for model, stats in models.items():
-                last = stats.get("last_health_check", "")
-                if stats.get("healthy") is False and not last.startswith(today):
-                    stats["healthy"] = True
-                    stats["consecutive_failures"] = 0
+    def provider_cooldown_until(self, provider: str) -> str | None:
+        return self.provider_state(provider).get("cooldown_until")
+
+    # ---- provider aggregate budget (not per-model) ------------------------
+    def provider_tokens_used(self, provider: str) -> int:
+        return self.provider_state(provider).get("tokens_used", 0)
+
+    def provider_items_used(self, provider: str) -> int:
+        return self.provider_state(provider).get("items", 0)
 
     def provider_calls(self, provider: str, model: str) -> int:
         return self.provider_model_stats(provider, model).get("calls", 0)
@@ -247,6 +315,33 @@ class Registry:
 
     def set_provider_json_support(self, provider: str, model: str, supports: bool) -> None:
         self.provider_model_stats(provider, model)["supports_json"] = supports
+
+    def reset_health_if_stale(self) -> None:
+        """Re-enable models whose last health check was a previous day.
+
+        Registry persists across runs (committed with the data), so models
+        marked down during one run are retried once per day.  Comparison is
+        done in UTC to match the ``last_health_check`` timestamps.
+        """
+        today = _utc_today()
+        for provider in list(self.providers.keys()):
+            state = self.provider_state(provider)
+            for model, stats in state.get("models", {}).items():
+                last = stats.get("last_health_check", "")
+                if stats.get("healthy") is False and not last.startswith(today):
+                    stats["healthy"] = True
+                    stats["consecutive_failures"] = 0
+
+    # ---- pipeline lock (scheduler double-safety) ---------------------------
+    def acquire_lock(self) -> bool:
+        """Try to acquire the pipeline lock; True if acquired."""
+        if self.meta.get("lock"):
+            return False
+        self.meta["lock"] = _utcnow()
+        return True
+
+    def release_lock(self) -> None:
+        self.meta["lock"] = None
 
     # ---- meta ---------------------------------------------------------
     def next_sequence(self, date: str) -> int:
@@ -273,6 +368,11 @@ class Registry:
 def _utcnow() -> str:
     import datetime as dt
     return dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
+
+
+def _utc_today() -> str:
+    import datetime as dt
+    return dt.datetime.now(dt.timezone.utc).date().isoformat()
 
 
 def _next_due(run_date: str, frequency: str) -> str:

@@ -36,8 +36,9 @@ class ProviderConfig:
     discover: str | None = None         # "free_models" → runtime auto-discover
     search_tool: str | None = None      # "google_search" for check providers
     base_url: str = ""
-    max_items: int = 2
-    max_calls: int = 10
+    max_daily_items: int = 2
+    max_daily_tokens: int = 4000        # token-aware daily budget
+    max_output_tokens: int = 2048       # per-call output cap
 
     def env_keys(self) -> list[str]:
         raw = os.environ.get(self.keys_env, "") if self.keys_env else ""
@@ -46,6 +47,19 @@ class ProviderConfig:
         if not raw:
             return []
         return [k.strip() for k in raw.split(",") if k.strip()]
+
+
+@dataclass
+class TargetsConfig:
+    total_per_day: int = 30
+    collections: dict[str, int] = field(default_factory=dict)
+
+
+@dataclass
+class RunControlConfig:
+    max_job_minutes: int = 25
+    heartbeat_minutes: int = 15
+    cooldown_base_seconds: int = 30
 
 
 @dataclass
@@ -210,6 +224,8 @@ class Config:
     providers: dict[str, ProviderConfig]
     quality: QualityConfig
     run: RunConfig
+    targets: TargetsConfig
+    run_control: RunControlConfig
     policies: dict[str, Any]
     path: Path
 
@@ -270,6 +286,19 @@ class Config:
         run_raw = raw.get("run", {})
         run = RunConfig(phases=list(run_raw.get("phases", ["collect", "check"])))
 
+        targets_raw = raw.get("targets", {})
+        targets = TargetsConfig(
+            total_per_day=int(targets_raw.get("total_per_day", 30)),
+            collections={str(k): int(v) for k, v in
+                         (targets_raw.get("collections", {}) or {}).items()},
+        )
+        run_control_raw = raw.get("run", {})
+        run_control = RunControlConfig(
+            max_job_minutes=int(run_control_raw.get("max_job_minutes", 25)),
+            heartbeat_minutes=int(run_control_raw.get("heartbeat_minutes", 15)),
+            cooldown_base_seconds=int(run_control_raw.get("cooldown_base_seconds", 30)),
+        )
+
         return cls(
             gemini=gemini,
             storage=storage,
@@ -280,6 +309,8 @@ class Config:
             providers=providers,
             quality=quality,
             run=run,
+            targets=targets,
+            run_control=run_control,
             policies=policies,
             path=cfg_path,
         )
@@ -312,8 +343,10 @@ def _provider_from(name: str, raw: dict[str, Any]) -> ProviderConfig:
         discover=raw.get("discover"),
         search_tool=raw.get("search_tool"),
         base_url=raw.get("base_url", ""),
-        max_items=int(budget.get("max_items", 2)),
-        max_calls=int(budget.get("max_calls", 10)),
+        max_daily_items=int(budget.get("max_daily_items",
+                                       budget.get("max_items", 2))),
+        max_daily_tokens=int(budget.get("max_daily_tokens", 4000)),
+        max_output_tokens=int(budget.get("max_output_tokens", 2048)),
     )
 
 

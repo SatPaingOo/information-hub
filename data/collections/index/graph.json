@@ -102,91 +102,6 @@
       "name": "industry"
     },
     {
-      "id": "info:item:geopolitics:myanmar:2026-08-13-004",
-      "type": "item",
-      "date": "2026-08-13",
-      "title": "‘One Rohingya from every household’: Myanmar junta formalises forced conscription in Rakhine State"
-    },
-    {
-      "id": "info:entity:concept:Rohingya",
-      "type": "concept",
-      "name": "Rohingya"
-    },
-    {
-      "id": "info:entity:concept:Myanmar Junta",
-      "type": "concept",
-      "name": "Myanmar Junta"
-    },
-    {
-      "id": "taxonomy/category/economy",
-      "type": "taxonomy",
-      "name": "economy"
-    },
-    {
-      "id": "info:item:ai-ml:global:2026-08-13-006",
-      "type": "item",
-      "date": "2026-08-13",
-      "title": "Bayesian policy selection using active inference"
-    },
-    {
-      "id": "info:entity:concept:free energy principle",
-      "type": "concept",
-      "name": "free energy principle"
-    },
-    {
-      "id": "info:entity:concept:mountain car problem",
-      "type": "concept",
-      "name": "mountain car problem"
-    },
-    {
-      "id": "taxonomy/misc/agentic AI",
-      "type": "taxonomy",
-      "name": "agentic AI"
-    },
-    {
-      "id": "taxonomy/misc/reinforcement learning",
-      "type": "taxonomy",
-      "name": "reinforcement learning"
-    },
-    {
-      "id": "taxonomy/misc/machine learning theory",
-      "type": "taxonomy",
-      "name": "machine learning theory"
-    },
-    {
-      "id": "info:item:ai-ml:us:2026-08-13-007",
-      "type": "item",
-      "date": "2026-08-13",
-      "title": "OpenAI is losing its second executive this week"
-    },
-    {
-      "id": "info:entity:person:Denise Dresser",
-      "type": "person",
-      "name": "Denise Dresser"
-    },
-    {
-      "id": "info:entity:person:Dali Rajic",
-      "type": "person",
-      "name": "Dali Rajic"
-    },
-    {
-      "id": "taxonomy/region/us",
-      "type": "taxonomy",
-      "layer": "region",
-      "name": "us"
-    },
-    {
-      "id": "taxonomy/category/product",
-      "type": "taxonomy",
-      "layer": "category",
-      "name": "product"
-    },
-    {
-      "id": "taxonomy/misc/agentic-ai",
-      "type": "taxonomy",
-      "name": "agentic-ai"
-    },
-    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -209,6 +124,12 @@
       "type": "taxonomy",
       "layer": "region",
       "name": "americas"
+    },
+    {
+      "id": "taxonomy/region/us",
+      "type": "taxonomy",
+      "layer": "region",
+      "name": "us"
     },
     {
       "id": "taxonomy/region/canada",
@@ -271,6 +192,12 @@
       "name": "dev-oss"
     },
     {
+      "id": "taxonomy/category/economy",
+      "type": "taxonomy",
+      "layer": "category",
+      "name": "economy"
+    },
+    {
       "id": "taxonomy/category/macro",
       "type": "taxonomy",
       "layer": "category",
@@ -311,6 +238,12 @@
       "type": "taxonomy",
       "layer": "category",
       "name": "health"
+    },
+    {
+      "id": "taxonomy/category/product",
+      "type": "taxonomy",
+      "layer": "category",
+      "name": "product"
     }
   ],
   "edges": [
@@ -438,186 +371,6 @@
       "source": "info:item:geopolitics:myanmar:2026-08-13-003",
       "target": "taxonomy/region/myanmar",
       "relation": "primary_region"
-    },
-    {
-      "source": "info:item:geopolitics:myanmar:2026-08-13-004",
-      "target": "info:entity:concept:Rohingya",
-      "relation": "target of forced conscription"
-    },
-    {
-      "source": "info:item:geopolitics:myanmar:2026-08-13-004",
-      "target": "info:entity:concept:Myanmar Junta",
-      "relation": "implementing forced conscription"
-    },
-    {
-      "source": "info:item:geopolitics:myanmar:2026-08-13-004",
-      "target": "info:item:geopolitics:myanmar:2024-02-27-001",
-      "relation": "related"
-    },
-    {
-      "source": "info:item:geopolitics:myanmar:2026-08-13-004",
-      "target": "info:item:economy:myanmar:2025-01-15-012",
-      "relation": "related"
-    },
-    {
-      "source": "info:item:geopolitics:myanmar:2026-08-13-004",
-      "target": "taxonomy/topic/geopolitics",
-      "relation": "classified_in"
-    },
-    {
-      "source": "info:item:geopolitics:myanmar:2026-08-13-004",
-      "target": "taxonomy/region/myanmar",
-      "relation": "classified_in"
-    },
-    {
-      "source": "info:item:geopolitics:myanmar:2026-08-13-004",
-      "target": "taxonomy/category/policy",
-      "relation": "classified_in"
-    },
-    {
-      "source": "info:item:geopolitics:myanmar:2026-08-13-004",
-      "target": "taxonomy/category/industry",
-      "relation": "classified_in"
-    },
-    {
-      "source": "info:item:geopolitics:myanmar:2026-08-13-004",
-      "target": "taxonomy/topic/geopolitics",
-      "relation": "relates"
-    },
-    {
-      "source": "info:item:geopolitics:myanmar:2026-08-13-004",
-      "target": "taxonomy/category/economy",
-      "relation": "relates"
-    },
-    {
-      "source": "info:item:geopolitics:myanmar:2026-08-13-004",
-      "target": "taxonomy/region/myanmar",
-      "relation": "relates"
-    },
-    {
-      "source": "info:item:ai-ml:global:2026-08-13-006",
-      "target": "info:entity:concept:free energy principle",
-      "relation": "Theoretical foundation of active inference; posits that self-organizing systems minimize surprise by maintaining a generative model of the world."
-    },
-    {
-      "source": "info:item:ai-ml:global:2026-08-13-006",
-      "target": "info:entity:concept:mountain car problem",
-      "relation": "Benchmark reinforcement learning task used to validate the active inference approach, requiring delayed reward and strategic action sequencing."
-    },
-    {
-      "source": "info:item:ai-ml:global:2026-08-13-006",
-      "target": "info:entity:concept:Agentic AI",
-      "relation": "The paper's framework advances agentic AI by proposing a unified, inference-driven model of goal-directed behavior that improves sample efficiency and generalization."
-    },
-    {
-      "source": "info:item:ai-ml:global:2026-08-13-006",
-      "target": "info:entity:company:OpenAI",
-      "relation": "As a leader in reinforcement learning and agentic AI research (e.g., in robotics and language agents), OpenAI's work could benefit from or contrast with inference-based alternatives like active inference."
-    },
-    {
-      "source": "info:item:ai-ml:global:2026-08-13-006",
-      "target": "info:item:ai-ml:global:2026-08-13-001",
-      "relation": "related"
-    },
-    {
-      "source": "info:item:ai-ml:global:2026-08-13-006",
-      "target": "info:item:ai-ml:global:2026-08-13-010",
-      "relation": "related"
-    },
-    {
-      "source": "info:item:ai-ml:global:2026-08-13-006",
-      "target": "taxonomy/topic/ai-ml",
-      "relation": "classified_in"
-    },
-    {
-      "source": "info:item:ai-ml:global:2026-08-13-006",
-      "target": "taxonomy/region/global",
-      "relation": "classified_in"
-    },
-    {
-      "source": "info:item:ai-ml:global:2026-08-13-006",
-      "target": "taxonomy/category/research",
-      "relation": "classified_in"
-    },
-    {
-      "source": "info:item:ai-ml:global:2026-08-13-006",
-      "target": "taxonomy/misc/agentic AI",
-      "relation": "relates"
-    },
-    {
-      "source": "info:item:ai-ml:global:2026-08-13-006",
-      "target": "taxonomy/misc/reinforcement learning",
-      "relation": "relates"
-    },
-    {
-      "source": "info:item:ai-ml:global:2026-08-13-006",
-      "target": "taxonomy/misc/machine learning theory",
-      "relation": "relates"
-    },
-    {
-      "source": "info:item:ai-ml:us:2026-08-13-007",
-      "target": "info:entity:company:OpenAI",
-      "relation": "subject"
-    },
-    {
-      "source": "info:item:ai-ml:us:2026-08-13-007",
-      "target": "info:entity:person:Denise Dresser",
-      "relation": "executive departing"
-    },
-    {
-      "source": "info:item:ai-ml:us:2026-08-13-007",
-      "target": "info:entity:person:Dali Rajic",
-      "relation": "new CRO"
-    },
-    {
-      "source": "info:item:ai-ml:us:2026-08-13-007",
-      "target": "info:entity:concept:Agentic AI",
-      "relation": "strategic focus"
-    },
-    {
-      "source": "info:item:ai-ml:us:2026-08-13-007",
-      "target": "info:item:ai-ml:us:2026-07-20-045",
-      "relation": "related"
-    },
-    {
-      "source": "info:item:ai-ml:us:2026-08-13-007",
-      "target": "info:item:ai-ml:us:2026-07-25-012",
-      "relation": "related"
-    },
-    {
-      "source": "info:item:ai-ml:us:2026-08-13-007",
-      "target": "taxonomy/topic/ai-ml",
-      "relation": "classified_in"
-    },
-    {
-      "source": "info:item:ai-ml:us:2026-08-13-007",
-      "target": "taxonomy/region/us",
-      "relation": "classified_in"
-    },
-    {
-      "source": "info:item:ai-ml:us:2026-08-13-007",
-      "target": "taxonomy/category/product",
-      "relation": "classified_in"
-    },
-    {
-      "source": "info:item:ai-ml:us:2026-08-13-007",
-      "target": "taxonomy/category/open-source",
-      "relation": "classified_in"
-    },
-    {
-      "source": "info:item:ai-ml:us:2026-08-13-007",
-      "target": "taxonomy/misc/agentic-ai",
-      "relation": "relates"
-    },
-    {
-      "source": "info:item:ai-ml:us:2026-08-13-007",
-      "target": "taxonomy/category/open-source",
-      "relation": "relates"
-    },
-    {
-      "source": "info:item:ai-ml:us:2026-08-13-007",
-      "target": "taxonomy/region/us",
-      "relation": "relates"
     },
     {
       "source": "taxonomy/region/asia",
@@ -761,7 +514,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:concept:Agentic AI",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "1"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -770,80 +523,14 @@
       "weight": "2"
     },
     {
-      "source": "info:entity:company:OpenAI",
-      "target": "info:entity:concept:free energy principle",
-      "relation": "co-occurs",
-      "weight": "1"
-    },
-    {
-      "source": "info:entity:company:OpenAI",
-      "target": "info:entity:concept:mountain car problem",
-      "relation": "co-occurs",
-      "weight": "1"
-    },
-    {
-      "source": "info:entity:company:OpenAI",
-      "target": "info:entity:person:Dali Rajic",
-      "relation": "co-occurs",
-      "weight": "1"
-    },
-    {
-      "source": "info:entity:company:OpenAI",
-      "target": "info:entity:person:Denise Dresser",
-      "relation": "co-occurs",
-      "weight": "1"
-    },
-    {
       "source": "info:entity:concept:Agentic AI",
       "target": "info:entity:concept:Retrieval-Augmented Generation",
       "relation": "co-occurs",
       "weight": "1"
     },
     {
-      "source": "info:entity:concept:Agentic AI",
-      "target": "info:entity:concept:free energy principle",
-      "relation": "co-occurs",
-      "weight": "1"
-    },
-    {
-      "source": "info:entity:concept:Agentic AI",
-      "target": "info:entity:concept:mountain car problem",
-      "relation": "co-occurs",
-      "weight": "1"
-    },
-    {
-      "source": "info:entity:concept:Agentic AI",
-      "target": "info:entity:person:Dali Rajic",
-      "relation": "co-occurs",
-      "weight": "1"
-    },
-    {
-      "source": "info:entity:concept:Agentic AI",
-      "target": "info:entity:person:Denise Dresser",
-      "relation": "co-occurs",
-      "weight": "1"
-    },
-    {
       "source": "info:entity:concept:Data Governance",
       "target": "info:entity:concept:Myanmar Digital Economy",
-      "relation": "co-occurs",
-      "weight": "1"
-    },
-    {
-      "source": "info:entity:concept:Myanmar Junta",
-      "target": "info:entity:concept:Rohingya",
-      "relation": "co-occurs",
-      "weight": "1"
-    },
-    {
-      "source": "info:entity:concept:free energy principle",
-      "target": "info:entity:concept:mountain car problem",
-      "relation": "co-occurs",
-      "weight": "1"
-    },
-    {
-      "source": "info:entity:person:Dali Rajic",
-      "target": "info:entity:person:Denise Dresser",
       "relation": "co-occurs",
       "weight": "1"
     }

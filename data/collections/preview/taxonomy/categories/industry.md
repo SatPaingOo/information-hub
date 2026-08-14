@@ -1,7 +1,7 @@
 ---
 node: "industry"
 layer: category
-item_count: 2
+item_count: 1
 ---
 
 # industry
@@ -16,4 +16,3 @@ item_count: 2
 ## Items
 
 - 2026-08-13 · [[info:item:geopolitics:myanmar:2026-08-13-003]] — Myanmar's digital economy: connectivity grows while governance lags
-- 2026-08-13 · [[info:item:geopolitics:myanmar:2026-08-13-004]] — ‘One Rohingya from every household’: Myanmar junta formalises forced conscription in Rakhine State

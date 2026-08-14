@@ -272,8 +272,23 @@ def run_collect(cfg: Config, registry: Registry, store: Store, indexer: Indexer,
         store.write_raw_run(timestamp, raw_items)
     indexer.rebuild(store.iter_records(), taxonomy=cfg.taxonomy, relations=cfg.relations)
     registry.mark_run([r["id"] for r in run_records], quota_used=len(run_records))
+
+    # RunController — persist schedule so the heartbeat knows when to resume
+    from src.run.controller import RunController
+    controller = RunController(cfg, registry, run_log, cfg.storage.data_dir)
+    controller.report_progress(len(run_records))
+    next_run = controller.decide_next_run()
+    if next_run is not None:
+        controller.write_schedule(collect_next_run=next_run)
+        logger.info("collect done: %d item(s) published — target %s/%s, "
+                    "next run ≈ %s UTC (provider cooldowns)",
+                    len(run_records), controller.load_schedule().get("target_remaining", 0),
+                    cfg.targets.total_per_day, next_run)
+    else:
+        controller.write_schedule(collect_next_run=None)
+        logger.info("collect done: %d item(s) published — daily target met or "
+                    "providers available", len(run_records))
     registry.save()
-    logger.info("collect done: %d item(s) published", len(run_records))
     return 0
 
 
@@ -304,12 +319,13 @@ def run_check(cfg: Config, registry: Registry, store: Store, indexer: Indexer,
     cap = cfg.quality.max_ai_verify_per_run
     checked = 0
     for rec in records_today[:cap]:
-        spec = pm.pick_check()   # None → lexical fallback (no Gemini quota)
-        result = engine.check_record(rec, spec, fulltext_by_id.get(rec["id"], ""))
+        # GroundingEngine picks a FRESH check provider per attempt (gate-aware)
+        result = engine.check_record(rec, spec=None, fulltext=fulltext_by_id.get(rec["id"], ""))
         if result["grounding_score"] is None:
             logger.info("check: %s — skipped (%s)", rec["id"], result.get("reason"))
             time.sleep(2)  # pace rate-limited free tier between items
             continue
+        spec = result.get("_spec")   # spec used (set by _finalize for provenance)
         rec["grounding"] = {
             "checked_by": {"provider": spec.provider if spec else result["method"],
                            "model": spec.model if spec else "lexical",

@@ -1,13 +1,10 @@
 name: check
 
 on:
-  schedule:
-    # Daily 13:00 UTC (~18:30 Myanmar Standard Time) — after collect
-    - cron: "0 13 * * *"
-  workflow_dispatch: {}        # manual run: Actions tab → Run workflow
+  workflow_dispatch: {}        # manual on-demand check (scheduler drives daily runs)
 
 permissions:
-  contents: write              # allow the bot to commit generated data
+  contents: write
 
 concurrency:
   group: check
@@ -35,14 +32,6 @@ jobs:
       - name: Run tests
         run: python -m pytest tests/ -q
 
-      - name: List available models (debug)
-        env:
-          GEMINI_API_KEYS: ${{ secrets.GEMINI_API_KEYS }}
-        run: |
-          KEY=$(python -c "import os;print(os.environ['GEMINI_API_KEYS'].split(',')[0])")
-          curl -s "https://generativelanguage.googleapis.com/v1beta/models?key=$KEY" \
-            | python -c "import json,sys; d=json.load(sys.stdin); print('\n'.join(sorted(m['name'].replace('models/','') for m in d.get('models',[]) if 'flash' in m['name'] or 'lite' in m['name'])))"
-
       - name: Run check phase
         env:
           GEMINI_API_KEYS: ${{ secrets.GEMINI_API_KEYS }}
@@ -56,6 +45,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "chore: daily check $(date -u +%Y-%m-%d)"
+            git commit -m "chore: manual check $(date -u +%Y-%m-%d)"
+            git pull --rebase origin main || true
             git push
           fi

@@ -60,10 +60,12 @@ def test_pick_collect_returns_spec_and_rotates_on_failure(tmp_path: Path):
 def test_budget_stops_calls(tmp_path: Path):
     pm = _pm(tmp_path, mock=True)
     groq_cfg = pm.cfg.providers["groq"]
-    # exhaust groq budget, openrouter should be picked instead
+    # exhaust groq token budget (provider-aggregate), openrouter should be picked
     for s in pm.models_for_role("collect"):
         if s.provider == "groq":
-            pm.registry.record_provider_call(s.provider, s.model, items=groq_cfg.max_items)
+            pm.registry.record_provider_call(s.provider, s.model,
+                                             items=groq_cfg.max_daily_items,
+                                             tokens=groq_cfg.max_daily_tokens)
     spec = pm.pick_collect("ai-research")
     assert spec is not None
     assert spec.provider == "openrouter"
@@ -90,3 +92,34 @@ def test_google_call_rejects_bad_json():
                      fmt="google", search_tool="google_search")
     with pytest.raises(ProviderError):
         call_google(spec, "invalid-key", "sys", "user", json_mode=True)
+
+
+def test_can_call_gate_respects_cooldown(tmp_path: Path):
+    pm = _pm(tmp_path, mock=True)
+    spec = pm.models_for_role("collect")[0]
+    assert pm.can_call(spec) is True
+    pm.registry.set_provider_cooldown(spec.provider, "2099-01-01T00:00:00+00:00")
+    assert pm.can_call(spec) is False
+
+
+def test_can_call_gate_respects_token_budget(tmp_path: Path):
+    pm = _pm(tmp_path, mock=True)
+    spec = pm.models_for_role("collect")[0]
+    cfg_p = pm.cfg.providers[spec.provider]
+    pm.registry.record_provider_call(spec.provider, spec.model,
+                                     tokens=cfg_p.max_daily_tokens)
+    assert pm.can_call(spec, est_output_tokens=1) is False
+    assert pm.can_call(spec, est_output_tokens=0) is True  # at the cap edge
+
+
+def test_retry_after_parsed_from_header():
+    from src.llm.clients import _parse_retry_after
+
+    class FakeResp:
+        headers = {"Retry-After": "53", "x-ratelimit-reset": ""}
+    assert _parse_retry_after(FakeResp(), "") == 53.0
+
+    class FakeResp2:
+        headers = {"Retry-After": "", "x-ratelimit-reset": ""}
+    body = '{"message": "Please try again in 53.7s"}'
+    assert abs(_parse_retry_after(FakeResp2(), body) - 53.7) < 0.1
