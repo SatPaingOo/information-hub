@@ -143,7 +143,7 @@ data/
 - **Config**: `targets.total_per_day` (10 — free-tier daily capacity:
   Groq 4 + OpenRouter 6) + per-provider
   `budget: {max_daily_items, max_daily_tokens, max_output_tokens}`.
-- **Collections**: `myanmar-news`, `world-news`, `tech-news`, `politics`,
+- **Collections**: `world-news`, `tech-news`, `politics`,
   `products` — world/tech/politics/product news prioritized; per-collection
   daily targets live in `targets.collections`.
 

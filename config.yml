@@ -58,11 +58,10 @@ storage:
 targets:
   total_per_day: 10
   collections:
-    myanmar-news: 2
-    world-news: 2
+    world-news: 3
     tech-news: 3
     politics: 2
-    products: 1
+    products: 2
 
 # Classification layers — hierarchical (add / remove / edit freely)
 taxonomy:
@@ -85,8 +84,6 @@ taxonomy:
 
 # Optional static cross-layer relations (config-defined)
 relations:
-  - { from: myanmar, to: geopolitics, type: relates }
-  - { from: myanmar, to: economy,    type: relates }
   - { from: llm,     to: agents,     type: related }
   - { from: us,      to: dev-oss,    type: relates }
 
@@ -94,19 +91,6 @@ relations:
 #   priority  = ပိုစုတဲ့ကောင် (များလေ quota အရင်ရလေ)
 #   frequency = daily | every-2-days | weekly
 collections:
-  myanmar-news:
-    enabled: true
-    priority: 3
-    frequency: daily
-    content_type: digest
-    topics: [geopolitics, economy]
-    regions: [myanmar]
-    categories: [policy, industry]
-    sources:
-      - { type: rss, url: "https://www.irrawaddy.com/feed" }
-      - { type: rss, url: "https://myanmar-now.org/en/feed/" }
-    limits: { max_candidates: 12, max_daily_items: 2 }
-
   world-news:
     enabled: true
     priority: 3
@@ -118,7 +102,7 @@ collections:
     sources:
       - { type: rss, url: "https://feeds.bbci.co.uk/news/world/rss.xml" }
       - { type: rss, url: "https://www.aljazeera.com/xml/rss/all.xml" }
-    limits: { max_candidates: 12, max_daily_items: 2 }
+    limits: { max_candidates: 12, max_daily_items: 3 }
 
   tech-news:
     enabled: true
@@ -158,7 +142,7 @@ collections:
     sources:
       - { type: rss, url: "https://www.producthunt.com/feed" }
       - { type: rss, url: "https://techcrunch.com/gadgets/feed/" }
-    limits: { max_candidates: 10, max_daily_items: 1 }
+    limits: { max_candidates: 10, max_daily_items: 2 }
 
 # Deep-dive content requirements
 content:

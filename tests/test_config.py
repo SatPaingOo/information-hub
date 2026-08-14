@@ -17,10 +17,10 @@ def test_config_loads_from_repo():
     # nested taxonomy
     assert "ai-ml" in cfg.taxonomy.topics
     assert "llm" in cfg.taxonomy.children_of("ai-ml")
-    assert "myanmar" in cfg.taxonomy.children_of("asia")
-    assert "myanmar-news" in cfg.collections
-    assert cfg.collections["myanmar-news"].content_type == "digest"
+    assert "world-news" in cfg.collections
+    assert cfg.collections["world-news"].content_type == "digest"
     assert cfg.collections["tech-news"].content_type == "briefing"
+    assert "myanmar-news" not in cfg.collections
     # per-collection daily targets sum to the total
     assert sum(cfg.targets.collections.values()) == cfg.targets.total_per_day
 
@@ -29,10 +29,10 @@ def test_enabled_collections_only():
     cfg = Config.load()
     for c in cfg.enabled_collections():
         assert c.enabled
-    # five collections cover world/tech/politics/products + myanmar
+    # four collections: world/tech/politics/products
     names = {c.name for c in cfg.enabled_collections()}
-    assert {"myanmar-news", "world-news", "tech-news",
-            "politics", "products"} <= names
+    assert {"world-news", "tech-news", "politics", "products"} <= names
+    assert "myanmar-news" not in names
 
 
 def test_taxonomy_nested_parse():
@@ -69,6 +69,5 @@ def test_config_providers_and_quality():
 def test_priority_order():
     cfg = Config.load()
     ordered = cfg.collections_by_priority()
-    assert ordered[0].name == "myanmar-news"      # priority 3 first
-    assert ordered[1].name == "world-news"        # priority 3 second
+    assert ordered[0].name == "world-news"        # priority 3 first
     assert ordered[-1].name == "products"         # priority 1 last

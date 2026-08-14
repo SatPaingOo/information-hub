@@ -149,14 +149,6 @@ def select_mock(cfg: Config, collection: CollectionConfig,
 
 
 _MOCK_STORIES = {
-    "myanmar-news": [
-        ("Myanmar economy ministry announces new investment reforms",
-         "https://example.com/mm-economy-1"),
-        ("Rural connectivity initiative launched across Myanmar",
-         "https://example.com/mm-rural-1"),
-        ("Parliamentary debate on digital policy in Myanmar",
-         "https://example.com/mm-policy-1"),
-    ],
     "world-news": [
         ("Global supply chains face new pressure as shipping costs surge",
          "https://example.com/world-supply-1"),
@@ -186,6 +178,8 @@ _MOCK_STORIES = {
          "https://example.com/prod-phone-1"),
         ("Open-source vector database gains momentum",
          "https://example.com/prod-oss-1"),
+        ("Smart home hub adds local AI processing",
+         "https://example.com/prod-hub-1"),
     ],
 }
 

@@ -14,10 +14,6 @@ item_count: 0
 - [[trade]]
 - [[fintech]]
 
-## Cross-layer relations
-
-- [[myanmar]] — *relates*
-
 ## Items
 
 _No items yet._

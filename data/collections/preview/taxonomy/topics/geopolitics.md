@@ -18,7 +18,6 @@ item_count: 2
 - [[geopolitics]] — *primary_topic*
 - [[industry]] — *classified_in*
 - [[myanmar]] — *regional_scope*
-- [[myanmar]] — *relates*
 - [[policy]] — *classified_in*
 
 ## Items

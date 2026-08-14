@@ -14,9 +14,7 @@ item_count: 2
 
 ## Cross-layer relations
 
-- [[economy]] — *relates*
 - [[geopolitics]] — *primary_region*
-- [[geopolitics]] — *relates*
 - [[industry]] — *classified_in*
 - [[policy]] — *classified_in*
 

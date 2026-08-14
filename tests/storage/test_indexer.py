@@ -68,9 +68,9 @@ def test_graph_contains_taxonomy_nodes_and_edges(tmp_path: Path):
             "taxonomy/topic/ai-ml", "classified_in") in rels
     # hierarchy edge asia -> myanmar
     assert ("taxonomy/region/asia", "taxonomy/region/myanmar", "parent_of") in rels
-    # static relation myanmar -> geopolitics
-    assert any(e["relation"] == "relates" and "geopolitics" in e["target"]
-               and "myanmar" in e["source"] for e in graph["edges"])
+    # static relation llm -> agents (from config relations)
+    assert any(e["relation"] == "related" and "agents" in e["target"]
+               and "llm" in e["source"] for e in graph["edges"])
 
 
 def test_taxonomy_index_and_notes(tmp_path: Path):
