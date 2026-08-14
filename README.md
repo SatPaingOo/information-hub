@@ -48,11 +48,14 @@ checked and approved it).
 | `OPENROUTER_API_KEY` | your openrouter key |
 | `GEMINI_API_KEYS` | your_gemini_key_1,your_gemini_key_2 (multi-key allowed) |
 
-3. The `daily.yml` workflow then runs **automatically** every day:
-   - **`collect`** — cron `0 1 * * *` UTC (~06:30 Myanmar Standard Time)
-   - **`check`** — cron `0 13 * * *` UTC (~18:30 Myanmar Standard Time)
-4. **Manual run**: **Actions tab → daily-collect-check → Run workflow** → pick
-   `phase` (`both` / `collect` / `check`)
+3. The **`scheduler`** workflow then runs the pipeline **dynamically** — it
+   has no fixed run times. After each run the pipeline computes the next
+   moment collection is possible (provider cooldowns, token budgets, daily
+   target) and rewrites the scheduler's own cron to that time. A daily
+   `01:00 UTC` safety cron keeps the system alive if a dynamic cron ever
+   goes stale.
+4. **Manual run**: **Actions tab → `scheduler` → Run workflow** (runs due
+   phases now) — or `collect` / `check` workflows for a single phase.
 
 > **Note**: if the Secrets are missing, the Actions run does **not** fail — it
 > simply continues with the providers that have keys (key-less providers are
@@ -94,16 +97,21 @@ python -m src.seed                                  # generate the sample datase
 ## Architecture
 
 ```
-config.yml (taxonomy engine) + policies.yml (what to prioritize/exclude)
+config.yml (taxonomy engine + targets + provider budgets)
+policies.yml (what to prioritize/exclude)
         │
-        ▼  GitHub Actions cron
-── Phase collect (01:00 UTC) ──────────────────────────────
+        ▼  scheduler.yml (dynamic cron — pipeline rewrites it)
+── Dynamic run-control ────────────────────────────────
+  scheduler reads registry/schedule.json → runs due phases
+  → RunController gates model calls (cooldown + token budget)
+  → recomputes next run time → rewrites workflow cron
+── Phase collect ──────────────────────────────────────
   sources (RSS/arXiv/HN/GitHub) → fulltext → dedup
-  → Groq/OpenRouter free models (auto-discover + health-check + rotate)
+  → Groq/OpenRouter free models (auto-discover + gate + rotate)
   → deep-dive generate → store + provenance
-── Phase check (13:00 UTC) ───────────────────────────────
-  Gemini google_search → claims verify → grounding_score
-  → review status + approval trail → source reputation
+── Phase check ────────────────────────────────────────
+  Gemini google_search (or lexical fallback) → claims verify
+  → grounding_score → review status + approval trail → source reputation
         │
         ▼
 data/collections/
@@ -113,16 +121,31 @@ data/collections/
 ├─ index/          generated layer views: by-topic/region/content-type/category/date/entity
 │                  + index.json + graph.json (GraphRAG-ready) + taxonomy.json
 ├─ registry/       key-value tracking: sources / items / meta / providers / collections
-│                  + run-log.jsonl (full provenance events)
+│                  + schedule.json + run-log.jsonl (full provenance events)
 └─ logs/           run-<date>-<phase>.log (human-readable)
 ```
+
+## Dynamic run control (no fixed run times)
+
+- **Pre-call gate**: every model call is checked against a persisted provider
+  cooldown and daily token/item budget BEFORE any HTTP request — rate-limited
+  providers are never hammered.
+- **Token-aware budgets**: provider daily token ceilings counted from API
+  `usage` (auto-reset each UTC day — no manual resets).
+- **Self-scheduling**: after a run the pipeline computes the next time
+  collection is possible (cooldown expiry + jitter, or next day 01:00 when the
+  daily target is met / providers are exhausted) and rewrites the dynamic cron
+  line in `scheduler.yml` — the workflow fires only when it can actually
+  collect. A static daily-01:00 safety cron is never rewritten.
+- **Config**: `targets.total_per_day` (e.g. 30) + per-provider
+  `budget: {max_daily_items, max_daily_tokens, max_output_tokens}`.
 
 ## Provenance trail (per item — "who did what")
 
 ```json
 {
   "provenance": { "generated_by": {"provider": "openrouter", "model": "...", "prompt_version": "v3.1"} },
-  "grounding":  { "checked_by": {"provider": "gemini", "model": "gemini-2.5-flash"},
+  "grounding":  { "checked_by": {"provider": "gemini", "model": "gemini-3.5-flash-lite"},
                   "grounding_score": 0.83, "sources_verified": [{"url": "...", "title": "..."}] },
   "review":     { "status": "verified|pending_review",
                   "approved_by": {"type": "ai", "provider": "gemini", "model": "..."} }
@@ -184,12 +207,13 @@ information-hub/                        ← monorepo root
     │   ├── collect/   fetchers, fulltext, dedup, prompts, mock
     │   ├── llm/       providers (self-managing), clients, mock
     │   ├── quality/   grounding engine (check)
+    │   ├── run/       RunController + scheduler (dynamic cron)
     │   ├── storage/   store, registry, indexer
     │   ├── render/    markdown views
     │   └── utils/     logging
     ├── tests/                         # mirrors src/ layout
     ├── data/
-    └── .github/workflows/daily.yml
+    └── .github/workflows/  scheduler.yml (dynamic cron) · collect/check (manual)
 ```
 
 ## Developer

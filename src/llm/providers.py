@@ -22,7 +22,7 @@ from typing import Any, Callable
 import requests
 
 from src.config import Config, ProviderConfig
-from src.llm.clients import (OPENAI_BASES, RETRYABLE, call_google, call_openai,
+from src.llm.clients import (OPENAI_BASES, call_google, call_openai,
                              ProviderError)
 from src.storage.registry import Registry
 from src.utils.logging_util import RunLog

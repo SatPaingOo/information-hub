@@ -4,7 +4,7 @@ on:
   schedule:
     # DYNAMIC cron — the pipeline rewrites this line to the next run time
     # (date-specific M H D M *) after every run.  No fixed run times.
-    - cron: "47 5 14 8 *"
+    - cron: "53 5 14 8 *"
     # SAFETY fallback — daily 01:00 UTC. Never rewritten; keeps the system
     # alive if a dynamic cron goes stale (e.g. crashed mid-run).
     - cron: "0 1 * * *"
