@@ -1,24 +1,24 @@
 {
   "groq": {
     "llama-3.3-70b-versatile": {
-      "calls": 1,
-      "items": 0,
+      "calls": 3,
+      "items": 1,
       "errors": 0,
       "consecutive_failures": 0,
       "healthy": true,
-      "last_health_check": "2026-08-13T19:47:40+00:00",
-      "latency_ms": 729,
+      "last_health_check": "2026-08-14T04:12:31+00:00",
+      "latency_ms": 2712,
       "supports_json": true,
       "exhausted_until": null
     },
     "llama-3.1-8b-instant": {
-      "calls": 1,
-      "items": 0,
-      "errors": 0,
-      "consecutive_failures": 0,
+      "calls": 2,
+      "items": 1,
+      "errors": 1,
+      "consecutive_failures": 1,
       "healthy": true,
-      "last_health_check": "2026-08-14T03:24:00+00:00",
-      "latency_ms": 400,
+      "last_health_check": "2026-08-14T04:12:31+00:00",
+      "latency_ms": 1390,
       "supports_json": true,
       "exhausted_until": null
     }
@@ -38,10 +38,10 @@
     "google/gemma-4-31b-it:free": {
       "calls": 0,
       "items": 0,
-      "errors": 0,
-      "consecutive_failures": 0,
+      "errors": 1,
+      "consecutive_failures": 1,
       "healthy": true,
-      "last_health_check": "2026-08-14T03:24:04+00:00",
+      "last_health_check": "2026-08-14T04:12:26+00:00",
       "latency_ms": null,
       "supports_json": true,
       "exhausted_until": null
