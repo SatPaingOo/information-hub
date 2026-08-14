@@ -235,6 +235,7 @@ def run_collect(cfg: Config, registry: Registry, store: Store, indexer: Indexer,
                 except ProviderError as e:
                     logger.error("[%s] generate error: %s", collection.name, e)
                     record = None
+                    time.sleep(3 * (attempt + 1))  # pace free-tier rate limits
             if record is None:
                 continue
 

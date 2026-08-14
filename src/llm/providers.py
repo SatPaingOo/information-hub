@@ -91,6 +91,14 @@ class ProviderManager:
         self._key_index: dict[str, int] = {}
         self._discovered: dict[str, list[str]] = {}
         self._phase = "collect"
+        # provider -> unix ts until which we skip it (rate-limit cooldown).
+        # When a provider's free pool is 429-rate-limited, ALL its models are
+        # affected — so we back off the whole provider and rotate to another.
+        self._provider_cooldown_until: dict[str, float] = {}
+        # provider -> consecutive 429 count (to mark a provider down)
+        self._provider_429_count: dict[str, int] = {}
+        # per-model consecutive 429s within this run (temporary down)
+        self._model_429_count: dict[str, int] = {}
 
     # ---- model discovery ------------------------------------------------
     def models_for_role(self, role: str) -> list[ModelSpec]:
@@ -177,32 +185,44 @@ class ProviderManager:
         return result
 
     # ---- selection -------------------------------------------------------
+    def _provider_available(self, provider: str) -> bool:
+        """True if this provider is not in a rate-limit cooldown window."""
+        until = self._provider_cooldown_until.get(provider, 0.0)
+        if until > time.monotonic():
+            return False
+        return True
+
     def pick_collect(self, collection: str) -> ModelSpec | None:
         """Pick the best healthy collect model (deep-dive generation).
 
         Returns the model with the fewest calls among healthy models still
-        within budget, or None when every collect model is down/exhausted.
+        within budget, skipping providers in a rate-limit cooldown, or None
+        when every collect model is down/exhausted/cooldown.
         """
         self._phase = "collect"
         for spec in self._ranked_collect():
+            if not self._provider_available(spec.provider):
+                continue
             if self._within_budget(spec) and self.registry.provider_healthy(spec.provider, spec.model):
                 self.log.event("collect", "pick_model", collection=collection,
                                provider=spec.provider, model=spec.model)
                 return spec
         self.log.event("collect", "no_provider_available", collection=collection,
-                       status="skip", detail="all collect models down/budget-exhausted")
+                       status="skip", detail="all collect models down/budget-exhausted/rate-limited")
         return None
 
     def pick_check(self) -> ModelSpec | None:
         """Pick the healthy check provider (Gemini search grounding)."""
         self._phase = "check"
         for spec in self.models_for_role("check"):
+            if not self._provider_available(spec.provider):
+                continue
             if self.registry.provider_healthy(spec.provider, spec.model):
                 self.log.event("check", "pick_model", provider=spec.provider,
                                model=spec.model)
                 return spec
         self.log.event("check", "no_provider_available", status="skip",
-                       detail="no healthy check provider")
+                       detail="no healthy check provider (or rate-limited)")
         return None
 
     def _ranked_collect(self) -> list[ModelSpec]:
@@ -243,15 +263,7 @@ class ProviderManager:
                            model=spec.model, latency_ms=latency)
             return data
         except ProviderError as e:
-            # Hard 4xx (decommissioned/bad config) marks the model down so
-            # pick_collect rotates.  Transient 429/5xx stay up — the next
-            # pick may retry them (rate limits are often momentary).
-            self.registry.record_provider_failure(
-                spec.provider, spec.model,
-                mark_down=_should_mark_down(e.status_code))
-            self.log.event("collect", "call_error", provider=spec.provider,
-                           model=spec.model, status="error",
-                           detail=f"HTTP {e.status_code}: {e}")
+            self._record_failure(spec, e.status_code, phase="collect")
             raise
         except Exception as e:  # defensive — never crash the pipeline
             self.registry.record_provider_failure(spec.provider, spec.model, mark_down=True)
@@ -288,12 +300,7 @@ class ProviderManager:
                            model=spec.model, latency_ms=latency)
             return data
         except ProviderError as e:
-            self.registry.record_provider_failure(
-                spec.provider, spec.model,
-                mark_down=_should_mark_down(e.status_code))
-            self.log.event("check", "verify_error", provider=spec.provider,
-                           model=spec.model, status="error",
-                           detail=f"HTTP {e.status_code}: {e}")
+            self._record_failure(spec, e.status_code, phase="check")
             raise
         except Exception as e:  # defensive — never crash the pipeline
             self.registry.record_provider_failure(spec.provider, spec.model, mark_down=True)
@@ -323,3 +330,32 @@ class ProviderManager:
         idx = self._key_index.get(spec.provider, 0)
         self._key_index[spec.provider] = (idx + 1) % len(keys)
         return keys[idx]
+
+    # ---- failure handling --------------------------------------------------
+    def _record_failure(self, spec: ModelSpec, status_code: int | None,
+                        phase: str) -> None:
+        """Handle a failed provider call: cooldown/down + provenance log.
+
+        429/5xx (transient): put the whole provider into a cooldown window so
+        the next pick rotates to a different provider; after a few consecutive
+        429s the model is also marked down for this run.
+        Hard 4xx (decommissioned/bad config): mark the model down immediately.
+        """
+        transient = status_code in TRANSIENT_STATUSES or status_code is None
+        if transient:
+            # whole provider cooldown (~2 min) — its free pool is rate-limited
+            self._provider_cooldown_until[spec.provider] = \
+                time.monotonic() + 120
+            key = f"{spec.provider}/{spec.model}"
+            n = self._model_429_count.get(key, 0) + 1
+            self._model_429_count[key] = n
+            mark_down = n >= 3  # hammering the same rate-limited model is futile
+        else:
+            mark_down = True
+        self.registry.record_provider_failure(spec.provider, spec.model,
+                                              mark_down=mark_down)
+        self.log.event(phase, "call_error", provider=spec.provider,
+                       model=spec.model, status="error",
+                       detail=f"HTTP {status_code}: {spec.provider} "
+                              f"{'cooldown' if transient else 'down'} "
+                              f"(mark_down={mark_down})")
