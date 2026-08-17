@@ -104,7 +104,7 @@ collections:
     sources:
       - { type: rss, url: "https://feeds.bbci.co.uk/news/world/rss.xml" }
       - { type: rss, url: "https://www.aljazeera.com/xml/rss/all.xml" }
-    limits: { max_candidates: 12, max_daily_items: 3 }
+    limits: { max_candidates: 8, max_daily_items: 3 }
 
   tech-news:
     enabled: true
@@ -118,7 +118,7 @@ collections:
       - { type: arxiv, query: "cat:cs.AI OR cat:cs.LG" }
       - { type: rss, url: "https://techcrunch.com/feed/" }
       - { type: rss, url: "https://www.theverge.com/rss/index.xml" }
-    limits: { max_candidates: 12, max_daily_items: 3 }
+    limits: { max_candidates: 8, max_daily_items: 3 }
 
   politics:
     enabled: true
@@ -131,7 +131,7 @@ collections:
     sources:
       - { type: rss, url: "https://feeds.bbci.co.uk/news/politics/rss.xml" }
       - { type: rss, url: "https://www.politico.eu/feed/" }
-    limits: { max_candidates: 12, max_daily_items: 2 }
+    limits: { max_candidates: 8, max_daily_items: 2 }
 
   products:
     enabled: true
@@ -144,7 +144,7 @@ collections:
     sources:
       - { type: rss, url: "https://www.producthunt.com/feed" }
       - { type: rss, url: "https://techcrunch.com/gadgets/feed/" }
-    limits: { max_candidates: 10, max_daily_items: 2 }
+    limits: { max_candidates: 8, max_daily_items: 2 }
 
 # Deep-dive content requirements
 content:

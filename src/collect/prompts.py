@@ -72,9 +72,12 @@ def build_select_prompt(cfg: Config, collection: CollectionConfig,
         sim = similarity_flags(recent_records, c.title, c.summary,
                                threshold=cfg.content.similarity_threshold)
         dup_flag = "DUPLICATE" if (seen or sim["duplicate"]) else "new"
+        # keep per-candidate text short — the select call must be token-cheap
+        # (free-tier TPM: a long select prompt burns the budget before any
+        # deep-dive runs)
         lines.append(
-            f"[{i}] ({dup_flag}) title={c.title!r} source={c.source['name']!r} "
-            f"url={c.url} summary={c.summary[:300]!r}"
+            f"[{i}] ({dup_flag}) {c.title[:120]!r} | {c.source['name']!r} "
+            f"| {c.summary[:120]!r}"
         )
     lines.append(
         "Return the 0-based indices of the stories to publish, ranked. "
