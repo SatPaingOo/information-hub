@@ -98,3 +98,23 @@ def test_registry_lock(tmp_path: Path):
     assert reg.acquire_lock() is False      # already held
     reg.release_lock()
     assert reg.acquire_lock() is True       # re-acquirable
+
+
+def test_registry_reload_picks_up_external_changes(tmp_path: Path):
+    """Scheduler subprocess saves fresh state — reload must not lose it."""
+    reg = Registry(tmp_path)
+    reg.record_item(sample_record(key="2026-08-17-001"), "published", 1, True)
+    reg.record_provider_call("openrouter", "m", items=1, tokens=500)
+    reg.save()
+
+    # a second instance (like the subprocess) reads + appends
+    other = Registry(tmp_path)
+    other.record_item(sample_record(key="2026-08-17-002"), "published", 1, True)
+    other.record_provider_call("openrouter", "m", items=1, tokens=400)
+    other.save()
+
+    # the first instance must reload to see the new item + tokens
+    reg.reload()
+    assert reg.item_status("info:item:ai-ml:global:2026-08-17-002") is not None
+    assert reg.provider_tokens_used("openrouter") == 900
+    assert reg.next_sequence("2026-08-17") == 3

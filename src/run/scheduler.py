@@ -179,6 +179,7 @@ def _collect_until_deadline(cfg: Config, registry: Registry, run_log: RunLog) ->
             [sys.executable, "-m", "src.main", "--phase", "collect"],
             cwd=str(_ROOT), env={**os.environ},
         )
+        registry.reload()   # subprocess saved fresh state — don't keep stale copy
         if rc.returncode != 0:
             run_log.event("scheduler", "collect_failed", status="error",
                           detail=f"rc={rc.returncode}")
@@ -187,7 +188,7 @@ def _collect_until_deadline(cfg: Config, registry: Registry, run_log: RunLog) ->
           f"target_remaining={schedule.get('target_remaining', '?')}")
 
 
-def _run_check(cfg: Config, run_log: RunLog) -> None:
+def _run_check(cfg: Config, registry: Registry, run_log: RunLog) -> None:
     """Verify today's collected items once (check phase)."""
     print("scheduler: running check")
     run_log.event("scheduler", "phase_run", detail="check")
@@ -195,6 +196,7 @@ def _run_check(cfg: Config, run_log: RunLog) -> None:
         [sys.executable, "-m", "src.main", "--phase", "check"],
         cwd=str(_ROOT), env={**os.environ},
     )
+    registry.reload()   # subprocess saved fresh state — don't keep stale copy
     if rc.returncode != 0:
         run_log.event("scheduler", "check_failed", status="error",
                       detail=f"rc={rc.returncode}")
@@ -241,7 +243,9 @@ def main() -> int:
             _collect_until_deadline(cfg, registry, run_log)
         # check: verify today's items once, after collecting
         if "check" in phases:
-            _run_check(cfg, run_log)
+            _run_check(cfg, registry, run_log)
+
+        registry.reload()   # final reload — fresh state before schedule/save
 
         # Cross-run schedule: recompute the next run time and, when a BOT_PAT
         # is configured, point the workflow cron at it (the GitHub App token

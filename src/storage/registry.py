@@ -60,6 +60,21 @@ class Registry:
             self._dump("collections.json", self.collections)
             self._dump("providers.json", self.providers)
 
+    def reload(self) -> None:
+        """Re-read all state files from disk.
+
+        Used by the scheduler AFTER running a phase as a subprocess: the
+        subprocess saves fresh state (e.g. items.json gains new records), and
+        this instance must not overwrite it with its stale in-memory copy.
+        """
+        with self._lock:
+            self.sources = self._load("sources.json")
+            self.items = self._load("items.json")
+            self.meta = self._load("meta.json")
+            self.keys = self._load("keys.json")
+            self.collections = self._load("collections.json")
+            self.providers = self._load("providers.json")
+
     def _dump(self, name: str, data: dict[str, Any]) -> None:
         path = self.dir / name
         tmp = path.with_suffix(path.suffix + ".tmp")
