@@ -48,6 +48,25 @@ def test_earliest_provider_resume_after_cooldown(tmp_path: Path):
     assert resume.startswith("2099-01-01")     # earliest cooldown expiry
 
 
+def test_resume_ignores_budget_exhausted_provider(tmp_path: Path):
+    """A budget-exhausted provider's expired cooldown must NOT be seen as
+    'callable' — the loop would spin forever collecting nothing."""
+    cfg, reg, run_log = _setup(tmp_path)
+    ctl = RunController(cfg, reg, run_log, tmp_path)
+    # openrouter: over daily token budget, cooldown expired → irrelevant
+    reg.record_provider_call("openrouter", "m", tokens=99999)
+    reg.set_provider_cooldown("openrouter", "2020-01-01T00:00:00+00:00")
+    # groq: budget left, cooldown in the future → the loop must wait on IT
+    reg.set_provider_cooldown("groq", "2099-01-02T00:00:00+00:00")
+    resume = ctl.earliest_provider_resume()
+    assert resume is not None
+    assert resume.startswith("2099-01-02")     # groq's cooldown, not None
+    # now groq also budget-exhausted + cooldown expired → nothing callable
+    reg.record_provider_call("groq", "m", tokens=99999)
+    assert ctl.earliest_provider_resume() is None
+    assert ctl.any_collect_provider_callable() is False
+
+
 def test_decide_next_run_cooldown_points_to_earliest(tmp_path: Path):
     cfg, reg, run_log = _setup(tmp_path)
     ctl = RunController(cfg, reg, run_log, tmp_path)
