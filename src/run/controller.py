@@ -138,6 +138,32 @@ class RunController:
                 return False
         return True
 
+    def any_collect_provider_callable(self) -> bool:
+        """True when at least one collect provider is NOT in cooldown AND has
+        daily token/item budget left (i.e. a collect round could succeed).
+
+        Cooldown check mirrors ProviderManager: expired cooldowns are fine.
+        """
+        now = dt.datetime.now(dt.timezone.utc)
+        for p in self.cfg.providers.values():
+            if not p.enabled or p.role != "collect":
+                continue
+            if (self.registry.provider_items_used(p.name) >= p.max_daily_items
+                    or self.registry.provider_tokens_used(p.name) >= p.max_daily_tokens):
+                continue
+            until = self.registry.provider_cooldown_until(p.name)
+            if not until:
+                return True
+            try:
+                deadline = dt.datetime.fromisoformat(until)
+                if deadline.tzinfo is None:
+                    deadline = deadline.replace(tzinfo=dt.timezone.utc)
+                if deadline <= now:
+                    return True
+            except ValueError:
+                return True
+        return False
+
     def _daily_target_met(self) -> bool:
         schedule = self.load_schedule()
         remaining = schedule.get("target_remaining",

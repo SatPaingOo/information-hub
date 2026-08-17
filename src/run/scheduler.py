@@ -165,6 +165,15 @@ def _collect_until_deadline(cfg: Config, registry: Registry, run_log: RunLog) ->
         schedule = json_load(registry.dir / "schedule.json")
         remaining = schedule.get("target_remaining", cfg.targets.total_per_day)
         resume = ctl.earliest_provider_resume()
+        # Stop when no collect provider can be called at all (cooldown AND
+        # daily token/item budgets exhausted) — otherwise the loop spins
+        # uselessly on server-side rate limits.
+        if not ctl.any_collect_provider_callable():
+            print("scheduler: collect loop stop — all collect providers "
+                  "exhausted (budget/cooldown)")
+            run_log.event("scheduler", "collect_loop_stop",
+                          detail="all collect providers exhausted")
+            break
         keep, reason = _should_collect_more(remaining, now, deadline, resume)
         if not keep:
             print(f"scheduler: collect loop stop — {reason}")
