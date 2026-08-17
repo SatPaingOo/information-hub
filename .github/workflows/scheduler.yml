@@ -52,15 +52,18 @@ jobs:
           GEMINI_API_KEYS: ${{ secrets.GEMINI_API_KEYS }}
         run: python -m src.run.scheduler
 
-      - name: Commit generated data (incl. updated cron)
+      - name: Commit generated data
         env:
           BOT_PAT: ${{ secrets.BOT_PAT }}
         run: |
           git config user.name "information-hub[bot]"
           git config user.email "information-hub[bot]@users.noreply.github.com"
           # The GitHub App token cannot push changes to .github/workflows/*.
-          # When BOT_PAT is set, use it (enables the dynamic cron rewrite).
-          if [ -n "${BOT_PAT:-}" ]; then
+          # Only the dynamic-cron rewrite touches it, and it is only written
+          # when BOT_PAT is set — otherwise discard any workflow change.
+          if [ -z "${BOT_PAT:-}" ]; then
+            git checkout -- .github/workflows/scheduler.yml 2>/dev/null || true
+          else
             git remote set-url origin "https://x-access-token:${BOT_PAT}@github.com/${GITHUB_REPOSITORY}.git"
           fi
           git add -A

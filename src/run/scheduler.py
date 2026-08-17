@@ -24,6 +24,7 @@ from __future__ import annotations
 import argparse
 import datetime as dt
 import json
+import os
 import re
 import subprocess
 import sys
@@ -152,21 +153,28 @@ def main() -> int:
 
         _run_phases(cfg, phases, run_log)
 
-        # After running — recompute the next run time and point the workflow
-        # cron at it, so the workflow fires only when collection is possible.
+        # After running — recompute the next run time and (when a BOT_PAT is
+        # configured) point the workflow cron at it. The GitHub App token
+        # cannot modify .github/workflows/*, so without BOT_PAT we keep the
+        # schedule in data/state/ and let the daily-01:00 safety cron drive
+        # the next run (the dynamic cron stays at its placeholder).
         from src.run.controller import RunController
         ctl = RunController(cfg, registry, run_log, cfg.storage.data_dir)
         next_run = ctl.decide_next_run()
         ctl.write_schedule(collect_next_run=next_run,
                            check_next_run=next_run if "collect" in phases else None)
-        if update_workflow_cron(next_run):
-            run_log.event("scheduler", "cron_updated",
-                          detail=f"next_run={next_run}")
-            print(f"scheduler: cron updated → {iso_to_cron(next_run)} "
-                  f"(next run {next_run} UTC)")
+        if os.environ.get("BOT_PAT"):
+            if update_workflow_cron(next_run):
+                run_log.event("scheduler", "cron_updated",
+                              detail=f"next_run={next_run}")
+                print(f"scheduler: cron updated → {iso_to_cron(next_run)} "
+                      f"(next run {next_run} UTC)")
+            else:
+                run_log.event("scheduler", "cron_update_failed", status="error")
+                print("scheduler: WARNING — could not rewrite scheduler.yml cron")
         else:
-            run_log.event("scheduler", "cron_update_failed", status="error")
-            print("scheduler: WARNING — could not rewrite scheduler.yml cron")
+            print(f"scheduler: no BOT_PAT — schedule kept in data/state "
+                  f"(next run {next_run} UTC); safety cron 0 1 * * * drives runs")
         return 0
     finally:
         registry.release_lock()
