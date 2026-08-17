@@ -4,7 +4,7 @@ on:
   schedule:
     # DYNAMIC cron — the pipeline rewrites this line to the next run time
     # (date-specific M H D M *) after every run.  No fixed run times.
-    - cron: "53 5 14 8 *"
+    - cron: "0 1 1 1 *"
     # SAFETY fallback — daily 01:00 UTC. Never rewritten; keeps the system
     # alive if a dynamic cron goes stale (e.g. crashed mid-run).
     - cron: "0 1 * * *"
@@ -12,6 +12,7 @@ on:
 
 permissions:
   contents: write              # allow the bot to commit generated data
+  workflows: write             # allow the bot to rewrite the dynamic cron line in this file
 
 concurrency:
   group: scheduler
