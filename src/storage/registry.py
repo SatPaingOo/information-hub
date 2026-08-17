@@ -350,6 +350,19 @@ class Registry:
                     stats["healthy"] = True
                     stats["consecutive_failures"] = 0
 
+    def reset_model_health(self) -> None:
+        """Clear every model's down flag (fresh attempt this round).
+
+        Called by the scheduler at the start of each collect round.  Pacing is
+        governed by the persisted provider cooldown; a stale down flag (e.g.
+        from an earlier buggy run) must not block the rest of the day.
+        """
+        for provider in list(self.providers.keys()):
+            state = self.provider_state(provider)
+            for stats in state.get("models", {}).values():
+                stats["healthy"] = True
+                stats["consecutive_failures"] = 0
+
     # ---- pipeline lock (scheduler double-safety) ---------------------------
     def acquire_lock(self) -> bool:
         """Try to acquire the pipeline lock; True if acquired."""

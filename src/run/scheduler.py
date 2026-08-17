@@ -157,6 +157,10 @@ def _collect_until_deadline(cfg: Config, registry: Registry, run_log: RunLog) ->
     deadline = ctl.job_deadline()
     max_rounds = 20
     for _ in range(max_rounds):
+        # Fresh attempt every round: clear model down-flags.  The persisted
+        # provider cooldown is the real pacing guard — a model marked down by
+        # an earlier (possibly buggy) run must not block the whole day.
+        registry.reset_model_health()
         now = dt.datetime.now(dt.timezone.utc)
         schedule = json_load(registry.dir / "schedule.json")
         remaining = schedule.get("target_remaining", cfg.targets.total_per_day)
