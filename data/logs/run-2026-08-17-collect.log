@@ -202,3 +202,107 @@
 2026-08-17 10:09:55,630 WARNING [politics] no collect provider available
 2026-08-17 10:09:55,948 WARNING [products] no collect provider available
 2026-08-17 10:09:55,960 INFO collect done: 0 item(s) published — target 10/10, next run ≈ 2026-08-17T10:24:55+00:00 UTC
+2026-08-17 10:20:30,059 ERROR [world-news] select failed: HTTP 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-08-17 10:20:30,532 ERROR [tech-news] select failed: HTTP 404: {"error":{"message":"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-08-17 10:20:44,328 ERROR [politics] generate error: HTTP 429: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"google/gemma-4-26b-a4b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Darkbloom","is_byok
+2026-08-17 10:20:47,330 WARNING [politics] no collect provider for deep-dive
+2026-08-17 10:20:47,413 WARNING [politics] no collect provider for deep-dive
+2026-08-17 10:20:48,751 WARNING [products] no collect provider available
+2026-08-17 10:20:48,762 INFO collect done: 0 item(s) published — target 10/10, next run ≈ 2026-08-17T10:35:48+00:00 UTC
+2026-08-17 10:20:49,246 WARNING [world-news] no collect provider available
+2026-08-17 10:20:49,449 WARNING [tech-news] no collect provider available
+2026-08-17 10:20:49,725 WARNING [politics] no collect provider available
+2026-08-17 10:20:49,940 WARNING [products] no collect provider available
+2026-08-17 10:20:49,950 INFO collect done: 0 item(s) published — target 10/10, next run ≈ 2026-08-17T10:35:49+00:00 UTC
+2026-08-17 10:20:50,648 WARNING [world-news] no collect provider available
+2026-08-17 10:20:50,874 WARNING [tech-news] no collect provider available
+2026-08-17 10:20:51,056 WARNING [politics] no collect provider available
+2026-08-17 10:20:51,260 WARNING [products] no collect provider available
+2026-08-17 10:20:51,271 INFO collect done: 0 item(s) published — target 10/10, next run ≈ 2026-08-17T10:35:51+00:00 UTC
+2026-08-17 10:20:51,724 WARNING [world-news] no collect provider available
+2026-08-17 10:20:51,926 WARNING [tech-news] no collect provider available
+2026-08-17 10:20:52,197 WARNING [politics] no collect provider available
+2026-08-17 10:20:52,399 WARNING [products] no collect provider available
+2026-08-17 10:20:52,410 INFO collect done: 0 item(s) published — target 10/10, next run ≈ 2026-08-17T10:35:52+00:00 UTC
+2026-08-17 10:20:52,860 WARNING [world-news] no collect provider available
+2026-08-17 10:20:53,062 WARNING [tech-news] no collect provider available
+2026-08-17 10:20:53,242 WARNING [politics] no collect provider available
+2026-08-17 10:20:53,440 WARNING [products] no collect provider available
+2026-08-17 10:20:53,451 INFO collect done: 0 item(s) published — target 10/10, next run ≈ 2026-08-17T10:35:53+00:00 UTC
+2026-08-17 10:20:53,920 WARNING [world-news] no collect provider available
+2026-08-17 10:20:54,134 WARNING [tech-news] no collect provider available
+2026-08-17 10:20:54,328 WARNING [politics] no collect provider available
+2026-08-17 10:20:54,531 WARNING [products] no collect provider available
+2026-08-17 10:20:54,541 INFO collect done: 0 item(s) published — target 10/10, next run ≈ 2026-08-17T10:35:54+00:00 UTC
+2026-08-17 10:20:55,001 WARNING [world-news] no collect provider available
+2026-08-17 10:20:55,198 WARNING [tech-news] no collect provider available
+2026-08-17 10:20:55,380 WARNING [politics] no collect provider available
+2026-08-17 10:20:55,582 WARNING [products] no collect provider available
+2026-08-17 10:20:55,592 INFO collect done: 0 item(s) published — target 10/10, next run ≈ 2026-08-17T10:35:55+00:00 UTC
+2026-08-17 10:20:56,083 WARNING [world-news] no collect provider available
+2026-08-17 10:20:56,289 WARNING [tech-news] no collect provider available
+2026-08-17 10:20:56,472 WARNING [politics] no collect provider available
+2026-08-17 10:20:56,691 WARNING [products] no collect provider available
+2026-08-17 10:20:56,701 INFO collect done: 0 item(s) published — target 10/10, next run ≈ 2026-08-17T10:35:56+00:00 UTC
+2026-08-17 10:20:57,156 WARNING [world-news] no collect provider available
+2026-08-17 10:20:57,342 WARNING [tech-news] no collect provider available
+2026-08-17 10:20:57,618 WARNING [politics] no collect provider available
+2026-08-17 10:20:57,835 WARNING [products] no collect provider available
+2026-08-17 10:20:57,847 INFO collect done: 0 item(s) published — target 10/10, next run ≈ 2026-08-17T10:35:57+00:00 UTC
+2026-08-17 10:20:58,316 WARNING [world-news] no collect provider available
+2026-08-17 10:20:58,501 WARNING [tech-news] no collect provider available
+2026-08-17 10:20:58,672 WARNING [politics] no collect provider available
+2026-08-17 10:20:58,870 WARNING [products] no collect provider available
+2026-08-17 10:20:58,881 INFO collect done: 0 item(s) published — target 10/10, next run ≈ 2026-08-17T10:35:58+00:00 UTC
+2026-08-17 10:20:59,340 WARNING [world-news] no collect provider available
+2026-08-17 10:20:59,520 WARNING [tech-news] no collect provider available
+2026-08-17 10:20:59,697 WARNING [politics] no collect provider available
+2026-08-17 10:20:59,896 WARNING [products] no collect provider available
+2026-08-17 10:20:59,907 INFO collect done: 0 item(s) published — target 10/10, next run ≈ 2026-08-17T10:35:59+00:00 UTC
+2026-08-17 10:21:00,362 WARNING [world-news] no collect provider available
+2026-08-17 10:21:00,577 WARNING [tech-news] no collect provider available
+2026-08-17 10:21:00,750 WARNING [politics] no collect provider available
+2026-08-17 10:21:00,958 WARNING [products] no collect provider available
+2026-08-17 10:21:00,968 INFO collect done: 0 item(s) published — target 10/10, next run ≈ 2026-08-17T10:36:00+00:00 UTC
+2026-08-17 10:21:01,420 WARNING [world-news] no collect provider available
+2026-08-17 10:21:01,609 WARNING [tech-news] no collect provider available
+2026-08-17 10:21:01,797 WARNING [politics] no collect provider available
+2026-08-17 10:21:01,997 WARNING [products] no collect provider available
+2026-08-17 10:21:02,008 INFO collect done: 0 item(s) published — target 10/10, next run ≈ 2026-08-17T10:36:02+00:00 UTC
+2026-08-17 10:21:02,478 WARNING [world-news] no collect provider available
+2026-08-17 10:21:02,671 WARNING [tech-news] no collect provider available
+2026-08-17 10:21:02,945 WARNING [politics] no collect provider available
+2026-08-17 10:21:03,147 WARNING [products] no collect provider available
+2026-08-17 10:21:03,157 INFO collect done: 0 item(s) published — target 10/10, next run ≈ 2026-08-17T10:36:03+00:00 UTC
+2026-08-17 10:21:03,692 WARNING [world-news] no collect provider available
+2026-08-17 10:21:03,875 WARNING [tech-news] no collect provider available
+2026-08-17 10:21:04,155 WARNING [politics] no collect provider available
+2026-08-17 10:21:04,355 WARNING [products] no collect provider available
+2026-08-17 10:21:04,366 INFO collect done: 0 item(s) published — target 10/10, next run ≈ 2026-08-17T10:36:04+00:00 UTC
+2026-08-17 10:21:04,813 WARNING [world-news] no collect provider available
+2026-08-17 10:21:04,990 WARNING [tech-news] no collect provider available
+2026-08-17 10:21:05,165 WARNING [politics] no collect provider available
+2026-08-17 10:21:05,366 WARNING [products] no collect provider available
+2026-08-17 10:21:05,377 INFO collect done: 0 item(s) published — target 10/10, next run ≈ 2026-08-17T10:36:05+00:00 UTC
+2026-08-17 10:21:05,833 WARNING [world-news] no collect provider available
+2026-08-17 10:21:06,034 WARNING [tech-news] no collect provider available
+2026-08-17 10:21:06,220 WARNING [politics] no collect provider available
+2026-08-17 10:21:06,421 WARNING [products] no collect provider available
+2026-08-17 10:21:06,432 INFO collect done: 0 item(s) published — target 10/10, next run ≈ 2026-08-17T10:36:06+00:00 UTC
+2026-08-17 10:21:06,897 WARNING [world-news] no collect provider available
+2026-08-17 10:21:07,084 WARNING [tech-news] no collect provider available
+2026-08-17 10:21:07,306 WARNING [politics] no collect provider available
+2026-08-17 10:21:07,509 WARNING [products] no collect provider available
+2026-08-17 10:21:07,520 INFO collect done: 0 item(s) published — target 10/10, next run ≈ 2026-08-17T10:36:07+00:00 UTC
+2026-08-17 10:21:07,997 WARNING [world-news] no collect provider available
+2026-08-17 10:21:08,195 WARNING [tech-news] no collect provider available
+2026-08-17 10:21:08,505 WARNING [politics] no collect provider available
+2026-08-17 10:21:08,704 WARNING [products] no collect provider available
+2026-08-17 10:21:08,715 INFO collect done: 0 item(s) published — target 10/10, next run ≈ 2026-08-17T10:36:08+00:00 UTC
+2026-08-17 10:21:09,184 WARNING [world-news] no collect provider available
+2026-08-17 10:21:09,377 WARNING [tech-news] no collect provider available
+2026-08-17 10:21:09,558 WARNING [politics] no collect provider available
+2026-08-17 10:21:09,764 WARNING [products] no collect provider available
+2026-08-17 10:21:09,775 INFO collect done: 0 item(s) published — target 10/10, next run ≈ 2026-08-17T10:36:09+00:00 UTC
