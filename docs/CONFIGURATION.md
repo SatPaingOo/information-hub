@@ -16,7 +16,7 @@ providers:
     keys_env: GROQ_API_KEY            # env name (repo Secret)
     role: collect                     # collect | check
     format: openai                    # openai | google
-    models: [llama-3.3-70b-versatile, llama-3.1-8b-instant]   # fallback order
+    models: [openai/gpt-oss-120b, openai/gpt-oss-20b]   # current free-tier (llama retired)
     budget: { max_daily_items: 4, max_daily_tokens: 3000, max_output_tokens: 1500 }
   openrouter:
     enabled: true

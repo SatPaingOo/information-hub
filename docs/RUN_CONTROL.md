@@ -45,7 +45,7 @@ models share one budget instead of doubling it.
     "calls": 6,
     "errors": 1,
     "cooldown_until": null,
-    "models": { "llama-3.3-70b-versatile": { "calls": 4, "items": 2, "errors": 0, "healthy": true } }
+    "models": { "openai/gpt-oss-120b": { "calls": 4, "items": 2, "errors": 0, "healthy": true } }
   }
 }
 ```

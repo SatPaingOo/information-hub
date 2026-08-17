@@ -14,7 +14,9 @@ providers:
     keys_env: GROQ_API_KEY            # single key env name
     role: collect                     # deep-dive generation
     format: openai                    # /chat/completions
-    models: [llama-3.3-70b-versatile, llama-3.1-8b-instant]   # fallback order
+    # Current Groq free-tier models (llama-3.3-70b-versatile / llama-3.1-8b
+    # were retired — 404). gpt-oss models are the current free generation.
+    models: [openai/gpt-oss-120b, openai/gpt-oss-20b]   # fallback order
     budget: { max_daily_items: 4, max_daily_tokens: 3000, max_output_tokens: 1500 }
   openrouter:
     enabled: true
