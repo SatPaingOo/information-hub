@@ -1,10 +1,12 @@
-"""Tests for src.run.scheduler — cron calculation + workflow cron rewrite."""
+"""Tests for src.run.scheduler — cron calculation, workflow rewrite, collect loop."""
 
 from __future__ import annotations
 
+import datetime as dt
 from pathlib import Path
 
-from src.run.scheduler import iso_to_cron, update_workflow_cron
+from src.run.scheduler import (iso_to_cron, update_workflow_cron,
+                               _should_collect_more, _wait_seconds)
 
 _SAMPLE = """\
 name: scheduler
@@ -41,3 +43,50 @@ def test_update_workflow_cron_rewrites_first_line(tmp_path: Path):
 def test_update_workflow_cron_missing_file(tmp_path: Path):
     ok = update_workflow_cron("2026-08-14T04:13:00+00:00", tmp_path / "nope.yml")
     assert ok is False
+
+
+# ---- collect-loop decision helpers ----------------------------------------
+
+def _t(seconds_from_now: float = 0) -> dt.datetime:
+    return dt.datetime.now(dt.timezone.utc) + dt.timedelta(seconds=seconds_from_now)
+
+
+def test_should_collect_more_target_met_stops():
+    keep, reason = _should_collect_more(0, _t(), _t(1500), None)
+    assert keep is False
+    assert "target" in reason
+
+
+def test_should_collect_more_deadline_reached_stops():
+    keep, _ = _should_collect_more(5, _t(), _t(-10), None)
+    assert keep is False
+
+
+def test_should_collect_more_cooldown_outlasts_job_stops():
+    resume = _t(3000).isoformat(timespec="seconds")   # 50 min away > 25-min job
+    keep, reason = _should_collect_more(5, _t(), _t(1500), resume)
+    assert keep is False
+    assert "outlasts" in reason
+
+
+def test_should_collect_more_budget_left_keeps_going():
+    keep, _ = _should_collect_more(9, _t(), _t(1500), None)
+    assert keep is True
+    # short cooldown within the job window → keep (wait, then retry)
+    keep2, _ = _should_collect_more(9, _t(), _t(1500), _t(300).isoformat())
+    assert keep2 is True
+
+
+def test_wait_seconds_respects_cooldown_and_deadline():
+    now = _t()
+    deadline = now + dt.timedelta(minutes=25)
+    # cooldown 5 min away → wait ~300s (capped at 60s chunks)
+    w = _wait_seconds((now + dt.timedelta(minutes=5)).isoformat(), now, deadline)
+    assert w is not None and 0 < w <= 60
+    # cooldown expired → 0 (re-check immediately)
+    assert _wait_seconds((now - dt.timedelta(seconds=5)).isoformat(), now, deadline) == 0.0
+    # cooldown outlasts job → None
+    assert _wait_seconds((now + dt.timedelta(minutes=40)).isoformat(),
+                         now, deadline) is None
+    # no cooldown → None (no wait)
+    assert _wait_seconds(None, now, deadline) is None

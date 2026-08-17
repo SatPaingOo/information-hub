@@ -8,7 +8,14 @@ on:
     # SAFETY fallback — daily 01:00 UTC. Never rewritten; keeps the system
     # alive if a dynamic cron goes stale (e.g. crashed mid-run).
     - cron: "0 1 * * *"
-  workflow_dispatch: {}        # manual: run due phases now (or --force-phase)
+  workflow_dispatch:
+    inputs:
+      force_phase:
+        description: "Force a phase now (empty = follow schedule)"
+        required: false
+        default: ""
+        type: choice
+        options: ["", "collect", "check"]
 
 permissions:
   contents: write              # allow the bot to commit generated data
@@ -50,7 +57,14 @@ jobs:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           GEMINI_API_KEYS: ${{ secrets.GEMINI_API_KEYS }}
-        run: python -m src.run.scheduler
+          BOT_PAT: ${{ secrets.BOT_PAT }}
+        run: |
+          FP="${{ github.event.inputs.force_phase }}"
+          if [ -n "$FP" ]; then
+            python -m src.run.scheduler --force-phase "$FP"
+          else
+            python -m src.run.scheduler
+          fi
 
       - name: Commit generated data
         env:
