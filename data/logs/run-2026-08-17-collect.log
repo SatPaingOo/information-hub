@@ -495,3 +495,18 @@
 2026-08-17 11:08:58,117 WARNING [politics] no collect provider available
 2026-08-17 11:08:58,318 WARNING [products] no collect provider available
 2026-08-17 11:08:58,329 INFO collect done: 0 item(s) published — target 10/10, next run ≈ 2026-08-17T11:23:58+00:00 UTC
+2026-08-17 11:21:55,015 ERROR [world-news] select failed: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6709, Requested 2260. Please try again in 7.2675s. Need more tokens? Upgrade to Dev Tier today at https://con
+2026-08-17 11:21:55,507 WARNING [tech-news] no collect provider available
+2026-08-17 11:21:56,078 WARNING [politics] no collect provider available
+2026-08-17 11:21:56,916 WARNING [products] no collect provider available
+2026-08-17 11:21:56,926 INFO collect done: 0 item(s) published — target 10/10, next run ≈ 2026-08-17T11:29:55+00:00 UTC
+2026-08-17 11:22:28,366 ERROR [world-news] select failed: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7409, Requested 964. Please try again in 2.7975s. Need more tokens? Upgrade to Dev Tier today at https://cons
+2026-08-17 11:22:28,728 WARNING [tech-news] no collect provider available
+2026-08-17 11:22:29,097 WARNING [politics] no collect provider available
+2026-08-17 11:22:29,512 WARNING [products] no collect provider available
+2026-08-17 11:22:29,522 INFO collect done: 0 item(s) published — target 10/10, next run ≈ 2026-08-17T11:30:28+00:00 UTC
+2026-08-17 11:22:59,479 INFO [world-news] nothing selected
+2026-08-17 11:22:59,796 WARNING [tech-news] no collect provider available
+2026-08-17 11:23:00,667 WARNING [politics] no collect provider available
+2026-08-17 11:23:00,999 WARNING [products] no collect provider available
+2026-08-17 11:23:01,010 INFO collect done: 0 item(s) published — target 10/10, next run ≈ 2026-08-18T01:00:00+00:00 UTC
