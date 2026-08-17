@@ -134,6 +134,11 @@
       "name": "policy"
     },
     {
+      "id": "info:entity:concept:Brexit",
+      "type": "concept",
+      "name": "Brexit"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -472,6 +477,61 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:politics:global:2026-08-17-001",
+      "target": "info:entity:person:Robert Jenrick",
+      "relation": "Shadow Chancellor unveiling welfare plans"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-17-001",
+      "target": "info:entity:person:Nigel Farage",
+      "relation": "Leader of Reform UK"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-17-001",
+      "target": "info:entity:person:Danny Kruger",
+      "relation": "Reform UK MP defending the policy"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-17-001",
+      "target": "info:entity:concept:Brexit",
+      "relation": "The legal framework impacted by the proposed policy"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-17-001",
+      "target": "info:item:politics:uk:2025-07-15-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-17-001",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-17-001",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-17-001",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-17-001",
+      "target": "taxonomy/topic/politics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-17-001",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-17-001",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -618,6 +678,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:concept:Brexit",
+      "target": "info:entity:person:Danny Kruger",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Brexit",
+      "target": "info:entity:person:Nigel Farage",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Brexit",
+      "target": "info:entity:person:Robert Jenrick",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:concept:Data Governance",
       "target": "info:entity:concept:Myanmar Digital Economy",
       "relation": "co-occurs",
@@ -627,19 +705,19 @@
       "source": "info:entity:person:Danny Kruger",
       "target": "info:entity:person:Nigel Farage",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Danny Kruger",
       "target": "info:entity:person:Robert Jenrick",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Nigel Farage",
       "target": "info:entity:person:Robert Jenrick",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     }
   ]
 }

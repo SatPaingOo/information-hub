@@ -1,7 +1,7 @@
 ---
 node: "geopolitics"
 layer: topic
-item_count: 3
+item_count: 4
 ---
 
 # geopolitics
@@ -24,5 +24,6 @@ item_count: 3
 ## Items
 
 - 2026-08-17 · [[info:item:politics:global:2026-08-17-001]] — Reform UK Benefits Ban for Foreign Nationals: Geopolitical and Domestic Policy Implications
+- 2026-08-17 · [[info:item:politics:global:2026-08-17-001]] — Reform UK Benefits Ban: Geopolitical and Domestic Policy Implications
 - 2026-08-13 · [[info:item:geopolitics:myanmar:2026-08-13-003]] — Myanmar's digital economy: connectivity grows while governance lags
 - 2026-08-13 · [[info:item:geopolitics:myanmar:2026-08-13-003]] — Myanmar's digital economy: connectivity grows while governance lags
