@@ -102,6 +102,38 @@
       "name": "industry"
     },
     {
+      "id": "info:item:politics:global:2026-08-17-001",
+      "type": "item",
+      "date": "2026-08-17",
+      "title": "Reform UK Benefits Ban for Foreign Nationals: Geopolitical and Domestic Policy Implications"
+    },
+    {
+      "id": "info:entity:person:Robert Jenrick",
+      "type": "person",
+      "name": "Robert Jenrick"
+    },
+    {
+      "id": "info:entity:person:Nigel Farage",
+      "type": "person",
+      "name": "Nigel Farage"
+    },
+    {
+      "id": "info:entity:person:Danny Kruger",
+      "type": "person",
+      "name": "Danny Kruger"
+    },
+    {
+      "id": "taxonomy/topic/politics",
+      "type": "taxonomy",
+      "layer": "topic",
+      "name": "politics"
+    },
+    {
+      "id": "taxonomy/misc/policy",
+      "type": "taxonomy",
+      "name": "policy"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -190,12 +222,6 @@
       "type": "taxonomy",
       "layer": "topic",
       "name": "world"
-    },
-    {
-      "id": "taxonomy/topic/politics",
-      "type": "taxonomy",
-      "layer": "topic",
-      "name": "politics"
     },
     {
       "id": "taxonomy/topic/products",
@@ -391,6 +417,61 @@
       "relation": "primary_region"
     },
     {
+      "source": "info:item:politics:global:2026-08-17-001",
+      "target": "info:entity:person:Robert Jenrick",
+      "relation": "Shadow Chancellor for Reform UK"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-17-001",
+      "target": "info:entity:person:Nigel Farage",
+      "relation": "Leader of Reform UK"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-17-001",
+      "target": "info:entity:person:Danny Kruger",
+      "relation": "Reform UK MP"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-17-001",
+      "target": "info:item:politics:global:2025-07-15-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-17-001",
+      "target": "info:item:politics:global:2025-02-12-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-17-001",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-17-001",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-17-001",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-17-001",
+      "target": "taxonomy/topic/politics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-17-001",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-17-001",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -539,6 +620,24 @@
     {
       "source": "info:entity:concept:Data Governance",
       "target": "info:entity:concept:Myanmar Digital Economy",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Danny Kruger",
+      "target": "info:entity:person:Nigel Farage",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Danny Kruger",
+      "target": "info:entity:person:Robert Jenrick",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Nigel Farage",
+      "target": "info:entity:person:Robert Jenrick",
       "relation": "co-occurs",
       "weight": "1"
     }

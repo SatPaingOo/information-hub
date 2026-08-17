@@ -1,0 +1,8 @@
+2026-08-17 09:24:51,237 ERROR [world-news] select failed: HTTP 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-08-17 09:24:51,526 ERROR [tech-news] select failed: HTTP 404: {"error":{"message":"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-08-17 09:26:17,290 INFO [politics] published 2026-08-17-001 — Reform UK Benefits Ban for Foreign Nationals: Geopolitical a
+2026-08-17 09:26:17,471 WARNING [politics] no collect provider for deep-dive
+2026-08-17 09:26:18,200 WARNING [products] no collect provider available
+2026-08-17 09:26:18,213 INFO collect done: 1 item(s) published — target 9/10, next run ≈ 2026-08-17T09:41:18+00:00 UTC
