@@ -12,7 +12,12 @@ on:
 
 permissions:
   contents: write              # allow the bot to commit generated data
-  workflows: write             # allow the bot to rewrite the dynamic cron line in this file
+
+# NOTE: the GitHub App token CANNOT modify .github/workflows/*.yml.
+# To enable the dynamic cron rewrite, add a `BOT_PAT` secret (fine-grained
+# PAT with "Contents: read+write" on this repo) — the commit step uses it
+# when present. Without it, data commits still work and the daily-01:00
+# safety cron drives the runs (dynamic cron stays at its placeholder).
 
 concurrency:
   group: scheduler
@@ -48,9 +53,16 @@ jobs:
         run: python -m src.run.scheduler
 
       - name: Commit generated data (incl. updated cron)
+        env:
+          BOT_PAT: ${{ secrets.BOT_PAT }}
         run: |
           git config user.name "information-hub[bot]"
           git config user.email "information-hub[bot]@users.noreply.github.com"
+          # The GitHub App token cannot push changes to .github/workflows/*.
+          # When BOT_PAT is set, use it (enables the dynamic cron rewrite).
+          if [ -n "${BOT_PAT:-}" ]; then
+            git remote set-url origin "https://x-access-token:${BOT_PAT}@github.com/${GITHUB_REPOSITORY}.git"
+          fi
           git add -A
           if git diff --cached --quiet; then
             echo "No changes to commit"
