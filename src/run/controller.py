@@ -80,13 +80,20 @@ class RunController:
 
     # ---- next-run decision ---------------------------------------------
     def earliest_provider_resume(self) -> str | None:
-        """Earliest ISO time any provider's persisted cooldown ends."""
+        """Earliest ISO time any COLLECT provider's persisted cooldown ends.
+
+        Only collect-role providers matter (check uses Gemini with a separate
+        budget and a lexical fallback).  Returns None when a collect provider
+        is callable right now.
+        """
         now = dt.datetime.now(dt.timezone.utc)
         earliest: dt.datetime | None = None
-        for provider in self.cfg.providers:
-            until = self.registry.provider_cooldown_until(provider)
+        for provider in self.cfg.providers.values():
+            if not provider.enabled or provider.role != "collect":
+                continue
+            until = self.registry.provider_cooldown_until(provider.name)
             if not until:
-                return None  # a provider is immediately available
+                return None  # a collect provider is immediately available
             try:
                 deadline = dt.datetime.fromisoformat(until)
                 if deadline.tzinfo is None:

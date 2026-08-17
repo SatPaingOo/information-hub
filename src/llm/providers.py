@@ -369,7 +369,10 @@ class ProviderManager:
             backoff = base * (2 ** (n - 1))
             wait = retry_after if retry_after and retry_after > backoff else backoff
             wait = min(wait, 900)  # cap at 15 min (job deadline bound)
-            mark_down = n >= 3
+            # Transient failures NEVER mark the model down: the provider-level
+            # cooldown alone prevents hammering, and once it expires the model
+            # is retried (this is what lets the in-run collect loop recover).
+            mark_down = False
         else:
             wait = 0.0
             mark_down = True
