@@ -51,10 +51,10 @@
   },
   "openrouter": {
     "quota_date": "2026-08-18",
-    "tokens_used": 0,
-    "items": 0,
-    "calls": 0,
-    "errors": 15,
+    "tokens_used": 5951,
+    "items": 1,
+    "calls": 3,
+    "errors": 17,
     "cooldown_until": "2026-08-18T06:22:51+00:00",
     "models": {
       "dots-studio/dots-3-note-preview:free": {
@@ -91,20 +91,20 @@
       "google/lyria-3-clip-preview": {
         "calls": 0,
         "items": 0,
-        "errors": 0,
-        "consecutive_failures": 0,
-        "healthy": true,
-        "last_health_check": null,
+        "errors": 1,
+        "consecutive_failures": 1,
+        "healthy": false,
+        "last_health_check": "2026-08-18T06:27:02+00:00",
         "latency_ms": null,
         "supports_json": true
       },
       "google/lyria-3-pro-preview": {
         "calls": 0,
         "items": 0,
-        "errors": 0,
-        "consecutive_failures": 0,
-        "healthy": true,
-        "last_health_check": null,
+        "errors": 1,
+        "consecutive_failures": 1,
+        "healthy": false,
+        "last_health_check": "2026-08-18T06:27:03+00:00",
         "latency_ms": null,
         "supports_json": true
       },
@@ -119,33 +119,33 @@
         "supports_json": true
       },
       "nvidia/nemotron-3-super-120b-a12b:free": {
-        "calls": 0,
+        "calls": 1,
         "items": 0,
         "errors": 0,
         "consecutive_failures": 0,
         "healthy": true,
-        "last_health_check": null,
-        "latency_ms": null,
+        "last_health_check": "2026-08-18T06:27:13+00:00",
+        "latency_ms": 9870,
         "supports_json": true
       },
       "nvidia/nemotron-nano-9b-v2:free": {
-        "calls": 0,
+        "calls": 1,
         "items": 0,
         "errors": 0,
         "consecutive_failures": 0,
         "healthy": true,
-        "last_health_check": null,
-        "latency_ms": null,
+        "last_health_check": "2026-08-18T06:27:33+00:00",
+        "latency_ms": 19389,
         "supports_json": true
       },
       "openai/gpt-oss-20b:free": {
-        "calls": 0,
-        "items": 0,
+        "calls": 1,
+        "items": 1,
         "errors": 0,
         "consecutive_failures": 0,
         "healthy": true,
-        "last_health_check": null,
-        "latency_ms": null,
+        "last_health_check": "2026-08-18T06:28:27+00:00",
+        "latency_ms": 54207,
         "supports_json": true
       },
       "openrouter/free": {

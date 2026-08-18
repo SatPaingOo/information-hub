@@ -75,3 +75,10 @@
 2026-08-18 06:07:52,711 WARNING [politics] no collect provider available
 2026-08-18 06:07:53,417 WARNING [products] no collect provider available
 2026-08-18 06:07:53,428 INFO collect done: 0 item(s) published — target 10/10, next run ≈ 2026-08-18T06:30:21+00:00 UTC
+2026-08-18 06:27:02,847 ERROR [world-news] select failed: HTTP 400: {"error":{"message":"Provider returned error","code":400,"metadata":{"raw":"{\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"JSON mode is not enabled for this model\",\n    \"status\": \"INVALID_ARGUMENT\"\n  }\n}\n","provider_name":"Google AI Studio","is_byok":false,"provider_error_code":"
+2026-08-18 06:27:03,413 ERROR [tech-news] select failed: HTTP 400: {"error":{"message":"Provider returned error","code":400,"metadata":{"raw":"{\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"JSON mode is not enabled for this model\",\n    \"status\": \"INVALID_ARGUMENT\"\n  }\n}\n","provider_name":"Google AI Studio","is_byok":false,"provider_error_code":"
+2026-08-18 06:27:13,610 INFO [politics] nothing selected
+2026-08-18 06:28:27,913 INFO [products] attempt 1 invalid: ["entities/1/type: 'product' is not one of ['concept', 'company', 'model', 'person']", "entities/7/type: 'region' is not one of ['concept', 'company', 'model', 'person']"]
+2026-08-18 06:28:27,914 WARNING [products] no collect provider for deep-dive
+2026-08-18 06:28:27,962 WARNING [products] no collect provider for deep-dive
+2026-08-18 06:28:27,973 INFO collect done: 0 item(s) published — target 10/10, next run ≈ 2026-08-19T01:00:00+00:00 UTC
