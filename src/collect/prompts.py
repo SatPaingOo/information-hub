@@ -142,7 +142,7 @@ def _schema_instruction(collection: CollectionConfig) -> str:
         "key_facts": ["...", "..."],
         "implications": ["...", "..."],
         "outlook": "...",
-        "entities": [{"type": "concept|company|model|person", "name": "...", "relation": "..."}],
+        "entities": [{"type": "concept|company|model|person|product|region|organization|event", "name": "...", "relation": "..."}],
         "tags": ["..."],
         "related_items": ["info:item:..."],
         "related_taxonomy": [{"node": "<taxonomy node name>", "relation": "relates"}],

@@ -17,14 +17,17 @@ providers:
     # Current Groq free-tier models (llama-3.3-70b-versatile / llama-3.1-8b
     # were retired — 404). gpt-oss models are the current free generation.
     models: [openai/gpt-oss-120b, openai/gpt-oss-20b]   # fallback order
-    budget: { max_daily_items: 4, max_daily_tokens: 5000, max_output_tokens: 1500 }
+    # ~4k tokens per item (select ~1.5k + deep-dive ~2.5k) × 4 items
+    budget: { max_daily_items: 4, max_daily_tokens: 16000, max_output_tokens: 1500 }
   openrouter:
     enabled: true
     keys_env: OPENROUTER_API_KEY
     role: collect
     format: openai
     discover: free_models             # runtime auto-discover free models (no hardcode)
-    budget: { max_daily_items: 6, max_daily_tokens: 4000, max_output_tokens: 2048 }
+    # ~4k tokens per item × 6 items (free tier limits are request-based, not
+    # daily-token — this budget is our safety valve)
+    budget: { max_daily_items: 6, max_daily_tokens: 24000, max_output_tokens: 2048 }
   gemini:
     enabled: true
     keys_env: GEMINI_API_KEYS         # comma-separated multi-key

@@ -64,7 +64,7 @@ DEEP_DIVE_SCHEMA = {
                 "type": "object",
                 "required": ["type", "name", "relation"],
                 "properties": {
-                    "type": {"type": "string", "enum": ["concept", "company", "model", "person"]},
+                    "type": {"type": "string", "enum": ["concept", "company", "model", "person", "product", "region", "organization", "event"]},
                     "name": {"type": "string", "minLength": 1},
                     "relation": {"type": "string"},
                 },
