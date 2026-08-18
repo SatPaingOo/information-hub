@@ -98,8 +98,27 @@ def test_can_call_gate_respects_cooldown(tmp_path: Path):
     pm = _pm(tmp_path, mock=True)
     spec = pm.models_for_role("collect")[0]
     assert pm.can_call(spec) is True
+    # provider-level cooldown is only the scheduler's pacing signal — it does
+    # NOT block calls (one model's 429 must not starve healthy siblings)
     pm.registry.set_provider_cooldown(spec.provider, "2099-01-01T00:00:00+00:00")
+    assert pm.can_call(spec) is True
+    # per-model cooldown DOES block that specific model
+    pm.registry.set_model_cooldown(spec.provider, spec.model, "2099-01-01T00:00:00+00:00")
     assert pm.can_call(spec) is False
+
+
+def test_pick_collect_uses_sibling_models_while_provider_cooling(tmp_path: Path):
+    """One model rate-limited must not block the provider's other models —
+    the pick falls through to a sibling within the same provider."""
+    pm = _pm(tmp_path, mock=True)
+    specs = pm.models_for_role("collect")
+    first = specs[0]
+    pm.registry.set_provider_cooldown(first.provider, "2099-01-01T00:00:00+00:00")
+    pm.registry.set_model_cooldown(first.provider, first.model, "2099-01-01T00:00:00+00:00")
+    spec = pm.pick_collect("ai-research")
+    assert spec is not None
+    assert spec.provider == first.provider
+    assert spec.model != first.model
 
 
 def test_can_call_gate_respects_token_budget(tmp_path: Path):

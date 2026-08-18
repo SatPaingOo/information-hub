@@ -188,20 +188,16 @@ class ProviderManager:
         except ValueError:
             return False
 
-    def _provider_available(self, provider: str) -> bool:
-        """True if the provider is not in a persisted rate-limit cooldown."""
-        return not self._cooldown_active(
-            self.registry.provider_cooldown_until(provider))
-
     def can_call(self, spec: ModelSpec, est_output_tokens: int = 0) -> bool:
         """Pre-call rate-limit gate (called BEFORE any HTTP request).
 
-        Returns False when the provider OR this specific model is in a
-        persisted cooldown, or its daily token/item budget would be exceeded
-        by this call.
+        Gates on the SPECIFIC model's cooldown and the provider's daily
+        token/item budgets.  The provider-level cooldown is deliberately NOT
+        checked here: it is only the scheduler's pacing signal, and blocking
+        the whole provider on one model's 429 would starve the provider's
+        healthy sibling models (openrouter free models have independent
+        upstream limits — see 08-18 gemma-31b blocking every other model).
         """
-        if not self._provider_available(spec.provider):
-            return False
         if self._cooldown_active(
                 self.registry.model_cooldown_until(spec.provider, spec.model)):
             return False
