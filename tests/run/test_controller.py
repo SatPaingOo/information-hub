@@ -128,3 +128,36 @@ def test_should_continue_stops_at_target_and_deadline(tmp_path: Path):
     start = dt.datetime.now(dt.timezone.utc)
     assert ctl.should_continue(start, collected=cfg.targets.total_per_day) is False
     assert ctl.should_continue(start, collected=0) is True
+
+
+def test_rollover_resets_quotas_and_target(tmp_path: Path):
+    """New UTC day: exhausted provider quotas, active cooldowns and a met
+    daily target must all roll forward — otherwise the first run of the day
+    sees stale 'yesterday exhausted' state and collects nothing."""
+    cfg, reg, run_log = _setup(tmp_path)
+    ctl = RunController(cfg, reg, run_log, tmp_path)
+    # yesterday's exhaustion + cooldown
+    reg.record_provider_call("groq", "m", tokens=99999)
+    reg.set_provider_cooldown("groq", "2099-01-01T00:00:00+00:00")
+    reg.provider_state("groq")["quota_date"] = "2000-01-01"
+    ctl.write_schedule(target_remaining=0)      # yesterday's target met
+
+    assert ctl.rollover_daily() is True         # day changed → rolled over
+    assert reg.provider_tokens_used("groq") == 0
+    assert reg.provider_cooldown_until("groq") is None
+    assert ctl.load_schedule()["target_remaining"] == cfg.targets.total_per_day
+    assert ctl.any_collect_provider_callable() is True
+
+    # same day → no second rollover
+    assert ctl.rollover_daily() is False
+    assert ctl.load_schedule()["target_remaining"] == cfg.targets.total_per_day
+
+
+def test_rollover_noop_same_day_keeps_state(tmp_path: Path):
+    """Rollover on the same UTC day must not clear live quotas."""
+    cfg, reg, run_log = _setup(tmp_path)
+    ctl = RunController(cfg, reg, run_log, tmp_path)
+    ctl.rollover_daily()                        # initialize rollover_date
+    reg.record_provider_call("groq", "m", tokens=500)
+    assert ctl.rollover_daily() is False
+    assert reg.provider_tokens_used("groq") == 500

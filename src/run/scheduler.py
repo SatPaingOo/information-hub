@@ -227,6 +227,12 @@ def main() -> int:
     run_log = RunLog(registry.dir)
     schedule = json_load(registry.dir / "schedule.json")
 
+    # Daily rollover FIRST — stale "yesterday exhausted / target met" state
+    # must never skip today's run (fresh UTC day → fresh quotas + target).
+    from src.run.controller import RunController
+    RunController(cfg, registry, run_log, cfg.storage.data_dir).rollover_daily()
+    schedule = json_load(registry.dir / "schedule.json")   # reload after rollover
+
     if not registry.acquire_lock():
         print("scheduler: pipeline lock held by another run — skipping")
         run_log.event("scheduler", "lock_busy", status="skip")

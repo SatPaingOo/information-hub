@@ -78,6 +78,31 @@ class RunController:
         path.write_text(json.dumps(schedule, indent=2, ensure_ascii=False) + "\n",
                         encoding="utf-8")
 
+    # ---- daily rollover --------------------------------------------------
+    def rollover_daily(self) -> bool:
+        """Roll daily counters forward when the UTC day changed.
+
+        Resets provider token/item quotas (via the registry) AND the daily
+        content target, so stale "yesterday exhausted / target met" state can
+        never skip today's run.  Must be called at the START of every run —
+        before any budget/target check.  Returns True when a rollover
+        happened (new UTC day).
+        """
+        schedule = self.load_schedule()
+        if schedule.get("rollover_date") == _utc_today():
+            return False
+        self.registry.reset_provider_quotas_if_new_day()
+        self.registry.save()
+        schedule["target_remaining"] = self.cfg.targets.total_per_day
+        schedule["rollover_date"] = _utc_today()
+        schedule["updated_at"] = _utcnow()
+        (self.schedule_dir / _SCHEDULE_FILE).write_text(
+            json.dumps(schedule, indent=2, ensure_ascii=False) + "\n",
+            encoding="utf-8")
+        self.log.event("scheduler", "daily_rollover",
+                       detail="new UTC day — quotas + target reset")
+        return True
+
     # ---- next-run decision ---------------------------------------------
     def earliest_provider_resume(self) -> str | None:
         """Earliest ISO time a COLLECT provider with budget left can be called.
@@ -195,3 +220,7 @@ class RunController:
 
 def _utcnow() -> str:
     return dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
+
+
+def _utc_today() -> str:
+    return dt.datetime.now(dt.timezone.utc).date().isoformat()

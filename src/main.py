@@ -369,6 +369,11 @@ def run(mock: bool, phase: str, collection_filter: str | None,
 
     pm = ProviderManager(cfg, registry, run_log, mock=mock)
 
+    # Daily rollover FIRST — fresh UTC day → fresh provider quotas + target
+    # (stale "yesterday exhausted" state must not skip today's collection).
+    from src.run.controller import RunController
+    RunController(cfg, registry, run_log, cfg.storage.data_dir).rollover_daily()
+
     phases = [phase] if phase in ("collect", "check") else list(cfg.run.phases)
     if phase == "both":
         phases = ["collect", "check"]
