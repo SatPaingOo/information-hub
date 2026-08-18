@@ -105,6 +105,24 @@ def _find_related(candidate: Candidate, records: list[dict[str, Any]]) -> list[s
     return out
 
 
+def _valid_select_indices(raw: list, n: int) -> list[int]:
+    """Coerce model-selected indices to ints, dropping out-of-range ones.
+
+    Free-tier models occasionally hallucinate indices past the candidate
+    list — an unguarded ``candidates[idx]`` would crash the whole run and
+    lose the unsaved quota/cooldown state (see scheduler crash 08-18).
+    """
+    out: list[int] = []
+    for i in raw or []:
+        try:
+            idx = int(i)
+        except (TypeError, ValueError):
+            continue
+        if 0 <= idx < n:
+            out.append(idx)
+    return out
+
+
 # ---- phase: collect ------------------------------------------------------
 def run_collect(cfg: Config, registry: Registry, store: Store, indexer: Indexer,
                 run_log: RunLog, logger: Any, pm: ProviderManager, *,
@@ -175,11 +193,13 @@ def run_collect(cfg: Config, registry: Registry, store: Store, indexer: Indexer,
                                          priority_text, exclude_text, registry)
             try:
                 result = pm.generate(spec, SYSTEM_SELECT, prompt, items=0)
-                selected = [int(i) for i in result.get("selected", [])]
+                selected = _valid_select_indices(result.get("selected", []),
+                                                 len(candidates))
             except ProviderError as e:
                 logger.error("[%s] select failed: %s", collection.name, e)
                 registry.record_fetch(collection.name, len(candidates), 0)
                 continue
+        selected = _valid_select_indices(selected, len(candidates))
 
         if not selected:
             registry.record_fetch(collection.name, len(candidates), 0)
