@@ -127,6 +127,9 @@ class Registry:
         base = {
             "id": record["id"],
             "key": record["key"],
+            "title": record.get("title", ""),
+            "date": record.get("date", ""),
+            "collection": record.get("collection", ""),
             "title_hash": title_hash(record["title"]),
             "url_hash": url_hash(record["source"]["url"]),
             "status": status,
