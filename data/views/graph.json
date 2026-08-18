@@ -102,6 +102,74 @@
       "name": "industry"
     },
     {
+      "id": "info:item:politics:global:2026-08-18-001",
+      "type": "item",
+      "date": "2026-08-18",
+      "title": "Burnham exchanged messages with person posing as Trump's chief of staff"
+    },
+    {
+      "id": "info:entity:person:Andy Burnham",
+      "type": "person",
+      "name": "Andy Burnham"
+    },
+    {
+      "id": "info:entity:person:Susie Wiles",
+      "type": "person",
+      "name": "Susie Wiles"
+    },
+    {
+      "id": "info:entity:organization:FBI",
+      "type": "organization",
+      "name": "FBI"
+    },
+    {
+      "id": "taxonomy/topic/politics",
+      "type": "taxonomy",
+      "layer": "topic",
+      "name": "politics"
+    },
+    {
+      "id": "taxonomy/misc/policy",
+      "type": "taxonomy",
+      "name": "policy"
+    },
+    {
+      "id": "info:item:politics:global:2026-08-18-005",
+      "type": "item",
+      "date": "2026-08-18",
+      "title": "Disabled people in England to get 24-hour free bus travel"
+    },
+    {
+      "id": "info:entity:organization:Department for Transport",
+      "type": "organization",
+      "name": "Department for Transport"
+    },
+    {
+      "id": "info:entity:organization:Scope",
+      "type": "organization",
+      "name": "Scope"
+    },
+    {
+      "id": "info:entity:organization:Transport for All",
+      "type": "organization",
+      "name": "Transport for All"
+    },
+    {
+      "id": "taxonomy/misc/Social Policy",
+      "type": "taxonomy",
+      "name": "Social Policy"
+    },
+    {
+      "id": "taxonomy/misc/Transport Infrastructure",
+      "type": "taxonomy",
+      "name": "Transport Infrastructure"
+    },
+    {
+      "id": "taxonomy/misc/Disability Rights",
+      "type": "taxonomy",
+      "name": "Disability Rights"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -190,12 +258,6 @@
       "type": "taxonomy",
       "layer": "topic",
       "name": "world"
-    },
-    {
-      "id": "taxonomy/topic/politics",
-      "type": "taxonomy",
-      "layer": "topic",
-      "name": "politics"
     },
     {
       "id": "taxonomy/topic/products",
@@ -391,6 +453,121 @@
       "relation": "primary_region"
     },
     {
+      "source": "info:item:politics:global:2026-08-18-001",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "exchanged messages with impersonator"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-18-001",
+      "target": "info:entity:person:Susie Wiles",
+      "relation": "target of impersonation attempt"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-18-001",
+      "target": "info:entity:organization:FBI",
+      "relation": "investigating the impersonation attempt"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-18-001",
+      "target": "info:item:politics:global:2026-08-18-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-18-001",
+      "target": "info:item:politics:global:2026-08-18-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-18-001",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-18-001",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-18-001",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-18-001",
+      "target": "taxonomy/topic/politics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-18-001",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-18-001",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-18-005",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "Prime Minister of the United Kingdom advocating for the policy"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-18-005",
+      "target": "info:entity:organization:Department for Transport",
+      "relation": "Funding body for the £60m scheme"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-18-005",
+      "target": "info:entity:organization:Scope",
+      "relation": "Disability charity supporting the reform"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-18-005",
+      "target": "info:entity:organization:Transport for All",
+      "relation": "Disabled-led charity endorsing the policy"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-18-005",
+      "target": "info:item:politics:global:2026-08-18-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-18-005",
+      "target": "info:item:politics:global:2026-08-18-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-18-005",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-18-005",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-18-005",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-18-005",
+      "target": "taxonomy/misc/Social Policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-18-005",
+      "target": "taxonomy/misc/Transport Infrastructure",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-18-005",
+      "target": "taxonomy/misc/Disability Rights",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -539,6 +716,60 @@
     {
       "source": "info:entity:concept:Data Governance",
       "target": "info:entity:concept:Myanmar Digital Economy",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Department for Transport",
+      "target": "info:entity:organization:Scope",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Department for Transport",
+      "target": "info:entity:organization:Transport for All",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Department for Transport",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:FBI",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:FBI",
+      "target": "info:entity:person:Susie Wiles",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Scope",
+      "target": "info:entity:organization:Transport for All",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Scope",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Transport for All",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Andy Burnham",
+      "target": "info:entity:person:Susie Wiles",
       "relation": "co-occurs",
       "weight": "1"
     }

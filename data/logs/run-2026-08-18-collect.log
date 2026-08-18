@@ -82,3 +82,29 @@
 2026-08-18 06:28:27,914 WARNING [products] no collect provider for deep-dive
 2026-08-18 06:28:27,962 WARNING [products] no collect provider for deep-dive
 2026-08-18 06:28:27,973 INFO collect done: 0 item(s) published — target 10/10, next run ≈ 2026-08-19T01:00:00+00:00 UTC
+2026-08-18 06:38:03,990 ERROR [world-news] select failed: empty model content
+2026-08-18 06:39:39,360 ERROR [tech-news] generate error: empty model content
+2026-08-18 06:39:50,571 ERROR [tech-news] generate error: bad response: Expecting value: line 1 column 1 (char 0)
+2026-08-18 06:45:28,819 ERROR [tech-news] generate error: bad response: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2026-08-18 06:46:07,252 ERROR [tech-news] generate error: bad response: Expecting property name enclosed in double quotes: line 2 column 1 (char 2)
+2026-08-18 06:46:29,172 INFO [tech-news] attempt 2 invalid: ["entities/1/type: 'method' is not one of ['concept', 'company', 'model', 'person', 'product', 'region', 'organization', 'event']", 'body word count 422 < minimum 500']
+2026-08-18 06:48:16,664 INFO [tech-news] attempt 3 invalid: ["entities/0/type: 'dataset' is not one of ['concept', 'company', 'model', 'person', 'product', 'region', 'organization', 'event']"]
+2026-08-18 06:49:25,614 ERROR [tech-news] generate error: bad response: Unterminated string starting at: line 81 column 5 (char 6637)
+2026-08-18 06:49:30,742 ERROR [tech-news] generate error: bad response: Expecting value: line 1 column 1 (char 0)
+2026-08-18 06:50:07,626 ERROR [tech-news] generate error: bad response: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2026-08-18 06:50:27,493 ERROR [politics] generate error: bad response: Expecting value: line 1 column 1 (char 0)
+2026-08-18 06:51:02,421 ERROR [politics] generate error: bad response: Expecting value: line 68 column 50 (char 4989)
+2026-08-18 06:51:28,491 ERROR [politics] generate error: bad response: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2026-08-18 06:51:39,106 ERROR [politics] generate error: bad response: Expecting value: line 1 column 1 (char 0)
+2026-08-18 06:52:12,077 ERROR [politics] generate error: bad response: Expecting value: line 68 column 48 (char 4130)
+2026-08-18 06:52:57,046 INFO [politics] published 2026-08-18-005 — Disabled people in England to get 24-hour free bus travel
+2026-08-18 06:53:09,836 ERROR [products] select failed: bad response: Expecting ',' delimiter: line 1 column 16 (char 15)
+2026-08-18 06:53:46,528 ERROR [world-news] select failed: bad response: Expecting value: line 1 column 1 (char 0)
+2026-08-18 06:54:43,617 ERROR [tech-news] select failed: empty model content
+2026-08-18 06:54:56,845 ERROR [politics] generate error: bad response: Unterminated string starting at: line 43 column 5 (char 5966)
+2026-08-18 07:04:37,076 INFO [politics] published 2026-08-18-001 — Burnham exchanged messages with person posing as Trump's chi
+2026-08-18 07:04:39,452 ERROR [politics] generate error: HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
+
+2026-08-18 07:04:46,028 INFO [politics] attempt 2 invalid: [": 'tags' is a required property", ": 'related_items' is a required property"]
+2026-08-18 07:04:49,345 INFO [politics] attempt 3 invalid: [": 'tags' is a required property", ": 'related_items' is a required property"]
+2026-08-18 07:04:50,295 ERROR [products] select failed: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7739, Requested 2221. Please try again in 14.7s. Need more tokens? Upgrade to Dev Tier today at https://conso
