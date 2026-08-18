@@ -254,7 +254,8 @@ class Indexer:
         entity_root = self.preview / "entities"
         entity_root.mkdir(parents=True, exist_ok=True)
         type_dir = {t: entity_root / t for t in
-                    ("concept", "company", "model", "person")}
+                    ("concept", "company", "model", "person",
+                     "product", "region", "organization", "event")}
         for tdir in type_dir.values():
             tdir.mkdir(parents=True, exist_ok=True)
 

@@ -290,7 +290,11 @@ def run_collect(cfg: Config, registry: Registry, store: Store, indexer: Indexer,
         raw_items = [{**rec, "fulltext": fulltext_by_id.get(rec["id"], "")}
                      for rec in run_records]
         store.write_raw_run(timestamp, raw_items)
-    indexer.rebuild(store.iter_records(), taxonomy=cfg.taxonomy, relations=cfg.relations)
+    try:
+        indexer.rebuild(store.iter_records(), taxonomy=cfg.taxonomy,
+                        relations=cfg.relations)
+    except Exception as e:  # noqa: BLE001 — rebuild must not lose published state
+        logger.error("indexer rebuild failed: %s", e)
     registry.mark_run([r["id"] for r in run_records], quota_used=len(run_records))
 
     # RunController — persist schedule so the workflow cron points at the
