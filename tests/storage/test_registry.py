@@ -92,6 +92,22 @@ def test_registry_cooldown_persist(tmp_path: Path):
     assert reg.provider_cooldown_until("openrouter") is None
 
 
+def test_registry_model_cooldown(tmp_path: Path):
+    """Per-model cooldowns persist and are cleared by the daily reset."""
+    reg = Registry(tmp_path)
+    reg.set_model_cooldown("openrouter", "google/gemma-4-31b-it:free",
+                           "2099-01-01T00:00:00+00:00")
+    assert reg.model_cooldown_until("openrouter",
+                                    "google/gemma-4-31b-it:free") == "2099-01-01T00:00:00+00:00"
+    # a different model is unaffected
+    assert reg.model_cooldown_until("openrouter", "other") is None
+    monkeypatch = __import__("pytest").MonkeyPatch()
+    monkeypatch.setattr("src.storage.registry._utc_today", lambda: "2026-08-15")
+    reg.reset_provider_quotas_if_new_day()
+    monkeypatch.undo()
+    assert reg.model_cooldown_until("openrouter", "google/gemma-4-31b-it:free") is None
+
+
 def test_registry_lock(tmp_path: Path):
     reg = Registry(tmp_path)
     assert reg.acquire_lock() is True

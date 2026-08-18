@@ -171,27 +171,35 @@ class ProviderManager:
         return result
 
     # ---- selection -------------------------------------------------------
-    def _provider_available(self, provider: str) -> bool:
-        """True if the provider is not in a persisted rate-limit cooldown."""
-        until = self.registry.provider_cooldown_until(provider)
-        if not until:
-            return True
+    def _cooldown_active(self, until_iso: str | None) -> bool:
+        """True when an ISO UTC cooldown deadline is still in the future."""
+        if not until_iso:
+            return False
         try:
             from datetime import datetime, timezone
-            deadline = datetime.fromisoformat(until)
+            deadline = datetime.fromisoformat(until_iso)
             if deadline.tzinfo is None:
                 deadline = deadline.replace(tzinfo=timezone.utc)
-            return datetime.now(timezone.utc) >= deadline
+            return datetime.now(timezone.utc) < deadline
         except ValueError:
-            return True
+            return False
+
+    def _provider_available(self, provider: str) -> bool:
+        """True if the provider is not in a persisted rate-limit cooldown."""
+        return not self._cooldown_active(
+            self.registry.provider_cooldown_until(provider))
 
     def can_call(self, spec: ModelSpec, est_output_tokens: int = 0) -> bool:
         """Pre-call rate-limit gate (called BEFORE any HTTP request).
 
-        Returns False when the provider is in a persisted cooldown OR its
-        daily token/item budget would be exceeded by this call.
+        Returns False when the provider OR this specific model is in a
+        persisted cooldown, or its daily token/item budget would be exceeded
+        by this call.
         """
         if not self._provider_available(spec.provider):
+            return False
+        if self._cooldown_active(
+                self.registry.model_cooldown_until(spec.provider, spec.model)):
             return False
         cfg_p = self.cfg.providers.get(spec.provider)
         if not cfg_p:
@@ -218,7 +226,39 @@ class ProviderManager:
                 return spec
         self.log.event("collect", "no_provider_available", collection=collection,
                        status="skip", detail="all collect models down/budget-exhausted/rate-limited")
+        self._persist_earliest_model_resume()
         return None
+
+    def _persist_earliest_model_resume(self) -> None:
+        """Point each cooling provider's cooldown at its earliest model recovery.
+
+        Called when pick_collect found nothing callable.  The scheduler waits
+        on PROVIDER cooldowns, so without this it would re-run collect
+        immediately and fail instantly while every model is still cooling.
+        """
+        import datetime as dt
+        now = dt.datetime.now(dt.timezone.utc)
+        earliest: dict[str, dt.datetime] = {}
+        for spec in self._ranked_collect():
+            until = self.registry.model_cooldown_until(spec.provider, spec.model)
+            if not until:
+                continue
+            try:
+                deadline = dt.datetime.fromisoformat(until)
+                if deadline.tzinfo is None:
+                    deadline = deadline.replace(tzinfo=dt.timezone.utc)
+            except ValueError:
+                continue
+            if deadline <= now:
+                continue
+            cur = earliest.get(spec.provider)
+            if cur is None or deadline < cur:
+                earliest[spec.provider] = deadline
+        for provider, deadline in earliest.items():
+            self.registry.set_provider_cooldown(
+                provider, deadline.isoformat(timespec="seconds"))
+            self.log.event("collect", "all_models_cooling", provider=provider,
+                           detail=f"retry after {deadline.isoformat(timespec='seconds')}")
 
     def pick_check(self) -> ModelSpec | None:
         """Pick the healthy check provider (Gemini search grounding)."""
@@ -379,11 +419,21 @@ class ProviderManager:
 
         self.registry.record_provider_failure(spec.provider, spec.model,
                                               mark_down=mark_down)
-        if transient and wait > 0:
+        if transient:
             import datetime as dt
-            until = (dt.datetime.now(dt.timezone.utc)
-                     + dt.timedelta(seconds=wait)).isoformat(timespec="seconds")
-            self.registry.set_provider_cooldown(spec.provider, until)
+            now = dt.datetime.now(dt.timezone.utc)
+            if wait > 0:
+                until = (now + dt.timedelta(seconds=wait)).isoformat(timespec="seconds")
+                self.registry.set_provider_cooldown(spec.provider, until)
+            # Per-model cooldown grows with PERSISTED consecutive failures so
+            # a chronically rate-limited model is rotated away from instead of
+            # being re-picked (fewest-calls ranking) every round and hammered.
+            mfail = self.registry.provider_model_stats(
+                spec.provider, spec.model).get("consecutive_failures", 0)
+            model_wait = min(base * (2 ** max(mfail - 1, 0)), 900)
+            self.registry.set_model_cooldown(
+                spec.provider, spec.model,
+                (now + dt.timedelta(seconds=model_wait)).isoformat(timespec="seconds"))
         self.log.event(phase, "call_error", provider=spec.provider,
                        model=spec.model, status="error",
                        detail=f"HTTP {status_code}: {spec.provider} "

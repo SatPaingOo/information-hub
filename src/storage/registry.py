@@ -259,6 +259,8 @@ class Registry:
                 state["calls"] = 0
                 state["errors"] = 0
                 state["cooldown_until"] = None
+                for stats in state.get("models", {}).values():
+                    stats["cooldown_until"] = None  # fresh day → fresh attempts
 
     def provider_model_stats(self, provider: str, model: str) -> dict[str, Any]:
         state = self.provider_state(provider)
@@ -266,7 +268,7 @@ class Registry:
             model, {"calls": 0, "items": 0, "errors": 0,
                     "consecutive_failures": 0, "healthy": True,
                     "last_health_check": None, "latency_ms": None,
-                    "supports_json": True})
+                    "supports_json": True, "cooldown_until": None})
         return stats
 
     def record_provider_call(self, provider: str, model: str, *,
@@ -280,7 +282,7 @@ class Registry:
             model, {"calls": 0, "items": 0, "errors": 0,
                     "consecutive_failures": 0, "healthy": True,
                     "last_health_check": None, "latency_ms": None,
-                    "supports_json": True})
+                    "supports_json": True, "cooldown_until": None})
         stats["calls"] = stats.get("calls", 0) + 1
         stats["items"] = stats.get("items", 0) + items
         if latency_ms is not None:
@@ -297,7 +299,7 @@ class Registry:
             model, {"calls": 0, "items": 0, "errors": 0,
                     "consecutive_failures": 0, "healthy": True,
                     "last_health_check": None, "latency_ms": None,
-                    "supports_json": True})
+                    "supports_json": True, "cooldown_until": None})
         stats["errors"] = stats.get("errors", 0) + 1
         stats["consecutive_failures"] = stats.get("consecutive_failures", 0) + 1
         stats["last_health_check"] = _utcnow()
@@ -317,6 +319,20 @@ class Registry:
 
     def provider_cooldown_until(self, provider: str) -> str | None:
         return self.provider_state(provider).get("cooldown_until")
+
+    # ---- per-model cooldown (rotation away from rate-limited models) ------
+    def set_model_cooldown(self, provider: str, model: str,
+                           until_iso: str | None) -> None:
+        """Persist a per-model cooldown deadline (ISO UTC) or clear it.
+
+        A model that keeps returning 429 gets its OWN cooldown (longer than
+        the provider one) so picks rotate to the provider's other models
+        instead of hammering the same saturated model every round.
+        """
+        self.provider_model_stats(provider, model)["cooldown_until"] = until_iso
+
+    def model_cooldown_until(self, provider: str, model: str) -> str | None:
+        return self.provider_model_stats(provider, model).get("cooldown_until")
 
     # ---- provider aggregate budget (not per-model) ------------------------
     def provider_tokens_used(self, provider: str) -> int:
@@ -354,14 +370,15 @@ class Registry:
         """Clear every model's down flag (fresh attempt this round).
 
         Called by the scheduler at the start of each collect round.  Pacing is
-        governed by the persisted provider cooldown; a stale down flag (e.g.
-        from an earlier buggy run) must not block the rest of the day.
+        governed by the persisted cooldowns; a stale down flag (e.g. from an
+        earlier buggy run) must not block the rest of the day.  Per-model
+        cooldowns and failure counters are deliberately NOT cleared — a
+        rate-limited model must stay rotated away from across rounds.
         """
         for provider in list(self.providers.keys()):
             state = self.provider_state(provider)
             for stats in state.get("models", {}).values():
                 stats["healthy"] = True
-                stats["consecutive_failures"] = 0
 
     # ---- pipeline lock (scheduler double-safety) ---------------------------
     def acquire_lock(self) -> bool:

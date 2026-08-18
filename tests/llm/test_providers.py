@@ -112,6 +112,43 @@ def test_can_call_gate_respects_token_budget(tmp_path: Path):
     assert pm.can_call(spec, est_output_tokens=0) is True  # at the cap edge
 
 
+def test_can_call_gate_respects_model_cooldown(tmp_path: Path):
+    """A per-model cooldown blocks only that model, not the provider."""
+    pm = _pm(tmp_path, mock=True)
+    specs = pm.models_for_role("collect")
+    first = specs[0]
+    pm.registry.set_model_cooldown(first.provider, first.model,
+                                   "2099-01-01T00:00:00+00:00")
+    assert pm.can_call(first) is False
+    other = next(s for s in specs if s.model != first.model)
+    assert pm.can_call(other) is True
+
+
+def test_pick_collect_rotates_away_from_rate_limited_model(tmp_path: Path):
+    """The fewest-calls model in cooldown must not be re-picked — the pick
+    falls through to the next model instead of hammering the same one."""
+    pm = _pm(tmp_path, mock=True)
+    ranked = pm._ranked_collect()
+    first = ranked[0]
+    pm.registry.set_model_cooldown(first.provider, first.model,
+                                   "2099-01-01T00:00:00+00:00")
+    spec = pm.pick_collect("ai-research")
+    assert spec is not None
+    assert (spec.provider, spec.model) != (first.provider, first.model)
+
+
+def test_pick_collect_persists_model_resume_when_all_cooling(tmp_path: Path):
+    """All models cooling → pick_collect None AND the provider cooldown is
+    pointed at the earliest model recovery so the scheduler waits (no spin)."""
+    pm = _pm(tmp_path, mock=True)
+    for s in pm.models_for_role("collect"):
+        pm.registry.set_model_cooldown(s.provider, s.model,
+                                       "2099-01-01T00:00:00+00:00")
+    assert pm.pick_collect("ai-research") is None
+    assert pm.registry.provider_cooldown_until("groq") == "2099-01-01T00:00:00+00:00"
+    assert pm.registry.provider_cooldown_until("openrouter") == "2099-01-01T00:00:00+00:00"
+
+
 def test_retry_after_parsed_from_header():
     from src.llm.clients import _parse_retry_after
 
