@@ -1,9 +1,9 @@
 {
   "groq": {
     "quota_date": "2026-08-18",
-    "tokens_used": 0,
-    "items": 0,
-    "calls": 0,
+    "tokens_used": 4447,
+    "items": 1,
+    "calls": 2,
     "errors": 0,
     "cooldown_until": null,
     "models": {
@@ -11,8 +11,8 @@
         "calls": 0,
         "items": 0,
         "errors": 1,
-        "consecutive_failures": 1,
-        "healthy": false,
+        "consecutive_failures": 0,
+        "healthy": true,
         "last_health_check": "2026-08-17T10:20:30+00:00",
         "latency_ms": null,
         "supports_json": true
@@ -21,30 +21,30 @@
         "calls": 0,
         "items": 0,
         "errors": 1,
-        "consecutive_failures": 1,
-        "healthy": false,
+        "consecutive_failures": 0,
+        "healthy": true,
         "last_health_check": "2026-08-17T10:20:30+00:00",
         "latency_ms": null,
         "supports_json": true
       },
       "openai/gpt-oss-120b": {
-        "calls": 2,
-        "items": 0,
+        "calls": 3,
+        "items": 1,
         "errors": 6,
         "consecutive_failures": 0,
         "healthy": true,
-        "last_health_check": "2026-08-17T11:22:59+00:00",
-        "latency_ms": 888,
+        "last_health_check": "2026-08-18T04:54:48+00:00",
+        "latency_ms": 3385,
         "supports_json": true
       },
       "openai/gpt-oss-20b": {
-        "calls": 1,
+        "calls": 2,
         "items": 0,
         "errors": 0,
         "consecutive_failures": 0,
         "healthy": true,
-        "last_health_check": "2026-08-17T10:56:12+00:00",
-        "latency_ms": 933,
+        "last_health_check": "2026-08-18T04:54:43+00:00",
+        "latency_ms": 1635,
         "supports_json": true
       }
     }
@@ -54,8 +54,8 @@
     "tokens_used": 0,
     "items": 0,
     "calls": 0,
-    "errors": 0,
-    "cooldown_until": null,
+    "errors": 10,
+    "cooldown_until": "2026-08-18T04:59:41+00:00",
     "models": {
       "dots-studio/dots-3-note-preview:free": {
         "calls": 1,
@@ -80,10 +80,10 @@
       "google/gemma-4-31b-it:free": {
         "calls": 0,
         "items": 0,
-        "errors": 0,
-        "consecutive_failures": 0,
+        "errors": 10,
+        "consecutive_failures": 10,
         "healthy": true,
-        "last_health_check": null,
+        "last_health_check": "2026-08-18T04:59:11+00:00",
         "latency_ms": null,
         "supports_json": true
       },
