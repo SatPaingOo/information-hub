@@ -108,3 +108,32 @@
 2026-08-18 07:04:46,028 INFO [politics] attempt 2 invalid: [": 'tags' is a required property", ": 'related_items' is a required property"]
 2026-08-18 07:04:49,345 INFO [politics] attempt 3 invalid: [": 'tags' is a required property", ": 'related_items' is a required property"]
 2026-08-18 07:04:50,295 ERROR [products] select failed: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7739, Requested 2221. Please try again in 14.7s. Need more tokens? Upgrade to Dev Tier today at https://conso
+2026-08-18 07:10:08,282 ERROR [world-news] select failed: HTTP 404: {"error":{"message":"No endpoints found for liquid/lfm-2.5-2.6b:free.","code":404},"user_id":"user_2mqLaYz9PPTm2loHhHg0PQ896kb"}
+2026-08-18 07:11:47,319 ERROR [tech-news] generate error: bad response: Unterminated string starting at: line 51 column 15 (char 6919)
+2026-08-18 07:12:17,384 INFO [tech-news] attempt 2 invalid: ["entities/1/type: 'method' is not one of ['concept', 'company', 'model', 'person', 'product', 'region', 'organization', 'event']", "entities/2/type: 'dataset' is not one of ['concept', 'company', 'model', 'person', 'product', 'region', 'organization', 'event']"]
+2026-08-18 07:14:20,289 ERROR [tech-news] generate error: bad response: Unterminated string starting at: line 32 column 18 (char 3721)
+2026-08-18 07:15:18,171 INFO [tech-news] published 2026-08-18-002 — Neural document expansion for ad-hoc information retrieval
+2026-08-18 07:16:11,724 ERROR [tech-news] generate error: bad response: Unterminated string starting at: line 91 column 15 (char 6055)
+2026-08-18 07:17:29,475 ERROR [tech-news] generate error: bad response: Unterminated string starting at: line 28 column 18 (char 2653)
+2026-08-18 07:19:04,690 ERROR [tech-news] generate error: bad response: Unterminated string starting at: line 2 column 9 (char 10)
+2026-08-18 07:19:16,581 ERROR [politics] select failed: bad response: Expecting value: line 1 column 1 (char 0)
+2026-08-18 07:20:07,944 ERROR [products] select failed: bad response: Expecting value: line 1 column 1 (char 0)
+2026-08-18 07:20:07,959 INFO collect done: 1 item(s) published — target 9/10, next run ≈ 2026-08-18T07:35:07+00:00 UTC
+2026-08-18 07:20:21,777 ERROR [world-news] generate error: bad response: Expecting value: line 1 column 1 (char 0)
+2026-08-18 07:22:25,855 ERROR [world-news] generate error: bad response: 'choices'
+2026-08-18 07:22:34,453 ERROR [world-news] generate error: bad response: Expecting value: line 1 column 1 (char 0)
+2026-08-18 07:23:03,243 ERROR [world-news] generate error: bad response: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2026-08-18 07:23:37,715 INFO [world-news] attempt 2 invalid: ['body word count 433 < minimum 500']
+2026-08-18 07:24:08,530 INFO [world-news] published 2026-08-18-004 — Russia says UK 'will pay' for supplying drones to Ukraine
+2026-08-18 07:24:10,837 INFO [world-news] attempt 1 invalid: [": 'title' is a required property", ": 'tldr' is a required property"]
+2026-08-18 07:24:14,288 INFO [world-news] attempt 2 invalid: [": 'tags' is a required property", ": 'related_items' is a required property"]
+2026-08-18 07:24:14,474 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 4389, Requested 3649. Please try again in 285ms. Need more tokens? Upgrade to Dev Tier today at https://consol
+2026-08-18 07:24:25,986 INFO [tech-news] nothing selected
+2026-08-18 07:24:26,297 ERROR [politics] select failed: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6121, Requested 2246. Please try again in 2.7525s. Need more tokens? Upgrade to Dev Tier today at https://con
+2026-08-18 07:24:27,092 WARNING [products] no collect provider available
+2026-08-18 07:24:27,106 INFO collect done: 1 item(s) published — target 8/10, next run ≈ 2026-08-18T07:32:14+00:00 UTC
+2026-08-18 07:24:45,495 INFO [world-news] nothing selected
+2026-08-18 07:24:45,667 WARNING [tech-news] no collect provider available
+2026-08-18 07:24:45,933 WARNING [politics] no collect provider available
+2026-08-18 07:24:46,131 WARNING [products] no collect provider available
+2026-08-18 07:24:46,145 INFO collect done: 0 item(s) published — target 8/10, next run ≈ 2026-08-19T01:00:00+00:00 UTC

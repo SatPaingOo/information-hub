@@ -1,12 +1,12 @@
 ---
-name: "OpenAI"
-entity_type: company
+name: "Retrieval-Augmented Generation"
+entity_type: model
 backlink_count: 3
 ---
 
-# OpenAI
+# Retrieval-Augmented Generation
 
-*Type: company*
+*Type: model*
 
 ## Referenced by
 

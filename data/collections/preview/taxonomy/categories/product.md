@@ -1,7 +1,7 @@
 ---
 node: "product"
 layer: category
-item_count: 0
+item_count: 1
 ---
 
 # product
@@ -14,4 +14,4 @@ item_count: 0
 
 ## Items
 
-_No items yet._
+- 2026-08-18 · [[info:item:ai-ml:global:2026-08-18-002]] — Neural document expansion for ad-hoc information retrieval

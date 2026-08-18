@@ -134,6 +134,85 @@
       "name": "policy"
     },
     {
+      "id": "info:item:ai-ml:global:2026-08-18-002",
+      "type": "item",
+      "date": "2026-08-18",
+      "title": "Neural document expansion for ad-hoc information retrieval"
+    },
+    {
+      "id": "info:entity:model:Retrieval-Augmented Generation",
+      "type": "model",
+      "name": "Retrieval-Augmented Generation"
+    },
+    {
+      "id": "taxonomy/category/product",
+      "type": "taxonomy",
+      "layer": "category",
+      "name": "product"
+    },
+    {
+      "id": "taxonomy/misc/Information Retrieval",
+      "type": "taxonomy",
+      "name": "Information Retrieval"
+    },
+    {
+      "id": "taxonomy/misc/Machine Learning",
+      "type": "taxonomy",
+      "name": "Machine Learning"
+    },
+    {
+      "id": "taxonomy/misc/Open Source",
+      "type": "taxonomy",
+      "name": "Open Source"
+    },
+    {
+      "id": "info:item:world:global:2026-08-18-004",
+      "type": "item",
+      "date": "2026-08-18",
+      "title": "Russia says UK 'will pay' for supplying drones to Ukraine"
+    },
+    {
+      "id": "info:entity:organization:UK Ministry of Defence",
+      "type": "organization",
+      "name": "UK Ministry of Defence"
+    },
+    {
+      "id": "info:entity:organization:Russian Embassy to the UK",
+      "type": "organization",
+      "name": "Russian Embassy to the UK"
+    },
+    {
+      "id": "info:entity:company:Wildberries",
+      "type": "company",
+      "name": "Wildberries"
+    },
+    {
+      "id": "info:entity:person:Vladimir Putin",
+      "type": "person",
+      "name": "Vladimir Putin"
+    },
+    {
+      "id": "taxonomy/topic/world",
+      "type": "taxonomy",
+      "layer": "topic",
+      "name": "world"
+    },
+    {
+      "id": "taxonomy/misc/Geopolitics",
+      "type": "taxonomy",
+      "name": "Geopolitics"
+    },
+    {
+      "id": "taxonomy/misc/Defense Technology",
+      "type": "taxonomy",
+      "name": "Defense Technology"
+    },
+    {
+      "id": "taxonomy/misc/International Relations",
+      "type": "taxonomy",
+      "name": "International Relations"
+    },
+    {
       "id": "info:item:politics:global:2026-08-18-005",
       "type": "item",
       "date": "2026-08-18",
@@ -254,12 +333,6 @@
       "name": "trade"
     },
     {
-      "id": "taxonomy/topic/world",
-      "type": "taxonomy",
-      "layer": "topic",
-      "name": "world"
-    },
-    {
       "id": "taxonomy/topic/products",
       "type": "taxonomy",
       "layer": "topic",
@@ -318,12 +391,6 @@
       "type": "taxonomy",
       "layer": "category",
       "name": "health"
-    },
-    {
-      "id": "taxonomy/category/product",
-      "type": "taxonomy",
-      "layer": "category",
-      "name": "product"
     }
   ],
   "edges": [
@@ -505,6 +572,131 @@
     {
       "source": "info:item:politics:global:2026-08-18-001",
       "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-18-002",
+      "target": "info:entity:company:OpenAI",
+      "relation": "provides foundational language models that underpin the expansion model's pretraining."
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-18-002",
+      "target": "info:entity:model:Retrieval-Augmented Generation",
+      "relation": "benefits from enriched document context supplied by neural expansion."
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-18-002",
+      "target": "info:item:ai-ml:global:2025-03-15-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-18-002",
+      "target": "info:item:ai-ml:global:2024-11-20-003",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-18-002",
+      "target": "taxonomy/topic/ai-ml",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-18-002",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-18-002",
+      "target": "taxonomy/category/research",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-18-002",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-18-002",
+      "target": "taxonomy/category/open-source",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-18-002",
+      "target": "taxonomy/misc/Information Retrieval",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-18-002",
+      "target": "taxonomy/misc/Machine Learning",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-18-002",
+      "target": "taxonomy/misc/Open Source",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-08-18-004",
+      "target": "info:entity:organization:UK Ministry of Defence",
+      "relation": "responded to Russian accusations regarding drone supply"
+    },
+    {
+      "source": "info:item:world:global:2026-08-18-004",
+      "target": "info:entity:organization:Russian Embassy to the UK",
+      "relation": "issued statement accusing UK of escalation"
+    },
+    {
+      "source": "info:item:world:global:2026-08-18-004",
+      "target": "info:entity:company:Wildberries",
+      "relation": "targeted in Ukrainian drone strikes using UK-made systems"
+    },
+    {
+      "source": "info:item:world:global:2026-08-18-004",
+      "target": "info:entity:person:Vladimir Putin",
+      "relation": "referenced as leader against whom UK stands"
+    },
+    {
+      "source": "info:item:world:global:2026-08-18-004",
+      "target": "info:item:world:global:2026-08-17-003",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-08-18-004",
+      "target": "info:item:world:global:2026-08-16-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-08-18-004",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-18-004",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-18-004",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-18-004",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-18-004",
+      "target": "taxonomy/misc/Geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-08-18-004",
+      "target": "taxonomy/misc/Defense Technology",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-08-18-004",
+      "target": "taxonomy/misc/International Relations",
       "relation": "relates"
     },
     {
@@ -708,6 +900,30 @@
       "weight": "2"
     },
     {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:model:Retrieval-Augmented Generation",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Wildberries",
+      "target": "info:entity:organization:Russian Embassy to the UK",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Wildberries",
+      "target": "info:entity:organization:UK Ministry of Defence",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Wildberries",
+      "target": "info:entity:person:Vladimir Putin",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:concept:Agentic AI",
       "target": "info:entity:concept:Retrieval-Augmented Generation",
       "relation": "co-occurs",
@@ -750,6 +966,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Russian Embassy to the UK",
+      "target": "info:entity:organization:UK Ministry of Defence",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Russian Embassy to the UK",
+      "target": "info:entity:person:Vladimir Putin",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Scope",
       "target": "info:entity:organization:Transport for All",
       "relation": "co-occurs",
@@ -764,6 +992,12 @@
     {
       "source": "info:entity:organization:Transport for All",
       "target": "info:entity:person:Andy Burnham",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:UK Ministry of Defence",
+      "target": "info:entity:person:Vladimir Putin",
       "relation": "co-occurs",
       "weight": "1"
     },

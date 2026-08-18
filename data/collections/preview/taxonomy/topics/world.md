@@ -1,13 +1,19 @@
 ---
 node: "world"
 layer: topic
-item_count: 0
+item_count: 1
 ---
 
 # world
 
 *Taxonomy layer: topic*
 
+## Cross-layer relations
+
+- [[global]] — *regional_scope*
+- [[industry]] — *classified_in*
+- [[policy]] — *classified_in*
+
 ## Items
 
-_No items yet._
+- 2026-08-18 · [[info:item:world:global:2026-08-18-004]] — Russia says UK 'will pay' for supplying drones to Ukraine
