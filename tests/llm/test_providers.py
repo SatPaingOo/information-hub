@@ -149,6 +149,25 @@ def test_pick_collect_persists_model_resume_when_all_cooling(tmp_path: Path):
     assert pm.registry.provider_cooldown_until("openrouter") == "2099-01-01T00:00:00+00:00"
 
 
+def test_chronically_rate_limited_model_is_quarantined(tmp_path: Path):
+    """N consecutive transient failures remove the model for the day — the
+    provider's other models stay usable (no provider-level block)."""
+    from src.llm.providers import _QUARANTINE_AFTER
+    pm = _pm(tmp_path, mock=True)
+    ranked = pm._ranked_collect()
+    bad = ranked[0]
+    for _ in range(_QUARANTINE_AFTER + 1):
+        pm.registry.record_provider_failure(bad.provider, bad.model, mark_down=False)
+    pm._record_failure(bad, 429, phase="collect")
+    # model is quarantined...
+    assert pm.registry.provider_healthy(bad.provider, bad.model) is False
+    assert pm.pick_collect("ai-research") is not None      # ...but provider still usable
+    # next UTC day re-enables it
+    pm.registry.provider_model_stats(bad.provider, bad.model)["last_health_check"] = "2026-08-01T00:00:00+00:00"
+    pm.registry.reset_health_if_stale()
+    assert pm.registry.provider_healthy(bad.provider, bad.model) is True
+
+
 def test_retry_after_parsed_from_header():
     from src.llm.clients import _parse_retry_after
 

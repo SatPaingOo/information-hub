@@ -310,6 +310,18 @@ class Registry:
     def provider_healthy(self, provider: str, model: str) -> bool:
         return bool(self.provider_model_stats(provider, model).get("healthy", True))
 
+    def set_model_down(self, provider: str, model: str) -> None:
+        """Quarantine a model for the rest of the UTC day (transient-failure cap).
+
+        Unlike the old provider-level mark-down, this only removes ONE model
+        — the provider's other models stay usable, so a chronically
+        rate-limited free model can't block the day.  Re-enabled by
+        ``reset_health_if_stale`` on the next UTC day.
+        """
+        stats = self.provider_model_stats(provider, model)
+        stats["healthy"] = False
+        stats["last_health_check"] = _utcnow()
+
     # ---- persisted cooldown (rate-limit state across runs) ----------------
     def set_provider_cooldown(self, provider: str, until_iso: str | None) -> None:
         """Persist a provider cooldown deadline (ISO UTC) or clear it."""
@@ -367,18 +379,22 @@ class Registry:
                     stats["consecutive_failures"] = 0
 
     def reset_model_health(self) -> None:
-        """Clear every model's down flag (fresh attempt this round).
+        """Re-enable models downed on a PREVIOUS day (fresh attempt).
 
-        Called by the scheduler at the start of each collect round.  Pacing is
-        governed by the persisted cooldowns; a stale down flag (e.g. from an
-        earlier buggy run) must not block the rest of the day.  Per-model
-        cooldowns and failure counters are deliberately NOT cleared — a
-        rate-limited model must stay rotated away from across rounds.
+        Called by the scheduler at the start of each collect round.  Only
+        stale down flags are cleared: a model quarantined TODAY (last health
+        check timestamped today) stays down for the rest of the day, so a
+        chronically rate-limited model cannot be re-picked every round.
+        Per-model cooldowns and failure counters are deliberately NOT
+        cleared — a rate-limited model must stay rotated away from.
         """
+        today = _utc_today()
         for provider in list(self.providers.keys()):
             state = self.provider_state(provider)
             for stats in state.get("models", {}).values():
-                stats["healthy"] = True
+                last = stats.get("last_health_check", "")
+                if stats.get("healthy") is False and not last.startswith(today):
+                    stats["healthy"] = True
 
     # ---- pipeline lock (scheduler double-safety) ---------------------------
     def acquire_lock(self) -> bool:

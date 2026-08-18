@@ -33,6 +33,10 @@ UA = {"User-Agent": "information-hub/0.3 (research aggregator)"}
 # transient failures put the whole provider into a persisted cooldown.
 TRANSIENT_STATUSES = (429, 500, 502, 503, 504)
 
+# consecutive transient failures before a model is quarantined (per-model
+# down flag) for the rest of the UTC day — re-enabled next day.
+_QUARANTINE_AFTER = 3
+
 
 @dataclass
 class ModelSpec:
@@ -434,6 +438,15 @@ class ProviderManager:
             self.registry.set_model_cooldown(
                 spec.provider, spec.model,
                 (now + dt.timedelta(seconds=model_wait)).isoformat(timespec="seconds"))
+            # Quarantine cap: N consecutive transient failures removes the
+            # model for the rest of the UTC day (the scheduler retries right
+            # when a cooldown expires, so an always-429 model would otherwise
+            # be re-picked every round and starve the healthy models).
+            if mfail >= _QUARANTINE_AFTER:
+                self.registry.set_model_down(spec.provider, spec.model)
+                self.log.event(phase, "model_quarantined", provider=spec.provider,
+                               model=spec.model,
+                               detail=f"{mfail} consecutive transient failures")
         self.log.event(phase, "call_error", provider=spec.provider,
                        model=spec.model, status="error",
                        detail=f"HTTP {status_code}: {spec.provider} "
