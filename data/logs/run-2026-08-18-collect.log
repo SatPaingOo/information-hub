@@ -49,3 +49,14 @@
 2026-08-18 04:59:12,552 WARNING [politics] no collect provider available
 2026-08-18 04:59:12,822 WARNING [products] no collect provider available
 2026-08-18 04:59:12,833 INFO collect done: 0 item(s) published — target 10/10, next run ≈ 2026-08-18T05:07:11+00:00 UTC
+2026-08-18 05:07:47,983 ERROR [world-news] select failed: HTTP 429: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"google/gemma-4-31b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Google AI Studio","is_b
+2026-08-18 05:07:50,530 ERROR [world-news] select failed: HTTP 429: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"google/gemma-4-31b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Google AI Studio","is_b
+2026-08-18 05:07:51,711 INFO [tech-news] nothing selected
+2026-08-18 05:07:52,211 WARNING [politics] no collect provider available
+2026-08-18 05:07:53,040 WARNING [products] no collect provider available
+2026-08-18 05:07:53,052 INFO collect done: 0 item(s) published — target 10/10, next run ≈ 2026-08-18T05:30:20+00:00 UTC
+2026-08-18 05:22:50,671 ERROR [world-news] select failed: HTTP 429: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"google/gemma-4-31b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Google AI Studio","is_b
+2026-08-18 05:22:51,075 WARNING [tech-news] no collect provider available
+2026-08-18 05:22:51,581 WARNING [politics] no collect provider available
+2026-08-18 05:22:52,590 WARNING [products] no collect provider available
+2026-08-18 05:22:52,602 INFO collect done: 0 item(s) published — target 10/10, next run ≈ 2026-08-18T05:45:20+00:00 UTC
