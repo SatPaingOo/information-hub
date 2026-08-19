@@ -249,6 +249,74 @@
       "name": "Disability Rights"
     },
     {
+      "id": "info:item:world:global:2026-08-19-002",
+      "type": "item",
+      "date": "2026-08-19",
+      "title": "Sacked Ukrainian Defence Minister Calls for Presidential Election"
+    },
+    {
+      "id": "info:entity:person:Mykhailo Fedorov",
+      "type": "person",
+      "name": "Mykhailo Fedorov"
+    },
+    {
+      "id": "info:entity:person:Volodymyr Zelensky",
+      "type": "person",
+      "name": "Volodymyr Zelensky"
+    },
+    {
+      "id": "info:entity:organization:Ukrainian Government",
+      "type": "organization",
+      "name": "Ukrainian Government"
+    },
+    {
+      "id": "info:entity:event:Russian invasion of Ukraine",
+      "type": "event",
+      "name": "Russian invasion of Ukraine"
+    },
+    {
+      "id": "taxonomy/misc/geopolitical tensions",
+      "type": "taxonomy",
+      "name": "geopolitical tensions"
+    },
+    {
+      "id": "taxonomy/misc/democratic institutions",
+      "type": "taxonomy",
+      "name": "democratic institutions"
+    },
+    {
+      "id": "taxonomy/misc/wartime governance",
+      "type": "taxonomy",
+      "name": "wartime governance"
+    },
+    {
+      "id": "info:item:products:global:2026-08-19-007",
+      "type": "item",
+      "date": "2026-08-19",
+      "title": "CrewTower"
+    },
+    {
+      "id": "taxonomy/topic/products",
+      "type": "taxonomy",
+      "layer": "topic",
+      "name": "products"
+    },
+    {
+      "id": "taxonomy/misc/Agentic AI",
+      "type": "taxonomy",
+      "name": "Agentic AI"
+    },
+    {
+      "id": "taxonomy/misc/LLM",
+      "type": "taxonomy",
+      "name": "LLM"
+    },
+    {
+      "id": "taxonomy/misc/Regulation",
+      "type": "taxonomy",
+      "name": "Regulation"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -331,12 +399,6 @@
       "type": "taxonomy",
       "layer": "topic",
       "name": "trade"
-    },
-    {
-      "id": "taxonomy/topic/products",
-      "type": "taxonomy",
-      "layer": "topic",
-      "name": "products"
     },
     {
       "id": "taxonomy/topic/dev-oss",
@@ -760,6 +822,126 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-08-19-002",
+      "target": "info:entity:person:Mykhailo Fedorov",
+      "relation": "sacked defence minister calling for elections"
+    },
+    {
+      "source": "info:item:world:global:2026-08-19-002",
+      "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "president facing internal challenge to wartime authority"
+    },
+    {
+      "source": "info:item:world:global:2026-08-19-002",
+      "target": "info:entity:organization:Ukrainian Government",
+      "relation": "governing under extended martial law"
+    },
+    {
+      "source": "info:item:world:global:2026-08-19-002",
+      "target": "info:entity:event:Russian invasion of Ukraine",
+      "relation": "triggering martial law and suspended elections"
+    },
+    {
+      "source": "info:item:world:global:2026-08-19-002",
+      "target": "info:item:world:global:2026-08-15-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-08-19-002",
+      "target": "info:item:world:global:2026-08-10-003",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-08-19-002",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-19-002",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-19-002",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-19-002",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-19-002",
+      "target": "taxonomy/misc/geopolitical tensions",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-08-19-002",
+      "target": "taxonomy/misc/democratic institutions",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-08-19-002",
+      "target": "taxonomy/misc/wartime governance",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-08-19-007",
+      "target": "info:entity:concept:Agentic AI",
+      "relation": "core technology addressed by CrewTower"
+    },
+    {
+      "source": "info:item:products:global:2026-08-19-007",
+      "target": "info:entity:company:OpenAI",
+      "relation": "supported LLM provider"
+    },
+    {
+      "source": "info:item:products:global:2026-08-19-007",
+      "target": "info:entity:company:Anthropic",
+      "relation": "supported LLM provider"
+    },
+    {
+      "source": "info:item:products:global:2026-08-19-007",
+      "target": "info:item:products:global:2026-08-19-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-08-19-007",
+      "target": "info:item:ai:global:2026-08-19-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-08-19-007",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-08-19-007",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-08-19-007",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-08-19-007",
+      "target": "taxonomy/misc/Agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-08-19-007",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-08-19-007",
+      "target": "taxonomy/misc/Regulation",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -873,13 +1055,13 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:concept:Agentic AI",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -891,7 +1073,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:concept:Agentic AI",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -932,6 +1114,24 @@
     {
       "source": "info:entity:concept:Data Governance",
       "target": "info:entity:concept:Myanmar Digital Economy",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:event:Russian invasion of Ukraine",
+      "target": "info:entity:organization:Ukrainian Government",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:event:Russian invasion of Ukraine",
+      "target": "info:entity:person:Mykhailo Fedorov",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:event:Russian invasion of Ukraine",
+      "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -1002,8 +1202,26 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Ukrainian Government",
+      "target": "info:entity:person:Mykhailo Fedorov",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Ukrainian Government",
+      "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:person:Andy Burnham",
       "target": "info:entity:person:Susie Wiles",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Mykhailo Fedorov",
+      "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
       "weight": "1"
     }

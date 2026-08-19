@@ -1,0 +1,57 @@
+2026-08-19 02:20:16,593 ERROR [world-news] select failed: HTTP 429: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"google/gemma-4-31b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Google AI Studio","is_b
+2026-08-19 02:20:17,335 ERROR [tech-news] select failed: HTTP 400: {"error":{"message":"Provider returned error","code":400,"metadata":{"raw":"{\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"JSON mode is not enabled for this model\",\n    \"status\": \"INVALID_ARGUMENT\"\n  }\n}\n","provider_name":"Google AI Studio","is_byok":false,"provider_error_code":"
+2026-08-19 02:20:17,698 ERROR [politics] select failed: HTTP 400: {"error":{"message":"Provider returned error","code":400,"metadata":{"raw":"{\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"JSON mode is not enabled for this model\",\n    \"status\": \"INVALID_ARGUMENT\"\n  }\n}\n","provider_name":"Google AI Studio","is_byok":false,"provider_error_code":"
+2026-08-19 02:20:18,824 ERROR [products] select failed: HTTP 429: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"z-ai/glm-5.2:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Decart","is_byok":false,"provide
+2026-08-19 02:20:18,839 INFO collect done: 0 item(s) published — target 10/10, next run ≈ 2026-08-19T02:35:18+00:00 UTC
+2026-08-19 02:20:52,296 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"google/gemma-4-31b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Google AI Studio","is_b
+2026-08-19 02:20:55,502 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"z-ai/glm-5.2:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Decart","is_byok":false,"provide
+2026-08-19 02:21:05,120 ERROR [world-news] generate error: bad response: Expecting value: line 1 column 1 (char 0)
+2026-08-19 02:21:28,917 ERROR [world-news] generate error: bad response: Expecting value: line 1 column 1 (char 0)
+2026-08-19 02:22:03,331 INFO [world-news] published 2026-08-19-002 — Sacked Ukrainian Defence Minister Calls for Presidential Ele
+2026-08-19 02:22:03,636 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"google/gemma-4-31b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Google AI Studio","is_b
+2026-08-19 02:22:06,827 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"z-ai/glm-5.2:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Decart","is_byok":false,"provide
+2026-08-19 02:22:14,749 ERROR [world-news] generate error: bad response: Expecting value: line 1 column 1 (char 0)
+2026-08-19 02:22:40,273 ERROR [tech-news] select failed: empty model content
+2026-08-19 02:22:55,886 ERROR [politics] generate error: bad response: Expecting property name enclosed in double quotes: line 2 column 1 (char 2)
+2026-08-19 02:23:47,934 ERROR [politics] generate error: bad response: Unterminated string starting at: line 42 column 5 (char 5737)
+2026-08-19 02:23:55,481 ERROR [politics] generate error: bad response: Expecting value: line 1 column 1 (char 0)
+2026-08-19 02:24:23,904 ERROR [politics] generate error: empty model content
+2026-08-19 02:24:41,330 ERROR [politics] generate error: bad response: Expecting value: line 1 column 1 (char 0)
+2026-08-19 02:25:43,951 ERROR [politics] generate error: bad response: Unterminated string starting at: line 35 column 5 (char 4161)
+2026-08-19 02:26:26,595 ERROR [products] generate error: bad response: Expecting value: line 1 column 1 (char 0)
+2026-08-19 02:28:03,800 ERROR [products] generate error: bad response: Unterminated string starting at: line 35 column 5 (char 4683)
+2026-08-19 02:28:55,693 ERROR [products] generate error: bad response: Unterminated string starting at: line 43 column 5 (char 5298)
+2026-08-19 02:30:19,081 ERROR [products] generate error: bad response: Unterminated string starting at: line 45 column 14 (char 5375)
+2026-08-19 02:32:05,167 INFO [products] published 2026-08-19-007 — CrewTower
+2026-08-19 02:32:05,184 INFO collect done: 2 item(s) published — target 8/10, next run ≈ 2026-08-19T02:47:05+00:00 UTC
+2026-08-19 02:32:39,207 ERROR [world-news] generate error: bad response: Unterminated string starting at: line 31 column 18 (char 3599)
+2026-08-19 02:32:42,294 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"openai/gpt-oss-20b:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Darkbloom","is_byok":false
+2026-08-19 02:33:03,040 ERROR [world-news] generate error: bad response: Expecting value: line 1 column 1 (char 0)
+2026-08-19 02:33:33,839 ERROR [world-news] generate error: bad response: Unterminated string starting at: line 41 column 5 (char 4817)
+2026-08-19 02:34:06,434 INFO [world-news] attempt 2 invalid: ["entities/3/type: 'structure' is not one of ['concept', 'company', 'model', 'person', 'product', 'region', 'organization', 'event']", 'body word count 497 < minimum 500']
+2026-08-19 02:34:24,834 INFO [world-news] attempt 3 invalid: [": 'categories' is a required property", ": 'title' is a required property"]
+2026-08-19 02:39:55,160 INFO [world-news] attempt 1 invalid: [": 'categories' is a required property", ": 'title' is a required property"]
+2026-08-19 02:39:57,283 INFO [world-news] attempt 2 invalid: [": 'key_facts' is a required property", ": 'implications' is a required property"]
+2026-08-19 02:40:00,880 INFO [world-news] attempt 3 invalid: [": 'tags' is a required property", ": 'related_items' is a required property"]
+2026-08-19 02:40:06,332 ERROR [tech-news] generate error: HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
+
+2026-08-19 02:40:09,408 ERROR [tech-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 5768, Requested 3045. Please try again in 6.097499999s. Need more tokens? Upgrade to Dev Tier today at https:/
+2026-08-19 02:40:15,410 WARNING [tech-news] no collect provider for deep-dive
+2026-08-19 02:40:15,721 WARNING [politics] no collect provider available
+2026-08-19 02:40:16,372 WARNING [products] no collect provider available
+2026-08-19 02:40:16,390 INFO collect done: 0 item(s) published — target 8/10, next run ≈ 2026-08-19T02:48:09+00:00 UTC
+2026-08-19 02:40:40,825 INFO [world-news] nothing selected
+2026-08-19 02:40:42,664 INFO [tech-news] nothing selected
+2026-08-19 02:40:43,055 ERROR [politics] select failed: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7915, Requested 2253. Please try again in 16.26s. Need more tokens? Upgrade to Dev Tier today at https://conso
+2026-08-19 02:40:43,263 WARNING [products] no collect provider available
+2026-08-19 02:40:43,281 INFO collect done: 0 item(s) published — target 8/10, next run ≈ 2026-08-19T02:48:43+00:00 UTC
+2026-08-19 02:41:14,552 INFO [world-news] nothing selected
+2026-08-19 02:41:16,323 INFO [tech-news] nothing selected
+2026-08-19 02:41:16,588 ERROR [politics] select failed: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6927, Requested 2253. Please try again in 8.85s. Need more tokens? Upgrade to Dev Tier today at https://consol
+2026-08-19 02:41:16,789 WARNING [products] no collect provider available
+2026-08-19 02:41:16,805 INFO collect done: 0 item(s) published — target 8/10, next run ≈ 2026-08-19T02:49:16+00:00 UTC
+2026-08-19 02:41:47,391 INFO [world-news] nothing selected
+2026-08-19 02:41:47,669 WARNING [tech-news] no collect provider available
+2026-08-19 02:41:47,929 WARNING [politics] no collect provider available
+2026-08-19 02:41:48,129 WARNING [products] no collect provider available
+2026-08-19 02:41:48,145 INFO collect done: 0 item(s) published — target 8/10, next run ≈ 2026-08-20T01:00:00+00:00 UTC

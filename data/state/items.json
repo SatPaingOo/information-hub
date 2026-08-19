@@ -128,20 +128,27 @@
     "approved_at": null
   },
   "1796df62c4a287cc": {
-    "id": "info:item:world:global:2026-08-18-004",
-    "key": "2026-08-18-004",
-    "title_hash": "d52f5b521f0c77f0",
+    "id": "info:item:world:global:2026-08-19-002",
+    "key": "2026-08-19-002",
+    "title": "Sacked Ukrainian Defence Minister Calls for Presidential Election",
+    "date": "2026-08-19",
+    "collection": "",
+    "title_hash": "f058912b9fc3042f",
     "url_hash": "1796df62c4a287cc",
     "status": "published",
-    "word_count": 571,
-    "gemini_calls": 3,
+    "word_count": 607,
+    "gemini_calls": 2,
     "validated": true,
     "provider": "openrouter",
-    "model": "poolside/laguna-s-2.1:free",
-    "grounding_score": null,
-    "review_status": "pending_review",
-    "approved_by": null,
-    "approved_at": null
+    "model": "poolside/laguna-xs-2.1:free",
+    "grounding_score": 1.0,
+    "review_status": "verified",
+    "approved_by": {
+      "type": "ai",
+      "provider": "lexical",
+      "model": "lexical"
+    },
+    "approved_at": "2026-08-19T02:41:57+00:00"
   },
   "d52f5b521f0c77f0": {
     "id": "info:item:world:global:2026-08-18-004",
@@ -158,5 +165,74 @@
     "review_status": "pending_review",
     "approved_by": null,
     "approved_at": null
+  },
+  "f058912b9fc3042f": {
+    "id": "info:item:world:global:2026-08-19-002",
+    "key": "2026-08-19-002",
+    "title": "Sacked Ukrainian Defence Minister Calls for Presidential Election",
+    "date": "2026-08-19",
+    "collection": "",
+    "title_hash": "f058912b9fc3042f",
+    "url_hash": "1796df62c4a287cc",
+    "status": "published",
+    "word_count": 607,
+    "gemini_calls": 2,
+    "validated": true,
+    "provider": "openrouter",
+    "model": "poolside/laguna-xs-2.1:free",
+    "grounding_score": 1.0,
+    "review_status": "verified",
+    "approved_by": {
+      "type": "ai",
+      "provider": "lexical",
+      "model": "lexical"
+    },
+    "approved_at": "2026-08-19T02:41:57+00:00"
+  },
+  "7210e36e4fc8aa40": {
+    "id": "info:item:products:global:2026-08-19-007",
+    "key": "2026-08-19-007",
+    "title": "CrewTower",
+    "date": "2026-08-19",
+    "collection": "",
+    "title_hash": "4902f5f633d5920e",
+    "url_hash": "7210e36e4fc8aa40",
+    "status": "published",
+    "word_count": 580,
+    "gemini_calls": 2,
+    "validated": true,
+    "provider": "openrouter",
+    "model": "cohere/north-mini-code:free",
+    "grounding_score": 0.0,
+    "review_status": "pending_review",
+    "approved_by": {
+      "type": "ai",
+      "provider": "lexical",
+      "model": "lexical"
+    },
+    "approved_at": "2026-08-19T02:42:00+00:00"
+  },
+  "4902f5f633d5920e": {
+    "id": "info:item:products:global:2026-08-19-007",
+    "key": "2026-08-19-007",
+    "title": "CrewTower",
+    "date": "2026-08-19",
+    "collection": "",
+    "title_hash": "4902f5f633d5920e",
+    "url_hash": "7210e36e4fc8aa40",
+    "status": "published",
+    "word_count": 580,
+    "gemini_calls": 2,
+    "validated": true,
+    "provider": "openrouter",
+    "model": "cohere/north-mini-code:free",
+    "grounding_score": 0.0,
+    "review_status": "pending_review",
+    "approved_by": {
+      "type": "ai",
+      "provider": "lexical",
+      "model": "lexical"
+    },
+    "approved_at": "2026-08-19T02:42:00+00:00"
   }
 }
