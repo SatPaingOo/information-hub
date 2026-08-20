@@ -96,20 +96,27 @@
     "approved_at": null
   },
   "e3b0c44298fc1c14": {
-    "id": "info:item:ai-ml:global:2026-08-18-002",
-    "key": "2026-08-18-002",
-    "title_hash": "0e388c0dddf720aa",
+    "id": "info:item:ai-ml:global:2026-08-20-003",
+    "key": "2026-08-20-003",
+    "title": "Compliance Generation for Privacy Documents under GDPR: A Roadmap for Implementing Automation and Machine Learning",
+    "date": "2026-08-20",
+    "collection": "",
+    "title_hash": "957823789c8822d5",
     "url_hash": "e3b0c44298fc1c14",
     "status": "published",
-    "word_count": 589,
+    "word_count": 574,
     "gemini_calls": 1,
     "validated": true,
     "provider": "openrouter",
-    "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
-    "grounding_score": null,
-    "review_status": "pending_review",
-    "approved_by": null,
-    "approved_at": null
+    "model": "nvidia/nemotron-3-super-120b-a12b:free",
+    "grounding_score": 1.0,
+    "review_status": "verified",
+    "approved_by": {
+      "type": "ai",
+      "provider": "lexical",
+      "model": "lexical"
+    },
+    "approved_at": "2026-08-20T02:32:29+00:00"
   },
   "0e388c0dddf720aa": {
     "id": "info:item:ai-ml:global:2026-08-18-002",
@@ -234,5 +241,28 @@
       "model": "lexical"
     },
     "approved_at": "2026-08-19T02:42:00+00:00"
+  },
+  "957823789c8822d5": {
+    "id": "info:item:ai-ml:global:2026-08-20-003",
+    "key": "2026-08-20-003",
+    "title": "Compliance Generation for Privacy Documents under GDPR: A Roadmap for Implementing Automation and Machine Learning",
+    "date": "2026-08-20",
+    "collection": "",
+    "title_hash": "957823789c8822d5",
+    "url_hash": "e3b0c44298fc1c14",
+    "status": "published",
+    "word_count": 574,
+    "gemini_calls": 1,
+    "validated": true,
+    "provider": "openrouter",
+    "model": "nvidia/nemotron-3-super-120b-a12b:free",
+    "grounding_score": 1.0,
+    "review_status": "verified",
+    "approved_by": {
+      "type": "ai",
+      "provider": "lexical",
+      "model": "lexical"
+    },
+    "approved_at": "2026-08-20T02:32:29+00:00"
   }
 }

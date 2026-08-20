@@ -1,7 +1,7 @@
 ---
 name: "Anthropic"
 entity_type: company
-backlink_count: 2
+backlink_count: 3
 ---
 
 # Anthropic
@@ -10,5 +10,6 @@ backlink_count: 2
 
 ## Referenced by
 
+- 2026-08-20 · [[info:item:ai-ml:global:2026-08-20-003]] — Compliance Generation for Privacy Documents under GDPR: A Roadmap for Implementing Automation and Machine Learning
 - 2026-08-19 · [[info:item:products:global:2026-08-19-007]] — CrewTower
 - 2026-08-13 · [[info:item:ai-ml:global:2026-08-13-001]] — A new benchmark for long-horizon agentic AI reasoning

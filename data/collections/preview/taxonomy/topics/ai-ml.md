@@ -1,7 +1,7 @@
 ---
 node: "ai-ml"
 layer: topic
-item_count: 5
+item_count: 7
 ---
 
 # ai-ml
@@ -17,6 +17,7 @@ item_count: 5
 ## Cross-layer relations
 
 - [[ai-ml]] — *primary_topic*
+- [[ai-ml]] — *relates*
 - [[global]] — *regional_scope*
 - [[open-source]] — *classified_in*
 - [[product]] — *classified_in*
@@ -24,6 +25,8 @@ item_count: 5
 
 ## Items
 
+- 2026-08-20 · [[info:item:ai-ml:global:2026-08-20-003]] — Compliance Generation for Privacy Documents under GDPR: A Roadmap for Implementing Automation and Machine Learning
+- 2026-08-20 · [[info:item:ai-ml:global:2026-08-20-003]] — Compliance Generation for Privacy Documents under GDPR: A Roadmap for Implementing Automation and Machine Learning
 - 2026-08-18 · [[info:item:ai-ml:global:2026-08-18-002]] — Neural document expansion for ad-hoc information retrieval
 - 2026-08-13 · [[info:item:ai-ml:global:2026-08-13-001]] — A new benchmark for long-horizon agentic AI reasoning
 - 2026-08-13 · [[info:item:ai-ml:global:2026-08-13-001]] — A new benchmark for long-horizon agentic AI reasoning

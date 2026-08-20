@@ -317,6 +317,12 @@
       "name": "Regulation"
     },
     {
+      "id": "info:item:ai-ml:global:2026-08-20-003",
+      "type": "item",
+      "date": "2026-08-20",
+      "title": "Compliance Generation for Privacy Documents under GDPR: A Roadmap for Implementing Automation and Machine Learning"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -942,6 +948,66 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:ai-ml:global:2026-08-20-003",
+      "target": "info:entity:company:OpenAI",
+      "relation": "referenced as a source of advanced language models that could be adapted for clause generation in the Privatech pipeline"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-20-003",
+      "target": "info:entity:company:Anthropic",
+      "relation": "cited as a provider of safety‑focused LLMs useful for generating legally compliant text with reduced risk of hallucination"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-20-003",
+      "target": "info:item:ai-ml:us:2026-08-19-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-20-003",
+      "target": "info:item:dev-oss:global:2026-08-18-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-20-003",
+      "target": "taxonomy/topic/ai-ml",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-20-003",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-20-003",
+      "target": "taxonomy/category/research",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-20-003",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-20-003",
+      "target": "taxonomy/category/open-source",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-20-003",
+      "target": "taxonomy/topic/ai-ml",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-20-003",
+      "target": "taxonomy/category/open-source",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-20-003",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -1055,7 +1121,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:company:Anthropic",
