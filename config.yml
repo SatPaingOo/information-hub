@@ -31,6 +31,7 @@ providers:
     # 08-19 produced 2 items, 08-20 produced 1.  Update this list when
     # models retire or better free ones appear.
     models:
+      - stealth/ox-alpha
       - nvidia/nemotron-3-super-120b-a12b:free
       - poolside/laguna-s-2.1:free
       - poolside/laguna-xs-2.1:free
@@ -39,8 +40,9 @@ providers:
       # 34k-token response (openrouter counts reasoning tokens against the
       # output) that blew the 24k daily budget in one call on 08-21 —
       # reasoning models are excluded from the curated list for now.
+      # stealth/ox-alpha (2026-08-21): free, 1M context, JSON mode — TESTING
     # ~4k tokens per item × 6 items; 4096 output cap stops mid-JSON truncation
-    budget: { max_daily_items: 6, max_daily_tokens: 40000, max_output_tokens: 4096 }
+    budget: { max_daily_items: 6, max_daily_tokens: 100000, max_output_tokens: 4096 }
   gemini:
     enabled: true
     keys_env: GEMINI_API_KEYS         # comma-separated multi-key
