@@ -18,16 +18,26 @@ providers:
     # were retired — 404). gpt-oss models are the current free generation.
     models: [openai/gpt-oss-120b, openai/gpt-oss-20b]   # fallback order
     # ~4k tokens per item (select ~1.5k + deep-dive ~2.5k) × 4 items
-    budget: { max_daily_items: 4, max_daily_tokens: 16000, max_output_tokens: 1500 }
+    budget: { max_daily_items: 4, max_daily_tokens: 16000, max_output_tokens: 2048 }
   openrouter:
     enabled: true
     keys_env: OPENROUTER_API_KEY
     role: collect
     format: openai
-    discover: free_models             # runtime auto-discover free models (no hardcode)
-    # ~4k tokens per item × 6 items (free tier limits are request-based, not
-    # daily-token — this budget is our safety valve)
-    budget: { max_daily_items: 6, max_daily_tokens: 24000, max_output_tokens: 2048 }
+    # Curated free models PROVEN to return schema-valid JSON (from live runs).
+    # Auto-discovery (19 free models) picked broken ones first via the
+    # fewest-calls ranking — saturated 429 models (gemma-4-31b, glm-5.2) and
+    # non-JSON models (lyria) burned the daily token budget on failures:
+    # 08-19 produced 2 items, 08-20 produced 1.  Update this list when
+    # models retire or better free ones appear.
+    models:
+      - nvidia/nemotron-3-super-120b-a12b:free
+      - poolside/laguna-s-2.1:free
+      - poolside/laguna-xs-2.1:free
+      - nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free
+      - cohere/north-mini-code:free
+    # ~4k tokens per item × 6 items; 4096 output cap stops mid-JSON truncation
+    budget: { max_daily_items: 6, max_daily_tokens: 24000, max_output_tokens: 4096 }
   gemini:
     enabled: true
     keys_env: GEMINI_API_KEYS         # comma-separated multi-key
