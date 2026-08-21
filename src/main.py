@@ -63,6 +63,7 @@ def _finalize_record(record: dict[str, Any], candidate: Candidate,
     """
     record["key"] = candidate.key
     record["date"] = candidate.date
+    record["collection"] = collection.name
     record["content_type"] = collection.content_type
     record["source"] = candidate.source
     topic = record.get("topic") or _candidate_topic(collection)
