@@ -34,6 +34,7 @@ class ProviderConfig:
     format: str = "openai"
     models: list[str] = field(default_factory=list)
     discover: str | None = None         # "free_models" → runtime auto-discover
+    blocklist: list[str] = field(default_factory=list)  # never auto-integrate
     search_tool: str | None = None      # "google_search" for check providers
     base_url: str = ""
     max_daily_items: int = 2
@@ -341,6 +342,7 @@ def _provider_from(name: str, raw: dict[str, Any]) -> ProviderConfig:
         format=raw.get("format", "openai"),
         models=[str(m) for m in raw.get("models", [])],
         discover=raw.get("discover"),
+        blocklist=[str(m) for m in raw.get("blocklist", [])],
         search_tool=raw.get("search_tool"),
         base_url=raw.get("base_url", ""),
         max_daily_items=int(budget.get("max_daily_items",

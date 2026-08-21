@@ -59,9 +59,11 @@ def test_taxonomy_flat_list_backward_compat():
 def test_config_providers_and_quality():
     cfg = Config.load()
     assert cfg.providers["groq"].role == "collect"
-    # curated proven free models (auto-discovery picked broken ones first)
-    assert cfg.providers["openrouter"].discover is None
+    # auto-integration: discover free models + blocklist of known-waste models
+    assert cfg.providers["openrouter"].discover == "free_models"
     assert "nvidia/nemotron-3-super-120b-a12b:free" in cfg.providers["openrouter"].models
+    assert "google/gemma-4-31b-it:free" in cfg.providers["openrouter"].blocklist
+    assert "stealth/ox-alpha" in cfg.providers["openrouter"].blocklist
     assert cfg.providers["gemini"].role == "check"
     assert cfg.providers["gemini"].search_tool == "google_search"
     assert cfg.quality.reject_threshold == 0.5

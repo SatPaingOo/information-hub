@@ -24,23 +24,28 @@ providers:
     keys_env: OPENROUTER_API_KEY
     role: collect
     format: openai
-    # Curated free models PROVEN to return schema-valid JSON (from live runs).
-    # Auto-discovery (19 free models) picked broken ones first via the
-    # fewest-calls ranking — saturated 429 models (gemma-4-31b, glm-5.2) and
-    # non-JSON models (lyria) burned the daily token budget on failures:
-    # 08-19 produced 2 items, 08-20 produced 1.  Update this list when
-    # models retire or better free ones appear.
+    # AUTO-INTEGRATION: discover free_models = every free JSON-capable model
+    # joins the pool automatically (new free models are found + ping-scouted
+    # + ranked by measured success + quarantined when they keep failing).
+    # models = seed list (proven-good, tried first); blocklist = never join.
+    discover: free_models
     models:
-      - stealth/ox-alpha
       - nvidia/nemotron-3-super-120b-a12b:free
       - poolside/laguna-s-2.1:free
       - poolside/laguna-xs-2.1:free
       - cohere/north-mini-code:free
-      # NOTE: nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free produced a
-      # 34k-token response (openrouter counts reasoning tokens against the
-      # output) that blew the 24k daily budget in one call on 08-21 —
-      # reasoning models are excluded from the curated list for now.
-      # stealth/ox-alpha (2026-08-21): free, 1M context, JSON mode — TESTING
+    blocklist:
+      # saturated 429 models (tested 08-18..08-21 — always rate-limited)
+      - google/gemma-4-31b-it:free
+      - z-ai/glm-5.2:free
+      - google/gemma-4-26b-a4b-it:free
+      # non-JSON / JSON-invalid response models
+      - google/lyria-3-clip-preview
+      - google/lyria-3-pro-preview
+      # reasoning models — openrouter counts reasoning tokens in output,
+      # a 34k-token response blew the daily budget in one call (08-21)
+      - nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free
+      - stealth/ox-alpha
     # ~4k tokens per item × 6 items; 4096 output cap stops mid-JSON truncation
     budget: { max_daily_items: 6, max_daily_tokens: 100000, max_output_tokens: 4096 }
   gemini:

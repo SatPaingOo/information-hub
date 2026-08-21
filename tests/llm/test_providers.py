@@ -57,6 +57,39 @@ def test_pick_collect_returns_spec_and_rotates_on_failure(tmp_path: Path):
     assert pm.pick_collect("ai-research") is None  # all down → skip
 
 
+def test_pick_collect_scouts_untested_models(tmp_path: Path):
+    """Auto-integrated models with 0 calls are ping-scouted before use
+    (mock mode: scout is a no-op that returns True — untested models still
+    get picked)."""
+    pm = _pm(tmp_path, mock=True)
+    spec = pm.pick_collect("ai-research")
+    assert spec is not None
+    assert pm.scout(spec) is True  # mock scout succeeds without a call
+
+
+def test_ranked_collect_puts_proven_models_first(tmp_path: Path):
+    """Proven (successful) models rank above untested ones; failing models
+    fall as their error share grows."""
+    pm = _pm(tmp_path, mock=True)
+    proven = pm._ranked_collect()[0]
+    # proven model: 5 calls, 0 errors → success 1.0
+    pm.registry.record_provider_call(proven.provider, proven.model,
+                                     items=3, tokens=3000)
+    failing = pm._ranked_collect()[-1]
+    # failing model: 5 calls, 4 errors → success 0.2 (ranks last)
+    pm.registry.record_provider_failure(failing.provider, failing.model,
+                                        mark_down=False)
+    pm.registry.record_provider_failure(failing.provider, failing.model,
+                                        mark_down=False)
+    pm.registry.record_provider_failure(failing.provider, failing.model,
+                                        mark_down=False)
+    pm.registry.record_provider_failure(failing.provider, failing.model,
+                                        mark_down=False)
+    ordered = pm._ranked_collect()
+    assert ordered[0] == proven
+    assert ordered[-1] == failing
+
+
 def test_budget_stops_calls(tmp_path: Path):
     pm = _pm(tmp_path, mock=True)
     groq_cfg = pm.cfg.providers["groq"]
@@ -111,14 +144,17 @@ def test_pick_collect_uses_sibling_models_while_provider_cooling(tmp_path: Path)
     """One model rate-limited must not block the provider's other models —
     the pick falls through to a sibling within the same provider."""
     pm = _pm(tmp_path, mock=True)
-    specs = pm.models_for_role("collect")
-    first = specs[0]
-    pm.registry.set_provider_cooldown(first.provider, "2099-01-01T00:00:00+00:00")
-    pm.registry.set_model_cooldown(first.provider, first.model, "2099-01-01T00:00:00+00:00")
+    groq_specs = [s for s in pm.models_for_role("collect") if s.provider == "groq"]
+    first, sibling = groq_specs[0], groq_specs[1]
+    # sibling is proven (1 successful call) → ranks above untested models
+    pm.registry.record_provider_call("groq", sibling.model, items=1, tokens=1000)
+    pm.registry.set_provider_cooldown("groq", "2099-01-01T00:00:00+00:00")
+    pm.registry.set_model_cooldown("groq", first.model, "2099-01-01T00:00:00+00:00")
     spec = pm.pick_collect("ai-research")
     assert spec is not None
-    assert spec.provider == first.provider
-    assert spec.model != first.model
+    # provider cooldown no longer blocks calls — groq's other model is picked
+    assert spec.provider == "groq"
+    assert spec.model == sibling.model
 
 
 def test_can_call_gate_respects_token_budget(tmp_path: Path):

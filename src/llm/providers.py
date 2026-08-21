@@ -126,19 +126,38 @@ class ProviderManager:
         return specs
 
     def _models_for(self, p: ProviderConfig) -> list[str]:
-        """Resolve the model list for a provider (config or auto-discovered)."""
+        """Resolve the model list for a provider.
+
+        With ``discover: free_models`` the list is AUTO-INTEGRATED:
+        configured seed models first (proven-good preference), then every
+        newly discovered free model that is JSON-capable and not
+        blocklisted.  New free models appear in the pool automatically,
+        are ping-scouted on first use, ranked by measured success, and
+        quarantined when they keep failing — the self-managing pool.
+        """
         if p.discover == "free_models":
             if p.name not in self._discovered:
                 self._discovered[p.name] = self._discover_openrouter_free()
-            return self._discovered[p.name]
-        return list(p.models)
+            discovered = self._discovered[p.name]
+            seeds = [m for m in p.models if m not in p.blocklist]
+            seen: set[str] = set(seeds)
+            merged = list(seeds)
+            for m in discovered:
+                if m not in seen:
+                    merged.append(m)
+                    seen.add(m)
+            return merged
+        return [m for m in p.models if m not in p.blocklist]
 
     def _discover_openrouter_free(self) -> list[str]:
-        """Fetch OpenRouter free models (pricing==0), JSON-capable first.
+        """Discover OpenRouter FREE models for auto-integration.
 
-        Records each model's JSON-mode capability in the registry so
-        ``models_for_role`` can pick ``supports_json`` and fall back to the
-        tolerant prompt-JSON path for models without native JSON mode.
+        Only JSON-capable models (response_format / structured_outputs
+        support) are kept — non-JSON free models can't produce the
+        schema-valid deep-dives and would only burn budget.  Blocklisted
+        models are never auto-integrated (known-waste: saturated 429
+        models, reasoning models that blow the output budget).  Measured
+        reliability ranking happens later in ``_ranked_collect``.
         """
         if self.mock:
             for m in ("qwen/qwen-2.5-7b-instruct:free", "liquid/lfm-2.5-2.6b:free"):
@@ -153,6 +172,7 @@ class ProviderManager:
             self.log.event("collect", "discover_error", provider="openrouter",
                            status="error", detail="could not fetch model list")
             return []
+        blocklist = set(self.cfg.providers["openrouter"].blocklist)
         free: list[tuple[str, bool]] = []
         for m in data:
             pricing = m.get("pricing", {}) or {}
@@ -160,18 +180,21 @@ class ProviderManager:
             if not is_free:
                 continue
             mid = m.get("id", "")
-            if not mid:
+            if not mid or mid in blocklist:
                 continue
             params = m.get("supported_parameters", {}) or {}
             json_ok = "response_format" in params or "structured_outputs" in params
             free.append((mid, json_ok))
-        free.sort(key=lambda x: (not x[1], x[0]))  # JSON-capable first
+        # JSON-capable first (only those are auto-integrated for schema work)
+        free.sort(key=lambda x: (not x[1], x[0]))
         result: list[str] = []
         for mid, json_ok in free:
             self.registry.set_provider_json_support("openrouter", mid, json_ok)
-            result.append(mid)
+            if json_ok:
+                result.append(mid)
         self.log.event("collect", "discovered_models", provider="openrouter",
-                       detail=f"{len(result)} free models")
+                       detail=f"{len(result)} free JSON-capable models "
+                              f"({len(free) - len(result)} non-JSON skipped)")
         return result
 
     # ---- selection -------------------------------------------------------
@@ -212,18 +235,25 @@ class ProviderManager:
     def pick_collect(self, collection: str, est_output_tokens: int = 0) -> ModelSpec | None:
         """Pick the best healthy collect model (deep-dive generation).
 
-        Returns the model with the fewest calls among healthy models that pass
-        the pre-call gate (cooldown + budget), or None when every collect
+        Ranks by measured success rate (proven models first).  An UNTESTED
+        auto-integrated model is ping-scouted on first pick — a cheap
+        availability probe — so a dead/saturated model is dropped before a
+        deep-dive burns budget on it.  Returns None when every collect
         model is down/exhausted/rate-limited.
         """
         self._phase = "collect"
         for spec in self._ranked_collect():
             if not self.can_call(spec, est_output_tokens):
                 continue
-            if self.registry.provider_healthy(spec.provider, spec.model):
-                self.log.event("collect", "pick_model", collection=collection,
-                               provider=spec.provider, model=spec.model)
-                return spec
+            if not self.registry.provider_healthy(spec.provider, spec.model):
+                continue
+            # scout untested auto-integrated models before trusting them
+            if self.registry.provider_calls(spec.provider, spec.model) == 0:
+                if not self.scout(spec):
+                    continue
+            self.log.event("collect", "pick_model", collection=collection,
+                           provider=spec.provider, model=spec.model)
+            return spec
         self.log.event("collect", "no_provider_available", collection=collection,
                        status="skip", detail="all collect models down/budget-exhausted/rate-limited")
         self._persist_earliest_model_resume()
@@ -275,12 +305,53 @@ class ProviderManager:
         return None
 
     def _ranked_collect(self) -> list[ModelSpec]:
-        """Collect models sorted by fewest calls first (load balancing)."""
-        specs = self.models_for_role("collect")
-        return sorted(specs, key=lambda s: (
-            self.registry.provider_calls(s.provider, s.model),
-            self.registry.provider_items(s.provider, s.model),
-        ))
+        """Collect models ordered by measured reliability.
+
+        Order: proven-successful first (highest success rate, fewest calls
+        as tiebreak for load balancing), then UNTESTED models (0 calls) —
+        they get ping-scouted on first use.  A model that keeps failing
+        falls down the ranking as its calls grow, so budget isn't wasted on
+        it.  This is the self-managing pool: auto-integrated free models
+        prove themselves with real calls instead of being trusted blindly.
+        """
+        def key(s: ModelSpec):
+            calls = self.registry.provider_calls(s.provider, s.model)
+            errors = self.registry.provider_model_stats(
+                s.provider, s.model).get("errors", 0)
+            if calls == 0:
+                # untested — scout it (sorts AFTER proven models)
+                return (1, 0, s.model)
+            success = max(0.0, (calls - errors) / calls)
+            return (0, -success, calls)
+        return sorted(self.models_for_role("collect"), key=key)
+
+    def scout(self, spec: ModelSpec) -> bool:
+        """Cheap availability probe for an untested auto-integrated model.
+
+        Sends a tiny non-JSON request; success registers the model's
+        latency in the registry so later picks prefer the responsive one.
+        Failures are counted but never mark the model down (transient).
+        """
+        if self.mock or not spec:
+            return True
+        try:
+            if spec.fmt == "google":
+                call_google(spec, self._next_key(spec), "ping", "Reply ok.",
+                            json_mode=False, max_tokens=1)
+            else:
+                call_openai(spec, self._next_key(spec), "ping", "Reply ok.",
+                            json_mode=False, max_tokens=1)
+            self.registry.record_provider_call(spec.provider, spec.model,
+                                               items=0, tokens=0)
+            self.log.event("collect", "scout_ok", provider=spec.provider,
+                           model=spec.model)
+            return True
+        except ProviderError as e:
+            self.registry.record_provider_failure(spec.provider, spec.model,
+                                                  mark_down=False)
+            self.log.event("collect", "scout_fail", provider=spec.provider,
+                           model=spec.model, detail=f"HTTP {e.status_code}")
+            return False
 
     def _within_budget(self, spec: ModelSpec) -> bool:
         """Deprecated — replaced by the token-aware ``can_call`` gate."""
