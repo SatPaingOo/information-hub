@@ -18,7 +18,7 @@ providers:
     # were retired — 404). gpt-oss models are the current free generation.
     models: [openai/gpt-oss-120b, openai/gpt-oss-20b]   # fallback order
     # ~4k tokens per item (select ~1.5k + deep-dive ~2.5k) × 4 items
-    budget: { max_daily_items: 4, max_daily_tokens: 16000, max_output_tokens: 2048 }
+    budget: { max_daily_items: 4, max_daily_tokens: 30000, max_output_tokens: 2048 }
   openrouter:
     enabled: true
     keys_env: OPENROUTER_API_KEY
@@ -40,7 +40,7 @@ providers:
       # output) that blew the 24k daily budget in one call on 08-21 —
       # reasoning models are excluded from the curated list for now.
     # ~4k tokens per item × 6 items; 4096 output cap stops mid-JSON truncation
-    budget: { max_daily_items: 6, max_daily_tokens: 24000, max_output_tokens: 4096 }
+    budget: { max_daily_items: 6, max_daily_tokens: 40000, max_output_tokens: 4096 }
   gemini:
     enabled: true
     keys_env: GEMINI_API_KEYS         # comma-separated multi-key
