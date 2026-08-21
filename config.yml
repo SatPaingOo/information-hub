@@ -34,8 +34,11 @@ providers:
       - nvidia/nemotron-3-super-120b-a12b:free
       - poolside/laguna-s-2.1:free
       - poolside/laguna-xs-2.1:free
-      - nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free
       - cohere/north-mini-code:free
+      # NOTE: nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free produced a
+      # 34k-token response (openrouter counts reasoning tokens against the
+      # output) that blew the 24k daily budget in one call on 08-21 —
+      # reasoning models are excluded from the curated list for now.
     # ~4k tokens per item × 6 items; 4096 output cap stops mid-JSON truncation
     budget: { max_daily_items: 6, max_daily_tokens: 24000, max_output_tokens: 4096 }
   gemini:
