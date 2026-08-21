@@ -124,6 +124,32 @@ def _valid_select_indices(raw: list, n: int) -> list[int]:
     return out
 
 
+def _heuristic_select(candidates: list, recent: list[dict],
+                      priority_text: str, exclude_text: str,
+                      registry, max_items: int) -> list[int]:
+    """Deterministic fallback when the select model returns nothing.
+
+    Free-tier models frequently return an empty selection — instead of
+    skipping the whole collection (which starved yields on 08-19/08-20),
+    pick the first fresh, non-duplicate, policy-passing candidates.
+    """
+    from src.collect.dedup import similarity_flags
+    from src.config import Config
+    cfg = Config.load()
+    picked: list[int] = []
+    for i, c in enumerate(candidates):
+        if len(picked) >= max_items:
+            break
+        if registry and registry.has_seen(c.title, c.url):
+            continue
+        sim = similarity_flags(recent, c.title, c.summary,
+                               threshold=cfg.content.similarity_threshold)
+        if sim["duplicate"]:
+            continue
+        picked.append(i)
+    return picked
+
+
 # ---- phase: collect ------------------------------------------------------
 def run_collect(cfg: Config, registry: Registry, store: Store, indexer: Indexer,
                 run_log: RunLog, logger: Any, pm: ProviderManager, *,
@@ -199,7 +225,17 @@ def run_collect(cfg: Config, registry: Registry, store: Store, indexer: Indexer,
             except ProviderError as e:
                 logger.error("[%s] select failed: %s", collection.name, e)
                 registry.record_fetch(collection.name, len(candidates), 0)
-                continue
+                selected = []
+        # Fallback: free-tier select models often return no indices (or an
+        # empty list) — instead of skipping the whole collection, pick the
+        # top candidates by source priority + recency (heuristic select).
+        if not selected:
+            fallback = _heuristic_select(candidates, recent, priority_text,
+                                         exclude_text, registry, collection.max_daily_items)
+            if fallback:
+                logger.info("[%s] model returned no selection — using "
+                            "heuristic fallback (%d)", collection.name, len(fallback))
+            selected = fallback
         selected = _valid_select_indices(selected, len(candidates))
 
         if not selected:
