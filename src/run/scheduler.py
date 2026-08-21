@@ -189,10 +189,23 @@ def _collect_until_deadline(cfg: Config, registry: Registry, run_log: RunLog) ->
                           detail="all collect providers over daily budget")
             break
         print("scheduler: provider available — collecting")
-        rc = subprocess.run(
-            [sys.executable, "-m", "src.main", "--phase", "collect"],
-            cwd=str(_ROOT), env={**os.environ},
-        )
+        # Cap a single collect subprocess well under the Actions job timeout
+        # (30 min) — otherwise one slow/failing phase can run to the job
+        # timeout and the run is CANCELLED, losing the commit step (see run
+        # 32439749306 on 2026-08-21).
+        sub_timeout = max(60, int((deadline - dt.datetime.now(dt.timezone.utc)).total_seconds()))
+        try:
+            rc = subprocess.run(
+                [sys.executable, "-m", "src.main", "--phase", "collect"],
+                cwd=str(_ROOT), env={**os.environ},
+                timeout=sub_timeout,
+            )
+        except subprocess.TimeoutExpired:
+            run_log.event("scheduler", "collect_timeout", status="error",
+                          detail=f"collect subprocess > {sub_timeout}s — killed")
+            print(f"scheduler: collect subprocess timed out after {sub_timeout}s")
+            registry.reload()
+            break
         registry.reload()   # subprocess saved fresh state — don't keep stale copy
         if rc.returncode != 0:
             run_log.event("scheduler", "collect_failed", status="error",
@@ -206,10 +219,18 @@ def _run_check(cfg: Config, registry: Registry, run_log: RunLog) -> None:
     """Verify today's collected items once (check phase)."""
     print("scheduler: running check")
     run_log.event("scheduler", "phase_run", detail="check")
-    rc = subprocess.run(
-        [sys.executable, "-m", "src.main", "--phase", "check"],
-        cwd=str(_ROOT), env={**os.environ},
-    )
+    try:
+        rc = subprocess.run(
+            [sys.executable, "-m", "src.main", "--phase", "check"],
+            cwd=str(_ROOT), env={**os.environ},
+            timeout=600,
+        )
+    except subprocess.TimeoutExpired:
+        run_log.event("scheduler", "check_timeout", status="error",
+                      detail="check subprocess > 600s — killed")
+        print("scheduler: check subprocess timed out")
+        registry.reload()
+        return
     registry.reload()   # subprocess saved fresh state — don't keep stale copy
     if rc.returncode != 0:
         run_log.event("scheduler", "check_failed", status="error",
