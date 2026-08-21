@@ -54,7 +54,7 @@ def test_resume_ignores_budget_exhausted_provider(tmp_path: Path):
     cfg, reg, run_log = _setup(tmp_path)
     ctl = RunController(cfg, reg, run_log, tmp_path)
     # openrouter: over daily token budget, cooldown expired → irrelevant
-    reg.record_provider_call("openrouter", "m", tokens=99999)
+    reg.record_provider_call("openrouter", "m", tokens=10**9)
     reg.set_provider_cooldown("openrouter", "2020-01-01T00:00:00+00:00")
     # groq: budget left, cooldown in the future → the loop must wait on IT
     reg.set_provider_cooldown("groq", "2099-01-02T00:00:00+00:00")
