@@ -33,3 +33,48 @@
 2026-08-21 03:12:04,785 WARNING [politics] no collect provider for deep-dive
 2026-08-21 03:12:05,015 WARNING [products] no collect provider available
 2026-08-21 03:12:05,074 INFO collect done: 0 item(s) published — target 8/10, next run ≈ 2026-08-22T01:00:00+00:00 UTC
+2026-08-21 03:28:41,859 INFO [world-news] model returned no selection — using heuristic fallback (3)
+2026-08-21 03:28:46,977 INFO [world-news] published 2026-08-21-004 — UK, France, Germany, Italy and Canada condemn Israel's West 
+2026-08-21 03:28:47,154 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7829, Requested 2366. Please try again in 16.462499999s. Need more tokens? Upgrade to Dev Tier today at https
+2026-08-21 03:28:50,156 WARNING [world-news] no collect provider for deep-dive
+2026-08-21 03:28:50,223 WARNING [world-news] no collect provider for deep-dive
+2026-08-21 03:28:50,786 WARNING [tech-news] no collect provider available
+2026-08-21 03:28:51,377 WARNING [politics] no collect provider available
+2026-08-21 03:28:52,691 WARNING [products] no collect provider available
+2026-08-21 03:28:52,711 INFO collect done: 1 item(s) published — target 7/10, next run ≈ 2026-08-21T03:36:47+00:00 UTC
+2026-08-21 03:29:19,058 INFO [world-news] model returned no selection — using heuristic fallback (3)
+2026-08-21 03:29:19,692 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 4920, Requested 4128. Please try again in 7.86s. Need more tokens? Upgrade to Dev Tier today at https://conso
+2026-08-21 03:29:22,694 WARNING [world-news] no collect provider for deep-dive
+2026-08-21 03:29:22,757 WARNING [world-news] no collect provider for deep-dive
+2026-08-21 03:29:22,826 WARNING [world-news] no collect provider for deep-dive
+2026-08-21 03:29:23,017 WARNING [tech-news] no collect provider available
+2026-08-21 03:29:23,352 WARNING [politics] no collect provider available
+2026-08-21 03:29:23,587 WARNING [products] no collect provider available
+2026-08-21 03:29:23,606 INFO collect done: 0 item(s) published — target 7/10, next run ≈ 2026-08-21T03:37:19+00:00 UTC
+2026-08-21 03:29:50,920 INFO [world-news] model returned no selection — using heuristic fallback (3)
+2026-08-21 03:29:55,528 INFO [world-news] attempt 1 invalid: ["entities/2/type: 'country' is not one of ['concept', 'company', 'model', 'person', 'product', 'region', 'organization', 'event']", "entities/3/type: 'country' is not one of ['concept', 'company', 'model', 'person', 'product', 'region', 'organization', 'event']"]
+2026-08-21 03:29:55,633 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7986, Requested 3978. Please try again in 29.73s. Need more tokens? Upgrade to Dev Tier today at https://cons
+2026-08-21 03:30:01,635 WARNING [world-news] no collect provider for deep-dive
+2026-08-21 03:30:01,697 WARNING [world-news] no collect provider for deep-dive
+2026-08-21 03:30:01,764 WARNING [world-news] no collect provider for deep-dive
+2026-08-21 03:30:02,032 WARNING [tech-news] no collect provider available
+2026-08-21 03:30:02,365 WARNING [politics] no collect provider available
+2026-08-21 03:30:02,597 WARNING [products] no collect provider available
+2026-08-21 03:30:02,617 INFO collect done: 0 item(s) published — target 7/10, next run ≈ 2026-08-21T03:37:55+00:00 UTC
+2026-08-21 03:30:26,752 INFO [world-news] model returned no selection — using heuristic fallback (3)
+2026-08-21 03:30:27,389 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 4981, Requested 3874. Please try again in 6.4125s. Need more tokens? Upgrade to Dev Tier today at https://con
+2026-08-21 03:30:30,391 WARNING [world-news] no collect provider for deep-dive
+2026-08-21 03:30:30,457 WARNING [world-news] no collect provider for deep-dive
+2026-08-21 03:30:30,524 WARNING [world-news] no collect provider for deep-dive
+2026-08-21 03:30:30,674 WARNING [tech-news] no collect provider available
+2026-08-21 03:30:31,042 WARNING [politics] no collect provider available
+2026-08-21 03:30:31,245 WARNING [products] no collect provider available
+2026-08-21 03:30:31,264 INFO collect done: 0 item(s) published — target 7/10, next run ≈ 2026-08-21T03:38:27+00:00 UTC
+2026-08-21 03:30:58,761 INFO [world-news] model returned no selection — using heuristic fallback (3)
+2026-08-21 03:30:59,298 WARNING [world-news] no collect provider for deep-dive
+2026-08-21 03:30:59,361 WARNING [world-news] no collect provider for deep-dive
+2026-08-21 03:30:59,443 WARNING [world-news] no collect provider for deep-dive
+2026-08-21 03:30:59,635 WARNING [tech-news] no collect provider available
+2026-08-21 03:30:59,945 WARNING [politics] no collect provider available
+2026-08-21 03:31:00,142 WARNING [products] no collect provider available
+2026-08-21 03:31:00,163 INFO collect done: 0 item(s) published — target 7/10, next run ≈ 2026-08-22T01:00:00+00:00 UTC

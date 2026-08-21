@@ -375,6 +375,42 @@
       "name": "global tech"
     },
     {
+      "id": "info:item:world:global:2026-08-21-004",
+      "type": "item",
+      "date": "2026-08-21",
+      "title": "UK, France, Germany, Italy and Canada condemn Israel's West Bank settlement project"
+    },
+    {
+      "id": "info:entity:person:Benjamin Netanyahu",
+      "type": "person",
+      "name": "Benjamin Netanyahu"
+    },
+    {
+      "id": "info:entity:organization:European Union",
+      "type": "organization",
+      "name": "European Union"
+    },
+    {
+      "id": "info:entity:person:António Guterres",
+      "type": "person",
+      "name": "António Guterres"
+    },
+    {
+      "id": "info:entity:organization:Canadian Ministry of Foreign Affairs",
+      "type": "organization",
+      "name": "Canadian Ministry of Foreign Affairs"
+    },
+    {
+      "id": "taxonomy/misc/International Law",
+      "type": "taxonomy",
+      "name": "International Law"
+    },
+    {
+      "id": "taxonomy/misc/Middle East Policy",
+      "type": "taxonomy",
+      "name": "Middle East Policy"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -1180,6 +1216,71 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-08-21-004",
+      "target": "info:entity:person:Benjamin Netanyahu",
+      "relation": "Israeli Prime Minister leading the pro‑settlement coalition"
+    },
+    {
+      "source": "info:item:world:global:2026-08-21-004",
+      "target": "info:entity:organization:European Union",
+      "relation": "Collectively condemning the E1 settlement plan"
+    },
+    {
+      "source": "info:item:world:global:2026-08-21-004",
+      "target": "info:entity:person:António Guterres",
+      "relation": "UN Secretary‑General labeling the plan an existential threat"
+    },
+    {
+      "source": "info:item:world:global:2026-08-21-004",
+      "target": "info:entity:organization:Canadian Ministry of Foreign Affairs",
+      "relation": "Co‑signatory of the joint condemnation statement"
+    },
+    {
+      "source": "info:item:world:global:2026-08-21-004",
+      "target": "info:item:world:global:2026-07-15-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-08-21-004",
+      "target": "info:item:world:global:2026-06-30-003",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-08-21-004",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-21-004",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-21-004",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-21-004",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-21-004",
+      "target": "taxonomy/misc/Geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-08-21-004",
+      "target": "taxonomy/misc/International Law",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-08-21-004",
+      "target": "taxonomy/misc/Middle East Policy",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -1434,6 +1535,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Canadian Ministry of Foreign Affairs",
+      "target": "info:entity:organization:European Union",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Canadian Ministry of Foreign Affairs",
+      "target": "info:entity:person:António Guterres",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Canadian Ministry of Foreign Affairs",
+      "target": "info:entity:person:Benjamin Netanyahu",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Department for Transport",
       "target": "info:entity:organization:Scope",
       "relation": "co-occurs",
@@ -1448,6 +1567,18 @@
     {
       "source": "info:entity:organization:Department for Transport",
       "target": "info:entity:person:Andy Burnham",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:European Union",
+      "target": "info:entity:person:António Guterres",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:European Union",
+      "target": "info:entity:person:Benjamin Netanyahu",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -1520,6 +1651,12 @@
     {
       "source": "info:entity:person:Andy Burnham",
       "target": "info:entity:person:Susie Wiles",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:António Guterres",
+      "target": "info:entity:person:Benjamin Netanyahu",
       "relation": "co-occurs",
       "weight": "1"
     },
