@@ -323,6 +323,58 @@
       "title": "Compliance Generation for Privacy Documents under GDPR: A Roadmap for Implementing Automation and Machine Learning"
     },
     {
+      "id": "info:item:politics:global:2026-08-21-001",
+      "type": "item",
+      "date": "2026-08-21",
+      "title": "Councils turn to AI in attempt to fill £4bn black hole"
+    },
+    {
+      "id": "info:entity:organization:OpenAI",
+      "type": "organization",
+      "name": "OpenAI"
+    },
+    {
+      "id": "taxonomy/misc/AI governance",
+      "type": "taxonomy",
+      "name": "AI governance"
+    },
+    {
+      "id": "taxonomy/misc/local government",
+      "type": "taxonomy",
+      "name": "local government"
+    },
+    {
+      "id": "info:item:products:global:2026-08-21-003",
+      "type": "item",
+      "date": "2026-08-21",
+      "title": "Checksum AI: Your Coding Agent’s Testing Buddy"
+    },
+    {
+      "id": "info:entity:product:Checksum AI",
+      "type": "product",
+      "name": "Checksum AI"
+    },
+    {
+      "id": "info:entity:model:Gemini",
+      "type": "model",
+      "name": "Gemini"
+    },
+    {
+      "id": "taxonomy/misc/agentic AI",
+      "type": "taxonomy",
+      "name": "agentic AI"
+    },
+    {
+      "id": "taxonomy/misc/software development tools",
+      "type": "taxonomy",
+      "name": "software development tools"
+    },
+    {
+      "id": "taxonomy/misc/global tech",
+      "type": "taxonomy",
+      "name": "global tech"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -1008,6 +1060,126 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:politics:global:2026-08-21-001",
+      "target": "info:entity:organization:OpenAI",
+      "relation": "key AI technology referenced in editorial priorities"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-21-001",
+      "target": "info:entity:concept:Agentic AI",
+      "relation": "highlighted policy focus for future public‑sector deployment"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-21-001",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "Mayor of Greater Manchester, vocal advocate for local‑government funding reform"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-21-001",
+      "target": "info:entity:concept:Data Governance",
+      "relation": "critical framework for ensuring ethical AI use in councils"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-21-001",
+      "target": "info:item:politics:global:2026-08-18-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-21-001",
+      "target": "info:item:politics:global:2026-08-18-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-21-001",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-21-001",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-21-001",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-21-001",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-21-001",
+      "target": "taxonomy/misc/AI governance",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-21-001",
+      "target": "taxonomy/misc/local government",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-08-21-003",
+      "target": "info:entity:product:Checksum AI",
+      "relation": "subject"
+    },
+    {
+      "source": "info:item:products:global:2026-08-21-003",
+      "target": "info:entity:company:OpenAI",
+      "relation": "LLM provider"
+    },
+    {
+      "source": "info:item:products:global:2026-08-21-003",
+      "target": "info:entity:company:Anthropic",
+      "relation": "LLM provider"
+    },
+    {
+      "source": "info:item:products:global:2026-08-21-003",
+      "target": "info:entity:model:Gemini",
+      "relation": "LLM provider"
+    },
+    {
+      "source": "info:item:products:global:2026-08-21-003",
+      "target": "info:item:products:global:2026-08-19-007",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-08-21-003",
+      "target": "info:item:products:global:2026-08-20-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-08-21-003",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-08-21-003",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-08-21-003",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-08-21-003",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-08-21-003",
+      "target": "taxonomy/misc/software development tools",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-08-21-003",
+      "target": "taxonomy/misc/global tech",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -1121,7 +1293,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -1132,6 +1304,18 @@
     {
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:concept:Retrieval-Augmented Generation",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:model:Gemini",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:product:Checksum AI",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -1149,7 +1333,19 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:model:Gemini",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:model:Retrieval-Augmented Generation",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:product:Checksum AI",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -1173,13 +1369,43 @@
     },
     {
       "source": "info:entity:concept:Agentic AI",
+      "target": "info:entity:concept:Data Governance",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Agentic AI",
       "target": "info:entity:concept:Retrieval-Augmented Generation",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Agentic AI",
+      "target": "info:entity:organization:OpenAI",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Agentic AI",
+      "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
       "weight": "1"
     },
     {
       "source": "info:entity:concept:Data Governance",
       "target": "info:entity:concept:Myanmar Digital Economy",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Data Governance",
+      "target": "info:entity:organization:OpenAI",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Data Governance",
+      "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -1198,6 +1424,12 @@
     {
       "source": "info:entity:event:Russian invasion of Ukraine",
       "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
+      "target": "info:entity:product:Checksum AI",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -1228,6 +1460,12 @@
     {
       "source": "info:entity:organization:FBI",
       "target": "info:entity:person:Susie Wiles",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:OpenAI",
+      "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
       "weight": "1"
     },

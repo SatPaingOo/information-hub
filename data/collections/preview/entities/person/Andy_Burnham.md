@@ -1,7 +1,7 @@
 ---
 name: "Andy Burnham"
 entity_type: person
-backlink_count: 2
+backlink_count: 3
 ---
 
 # Andy Burnham
@@ -10,5 +10,6 @@ backlink_count: 2
 
 ## Referenced by
 
+- 2026-08-21 · [[info:item:politics:global:2026-08-21-001]] — Councils turn to AI in attempt to fill £4bn black hole
 - 2026-08-18 · [[info:item:politics:global:2026-08-18-001]] — Burnham exchanged messages with person posing as Trump's chief of staff
 - 2026-08-18 · [[info:item:politics:global:2026-08-18-005]] — Disabled people in England to get 24-hour free bus travel

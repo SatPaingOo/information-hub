@@ -1,0 +1,35 @@
+2026-08-21 03:01:34,624 INFO [world-news] nothing selected
+2026-08-21 03:01:41,692 INFO [tech-news] nothing selected
+2026-08-21 03:04:02,443 INFO [politics] published 2026-08-21-001 — Councils turn to AI in attempt to fill £4bn black hole
+2026-08-21 03:04:03,490 ERROR [politics] generate error: HTTP 429: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"poolside/laguna-s-2.1:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Poolside","is_byok":fal
+2026-08-21 03:09:28,614 INFO [politics] attempt 2 invalid: [": 'categories' is a required property", ": 'title' is a required property"]
+2026-08-21 03:09:31,007 ERROR [politics] generate error: HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
+
+2026-08-21 03:09:46,986 INFO [products] published 2026-08-21-003 — Checksum AI: Your Coding Agent’s Testing Buddy
+2026-08-21 03:09:46,998 INFO collect done: 2 item(s) published — target 8/10, next run ≈ 2026-08-21T03:24:46+00:00 UTC
+2026-08-21 03:09:47,562 ERROR [world-news] select failed: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7616, Requested 2816. Please try again in 18.24s. Need more tokens? Upgrade to Dev Tier today at https://cons
+2026-08-21 03:09:47,952 WARNING [tech-news] no collect provider available
+2026-08-21 03:09:48,502 WARNING [politics] no collect provider available
+2026-08-21 03:09:48,724 WARNING [products] no collect provider available
+2026-08-21 03:09:48,733 INFO collect done: 0 item(s) published — target 8/10, next run ≈ 2026-08-21T03:17:47+00:00 UTC
+2026-08-21 03:10:18,103 INFO [world-news] nothing selected
+2026-08-21 03:10:19,857 INFO [tech-news] nothing selected
+2026-08-21 03:10:20,522 ERROR [politics] select failed: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7581, Requested 1440. Please try again in 7.657499999s. Need more tokens? Upgrade to Dev Tier today at https:
+2026-08-21 03:10:20,742 WARNING [products] no collect provider available
+2026-08-21 03:10:20,751 INFO collect done: 0 item(s) published — target 8/10, next run ≈ 2026-08-21T03:18:20+00:00 UTC
+2026-08-21 03:10:51,709 INFO [world-news] nothing selected
+2026-08-21 03:10:53,518 INFO [tech-news] nothing selected
+2026-08-21 03:10:54,033 ERROR [politics] select failed: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 5608, Requested 2817. Please try again in 3.1875s. Need more tokens? Upgrade to Dev Tier today at https://con
+2026-08-21 03:10:54,401 WARNING [products] no collect provider available
+2026-08-21 03:10:54,417 INFO collect done: 0 item(s) published — target 8/10, next run ≈ 2026-08-21T03:18:54+00:00 UTC
+2026-08-21 03:11:25,573 INFO [world-news] nothing selected
+2026-08-21 03:11:27,427 INFO [tech-news] nothing selected
+2026-08-21 03:11:29,426 ERROR [politics] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6655, Requested 4221. Please try again in 21.57s. Need more tokens? Upgrade to Dev Tier today at https://cons
+2026-08-21 03:11:32,428 WARNING [politics] no collect provider for deep-dive
+2026-08-21 03:11:32,662 WARNING [products] no collect provider available
+2026-08-21 03:11:32,695 INFO collect done: 0 item(s) published — target 8/10, next run ≈ 2026-08-21T03:19:29+00:00 UTC
+2026-08-21 03:12:00,816 INFO [world-news] nothing selected
+2026-08-21 03:12:03,034 INFO [tech-news] nothing selected
+2026-08-21 03:12:04,785 WARNING [politics] no collect provider for deep-dive
+2026-08-21 03:12:05,015 WARNING [products] no collect provider available
+2026-08-21 03:12:05,074 INFO collect done: 0 item(s) published — target 8/10, next run ≈ 2026-08-22T01:00:00+00:00 UTC

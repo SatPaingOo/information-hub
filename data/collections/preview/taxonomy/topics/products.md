@@ -1,7 +1,7 @@
 ---
 node: "products"
 layer: topic
-item_count: 1
+item_count: 2
 ---
 
 # products
@@ -15,4 +15,5 @@ item_count: 1
 
 ## Items
 
+- 2026-08-21 · [[info:item:products:global:2026-08-21-003]] — Checksum AI: Your Coding Agent’s Testing Buddy
 - 2026-08-19 · [[info:item:products:global:2026-08-19-007]] — CrewTower
