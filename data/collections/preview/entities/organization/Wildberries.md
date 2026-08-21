@@ -1,12 +1,12 @@
 ---
-name: "Vladimir Putin"
-entity_type: person
+name: "Wildberries"
+entity_type: organization
 backlink_count: 2
 ---
 
-# Vladimir Putin
+# Wildberries
 
-*Type: person*
+*Type: organization*
 
 ## Referenced by
 

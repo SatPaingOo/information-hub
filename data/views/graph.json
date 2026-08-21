@@ -411,6 +411,109 @@
       "name": "Middle East Policy"
     },
     {
+      "id": "info:item:world:global:2026-08-21-005",
+      "type": "item",
+      "date": "2026-08-21",
+      "title": "Israel re-establishes closed West Bank settlement, defying growing international protests"
+    },
+    {
+      "id": "info:entity:person:Bezalel Smotrich",
+      "type": "person",
+      "name": "Bezalel Smotrich"
+    },
+    {
+      "id": "info:entity:region:West Bank",
+      "type": "region",
+      "name": "West Bank"
+    },
+    {
+      "id": "taxonomy/misc/regions:Middle East",
+      "type": "taxonomy",
+      "name": "regions:Middle East"
+    },
+    {
+      "id": "taxonomy/misc/topics:geopolitics",
+      "type": "taxonomy",
+      "name": "topics:geopolitics"
+    },
+    {
+      "id": "taxonomy/misc/categories:policy",
+      "type": "taxonomy",
+      "name": "categories:policy"
+    },
+    {
+      "id": "info:item:world:global:2026-08-21-006",
+      "type": "item",
+      "date": "2026-08-21",
+      "title": "Rosenberg: Shortage of petrol but not patriotism as Russians feel growing impact of war"
+    },
+    {
+      "id": "info:entity:organization:Wildberries",
+      "type": "organization",
+      "name": "Wildberries"
+    },
+    {
+      "id": "info:entity:event:Russian Flag Day",
+      "type": "event",
+      "name": "Russian Flag Day"
+    },
+    {
+      "id": "info:entity:organization:Public Opinion Foundation",
+      "type": "organization",
+      "name": "Public Opinion Foundation"
+    },
+    {
+      "id": "taxonomy/misc/energy policy",
+      "type": "taxonomy",
+      "name": "energy policy"
+    },
+    {
+      "id": "taxonomy/misc/economic sanctions",
+      "type": "taxonomy",
+      "name": "economic sanctions"
+    },
+    {
+      "id": "info:item:world:global:2026-08-21-007",
+      "type": "item",
+      "date": "2026-08-21",
+      "title": "Hong Kong's Tiananmen activists guilty in national security trial"
+    },
+    {
+      "id": "info:entity:person:Lee Cheuk‑yan",
+      "type": "person",
+      "name": "Lee Cheuk‑yan"
+    },
+    {
+      "id": "info:entity:person:Chow Hang‑tung",
+      "type": "person",
+      "name": "Chow Hang‑tung"
+    },
+    {
+      "id": "info:entity:organization:Hong Kong Alliance (HKA)",
+      "type": "organization",
+      "name": "Hong Kong Alliance (HKA)"
+    },
+    {
+      "id": "info:entity:organization:Amnesty International",
+      "type": "organization",
+      "name": "Amnesty International"
+    },
+    {
+      "id": "taxonomy/misc/human rights",
+      "type": "taxonomy",
+      "name": "human rights"
+    },
+    {
+      "id": "taxonomy/misc/China",
+      "type": "taxonomy",
+      "name": "China"
+    },
+    {
+      "id": "taxonomy/misc/national security law",
+      "type": "taxonomy",
+      "name": "national security law"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -1281,6 +1384,201 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-08-21-005",
+      "target": "info:entity:person:Benjamin Netanyahu",
+      "relation": "Leader of the Israeli government overseeing settlement expansion"
+    },
+    {
+      "source": "info:item:world:global:2026-08-21-005",
+      "target": "info:entity:person:Bezalel Smotrich",
+      "relation": "Israeli Finance Minister and far-right advocate for West Bank settlements"
+    },
+    {
+      "source": "info:item:world:global:2026-08-21-005",
+      "target": "info:entity:region:West Bank",
+      "relation": "Territory where the settlement of Kadim is located"
+    },
+    {
+      "source": "info:item:world:global:2026-08-21-005",
+      "target": "info:entity:organization:European Union",
+      "relation": "Critic of Israeli settlement expansion in the occupied territories"
+    },
+    {
+      "source": "info:item:world:global:2026-08-21-005",
+      "target": "info:item:world:global:2026-08-21-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-08-21-005",
+      "target": "info:item:world:global:2026-08-20-012",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-08-21-005",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-21-005",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-21-005",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-21-005",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-21-005",
+      "target": "taxonomy/misc/regions:Middle East",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-08-21-005",
+      "target": "taxonomy/misc/topics:geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-08-21-005",
+      "target": "taxonomy/misc/categories:policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-08-21-006",
+      "target": "info:entity:person:Vladimir Putin",
+      "relation": "Russian President dismissing infrastructure attack consequences"
+    },
+    {
+      "source": "info:item:world:global:2026-08-21-006",
+      "target": "info:entity:organization:Wildberries",
+      "relation": "Russian e-commerce platform targeted by Ukrainian strikes"
+    },
+    {
+      "source": "info:item:world:global:2026-08-21-006",
+      "target": "info:entity:event:Russian Flag Day",
+      "relation": "Patriotic celebration coinciding with fuel shortages"
+    },
+    {
+      "source": "info:item:world:global:2026-08-21-006",
+      "target": "info:entity:organization:Public Opinion Foundation",
+      "relation": "Russian polling organization reporting rising anxiety"
+    },
+    {
+      "source": "info:item:world:global:2026-08-21-006",
+      "target": "info:item:world:global:2026-08-21-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-08-21-006",
+      "target": "info:item:world:global:2026-08-21-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-08-21-006",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-21-006",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-21-006",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-21-006",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-21-006",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-08-21-006",
+      "target": "taxonomy/misc/energy policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-08-21-006",
+      "target": "taxonomy/misc/economic sanctions",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-08-21-007",
+      "target": "info:entity:person:Lee Cheuk‑yan",
+      "relation": "defendant convicted under national security law"
+    },
+    {
+      "source": "info:item:world:global:2026-08-21-007",
+      "target": "info:entity:person:Chow Hang‑tung",
+      "relation": "defendant convicted under national security law"
+    },
+    {
+      "source": "info:item:world:global:2026-08-21-007",
+      "target": "info:entity:organization:Hong Kong Alliance (HKA)",
+      "relation": "defunct pro‑democracy organization led by the activists"
+    },
+    {
+      "source": "info:item:world:global:2026-08-21-007",
+      "target": "info:entity:organization:Amnesty International",
+      "relation": "critic of the convictions, calling them politically motivated"
+    },
+    {
+      "source": "info:item:world:global:2026-08-21-007",
+      "target": "info:item:world:global:2026-08-21-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-08-21-007",
+      "target": "info:item:world:global:2026-08-21-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-08-21-007",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-21-007",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-21-007",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-21-007",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-21-007",
+      "target": "taxonomy/misc/human rights",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-08-21-007",
+      "target": "taxonomy/misc/China",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-08-21-007",
+      "target": "taxonomy/misc/national security law",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -1511,6 +1809,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:event:Russian Flag Day",
+      "target": "info:entity:organization:Public Opinion Foundation",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:event:Russian Flag Day",
+      "target": "info:entity:organization:Wildberries",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:event:Russian Flag Day",
+      "target": "info:entity:person:Vladimir Putin",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:event:Russian invasion of Ukraine",
       "target": "info:entity:organization:Ukrainian Government",
       "relation": "co-occurs",
@@ -1531,6 +1847,24 @@
     {
       "source": "info:entity:model:Gemini",
       "target": "info:entity:product:Checksum AI",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Amnesty International",
+      "target": "info:entity:organization:Hong Kong Alliance (HKA)",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Amnesty International",
+      "target": "info:entity:person:Chow Hang‑tung",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Amnesty International",
+      "target": "info:entity:person:Lee Cheuk‑yan",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -1580,6 +1914,18 @@
       "source": "info:entity:organization:European Union",
       "target": "info:entity:person:Benjamin Netanyahu",
       "relation": "co-occurs",
+      "weight": "2"
+    },
+    {
+      "source": "info:entity:organization:European Union",
+      "target": "info:entity:person:Bezalel Smotrich",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:European Union",
+      "target": "info:entity:region:West Bank",
+      "relation": "co-occurs",
       "weight": "1"
     },
     {
@@ -1595,8 +1941,32 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Hong Kong Alliance (HKA)",
+      "target": "info:entity:person:Chow Hang‑tung",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Hong Kong Alliance (HKA)",
+      "target": "info:entity:person:Lee Cheuk‑yan",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:OpenAI",
       "target": "info:entity:person:Andy Burnham",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Public Opinion Foundation",
+      "target": "info:entity:organization:Wildberries",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Public Opinion Foundation",
+      "target": "info:entity:person:Vladimir Putin",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -1649,6 +2019,12 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Wildberries",
+      "target": "info:entity:person:Vladimir Putin",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:person:Andy Burnham",
       "target": "info:entity:person:Susie Wiles",
       "relation": "co-occurs",
@@ -1657,6 +2033,30 @@
     {
       "source": "info:entity:person:António Guterres",
       "target": "info:entity:person:Benjamin Netanyahu",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Benjamin Netanyahu",
+      "target": "info:entity:person:Bezalel Smotrich",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Benjamin Netanyahu",
+      "target": "info:entity:region:West Bank",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Bezalel Smotrich",
+      "target": "info:entity:region:West Bank",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Chow Hang‑tung",
+      "target": "info:entity:person:Lee Cheuk‑yan",
       "relation": "co-occurs",
       "weight": "1"
     },

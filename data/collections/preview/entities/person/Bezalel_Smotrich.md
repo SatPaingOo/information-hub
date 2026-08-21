@@ -1,14 +1,13 @@
 ---
-name: "Benjamin Netanyahu"
+name: "Bezalel Smotrich"
 entity_type: person
-backlink_count: 2
+backlink_count: 1
 ---
 
-# Benjamin Netanyahu
+# Bezalel Smotrich
 
 *Type: person*
 
 ## Referenced by
 
-- 2026-08-21 · [[info:item:world:global:2026-08-21-004]] — UK, France, Germany, Italy and Canada condemn Israel's West Bank settlement project
 - 2026-08-21 · [[info:item:world:global:2026-08-21-005]] — Israel re-establishes closed West Bank settlement, defying growing international protests

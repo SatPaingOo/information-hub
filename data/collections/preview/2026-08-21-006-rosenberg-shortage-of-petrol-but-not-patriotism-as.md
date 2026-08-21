@@ -1,0 +1,71 @@
+---
+id: "info:item:world:global:2026-08-21-006"
+key: "2026-08-21-006"
+date: 2026-08-21
+content_type: digest
+topic: world
+region: global
+categories: ["policy", "industry"]
+source: "feeds.bbci.co.uk"
+source_url: "https://feeds.bbci.co.uk/news/world/rss.xml"
+word_count: 624
+tags: ["energy security", "economic warfare", "propaganda", "militarization", "public anxiety", "fuel shortage", "drone warfare"]
+---
+
+# Rosenberg: Shortage of petrol but not patriotism as Russians feel growing impact of war
+
+> [!summary] TL;DR — Long queues for petrol in Moscow highlight the growing economic impact of Ukraine's drone strikes on Russian infrastructure, while patriotic celebrations for Russian Flag Day reveal a society grappling with war fatigue and state propaganda. The Kremlin's dismissal of 'critical consequences' contrasts sharply with citizens' lived experience of scarcity and anxiety.
+
+## Background
+
+Since Russia's full-scale invasion of Ukraine in 2022, Ukrainian forces have increasingly targeted Russian oil refineries and critical infrastructure with long-range drones. These attacks have disrupted fuel production and distribution, creating periodic shortages that have now reached a 'second wave' according to Russian analysts. The Kremlin maintains its 'special military operation' narrative despite mounting evidence of war fatigue among the population, as demonstrated by the juxtaposition of fuel scarcity and patriotic displays.
+
+## Economic Warfare Becoming Domestic Reality
+
+The targeting of oil refineries represents a strategic shift in Ukraine's military approach, moving from frontline combat to striking deep within Russian territory. Russian officials attribute fuel shortages to 'unscheduled repairs' at refineries, but the timing clearly correlates with documented drone strikes. This marks the first time since the 2022 invasion that Russian civilians are experiencing direct economic consequences of the war within their own homes. The importation of petrol by Russia—an energy superpower and major oil exporter—is a tacit acknowledgment that the war is having measurable economic impacts on the homeland.
+
+## Propaganda vs. Popular Anxiety
+
+President Vladimir Putin's dismissal of infrastructure attacks as having 'no critical consequences' reveals a significant disconnect between Kremlin messaging and public sentiment. Independent analyst Andrei Kolesnikov observes that this may represent 'hypnotizing himself' rather than effective propaganda. Polling data from outlets like the Public Opinion Foundation indicates rising anxiety levels across Russian society. Citizens report a 'permanent feeling of anxiety' and describe an 'aborted future' with planning horizons limited to the immediate term. The state's attempt to maintain morale through patriotic displays on Russian Flag Day appears increasingly hollow as basic goods like petrol become scarce.
+
+## Militarization of Civil Society
+
+The presence of Kalashnikov weaponry and military hardware displays at civilian celebrations signals the deepening militarization of Russian society. Children posing with rocket launchers at patriotic events reflects a normalization of military culture that extends beyond traditional defense sectors. This militarization serves as both a recruitment tool and a means of social cohesion amid hardship. The narrative that 'difficulties unite us' and that 'the harder things are, the stronger we get' suggests the Kremlin is leveraging scarcity to reinforce national identity and loyalty, though this strategy may prove unsustainable as economic pressures intensify.
+
+## Key facts
+
+- Petrol queues in Moscow have reached 80+ vehicles, with some stations closed due to 'no fuel' signs
+- Ukrainian drone strikes on oil refineries have created a 'second wave' of fuel crisis
+- Russia has begun importing petrol—an unusual move for an energy-exporting superpower
+- Lower-grade Euro 2 petrol is being authorized for sale despite previous bans due to engine damage risks
+- Ukrainian strikes on Wildberries distribution centers are disrupting e-commerce and supply chains
+- Patriotic celebrations for Russian Flag Day feature military hardware displays for children
+- Putin acknowledges infrastructure damage but denies 'critical consequences' from attacks
+
+## Implications
+
+- The escalation of Ukrainian attacks on Russian infrastructure may accelerate domestic opposition or fatigue with the war effort
+- Economic strain could undermine the Kremlin's ability to sustain military operations in Ukraine
+- The importation of petrol signals vulnerability in Russia's energy sector that could have broader market implications
+- Militarization of civilian life may create long-term social tensions as war fatigue increases
+- Disconnection between state propaganda and citizen experience could erode trust in government institutions
+
+## Outlook
+
+The fuel crisis in Moscow represents a harbinger of deeper economic challenges as Ukraine's asymmetric warfare capabilities continue to evolve. While patriotic displays may temporarily bolster morale, the Kremlin faces a delicate balancing act between maintaining the war effort and addressing domestic economic pressures. Long-term sustainability of Russia's war machine may depend on either resolving the fuel supply issues or accepting increased economic isolation. The coming months will likely see whether this strategy of scarcity-based patriotism can maintain public support or whether economic hardship will translate into political pressure.
+
+## Entities
+
+- [[Vladimir Putin]] — *person* (Russian President dismissing infrastructure attack consequences)
+- [[Wildberries]] — *organization* (Russian e-commerce platform targeted by Ukrainian strikes)
+- [[Russian Flag Day]] — *event* (Patriotic celebration coinciding with fuel shortages)
+- [[Public Opinion Foundation]] — *organization* (Russian polling organization reporting rising anxiety)
+
+## Related
+
+- [[info:item:world:global:2026-08-21-004]]
+- [[info:item:world:global:2026-08-21-005]]
+
+---
+
+*Source: [feeds.bbci.co.uk](https://feeds.bbci.co.uk/news/world/rss.xml)*

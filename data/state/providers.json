@@ -55,11 +55,11 @@
   },
   "openrouter": {
     "quota_date": "2026-08-21",
-    "tokens_used": 42635,
-    "items": 2,
-    "calls": 5,
-    "errors": 1,
-    "cooldown_until": "2026-08-21T03:04:33+00:00",
+    "tokens_used": 60263,
+    "items": 6,
+    "calls": 10,
+    "errors": 4,
+    "cooldown_until": "2026-08-21T18:32:35+00:00",
     "models": {
       "dots-studio/dots-3-note-preview:free": {
         "calls": 2,
@@ -128,13 +128,13 @@
         "cooldown_until": null
       },
       "nvidia/nemotron-3-super-120b-a12b:free": {
-        "calls": 3,
-        "items": 1,
+        "calls": 4,
+        "items": 2,
         "errors": 4,
         "consecutive_failures": 0,
         "healthy": true,
-        "last_health_check": "2026-08-21T03:01:41+00:00",
-        "latency_ms": 6605,
+        "last_health_check": "2026-08-21T18:27:06+00:00",
+        "latency_ms": 52235,
         "supports_json": true,
         "cooldown_until": null
       },
@@ -172,13 +172,13 @@
         "cooldown_until": null
       },
       "cohere/north-mini-code:free": {
-        "calls": 3,
-        "items": 2,
+        "calls": 4,
+        "items": 3,
         "errors": 3,
         "consecutive_failures": 0,
         "healthy": true,
-        "last_health_check": "2026-08-21T03:04:02+00:00",
-        "latency_ms": 112421,
+        "last_health_check": "2026-08-21T18:32:41+00:00",
+        "latency_ms": 122925,
         "supports_json": false,
         "cooldown_until": null
       },
@@ -249,24 +249,24 @@
         "cooldown_until": null
       },
       "poolside/laguna-s-2.1:free": {
-        "calls": 2,
-        "items": 2,
+        "calls": 3,
+        "items": 3,
         "errors": 1,
-        "consecutive_failures": 1,
+        "consecutive_failures": 0,
         "healthy": true,
-        "last_health_check": "2026-08-21T03:04:03+00:00",
-        "latency_ms": 25419,
+        "last_health_check": "2026-08-21T18:24:08+00:00",
+        "latency_ms": 34454,
         "supports_json": false,
         "cooldown_until": "2026-08-21T03:04:33+00:00"
       },
       "poolside/laguna-xs-2.1:free": {
-        "calls": 3,
-        "items": 1,
+        "calls": 4,
+        "items": 2,
         "errors": 0,
         "consecutive_failures": 0,
         "healthy": true,
-        "last_health_check": "2026-08-21T03:02:09+00:00",
-        "latency_ms": 26571,
+        "last_health_check": "2026-08-21T18:28:51+00:00",
+        "latency_ms": 105552,
         "supports_json": false,
         "cooldown_until": null
       },
@@ -280,6 +280,17 @@
         "latency_ms": null,
         "supports_json": true,
         "cooldown_until": null
+      },
+      "stealth/ox-alpha": {
+        "calls": 1,
+        "items": 0,
+        "errors": 3,
+        "consecutive_failures": 3,
+        "healthy": false,
+        "last_health_check": "2026-08-21T18:30:35+00:00",
+        "latency_ms": 12223,
+        "supports_json": true,
+        "cooldown_until": "2026-08-21T18:32:35+00:00"
       }
     }
   },
