@@ -75,23 +75,23 @@ jobs:
         run: |
           git config user.name "information-hub[bot]"
           git config user.email "information-hub[bot]@users.noreply.github.com"
-          # The GitHub App token cannot push changes to .github/workflows/*.
-          # Only the dynamic-cron rewrite touches it, and it is only written
-          # when BOT_PAT is set — otherwise discard any workflow change.
-          if [ -z "${BOT_PAT:-}" ]; then
-            git checkout -- .github/workflows/scheduler.yml 2>/dev/null || true
-          else
+          # CRON CHANGE: only pushable by a REAL PAT (classic ghp_ / fine-
+          # grained) with Contents write.  The GitHub App token (gho_) and
+          # GitHub App secrets CANNOT push workflow files — if BOT_PAT is a
+          # GitHub App token (or unset), discard the cron rewrite and let the
+          # */15 heartbeat drive runs.  When a real PAT is set, push the cron
+          # change FIRST so it lands before the data commit.
+          if [ -n "${BOT_PAT:-}" ]; then
             git remote set-url origin "https://x-access-token:${BOT_PAT}@github.com/${GITHUB_REPOSITORY}.git"
+            git add .github/workflows/scheduler.yml
+            if ! git diff --cached --quiet; then
+              git commit -m "chore: scheduler cron -> $(grep -oE 'cron: \"[^\"]*\"' .github/workflows/scheduler.yml | head -1)" 2>/dev/null || true
+              git push origin main 2>/dev/null || echo "cron push failed — workflow files need a non-App PAT"
+            fi
+          else
+            git checkout -- .github/workflows/scheduler.yml 2>/dev/null || true
           fi
-          # 1) CRON CHANGE — commit + push FIRST (workflow files can only be
-          #    pushed by BOT_PAT; the data commit below must not swallow or
-          #    lose this change, and it must land before we rebase data).
-          git add .github/workflows/scheduler.yml
-          if ! git diff --cached --quiet; then
-            git commit -m "chore: scheduler cron -> $(grep -oE 'cron: \"[^\"]*\"' .github/workflows/scheduler.yml | head -1)" 2>/dev/null
-            git push origin main 2>/dev/null || echo "cron push skipped (will retry next run)"
-          fi
-          # 2) DATA — commit + push generated state (cron change already out).
+          # DATA — commit + push generated state.
           git add -A
           if git diff --cached --quiet; then
             echo "No changes to commit"
