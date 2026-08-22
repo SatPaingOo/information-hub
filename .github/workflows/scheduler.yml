@@ -82,6 +82,11 @@ jobs:
           # */15 heartbeat drive runs.  When a real PAT is set, push the cron
           # change FIRST so it lands before the data commit.
           if [ -n "${BOT_PAT:-}" ]; then
+            # actions/checkout sets http.https://github.com/.extraheader to the
+            # GitHub App token, which OVERRIDES the URL credentials below — the
+            # push would still use the App token and GitHub would refuse the
+            # workflow-file change.  Drop it so BOT_PAT is actually used.
+            git config --unset-all http.https://github.com/.extraheader 2>/dev/null || true
             git remote set-url origin "https://x-access-token:${BOT_PAT}@github.com/${GITHUB_REPOSITORY}.git"
             git add .github/workflows/scheduler.yml
             if ! git diff --cached --quiet; then
