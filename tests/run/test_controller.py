@@ -84,6 +84,29 @@ def test_provider_with_budget_but_all_models_down_is_not_callable(tmp_path: Path
     assert ctl.earliest_provider_resume() is None
 
 
+def test_retired_models_do_not_make_provider_collectable(tmp_path: Path):
+    """Registry state may hold retired models (groq llama-3.3-70b / 3.1-8b,
+    404 since 08-17) that are still healthy=True.  They must NOT make the
+    provider look collectable when its configured models are quarantined —
+    that caused the 08-22 collect spin."""
+    cfg, reg, run_log = _setup(tmp_path)
+    ctl = RunController(cfg, reg, run_log, tmp_path)
+    # groq's configured models are quarantined
+    for m in cfg.providers["groq"].models:
+        reg.provider_model_stats("groq", m)["healthy"] = False
+        reg.provider_model_stats("groq", m)["last_health_check"] = "2026-08-22T00:00:00+00:00"
+    # retired models in the registry are still healthy
+    for m in ("llama-3.3-70b-versatile", "llama-3.1-8b-instant"):
+        reg.provider_model_stats("groq", m)["healthy"] = True
+        reg.provider_model_stats("groq", m)["calls"] = 0
+    # openrouter also fully down → isolates the groq retired-model check
+    for m in cfg.providers["openrouter"].models:
+        reg.provider_model_stats("openrouter", m)["healthy"] = False
+        reg.provider_model_stats("openrouter", m)["last_health_check"] = "2026-08-22T00:00:00+00:00"
+    assert ctl.any_collect_provider_callable() is False
+    assert ctl._providers_exhausted() is True
+
+
 def test_decide_next_run_cooldown_points_to_earliest(tmp_path: Path):
     cfg, reg, run_log = _setup(tmp_path)
     ctl = RunController(cfg, reg, run_log, tmp_path)

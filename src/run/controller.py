@@ -134,9 +134,16 @@ class RunController:
         if (self.registry.provider_items_used(p.name) >= p.max_daily_items
                 or self.registry.provider_tokens_used(p.name) >= p.max_daily_tokens):
             return False
-        # configured models + any discovered models seen in the registry
-        candidates = set(p.models)
-        candidates.update(self.registry.provider_state(p.name).get("models", {}))
+        # Only CONFIGURED models count — registry state can contain retired
+        # models (e.g. groq llama-3.3-70b, llama-3.1-8b — 404 since 08-17)
+        # that are still healthy=True; counting them makes a provider look
+        # collectable when its real models are all quarantined → spin.
+        candidates = list(p.models)
+        if p.discover == "free_models":
+            # discovered models with real usage today also count
+            candidates += [m for m, s in self.registry.provider_state(
+                p.name).get("models", {}).items()
+                if s.get("calls", 0) > 0]
         return any(self._model_usable(p.name, m) for m in candidates)
 
     def earliest_provider_resume(self) -> str | None:
