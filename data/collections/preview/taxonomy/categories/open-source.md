@@ -1,7 +1,7 @@
 ---
 node: "open-source"
 layer: category
-item_count: 4
+item_count: 7
 ---
 
 # open-source
@@ -18,6 +18,9 @@ item_count: 4
 
 ## Items
 
+- 2026-08-22 · [[info:item:ai-ml:global:2026-08-22-004]] — Anthropic’s Opus 4.6 is a smut-machine
+- 2026-08-22 · [[info:item:ai-ml:global:2026-08-22-004]] — Anthropic’s Opus 4.6 is a smut-machine
+- 2026-08-22 · [[info:item:ai-ml:global:2026-08-22-005]] — Nvidia partners with data center developer Cloverleaf
 - 2026-08-20 · [[info:item:ai-ml:global:2026-08-20-003]] — Compliance Generation for Privacy Documents under GDPR: A Roadmap for Implementing Automation and Machine Learning
 - 2026-08-20 · [[info:item:ai-ml:global:2026-08-20-003]] — Compliance Generation for Privacy Documents under GDPR: A Roadmap for Implementing Automation and Machine Learning
 - 2026-08-18 · [[info:item:ai-ml:global:2026-08-18-002]] — Neural document expansion for ad-hoc information retrieval

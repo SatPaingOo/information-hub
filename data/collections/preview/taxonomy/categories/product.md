@@ -1,7 +1,7 @@
 ---
 node: "product"
 layer: category
-item_count: 4
+item_count: 6
 ---
 
 # product
@@ -14,6 +14,8 @@ item_count: 4
 
 ## Items
 
+- 2026-08-22 · [[info:item:ai-ml:global:2026-08-22-004]] — Anthropic’s Opus 4.6 is a smut-machine
+- 2026-08-22 · [[info:item:ai-ml:global:2026-08-22-005]] — Nvidia partners with data center developer Cloverleaf
 - 2026-08-21 · [[info:item:products:global:2026-08-21-003]] — Checksum AI: Your Coding Agent’s Testing Buddy
 - 2026-08-20 · [[info:item:ai-ml:global:2026-08-20-003]] — Compliance Generation for Privacy Documents under GDPR: A Roadmap for Implementing Automation and Machine Learning
 - 2026-08-19 · [[info:item:products:global:2026-08-19-007]] — CrewTower
