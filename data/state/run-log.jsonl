@@ -2962,3 +2962,4 @@
 {"ts": "2026-08-22T04:46:55+00:00", "phase": "collect", "event": "no_provider_available", "collection": "products", "item_id": "", "provider": "", "model": "", "status": "skip", "latency_ms": null, "detail": "all collect models down/budget-exhausted/rate-limited"}
 {"ts": "2026-08-22T04:46:55+00:00", "phase": "collect", "event": "progress", "collection": "", "item_id": "", "provider": "", "model": "", "status": "ok", "latency_ms": null, "detail": "collected 0 (target 6/10 remaining 4)"}
 {"ts": "2026-08-22T04:46:55+00:00", "phase": "collect", "event": "phase_end", "collection": "", "item_id": "", "provider": "", "model": "", "status": "ok", "latency_ms": null, "detail": ""}
+{"ts": "2026-08-22T04:48:54+00:00", "phase": "scheduler", "event": "collect_loop_stop", "collection": "", "item_id": "", "provider": "", "model": "", "status": "ok", "latency_ms": null, "detail": "all collect providers over daily budget"}
