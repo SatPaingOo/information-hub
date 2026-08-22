@@ -88,6 +88,14 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "chore: scheduler run $(date -u +%Y-%m-%dT%H-%M)"
-            git pull --rebase origin main || true
-            git push
+            # Two scheduler runs can overlap (cancel-in-progress: false lets a
+            # manual run race a scheduled one).  A rebase conflict on the
+            # shared state files (run-log.jsonl etc.) is expected then — drop
+            # the local commit (the OTHER run pushed equivalent state) and
+            # let the next heartbeat produce a fresh commit.
+            git pull --rebase origin main 2>/dev/null || {
+              echo "rebase conflict (concurrent run) — dropping local commit, remote already has it"
+              git rebase --abort 2>/dev/null || git reset --hard origin/main 2>/dev/null || true
+            }
+            git push || { echo "push failed (remote moved) — will retry next heartbeat"; }
           fi
