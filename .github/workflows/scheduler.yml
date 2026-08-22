@@ -83,6 +83,15 @@ jobs:
           else
             git remote set-url origin "https://x-access-token:${BOT_PAT}@github.com/${GITHUB_REPOSITORY}.git"
           fi
+          # 1) CRON CHANGE — commit + push FIRST (workflow files can only be
+          #    pushed by BOT_PAT; the data commit below must not swallow or
+          #    lose this change, and it must land before we rebase data).
+          git add .github/workflows/scheduler.yml
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: scheduler cron -> $(grep -oE 'cron: \"[^\"]*\"' .github/workflows/scheduler.yml | head -1)" 2>/dev/null
+            git push origin main 2>/dev/null || echo "cron push skipped (will retry next run)"
+          fi
+          # 2) DATA — commit + push generated state (cron change already out).
           git add -A
           if git diff --cached --quiet; then
             echo "No changes to commit"
