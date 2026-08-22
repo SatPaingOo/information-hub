@@ -104,26 +104,57 @@ class RunController:
         return True
 
     # ---- next-run decision ---------------------------------------------
+    def _model_usable(self, provider: str, model: str) -> bool:
+        """True if a model is healthy AND not in a per-model cooldown."""
+        if not self.registry.provider_healthy(provider, model):
+            return False
+        until = self.registry.model_cooldown_until(provider, model)
+        if not until:
+            return True
+        try:
+            deadline = dt.datetime.fromisoformat(until)
+            if deadline.tzinfo is None:
+                deadline = deadline.replace(tzinfo=dt.timezone.utc)
+            return deadline <= dt.datetime.now(dt.timezone.utc)
+        except ValueError:
+            return True
+
+    def _provider_collectable(self, p) -> bool:
+        """True if a collect provider has budget AND at least one usable
+        (healthy, not cooling) model.
+
+        Budget-only checks let the scheduler spin: a provider with token
+        budget left but every model quarantined (healthy=False today)
+        returns True from a budget check, runs collect, gets 0 items, and
+        repeats 20× (see 08-22 heartbeat spin).  A provider is only
+        collectable when it can actually produce an item.
+        """
+        if not p.enabled or p.role != "collect":
+            return False
+        if (self.registry.provider_items_used(p.name) >= p.max_daily_items
+                or self.registry.provider_tokens_used(p.name) >= p.max_daily_tokens):
+            return False
+        # configured models + any discovered models seen in the registry
+        candidates = set(p.models)
+        candidates.update(self.registry.provider_state(p.name).get("models", {}))
+        return any(self._model_usable(p.name, m) for m in candidates)
+
     def earliest_provider_resume(self) -> str | None:
         """Earliest ISO time a COLLECT provider with budget left can be called.
 
         Only collect-role providers that still have daily token/item budget
-        count — a budget-exhausted provider's (expired) cooldown must not be
-        mistaken for "callable".  Returns None when such a provider can be
-        called right now.
+        AND a usable model count — a budget-exhausted or all-models-down
+        provider's (expired) cooldown must not be mistaken for "callable".
+        Returns None when such a provider can be called right now.
         """
         now = dt.datetime.now(dt.timezone.utc)
         earliest: dt.datetime | None = None
         for provider in self.cfg.providers.values():
-            if not provider.enabled or provider.role != "collect":
-                continue
-            # budget-exhausted → irrelevant for the next call
-            if (self.registry.provider_items_used(provider.name) >= provider.max_daily_items
-                    or self.registry.provider_tokens_used(provider.name) >= provider.max_daily_tokens):
+            if not self._provider_collectable(provider):
                 continue
             until = self.registry.provider_cooldown_until(provider.name)
             if not until:
-                return None  # a budgeted collect provider is callable now
+                return None  # a collectable provider is callable now
             try:
                 deadline = dt.datetime.fromisoformat(until)
                 if deadline.tzinfo is None:
@@ -159,27 +190,23 @@ class RunController:
         return (now + dt.timedelta(minutes=delay)).isoformat(timespec="seconds")
 
     def _providers_exhausted(self) -> bool:
-        """True when every collect provider is at its daily token/item budget."""
+        """True when every collect provider is out of budget OR has no usable
+        model (all quarantined) — nothing can be produced today."""
         for p in self.cfg.providers.values():
-            if not p.enabled or p.role != "collect":
-                continue
-            if (self.registry.provider_items_used(p.name) < p.max_daily_items
-                    and self.registry.provider_tokens_used(p.name) < p.max_daily_tokens):
+            if self._provider_collectable(p):
                 return False
         return True
 
     def any_collect_provider_callable(self) -> bool:
         """True when at least one collect provider still has daily token/item
-        budget left (ignores cooldown — the scheduler waits those out).
+        budget AND a usable model (ignores cooldown — the scheduler waits
+        those out).
 
         The scheduler calls this only AFTER honoring cooldown waits, so a
         False here means "nothing will change this run".
         """
         for p in self.cfg.providers.values():
-            if not p.enabled or p.role != "collect":
-                continue
-            if (self.registry.provider_items_used(p.name) < p.max_daily_items
-                    and self.registry.provider_tokens_used(p.name) < p.max_daily_tokens):
+            if self._provider_collectable(p):
                 return True
         return False
 

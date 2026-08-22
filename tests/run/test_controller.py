@@ -62,9 +62,26 @@ def test_resume_ignores_budget_exhausted_provider(tmp_path: Path):
     assert resume is not None
     assert resume.startswith("2099-01-02")     # groq's cooldown, not None
     # now groq also budget-exhausted + cooldown expired → nothing callable
-    reg.record_provider_call("groq", "m", tokens=99999)
+    reg.record_provider_call("groq", "m", tokens=10**9)
     assert ctl.earliest_provider_resume() is None
     assert ctl.any_collect_provider_callable() is False
+
+
+def test_provider_with_budget_but_all_models_down_is_not_callable(tmp_path: Path):
+    """Budget left but every model quarantined (healthy=False today) must
+    NOT be 'callable' — the scheduler would spin collect subprocesses that
+    produce nothing (08-22 heartbeat spin)."""
+    cfg, reg, run_log = _setup(tmp_path)
+    ctl = RunController(cfg, reg, run_log, tmp_path)
+    # openrouter: budget OK but its model is quarantined
+    for m in cfg.providers["openrouter"].models:
+        reg.provider_model_stats("openrouter", m)["healthy"] = False
+        reg.provider_model_stats("openrouter", m)["last_health_check"] = "2026-08-22T00:00:00+00:00"
+    # groq: budget-exhausted → also not collectable
+    reg.record_provider_call("groq", "m", tokens=10**9)
+    assert ctl.any_collect_provider_callable() is False
+    assert ctl._providers_exhausted() is True
+    assert ctl.earliest_provider_resume() is None
 
 
 def test_decide_next_run_cooldown_points_to_earliest(tmp_path: Path):
