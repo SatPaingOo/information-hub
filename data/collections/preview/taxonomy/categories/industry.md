@@ -1,7 +1,7 @@
 ---
 node: "industry"
 layer: category
-item_count: 14
+item_count: 15
 ---
 
 # industry
@@ -18,6 +18,7 @@ item_count: 14
 - 2026-08-23 · [[info:item:world:global:2026-08-23-001]] — Fourteen killed in strike on Myanmar monastery
 - 2026-08-23 · [[info:item:world:global:2026-08-23-002]] — Rescuers dig through Ukraine mall wreckage as Zelensky condemns 'despicable' Russian strike
 - 2026-08-23 · [[info:item:world:global:2026-08-23-003]] — Syria says Israeli strike near Damascus violation of international law
+- 2026-08-23 · [[info:item:world:global:2026-08-23-008]] — Carney calls Trump's fresh tariffs a 'miscalculation' after trade talks collapse
 - 2026-08-22 · [[info:item:world:global:2026-08-22-001]] — Russian double-tap drone strike kills 15 in Ukrainian mall, officials say
 - 2026-08-22 · [[info:item:world:global:2026-08-22-002]] — 'We have more work to do', says Canada negotiator as US trade deadline looms
 - 2026-08-22 · [[info:item:world:global:2026-08-22-003]] — TikTok to pay $400m to US in one of largest child privacy settlements

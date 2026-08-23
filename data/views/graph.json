@@ -937,6 +937,22 @@
       "name": "UK politics"
     },
     {
+      "id": "info:item:world:global:2026-08-23-008",
+      "type": "item",
+      "date": "2026-08-23",
+      "title": "Carney calls Trump's fresh tariffs a 'miscalculation' after trade talks collapse"
+    },
+    {
+      "id": "taxonomy/misc/trade policy",
+      "type": "taxonomy",
+      "name": "trade policy"
+    },
+    {
+      "id": "taxonomy/misc/North America",
+      "type": "taxonomy",
+      "name": "North America"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -2927,6 +2943,71 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-08-23-008",
+      "target": "info:entity:person:Mark Carney",
+      "relation": "Canadian Prime Minister"
+    },
+    {
+      "source": "info:item:world:global:2026-08-23-008",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "U.S. President"
+    },
+    {
+      "source": "info:item:world:global:2026-08-23-008",
+      "target": "info:entity:person:Jamieson Greer",
+      "relation": "U.S. Trade Representative"
+    },
+    {
+      "source": "info:item:world:global:2026-08-23-008",
+      "target": "info:entity:region:North America",
+      "relation": "Geographic context of trade relationship"
+    },
+    {
+      "source": "info:item:world:global:2026-08-23-008",
+      "target": "info:item:world:global:2026-08-23-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-08-23-008",
+      "target": "info:item:world:global:2026-08-23-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-08-23-008",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-23-008",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-23-008",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-23-008",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-23-008",
+      "target": "taxonomy/misc/trade policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-08-23-008",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-08-23-008",
+      "target": "taxonomy/misc/North America",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -4018,19 +4099,19 @@
       "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:Jamieson Greer",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:Mark Carney",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Donald Trump",
       "target": "info:entity:region:North America",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Israel Katz",
@@ -4048,13 +4129,13 @@
       "source": "info:entity:person:Jamieson Greer",
       "target": "info:entity:person:Mark Carney",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Jamieson Greer",
       "target": "info:entity:region:North America",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Lord Jim O'Neill",
@@ -4072,7 +4153,7 @@
       "source": "info:entity:person:Mark Carney",
       "target": "info:entity:region:North America",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Mykhailo Fedorov",
