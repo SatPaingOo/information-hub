@@ -953,6 +953,22 @@
       "name": "North America"
     },
     {
+      "id": "info:item:world:global:2026-08-23-009",
+      "type": "item",
+      "date": "2026-08-23",
+      "title": "Carney says Trump started trade war with fresh tariffs ‘attack’"
+    },
+    {
+      "id": "info:entity:organization:USMCA",
+      "type": "organization",
+      "name": "USMCA"
+    },
+    {
+      "id": "taxonomy/misc/International Trade",
+      "type": "taxonomy",
+      "name": "International Trade"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -3008,6 +3024,71 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-08-23-009",
+      "target": "info:entity:person:Mark Carney",
+      "relation": "Prime Minister of Canada, announced retaliatory tariffs"
+    },
+    {
+      "source": "info:item:world:global:2026-08-23-009",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "U.S. President, imposed initial tariffs"
+    },
+    {
+      "source": "info:item:world:global:2026-08-23-009",
+      "target": "info:entity:person:Jamieson Greer",
+      "relation": "U.S. Trade Representative, defended U.S. position"
+    },
+    {
+      "source": "info:item:world:global:2026-08-23-009",
+      "target": "info:entity:organization:USMCA",
+      "relation": "North‑American trade agreement under review"
+    },
+    {
+      "source": "info:item:world:global:2026-08-23-009",
+      "target": "info:item:world:global:2026-08-23-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-08-23-009",
+      "target": "info:item:world:global:2026-08-23-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-08-23-009",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-23-009",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-23-009",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-23-009",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-23-009",
+      "target": "taxonomy/misc/Geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-08-23-009",
+      "target": "taxonomy/misc/International Trade",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-08-23-009",
+      "target": "taxonomy/misc/North America",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -3976,6 +4057,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:USMCA",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:USMCA",
+      "target": "info:entity:person:Jamieson Greer",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:USMCA",
+      "target": "info:entity:person:Mark Carney",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Ukrainian Government",
       "target": "info:entity:person:Mykhailo Fedorov",
       "relation": "co-occurs",
@@ -4099,13 +4198,13 @@
       "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:Jamieson Greer",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:Mark Carney",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:person:Donald Trump",
@@ -4129,7 +4228,7 @@
       "source": "info:entity:person:Jamieson Greer",
       "target": "info:entity:person:Mark Carney",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:person:Jamieson Greer",
