@@ -1,7 +1,7 @@
 ---
 node: "open-source"
 layer: category
-item_count: 7
+item_count: 11
 ---
 
 # open-source
@@ -18,6 +18,10 @@ item_count: 7
 
 ## Items
 
+- 2026-08-23 · [[info:item:ai-ml:global:2026-08-23-004]] — I like fish, especially dolphins: Addressing Contradictions in Dialogue Modeling
+- 2026-08-23 · [[info:item:ai-ml:global:2026-08-23-005]] — Toward Compact Data from Big Data: A Novel Approach to Dataset Optimization
+- 2026-08-23 · [[info:item:ai-ml:global:2026-08-23-005]] — Toward Compact Data from Big Data: A Novel Approach to Dataset Optimization
+- 2026-08-23 · [[info:item:ai-ml:global:2026-08-23-006]] — Feature Selection and Feature Extraction in Pattern Analysis: A Literature Review
 - 2026-08-22 · [[info:item:ai-ml:global:2026-08-22-004]] — Anthropic’s Opus 4.6 is a smut-machine
 - 2026-08-22 · [[info:item:ai-ml:global:2026-08-22-004]] — Anthropic’s Opus 4.6 is a smut-machine
 - 2026-08-22 · [[info:item:ai-ml:global:2026-08-22-005]] — Nvidia partners with data center developer Cloverleaf

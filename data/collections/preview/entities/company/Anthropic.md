@@ -1,7 +1,7 @@
 ---
 name: "Anthropic"
 entity_type: company
-backlink_count: 5
+backlink_count: 6
 ---
 
 # Anthropic
@@ -10,6 +10,7 @@ backlink_count: 5
 
 ## Referenced by
 
+- 2026-08-23 · [[info:item:ai-ml:global:2026-08-23-006]] — Feature Selection and Feature Extraction in Pattern Analysis: A Literature Review
 - 2026-08-22 · [[info:item:ai-ml:global:2026-08-22-004]] — Anthropic’s Opus 4.6 is a smut-machine
 - 2026-08-21 · [[info:item:products:global:2026-08-21-003]] — Checksum AI: Your Coding Agent’s Testing Buddy
 - 2026-08-20 · [[info:item:ai-ml:global:2026-08-20-003]] — Compliance Generation for Privacy Documents under GDPR: A Roadmap for Implementing Automation and Machine Learning

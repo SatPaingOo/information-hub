@@ -1,7 +1,7 @@
 ---
 node: "politics"
 layer: topic
-item_count: 4
+item_count: 5
 ---
 
 # politics
@@ -16,6 +16,7 @@ item_count: 4
 
 ## Items
 
+- 2026-08-23 · [[info:item:politics:global:2026-08-23-007]] — Economic adviser O'Neill rules out government job but backs PM's devolution plans
 - 2026-08-21 · [[info:item:politics:global:2026-08-21-001]] — Councils turn to AI in attempt to fill £4bn black hole
 - 2026-08-18 · [[info:item:politics:global:2026-08-18-001]] — Burnham exchanged messages with person posing as Trump's chief of staff
 - 2026-08-18 · [[info:item:politics:global:2026-08-18-001]] — Burnham exchanged messages with person posing as Trump's chief of staff

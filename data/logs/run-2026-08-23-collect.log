@@ -1,0 +1,14 @@
+2026-08-23 02:20:03,455 INFO [world-news] published 2026-08-23-001 — Fourteen killed in strike on Myanmar monastery
+2026-08-23 02:20:23,732 INFO [world-news] published 2026-08-23-002 — Rescuers dig through Ukraine mall wreckage as Zelensky conde
+2026-08-23 02:20:39,015 INFO [world-news] published 2026-08-23-003 — Syria says Israeli strike near Damascus violation of interna
+2026-08-23 02:21:07,027 INFO [tech-news] published 2026-08-23-004 — I like fish, especially dolphins: Addressing Contradictions 
+2026-08-23 02:21:37,975 INFO [tech-news] published 2026-08-23-005 — Toward Compact Data from Big Data: A Novel Approach to Datas
+2026-08-23 02:21:56,144 INFO [tech-news] published 2026-08-23-006 — Feature Selection and Feature Extraction in Pattern Analysis
+2026-08-23 02:21:57,518 INFO [politics] model returned no selection — using heuristic fallback (2)
+2026-08-23 02:22:00,075 INFO [politics] attempt 1 invalid: [": 'title' is a required property", ": 'tldr' is a required property"]
+2026-08-23 02:22:00,194 ERROR [politics] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7985, Requested 3918. Please try again in 29.2725s. Need more tokens? Upgrade to Dev Tier today at https://con
+2026-08-23 02:22:10,705 INFO [politics] published 2026-08-23-007 — Economic adviser O'Neill rules out government job but backs 
+2026-08-23 02:22:10,935 ERROR [politics] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 5329, Requested 4106. Please try again in 10.7625s. Need more tokens? Upgrade to Dev Tier today at https://co
+2026-08-23 02:22:13,937 WARNING [politics] no collect provider for deep-dive
+2026-08-23 02:22:14,903 WARNING [products] no collect provider available
+2026-08-23 02:22:14,939 INFO collect done: 7 item(s) published — target 3/10, next run ≈ 2026-08-24T01:00:00+00:00 UTC

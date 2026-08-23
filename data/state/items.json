@@ -96,19 +96,19 @@
     "approved_at": null
   },
   "e3b0c44298fc1c14": {
-    "id": "info:item:ai-ml:global:2026-08-20-003",
-    "key": "2026-08-20-003",
-    "title": "Compliance Generation for Privacy Documents under GDPR: A Roadmap for Implementing Automation and Machine Learning",
-    "date": "2026-08-20",
-    "collection": "",
-    "title_hash": "957823789c8822d5",
+    "id": "info:item:ai-ml:global:2026-08-23-006",
+    "key": "2026-08-23-006",
+    "title": "Feature Selection and Feature Extraction in Pattern Analysis: A Literature Review",
+    "date": "2026-08-23",
+    "collection": "tech-news",
+    "title_hash": "1cdbe48fa0391055",
     "url_hash": "e3b0c44298fc1c14",
     "status": "published",
-    "word_count": 574,
+    "word_count": 1055,
     "gemini_calls": 1,
     "validated": true,
     "provider": "openrouter",
-    "model": "nvidia/nemotron-3-super-120b-a12b:free",
+    "model": "poolside/laguna-xs-2.1:free",
     "grounding_score": 1.0,
     "review_status": "verified",
     "approved_by": {
@@ -116,7 +116,7 @@
       "provider": "lexical",
       "model": "lexical"
     },
-    "approved_at": "2026-08-20T02:32:29+00:00"
+    "approved_at": "2026-08-23T02:22:39+00:00"
   },
   "0e388c0dddf720aa": {
     "id": "info:item:ai-ml:global:2026-08-18-002",
@@ -135,19 +135,19 @@
     "approved_at": null
   },
   "1796df62c4a287cc": {
-    "id": "info:item:world:global:2026-08-22-006",
-    "key": "2026-08-22-006",
-    "title": "Russian double‑tap drone strike kills 16 in Ukrainian mall, officials say",
-    "date": "2026-08-22",
+    "id": "info:item:world:global:2026-08-23-003",
+    "key": "2026-08-23-003",
+    "title": "Syria says Israeli strike near Damascus violation of international law",
+    "date": "2026-08-23",
     "collection": "world-news",
-    "title_hash": "8a5aca42ef86b8b9",
+    "title_hash": "cd12c8ebf03ff6d1",
     "url_hash": "1796df62c4a287cc",
     "status": "published",
-    "word_count": 600,
+    "word_count": 532,
     "gemini_calls": 1,
     "validated": true,
-    "provider": "groq",
-    "model": "openai/gpt-oss-120b",
+    "provider": "openrouter",
+    "model": "poolside/laguna-xs-2.1:free",
     "grounding_score": 1.0,
     "review_status": "verified",
     "approved_by": {
@@ -155,7 +155,7 @@
       "provider": "lexical",
       "model": "lexical"
     },
-    "approved_at": "2026-08-22T04:07:16+00:00"
+    "approved_at": "2026-08-23T02:22:30+00:00"
   },
   "d52f5b521f0c77f0": {
     "id": "info:item:world:global:2026-08-18-004",
@@ -262,23 +262,27 @@
     "approved_at": "2026-08-20T02:32:29+00:00"
   },
   "37a645db62c6fb70": {
-    "id": "info:item:politics:global:2026-08-21-001",
-    "key": "2026-08-21-001",
-    "title": "Councils turn to AI in attempt to fill £4bn black hole",
-    "date": "2026-08-21",
+    "id": "info:item:politics:global:2026-08-23-007",
+    "key": "2026-08-23-007",
+    "title": "Economic adviser O'Neill rules out government job but backs PM's devolution plans",
+    "date": "2026-08-23",
     "collection": "politics",
-    "title_hash": "4d0ad510cd7a9803",
+    "title_hash": "446aa486f164b3b7",
     "url_hash": "37a645db62c6fb70",
     "status": "published",
-    "word_count": 885,
-    "gemini_calls": 1,
+    "word_count": 742,
+    "gemini_calls": 3,
     "validated": true,
-    "provider": "openrouter",
-    "model": "cohere/north-mini-code:free",
-    "grounding_score": null,
-    "review_status": "pending_review",
-    "approved_by": null,
-    "approved_at": null
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "grounding_score": 1.0,
+    "review_status": "verified",
+    "approved_by": {
+      "type": "ai",
+      "provider": "lexical",
+      "model": "lexical"
+    },
+    "approved_at": "2026-08-23T02:22:42+00:00"
   },
   "4d0ad510cd7a9803": {
     "id": "info:item:politics:global:2026-08-21-001",
@@ -554,5 +558,166 @@
       "model": "lexical"
     },
     "approved_at": "2026-08-22T04:07:16+00:00"
+  },
+  "03cd517a70b0dcd5": {
+    "id": "info:item:world:global:2026-08-23-001",
+    "key": "2026-08-23-001",
+    "title": "Fourteen killed in strike on Myanmar monastery",
+    "date": "2026-08-23",
+    "collection": "world-news",
+    "title_hash": "03cd517a70b0dcd5",
+    "url_hash": "1796df62c4a287cc",
+    "status": "published",
+    "word_count": 706,
+    "gemini_calls": 1,
+    "validated": true,
+    "provider": "openrouter",
+    "model": "poolside/laguna-xs-2.1:free",
+    "grounding_score": 1.0,
+    "review_status": "verified",
+    "approved_by": {
+      "type": "ai",
+      "provider": "lexical",
+      "model": "lexical"
+    },
+    "approved_at": "2026-08-23T02:22:24+00:00"
+  },
+  "c99c134ee66c06b5": {
+    "id": "info:item:world:global:2026-08-23-002",
+    "key": "2026-08-23-002",
+    "title": "Rescuers dig through Ukraine mall wreckage as Zelensky condemns 'despicable' Russian strike",
+    "date": "2026-08-23",
+    "collection": "world-news",
+    "title_hash": "c99c134ee66c06b5",
+    "url_hash": "1796df62c4a287cc",
+    "status": "published",
+    "word_count": 556,
+    "gemini_calls": 1,
+    "validated": true,
+    "provider": "openrouter",
+    "model": "poolside/laguna-xs-2.1:free",
+    "grounding_score": 1.0,
+    "review_status": "verified",
+    "approved_by": {
+      "type": "ai",
+      "provider": "lexical",
+      "model": "lexical"
+    },
+    "approved_at": "2026-08-23T02:22:27+00:00"
+  },
+  "cd12c8ebf03ff6d1": {
+    "id": "info:item:world:global:2026-08-23-003",
+    "key": "2026-08-23-003",
+    "title": "Syria says Israeli strike near Damascus violation of international law",
+    "date": "2026-08-23",
+    "collection": "world-news",
+    "title_hash": "cd12c8ebf03ff6d1",
+    "url_hash": "1796df62c4a287cc",
+    "status": "published",
+    "word_count": 532,
+    "gemini_calls": 1,
+    "validated": true,
+    "provider": "openrouter",
+    "model": "poolside/laguna-xs-2.1:free",
+    "grounding_score": 1.0,
+    "review_status": "verified",
+    "approved_by": {
+      "type": "ai",
+      "provider": "lexical",
+      "model": "lexical"
+    },
+    "approved_at": "2026-08-23T02:22:30+00:00"
+  },
+  "06d39d41e025a7e0": {
+    "id": "info:item:ai-ml:global:2026-08-23-004",
+    "key": "2026-08-23-004",
+    "title": "I like fish, especially dolphins: Addressing Contradictions in Dialogue Modeling",
+    "date": "2026-08-23",
+    "collection": "tech-news",
+    "title_hash": "06d39d41e025a7e0",
+    "url_hash": "e3b0c44298fc1c14",
+    "status": "published",
+    "word_count": 680,
+    "gemini_calls": 1,
+    "validated": true,
+    "provider": "openrouter",
+    "model": "poolside/laguna-xs-2.1:free",
+    "grounding_score": 1.0,
+    "review_status": "verified",
+    "approved_by": {
+      "type": "ai",
+      "provider": "lexical",
+      "model": "lexical"
+    },
+    "approved_at": "2026-08-23T02:22:33+00:00"
+  },
+  "18d45acc584eeeb4": {
+    "id": "info:item:ai-ml:global:2026-08-23-005",
+    "key": "2026-08-23-005",
+    "title": "Toward Compact Data from Big Data: A Novel Approach to Dataset Optimization",
+    "date": "2026-08-23",
+    "collection": "tech-news",
+    "title_hash": "18d45acc584eeeb4",
+    "url_hash": "e3b0c44298fc1c14",
+    "status": "published",
+    "word_count": 738,
+    "gemini_calls": 1,
+    "validated": true,
+    "provider": "openrouter",
+    "model": "poolside/laguna-xs-2.1:free",
+    "grounding_score": 0.833,
+    "review_status": "verified",
+    "approved_by": {
+      "type": "ai",
+      "provider": "lexical",
+      "model": "lexical"
+    },
+    "approved_at": "2026-08-23T02:22:36+00:00"
+  },
+  "1cdbe48fa0391055": {
+    "id": "info:item:ai-ml:global:2026-08-23-006",
+    "key": "2026-08-23-006",
+    "title": "Feature Selection and Feature Extraction in Pattern Analysis: A Literature Review",
+    "date": "2026-08-23",
+    "collection": "tech-news",
+    "title_hash": "1cdbe48fa0391055",
+    "url_hash": "e3b0c44298fc1c14",
+    "status": "published",
+    "word_count": 1055,
+    "gemini_calls": 1,
+    "validated": true,
+    "provider": "openrouter",
+    "model": "poolside/laguna-xs-2.1:free",
+    "grounding_score": 1.0,
+    "review_status": "verified",
+    "approved_by": {
+      "type": "ai",
+      "provider": "lexical",
+      "model": "lexical"
+    },
+    "approved_at": "2026-08-23T02:22:39+00:00"
+  },
+  "446aa486f164b3b7": {
+    "id": "info:item:politics:global:2026-08-23-007",
+    "key": "2026-08-23-007",
+    "title": "Economic adviser O'Neill rules out government job but backs PM's devolution plans",
+    "date": "2026-08-23",
+    "collection": "politics",
+    "title_hash": "446aa486f164b3b7",
+    "url_hash": "37a645db62c6fb70",
+    "status": "published",
+    "word_count": 742,
+    "gemini_calls": 3,
+    "validated": true,
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "grounding_score": 1.0,
+    "review_status": "verified",
+    "approved_by": {
+      "type": "ai",
+      "provider": "lexical",
+      "model": "lexical"
+    },
+    "approved_at": "2026-08-23T02:22:42+00:00"
   }
 }
