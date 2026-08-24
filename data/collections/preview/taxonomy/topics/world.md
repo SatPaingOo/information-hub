@@ -1,7 +1,7 @@
 ---
 node: "world"
 layer: topic
-item_count: 19
+item_count: 20
 ---
 
 # world
@@ -20,6 +20,7 @@ item_count: 19
 - 2026-08-24 · [[info:item:world:global:2026-08-24-002]] — Trump says Canada wants 'benefits' of being US state after trade talks collapse
 - 2026-08-24 · [[info:item:world:global:2026-08-24-003]] — Guinea rubbish landfill collapse kills 30
 - 2026-08-24 · [[info:item:world:global:2026-08-24-007]] — Burnham to visit Kyiv on first foreign trip and reaffirm UK support for Ukraine
+- 2026-08-24 · [[info:item:world:global:2026-08-24-008]] — Shein Targets Near $27bn Valuation in Hong Kong IPO Amid Regulatory and Cost Pressures
 - 2026-08-23 · [[info:item:world:global:2026-08-23-001]] — Fourteen killed in strike on Myanmar monastery
 - 2026-08-23 · [[info:item:world:global:2026-08-23-002]] — Rescuers dig through Ukraine mall wreckage as Zelensky condemns 'despicable' Russian strike
 - 2026-08-23 · [[info:item:world:global:2026-08-23-003]] — Syria says Israeli strike near Damascus violation of international law

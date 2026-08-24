@@ -1131,6 +1131,27 @@
       "name": "Defense Industry"
     },
     {
+      "id": "info:item:world:global:2026-08-24-008",
+      "type": "item",
+      "date": "2026-08-24",
+      "title": "Shein Targets Near $27bn Valuation in Hong Kong IPO Amid Regulatory and Cost Pressures"
+    },
+    {
+      "id": "info:entity:company:Shein",
+      "type": "company",
+      "name": "Shein"
+    },
+    {
+      "id": "info:entity:organization:Goldman Sachs",
+      "type": "organization",
+      "name": "Goldman Sachs"
+    },
+    {
+      "id": "info:entity:region:Hong Kong",
+      "type": "region",
+      "name": "Hong Kong"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -3721,6 +3742,71 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-08-24-008",
+      "target": "info:entity:company:Shein",
+      "relation": "subject"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-008",
+      "target": "info:entity:organization:Goldman Sachs",
+      "relation": "underwriter"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-008",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "policy impact"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-008",
+      "target": "info:entity:region:Hong Kong",
+      "relation": "listing venue"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-008",
+      "target": "info:item:world:global:2026-08-24-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-008",
+      "target": "info:item:world:global:2026-08-24-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-008",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-008",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-008",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-008",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-008",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-008",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-008",
+      "target": "taxonomy/category/industry",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -4055,6 +4141,24 @@
     {
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:region:global",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Shein",
+      "target": "info:entity:organization:Goldman Sachs",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Shein",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Shein",
+      "target": "info:entity:region:Hong Kong",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -4695,6 +4799,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Goldman Sachs",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Goldman Sachs",
+      "target": "info:entity:region:Hong Kong",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Hong Kong Alliance (HKA)",
       "target": "info:entity:person:Chow Hang‑tung",
       "relation": "co-occurs",
@@ -5035,6 +5151,12 @@
       "target": "info:entity:person:Mark Carney",
       "relation": "co-occurs",
       "weight": "4"
+    },
+    {
+      "source": "info:entity:person:Donald Trump",
+      "target": "info:entity:region:Hong Kong",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:person:Donald Trump",
