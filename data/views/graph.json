@@ -1115,6 +1115,22 @@
       "name": "Crowdsourcing"
     },
     {
+      "id": "info:item:world:global:2026-08-24-007",
+      "type": "item",
+      "date": "2026-08-24",
+      "title": "Burnham to visit Kyiv on first foreign trip and reaffirm UK support for Ukraine"
+    },
+    {
+      "id": "info:entity:organization:MBDA",
+      "type": "organization",
+      "name": "MBDA"
+    },
+    {
+      "id": "taxonomy/misc/Defense Industry",
+      "type": "taxonomy",
+      "name": "Defense Industry"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -3640,6 +3656,71 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-08-24-007",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "UK Prime Minister leading the visit"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-007",
+      "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "Ukrainian President receiving the UK delegation"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-007",
+      "target": "info:entity:organization:MBDA",
+      "relation": "Defence contractor authorized to declassify missile component data"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-007",
+      "target": "info:entity:organization:Russian Embassy to the UK",
+      "relation": "Issued warning about British drone usage"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-007",
+      "target": "info:item:world:global:2026-08-24-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-007",
+      "target": "info:item:world:global:2026-08-24-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-007",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-007",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-007",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-007",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-007",
+      "target": "taxonomy/misc/Geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-007",
+      "target": "taxonomy/misc/Defense Industry",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-007",
+      "target": "taxonomy/misc/International Relations",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -4656,6 +4737,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:MBDA",
+      "target": "info:entity:organization:Russian Embassy to the UK",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:MBDA",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:MBDA",
+      "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Myanmar military (Tatmadaw)",
       "target": "info:entity:region:Sagaing region",
       "relation": "co-occurs",
@@ -4705,7 +4804,19 @@
     },
     {
       "source": "info:entity:organization:Russian Embassy to the UK",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Russian Embassy to the UK",
       "target": "info:entity:person:Vladimir Putin",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Russian Embassy to the UK",
+      "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -4826,6 +4937,12 @@
     {
       "source": "info:entity:person:Andy Burnham",
       "target": "info:entity:person:Susie Wiles",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Andy Burnham",
+      "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
       "weight": "1"
     },

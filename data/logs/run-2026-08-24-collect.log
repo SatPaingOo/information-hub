@@ -15,3 +15,11 @@
 2026-08-24 02:24:18,725 WARNING [politics] no collect provider for deep-dive
 2026-08-24 02:24:19,447 WARNING [products] no collect provider available
 2026-08-24 02:24:19,482 INFO collect done: 6 item(s) published — target 4/10, next run ≈ 2026-08-25T01:00:00+00:00 UTC
+2026-08-24 03:35:37,095 INFO [world-news] published 2026-08-24-007 — Burnham to visit Kyiv on first foreign trip and reaffirm UK 
+2026-08-24 03:35:37,264 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7977, Requested 3999. Please try again in 29.82s. Need more tokens? Upgrade to Dev Tier today at https://cons
+2026-08-24 03:35:40,266 WARNING [world-news] no collect provider for deep-dive
+2026-08-24 03:35:40,342 WARNING [world-news] no collect provider for deep-dive
+2026-08-24 03:35:40,929 WARNING [tech-news] no collect provider available
+2026-08-24 03:35:41,452 WARNING [politics] no collect provider available
+2026-08-24 03:35:42,215 WARNING [products] no collect provider available
+2026-08-24 03:35:42,254 INFO collect done: 1 item(s) published — target 3/10, next run ≈ 2026-08-25T01:00:00+00:00 UTC

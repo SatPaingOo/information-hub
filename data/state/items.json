@@ -116,7 +116,7 @@
       "provider": "lexical",
       "model": "lexical"
     },
-    "approved_at": "2026-08-24T02:24:44+00:00"
+    "approved_at": "2026-08-24T03:36:06+00:00"
   },
   "0e388c0dddf720aa": {
     "id": "info:item:ai-ml:global:2026-08-18-002",
@@ -135,19 +135,19 @@
     "approved_at": null
   },
   "1796df62c4a287cc": {
-    "id": "info:item:world:global:2026-08-24-003",
-    "key": "2026-08-24-003",
-    "title": "Guinea rubbish landfill collapse kills 30",
+    "id": "info:item:world:global:2026-08-24-007",
+    "key": "2026-08-24-007",
+    "title": "Burnham to visit Kyiv on first foreign trip and reaffirm UK support for Ukraine",
     "date": "2026-08-24",
     "collection": "world-news",
-    "title_hash": "aa4acebfc3a01c65",
+    "title_hash": "71e75ad2c5cb8346",
     "url_hash": "1796df62c4a287cc",
     "status": "published",
-    "word_count": 531,
+    "word_count": 860,
     "gemini_calls": 1,
     "validated": true,
-    "provider": "openrouter",
-    "model": "poolside/laguna-xs-2.1:free",
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
     "grounding_score": 1.0,
     "review_status": "verified",
     "approved_by": {
@@ -155,7 +155,7 @@
       "provider": "lexical",
       "model": "lexical"
     },
-    "approved_at": "2026-08-24T02:24:35+00:00"
+    "approved_at": "2026-08-24T03:36:09+00:00"
   },
   "d52f5b521f0c77f0": {
     "id": "info:item:world:global:2026-08-18-004",
@@ -787,7 +787,7 @@
       "provider": "lexical",
       "model": "lexical"
     },
-    "approved_at": "2026-08-24T02:24:29+00:00"
+    "approved_at": "2026-08-24T03:35:51+00:00"
   },
   "3b5d6b79f3909dee": {
     "id": "info:item:world:global:2026-08-24-002",
@@ -810,7 +810,7 @@
       "provider": "lexical",
       "model": "lexical"
     },
-    "approved_at": "2026-08-24T02:24:32+00:00"
+    "approved_at": "2026-08-24T03:35:54+00:00"
   },
   "aa4acebfc3a01c65": {
     "id": "info:item:world:global:2026-08-24-003",
@@ -833,7 +833,7 @@
       "provider": "lexical",
       "model": "lexical"
     },
-    "approved_at": "2026-08-24T02:24:35+00:00"
+    "approved_at": "2026-08-24T03:35:57+00:00"
   },
   "f9f061de70179897": {
     "id": "info:item:ai-ml:global:2026-08-24-004",
@@ -856,7 +856,7 @@
       "provider": "lexical",
       "model": "lexical"
     },
-    "approved_at": "2026-08-24T02:24:38+00:00"
+    "approved_at": "2026-08-24T03:36:00+00:00"
   },
   "959370e4eeb5611b": {
     "id": "info:item:ai-ml:global:2026-08-24-005",
@@ -879,7 +879,7 @@
       "provider": "lexical",
       "model": "lexical"
     },
-    "approved_at": "2026-08-24T02:24:41+00:00"
+    "approved_at": "2026-08-24T03:36:03+00:00"
   },
   "b641454d8963ac8f": {
     "id": "info:item:ai-ml:global:2026-08-24-006",
@@ -902,6 +902,29 @@
       "provider": "lexical",
       "model": "lexical"
     },
-    "approved_at": "2026-08-24T02:24:44+00:00"
+    "approved_at": "2026-08-24T03:36:06+00:00"
+  },
+  "71e75ad2c5cb8346": {
+    "id": "info:item:world:global:2026-08-24-007",
+    "key": "2026-08-24-007",
+    "title": "Burnham to visit Kyiv on first foreign trip and reaffirm UK support for Ukraine",
+    "date": "2026-08-24",
+    "collection": "world-news",
+    "title_hash": "71e75ad2c5cb8346",
+    "url_hash": "1796df62c4a287cc",
+    "status": "published",
+    "word_count": 860,
+    "gemini_calls": 1,
+    "validated": true,
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "grounding_score": 1.0,
+    "review_status": "verified",
+    "approved_by": {
+      "type": "ai",
+      "provider": "lexical",
+      "model": "lexical"
+    },
+    "approved_at": "2026-08-24T03:36:09+00:00"
   }
 }
