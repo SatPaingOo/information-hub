@@ -1,7 +1,7 @@
 ---
 name: "Andy Burnham"
 entity_type: person
-backlink_count: 5
+backlink_count: 6
 ---
 
 # Andy Burnham
@@ -11,6 +11,7 @@ backlink_count: 5
 ## Referenced by
 
 - 2026-08-24 · [[info:item:world:global:2026-08-24-007]] — Burnham to visit Kyiv on first foreign trip and reaffirm UK support for Ukraine
+- 2026-08-24 · [[info:item:world:global:2026-08-24-009]] — Burnham to hand long‑range missile blueprints to Zelensky as he visits Kyiv
 - 2026-08-23 · [[info:item:politics:global:2026-08-23-007]] — Economic adviser O'Neill rules out government job but backs PM's devolution plans
 - 2026-08-21 · [[info:item:politics:global:2026-08-21-001]] — Councils turn to AI in attempt to fill £4bn black hole
 - 2026-08-18 · [[info:item:politics:global:2026-08-18-001]] — Burnham exchanged messages with person posing as Trump's chief of staff

@@ -1,15 +1,14 @@
 ---
-name: "Russian Embassy to the UK"
-entity_type: organization
-backlink_count: 3
+name: "MBDA"
+entity_type: company
+backlink_count: 2
 ---
 
-# Russian Embassy to the UK
+# MBDA
 
-*Type: organization*
+*Type: company*
 
 ## Referenced by
 
 - 2026-08-24 · [[info:item:world:global:2026-08-24-007]] — Burnham to visit Kyiv on first foreign trip and reaffirm UK support for Ukraine
 - 2026-08-24 · [[info:item:world:global:2026-08-24-009]] — Burnham to hand long‑range missile blueprints to Zelensky as he visits Kyiv
-- 2026-08-18 · [[info:item:world:global:2026-08-18-004]] — Russia says UK 'will pay' for supplying drones to Ukraine

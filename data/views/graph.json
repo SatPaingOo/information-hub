@@ -1152,6 +1152,27 @@
       "name": "Hong Kong"
     },
     {
+      "id": "info:item:world:global:2026-08-24-009",
+      "type": "item",
+      "date": "2026-08-24",
+      "title": "Burnham to hand long‑range missile blueprints to Zelensky as he visits Kyiv"
+    },
+    {
+      "id": "info:entity:company:MBDA",
+      "type": "company",
+      "name": "MBDA"
+    },
+    {
+      "id": "taxonomy/misc/defence industry",
+      "type": "taxonomy",
+      "name": "defence industry"
+    },
+    {
+      "id": "taxonomy/misc/international relations",
+      "type": "taxonomy",
+      "name": "international relations"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -3807,6 +3828,71 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-08-24-009",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "UK Prime Minister delivering missile blueprints"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-009",
+      "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "Ukrainian President receiving blueprints"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-009",
+      "target": "info:entity:company:MBDA",
+      "relation": "Defence contractor declassifying missile component data"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-009",
+      "target": "info:entity:organization:Russian Embassy to the UK",
+      "relation": "Issuer of diplomatic warnings"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-009",
+      "target": "info:item:world:global:2026-08-24-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-009",
+      "target": "info:item:world:global:2026-08-24-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-009",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-009",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-009",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-009",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-009",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-009",
+      "target": "taxonomy/misc/defence industry",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-009",
+      "target": "taxonomy/misc/international relations",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -4045,6 +4131,24 @@
     {
       "source": "info:entity:company:Cloverleaf Infrastructure",
       "target": "info:entity:region:North America",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:MBDA",
+      "target": "info:entity:organization:Russian Embassy to the UK",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:MBDA",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:MBDA",
+      "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -4922,7 +5026,7 @@
       "source": "info:entity:organization:Russian Embassy to the UK",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Russian Embassy to the UK",
@@ -4934,7 +5038,7 @@
       "source": "info:entity:organization:Russian Embassy to the UK",
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Scope",
@@ -5060,7 +5164,7 @@
       "source": "info:entity:person:Andy Burnham",
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Andy Burnham",
