@@ -1,0 +1,17 @@
+2026-08-24 02:20:15,177 INFO [world-news] model returned no selection — using heuristic fallback (3)
+2026-08-24 02:20:57,420 INFO [world-news] published 2026-08-24-001 — Zelensky Should Be Asked What He Knew About Government Corru
+2026-08-24 02:21:17,591 INFO [world-news] published 2026-08-24-002 — Trump says Canada wants 'benefits' of being US state after t
+2026-08-24 02:21:43,208 INFO [world-news] published 2026-08-24-003 — Guinea rubbish landfill collapse kills 30
+2026-08-24 02:21:45,443 ERROR [tech-news] generate error: HTTP 429: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"poolside/laguna-xs-2.1:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Poolside","is_byok":fa
+2026-08-24 02:22:16,281 INFO [tech-news] published 2026-08-24-004 — Robust Federated Training via Collaborative Machine Teaching
+2026-08-24 02:23:08,455 INFO [tech-news] published 2026-08-24-005 — Conditioning LSTM Decoder and Bi-directional Attention Based
+2026-08-24 02:24:08,141 INFO [tech-news] attempt 1 invalid: ["entities/5/type: 'keyword' is not one of ['concept', 'company', 'model', 'person', 'product', 'region', 'organization', 'event']", "entities/6/type: 'keyword' is not one of ['concept', 'company', 'model', 'person', 'product', 'region', 'organization', 'event']"]
+2026-08-24 02:24:12,416 INFO [tech-news] published 2026-08-24-006 — Image Matters: Scalable Detection of Offensive and Non-Compl
+2026-08-24 02:24:13,134 ERROR [politics] select failed: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 5518, Requested 2795. Please try again in 2.3475s. Need more tokens? Upgrade to Dev Tier today at https://con
+2026-08-24 02:24:13,152 INFO [politics] model returned no selection — using heuristic fallback (2)
+2026-08-24 02:24:15,650 ERROR [politics] generate error: HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
+
+2026-08-24 02:24:18,652 WARNING [politics] no collect provider for deep-dive
+2026-08-24 02:24:18,725 WARNING [politics] no collect provider for deep-dive
+2026-08-24 02:24:19,447 WARNING [products] no collect provider available
+2026-08-24 02:24:19,482 INFO collect done: 6 item(s) published — target 4/10, next run ≈ 2026-08-25T01:00:00+00:00 UTC

@@ -969,6 +969,152 @@
       "name": "International Trade"
     },
     {
+      "id": "info:item:world:global:2026-08-24-001",
+      "type": "item",
+      "date": "2026-08-24",
+      "title": "Zelensky Should Be Asked What He Knew About Government Corruption, Sacked Minister Tells BBC"
+    },
+    {
+      "id": "info:entity:company:Starlink (operated by SpaceX)",
+      "type": "company",
+      "name": "Starlink (operated by SpaceX)"
+    },
+    {
+      "id": "taxonomy/misc/Democratic Governance",
+      "type": "taxonomy",
+      "name": "Democratic Governance"
+    },
+    {
+      "id": "taxonomy/misc/Technology in Warfare",
+      "type": "taxonomy",
+      "name": "Technology in Warfare"
+    },
+    {
+      "id": "info:item:world:global:2026-08-24-002",
+      "type": "item",
+      "date": "2026-08-24",
+      "title": "Trump says Canada wants 'benefits' of being US state after trade talks collapse"
+    },
+    {
+      "id": "taxonomy/misc/USMCA",
+      "type": "taxonomy",
+      "name": "USMCA"
+    },
+    {
+      "id": "info:item:world:global:2026-08-24-003",
+      "type": "item",
+      "date": "2026-08-24",
+      "title": "Guinea rubbish landfill collapse kills 30"
+    },
+    {
+      "id": "info:entity:person:Mamadou Oury Bah",
+      "type": "person",
+      "name": "Mamadou Oury Bah"
+    },
+    {
+      "id": "info:entity:region:Conakry",
+      "type": "region",
+      "name": "Conakry"
+    },
+    {
+      "id": "info:entity:event:2017 Guinea landslide",
+      "type": "event",
+      "name": "2017 Guinea landslide"
+    },
+    {
+      "id": "taxonomy/misc/disaster response",
+      "type": "taxonomy",
+      "name": "disaster response"
+    },
+    {
+      "id": "taxonomy/misc/urban infrastructure",
+      "type": "taxonomy",
+      "name": "urban infrastructure"
+    },
+    {
+      "id": "taxonomy/misc/climate adaptation",
+      "type": "taxonomy",
+      "name": "climate adaptation"
+    },
+    {
+      "id": "info:item:ai-ml:global:2026-08-24-004",
+      "type": "item",
+      "date": "2026-08-24",
+      "title": "Robust Federated Training via Collaborative Machine Teaching using Trusted Instances"
+    },
+    {
+      "id": "info:entity:concept:Federated Learning",
+      "type": "concept",
+      "name": "Federated Learning"
+    },
+    {
+      "id": "info:entity:concept:Machine Teaching",
+      "type": "concept",
+      "name": "Machine Teaching"
+    },
+    {
+      "id": "info:entity:concept:Adversarial Data Poisoning",
+      "type": "concept",
+      "name": "Adversarial Data Poisoning"
+    },
+    {
+      "id": "info:item:ai-ml:global:2026-08-24-005",
+      "type": "item",
+      "date": "2026-08-24",
+      "title": "Conditioning LSTM Decoder and Bi-directional Attention Based Question Answering System"
+    },
+    {
+      "id": "info:entity:concept:Bi-directional Attention Flow",
+      "type": "concept",
+      "name": "Bi-directional Attention Flow"
+    },
+    {
+      "id": "info:entity:concept:LSTM Decoder",
+      "type": "concept",
+      "name": "LSTM Decoder"
+    },
+    {
+      "id": "info:entity:concept:Smart-span Equation",
+      "type": "concept",
+      "name": "Smart-span Equation"
+    },
+    {
+      "id": "info:entity:model:Conditioning LSTM Decoder",
+      "type": "model",
+      "name": "Conditioning LSTM Decoder"
+    },
+    {
+      "id": "taxonomy/misc/Deep Learning Architectures",
+      "type": "taxonomy",
+      "name": "Deep Learning Architectures"
+    },
+    {
+      "id": "taxonomy/misc/Open Source AI Development",
+      "type": "taxonomy",
+      "name": "Open Source AI Development"
+    },
+    {
+      "id": "info:item:ai-ml:global:2026-08-24-006",
+      "type": "item",
+      "date": "2026-08-24",
+      "title": "Image Matters: Scalable Detection of Offensive and Non-Compliant Content / Logo in Product Images"
+    },
+    {
+      "id": "info:entity:concept:Computer Vision",
+      "type": "concept",
+      "name": "Computer Vision"
+    },
+    {
+      "id": "info:entity:company:Amazon",
+      "type": "company",
+      "name": "Amazon"
+    },
+    {
+      "id": "info:entity:concept:Crowdsourcing",
+      "type": "concept",
+      "name": "Crowdsourcing"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -3089,6 +3235,411 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-08-24-001",
+      "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "President of Ukraine, subject of corruption allegations"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-001",
+      "target": "info:entity:person:Mykhailo Fedorov",
+      "relation": "Former Defence Minister of Ukraine, corruption critic and election advocate"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-001",
+      "target": "info:entity:organization:Ukrainian Government",
+      "relation": "Subject of internal corruption investigations and political reform debates"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-001",
+      "target": "info:entity:organization:BBC News",
+      "relation": "Source of reporting on Fedorov’s statements"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-001",
+      "target": "info:entity:company:Starlink (operated by SpaceX)",
+      "relation": "Key technology provider in Ukraine’s defense strategy"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-001",
+      "target": "info:item:world:global:2026-08-23-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-001",
+      "target": "info:item:world:global:2026-08-23-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-001",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-001",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-001",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-001",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-001",
+      "target": "taxonomy/misc/Geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-001",
+      "target": "taxonomy/misc/Democratic Governance",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-001",
+      "target": "taxonomy/misc/Technology in Warfare",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-002",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "US President making trade policy statements"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-002",
+      "target": "info:entity:person:Mark Carney",
+      "relation": "Canadian Prime Minister implementing retaliatory measures"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-002",
+      "target": "info:entity:organization:USMCA",
+      "relation": "North American trade agreement under review"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-002",
+      "target": "info:entity:organization:Canadian Ministry of Foreign Affairs",
+      "relation": "Coordinating diplomatic response to US tariffs"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-002",
+      "target": "info:item:world:global:2026-08-23-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-002",
+      "target": "info:item:world:global:2026-08-23-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-002",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-002",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-002",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-002",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-002",
+      "target": "taxonomy/misc/North America",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-002",
+      "target": "taxonomy/misc/USMCA",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-002",
+      "target": "taxonomy/misc/Trade Policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-003",
+      "target": "info:entity:organization:BBC News",
+      "relation": "source"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-003",
+      "target": "info:entity:person:Mamadou Oury Bah",
+      "relation": "Prime Minister of Guinea"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-003",
+      "target": "info:entity:region:Conakry",
+      "relation": "location of incident"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-003",
+      "target": "info:entity:event:2017 Guinea landslide",
+      "relation": "preceding incident at same site"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-003",
+      "target": "info:item:world:global:2026-08-24-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-003",
+      "target": "info:item:world:global:2026-08-23-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-003",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-003",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-003",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-003",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-003",
+      "target": "taxonomy/misc/disaster response",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-003",
+      "target": "taxonomy/misc/urban infrastructure",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-08-24-003",
+      "target": "taxonomy/misc/climate adaptation",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-24-004",
+      "target": "info:entity:concept:Federated Learning",
+      "relation": "subject of the research"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-24-004",
+      "target": "info:entity:concept:Machine Teaching",
+      "relation": "methodology applied"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-24-004",
+      "target": "info:entity:organization:arXiv",
+      "relation": "source of publication"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-24-004",
+      "target": "info:entity:concept:Adversarial Data Poisoning",
+      "relation": "threat addressed"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-24-004",
+      "target": "info:item:ai-ml:global:2026-08-23-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-24-004",
+      "target": "info:item:ai-ml:global:2026-08-23-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-24-004",
+      "target": "taxonomy/topic/ai-ml",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-24-004",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-24-004",
+      "target": "taxonomy/category/research",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-24-004",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-24-004",
+      "target": "taxonomy/category/open-source",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-24-004",
+      "target": "taxonomy/topic/ai-ml",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-24-004",
+      "target": "taxonomy/category/open-source",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-24-004",
+      "target": "taxonomy/misc/research",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-24-005",
+      "target": "info:entity:concept:Bi-directional Attention Flow",
+      "relation": "core architectural component"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-24-005",
+      "target": "info:entity:concept:LSTM Decoder",
+      "relation": "prediction mechanism for answer spans"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-24-005",
+      "target": "info:entity:concept:Smart-span Equation",
+      "relation": "novel prediction scoring methodology"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-24-005",
+      "target": "info:entity:model:Conditioning LSTM Decoder",
+      "relation": "innovative dual-decoder architecture"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-24-005",
+      "target": "info:item:ai-ml:global:2026-08-23-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-24-005",
+      "target": "info:item:ai-ml:global:2026-08-23-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-24-005",
+      "target": "taxonomy/topic/ai-ml",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-24-005",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-24-005",
+      "target": "taxonomy/category/research",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-24-005",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-24-005",
+      "target": "taxonomy/category/open-source",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-24-005",
+      "target": "taxonomy/misc/Natural Language Processing",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-24-005",
+      "target": "taxonomy/misc/Deep Learning Architectures",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-24-005",
+      "target": "taxonomy/misc/Open Source AI Development",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-24-006",
+      "target": "info:entity:concept:Computer Vision",
+      "relation": "underpins the detection pipeline"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-24-006",
+      "target": "info:entity:company:Amazon",
+      "relation": "potential adopter of large‑scale image moderation"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-24-006",
+      "target": "info:entity:concept:Crowdsourcing",
+      "relation": "used for budgeted human verification"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-24-006",
+      "target": "info:item:ai-ml:global:2026-08-24-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-24-006",
+      "target": "info:item:ai-ml:global:2026-08-24-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-24-006",
+      "target": "taxonomy/topic/ai-ml",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-24-006",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-24-006",
+      "target": "taxonomy/category/research",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-24-006",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-24-006",
+      "target": "taxonomy/category/open-source",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-24-006",
+      "target": "taxonomy/topic/ai-ml",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-24-006",
+      "target": "taxonomy/category/product",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-24-006",
+      "target": "taxonomy/category/open-source",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -3197,6 +3748,18 @@
       "source": "taxonomy/region/us",
       "target": "taxonomy/topic/dev-oss",
       "relation": "relates"
+    },
+    {
+      "source": "info:entity:company:Amazon",
+      "target": "info:entity:concept:Computer Vision",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Amazon",
+      "target": "info:entity:concept:Crowdsourcing",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -3415,6 +3978,30 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:company:Starlink (operated by SpaceX)",
+      "target": "info:entity:organization:BBC News",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Starlink (operated by SpaceX)",
+      "target": "info:entity:organization:Ukrainian Government",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Starlink (operated by SpaceX)",
+      "target": "info:entity:person:Mykhailo Fedorov",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Starlink (operated by SpaceX)",
+      "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:company:TikTok",
       "target": "info:entity:concept:Children's Online Privacy Protection Act",
       "relation": "co-occurs",
@@ -3469,6 +4056,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:concept:Adversarial Data Poisoning",
+      "target": "info:entity:concept:Federated Learning",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Adversarial Data Poisoning",
+      "target": "info:entity:concept:Machine Teaching",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Adversarial Data Poisoning",
+      "target": "info:entity:organization:arXiv",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:concept:Agentic AI",
       "target": "info:entity:concept:Data Governance",
       "relation": "co-occurs",
@@ -3489,6 +4094,24 @@
     {
       "source": "info:entity:concept:Agentic AI",
       "target": "info:entity:person:Andy Burnham",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Bi-directional Attention Flow",
+      "target": "info:entity:concept:LSTM Decoder",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Bi-directional Attention Flow",
+      "target": "info:entity:concept:Smart-span Equation",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Bi-directional Attention Flow",
+      "target": "info:entity:model:Conditioning LSTM Decoder",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -3549,6 +4172,12 @@
     {
       "source": "info:entity:concept:Compact Data",
       "target": "info:entity:person:Song-Kyoo Amang Kim",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Computer Vision",
+      "target": "info:entity:concept:Crowdsourcing",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -3631,6 +4260,36 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:concept:Federated Learning",
+      "target": "info:entity:concept:Machine Teaching",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Federated Learning",
+      "target": "info:entity:organization:arXiv",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:LSTM Decoder",
+      "target": "info:entity:concept:Smart-span Equation",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:LSTM Decoder",
+      "target": "info:entity:model:Conditioning LSTM Decoder",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Machine Teaching",
+      "target": "info:entity:organization:arXiv",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:concept:Natural Language Inference",
       "target": "info:entity:model:Transformer",
       "relation": "co-occurs",
@@ -3657,6 +4316,30 @@
     {
       "source": "info:entity:concept:Principal Component Analysis",
       "target": "info:entity:region:global",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Smart-span Equation",
+      "target": "info:entity:model:Conditioning LSTM Decoder",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:event:2017 Guinea landslide",
+      "target": "info:entity:organization:BBC News",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:event:2017 Guinea landslide",
+      "target": "info:entity:person:Mamadou Oury Bah",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:event:2017 Guinea landslide",
+      "target": "info:entity:region:Conakry",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -3782,6 +4465,24 @@
     },
     {
       "source": "info:entity:organization:BBC News",
+      "target": "info:entity:organization:Ukrainian Government",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:BBC News",
+      "target": "info:entity:person:Mamadou Oury Bah",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:BBC News",
+      "target": "info:entity:person:Mykhailo Fedorov",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:BBC News",
       "target": "info:entity:person:Vladimir Putin",
       "relation": "co-occurs",
       "weight": "1"
@@ -3790,7 +4491,13 @@
       "source": "info:entity:organization:BBC News",
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
+    },
+    {
+      "source": "info:entity:organization:BBC News",
+      "target": "info:entity:region:Conakry",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:organization:BBC News",
@@ -3801,6 +4508,12 @@
     {
       "source": "info:entity:organization:Canadian Ministry of Foreign Affairs",
       "target": "info:entity:organization:European Union",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Canadian Ministry of Foreign Affairs",
+      "target": "info:entity:organization:USMCA",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -3826,7 +4539,7 @@
       "source": "info:entity:organization:Canadian Ministry of Foreign Affairs",
       "target": "info:entity:person:Donald Trump",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Canadian Ministry of Foreign Affairs",
@@ -3838,7 +4551,7 @@
       "source": "info:entity:organization:Canadian Ministry of Foreign Affairs",
       "target": "info:entity:person:Mark Carney",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Canadian Ministry of Foreign Affairs",
@@ -4060,7 +4773,7 @@
       "source": "info:entity:organization:USMCA",
       "target": "info:entity:person:Donald Trump",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:USMCA",
@@ -4072,19 +4785,19 @@
       "source": "info:entity:organization:USMCA",
       "target": "info:entity:person:Mark Carney",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Ukrainian Government",
       "target": "info:entity:person:Mykhailo Fedorov",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Ukrainian Government",
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Wildberries",
@@ -4204,7 +4917,7 @@
       "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:Mark Carney",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:person:Donald Trump",
@@ -4249,6 +4962,12 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:person:Mamadou Oury Bah",
+      "target": "info:entity:region:Conakry",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:person:Mark Carney",
       "target": "info:entity:region:North America",
       "relation": "co-occurs",
@@ -4258,7 +4977,7 @@
       "source": "info:entity:person:Mykhailo Fedorov",
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Rishi Sunak",

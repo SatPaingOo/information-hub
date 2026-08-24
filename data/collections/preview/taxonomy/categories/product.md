@@ -1,7 +1,7 @@
 ---
 node: "product"
 layer: category
-item_count: 9
+item_count: 13
 ---
 
 # product
@@ -12,8 +12,16 @@ item_count: 9
 
 - [[industry]]
 
+## Cross-layer relations
+
+- [[ai-ml]] — *relates*
+
 ## Items
 
+- 2026-08-24 · [[info:item:ai-ml:global:2026-08-24-004]] — Robust Federated Training via Collaborative Machine Teaching using Trusted Instances
+- 2026-08-24 · [[info:item:ai-ml:global:2026-08-24-005]] — Conditioning LSTM Decoder and Bi-directional Attention Based Question Answering System
+- 2026-08-24 · [[info:item:ai-ml:global:2026-08-24-006]] — Image Matters: Scalable Detection of Offensive and Non-Compliant Content / Logo in Product Images
+- 2026-08-24 · [[info:item:ai-ml:global:2026-08-24-006]] — Image Matters: Scalable Detection of Offensive and Non-Compliant Content / Logo in Product Images
 - 2026-08-23 · [[info:item:ai-ml:global:2026-08-23-004]] — I like fish, especially dolphins: Addressing Contradictions in Dialogue Modeling
 - 2026-08-23 · [[info:item:ai-ml:global:2026-08-23-005]] — Toward Compact Data from Big Data: A Novel Approach to Dataset Optimization
 - 2026-08-23 · [[info:item:ai-ml:global:2026-08-23-006]] — Feature Selection and Feature Extraction in Pattern Analysis: A Literature Review

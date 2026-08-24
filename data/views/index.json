@@ -1,5 +1,200 @@
 [
   {
+    "id": "info:item:world:global:2026-08-24-001",
+    "key": "2026-08-24-001",
+    "date": "2026-08-24",
+    "content_type": "digest",
+    "topic": "world",
+    "region": "global",
+    "categories": [
+      "policy",
+      "industry"
+    ],
+    "title": "Zelensky Should Be Asked What He Knew About Government Corruption, Sacked Minister Tells BBC",
+    "tldr": "Former Ukrainian Defence Minister Mykhailo Fedorov has publicly challenged President Volodymyr Zelensky to explain his awareness of corruption within his administration, while renewing calls for wartime elections. Fedorov, a key architect of Ukraine’s drone warfare strategy, was dismissed after falling out with military leadership and argued that democratic accountability must persist even during wartime.",
+    "source": "feeds.bbci.co.uk",
+    "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+    "entities": [
+      "Volodymyr Zelensky",
+      "Mykhailo Fedorov",
+      "Ukrainian Government",
+      "BBC News",
+      "Starlink (operated by SpaceX)"
+    ],
+    "tags": [
+      "corruption",
+      "elections",
+      "Ukraine",
+      "Zelensky",
+      "Fedorov",
+      "martial law",
+      "drone warfare",
+      "Starlink",
+      "democracy",
+      "geopolitics"
+    ],
+    "file": "data-set/2026-08-24-001-zelensky-should-be-asked-what-he-knew-about-government.json"
+  },
+  {
+    "id": "info:item:world:global:2026-08-24-002",
+    "key": "2026-08-24-002",
+    "date": "2026-08-24",
+    "content_type": "digest",
+    "topic": "world",
+    "region": "global",
+    "categories": [
+      "policy",
+      "industry"
+    ],
+    "title": "Trump says Canada wants 'benefits' of being US state after trade talks collapse",
+    "tldr": "Trade negotiations between the United States and Canada collapsed, triggering 50% US tariffs on $20bn of Canadian goods. Canadian Prime Minister Mark Carney announced reciprocal tariffs and declared a trade war, while President Trump dismissed Canada's position and reiterated his desire for Canada to become the '51st state'.",
+    "source": "feeds.bbci.co.uk",
+    "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+    "entities": [
+      "Donald Trump",
+      "Mark Carney",
+      "USMCA",
+      "Canadian Ministry of Foreign Affairs"
+    ],
+    "tags": [
+      "trade war",
+      "tariffs",
+      "US-Canada relations",
+      "USMCA",
+      "economic policy",
+      "geopolitics"
+    ],
+    "file": "data-set/2026-08-24-002-trump-says-canada-wants-benefits-of-being-us-state-after.json"
+  },
+  {
+    "id": "info:item:world:global:2026-08-24-003",
+    "key": "2026-08-24-003",
+    "date": "2026-08-24",
+    "content_type": "digest",
+    "topic": "world",
+    "region": "global",
+    "categories": [
+      "policy",
+      "industry"
+    ],
+    "title": "Guinea rubbish landfill collapse kills 30",
+    "tldr": "A massive landfill collapse in Conakry, Guinea buried multiple homes under tons of waste, killing at least 30 people and injuring 22. Heavy rains triggered the disaster at a site that previously experienced a fatal landslide in 2017, highlighting chronic urban waste management failures in West Africa.",
+    "source": "feeds.bbci.co.uk",
+    "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+    "entities": [
+      "BBC News",
+      "Mamadou Oury Bah",
+      "Conakry",
+      "2017 Guinea landslide"
+    ],
+    "tags": [
+      "disaster",
+      "waste management",
+      "climate change",
+      "urban development",
+      "Guinea",
+      "West Africa"
+    ],
+    "file": "data-set/2026-08-24-003-guinea-rubbish-landfill-collapse-kills-30.json"
+  },
+  {
+    "id": "info:item:ai-ml:global:2026-08-24-004",
+    "key": "2026-08-24-004",
+    "date": "2026-08-24",
+    "content_type": "briefing",
+    "topic": "ai-ml",
+    "region": "global",
+    "categories": [
+      "research",
+      "product",
+      "open-source"
+    ],
+    "title": "Robust Federated Training via Collaborative Machine Teaching using Trusted Instances",
+    "tldr": "This paper proposes a collaborative machine teaching framework to enhance the robustness of federated learning against adversarial data poisoning by leveraging trusted instances across distributed agents. The method enables agents to jointly select informative training subsets and apply limited perturbations to improve model performance despite local data corruption.",
+    "source": "arXiv",
+    "source_url": "",
+    "entities": [
+      "Federated Learning",
+      "Machine Teaching",
+      "arXiv",
+      "Adversarial Data Poisoning"
+    ],
+    "tags": [
+      "federated-learning",
+      "machine-teaching",
+      "robustness",
+      "data-poisoning",
+      "trustworthy-ai",
+      "open-source",
+      "distributed-learning"
+    ],
+    "file": "data-set/2026-08-24-004-robust-federated-training-via-collaborative-machine.json"
+  },
+  {
+    "id": "info:item:ai-ml:global:2026-08-24-005",
+    "key": "2026-08-24-005",
+    "date": "2026-08-24",
+    "content_type": "briefing",
+    "topic": "ai-ml",
+    "region": "global",
+    "categories": [
+      "research",
+      "product",
+      "open-source"
+    ],
+    "title": "Conditioning LSTM Decoder and Bi-directional Attention Based Question Answering System",
+    "tldr": "This research introduces a novel Question Answering architecture combining bi-directional attention flow with a conditioned LSTM decoder, achieving a 15.16% performance improvement and setting new benchmarks with 73.97% F1 score on the test set. The model innovates through its dual-decoder approach and smart-span prediction equation, offering significant advances for open-source QA development.",
+    "source": "arXiv",
+    "source_url": "",
+    "entities": [
+      "Bi-directional Attention Flow",
+      "LSTM Decoder",
+      "Smart-span Equation",
+      "Conditioning LSTM Decoder"
+    ],
+    "tags": [
+      "question answering",
+      "lstm",
+      "attention mechanism",
+      "span prediction",
+      "natural language processing",
+      "open-source",
+      "neural network architecture"
+    ],
+    "file": "data-set/2026-08-24-005-conditioning-lstm-decoder-and-bi-directional-attention.json"
+  },
+  {
+    "id": "info:item:ai-ml:global:2026-08-24-006",
+    "key": "2026-08-24-006",
+    "date": "2026-08-24",
+    "content_type": "briefing",
+    "topic": "ai-ml",
+    "region": "global",
+    "categories": [
+      "research",
+      "product",
+      "open-source"
+    ],
+    "title": "Image Matters: Scalable Detection of Offensive and Non-Compliant Content / Logo in Product Images",
+    "tldr": "A new computer‑vision system tackles offensive and non‑compliant product images at e‑commerce scale, using a hybrid of deep‑learning classifiers, object detectors, and budgeted crowdsourcing. The approach overcomes data scarcity, extreme class imbalance, and the need for real‑time, low‑cost deployment across massive, constantly evolving catalogs.",
+    "source": "arXiv",
+    "source_url": "",
+    "entities": [
+      "Computer Vision",
+      "Amazon",
+      "Crowdsourcing"
+    ],
+    "tags": [
+      "offensive content detection",
+      "image classification",
+      "e-commerce",
+      "deep learning",
+      "crowdsourcing",
+      "scalable AI"
+    ],
+    "file": "data-set/2026-08-24-006-image-matters-scalable-detection-of-offensive-and-non.json"
+  },
+  {
     "id": "info:item:world:global:2026-08-23-001",
     "key": "2026-08-23-001",
     "date": "2026-08-23",

@@ -96,27 +96,27 @@
     "approved_at": null
   },
   "e3b0c44298fc1c14": {
-    "id": "info:item:ai-ml:global:2026-08-23-006",
-    "key": "2026-08-23-006",
-    "title": "Feature Selection and Feature Extraction in Pattern Analysis: A Literature Review",
-    "date": "2026-08-23",
+    "id": "info:item:ai-ml:global:2026-08-24-006",
+    "key": "2026-08-24-006",
+    "title": "Image Matters: Scalable Detection of Offensive and Non-Compliant Content / Logo in Product Images",
+    "date": "2026-08-24",
     "collection": "tech-news",
-    "title_hash": "1cdbe48fa0391055",
+    "title_hash": "b641454d8963ac8f",
     "url_hash": "e3b0c44298fc1c14",
     "status": "published",
-    "word_count": 1055,
-    "gemini_calls": 1,
+    "word_count": 683,
+    "gemini_calls": 2,
     "validated": true,
-    "provider": "openrouter",
-    "model": "poolside/laguna-xs-2.1:free",
-    "grounding_score": 1.0,
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "grounding_score": 0.833,
     "review_status": "verified",
     "approved_by": {
       "type": "ai",
       "provider": "lexical",
       "model": "lexical"
     },
-    "approved_at": "2026-08-23T04:24:32+00:00"
+    "approved_at": "2026-08-24T02:24:44+00:00"
   },
   "0e388c0dddf720aa": {
     "id": "info:item:ai-ml:global:2026-08-18-002",
@@ -135,19 +135,19 @@
     "approved_at": null
   },
   "1796df62c4a287cc": {
-    "id": "info:item:world:global:2026-08-23-009",
-    "key": "2026-08-23-009",
-    "title": "Carney says Trump started trade war with fresh tariffs ‘attack’",
-    "date": "2026-08-23",
+    "id": "info:item:world:global:2026-08-24-003",
+    "key": "2026-08-24-003",
+    "title": "Guinea rubbish landfill collapse kills 30",
+    "date": "2026-08-24",
     "collection": "world-news",
-    "title_hash": "7b7acb8defafbc2e",
+    "title_hash": "aa4acebfc3a01c65",
     "url_hash": "1796df62c4a287cc",
     "status": "published",
-    "word_count": 754,
+    "word_count": 531,
     "gemini_calls": 1,
     "validated": true,
-    "provider": "groq",
-    "model": "openai/gpt-oss-120b",
+    "provider": "openrouter",
+    "model": "poolside/laguna-xs-2.1:free",
     "grounding_score": 1.0,
     "review_status": "verified",
     "approved_by": {
@@ -155,7 +155,7 @@
       "provider": "lexical",
       "model": "lexical"
     },
-    "approved_at": "2026-08-23T04:24:41+00:00"
+    "approved_at": "2026-08-24T02:24:35+00:00"
   },
   "d52f5b521f0c77f0": {
     "id": "info:item:world:global:2026-08-18-004",
@@ -765,5 +765,143 @@
       "model": "lexical"
     },
     "approved_at": "2026-08-23T04:24:41+00:00"
+  },
+  "71915d8eaa6a8164": {
+    "id": "info:item:world:global:2026-08-24-001",
+    "key": "2026-08-24-001",
+    "title": "Zelensky Should Be Asked What He Knew About Government Corruption, Sacked Minister Tells BBC",
+    "date": "2026-08-24",
+    "collection": "world-news",
+    "title_hash": "71915d8eaa6a8164",
+    "url_hash": "1796df62c4a287cc",
+    "status": "published",
+    "word_count": 688,
+    "gemini_calls": 1,
+    "validated": true,
+    "provider": "openrouter",
+    "model": "poolside/laguna-xs-2.1:free",
+    "grounding_score": 1.0,
+    "review_status": "verified",
+    "approved_by": {
+      "type": "ai",
+      "provider": "lexical",
+      "model": "lexical"
+    },
+    "approved_at": "2026-08-24T02:24:29+00:00"
+  },
+  "3b5d6b79f3909dee": {
+    "id": "info:item:world:global:2026-08-24-002",
+    "key": "2026-08-24-002",
+    "title": "Trump says Canada wants 'benefits' of being US state after trade talks collapse",
+    "date": "2026-08-24",
+    "collection": "world-news",
+    "title_hash": "3b5d6b79f3909dee",
+    "url_hash": "1796df62c4a287cc",
+    "status": "published",
+    "word_count": 706,
+    "gemini_calls": 1,
+    "validated": true,
+    "provider": "openrouter",
+    "model": "poolside/laguna-xs-2.1:free",
+    "grounding_score": 1.0,
+    "review_status": "verified",
+    "approved_by": {
+      "type": "ai",
+      "provider": "lexical",
+      "model": "lexical"
+    },
+    "approved_at": "2026-08-24T02:24:32+00:00"
+  },
+  "aa4acebfc3a01c65": {
+    "id": "info:item:world:global:2026-08-24-003",
+    "key": "2026-08-24-003",
+    "title": "Guinea rubbish landfill collapse kills 30",
+    "date": "2026-08-24",
+    "collection": "world-news",
+    "title_hash": "aa4acebfc3a01c65",
+    "url_hash": "1796df62c4a287cc",
+    "status": "published",
+    "word_count": 531,
+    "gemini_calls": 1,
+    "validated": true,
+    "provider": "openrouter",
+    "model": "poolside/laguna-xs-2.1:free",
+    "grounding_score": 1.0,
+    "review_status": "verified",
+    "approved_by": {
+      "type": "ai",
+      "provider": "lexical",
+      "model": "lexical"
+    },
+    "approved_at": "2026-08-24T02:24:35+00:00"
+  },
+  "f9f061de70179897": {
+    "id": "info:item:ai-ml:global:2026-08-24-004",
+    "key": "2026-08-24-004",
+    "title": "Robust Federated Training via Collaborative Machine Teaching using Trusted Instances",
+    "date": "2026-08-24",
+    "collection": "tech-news",
+    "title_hash": "f9f061de70179897",
+    "url_hash": "e3b0c44298fc1c14",
+    "status": "published",
+    "word_count": 723,
+    "gemini_calls": 2,
+    "validated": true,
+    "provider": "openrouter",
+    "model": "poolside/laguna-s-2.1:free",
+    "grounding_score": 1.0,
+    "review_status": "verified",
+    "approved_by": {
+      "type": "ai",
+      "provider": "lexical",
+      "model": "lexical"
+    },
+    "approved_at": "2026-08-24T02:24:38+00:00"
+  },
+  "959370e4eeb5611b": {
+    "id": "info:item:ai-ml:global:2026-08-24-005",
+    "key": "2026-08-24-005",
+    "title": "Conditioning LSTM Decoder and Bi-directional Attention Based Question Answering System",
+    "date": "2026-08-24",
+    "collection": "tech-news",
+    "title_hash": "959370e4eeb5611b",
+    "url_hash": "e3b0c44298fc1c14",
+    "status": "published",
+    "word_count": 812,
+    "gemini_calls": 1,
+    "validated": true,
+    "provider": "openrouter",
+    "model": "poolside/laguna-xs-2.1:free",
+    "grounding_score": 1.0,
+    "review_status": "verified",
+    "approved_by": {
+      "type": "ai",
+      "provider": "lexical",
+      "model": "lexical"
+    },
+    "approved_at": "2026-08-24T02:24:41+00:00"
+  },
+  "b641454d8963ac8f": {
+    "id": "info:item:ai-ml:global:2026-08-24-006",
+    "key": "2026-08-24-006",
+    "title": "Image Matters: Scalable Detection of Offensive and Non-Compliant Content / Logo in Product Images",
+    "date": "2026-08-24",
+    "collection": "tech-news",
+    "title_hash": "b641454d8963ac8f",
+    "url_hash": "e3b0c44298fc1c14",
+    "status": "published",
+    "word_count": 683,
+    "gemini_calls": 2,
+    "validated": true,
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "grounding_score": 0.833,
+    "review_status": "verified",
+    "approved_by": {
+      "type": "ai",
+      "provider": "lexical",
+      "model": "lexical"
+    },
+    "approved_at": "2026-08-24T02:24:44+00:00"
   }
 }

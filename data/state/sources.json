@@ -1,22 +1,22 @@
 {
   "world-news": {
-    "last_fetched": "2026-08-23T04:24:05+00:00",
+    "last_fetched": "2026-08-24T02:21:43+00:00",
     "candidates_found": 8,
-    "items_published": 1,
+    "items_published": 3,
     "last_error": null,
     "grounding_failures": 0,
     "grounding_scores": []
   },
   "tech-news": {
-    "last_fetched": "2026-08-23T04:24:06+00:00",
+    "last_fetched": "2026-08-24T02:24:12+00:00",
     "candidates_found": 8,
-    "items_published": 0,
+    "items_published": 3,
     "last_error": null,
     "grounding_failures": 0,
     "grounding_scores": []
   },
   "politics": {
-    "last_fetched": "2026-08-23T04:24:06+00:00",
+    "last_fetched": "2026-08-24T02:24:18+00:00",
     "candidates_found": 8,
     "items_published": 0,
     "last_error": null,
@@ -24,7 +24,7 @@
     "grounding_scores": []
   },
   "products": {
-    "last_fetched": "2026-08-23T04:24:07+00:00",
+    "last_fetched": "2026-08-24T02:24:19+00:00",
     "candidates_found": 8,
     "items_published": 0,
     "last_error": null,
@@ -33,6 +33,9 @@
   },
   "feeds.bbci.co.uk": {
     "grounding_scores": [
+      1.0,
+      1.0,
+      1.0,
       1.0,
       1.0,
       1.0,
@@ -90,9 +93,12 @@
       1.0,
       1.0,
       0.833,
-      1.0
+      1.0,
+      1.0,
+      1.0,
+      0.833
     ],
-    "avg_grounding_score": 0.95
+    "avg_grounding_score": 0.949
   },
   "techcrunch.com": {
     "grounding_scores": [
