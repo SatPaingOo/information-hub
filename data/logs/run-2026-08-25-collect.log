@@ -18,3 +18,13 @@
 2026-08-25 02:19:42,192 WARNING [politics] no collect provider for deep-dive
 2026-08-25 02:19:43,417 WARNING [products] no collect provider available
 2026-08-25 02:19:43,461 INFO collect done: 5 item(s) published — target 5/10, next run ≈ 2026-08-26T01:00:00+00:00 UTC
+2026-08-25 03:26:59,223 INFO [world-news] published 2026-08-25-006 — French tourist dies in Death Valley after car gets stuck in 
+2026-08-25 03:26:59,380 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7762, Requested 3580. Please try again in 25.065s. Need more tokens? Upgrade to Dev Tier today at https://con
+2026-08-25 03:27:05,042 ERROR [world-news] generate error: HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
+
+2026-08-25 03:27:11,044 WARNING [world-news] no collect provider for deep-dive
+2026-08-25 03:27:11,121 WARNING [world-news] no collect provider for deep-dive
+2026-08-25 03:27:11,688 WARNING [tech-news] no collect provider available
+2026-08-25 03:27:12,189 WARNING [politics] no collect provider available
+2026-08-25 03:27:13,368 WARNING [products] no collect provider available
+2026-08-25 03:27:13,414 INFO collect done: 1 item(s) published — target 4/10, next run ≈ 2026-08-26T01:00:00+00:00 UTC

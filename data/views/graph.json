@@ -1268,6 +1268,42 @@
       "name": "Military Aid"
     },
     {
+      "id": "info:item:world:global:2026-08-25-006",
+      "type": "item",
+      "date": "2026-08-25",
+      "title": "French tourist dies in Death Valley after car gets stuck in mud"
+    },
+    {
+      "id": "info:entity:person:Pierre Michel Formosa",
+      "type": "person",
+      "name": "Pierre Michel Formosa"
+    },
+    {
+      "id": "info:entity:organization:Death Valley National Park Service",
+      "type": "organization",
+      "name": "Death Valley National Park Service"
+    },
+    {
+      "id": "info:entity:organization:National Weather Service",
+      "type": "organization",
+      "name": "National Weather Service"
+    },
+    {
+      "id": "taxonomy/misc/climate‑change impacts",
+      "type": "taxonomy",
+      "name": "climate‑change impacts"
+    },
+    {
+      "id": "taxonomy/misc/tourism policy",
+      "type": "taxonomy",
+      "name": "tourism policy"
+    },
+    {
+      "id": "taxonomy/misc/public‑land management",
+      "type": "taxonomy",
+      "name": "public‑land management"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -4338,6 +4374,71 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-08-25-006",
+      "target": "info:entity:person:Pierre Michel Formosa",
+      "relation": "victim"
+    },
+    {
+      "source": "info:item:world:global:2026-08-25-006",
+      "target": "info:entity:organization:Death Valley National Park Service",
+      "relation": "managing authority"
+    },
+    {
+      "source": "info:item:world:global:2026-08-25-006",
+      "target": "info:entity:organization:National Weather Service",
+      "relation": "issued heat warnings"
+    },
+    {
+      "source": "info:item:world:global:2026-08-25-006",
+      "target": "info:entity:organization:European Union",
+      "relation": "potential diplomatic stakeholder"
+    },
+    {
+      "source": "info:item:world:global:2026-08-25-006",
+      "target": "info:item:world:global:2026-08-25-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-08-25-006",
+      "target": "info:item:world:global:2026-08-25-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-08-25-006",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-25-006",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-25-006",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-25-006",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-25-006",
+      "target": "taxonomy/misc/climate‑change impacts",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-08-25-006",
+      "target": "taxonomy/misc/tourism policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-08-25-006",
+      "target": "taxonomy/misc/public‑land management",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -5336,6 +5437,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Death Valley National Park Service",
+      "target": "info:entity:organization:European Union",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Death Valley National Park Service",
+      "target": "info:entity:organization:National Weather Service",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Death Valley National Park Service",
+      "target": "info:entity:person:Pierre Michel Formosa",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Department for Transport",
       "target": "info:entity:organization:Scope",
       "relation": "co-occurs",
@@ -5355,6 +5474,12 @@
     },
     {
       "source": "info:entity:organization:European Union",
+      "target": "info:entity:organization:National Weather Service",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:European Union",
       "target": "info:entity:person:António Guterres",
       "relation": "co-occurs",
       "weight": "1"
@@ -5368,6 +5493,12 @@
     {
       "source": "info:entity:organization:European Union",
       "target": "info:entity:person:Bezalel Smotrich",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:European Union",
+      "target": "info:entity:person:Pierre Michel Formosa",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -5500,6 +5631,12 @@
     {
       "source": "info:entity:organization:Myanmar military (Tatmadaw)",
       "target": "info:entity:region:Sagaing region",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:National Weather Service",
+      "target": "info:entity:person:Pierre Michel Formosa",
       "relation": "co-occurs",
       "weight": "1"
     },
