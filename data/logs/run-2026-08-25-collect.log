@@ -1,0 +1,20 @@
+2026-08-25 02:16:21,160 ERROR [world-news] select failed: HTTP 429: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"poolside/laguna-xs-2.1:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Poolside","is_byok":fa
+2026-08-25 02:16:21,179 INFO [world-news] model returned no selection — using heuristic fallback (3)
+2026-08-25 02:16:21,932 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"poolside/laguna-s-2.1:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Poolside","is_byok":fal
+2026-08-25 02:16:49,970 INFO [world-news] attempt 2 invalid: ["entities/2/type: 'country' is not one of ['concept', 'company', 'model', 'person', 'product', 'region', 'organization', 'event']", "entities/3/type: 'location' is not one of ['concept', 'company', 'model', 'person', 'product', 'region', 'organization', 'event']"]
+2026-08-25 02:17:16,177 INFO [world-news] published 2026-08-25-001 — Iran faces 'greatest financial offensive ever', says US trea
+2026-08-25 02:17:16,669 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"poolside/laguna-xs-2.1:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Poolside","is_byok":fa
+2026-08-25 02:17:31,685 INFO [world-news] attempt 2 invalid: ["related_taxonomy/0: 'regions' is not of type 'object'", "related_taxonomy/1: 'topics' is not of type 'object'"]
+2026-08-25 02:17:46,447 INFO [world-news] published 2026-08-25-002 — UK PM Burnham vows support for Ukraine despite 'outrageous t
+2026-08-25 02:18:10,884 ERROR [world-news] generate error: bad response: Unterminated string starting at: line 48 column 14 (char 4853)
+2026-08-25 02:18:46,368 INFO [world-news] published 2026-08-25-003 — US removes Syria from list of state sponsors of terrorism
+2026-08-25 02:18:47,302 ERROR [tech-news] select failed: HTTP 429: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"poolside/laguna-xs-2.1:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Poolside","is_byok":fa
+2026-08-25 02:18:47,320 INFO [tech-news] model returned no selection — using heuristic fallback (1)
+2026-08-25 02:19:25,139 INFO [tech-news] published 2026-08-25-004 — Toward Compact Data from Big Data
+2026-08-25 02:19:30,802 INFO [politics] attempt 1 invalid: [": 'tags' is a required property", ": 'related_items' is a required property"]
+2026-08-25 02:19:30,872 ERROR [politics] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7990, Requested 4657. Please try again in 34.8525s. Need more tokens? Upgrade to Dev Tier today at https://co
+2026-08-25 02:19:39,006 INFO [politics] published 2026-08-25-005 — Burnham vows support for Ukraine despite 'outrageous threats
+2026-08-25 02:19:39,190 ERROR [politics] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6034, Requested 4682. Please try again in 20.37s. Need more tokens? Upgrade to Dev Tier today at https://conso
+2026-08-25 02:19:42,192 WARNING [politics] no collect provider for deep-dive
+2026-08-25 02:19:43,417 WARNING [products] no collect provider available
+2026-08-25 02:19:43,461 INFO collect done: 5 item(s) published — target 5/10, next run ≈ 2026-08-26T01:00:00+00:00 UTC

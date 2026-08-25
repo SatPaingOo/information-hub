@@ -1,7 +1,7 @@
 ---
 node: "product"
 layer: category
-item_count: 13
+item_count: 14
 ---
 
 # product
@@ -18,6 +18,7 @@ item_count: 13
 
 ## Items
 
+- 2026-08-25 · [[info:item:ai-ml:global:2026-08-25-004]] — Toward Compact Data from Big Data
 - 2026-08-24 · [[info:item:ai-ml:global:2026-08-24-004]] — Robust Federated Training via Collaborative Machine Teaching using Trusted Instances
 - 2026-08-24 · [[info:item:ai-ml:global:2026-08-24-005]] — Conditioning LSTM Decoder and Bi-directional Attention Based Question Answering System
 - 2026-08-24 · [[info:item:ai-ml:global:2026-08-24-006]] — Image Matters: Scalable Detection of Offensive and Non-Compliant Content / Logo in Product Images

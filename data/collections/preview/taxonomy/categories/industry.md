@@ -1,7 +1,7 @@
 ---
 node: "industry"
 layer: category
-item_count: 23
+item_count: 26
 ---
 
 # industry
@@ -19,6 +19,9 @@ item_count: 23
 
 ## Items
 
+- 2026-08-25 · [[info:item:world:global:2026-08-25-001]] — Iran faces 'greatest financial offensive ever', says US treasury secretary
+- 2026-08-25 · [[info:item:world:global:2026-08-25-002]] — UK PM Burnham vows support for Ukraine despite 'outrageous threats' from Russia
+- 2026-08-25 · [[info:item:world:global:2026-08-25-003]] — US removes Syria from list of state sponsors of terrorism
 - 2026-08-24 · [[info:item:world:global:2026-08-24-001]] — Zelensky Should Be Asked What He Knew About Government Corruption, Sacked Minister Tells BBC
 - 2026-08-24 · [[info:item:world:global:2026-08-24-002]] — Trump says Canada wants 'benefits' of being US state after trade talks collapse
 - 2026-08-24 · [[info:item:world:global:2026-08-24-003]] — Guinea rubbish landfill collapse kills 30

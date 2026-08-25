@@ -1,7 +1,7 @@
 ---
 name: "OpenAI"
 entity_type: company
-backlink_count: 10
+backlink_count: 11
 ---
 
 # OpenAI
@@ -10,6 +10,7 @@ backlink_count: 10
 
 ## Referenced by
 
+- 2026-08-25 · [[info:item:world:global:2026-08-25-001]] — Iran faces 'greatest financial offensive ever', says US treasury secretary
 - 2026-08-23 · [[info:item:ai-ml:global:2026-08-23-004]] — I like fish, especially dolphins: Addressing Contradictions in Dialogue Modeling
 - 2026-08-23 · [[info:item:ai-ml:global:2026-08-23-006]] — Feature Selection and Feature Extraction in Pattern Analysis: A Literature Review
 - 2026-08-22 · [[info:item:ai-ml:global:2026-08-22-005]] — Nvidia partners with data center developer Cloverleaf

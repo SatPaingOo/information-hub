@@ -1173,6 +1173,101 @@
       "name": "international relations"
     },
     {
+      "id": "info:item:world:global:2026-08-25-001",
+      "type": "item",
+      "date": "2026-08-25",
+      "title": "Iran faces 'greatest financial offensive ever', says US treasury secretary"
+    },
+    {
+      "id": "taxonomy/misc/regions",
+      "type": "taxonomy",
+      "name": "regions"
+    },
+    {
+      "id": "taxonomy/misc/topics",
+      "type": "taxonomy",
+      "name": "topics"
+    },
+    {
+      "id": "taxonomy/misc/categories",
+      "type": "taxonomy",
+      "name": "categories"
+    },
+    {
+      "id": "info:item:world:global:2026-08-25-002",
+      "type": "item",
+      "date": "2026-08-25",
+      "title": "UK PM Burnham vows support for Ukraine despite 'outrageous threats' from Russia"
+    },
+    {
+      "id": "info:entity:product:Scalp missile",
+      "type": "product",
+      "name": "Scalp missile"
+    },
+    {
+      "id": "info:entity:organization:Avengers AI Labs",
+      "type": "organization",
+      "name": "Avengers AI Labs"
+    },
+    {
+      "id": "info:item:world:global:2026-08-25-003",
+      "type": "item",
+      "date": "2026-08-25",
+      "title": "US removes Syria from list of state sponsors of terrorism"
+    },
+    {
+      "id": "info:entity:person:Ahmed al-Sharaa",
+      "type": "person",
+      "name": "Ahmed al-Sharaa"
+    },
+    {
+      "id": "info:entity:organization:Hayat Tahrir al-Sham (HTS)",
+      "type": "organization",
+      "name": "Hayat Tahrir al-Sham (HTS)"
+    },
+    {
+      "id": "info:entity:person:Marco Rubio",
+      "type": "person",
+      "name": "Marco Rubio"
+    },
+    {
+      "id": "info:entity:person:Scott Bessent",
+      "type": "person",
+      "name": "Scott Bessent"
+    },
+    {
+      "id": "taxonomy/misc/Middle East",
+      "type": "taxonomy",
+      "name": "Middle East"
+    },
+    {
+      "id": "taxonomy/misc/Policy",
+      "type": "taxonomy",
+      "name": "Policy"
+    },
+    {
+      "id": "info:item:ai-ml:global:2026-08-25-004",
+      "type": "item",
+      "date": "2026-08-25",
+      "title": "Toward Compact Data from Big Data"
+    },
+    {
+      "id": "info:item:politics:global:2026-08-25-005",
+      "type": "item",
+      "date": "2026-08-25",
+      "title": "Burnham vows support for Ukraine despite 'outrageous threats' from Russia"
+    },
+    {
+      "id": "info:entity:product:Storm Shadow",
+      "type": "product",
+      "name": "Storm Shadow"
+    },
+    {
+      "id": "taxonomy/misc/Military Aid",
+      "type": "taxonomy",
+      "name": "Military Aid"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -3893,6 +3988,356 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-08-25-001",
+      "target": "info:entity:concept:Machine Teaching",
+      "relation": "Connects to agentic AI development and training methodologies"
+    },
+    {
+      "source": "info:item:world:global:2026-08-25-001",
+      "target": "info:entity:company:OpenAI",
+      "relation": "Relevant to AGI safety considerations and regulatory frameworks"
+    },
+    {
+      "source": "info:item:world:global:2026-08-25-001",
+      "target": "info:item:world:global:2026-08-24-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-08-25-001",
+      "target": "info:item:world:global:2026-08-24-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-08-25-001",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-25-001",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-25-001",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-25-001",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-25-001",
+      "target": "taxonomy/misc/regions",
+      "relation": "connects to global geopolitical zones"
+    },
+    {
+      "source": "info:item:world:global:2026-08-25-001",
+      "target": "taxonomy/misc/topics",
+      "relation": "relates to world news and geopolitical analysis"
+    },
+    {
+      "source": "info:item:world:global:2026-08-25-001",
+      "target": "taxonomy/misc/categories",
+      "relation": "aligns with policy and industry classification"
+    },
+    {
+      "source": "info:item:world:global:2026-08-25-002",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "UK Prime Minister leading the initial Ukraine visit and coalition efforts"
+    },
+    {
+      "source": "info:item:world:global:2026-08-25-002",
+      "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "President of Ukraine who received recognition from Burnham and continues to seek Western support"
+    },
+    {
+      "source": "info:item:world:global:2026-08-25-002",
+      "target": "info:entity:organization:UK Ministry of Defence",
+      "relation": "Government body overseeing defense policy and technology transfers"
+    },
+    {
+      "source": "info:item:world:global:2026-08-25-002",
+      "target": "info:entity:product:Scalp missile",
+      "relation": "British-made cruise missile whose components are being shared via blueprint disclosures"
+    },
+    {
+      "source": "info:item:world:global:2026-08-25-002",
+      "target": "info:entity:organization:Avengers AI Labs",
+      "relation": "Ukrainian AI research facility partnering with the UK for technological collaboration"
+    },
+    {
+      "source": "info:item:world:global:2026-08-25-002",
+      "target": "info:item:world:global:2026-08-25-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-08-25-002",
+      "target": "info:item:world:global:2026-08-24-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-08-25-002",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-25-002",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-25-002",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-25-002",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-25-002",
+      "target": "taxonomy/misc/regions",
+      "relation": "connects to global geopolitical zones"
+    },
+    {
+      "source": "info:item:world:global:2026-08-25-002",
+      "target": "taxonomy/misc/topics",
+      "relation": "links to world news and geopolitics"
+    },
+    {
+      "source": "info:item:world:global:2026-08-25-002",
+      "target": "taxonomy/misc/categories",
+      "relation": "aligns with policy and industry classification"
+    },
+    {
+      "source": "info:item:world:global:2026-08-25-003",
+      "target": "info:entity:person:Ahmed al-Sharaa",
+      "relation": "President of Syria and former leader of Hayat Tahrir al-Sham"
+    },
+    {
+      "source": "info:item:world:global:2026-08-25-003",
+      "target": "info:entity:organization:Hayat Tahrir al-Sham (HTS)",
+      "relation": "Former al-Qaeda affiliate now part of Syria's transitional government"
+    },
+    {
+      "source": "info:item:world:global:2026-08-25-003",
+      "target": "info:entity:person:Marco Rubio",
+      "relation": "U.S. Secretary of State who announced the delisting"
+    },
+    {
+      "source": "info:item:world:global:2026-08-25-003",
+      "target": "info:entity:person:Scott Bessent",
+      "relation": "U.S. Treasury Secretary supporting economic reintegration"
+    },
+    {
+      "source": "info:item:world:global:2026-08-25-003",
+      "target": "info:entity:organization:Syrian Government",
+      "relation": "Recipient of U.S. policy shift following Assad's removal"
+    },
+    {
+      "source": "info:item:world:global:2026-08-25-003",
+      "target": "info:item:world:global:2026-08-25-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-08-25-003",
+      "target": "info:item:world:global:2026-08-25-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-08-25-003",
+      "target": "info:item:world:global:2026-08-24-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-08-25-003",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-25-003",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-25-003",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-25-003",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-25-003",
+      "target": "taxonomy/misc/Middle East",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-08-25-003",
+      "target": "taxonomy/misc/Geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-08-25-003",
+      "target": "taxonomy/misc/Policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-25-004",
+      "target": "info:entity:person:Song-Kyoo Amang Kim",
+      "relation": "author of the paper"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-25-004",
+      "target": "info:entity:concept:Compact Data",
+      "relation": "central concept proposed in the paper"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-25-004",
+      "target": "info:entity:concept:Big Data",
+      "relation": "contrasted with Compact Data"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-25-004",
+      "target": "info:entity:organization:arXiv",
+      "relation": "publisher of the preprint"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-25-004",
+      "target": "info:item:ai-ml:global:2026-08-24-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-25-004",
+      "target": "info:item:ai-ml:global:2026-08-24-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-25-004",
+      "target": "info:item:ai-ml:global:2026-08-24-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-25-004",
+      "target": "taxonomy/topic/ai-ml",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-25-004",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-25-004",
+      "target": "taxonomy/category/research",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-25-004",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-25-004",
+      "target": "taxonomy/category/open-source",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-25-004",
+      "target": "taxonomy/topic/ai-ml",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-25-004",
+      "target": "taxonomy/category/open-source",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-08-25-004",
+      "target": "taxonomy/misc/research",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-25-005",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "UK Prime Minister"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-25-005",
+      "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "Ukrainian President"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-25-005",
+      "target": "info:entity:product:Scalp missile",
+      "relation": "UK‑made missile blueprint transfer"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-25-005",
+      "target": "info:entity:product:Storm Shadow",
+      "relation": "French version of Scalp missile"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-25-005",
+      "target": "info:entity:organization:MBDA",
+      "relation": "UK defence company"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-25-005",
+      "target": "info:entity:organization:Avengers AI Labs",
+      "relation": "Ukrainian AI partnership"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-25-005",
+      "target": "info:item:politics:global:2026-08-23-007",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-25-005",
+      "target": "info:item:politics:global:2026-08-21-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-25-005",
+      "target": "info:item:politics:global:2026-08-18-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-25-005",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-25-005",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-25-005",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-25-005",
+      "target": "taxonomy/misc/Geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-25-005",
+      "target": "taxonomy/misc/Military Aid",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-25-005",
+      "target": "taxonomy/misc/International Relations",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -4214,6 +4659,12 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:concept:Machine Teaching",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:concept:Principal Component Analysis",
       "relation": "co-occurs",
       "weight": "1"
@@ -4408,19 +4859,19 @@
       "source": "info:entity:concept:Big Data",
       "target": "info:entity:concept:Compact Data",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:concept:Big Data",
       "target": "info:entity:organization:arXiv",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:concept:Big Data",
       "target": "info:entity:person:Song-Kyoo Amang Kim",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:concept:Buddhist Lent (Vassa)",
@@ -4456,13 +4907,13 @@
       "source": "info:entity:concept:Compact Data",
       "target": "info:entity:organization:arXiv",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:concept:Compact Data",
       "target": "info:entity:person:Song-Kyoo Amang Kim",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:concept:Computer Vision",
@@ -4753,6 +5204,42 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Avengers AI Labs",
+      "target": "info:entity:organization:MBDA",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Avengers AI Labs",
+      "target": "info:entity:organization:UK Ministry of Defence",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Avengers AI Labs",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "co-occurs",
+      "weight": "2"
+    },
+    {
+      "source": "info:entity:organization:Avengers AI Labs",
+      "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "co-occurs",
+      "weight": "2"
+    },
+    {
+      "source": "info:entity:organization:Avengers AI Labs",
+      "target": "info:entity:product:Scalp missile",
+      "relation": "co-occurs",
+      "weight": "2"
+    },
+    {
+      "source": "info:entity:organization:Avengers AI Labs",
+      "target": "info:entity:product:Storm Shadow",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:BBC News",
       "target": "info:entity:organization:Ukrainian Government",
       "relation": "co-occurs",
@@ -4915,6 +5402,30 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Hayat Tahrir al-Sham (HTS)",
+      "target": "info:entity:organization:Syrian Government",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Hayat Tahrir al-Sham (HTS)",
+      "target": "info:entity:person:Ahmed al-Sharaa",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Hayat Tahrir al-Sham (HTS)",
+      "target": "info:entity:person:Marco Rubio",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Hayat Tahrir al-Sham (HTS)",
+      "target": "info:entity:person:Scott Bessent",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Hong Kong Alliance (HKA)",
       "target": "info:entity:person:Chow Hang‑tung",
       "relation": "co-occurs",
@@ -4966,11 +5477,23 @@
       "source": "info:entity:organization:MBDA",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:MBDA",
       "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "co-occurs",
+      "weight": "2"
+    },
+    {
+      "source": "info:entity:organization:MBDA",
+      "target": "info:entity:product:Scalp missile",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:MBDA",
+      "target": "info:entity:product:Storm Shadow",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -5054,6 +5577,12 @@
     },
     {
       "source": "info:entity:organization:Syrian Government",
+      "target": "info:entity:person:Ahmed al-Sharaa",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Syrian Government",
       "target": "info:entity:person:Benjamin Netanyahu",
       "relation": "co-occurs",
       "weight": "1"
@@ -5061,6 +5590,18 @@
     {
       "source": "info:entity:organization:Syrian Government",
       "target": "info:entity:person:Israel Katz",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Syrian Government",
+      "target": "info:entity:person:Marco Rubio",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Syrian Government",
+      "target": "info:entity:person:Scott Bessent",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -5090,7 +5631,25 @@
     },
     {
       "source": "info:entity:organization:UK Ministry of Defence",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:UK Ministry of Defence",
       "target": "info:entity:person:Vladimir Putin",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:UK Ministry of Defence",
+      "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:UK Ministry of Defence",
+      "target": "info:entity:product:Scalp missile",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -5140,6 +5699,18 @@
       "source": "info:entity:organization:arXiv",
       "target": "info:entity:person:Song-Kyoo Amang Kim",
       "relation": "co-occurs",
+      "weight": "2"
+    },
+    {
+      "source": "info:entity:person:Ahmed al-Sharaa",
+      "target": "info:entity:person:Marco Rubio",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Ahmed al-Sharaa",
+      "target": "info:entity:person:Scott Bessent",
+      "relation": "co-occurs",
       "weight": "1"
     },
     {
@@ -5164,7 +5735,19 @@
       "source": "info:entity:person:Andy Burnham",
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
+      "weight": "4"
+    },
+    {
+      "source": "info:entity:person:Andy Burnham",
+      "target": "info:entity:product:Scalp missile",
+      "relation": "co-occurs",
       "weight": "2"
+    },
+    {
+      "source": "info:entity:person:Andy Burnham",
+      "target": "info:entity:product:Storm Shadow",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:person:Andy Burnham",
@@ -5311,6 +5894,12 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:person:Marco Rubio",
+      "target": "info:entity:person:Scott Bessent",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:person:Mark Carney",
       "target": "info:entity:region:North America",
       "relation": "co-occurs",
@@ -5348,6 +5937,18 @@
     },
     {
       "source": "info:entity:person:Volodymyr Zelensky",
+      "target": "info:entity:product:Scalp missile",
+      "relation": "co-occurs",
+      "weight": "2"
+    },
+    {
+      "source": "info:entity:person:Volodymyr Zelensky",
+      "target": "info:entity:product:Storm Shadow",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Volodymyr Zelensky",
       "target": "info:entity:region:Kryvyi Rih",
       "relation": "co-occurs",
       "weight": "3"
@@ -5355,6 +5956,12 @@
     {
       "source": "info:entity:product:AI data centers",
       "target": "info:entity:region:North America",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:product:Scalp missile",
+      "target": "info:entity:product:Storm Shadow",
       "relation": "co-occurs",
       "weight": "1"
     }

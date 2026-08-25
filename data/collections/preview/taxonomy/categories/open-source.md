@@ -1,7 +1,7 @@
 ---
 node: "open-source"
 layer: category
-item_count: 16
+item_count: 18
 ---
 
 # open-source
@@ -18,6 +18,8 @@ item_count: 16
 
 ## Items
 
+- 2026-08-25 · [[info:item:ai-ml:global:2026-08-25-004]] — Toward Compact Data from Big Data
+- 2026-08-25 · [[info:item:ai-ml:global:2026-08-25-004]] — Toward Compact Data from Big Data
 - 2026-08-24 · [[info:item:ai-ml:global:2026-08-24-004]] — Robust Federated Training via Collaborative Machine Teaching using Trusted Instances
 - 2026-08-24 · [[info:item:ai-ml:global:2026-08-24-004]] — Robust Federated Training via Collaborative Machine Teaching using Trusted Instances
 - 2026-08-24 · [[info:item:ai-ml:global:2026-08-24-005]] — Conditioning LSTM Decoder and Bi-directional Attention Based Question Answering System

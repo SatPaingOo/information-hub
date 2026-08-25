@@ -1,0 +1,70 @@
+---
+id: "info:item:world:global:2026-08-25-003"
+key: "2026-08-25-003"
+date: 2026-08-25
+content_type: digest
+topic: world
+region: global
+categories: ["policy", "industry"]
+source: "feeds.bbci.co.uk"
+source_url: "https://feeds.bbci.co.uk/news/world/rss.xml"
+word_count: 709
+tags: ["Syria", "Terrorism Designation", "Ahmed al-Sharaa", "Hayat Tahrir al-Sham", "U.S. Foreign Policy", "Geopolitics", "Middle East", "Sanctions Relief", "Counterterrorism", "Russia-China Influence"]
+---
+
+# US removes Syria from list of state sponsors of terrorism
+
+> [!summary] TL;DR — The Trump administration removed Syria from the U.S. list of state sponsors of terrorism after 47 years, signaling a dramatic shift toward engagement with President Ahmed al-Sharaa and his former jihadist group Hayat Tahrir al-Sham (HTS), which was also delisted. The move aims to unlock private investment and reintegrate Syria into the global economy while countering Russian and Chinese influence.
+
+## Background
+
+Syria was originally listed as a state sponsor of terrorism by the U.S. in 1979 due to its support for militant groups and alignment with adversarial powers. The designation imposed severe financial sanctions, restricted U.S. foreign aid, and limited defense exports. The Assad regime, backed by Russia and Iran, ruled Syria for over five decades until a surprise offensive led by HTS in late 2024 toppled the government. Ahmed al-Sharaa, formerly the leader of the al-Qaeda affiliate Jabhat al-Nusra Front (later rebranded as HTS), emerged as the head of the new transitional administration. The U.S. had previously designated Sharaa and HTS as terrorist entities, but began reassessing ties amid shifting regional dynamics and strategic competition with Russia and China.
+
+## Strategic Realignment and Geopolitical Gambit
+
+The decision to delist Syria reflects a calculated pivot by the Trump administration to bring Damascus into the Western orbit rather than allowing it to fall under deeper Russian or Chinese influence. By lifting sanctions and removing HTS from the terrorism list, the U.S. seeks to incentivize economic cooperation and political reform under Sharaa’s leadership. This marks a stark departure from decades of isolationist policy and underscores Washington’s broader strategy to reshape alliances in the Middle East, particularly in light of ongoing conflicts in Gaza, Lebanon, and the broader regional instability involving Israel and Turkey.
+
+## Domestic and International Security Concerns
+
+Despite diplomatic overtures, significant security risks persist. Syria remains politically unstable, with no functioning democratic institutions and lingering threats from extremist factions. The rebranding of HTS—from an al-Qaeda affiliate to a governing body—raises questions about the sincerity of its transformation and the potential for continued radicalization. Critics argue that legitimizing figures like Sharaa could embolden terrorist networks globally and undermine counterterrorism efforts. Additionally, the move may strain relationships with allies such as Israel, which has conducted airstrikes in Syria targeting Iranian-backed forces, and Turkey, which has its own complex history with Kurdish separatists in the region.
+
+## Economic Opportunities and Investment Prospects
+
+Lifting the terrorism designation opens the door for American companies to invest in Syria’s reconstruction and resource sectors, including oil, agriculture, and telecommunications. The U.S. Treasury Department anticipates that increased private sector involvement will foster political and economic stability. However, the success of these investments hinges on the establishment of transparent governance structures and rule of law—conditions currently absent in post-Assad Syria. Regional competitors like Russia and China, already entrenched through military presence and infrastructure projects, may view this as a direct challenge to their influence, potentially escalating proxy tensions.
+
+## Key facts
+
+- Syria was listed as a state sponsor of terrorism by the U.S. since 1979, carrying financial sanctions and trade restrictions.
+- Ahmed al-Sharaa, leader of Hayat Tahrir al-Sham (HTS), became Syria’s president after leading the 2024 offensive that ousted Bashar al-Assad.
+- HTS was removed from the U.S. list of Foreign Terrorist Organizations, along with Sharaa being taken off the Specially Designated Global Terrorists list.
+- Only three countries remain on the U.S. terrorism sponsor list: Cuba, North Korea, and Iran.
+- The delisting aims to facilitate private sector investment and reintegrate Syria into the global economy.
+
+## Implications
+
+- Increased U.S. economic engagement in Syria may trigger renewed competition with Russia and China, both of which have strategic footholds in the region.
+- Legitimizing former jihadists as political leaders sets a controversial precedent that could affect global counterterrorism policies and alliances.
+- Regional actors like Israel and Turkey may reassess their security postures and bilateral relations with the U.S. given the evolving Syrian landscape.
+- Long-term stability in Syria will depend on institutional reforms, inclusive governance, and international support—factors currently uncertain.
+
+## Outlook
+
+While the U.S. move signals a new chapter in Syria’s international relations, the country faces immense challenges in achieving lasting peace and development. The effectiveness of economic incentives in driving political change remains to be seen, especially amid ongoing conflicts and fragmented loyalties among various factions. As global powers vie for influence in Damascus, the coming months will be critical in determining whether Syria can transition from a war-torn state to a stable actor within the international community. Close monitoring of HTS’s behavior, regional responses, and internal governance developments will be essential in assessing the long-term viability of this policy shift.
+
+## Entities
+
+- [[Ahmed al-Sharaa]] — *person* (President of Syria and former leader of Hayat Tahrir al-Sham)
+- [[Hayat Tahrir al-Sham (HTS)]] — *organization* (Former al-Qaeda affiliate now part of Syria's transitional government)
+- [[Marco Rubio]] — *person* (U.S. Secretary of State who announced the delisting)
+- [[Scott Bessent]] — *person* (U.S. Treasury Secretary supporting economic reintegration)
+- [[Syrian Government]] — *organization* (Recipient of U.S. policy shift following Assad's removal)
+
+## Related
+
+- [[info:item:world:global:2026-08-25-001]]
+- [[info:item:world:global:2026-08-25-002]]
+- [[info:item:world:global:2026-08-24-001]]
+
+---
+
+*Source: [feeds.bbci.co.uk](https://feeds.bbci.co.uk/news/world/rss.xml)*
