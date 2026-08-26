@@ -1,7 +1,7 @@
 ---
 name: "Andy Burnham"
 entity_type: person
-backlink_count: 8
+backlink_count: 10
 ---
 
 # Andy Burnham
@@ -10,6 +10,8 @@ backlink_count: 8
 
 ## Referenced by
 
+- 2026-08-26 · [[info:item:politics:global:2026-08-26-004]] — Burnham refuses to rule out tax rises in autumn Budget
+- 2026-08-26 · [[info:item:politics:global:2026-08-26-005]] — More than 70,000 social and affordable homes to be built across England over 10 years
 - 2026-08-25 · [[info:item:world:global:2026-08-25-002]] — UK PM Burnham vows support for Ukraine despite 'outrageous threats' from Russia
 - 2026-08-25 · [[info:item:politics:global:2026-08-25-005]] — Burnham vows support for Ukraine despite 'outrageous threats' from Russia
 - 2026-08-24 · [[info:item:world:global:2026-08-24-007]] — Burnham to visit Kyiv on first foreign trip and reaffirm UK support for Ukraine

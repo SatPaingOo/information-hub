@@ -1,7 +1,7 @@
 ---
 node: "industry"
 layer: category
-item_count: 27
+item_count: 31
 ---
 
 # industry
@@ -19,6 +19,10 @@ item_count: 27
 
 ## Items
 
+- 2026-08-26 · [[info:item:world:global:2026-08-26-001]] — Canada Announces ‘Dollar‑for‑Dollar’ Retaliatory Tariffs on US Goods Up to 50%
+- 2026-08-26 · [[info:item:world:global:2026-08-26-002]] — China hits out at 'illegal' new US sanctions on Iran and trading partners
+- 2026-08-26 · [[info:item:world:global:2026-08-26-003]] — CIA chief travels to Moscow for unannounced talks, US media reports
+- 2026-08-26 · [[info:item:world:global:2026-08-26-008]] — Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%
 - 2026-08-25 · [[info:item:world:global:2026-08-25-001]] — Iran faces 'greatest financial offensive ever', says US treasury secretary
 - 2026-08-25 · [[info:item:world:global:2026-08-25-002]] — UK PM Burnham vows support for Ukraine despite 'outrageous threats' from Russia
 - 2026-08-25 · [[info:item:world:global:2026-08-25-003]] — US removes Syria from list of state sponsors of terrorism

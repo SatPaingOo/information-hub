@@ -1,7 +1,7 @@
 ---
 name: "Mark Carney"
 entity_type: person
-backlink_count: 4
+backlink_count: 5
 ---
 
 # Mark Carney
@@ -10,6 +10,7 @@ backlink_count: 4
 
 ## Referenced by
 
+- 2026-08-26 · [[info:item:world:global:2026-08-26-008]] — Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%
 - 2026-08-24 · [[info:item:world:global:2026-08-24-002]] — Trump says Canada wants 'benefits' of being US state after trade talks collapse
 - 2026-08-23 · [[info:item:world:global:2026-08-23-008]] — Carney calls Trump's fresh tariffs a 'miscalculation' after trade talks collapse
 - 2026-08-23 · [[info:item:world:global:2026-08-23-009]] — Carney says Trump started trade war with fresh tariffs ‘attack’

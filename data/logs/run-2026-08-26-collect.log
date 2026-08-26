@@ -1,0 +1,30 @@
+2026-08-26 02:25:12,485 ERROR [world-news] select failed: HTTP 429: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"poolside/laguna-xs-2.1:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Poolside","is_byok":fa
+2026-08-26 02:25:12,503 INFO [world-news] model returned no selection — using heuristic fallback (3)
+2026-08-26 02:25:13,442 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"poolside/laguna-s-2.1:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Poolside","is_byok":fal
+2026-08-26 02:25:17,621 ERROR [world-news] generate error: HTTP 503: {"error":{"message":"Provider returned error","code":503,"metadata":{"raw":"{\"error\":{\"message\":\"The model `openrouter:LiquidAI/LFM2.5-2.6B:free` is currently unavailable for real-time inference.\",\"type\":\"api_error\",\"param\":null,\"code\":null}}","provider_name":"Liquid","is_byok":false}}
+2026-08-26 02:25:28,064 INFO [world-news] published 2026-08-26-001 — Canada Announces ‘Dollar‑for‑Dollar’ Retaliatory Tariffs on 
+2026-08-26 02:25:28,379 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 5733, Requested 4413. Please try again in 16.094999999s. Need more tokens? Upgrade to Dev Tier today at https
+2026-08-26 02:25:55,753 INFO [world-news] published 2026-08-26-002 — China hits out at 'illegal' new US sanctions on Iran and tra
+2026-08-26 02:25:56,095 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"poolside/laguna-xs-2.1:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Poolside","is_byok":fa
+2026-08-26 02:25:59,240 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"poolside/laguna-s-2.1:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Poolside","is_byok":fal
+2026-08-26 02:26:09,518 INFO [world-news] published 2026-08-26-003 — CIA chief travels to Moscow for unannounced talks, US media 
+2026-08-26 02:26:10,631 ERROR [tech-news] select failed: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6010, Requested 2821. Please try again in 6.2325s. Need more tokens? Upgrade to Dev Tier today at https://con
+2026-08-26 02:26:10,646 INFO [tech-news] nothing selected
+2026-08-26 02:26:24,335 INFO [politics] model returned no selection — using heuristic fallback (2)
+2026-08-26 02:26:35,282 INFO [politics] published 2026-08-26-004 — Burnham refuses to rule out tax rises in autumn Budget
+2026-08-26 02:26:44,007 INFO [politics] published 2026-08-26-005 — More than 70,000 social and affordable homes to be built acr
+2026-08-26 02:27:12,560 INFO [products] published 2026-08-26-006 — Ninjō AI
+2026-08-26 02:27:12,818 ERROR [products] generate error: HTTP 429: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"poolside/laguna-xs-2.1:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Poolside","is_byok":fa
+2026-08-26 02:27:39,585 INFO [products] published 2026-08-26-007 — Agnost AI
+2026-08-26 02:27:39,621 INFO collect done: 7 item(s) published — target 3/10, next run ≈ 2026-08-26T02:42:39+00:00 UTC
+2026-08-26 02:28:01,851 INFO [world-news] published 2026-08-26-008 — Canada announces 'dollar-for-dollar' retaliatory tariffs on 
+2026-08-26 02:28:06,586 ERROR [world-news] generate error: HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
+
+2026-08-26 02:28:12,373 ERROR [world-news] generate error: HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
+
+2026-08-26 02:28:18,375 WARNING [world-news] no collect provider for deep-dive
+2026-08-26 02:28:18,554 WARNING [world-news] no collect provider for deep-dive
+2026-08-26 02:28:19,021 WARNING [tech-news] no collect provider available
+2026-08-26 02:28:19,477 WARNING [politics] no collect provider available
+2026-08-26 02:28:20,380 WARNING [products] no collect provider available
+2026-08-26 02:28:20,413 INFO collect done: 1 item(s) published — target 2/10, next run ≈ 2026-08-27T01:00:00+00:00 UTC

@@ -1,7 +1,7 @@
 ---
 node: "product"
 layer: category
-item_count: 14
+item_count: 16
 ---
 
 # product
@@ -18,6 +18,8 @@ item_count: 14
 
 ## Items
 
+- 2026-08-26 · [[info:item:products:global:2026-08-26-006]] — Ninjō AI
+- 2026-08-26 · [[info:item:products:global:2026-08-26-007]] — Agnost AI
 - 2026-08-25 · [[info:item:ai-ml:global:2026-08-25-004]] — Toward Compact Data from Big Data
 - 2026-08-24 · [[info:item:ai-ml:global:2026-08-24-004]] — Robust Federated Training via Collaborative Machine Teaching using Trusted Instances
 - 2026-08-24 · [[info:item:ai-ml:global:2026-08-24-005]] — Conditioning LSTM Decoder and Bi-directional Attention Based Question Answering System

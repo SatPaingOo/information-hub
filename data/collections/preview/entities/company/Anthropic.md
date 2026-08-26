@@ -1,7 +1,7 @@
 ---
 name: "Anthropic"
 entity_type: company
-backlink_count: 6
+backlink_count: 8
 ---
 
 # Anthropic
@@ -10,6 +10,8 @@ backlink_count: 6
 
 ## Referenced by
 
+- 2026-08-26 · [[info:item:products:global:2026-08-26-006]] — Ninjō AI
+- 2026-08-26 · [[info:item:products:global:2026-08-26-007]] — Agnost AI
 - 2026-08-23 · [[info:item:ai-ml:global:2026-08-23-006]] — Feature Selection and Feature Extraction in Pattern Analysis: A Literature Review
 - 2026-08-22 · [[info:item:ai-ml:global:2026-08-22-004]] — Anthropic’s Opus 4.6 is a smut-machine
 - 2026-08-21 · [[info:item:products:global:2026-08-21-003]] — Checksum AI: Your Coding Agent’s Testing Buddy
