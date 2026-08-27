@@ -17,3 +17,11 @@
 2026-08-27 11:06:06,803 WARNING [politics] no collect provider available
 2026-08-27 11:06:07,027 WARNING [products] no collect provider available
 2026-08-27 11:06:07,081 INFO collect done: 0 item(s) published — target 3/10, next run ≈ 2026-08-28T01:00:00+00:00 UTC
+2026-08-27 21:03:51,431 INFO [world-news] published 2026-08-27-008 — Convicted Bosnian Serb war criminal Mladić dies aged 84
+2026-08-27 21:03:51,622 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7983, Requested 4332. Please try again in 32.3625s. Need more tokens? Upgrade to Dev Tier today at https://co
+2026-08-27 21:03:54,624 WARNING [world-news] no collect provider for deep-dive
+2026-08-27 21:03:54,717 WARNING [world-news] no collect provider for deep-dive
+2026-08-27 21:03:55,334 WARNING [tech-news] no collect provider available
+2026-08-27 21:03:55,521 WARNING [politics] no collect provider available
+2026-08-27 21:03:56,608 WARNING [products] no collect provider available
+2026-08-27 21:03:56,654 INFO collect done: 1 item(s) published — target 2/10, next run ≈ 2026-08-28T01:00:00+00:00 UTC

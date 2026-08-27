@@ -1604,6 +1604,42 @@
       "name": "Zhipu AI"
     },
     {
+      "id": "info:item:world:global:2026-08-27-008",
+      "type": "item",
+      "date": "2026-08-27",
+      "title": "Convicted Bosnian Serb war criminal Mladić dies aged 84"
+    },
+    {
+      "id": "info:entity:person:Ratko Mladić",
+      "type": "person",
+      "name": "Ratko Mladić"
+    },
+    {
+      "id": "info:entity:organization:United Nations",
+      "type": "organization",
+      "name": "United Nations"
+    },
+    {
+      "id": "info:entity:organization:International Criminal Tribunal for the former Yugoslavia",
+      "type": "organization",
+      "name": "International Criminal Tribunal for the former Yugoslavia"
+    },
+    {
+      "id": "taxonomy/misc/war crimes",
+      "type": "taxonomy",
+      "name": "war crimes"
+    },
+    {
+      "id": "taxonomy/misc/post‑conflict reconciliation",
+      "type": "taxonomy",
+      "name": "post‑conflict reconciliation"
+    },
+    {
+      "id": "taxonomy/misc/international justice",
+      "type": "taxonomy",
+      "name": "international justice"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -5674,6 +5710,66 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-08-27-008",
+      "target": "info:entity:person:Ratko Mladić",
+      "relation": "convicted war criminal"
+    },
+    {
+      "source": "info:item:world:global:2026-08-27-008",
+      "target": "info:entity:organization:United Nations",
+      "relation": "oversees detention facility and ordered inquiry"
+    },
+    {
+      "source": "info:item:world:global:2026-08-27-008",
+      "target": "info:entity:organization:International Criminal Tribunal for the former Yugoslavia",
+      "relation": "original prosecuting body"
+    },
+    {
+      "source": "info:item:world:global:2026-08-27-008",
+      "target": "info:item:world:global:2026-08-27-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-08-27-008",
+      "target": "info:item:world:global:2026-08-27-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-08-27-008",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-27-008",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-27-008",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-27-008",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-27-008",
+      "target": "taxonomy/misc/war crimes",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-08-27-008",
+      "target": "taxonomy/misc/post‑conflict reconciliation",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-08-27-008",
+      "target": "taxonomy/misc/international justice",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -6972,6 +7068,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:International Criminal Tribunal for the former Yugoslavia",
+      "target": "info:entity:organization:United Nations",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:International Criminal Tribunal for the former Yugoslavia",
+      "target": "info:entity:person:Ratko Mladić",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Iran",
       "target": "info:entity:person:Lin Jian",
       "relation": "co-occurs",
@@ -7330,6 +7438,12 @@
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
       "weight": "2"
+    },
+    {
+      "source": "info:entity:organization:United Nations",
+      "target": "info:entity:person:Ratko Mladić",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:organization:Wildberries",
