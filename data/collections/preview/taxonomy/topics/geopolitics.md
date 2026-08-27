@@ -1,7 +1,7 @@
 ---
 node: "geopolitics"
 layer: topic
-item_count: 13
+item_count: 14
 ---
 
 # geopolitics
@@ -24,6 +24,7 @@ item_count: 13
 
 ## Items
 
+- 2026-08-27 · [[info:item:politics:global:2026-08-27-004]] — Burnham calls summit of Welsh, Scottish and Northern Irish first ministers
 - 2026-08-26 · [[info:item:world:global:2026-08-26-002]] — China hits out at 'illegal' new US sanctions on Iran and trading partners
 - 2026-08-26 · [[info:item:world:global:2026-08-26-003]] — CIA chief travels to Moscow for unannounced talks, US media reports
 - 2026-08-26 · [[info:item:politics:global:2026-08-26-004]] — Burnham refuses to rule out tax rises in autumn Budget

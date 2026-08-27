@@ -1,7 +1,7 @@
 ---
 node: "world"
 layer: topic
-item_count: 30
+item_count: 33
 ---
 
 # world
@@ -17,6 +17,9 @@ item_count: 30
 
 ## Items
 
+- 2026-08-27 · [[info:item:world:global:2026-08-27-001]] — Collapsed glacier likely caused devastating Nepal‑Tibet floods, scientists say
+- 2026-08-27 · [[info:item:world:global:2026-08-27-002]] — What we know about deadly Nepal‑Tibet floods
+- 2026-08-27 · [[info:item:world:global:2026-08-27-003]] — Norway's royal family gathers at King Harald's bedside as his condition worsens
 - 2026-08-26 · [[info:item:world:global:2026-08-26-001]] — Canada Announces ‘Dollar‑for‑Dollar’ Retaliatory Tariffs on US Goods Up to 50%
 - 2026-08-26 · [[info:item:world:global:2026-08-26-002]] — China hits out at 'illegal' new US sanctions on Iran and trading partners
 - 2026-08-26 · [[info:item:world:global:2026-08-26-003]] — CIA chief travels to Moscow for unannounced talks, US media reports

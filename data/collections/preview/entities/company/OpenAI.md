@@ -1,7 +1,7 @@
 ---
 name: "OpenAI"
 entity_type: company
-backlink_count: 13
+backlink_count: 16
 ---
 
 # OpenAI
@@ -10,6 +10,9 @@ backlink_count: 13
 
 ## Referenced by
 
+- 2026-08-27 · [[info:item:world:global:2026-08-27-001]] — Collapsed glacier likely caused devastating Nepal‑Tibet floods, scientists say
+- 2026-08-27 · [[info:item:products:global:2026-08-27-006]] — Ojin – Real‑Time AI Agent with Live Face and Voice
+- 2026-08-27 · [[info:item:products:global:2026-08-27-007]] — GLM-5.3-Flash: The First Natively Multimodal Model in the GLM-5 Series
 - 2026-08-26 · [[info:item:products:global:2026-08-26-006]] — Ninjō AI
 - 2026-08-26 · [[info:item:products:global:2026-08-26-007]] — Agnost AI
 - 2026-08-25 · [[info:item:world:global:2026-08-25-001]] — Iran faces 'greatest financial offensive ever', says US treasury secretary

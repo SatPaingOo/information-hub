@@ -1,0 +1,19 @@
+2026-08-27 11:01:21,745 INFO [world-news] published 2026-08-27-001 — Collapsed glacier likely caused devastating Nepal‑Tibet floo
+2026-08-27 11:02:18,777 INFO [world-news] published 2026-08-27-002 — What we know about deadly Nepal‑Tibet floods
+2026-08-27 11:02:57,541 INFO [world-news] published 2026-08-27-003 — Norway's royal family gathers at King Harald's bedside as hi
+2026-08-27 11:03:00,840 INFO [tech-news] nothing selected
+2026-08-27 11:03:30,086 INFO [politics] published 2026-08-27-004 — Burnham calls summit of Welsh, Scottish and Northern Irish f
+2026-08-27 11:04:09,325 INFO [politics] published 2026-08-27-005 — Wes Streeting deluged with homophobic hate mail since becomi
+2026-08-27 11:05:46,627 INFO [products] published 2026-08-27-006 — Ojin – Real‑Time AI Agent with Live Face and Voice
+2026-08-27 11:05:51,316 INFO [products] published 2026-08-27-007 — GLM-5.3-Flash: The First Natively Multimodal Model in the GL
+2026-08-27 11:05:51,374 INFO collect done: 7 item(s) published — target 3/10, next run ≈ 2026-08-27T11:20:51+00:00 UTC
+2026-08-27 11:05:54,088 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7897, Requested 4952. Please try again in 36.3675s. Need more tokens? Upgrade to Dev Tier today at https://co
+2026-08-27 11:06:00,123 ERROR [world-news] generate error: HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
+
+2026-08-27 11:06:06,125 WARNING [world-news] no collect provider for deep-dive
+2026-08-27 11:06:06,216 WARNING [world-news] no collect provider for deep-dive
+2026-08-27 11:06:06,317 WARNING [world-news] no collect provider for deep-dive
+2026-08-27 11:06:06,591 WARNING [tech-news] no collect provider available
+2026-08-27 11:06:06,803 WARNING [politics] no collect provider available
+2026-08-27 11:06:07,027 WARNING [products] no collect provider available
+2026-08-27 11:06:07,081 INFO collect done: 0 item(s) published — target 3/10, next run ≈ 2026-08-28T01:00:00+00:00 UTC

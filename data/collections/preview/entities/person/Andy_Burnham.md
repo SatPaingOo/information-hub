@@ -1,7 +1,7 @@
 ---
 name: "Andy Burnham"
 entity_type: person
-backlink_count: 10
+backlink_count: 12
 ---
 
 # Andy Burnham
@@ -10,6 +10,8 @@ backlink_count: 10
 
 ## Referenced by
 
+- 2026-08-27 · [[info:item:world:global:2026-08-27-002]] — What we know about deadly Nepal‑Tibet floods
+- 2026-08-27 · [[info:item:politics:global:2026-08-27-004]] — Burnham calls summit of Welsh, Scottish and Northern Irish first ministers
 - 2026-08-26 · [[info:item:politics:global:2026-08-26-004]] — Burnham refuses to rule out tax rises in autumn Budget
 - 2026-08-26 · [[info:item:politics:global:2026-08-26-005]] — More than 70,000 social and affordable homes to be built across England over 10 years
 - 2026-08-25 · [[info:item:world:global:2026-08-25-002]] — UK PM Burnham vows support for Ukraine despite 'outrageous threats' from Russia

@@ -1,7 +1,7 @@
 ---
 node: "product"
 layer: category
-item_count: 16
+item_count: 18
 ---
 
 # product
@@ -18,6 +18,8 @@ item_count: 16
 
 ## Items
 
+- 2026-08-27 · [[info:item:products:global:2026-08-27-006]] — Ojin – Real‑Time AI Agent with Live Face and Voice
+- 2026-08-27 · [[info:item:products:global:2026-08-27-007]] — GLM-5.3-Flash: The First Natively Multimodal Model in the GLM-5 Series
 - 2026-08-26 · [[info:item:products:global:2026-08-26-006]] — Ninjō AI
 - 2026-08-26 · [[info:item:products:global:2026-08-26-007]] — Agnost AI
 - 2026-08-25 · [[info:item:ai-ml:global:2026-08-25-004]] — Toward Compact Data from Big Data

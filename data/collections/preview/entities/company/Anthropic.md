@@ -1,7 +1,7 @@
 ---
 name: "Anthropic"
 entity_type: company
-backlink_count: 8
+backlink_count: 10
 ---
 
 # Anthropic
@@ -10,6 +10,8 @@ backlink_count: 8
 
 ## Referenced by
 
+- 2026-08-27 · [[info:item:world:global:2026-08-27-001]] — Collapsed glacier likely caused devastating Nepal‑Tibet floods, scientists say
+- 2026-08-27 · [[info:item:products:global:2026-08-27-007]] — GLM-5.3-Flash: The First Natively Multimodal Model in the GLM-5 Series
 - 2026-08-26 · [[info:item:products:global:2026-08-26-006]] — Ninjō AI
 - 2026-08-26 · [[info:item:products:global:2026-08-26-007]] — Agnost AI
 - 2026-08-23 · [[info:item:ai-ml:global:2026-08-23-006]] — Feature Selection and Feature Extraction in Pattern Analysis: A Literature Review

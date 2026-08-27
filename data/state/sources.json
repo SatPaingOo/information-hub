@@ -1,14 +1,14 @@
 {
   "world-news": {
-    "last_fetched": "2026-08-26T02:28:18+00:00",
+    "last_fetched": "2026-08-27T11:06:06+00:00",
     "candidates_found": 8,
-    "items_published": 1,
+    "items_published": 0,
     "last_error": null,
     "grounding_failures": 0,
     "grounding_scores": []
   },
   "tech-news": {
-    "last_fetched": "2026-08-26T02:28:19+00:00",
+    "last_fetched": "2026-08-27T11:06:06+00:00",
     "candidates_found": 8,
     "items_published": 0,
     "last_error": null,
@@ -16,7 +16,7 @@
     "grounding_scores": []
   },
   "politics": {
-    "last_fetched": "2026-08-26T02:28:19+00:00",
+    "last_fetched": "2026-08-27T11:06:06+00:00",
     "candidates_found": 8,
     "items_published": 0,
     "last_error": null,
@@ -24,7 +24,7 @@
     "grounding_scores": []
   },
   "products": {
-    "last_fetched": "2026-08-26T02:28:20+00:00",
+    "last_fetched": "2026-08-27T11:06:07+00:00",
     "candidates_found": 8,
     "items_published": 0,
     "last_error": null,
@@ -72,27 +72,29 @@
       1.0,
       1.0,
       1.0,
-      1.0,
-      1.0,
-      1.0,
+      0.833,
       1.0,
       1.0,
       0.833,
+      1.0,
+      1.0,
       1.0,
       1.0,
       0.833,
       1.0,
       1.0
     ],
-    "avg_grounding_score": 0.993
+    "avg_grounding_score": 0.99
   },
   "producthunt.com": {
     "grounding_scores": [
       0.0,
       0.0,
+      0.0,
+      0.0,
       0.0
     ],
-    "grounding_failures": 3,
+    "grounding_failures": 5,
     "avg_grounding_score": 0.0
   },
   "arXiv": {
