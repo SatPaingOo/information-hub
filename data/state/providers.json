@@ -1,9 +1,9 @@
 {
   "groq": {
     "quota_date": "2026-08-28",
-    "tokens_used": 14130,
-    "items": 3,
-    "calls": 4,
+    "tokens_used": 19825,
+    "items": 4,
+    "calls": 6,
     "errors": 4,
     "cooldown_until": "2026-08-28T12:38:13+00:00",
     "models": {
@@ -30,13 +30,13 @@
         "cooldown_until": null
       },
       "openai/gpt-oss-120b": {
-        "calls": 71,
-        "items": 24,
+        "calls": 73,
+        "items": 25,
         "errors": 41,
-        "consecutive_failures": 1,
+        "consecutive_failures": 0,
         "healthy": true,
-        "last_health_check": "2026-08-28T12:37:43+00:00",
-        "latency_ms": 4424,
+        "last_health_check": "2026-08-28T22:44:59+00:00",
+        "latency_ms": 3824,
         "supports_json": true,
         "cooldown_until": "2026-08-28T12:38:13+00:00"
       },
