@@ -1,7 +1,7 @@
 ---
 name: "Rishi Sunak"
 entity_type: person
-backlink_count: 1
+backlink_count: 2
 ---
 
 # Rishi Sunak
@@ -10,4 +10,5 @@ backlink_count: 1
 
 ## Referenced by
 
+- 2026-08-28 · [[info:item:politics:global:2026-08-28-002]] — Number of asylum seekers in hotels halves in a year
 - 2026-08-23 · [[info:item:politics:global:2026-08-23-007]] — Economic adviser O'Neill rules out government job but backs PM's devolution plans

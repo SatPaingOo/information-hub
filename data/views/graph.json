@@ -1640,6 +1640,179 @@
       "name": "international justice"
     },
     {
+      "id": "info:item:world:global:2026-08-28-001",
+      "type": "item",
+      "date": "2026-08-28",
+      "title": "Trump administration illegally retaliated against Anthropic, judge rules"
+    },
+    {
+      "id": "info:entity:person:Judge Rita Lin",
+      "type": "person",
+      "name": "Judge Rita Lin"
+    },
+    {
+      "id": "info:entity:organization:U.S. Department of Defense",
+      "type": "organization",
+      "name": "U.S. Department of Defense"
+    },
+    {
+      "id": "info:item:politics:global:2026-08-28-002",
+      "type": "item",
+      "date": "2026-08-28",
+      "title": "Number of asylum seekers in hotels halves in a year"
+    },
+    {
+      "id": "info:entity:person:Shabana Mahmood",
+      "type": "person",
+      "name": "Shabana Mahmood"
+    },
+    {
+      "id": "info:entity:person:Chris Philp",
+      "type": "person",
+      "name": "Chris Philp"
+    },
+    {
+      "id": "info:entity:organization:Reform UK",
+      "type": "organization",
+      "name": "Reform UK"
+    },
+    {
+      "id": "taxonomy/misc/global migration",
+      "type": "taxonomy",
+      "name": "global migration"
+    },
+    {
+      "id": "taxonomy/misc/asylum policy",
+      "type": "taxonomy",
+      "name": "asylum policy"
+    },
+    {
+      "id": "taxonomy/misc/UK Home Office",
+      "type": "taxonomy",
+      "name": "UK Home Office"
+    },
+    {
+      "id": "info:item:politics:global:2026-08-28-003",
+      "type": "item",
+      "date": "2026-08-28",
+      "title": "Rape and sex offence specialists on all police forces by 2027, PM says"
+    },
+    {
+      "id": "info:entity:organization:Refuge",
+      "type": "organization",
+      "name": "Refuge"
+    },
+    {
+      "id": "info:entity:organization:Home Office",
+      "type": "organization",
+      "name": "Home Office"
+    },
+    {
+      "id": "taxonomy/misc/violence against women and girls",
+      "type": "taxonomy",
+      "name": "violence against women and girls"
+    },
+    {
+      "id": "taxonomy/misc/UK criminal justice",
+      "type": "taxonomy",
+      "name": "UK criminal justice"
+    },
+    {
+      "id": "info:item:products:global:2026-08-28-004",
+      "type": "item",
+      "date": "2026-08-28",
+      "title": "Pluto: Your Professional Profile Becomes an AI Agent"
+    },
+    {
+      "id": "info:entity:product:Pluto",
+      "type": "product",
+      "name": "Pluto"
+    },
+    {
+      "id": "info:item:products:global:2026-08-28-005",
+      "type": "item",
+      "date": "2026-08-28",
+      "title": "Gemini 3.5 Transcribe"
+    },
+    {
+      "id": "info:entity:model:Gemini 3.5 Transcribe",
+      "type": "model",
+      "name": "Gemini 3.5 Transcribe"
+    },
+    {
+      "id": "info:entity:company:Google",
+      "type": "company",
+      "name": "Google"
+    },
+    {
+      "id": "info:item:world:global:2026-08-28-006",
+      "type": "item",
+      "date": "2026-08-28",
+      "title": "Tracing the deadly path of the Nepal‑Tibet flash flood"
+    },
+    {
+      "id": "info:entity:person:Merlyn Thomas",
+      "type": "person",
+      "name": "Merlyn Thomas"
+    },
+    {
+      "id": "taxonomy/misc/disaster_response",
+      "type": "taxonomy",
+      "name": "disaster_response"
+    },
+    {
+      "id": "info:item:world:global:2026-08-28-007",
+      "type": "item",
+      "date": "2026-08-28",
+      "title": "Tate brothers blast US jail conditions as they seek bail in UK extradition fight"
+    },
+    {
+      "id": "info:entity:person:Andrew Tate",
+      "type": "person",
+      "name": "Andrew Tate"
+    },
+    {
+      "id": "info:entity:person:Tristan Tate",
+      "type": "person",
+      "name": "Tristan Tate"
+    },
+    {
+      "id": "info:entity:organization:Crown Prosecution Service",
+      "type": "organization",
+      "name": "Crown Prosecution Service"
+    },
+    {
+      "id": "taxonomy/misc/law enforcement",
+      "type": "taxonomy",
+      "name": "law enforcement"
+    },
+    {
+      "id": "info:item:world:global:2026-08-28-008",
+      "type": "item",
+      "date": "2026-08-28",
+      "title": "What we know after the big Grand Theft Auto 6 preview"
+    },
+    {
+      "id": "info:entity:company:Rockstar Games",
+      "type": "company",
+      "name": "Rockstar Games"
+    },
+    {
+      "id": "info:entity:product:Grand Theft Auto 6",
+      "type": "product",
+      "name": "Grand Theft Auto 6"
+    },
+    {
+      "id": "taxonomy/misc/video games",
+      "type": "taxonomy",
+      "name": "video games"
+    },
+    {
+      "id": "taxonomy/misc/entertainment industry",
+      "type": "taxonomy",
+      "name": "entertainment industry"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -5770,6 +5943,496 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-08-28-001",
+      "target": "info:entity:company:Anthropic",
+      "relation": "subject of supply‑chain designation and lawsuit"
+    },
+    {
+      "source": "info:item:world:global:2026-08-28-001",
+      "target": "info:entity:person:Judge Rita Lin",
+      "relation": "presiding judge who ruled the retaliation illegal"
+    },
+    {
+      "source": "info:item:world:global:2026-08-28-001",
+      "target": "info:entity:organization:U.S. Department of Defense",
+      "relation": "agency that imposed the supply‑chain risk designation"
+    },
+    {
+      "source": "info:item:world:global:2026-08-28-001",
+      "target": "info:item:world:global:2026-08-27-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-08-28-001",
+      "target": "info:item:world:global:2026-08-27-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-08-28-001",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-28-001",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-28-001",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-28-001",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-28-001",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-08-28-001",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-08-28-001",
+      "target": "taxonomy/misc/regulation",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-28-002",
+      "target": "info:entity:person:Shabana Mahmood",
+      "relation": "Home Secretary implementing migration policies"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-28-002",
+      "target": "info:entity:person:Chris Philp",
+      "relation": "Shadow Home Secretary criticising Labour’s approach"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-28-002",
+      "target": "info:entity:person:Rishi Sunak",
+      "relation": "Former Prime Minister whose government tightened visa rules"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-28-002",
+      "target": "info:entity:organization:Reform UK",
+      "relation": "Opposition party calling for stricter border controls"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-28-002",
+      "target": "info:item:politics:global:2026-08-27-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-28-002",
+      "target": "info:item:politics:global:2026-08-27-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-28-002",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-28-002",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-28-002",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-28-002",
+      "target": "taxonomy/misc/global migration",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-28-002",
+      "target": "taxonomy/misc/asylum policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-28-002",
+      "target": "taxonomy/misc/UK Home Office",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-28-003",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "Prime Minister announcing accelerated specialist teams"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-28-003",
+      "target": "info:entity:person:Shabana Mahmood",
+      "relation": "Home Secretary who declared VAWG a national emergency"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-28-003",
+      "target": "info:entity:organization:Refuge",
+      "relation": "Charity welcoming measures but calling for broader reforms"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-28-003",
+      "target": "info:entity:organization:Home Office",
+      "relation": "Agency allocating £13.3 million for protection‑order enforcement"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-28-003",
+      "target": "info:item:politics:global:2026-08-28-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-28-003",
+      "target": "info:item:politics:global:2026-08-27-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-28-003",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-28-003",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-28-003",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-28-003",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-28-003",
+      "target": "taxonomy/misc/violence against women and girls",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-28-003",
+      "target": "taxonomy/misc/UK criminal justice",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-08-28-004",
+      "target": "info:entity:product:Pluto",
+      "relation": "product described"
+    },
+    {
+      "source": "info:item:products:global:2026-08-28-004",
+      "target": "info:entity:company:OpenAI",
+      "relation": "LLM provider integrated"
+    },
+    {
+      "source": "info:item:products:global:2026-08-28-004",
+      "target": "info:entity:model:Gemini",
+      "relation": "LLM model integrated"
+    },
+    {
+      "source": "info:item:products:global:2026-08-28-004",
+      "target": "info:entity:concept:Agentic AI",
+      "relation": "core technology"
+    },
+    {
+      "source": "info:item:products:global:2026-08-28-004",
+      "target": "info:entity:region:Myanmar",
+      "relation": "target market with regulatory considerations"
+    },
+    {
+      "source": "info:item:products:global:2026-08-28-004",
+      "target": "info:item:products:global:2026-08-27-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-08-28-004",
+      "target": "info:item:products:global:2026-08-27-007",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-08-28-004",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-08-28-004",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-08-28-004",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-08-28-004",
+      "target": "taxonomy/misc/Agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-08-28-004",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-08-28-004",
+      "target": "taxonomy/misc/Global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-08-28-005",
+      "target": "info:entity:model:Gemini 3.5 Transcribe",
+      "relation": "core product offering"
+    },
+    {
+      "source": "info:item:products:global:2026-08-28-005",
+      "target": "info:entity:company:Google",
+      "relation": "developer and distributor"
+    },
+    {
+      "source": "info:item:products:global:2026-08-28-005",
+      "target": "info:entity:company:OpenAI",
+      "relation": "competitor (Whisper model)"
+    },
+    {
+      "source": "info:item:products:global:2026-08-28-005",
+      "target": "info:entity:company:Anthropic",
+      "relation": "competitor (speech models)"
+    },
+    {
+      "source": "info:item:products:global:2026-08-28-005",
+      "target": "info:entity:region:Myanmar",
+      "relation": "target market for low‑resource language support"
+    },
+    {
+      "source": "info:item:products:global:2026-08-28-005",
+      "target": "info:entity:concept:Agentic AI",
+      "relation": "enables autonomous transcription refinement"
+    },
+    {
+      "source": "info:item:products:global:2026-08-28-005",
+      "target": "info:item:products:global:2026-08-28-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-08-28-005",
+      "target": "info:item:products:global:2026-08-27-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-08-28-005",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-08-28-005",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-08-28-005",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-08-28-005",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-08-28-005",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-08-28-005",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-08-28-006",
+      "target": "info:entity:organization:BBC News",
+      "relation": "producer of verification and reporting"
+    },
+    {
+      "source": "info:item:world:global:2026-08-28-006",
+      "target": "info:entity:person:Merlyn Thomas",
+      "relation": "reporter for BBC Verify"
+    },
+    {
+      "source": "info:item:world:global:2026-08-28-006",
+      "target": "info:entity:person:António Guterres",
+      "relation": "UN Secretary‑General calling for aid"
+    },
+    {
+      "source": "info:item:world:global:2026-08-28-006",
+      "target": "info:item:world:global:2026-08-28-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-08-28-006",
+      "target": "info:item:world:global:2026-08-27-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-08-28-006",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-28-006",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-28-006",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-28-006",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-28-006",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-08-28-006",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-08-28-006",
+      "target": "taxonomy/misc/disaster_response",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-08-28-007",
+      "target": "info:entity:person:Andrew Tate",
+      "relation": "defendant"
+    },
+    {
+      "source": "info:item:world:global:2026-08-28-007",
+      "target": "info:entity:person:Tristan Tate",
+      "relation": "defendant"
+    },
+    {
+      "source": "info:item:world:global:2026-08-28-007",
+      "target": "info:entity:organization:US Department of Justice",
+      "relation": "prosecutor"
+    },
+    {
+      "source": "info:item:world:global:2026-08-28-007",
+      "target": "info:entity:organization:Crown Prosecution Service",
+      "relation": "extradition requester"
+    },
+    {
+      "source": "info:item:world:global:2026-08-28-007",
+      "target": "info:item:world:global:2026-08-28-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-08-28-007",
+      "target": "info:item:world:global:2026-08-28-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-08-28-007",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-28-007",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-28-007",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-28-007",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-28-007",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-08-28-007",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-08-28-007",
+      "target": "taxonomy/misc/law enforcement",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-08-28-008",
+      "target": "info:entity:company:Rockstar Games",
+      "relation": "developer"
+    },
+    {
+      "source": "info:item:world:global:2026-08-28-008",
+      "target": "info:entity:product:Grand Theft Auto 6",
+      "relation": "title"
+    },
+    {
+      "source": "info:item:world:global:2026-08-28-008",
+      "target": "info:item:world:global:2026-08-28-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-08-28-008",
+      "target": "info:item:world:global:2026-08-28-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-08-28-008",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-28-008",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-28-008",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-28-008",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-28-008",
+      "target": "taxonomy/misc/video games",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-08-28-008",
+      "target": "taxonomy/misc/entertainment industry",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -5893,9 +6556,15 @@
     },
     {
       "source": "info:entity:company:Anthropic",
+      "target": "info:entity:company:Google",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
-      "weight": "9"
+      "weight": "10"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -5907,7 +6576,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:concept:Agentic AI",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -5953,7 +6622,25 @@
     },
     {
       "source": "info:entity:company:Anthropic",
+      "target": "info:entity:model:Gemini 3.5 Transcribe",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
       "target": "info:entity:organization:TechCrunch",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:organization:U.S. Department of Defense",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:person:Judge Rita Lin",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -5967,7 +6654,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:region:Myanmar",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -6026,6 +6713,30 @@
     {
       "source": "info:entity:company:Cloverleaf Infrastructure",
       "target": "info:entity:region:North America",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Google",
+      "target": "info:entity:company:OpenAI",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Google",
+      "target": "info:entity:concept:Agentic AI",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Google",
+      "target": "info:entity:model:Gemini 3.5 Transcribe",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Google",
+      "target": "info:entity:region:Myanmar",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -6099,7 +6810,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:concept:Agentic AI",
       "relation": "co-occurs",
-      "weight": "4"
+      "weight": "6"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -6147,7 +6858,13 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "6"
+      "weight": "7"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:model:Gemini 3.5 Transcribe",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -6163,13 +6880,25 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:product:Pluto",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:region:Myanmar",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "4"
     },
     {
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:region:global",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Rockstar Games",
+      "target": "info:entity:product:Grand Theft Auto 6",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -6309,7 +7038,13 @@
       "source": "info:entity:concept:Agentic AI",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
+    },
+    {
+      "source": "info:entity:concept:Agentic AI",
+      "target": "info:entity:model:Gemini 3.5 Transcribe",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:concept:Agentic AI",
@@ -6325,9 +7060,15 @@
     },
     {
       "source": "info:entity:concept:Agentic AI",
-      "target": "info:entity:region:Myanmar",
+      "target": "info:entity:product:Pluto",
       "relation": "co-occurs",
       "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Agentic AI",
+      "target": "info:entity:region:Myanmar",
+      "relation": "co-occurs",
+      "weight": "3"
     },
     {
       "source": "info:entity:concept:Bi-directional Attention Flow",
@@ -6673,13 +7414,25 @@
     },
     {
       "source": "info:entity:model:Gemini",
+      "target": "info:entity:product:Pluto",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
       "target": "info:entity:region:Myanmar",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:model:Gemini",
       "target": "info:entity:region:global",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini 3.5 Transcribe",
+      "target": "info:entity:region:Myanmar",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -6775,7 +7528,19 @@
     },
     {
       "source": "info:entity:organization:BBC News",
+      "target": "info:entity:person:António Guterres",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:BBC News",
       "target": "info:entity:person:Mamadou Oury Bah",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:BBC News",
+      "target": "info:entity:person:Merlyn Thomas",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -6936,6 +7701,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Crown Prosecution Service",
+      "target": "info:entity:organization:US Department of Justice",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Crown Prosecution Service",
+      "target": "info:entity:person:Andrew Tate",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Crown Prosecution Service",
+      "target": "info:entity:person:Tristan Tate",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Death Valley National Park Service",
       "target": "info:entity:organization:European Union",
       "relation": "co-occurs",
@@ -7052,6 +7835,24 @@
     {
       "source": "info:entity:organization:Hayat Tahrir al-Sham (HTS)",
       "target": "info:entity:person:Scott Bessent",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Home Office",
+      "target": "info:entity:organization:Refuge",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Home Office",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Home Office",
+      "target": "info:entity:person:Shabana Mahmood",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -7260,6 +8061,36 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Reform UK",
+      "target": "info:entity:person:Chris Philp",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Reform UK",
+      "target": "info:entity:person:Rishi Sunak",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Reform UK",
+      "target": "info:entity:person:Shabana Mahmood",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Refuge",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Refuge",
+      "target": "info:entity:person:Shabana Mahmood",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Russian Embassy to the UK",
       "target": "info:entity:organization:UK Ministry of Defence",
       "relation": "co-occurs",
@@ -7362,6 +8193,12 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:U.S. Department of Defense",
+      "target": "info:entity:person:Judge Rita Lin",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:UK Ministry of Defence",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
@@ -7399,7 +8236,19 @@
     },
     {
       "source": "info:entity:organization:US Department of Justice",
+      "target": "info:entity:person:Andrew Tate",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:US Department of Justice",
       "target": "info:entity:person:Donald Trump",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:US Department of Justice",
+      "target": "info:entity:person:Tristan Tate",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -7470,6 +8319,12 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:person:Andrew Tate",
+      "target": "info:entity:person:Tristan Tate",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:person:Andy Burnham",
       "target": "info:entity:person:Angela Rayner",
       "relation": "co-occurs",
@@ -7514,6 +8369,12 @@
     {
       "source": "info:entity:person:Andy Burnham",
       "target": "info:entity:person:Rishi Sunak",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Andy Burnham",
+      "target": "info:entity:person:Shabana Mahmood",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -7573,6 +8434,12 @@
     },
     {
       "source": "info:entity:person:António Guterres",
+      "target": "info:entity:person:Merlyn Thomas",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:António Guterres",
       "target": "info:entity:person:Mike Searle",
       "relation": "co-occurs",
       "weight": "1"
@@ -7622,6 +8489,18 @@
     {
       "source": "info:entity:person:Chow Hang‑tung",
       "target": "info:entity:person:Lee Cheuk‑yan",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Chris Philp",
+      "target": "info:entity:person:Rishi Sunak",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Chris Philp",
+      "target": "info:entity:person:Shabana Mahmood",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -7813,6 +8692,12 @@
     },
     {
       "source": "info:entity:person:Rishi Sunak",
+      "target": "info:entity:person:Shabana Mahmood",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Rishi Sunak",
       "target": "info:entity:region:Greater Manchester",
       "relation": "co-occurs",
       "weight": "1"
@@ -7856,6 +8741,12 @@
     {
       "source": "info:entity:product:AI data centers",
       "target": "info:entity:region:North America",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:product:Pluto",
+      "target": "info:entity:region:Myanmar",
       "relation": "co-occurs",
       "weight": "1"
     },

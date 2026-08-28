@@ -1,7 +1,7 @@
 ---
 node: "industry"
 layer: category
-item_count: 35
+item_count: 39
 ---
 
 # industry
@@ -19,6 +19,10 @@ item_count: 35
 
 ## Items
 
+- 2026-08-28 · [[info:item:world:global:2026-08-28-001]] — Trump administration illegally retaliated against Anthropic, judge rules
+- 2026-08-28 · [[info:item:world:global:2026-08-28-006]] — Tracing the deadly path of the Nepal‑Tibet flash flood
+- 2026-08-28 · [[info:item:world:global:2026-08-28-007]] — Tate brothers blast US jail conditions as they seek bail in UK extradition fight
+- 2026-08-28 · [[info:item:world:global:2026-08-28-008]] — What we know after the big Grand Theft Auto 6 preview
 - 2026-08-27 · [[info:item:world:global:2026-08-27-001]] — Collapsed glacier likely caused devastating Nepal‑Tibet floods, scientists say
 - 2026-08-27 · [[info:item:world:global:2026-08-27-002]] — What we know about deadly Nepal‑Tibet floods
 - 2026-08-27 · [[info:item:world:global:2026-08-27-003]] — Norway's royal family gathers at King Harald's bedside as his condition worsens
