@@ -1813,6 +1813,37 @@
       "name": "entertainment industry"
     },
     {
+      "id": "info:item:world:global:2026-08-28-009",
+      "type": "item",
+      "date": "2026-08-28",
+      "title": "Watch: Why rescuers fear new barrier lake could cause another Nepal‑Tibet flood"
+    },
+    {
+      "id": "info:entity:region:China",
+      "type": "region",
+      "name": "China"
+    },
+    {
+      "id": "info:entity:region:Nepal",
+      "type": "region",
+      "name": "Nepal"
+    },
+    {
+      "id": "info:entity:organization:United Nations Office for the Coordination of Humanitarian Affairs",
+      "type": "organization",
+      "name": "United Nations Office for the Coordination of Humanitarian Affairs"
+    },
+    {
+      "id": "info:entity:concept:Glacial Lake Outburst Flood (GLOF)",
+      "type": "concept",
+      "name": "Glacial Lake Outburst Flood (GLOF)"
+    },
+    {
+      "id": "taxonomy/misc/natural disasters",
+      "type": "taxonomy",
+      "name": "natural disasters"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -6433,6 +6464,81 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-08-28-009",
+      "target": "info:entity:region:China",
+      "relation": "issuing high‑risk flood warning"
+    },
+    {
+      "source": "info:item:world:global:2026-08-28-009",
+      "target": "info:entity:region:Nepal",
+      "relation": "directly affected by potential lake breach"
+    },
+    {
+      "source": "info:item:world:global:2026-08-28-009",
+      "target": "info:entity:organization:United Nations Office for the Coordination of Humanitarian Affairs",
+      "relation": "potential mediator and aid coordinator"
+    },
+    {
+      "source": "info:item:world:global:2026-08-28-009",
+      "target": "info:entity:concept:Glacial Lake Outburst Flood (GLOF)",
+      "relation": "hazard type under discussion"
+    },
+    {
+      "source": "info:item:world:global:2026-08-28-009",
+      "target": "info:item:world:global:2026-08-28-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-08-28-009",
+      "target": "info:item:world:global:2026-08-28-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-08-28-009",
+      "target": "info:item:world:global:2026-08-28-007",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-08-28-009",
+      "target": "info:item:world:global:2026-08-28-010",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-08-28-009",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-28-009",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-28-009",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-28-009",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-28-009",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-08-28-009",
+      "target": "taxonomy/misc/natural disasters",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-08-28-009",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -7241,6 +7347,24 @@
     {
       "source": "info:entity:concept:Federated Learning",
       "target": "info:entity:organization:arXiv",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Glacial Lake Outburst Flood (GLOF)",
+      "target": "info:entity:organization:United Nations Office for the Coordination of Humanitarian Affairs",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Glacial Lake Outburst Flood (GLOF)",
+      "target": "info:entity:region:China",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Glacial Lake Outburst Flood (GLOF)",
+      "target": "info:entity:region:Nepal",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -8295,6 +8419,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:United Nations Office for the Coordination of Humanitarian Affairs",
+      "target": "info:entity:region:China",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:United Nations Office for the Coordination of Humanitarian Affairs",
+      "target": "info:entity:region:Nepal",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Wildberries",
       "target": "info:entity:person:Vladimir Putin",
       "relation": "co-occurs",
@@ -8753,6 +8889,12 @@
     {
       "source": "info:entity:product:Scalp missile",
       "target": "info:entity:product:Storm Shadow",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:region:China",
+      "target": "info:entity:region:Nepal",
       "relation": "co-occurs",
       "weight": "1"
     }
