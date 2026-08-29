@@ -1,11 +1,11 @@
 {
   "groq": {
-    "quota_date": "2026-08-28",
-    "tokens_used": 19825,
-    "items": 4,
-    "calls": 6,
-    "errors": 4,
-    "cooldown_until": "2026-08-28T12:38:13+00:00",
+    "quota_date": "2026-08-29",
+    "tokens_used": 3816,
+    "items": 1,
+    "calls": 1,
+    "errors": 2,
+    "cooldown_until": "2026-08-29T07:39:19+00:00",
     "models": {
       "llama-3.3-70b-versatile": {
         "calls": 0,
@@ -30,34 +30,34 @@
         "cooldown_until": null
       },
       "openai/gpt-oss-120b": {
-        "calls": 73,
-        "items": 25,
-        "errors": 41,
-        "consecutive_failures": 0,
+        "calls": 74,
+        "items": 26,
+        "errors": 42,
+        "consecutive_failures": 1,
         "healthy": true,
-        "last_health_check": "2026-08-28T22:44:59+00:00",
-        "latency_ms": 3824,
+        "last_health_check": "2026-08-29T07:38:49+00:00",
+        "latency_ms": 4557,
         "supports_json": true,
-        "cooldown_until": "2026-08-28T12:38:13+00:00"
+        "cooldown_until": "2026-08-29T07:39:19+00:00"
       },
       "openai/gpt-oss-20b": {
         "calls": 17,
         "items": 5,
-        "errors": 16,
-        "consecutive_failures": 2,
+        "errors": 17,
+        "consecutive_failures": 1,
         "healthy": false,
-        "last_health_check": "2026-08-28T12:37:49+00:00",
+        "last_health_check": "2026-08-29T07:38:52+00:00",
         "latency_ms": 2669,
         "supports_json": true,
-        "cooldown_until": "2026-08-28T05:28:52+00:00"
+        "cooldown_until": null
       }
     }
   },
   "openrouter": {
-    "quota_date": "2026-08-28",
-    "tokens_used": 35852,
+    "quota_date": "2026-08-29",
+    "tokens_used": 38160,
     "items": 6,
-    "calls": 11,
+    "calls": 10,
     "errors": 0,
     "cooldown_until": null,
     "models": {
@@ -172,13 +172,13 @@
         "cooldown_until": null
       },
       "cohere/north-mini-code:free": {
-        "calls": 34,
-        "items": 21,
+        "calls": 44,
+        "items": 27,
         "errors": 3,
         "consecutive_failures": 0,
         "healthy": true,
-        "last_health_check": "2026-08-28T05:28:11+00:00",
-        "latency_ms": 14578,
+        "last_health_check": "2026-08-29T07:38:44+00:00",
+        "latency_ms": 34376,
         "supports_json": false,
         "cooldown_until": null
       },
@@ -350,34 +350,34 @@
     }
   },
   "gemini": {
-    "quota_date": "2026-08-28",
+    "quota_date": "2026-08-29",
     "tokens_used": 0,
     "items": 0,
     "calls": 0,
-    "errors": 6,
-    "cooldown_until": "2026-08-28T12:38:32+00:00",
+    "errors": 2,
+    "cooldown_until": "2026-08-29T07:39:29+00:00",
     "models": {
       "gemini-3.5-flash-lite": {
         "calls": 0,
         "items": 0,
-        "errors": 18,
-        "consecutive_failures": 3,
-        "healthy": false,
-        "last_health_check": "2026-08-28T12:37:59+00:00",
+        "errors": 19,
+        "consecutive_failures": 1,
+        "healthy": true,
+        "last_health_check": "2026-08-29T07:38:56+00:00",
         "latency_ms": null,
         "supports_json": true,
-        "cooldown_until": "2026-08-28T12:39:59+00:00"
+        "cooldown_until": "2026-08-29T07:39:26+00:00"
       },
       "gemini-3.5-flash": {
         "calls": 0,
         "items": 0,
-        "errors": 18,
-        "consecutive_failures": 3,
-        "healthy": false,
-        "last_health_check": "2026-08-28T12:38:02+00:00",
+        "errors": 19,
+        "consecutive_failures": 1,
+        "healthy": true,
+        "last_health_check": "2026-08-29T07:38:59+00:00",
         "latency_ms": null,
         "supports_json": true,
-        "cooldown_until": "2026-08-28T12:40:02+00:00"
+        "cooldown_until": "2026-08-29T07:39:29+00:00"
       }
     }
   }

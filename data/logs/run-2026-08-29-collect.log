@@ -1,0 +1,21 @@
+2026-08-29 07:36:02,776 INFO [world-news] published 2026-08-29-001 — Footage of Tibet floods isn't being shown in China - and we 
+2026-08-29 07:36:32,233 INFO [world-news] published 2026-08-29-002 — Trump hails 'historic' deal for US to control 65bn barrels o
+2026-08-29 07:36:52,331 INFO [world-news] published 2026-08-29-003 — Landlady to 9/11 hijackers reveals their links to alleged Sa
+2026-08-29 07:36:59,644 INFO [tech-news] nothing selected
+2026-08-29 07:37:40,234 INFO [politics] published 2026-08-29-004 — Greens call for temporary ban on new data centres
+2026-08-29 07:37:58,357 INFO [politics] published 2026-08-29-005 — Burnham says he will not vote on assisted dying unlike Starm
+2026-08-29 07:38:09,603 INFO [products] model returned no selection — using heuristic fallback (2)
+2026-08-29 07:38:44,013 INFO [products] published 2026-08-29-006 — Cursor Craft v2
+2026-08-29 07:38:48,604 INFO [products] published 2026-08-29-007 — God’s Eye View – Real‑World Spy Satellite Simulation in the 
+2026-08-29 07:38:48,651 INFO collect done: 7 item(s) published — target 3/10, next run ≈ 2026-08-29T07:53:48+00:00 UTC
+2026-08-29 07:38:49,226 ERROR [world-news] select failed: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 5190, Requested 2830. Please try again in 150ms. Need more tokens? Upgrade to Dev Tier today at https://conso
+2026-08-29 07:38:49,242 INFO [world-news] model returned no selection — using heuristic fallback (3)
+2026-08-29 07:38:52,072 ERROR [world-news] generate error: HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
+
+2026-08-29 07:38:55,073 WARNING [world-news] no collect provider for deep-dive
+2026-08-29 07:38:55,140 WARNING [world-news] no collect provider for deep-dive
+2026-08-29 07:38:55,207 WARNING [world-news] no collect provider for deep-dive
+2026-08-29 07:38:55,425 WARNING [tech-news] no collect provider available
+2026-08-29 07:38:55,623 WARNING [politics] no collect provider available
+2026-08-29 07:38:55,771 WARNING [products] no collect provider available
+2026-08-29 07:38:55,816 INFO collect done: 0 item(s) published — target 3/10, next run ≈ 2026-08-30T01:00:00+00:00 UTC

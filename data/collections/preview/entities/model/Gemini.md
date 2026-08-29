@@ -1,7 +1,7 @@
 ---
 name: "Gemini"
 entity_type: model
-backlink_count: 7
+backlink_count: 9
 ---
 
 # Gemini
@@ -10,6 +10,8 @@ backlink_count: 7
 
 ## Referenced by
 
+- 2026-08-29 · [[info:item:products:global:2026-08-29-006]] — Cursor Craft v2
+- 2026-08-29 · [[info:item:products:global:2026-08-29-007]] — God’s Eye View – Real‑World Spy Satellite Simulation in the Browser
 - 2026-08-28 · [[info:item:products:global:2026-08-28-004]] — Pluto: Your Professional Profile Becomes an AI Agent
 - 2026-08-27 · [[info:item:world:global:2026-08-27-001]] — Collapsed glacier likely caused devastating Nepal‑Tibet floods, scientists say
 - 2026-08-27 · [[info:item:products:global:2026-08-27-006]] — Ojin – Real‑Time AI Agent with Live Face and Voice

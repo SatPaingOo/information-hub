@@ -1,7 +1,7 @@
 ---
 name: "OpenAI"
 entity_type: company
-backlink_count: 18
+backlink_count: 21
 ---
 
 # OpenAI
@@ -10,6 +10,9 @@ backlink_count: 18
 
 ## Referenced by
 
+- 2026-08-29 · [[info:item:politics:global:2026-08-29-004]] — Greens call for temporary ban on new data centres
+- 2026-08-29 · [[info:item:products:global:2026-08-29-006]] — Cursor Craft v2
+- 2026-08-29 · [[info:item:products:global:2026-08-29-007]] — God’s Eye View – Real‑World Spy Satellite Simulation in the Browser
 - 2026-08-28 · [[info:item:products:global:2026-08-28-004]] — Pluto: Your Professional Profile Becomes an AI Agent
 - 2026-08-28 · [[info:item:products:global:2026-08-28-005]] — Gemini 3.5 Transcribe
 - 2026-08-27 · [[info:item:world:global:2026-08-27-001]] — Collapsed glacier likely caused devastating Nepal‑Tibet floods, scientists say

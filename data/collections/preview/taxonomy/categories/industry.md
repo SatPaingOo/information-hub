@@ -1,7 +1,7 @@
 ---
 node: "industry"
 layer: category
-item_count: 40
+item_count: 43
 ---
 
 # industry
@@ -19,6 +19,9 @@ item_count: 40
 
 ## Items
 
+- 2026-08-29 · [[info:item:world:global:2026-08-29-001]] — Footage of Tibet floods isn't being shown in China - and we know little about victims there
+- 2026-08-29 · [[info:item:world:global:2026-08-29-002]] — Trump hails 'historic' deal for US to control 65bn barrels of Venezuela's oil
+- 2026-08-29 · [[info:item:world:global:2026-08-29-003]] — Landlady to 9/11 hijackers reveals their links to alleged Saudi spy
 - 2026-08-28 · [[info:item:world:global:2026-08-28-001]] — Trump administration illegally retaliated against Anthropic, judge rules
 - 2026-08-28 · [[info:item:world:global:2026-08-28-006]] — Tracing the deadly path of the Nepal‑Tibet flash flood
 - 2026-08-28 · [[info:item:world:global:2026-08-28-007]] — Tate brothers blast US jail conditions as they seek bail in UK extradition fight

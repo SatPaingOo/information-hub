@@ -1,7 +1,7 @@
 ---
 name: "Anthropic"
 entity_type: company
-backlink_count: 12
+backlink_count: 14
 ---
 
 # Anthropic
@@ -10,6 +10,8 @@ backlink_count: 12
 
 ## Referenced by
 
+- 2026-08-29 · [[info:item:products:global:2026-08-29-006]] — Cursor Craft v2
+- 2026-08-29 · [[info:item:products:global:2026-08-29-007]] — God’s Eye View – Real‑World Spy Satellite Simulation in the Browser
 - 2026-08-28 · [[info:item:world:global:2026-08-28-001]] — Trump administration illegally retaliated against Anthropic, judge rules
 - 2026-08-28 · [[info:item:products:global:2026-08-28-005]] — Gemini 3.5 Transcribe
 - 2026-08-27 · [[info:item:world:global:2026-08-27-001]] — Collapsed glacier likely caused devastating Nepal‑Tibet floods, scientists say

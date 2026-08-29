@@ -1,7 +1,7 @@
 ---
 name: "Andy Burnham"
 entity_type: person
-backlink_count: 13
+backlink_count: 14
 ---
 
 # Andy Burnham
@@ -10,6 +10,7 @@ backlink_count: 13
 
 ## Referenced by
 
+- 2026-08-29 · [[info:item:politics:global:2026-08-29-005]] — Burnham says he will not vote on assisted dying unlike Starmer
 - 2026-08-28 · [[info:item:politics:global:2026-08-28-003]] — Rape and sex offence specialists on all police forces by 2027, PM says
 - 2026-08-27 · [[info:item:world:global:2026-08-27-002]] — What we know about deadly Nepal‑Tibet floods
 - 2026-08-27 · [[info:item:politics:global:2026-08-27-004]] — Burnham calls summit of Welsh, Scottish and Northern Irish first ministers

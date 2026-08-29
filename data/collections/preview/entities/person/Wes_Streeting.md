@@ -1,7 +1,7 @@
 ---
 name: "Wes Streeting"
 entity_type: person
-backlink_count: 1
+backlink_count: 2
 ---
 
 # Wes Streeting
@@ -10,4 +10,5 @@ backlink_count: 1
 
 ## Referenced by
 
+- 2026-08-29 · [[info:item:politics:global:2026-08-29-005]] — Burnham says he will not vote on assisted dying unlike Starmer
 - 2026-08-27 · [[info:item:politics:global:2026-08-27-005]] — Wes Streeting deluged with homophobic hate mail since becoming defence secretary
