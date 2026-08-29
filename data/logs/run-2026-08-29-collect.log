@@ -28,3 +28,11 @@
 2026-08-29 13:28:40,104 WARNING [politics] no collect provider available
 2026-08-29 13:28:40,713 WARNING [products] no collect provider available
 2026-08-29 13:28:40,773 INFO collect done: 0 item(s) published — target 3/10, next run ≈ 2026-08-30T01:00:00+00:00 UTC
+2026-08-29 17:23:56,990 INFO [world-news] published 2026-08-29-008 — At least 37 dead and hundreds evacuated after strike on Kyiv
+2026-08-29 17:23:57,211 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7970, Requested 3035. Please try again in 22.537499999s. Need more tokens? Upgrade to Dev Tier today at https
+2026-08-29 17:24:00,213 WARNING [world-news] no collect provider for deep-dive
+2026-08-29 17:24:00,334 WARNING [world-news] no collect provider for deep-dive
+2026-08-29 17:24:02,883 WARNING [tech-news] no collect provider available
+2026-08-29 17:24:03,434 WARNING [politics] no collect provider available
+2026-08-29 17:24:04,387 WARNING [products] no collect provider available
+2026-08-29 17:24:04,435 INFO collect done: 1 item(s) published — target 2/10, next run ≈ 2026-08-30T01:00:00+00:00 UTC

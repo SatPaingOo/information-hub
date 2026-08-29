@@ -1,7 +1,7 @@
 ---
 name: "BBC News"
 entity_type: organization
-backlink_count: 5
+backlink_count: 6
 ---
 
 # BBC News
@@ -10,6 +10,7 @@ backlink_count: 5
 
 ## Referenced by
 
+- 2026-08-29 · [[info:item:world:global:2026-08-29-008]] — At least 37 dead and hundreds evacuated after strike on Kyiv weapons depot
 - 2026-08-28 · [[info:item:world:global:2026-08-28-006]] — Tracing the deadly path of the Nepal‑Tibet flash flood
 - 2026-08-24 · [[info:item:world:global:2026-08-24-001]] — Zelensky Should Be Asked What He Knew About Government Corruption, Sacked Minister Tells BBC
 - 2026-08-24 · [[info:item:world:global:2026-08-24-003]] — Guinea rubbish landfill collapse kills 30

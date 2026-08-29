@@ -1,7 +1,7 @@
 ---
 node: "geopolitics"
 layer: topic
-item_count: 18
+item_count: 19
 ---
 
 # geopolitics
@@ -26,6 +26,7 @@ item_count: 18
 
 - 2026-08-29 · [[info:item:world:global:2026-08-29-003]] — Landlady to 9/11 hijackers reveals their links to alleged Saudi spy
 - 2026-08-29 · [[info:item:politics:global:2026-08-29-005]] — Burnham says he will not vote on assisted dying unlike Starmer
+- 2026-08-29 · [[info:item:world:global:2026-08-29-008]] — At least 37 dead and hundreds evacuated after strike on Kyiv weapons depot
 - 2026-08-28 · [[info:item:world:global:2026-08-28-007]] — Tate brothers blast US jail conditions as they seek bail in UK extradition fight
 - 2026-08-28 · [[info:item:world:global:2026-08-28-009]] — Watch: Why rescuers fear new barrier lake could cause another Nepal‑Tibet flood
 - 2026-08-27 · [[info:item:politics:global:2026-08-27-004]] — Burnham calls summit of Welsh, Scottish and Northern Irish first ministers

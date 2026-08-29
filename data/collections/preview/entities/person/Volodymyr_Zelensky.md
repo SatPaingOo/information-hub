@@ -1,7 +1,7 @@
 ---
 name: "Volodymyr Zelensky"
 entity_type: person
-backlink_count: 9
+backlink_count: 10
 ---
 
 # Volodymyr Zelensky
@@ -10,6 +10,7 @@ backlink_count: 9
 
 ## Referenced by
 
+- 2026-08-29 · [[info:item:world:global:2026-08-29-008]] — At least 37 dead and hundreds evacuated after strike on Kyiv weapons depot
 - 2026-08-25 · [[info:item:world:global:2026-08-25-002]] — UK PM Burnham vows support for Ukraine despite 'outrageous threats' from Russia
 - 2026-08-25 · [[info:item:politics:global:2026-08-25-005]] — Burnham vows support for Ukraine despite 'outrageous threats' from Russia
 - 2026-08-24 · [[info:item:world:global:2026-08-24-001]] — Zelensky Should Be Asked What He Knew About Government Corruption, Sacked Minister Tells BBC

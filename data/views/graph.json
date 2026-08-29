@@ -1986,6 +1986,17 @@
       "name": "Open-source software"
     },
     {
+      "id": "info:item:world:global:2026-08-29-008",
+      "type": "item",
+      "date": "2026-08-29",
+      "title": "At least 37 dead and hundreds evacuated after strike on Kyiv weapons depot"
+    },
+    {
+      "id": "info:entity:organization:Ukrainian Armed Forces",
+      "type": "organization",
+      "name": "Ukrainian Armed Forces"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -7116,6 +7127,71 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-08-29-008",
+      "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "Ukrainian President, ordered investigation and announced criminal proceedings"
+    },
+    {
+      "source": "info:item:world:global:2026-08-29-008",
+      "target": "info:entity:person:Mykhailo Fedorov",
+      "relation": "Ukrainian Minister of Defence, responsible for depot placement policies"
+    },
+    {
+      "source": "info:item:world:global:2026-08-29-008",
+      "target": "info:entity:organization:Ukrainian Armed Forces",
+      "relation": "Operator of the Myla ammunition depot"
+    },
+    {
+      "source": "info:item:world:global:2026-08-29-008",
+      "target": "info:entity:organization:BBC News",
+      "relation": "Source of the original report"
+    },
+    {
+      "source": "info:item:world:global:2026-08-29-008",
+      "target": "info:item:world:global:2026-08-29-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-08-29-008",
+      "target": "info:item:world:global:2026-08-29-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-08-29-008",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-29-008",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-29-008",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-29-008",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-29-008",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-08-29-008",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-08-29-008",
+      "target": "taxonomy/category/industry",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -8319,6 +8395,12 @@
     },
     {
       "source": "info:entity:organization:BBC News",
+      "target": "info:entity:organization:Ukrainian Armed Forces",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:BBC News",
       "target": "info:entity:organization:Ukrainian Government",
       "relation": "co-occurs",
       "weight": "1"
@@ -8345,7 +8427,7 @@
       "source": "info:entity:organization:BBC News",
       "target": "info:entity:person:Mykhailo Fedorov",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:BBC News",
@@ -8357,7 +8439,7 @@
       "source": "info:entity:organization:BBC News",
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:organization:BBC News",
@@ -9110,6 +9192,18 @@
       "weight": "3"
     },
     {
+      "source": "info:entity:organization:Ukrainian Armed Forces",
+      "target": "info:entity:person:Mykhailo Fedorov",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Ukrainian Armed Forces",
+      "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Ukrainian Government",
       "target": "info:entity:person:Mykhailo Fedorov",
       "relation": "co-occurs",
@@ -9593,7 +9687,7 @@
       "source": "info:entity:person:Mykhailo Fedorov",
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:person:Rachel Reeves",
