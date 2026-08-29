@@ -1997,6 +1997,32 @@
       "name": "Ukrainian Armed Forces"
     },
     {
+      "id": "info:item:world:global:2026-08-29-009",
+      "type": "item",
+      "date": "2026-08-29",
+      "title": "Right-wing commentator Milo Yiannopoulos deported from US to UK"
+    },
+    {
+      "id": "info:entity:person:Milo Yiannopoulos",
+      "type": "person",
+      "name": "Milo Yiannopoulos"
+    },
+    {
+      "id": "info:entity:organization:Department of Homeland Security",
+      "type": "organization",
+      "name": "Department of Homeland Security"
+    },
+    {
+      "id": "info:entity:organization:Immigration and Customs Enforcement",
+      "type": "organization",
+      "name": "Immigration and Customs Enforcement"
+    },
+    {
+      "id": "info:entity:person:Laura Loomer",
+      "type": "person",
+      "name": "Laura Loomer"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -7192,6 +7218,71 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-08-29-009",
+      "target": "info:entity:person:Milo Yiannopoulos",
+      "relation": "subject of deportation"
+    },
+    {
+      "source": "info:item:world:global:2026-08-29-009",
+      "target": "info:entity:organization:Department of Homeland Security",
+      "relation": "issued removal order"
+    },
+    {
+      "source": "info:item:world:global:2026-08-29-009",
+      "target": "info:entity:organization:Immigration and Customs Enforcement",
+      "relation": "executed detention"
+    },
+    {
+      "source": "info:item:world:global:2026-08-29-009",
+      "target": "info:entity:person:Laura Loomer",
+      "relation": "commented on deportation"
+    },
+    {
+      "source": "info:item:world:global:2026-08-29-009",
+      "target": "info:item:world:global:2026-08-29-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-08-29-009",
+      "target": "info:item:world:global:2026-08-29-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-08-29-009",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-29-009",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-29-009",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-29-009",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-29-009",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-08-29-009",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-08-29-009",
+      "target": "taxonomy/misc/human rights",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -8640,6 +8731,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Department of Homeland Security",
+      "target": "info:entity:organization:Immigration and Customs Enforcement",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Department of Homeland Security",
+      "target": "info:entity:person:Laura Loomer",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Department of Homeland Security",
+      "target": "info:entity:person:Milo Yiannopoulos",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:European Union",
       "target": "info:entity:organization:National Weather Service",
       "relation": "co-occurs",
@@ -8762,6 +8871,18 @@
     {
       "source": "info:entity:organization:Hong Kong Alliance (HKA)",
       "target": "info:entity:person:Lee Cheuk‑yan",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Immigration and Customs Enforcement",
+      "target": "info:entity:person:Laura Loomer",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Immigration and Customs Enforcement",
+      "target": "info:entity:person:Milo Yiannopoulos",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -9638,6 +9759,12 @@
     {
       "source": "info:entity:person:Keir Starmer",
       "target": "info:entity:person:Yvette Cooper",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Laura Loomer",
+      "target": "info:entity:person:Milo Yiannopoulos",
       "relation": "co-occurs",
       "weight": "1"
     },

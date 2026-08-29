@@ -1,7 +1,7 @@
 ---
 node: "industry"
 layer: category
-item_count: 45
+item_count: 46
 ---
 
 # industry
@@ -24,6 +24,7 @@ item_count: 45
 - 2026-08-29 · [[info:item:world:global:2026-08-29-003]] — Landlady to 9/11 hijackers reveals their links to alleged Saudi spy
 - 2026-08-29 · [[info:item:world:global:2026-08-29-008]] — At least 37 dead and hundreds evacuated after strike on Kyiv weapons depot
 - 2026-08-29 · [[info:item:world:global:2026-08-29-008]] — At least 37 dead and hundreds evacuated after strike on Kyiv weapons depot
+- 2026-08-29 · [[info:item:world:global:2026-08-29-009]] — Right-wing commentator Milo Yiannopoulos deported from US to UK
 - 2026-08-28 · [[info:item:world:global:2026-08-28-001]] — Trump administration illegally retaliated against Anthropic, judge rules
 - 2026-08-28 · [[info:item:world:global:2026-08-28-006]] — Tracing the deadly path of the Nepal‑Tibet flash flood
 - 2026-08-28 · [[info:item:world:global:2026-08-28-007]] — Tate brothers blast US jail conditions as they seek bail in UK extradition fight
