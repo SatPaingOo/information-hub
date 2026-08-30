@@ -7,7 +7,7 @@ on:
     # the daily target is met": after a rate-limited run the next-run time is
     # persisted in schedule.json and the next heartbeat fires it.  Works with
     # the plain GitHub App token (no BOT_PAT needed for data commits).
-    - cron: "19 6 30 8 *"
+    - cron: "0 1 31 8 *"
     # SAFETY fallback — daily 01:00 UTC. Never rewritten; keeps the system
     # alive if the heartbeat schedule goes stale.
     - cron: "0 1 * * *"
