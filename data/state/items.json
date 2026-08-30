@@ -135,27 +135,27 @@
     "approved_at": null
   },
   "1796df62c4a287cc": {
-    "id": "info:item:world:global:2026-08-30-003",
-    "key": "2026-08-30-003",
-    "title": "Canada installs large Lake Ontario sign in latest jab at US",
+    "id": "info:item:world:global:2026-08-30-006",
+    "key": "2026-08-30-006",
+    "title": "Norway's new king remembers 'my dear father' in first speech",
     "date": "2026-08-30",
     "collection": "world-news",
-    "title_hash": "699f1800a275021c",
+    "title_hash": "c725f02099b8bbea",
     "url_hash": "1796df62c4a287cc",
     "status": "published",
-    "word_count": 857,
+    "word_count": 821,
     "gemini_calls": 1,
     "validated": true,
-    "provider": "openrouter",
-    "model": "cohere/north-mini-code:free",
-    "grounding_score": 0.833,
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "grounding_score": 1.0,
     "review_status": "verified",
     "approved_by": {
       "type": "ai",
       "provider": "lexical",
       "model": "lexical"
     },
-    "approved_at": "2026-08-30T06:04:15+00:00"
+    "approved_at": "2026-08-30T06:24:20+00:00"
   },
   "d52f5b521f0c77f0": {
     "id": "info:item:world:global:2026-08-18-004",
@@ -286,7 +286,7 @@
       "provider": "lexical",
       "model": "lexical"
     },
-    "approved_at": "2026-08-30T06:04:21+00:00"
+    "approved_at": "2026-08-30T06:24:17+00:00"
   },
   "4d0ad510cd7a9803": {
     "id": "info:item:politics:global:2026-08-21-001",
@@ -1918,7 +1918,7 @@
       "provider": "lexical",
       "model": "lexical"
     },
-    "approved_at": "2026-08-30T06:04:09+00:00"
+    "approved_at": "2026-08-30T06:24:05+00:00"
   },
   "2c70258c7b1afc01": {
     "id": "info:item:world:global:2026-08-30-002",
@@ -1941,7 +1941,7 @@
       "provider": "lexical",
       "model": "lexical"
     },
-    "approved_at": "2026-08-30T06:04:12+00:00"
+    "approved_at": "2026-08-30T06:24:08+00:00"
   },
   "699f1800a275021c": {
     "id": "info:item:world:global:2026-08-30-003",
@@ -1964,7 +1964,7 @@
       "provider": "lexical",
       "model": "lexical"
     },
-    "approved_at": "2026-08-30T06:04:15+00:00"
+    "approved_at": "2026-08-30T06:24:11+00:00"
   },
   "7ddeaac11ba7561d": {
     "id": "info:item:politics:global:2026-08-30-004",
@@ -1987,7 +1987,7 @@
       "provider": "lexical",
       "model": "lexical"
     },
-    "approved_at": "2026-08-30T06:04:18+00:00"
+    "approved_at": "2026-08-30T06:24:14+00:00"
   },
   "b800ed69dff77670": {
     "id": "info:item:politics:global:2026-08-30-005",
@@ -2010,6 +2010,29 @@
       "provider": "lexical",
       "model": "lexical"
     },
-    "approved_at": "2026-08-30T06:04:21+00:00"
+    "approved_at": "2026-08-30T06:24:17+00:00"
+  },
+  "c725f02099b8bbea": {
+    "id": "info:item:world:global:2026-08-30-006",
+    "key": "2026-08-30-006",
+    "title": "Norway's new king remembers 'my dear father' in first speech",
+    "date": "2026-08-30",
+    "collection": "world-news",
+    "title_hash": "c725f02099b8bbea",
+    "url_hash": "1796df62c4a287cc",
+    "status": "published",
+    "word_count": 821,
+    "gemini_calls": 1,
+    "validated": true,
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "grounding_score": 1.0,
+    "review_status": "verified",
+    "approved_by": {
+      "type": "ai",
+      "provider": "lexical",
+      "model": "lexical"
+    },
+    "approved_at": "2026-08-30T06:24:20+00:00"
   }
 }

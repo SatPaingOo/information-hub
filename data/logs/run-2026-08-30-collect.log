@@ -11,3 +11,11 @@
 2026-08-30 06:03:57,383 ERROR [products] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 5662, Requested 3945. Please try again in 12.0525s. Need more tokens? Upgrade to Dev Tier today at https://con
 2026-08-30 06:04:00,384 WARNING [products] no collect provider for deep-dive
 2026-08-30 06:04:00,454 INFO collect done: 5 item(s) published — target 5/10, next run ≈ 2026-08-31T01:00:00+00:00 UTC
+2026-08-30 06:23:48,153 INFO [world-news] published 2026-08-30-006 — Norway's new king remembers 'my dear father' in first speech
+2026-08-30 06:23:48,307 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7980, Requested 4343. Please try again in 32.4225s. Need more tokens? Upgrade to Dev Tier today at https://co
+2026-08-30 06:23:53,791 INFO [world-news] attempt 2 invalid: [": 'title' is a required property", ": 'tldr' is a required property"]
+2026-08-30 06:23:53,791 WARNING [world-news] no collect provider for deep-dive
+2026-08-30 06:23:54,238 WARNING [tech-news] no collect provider available
+2026-08-30 06:23:54,765 WARNING [politics] no collect provider available
+2026-08-30 06:23:55,667 WARNING [products] no collect provider available
+2026-08-30 06:23:55,746 INFO collect done: 1 item(s) published — target 4/10, next run ≈ 2026-08-31T01:00:00+00:00 UTC

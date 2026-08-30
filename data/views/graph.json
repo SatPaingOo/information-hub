@@ -2173,6 +2173,47 @@
       "name": "Conservative Party"
     },
     {
+      "id": "info:item:world:global:2026-08-30-006",
+      "type": "item",
+      "date": "2026-08-30",
+      "title": "Norway's new king remembers 'my dear father' in first speech"
+    },
+    {
+      "id": "info:entity:person:Haakon VIII",
+      "type": "person",
+      "name": "Haakon VIII"
+    },
+    {
+      "id": "info:entity:person:Harald V",
+      "type": "person",
+      "name": "Harald V"
+    },
+    {
+      "id": "info:entity:person:Mette‑Marit",
+      "type": "person",
+      "name": "Mette‑Marit"
+    },
+    {
+      "id": "info:entity:organization:Norwegian Parliament (Storting)",
+      "type": "organization",
+      "name": "Norwegian Parliament (Storting)"
+    },
+    {
+      "id": "taxonomy/misc/political institutions",
+      "type": "taxonomy",
+      "name": "political institutions"
+    },
+    {
+      "id": "taxonomy/misc/constitutional monarchy",
+      "type": "taxonomy",
+      "name": "constitutional monarchy"
+    },
+    {
+      "id": "taxonomy/misc/public sentiment",
+      "type": "taxonomy",
+      "name": "public sentiment"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -7758,6 +7799,71 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-08-30-006",
+      "target": "info:entity:person:Haakon VIII",
+      "relation": "new monarch of Norway"
+    },
+    {
+      "source": "info:item:world:global:2026-08-30-006",
+      "target": "info:entity:person:Harald V",
+      "relation": "predecessor and father of Haakon"
+    },
+    {
+      "source": "info:item:world:global:2026-08-30-006",
+      "target": "info:entity:person:Mette‑Marit",
+      "relation": "queen consort, recovering from lung transplant"
+    },
+    {
+      "source": "info:item:world:global:2026-08-30-006",
+      "target": "info:entity:organization:Norwegian Parliament (Storting)",
+      "relation": "venue for oath of allegiance"
+    },
+    {
+      "source": "info:item:world:global:2026-08-30-006",
+      "target": "info:item:world:global:2026-08-30-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-08-30-006",
+      "target": "info:item:world:global:2026-08-30-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-08-30-006",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-30-006",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-30-006",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-30-006",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-30-006",
+      "target": "taxonomy/misc/political institutions",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-08-30-006",
+      "target": "taxonomy/misc/constitutional monarchy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-08-30-006",
+      "target": "taxonomy/misc/public sentiment",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -9632,6 +9738,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Norwegian Parliament (Storting)",
+      "target": "info:entity:person:Haakon VIII",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Norwegian Parliament (Storting)",
+      "target": "info:entity:person:Harald V",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Norwegian Parliament (Storting)",
+      "target": "info:entity:person:Mette‑Marit",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:OpenAI",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
@@ -10342,6 +10466,24 @@
     {
       "source": "info:entity:person:Gordon Brown",
       "target": "info:entity:person:Sioned Williams",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Haakon VIII",
+      "target": "info:entity:person:Harald V",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Haakon VIII",
+      "target": "info:entity:person:Mette‑Marit",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Harald V",
+      "target": "info:entity:person:Mette‑Marit",
       "relation": "co-occurs",
       "weight": "1"
     },
