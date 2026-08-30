@@ -1,7 +1,7 @@
 ---
 node: "world"
 layer: topic
-item_count: 44
+item_count: 47
 ---
 
 # world
@@ -17,6 +17,9 @@ item_count: 44
 
 ## Items
 
+- 2026-08-30 · [[info:item:world:global:2026-08-30-001]] — Iceland EU referendum on a knife edge as counting continues
+- 2026-08-30 · [[info:item:world:global:2026-08-30-002]] — WhatsApp chat used to send cash for crime and extremism
+- 2026-08-30 · [[info:item:world:global:2026-08-30-003]] — Canada installs large Lake Ontario sign in latest jab at US
 - 2026-08-29 · [[info:item:world:global:2026-08-29-001]] — Footage of Tibet floods isn't being shown in China - and we know little about victims there
 - 2026-08-29 · [[info:item:world:global:2026-08-29-002]] — Trump hails 'historic' deal for US to control 65bn barrels of Venezuela's oil
 - 2026-08-29 · [[info:item:world:global:2026-08-29-003]] — Landlady to 9/11 hijackers reveals their links to alleged Saudi spy

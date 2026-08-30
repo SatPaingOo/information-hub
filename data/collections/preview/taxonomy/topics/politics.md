@@ -1,7 +1,7 @@
 ---
 node: "politics"
 layer: topic
-item_count: 15
+item_count: 18
 ---
 
 # politics
@@ -16,6 +16,9 @@ item_count: 15
 
 ## Items
 
+- 2026-08-30 · [[info:item:politics:global:2026-08-30-004]] — PC Harper's killers to stay in jail as PM announces changes to early release scheme
+- 2026-08-30 · [[info:item:politics:global:2026-08-30-005]] — Burnham's summer tour is over - now he has to prove himself in Parliament
+- 2026-08-30 · [[info:item:politics:global:2026-08-30-005]] — Burnham's summer tour is over - now he has to prove himself in Parliament
 - 2026-08-29 · [[info:item:politics:global:2026-08-29-004]] — Greens call for temporary ban on new data centres
 - 2026-08-29 · [[info:item:politics:global:2026-08-29-005]] — Burnham says he will not vote on assisted dying unlike Starmer
 - 2026-08-28 · [[info:item:politics:global:2026-08-28-002]] — Number of asylum seekers in hotels halves in a year

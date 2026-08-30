@@ -1,7 +1,7 @@
 ---
 name: "Andy Burnham"
 entity_type: person
-backlink_count: 14
+backlink_count: 16
 ---
 
 # Andy Burnham
@@ -10,6 +10,8 @@ backlink_count: 14
 
 ## Referenced by
 
+- 2026-08-30 · [[info:item:politics:global:2026-08-30-004]] — PC Harper's killers to stay in jail as PM announces changes to early release scheme
+- 2026-08-30 · [[info:item:politics:global:2026-08-30-005]] — Burnham's summer tour is over - now he has to prove himself in Parliament
 - 2026-08-29 · [[info:item:politics:global:2026-08-29-005]] — Burnham says he will not vote on assisted dying unlike Starmer
 - 2026-08-28 · [[info:item:politics:global:2026-08-28-003]] — Rape and sex offence specialists on all police forces by 2027, PM says
 - 2026-08-27 · [[info:item:world:global:2026-08-27-002]] — What we know about deadly Nepal‑Tibet floods

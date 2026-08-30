@@ -1,7 +1,7 @@
 ---
 name: "Donald Trump"
 entity_type: person
-backlink_count: 9
+backlink_count: 11
 ---
 
 # Donald Trump
@@ -10,6 +10,8 @@ backlink_count: 9
 
 ## Referenced by
 
+- 2026-08-30 · [[info:item:world:global:2026-08-30-001]] — Iceland EU referendum on a knife edge as counting continues
+- 2026-08-30 · [[info:item:world:global:2026-08-30-003]] — Canada installs large Lake Ontario sign in latest jab at US
 - 2026-08-29 · [[info:item:world:global:2026-08-29-002]] — Trump hails 'historic' deal for US to control 65bn barrels of Venezuela's oil
 - 2026-08-26 · [[info:item:world:global:2026-08-26-001]] — Canada Announces ‘Dollar‑for‑Dollar’ Retaliatory Tariffs on US Goods Up to 50%
 - 2026-08-26 · [[info:item:world:global:2026-08-26-008]] — Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%

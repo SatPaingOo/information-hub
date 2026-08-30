@@ -1,0 +1,13 @@
+2026-08-30 06:01:59,172 INFO [world-news] attempt 1 invalid: ["entities/0/type: 'country' is not one of ['concept', 'company', 'model', 'person', 'product', 'region', 'organization', 'event']"]
+2026-08-30 06:02:11,419 INFO [world-news] published 2026-08-30-001 — Iceland EU referendum on a knife edge as counting continues
+2026-08-30 06:02:30,139 INFO [world-news] published 2026-08-30-002 — WhatsApp chat used to send cash for crime and extremism
+2026-08-30 06:02:49,413 INFO [world-news] published 2026-08-30-003 — Canada installs large Lake Ontario sign in latest jab at US
+2026-08-30 06:02:52,904 INFO [tech-news] nothing selected
+2026-08-30 06:03:24,893 INFO [politics] published 2026-08-30-004 — PC Harper's killers to stay in jail as PM announces changes 
+2026-08-30 06:03:40,789 INFO [politics] published 2026-08-30-005 — Burnham's summer tour is over - now he has to prove himself 
+2026-08-30 06:03:48,565 INFO [products] attempt 1 invalid: [": 'key_facts' is a required property", ": 'implications' is a required property"]
+2026-08-30 06:03:48,637 ERROR [products] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7994, Requested 3957. Please try again in 29.6325s. Need more tokens? Upgrade to Dev Tier today at https://co
+2026-08-30 06:03:57,248 INFO [products] attempt 3 invalid: [": 'key_facts' is a required property", ": 'implications' is a required property"]
+2026-08-30 06:03:57,383 ERROR [products] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 5662, Requested 3945. Please try again in 12.0525s. Need more tokens? Upgrade to Dev Tier today at https://con
+2026-08-30 06:04:00,384 WARNING [products] no collect provider for deep-dive
+2026-08-30 06:04:00,454 INFO collect done: 5 item(s) published — target 5/10, next run ≈ 2026-08-31T01:00:00+00:00 UTC
