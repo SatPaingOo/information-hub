@@ -2214,6 +2214,142 @@
       "name": "public sentiment"
     },
     {
+      "id": "info:item:world:global:2026-08-31-001",
+      "type": "item",
+      "date": "2026-08-31",
+      "title": "Eight killed and 18 missing after ferry capsizes off northern Cyprus"
+    },
+    {
+      "id": "info:entity:organization:Turkish Republic of Northern Cyprus (TRNC)",
+      "type": "organization",
+      "name": "Turkish Republic of Northern Cyprus (TRNC)"
+    },
+    {
+      "id": "info:entity:company:Filo Denizcilik",
+      "type": "company",
+      "name": "Filo Denizcilik"
+    },
+    {
+      "id": "info:entity:person:Recep Tayyip Erdoğan",
+      "type": "person",
+      "name": "Recep Tayyip Erdoğan"
+    },
+    {
+      "id": "info:entity:person:Mustafa Koc",
+      "type": "person",
+      "name": "Mustafa Koc"
+    },
+    {
+      "id": "info:item:world:global:2026-08-31-002",
+      "type": "item",
+      "date": "2026-08-31",
+      "title": "US and Iran trade strikes for first time in weeks"
+    },
+    {
+      "id": "info:entity:organization:Islamic Revolutionary Guard Corps (IRGC)",
+      "type": "organization",
+      "name": "Islamic Revolutionary Guard Corps (IRGC)"
+    },
+    {
+      "id": "info:entity:organization:US Central Command (Centcom)",
+      "type": "organization",
+      "name": "US Central Command (Centcom)"
+    },
+    {
+      "id": "info:entity:person:Masoud Pezeshkian",
+      "type": "person",
+      "name": "Masoud Pezeshkian"
+    },
+    {
+      "id": "info:item:world:global:2026-08-31-003",
+      "type": "item",
+      "date": "2026-08-31",
+      "title": "Iceland votes against restarting EU membership talks"
+    },
+    {
+      "id": "taxonomy/misc/Icelandic fisheries policy",
+      "type": "taxonomy",
+      "name": "Icelandic fisheries policy"
+    },
+    {
+      "id": "taxonomy/misc/Arctic security",
+      "type": "taxonomy",
+      "name": "Arctic security"
+    },
+    {
+      "id": "info:item:politics:global:2026-08-31-004",
+      "type": "item",
+      "date": "2026-08-31",
+      "title": "Patel to be replaced by Tugendhat as shadow foreign secretary"
+    },
+    {
+      "id": "info:entity:person:Tom Tugendhat",
+      "type": "person",
+      "name": "Tom Tugendhat"
+    },
+    {
+      "id": "info:entity:person:Priti Patel",
+      "type": "person",
+      "name": "Priti Patel"
+    },
+    {
+      "id": "info:entity:person:James Cleverly",
+      "type": "person",
+      "name": "James Cleverly"
+    },
+    {
+      "id": "info:item:politics:global:2026-08-31-005",
+      "type": "item",
+      "date": "2026-08-31",
+      "title": "Emergency measures needed to stop teachers quitting, say Lib Dems"
+    },
+    {
+      "id": "info:entity:organization:Liberal Democrats",
+      "type": "organization",
+      "name": "Liberal Democrats"
+    },
+    {
+      "id": "info:entity:person:Lucy Powell",
+      "type": "person",
+      "name": "Lucy Powell"
+    },
+    {
+      "id": "info:entity:organization:National Education Union (NEU)",
+      "type": "organization",
+      "name": "National Education Union (NEU)"
+    },
+    {
+      "id": "info:entity:person:Caroline Voaden",
+      "type": "person",
+      "name": "Caroline Voaden"
+    },
+    {
+      "id": "taxonomy/misc/education policy",
+      "type": "taxonomy",
+      "name": "education policy"
+    },
+    {
+      "id": "taxonomy/misc/labour market",
+      "type": "taxonomy",
+      "name": "labour market"
+    },
+    {
+      "id": "taxonomy/misc/United Kingdom",
+      "type": "taxonomy",
+      "name": "United Kingdom"
+    },
+    {
+      "id": "info:item:products:global:2026-08-31-006",
+      "type": "item",
+      "date": "2026-08-31",
+      "title": "Maritime"
+    },
+    {
+      "id": "info:entity:product:Maritime",
+      "type": "product",
+      "name": "Maritime"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -7864,6 +8000,386 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-08-31-001",
+      "target": "info:entity:organization:Turkish Republic of Northern Cyprus (TRNC)",
+      "relation": "jurisdiction where the ferry capsized and where the investigation is being led"
+    },
+    {
+      "source": "info:item:world:global:2026-08-31-001",
+      "target": "info:entity:company:Filo Denizcilik",
+      "relation": "operator of the capsized ferry"
+    },
+    {
+      "source": "info:item:world:global:2026-08-31-001",
+      "target": "info:entity:person:Recep Tayyip Erdoğan",
+      "relation": "President of Turkey who coordinated rescue efforts and offered condolences"
+    },
+    {
+      "source": "info:item:world:global:2026-08-31-001",
+      "target": "info:entity:person:Mustafa Koc",
+      "relation": "civilian who rescued approximately 65 passengers using his private boat"
+    },
+    {
+      "source": "info:item:world:global:2026-08-31-001",
+      "target": "info:item:world:global:2026-08-30-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-08-31-001",
+      "target": "info:item:world:global:2026-08-30-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-08-31-001",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-31-001",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-31-001",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-31-001",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-31-001",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-08-31-001",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-08-31-001",
+      "target": "taxonomy/category/industry",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-08-31-002",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "US President who posted AI videos of Iranian oil infrastructure"
+    },
+    {
+      "source": "info:item:world:global:2026-08-31-002",
+      "target": "info:entity:organization:Islamic Revolutionary Guard Corps (IRGC)",
+      "relation": "Iranian military branch that claimed casualties from the Larak strike"
+    },
+    {
+      "source": "info:item:world:global:2026-08-31-002",
+      "target": "info:entity:organization:US Central Command (Centcom)",
+      "relation": "Executed the limited strike on Iranian rocket launchers"
+    },
+    {
+      "source": "info:item:world:global:2026-08-31-002",
+      "target": "info:entity:person:Masoud Pezeshkian",
+      "relation": "Iranian President who warned of decisive response"
+    },
+    {
+      "source": "info:item:world:global:2026-08-31-002",
+      "target": "info:item:world:global:2026-08-31-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-08-31-002",
+      "target": "info:item:world:global:2026-08-30-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-08-31-002",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-31-002",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-31-002",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-31-002",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-31-002",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-08-31-002",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-08-31-002",
+      "target": "taxonomy/misc/Myanmar",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-08-31-003",
+      "target": "info:entity:organization:European Union",
+      "relation": "target of accession negotiations"
+    },
+    {
+      "source": "info:item:world:global:2026-08-31-003",
+      "target": "info:entity:person:Katrín Frostadóttir",
+      "relation": "Prime Minister of Iceland, promoter of referendum"
+    },
+    {
+      "source": "info:item:world:global:2026-08-31-003",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "U.S. President whose Greenland remarks influenced referendum timing"
+    },
+    {
+      "source": "info:item:world:global:2026-08-31-003",
+      "target": "info:entity:organization:NATO",
+      "relation": "security alliance of which Iceland is a founding member"
+    },
+    {
+      "source": "info:item:world:global:2026-08-31-003",
+      "target": "info:item:world:global:2026-08-31-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-08-31-003",
+      "target": "info:item:world:global:2026-08-30-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-08-31-003",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-31-003",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-31-003",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-31-003",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-08-31-003",
+      "target": "taxonomy/misc/European Union membership",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-08-31-003",
+      "target": "taxonomy/misc/Icelandic fisheries policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-08-31-003",
+      "target": "taxonomy/misc/Arctic security",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-31-004",
+      "target": "info:entity:person:Tom Tugendhat",
+      "relation": "replaces as shadow foreign secretary"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-31-004",
+      "target": "info:entity:person:Kemi Badenoch",
+      "relation": "leads reshuffle and appoints new front bench"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-31-004",
+      "target": "info:entity:person:Priti Patel",
+      "relation": "steps down from shadow foreign secretary"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-31-004",
+      "target": "info:entity:person:James Cleverly",
+      "relation": "resigns as shadow housing secretary to run for London mayor"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-31-004",
+      "target": "info:item:politics:global:2026-08-30-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-31-004",
+      "target": "info:item:politics:global:2026-08-30-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-31-004",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-31-004",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-31-004",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-31-004",
+      "target": "taxonomy/topic/politics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-31-004",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-31-004",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-31-005",
+      "target": "info:entity:organization:Liberal Democrats",
+      "relation": "proposes emergency measures to address teacher attrition"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-31-005",
+      "target": "info:entity:person:Lucy Powell",
+      "relation": "Education Secretary targeted for immediate policy action"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-31-005",
+      "target": "info:entity:organization:National Education Union (NEU)",
+      "relation": "collaborated on survey and advocates for teachers"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-31-005",
+      "target": "info:entity:person:Caroline Voaden",
+      "relation": "Lib Dem schools spokesperson leading the call"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-31-005",
+      "target": "info:item:politics:global:2026-08-31-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-31-005",
+      "target": "info:item:politics:global:2026-08-30-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-31-005",
+      "target": "info:item:politics:global:2026-08-30-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-31-005",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-31-005",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-31-005",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-31-005",
+      "target": "taxonomy/misc/education policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-31-005",
+      "target": "taxonomy/misc/labour market",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-08-31-005",
+      "target": "taxonomy/misc/United Kingdom",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-08-31-006",
+      "target": "info:entity:product:Maritime",
+      "relation": "offers dedicated compute for AI agents"
+    },
+    {
+      "source": "info:item:products:global:2026-08-31-006",
+      "target": "info:entity:company:OpenAI",
+      "relation": "key player in agentic AI and competitor"
+    },
+    {
+      "source": "info:item:products:global:2026-08-31-006",
+      "target": "info:entity:model:Gemini",
+      "relation": "benchmark model for agentic AI performance"
+    },
+    {
+      "source": "info:item:products:global:2026-08-31-006",
+      "target": "info:entity:company:Anthropic",
+      "relation": "rival in the agentic AI space"
+    },
+    {
+      "source": "info:item:products:global:2026-08-31-006",
+      "target": "info:item:products:global:2026-08-29-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-08-31-006",
+      "target": "info:item:products:global:2026-08-29-007",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-08-31-006",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-08-31-006",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-08-31-006",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-08-31-006",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-08-31-006",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-08-31-006",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -7995,7 +8511,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
-      "weight": "12"
+      "weight": "13"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -8055,7 +8571,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "7"
+      "weight": "8"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -8090,6 +8606,12 @@
     {
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:product:God’s Eye View",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:product:Maritime",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -8156,6 +8678,24 @@
     {
       "source": "info:entity:company:Cloverleaf Infrastructure",
       "target": "info:entity:region:North America",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Filo Denizcilik",
+      "target": "info:entity:organization:Turkish Republic of Northern Cyprus (TRNC)",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Filo Denizcilik",
+      "target": "info:entity:person:Mustafa Koc",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Filo Denizcilik",
+      "target": "info:entity:person:Recep Tayyip Erdoğan",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -8307,7 +8847,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "9"
+      "weight": "10"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -8342,6 +8882,12 @@
     {
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:product:God’s Eye View",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:product:Maritime",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -8923,6 +9469,12 @@
     },
     {
       "source": "info:entity:model:Gemini",
+      "target": "info:entity:product:Maritime",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
       "target": "info:entity:product:Pluto",
       "relation": "co-occurs",
       "weight": "1"
@@ -9381,7 +9933,7 @@
       "source": "info:entity:organization:European Union",
       "target": "info:entity:organization:NATO",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:European Union",
@@ -9411,13 +9963,13 @@
       "source": "info:entity:organization:European Union",
       "target": "info:entity:person:Donald Trump",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:European Union",
       "target": "info:entity:person:Katrín Frostadóttir",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:European Union",
@@ -9558,6 +10110,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Islamic Revolutionary Guard Corps (IRGC)",
+      "target": "info:entity:organization:US Central Command (Centcom)",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Islamic Revolutionary Guard Corps (IRGC)",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Islamic Revolutionary Guard Corps (IRGC)",
+      "target": "info:entity:person:Masoud Pezeshkian",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Islamic State (IS)",
       "target": "info:entity:person:Abu Adam",
       "relation": "co-occurs",
@@ -9624,6 +10194,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Liberal Democrats",
+      "target": "info:entity:organization:National Education Union (NEU)",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Liberal Democrats",
+      "target": "info:entity:person:Caroline Voaden",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Liberal Democrats",
+      "target": "info:entity:person:Lucy Powell",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:MBDA",
       "target": "info:entity:organization:Russian Embassy to the UK",
       "relation": "co-occurs",
@@ -9663,13 +10251,13 @@
       "source": "info:entity:organization:NATO",
       "target": "info:entity:person:Donald Trump",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:NATO",
       "target": "info:entity:person:Katrín Frostadóttir",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:National Economic Council",
@@ -9686,6 +10274,18 @@
     {
       "source": "info:entity:organization:National Economic Council",
       "target": "info:entity:person:Sioned Williams",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:National Education Union (NEU)",
+      "target": "info:entity:person:Caroline Voaden",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:National Education Union (NEU)",
+      "target": "info:entity:person:Lucy Powell",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -9924,6 +10524,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Turkish Republic of Northern Cyprus (TRNC)",
+      "target": "info:entity:person:Mustafa Koc",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Turkish Republic of Northern Cyprus (TRNC)",
+      "target": "info:entity:person:Recep Tayyip Erdoğan",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:U.S. Department of Defense",
       "target": "info:entity:person:Delcy Rodriguez",
       "relation": "co-occurs",
@@ -9998,6 +10610,18 @@
     {
       "source": "info:entity:organization:UK Ministry of Defence",
       "target": "info:entity:product:Scalp missile",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:US Central Command (Centcom)",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:US Central Command (Centcom)",
+      "target": "info:entity:person:Masoud Pezeshkian",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -10320,6 +10944,12 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:person:Caroline Voaden",
+      "target": "info:entity:person:Lucy Powell",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:person:Chow Hang‑tung",
       "target": "info:entity:person:Lee Cheuk‑yan",
       "relation": "co-occurs",
@@ -10413,7 +11043,7 @@
       "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:Katrín Frostadóttir",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Donald Trump",
@@ -10426,6 +11056,12 @@
       "target": "info:entity:person:Mark Carney",
       "relation": "co-occurs",
       "weight": "6"
+    },
+    {
+      "source": "info:entity:person:Donald Trump",
+      "target": "info:entity:person:Masoud Pezeshkian",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:person:Donald Trump",
@@ -10512,6 +11148,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:person:James Cleverly",
+      "target": "info:entity:person:Kemi Badenoch",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:James Cleverly",
+      "target": "info:entity:person:Priti Patel",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:James Cleverly",
+      "target": "info:entity:person:Tom Tugendhat",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:person:Jamieson Greer",
       "target": "info:entity:person:Mark Carney",
       "relation": "co-occurs",
@@ -10572,6 +11226,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:person:Kemi Badenoch",
+      "target": "info:entity:person:Priti Patel",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Kemi Badenoch",
+      "target": "info:entity:person:Tom Tugendhat",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:person:Laura Loomer",
       "target": "info:entity:person:Milo Yiannopoulos",
       "relation": "co-occurs",
@@ -10626,10 +11292,22 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:person:Mustafa Koc",
+      "target": "info:entity:person:Recep Tayyip Erdoğan",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:person:Mykhailo Fedorov",
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
       "weight": "3"
+    },
+    {
+      "source": "info:entity:person:Priti Patel",
+      "target": "info:entity:person:Tom Tugendhat",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:person:Rachel Reeves",

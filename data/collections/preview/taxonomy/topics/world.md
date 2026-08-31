@@ -1,7 +1,7 @@
 ---
 node: "world"
 layer: topic
-item_count: 48
+item_count: 51
 ---
 
 # world
@@ -17,6 +17,9 @@ item_count: 48
 
 ## Items
 
+- 2026-08-31 · [[info:item:world:global:2026-08-31-001]] — Eight killed and 18 missing after ferry capsizes off northern Cyprus
+- 2026-08-31 · [[info:item:world:global:2026-08-31-002]] — US and Iran trade strikes for first time in weeks
+- 2026-08-31 · [[info:item:world:global:2026-08-31-003]] — Iceland votes against restarting EU membership talks
 - 2026-08-30 · [[info:item:world:global:2026-08-30-001]] — Iceland EU referendum on a knife edge as counting continues
 - 2026-08-30 · [[info:item:world:global:2026-08-30-002]] — WhatsApp chat used to send cash for crime and extremism
 - 2026-08-30 · [[info:item:world:global:2026-08-30-003]] — Canada installs large Lake Ontario sign in latest jab at US

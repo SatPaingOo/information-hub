@@ -1,7 +1,7 @@
 ---
 node: "politics"
 layer: topic
-item_count: 18
+item_count: 21
 ---
 
 # politics
@@ -16,6 +16,9 @@ item_count: 18
 
 ## Items
 
+- 2026-08-31 · [[info:item:politics:global:2026-08-31-004]] — Patel to be replaced by Tugendhat as shadow foreign secretary
+- 2026-08-31 · [[info:item:politics:global:2026-08-31-004]] — Patel to be replaced by Tugendhat as shadow foreign secretary
+- 2026-08-31 · [[info:item:politics:global:2026-08-31-005]] — Emergency measures needed to stop teachers quitting, say Lib Dems
 - 2026-08-30 · [[info:item:politics:global:2026-08-30-004]] — PC Harper's killers to stay in jail as PM announces changes to early release scheme
 - 2026-08-30 · [[info:item:politics:global:2026-08-30-005]] — Burnham's summer tour is over - now he has to prove himself in Parliament
 - 2026-08-30 · [[info:item:politics:global:2026-08-30-005]] — Burnham's summer tour is over - now he has to prove himself in Parliament

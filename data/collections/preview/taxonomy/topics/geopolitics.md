@@ -1,7 +1,7 @@
 ---
 node: "geopolitics"
 layer: topic
-item_count: 20
+item_count: 21
 ---
 
 # geopolitics
@@ -24,6 +24,7 @@ item_count: 20
 
 ## Items
 
+- 2026-08-31 · [[info:item:politics:global:2026-08-31-004]] — Patel to be replaced by Tugendhat as shadow foreign secretary
 - 2026-08-29 · [[info:item:world:global:2026-08-29-003]] — Landlady to 9/11 hijackers reveals their links to alleged Saudi spy
 - 2026-08-29 · [[info:item:politics:global:2026-08-29-005]] — Burnham says he will not vote on assisted dying unlike Starmer
 - 2026-08-29 · [[info:item:world:global:2026-08-29-008]] — At least 37 dead and hundreds evacuated after strike on Kyiv weapons depot

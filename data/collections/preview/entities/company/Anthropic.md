@@ -1,7 +1,7 @@
 ---
 name: "Anthropic"
 entity_type: company
-backlink_count: 14
+backlink_count: 15
 ---
 
 # Anthropic
@@ -10,6 +10,7 @@ backlink_count: 14
 
 ## Referenced by
 
+- 2026-08-31 · [[info:item:products:global:2026-08-31-006]] — Maritime
 - 2026-08-29 · [[info:item:products:global:2026-08-29-006]] — Cursor Craft v2
 - 2026-08-29 · [[info:item:products:global:2026-08-29-007]] — God’s Eye View – Real‑World Spy Satellite Simulation in the Browser
 - 2026-08-28 · [[info:item:world:global:2026-08-28-001]] — Trump administration illegally retaliated against Anthropic, judge rules

@@ -1,0 +1,12 @@
+2026-08-31 06:38:49,832 INFO [world-news] published 2026-08-31-001 — Eight killed and 18 missing after ferry capsizes off norther
+2026-08-31 06:39:08,746 INFO [world-news] published 2026-08-31-002 — US and Iran trade strikes for first time in weeks
+2026-08-31 06:39:32,455 INFO [world-news] published 2026-08-31-003 — Iceland votes against restarting EU membership talks
+2026-08-31 06:39:43,777 INFO [tech-news] nothing selected
+2026-08-31 06:40:31,175 INFO [politics] published 2026-08-31-004 — Patel to be replaced by Tugendhat as shadow foreign secretar
+2026-08-31 06:41:01,826 INFO [politics] published 2026-08-31-005 — Emergency measures needed to stop teachers quitting, say Lib
+2026-08-31 06:41:38,615 INFO [products] published 2026-08-31-006 — Maritime
+2026-08-31 06:41:43,318 INFO [products] attempt 1 invalid: [": 'key_facts' is a required property", ": 'implications' is a required property"]
+2026-08-31 06:41:43,425 ERROR [products] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 5522, Requested 4086. Please try again in 12.06s. Need more tokens? Upgrade to Dev Tier today at https://cons
+2026-08-31 06:41:52,012 ERROR [products] generate error: HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
+
+2026-08-31 06:42:01,066 INFO collect done: 6 item(s) published — target 4/10, next run ≈ 2026-09-01T01:00:00+00:00 UTC

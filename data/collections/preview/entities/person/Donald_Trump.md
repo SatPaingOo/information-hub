@@ -1,7 +1,7 @@
 ---
 name: "Donald Trump"
 entity_type: person
-backlink_count: 11
+backlink_count: 13
 ---
 
 # Donald Trump
@@ -10,6 +10,8 @@ backlink_count: 11
 
 ## Referenced by
 
+- 2026-08-31 · [[info:item:world:global:2026-08-31-002]] — US and Iran trade strikes for first time in weeks
+- 2026-08-31 · [[info:item:world:global:2026-08-31-003]] — Iceland votes against restarting EU membership talks
 - 2026-08-30 · [[info:item:world:global:2026-08-30-001]] — Iceland EU referendum on a knife edge as counting continues
 - 2026-08-30 · [[info:item:world:global:2026-08-30-003]] — Canada installs large Lake Ontario sign in latest jab at US
 - 2026-08-29 · [[info:item:world:global:2026-08-29-002]] — Trump hails 'historic' deal for US to control 65bn barrels of Venezuela's oil

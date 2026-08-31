@@ -1,7 +1,7 @@
 ---
 name: "OpenAI"
 entity_type: company
-backlink_count: 21
+backlink_count: 22
 ---
 
 # OpenAI
@@ -10,6 +10,7 @@ backlink_count: 21
 
 ## Referenced by
 
+- 2026-08-31 · [[info:item:products:global:2026-08-31-006]] — Maritime
 - 2026-08-29 · [[info:item:politics:global:2026-08-29-004]] — Greens call for temporary ban on new data centres
 - 2026-08-29 · [[info:item:products:global:2026-08-29-006]] — Cursor Craft v2
 - 2026-08-29 · [[info:item:products:global:2026-08-29-007]] — God’s Eye View – Real‑World Spy Satellite Simulation in the Browser

@@ -1,7 +1,7 @@
 ---
 name: "Gemini"
 entity_type: model
-backlink_count: 9
+backlink_count: 10
 ---
 
 # Gemini
@@ -10,6 +10,7 @@ backlink_count: 9
 
 ## Referenced by
 
+- 2026-08-31 · [[info:item:products:global:2026-08-31-006]] — Maritime
 - 2026-08-29 · [[info:item:products:global:2026-08-29-006]] — Cursor Craft v2
 - 2026-08-29 · [[info:item:products:global:2026-08-29-007]] — God’s Eye View – Real‑World Spy Satellite Simulation in the Browser
 - 2026-08-28 · [[info:item:products:global:2026-08-28-004]] — Pluto: Your Professional Profile Becomes an AI Agent

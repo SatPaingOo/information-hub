@@ -1,7 +1,7 @@
 ---
 node: "products"
 layer: topic
-item_count: 10
+item_count: 11
 ---
 
 # products
@@ -15,6 +15,7 @@ item_count: 10
 
 ## Items
 
+- 2026-08-31 · [[info:item:products:global:2026-08-31-006]] — Maritime
 - 2026-08-29 · [[info:item:products:global:2026-08-29-006]] — Cursor Craft v2
 - 2026-08-29 · [[info:item:products:global:2026-08-29-007]] — God’s Eye View – Real‑World Spy Satellite Simulation in the Browser
 - 2026-08-28 · [[info:item:products:global:2026-08-28-004]] — Pluto: Your Professional Profile Becomes an AI Agent
