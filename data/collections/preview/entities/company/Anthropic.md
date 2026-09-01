@@ -1,7 +1,7 @@
 ---
 name: "Anthropic"
 entity_type: company
-backlink_count: 15
+backlink_count: 16
 ---
 
 # Anthropic
@@ -10,6 +10,7 @@ backlink_count: 15
 
 ## Referenced by
 
+- 2026-09-01 · [[info:item:products:global:2026-09-01-006]] — Interactive Sessions
 - 2026-08-31 · [[info:item:products:global:2026-08-31-006]] — Maritime
 - 2026-08-29 · [[info:item:products:global:2026-08-29-006]] — Cursor Craft v2
 - 2026-08-29 · [[info:item:products:global:2026-08-29-007]] — God’s Eye View – Real‑World Spy Satellite Simulation in the Browser

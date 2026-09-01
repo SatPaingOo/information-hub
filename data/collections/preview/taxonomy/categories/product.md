@@ -1,7 +1,7 @@
 ---
 node: "product"
 layer: category
-item_count: 24
+item_count: 25
 ---
 
 # product
@@ -19,6 +19,7 @@ item_count: 24
 
 ## Items
 
+- 2026-09-01 · [[info:item:products:global:2026-09-01-006]] — Interactive Sessions
 - 2026-08-31 · [[info:item:products:global:2026-08-31-006]] — Maritime
 - 2026-08-29 · [[info:item:products:global:2026-08-29-006]] — Cursor Craft v2
 - 2026-08-29 · [[info:item:products:global:2026-08-29-006]] — Cursor Craft v2

@@ -1,7 +1,7 @@
 ---
 node: "industry"
 layer: category
-item_count: 54
+item_count: 58
 ---
 
 # industry
@@ -19,6 +19,10 @@ item_count: 54
 
 ## Items
 
+- 2026-09-01 · [[info:item:world:global:2026-09-01-001]] — What it was like inside court for Tupac Shakur’s murder trial verdict
+- 2026-09-01 · [[info:item:world:global:2026-09-01-002]] — Nepal rescuers blast hillside in search of hydropower workers as families wait anxiously
+- 2026-09-01 · [[info:item:world:global:2026-09-01-003]] — US army secretary resigns after months of tension
+- 2026-09-01 · [[info:item:world:global:2026-09-01-003]] — US army secretary resigns after months of tension
 - 2026-08-31 · [[info:item:world:global:2026-08-31-001]] — Eight killed and 18 missing after ferry capsizes off northern Cyprus
 - 2026-08-31 · [[info:item:world:global:2026-08-31-001]] — Eight killed and 18 missing after ferry capsizes off northern Cyprus
 - 2026-08-31 · [[info:item:world:global:2026-08-31-002]] — US and Iran trade strikes for first time in weeks

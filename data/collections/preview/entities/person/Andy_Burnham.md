@@ -1,7 +1,7 @@
 ---
 name: "Andy Burnham"
 entity_type: person
-backlink_count: 16
+backlink_count: 17
 ---
 
 # Andy Burnham
@@ -10,6 +10,7 @@ backlink_count: 16
 
 ## Referenced by
 
+- 2026-09-01 · [[info:item:politics:global:2026-09-01-004]] — Burnham to promise 'sense of optimism' in first Commons statement as PM
 - 2026-08-30 · [[info:item:politics:global:2026-08-30-004]] — PC Harper's killers to stay in jail as PM announces changes to early release scheme
 - 2026-08-30 · [[info:item:politics:global:2026-08-30-005]] — Burnham's summer tour is over - now he has to prove himself in Parliament
 - 2026-08-29 · [[info:item:politics:global:2026-08-29-005]] — Burnham says he will not vote on assisted dying unlike Starmer

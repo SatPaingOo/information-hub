@@ -1,7 +1,7 @@
 ---
 node: "politics"
 layer: topic
-item_count: 21
+item_count: 25
 ---
 
 # politics
@@ -16,6 +16,10 @@ item_count: 21
 
 ## Items
 
+- 2026-09-01 · [[info:item:politics:global:2026-09-01-004]] — Burnham to promise 'sense of optimism' in first Commons statement as PM
+- 2026-09-01 · [[info:item:politics:global:2026-09-01-004]] — Burnham to promise 'sense of optimism' in first Commons statement as PM
+- 2026-09-01 · [[info:item:politics:global:2026-09-01-005]] — Mel Stride and Priti Patel replaced in major Tory reshuffle
+- 2026-09-01 · [[info:item:politics:global:2026-09-01-005]] — Mel Stride and Priti Patel replaced in major Tory reshuffle
 - 2026-08-31 · [[info:item:politics:global:2026-08-31-004]] — Patel to be replaced by Tugendhat as shadow foreign secretary
 - 2026-08-31 · [[info:item:politics:global:2026-08-31-004]] — Patel to be replaced by Tugendhat as shadow foreign secretary
 - 2026-08-31 · [[info:item:politics:global:2026-08-31-005]] — Emergency measures needed to stop teachers quitting, say Lib Dems

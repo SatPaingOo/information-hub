@@ -1,7 +1,7 @@
 ---
 node: "geopolitics"
 layer: topic
-item_count: 21
+item_count: 23
 ---
 
 # geopolitics
@@ -24,6 +24,8 @@ item_count: 21
 
 ## Items
 
+- 2026-09-01 · [[info:item:world:global:2026-09-01-001]] — What it was like inside court for Tupac Shakur’s murder trial verdict
+- 2026-09-01 · [[info:item:world:global:2026-09-01-003]] — US army secretary resigns after months of tension
 - 2026-08-31 · [[info:item:politics:global:2026-08-31-004]] — Patel to be replaced by Tugendhat as shadow foreign secretary
 - 2026-08-29 · [[info:item:world:global:2026-08-29-003]] — Landlady to 9/11 hijackers reveals their links to alleged Saudi spy
 - 2026-08-29 · [[info:item:politics:global:2026-08-29-005]] — Burnham says he will not vote on assisted dying unlike Starmer
