@@ -111,6 +111,10 @@ class Indexer:
             "entities": [e["name"] for e in r.get("entities", [])],
             "tags": r.get("tags", []),
             "word_count": r.get("word_count", 0),
+            # per-record pipeline facts (report page date-range filtering)
+            "provider": (r.get("provenance") or {}).get("generated_by", {}).get("provider", ""),
+            "model": (r.get("provenance") or {}).get("generated_by", {}).get("model", ""),
+            "verify": _verify_method(r),
             "file": f"collections/data-set/{_record_name(r)}.json",
         } for r in sorted(records, key=lambda x: x["date"], reverse=True)]
         (self.index_dir / "index.json").write_text(
@@ -432,6 +436,13 @@ class Indexer:
             )
             (misc_dir / safe_name(node)).with_suffix(".md").write_text(
                 md + "\n", encoding="utf-8")
+
+
+def _verify_method(r: dict[str, Any]) -> str:
+    """Normalized verification method: gemini / lexical / unverified."""
+    g = r.get("grounding") or {}
+    raw = g.get("method") or ("unverified" if not g.get("checked_by") else "other")
+    return "gemini" if str(raw).startswith("gemini") else raw
 
 
 def _record_name(rec: dict[str, Any]) -> str:

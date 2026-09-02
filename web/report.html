@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Report — Information Hub</title>
-  <meta name="description" content="Daily intelligence pipeline report — items per day, collection, provider, model and verification." />
+  <meta name="description" content="Public pipeline report — how the machine collects: per day, collection, provider, model and verification, with date-range filters." />
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%236366f1'/><text x='50' y='68' font-size='52' text-anchor='middle' fill='white' font-family='Arial' font-weight='bold'>IH</text></svg>" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -34,45 +34,74 @@
     </div>
   </nav>
 
-  <main class="relative z-10 max-w-6xl mx-auto px-5 py-8">
-    <div class="mb-8">
-      <p class="text-indigo-300 text-xs font-semibold uppercase tracking-widest mb-1.5">Pipeline report</p>
-      <h1 class="text-3xl font-bold tracking-tight text-white">How the machine works, day by day</h1>
+  <main class="relative z-10 max-w-7xl mx-auto px-5 py-8">
+    <!-- head -->
+    <div class="mb-6">
+      <p class="text-indigo-300 text-xs font-semibold uppercase tracking-widest mb-1.5">Public pipeline report</p>
+      <h1 class="text-3xl font-bold tracking-tight text-white">How the machine collects</h1>
       <p id="report-meta" class="text-slate-500 text-sm mt-2"></p>
     </div>
 
+    <!-- date-range filter -->
+    <div class="surface p-4 mb-8 flex flex-wrap items-center gap-3">
+      <span class="text-xs text-slate-400 font-semibold uppercase tracking-wider">Date range</span>
+      <div id="presets" class="flex gap-1.5 text-xs">
+        <button data-days="7" class="chip">7 days</button>
+        <button data-days="14" class="chip">14 days</button>
+        <button data-days="30" class="chip">30 days</button>
+        <button data-days="90" class="chip">90 days</button>
+        <button data-days="0" class="chip active">All</button>
+      </div>
+      <span class="text-slate-600">·</span>
+      <label class="flex items-center gap-2 text-xs text-slate-400"><span>From</span><input id="date-from" type="date" class="ctl" /></label>
+      <label class="flex items-center gap-2 text-xs text-slate-400"><span>To</span><input id="date-to" type="date" class="ctl" /></label>
+      <button id="clear-range" class="chip">Clear</button>
+      <span id="range-summary" class="text-xs text-indigo-300 ml-auto"></span>
+    </div>
+
     <!-- KPI row -->
-    <div id="kpis" class="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-8"></div>
+    <div id="kpis" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 mb-8"></div>
 
     <!-- charts -->
     <div class="grid lg:grid-cols-2 gap-5 mb-5">
       <div class="surface p-5">
         <h2 class="font-semibold text-white mb-3 text-sm">Briefings per day</h2>
-        <div class="h-48"><canvas id="chart-day"></canvas></div>
+        <div class="h-56"><canvas id="chart-day"></canvas></div>
+      </div>
+      <div class="surface p-5">
+        <h2 class="font-semibold text-white mb-3 text-sm">Per day · by provider (stacked)</h2>
+        <div class="h-56"><canvas id="chart-day-provider"></canvas></div>
       </div>
       <div class="surface p-5">
         <h2 class="font-semibold text-white mb-3 text-sm">By collection</h2>
-        <div class="h-48"><canvas id="chart-collection"></canvas></div>
-      </div>
-      <div class="surface p-5">
-        <h2 class="font-semibold text-white mb-3 text-sm">Generating provider / model</h2>
-        <div class="h-64"><canvas id="chart-provider"></canvas></div>
+        <div class="h-56"><canvas id="chart-collection"></canvas></div>
       </div>
       <div class="surface p-5">
         <h2 class="font-semibold text-white mb-3 text-sm">Verification method</h2>
-        <div class="h-48"><canvas id="chart-verify"></canvas></div>
+        <div class="h-56"><canvas id="chart-verify"></canvas></div>
       </div>
     </div>
 
-    <!-- verification explainer -->
+    <!-- provider/model table -->
+    <div class="surface p-5 mb-5">
+      <h2 class="font-semibold text-white mb-4 text-sm">Writing models used</h2>
+      <div id="model-table" class="space-y-2.5"></div>
+    </div>
+
+    <!-- daily log -->
+    <div class="surface p-5 mb-5">
+      <h2 class="font-semibold text-white mb-4 text-sm">Daily log <span class="text-slate-500 font-normal">— each day's output</span></h2>
+      <div id="daily-log" class="divide-y divide-white/5"></div>
+    </div>
+
+    <!-- verify explainer -->
     <div class="surface p-5 text-sm text-slate-400 leading-relaxed">
       <h2 class="font-semibold text-white mb-2 text-sm">What does “verified” mean?</h2>
-      <p><span class="text-emerald-300 font-semibold">AI check (Gemini)</span> — the record's claims were verified with an AI
-        web-search grounding pass against live sources (Gemini search quota permitting).</p>
-      <p class="mt-2"><span class="text-sky-300 font-semibold">Lexical check</span> — no AI search quota was available at run
-        time, so claims were checked lexically against the fetched source text (still scored, but not live-web-verified).</p>
-      <p class="mt-2"><span class="text-slate-500 font-semibold">Unverified</span> — the record has not gone through a check
-        pass yet.</p>
+      <p><span class="text-emerald-300 font-semibold">🤖 AI check (Gemini)</span> — claims verified with an AI web-search grounding pass
+        against live sources (Gemini search quota permitting).</p>
+      <p class="mt-2"><span class="text-sky-300 font-semibold">⚙️ Lexical check</span> — no AI search quota at run time; claims checked
+        lexically against the fetched source text.</p>
+      <p class="mt-2"><span class="text-slate-500 font-semibold">Unverified</span> — not yet through a check pass.</p>
     </div>
   </main>
 
@@ -91,7 +120,7 @@
     </div>
   </footer>
 
-  <script src="assets/js/common.js"></script>
-  <script src="assets/js/report.js"></script>
+  <script src="assets/js/common.js?v=7"></script>
+  <script src="assets/js/report.js?v=2"></script>
 </body>
 </html>
