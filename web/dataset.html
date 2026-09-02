@@ -35,24 +35,35 @@
 
   <main class="relative z-10 max-w-5xl mx-auto px-5 py-10">
     <div class="mb-8">
-      <p class="text-indigo-300 text-xs font-semibold uppercase tracking-widest mb-1.5">Machine dataset</p>
+      <div class="flex items-center gap-2 mb-3">
+        <span class="logo-mark small">IH</span>
+        <p class="text-indigo-300 text-xs font-semibold uppercase tracking-widest">Machine dataset</p>
+      </div>
       <h1 class="text-3xl sm:text-4xl font-display font-semibold text-white mb-3">A structured, traceable intelligence dataset</h1>
       <p class="text-slate-400 max-w-2xl">Every briefing is stored as a schema-validated JSON record with full provenance —
         which provider/model wrote it, how it was verified, and where it came from. Rebuilt and versioned daily.</p>
+      <div class="flex flex-wrap gap-2 mt-4 text-xs">
+        <span class="badge type">✓ Schema-enforced (500+ words)</span>
+        <span class="badge type">🧾 Full provenance trail</span>
+        <span class="badge type">🔗 GraphRAG-ready</span>
+        <span class="badge type">🔄 Regenerated daily · 01:00 UTC</span>
+      </div>
     </div>
 
-    <!-- KPI + actions -->
-    <div class="grid md:grid-cols-[1fr_auto] gap-6 mb-10 items-start">
-      <div id="kpis" class="grid grid-cols-2 sm:grid-cols-4 gap-3"></div>
-      <div class="surface p-5 min-w-[220px]">
-        <h2 class="text-sm font-semibold text-white mb-3">Get the data</h2>
-        <div class="space-y-2 text-sm">
-          <a href="../data/collections/data-set/" class="badge collection-default w-full justify-center py-1.5 hover:bg-white/10">📂 Browse JSON records</a>
-          <a href="../data/views/index.json" target="_blank" class="badge collection-default w-full justify-center py-1.5 hover:bg-white/10">🗂 index.json (catalog)</a>
-          <a href="../data/views/feed.xml" class="badge collection-default w-full justify-center py-1.5 hover:bg-white/10">📡 RSS feed</a>
-          <a href="../data/views/graph.json" class="badge collection-default w-full justify-center py-1.5 hover:bg-white/10">🕸 graph.json</a>
-          <a href="../LICENSE" target="_blank" class="badge collection-default w-full justify-center py-1.5 hover:bg-white/10">⚖️ License</a>
-        </div>
+    <!-- KPI -->
+    <div id="kpis" class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-6"></div>
+
+    <!-- quick actions -->
+    <div class="surface p-4 mb-10">
+      <div class="flex flex-wrap items-center gap-2 text-sm">
+        <span class="text-xs font-semibold text-slate-300 uppercase tracking-wider mr-1">Get the data</span>
+        <a href="../data/collections/data-set/" class="badge collection-default px-3 py-1.5 hover:bg-white/10">📂 JSON records</a>
+        <a href="../data/views/index.json" target="_blank" class="badge collection-default px-3 py-1.5 hover:bg-white/10">🗂 index.json</a>
+        <a href="../data/views/feed.xml" class="badge collection-default px-3 py-1.5 hover:bg-white/10">📡 RSS feed</a>
+        <a href="../data/views/graph.json" class="badge collection-default px-3 py-1.5 hover:bg-white/10">🕸 graph.json</a>
+        <a href="../LICENSE" target="_blank" class="badge collection-default px-3 py-1.5 hover:bg-white/10">⚖️ License</a>
+        <span class="text-slate-600 mx-1">·</span>
+        <span class="text-xs text-slate-500">Weekly snapshots tagged <code class="text-indigo-300">data-YYYY-MM-DD</code></span>
       </div>
     </div>
 
@@ -138,7 +149,7 @@
     </div>
   </footer>
 
-  <script src="assets/js/common.js?v=9"></script>
-  <script src="assets/js/dataset.js"></script>
+  <script src="assets/js/common.js?v=10"></script>
+  <script src="assets/js/dataset.js?v=2?v=2"></script>
 </body>
 </html>
