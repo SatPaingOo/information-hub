@@ -1,4 +1,4 @@
-# information-hub-github-action
+# information-hub
 
 A layer-based deep-dive intelligence system that collects data daily via
 **GitHub Actions + free AI providers** and stores it three ways: **raw data
@@ -24,7 +24,7 @@ A static, self-updating **content-library viewer** (browse → article → knowl
 is published from this repo on GitHub Pages — it re-renders automatically whenever the
 pipeline commits new data.
 
-- **URL**: https://satpaingo.github.io/information-hub-github-action/web/
+- **URL**: https://satpaingo.github.io/information-hub/web/
 - Source: [`web/`](./web) — vanilla HTML + Tailwind (CDN) + D3; no build step
 - Data is fetched directly from the committed `data/views/*.json` (index + graph)
   and `data/collections/data-set/*.json` records.
@@ -225,7 +225,7 @@ just open `data/collections/preview` as a vault. For GraphRAG, ingest
 
 ```
 information-hub/                        ← monorepo root
-└── information-hub-github-action/      ← this repo
+└── information-hub/                  ← this repo
     ├── config.yml  policies.yml  .env.example
     ├── src/                           # layered subpackages
     │   ├── main.py                    # CLI — phase orchestration
@@ -246,7 +246,7 @@ information-hub/                        ← monorepo root
 ## Developer
 
 - **Sat Paing Oo**
-- Repo: https://github.com/SatPaingOo/information-hub-github-action
+- Repo: https://github.com/SatPaingOo/information-hub
 
 ---
 

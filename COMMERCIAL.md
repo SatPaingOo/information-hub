@@ -29,7 +29,7 @@ under a written agreement.
 
 For all non-commercial sharing, credit the source:
 
-> information-hub dataset — https://github.com/<your-user>/information-hub-github-action
+> information-hub dataset — https://github.com/SatPaingOo/information-hub
 > License: CC BY-NC 4.0
 
 ## Data provenance
