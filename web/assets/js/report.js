@@ -26,10 +26,65 @@ async function init() {
     }));
     setupRange();
     render();
+    renderRunHealth();
   } catch (e) {
     document.body.insertAdjacentHTML("beforeend",
       `<div class="max-w-6xl mx-auto px-5 py-16 text-red-400">Could not load report data: ${esc(e.message)}</div>`);
   }
+}
+
+/* run health from data/views/run-stats.json (per-day per-model ok/err/tokens) */
+async function renderRunHealth() {
+  const wrap = document.getElementById("run-health");
+  if (!wrap) return;
+  let rs;
+  try { rs = await fetchJSON(`${DATA_DIR}/views/run-stats.json`); }
+  catch (e) { wrap.innerHTML = `<div class="text-sm text-slate-500">Run log unavailable.</div>`; return; }
+  const perDay = rs.per_day_provider_model || {};
+  const days = Object.keys(perDay).sort().reverse();
+  // aggregate ALL days per model (calls/ok/errors/tokens), keep per-day detail in rows
+  const agg = {};
+  days.forEach((d) => {
+    Object.entries(perDay[d] || {}).forEach(([prov, models]) => {
+      Object.entries(models).forEach(([model, s]) => {
+        const k = `${prov}/${model}`;
+        const a = (agg[k] = agg[k] || { calls: 0, ok: 0, errors: 0, tokens: 0 });
+        a.calls += s.calls || 0; a.ok += s.ok || 0; a.errors += s.errors || 0; a.tokens += s.tokens || 0;
+      });
+    });
+  });
+  const rows = Object.entries(agg).sort((a, b) => b[1].calls - a[1].calls);
+  const maxCalls = rows.length ? rows[0][1].calls : 1;
+  const errSummary = rs.errors_by_day || {};
+  const errCodes = {};
+  Object.values(errSummary).forEach((dayErr) => Object.entries(dayErr).forEach(([c, n]) => { errCodes[c] = (errCodes[c] || 0) + n; }));
+  const errTop = Object.entries(errCodes).sort((a, b) => b[1] - a[1]).slice(0, 5);
+
+  wrap.innerHTML = `
+    <div class="space-y-2.5 mb-6">
+      ${rows.length ? rows.map(([k, s]) => {
+        const failRate = s.calls ? Math.round((s.errors / s.calls) * 100) : 0;
+        const color = s.errors === 0 ? "#34d399" : failRate > 50 ? "#fb7185" : "#fbbf24";
+        return `
+        <div class="flex items-center gap-3 text-sm">
+          <span class="w-72 truncate text-slate-300 shrink-0" title="${esc(k)}">${esc(k)}</span>
+          <div class="flex-1 h-2 rounded-full bg-white/5 overflow-hidden">
+            <div class="h-full rounded-full" style="width:${(s.calls / maxCalls) * 100}%;background:${color}"></div>
+          </div>
+          <span class="w-14 text-right text-slate-400 text-xs">${s.calls} calls</span>
+          <span class="w-10 text-right text-emerald-300 text-xs">${s.ok}✓</span>
+          <span class="w-10 text-right ${s.errors ? "text-rose-300" : "text-slate-600"} text-xs">${s.errors}✗</span>
+          <span class="w-24 text-right text-slate-500 text-xs">${s.tokens.toLocaleString()} tok</span>
+        </div>`;
+      }).join("") : `<div class="text-sm text-slate-500">No run log yet.</div>`}
+    </div>
+    <div class="border-t border-white/5 pt-4">
+      <div class="text-xs text-slate-400 font-semibold uppercase tracking-wider mb-2">Error types (all time)</div>
+      <div class="flex flex-wrap gap-2">
+        ${errTop.length ? errTop.map(([c, n]) => `<span class="badge type">${esc(c)} · ${n}</span>`).join("") : `<span class="text-xs text-slate-500">No errors recorded</span>`}
+      </div>
+      <p class="text-xs text-slate-600 mt-3">HTTP 429 = rate-limited (free tier) · HTTP 400/404 = model config/retired · network = empty/truncated response. Quarantined models are excluded from picks but remain listed here.</p>
+    </div>`;
 }
 
 /* ---- date range ---- */
@@ -200,7 +255,7 @@ function renderDailyLog(items) {
     return `
       <div class="py-3 grid grid-cols-1 sm:grid-cols-[110px_1fr] gap-1 sm:gap-4 items-start">
         <div>
-          <div class="text-slate-100 font-semibold text-sm">${esc(d)}</div>
+          <a href="./library.html?d=${esc(d)}" class="text-slate-100 font-semibold text-sm hover:text-indigo-300 hover:underline">${esc(d)}</a>
           <div class="text-xs text-slate-500">${list.length} briefings</div>
         </div>
         <div class="min-w-0">

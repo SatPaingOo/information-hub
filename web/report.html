@@ -90,8 +90,16 @@
 
     <!-- daily log -->
     <div class="surface p-5 mb-5">
-      <h2 class="font-semibold text-white mb-4 text-sm">Daily log <span class="text-slate-500 font-normal">— each day's output</span></h2>
+      <h2 class="font-semibold text-white mb-1 text-sm">Daily log <span class="text-slate-500 font-normal">— each day's output</span></h2>
+      <p class="text-xs text-slate-500 mb-3">Click a date to open that day in the library.</p>
       <div id="daily-log" class="divide-y divide-white/5"></div>
+    </div>
+
+    <!-- run health (provider/model telemetry) -->
+    <div class="surface p-5 mb-5">
+      <h2 class="font-semibold text-white mb-1 text-sm">Run health <span class="text-slate-500 font-normal">— model calls, failures &amp; tokens</span></h2>
+      <p class="text-xs text-slate-500 mb-4">From the pipeline run log: which models succeeded, which failed (and why), and how many tokens each consumed. Failed/quarantined models are kept visible here for full transparency.</p>
+      <div id="run-health"></div>
     </div>
 
     <!-- verify explainer -->
@@ -121,6 +129,6 @@
   </footer>
 
   <script src="assets/js/common.js?v=7"></script>
-  <script src="assets/js/report.js?v=2"></script>
+  <script src="assets/js/report.js?v=3"></script>
 </body>
 </html>

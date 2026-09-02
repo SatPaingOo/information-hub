@@ -12,6 +12,7 @@ const state = {
   query: "",
   sort: "newest",
   view: "grid",
+  day: null,
 };
 
 function canonicalCollection(c) {
@@ -46,7 +47,36 @@ async function init() {
     search.value = preQ;
     state.query = preQ.toLowerCase();
   }
+  // ?d=YYYY-MM-DD — day-by-day view (from report daily log / library links)
+  const preD = queryParam("d");
+  if (preD && /^\d{4}-\d{2}-\d{2}$/.test(preD)) {
+    state.day = preD;
+  }
   applyFilters();
+  renderDayBanner();
+}
+
+function renderDayBanner() {
+  const bar = document.getElementById("day-bar");
+  if (!bar) return;
+  if (state.day) {
+    bar.classList.remove("hidden");
+    bar.innerHTML = `
+      <span class="text-xs text-slate-400 font-semibold uppercase tracking-wider">Viewing</span>
+      <span class="text-sm font-semibold text-white">${esc(state.day)}</span>
+      <span class="text-xs text-slate-500">· ${state.filtered.length} briefings</span>
+      <button id="day-clear" class="chip ml-2">Show all days</button>`;
+    document.getElementById("day-clear").addEventListener("click", () => {
+      state.day = null;
+      document.getElementById("day-bar").classList.add("hidden");
+      applyFilters();
+    });
+    // hide collection chips/topic selects? keep but they still apply
+    const libHead = document.getElementById("lib-head");
+    if (libHead) libHead.scrollIntoView({ block: "start" });
+  } else {
+    bar.classList.add("hidden");
+  }
 }
 
 function pretty(name) {
@@ -118,6 +148,7 @@ function bindEvents() {
 function applyFilters() {
   const q = state.query;
   state.filtered = state.items.filter((i) => {
+    if (state.day && i.date !== state.day) return false;
     if (state.activeCollection !== "all" && canonicalCollection(i.collection || i.topic) !== state.activeCollection) return false;
     if (state.topic !== "all" && i.topic !== state.topic) return false;
     if (state.region !== "all" && i.region !== state.region) return false;

@@ -39,6 +39,7 @@ class Indexer:
         self.preview = base / "collections" / "preview"
         self.index_dir = base / "views"          # derived views (rebuildable)
         self.index_dir.mkdir(parents=True, exist_ok=True)
+        self.state_dir = base / "state"          # registry (run-log for run stats)
 
     def rebuild(self, records: list[dict[str, Any]],
                 taxonomy: Any | None = None,
@@ -128,6 +129,7 @@ class Indexer:
 
         # ---- stats (report page + badges) --------------------------------
         self._write_stats(records)
+        self._write_run_stats()
 
         # ---- generated Obsidian views ---------------------------------
         self._write_daily_hubs(records)
@@ -189,6 +191,59 @@ class Indexer:
         }
         (self.index_dir / "stats.json").write_text(
             json.dumps(stats, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+
+    def _write_run_stats(self) -> None:
+        """Aggregate provider/model RUN telemetry from the run log.
+
+        Reads data/state/run-log.jsonl and produces, per UTC day:
+          {date: {provider: {model: {calls, ok, errors, tokens}}}}  plus a
+          flat per-day error breakdown.  Powers the report page's run-health
+          view (which models succeeded, which failed, tokens consumed).
+        """
+        log = self.state_dir / "run-log.jsonl"
+        if not log.exists():
+            return
+        import re
+        per_day: dict[str, dict] = {}
+        errors_by_day: dict[str, dict] = {}
+        for line in log.read_text(encoding="utf-8").splitlines():
+            line = line.strip()
+            if not line:
+                continue
+            try:
+                e = json.loads(line)
+            except json.JSONDecodeError:
+                continue
+            ev = e.get("event")
+            if ev not in ("call_ok", "call_error"):
+                continue
+            day = (e.get("ts") or "")[:10]
+            if not day:
+                continue
+            prov = e.get("provider") or "?"
+            model = e.get("model") or "?"
+            dm = per_day.setdefault(day, {}).setdefault(prov, {}).setdefault(model,
+                {"calls": 0, "ok": 0, "errors": 0, "tokens": 0})
+            dm["calls"] += 1
+            if ev == "call_ok":
+                dm["ok"] += 1
+                m = re.search(r"tokens=(\d+)", e.get("detail") or "")
+                if m:
+                    dm["tokens"] += int(m.group(1))
+            else:
+                dm["errors"] += 1
+                detail = e.get("detail") or ""
+                code = re.search(r"HTTP (\d+)", detail)
+                code = f"HTTP {code.group(1)}" if code else ("network" if "None" in detail else "error")
+                err = errors_by_day.setdefault(day, {}).setdefault(code, 0)
+                errors_by_day[day][code] = err + 1
+        out = {
+            "generated_at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
+            "per_day_provider_model": per_day,
+            "errors_by_day": errors_by_day,
+        }
+        (self.index_dir / "run-stats.json").write_text(
+            json.dumps(out, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
     # ---- helpers ------------------------------------------------------
     def _clean_index_dir(self) -> None:
