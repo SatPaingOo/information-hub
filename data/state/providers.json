@@ -1,6 +1,6 @@
 {
   "groq": {
-    "quota_date": "2026-09-01",
+    "quota_date": "2026-09-02",
     "tokens_used": 0,
     "items": 0,
     "calls": 0,
@@ -32,10 +32,10 @@
       "openai/gpt-oss-120b": {
         "calls": 86,
         "items": 32,
-        "errors": 49,
+        "errors": 50,
         "consecutive_failures": 1,
         "healthy": false,
-        "last_health_check": "2026-09-01T06:01:51+00:00",
+        "last_health_check": "2026-09-02T05:23:35+00:00",
         "latency_ms": 1280,
         "supports_json": true,
         "cooldown_until": null
@@ -43,10 +43,10 @@
       "openai/gpt-oss-20b": {
         "calls": 19,
         "items": 7,
-        "errors": 20,
+        "errors": 21,
         "consecutive_failures": 1,
         "healthy": false,
-        "last_health_check": "2026-09-01T06:01:57+00:00",
+        "last_health_check": "2026-09-02T05:23:41+00:00",
         "latency_ms": 2480,
         "supports_json": true,
         "cooldown_until": null
@@ -54,8 +54,8 @@
     }
   },
   "openrouter": {
-    "quota_date": "2026-09-01",
-    "tokens_used": 36014,
+    "quota_date": "2026-09-02",
+    "tokens_used": 36887,
     "items": 6,
     "calls": 10,
     "errors": 0,
@@ -172,13 +172,13 @@
         "cooldown_until": null
       },
       "cohere/north-mini-code:free": {
-        "calls": 73,
-        "items": 45,
+        "calls": 83,
+        "items": 51,
         "errors": 3,
         "consecutive_failures": 0,
         "healthy": true,
-        "last_health_check": "2026-09-01T06:01:46+00:00",
-        "latency_ms": 32226,
+        "last_health_check": "2026-09-02T05:23:31+00:00",
+        "latency_ms": 40305,
         "supports_json": false,
         "cooldown_until": null
       },
@@ -350,34 +350,34 @@
     }
   },
   "gemini": {
-    "quota_date": "2026-09-01",
+    "quota_date": "2026-09-02",
     "tokens_used": 0,
     "items": 0,
     "calls": 0,
     "errors": 2,
-    "cooldown_until": "2026-09-01T06:02:36+00:00",
+    "cooldown_until": "2026-09-02T05:24:21+00:00",
     "models": {
       "gemini-3.5-flash-lite": {
         "calls": 0,
         "items": 0,
-        "errors": 25,
-        "consecutive_failures": 1,
+        "errors": 26,
+        "consecutive_failures": 2,
         "healthy": true,
-        "last_health_check": "2026-09-01T06:02:03+00:00",
+        "last_health_check": "2026-09-02T05:23:48+00:00",
         "latency_ms": null,
         "supports_json": true,
-        "cooldown_until": "2026-09-01T06:02:33+00:00"
+        "cooldown_until": "2026-09-02T05:24:48+00:00"
       },
       "gemini-3.5-flash": {
         "calls": 0,
         "items": 0,
-        "errors": 25,
-        "consecutive_failures": 1,
+        "errors": 26,
+        "consecutive_failures": 2,
         "healthy": true,
-        "last_health_check": "2026-09-01T06:02:06+00:00",
+        "last_health_check": "2026-09-02T05:23:51+00:00",
         "latency_ms": null,
         "supports_json": true,
-        "cooldown_until": "2026-09-01T06:02:36+00:00"
+        "cooldown_until": "2026-09-02T05:24:51+00:00"
       }
     }
   }

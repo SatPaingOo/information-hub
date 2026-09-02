@@ -1,7 +1,7 @@
 ---
 name: "Andy Burnham"
 entity_type: person
-backlink_count: 17
+backlink_count: 19
 ---
 
 # Andy Burnham
@@ -10,6 +10,8 @@ backlink_count: 17
 
 ## Referenced by
 
+- 2026-09-02 · [[info:item:politics:global:2026-09-02-004]] — Chris Mason: Will Burnham find PMQs as 'nail biting' and 'nerve wracking' as Blair did?
+- 2026-09-02 · [[info:item:politics:global:2026-09-02-005]] — Burnham promises more devolution and public control of essential services
 - 2026-09-01 · [[info:item:politics:global:2026-09-01-004]] — Burnham to promise 'sense of optimism' in first Commons statement as PM
 - 2026-08-30 · [[info:item:politics:global:2026-08-30-004]] — PC Harper's killers to stay in jail as PM announces changes to early release scheme
 - 2026-08-30 · [[info:item:politics:global:2026-08-30-005]] — Burnham's summer tour is over - now he has to prove himself in Parliament

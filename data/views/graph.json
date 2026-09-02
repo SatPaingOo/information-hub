@@ -2456,6 +2456,102 @@
       "name": "Interactive Sessions"
     },
     {
+      "id": "info:item:world:global:2026-09-02-001",
+      "type": "item",
+      "date": "2026-09-02",
+      "title": "Iran attacks US bases in Middle East after reports US strike killed five at wedding party"
+    },
+    {
+      "id": "taxonomy/misc/US‑Iran relations",
+      "type": "taxonomy",
+      "name": "US‑Iran relations"
+    },
+    {
+      "id": "taxonomy/misc/Naval blockade",
+      "type": "taxonomy",
+      "name": "Naval blockade"
+    },
+    {
+      "id": "info:item:world:global:2026-09-02-002",
+      "type": "item",
+      "date": "2026-09-02",
+      "title": "Charlie Kirk murder suspect pleads not guilty as judge clears way for death penalty trial"
+    },
+    {
+      "id": "info:entity:person:Tyler Robinson",
+      "type": "person",
+      "name": "Tyler Robinson"
+    },
+    {
+      "id": "info:entity:person:Charlie Kirk",
+      "type": "person",
+      "name": "Charlie Kirk"
+    },
+    {
+      "id": "info:entity:organization:Utah Valley University",
+      "type": "organization",
+      "name": "Utah Valley University"
+    },
+    {
+      "id": "info:entity:person:Judge Tony Graf",
+      "type": "person",
+      "name": "Judge Tony Graf"
+    },
+    {
+      "id": "info:item:world:global:2026-09-02-003",
+      "type": "item",
+      "date": "2026-09-02",
+      "title": "Tiger Woods to change plea after crash arrest"
+    },
+    {
+      "id": "info:entity:person:Tiger Woods",
+      "type": "person",
+      "name": "Tiger Woods"
+    },
+    {
+      "id": "info:entity:person:John Budensiek",
+      "type": "person",
+      "name": "John Budensiek"
+    },
+    {
+      "id": "info:entity:product:hydrocodone",
+      "type": "product",
+      "name": "hydrocodone"
+    },
+    {
+      "id": "info:item:politics:global:2026-09-02-004",
+      "type": "item",
+      "date": "2026-09-02",
+      "title": "Chris Mason: Will Burnham find PMQs as 'nail biting' and 'nerve wracking' as Blair did?"
+    },
+    {
+      "id": "info:item:politics:global:2026-09-02-005",
+      "type": "item",
+      "date": "2026-09-02",
+      "title": "Burnham promises more devolution and public control of essential services"
+    },
+    {
+      "id": "taxonomy/misc/Devolution",
+      "type": "taxonomy",
+      "name": "Devolution"
+    },
+    {
+      "id": "taxonomy/misc/Public Services",
+      "type": "taxonomy",
+      "name": "Public Services"
+    },
+    {
+      "id": "taxonomy/misc/UK Politics",
+      "type": "taxonomy",
+      "name": "UK Politics"
+    },
+    {
+      "id": "info:item:products:global:2026-09-02-006",
+      "type": "item",
+      "date": "2026-09-02",
+      "title": "Sourclip 2.0"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -8871,6 +8967,381 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-09-02-001",
+      "target": "info:entity:organization:Islamic Revolutionary Guard Corps (IRGC)",
+      "relation": "primary actor in Iranian retaliatory strikes"
+    },
+    {
+      "source": "info:item:world:global:2026-09-02-001",
+      "target": "info:entity:organization:US Central Command (Centcom)",
+      "relation": "coordinated US strikes against Iranian targets"
+    },
+    {
+      "source": "info:item:world:global:2026-09-02-001",
+      "target": "info:entity:person:Masoud Pezeshkian",
+      "relation": "President of Iran, offered conditional diplomatic reciprocity"
+    },
+    {
+      "source": "info:item:world:global:2026-09-02-001",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "warned of escalated US response to Iranian retaliation"
+    },
+    {
+      "source": "info:item:world:global:2026-09-02-001",
+      "target": "info:item:world:global:2026-09-01-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-02-001",
+      "target": "info:item:world:global:2026-09-01-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-02-001",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-02-001",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-02-001",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-02-001",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-02-001",
+      "target": "taxonomy/misc/Middle East",
+      "relation": "region"
+    },
+    {
+      "source": "info:item:world:global:2026-09-02-001",
+      "target": "taxonomy/misc/US‑Iran relations",
+      "relation": "topic"
+    },
+    {
+      "source": "info:item:world:global:2026-09-02-001",
+      "target": "taxonomy/misc/Naval blockade",
+      "relation": "subject"
+    },
+    {
+      "source": "info:item:world:global:2026-09-02-002",
+      "target": "info:entity:person:Tyler Robinson",
+      "relation": "defendant and alleged shooter"
+    },
+    {
+      "source": "info:item:world:global:2026-09-02-002",
+      "target": "info:entity:person:Charlie Kirk",
+      "relation": "victim, conservative activist"
+    },
+    {
+      "source": "info:item:world:global:2026-09-02-002",
+      "target": "info:entity:organization:Utah Valley University",
+      "relation": "location of the shooting"
+    },
+    {
+      "source": "info:item:world:global:2026-09-02-002",
+      "target": "info:entity:person:Judge Tony Graf",
+      "relation": "presiding judge"
+    },
+    {
+      "source": "info:item:world:global:2026-09-02-002",
+      "target": "info:item:world:global:2026-09-02-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-02-002",
+      "target": "info:item:world:global:2026-09-01-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-02-002",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-02-002",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-02-002",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-02-002",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-02-002",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-02-002",
+      "target": "taxonomy/category/industry",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-02-002",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-02-003",
+      "target": "info:entity:person:Tiger Woods",
+      "relation": "defendant"
+    },
+    {
+      "source": "info:item:world:global:2026-09-02-003",
+      "target": "info:entity:person:John Budensiek",
+      "relation": "law enforcement official"
+    },
+    {
+      "source": "info:item:world:global:2026-09-02-003",
+      "target": "info:entity:product:hydrocodone",
+      "relation": "prescribed medication involved"
+    },
+    {
+      "source": "info:item:world:global:2026-09-02-003",
+      "target": "info:item:world:global:2026-09-02-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-02-003",
+      "target": "info:item:world:global:2026-09-02-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-02-003",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-02-003",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-02-003",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-02-003",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-02-003",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-02-003",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-02-003",
+      "target": "taxonomy/category/industry",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-02-004",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "subject of the briefing; new UK Prime Minister"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-02-004",
+      "target": "info:entity:person:Keir Starmer",
+      "relation": "party leader under whom Burnham serves"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-02-004",
+      "target": "info:entity:company:OpenAI",
+      "relation": "AI model provider referenced in editorial priorities and governance discussions"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-02-004",
+      "target": "info:entity:model:Gemini",
+      "relation": "LLM referenced in editorial priorities and AI governance context"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-02-004",
+      "target": "info:item:politics:global:2026-09-01-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-02-004",
+      "target": "info:item:politics:global:2026-08-31-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-02-004",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-02-004",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-02-004",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-02-004",
+      "target": "taxonomy/misc/Agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-02-004",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-02-004",
+      "target": "taxonomy/misc/Myanmar",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-02-005",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "Prime Minister of the United Kingdom and proponent of devolution and public control of utilities"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-02-005",
+      "target": "info:entity:person:Kemi Badenoch",
+      "relation": "Leader of the Conservative Party and critic of Burnham’s policy agenda"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-02-005",
+      "target": "info:entity:person:John Healey",
+      "relation": "Chancellor of the Exchequer appointed by Burnham, noted for defence background"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-02-005",
+      "target": "info:entity:organization:Labour Party",
+      "relation": "governing party under Burnham"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-02-005",
+      "target": "info:entity:organization:Conservative Party",
+      "relation": "principal opposition criticising Burnham’s proposals"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-02-005",
+      "target": "info:item:politics:global:2026-09-02-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-02-005",
+      "target": "info:item:politics:global:2026-09-01-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-02-005",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-02-005",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-02-005",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-02-005",
+      "target": "taxonomy/misc/Devolution",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-02-005",
+      "target": "taxonomy/misc/Public Services",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-02-005",
+      "target": "taxonomy/misc/UK Politics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-09-02-006",
+      "target": "info:entity:model:Gemini",
+      "relation": "core LLM integrated into Sourclip 2.0"
+    },
+    {
+      "source": "info:item:products:global:2026-09-02-006",
+      "target": "info:entity:company:OpenAI",
+      "relation": "supported model provider for flexible LLM selection"
+    },
+    {
+      "source": "info:item:products:global:2026-09-02-006",
+      "target": "info:entity:company:Anthropic",
+      "relation": "supported model provider for advanced reasoning tasks"
+    },
+    {
+      "source": "info:item:products:global:2026-09-02-006",
+      "target": "info:entity:region:Myanmar",
+      "relation": "target market for digital economy research using Sourclip"
+    },
+    {
+      "source": "info:item:products:global:2026-09-02-006",
+      "target": "info:item:products:global:2026-09-01-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-09-02-006",
+      "target": "info:item:products:global:2026-08-31-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-09-02-006",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-09-02-006",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-09-02-006",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-09-02-006",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-09-02-006",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-09-02-006",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -9002,7 +9473,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
-      "weight": "14"
+      "weight": "15"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -9062,7 +9533,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "9"
+      "weight": "10"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -9116,7 +9587,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:region:Myanmar",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -9344,7 +9815,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "11"
+      "weight": "13"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -9361,6 +9832,18 @@
     {
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:organization:Data Centre Alliance",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:person:Keir Starmer",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -9404,7 +9887,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:region:Myanmar",
       "relation": "co-occurs",
-      "weight": "5"
+      "weight": "6"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -9960,6 +10443,18 @@
     },
     {
       "source": "info:entity:model:Gemini",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
+      "target": "info:entity:person:Keir Starmer",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
       "target": "info:entity:product:Checksum AI",
       "relation": "co-occurs",
       "weight": "1"
@@ -9992,7 +10487,7 @@
       "source": "info:entity:model:Gemini",
       "target": "info:entity:region:Myanmar",
       "relation": "co-occurs",
-      "weight": "4"
+      "weight": "5"
     },
     {
       "source": "info:entity:model:Gemini",
@@ -10334,19 +10829,19 @@
       "source": "info:entity:organization:Conservative Party",
       "target": "info:entity:organization:Labour Party",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Conservative Party",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Conservative Party",
       "target": "info:entity:person:John Healey",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Conservative Party",
@@ -10358,7 +10853,7 @@
       "source": "info:entity:organization:Conservative Party",
       "target": "info:entity:person:Kemi Badenoch",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Crown Prosecution Service",
@@ -10640,19 +11135,19 @@
       "source": "info:entity:organization:Islamic Revolutionary Guard Corps (IRGC)",
       "target": "info:entity:organization:US Central Command (Centcom)",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Islamic Revolutionary Guard Corps (IRGC)",
       "target": "info:entity:person:Donald Trump",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Islamic Revolutionary Guard Corps (IRGC)",
       "target": "info:entity:person:Masoud Pezeshkian",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Islamic State (IS)",
@@ -10700,13 +11195,13 @@
       "source": "info:entity:organization:Labour Party",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Labour Party",
       "target": "info:entity:person:John Healey",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Labour Party",
@@ -10718,7 +11213,7 @@
       "source": "info:entity:organization:Labour Party",
       "target": "info:entity:person:Kemi Badenoch",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Liberal Democrats",
@@ -11192,13 +11687,13 @@
       "source": "info:entity:organization:US Central Command (Centcom)",
       "target": "info:entity:person:Donald Trump",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:US Central Command (Centcom)",
       "target": "info:entity:person:Masoud Pezeshkian",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:US Department of Justice",
@@ -11285,6 +11780,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Utah Valley University",
+      "target": "info:entity:person:Charlie Kirk",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Utah Valley University",
+      "target": "info:entity:person:Judge Tony Graf",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Utah Valley University",
+      "target": "info:entity:person:Tyler Robinson",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Wildberries",
       "target": "info:entity:person:Vladimir Putin",
       "relation": "co-occurs",
@@ -11366,19 +11879,19 @@
       "source": "info:entity:person:Andy Burnham",
       "target": "info:entity:person:John Healey",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:person:Andy Burnham",
       "target": "info:entity:person:Keir Starmer",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:person:Andy Burnham",
       "target": "info:entity:person:Kemi Badenoch",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:person:Andy Burnham",
@@ -11579,6 +12092,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:person:Charlie Kirk",
+      "target": "info:entity:person:Judge Tony Graf",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Charlie Kirk",
+      "target": "info:entity:person:Tyler Robinson",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:person:Chow Hang‑tung",
       "target": "info:entity:person:Lee Cheuk‑yan",
       "relation": "co-occurs",
@@ -11714,7 +12239,7 @@
       "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:Masoud Pezeshkian",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Donald Trump",
@@ -11849,6 +12374,18 @@
       "weight": "2"
     },
     {
+      "source": "info:entity:person:John Budensiek",
+      "target": "info:entity:person:Tiger Woods",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:John Budensiek",
+      "target": "info:entity:product:hydrocodone",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:person:John Healey",
       "target": "info:entity:person:Keir Starmer",
       "relation": "co-occurs",
@@ -11858,7 +12395,7 @@
       "source": "info:entity:person:John Healey",
       "target": "info:entity:person:Kemi Badenoch",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:John Healey",
@@ -11875,6 +12412,12 @@
     {
       "source": "info:entity:person:John Ratcliffe",
       "target": "info:entity:person:Vladimir Putin",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Judge Tony Graf",
+      "target": "info:entity:person:Tyler Robinson",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -11995,6 +12538,12 @@
     {
       "source": "info:entity:person:Rishi Sunak",
       "target": "info:entity:region:Greater Manchester",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Tiger Woods",
+      "target": "info:entity:product:hydrocodone",
       "relation": "co-occurs",
       "weight": "1"
     },

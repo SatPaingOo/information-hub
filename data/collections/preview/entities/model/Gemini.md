@@ -1,7 +1,7 @@
 ---
 name: "Gemini"
 entity_type: model
-backlink_count: 11
+backlink_count: 13
 ---
 
 # Gemini
@@ -10,6 +10,8 @@ backlink_count: 11
 
 ## Referenced by
 
+- 2026-09-02 · [[info:item:politics:global:2026-09-02-004]] — Chris Mason: Will Burnham find PMQs as 'nail biting' and 'nerve wracking' as Blair did?
+- 2026-09-02 · [[info:item:products:global:2026-09-02-006]] — Sourclip 2.0
 - 2026-09-01 · [[info:item:products:global:2026-09-01-006]] — Interactive Sessions
 - 2026-08-31 · [[info:item:products:global:2026-08-31-006]] — Maritime
 - 2026-08-29 · [[info:item:products:global:2026-08-29-006]] — Cursor Craft v2

@@ -1,7 +1,7 @@
 ---
 name: "Donald Trump"
 entity_type: person
-backlink_count: 14
+backlink_count: 15
 ---
 
 # Donald Trump
@@ -10,6 +10,7 @@ backlink_count: 14
 
 ## Referenced by
 
+- 2026-09-02 · [[info:item:world:global:2026-09-02-001]] — Iran attacks US bases in Middle East after reports US strike killed five at wedding party
 - 2026-09-01 · [[info:item:world:global:2026-09-01-003]] — US army secretary resigns after months of tension
 - 2026-08-31 · [[info:item:world:global:2026-08-31-002]] — US and Iran trade strikes for first time in weeks
 - 2026-08-31 · [[info:item:world:global:2026-08-31-003]] — Iceland votes against restarting EU membership talks

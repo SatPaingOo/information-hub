@@ -1,7 +1,7 @@
 ---
 node: "world"
 layer: topic
-item_count: 54
+item_count: 57
 ---
 
 # world
@@ -17,6 +17,9 @@ item_count: 54
 
 ## Items
 
+- 2026-09-02 · [[info:item:world:global:2026-09-02-001]] — Iran attacks US bases in Middle East after reports US strike killed five at wedding party
+- 2026-09-02 · [[info:item:world:global:2026-09-02-002]] — Charlie Kirk murder suspect pleads not guilty as judge clears way for death penalty trial
+- 2026-09-02 · [[info:item:world:global:2026-09-02-003]] — Tiger Woods to change plea after crash arrest
 - 2026-09-01 · [[info:item:world:global:2026-09-01-001]] — What it was like inside court for Tupac Shakur’s murder trial verdict
 - 2026-09-01 · [[info:item:world:global:2026-09-01-002]] — Nepal rescuers blast hillside in search of hydropower workers as families wait anxiously
 - 2026-09-01 · [[info:item:world:global:2026-09-01-003]] — US army secretary resigns after months of tension

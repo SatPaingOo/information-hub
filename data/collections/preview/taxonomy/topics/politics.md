@@ -1,7 +1,7 @@
 ---
 node: "politics"
 layer: topic
-item_count: 25
+item_count: 27
 ---
 
 # politics
@@ -16,6 +16,8 @@ item_count: 25
 
 ## Items
 
+- 2026-09-02 · [[info:item:politics:global:2026-09-02-004]] — Chris Mason: Will Burnham find PMQs as 'nail biting' and 'nerve wracking' as Blair did?
+- 2026-09-02 · [[info:item:politics:global:2026-09-02-005]] — Burnham promises more devolution and public control of essential services
 - 2026-09-01 · [[info:item:politics:global:2026-09-01-004]] — Burnham to promise 'sense of optimism' in first Commons statement as PM
 - 2026-09-01 · [[info:item:politics:global:2026-09-01-004]] — Burnham to promise 'sense of optimism' in first Commons statement as PM
 - 2026-09-01 · [[info:item:politics:global:2026-09-01-005]] — Mel Stride and Priti Patel replaced in major Tory reshuffle

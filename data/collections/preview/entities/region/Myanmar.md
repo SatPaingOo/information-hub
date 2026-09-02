@@ -1,7 +1,7 @@
 ---
 name: "Myanmar"
 entity_type: region
-backlink_count: 5
+backlink_count: 6
 ---
 
 # Myanmar
@@ -10,6 +10,7 @@ backlink_count: 5
 
 ## Referenced by
 
+- 2026-09-02 · [[info:item:products:global:2026-09-02-006]] — Sourclip 2.0
 - 2026-08-29 · [[info:item:products:global:2026-08-29-007]] — God’s Eye View – Real‑World Spy Satellite Simulation in the Browser
 - 2026-08-28 · [[info:item:products:global:2026-08-28-004]] — Pluto: Your Professional Profile Becomes an AI Agent
 - 2026-08-28 · [[info:item:products:global:2026-08-28-005]] — Gemini 3.5 Transcribe

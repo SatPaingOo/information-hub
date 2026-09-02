@@ -1,6 +1,6 @@
 {
   "world-news": {
-    "last_fetched": "2026-09-01T05:59:37+00:00",
+    "last_fetched": "2026-09-02T05:18:52+00:00",
     "candidates_found": 8,
     "items_published": 3,
     "last_error": null,
@@ -8,7 +8,7 @@
     "grounding_scores": []
   },
   "tech-news": {
-    "last_fetched": "2026-09-01T05:59:45+00:00",
+    "last_fetched": "2026-09-02T05:19:03+00:00",
     "candidates_found": 8,
     "items_published": 0,
     "last_error": null,
@@ -16,7 +16,7 @@
     "grounding_scores": []
   },
   "politics": {
-    "last_fetched": "2026-09-01T06:00:51+00:00",
+    "last_fetched": "2026-09-02T05:22:34+00:00",
     "candidates_found": 8,
     "items_published": 2,
     "last_error": null,
@@ -24,7 +24,7 @@
     "grounding_scores": []
   },
   "products": {
-    "last_fetched": "2026-09-01T06:02:03+00:00",
+    "last_fetched": "2026-09-02T05:23:47+00:00",
     "candidates_found": 8,
     "items_published": 1,
     "last_error": null,
@@ -33,11 +33,6 @@
   },
   "feeds.bbci.co.uk": {
     "grounding_scores": [
-      0.833,
-      1.0,
-      1.0,
-      1.0,
-      1.0,
       1.0,
       1.0,
       1.0,
@@ -82,9 +77,14 @@
       1.0,
       1.0,
       1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
       1.0
     ],
-    "avg_grounding_score": 0.983
+    "avg_grounding_score": 0.987
   },
   "producthunt.com": {
     "grounding_scores": [
@@ -111,9 +111,10 @@
       0.0,
       0.0,
       0.0,
+      0.0,
       0.0
     ],
-    "grounding_failures": 24,
+    "grounding_failures": 25,
     "avg_grounding_score": 0.0
   },
   "arXiv": {
