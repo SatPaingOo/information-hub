@@ -215,15 +215,14 @@ a:hover .read-arrow { transform: translateX(3px); }
     box-shadow: -20px 0 60px rgba(0,0,0,.4);
     z-index: 60;
   }
-  .nav-links.open { display: flex; animation: slideIn .22s ease; }
-  @keyframes slideIn { from { transform: translateX(40px); opacity: 0; } to { transform: none; opacity: 1; } }
+  .nav-links.open { display: flex; animation: navSlide .18s ease; }
+  @keyframes navSlide { from { transform: translateX(24px); } to { transform: none; } }
   .nav-links .nav-link { padding: .85rem 1rem; border-radius: .6rem; font-size: 1rem; }
   .nav-toggle { z-index: 70; }
   body.nav-open::after {
-    content: ""; position: fixed; inset: 0; background: rgba(0,0,0,.5);
-    backdrop-filter: blur(2px); z-index: 55; animation: fadeIn .2s ease;
+    content: ""; position: fixed; inset: 0; background: rgba(0,0,0,.45);
+    backdrop-filter: blur(2px); z-index: 55;
   }
-  @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
 }
 
 /* ---------- horizontal overflow safety net ---------- */

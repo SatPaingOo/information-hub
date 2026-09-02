@@ -40,29 +40,7 @@ function wordCount(w) {
   return w ? `${w.toLocaleString()} words` : "";
 }
 
-function initNav() {
-  const toggle = document.querySelector(".nav-toggle");
-  const links = document.querySelector(".nav-links");
-  if (!toggle || !links) return;
-  const setOpen = (open) => {
-    links.classList.toggle("open", open);
-    document.body.classList.toggle("nav-open", open);
-    toggle.setAttribute("aria-expanded", String(open));
-  };
-  toggle.addEventListener("click", (e) => {
-    e.stopPropagation();
-    setOpen(!links.classList.contains("open"));
-  });
-  // close on nav link click
-  links.addEventListener("click", (e) => { if (e.target.closest("a")) setOpen(false); });
-  // close on outside click / escape
-  document.addEventListener("click", (e) => {
-    if (links.classList.contains("open") && !e.target.closest(".nav-links") && !e.target.closest(".nav-toggle")) setOpen(false);
-  });
-  document.addEventListener("keydown", (e) => { if (e.key === "Escape") setOpen(false); });
-}
-
-/* entrance reveal: observe .reveal elements and add .in when visible */
+/* Entrance reveal: observe .reveal elements and add .in when visible. */
 function initReveal() {
   const els = document.querySelectorAll(".reveal");
   if (!els.length || !("IntersectionObserver" in window)) {
@@ -75,4 +53,19 @@ function initReveal() {
   els.forEach((el) => io.observe(el));
 }
 
-document.addEventListener("DOMContentLoaded", () => { initNav(); initReveal(); });
+/* Close the mobile nav on outside click, ESC, or a menu-link tap.
+   (Opening is handled by the inline onclick so it works with no JS.) */
+function closeNav() {
+  const menu = document.getElementById("siteMenu");
+  if (menu && menu.classList.contains("open")) {
+    menu.classList.remove("open");
+    document.body.classList.remove("nav-open");
+    const t = document.getElementById("navToggle");
+    if (t) t.setAttribute("aria-expanded", "false");
+  }
+}
+document.addEventListener("click", (e) => {
+  if (!e.target.closest("#siteMenu") && !e.target.closest("#navToggle")) closeNav();
+});
+document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeNav(); });
+document.addEventListener("DOMContentLoaded", () => { initReveal(); });
