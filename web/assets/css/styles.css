@@ -151,3 +151,32 @@ body {
 .text-balance { text-wrap: balance; }
 .surface { background: rgba(255,255,255,.045); border: 1px solid rgba(255,255,255,.09); border-radius: 1rem; }
 ::selection { background: rgba(99,102,241,.4); }
+
+/* ---------- section head (shared pattern) ---------- */
+.sec-kicker { font-size: .7rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: #818cf8; }
+
+/* ---------- landing latest: story rows ---------- */
+.story-row { display: flex; align-items: center; gap: .9rem; padding: .9rem 1rem; border-radius: .9rem;
+             background: rgba(255,255,255,.04); border: 1px solid rgba(255,255,255,.08);
+             transition: transform .13s ease, background .13s ease, border-color .13s ease; }
+.story-row:hover { transform: translateX(3px); background: rgba(255,255,255,.07); border-color: rgba(129,140,248,.4); }
+.story-row .idx { font-family: 'Newsreader', serif; font-size: 1.25rem; color: #6366f1; width: 1.6rem; text-align: center; flex-shrink: 0; }
+
+/* ---------- library list view rows ---------- */
+.list-row { display: flex; align-items: center; gap: 1rem; padding: .7rem 1rem; border-radius: .8rem;
+            background: rgba(255,255,255,.03); border: 1px solid rgba(255,255,255,.07);
+            transition: background .12s ease, border-color .12s ease, transform .12s ease; }
+.list-row:hover { background: rgba(129,140,248,.08); border-color: rgba(129,140,248,.4); transform: translateX(2px); }
+
+/* ---------- view toggle (grid/list) ---------- */
+.vtoggle { display: inline-flex; align-items: center; gap: 2px; background: rgba(255,255,255,.06);
+           border: 1px solid rgba(255,255,255,.12); border-radius: .6rem; padding: 2px; }
+.vtoggle button { display: inline-flex; align-items: center; justify-content: center; width: 30px; height: 28px;
+                  border-radius: .45rem; color: #94a3b8; transition: all .12s; }
+.vtoggle button:hover { color: #fff; }
+.vtoggle button.on { background: linear-gradient(135deg,#6366f1,#8b5cf6); color: #fff; }
+.vtoggle svg { width: 15px; height: 15px; }
+
+/* ---------- read arrow ---------- */
+.read-arrow { transition: transform .12s ease; }
+a:hover .read-arrow { transform: translateX(3px); }

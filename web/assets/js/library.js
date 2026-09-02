@@ -11,6 +11,7 @@ const state = {
   region: "all",
   query: "",
   sort: "newest",
+  view: "grid",
 };
 
 function canonicalCollection(c) {
@@ -24,12 +25,14 @@ async function init() {
     state.items = Array.isArray(index) ? index : (index.items || []);
   } catch (e) {
     document.getElementById("grid").innerHTML =
-      `<div class="col-span-full text-center py-16 text-red-500">Could not load library data: ${esc(e.message)}</div>`;
+      `<div class="col-span-full text-center py-16 text-red-400">Could not load library data: ${esc(e.message)}</div>`;
     return;
   }
   buildChips(state.items);
   buildFilters(state.items);
   bindEvents();
+  // view toggle default grid
+  document.getElementById("view-grid").classList.add("on");
   // ?c=collection preselect from landing collection cards
   const pre = queryParam("c");
   if (pre && ["world-news", "tech-news", "politics", "products"].includes(pre)) {
@@ -101,6 +104,15 @@ function bindEvents() {
   document.getElementById("region-filter").addEventListener("change", (e) => { state.region = e.target.value; applyFilters(); });
   document.getElementById("sort").addEventListener("change", (e) => { state.sort = e.target.value; applyFilters(); });
   document.getElementById("load-more").addEventListener("click", () => { state.shown += state.pageSize; renderGrid(); });
+  // view toggle
+  const setView = (v) => {
+    state.view = v;
+    document.getElementById("view-grid").classList.toggle("on", v === "grid");
+    document.getElementById("view-list").classList.toggle("on", v === "list");
+    renderGrid();
+  };
+  document.getElementById("view-grid").addEventListener("click", () => setView("grid"));
+  document.getElementById("view-list").addEventListener("click", () => setView("list"));
 }
 
 function applyFilters() {
@@ -123,35 +135,60 @@ function applyFilters() {
   renderGrid();
 }
 
-function collectionBadge(i) {
+function collectionBadge(i, compact) {
   const c = canonicalCollection(i.collection || i.topic);
   const meta = { "world-news": { name: "World News", icon: "🌍" }, "tech-news": { name: "Tech & AI", icon: "🤖" }, politics: { name: "Politics", icon: "🏛️" }, products: { name: "Products", icon: "📦" } }[c] || { name: pretty(i.collection || i.topic || ""), icon: "🗞️" };
   const cls = { "world-news": "collection-w", "tech-news": "collection-t", politics: "collection-p", products: "collection-pr" }[c] || "collection-default";
-  return `<span class="badge ${cls}">${meta.icon} ${esc(meta.name)}</span>`;
+  return `<span class="badge ${cls}">${meta.icon}${compact ? "" : " " + esc(meta.name)}</span>`;
 }
 
 function renderGrid() {
   const grid = document.getElementById("grid");
+  const list = document.getElementById("list");
   const slice = state.filtered.slice(0, state.shown);
-  grid.innerHTML = slice.map(cardHTML).join("");
-  document.getElementById("empty").classList.toggle("hidden", slice.length > 0);
+  const has = slice.length > 0;
+  if (state.view === "grid") {
+    grid.innerHTML = slice.map(cardHTML).join("");
+    grid.classList.remove("hidden");
+    list.classList.add("hidden");
+  } else {
+    list.innerHTML = slice.map(listRowHTML).join("");
+    list.classList.remove("hidden");
+    grid.classList.add("hidden");
+  }
+  document.getElementById("empty").classList.toggle("hidden", has);
   document.getElementById("load-more-wrap").classList.toggle("hidden", state.shown >= state.filtered.length);
 }
 
 function cardHTML(i) {
-  const tags = (i.tags || []).slice(0, 3).map((t) => `<span class="badge type">${esc(t)}</span>`).join(" ");
+  const tags = (i.tags || []).slice(0, 2).map((t) => `<span class="badge type">${esc(t)}</span>`).join(" ");
   return `
   <a href="${articleHref(i)}" class="lib-card p-5">
-    <div class="flex items-center justify-between mb-2.5">
+    <div class="flex items-center justify-between mb-3">
       ${collectionBadge(i)}
       <span class="text-xs text-slate-500">${esc(formatDate(i.date))}</span>
     </div>
     <h3 class="font-semibold text-white leading-snug mb-2">${esc(i.title)}</h3>
     <p class="text-sm text-slate-400 clamp mb-4 flex-1">${esc(i.tldr || "")}</p>
-    <div class="flex items-center justify-between text-xs text-slate-500 pt-2 border-t border-white/8">
+    <div class="flex items-center justify-between text-xs text-slate-500 pt-3 border-t border-white/8">
       <div class="flex flex-wrap gap-1">${tags}</div>
-      <span class="whitespace-nowrap ml-2">${i.word_count ? i.word_count.toLocaleString() + " words" : ""}</span>
+      <span class="read-arrow text-indigo-300 font-semibold inline-flex items-center gap-1">Read <span aria-hidden="true">→</span></span>
     </div>
+  </a>`;
+}
+
+function listRowHTML(i) {
+  return `
+  <a href="${articleHref(i)}" class="list-row">
+    <div class="w-14 shrink-0 hidden sm:block">
+      ${collectionBadge(i, true)}
+    </div>
+    <div class="flex-1 min-w-0">
+      <div class="text-[11px] text-slate-500 mb-0.5">${esc(formatDate(i.date))}${i.word_count ? " · " + i.word_count.toLocaleString() + " words" : ""}</div>
+      <div class="font-semibold text-white leading-snug line-clamp-1 sm:line-clamp-none">${esc(i.title)}</div>
+    </div>
+    <span class="text-xs text-slate-500 hidden lg:block w-24 shrink-0 line-clamp-2 text-right">${esc((i.tldr || "").slice(0, 90))}…</span>
+    <svg class="w-4 h-4 text-slate-600 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
   </a>`;
 }
 

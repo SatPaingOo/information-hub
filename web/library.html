@@ -13,7 +13,7 @@
   <script>
     tailwind.config = { theme: { extend: { fontFamily: { sans: ['Inter','ui-sans-serif','system-ui','sans-serif'] } } } };
   </script>
-  <link rel="stylesheet" href="assets/css/styles.css?v=2" />
+  <link rel="stylesheet" href="assets/css/styles.css?v=3" />
 </head>
 <body class="bg-[#070b16] text-slate-200 font-sans antialiased">
   <div class="ambient"><div class="blob blob-a"></div><div class="blob blob-b"></div><div class="blob blob-c"></div></div>
@@ -25,7 +25,7 @@
         <span class="logo-mark">IH</span>
         <span class="font-bold tracking-tight text-white">Information&nbsp;Hub</span>
       </a>
-      <div class="flex items-center gap-1.5">
+      <div class="flex items-center gap-1">
         <a href="./" class="nav-link">Home</a>
         <a href="./library.html" class="nav-link active">Library</a>
         <a href="./graph.html" class="nav-link">Graph</a>
@@ -65,12 +65,21 @@
           <option value="oldest">Oldest first</option>
           <option value="wordcount">Longest first</option>
         </select>
+        <div class="vtoggle" role="group" aria-label="View">
+          <button id="view-grid" title="Grid view" aria-label="Grid view">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>
+          </button>
+          <button id="view-list" title="List view" aria-label="List view">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" d="M8 6h13M8 12h13M8 18h13"/><circle cx="4" cy="6" r="1.4" fill="currentColor" stroke="none"/><circle cx="4" cy="12" r="1.4" fill="currentColor" stroke="none"/><circle cx="4" cy="18" r="1.4" fill="currentColor" stroke="none"/></svg>
+          </button>
+        </div>
       </div>
     </div>
   </div>
 
   <main class="relative z-10 max-w-7xl mx-auto px-5 py-8">
     <div id="grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5"></div>
+    <div id="list" class="hidden flex flex-col gap-2"></div>
     <div id="empty" class="hidden text-center py-20 text-slate-500">No items match your filters.</div>
     <div id="load-more-wrap" class="hidden text-center mt-10">
       <button id="load-more" class="px-6 py-2.5 rounded-xl border border-white/12 bg-white/5 hover:bg-white/10 text-sm font-medium">Load more</button>

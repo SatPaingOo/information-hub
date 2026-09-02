@@ -13,7 +13,7 @@
   <script>
     tailwind.config = { theme: { extend: { fontFamily: { sans: ['Inter','ui-sans-serif','system-ui','sans-serif'], display: ['Newsreader','Georgia','serif'] } } } };
   </script>
-  <link rel="stylesheet" href="assets/css/styles.css?v=2" />
+  <link rel="stylesheet" href="assets/css/styles.css?v=3" />
 </head>
 <body class="bg-[#070b16] text-slate-200 font-sans antialiased">
   <div class="ambient"><div class="blob blob-a"></div><div class="blob blob-b"></div><div class="blob blob-c"></div></div>
@@ -25,11 +25,10 @@
         <span class="logo-mark">IH</span>
         <span class="font-bold tracking-tight text-white">Information&nbsp;Hub</span>
       </a>
-      <div class="flex items-center gap-1.5">
+      <div class="flex items-center gap-1">
         <a href="./" class="nav-link active">Home</a>
         <a href="./library.html" class="nav-link">Library</a>
         <a href="./graph.html" class="nav-link">Graph</a>
-        <a href="./library.html" class="ml-2 px-4 py-1.5 rounded-full btn-primary text-sm font-semibold">Browse all</a>
       </div>
     </div>
   </nav>
@@ -66,7 +65,7 @@
         </div>
         <a href="./library.html" class="text-sm text-indigo-300 hover:text-indigo-200 font-medium inline-flex items-center gap-1">View all <span aria-hidden="true">→</span></a>
       </div>
-      <div id="latest" class="grid lg:grid-cols-5 gap-5"></div>
+      <div id="latest" class="grid lg:grid-cols-3 gap-5 items-stretch"></div>
     </section>
 
     <section class="py-10">

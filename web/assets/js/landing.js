@@ -51,44 +51,47 @@ function renderStats(items) {
     </div>`).join("");
 }
 
-function badgeHTML(i) {
+function badgeHTML(i, compact) {
   const key = collectionKey(i);
   const meta = COLLECTION_META[key] || fallbackMeta;
   const cls = { "world-news": "collection-w", "tech-news": "collection-t", politics: "collection-p", products: "collection-pr" }[key] || "collection-default";
-  return `<span class="badge ${cls}">${meta.icon} ${esc(meta.name)}</span>`;
+  return `<span class="badge ${cls}">${meta.icon}${compact ? "" : " " + esc(meta.name)}</span>`;
 }
 
 function renderLatest(items) {
   const latest = items.slice(0, 5);
   const el = document.getElementById("latest");
-  // feature = first (2/3 width); others smaller
   const featured = latest[0];
-  const rest = latest.slice(1);
-  const featuredCard = `
-    <a href="${articleHref(featured)}" class="spotlight lg:col-span-3 p-6 flex flex-col justify-between min-h-[240px]">
-      <div class="flex items-center gap-2 mb-4">
-        ${badgeHTML(featured)}
-        <span class="text-xs text-slate-500">${esc(formatDate(featured.date))}</span>
-      </div>
-      <div>
-        <h3 class="text-xl sm:text-2xl font-display font-semibold text-white leading-snug mb-3 text-balance">${esc(featured.title)}</h3>
-        <p class="text-slate-400 text-sm line-clamp-3">${esc(featured.tldr || "")}</p>
-      </div>
-      <div class="mt-4 text-xs text-slate-500">${featured.word_count ? featured.word_count.toLocaleString() + " words" : ""} · ${esc((featured.tags || []).slice(0, 3).join(" · "))}</div>
-    </a>`;
-  const restCards = rest.map((i) => `
-    <a href="${articleHref(i)}" class="mini-card lg:col-span-1 p-4 flex flex-col gap-2.5">
-      <div class="flex items-center justify-between">
-        ${badgeHTML(i)}
-        <span class="text-[11px] text-slate-500">${esc(formatDate(i.date))}</span>
-      </div>
-      <h3 class="text-[13.5px] font-semibold text-white leading-snug line-clamp-4">${esc(i.title)}</h3>
-      <p class="text-[12px] text-slate-500 line-clamp-2 mt-auto">${esc(i.tldr || "")}</p>
-    </a>`).join("");
-  // 5 cols: featured 3 + 2 mini in row1; 2 more mini wrap below (grid auto handles)
-  el.innerHTML = `<div class="lg:col-span-3 flex flex-col gap-5">${featuredCard}</div>
-                  <div class="lg:col-span-2 flex flex-col gap-5">${restCards.slice(0, 2)}</div>
-                  <div class="lg:col-span-2 lg:col-start-4 flex flex-col gap-5">${restCards.slice(2)}</div>`;
+  const rest = latest.slice(1, 5);
+  el.innerHTML = `
+    <div class="lg:col-span-2">
+      <a href="${articleHref(featured)}" class="spotlight flex flex-col p-7 h-full">
+        <div class="flex items-center gap-2.5">
+          ${badgeHTML(featured)}
+          <span class="text-xs text-slate-500">${esc(formatDate(featured.date))}</span>
+        </div>
+        <h3 class="mt-6 text-xl sm:text-[1.7rem] font-display font-semibold text-white leading-snug text-balance">${esc(featured.title)}</h3>
+        <p class="mt-3 text-slate-400 text-[15px] leading-relaxed line-clamp-3">${esc(featured.tldr || "")}</p>
+        <div class="mt-auto pt-5 flex items-center justify-between text-xs text-slate-500 border-t border-white/8">
+          <span>${featured.word_count ? featured.word_count.toLocaleString() + " words" : ""}${(featured.tags || []).length ? " · " + esc((featured.tags || []).slice(0, 3).join(" · ")) : ""}</span>
+          <span class="read-arrow text-indigo-300 font-semibold inline-flex items-center gap-1">Read <span aria-hidden="true">→</span></span>
+        </div>
+      </a>
+    </div>
+    <div class="lg:col-span-1 flex flex-col gap-3">
+      ${rest.map((i, n) => `
+        <a href="${articleHref(i)}" class="story-row">
+          <span class="idx">${n + 2}</span>
+          <span class="flex-1 min-w-0">
+            <span class="flex items-center gap-2 text-[11px] text-slate-500 mb-1">
+              ${badgeHTML(i, true)}
+              <span>${esc(formatDate(i.date))}</span>
+            </span>
+            <span class="block text-sm font-semibold text-slate-100 leading-snug line-clamp-2">${esc(i.title)}</span>
+          </span>
+          <svg class="w-4 h-4 text-slate-600 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
+        </a>`).join("")}
+    </div>`;
 }
 
 function renderCollections(items) {
