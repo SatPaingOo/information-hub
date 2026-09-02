@@ -14,7 +14,7 @@
     tailwind.config = { theme: { extend: { fontFamily: { sans: ['Inter','ui-sans-serif','system-ui','sans-serif'] } } } };
   </script>
   <script src="https://d3js.org/d3.v7.min.js"></script>
-  <link rel="stylesheet" href="assets/css/styles.css?v=18" />
+  <link rel="stylesheet" href="assets/css/styles.css?v=19" />
 </head>
 <body class="bg-[#070b16] text-slate-200 font-sans antialiased">
   <div class="ambient"><div class="blob blob-a"></div><div class="blob blob-b"></div><div class="blob blob-c"></div></div>
@@ -26,8 +26,11 @@
         <span class="logo-mark">IH</span>
         <span class="font-bold tracking-tight text-white">Information&nbsp;Hub</span>
       </a>
-      <button class="nav-toggle" id="navToggle" aria-label="Menu" aria-expanded="false" onclick="var m=document.getElementById('siteMenu');var o=m.classList.toggle('open');document.body.classList.toggle('nav-open',o);this.setAttribute('aria-expanded',o)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" d="M4 7h16M4 12h16M4 17h16"/></svg></button><div class="nav-links" id="siteMenu">
-        <button class="nav-close" id="navClose" aria-label="Close menu" onclick="var m=document.getElementById('siteMenu');m.classList.remove('open');document.body.classList.remove('nav-open');var t=document.getElementById('navToggle');if(t)t.setAttribute('aria-expanded','false')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" d="M6 6l12 12M18 6L6 18"/></svg></button>
+      <div class="nav-buttons">
+        <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" onclick="document.getElementById('siteMenu').classList.add('open');document.body.classList.add('nav-open');this.setAttribute('aria-expanded','true')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+        <button class="nav-close" id="navClose" aria-label="Close menu" onclick="document.getElementById('siteMenu').classList.remove('open');document.body.classList.remove('nav-open');document.getElementById('navToggle').setAttribute('aria-expanded','false')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" d="M6 6l12 12M18 6L6 18"/></svg></button>
+      </div>
+      <div class="nav-links" id="siteMenu">
         <a href="./" class="nav-link">Home</a>
         <a href="./library.html" class="nav-link">Library</a>
         <a href="./graph.html" class="nav-link active">Graph</a>
