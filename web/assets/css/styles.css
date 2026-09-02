@@ -45,7 +45,7 @@ body {
 
 /* ---------- shared shell: nav + footer ---------- */
 .site-nav {
-  position: sticky; top: 0; z-index: 40;
+  position: sticky; top: 0; z-index: 50;
   border-bottom: 1px solid rgba(255,255,255,.06);
   background: rgba(7,11,22,.72);
   backdrop-filter: blur(14px);
@@ -203,39 +203,37 @@ a:hover .read-arrow { transform: translateX(3px); }
 .reveal.pending.in { opacity: 1; transform: none; }
 @media (prefers-reduced-motion: reduce) { .reveal { transition: none; } .reveal.pending { opacity: 1; transform: none; } }
 
-/* ---------- mobile nav sheet ---------- */
-.nav-close {
-  display: none; position: absolute; top: 1rem; right: 1rem;
-  width: 34px; height: 34px; align-items: center; justify-content: center;
-  border-radius: .6rem; color: #cbd5e1; background: rgba(255,255,255,.06);
-  border: 1px solid rgba(255,255,255,.1); cursor: pointer;
-}
-.nav-close:hover { color: #fff; background: rgba(255,255,255,.12); }
-.nav-close svg { width: 18px; height: 18px; }
+/* ---------- mobile nav overlay ----------
+   The menu opens as a plain in-flow overlay pinned under the nav bar
+   (position:absolute within the nav row) — NO position:fixed, NO
+   backdrop-filter containing-block traps, NO keyframes.  This renders
+   reliably in every webview/device. */
+.nav-close { display: none; }
 @media (max-width: 820px) {
-  /* backdrop-filter on an ancestor makes it the containing block for
-     position:fixed — the sheet would be fixed to the 57px nav bar instead
-     of the viewport, so the menu appeared missing/covered.  Disable the
-     nav blur on mobile so the sheet is truly viewport-fixed. */
-  .site-nav { backdrop-filter: none; -webkit-backdrop-filter: none; }
-  .nav-close { display: inline-flex; }
+  .nav-toggle { display: inline-flex; }
   .nav-links {
-    position: fixed; top: 0; right: 0; bottom: 0; left: auto; width: min(280px, 82vw);
-    flex-direction: column; align-items: stretch; gap: 2px;
-    background: rgba(9,12,24,.98); backdrop-filter: blur(16px);
-    border-left: 1px solid rgba(255,255,255,.08);
-    padding: 4.5rem 1rem 1rem; display: none;
-    box-shadow: -20px 0 60px rgba(0,0,0,.4);
-    z-index: 90; overflow-y: auto;
+    /* absolutely positioned inside the sticky nav bar → always on top of
+       page content, no fixed/compositor quirks */
+    position: absolute; top: 100%; left: 0; right: 0;
+    flex-direction: column; align-items: stretch;
+    background: rgba(9,12,24,.99); backdrop-filter: blur(16px);
+    border-bottom: 1px solid rgba(255,255,255,.1);
+    box-shadow: 0 18px 40px rgba(0,0,0,.5);
+    padding: .6rem 1rem 1.1rem; display: none;
+    z-index: 95; max-height: 82vh; overflow-y: auto;
   }
   .nav-links.open { display: flex; }
-  .nav-links .nav-link { padding: .9rem 1rem; border-radius: .6rem; font-size: 1rem; }
-  .nav-links .nav-link:active { background: rgba(99,102,241,.25); }
-  .nav-toggle { display: inline-flex; z-index: 95; }
-  body.nav-open::after {
-    content: ""; position: fixed; inset: 0; background: rgba(0,0,0,.5);
-    backdrop-filter: blur(2px); z-index: 85;
+  .nav-links .nav-link { padding: .95rem 1rem; border-radius: .6rem; font-size: 1rem; color: #e2e8f0; }
+  .nav-links .nav-link:hover { background: rgba(255,255,255,.08); color: #fff; }
+  .nav-links .nav-link.active { background: rgba(99,102,241,.2); color: #fff; }
+  .nav-close {
+    display: inline-flex; position: static; margin: 0 0 .4rem auto;
+    width: 32px; height: 32px; align-items: center; justify-content: center;
+    border-radius: .5rem; color: #cbd5e1; background: rgba(255,255,255,.06);
+    border: 1px solid rgba(255,255,255,.1); cursor: pointer;
   }
+  .nav-close:hover { color: #fff; }
+  .nav-close svg { width: 16px; height: 16px; }
 }
 
 /* ---------- horizontal overflow safety net ---------- */
@@ -259,3 +257,11 @@ main, header, footer, section { max-width: 100%; }
 .dstat-num { font-size: 1.7rem; font-weight: 800; color: #fff; letter-spacing: -.02em; line-height: 1.1; }
 .dstat-lbl { font-size: .7rem; color: #94a3b8; text-transform: uppercase; letter-spacing: .08em; margin-top: .2rem; }
 .dstat-sub { font-size: .72rem; color: var(--accent); margin-top: .15rem; opacity: .85; }
+
+/* mobile nav backdrop (simple dim) */
+@media (max-width: 820px) {
+  body.nav-open::before {
+    content: ""; position: fixed; inset: 0; background: rgba(0,0,0,.45);
+    z-index: 45; pointer-events: none;
+  }
+}
