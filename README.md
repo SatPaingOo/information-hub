@@ -1,5 +1,10 @@
 # information-hub
 
+[![Live](https://img.shields.io/badge/live-satpaingo.github.io%2Finformation-hub-6366f1)](https://satpaingoo.github.io/information-hub/web/)
+[![Deep-dives](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FSatPaingOo%2Finformation-hub%2Fmain%2Fdata%2Fviews%2Fstats.json&query=total_items&style=flat&label=deep-dives&color=8b5cf6)](https://satpaingoo.github.io/information-hub/web/library.html)
+[![Updated](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FSatPaingOo%2Finformation-hub%2Fmain%2Fdata%2Fviews%2Fstats.json&query=last_date&style=flat&label=updated&color=34d399)](https://satpaingoo.github.io/information-hub/web/)
+[![License](https://img.shields.io/badge/license-CC%20BY--NC%204.0-64748b)](./LICENSE)
+
 A layer-based deep-dive intelligence system that collects data daily via
 **GitHub Actions + free AI providers** and stores it three ways: **raw data
 frame** → **human preview (.md)** → **machine dataset (.json)**. Every item

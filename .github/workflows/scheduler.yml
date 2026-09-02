@@ -113,3 +113,35 @@ jobs:
             }
             git push || { echo "push failed (remote moved) — will retry next heartbeat"; }
           fi
+
+      # Weekly data snapshot tag (dataset versioning for licensing/sales).
+      # Runs after the commit step pushed fresh data: if the latest tag is
+      # older than 7 days, tag HEAD data-YYYY-MM-DD and push it.
+      - name: Weekly dataset tag
+        env:
+          BOT_PAT: ${{ secrets.BOT_PAT }}
+        run: |
+          if [ -z "${BOT_PAT:-}" ]; then
+            echo "no BOT_PAT — skipping weekly tag"
+            exit 0
+          fi
+          git config --unset-all http.https://github.com/.extraheader 2>/dev/null || true
+          git remote set-url origin "https://x-access-token:${BOT_PAT}@github.com/${GITHUB_REPOSITORY}.git"
+          TODAY=$(date -u +%Y-%m-%d)
+          LAST=$(git tag --sort=-creatordate | head -1 || true)
+          if [ -z "$LAST" ]; then
+            git tag "data-${TODAY}" && git push origin "data-${TODAY}" 2>/dev/null && echo "tagged data-${TODAY}" || echo "tag push failed"
+          else
+            LASTD="${LAST#data-}"
+            if [ "${LASTD#????-??-??}" != "" ] || [ -z "$LASTD" ]; then
+              git tag "data-${TODAY}" && git push origin "data-${TODAY}" 2>/dev/null && echo "tagged data-${TODAY}" || echo "tag push failed"
+            else
+              SECS_LAST=$(date -u -d "$LASTD" +%s 2>/dev/null || echo 0)
+              SECS_NOW=$(date -u +%s)
+              if [ $((SECS_NOW - SECS_LAST)) -ge 604800 ]; then
+                git tag "data-${TODAY}" && git push origin "data-${TODAY}" 2>/dev/null && echo "tagged data-${TODAY}" || echo "tag push failed"
+              else
+                echo "last tag ${LAST} is newer than 7 days — skipping"
+              fi
+            fi
+          fi

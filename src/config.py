@@ -131,6 +131,7 @@ class ContentConfig:
     fulltext_max_chars: int = 6000
     similarity_window: int = 30
     similarity_threshold: float = 0.55
+    near_dup_threshold: float = 0.68
 
 
 @dataclass
@@ -266,6 +267,7 @@ class Config:
             fulltext_max_chars=content_raw.get("fulltext_max_chars", 6000),
             similarity_window=content_raw.get("similarity_window", 30),
             similarity_threshold=content_raw.get("similarity_threshold", 0.55),
+            near_dup_threshold=content_raw.get("near_dup_threshold", 0.68),
         )
         taxonomy = Taxonomy(raw.get("taxonomy", {}))
         collections = {

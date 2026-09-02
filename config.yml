@@ -176,3 +176,4 @@ content:
   fulltext_max_chars: 6000
   similarity_window: 30
   similarity_threshold: 0.55
+  near_dup_threshold: 0.68      # containment ratio that blocks a pick as near-duplicate

@@ -24,6 +24,7 @@ Role: both phases — consumed by main and seed.
 
 from __future__ import annotations
 
+import datetime as dt
 import json
 from pathlib import Path
 from typing import Any
@@ -121,10 +122,69 @@ class Indexer:
         # ---- taxonomy hierarchy flat view ------------------------------
         self._write_taxonomy_index(records, taxonomy)
 
+        # ---- stats (report page + badges) --------------------------------
+        self._write_stats(records)
+
         # ---- generated Obsidian views ---------------------------------
         self._write_daily_hubs(records)
         self._write_entity_notes(entity_meta, records)
         self._write_taxonomy_notes(records, taxonomy, relations)
+
+    def _write_stats(self, records: list[dict[str, Any]]) -> None:
+        """Aggregate dataset stats into data/views/stats.json.
+
+        Breakdowns: items per day, per collection, per topic/region, per
+        generating provider/model and per verification method (gemini /
+        lexical / unverified).  Powers the report page and live badges.
+        """
+        def bucket(counter, key):
+            counter[key] = counter.get(key, 0) + 1
+
+        per_day: dict[str, int] = {}
+        per_collection: dict[str, int] = {}
+        per_topic: dict[str, int] = {}
+        per_region: dict[str, int] = {}
+        per_provider: dict[str, int] = {}
+        per_model: dict[str, int] = {}
+        per_verify: dict[str, int] = {}
+        total_words = 0
+        for r in records:
+            bucket(per_day, r["date"])
+            # canonical collection: topic-only legacy records map to the 4
+            # editorial collections (world->world-news, ai-ml/dev-oss->tech-news,
+            # geopolitics->politics) so report grouping is stable.
+            raw_coll = r.get("collection") or r.get("topic") or "other"
+            coll = {"world": "world-news", "ai-ml": "tech-news", "dev-oss": "tech-news",
+                    "geopolitics": "politics"}.get(raw_coll, raw_coll)
+            bucket(per_collection, coll)
+            bucket(per_topic, r.get("topic") or "misc")
+            bucket(per_region, r.get("region") or "global")
+            gen = (r.get("provenance") or {}).get("generated_by") or {}
+            if gen.get("provider"):
+                bucket(per_provider, f"{gen['provider']}/{gen['model']}")
+            g = r.get("grounding") or {}
+            # normalize: grounding writes method='gemini-search'/'lexical'
+            raw_method = g.get("method") or ("unverified" if not g.get("checked_by") else "other")
+            method = "gemini" if raw_method.startswith("gemini") else raw_method
+            bucket(per_verify, method)
+            total_words += r.get("word_count") or 0
+
+        stats = {
+            "generated_at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
+            "total_items": len(records),
+            "total_words": total_words,
+            "first_date": min((r["date"] for r in records), default=None),
+            "last_date": max((r["date"] for r in records), default=None),
+            "days": sorted(per_day),
+            "per_day": per_day,
+            "per_collection": per_collection,
+            "per_topic": per_topic,
+            "per_region": per_region,
+            "per_provider_model": per_provider,
+            "per_verify_method": per_verify,
+        }
+        (self.index_dir / "stats.json").write_text(
+            json.dumps(stats, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
     # ---- helpers ------------------------------------------------------
     def _clean_index_dir(self) -> None:

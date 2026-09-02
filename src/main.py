@@ -30,6 +30,7 @@ from src.collect.mock import (deep_dive_mock, mock_candidates, select_mock,
                               _candidate_topic, _candidate_region)
 from src.collect.prompts import (PROMPT_VERSION, SYSTEM_DEEP_DIVE, SYSTEM_SELECT,
                                  build_deep_dive_prompt, build_select_prompt)
+from src.collect.dedup import token_containment
 from src.collect.fetchers import fetch_collection
 from src.config import CollectionConfig, Config
 from src.llm.providers import ProviderError, ProviderManager
@@ -133,7 +134,7 @@ def _heuristic_select(candidates: list, recent: list[dict],
     skipping the whole collection (which starved yields on 08-19/08-20),
     pick the first fresh, non-duplicate, policy-passing candidates.
     """
-    from src.collect.dedup import similarity_flags
+    from src.collect.dedup import similarity_flags, token_containment
     from src.config import Config
     cfg = Config.load()
     picked: list[int] = []
@@ -145,6 +146,10 @@ def _heuristic_select(candidates: list, recent: list[dict],
         sim = similarity_flags(recent, c.title, c.summary,
                                threshold=cfg.content.similarity_threshold)
         if sim["duplicate"]:
+            continue
+        # near-duplicate containment vs any stored title (cross-day re-fetch)
+        if any(token_containment(c.title, r.get("title", "")) >= cfg.content.near_dup_threshold
+               for r in recent):
             continue
         picked.append(i)
     return picked
@@ -237,6 +242,28 @@ def run_collect(cfg: Config, registry: Registry, store: Store, indexer: Indexer,
                             "heuristic fallback (%d)", collection.name, len(fallback))
             selected = fallback
         selected = _valid_select_indices(selected, len(candidates))
+        # Near-duplicate HARD gate: a pick whose title is a near-containment
+        # of (or contains) a stored record's title is dropped BEFORE it burns
+        # a deep-dive call.  Jaccard misses 'kills 15' vs 'kills 16' and the
+        # same paper re-fetched on a later day with a shorter title — both
+        # appeared in the dataset (08-23 drone 001/006, Compact Data 08-24/
+        # 08-25).  Containment ratio on the title catches them cross-day.
+        kept: list[int] = []
+        nd_threshold = cfg.content.near_dup_threshold
+        for idx in selected:
+            cand = candidates[idx]
+            dup_against = None
+            for rec in recent:
+                if token_containment(cand.title, rec.get("title", "")) >= nd_threshold:
+                    dup_against = rec["key"]
+                    break
+            if dup_against:
+                registry.record_fetch(collection.name, 1, 0)
+                logger.info("[%s] near-duplicate pruned — %r ~ %s",
+                            collection.name, cand.title[:60], dup_against)
+                continue
+            kept.append(idx)
+        selected = kept
 
         if not selected:
             registry.record_fetch(collection.name, len(candidates), 0)

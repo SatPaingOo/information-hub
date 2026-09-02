@@ -39,6 +39,20 @@ def token_overlap(a: str, b: str) -> float:
     return len(ta & tb) / len(ta | tb)
 
 
+def token_containment(a: str, b: str) -> float:
+    """Containment ratio: |A∩B| / min(|A|,|B|), 0..1.
+
+    Catches NEAR-duplicates that Jaccard misses — e.g. a headline re-fetched
+    the next day with a shorter/edited title, or a casualty-count update
+    differing by one word ('kills 15' vs 'kills 16').
+    """
+    ta = set(TOKEN_RE.findall(a.lower()))
+    tb = set(TOKEN_RE.findall(b.lower()))
+    if not ta or not tb:
+        return 0.0
+    return len(ta & tb) / min(len(ta), len(tb))
+
+
 def is_exact_duplicate(registry_items: dict[str, Any], title: str, url: str) -> bool:
     """True if this title/url was already stored (by hash)."""
     if not url or not title:
