@@ -179,16 +179,16 @@ function cardHTML(i) {
 
 function listRowHTML(i) {
   return `
-  <a href="${articleHref(i)}" class="list-row">
-    <div class="w-14 shrink-0 hidden sm:block">
-      ${collectionBadge(i, true)}
-    </div>
-    <div class="flex-1 min-w-0">
-      <div class="text-[11px] text-slate-500 mb-0.5">${esc(formatDate(i.date))}${i.word_count ? " · " + i.word_count.toLocaleString() + " words" : ""}</div>
-      <div class="font-semibold text-white leading-snug line-clamp-1 sm:line-clamp-none">${esc(i.title)}</div>
-    </div>
-    <span class="text-xs text-slate-500 hidden lg:block w-24 shrink-0 line-clamp-2 text-right">${esc((i.tldr || "").slice(0, 90))}…</span>
-    <svg class="w-4 h-4 text-slate-600 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
+  <a href="${articleHref(i)}" class="list-row group">
+    <span class="flex-1 min-w-0">
+      <span class="flex items-center gap-2 text-[11px] text-slate-500 mb-0.5">
+        <span class="badge type">${esc(pretty(i.collection || i.topic || ""))}</span>
+        <span>${esc(formatDate(i.date))}</span>
+        ${i.word_count ? `<span>· ${i.word_count.toLocaleString()} words</span>` : ""}
+      </span>
+      <span class="block font-semibold text-slate-100 leading-snug line-clamp-1 group-hover:text-white">${esc(i.title)}</span>
+    </span>
+    <svg class="w-4 h-4 text-slate-600 group-hover:text-indigo-300 group-hover:translate-x-0.5 transition-all shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
   </a>`;
 }
 
