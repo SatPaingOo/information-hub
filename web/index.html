@@ -3,126 +3,128 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Information Hub — Daily AI Intelligence Library</title>
-  <meta name="description" content="A self-running daily intelligence library: world, tech, politics & product briefings collected and verified by an autonomous multi-provider AI pipeline." />
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🗞️</text></svg>" />
+  <title>Information Hub — Daily Intelligence Library</title>
+  <meta name="description" content="A self-running daily intelligence library: world, tech, politics & product briefings, written and verified by an autonomous multi-provider AI pipeline." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%234f46e5'/><text x='50' y='68' font-size='52' text-anchor='middle' fill='white' font-family='Arial' font-weight='bold'>IH</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet" />
   <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+            display: ['Newsreader', 'Georgia', 'serif'],
+          },
+        },
+      },
+    };
+  </script>
   <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
-<body class="bg-slate-50 text-slate-800">
+<body class="bg-slate-950 text-slate-100 font-sans antialiased">
+  <!-- ambient glow -->
+  <div class="pointer-events-none fixed inset-0 overflow-hidden z-0">
+    <div class="blob blob-a"></div>
+    <div class="blob blob-b"></div>
+    <div class="blob blob-c"></div>
+  </div>
+
   <!-- Nav -->
-  <nav class="bg-white border-b border-slate-200 sticky top-0 z-40">
-    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
-      <a href="./" class="flex items-center gap-2 font-bold text-slate-900">
-        <span class="text-xl">🗞️</span>
-        <span>Information Hub</span>
+  <nav class="relative z-20 border-b border-white/5 bg-slate-950/70 backdrop-blur-xl sticky top-0">
+    <div class="max-w-6xl mx-auto px-5 py-3.5 flex items-center justify-between">
+      <a href="./" class="flex items-center gap-2.5 group">
+        <span class="logo-mark">IH</span>
+        <span class="font-bold tracking-tight text-white">Information&nbsp;Hub</span>
       </a>
-      <div class="flex items-center gap-3 text-sm">
-        <a href="./" class="px-3 py-1.5 rounded-lg bg-slate-900 text-white">Library</a>
-        <a href="./graph.html" class="px-3 py-1.5 rounded-lg hover:bg-slate-100">Graph</a>
-        <a href="#about" class="px-3 py-1.5 rounded-lg hover:bg-slate-100 hidden sm:inline">About</a>
+      <div class="flex items-center gap-1.5 text-sm">
+        <a href="./library.html" class="nav-link">Library</a>
+        <a href="./graph.html" class="nav-link">Graph</a>
+        <a href="#how" class="nav-link hidden sm:inline">How it works</a>
+        <a href="./library.html" class="ml-2 px-4 py-1.5 rounded-full btn-primary text-sm font-semibold">Browse all</a>
       </div>
     </div>
   </nav>
 
   <!-- Hero -->
-  <header class="bg-slate-900 text-white">
-    <div class="max-w-6xl mx-auto px-4 py-14">
-      <p class="text-indigo-300 text-xs font-semibold uppercase tracking-widest mb-3">
-        Autonomous · Multi-Provider · Provenance-Tracked
-      </p>
-      <h1 class="text-3xl sm:text-5xl font-bold leading-tight max-w-3xl">
-        A daily intelligence library, written by machines.
+  <header class="relative z-10">
+    <div class="max-w-6xl mx-auto px-5 pt-16 pb-10 sm:pt-24 sm:pb-14 text-center">
+      <div id="live-badge" class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3.5 py-1.5 text-xs text-slate-300 mb-7">
+        <span class="pulse-dot"></span>
+        <span id="live-text">Autonomous pipeline · updating daily</span>
+      </div>
+      <h1 class="text-4xl sm:text-6xl font-display font-semibold leading-[1.06] text-white max-w-4xl mx-auto">
+        The world, distilled into
+        <span class="grad-text">deep briefings</span> — every day, by machines.
       </h1>
-      <p class="mt-4 text-slate-300 max-w-2xl">
-        Every day a self-scheduling pipeline scans the world's news and research feeds,
-        selects what matters, and writes deep, structured briefings — verified, linked
-        and stored as a machine-readable dataset.
+      <p class="mt-6 text-slate-400 max-w-2xl mx-auto text-lg leading-relaxed">
+        A self-scheduling AI pipeline scans global news and research, picks what matters,
+        and writes structured, verified intelligence — world, tech, politics and products —
+        stored as a living, machine-readable dataset.
       </p>
-      <div class="mt-6 flex flex-wrap gap-4 text-sm">
-        <a href="#library" class="px-4 py-2 rounded-lg bg-indigo-500 hover:bg-indigo-400 font-medium">Browse the library</a>
-        <a href="#about" class="px-4 py-2 rounded-lg border border-slate-600 hover:bg-slate-800">How it works</a>
+      <div class="mt-9 flex flex-wrap justify-center gap-3.5">
+        <a href="./library.html" class="btn-primary px-6 py-3 rounded-xl font-semibold">Read today's briefings</a>
+        <a href="./graph.html" class="px-6 py-3 rounded-xl font-semibold border border-white/15 hover:bg-white/5 transition-colors">Explore the graph</a>
       </div>
-      <!-- stats strip -->
-      <div id="stats" class="mt-10 grid grid-cols-2 sm:grid-cols-4 gap-4 max-w-2xl">
-        <div class="bg-slate-800/60 rounded-lg p-3"><div id="stat-items" class="text-2xl font-bold">–</div><div class="text-xs text-slate-400">Deep-dives</div></div>
-        <div class="bg-slate-800/60 rounded-lg p-3"><div id="stat-days" class="text-2xl font-bold">–</div><div class="text-xs text-slate-400">Days</div></div>
-        <div class="bg-slate-800/60 rounded-lg p-3"><div id="stat-entities" class="text-2xl font-bold">–</div><div class="text-xs text-slate-400">Entities</div></div>
-        <div class="bg-slate-800/60 rounded-lg p-3"><div id="stat-collections" class="text-2xl font-bold">–</div><div class="text-xs text-slate-400">Collections</div></div>
-      </div>
+
+      <!-- stats -->
+      <div id="stats" class="mt-14 grid grid-cols-2 sm:grid-cols-4 gap-3 max-w-3xl mx-auto"></div>
     </div>
   </header>
 
-  <!-- Library -->
-  <main class="max-w-6xl mx-auto px-4 py-10" id="library">
-    <div class="flex flex-wrap items-center justify-between gap-3 mb-6">
-      <h2 class="text-2xl font-bold">Library</h2>
-      <div class="flex gap-2 text-sm">
-        <input id="search" type="search" placeholder="Search titles, topics, entities…"
-               class="px-3 py-1.5 rounded-lg border border-slate-300 w-56 sm:w-72 bg-white" />
+  <!-- Latest briefings -->
+  <main class="relative z-10 max-w-6xl mx-auto px-5">
+    <section class="py-8">
+      <div class="flex items-end justify-between mb-6">
+        <div>
+          <h2 class="text-2xl sm:text-3xl font-bold tracking-tight text-white">Latest briefings</h2>
+          <p class="text-slate-500 text-sm mt-1">Fresh from the most recent collection run</p>
+        </div>
+        <a href="./library.html" class="text-sm text-indigo-300 hover:text-indigo-200 font-medium inline-flex items-center gap-1">
+          View all <span aria-hidden="true">→</span>
+        </a>
       </div>
-    </div>
+      <div id="latest" class="grid lg:grid-cols-5 gap-5"></div>
+    </section>
 
-    <!-- collection chips -->
-    <div id="chips" class="flex flex-wrap gap-2 mb-2"></div>
-    <!-- topic/region row -->
-    <div class="flex flex-wrap gap-2 mb-5 text-xs">
-      <select id="topic-filter" class="px-2 py-1 rounded border border-slate-300 bg-white"></select>
-      <select id="region-filter" class="px-2 py-1 rounded border border-slate-300 bg-white"></select>
-      <select id="sort" class="px-2 py-1 rounded border border-slate-300 bg-white">
-        <option value="newest">Newest first</option>
-        <option value="oldest">Oldest first</option>
-        <option value="wordcount">Longest first</option>
-      </select>
-    </div>
+    <!-- Collections -->
+    <section class="py-10">
+      <div class="mb-6">
+        <h2 class="text-2xl sm:text-3xl font-bold tracking-tight text-white">Browse by collection</h2>
+        <p class="text-slate-500 text-sm mt-1">Four lenses on the day's intelligence</p>
+      </div>
+      <div id="collections" class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4"></div>
+    </section>
 
-    <div id="meta-line" class="text-xs text-slate-500 mb-4"></div>
-
-    <!-- grid -->
-    <div id="grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"></div>
-    <div id="empty" class="hidden text-center py-16 text-slate-400">No items match your filters.</div>
-    <div id="load-more-wrap" class="text-center mt-8 hidden">
-      <button id="load-more" class="px-5 py-2 rounded-lg border border-slate-300 hover:bg-slate-100 text-sm font-medium">Load more</button>
-    </div>
+    <!-- How it works -->
+    <section id="how" class="py-10">
+      <div class="mb-8">
+        <h2 class="text-2xl sm:text-3xl font-bold tracking-tight text-white">How it works</h2>
+        <p class="text-slate-500 text-sm mt-1">An intelligence desk that never sleeps</p>
+      </div>
+      <div id="how-grid" class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4"></div>
+    </section>
   </main>
 
-  <!-- About / how it works -->
-  <section id="about" class="bg-white border-t border-slate-200 py-14">
-    <div class="max-w-6xl mx-auto px-4">
-      <h2 class="text-2xl font-bold mb-8">How it works</h2>
-      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 text-sm">
-        <div class="border border-slate-200 rounded-xl p-5">
-          <div class="text-2xl mb-2">🤖</div>
-          <h3 class="font-semibold mb-1">Self-managing AI pipeline</h3>
-          <p class="text-slate-500">A scheduler wakes every day, discovers free AI models across providers, auto-switches between them and collects until the daily target is met.</p>
-        </div>
-        <div class="border border-slate-200 rounded-xl p-5">
-          <div class="text-2xl mb-2">📑</div>
-          <h3 class="font-semibold mb-1">Deep, structured briefings</h3>
-          <p class="text-slate-500">Every item is a 500+ word deep-dive: background, analysis sections, key facts, implications and outlook — enforced by schema.</p>
-        </div>
-        <div class="border border-slate-200 rounded-xl p-5">
-          <div class="text-2xl mb-2">🔗</div>
-          <h3 class="font-semibold mb-1">Linked & graph-ready</h3>
-          <p class="text-slate-500">Entities, related items and taxonomy are cross-linked. A 500+ node knowledge graph is rebuilt automatically every day.</p>
-        </div>
-        <div class="border border-slate-200 rounded-xl p-5">
-          <div class="text-2xl mb-2">🧾</div>
-          <h3 class="font-semibold mb-1">Full provenance</h3>
-          <p class="text-slate-500">Each record carries its source, generating model, verification score and review status — a traceable machine dataset.</p>
-        </div>
+  <!-- Footer -->
+  <footer class="relative z-10 border-t border-white/5 mt-14">
+    <div class="max-w-6xl mx-auto px-5 py-10 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-slate-500">
+      <div class="flex items-center gap-2">
+        <span class="logo-mark small">IH</span>
+        <span>Information Hub — an autonomous intelligence collection system by
+          <a class="text-slate-300 hover:text-white underline underline-offset-2" href="https://github.com/SatPaingOo" target="_blank" rel="noopener">Sat Paing Oo</a>.
+        </span>
+      </div>
+      <div class="text-xs text-slate-600 text-center sm:text-right leading-relaxed">
+        Data licensed <a class="underline hover:text-slate-400" href="../LICENSE" target="_blank">CC BY-NC 4.0</a> · commercial use by separate license
+        <br />System auto-updates daily via GitHub Actions + free AI tiers
       </div>
     </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="border-t border-slate-200 py-8 text-center text-xs text-slate-400 bg-white">
-    <p>Information Hub — an autonomous intelligence collection system by
-      <a class="underline" href="https://github.com/SatPaingOo" target="_blank" rel="noopener">Sat Paing Oo</a>.</p>
-    <p class="mt-1">Data licensed CC BY-NC 4.0 · Commercial use by separate license · System auto-updates daily.</p>
   </footer>
 
   <script src="assets/js/common.js"></script>
-  <script src="assets/js/home.js"></script>
+  <script src="assets/js/landing.js"></script>
 </body>
 </html>

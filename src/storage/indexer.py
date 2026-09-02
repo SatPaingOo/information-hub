@@ -102,12 +102,14 @@ class Indexer:
         # ---- master index --------------------------------------------
         index = [{
             "id": r["id"], "key": r["key"], "date": r["date"],
+            "collection": r.get("collection") or r.get("topic"),
             "content_type": r["content_type"], "topic": r["topic"],
             "region": r["region"], "categories": r["categories"],
             "title": r["title"], "tldr": r["tldr"],
             "source": r["source"]["name"], "source_url": r["source"]["url"],
             "entities": [e["name"] for e in r.get("entities", [])],
             "tags": r.get("tags", []),
+            "word_count": r.get("word_count", 0),
             "file": f"collections/data-set/{_record_name(r)}.json",
         } for r in sorted(records, key=lambda x: x["date"], reverse=True)]
         (self.index_dir / "index.json").write_text(

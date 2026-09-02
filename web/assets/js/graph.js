@@ -166,7 +166,7 @@ function showNodeDetail(n, byId, links, idToFile) {
     <div class="flex flex-wrap gap-2 text-sm">
       ${itemNeighbors.slice(0, 8).map((x) => {
         const file = fileFor(x);
-        return file ? `<a href="article.html?file=${encodeURIComponent(file)}" class="chip collection">${esc(x.title)}</a>` : "";
+        return file ? `<a href="article.html?file=${encodeURIComponent(file)}" class="badge collection-default">${esc(x.title)}</a>` : "";
       }).join("")}
     </div>`;
 }

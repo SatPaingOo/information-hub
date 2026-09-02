@@ -25,16 +25,17 @@ function render(r) {
   article.classList.remove("hidden");
   document.title = `${r.title} — Information Hub`;
 
-  // badges
+  // badges — use the shared badge system (collection/type/region colors)
   const badges = document.getElementById("badges");
   const col = r.collection || r.topic || "";
+  const badge = (text, cls) => `<span class="badge ${cls}">${esc(text)}</span>`;
+  const colCls = { "world-news": "collection-w", "tech-news": "collection-t", politics: "collection-p", products: "collection-pr", world: "collection-w", "ai-ml": "collection-t" }[col] || "collection-default";
+  const colName = { "world-news": "🌍 World News", "tech-news": "🤖 Tech & AI", politics: "🏛️ Politics", products: "📦 Products", world: "🌍 World", "ai-ml": "🤖 AI/ML" }[col] || pretty(col);
   badges.innerHTML = [
-    `<span class="chip collection">${esc(pretty(col))}</span>`,
-    `<span class="chip">${esc(r.content_type || "")}</span>`,
-    `<span class="chip">${esc(pretty(r.topic || ""))}</span>`,
-    `<span class="chip">${esc(pretty(r.region || ""))}</span>`,
-    ...(r.categories || []).map((c) => `<span class="chip">${esc(pretty(c))}</span>`),
-    ...(r.tags || []).slice(0, 6).map((t) => `<span class="chip">${esc(t)}</span>`),
+    `<span class="badge ${colCls}">${esc(colName)}</span>`,
+    badge(r.content_type || "", "type"),
+    badge(pretty(r.region || ""), "region"),
+    ...(r.tags || []).slice(0, 5).map((t) => badge(t, "type")),
   ].join("");
 
   document.getElementById("title").textContent = r.title;
@@ -66,7 +67,7 @@ function render(r) {
   // entities → link to graph search on library
   const ents = document.getElementById("entities");
   ents.innerHTML = (r.entities || []).map((e) =>
-    `<button class="chip" onclick="location='./?q=${encodeURIComponent(e.name)}'">${esc(e.name)} <span class="opacity-50">· ${esc(e.type)}</span></button>`
+    `<button class="chip" onclick="location='./library.html?q=${encodeURIComponent(e.name)}'">${esc(e.name)} <span class="opacity-50">· ${esc(e.type)}</span></button>`
   ).join("") || `<span class="text-sm text-slate-400">None recorded.</span>`;
 
   // related items — cross-link via index (needs id→file map)
