@@ -61,10 +61,22 @@ class Indexer:
                 by_category.setdefault(cat, []).append(item_id)
             by_date.setdefault(rec["date"], []).append(item_id)
             for e in rec.get("entities", []):
+                # Case-fold entity names so 'Agentic AI' / 'agentic AI' /
+                # 'AGENTIC ai' collapse to ONE entity (the first-seen
+                # casing is kept as the display name).  Without this, case
+                # variants create duplicate view files that are
+                # indistinguishable on case-insensitive filesystems
+                # (Windows) and fragment the graph.
                 name = e["name"]
+                key = name.casefold()
+                if key in entity_meta:
+                    name = entity_meta[key]["name"]  # canonical display name
+                else:
+                    entity_meta[key] = {"name": name, "type": e["type"],
+                                        "first_seen": rec["date"],
+                                        "last_seen": rec["date"]}
                 by_entity.setdefault(name, []).append(item_id)
-                meta = entity_meta.setdefault(name, {"type": e["type"], "first_seen": rec["date"],
-                                                     "last_seen": rec["date"]})
+                meta = entity_meta[key]
                 meta["type"] = e["type"]
                 if rec["date"] < meta["first_seen"]:
                     meta["first_seen"] = rec["date"]
@@ -118,7 +130,7 @@ class Indexer:
         target.mkdir(parents=True, exist_ok=True)
         for key in sorted(mapping):
             ids = sorted(set(mapping[key]))
-            (target / f"{key}.json").write_text(
+            (target / f"{_win_safe(key)}.json").write_text(
                 json.dumps(ids, indent=2) + "\n", encoding="utf-8")
 
     # ---- graph ---------------------------------------------------------
@@ -262,10 +274,13 @@ class Indexer:
         backlinks: dict[str, list[dict[str, Any]]] = {}
         for rec in records:
             for e in rec.get("entities", []):
-                backlinks.setdefault(e["name"], []).append({
+                meta = entity_meta.get(e["name"].casefold())
+                display = meta["name"] if meta else e["name"]
+                backlinks.setdefault(display, []).append({
                     "id": rec["id"], "title": rec["title"], "date": rec["date"],
                 })
-        for name, meta in entity_meta.items():
+        for key, meta in entity_meta.items():
+            name = meta["name"]
             md = entity_markdown(name, meta["type"], backlinks.get(name, []))
             (type_dir[meta["type"]] / _safe_name(name)).with_suffix(".md").write_text(
                 md + "\n", encoding="utf-8")
@@ -346,3 +361,15 @@ def _layer_short(layer_name: str) -> str:
 
 def _safe_name(name: str) -> str:
     return "".join(ch if ch.isalnum() or ch in "-_" else "_" for ch in name)
+
+
+def _win_safe(name: str) -> str:
+    """Filename-safe on Windows: replace characters invalid in NTFS paths.
+
+    ``by-entity`` views are keyed by RAW entity names, which can contain
+    double quotes (e.g. 'Duane \"Keffe D\" Davis') — a valid filename on
+    Linux runners but impossible to check out on Windows (invalid path:
+    data/views/by-entity/Duane \"Keffe D\" Davis.json).  Spaces and unicode
+    are kept; only the characters Windows forbids are replaced.
+    """
+    return "".join(ch if ch not in '<>:"/\\|?*' else "_" for ch in name)
