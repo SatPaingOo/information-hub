@@ -16,6 +16,9 @@ function collectionKey(i) {
 }
 
 async function init() {
+  // content fade-in: mark hero/sections pending, reveal after data is ready
+  const reveals = document.querySelectorAll(".reveal");
+  reveals.forEach((el) => el.classList.add("pending"));
   try {
     const index = await fetchJSON(`${DATA_DIR}/views/index.json`);
     const items = Array.isArray(index) ? index : (index.items || []);
@@ -29,7 +32,12 @@ async function init() {
       const el = document.getElementById("live-text");
       if (el) el.textContent = `Live library · updated ${formatDate(items[0].date)}`;
     }
+    // reveal with stagger (pure transition — always ends visible)
+    reveals.forEach((el, i) => {
+      setTimeout(() => el.classList.add("in"), 40 + i * 70);
+    });
   } catch (e) {
+    reveals.forEach((el) => el.classList.add("in"));  // never hide content
     document.getElementById("latest").innerHTML =
       `<div class="col-span-full text-center py-16 text-slate-400">Could not load data: ${esc(e.message)}</div>`;
   }
