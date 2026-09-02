@@ -25,6 +25,7 @@
         <span class="font-bold tracking-tight text-white">Information&nbsp;Hub</span>
       </a>
       <button class="nav-toggle" id="navToggle" aria-label="Menu" aria-expanded="false" onclick="var m=document.getElementById('siteMenu');var o=m.classList.toggle('open');document.body.classList.toggle('nav-open',o);this.setAttribute('aria-expanded',o)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" d="M4 7h16M4 12h16M4 17h16"/></svg></button><div class="nav-links" id="siteMenu">
+        <button class="nav-close" id="navClose" aria-label="Close menu" onclick="var m=document.getElementById('siteMenu');m.classList.remove('open');document.body.classList.remove('nav-open');var t=document.getElementById('navToggle');if(t)t.setAttribute('aria-expanded','false')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" d="M6 6l12 12M18 6L6 18"/></svg></button>
         <a href="./" class="nav-link">Home</a>
         <a href="./library.html" class="nav-link">Library</a>
         <a href="./graph.html" class="nav-link">Graph</a>
@@ -57,7 +58,7 @@
     <div class="surface p-4 mb-10">
       <div class="flex flex-wrap items-center gap-2 text-sm">
         <span class="text-xs font-semibold text-slate-300 uppercase tracking-wider mr-1">Get the data</span>
-        <a href="../data/collections/data-set/" class="badge collection-default px-3 py-1.5 hover:bg-white/10">📂 JSON records</a>
+        <a href="https://github.com/SatPaingOo/information-hub/tree/main/data/collections/data-set" target="_blank" rel="noopener" class="badge collection-default px-3 py-1.5 hover:bg-white/10">📂 JSON records (GitHub)</a>
         <a href="../data/views/index.json" target="_blank" class="badge collection-default px-3 py-1.5 hover:bg-white/10">🗂 index.json</a>
         <a href="../data/views/feed.xml" class="badge collection-default px-3 py-1.5 hover:bg-white/10">📡 RSS feed</a>
         <a href="../data/views/graph.json" class="badge collection-default px-3 py-1.5 hover:bg-white/10">🕸 graph.json</a>
