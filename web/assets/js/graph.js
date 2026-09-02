@@ -82,7 +82,7 @@ function build(g, idToFile) {
   node.append("circle")
     .attr("r", r)
     .attr("fill", (n) => TYPE_COLORS[nodeType(n)] || "#94a3b8")
-    .attr("stroke", "#fff")
+    .attr("stroke", "#0f172a")
     .attr("stroke-width", (n) => (n.type === "item" ? 0.5 : 1));
   node.append("text")
     .attr("class", "node-label")
@@ -143,9 +143,9 @@ function showNodeDetail(n, byId, links, idToFile) {
   if (type === "item") {
     const file = fileFor(n);
     panel.innerHTML = `
-      <div class="text-xs text-slate-400 mb-1">Briefing · ${esc(n.date || "")}</div>
-      <h2 class="text-lg font-bold mb-2">${esc(label)}</h2>
-      <p class="text-sm text-slate-600 mb-3">${esc(n.tldr || "")}</p>
+      <div class="text-xs text-slate-500 mb-1">Briefing · ${esc(n.date || "")}</div>
+      <h2 class="text-lg font-bold text-white mb-2">${esc(label)}</h2>
+      <p class="text-sm text-slate-400 mb-3">${esc(n.tldr || "")}</p>
       ${file ? `<a href="article.html?file=${encodeURIComponent(file)}" class="text-indigo-600 hover:underline text-sm">Open briefing →</a>` : ""}`;
     return;
   }
@@ -160,9 +160,9 @@ function showNodeDetail(n, byId, links, idToFile) {
   const neighbors = [...neighborIds].slice(0, 24).map((id) => byId[id]).filter(Boolean);
   const itemNeighbors = neighbors.filter((x) => x.type === "item");
   panel.innerHTML = `
-    <div class="text-xs text-slate-400 mb-1">${esc(TYPE_LABEL[type] || pretty(type))}</div>
-    <h2 class="text-lg font-bold mb-3">${esc(label)}</h2>
-    <div class="text-xs text-slate-500 mb-3">Connected to ${neighborIds.size} nodes${itemNeighbors.length ? ` · ${itemNeighbors.length} briefings` : ""}</div>
+    <div class="text-xs text-slate-500 mb-1">${esc(TYPE_LABEL[type] || pretty(type))}</div>
+    <h2 class="text-lg font-bold text-white mb-3">${esc(label)}</h2>
+    <div class="text-xs text-slate-400 mb-3">Connected to ${neighborIds.size} nodes${itemNeighbors.length ? ` · ${itemNeighbors.length} briefings` : ""}</div>
     <div class="flex flex-wrap gap-2 text-sm">
       ${itemNeighbors.slice(0, 8).map((x) => {
         const file = fileFor(x);

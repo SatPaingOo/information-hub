@@ -144,11 +144,11 @@ function cardHTML(i) {
   <a href="${articleHref(i)}" class="lib-card p-5">
     <div class="flex items-center justify-between mb-2.5">
       ${collectionBadge(i)}
-      <span class="text-xs text-slate-400">${esc(formatDate(i.date))}</span>
+      <span class="text-xs text-slate-500">${esc(formatDate(i.date))}</span>
     </div>
-    <h3 class="font-semibold text-slate-900 leading-snug mb-2">${esc(i.title)}</h3>
-    <p class="text-sm text-slate-500 clamp mb-4 flex-1">${esc(i.tldr || "")}</p>
-    <div class="flex items-center justify-between text-xs text-slate-400 pt-2 border-t border-slate-100">
+    <h3 class="font-semibold text-white leading-snug mb-2">${esc(i.title)}</h3>
+    <p class="text-sm text-slate-400 clamp mb-4 flex-1">${esc(i.tldr || "")}</p>
+    <div class="flex items-center justify-between text-xs text-slate-500 pt-2 border-t border-white/8">
       <div class="flex flex-wrap gap-1">${tags}</div>
       <span class="whitespace-nowrap ml-2">${i.word_count ? i.word_count.toLocaleString() + " words" : ""}</span>
     </div>

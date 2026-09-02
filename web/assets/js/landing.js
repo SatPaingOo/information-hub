@@ -25,8 +25,8 @@ async function init() {
     renderHow();
     // live badge: show most recent date
     if (items.length) {
-      document.getElementById("live-text").textContent =
-        `Live library · updated ${formatDate(items[0].date)}`;
+      const el = document.getElementById("live-text");
+      if (el) el.textContent = `Live library · updated ${formatDate(items[0].date)}`;
     }
   } catch (e) {
     document.getElementById("latest").innerHTML =

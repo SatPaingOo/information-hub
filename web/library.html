@@ -5,46 +5,48 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Library — Information Hub</title>
   <meta name="description" content="Browse the Information Hub intelligence library — world, tech, politics & product briefings with search and filters." />
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%234f46e5'/><text x='50' y='68' font-size='52' text-anchor='middle' fill='white' font-family='Arial' font-weight='bold'>IH</text></svg>" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%236366f1'/><text x='50' y='68' font-size='52' text-anchor='middle' fill='white' font-family='Arial' font-weight='bold'>IH</text></svg>" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
-    tailwind.config = { theme: { extend: { fontFamily: { sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'] } } } };
+    tailwind.config = { theme: { extend: { fontFamily: { sans: ['Inter','ui-sans-serif','system-ui','sans-serif'] } } } };
   </script>
   <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
-<body class="bg-slate-100 text-slate-800 font-sans antialiased">
-  <!-- Nav (light) -->
-  <nav class="bg-white border-b border-slate-200 sticky top-0 z-40 shadow-sm">
-    <div class="max-w-7xl mx-auto px-5 py-3 flex items-center justify-between">
+<body class="bg-[#070b16] text-slate-200 font-sans antialiased">
+  <div class="ambient"><div class="blob blob-a"></div><div class="blob blob-b"></div><div class="blob blob-c"></div></div>
+
+  <!-- Nav (shared shell) -->
+  <nav class="site-nav">
+    <div class="max-w-7xl mx-auto px-5 py-3.5 flex items-center justify-between relative z-10">
       <a href="./" class="flex items-center gap-2.5">
-        <span class="logo-mark light">IH</span>
-        <span class="font-bold tracking-tight text-slate-900">Information&nbsp;Hub</span>
+        <span class="logo-mark">IH</span>
+        <span class="font-bold tracking-tight text-white">Information&nbsp;Hub</span>
       </a>
-      <div class="flex items-center gap-1.5 text-sm">
-        <a href="./" class="nav-link-light">Home</a>
-        <a href="./library.html" class="nav-link-light active">Library</a>
-        <a href="./graph.html" class="nav-link-light">Graph</a>
+      <div class="flex items-center gap-1.5">
+        <a href="./" class="nav-link">Home</a>
+        <a href="./library.html" class="nav-link active">Library</a>
+        <a href="./graph.html" class="nav-link">Graph</a>
       </div>
     </div>
   </nav>
 
   <!-- Page head -->
-  <header class="bg-slate-900 text-white">
-    <div class="max-w-7xl mx-auto px-5 py-8">
+  <header class="relative z-10 border-b border-white/5">
+    <div class="max-w-7xl mx-auto px-5 py-10">
       <div class="flex flex-wrap items-end justify-between gap-4">
         <div>
           <p class="text-indigo-300 text-xs font-semibold uppercase tracking-widest mb-1.5">Library</p>
-          <h1 class="text-3xl font-bold tracking-tight">Every briefing, searchable</h1>
-          <p id="meta-line" class="text-slate-400 text-sm mt-2"></p>
+          <h1 class="text-3xl font-bold tracking-tight text-white">Every briefing, searchable</h1>
+          <p id="meta-line" class="text-slate-500 text-sm mt-2"></p>
         </div>
-        <div class="w-full sm:w-80">
+        <div class="w-full sm:w-96">
           <div class="relative">
-            <svg class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-4.35-4.35M17 11a6 6 0 11-12 0 6 6 0 0112 0z"/></svg>
+            <svg class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-4.35-4.35M17 11a6 6 0 11-12 0 6 6 0 0112 0z"/></svg>
             <input id="search" type="search" placeholder="Search titles, topics, entities…"
-                   class="w-full pl-9 pr-3 py-2.5 rounded-xl bg-slate-800/70 border border-slate-700 text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-indigo-500 text-sm" />
+                   class="w-full pl-9 pr-3 py-2.5 rounded-xl bg-white/5 border border-white/10 text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 text-sm" />
           </div>
         </div>
       </div>
@@ -52,13 +54,13 @@
   </header>
 
   <!-- Toolbar -->
-  <div class="bg-white border-b border-slate-200 sticky top-[57px] z-30">
+  <div class="relative z-10 bg-[#0a0f1e]/70 backdrop-blur-xl border-b border-white/5 sticky top-[57px]">
     <div class="max-w-7xl mx-auto px-5 py-3 flex flex-wrap items-center gap-3">
       <div id="chips" class="flex flex-wrap gap-2"></div>
       <div class="ml-auto flex gap-2 text-xs">
-        <select id="topic-filter" class="px-2.5 py-1.5 rounded-lg border border-slate-300 bg-white text-slate-600"></select>
-        <select id="region-filter" class="px-2.5 py-1.5 rounded-lg border border-slate-300 bg-white text-slate-600"></select>
-        <select id="sort" class="px-2.5 py-1.5 rounded-lg border border-slate-300 bg-white text-slate-600">
+        <select id="topic-filter" class="ctl"></select>
+        <select id="region-filter" class="ctl"></select>
+        <select id="sort" class="ctl">
           <option value="newest">Newest first</option>
           <option value="oldest">Oldest first</option>
           <option value="wordcount">Longest first</option>
@@ -67,16 +69,28 @@
     </div>
   </div>
 
-  <main class="max-w-7xl mx-auto px-5 py-8">
+  <main class="relative z-10 max-w-7xl mx-auto px-5 py-8">
     <div id="grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5"></div>
-    <div id="empty" class="hidden text-center py-20 text-slate-400">No items match your filters.</div>
-    <div id="load-more-wrap" class="text-center mt-10 hidden">
-      <button id="load-more" class="px-6 py-2.5 rounded-xl border border-slate-300 bg-white hover:bg-slate-50 text-sm font-medium shadow-sm">Load more</button>
+    <div id="empty" class="hidden text-center py-20 text-slate-500">No items match your filters.</div>
+    <div id="load-more-wrap" class="hidden text-center mt-10">
+      <button id="load-more" class="px-6 py-2.5 rounded-xl border border-white/12 bg-white/5 hover:bg-white/10 text-sm font-medium">Load more</button>
     </div>
   </main>
 
-  <footer class="border-t border-slate-200 py-8 text-center text-xs text-slate-400 bg-white mt-6">
-    Information Hub · data licensed CC BY-NC 4.0 · generated by an autonomous AI pipeline · updated daily
+  <!-- Footer (shared shell) -->
+  <footer class="site-footer">
+    <div class="max-w-7xl mx-auto px-5 py-10 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-slate-400">
+      <div class="flex items-center gap-2.5">
+        <span class="logo-mark small">IH</span>
+        <span>Information Hub — an autonomous intelligence system by
+          <a class="underline underline-offset-2" href="https://github.com/SatPaingOo" target="_blank" rel="noopener">Sat Paing Oo</a>.
+        </span>
+      </div>
+      <div class="text-xs text-slate-500 text-center sm:text-right leading-relaxed">
+        Data licensed <a class="underline" href="../LICENSE" target="_blank">CC BY-NC 4.0</a> · commercial use by separate license
+        <br />Auto-updates daily via GitHub Actions + free AI tiers
+      </div>
+    </div>
   </footer>
 
   <script src="assets/js/common.js"></script>

@@ -42,11 +42,11 @@ function render(r) {
   const src = r.source || {};
   document.getElementById("meta").innerHTML =
     `${esc(formatDate(r.date))} · ${esc(pretty(col))} · ${r.word_count ? r.word_count.toLocaleString() + " words" : ""}` +
-    (src.name ? ` · <a class="text-indigo-600 hover:underline" href="${esc(src.url || "#")}" target="_blank" rel="noopener">Source: ${esc(src.name)}</a>` : "");
+    (src.name ? ` · <a class="text-indigo-300 hover:underline" href="${esc(src.url || "#")}" target="_blank" rel="noopener">Source: ${esc(src.name)}</a>` : "");
 
   // TLDR
   document.getElementById("tldr").innerHTML =
-    `<div class="text-xs font-semibold text-indigo-500 uppercase tracking-wide mb-1">Summary</div>${esc(r.tldr || "")}`;
+    `<div class="text-xs font-semibold text-indigo-300 uppercase tracking-wide mb-1">Summary</div>${esc(r.tldr || "")}`;
 
   // body
   const body = document.getElementById("body");
@@ -106,9 +106,9 @@ async function renderRelated(relIds, notes) {
       return;
     }
     wrap.innerHTML = items.map((it) => `
-      <a href="${articleHref(it)}" class="block bg-slate-50 border border-slate-200 rounded-lg px-4 py-3 hover:bg-slate-100">
-        <div class="text-xs text-slate-400">${esc(formatDate(it.date))} · ${esc(pretty(it.collection || it.topic || ""))}</div>
-        <div class="font-medium text-slate-800">${esc(it.title)}</div>
+      <a href="${articleHref(it)}" class="mini-card block px-4 py-3">
+        <div class="text-xs text-slate-500">${esc(formatDate(it.date))} · ${esc(pretty(it.collection || it.topic || ""))}</div>
+        <div class="font-medium text-slate-100">${esc(it.title)}</div>
       </a>`).join("");
   } catch (e) {
     wrap.innerHTML = `<span class="text-sm text-slate-400">Related unavailable.</span>`;

@@ -5,53 +5,67 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Knowledge Graph — Information Hub</title>
   <meta name="description" content="Interactive knowledge graph of the Information Hub library — items, entities and taxonomy." />
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%234f46e5'/><text x='50' y='68' font-size='52' text-anchor='middle' fill='white' font-family='Arial' font-weight='bold'>IH</text></svg>" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%236366f1'/><text x='50' y='68' font-size='52' text-anchor='middle' fill='white' font-family='Arial' font-weight='bold'>IH</text></svg>" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
-    tailwind.config = { theme: { extend: { fontFamily: { sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'] } } } };
+    tailwind.config = { theme: { extend: { fontFamily: { sans: ['Inter','ui-sans-serif','system-ui','sans-serif'] } } } };
   </script>
   <script src="https://d3js.org/d3.v7.min.js"></script>
   <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
-<body class="bg-slate-100 text-slate-800 font-sans antialiased">
-  <nav class="bg-white border-b border-slate-200 sticky top-0 z-40 shadow-sm">
-    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+<body class="bg-[#070b16] text-slate-200 font-sans antialiased">
+  <div class="ambient"><div class="blob blob-a"></div><div class="blob blob-b"></div><div class="blob blob-c"></div></div>
+
+  <!-- Nav (shared shell) -->
+  <nav class="site-nav">
+    <div class="max-w-6xl mx-auto px-5 py-3.5 flex items-center justify-between relative z-10">
       <a href="./" class="flex items-center gap-2.5">
-        <span class="logo-mark light">IH</span>
-        <span class="font-bold tracking-tight text-slate-900">Information Hub</span>
+        <span class="logo-mark">IH</span>
+        <span class="font-bold tracking-tight text-white">Information&nbsp;Hub</span>
       </a>
-      <div class="flex items-center gap-1.5 text-sm">
-        <a href="./" class="nav-link-light">Home</a>
-        <a href="./library.html" class="nav-link-light">Library</a>
-        <a href="./graph.html" class="nav-link-light active">Graph</a>
+      <div class="flex items-center gap-1.5">
+        <a href="./" class="nav-link">Home</a>
+        <a href="./library.html" class="nav-link">Library</a>
+        <a href="./graph.html" class="nav-link active">Graph</a>
       </div>
     </div>
   </nav>
 
-  <main class="max-w-6xl mx-auto px-4 py-6">
+  <main class="relative z-10 max-w-6xl mx-auto px-5 py-8">
     <div class="flex flex-wrap items-center justify-between gap-3 mb-4">
       <div>
-        <h1 class="text-2xl font-bold tracking-tight text-slate-900">Knowledge Graph</h1>
-        <p id="graph-stats" class="text-xs text-slate-500"></p>
+        <h1 class="text-2xl font-bold tracking-tight text-white">Knowledge Graph</h1>
+        <p id="graph-stats" class="text-xs text-slate-500 mt-1"></p>
       </div>
       <div class="flex flex-wrap gap-4 text-xs" id="legend"></div>
-      <div class="text-xs text-slate-400">Drag to pan · scroll to zoom · click a node for details</div>
     </div>
+    <p class="text-xs text-slate-500 mb-4">Drag to pan · scroll to zoom · click a node for details</p>
 
-    <div class="bg-white border border-slate-200 rounded-xl overflow-hidden relative">
+    <div class="surface overflow-hidden relative">
       <svg id="graph" width="100%" height="640"></svg>
-      <div id="tooltip" class="hidden absolute bg-slate-900 text-white text-xs rounded-lg px-3 py-2 max-w-xs pointer-events-none z-10"></div>
+      <div id="tooltip" class="hidden absolute bg-slate-900 text-white text-xs rounded-lg px-3 py-2 max-w-xs pointer-events-none z-10 border border-white/10"></div>
     </div>
 
-    <!-- click detail panel -->
-    <div id="node-detail" class="hidden mt-6 bg-white border border-slate-200 rounded-xl p-5"></div>
+    <div id="node-detail" class="hidden mt-6 surface p-5"></div>
   </main>
 
-  <footer class="border-t border-slate-200 py-8 text-center text-xs text-slate-400 bg-white mt-10">
-    Information Hub · graph rebuilt automatically from the daily dataset
+  <!-- Footer (shared shell) -->
+  <footer class="site-footer">
+    <div class="max-w-7xl mx-auto px-5 py-10 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-slate-400">
+      <div class="flex items-center gap-2.5">
+        <span class="logo-mark small">IH</span>
+        <span>Information Hub — an autonomous intelligence system by
+          <a class="underline underline-offset-2" href="https://github.com/SatPaingOo" target="_blank" rel="noopener">Sat Paing Oo</a>.
+        </span>
+      </div>
+      <div class="text-xs text-slate-500 text-center sm:text-right leading-relaxed">
+        Data licensed <a class="underline" href="../LICENSE" target="_blank">CC BY-NC 4.0</a> · commercial use by separate license
+        <br />Auto-updates daily via GitHub Actions + free AI tiers
+      </div>
+    </div>
   </footer>
 
   <script src="assets/js/common.js"></script>
