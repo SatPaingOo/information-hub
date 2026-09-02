@@ -26,25 +26,30 @@ async function init() {
     }));
     setupRange();
     render();
-    renderRunHealth();
+    fetchJSON(`${DATA_DIR}/views/run-stats.json`).then((rs) => {
+      RUN_STATS = rs;
+      renderRunHealth();
+    }).catch(() => { /* run log unavailable */ });
   } catch (e) {
     document.body.insertAdjacentHTML("beforeend",
       `<div class="max-w-6xl mx-auto px-5 py-16 text-red-400">Could not load report data: ${esc(e.message)}</div>`);
   }
 }
 
-/* run health from data/views/run-stats.json (per-day per-model ok/err/tokens) */
+let RUN_STATS = null;
+
+/* run health from data/views/run-stats.json — respects the date range */
 async function renderRunHealth() {
   const wrap = document.getElementById("run-health");
   if (!wrap) return;
-  let rs;
-  try { rs = await fetchJSON(`${DATA_DIR}/views/run-stats.json`); }
-  catch (e) { wrap.innerHTML = `<div class="text-sm text-slate-500">Run log unavailable.</div>`; return; }
+  if (!RUN_STATS) return;
+  const rs = RUN_STATS;
   const perDay = rs.per_day_provider_model || {};
-  const days = Object.keys(perDay).sort().reverse();
-  // aggregate ALL days per model (calls/ok/errors/tokens), keep per-day detail in rows
+  const errAll = rs.errors_by_day || {};
+  // only days inside the current range
+  const daysInRange = Object.keys(perDay).filter((d) => inRange(d)).sort();
   const agg = {};
-  days.forEach((d) => {
+  daysInRange.forEach((d) => {
     Object.entries(perDay[d] || {}).forEach(([prov, models]) => {
       Object.entries(models).forEach(([model, s]) => {
         const k = `${prov}/${model}`;
@@ -55,9 +60,11 @@ async function renderRunHealth() {
   });
   const rows = Object.entries(agg).sort((a, b) => b[1].calls - a[1].calls);
   const maxCalls = rows.length ? rows[0][1].calls : 1;
-  const errSummary = rs.errors_by_day || {};
+  // error codes only within range
   const errCodes = {};
-  Object.values(errSummary).forEach((dayErr) => Object.entries(dayErr).forEach(([c, n]) => { errCodes[c] = (errCodes[c] || 0) + n; }));
+  daysInRange.forEach((d) => {
+    Object.entries(errAll[d] || {}).forEach(([c, n]) => { errCodes[c] = (errCodes[c] || 0) + n; });
+  });
   const errTop = Object.entries(errCodes).sort((a, b) => b[1] - a[1]).slice(0, 5);
 
   wrap.innerHTML = `
@@ -79,7 +86,7 @@ async function renderRunHealth() {
       }).join("") : `<div class="text-sm text-slate-500">No run log yet.</div>`}
     </div>
     <div class="border-t border-white/5 pt-4">
-      <div class="text-xs text-slate-400 font-semibold uppercase tracking-wider mb-2">Error types (all time)</div>
+      <div class="text-xs text-slate-400 font-semibold uppercase tracking-wider mb-2">Error types <span class="text-slate-600 normal-case font-normal">(${range.from} → ${range.to})</span></div>
       <div class="flex flex-wrap gap-2">
         ${errTop.length ? errTop.map(([c, n]) => `<span class="badge type">${esc(c)} · ${n}</span>`).join("") : `<span class="text-xs text-slate-500">No errors recorded</span>`}
       </div>
@@ -95,7 +102,12 @@ function setupRange() {
   const min = dates[0], max = dates[dates.length - 1];
   const df = document.getElementById("date-from"), dt = document.getElementById("date-to");
   df.min = min; df.max = max; dt.min = min; dt.max = max;
-  df.value = min; dt.value = max;
+  // default: last 7 days (the most useful view)
+  const d = new Date(max + "T00:00:00Z");
+  d.setUTCDate(d.getUTCDate() - 6);
+  df.value = d.toISOString().slice(0, 10);
+  dt.value = max;
+  document.getElementById("presets").querySelectorAll("button").forEach((x) => x.classList.toggle("active", x.dataset.days === "7"));
   document.getElementById("presets").querySelectorAll("button").forEach((b) => {
     b.addEventListener("click", () => {
       document.getElementById("presets").querySelectorAll("button").forEach((x) => x.classList.remove("active"));
@@ -103,9 +115,9 @@ function setupRange() {
       const days = parseInt(b.dataset.days, 10);
       if (days === 0) { df.value = min; dt.value = max; }
       else {
-        const d = new Date(max + "T00:00:00Z");
-        d.setUTCDate(d.getUTCDate() - (days - 1));
-        df.value = d.toISOString().slice(0, 10);
+        const d2 = new Date(max + "T00:00:00Z");
+        d2.setUTCDate(d2.getUTCDate() - (days - 1));
+        df.value = d2.toISOString().slice(0, 10);
         dt.value = max;
       }
       applyRange();
@@ -141,6 +153,7 @@ function render() {
   renderCharts(items);
   renderModelTable(items);
   renderDailyLog(items);
+  if (RUN_STATS) renderRunHealth();  // re-filter run health to the new range
 }
 
 function countBy(items, keyFn) {
