@@ -40,17 +40,33 @@ function wordCount(w) {
   return w ? `${w.toLocaleString()} words` : "";
 }
 
-/* Entrance reveal: observe .reveal elements and add .in when visible. */
+/* Entrance reveal: add .in when an element scrolls into view.
+   Falls back to revealing everything immediately when IntersectionObserver
+   is unavailable or fails to fire (e.g. some embedded webviews). */
 function initReveal() {
-  const els = document.querySelectorAll(".reveal");
-  if (!els.length || !("IntersectionObserver" in window)) {
-    els.forEach((el) => el.classList.add("in"));
+  const els = Array.from(document.querySelectorAll(".reveal"));
+  if (!els.length) return;
+  const reveal = (el) => el.classList.add("in");
+  const revealVisible = () => {
+    els.forEach((el) => {
+      const r = el.getBoundingClientRect();
+      if (r.top < window.innerHeight * 0.94 && r.bottom > 0) reveal(el);
+    });
+  };
+  if (!("IntersectionObserver" in window)) {
+    els.forEach(reveal);
     return;
   }
+  let observerFired = false;
   const io = new IntersectionObserver((entries) => {
-    entries.forEach((en) => { if (en.isIntersecting) { en.target.classList.add("in"); io.unobserve(en.target); } });
-  }, { threshold: 0.08 });
+    entries.forEach((en) => { if (en.isIntersecting) { reveal(en.target); io.unobserve(en.target); observerFired = true; } });
+  }, { threshold: 0.05 });
   els.forEach((el) => io.observe(el));
+  // safety net: after load, reveal anything already in view; re-check on
+  // scroll/resize in case the observer never fired
+  setTimeout(() => { if (!observerFired || els.some((el) => !el.classList.contains("in"))) revealVisible(); }, 350);
+  window.addEventListener("scroll", revealVisible, { passive: true });
+  window.addEventListener("resize", revealVisible);
 }
 
 /* Close the mobile nav on outside click, ESC, or a menu-link tap.
