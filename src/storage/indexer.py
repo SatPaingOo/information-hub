@@ -108,7 +108,7 @@ class Indexer:
             "source": r["source"]["name"], "source_url": r["source"]["url"],
             "entities": [e["name"] for e in r.get("entities", [])],
             "tags": r.get("tags", []),
-            "file": f"data-set/{_record_name(r)}.json",
+            "file": f"collections/data-set/{_record_name(r)}.json",
         } for r in sorted(records, key=lambda x: x["date"], reverse=True)]
         (self.index_dir / "index.json").write_text(
             json.dumps(index, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
