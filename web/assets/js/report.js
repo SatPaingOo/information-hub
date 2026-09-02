@@ -107,6 +107,7 @@ function setupRange() {
   d.setUTCDate(d.getUTCDate() - 6);
   df.value = d.toISOString().slice(0, 10);
   dt.value = max;
+  range = { from: df.value, to: dt.value };
   document.getElementById("presets").querySelectorAll("button").forEach((x) => x.classList.toggle("active", x.dataset.days === "7"));
   document.getElementById("presets").querySelectorAll("button").forEach((b) => {
     b.addEventListener("click", () => {
@@ -134,7 +135,11 @@ function applyRange() {
   range = { from: document.getElementById("date-from").value, to: document.getElementById("date-to").value };
   render();
 }
-function inRange(d) { return (!range.from || d >= range.from) && (!range.to || d <= range.to); }
+function inRange(d) {
+  const from = range.from || document.getElementById("date-from").value;
+  const to = range.to || document.getElementById("date-to").value;
+  return (!from || d >= from) && (!to || d <= to);
+}
 
 /* ---- render ---- */
 function filtered() {
