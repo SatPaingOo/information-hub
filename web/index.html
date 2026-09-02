@@ -30,6 +30,8 @@
         <a href="./library.html" class="nav-link">Library</a>
         <a href="./graph.html" class="nav-link">Graph</a>
         <a href="./report.html" class="nav-link">Report</a>
+        <a href="./dataset.html" class="nav-link">Dataset</a>
+        <a href="./report.html" class="nav-link">Report</a>
       </div>
     </div>
   </nav>
@@ -54,6 +56,16 @@
         <a href="./graph.html" class="px-6 py-3 rounded-xl font-semibold border border-white/15 hover:bg-white/5 transition-colors">Explore the graph</a>
       </div>
       <div id="stats" class="mt-14 grid grid-cols-2 sm:grid-cols-4 gap-3 max-w-3xl mx-auto"></div>
+      <!-- 7-day activity (portfolio) -->
+      <div class="mt-10 max-w-3xl mx-auto text-left">
+        <div class="surface p-4">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-xs text-slate-400 font-semibold uppercase tracking-wider">Last 7 days</span>
+            <a href="./report.html" class="text-xs text-indigo-300 hover:underline">Full report →</a>
+          </div>
+          <div id="mini-chart" class="flex items-end gap-1.5 h-16"></div>
+        </div>
+      </div>
     </div>
   </header>
 
@@ -97,12 +109,12 @@
       </div>
       <div class="text-xs text-slate-500 text-center sm:text-right leading-relaxed">
         Data licensed <a class="underline" href="../LICENSE" target="_blank">CC BY-NC 4.0</a> · commercial use by separate license
-        <br />Auto-updates daily via GitHub Actions + free AI tiers
+        <br />Auto-updates daily · <a class="underline" href="../data/views/feed.xml">RSS feed</a>
       </div>
     </div>
   </footer>
 
-  <script src="assets/js/common.js?v=6"></script>
-  <script src="assets/js/landing.js?v=6"></script>
+  <script src="assets/js/common.js?v=8"></script>
+  <script src="assets/js/landing.js?v=7"></script>
 </body>
 </html>

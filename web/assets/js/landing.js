@@ -23,6 +23,7 @@ async function init() {
     renderLatest(items);
     renderCollections(items);
     renderHow();
+    renderMiniChart(items);
     // live badge: show most recent date
     if (items.length) {
       const el = document.getElementById("live-text");
@@ -32,6 +33,26 @@ async function init() {
     document.getElementById("latest").innerHTML =
       `<div class="col-span-full text-center py-16 text-slate-400">Could not load data: ${esc(e.message)}</div>`;
   }
+}
+
+function renderMiniChart(items) {
+  const el = document.getElementById("mini-chart");
+  if (!el) return;
+  const byDay = {};
+  items.forEach((i) => { byDay[i.date] = (byDay[i.date] || 0) + 1; });
+  // last 7 dates present in data (descending)
+  const dates = Object.keys(byDay).sort().reverse().slice(0, 7).reverse();
+  if (!dates.length) return;
+  const vals = dates.map((d) => byDay[d]);
+  const max = Math.max(...vals, 1);
+  el.innerHTML = dates.map((d, i) => {
+    const h = Math.max(8, Math.round((vals[i] / max) * 56));
+    const today = i === dates.length - 1;
+    return `<div class="flex-1 flex flex-col items-center gap-1">
+      <div class="w-full rounded-t-md ${today ? "bg-gradient-to-t from-indigo-600 to-violet-400" : "bg-indigo-500/50 hover:bg-indigo-400/70"}" style="height:${h}px" title="${esc(d)}: ${vals[i]}"></div>
+      <span class="text-[9px] text-slate-500">${d.slice(5)}</span>
+    </div>`;
+  }).join("");
 }
 
 function renderStats(items) {

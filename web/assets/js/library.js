@@ -54,6 +54,27 @@ async function init() {
   }
   applyFilters();
   renderDayBanner();
+  renderCollectionHead();
+}
+
+const COLL_META = {
+  "world-news": { name: "World News", icon: "🌍", desc: "Geopolitics, conflicts, diplomacy and global affairs." },
+  "tech-news": { name: "Tech & AI", icon: "🤖", desc: "AI research, models, open source and the companies building the future." },
+  politics: { name: "Politics", icon: "🏛️", desc: "Policy, elections and political economy from UK and global sources." },
+  products: { name: "Products", icon: "📦", desc: "New launches and tools worth knowing — from Product Hunt and beyond." },
+};
+
+function renderCollectionHead() {
+  const meta = COLL_META[state.activeCollection];
+  const h = document.getElementById("lib-title");
+  const s = document.getElementById("lib-sub");
+  if (meta) {
+    h.textContent = `${meta.icon} ${meta.name}`;
+    if (s) s.textContent = meta.desc;
+  } else {
+    h.textContent = "Every briefing, searchable";
+    if (s) s.textContent = "";
+  }
 }
 
 function renderDayBanner() {
@@ -102,6 +123,7 @@ function buildChips(items) {
     b.onclick = () => {
       state.activeCollection = name;
       document.querySelectorAll("#chips .chip").forEach((c) => c.classList.toggle("active", c.dataset.name === name));
+      renderCollectionHead();
       applyFilters();
     };
     chipsEl.appendChild(b);

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dataset — Information Hub</title>
+  <meta name="description" content="The Information Hub machine dataset — schema, stats, licensing and how to license it for commercial use." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%236366f1'/><text x='50' y='68' font-size='52' text-anchor='middle' fill='white' font-family='Arial' font-weight='bold'>IH</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = { theme: { extend: { fontFamily: { sans: ['Inter','ui-sans-serif','system-ui','sans-serif'], display: ['Newsreader','Georgia','serif'] } } } };
+  </script>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body class="bg-[#070b16] text-slate-200 font-sans antialiased">
+  <div class="ambient"><div class="blob blob-a"></div><div class="blob blob-b"></div><div class="blob blob-c"></div></div>
+
+  <nav class="site-nav">
+    <div class="max-w-7xl mx-auto px-5 py-3.5 flex items-center justify-between relative z-10">
+      <a href="./" class="flex items-center gap-2.5">
+        <span class="logo-mark">IH</span>
+        <span class="font-bold tracking-tight text-white">Information&nbsp;Hub</span>
+      </a>
+      <div class="flex items-center gap-1">
+        <a href="./" class="nav-link">Home</a>
+        <a href="./library.html" class="nav-link">Library</a>
+        <a href="./graph.html" class="nav-link">Graph</a>
+        <a href="./report.html" class="nav-link">Report</a>
+        <a href="./dataset.html" class="nav-link active">Dataset</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="relative z-10 max-w-5xl mx-auto px-5 py-10">
+    <div class="mb-8">
+      <p class="text-indigo-300 text-xs font-semibold uppercase tracking-widest mb-1.5">Machine dataset</p>
+      <h1 class="text-3xl sm:text-4xl font-display font-semibold text-white mb-3">A structured, traceable intelligence dataset</h1>
+      <p class="text-slate-400 max-w-2xl">Every briefing is stored as a schema-validated JSON record with full provenance —
+        which provider/model wrote it, how it was verified, and where it came from. Rebuilt and versioned daily.</p>
+    </div>
+
+    <!-- KPI + actions -->
+    <div class="grid md:grid-cols-[1fr_auto] gap-6 mb-10 items-start">
+      <div id="kpis" class="grid grid-cols-2 sm:grid-cols-4 gap-3"></div>
+      <div class="surface p-5 min-w-[220px]">
+        <h2 class="text-sm font-semibold text-white mb-3">Get the data</h2>
+        <div class="space-y-2 text-sm">
+          <a href="../data/collections/data-set/" class="badge collection-default w-full justify-center py-1.5 hover:bg-white/10">📂 Browse JSON records</a>
+          <a href="../data/views/index.json" target="_blank" class="badge collection-default w-full justify-center py-1.5 hover:bg-white/10">🗂 index.json (catalog)</a>
+          <a href="../data/views/feed.xml" class="badge collection-default w-full justify-center py-1.5 hover:bg-white/10">📡 RSS feed</a>
+          <a href="../data/views/graph.json" class="badge collection-default w-full justify-center py-1.5 hover:bg-white/10">🕸 graph.json</a>
+          <a href="../LICENSE" target="_blank" class="badge collection-default w-full justify-center py-1.5 hover:bg-white/10">⚖️ License</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- licensing -->
+    <div class="grid md:grid-cols-2 gap-5 mb-8">
+      <div class="surface p-6">
+        <h2 class="text-white font-semibold mb-2">Non-commercial — CC BY-NC 4.0</h2>
+        <p class="text-sm text-slate-400 leading-relaxed">Free to use for personal research, learning and evaluation with attribution.
+          Share and adapt freely for non-commercial purposes.</p>
+        <a href="../LICENSE" target="_blank" class="text-xs text-indigo-300 hover:underline mt-2 inline-block">Read the license →</a>
+      </div>
+      <div class="surface p-6 border-indigo-500/30">
+        <h2 class="text-white font-semibold mb-2">Commercial — separate license</h2>
+        <p class="text-sm text-slate-400 leading-relaxed">AI training/fine-tuning, resale, rental, paid products and syndication require a
+          negotiated license. Contact the maintainer with your use case and volume.</p>
+        <a href="mailto:satpaingoo777@gmail.com" class="text-xs text-indigo-300 hover:underline mt-2 inline-block">Request a commercial license →</a>
+      </div>
+    </div>
+
+    <!-- schema -->
+    <div class="surface p-6 mb-8">
+      <h2 class="text-white font-semibold mb-1">Record schema</h2>
+      <p class="text-xs text-slate-500 mb-4">Each record in <code class="text-indigo-300">data/collections/data-set/&lt;date&gt;-&lt;nnn&gt;-&lt;slug&gt;.json</code> contains:</p>
+      <div id="schema" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-2 text-xs"></div>
+    </div>
+
+    <!-- weekly versions -->
+    <div class="surface p-6">
+      <h2 class="text-white font-semibold mb-1">Weekly dataset versions</h2>
+      <p class="text-xs text-slate-500 mb-4">A <code class="text-indigo-300">data-YYYY-MM-DD</code> git tag is created automatically every week,
+        giving you a stable, citable snapshot of the dataset.</p>
+      <div id="versions" class="text-sm space-y-1"></div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="max-w-7xl mx-auto px-5 py-10 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-slate-400">
+      <div class="flex items-center gap-2.5">
+        <span class="logo-mark small">IH</span>
+        <span>Information Hub — an autonomous intelligence system by
+          <a class="underline underline-offset-2" href="https://github.com/SatPaingOo" target="_blank" rel="noopener">Sat Paing Oo</a>.
+        </span>
+      </div>
+      <div class="text-xs text-slate-500 text-center sm:text-right leading-relaxed">
+        Data licensed <a class="underline" href="../LICENSE" target="_blank">CC BY-NC 4.0</a> · commercial use by separate license
+        <br />Auto-updates daily · <a class="underline" href="../data/views/feed.xml">RSS feed</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/common.js?v=8"></script>
+  <script src="assets/js/dataset.js"></script>
+</body>
+</html>

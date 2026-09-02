@@ -130,6 +130,7 @@ class Indexer:
         # ---- stats (report page + badges) --------------------------------
         self._write_stats(records)
         self._write_run_stats()
+        self._write_feed(records)
 
         # ---- generated Obsidian views ---------------------------------
         self._write_daily_hubs(records)
@@ -244,6 +245,48 @@ class Indexer:
         }
         (self.index_dir / "run-stats.json").write_text(
             json.dumps(out, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+
+    def _write_feed(self, records: list[dict[str, Any]]) -> None:
+        """Generate a public RSS 2.0 feed (data/views/feed.xml) of the latest
+        briefings — makes the dataset subscribable (data-product feature)."""
+        from xml.sax.saxutils import escape
+        recs = sorted(records, key=lambda r: r["date"], reverse=True)[:50]
+        now = dt.datetime.now(dt.timezone.utc).strftime("%a, %d %b %Y %H:%M:%S +0000")
+        items = []
+        for r in recs:
+            link = (f"https://satpaingoo.github.io/information-hub/web/article.html"
+                    f"?file=collections%2Fdata-set%2F{_record_name(r)}.json")
+            pub = r.get("date", "")
+            try:
+                pubd = dt.date.fromisoformat(pub)
+                pub_rfc = pubd.strftime("%a, %d %b %Y 00:00:00 +0000")
+            except ValueError:
+                pub_rfc = now
+            title = escape(r.get("title", ""))
+            desc = escape((r.get("tldr") or "")[:400])
+            guid = escape(r.get("id") or r["key"])
+            items.append(
+                "    <item>\n"
+                f"      <title>{title}</title>\n"
+                f"      <link>{link}</link>\n"
+                f"      <guid isPermaLink=\"false\">{guid}</guid>\n"
+                f"      <pubDate>{pub_rfc}</pubDate>\n"
+                f"      <description>{desc}</description>\n"
+                "    </item>")
+        feed = (
+            "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n"
+            "<rss version=\"2.0\">\n"
+            "  <channel>\n"
+            "    <title>Information Hub — Daily Intelligence Library</title>\n"
+            "    <link>https://satpaingoo.github.io/information-hub/web/</link>\n"
+            "    <description>Deep, structured briefings written daily by an autonomous multi-provider AI pipeline.</description>\n"
+            "    <language>en</language>\n"
+            f"    <lastBuildDate>{now}</lastBuildDate>\n"
+            f"    <pubDate>{now}</pubDate>\n"
+            + "\n".join(items) + "\n"
+            "  </channel>\n"
+            "</rss>\n")
+        (self.index_dir / "feed.xml").write_text(feed, encoding="utf-8")
 
     # ---- helpers ------------------------------------------------------
     def _clean_index_dir(self) -> None:

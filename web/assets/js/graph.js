@@ -77,6 +77,10 @@ function build(g, idToFile) {
     .call(d3.drag()
       .on("start", dragStart).on("drag", drag).on("end", dragEnd));
 
+  // module-level refs for search/type filtering
+  window.__graph = { nodeSel: node, linkSel: link };
+  setupGraphControls(byId);
+
   // item = small dot; entity = circle with label
   const r = (n) => (n.type === "item" ? 2.5 : n.type === "taxonomy" ? 3.5 : Math.min(16, 5 + (n.title || n.name || "").length * 0.6));
   node.append("circle")
@@ -117,6 +121,61 @@ function build(g, idToFile) {
     if (!ev.active) simulation.alphaTarget(0);
     d.fx = null; d.fy = null;
   }
+}
+
+function setupGraphControls(byId) {
+  const input = document.getElementById("graph-search");
+  const sel = document.getElementById("graph-type");
+  if (!input || !sel) return;
+  // populate type filter from legend types
+  const types = Object.keys(TYPE_COLORS).filter((t) => t !== "item" && t !== "taxonomy");
+  types.forEach((t) => {
+    const o = document.createElement("option");
+    o.value = t; o.textContent = TYPE_LABEL[t] || t;
+    sel.appendChild(o);
+  });
+  const apply = () => {
+    const q = (input.value || "").trim().toLowerCase();
+    const t = sel.value;
+    const g = window.__graph;
+    if (!g) return;
+    const noFilter = !q && t === "all";
+    g.nodeSel.style("opacity", (d) => {
+      if (noFilter) return 1;
+      const label = (d.title || d.name || "").toLowerCase();
+      const typeMatch = t === "all" || (d.type || "") === t || (t === "item" && d.type === "item");
+      const qMatch = !q || label.includes(q);
+      return typeMatch && qMatch ? 1 : 0.12;
+    });
+    g.nodeSel.select("circle").attr("stroke", (d) => {
+      if (noFilter) return "#0f172a";
+      const label = (d.title || d.name || "").toLowerCase();
+      const typeMatch = t === "all" || (d.type || "") === t;
+      const qMatch = !q || label.includes(q);
+      return typeMatch && qMatch ? "#a5b4fc" : "#0f172a";
+    }).attr("stroke-width", (d) => {
+      const label = (d.title || d.name || "").toLowerCase();
+      const typeMatch = t === "all" || (d.type || "") === t;
+      const qMatch = !q || label.includes(q);
+      return typeMatch && qMatch ? 2 : 1;
+    });
+    // dim links not touching a visible node
+    g.linkSel.style("opacity", (d) => {
+      if (noFilter) return 1;
+      const s = d.source.id || d.source, tg = d.target.id || d.target;
+      const sn = byId[s], tn = byId[tg];
+      const vis = (n) => {
+        if (!n) return false;
+        const label = (n.title || n.name || "").toLowerCase();
+        const tm = t === "all" || (n.type || "") === t;
+        return tm && (!q || label.includes(q));
+      };
+      return vis(sn) && vis(tn) ? 1 : 0.06;
+    });
+  };
+  input.addEventListener("input", apply);
+  sel.addEventListener("change", apply);
+  void byId;
 }
 
 function buildLegend() {
