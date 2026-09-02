@@ -149,7 +149,7 @@ body {
 
 /* ---------- misc ---------- */
 .text-balance { text-wrap: balance; }
-.surface { background: rgba(255,255,255,.045); border: 1px solid rgba(255,255,255,.09); border-radius: 1rem; }
+.surface { overflow-x: clip; background: rgba(255,255,255,.045); border: 1px solid rgba(255,255,255,.09); border-radius: 1rem; }
 ::selection { background: rgba(99,102,241,.4); }
 
 /* ---------- section head (shared pattern) ---------- */
@@ -201,3 +201,6 @@ a:hover .read-arrow { transform: translateX(3px); }
   .nav-links .nav-link { padding: .7rem .8rem; border-radius: .5rem; }
   .nav-links .nav-link:hover { background: rgba(255,255,255,.06); }
 }
+/* run-health rows: inner horizontal scroll instead of widening the page */
+.run-health-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.run-health-list { min-width: 560px; }

@@ -68,7 +68,7 @@ async function renderRunHealth() {
   const errTop = Object.entries(errCodes).sort((a, b) => b[1] - a[1]).slice(0, 5);
 
   wrap.innerHTML = `
-    <div class="space-y-2.5 mb-6">
+    <div class="run-health-scroll mb-6"><div class="space-y-2.5 run-health-list">
       ${rows.length ? rows.map(([k, s]) => {
         const failRate = s.calls ? Math.round((s.errors / s.calls) * 100) : 0;
         const color = s.errors === 0 ? "#34d399" : failRate > 50 ? "#fb7185" : "#fbbf24";
@@ -84,7 +84,7 @@ async function renderRunHealth() {
           <span class="w-24 text-right text-slate-500 text-xs">${s.tokens.toLocaleString()} tok</span>
         </div>`;
       }).join("") : `<div class="text-sm text-slate-500">No run log yet.</div>`}
-    </div>
+    </div></div>
     <div class="border-t border-white/5 pt-4">
       <div class="text-xs text-slate-400 font-semibold uppercase tracking-wider mb-2">Error types <span class="text-slate-600 normal-case font-normal">(${range.from} → ${range.to})</span></div>
       <div class="flex flex-wrap gap-2">
