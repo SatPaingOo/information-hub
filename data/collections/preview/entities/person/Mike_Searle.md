@@ -10,4 +10,4 @@ backlink_count: 1
 
 ## Referenced by
 
-- 2026-08-27 · [[info:item:world:global:2026-08-27-002]] — What we know about deadly Nepal‑Tibet floods
+- 2026-08-27 · [[2026-08-27-002-what-we-know-about-deadly-nepal-tibet-floods]] — What we know about deadly Nepal‑Tibet floods

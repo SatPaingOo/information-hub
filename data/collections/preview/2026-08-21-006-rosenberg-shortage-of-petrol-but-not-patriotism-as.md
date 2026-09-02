@@ -56,15 +56,15 @@ The fuel crisis in Moscow represents a harbinger of deeper economic challenges a
 
 ## Entities
 
-- [[Vladimir Putin]] — *person* (Russian President dismissing infrastructure attack consequences)
+- [[Vladimir_Putin]] — *person* (Russian President dismissing infrastructure attack consequences)
 - [[Wildberries]] — *organization* (Russian e-commerce platform targeted by Ukrainian strikes)
-- [[Russian Flag Day]] — *event* (Patriotic celebration coinciding with fuel shortages)
-- [[Public Opinion Foundation]] — *organization* (Russian polling organization reporting rising anxiety)
+- [[Russian_Flag_Day]] — *event* (Patriotic celebration coinciding with fuel shortages)
+- [[Public_Opinion_Foundation]] — *organization* (Russian polling organization reporting rising anxiety)
 
 ## Related
 
-- [[info:item:world:global:2026-08-21-004]]
-- [[info:item:world:global:2026-08-21-005]]
+- [[2026-08-21-004-uk-france-germany-italy-and-canada-condemn-israel-s-west]]
+- [[2026-08-21-005-israel-re-establishes-closed-west-bank-settlement-defying]]
 
 ---
 

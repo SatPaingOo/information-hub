@@ -49,15 +49,15 @@ In the short term, Washington is likely to gauge Moscow’s receptiveness before
 
 ## Entities
 
-- [[John Ratcliffe]] — *person* (CIA Director leading the Moscow visit)
-- [[Vladimir Putin]] — *person* (Russian President, potential recipient of the talks)
+- [[John_Ratcliffe]] — *person* (CIA Director leading the Moscow visit)
+- [[Vladimir_Putin]] — *person* (Russian President, potential recipient of the talks)
 - [[CIA]] — *organization* (US intelligence agency coordinating the mission)
-- [[Evan Gershkovich]] — *person* (Former US detainee whose release was brokered by the CIA)
+- [[Evan_Gershkovich]] — *person* (Former US detainee whose release was brokered by the CIA)
 
 ## Related
 
-- [[info:item:world:global:2026-08-26-001]]
-- [[info:item:world:global:2026-08-26-002]]
+- [[2026-08-26-001-canada-announces-dollar-for-dollar-retaliatory-tariffs-on]]
+- [[2026-08-26-002-china-hits-out-at-illegal-new-us-sanctions-on-iran-and]]
 
 ---
 

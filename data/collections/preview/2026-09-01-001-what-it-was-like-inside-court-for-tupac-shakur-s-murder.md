@@ -50,16 +50,16 @@ The verdict is likely to be appealed, meaning the legal saga may continue throug
 
 ## Entities
 
-- [[Duane "Keffe D" Davis]] — *person* (defendant)
-- [[Tupac Shakur]] — *person* (victim)
-- [[Anoushka Mutanda-Dougherty]] — *person* (reporter)
+- [[Duane__Keffe_D__Davis]] — *person* (defendant)
+- [[Tupac_Shakur]] — *person* (victim)
+- [[Anoushka_Mutanda-Dougherty]] — *person* (reporter)
 - [[BBC]] — *organization* (media outlet)
 
 ## Related
 
-- [[info:item:world:global:2026-08-31-001]]
-- [[info:item:world:global:2026-08-31-002]]
-- [[info:item:world:global:2026-08-31-003]]
+- [[2026-08-31-001-eight-killed-and-18-missing-after-ferry-capsizes-off]]
+- [[2026-08-31-002-us-and-iran-trade-strikes-for-first-time-in-weeks]]
+- [[2026-08-31-003-iceland-votes-against-restarting-eu-membership-talks]]
 
 ---
 

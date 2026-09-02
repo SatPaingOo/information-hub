@@ -50,14 +50,14 @@ As visual AI matures, future iterations will likely incorporate multimodal signa
 
 ## Entities
 
-- [[Computer Vision]] — *concept* (underpins the detection pipeline)
+- [[Computer_Vision]] — *concept* (underpins the detection pipeline)
 - [[Amazon]] — *company* (potential adopter of large‑scale image moderation)
 - [[Crowdsourcing]] — *concept* (used for budgeted human verification)
 
 ## Related
 
-- [[info:item:ai-ml:global:2026-08-24-004]]
-- [[info:item:ai-ml:global:2026-08-24-005]]
+- [[2026-08-24-004-robust-federated-training-via-collaborative-machine]]
+- [[2026-08-24-005-conditioning-lstm-decoder-and-bi-directional-attention]]
 
 ---
 

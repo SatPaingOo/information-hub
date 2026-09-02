@@ -56,17 +56,17 @@ The pattern of Israeli strikes in Syria appears to be intensifying amid regional
 
 ## Entities
 
-- [[Benjamin Netanyahu]] — *person* (Prime Minister of Israel who authorized military operations)
-- [[Israel Katz]] — *person* (Israeli Defence Minister who publicly addressed the strikes)
-- [[Tom Barrack]] — *person* (US Ambassador to Turkey who criticized Israeli actions)
-- [[Israeli Defence Forces]] — *organization* (Conducted the strikes in Syrian territory)
-- [[Syrian Government]] — *organization* (Condemned the strikes as violations of sovereignty)
-- [[Middle East]] — *region* (Geographic context for the escalating tensions)
+- [[Benjamin_Netanyahu]] — *person* (Prime Minister of Israel who authorized military operations)
+- [[Israel_Katz]] — *person* (Israeli Defence Minister who publicly addressed the strikes)
+- [[Tom_Barrack]] — *person* (US Ambassador to Turkey who criticized Israeli actions)
+- [[Israeli_Defence_Forces]] — *organization* (Conducted the strikes in Syrian territory)
+- [[Syrian_Government]] — *organization* (Condemned the strikes as violations of sovereignty)
+- [[Middle_East]] — *region* (Geographic context for the escalating tensions)
 
 ## Related
 
-- [[info:item:world:global:2026-08-23-001]]
-- [[info:item:world:global:2026-08-23-002]]
+- [[2026-08-23-001-fourteen-killed-in-strike-on-myanmar-monastery]]
+- [[2026-08-23-002-rescuers-dig-through-ukraine-mall-wreckage-as-zelensky]]
 
 ---
 

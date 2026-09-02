@@ -54,13 +54,13 @@ The ruling is likely to prompt a recalibration of defense‑AI procurement polic
 ## Entities
 
 - [[Anthropic]] — *company* (subject of supply‑chain designation and lawsuit)
-- [[Judge Rita Lin]] — *person* (presiding judge who ruled the retaliation illegal)
-- [[U.S. Department of Defense]] — *organization* (agency that imposed the supply‑chain risk designation)
+- [[Judge_Rita_Lin]] — *person* (presiding judge who ruled the retaliation illegal)
+- [[U_S__Department_of_Defense]] — *organization* (agency that imposed the supply‑chain risk designation)
 
 ## Related
 
-- [[info:item:world:global:2026-08-27-001]]
-- [[info:item:world:global:2026-08-27-002]]
+- [[2026-08-27-001-collapsed-glacier-likely-caused-devastating-nepal-tibet]]
+- [[2026-08-27-002-what-we-know-about-deadly-nepal-tibet-floods]]
 
 ---
 

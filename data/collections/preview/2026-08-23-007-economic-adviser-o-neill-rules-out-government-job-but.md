@@ -57,15 +57,15 @@ In the run‑up to the October 2026 budget, O'Neill’s stance suggests the gove
 
 ## Entities
 
-- [[Lord Jim O'Neill]] — *person* (former chief economist at Goldman Sachs, current external adviser to the Prime Minister)
-- [[Andy Burnham]] — *person* (Mayor of Greater Manchester, potential employer for O'Neill)
-- [[Rishi Sunak]] — *person* (Prime Minister, recipient of O'Neill's advice)
-- [[Greater Manchester]] — *region* (example of successful devolution‑driven growth)
+- [[Lord_Jim_O_Neill]] — *person* (former chief economist at Goldman Sachs, current external adviser to the Prime Minister)
+- [[Andy_Burnham]] — *person* (Mayor of Greater Manchester, potential employer for O'Neill)
+- [[Rishi_Sunak]] — *person* (Prime Minister, recipient of O'Neill's advice)
+- [[Greater_Manchester]] — *region* (example of successful devolution‑driven growth)
 
 ## Related
 
-- [[info:item:politics:global:2026-08-21-001]]
-- [[info:item:politics:global:2026-08-18-001]]
+- [[2026-08-21-001-councils-turn-to-ai-in-attempt-to-fill-4bn-black-hole]]
+- [[2026-08-18-001-burnham-exchanged-messages-with-person-posing-as-trump-s]]
 
 ---
 

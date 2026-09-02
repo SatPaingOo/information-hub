@@ -10,4 +10,4 @@ backlink_count: 1
 
 ## Referenced by
 
-- 2026-08-24 · [[info:item:ai-ml:global:2026-08-24-005]] — Conditioning LSTM Decoder and Bi-directional Attention Based Question Answering System
+- 2026-08-24 · [[2026-08-24-005-conditioning-lstm-decoder-and-bi-directional-attention]] — Conditioning LSTM Decoder and Bi-directional Attention Based Question Answering System

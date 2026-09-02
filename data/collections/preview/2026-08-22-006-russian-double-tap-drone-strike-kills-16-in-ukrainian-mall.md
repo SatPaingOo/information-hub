@@ -57,15 +57,15 @@ If the double‑tap pattern continues, civilian centres across Ukraine may becom
 
 ## Entities
 
-- [[Volodymyr Zelensky]] — *person* (Ukrainian President condemning the attack)
-- [[Vladimir Putin]] — *person* (Russian President overseeing the broader war effort)
-- [[Kryvyi Rih]] — *region* (Location of the mall attack)
-- [[Amnesty International]] — *organization* (Human rights group calling for an investigation)
+- [[Volodymyr_Zelensky]] — *person* (Ukrainian President condemning the attack)
+- [[Vladimir_Putin]] — *person* (Russian President overseeing the broader war effort)
+- [[Kryvyi_Rih]] — *region* (Location of the mall attack)
+- [[Amnesty_International]] — *organization* (Human rights group calling for an investigation)
 
 ## Related
 
-- [[info:item:world:global:2026-08-22-001]]
-- [[info:item:world:global:2026-08-22-002]]
+- [[2026-08-22-001-russian-double-tap-drone-strike-kills-15-in-ukrainian-mall]]
+- [[2026-08-22-002-we-have-more-work-to-do-says-canada-negotiator-as-us-trade]]
 
 ---
 

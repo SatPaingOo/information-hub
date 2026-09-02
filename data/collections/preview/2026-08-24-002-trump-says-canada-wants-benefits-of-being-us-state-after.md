@@ -55,15 +55,15 @@ The trade war trajectory suggests limited near-term prospects for de-escalation 
 
 ## Entities
 
-- [[Donald Trump]] — *person* (US President making trade policy statements)
-- [[Mark Carney]] — *person* (Canadian Prime Minister implementing retaliatory measures)
+- [[Donald_Trump]] — *person* (US President making trade policy statements)
+- [[Mark_Carney]] — *person* (Canadian Prime Minister implementing retaliatory measures)
 - [[USMCA]] — *organization* (North American trade agreement under review)
-- [[Canadian Ministry of Foreign Affairs]] — *organization* (Coordinating diplomatic response to US tariffs)
+- [[Canadian_Ministry_of_Foreign_Affairs]] — *organization* (Coordinating diplomatic response to US tariffs)
 
 ## Related
 
-- [[info:item:world:global:2026-08-23-001]]
-- [[info:item:world:global:2026-08-23-002]]
+- [[2026-08-23-001-fourteen-killed-in-strike-on-myanmar-monastery]]
+- [[2026-08-23-002-rescuers-dig-through-ukraine-mall-wreckage-as-zelensky]]
 
 ---
 

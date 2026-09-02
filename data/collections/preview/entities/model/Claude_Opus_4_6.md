@@ -10,5 +10,5 @@ backlink_count: 2
 
 ## Referenced by
 
-- 2026-08-26 · [[info:item:products:global:2026-08-26-006]] — Ninjō AI
-- 2026-08-22 · [[info:item:ai-ml:global:2026-08-22-004]] — Anthropic’s Opus 4.6 is a smut-machine
+- 2026-08-26 · [[2026-08-26-006-ninj-ai]] — Ninjō AI
+- 2026-08-22 · [[2026-08-22-004-anthropic-s-opus-4-6-is-a-smut-machine]] — Anthropic’s Opus 4.6 is a smut-machine

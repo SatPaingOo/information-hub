@@ -57,15 +57,15 @@ In the short term, Haakon’s primary challenge will be to translate the emotion
 
 ## Entities
 
-- [[Haakon VIII]] — *person* (new monarch of Norway)
-- [[Harald V]] — *person* (predecessor and father of Haakon)
-- [[Mette‑Marit]] — *person* (queen consort, recovering from lung transplant)
-- [[Norwegian Parliament (Storting)]] — *organization* (venue for oath of allegiance)
+- [[Haakon_VIII]] — *person* (new monarch of Norway)
+- [[Harald_V]] — *person* (predecessor and father of Haakon)
+- [[Mette_Marit]] — *person* (queen consort, recovering from lung transplant)
+- [[Norwegian_Parliament__Storting_]] — *organization* (venue for oath of allegiance)
 
 ## Related
 
-- [[info:item:world:global:2026-08-30-001]]
-- [[info:item:world:global:2026-08-30-002]]
+- [[2026-08-30-001-iceland-eu-referendum-on-a-knife-edge-as-counting-continues]]
+- [[2026-08-30-002-whatsapp-chat-used-to-send-cash-for-crime-and-extremism]]
 
 ---
 

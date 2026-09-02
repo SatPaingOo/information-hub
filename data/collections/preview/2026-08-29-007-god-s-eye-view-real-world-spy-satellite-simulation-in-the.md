@@ -54,17 +54,17 @@ Over the next 12‑18 months God’s Eye View is likely to expand its sensor cat
 
 ## Entities
 
-- [[God’s Eye View]] — *product* (subject of article)
+- [[God_s_Eye_View]] — *product* (subject of article)
 - [[OpenAI]] — *company* (provides LLM integration)
 - [[Anthropic]] — *company* (provides LLM integration)
 - [[Gemini]] — *model* (alternative LLM option)
-- [[agentic AI]] — *concept* (feature under experimentation)
+- [[agentic_AI]] — *concept* (feature under experimentation)
 - [[Myanmar]] — *region* (example of sensitive monitoring area)
 
 ## Related
 
-- [[info:item:products:global:2026-08-28-004]]
-- [[info:item:products:global:2026-08-28-005]]
+- [[2026-08-28-004-pluto-your-professional-profile-becomes-an-ai-agent]]
+- [[2026-08-28-005-gemini-3-5-transcribe]]
 
 ---
 

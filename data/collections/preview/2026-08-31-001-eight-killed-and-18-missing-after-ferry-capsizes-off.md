@@ -55,15 +55,15 @@ The forthcoming investigation will likely result in legal proceedings against th
 
 ## Entities
 
-- [[Turkish Republic of Northern Cyprus (TRNC)]] — *organization* (jurisdiction where the ferry capsized and where the investigation is being led)
-- [[Filo Denizcilik]] — *company* (operator of the capsized ferry)
-- [[Recep Tayyip Erdoğan]] — *person* (President of Turkey who coordinated rescue efforts and offered condolences)
-- [[Mustafa Koc]] — *person* (civilian who rescued approximately 65 passengers using his private boat)
+- [[Turkish_Republic_of_Northern_Cyprus__TRNC_]] — *organization* (jurisdiction where the ferry capsized and where the investigation is being led)
+- [[Filo_Denizcilik]] — *company* (operator of the capsized ferry)
+- [[Recep_Tayyip_Erdoğan]] — *person* (President of Turkey who coordinated rescue efforts and offered condolences)
+- [[Mustafa_Koc]] — *person* (civilian who rescued approximately 65 passengers using his private boat)
 
 ## Related
 
-- [[info:item:world:global:2026-08-30-001]]
-- [[info:item:world:global:2026-08-30-002]]
+- [[2026-08-30-001-iceland-eu-referendum-on-a-knife-edge-as-counting-continues]]
+- [[2026-08-30-002-whatsapp-chat-used-to-send-cash-for-crime-and-extremism]]
 
 ---
 

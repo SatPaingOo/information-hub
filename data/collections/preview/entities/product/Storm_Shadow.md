@@ -10,4 +10,4 @@ backlink_count: 1
 
 ## Referenced by
 
-- 2026-08-25 · [[info:item:politics:global:2026-08-25-005]] — Burnham vows support for Ukraine despite 'outrageous threats' from Russia
+- 2026-08-25 · [[2026-08-25-005-burnham-vows-support-for-ukraine-despite-outrageous]] — Burnham vows support for Ukraine despite 'outrageous threats' from Russia

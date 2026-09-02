@@ -53,16 +53,16 @@ Burnham’s early honeymoon is likely ending as the autumn parliamentary calenda
 
 ## Entities
 
-- [[Andy Burnham]] — *person* (Prime Minister of the United Kingdom)
-- [[Keir Starmer]] — *person* (Former Prime Minister and Opposition Leader)
-- [[Kemi Badenoch]] — *person* (Leader of the Conservative Party and Shadow Cabinet member)
-- [[Andrew Griffith]] — *person* (Shadow Chancellor of the Exchequer)
-- [[Reform UK]] — *organization* (Opposition party scrutinising government policy)
+- [[Andy_Burnham]] — *person* (Prime Minister of the United Kingdom)
+- [[Keir_Starmer]] — *person* (Former Prime Minister and Opposition Leader)
+- [[Kemi_Badenoch]] — *person* (Leader of the Conservative Party and Shadow Cabinet member)
+- [[Andrew_Griffith]] — *person* (Shadow Chancellor of the Exchequer)
+- [[Reform_UK]] — *organization* (Opposition party scrutinising government policy)
 
 ## Related
 
-- [[info:item:politics:global:2026-08-31-004]]
-- [[info:item:politics:global:2026-08-30-004]]
+- [[2026-08-31-004-patel-to-be-replaced-by-tugendhat-as-shadow-foreign]]
+- [[2026-08-30-004-pc-harper-s-killers-to-stay-in-jail-as-pm-announces]]
 
 ---
 

@@ -53,15 +53,15 @@ If the joint venture successfully attracts multinational oil majors and modernis
 
 ## Entities
 
-- [[Donald Trump]] — *person* (U.S. President who announced the oil deal)
-- [[Marco Rubio]] — *person* (U.S. Secretary of State who helped broker the agreement)
-- [[Delcy Rodriguez]] — *person* (Interim President of Venezuela who described the economic impact)
-- [[U.S. Department of Defense]] — *organization* (Authorized the operation that captured Nicolás Maduro)
+- [[Donald_Trump]] — *person* (U.S. President who announced the oil deal)
+- [[Marco_Rubio]] — *person* (U.S. Secretary of State who helped broker the agreement)
+- [[Delcy_Rodriguez]] — *person* (Interim President of Venezuela who described the economic impact)
+- [[U_S__Department_of_Defense]] — *organization* (Authorized the operation that captured Nicolás Maduro)
 
 ## Related
 
-- [[info:item:world:global:2026-08-29-001]]
-- [[info:item:world:global:2026-08-28-001]]
+- [[2026-08-29-001-footage-of-tibet-floods-isn-t-being-shown-in-china-and-we]]
+- [[2026-08-28-001-trump-administration-illegally-retaliated-against]]
 
 ---
 

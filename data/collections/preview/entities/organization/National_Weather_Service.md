@@ -10,4 +10,4 @@ backlink_count: 1
 
 ## Referenced by
 
-- 2026-08-25 · [[info:item:world:global:2026-08-25-006]] — French tourist dies in Death Valley after car gets stuck in mud
+- 2026-08-25 · [[2026-08-25-006-french-tourist-dies-in-death-valley-after-car-gets-stuck]] — French tourist dies in Death Valley after car gets stuck in mud

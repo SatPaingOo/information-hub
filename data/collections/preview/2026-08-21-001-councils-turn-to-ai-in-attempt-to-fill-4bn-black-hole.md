@@ -53,14 +53,14 @@ Over the next two years, the success—or failure—of AI interventions will lik
 ## Entities
 
 - [[OpenAI]] — *organization* (key AI technology referenced in editorial priorities)
-- [[Agentic AI]] — *concept* (highlighted policy focus for future public‑sector deployment)
-- [[Andy Burnham]] — *person* (Mayor of Greater Manchester, vocal advocate for local‑government funding reform)
-- [[Data Governance]] — *concept* (critical framework for ensuring ethical AI use in councils)
+- [[Agentic_AI]] — *concept* (highlighted policy focus for future public‑sector deployment)
+- [[Andy_Burnham]] — *person* (Mayor of Greater Manchester, vocal advocate for local‑government funding reform)
+- [[Data_Governance]] — *concept* (critical framework for ensuring ethical AI use in councils)
 
 ## Related
 
-- [[info:item:politics:global:2026-08-18-001]]
-- [[info:item:politics:global:2026-08-18-005]]
+- [[2026-08-18-001-burnham-exchanged-messages-with-person-posing-as-trump-s]]
+- [[2026-08-18-005-disabled-people-in-england-to-get-24-hour-free-bus-travel]]
 
 ---
 

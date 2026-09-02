@@ -52,15 +52,15 @@ If the current cycle of limited strikes continues, the likelihood of a larger, c
 
 ## Entities
 
-- [[Donald Trump]] — *person* (US President who posted AI videos of Iranian oil infrastructure)
-- [[Islamic Revolutionary Guard Corps (IRGC)]] — *organization* (Iranian military branch that claimed casualties from the Larak strike)
-- [[US Central Command (Centcom)]] — *organization* (Executed the limited strike on Iranian rocket launchers)
-- [[Masoud Pezeshkian]] — *person* (Iranian President who warned of decisive response)
+- [[Donald_Trump]] — *person* (US President who posted AI videos of Iranian oil infrastructure)
+- [[Islamic_Revolutionary_Guard_Corps__IRGC_]] — *organization* (Iranian military branch that claimed casualties from the Larak strike)
+- [[US_Central_Command__Centcom_]] — *organization* (Executed the limited strike on Iranian rocket launchers)
+- [[Masoud_Pezeshkian]] — *person* (Iranian President who warned of decisive response)
 
 ## Related
 
-- [[info:item:world:global:2026-08-31-001]]
-- [[info:item:world:global:2026-08-30-001]]
+- [[2026-08-31-001-eight-killed-and-18-missing-after-ferry-capsizes-off]]
+- [[2026-08-30-001-iceland-eu-referendum-on-a-knife-edge-as-counting-continues]]
 
 ---
 

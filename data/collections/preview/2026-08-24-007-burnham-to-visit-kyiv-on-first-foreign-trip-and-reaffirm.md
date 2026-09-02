@@ -58,15 +58,15 @@ In the medium term, the UK is likely to deepen its defence partnership with Ukra
 
 ## Entities
 
-- [[Andy Burnham]] — *person* (UK Prime Minister leading the visit)
-- [[Volodymyr Zelensky]] — *person* (Ukrainian President receiving the UK delegation)
+- [[Andy_Burnham]] — *person* (UK Prime Minister leading the visit)
+- [[Volodymyr_Zelensky]] — *person* (Ukrainian President receiving the UK delegation)
 - [[MBDA]] — *organization* (Defence contractor authorized to declassify missile component data)
-- [[Russian Embassy to the UK]] — *organization* (Issued warning about British drone usage)
+- [[Russian_Embassy_to_the_UK]] — *organization* (Issued warning about British drone usage)
 
 ## Related
 
-- [[info:item:world:global:2026-08-24-001]]
-- [[info:item:world:global:2026-08-24-002]]
+- [[2026-08-24-001-zelensky-should-be-asked-what-he-knew-about-government]]
+- [[2026-08-24-002-trump-says-canada-wants-benefits-of-being-us-state-after]]
 
 ---
 

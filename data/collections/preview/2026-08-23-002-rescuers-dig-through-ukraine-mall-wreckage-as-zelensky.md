@@ -53,15 +53,15 @@ The conflict is likely to intensify as both sides escalate asymmetric warfare ta
 
 ## Entities
 
-- [[Volodymyr Zelensky]] — *person* (Condemned the Russian attack and called it 'despicable')
-- [[Kryvyi Rih]] — *region* (Site of the deadly Russian drone strike on the shopping center)
-- [[BBC News]] — *organization* (Source of the report detailing the attack and casualties)
-- [[Double-tap strike]] — *concept* (Russian tactic targeting emergency responders after initial attacks)
+- [[Volodymyr_Zelensky]] — *person* (Condemned the Russian attack and called it 'despicable')
+- [[Kryvyi_Rih]] — *region* (Site of the deadly Russian drone strike on the shopping center)
+- [[BBC_News]] — *organization* (Source of the report detailing the attack and casualties)
+- [[Double-tap_strike]] — *concept* (Russian tactic targeting emergency responders after initial attacks)
 
 ## Related
 
-- [[info:item:world:global:2026-08-22-001]]
-- [[info:item:world:global:2026-08-22-002]]
+- [[2026-08-22-001-russian-double-tap-drone-strike-kills-15-in-ukrainian-mall]]
+- [[2026-08-22-002-we-have-more-work-to-do-says-canada-negotiator-as-us-trade]]
 
 ---
 

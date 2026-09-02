@@ -54,14 +54,14 @@ Unless Beijing relaxes its information controls and allows independent verificat
 ## Entities
 
 - [[Tibet]] — *region* (affected region)
-- [[Xi Jinping]] — *person* (President of China, overseeing disaster response)
-- [[Amnesty International]] — *organization* (critic of Chinese information controls)
-- [[Dalai Lama]] — *person* (exiled spiritual leader, symbol of Tibetan resistance)
+- [[Xi_Jinping]] — *person* (President of China, overseeing disaster response)
+- [[Amnesty_International]] — *organization* (critic of Chinese information controls)
+- [[Dalai_Lama]] — *person* (exiled spiritual leader, symbol of Tibetan resistance)
 
 ## Related
 
-- [[info:item:world:global:2026-08-28-001]]
-- [[info:item:world:global:2026-08-28-006]]
+- [[2026-08-28-001-trump-administration-illegally-retaliated-against]]
+- [[2026-08-28-006-tracing-the-deadly-path-of-the-nepal-tibet-flash-flood]]
 
 ---
 

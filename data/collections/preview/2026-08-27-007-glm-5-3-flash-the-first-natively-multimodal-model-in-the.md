@@ -53,15 +53,15 @@ In the next 12‑18 months GLM‑5.3‑Flash is likely to see rapid uptake among
 
 ## Entities
 
-- [[GLM-5.3-Flash]] — *model* (subject)
-- [[Zhipu AI]] — *company* (developer)
+- [[GLM-5_3-Flash]] — *model* (subject)
+- [[Zhipu_AI]] — *company* (developer)
 - [[OpenAI]] — *company* (competitor)
 - [[Anthropic]] — *company* (competitor)
 
 ## Related
 
-- [[info:item:products:global:2026-08-27-006]]
-- [[info:item:products:global:2026-08-26-006]]
+- [[2026-08-27-006-ojin-real-time-ai-agent-with-live-face-and-voice]]
+- [[2026-08-26-006-ninj-ai]]
 
 ---
 

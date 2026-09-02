@@ -10,4 +10,4 @@ backlink_count: 1
 
 ## Referenced by
 
-- 2026-08-22 · [[info:item:ai-ml:global:2026-08-22-005]] — Nvidia partners with data center developer Cloverleaf
+- 2026-08-22 · [[2026-08-22-005-nvidia-partners-with-data-center-developer-cloverleaf]] — Nvidia partners with data center developer Cloverleaf

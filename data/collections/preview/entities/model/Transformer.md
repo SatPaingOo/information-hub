@@ -10,4 +10,4 @@ backlink_count: 1
 
 ## Referenced by
 
-- 2026-08-23 · [[info:item:ai-ml:global:2026-08-23-004]] — I like fish, especially dolphins: Addressing Contradictions in Dialogue Modeling
+- 2026-08-23 · [[2026-08-23-004-i-like-fish-especially-dolphins-addressing-contradictions]] — I like fish, especially dolphins: Addressing Contradictions in Dialogue Modeling

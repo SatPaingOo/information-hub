@@ -10,4 +10,4 @@ backlink_count: 1
 
 ## Referenced by
 
-- 2026-08-30 · [[info:item:world:global:2026-08-30-002]] — WhatsApp chat used to send cash for crime and extremism
+- 2026-08-30 · [[2026-08-30-002-whatsapp-chat-used-to-send-cash-for-crime-and-extremism]] — WhatsApp chat used to send cash for crime and extremism

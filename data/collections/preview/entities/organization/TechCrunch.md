@@ -10,4 +10,4 @@ backlink_count: 1
 
 ## Referenced by
 
-- 2026-08-22 · [[info:item:ai-ml:global:2026-08-22-004]] — Anthropic’s Opus 4.6 is a smut-machine
+- 2026-08-22 · [[2026-08-22-004-anthropic-s-opus-4-6-is-a-smut-machine]] — Anthropic’s Opus 4.6 is a smut-machine

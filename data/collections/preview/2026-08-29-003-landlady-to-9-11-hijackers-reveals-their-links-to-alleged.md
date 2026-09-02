@@ -52,15 +52,15 @@ The emergence of Ratchford’s account is likely to intensify both legal and pub
 
 ## Entities
 
-- [[Holly Ratchford]] — *person* (witness and former property manager who identified Omar al‑Bayoumi)
-- [[Omar al‑Bayoumi]] — *person* (alleged Saudi intelligence operative who facilitated 9/11 hijackers)
+- [[Holly_Ratchford]] — *person* (witness and former property manager who identified Omar al‑Bayoumi)
+- [[Omar_al_Bayoumi]] — *person* (alleged Saudi intelligence operative who facilitated 9/11 hijackers)
 - [[FBI]] — *organization* (investigated Bayoumi and the 9/11 plot)
 - [[BBC]] — *organization* (produced investigative coverage and podcasts on the case)
 
 ## Related
 
-- [[info:item:world:global:2026-08-29-001]]
-- [[info:item:world:global:2026-08-29-002]]
+- [[2026-08-29-001-footage-of-tibet-floods-isn-t-being-shown-in-china-and-we]]
+- [[2026-08-29-002-trump-hails-historic-deal-for-us-to-control-65bn-barrels]]
 
 ---
 

@@ -55,17 +55,17 @@ The final hours of negotiation will determine whether a compromise can be reache
 
 ## Entities
 
-- [[Dominic LeBlanc]] — *person* (Canada's trade minister leading negotiations with the US)
-- [[Jamieson Greer]] — *person* (US trade representative overseeing bilateral talks)
-- [[Donald Trump]] — *person* (US President who threatened tariffs and later suggested a deal is near)
-- [[Mark Carney]] — *person* (Canadian Prime Minister navigating domestic and international pressures)
-- [[Canadian Ministry of Foreign Affairs]] — *organization* (Supporting trade negotiation efforts and policy coordination)
-- [[North America]] — *region* (Geographic focus of the Canada-US trade relationship)
+- [[Dominic_LeBlanc]] — *person* (Canada's trade minister leading negotiations with the US)
+- [[Jamieson_Greer]] — *person* (US trade representative overseeing bilateral talks)
+- [[Donald_Trump]] — *person* (US President who threatened tariffs and later suggested a deal is near)
+- [[Mark_Carney]] — *person* (Canadian Prime Minister navigating domestic and international pressures)
+- [[Canadian_Ministry_of_Foreign_Affairs]] — *organization* (Supporting trade negotiation efforts and policy coordination)
+- [[North_America]] — *region* (Geographic focus of the Canada-US trade relationship)
 
 ## Related
 
-- [[info:item:world:global:2026-08-21-004]]
-- [[info:item:world:global:2026-08-21-005]]
+- [[2026-08-21-004-uk-france-germany-italy-and-canada-condemn-israel-s-west]]
+- [[2026-08-21-005-israel-re-establishes-closed-west-bank-settlement-defying]]
 
 ---
 

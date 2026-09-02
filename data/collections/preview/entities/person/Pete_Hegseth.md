@@ -10,4 +10,4 @@ backlink_count: 1
 
 ## Referenced by
 
-- 2026-09-01 · [[info:item:world:global:2026-09-01-003]] — US army secretary resigns after months of tension
+- 2026-09-01 · [[2026-09-01-003-us-army-secretary-resigns-after-months-of-tension]] — US army secretary resigns after months of tension

@@ -56,12 +56,12 @@ Interactive Sessions is poised to become a cornerstone tool for organizations se
 - [[OpenAI]] — *company* (key competitor in the AI coding assistant space)
 - [[Gemini]] — *model* (LLM architecture referenced for integration)
 - [[Anthropic]] — *company* (rival provider of advanced language models)
-- [[Interactive Sessions]] — *product* (featured AI agent platform)
+- [[Interactive_Sessions]] — *product* (featured AI agent platform)
 
 ## Related
 
-- [[info:item:products:global:2026-08-31-006]]
-- [[info:item:products:global:2026-08-29-006]]
+- [[2026-08-31-006-maritime]]
+- [[2026-08-29-006-cursor-craft-v2]]
 
 ---
 

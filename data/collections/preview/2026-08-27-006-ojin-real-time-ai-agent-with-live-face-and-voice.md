@@ -57,14 +57,14 @@ Ojin’s real‑time avatar AI is poised to redefine how users experience digita
 
 - [[OpenAI]] — *company* (competitor and source of underlying LLM technology)
 - [[Gemini]] — *model* (benchmark for real‑time conversational AI capabilities)
-- [[Agentic AI]] — *concept* (core technology enabling autonomous, goal‑directed digital agents)
+- [[Agentic_AI]] — *concept* (core technology enabling autonomous, goal‑directed digital agents)
 - [[Myanmar]] — *region* (target market for localized language support and cultural adaptation)
 
 ## Related
 
-- [[info:item:products:global:2026-08-26-006]]
-- [[info:item:products:global:2026-08-26-007]]
-- [[info:item:products:global:2026-08-21-003]]
+- [[2026-08-26-006-ninj-ai]]
+- [[2026-08-26-007-agnost-ai]]
+- [[2026-08-21-003-checksum-ai-your-coding-agent-s-testing-buddy]]
 
 ---
 

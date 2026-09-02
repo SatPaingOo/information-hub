@@ -53,15 +53,15 @@ The monastery attack is likely to further fragment Myanmar's fragile peace effor
 
 ## Entities
 
-- [[Myanmar military (Tatmadaw)]] — *organization* (perpetrator of the attack)
-- [[Sagaing region]] — *region* (location of the incident)
-- [[2021 Myanmar coup]] — *event* (contextual backdrop to the civil war)
-- [[Buddhist Lent (Vassa)]] — *concept* (religious observance during which the attack occurred)
+- [[Myanmar_military__Tatmadaw_]] — *organization* (perpetrator of the attack)
+- [[Sagaing_region]] — *region* (location of the incident)
+- [[2021_Myanmar_coup]] — *event* (contextual backdrop to the civil war)
+- [[Buddhist_Lent__Vassa_]] — *concept* (religious observance during which the attack occurred)
 
 ## Related
 
-- [[info:item:world:global:2026-08-22-001]]
-- [[info:item:world:global:2026-08-22-002]]
+- [[2026-08-22-001-russian-double-tap-drone-strike-kills-15-in-ukrainian-mall]]
+- [[2026-08-22-002-we-have-more-work-to-do-says-canada-negotiator-as-us-trade]]
 
 ---
 

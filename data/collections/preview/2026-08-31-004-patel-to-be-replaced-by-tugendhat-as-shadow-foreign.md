@@ -53,15 +53,15 @@ In the coming months, observers will monitor whether Tugendhat’s leadership of
 
 ## Entities
 
-- [[Tom Tugendhat]] — *person* (replaces as shadow foreign secretary)
-- [[Kemi Badenoch]] — *person* (leads reshuffle and appoints new front bench)
-- [[Priti Patel]] — *person* (steps down from shadow foreign secretary)
-- [[James Cleverly]] — *person* (resigns as shadow housing secretary to run for London mayor)
+- [[Tom_Tugendhat]] — *person* (replaces as shadow foreign secretary)
+- [[Kemi_Badenoch]] — *person* (leads reshuffle and appoints new front bench)
+- [[Priti_Patel]] — *person* (steps down from shadow foreign secretary)
+- [[James_Cleverly]] — *person* (resigns as shadow housing secretary to run for London mayor)
 
 ## Related
 
-- [[info:item:politics:global:2026-08-30-004]]
-- [[info:item:politics:global:2026-08-30-005]]
+- [[2026-08-30-004-pc-harper-s-killers-to-stay-in-jail-as-pm-announces]]
+- [[2026-08-30-005-burnham-s-summer-tour-is-over-now-he-has-to-prove-himself]]
 
 ---
 

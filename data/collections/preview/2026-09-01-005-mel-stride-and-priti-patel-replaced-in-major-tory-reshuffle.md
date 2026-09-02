@@ -59,15 +59,15 @@ If the reshuffle succeeds in projecting competence, coherence, and a clear alter
 
 ## Entities
 
-- [[Kemi Badenoch]] — *person* (Conservative leader orchestrating reshuffle)
-- [[Andrew Griffith]] — *person* (new shadow chancellor, former Sky executive)
-- [[Tom Tugendhat]] — *person* (new shadow foreign secretary, former security minister)
-- [[Reform UK]] — *organization* (political competitor in polls)
+- [[Kemi_Badenoch]] — *person* (Conservative leader orchestrating reshuffle)
+- [[Andrew_Griffith]] — *person* (new shadow chancellor, former Sky executive)
+- [[Tom_Tugendhat]] — *person* (new shadow foreign secretary, former security minister)
+- [[Reform_UK]] — *organization* (political competitor in polls)
 
 ## Related
 
-- [[info:item:politics:global:2026-09-01-004]]
-- [[info:item:politics:global:2026-08-31-004]]
+- [[2026-09-01-004-burnham-to-promise-sense-of-optimism-in-first-commons]]
+- [[2026-08-31-004-patel-to-be-replaced-by-tugendhat-as-shadow-foreign]]
 
 ---
 

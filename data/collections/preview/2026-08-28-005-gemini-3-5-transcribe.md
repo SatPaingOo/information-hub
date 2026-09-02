@@ -54,17 +54,17 @@ Looking ahead, Gemini 3.5 Transcribe is likely to become a foundational layer fo
 
 ## Entities
 
-- [[Gemini 3.5 Transcribe]] — *model* (core product offering)
+- [[Gemini_3_5_Transcribe]] — *model* (core product offering)
 - [[Google]] — *company* (developer and distributor)
 - [[OpenAI]] — *company* (competitor (Whisper model))
 - [[Anthropic]] — *company* (competitor (speech models))
 - [[Myanmar]] — *region* (target market for low‑resource language support)
-- [[Agentic AI]] — *concept* (enables autonomous transcription refinement)
+- [[Agentic_AI]] — *concept* (enables autonomous transcription refinement)
 
 ## Related
 
-- [[info:item:products:global:2026-08-28-004]]
-- [[info:item:products:global:2026-08-27-006]]
+- [[2026-08-28-004-pluto-your-professional-profile-becomes-an-ai-agent]]
+- [[2026-08-27-006-ojin-real-time-ai-agent-with-live-face-and-voice]]
 
 ---
 

@@ -60,15 +60,15 @@ The next weeks will hinge on Judge Louis’s written decision. A bail grant is l
 
 ## Entities
 
-- [[Andrew Tate]] — *person* (defendant)
-- [[Tristan Tate]] — *person* (defendant)
-- [[US Department of Justice]] — *organization* (prosecutor)
-- [[Crown Prosecution Service]] — *organization* (extradition requester)
+- [[Andrew_Tate]] — *person* (defendant)
+- [[Tristan_Tate]] — *person* (defendant)
+- [[US_Department_of_Justice]] — *organization* (prosecutor)
+- [[Crown_Prosecution_Service]] — *organization* (extradition requester)
 
 ## Related
 
-- [[info:item:world:global:2026-08-28-001]]
-- [[info:item:world:global:2026-08-28-006]]
+- [[2026-08-28-001-trump-administration-illegally-retaliated-against]]
+- [[2026-08-28-006-tracing-the-deadly-path-of-the-nepal-tibet-flash-flood]]
 
 ---
 

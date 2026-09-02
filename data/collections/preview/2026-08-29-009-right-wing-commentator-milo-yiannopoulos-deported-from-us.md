@@ -53,15 +53,15 @@ Future deportations of high‑profile figures are likely to attract amplified me
 
 ## Entities
 
-- [[Milo Yiannopoulos]] — *person* (subject of deportation)
-- [[Department of Homeland Security]] — *organization* (issued removal order)
-- [[Immigration and Customs Enforcement]] — *organization* (executed detention)
-- [[Laura Loomer]] — *person* (commented on deportation)
+- [[Milo_Yiannopoulos]] — *person* (subject of deportation)
+- [[Department_of_Homeland_Security]] — *organization* (issued removal order)
+- [[Immigration_and_Customs_Enforcement]] — *organization* (executed detention)
+- [[Laura_Loomer]] — *person* (commented on deportation)
 
 ## Related
 
-- [[info:item:world:global:2026-08-29-001]]
-- [[info:item:world:global:2026-08-29-002]]
+- [[2026-08-29-001-footage-of-tibet-floods-isn-t-being-shown-in-china-and-we]]
+- [[2026-08-29-002-trump-hails-historic-deal-for-us-to-control-65bn-barrels]]
 
 ---
 

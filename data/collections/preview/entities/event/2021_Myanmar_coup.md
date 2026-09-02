@@ -10,4 +10,4 @@ backlink_count: 1
 
 ## Referenced by
 
-- 2026-08-23 · [[info:item:world:global:2026-08-23-001]] — Fourteen killed in strike on Myanmar monastery
+- 2026-08-23 · [[2026-08-23-001-fourteen-killed-in-strike-on-myanmar-monastery]] — Fourteen killed in strike on Myanmar monastery

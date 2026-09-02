@@ -10,5 +10,5 @@ backlink_count: 2
 
 ## Referenced by
 
-- 2026-09-01 · [[info:item:politics:global:2026-09-01-005]] — Mel Stride and Priti Patel replaced in major Tory reshuffle
-- 2026-08-31 · [[info:item:politics:global:2026-08-31-004]] — Patel to be replaced by Tugendhat as shadow foreign secretary
+- 2026-09-01 · [[2026-09-01-005-mel-stride-and-priti-patel-replaced-in-major-tory-reshuffle]] — Mel Stride and Priti Patel replaced in major Tory reshuffle
+- 2026-08-31 · [[2026-08-31-004-patel-to-be-replaced-by-tugendhat-as-shadow-foreign]] — Patel to be replaced by Tugendhat as shadow foreign secretary

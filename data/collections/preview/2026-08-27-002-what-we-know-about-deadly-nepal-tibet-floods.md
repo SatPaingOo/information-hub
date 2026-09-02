@@ -51,17 +51,17 @@ In the coming weeks, authorities will assess whether rivers such as the Trishuli
 
 ## Entities
 
-- [[Simon Cook]] — *person* (glaciology expert who identified the glacier collapse)
-- [[Mike Searle]] — *person* (Oxford University Earth sciences professor commenting on the multi‑stage flood mechanism)
-- [[António Guterres]] — *person* (UN Secretary‑General coordinating international support)
-- [[Andy Burnham]] — *person* (UK Prime Minister announcing £5 million in aid)
+- [[Simon_Cook]] — *person* (glaciology expert who identified the glacier collapse)
+- [[Mike_Searle]] — *person* (Oxford University Earth sciences professor commenting on the multi‑stage flood mechanism)
+- [[António_Guterres]] — *person* (UN Secretary‑General coordinating international support)
+- [[Andy_Burnham]] — *person* (UK Prime Minister announcing £5 million in aid)
 - [[China]] — *organization* (government coordinating search and monitoring efforts)
 - [[Nepal]] — *organization* (government leading rescue and casualty reporting)
 
 ## Related
 
-- [[info:item:world:global:2026-08-27-001]]
-- [[info:item:world:global:2026-08-26-001]]
+- [[2026-08-27-001-collapsed-glacier-likely-caused-devastating-nepal-tibet]]
+- [[2026-08-26-001-canada-announces-dollar-for-dollar-retaliatory-tariffs-on]]
 
 ---
 

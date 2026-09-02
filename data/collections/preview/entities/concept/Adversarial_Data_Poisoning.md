@@ -10,4 +10,4 @@ backlink_count: 1
 
 ## Referenced by
 
-- 2026-08-24 · [[info:item:ai-ml:global:2026-08-24-004]] — Robust Federated Training via Collaborative Machine Teaching using Trusted Instances
+- 2026-08-24 · [[2026-08-24-004-robust-federated-training-via-collaborative-machine]] — Robust Federated Training via Collaborative Machine Teaching using Trusted Instances

@@ -10,4 +10,4 @@ backlink_count: 1
 
 ## Referenced by
 
-- 2026-09-01 · [[info:item:world:global:2026-09-01-002]] — Nepal rescuers blast hillside in search of hydropower workers as families wait anxiously
+- 2026-09-01 · [[2026-09-01-002-nepal-rescuers-blast-hillside-in-search-of-hydropower]] — Nepal rescuers blast hillside in search of hydropower workers as families wait anxiously

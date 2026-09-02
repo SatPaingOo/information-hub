@@ -58,15 +58,15 @@ In the short term, the trade war is likely to persist until a new negotiating fr
 
 ## Entities
 
-- [[Mark Carney]] — *person* (Prime Minister of Canada, announced retaliatory tariffs)
-- [[Donald Trump]] — *person* (U.S. President, imposed initial tariffs)
-- [[Jamieson Greer]] — *person* (U.S. Trade Representative, defended U.S. position)
+- [[Mark_Carney]] — *person* (Prime Minister of Canada, announced retaliatory tariffs)
+- [[Donald_Trump]] — *person* (U.S. President, imposed initial tariffs)
+- [[Jamieson_Greer]] — *person* (U.S. Trade Representative, defended U.S. position)
 - [[USMCA]] — *organization* (North‑American trade agreement under review)
 
 ## Related
 
-- [[info:item:world:global:2026-08-23-001]]
-- [[info:item:world:global:2026-08-23-002]]
+- [[2026-08-23-001-fourteen-killed-in-strike-on-myanmar-monastery]]
+- [[2026-08-23-002-rescuers-dig-through-ukraine-mall-wreckage-as-zelensky]]
 
 ---
 

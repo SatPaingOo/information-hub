@@ -53,8 +53,7 @@ Looking ahead, the convergence of large language models with formal regulatory r
 
 ## Related
 
-- [[info:item:ai-ml:us:2026-08-19-001]]
-- [[info:item:dev-oss:global:2026-08-18-005]]
+_No linked notes yet — check the graph for emerging links._
 
 ---
 

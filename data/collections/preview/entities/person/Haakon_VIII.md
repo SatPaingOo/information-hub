@@ -10,4 +10,4 @@ backlink_count: 1
 
 ## Referenced by
 
-- 2026-08-30 · [[info:item:world:global:2026-08-30-006]] — Norway's new king remembers 'my dear father' in first speech
+- 2026-08-30 · [[2026-08-30-006-norway-s-new-king-remembers-my-dear-father-in-first-speech]] — Norway's new king remembers 'my dear father' in first speech

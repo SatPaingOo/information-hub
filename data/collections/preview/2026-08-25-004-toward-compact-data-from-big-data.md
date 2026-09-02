@@ -53,16 +53,16 @@ As AI systems become more pervasive and data privacy concerns intensify, the Com
 
 ## Entities
 
-- [[Song-Kyoo Amang Kim]] — *person* (author of the paper)
-- [[Compact Data]] — *concept* (central concept proposed in the paper)
-- [[Big Data]] — *concept* (contrasted with Compact Data)
+- [[Song-Kyoo_Amang_Kim]] — *person* (author of the paper)
+- [[Compact_Data]] — *concept* (central concept proposed in the paper)
+- [[Big_Data]] — *concept* (contrasted with Compact Data)
 - [[arXiv]] — *organization* (publisher of the preprint)
 
 ## Related
 
-- [[info:item:ai-ml:global:2026-08-24-004]]
-- [[info:item:ai-ml:global:2026-08-24-005]]
-- [[info:item:ai-ml:global:2026-08-24-006]]
+- [[2026-08-24-004-robust-federated-training-via-collaborative-machine]]
+- [[2026-08-24-005-conditioning-lstm-decoder-and-bi-directional-attention]]
+- [[2026-08-24-006-image-matters-scalable-detection-of-offensive-and-non]]
 
 ---
 

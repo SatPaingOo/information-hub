@@ -54,14 +54,14 @@ The revised early‑release framework is likely to satisfy public sentiment in t
 
 ## Entities
 
-- [[Andy Burnham]] — *person* (Prime Minister announcing early‑release exclusions)
-- [[PC Andrew Harper]] — *person* (Police officer whose murder prompted policy change)
-- [[Lizzie Harper]] — *person* (Widow of PC Andrew Harper, vocal advocate)
+- [[Andy_Burnham]] — *person* (Prime Minister announcing early‑release exclusions)
+- [[PC_Andrew_Harper]] — *person* (Police officer whose murder prompted policy change)
+- [[Lizzie_Harper]] — *person* (Widow of PC Andrew Harper, vocal advocate)
 
 ## Related
 
-- [[info:item:politics:global:2026-08-29-004]]
-- [[info:item:politics:global:2026-08-29-005]]
+- [[2026-08-29-004-greens-call-for-temporary-ban-on-new-data-centres]]
+- [[2026-08-29-005-burnham-says-he-will-not-vote-on-assisted-dying-unlike]]
 
 ---
 

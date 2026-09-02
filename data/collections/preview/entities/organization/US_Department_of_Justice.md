@@ -10,5 +10,5 @@ backlink_count: 2
 
 ## Referenced by
 
-- 2026-08-28 · [[info:item:world:global:2026-08-28-007]] — Tate brothers blast US jail conditions as they seek bail in UK extradition fight
-- 2026-08-22 · [[info:item:world:global:2026-08-22-003]] — TikTok to pay $400m to US in one of largest child privacy settlements
+- 2026-08-28 · [[2026-08-28-007-tate-brothers-blast-us-jail-conditions-as-they-seek-bail]] — Tate brothers blast US jail conditions as they seek bail in UK extradition fight
+- 2026-08-22 · [[2026-08-22-003-tiktok-to-pay-400m-to-us-in-one-of-largest-child-privacy]] — TikTok to pay $400m to US in one of largest child privacy settlements

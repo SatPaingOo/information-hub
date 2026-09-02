@@ -54,15 +54,15 @@ In the immediate term, rescue operations will focus on recovering additional vic
 
 ## Entities
 
-- [[BBC News]] — *organization* (source)
-- [[Mamadou Oury Bah]] — *person* (Prime Minister of Guinea)
+- [[BBC_News]] — *organization* (source)
+- [[Mamadou_Oury_Bah]] — *person* (Prime Minister of Guinea)
 - [[Conakry]] — *region* (location of incident)
-- [[2017 Guinea landslide]] — *event* (preceding incident at same site)
+- [[2017_Guinea_landslide]] — *event* (preceding incident at same site)
 
 ## Related
 
-- [[info:item:world:global:2026-08-24-001]]
-- [[info:item:world:global:2026-08-23-001]]
+- [[2026-08-24-001-zelensky-should-be-asked-what-he-knew-about-government]]
+- [[2026-08-23-001-fourteen-killed-in-strike-on-myanmar-monastery]]
 
 ---
 

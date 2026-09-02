@@ -52,15 +52,15 @@ If Burnham can navigate the compressed PMQs environment while maintaining his up
 
 ## Entities
 
-- [[Andy Burnham]] — *person* (subject of the briefing; new UK Prime Minister)
-- [[Keir Starmer]] — *person* (party leader under whom Burnham serves)
+- [[Andy_Burnham]] — *person* (subject of the briefing; new UK Prime Minister)
+- [[Keir_Starmer]] — *person* (party leader under whom Burnham serves)
 - [[OpenAI]] — *company* (AI model provider referenced in editorial priorities and governance discussions)
 - [[Gemini]] — *model* (LLM referenced in editorial priorities and AI governance context)
 
 ## Related
 
-- [[info:item:politics:global:2026-09-01-004]]
-- [[info:item:politics:global:2026-08-31-004]]
+- [[2026-09-01-004-burnham-to-promise-sense-of-optimism-in-first-commons]]
+- [[2026-08-31-004-patel-to-be-replaced-by-tugendhat-as-shadow-foreign]]
 
 ---
 

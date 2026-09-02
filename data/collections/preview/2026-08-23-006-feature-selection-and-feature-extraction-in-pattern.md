@@ -54,18 +54,18 @@ The field of feature engineering continues evolving alongside advances in deep l
 
 ## Entities
 
-- [[Feature Selection]] — *concept* (central methodology examined in the review)
-- [[Feature Extraction]] — *concept* (complementary methodology to feature selection)
+- [[Feature_Selection]] — *concept* (central methodology examined in the review)
+- [[Feature_Extraction]] — *concept* (complementary methodology to feature selection)
 - [[OpenAI]] — *company* (organization developing AI systems requiring optimal preprocessing)
 - [[Anthropic]] — *company* (AI company benefiting from feature engineering insights)
 - [[Gemini]] — *model* (Google's AI model requiring sophisticated preprocessing pipelines)
-- [[Principal Component Analysis]] — *concept* (key feature extraction technique discussed)
+- [[Principal_Component_Analysis]] — *concept* (key feature extraction technique discussed)
 - [[global]] — *region* (applicability across international AI development)
 
 ## Related
 
-- [[info:item:ai-ml:global:2026-08-23-004]]
-- [[info:item:ai-ml:global:2026-08-23-005]]
+- [[2026-08-23-004-i-like-fish-especially-dolphins-addressing-contradictions]]
+- [[2026-08-23-005-toward-compact-data-from-big-data-a-novel-approach-to]]
 
 ---
 

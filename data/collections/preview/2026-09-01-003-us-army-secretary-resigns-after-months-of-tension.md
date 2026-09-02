@@ -55,15 +55,15 @@ The immediate aftermath will likely involve a swift transition to an acting Army
 
 ## Entities
 
-- [[Dan Driscoll]] — *person* (former U.S. Army Secretary, resigned amid tension with Defense Secretary)
-- [[Pete Hegseth]] — *person* (U.S. Defense Secretary, reported conflict leading to Driscoll’s resignation)
-- [[Donald Trump]] — *person* (President who appointed Driscoll as Army Secretary and labeled him the “drone guy”)
-- [[JD Vance]] — *person* (Vice President, close ally and friend of Driscoll)
+- [[Dan_Driscoll]] — *person* (former U.S. Army Secretary, resigned amid tension with Defense Secretary)
+- [[Pete_Hegseth]] — *person* (U.S. Defense Secretary, reported conflict leading to Driscoll’s resignation)
+- [[Donald_Trump]] — *person* (President who appointed Driscoll as Army Secretary and labeled him the “drone guy”)
+- [[JD_Vance]] — *person* (Vice President, close ally and friend of Driscoll)
 
 ## Related
 
-- [[info:item:world:global:2026-09-01-001]]
-- [[info:item:world:global:2026-09-01-002]]
+- [[2026-09-01-001-what-it-was-like-inside-court-for-tupac-shakur-s-murder]]
+- [[2026-09-01-002-nepal-rescuers-blast-hillside-in-search-of-hydropower]]
 
 ---
 

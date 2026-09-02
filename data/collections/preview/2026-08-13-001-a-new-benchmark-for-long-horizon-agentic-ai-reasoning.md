@@ -49,8 +49,8 @@ The daily workflow extends this dataset automatically.
 
 ## Entities
 
-- [[Agentic AI]] — *concept* (evaluates)
-- [[Retrieval-Augmented Generation]] — *concept* (uses)
+- [[Agentic_AI]] — *concept* (evaluates)
+- [[Retrieval-Augmented_Generation]] — *concept* (uses)
 - [[OpenAI]] — *company* (mentioned)
 - [[Anthropic]] — *company* (mentioned)
 

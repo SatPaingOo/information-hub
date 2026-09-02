@@ -54,16 +54,16 @@ The compact data methodology represents a potential paradigm shift in how AI sys
 
 ## Entities
 
-- [[Compact Data]] — *concept* (introduces)
-- [[Song-Kyoo Amang Kim]] — *person* (author)
+- [[Compact_Data]] — *concept* (introduces)
+- [[Song-Kyoo_Amang_Kim]] — *person* (author)
 - [[arXiv]] — *organization* (publishes)
-- [[Big Data]] — *concept* (problem-addressed)
+- [[Big_Data]] — *concept* (problem-addressed)
 
 ## Related
 
-- [[info:item:ai-ml:global:2026-08-23-004]]
-- [[info:item:ai-ml:global:2026-08-22-004]]
-- [[info:item:ai-ml:global:2026-08-22-005]]
+- [[2026-08-23-004-i-like-fish-especially-dolphins-addressing-contradictions]]
+- [[2026-08-22-004-anthropic-s-opus-4-6-is-a-smut-machine]]
+- [[2026-08-22-005-nvidia-partners-with-data-center-developer-cloverleaf]]
 
 ---
 

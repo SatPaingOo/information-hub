@@ -52,14 +52,14 @@ The UN inquiry’s findings will likely shape policy on detainee welfare across 
 
 ## Entities
 
-- [[Ratko Mladić]] — *person* (convicted war criminal)
-- [[United Nations]] — *organization* (oversees detention facility and ordered inquiry)
-- [[International Criminal Tribunal for the former Yugoslavia]] — *organization* (original prosecuting body)
+- [[Ratko_Mladić]] — *person* (convicted war criminal)
+- [[United_Nations]] — *organization* (oversees detention facility and ordered inquiry)
+- [[International_Criminal_Tribunal_for_the_former_Yugoslavia]] — *organization* (original prosecuting body)
 
 ## Related
 
-- [[info:item:world:global:2026-08-27-001]]
-- [[info:item:world:global:2026-08-27-002]]
+- [[2026-08-27-001-collapsed-glacier-likely-caused-devastating-nepal-tibet]]
+- [[2026-08-27-002-what-we-know-about-deadly-nepal-tibet-floods]]
 
 ---
 

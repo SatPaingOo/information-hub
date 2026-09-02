@@ -10,4 +10,4 @@ backlink_count: 1
 
 ## Referenced by
 
-- 2026-08-27 · [[info:item:world:global:2026-08-27-003]] — Norway's royal family gathers at King Harald's bedside as his condition worsens
+- 2026-08-27 · [[2026-08-27-003-norway-s-royal-family-gathers-at-king-harald-s-bedside-as]] — Norway's royal family gathers at King Harald's bedside as his condition worsens

@@ -48,15 +48,14 @@ In the next 12‑18 months, Checksum AI is likely to expand its ecosystem integr
 
 ## Entities
 
-- [[Checksum AI]] — *product* (subject)
+- [[Checksum_AI]] — *product* (subject)
 - [[OpenAI]] — *company* (LLM provider)
 - [[Anthropic]] — *company* (LLM provider)
 - [[Gemini]] — *model* (LLM provider)
 
 ## Related
 
-- [[info:item:products:global:2026-08-19-007]]
-- [[info:item:products:global:2026-08-20-005]]
+- [[2026-08-19-007-crewtower]]
 
 ---
 

@@ -52,18 +52,18 @@ The UK’s assertive stance is likely to solidify its role as a key military par
 
 ## Entities
 
-- [[Andy Burnham]] — *person* (UK Prime Minister)
-- [[Volodymyr Zelensky]] — *person* (Ukrainian President)
-- [[Scalp missile]] — *product* (UK‑made missile blueprint transfer)
-- [[Storm Shadow]] — *product* (French version of Scalp missile)
+- [[Andy_Burnham]] — *person* (UK Prime Minister)
+- [[Volodymyr_Zelensky]] — *person* (Ukrainian President)
+- [[Scalp_missile]] — *product* (UK‑made missile blueprint transfer)
+- [[Storm_Shadow]] — *product* (French version of Scalp missile)
 - [[MBDA]] — *organization* (UK defence company)
-- [[Avengers AI Labs]] — *organization* (Ukrainian AI partnership)
+- [[Avengers_AI_Labs]] — *organization* (Ukrainian AI partnership)
 
 ## Related
 
-- [[info:item:politics:global:2026-08-23-007]]
-- [[info:item:politics:global:2026-08-21-001]]
-- [[info:item:politics:global:2026-08-18-001]]
+- [[2026-08-23-007-economic-adviser-o-neill-rules-out-government-job-but]]
+- [[2026-08-21-001-councils-turn-to-ai-in-attempt-to-fill-4bn-black-hole]]
+- [[2026-08-18-001-burnham-exchanged-messages-with-person-posing-as-trump-s]]
 
 ---
 

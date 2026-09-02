@@ -54,15 +54,15 @@ The immediate outlook is for continued volatility, with both Washington and Tehr
 
 ## Entities
 
-- [[Islamic Revolutionary Guard Corps (IRGC)]] — *organization* (primary actor in Iranian retaliatory strikes)
-- [[US Central Command (Centcom)]] — *organization* (coordinated US strikes against Iranian targets)
-- [[Masoud Pezeshkian]] — *person* (President of Iran, offered conditional diplomatic reciprocity)
-- [[Donald Trump]] — *person* (warned of escalated US response to Iranian retaliation)
+- [[Islamic_Revolutionary_Guard_Corps__IRGC_]] — *organization* (primary actor in Iranian retaliatory strikes)
+- [[US_Central_Command__Centcom_]] — *organization* (coordinated US strikes against Iranian targets)
+- [[Masoud_Pezeshkian]] — *person* (President of Iran, offered conditional diplomatic reciprocity)
+- [[Donald_Trump]] — *person* (warned of escalated US response to Iranian retaliation)
 
 ## Related
 
-- [[info:item:world:global:2026-09-01-001]]
-- [[info:item:world:global:2026-09-01-002]]
+- [[2026-09-01-001-what-it-was-like-inside-court-for-tupac-shakur-s-murder]]
+- [[2026-09-01-002-nepal-rescuers-blast-hillside-in-search-of-hydropower]]
 
 ---
 

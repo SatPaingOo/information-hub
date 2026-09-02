@@ -53,14 +53,14 @@ The plea‑change hearing is likely to result in a negotiated resolution that ba
 
 ## Entities
 
-- [[Tiger Woods]] — *person* (defendant)
-- [[John Budensiek]] — *person* (law enforcement official)
+- [[Tiger_Woods]] — *person* (defendant)
+- [[John_Budensiek]] — *person* (law enforcement official)
 - [[hydrocodone]] — *product* (prescribed medication involved)
 
 ## Related
 
-- [[info:item:world:global:2026-09-02-001]]
-- [[info:item:world:global:2026-09-02-002]]
+- [[2026-09-02-001-iran-attacks-us-bases-in-middle-east-after-reports-us]]
+- [[2026-09-02-002-charlie-kirk-murder-suspect-pleads-not-guilty-as-judge]]
 
 ---
 

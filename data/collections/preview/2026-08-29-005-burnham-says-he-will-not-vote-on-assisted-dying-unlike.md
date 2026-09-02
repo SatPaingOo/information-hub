@@ -54,15 +54,15 @@ The assisted dying bill stands at a critical juncture. Burnham’s abstention re
 
 ## Entities
 
-- [[Andy Burnham]] — *person* (Prime Minister of the United Kingdom, decision to abstain from assisted dying vote)
-- [[Keir Starmer]] — *person* (Former Prime Minister, voted in favour of previous assisted dying bill)
-- [[Yvette Cooper]] — *person* (Health Secretary, previous supporter of assisted dying legislation)
-- [[Wes Streeting]] — *person* (Former Health Secretary, voiced concerns about NHS impact of assisted dying)
+- [[Andy_Burnham]] — *person* (Prime Minister of the United Kingdom, decision to abstain from assisted dying vote)
+- [[Keir_Starmer]] — *person* (Former Prime Minister, voted in favour of previous assisted dying bill)
+- [[Yvette_Cooper]] — *person* (Health Secretary, previous supporter of assisted dying legislation)
+- [[Wes_Streeting]] — *person* (Former Health Secretary, voiced concerns about NHS impact of assisted dying)
 
 ## Related
 
-- [[info:item:politics:global:2026-08-29-004]]
-- [[info:item:politics:global:2026-08-28-002]]
+- [[2026-08-29-004-greens-call-for-temporary-ban-on-new-data-centres]]
+- [[2026-08-28-002-number-of-asylum-seekers-in-hotels-halves-in-a-year]]
 
 ---
 

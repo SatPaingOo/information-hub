@@ -53,15 +53,15 @@ The current tariff escalation is likely to persist through the remainder of 2026
 
 ## Entities
 
-- [[Donald Trump]] — *person* (US President imposing tariffs that triggered Canadian retaliation)
-- [[Mark Carney]] — *person* (Prime Minister of Canada responding to US tariffs with counter‑measures)
-- [[François‑Philippe Champagne]] — *person* (Canadian Finance Minister announcing retaliatory tariffs and support package)
+- [[Donald_Trump]] — *person* (US President imposing tariffs that triggered Canadian retaliation)
+- [[Mark_Carney]] — *person* (Prime Minister of Canada responding to US tariffs with counter‑measures)
+- [[François_Philippe_Champagne]] — *person* (Canadian Finance Minister announcing retaliatory tariffs and support package)
 - [[USMCA]] — *organization* (North American free‑trade agreement under strain from the tariff dispute)
 
 ## Related
 
-- [[info:item:world:global:2026-08-26-001]]
-- [[info:item:world:global:2026-08-26-002]]
+- [[2026-08-26-001-canada-announces-dollar-for-dollar-retaliatory-tariffs-on]]
+- [[2026-08-26-002-china-hits-out-at-illegal-new-us-sanctions-on-iran-and]]
 
 ---
 

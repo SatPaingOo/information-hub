@@ -56,13 +56,13 @@ Grand Theft Auto 6’s launch is poised to be the largest in gaming history, yet
 
 ## Entities
 
-- [[Rockstar Games]] — *company* (developer)
-- [[Grand Theft Auto 6]] — *product* (title)
+- [[Rockstar_Games]] — *company* (developer)
+- [[Grand_Theft_Auto_6]] — *product* (title)
 
 ## Related
 
-- [[info:item:world:global:2026-08-28-001]]
-- [[info:item:world:global:2026-08-28-006]]
+- [[2026-08-28-001-trump-administration-illegally-retaliated-against]]
+- [[2026-08-28-006-tracing-the-deadly-path-of-the-nepal-tibet-flash-flood]]
 
 ---
 

@@ -10,4 +10,4 @@ backlink_count: 1
 
 ## Referenced by
 
-- 2026-08-27 · [[info:item:politics:global:2026-08-27-005]] — Wes Streeting deluged with homophobic hate mail since becoming defence secretary
+- 2026-08-27 · [[2026-08-27-005-wes-streeting-deluged-with-homophobic-hate-mail-since]] — Wes Streeting deluged with homophobic hate mail since becoming defence secretary

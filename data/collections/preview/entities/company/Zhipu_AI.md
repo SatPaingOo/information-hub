@@ -10,4 +10,4 @@ backlink_count: 1
 
 ## Referenced by
 
-- 2026-08-27 · [[info:item:products:global:2026-08-27-007]] — GLM-5.3-Flash: The First Natively Multimodal Model in the GLM-5 Series
+- 2026-08-27 · [[2026-08-27-007-glm-5-3-flash-the-first-natively-multimodal-model-in-the]] — GLM-5.3-Flash: The First Natively Multimodal Model in the GLM-5 Series

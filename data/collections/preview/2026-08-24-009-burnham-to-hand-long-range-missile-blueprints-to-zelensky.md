@@ -52,15 +52,15 @@ In the medium term, Kyiv is likely to accelerate domestic missile production, le
 
 ## Entities
 
-- [[Andy Burnham]] — *person* (UK Prime Minister delivering missile blueprints)
-- [[Volodymyr Zelensky]] — *person* (Ukrainian President receiving blueprints)
+- [[Andy_Burnham]] — *person* (UK Prime Minister delivering missile blueprints)
+- [[Volodymyr_Zelensky]] — *person* (Ukrainian President receiving blueprints)
 - [[MBDA]] — *company* (Defence contractor declassifying missile component data)
-- [[Russian Embassy to the UK]] — *organization* (Issuer of diplomatic warnings)
+- [[Russian_Embassy_to_the_UK]] — *organization* (Issuer of diplomatic warnings)
 
 ## Related
 
-- [[info:item:world:global:2026-08-24-001]]
-- [[info:item:world:global:2026-08-24-002]]
+- [[2026-08-24-001-zelensky-should-be-asked-what-he-knew-about-government]]
+- [[2026-08-24-002-trump-says-canada-wants-benefits-of-being-us-state-after]]
 
 ---
 

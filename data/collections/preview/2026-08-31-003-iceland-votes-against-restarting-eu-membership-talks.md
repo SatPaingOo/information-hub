@@ -53,15 +53,15 @@ Iceland’s decision to halt EU accession talks for the foreseeable future under
 
 ## Entities
 
-- [[European Union]] — *organization* (target of accession negotiations)
-- [[Katrín Frostadóttir]] — *person* (Prime Minister of Iceland, promoter of referendum)
-- [[Donald Trump]] — *person* (U.S. President whose Greenland remarks influenced referendum timing)
+- [[European_Union]] — *organization* (target of accession negotiations)
+- [[Katrín_Frostadóttir]] — *person* (Prime Minister of Iceland, promoter of referendum)
+- [[Donald_Trump]] — *person* (U.S. President whose Greenland remarks influenced referendum timing)
 - [[NATO]] — *organization* (security alliance of which Iceland is a founding member)
 
 ## Related
 
-- [[info:item:world:global:2026-08-31-001]]
-- [[info:item:world:global:2026-08-30-001]]
+- [[2026-08-31-001-eight-killed-and-18-missing-after-ferry-capsizes-off]]
+- [[2026-08-30-001-iceland-eu-referendum-on-a-knife-edge-as-counting-continues]]
 
 ---
 

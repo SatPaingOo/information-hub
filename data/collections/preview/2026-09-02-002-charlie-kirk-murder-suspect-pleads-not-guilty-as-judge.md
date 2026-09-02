@@ -51,15 +51,15 @@ The case is poised for a lengthy pre‑trial phase, including possible motions t
 
 ## Entities
 
-- [[Tyler Robinson]] — *person* (defendant and alleged shooter)
-- [[Charlie Kirk]] — *person* (victim, conservative activist)
-- [[Utah Valley University]] — *organization* (location of the shooting)
-- [[Judge Tony Graf]] — *person* (presiding judge)
+- [[Tyler_Robinson]] — *person* (defendant and alleged shooter)
+- [[Charlie_Kirk]] — *person* (victim, conservative activist)
+- [[Utah_Valley_University]] — *organization* (location of the shooting)
+- [[Judge_Tony_Graf]] — *person* (presiding judge)
 
 ## Related
 
-- [[info:item:world:global:2026-09-02-001]]
-- [[info:item:world:global:2026-09-01-001]]
+- [[2026-09-02-001-iran-attacks-us-bases-in-middle-east-after-reports-us]]
+- [[2026-09-01-001-what-it-was-like-inside-court-for-tupac-shakur-s-murder]]
 
 ---
 

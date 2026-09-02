@@ -60,13 +60,13 @@ Pluto’s early traction suggests a growing appetite for agentic AI solutions th
 - [[Pluto]] — *product* (product described)
 - [[OpenAI]] — *company* (LLM provider integrated)
 - [[Gemini]] — *model* (LLM model integrated)
-- [[Agentic AI]] — *concept* (core technology)
+- [[Agentic_AI]] — *concept* (core technology)
 - [[Myanmar]] — *region* (target market with regulatory considerations)
 
 ## Related
 
-- [[info:item:products:global:2026-08-27-006]]
-- [[info:item:products:global:2026-08-27-007]]
+- [[2026-08-27-006-ojin-real-time-ai-agent-with-live-face-and-voice]]
+- [[2026-08-27-007-glm-5-3-flash-the-first-natively-multimodal-model-in-the]]
 
 ---
 

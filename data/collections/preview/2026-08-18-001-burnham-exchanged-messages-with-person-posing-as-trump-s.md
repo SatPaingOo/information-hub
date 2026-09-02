@@ -51,14 +51,13 @@ Looking ahead, the episode underscores the necessity for continuous vigilance an
 
 ## Entities
 
-- [[Andy Burnham]] — *person* (exchanged messages with impersonator)
-- [[Susie Wiles]] — *person* (target of impersonation attempt)
+- [[Andy_Burnham]] — *person* (exchanged messages with impersonator)
+- [[Susie_Wiles]] — *person* (target of impersonation attempt)
 - [[FBI]] — *organization* (investigating the impersonation attempt)
 
 ## Related
 
-- [[info:item:politics:global:2026-08-18-005]]
-- [[info:item:politics:global:2026-08-18-002]]
+- [[2026-08-18-005-disabled-people-in-england-to-get-24-hour-free-bus-travel]]
 
 ---
 

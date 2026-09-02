@@ -10,4 +10,4 @@ backlink_count: 1
 
 ## Referenced by
 
-- 2026-08-29 · [[info:item:products:global:2026-08-29-007]] — God’s Eye View – Real‑World Spy Satellite Simulation in the Browser
+- 2026-08-29 · [[2026-08-29-007-god-s-eye-view-real-world-spy-satellite-simulation-in-the]] — God’s Eye View – Real‑World Spy Satellite Simulation in the Browser

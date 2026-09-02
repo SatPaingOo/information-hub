@@ -54,15 +54,15 @@ The rescue window is narrowing; while the oxygen system offers a slim chance of 
 
 ## Entities
 
-- [[Balendra Shah]] — *person* (Prime Minister of Nepal, leading disaster response)
-- [[Arnold Dix]] — *person* (International tunnelling expert advising on underground rescue)
+- [[Balendra_Shah]] — *person* (Prime Minister of Nepal, leading disaster response)
+- [[Arnold_Dix]] — *person* (International tunnelling expert advising on underground rescue)
 - [[Tibet]] — *region* (Affected area with 16 confirmed deaths and 546 missing per Chinese reports)
-- [[Nepal's Ministry of Health]] — *organization* (Providing casualty identification and burial coordination)
+- [[Nepal_s_Ministry_of_Health]] — *organization* (Providing casualty identification and burial coordination)
 
 ## Related
 
-- [[info:item:world:global:2026-09-01-001]]
-- [[info:item:world:global:2026-08-31-001]]
+- [[2026-09-01-001-what-it-was-like-inside-court-for-tupac-shakur-s-murder]]
+- [[2026-08-31-001-eight-killed-and-18-missing-after-ferry-capsizes-off]]
 
 ---
 

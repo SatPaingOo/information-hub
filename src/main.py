@@ -302,6 +302,14 @@ def run_collect(cfg: Config, registry: Registry, store: Store, indexer: Indexer,
                                  "supports_json": True},
                 "schema_version": SCHEMA_VERSION,
             }
+            # Resolve related item IDs -> their note FILENAMES so the preview
+            # markdown's Obsidian wikilinks actually resolve (item notes are
+            # flat <key>-<title-slug>.md, not id-named).
+            from src.storage.naming import record_filename
+            id_to_note = {r["id"]: record_filename(r) for r in store.iter_records()}
+            record["related_notes"] = [
+                id_to_note[i] for i in record.get("related_items", [])
+                if i in id_to_note]
             store.write_record(record)
             registry.record_item(record, status="published",
                                  gemini_calls=attempt + 1, validated=True,

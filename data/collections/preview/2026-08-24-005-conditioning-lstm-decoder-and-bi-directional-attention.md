@@ -54,15 +54,15 @@ Looking toward 2026 and beyond, this research's influence continues to manifest 
 
 ## Entities
 
-- [[Bi-directional Attention Flow]] — *concept* (core architectural component)
-- [[LSTM Decoder]] — *concept* (prediction mechanism for answer spans)
-- [[Smart-span Equation]] — *concept* (novel prediction scoring methodology)
-- [[Conditioning LSTM Decoder]] — *model* (innovative dual-decoder architecture)
+- [[Bi-directional_Attention_Flow]] — *concept* (core architectural component)
+- [[LSTM_Decoder]] — *concept* (prediction mechanism for answer spans)
+- [[Smart-span_Equation]] — *concept* (novel prediction scoring methodology)
+- [[Conditioning_LSTM_Decoder]] — *model* (innovative dual-decoder architecture)
 
 ## Related
 
-- [[info:item:ai-ml:global:2026-08-23-004]]
-- [[info:item:ai-ml:global:2026-08-23-005]]
+- [[2026-08-23-004-i-like-fish-especially-dolphins-addressing-contradictions]]
+- [[2026-08-23-005-toward-compact-data-from-big-data-a-novel-approach-to]]
 
 ---
 

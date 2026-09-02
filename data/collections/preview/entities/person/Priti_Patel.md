@@ -10,4 +10,4 @@ backlink_count: 1
 
 ## Referenced by
 
-- 2026-08-31 · [[info:item:politics:global:2026-08-31-004]] — Patel to be replaced by Tugendhat as shadow foreign secretary
+- 2026-08-31 · [[2026-08-31-004-patel-to-be-replaced-by-tugendhat-as-shadow-foreign]] — Patel to be replaced by Tugendhat as shadow foreign secretary

@@ -53,15 +53,15 @@ If the government can accelerate the remaining £16bn allocation and clarify ann
 
 ## Entities
 
-- [[Andy Burnham]] — *person* (former Labour minister and advocate for full social rent allocation)
-- [[Angela Rayner]] — *person* (Housing Secretary championing council house revival)
+- [[Andy_Burnham]] — *person* (former Labour minister and advocate for full social rent allocation)
+- [[Angela_Rayner]] — *person* (Housing Secretary championing council house revival)
 - [[Shelter]] — *organization* (housing charity critic of the programme's scale)
-- [[National Housing Federation]] — *organization* (advocates for higher annual social housing construction)
+- [[National_Housing_Federation]] — *organization* (advocates for higher annual social housing construction)
 
 ## Related
 
-- [[info:item:politics:global:2026-08-26-004]]
-- [[info:item:politics:global:2026-08-25-005]]
+- [[2026-08-26-004-burnham-refuses-to-rule-out-tax-rises-in-autumn-budget]]
+- [[2026-08-25-005-burnham-vows-support-for-ukraine-despite-outrageous]]
 
 ---
 

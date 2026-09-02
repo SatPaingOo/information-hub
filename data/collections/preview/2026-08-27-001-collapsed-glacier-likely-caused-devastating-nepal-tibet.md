@@ -58,8 +58,8 @@ The convergence of tectonic uplift and accelerated glacier melt creates a feedba
 
 ## Related
 
-- [[info:item:world:global:2026-08-26-001]]
-- [[info:item:world:global:2026-08-26-002]]
+- [[2026-08-26-001-canada-announces-dollar-for-dollar-retaliatory-tariffs-on]]
+- [[2026-08-26-002-china-hits-out-at-illegal-new-us-sanctions-on-iran-and]]
 
 ---
 

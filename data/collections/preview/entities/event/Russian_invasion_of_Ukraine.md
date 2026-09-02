@@ -10,4 +10,4 @@ backlink_count: 1
 
 ## Referenced by
 
-- 2026-08-19 · [[info:item:world:global:2026-08-19-002]] — Sacked Ukrainian Defence Minister Calls for Presidential Election
+- 2026-08-19 · [[2026-08-19-002-sacked-ukrainian-defence-minister-calls-for-presidential]] — Sacked Ukrainian Defence Minister Calls for Presidential Election

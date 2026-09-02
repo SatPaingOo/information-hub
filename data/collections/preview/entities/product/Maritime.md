@@ -10,4 +10,4 @@ backlink_count: 1
 
 ## Referenced by
 
-- 2026-08-31 · [[info:item:products:global:2026-08-31-006]] — Maritime
+- 2026-08-31 · [[2026-08-31-006-maritime]] — Maritime

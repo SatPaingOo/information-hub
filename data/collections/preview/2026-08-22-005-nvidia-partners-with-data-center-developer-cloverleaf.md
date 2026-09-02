@@ -55,14 +55,14 @@ Nvidia's infrastructure investments are likely to accelerate as AI demand contin
 ## Entities
 
 - [[Nvidia]] — *company* (investor and partner)
-- [[Cloverleaf Infrastructure]] — *company* (infrastructure partner)
+- [[Cloverleaf_Infrastructure]] — *company* (infrastructure partner)
 - [[OpenAI]] — *organization* (related through SB Energy investment)
-- [[North America]] — *region* (primary deployment region)
-- [[AI data centers]] — *product* (target infrastructure for development)
+- [[North_America]] — *region* (primary deployment region)
+- [[AI_data_centers]] — *product* (target infrastructure for development)
 
 ## Related
 
-- [[info:item:ai-ml:global:2026-08-22-004]]
+- [[2026-08-22-004-anthropic-s-opus-4-6-is-a-smut-machine]]
 
 ---
 

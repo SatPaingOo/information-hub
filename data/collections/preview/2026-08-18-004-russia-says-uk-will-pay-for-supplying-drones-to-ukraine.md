@@ -53,15 +53,14 @@ Tensions are expected to remain elevated as Ukraine continues leveraging Western
 
 ## Entities
 
-- [[UK Ministry of Defence]] — *organization* (responded to Russian accusations regarding drone supply)
-- [[Russian Embassy to the UK]] — *organization* (issued statement accusing UK of escalation)
+- [[UK_Ministry_of_Defence]] — *organization* (responded to Russian accusations regarding drone supply)
+- [[Russian_Embassy_to_the_UK]] — *organization* (issued statement accusing UK of escalation)
 - [[Wildberries]] — *company* (targeted in Ukrainian drone strikes using UK-made systems)
-- [[Vladimir Putin]] — *person* (referenced as leader against whom UK stands)
+- [[Vladimir_Putin]] — *person* (referenced as leader against whom UK stands)
 
 ## Related
 
-- [[info:item:world:global:2026-08-17-003]]
-- [[info:item:world:global:2026-08-16-002]]
+_No linked notes yet — check the graph for emerging links._
 
 ---
 

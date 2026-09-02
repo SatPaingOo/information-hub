@@ -10,5 +10,5 @@ backlink_count: 2
 
 ## Referenced by
 
-- 2026-08-25 · [[info:item:world:global:2026-08-25-003]] — US removes Syria from list of state sponsors of terrorism
-- 2026-08-23 · [[info:item:world:global:2026-08-23-003]] — Syria says Israeli strike near Damascus violation of international law
+- 2026-08-25 · [[2026-08-25-003-us-removes-syria-from-list-of-state-sponsors-of-terrorism]] — US removes Syria from list of state sponsors of terrorism
+- 2026-08-23 · [[2026-08-23-003-syria-says-israeli-strike-near-damascus-violation-of]] — Syria says Israeli strike near Damascus violation of international law

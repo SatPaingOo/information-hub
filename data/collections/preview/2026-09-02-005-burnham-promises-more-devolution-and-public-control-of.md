@@ -57,16 +57,16 @@ Parliament will likely subject Burnham’s ambitious agenda to intense scrutiny,
 
 ## Entities
 
-- [[Andy Burnham]] — *person* (Prime Minister of the United Kingdom and proponent of devolution and public control of utilities)
-- [[Kemi Badenoch]] — *person* (Leader of the Conservative Party and critic of Burnham’s policy agenda)
-- [[John Healey]] — *person* (Chancellor of the Exchequer appointed by Burnham, noted for defence background)
-- [[Labour Party]] — *organization* (governing party under Burnham)
-- [[Conservative Party]] — *organization* (principal opposition criticising Burnham’s proposals)
+- [[Andy_Burnham]] — *person* (Prime Minister of the United Kingdom and proponent of devolution and public control of utilities)
+- [[Kemi_Badenoch]] — *person* (Leader of the Conservative Party and critic of Burnham’s policy agenda)
+- [[John_Healey]] — *person* (Chancellor of the Exchequer appointed by Burnham, noted for defence background)
+- [[Labour_Party]] — *organization* (governing party under Burnham)
+- [[Conservative_Party]] — *organization* (principal opposition criticising Burnham’s proposals)
 
 ## Related
 
-- [[info:item:politics:global:2026-09-02-004]]
-- [[info:item:politics:global:2026-09-01-004]]
+- [[2026-09-02-004-chris-mason-will-burnham-find-pmqs-as-nail-biting-and]]
+- [[2026-09-01-004-burnham-to-promise-sense-of-optimism-in-first-commons]]
 
 ---
 

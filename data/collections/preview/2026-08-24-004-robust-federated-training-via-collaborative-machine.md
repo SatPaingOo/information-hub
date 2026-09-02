@@ -53,15 +53,15 @@ As federated learning continues to gain traction in industry and academia, the n
 
 ## Entities
 
-- [[Federated Learning]] — *concept* (subject of the research)
-- [[Machine Teaching]] — *concept* (methodology applied)
+- [[Federated_Learning]] — *concept* (subject of the research)
+- [[Machine_Teaching]] — *concept* (methodology applied)
 - [[arXiv]] — *organization* (source of publication)
-- [[Adversarial Data Poisoning]] — *concept* (threat addressed)
+- [[Adversarial_Data_Poisoning]] — *concept* (threat addressed)
 
 ## Related
 
-- [[info:item:ai-ml:global:2026-08-23-004]]
-- [[info:item:ai-ml:global:2026-08-23-005]]
+- [[2026-08-23-004-i-like-fish-especially-dolphins-addressing-contradictions]]
+- [[2026-08-23-005-toward-compact-data-from-big-data-a-novel-approach-to]]
 
 ---
 

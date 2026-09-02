@@ -54,15 +54,15 @@ In the short term, Canada’s matching tariffs will likely cement a tit‑for‑
 
 ## Entities
 
-- [[Mark Carney]] — *person* (Canadian Prime Minister)
-- [[Donald Trump]] — *person* (U.S. President)
-- [[Jamieson Greer]] — *person* (U.S. Trade Representative)
-- [[North America]] — *region* (Geographic context of trade relationship)
+- [[Mark_Carney]] — *person* (Canadian Prime Minister)
+- [[Donald_Trump]] — *person* (U.S. President)
+- [[Jamieson_Greer]] — *person* (U.S. Trade Representative)
+- [[North_America]] — *region* (Geographic context of trade relationship)
 
 ## Related
 
-- [[info:item:world:global:2026-08-23-001]]
-- [[info:item:world:global:2026-08-23-002]]
+- [[2026-08-23-001-fourteen-killed-in-strike-on-myanmar-monastery]]
+- [[2026-08-23-002-rescuers-dig-through-ukraine-mall-wreckage-as-zelensky]]
 
 ---
 

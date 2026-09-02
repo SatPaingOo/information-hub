@@ -10,4 +10,4 @@ backlink_count: 1
 
 ## Referenced by
 
-- 2026-08-28 · [[info:item:world:global:2026-08-28-007]] — Tate brothers blast US jail conditions as they seek bail in UK extradition fight
+- 2026-08-28 · [[2026-08-28-007-tate-brothers-blast-us-jail-conditions-as-they-seek-bail]] — Tate brothers blast US jail conditions as they seek bail in UK extradition fight

@@ -51,14 +51,14 @@ In the coming months, the focus will shift from emergency relief to resilient re
 
 ## Entities
 
-- [[BBC News]] — *organization* (producer of verification and reporting)
-- [[Merlyn Thomas]] — *person* (reporter for BBC Verify)
-- [[António Guterres]] — *person* (UN Secretary‑General calling for aid)
+- [[BBC_News]] — *organization* (producer of verification and reporting)
+- [[Merlyn_Thomas]] — *person* (reporter for BBC Verify)
+- [[António_Guterres]] — *person* (UN Secretary‑General calling for aid)
 
 ## Related
 
-- [[info:item:world:global:2026-08-28-001]]
-- [[info:item:world:global:2026-08-27-001]]
+- [[2026-08-28-001-trump-administration-illegally-retaliated-against]]
+- [[2026-08-27-001-collapsed-glacier-likely-caused-devastating-nepal-tibet]]
 
 ---
 

@@ -51,15 +51,14 @@ If the lake breaches within the next fortnight, emergency evacuations will need 
 
 - [[China]] — *region* (issuing high‑risk flood warning)
 - [[Nepal]] — *region* (directly affected by potential lake breach)
-- [[United Nations Office for the Coordination of Humanitarian Affairs]] — *organization* (potential mediator and aid coordinator)
-- [[Glacial Lake Outburst Flood (GLOF)]] — *concept* (hazard type under discussion)
+- [[United_Nations_Office_for_the_Coordination_of_Humanitarian_Affairs]] — *organization* (potential mediator and aid coordinator)
+- [[Glacial_Lake_Outburst_Flood__GLOF_]] — *concept* (hazard type under discussion)
 
 ## Related
 
-- [[info:item:world:global:2026-08-28-001]]
-- [[info:item:world:global:2026-08-28-006]]
-- [[info:item:world:global:2026-08-28-007]]
-- [[info:item:world:global:2026-08-28-010]]
+- [[2026-08-28-001-trump-administration-illegally-retaliated-against]]
+- [[2026-08-28-006-tracing-the-deadly-path-of-the-nepal-tibet-flash-flood]]
+- [[2026-08-28-007-tate-brothers-blast-us-jail-conditions-as-they-seek-bail]]
 
 ---
 

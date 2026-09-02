@@ -53,15 +53,15 @@ If the accelerated rollout meets its targets, the UK could see a more uniform an
 
 ## Entities
 
-- [[Andy Burnham]] — *person* (Prime Minister announcing accelerated specialist teams)
-- [[Shabana Mahmood]] — *person* (Home Secretary who declared VAWG a national emergency)
+- [[Andy_Burnham]] — *person* (Prime Minister announcing accelerated specialist teams)
+- [[Shabana_Mahmood]] — *person* (Home Secretary who declared VAWG a national emergency)
 - [[Refuge]] — *organization* (Charity welcoming measures but calling for broader reforms)
-- [[Home Office]] — *organization* (Agency allocating £13.3 million for protection‑order enforcement)
+- [[Home_Office]] — *organization* (Agency allocating £13.3 million for protection‑order enforcement)
 
 ## Related
 
-- [[info:item:politics:global:2026-08-28-002]]
-- [[info:item:politics:global:2026-08-27-004]]
+- [[2026-08-28-002-number-of-asylum-seekers-in-hotels-halves-in-a-year]]
+- [[2026-08-27-004-burnham-calls-summit-of-welsh-scottish-and-northern-irish]]
 
 ---
 

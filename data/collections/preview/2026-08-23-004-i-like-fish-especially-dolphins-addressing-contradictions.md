@@ -52,15 +52,15 @@ The DECODE framework represents a significant step toward more coherent and trus
 
 ## Entities
 
-- [[Natural Language Inference]] — *concept* (provides foundation for contradiction detection)
+- [[Natural_Language_Inference]] — *concept* (provides foundation for contradiction detection)
 - [[Transformer]] — *model* (architecture used for contradiction detection)
 - [[DECODE]] — *product* (proposed dataset and task framework)
 - [[OpenAI]] — *organization* (potential adopter of consistency evaluation methods)
 
 ## Related
 
-- [[info:item:ai-ml:global:2026-08-22-004]]
-- [[info:item:ai-ml:global:2026-08-22-005]]
+- [[2026-08-22-004-anthropic-s-opus-4-6-is-a-smut-machine]]
+- [[2026-08-22-005-nvidia-partners-with-data-center-developer-cloverleaf]]
 
 ---
 

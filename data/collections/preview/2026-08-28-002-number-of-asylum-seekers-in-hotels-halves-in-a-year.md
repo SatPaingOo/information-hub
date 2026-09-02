@@ -56,15 +56,15 @@ If current trends continue, the UK could meet the Starmer government’s target 
 
 ## Entities
 
-- [[Shabana Mahmood]] — *person* (Home Secretary implementing migration policies)
-- [[Chris Philp]] — *person* (Shadow Home Secretary criticising Labour’s approach)
-- [[Rishi Sunak]] — *person* (Former Prime Minister whose government tightened visa rules)
-- [[Reform UK]] — *organization* (Opposition party calling for stricter border controls)
+- [[Shabana_Mahmood]] — *person* (Home Secretary implementing migration policies)
+- [[Chris_Philp]] — *person* (Shadow Home Secretary criticising Labour’s approach)
+- [[Rishi_Sunak]] — *person* (Former Prime Minister whose government tightened visa rules)
+- [[Reform_UK]] — *organization* (Opposition party calling for stricter border controls)
 
 ## Related
 
-- [[info:item:politics:global:2026-08-27-004]]
-- [[info:item:politics:global:2026-08-27-005]]
+- [[2026-08-27-004-burnham-calls-summit-of-welsh-scottish-and-northern-irish]]
+- [[2026-08-27-005-wes-streeting-deluged-with-homophobic-hate-mail-since]]
 
 ---
 

@@ -10,4 +10,4 @@ backlink_count: 1
 
 ## Referenced by
 
-- 2026-08-29 · [[info:item:politics:global:2026-08-29-005]] — Burnham says he will not vote on assisted dying unlike Starmer
+- 2026-08-29 · [[2026-08-29-005-burnham-says-he-will-not-vote-on-assisted-dying-unlike]] — Burnham says he will not vote on assisted dying unlike Starmer

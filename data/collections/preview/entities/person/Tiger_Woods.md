@@ -10,4 +10,4 @@ backlink_count: 1
 
 ## Referenced by
 
-- 2026-09-02 · [[info:item:world:global:2026-09-02-003]] — Tiger Woods to change plea after crash arrest
+- 2026-09-02 · [[2026-09-02-003-tiger-woods-to-change-plea-after-crash-arrest]] — Tiger Woods to change plea after crash arrest

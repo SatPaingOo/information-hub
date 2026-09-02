@@ -10,4 +10,4 @@ backlink_count: 1
 
 ## Referenced by
 
-- 2026-08-30 · [[info:item:world:global:2026-08-30-003]] — Canada installs large Lake Ontario sign in latest jab at US
+- 2026-08-30 · [[2026-08-30-003-canada-installs-large-lake-ontario-sign-in-latest-jab-at-us]] — Canada installs large Lake Ontario sign in latest jab at US

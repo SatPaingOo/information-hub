@@ -10,4 +10,4 @@ backlink_count: 1
 
 ## Referenced by
 
-- 2026-09-01 · [[info:item:products:global:2026-09-01-006]] — Interactive Sessions
+- 2026-09-01 · [[2026-09-01-006-interactive-sessions]] — Interactive Sessions

@@ -17,6 +17,8 @@ from __future__ import annotations
 import json
 from typing import Any
 
+from src.storage.naming import record_filename, safe_name
+
 _YAML_BOOL = {True: "true", False: "false"}
 
 
@@ -73,14 +75,24 @@ def record_to_markdown(record: dict[str, Any]) -> str:
         lines.append("## Entities")
         lines.append("")
         for e in record["entities"]:
-            lines.append(f"- [[{e['name']}]] — *{e['type']}* ({e['relation']})")
+            # wikilink target = the entity note basename (entities/<type>/
+            # <safe>.md) so the link resolves in Obsidian.
+            lines.append(f"- [[{safe_name(e['name'])}]] — *{e['type']}* ({e['relation']})")
         lines.append("")
 
     if record["related_items"]:
         lines.append("## Related")
         lines.append("")
-        for rel in record["related_items"]:
-            lines.append(f"- [[{rel}]]")
+        # related_items are machine item IDs; the Obsidian links must point
+        # at the item NOTE files, so main.py stamps ``related_notes`` with
+        # the resolved filenames (record_filename).  IDs without a resolved
+        # note (old records / invented by the model) are skipped.
+        notes = record.get("related_notes") or []
+        if notes:
+            for rel in notes:
+                lines.append(f"- [[{rel}]]")
+        else:
+            lines.append("_No linked notes yet — check the graph for emerging links._")
     else:
         lines.append("## Related")
         lines.append("")
@@ -106,7 +118,7 @@ def daily_index_markdown(date: str, records: list[dict[str, Any]]) -> str:
         lines.append(f"- **Type**: {rec['content_type']} · **Topic**: {rec['topic']} · "
                      f"**Region**: {rec['region']}")
         lines.append(f"- **Source**: [{rec['source']['name']}]({rec['source']['url']})")
-        lines.append(f"- **Note**: [[{rec['id']}]]")
+        lines.append(f"- **Note**: [[{record_filename(rec)}]]")
         lines.append(f"- **TL;DR**: {rec['tldr']}")
         lines.append("")
     return "\n".join(lines)
@@ -123,7 +135,10 @@ def entity_markdown(name: str, entity_type: str,
         lines.append("_No items yet._")
         return "\n".join(lines)
     for bl in sorted(backlinks, key=lambda b: b.get("date", ""), reverse=True):
-        lines.append(f"- {bl['date']} · [[{bl['id']}]] — {bl['title']}")
+        # bl['note'] = the referencing item note filename (set by indexer);
+        # fall back to the item id for older callers.
+        target = bl.get("note") or bl.get("id") or ""
+        lines.append(f"- {bl['date']} · [[{target}]] — {bl['title']}")
     return "\n".join(lines)
 
 
@@ -141,21 +156,21 @@ def taxonomy_note_markdown(node: str, layer: str,
         lines.append("## Parents")
         lines.append("")
         for p in parents:
-            lines.append(f"- [[{p}]]")
+            lines.append(f"- [[{safe_name(p)}]]")
         lines.append("")
 
     if children:
         lines.append("## Children")
         lines.append("")
         for c in children:
-            lines.append(f"- [[{c}]]")
+            lines.append(f"- [[{safe_name(c)}]]")
         lines.append("")
 
     if related_nodes:
         lines.append("## Cross-layer relations")
         lines.append("")
         for rel_node, rel_type in sorted(related_nodes):
-            lines.append(f"- [[{rel_node}]] — *{rel_type}*")
+            lines.append(f"- [[{safe_name(rel_node)}]] — *{rel_type}*")
         lines.append("")
 
     lines.append("## Items")
@@ -164,7 +179,7 @@ def taxonomy_note_markdown(node: str, layer: str,
         lines.append("_No items yet._")
         return "\n".join(lines)
     for it in sorted(items, key=lambda i: i.get("date", ""), reverse=True):
-        lines.append(f"- {it['date']} · [[{it['id']}]] — {it['title']}")
+        lines.append(f"- {it['date']} · [[{record_filename(it)}]] — {it['title']}")
     return "\n".join(lines)
 
 

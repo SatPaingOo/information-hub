@@ -51,16 +51,16 @@ The immediate outlook hinges on the government's willingness to adopt the Lib De
 
 ## Entities
 
-- [[Liberal Democrats]] — *organization* (proposes emergency measures to address teacher attrition)
-- [[Lucy Powell]] — *person* (Education Secretary targeted for immediate policy action)
-- [[National Education Union (NEU)]] — *organization* (collaborated on survey and advocates for teachers)
-- [[Caroline Voaden]] — *person* (Lib Dem schools spokesperson leading the call)
+- [[Liberal_Democrats]] — *organization* (proposes emergency measures to address teacher attrition)
+- [[Lucy_Powell]] — *person* (Education Secretary targeted for immediate policy action)
+- [[National_Education_Union__NEU_]] — *organization* (collaborated on survey and advocates for teachers)
+- [[Caroline_Voaden]] — *person* (Lib Dem schools spokesperson leading the call)
 
 ## Related
 
-- [[info:item:politics:global:2026-08-31-004]]
-- [[info:item:politics:global:2026-08-30-004]]
-- [[info:item:politics:global:2026-08-30-005]]
+- [[2026-08-31-004-patel-to-be-replaced-by-tugendhat-as-shadow-foreign]]
+- [[2026-08-30-004-pc-harper-s-killers-to-stay-in-jail-as-pm-announces]]
+- [[2026-08-30-005-burnham-s-summer-tour-is-over-now-he-has-to-prove-himself]]
 
 ---
 

@@ -10,4 +10,4 @@ backlink_count: 1
 
 ## Referenced by
 
-- 2026-08-21 · [[info:item:world:global:2026-08-21-005]] — Israel re-establishes closed West Bank settlement, defying growing international protests
+- 2026-08-21 · [[2026-08-21-005-israel-re-establishes-closed-west-bank-settlement-defying]] — Israel re-establishes closed West Bank settlement, defying growing international protests

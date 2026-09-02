@@ -52,15 +52,14 @@ In the short term, the E1 tender will dominate diplomatic agendas in Washington,
 
 ## Entities
 
-- [[Benjamin Netanyahu]] — *person* (Israeli Prime Minister leading the pro‑settlement coalition)
-- [[European Union]] — *organization* (Collectively condemning the E1 settlement plan)
-- [[António Guterres]] — *person* (UN Secretary‑General labeling the plan an existential threat)
-- [[Canadian Ministry of Foreign Affairs]] — *organization* (Co‑signatory of the joint condemnation statement)
+- [[Benjamin_Netanyahu]] — *person* (Israeli Prime Minister leading the pro‑settlement coalition)
+- [[European_Union]] — *organization* (Collectively condemning the E1 settlement plan)
+- [[António_Guterres]] — *person* (UN Secretary‑General labeling the plan an existential threat)
+- [[Canadian_Ministry_of_Foreign_Affairs]] — *organization* (Co‑signatory of the joint condemnation statement)
 
 ## Related
 
-- [[info:item:world:global:2026-07-15-001]]
-- [[info:item:world:global:2026-06-30-003]]
+_No linked notes yet — check the graph for emerging links._
 
 ---
 

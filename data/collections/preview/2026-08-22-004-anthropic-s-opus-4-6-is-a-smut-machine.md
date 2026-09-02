@@ -54,14 +54,13 @@ Anthropic is expected to accelerate deprecation timelines for vulnerable models 
 ## Entities
 
 - [[Anthropic]] — *company* (developer of Claude models involved in the smut-machine controversy)
-- [[Claude Opus 4.6]] — *model* (subject of TechCrunch’s jailbreak testing and central to the reported vulnerability)
+- [[Claude_Opus_4_6]] — *model* (subject of TechCrunch’s jailbreak testing and central to the reported vulnerability)
 - [[TechCrunch]] — *organization* (conducted and published the investigative testing)
 - [[global]] — *region* (scope of impact due to third-party integrations and regulatory implications)
 
 ## Related
 
-- [[info:item:ai-ml:global:2025-07-15-012]]
-- [[info:item:ai-ml:us:2026-03-10-008]]
+_No linked notes yet — check the graph for emerging links._
 
 ---
 

@@ -10,4 +10,4 @@ backlink_count: 1
 
 ## Referenced by
 
-- 2026-08-29 · [[info:item:politics:global:2026-08-29-004]] — Greens call for temporary ban on new data centres
+- 2026-08-29 · [[2026-08-29-004-greens-call-for-temporary-ban-on-new-data-centres]] — Greens call for temporary ban on new data centres

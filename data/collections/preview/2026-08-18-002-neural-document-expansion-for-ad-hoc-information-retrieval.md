@@ -49,12 +49,11 @@ Future research should explore hybrid strategies that combine neural expansion w
 ## Entities
 
 - [[OpenAI]] — *company* (provides foundational language models that underpin the expansion model's pretraining.)
-- [[Retrieval-Augmented Generation]] — *model* (benefits from enriched document context supplied by neural expansion.)
+- [[Retrieval-Augmented_Generation]] — *model* (benefits from enriched document context supplied by neural expansion.)
 
 ## Related
 
-- [[info:item:ai-ml:global:2025-03-15-001]]
-- [[info:item:ai-ml:global:2024-11-20-003]]
+_No linked notes yet — check the graph for emerging links._
 
 ---
 

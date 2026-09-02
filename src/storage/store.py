@@ -16,35 +16,11 @@ Role: both phases — consumed by main and storage.indexer.
 from __future__ import annotations
 
 import json
-import re
 from pathlib import Path
 from typing import Any
 
 from src.render.markdown import record_to_markdown
-
-
-def slugify(title: str, max_len: int = 60) -> str:
-    """Convert a title into a filesystem-safe slug.
-
-    Lowercases, keeps alphanumerics and spaces→hyphens, collapses repeats,
-    strips edges and caps the length (keeping whole words where possible).
-
-    Returns:
-        A slug like ``"myanmar-economy-ministry-investment"``.
-    """
-    slug = re.sub(r"[^a-z0-9]+", "-", title.lower()).strip("-")
-    if len(slug) <= max_len:
-        return slug
-    # trim to whole words within the cap
-    cut = slug[:max_len].rstrip("-")
-    if "-" in cut:
-        cut = cut.rsplit("-", 1)[0]
-    return cut or slug[:max_len]
-
-
-def record_filename(record: dict[str, Any]) -> str:
-    """Flat readable filename for a record: ``<key>-<title-slug>``."""
-    return f"{record['key']}-{slugify(record['title'])}"
+from src.storage.naming import record_filename, slugify  # re-exported for callers
 
 
 class Store:

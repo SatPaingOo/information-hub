@@ -57,17 +57,17 @@ The Kryvyi Rih attack signals potential escalation in Russia's use of double-tap
 
 ## Entities
 
-- [[Volodymyr Zelensky]] — *person* (President of Ukraine who condemned the attack)
-- [[Vladimir Putin]] — *person* (Russian President whose military conducted the strike)
-- [[BBC News]] — *organization* (Source of the reporting)
-- [[Kryvyi Rih]] — *region* (City in Dnipropetrovsk region targeted in the attack)
+- [[Volodymyr_Zelensky]] — *person* (President of Ukraine who condemned the attack)
+- [[Vladimir_Putin]] — *person* (Russian President whose military conducted the strike)
+- [[BBC_News]] — *organization* (Source of the reporting)
+- [[Kryvyi_Rih]] — *region* (City in Dnipropetrovsk region targeted in the attack)
 - [[Wildberries]] — *company* (Russian e-commerce platform targeted by Ukrainian strikes)
 
 ## Related
 
-- [[info:item:world:global:2026-08-21-004]]
-- [[info:item:world:global:2026-08-21-005]]
-- [[info:item:world:global:2026-08-21-006]]
+- [[2026-08-21-004-uk-france-germany-italy-and-canada-condemn-israel-s-west]]
+- [[2026-08-21-005-israel-re-establishes-closed-west-bank-settlement-defying]]
+- [[2026-08-21-006-rosenberg-shortage-of-petrol-but-not-patriotism-as]]
 
 ---
 

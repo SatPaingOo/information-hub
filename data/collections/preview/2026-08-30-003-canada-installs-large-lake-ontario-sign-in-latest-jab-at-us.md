@@ -52,15 +52,15 @@ The immediate outlook points to a protracted diplomatic stalemate, with both sid
 
 ## Entities
 
-- [[Donald Trump]] — *person* (U.S. President who issued executive order renaming Lake Ontario to Lake America)
-- [[Doug Ford]] — *person* (Ontario Premier who unveiled the Lake Ontario billboard)
-- [[Mark Carney]] — *person* (Canadian Prime Minister who echoed Canada’s stance on the lake’s name)
-- [[U.S. Department of the Interior]] — *organization* (Agency tasked with updating the Geographic Names Information Service per Trump’s order)
+- [[Donald_Trump]] — *person* (U.S. President who issued executive order renaming Lake Ontario to Lake America)
+- [[Doug_Ford]] — *person* (Ontario Premier who unveiled the Lake Ontario billboard)
+- [[Mark_Carney]] — *person* (Canadian Prime Minister who echoed Canada’s stance on the lake’s name)
+- [[U_S__Department_of_the_Interior]] — *organization* (Agency tasked with updating the Geographic Names Information Service per Trump’s order)
 
 ## Related
 
-- [[info:item:world:global:2026-08-30-001]]
-- [[info:item:world:global:2026-08-30-002]]
+- [[2026-08-30-001-iceland-eu-referendum-on-a-knife-edge-as-counting-continues]]
+- [[2026-08-30-002-whatsapp-chat-used-to-send-cash-for-crime-and-extremism]]
 
 ---
 

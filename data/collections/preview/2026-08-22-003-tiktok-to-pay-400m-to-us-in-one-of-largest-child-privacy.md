@@ -56,15 +56,15 @@ The TikTok settlement represents a watershed moment in US technology regulation,
 
 - [[TikTok]] — *company* (primary subject of settlement)
 - [[ByteDance]] — *company* (parent company of TikTok)
-- [[US Department of Justice]] — *organization* (enforcing agency in COPPA case)
-- [[Children's Online Privacy Protection Act]] — *concept* (federal law governing child data privacy)
-- [[Donald Trump]] — *person* (supported TikTok divestment directives)
+- [[US_Department_of_Justice]] — *organization* (enforcing agency in COPPA case)
+- [[Children_s_Online_Privacy_Protection_Act]] — *concept* (federal law governing child data privacy)
+- [[Donald_Trump]] — *person* (supported TikTok divestment directives)
 - [[Meta]] — *company* (facing parallel COPPA litigation)
 
 ## Related
 
-- [[info:item:world:global:2026-08-22-001]]
-- [[info:item:world:global:2026-08-22-002]]
+- [[2026-08-22-001-russian-double-tap-drone-strike-kills-15-in-ukrainian-mall]]
+- [[2026-08-22-002-we-have-more-work-to-do-says-canada-negotiator-as-us-trade]]
 
 ---
 

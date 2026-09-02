@@ -29,6 +29,7 @@ from pathlib import Path
 from typing import Any
 
 from src.render.markdown import daily_index_markdown, entity_markdown, taxonomy_note_markdown
+from src.storage.naming import record_filename, safe_name, win_safe
 
 
 class Indexer:
@@ -73,11 +74,18 @@ class Indexer:
                     name = entity_meta[key]["name"]  # canonical display name
                 else:
                     entity_meta[key] = {"name": name, "type": e["type"],
+                                        "type_counts": {e["type"]: 1},
                                         "first_seen": rec["date"],
                                         "last_seen": rec["date"]}
                 by_entity.setdefault(name, []).append(item_id)
                 meta = entity_meta[key]
-                meta["type"] = e["type"]
+                # Models disagree on entity type (MBDA: company vs
+                # organization) — resolve to the MOST COMMON type so one
+                # entity produces ONE note in ONE folder (type flip-flop
+                # otherwise leaves stale duplicate notes with broken links).
+                counts = meta.setdefault("type_counts", {})
+                counts[e["type"]] = counts.get(e["type"], 0) + 1
+                meta["type"] = max(counts, key=lambda t: (counts[t], t))
                 if rec["date"] < meta["first_seen"]:
                     meta["first_seen"] = rec["date"]
                 if rec["date"] > meta["last_seen"]:
@@ -130,7 +138,7 @@ class Indexer:
         target.mkdir(parents=True, exist_ok=True)
         for key in sorted(mapping):
             ids = sorted(set(mapping[key]))
-            (target / f"{_win_safe(key)}.json").write_text(
+            (target / f"{win_safe(key)}.json").write_text(
                 json.dumps(ids, indent=2) + "\n", encoding="utf-8")
 
     # ---- graph ---------------------------------------------------------
@@ -269,6 +277,11 @@ class Indexer:
                     ("concept", "company", "model", "person",
                      "product", "region", "organization", "event")}
         for tdir in type_dir.values():
+            # Derived notes — rebuild wipes so a type change (MBDA company →
+            # organization) can't leave a stale duplicate note with broken
+            # links behind.
+            for stale in tdir.glob("*.md"):
+                stale.unlink(missing_ok=True)
             tdir.mkdir(parents=True, exist_ok=True)
 
         backlinks: dict[str, list[dict[str, Any]]] = {}
@@ -277,12 +290,13 @@ class Indexer:
                 meta = entity_meta.get(e["name"].casefold())
                 display = meta["name"] if meta else e["name"]
                 backlinks.setdefault(display, []).append({
-                    "id": rec["id"], "title": rec["title"], "date": rec["date"],
+                    "id": rec["id"], "note": record_filename(rec),
+                    "title": rec["title"], "date": rec["date"],
                 })
         for key, meta in entity_meta.items():
             name = meta["name"]
             md = entity_markdown(name, meta["type"], backlinks.get(name, []))
-            (type_dir[meta["type"]] / _safe_name(name)).with_suffix(".md").write_text(
+            (type_dir[meta["type"]] / safe_name(name)).with_suffix(".md").write_text(
                 md + "\n", encoding="utf-8")
 
     def _write_taxonomy_notes(self, records: list[dict[str, Any]],
@@ -332,13 +346,29 @@ class Indexer:
                     items=items_by_node.get(node, []),
                     related_nodes=sorted(node_relations.get(node, set())),
                 )
-                (layer_dir / _safe_name(node)).with_suffix(".md").write_text(
+                (layer_dir / safe_name(node)).with_suffix(".md").write_text(
                     md + "\n", encoding="utf-8")
+        # Extra nodes referenced by items' related_taxonomy that aren't in
+        # the config taxonomy (e.g. 'policy', 'research') — write them under
+        # a misc/ layer so every taxonomy wikilink resolves.
+        known = {n for mapping in taxonomy.layers().values() for n in
+                 (list(mapping.keys()) + [c for ch in mapping.values() for c in ch])}
+        misc_dir = root / "misc"
+        misc_dir.mkdir(parents=True, exist_ok=True)
+        for node in items_by_node:
+            if node in known or not node:
+                continue
+            md = taxonomy_note_markdown(
+                node=node, layer="misc", children=[], parents=[],
+                items=items_by_node.get(node, []),
+                related_nodes=sorted(node_relations.get(node, set())),
+            )
+            (misc_dir / safe_name(node)).with_suffix(".md").write_text(
+                md + "\n", encoding="utf-8")
 
 
 def _record_name(rec: dict[str, Any]) -> str:
     """Flat readable record filename: ``<key>-<title-slug>``."""
-    from src.storage.store import record_filename
     return record_filename(rec)
 
 
@@ -357,19 +387,3 @@ def _node_layer(taxonomy: Any | None, node: str) -> str:
 def _layer_short(layer_name: str) -> str:
     return {"regions": "region", "topics": "topic", "categories": "category"}.get(
         layer_name, layer_name)
-
-
-def _safe_name(name: str) -> str:
-    return "".join(ch if ch.isalnum() or ch in "-_" else "_" for ch in name)
-
-
-def _win_safe(name: str) -> str:
-    """Filename-safe on Windows: replace characters invalid in NTFS paths.
-
-    ``by-entity`` views are keyed by RAW entity names, which can contain
-    double quotes (e.g. 'Duane \"Keffe D\" Davis') — a valid filename on
-    Linux runners but impossible to check out on Windows (invalid path:
-    data/views/by-entity/Duane \"Keffe D\" Davis.json).  Spaces and unicode
-    are kept; only the characters Windows forbids are replaced.
-    """
-    return "".join(ch if ch not in '<>:"/\\|?*' else "_" for ch in name)

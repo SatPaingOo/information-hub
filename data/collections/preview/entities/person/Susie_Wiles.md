@@ -10,4 +10,4 @@ backlink_count: 1
 
 ## Referenced by
 
-- 2026-08-18 · [[info:item:politics:global:2026-08-18-001]] — Burnham exchanged messages with person posing as Trump's chief of staff
+- 2026-08-18 · [[2026-08-18-001-burnham-exchanged-messages-with-person-posing-as-trump-s]] — Burnham exchanged messages with person posing as Trump's chief of staff

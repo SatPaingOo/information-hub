@@ -54,15 +54,15 @@ If federal and park authorities act swiftly to upgrade heat‑alert systems, imp
 
 ## Entities
 
-- [[Pierre Michel Formosa]] — *person* (victim)
-- [[Death Valley National Park Service]] — *organization* (managing authority)
-- [[National Weather Service]] — *organization* (issued heat warnings)
-- [[European Union]] — *organization* (potential diplomatic stakeholder)
+- [[Pierre_Michel_Formosa]] — *person* (victim)
+- [[Death_Valley_National_Park_Service]] — *organization* (managing authority)
+- [[National_Weather_Service]] — *organization* (issued heat warnings)
+- [[European_Union]] — *organization* (potential diplomatic stakeholder)
 
 ## Related
 
-- [[info:item:world:global:2026-08-25-001]]
-- [[info:item:world:global:2026-08-25-002]]
+- [[2026-08-25-001-iran-faces-greatest-financial-offensive-ever-says-us]]
+- [[2026-08-25-002-uk-pm-burnham-vows-support-for-ukraine-despite-outrageous]]
 
 ---
 

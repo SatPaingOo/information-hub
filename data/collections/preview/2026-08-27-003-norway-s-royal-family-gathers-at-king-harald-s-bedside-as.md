@@ -51,13 +51,13 @@ The immediate outlook hinges on the medical team’s ability to stabilise King H
 
 ## Entities
 
-- [[King Harald V]] — *person* (monarch)
-- [[Crown Prince Haakon]] — *person* (regent)
+- [[King_Harald_V]] — *person* (monarch)
+- [[Crown_Prince_Haakon]] — *person* (regent)
 
 ## Related
 
-- [[info:item:world:global:2026-08-27-001]]
-- [[info:item:world:global:2026-08-27-002]]
+- [[2026-08-27-001-collapsed-glacier-likely-caused-devastating-nepal-tibet]]
+- [[2026-08-27-002-what-we-know-about-deadly-nepal-tibet-floods]]
 
 ---
 

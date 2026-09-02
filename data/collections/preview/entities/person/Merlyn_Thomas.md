@@ -10,4 +10,4 @@ backlink_count: 1
 
 ## Referenced by
 
-- 2026-08-28 · [[info:item:world:global:2026-08-28-006]] — Tracing the deadly path of the Nepal‑Tibet flash flood
+- 2026-08-28 · [[2026-08-28-006-tracing-the-deadly-path-of-the-nepal-tibet-flash-flood]] — Tracing the deadly path of the Nepal‑Tibet flash flood

@@ -55,15 +55,15 @@ The razor‑thin margin of the Icelandic EU referendum reflects a nation at a cr
 
 ## Entities
 
-- [[Katrín Frostadóttir]] — *person* (Prime Minister of Iceland leading the pro‑EU referendum campaign)
-- [[European Union]] — *organization* (Target of Iceland's accession negotiations)
-- [[Donald Trump]] — *person* (U.S. President whose Greenland remarks influenced Icelandic security concerns)
+- [[Katrín_Frostadóttir]] — *person* (Prime Minister of Iceland leading the pro‑EU referendum campaign)
+- [[European_Union]] — *organization* (Target of Iceland's accession negotiations)
+- [[Donald_Trump]] — *person* (U.S. President whose Greenland remarks influenced Icelandic security concerns)
 - [[NATO]] — *organization* (Defence alliance of which Iceland is a founding member)
 
 ## Related
 
-- [[info:item:world:global:2026-08-29-001]]
-- [[info:item:world:global:2026-08-29-002]]
+- [[2026-08-29-001-footage-of-tibet-floods-isn-t-being-shown-in-china-and-we]]
+- [[2026-08-29-002-trump-hails-historic-deal-for-us-to-control-65bn-barrels]]
 
 ---
 

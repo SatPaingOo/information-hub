@@ -60,15 +60,15 @@ In the short term, Ukraine will focus on stabilising the Myla site, completing i
 
 ## Entities
 
-- [[Volodymyr Zelensky]] — *person* (Ukrainian President, ordered investigation and announced criminal proceedings)
-- [[Mykhailo Fedorov]] — *person* (Ukrainian Minister of Defence, responsible for depot placement policies)
-- [[Ukrainian Armed Forces]] — *organization* (Operator of the Myla ammunition depot)
-- [[BBC News]] — *organization* (Source of the original report)
+- [[Volodymyr_Zelensky]] — *person* (Ukrainian President, ordered investigation and announced criminal proceedings)
+- [[Mykhailo_Fedorov]] — *person* (Ukrainian Minister of Defence, responsible for depot placement policies)
+- [[Ukrainian_Armed_Forces]] — *organization* (Operator of the Myla ammunition depot)
+- [[BBC_News]] — *organization* (Source of the original report)
 
 ## Related
 
-- [[info:item:world:global:2026-08-29-001]]
-- [[info:item:world:global:2026-08-29-002]]
+- [[2026-08-29-001-footage-of-tibet-floods-isn-t-being-shown-in-china-and-we]]
+- [[2026-08-29-002-trump-hails-historic-deal-for-us-to-control-65bn-barrels]]
 
 ---
 

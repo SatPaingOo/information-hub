@@ -56,15 +56,14 @@ The situation remains fluid as Ukraine approaches the fifth anniversary of Russi
 
 ## Entities
 
-- [[Mykhailo Fedorov]] — *person* (sacked defence minister calling for elections)
-- [[Volodymyr Zelensky]] — *person* (president facing internal challenge to wartime authority)
-- [[Ukrainian Government]] — *organization* (governing under extended martial law)
-- [[Russian invasion of Ukraine]] — *event* (triggering martial law and suspended elections)
+- [[Mykhailo_Fedorov]] — *person* (sacked defence minister calling for elections)
+- [[Volodymyr_Zelensky]] — *person* (president facing internal challenge to wartime authority)
+- [[Ukrainian_Government]] — *organization* (governing under extended martial law)
+- [[Russian_invasion_of_Ukraine]] — *event* (triggering martial law and suspended elections)
 
 ## Related
 
-- [[info:item:world:global:2026-08-15-001]]
-- [[info:item:world:global:2026-08-10-003]]
+_No linked notes yet — check the graph for emerging links._
 
 ---
 

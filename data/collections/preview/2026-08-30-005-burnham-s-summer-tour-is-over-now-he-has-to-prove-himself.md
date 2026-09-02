@@ -52,17 +52,17 @@ Burnham enters a high‑stakes parliamentary phase where his ability to command 
 
 ## Entities
 
-- [[Andy Burnham]] — *person* (Prime Minister of the United Kingdom)
-- [[Keir Starmer]] — *person* (Leader of the Opposition and Leader of the Labour Party)
-- [[Kemi Badenoch]] — *person* (Leader of the Conservative Party)
-- [[John Healey]] — *person* (Chancellor of the Exchequer)
-- [[Labour Party]] — *organization* (governing party)
-- [[Conservative Party]] — *organization* (official opposition)
+- [[Andy_Burnham]] — *person* (Prime Minister of the United Kingdom)
+- [[Keir_Starmer]] — *person* (Leader of the Opposition and Leader of the Labour Party)
+- [[Kemi_Badenoch]] — *person* (Leader of the Conservative Party)
+- [[John_Healey]] — *person* (Chancellor of the Exchequer)
+- [[Labour_Party]] — *organization* (governing party)
+- [[Conservative_Party]] — *organization* (official opposition)
 
 ## Related
 
-- [[info:item:politics:global:2026-08-30-004]]
-- [[info:item:politics:global:2026-08-29-004]]
+- [[2026-08-30-004-pc-harper-s-killers-to-stay-in-jail-as-pm-announces]]
+- [[2026-08-29-004-greens-call-for-temporary-ban-on-new-data-centres]]
 
 ---
 

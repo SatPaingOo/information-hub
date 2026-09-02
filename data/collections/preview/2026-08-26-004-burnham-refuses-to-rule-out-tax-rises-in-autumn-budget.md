@@ -54,15 +54,15 @@ The autumn Budget will be a pivotal moment for the Burnham government, as it see
 
 ## Entities
 
-- [[Andy Burnham]] — *person* (Prime Minister of the United Kingdom, responsible for fiscal policy decisions)
-- [[John Healey]] — *person* (Chancellor of the Exchequer, co‑author of the upcoming autumn Budget)
-- [[Rachel Reeves]] — *person* (Former Chancellor who established the current fiscal rules)
+- [[Andy_Burnham]] — *person* (Prime Minister of the United Kingdom, responsible for fiscal policy decisions)
+- [[John_Healey]] — *person* (Chancellor of the Exchequer, co‑author of the upcoming autumn Budget)
+- [[Rachel_Reeves]] — *person* (Former Chancellor who established the current fiscal rules)
 - [[Iran]] — *region* (Source of geopolitical pressure driving energy price inflation)
 
 ## Related
 
-- [[info:item:politics:global:2026-08-25-005]]
-- [[info:item:politics:global:2026-08-23-007]]
+- [[2026-08-25-005-burnham-vows-support-for-ukraine-despite-outrageous]]
+- [[2026-08-23-007-economic-adviser-o-neill-rules-out-government-job-but]]
 
 ---
 

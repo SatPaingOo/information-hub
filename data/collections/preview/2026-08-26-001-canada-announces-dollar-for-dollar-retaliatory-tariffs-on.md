@@ -52,15 +52,15 @@ While both sides have signalled a willingness to return to the negotiating table
 
 ## Entities
 
-- [[Donald Trump]] — *person* (US President issuing initial tariffs)
-- [[François‑Philippe Champagne]] — *person* (Canadian Finance Minister announcing counter‑tariffs)
+- [[Donald_Trump]] — *person* (US President issuing initial tariffs)
+- [[François_Philippe_Champagne]] — *person* (Canadian Finance Minister announcing counter‑tariffs)
 - [[USMCA]] — *organization* (Regional trade agreement at risk)
-- [[Canadian Ministry of Foreign Affairs]] — *organization* (Coordinating diplomatic response)
+- [[Canadian_Ministry_of_Foreign_Affairs]] — *organization* (Coordinating diplomatic response)
 
 ## Related
 
-- [[info:item:world:global:2026-08-25-001]]
-- [[info:item:world:global:2026-08-25-002]]
+- [[2026-08-25-001-iran-faces-greatest-financial-offensive-ever-says-us]]
+- [[2026-08-25-002-uk-pm-burnham-vows-support-for-ukraine-despite-outrageous]]
 
 ---
 

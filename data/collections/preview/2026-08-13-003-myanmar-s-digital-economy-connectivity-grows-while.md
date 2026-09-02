@@ -49,8 +49,8 @@ The daily workflow extends this dataset automatically.
 
 ## Entities
 
-- [[Myanmar Digital Economy]] — *concept* (analyzes)
-- [[Data Governance]] — *concept* (discusses)
+- [[Myanmar_Digital_Economy]] — *concept* (analyzes)
+- [[Data_Governance]] — *concept* (discusses)
 
 ## Related
 

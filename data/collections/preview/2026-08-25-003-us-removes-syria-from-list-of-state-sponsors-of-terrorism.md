@@ -53,17 +53,17 @@ While the U.S. move signals a new chapter in Syria’s international relations, 
 
 ## Entities
 
-- [[Ahmed al-Sharaa]] — *person* (President of Syria and former leader of Hayat Tahrir al-Sham)
-- [[Hayat Tahrir al-Sham (HTS)]] — *organization* (Former al-Qaeda affiliate now part of Syria's transitional government)
-- [[Marco Rubio]] — *person* (U.S. Secretary of State who announced the delisting)
-- [[Scott Bessent]] — *person* (U.S. Treasury Secretary supporting economic reintegration)
-- [[Syrian Government]] — *organization* (Recipient of U.S. policy shift following Assad's removal)
+- [[Ahmed_al-Sharaa]] — *person* (President of Syria and former leader of Hayat Tahrir al-Sham)
+- [[Hayat_Tahrir_al-Sham__HTS_]] — *organization* (Former al-Qaeda affiliate now part of Syria's transitional government)
+- [[Marco_Rubio]] — *person* (U.S. Secretary of State who announced the delisting)
+- [[Scott_Bessent]] — *person* (U.S. Treasury Secretary supporting economic reintegration)
+- [[Syrian_Government]] — *organization* (Recipient of U.S. policy shift following Assad's removal)
 
 ## Related
 
-- [[info:item:world:global:2026-08-25-001]]
-- [[info:item:world:global:2026-08-25-002]]
-- [[info:item:world:global:2026-08-24-001]]
+- [[2026-08-25-001-iran-faces-greatest-financial-offensive-ever-says-us]]
+- [[2026-08-25-002-uk-pm-burnham-vows-support-for-ukraine-despite-outrageous]]
+- [[2026-08-24-001-zelensky-should-be-asked-what-he-knew-about-government]]
 
 ---
 

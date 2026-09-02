@@ -49,7 +49,7 @@ The daily workflow extends this dataset automatically.
 
 ## Entities
 
-- [[Retrieval-Augmented Generation]] — *concept* (uses)
+- [[Retrieval-Augmented_Generation]] — *concept* (uses)
 - [[OpenAI]] — *company* (mentioned)
 
 ## Related

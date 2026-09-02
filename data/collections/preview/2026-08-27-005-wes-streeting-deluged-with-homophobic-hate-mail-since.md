@@ -53,15 +53,15 @@ The next twelve months will likely see a combination of defensive measures—enh
 
 ## Entities
 
-- [[Wes Streeting]] — *person* (subject of the story, UK Defence Secretary)
-- [[UK Ministry of Defence]] — *organization* (institution where Streeting serves)
-- [[Iain Dale]] — *person* (interviewer on the All Talk podcast)
-- [[LGBT veterans compensation]] — *concept* (historical policy providing up to £70,000 to affected veterans)
+- [[Wes_Streeting]] — *person* (subject of the story, UK Defence Secretary)
+- [[UK_Ministry_of_Defence]] — *organization* (institution where Streeting serves)
+- [[Iain_Dale]] — *person* (interviewer on the All Talk podcast)
+- [[LGBT_veterans_compensation]] — *concept* (historical policy providing up to £70,000 to affected veterans)
 
 ## Related
 
-- [[info:item:politics:global:2026-08-27-004]]
-- [[info:item:politics:global:2026-08-26-004]]
+- [[2026-08-27-004-burnham-calls-summit-of-welsh-scottish-and-northern-irish]]
+- [[2026-08-26-004-burnham-refuses-to-rule-out-tax-rises-in-autumn-budget]]
 
 ---
 

@@ -53,16 +53,16 @@ As Ukraine navigates an increasingly complex domestic and international environm
 
 ## Entities
 
-- [[Volodymyr Zelensky]] — *person* (President of Ukraine, subject of corruption allegations)
-- [[Mykhailo Fedorov]] — *person* (Former Defence Minister of Ukraine, corruption critic and election advocate)
-- [[Ukrainian Government]] — *organization* (Subject of internal corruption investigations and political reform debates)
-- [[BBC News]] — *organization* (Source of reporting on Fedorov’s statements)
-- [[Starlink (operated by SpaceX)]] — *company* (Key technology provider in Ukraine’s defense strategy)
+- [[Volodymyr_Zelensky]] — *person* (President of Ukraine, subject of corruption allegations)
+- [[Mykhailo_Fedorov]] — *person* (Former Defence Minister of Ukraine, corruption critic and election advocate)
+- [[Ukrainian_Government]] — *organization* (Subject of internal corruption investigations and political reform debates)
+- [[BBC_News]] — *organization* (Source of reporting on Fedorov’s statements)
+- [[Starlink__operated_by_SpaceX_]] — *company* (Key technology provider in Ukraine’s defense strategy)
 
 ## Related
 
-- [[info:item:world:global:2026-08-23-001]]
-- [[info:item:world:global:2026-08-23-002]]
+- [[2026-08-23-001-fourteen-killed-in-strike-on-myanmar-monastery]]
+- [[2026-08-23-002-rescuers-dig-through-ukraine-mall-wreckage-as-zelensky]]
 
 ---
 

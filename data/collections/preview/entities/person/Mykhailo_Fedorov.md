@@ -10,6 +10,6 @@ backlink_count: 3
 
 ## Referenced by
 
-- 2026-08-29 · [[info:item:world:global:2026-08-29-008]] — At least 37 dead and hundreds evacuated after strike on Kyiv weapons depot
-- 2026-08-24 · [[info:item:world:global:2026-08-24-001]] — Zelensky Should Be Asked What He Knew About Government Corruption, Sacked Minister Tells BBC
-- 2026-08-19 · [[info:item:world:global:2026-08-19-002]] — Sacked Ukrainian Defence Minister Calls for Presidential Election
+- 2026-08-29 · [[2026-08-29-008-at-least-37-dead-and-hundreds-evacuated-after-strike-on]] — At least 37 dead and hundreds evacuated after strike on Kyiv weapons depot
+- 2026-08-24 · [[2026-08-24-001-zelensky-should-be-asked-what-he-knew-about-government]] — Zelensky Should Be Asked What He Knew About Government Corruption, Sacked Minister Tells BBC
+- 2026-08-19 · [[2026-08-19-002-sacked-ukrainian-defence-minister-calls-for-presidential]] — Sacked Ukrainian Defence Minister Calls for Presidential Election

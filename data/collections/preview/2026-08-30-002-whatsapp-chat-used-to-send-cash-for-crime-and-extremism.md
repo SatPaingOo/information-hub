@@ -54,16 +54,16 @@ The exposure of this network marks a turning point for global financial oversigh
 
 ## Entities
 
-- [[European Broadcasting Union (EBU)]] — *organization* (investigative lead)
-- [[Vincent Guerra]] — *person* (Belgian investigating magistrate)
-- [[Abu Adam]] — *person* (network leader in Brussels)
-- [[Islamic State (IS)]] — *organization* (recipient of funds)
+- [[European_Broadcasting_Union__EBU_]] — *organization* (investigative lead)
+- [[Vincent_Guerra]] — *person* (Belgian investigating magistrate)
+- [[Abu_Adam]] — *person* (network leader in Brussels)
+- [[Islamic_State__IS_]] — *organization* (recipient of funds)
 
 ## Related
 
-- [[info:item:world:global:2026-08-30-001]]
-- [[info:item:world:global:2026-08-29-001]]
-- [[info:item:world:global:2026-08-29-002]]
+- [[2026-08-30-001-iceland-eu-referendum-on-a-knife-edge-as-counting-continues]]
+- [[2026-08-29-001-footage-of-tibet-floods-isn-t-being-shown-in-china-and-we]]
+- [[2026-08-29-002-trump-hails-historic-deal-for-us-to-control-65bn-barrels]]
 
 ---
 

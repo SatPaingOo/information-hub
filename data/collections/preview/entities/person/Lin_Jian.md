@@ -10,4 +10,4 @@ backlink_count: 1
 
 ## Referenced by
 
-- 2026-08-26 · [[info:item:world:global:2026-08-26-002]] — China hits out at 'illegal' new US sanctions on Iran and trading partners
+- 2026-08-26 · [[2026-08-26-002-china-hits-out-at-illegal-new-us-sanctions-on-iran-and]] — China hits out at 'illegal' new US sanctions on Iran and trading partners

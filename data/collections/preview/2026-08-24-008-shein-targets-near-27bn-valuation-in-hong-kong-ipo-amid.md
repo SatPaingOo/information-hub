@@ -60,14 +60,14 @@ If Shein can navigate Hong Kong’s regulatory requirements, demonstrate credibl
 ## Entities
 
 - [[Shein]] — *company* (subject)
-- [[Goldman Sachs]] — *organization* (underwriter)
-- [[Donald Trump]] — *person* (policy impact)
-- [[Hong Kong]] — *region* (listing venue)
+- [[Goldman_Sachs]] — *organization* (underwriter)
+- [[Donald_Trump]] — *person* (policy impact)
+- [[Hong_Kong]] — *region* (listing venue)
 
 ## Related
 
-- [[info:item:world:global:2026-08-24-001]]
-- [[info:item:world:global:2026-08-24-002]]
+- [[2026-08-24-001-zelensky-should-be-asked-what-he-knew-about-government]]
+- [[2026-08-24-002-trump-says-canada-wants-benefits-of-being-us-state-after]]
 
 ---
 

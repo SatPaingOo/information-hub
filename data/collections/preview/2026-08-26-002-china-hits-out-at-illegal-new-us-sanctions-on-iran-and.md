@@ -56,15 +56,15 @@ The immediate outlook hinges on the dynamics of the upcoming Trump‑Xi summit. 
 
 ## Entities
 
-- [[Scott Bessent]] — *person* (US Treasury Secretary announcing the new sanctions)
-- [[Lin Jian]] — *person* (Chinese foreign ministry spokesman responding to the sanctions)
+- [[Scott_Bessent]] — *person* (US Treasury Secretary announcing the new sanctions)
+- [[Lin_Jian]] — *person* (Chinese foreign ministry spokesman responding to the sanctions)
 - [[China]] — *organization* (major buyer of Iranian oil and critic of US sanctions)
 - [[Iran]] — *organization* (target of US sanctions and economic pressure)
 
 ## Related
 
-- [[info:item:world:global:2026-08-26-001]]
-- [[info:item:world:global:2026-08-25-001]]
+- [[2026-08-26-001-canada-announces-dollar-for-dollar-retaliatory-tariffs-on]]
+- [[2026-08-25-001-iran-faces-greatest-financial-offensive-ever-says-us]]
 
 ---
 

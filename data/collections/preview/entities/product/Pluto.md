@@ -10,4 +10,4 @@ backlink_count: 1
 
 ## Referenced by
 
-- 2026-08-28 · [[info:item:products:global:2026-08-28-004]] — Pluto: Your Professional Profile Becomes an AI Agent
+- 2026-08-28 · [[2026-08-28-004-pluto-your-professional-profile-becomes-an-ai-agent]] — Pluto: Your Professional Profile Becomes an AI Agent

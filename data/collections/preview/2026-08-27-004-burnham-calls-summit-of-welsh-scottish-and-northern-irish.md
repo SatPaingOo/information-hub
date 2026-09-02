@@ -52,15 +52,15 @@ The October summit represents a pivotal test of Burnham’s inter‑governmental
 
 ## Entities
 
-- [[Andy Burnham]] — *person* (Prime Minister convening summit)
-- [[Sioned Williams]] — *person* (Welsh deputy first minister calling for steel fund and energy tariff)
-- [[National Economic Council]] — *organization* (Host of the summit, revived by Burnham)
-- [[Gordon Brown]] — *person* (Original creator of the National Economic Council)
+- [[Andy_Burnham]] — *person* (Prime Minister convening summit)
+- [[Sioned_Williams]] — *person* (Welsh deputy first minister calling for steel fund and energy tariff)
+- [[National_Economic_Council]] — *organization* (Host of the summit, revived by Burnham)
+- [[Gordon_Brown]] — *person* (Original creator of the National Economic Council)
 
 ## Related
 
-- [[info:item:politics:global:2026-08-26-004]]
-- [[info:item:politics:global:2026-08-26-005]]
+- [[2026-08-26-004-burnham-refuses-to-rule-out-tax-rises-in-autumn-budget]]
+- [[2026-08-26-005-more-than-70-000-social-and-affordable-homes-to-be-built]]
 
 ---
 

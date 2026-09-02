@@ -10,6 +10,6 @@ backlink_count: 3
 
 ## Referenced by
 
-- 2026-08-28 · [[info:item:world:global:2026-08-28-006]] — Tracing the deadly path of the Nepal‑Tibet flash flood
-- 2026-08-27 · [[info:item:world:global:2026-08-27-002]] — What we know about deadly Nepal‑Tibet floods
-- 2026-08-21 · [[info:item:world:global:2026-08-21-004]] — UK, France, Germany, Italy and Canada condemn Israel's West Bank settlement project
+- 2026-08-28 · [[2026-08-28-006-tracing-the-deadly-path-of-the-nepal-tibet-flash-flood]] — Tracing the deadly path of the Nepal‑Tibet flash flood
+- 2026-08-27 · [[2026-08-27-002-what-we-know-about-deadly-nepal-tibet-floods]] — What we know about deadly Nepal‑Tibet floods
+- 2026-08-21 · [[2026-08-21-004-uk-france-germany-italy-and-canada-condemn-israel-s-west]] — UK, France, Germany, Italy and Canada condemn Israel's West Bank settlement project

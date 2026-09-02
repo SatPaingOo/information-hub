@@ -54,14 +54,14 @@ The debate is likely to intensify as AI demand drives further data centre constr
 
 ## Entities
 
-- [[Zack Polanski]] — *person* (Green Party leader advocating for a moratorium on new data centres)
-- [[Data Centre Alliance]] — *organization* (industry group representing data centre operators, defending water usage practices)
+- [[Zack_Polanski]] — *person* (Green Party leader advocating for a moratorium on new data centres)
+- [[Data_Centre_Alliance]] — *organization* (industry group representing data centre operators, defending water usage practices)
 - [[OpenAI]] — *company* (major AI developer whose services rely on UK data centre capacity)
 
 ## Related
 
-- [[info:item:politics:global:2026-08-28-002]]
-- [[info:item:politics:global:2026-08-28-003]]
+- [[2026-08-28-002-number-of-asylum-seekers-in-hotels-halves-in-a-year]]
+- [[2026-08-28-003-rape-and-sex-offence-specialists-on-all-police-forces-by]]
 
 ---
 

@@ -54,16 +54,16 @@ The situation remains highly volatile, with ongoing Russian strikes on Ukrainian
 
 ## Entities
 
-- [[Andy Burnham]] — *person* (UK Prime Minister leading the initial Ukraine visit and coalition efforts)
-- [[Volodymyr Zelensky]] — *person* (President of Ukraine who received recognition from Burnham and continues to seek Western support)
-- [[UK Ministry of Defence]] — *organization* (Government body overseeing defense policy and technology transfers)
-- [[Scalp missile]] — *product* (British-made cruise missile whose components are being shared via blueprint disclosures)
-- [[Avengers AI Labs]] — *organization* (Ukrainian AI research facility partnering with the UK for technological collaboration)
+- [[Andy_Burnham]] — *person* (UK Prime Minister leading the initial Ukraine visit and coalition efforts)
+- [[Volodymyr_Zelensky]] — *person* (President of Ukraine who received recognition from Burnham and continues to seek Western support)
+- [[UK_Ministry_of_Defence]] — *organization* (Government body overseeing defense policy and technology transfers)
+- [[Scalp_missile]] — *product* (British-made cruise missile whose components are being shared via blueprint disclosures)
+- [[Avengers_AI_Labs]] — *organization* (Ukrainian AI research facility partnering with the UK for technological collaboration)
 
 ## Related
 
-- [[info:item:world:global:2026-08-25-001]]
-- [[info:item:world:global:2026-08-24-001]]
+- [[2026-08-25-001-iran-faces-greatest-financial-offensive-ever-says-us]]
+- [[2026-08-24-001-zelensky-should-be-asked-what-he-knew-about-government]]
 
 ---
 

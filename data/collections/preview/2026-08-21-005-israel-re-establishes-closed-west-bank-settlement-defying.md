@@ -52,15 +52,14 @@ The situation in the West Bank remains volatile, with no immediate signs of de-e
 
 ## Entities
 
-- [[Benjamin Netanyahu]] — *person* (Leader of the Israeli government overseeing settlement expansion)
-- [[Bezalel Smotrich]] — *person* (Israeli Finance Minister and far-right advocate for West Bank settlements)
-- [[West Bank]] — *region* (Territory where the settlement of Kadim is located)
-- [[European Union]] — *organization* (Critic of Israeli settlement expansion in the occupied territories)
+- [[Benjamin_Netanyahu]] — *person* (Leader of the Israeli government overseeing settlement expansion)
+- [[Bezalel_Smotrich]] — *person* (Israeli Finance Minister and far-right advocate for West Bank settlements)
+- [[West_Bank]] — *region* (Territory where the settlement of Kadim is located)
+- [[European_Union]] — *organization* (Critic of Israeli settlement expansion in the occupied territories)
 
 ## Related
 
-- [[info:item:world:global:2026-08-21-004]]
-- [[info:item:world:global:2026-08-20-012]]
+- [[2026-08-21-004-uk-france-germany-italy-and-canada-condemn-israel-s-west]]
 
 ---
 

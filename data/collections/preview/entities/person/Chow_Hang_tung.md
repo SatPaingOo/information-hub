@@ -10,4 +10,4 @@ backlink_count: 1
 
 ## Referenced by
 
-- 2026-08-21 · [[info:item:world:global:2026-08-21-007]] — Hong Kong's Tiananmen activists guilty in national security trial
+- 2026-08-21 · [[2026-08-21-007-hong-kong-s-tiananmen-activists-guilty-in-national]] — Hong Kong's Tiananmen activists guilty in national security trial

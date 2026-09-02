@@ -53,15 +53,15 @@ The sentencing phase will likely reinforce the precedent that any form of dissen
 
 ## Entities
 
-- [[Lee Cheuk‑yan]] — *person* (defendant convicted under national security law)
-- [[Chow Hang‑tung]] — *person* (defendant convicted under national security law)
-- [[Hong Kong Alliance (HKA)]] — *organization* (defunct pro‑democracy organization led by the activists)
-- [[Amnesty International]] — *organization* (critic of the convictions, calling them politically motivated)
+- [[Lee_Cheuk_yan]] — *person* (defendant convicted under national security law)
+- [[Chow_Hang_tung]] — *person* (defendant convicted under national security law)
+- [[Hong_Kong_Alliance__HKA_]] — *organization* (defunct pro‑democracy organization led by the activists)
+- [[Amnesty_International]] — *organization* (critic of the convictions, calling them politically motivated)
 
 ## Related
 
-- [[info:item:world:global:2026-08-21-004]]
-- [[info:item:world:global:2026-08-21-005]]
+- [[2026-08-21-004-uk-france-germany-italy-and-canada-condemn-israel-s-west]]
+- [[2026-08-21-005-israel-re-establishes-closed-west-bank-settlement-defying]]
 
 ---
 

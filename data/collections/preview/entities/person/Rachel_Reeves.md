@@ -10,4 +10,4 @@ backlink_count: 1
 
 ## Referenced by
 
-- 2026-08-26 · [[info:item:politics:global:2026-08-26-004]] — Burnham refuses to rule out tax rises in autumn Budget
+- 2026-08-26 · [[2026-08-26-004-burnham-refuses-to-rule-out-tax-rises-in-autumn-budget]] — Burnham refuses to rule out tax rises in autumn Budget

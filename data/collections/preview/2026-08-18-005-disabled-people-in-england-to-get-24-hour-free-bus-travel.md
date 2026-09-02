@@ -53,15 +53,14 @@ The success of the 24-hour free bus travel policy will hinge on its implementati
 
 ## Entities
 
-- [[Andy Burnham]] — *person* (Prime Minister of the United Kingdom advocating for the policy)
-- [[Department for Transport]] — *organization* (Funding body for the £60m scheme)
+- [[Andy_Burnham]] — *person* (Prime Minister of the United Kingdom advocating for the policy)
+- [[Department_for_Transport]] — *organization* (Funding body for the £60m scheme)
 - [[Scope]] — *organization* (Disability charity supporting the reform)
-- [[Transport for All]] — *organization* (Disabled-led charity endorsing the policy)
+- [[Transport_for_All]] — *organization* (Disabled-led charity endorsing the policy)
 
 ## Related
 
-- [[info:item:politics:global:2026-08-18-001]]
-- [[info:item:politics:global:2026-08-18-002]]
+- [[2026-08-18-001-burnham-exchanged-messages-with-person-posing-as-trump-s]]
 
 ---
 
