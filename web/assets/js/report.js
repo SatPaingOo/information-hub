@@ -73,15 +73,15 @@ async function renderRunHealth() {
         const failRate = s.calls ? Math.round((s.errors / s.calls) * 100) : 0;
         const color = s.errors === 0 ? "#34d399" : failRate > 50 ? "#fb7185" : "#fbbf24";
         return `
-        <div class="flex items-center gap-3 text-sm">
-          <span class="w-72 truncate text-slate-300 shrink-0" title="${esc(k)}">${esc(k)}</span>
-          <div class="flex-1 h-2 rounded-full bg-white/5 overflow-hidden">
+        <div class="flex items-center gap-2 text-sm">
+          <span class="model-name truncate text-slate-300" title="${esc(k)}">${esc(k)}</span>
+          <div class="bar h-2 rounded-full bg-white/5 overflow-hidden flex-1">
             <div class="h-full rounded-full" style="width:${(s.calls / maxCalls) * 100}%;background:${color}"></div>
           </div>
-          <span class="w-14 text-right text-slate-400 text-xs">${s.calls} calls</span>
-          <span class="w-10 text-right text-emerald-300 text-xs">${s.ok}✓</span>
-          <span class="w-10 text-right ${s.errors ? "text-rose-300" : "text-slate-600"} text-xs">${s.errors}✗</span>
-          <span class="w-24 text-right text-slate-500 text-xs">${s.tokens.toLocaleString()} tok</span>
+          <span class="stat text-slate-400 text-xs">${s.calls}c</span>
+          <span class="stat text-emerald-300 text-xs">${s.ok}✓</span>
+          <span class="stat ${s.errors ? "text-rose-300" : "text-slate-600"} text-xs">${s.errors}✗</span>
+          <span class="stat text-slate-500 text-xs">${(s.tokens / 1000).toFixed(1)}k tok</span>
         </div>`;
       }).join("") : `<div class="text-sm text-slate-500">No run log yet.</div>`}
     </div></div>

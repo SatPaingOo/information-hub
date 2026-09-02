@@ -201,6 +201,7 @@ a:hover .read-arrow { transform: translateX(3px); }
   .nav-links .nav-link { padding: .7rem .8rem; border-radius: .5rem; }
   .nav-links .nav-link:hover { background: rgba(255,255,255,.06); }
 }
-/* run-health rows: inner horizontal scroll instead of widening the page */
-.run-health-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
-.run-health-list { min-width: 560px; }
+/* run-health rows: compact, fit any viewport (no page widening) */
+.run-health-list .model-name { flex: 1 1 auto; min-width: 0; max-width: 45%; }
+.run-health-list .bar { flex: 0 1 80px; min-width: 30px; }
+.run-health-list .stat { flex: 0 0 auto; white-space: nowrap; }
