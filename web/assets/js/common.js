@@ -40,4 +40,39 @@ function wordCount(w) {
   return w ? `${w.toLocaleString()} words` : "";
 }
 
-function initNavHighlight() { /* optional */ }
+function initNav() {
+  const toggle = document.querySelector(".nav-toggle");
+  const links = document.querySelector(".nav-links");
+  if (!toggle || !links) return;
+  const setOpen = (open) => {
+    links.classList.toggle("open", open);
+    document.body.classList.toggle("nav-open", open);
+    toggle.setAttribute("aria-expanded", String(open));
+  };
+  toggle.addEventListener("click", (e) => {
+    e.stopPropagation();
+    setOpen(!links.classList.contains("open"));
+  });
+  // close on nav link click
+  links.addEventListener("click", (e) => { if (e.target.closest("a")) setOpen(false); });
+  // close on outside click / escape
+  document.addEventListener("click", (e) => {
+    if (links.classList.contains("open") && !e.target.closest(".nav-links") && !e.target.closest(".nav-toggle")) setOpen(false);
+  });
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape") setOpen(false); });
+}
+
+/* entrance reveal: observe .reveal elements and add .in when visible */
+function initReveal() {
+  const els = document.querySelectorAll(".reveal");
+  if (!els.length || !("IntersectionObserver" in window)) {
+    els.forEach((el) => el.classList.add("in"));
+    return;
+  }
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach((en) => { if (en.isIntersecting) { en.target.classList.add("in"); io.unobserve(en.target); } });
+  }, { threshold: 0.08 });
+  els.forEach((el) => io.observe(el));
+}
+
+document.addEventListener("DOMContentLoaded", () => { initNav(); initReveal(); });

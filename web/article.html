@@ -25,7 +25,7 @@
         <span class="logo-mark">IH</span>
         <span class="font-bold tracking-tight text-white">Information&nbsp;Hub</span>
       </a>
-      <button class="nav-toggle" aria-label="Menu" onclick="this.nextElementSibling.classList.toggle('open')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" d="M4 7h16M4 12h16M4 17h16"/></svg></button><div class="nav-links">
+      <button class="nav-toggle" aria-label="Menu" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" d="M4 7h16M4 12h16M4 17h16"/></svg></button><div class="nav-links">
         <a href="./" class="nav-link">Home</a>
         <a href="./library.html" class="nav-link">Library</a>
         <a href="./graph.html" class="nav-link">Graph</a>
@@ -66,22 +66,57 @@
   </main>
 
   <!-- Footer (shared shell) -->
-  <footer class="site-footer">
-    <div class="max-w-7xl mx-auto px-5 py-10 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-slate-400">
-      <div class="flex items-center gap-2.5">
-        <span class="logo-mark small">IH</span>
-        <span>Information Hub — an autonomous intelligence system by
-          <a class="underline underline-offset-2" href="https://github.com/SatPaingOo" target="_blank" rel="noopener">Sat Paing Oo</a>.
-        </span>
+    <footer class="site-footer">
+    <div class="max-w-7xl mx-auto px-5 py-12">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <!-- brand -->
+        <div class="lg:col-span-1">
+          <div class="flex items-center gap-2.5 mb-3">
+            <span class="logo-mark">IH</span>
+            <span class="font-bold tracking-tight text-white">Information&nbsp;Hub</span>
+          </div>
+          <p class="text-xs text-slate-500 leading-relaxed max-w-xs">An autonomous daily intelligence library — deep briefings on world, tech, politics and products, written and verified by machines.</p>
+        </div>
+        <!-- explore -->
+        <div>
+          <div class="text-xs font-semibold text-slate-300 uppercase tracking-wider mb-3">Explore</div>
+          <ul class="space-y-2 text-sm">
+            <li><a class="text-slate-500 hover:text-white transition-colors" href="./library.html">Library</a></li>
+            <li><a class="text-slate-500 hover:text-white transition-colors" href="./graph.html">Knowledge graph</a></li>
+            <li><a class="text-slate-500 hover:text-white transition-colors" href="./report.html">Pipeline report</a></li>
+            <li><a class="text-slate-500 hover:text-white transition-colors" href="./dataset.html">Dataset</a></li>
+          </ul>
+        </div>
+        <!-- data -->
+        <div>
+          <div class="text-xs font-semibold text-slate-300 uppercase tracking-wider mb-3">Data &amp; license</div>
+          <ul class="space-y-2 text-sm">
+            <li><a class="text-slate-500 hover:text-white transition-colors" href="../data/views/feed.xml">📡 RSS feed</a></li>
+            <li><a class="text-slate-500 hover:text-white transition-colors" href="../data/views/index.json" target="_blank" rel="noopener">🗂 index.json</a></li>
+            <li><a class="text-slate-500 hover:text-white transition-colors" href="../LICENSE" target="_blank" rel="noopener">⚖️ License (CC BY-NC)</a></li>
+            <li><span class="text-slate-500">Commercial use by <a class="text-indigo-300 hover:underline" href="./dataset.html">separate license</a></span></li>
+          </ul>
+        </div>
+        <!-- status -->
+        <div>
+          <div class="text-xs font-semibold text-slate-300 uppercase tracking-wider mb-3">System</div>
+          <div class="flex items-center gap-2 text-sm text-slate-400 mb-2">
+            <span class="pulse-dot"></span>
+            <span>Auto-updates daily</span>
+          </div>
+          <p class="text-xs text-slate-500 leading-relaxed">GitHub Actions + free AI tiers · dynamic self-scheduling · full provenance on every record.</p>
+        </div>
       </div>
-      <div class="text-xs text-slate-500 text-center sm:text-right leading-relaxed">
-        Data licensed <a class="underline" href="../LICENSE" target="_blank">CC BY-NC 4.0</a> · commercial use by separate license
-        <br />Auto-updates daily · <a class="underline" href="../data/views/feed.xml">RSS feed</a>
+      <div class="mt-10 pt-6 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-slate-600">
+        <span>© 2026 Information Hub — by
+          <a class="text-slate-400 hover:text-white underline underline-offset-2" href="https://github.com/SatPaingOo" target="_blank" rel="noopener">Sat Paing Oo</a>
+        </span>
+        <span>Made with GitHub Actions · CC BY-NC 4.0 · <a class="text-slate-400 hover:text-white underline" href="https://github.com/SatPaingOo/information-hub" target="_blank" rel="noopener">Source on GitHub</a></span>
       </div>
     </div>
   </footer>
 
-  <script src="assets/js/common.js?v=8"></script>
+  <script src="assets/js/common.js?v=9"></script>
   <script src="assets/js/article.js?v=8"></script>
 </body>
 </html>

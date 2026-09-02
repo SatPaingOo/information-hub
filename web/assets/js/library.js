@@ -213,13 +213,19 @@ function renderGrid() {
   document.getElementById("load-more-wrap").classList.toggle("hidden", state.shown >= state.filtered.length);
 }
 
+function verifyBadge(v) {
+  if (v === "gemini") return `<span class="badge" style="background:rgba(52,211,153,.13);color:#6ee7b7;border:1px solid rgba(52,211,153,.25)" title="Verified with Gemini web-search">🤖 AI-check</span>`;
+  if (v === "lexical") return `<span class="badge type" title="Checked against source text (no AI search quota)">⚙️ Lexical</span>`;
+  return `<span class="badge" style="background:rgba(255,255,255,.05);color:#94a3b8;border:1px solid rgba(255,255,255,.1)" title="Not yet through a check pass">◌ Unchecked</span>`;
+}
+
 function cardHTML(i) {
   const tags = (i.tags || []).slice(0, 2).map((t) => `<span class="badge type">${esc(t)}</span>`).join(" ");
   return `
   <a href="${articleHref(i)}" class="lib-card p-5">
     <div class="flex items-center justify-between mb-3">
       ${collectionBadge(i)}
-      <span class="text-xs text-slate-500">${esc(formatDate(i.date))}</span>
+      ${verifyBadge(i.verify)}
     </div>
     <h3 class="font-semibold text-white leading-snug mb-2">${esc(i.title)}</h3>
     <p class="text-sm text-slate-400 clamp mb-4 flex-1">${esc(i.tldr || "")}</p>
