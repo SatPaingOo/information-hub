@@ -40,9 +40,14 @@ function render(r) {
 
   document.getElementById("title").textContent = r.title;
   const src = r.source || {};
+  const srcUrl = src.url || "#";
+  // Older records stored the RSS/feed URL as source.url (no article link).
+  // Detect feed URLs and present them as the feed host, not a fake article.
+  const isFeed = /\.(xml|rss|atom)$|rss\.|feed/i.test(srcUrl) || (src.type === "rss");
+  const srcLabel = isFeed ? `Source feed · ${prettyHost(src.name)}` : `Source: ${esc(src.name || "")}`;
   document.getElementById("meta").innerHTML =
     `${esc(formatDate(r.date))} · ${esc(pretty(col))} · ${r.word_count ? r.word_count.toLocaleString() + " words" : ""}` +
-    (src.name ? ` · <a class="text-indigo-300 hover:underline" href="${esc(src.url || "#")}" target="_blank" rel="noopener">Source: ${esc(src.name)}</a>` : "");
+    (src.name ? ` · <a class="text-indigo-300 hover:underline" href="${esc(srcUrl)}" target="_blank" rel="noopener" title="${isFeed ? "Originating RSS/API feed" : "Original article"}">${srcLabel}</a>` : "");
 
   // TLDR
   document.getElementById("tldr").innerHTML =
@@ -125,6 +130,13 @@ async function renderRelated(relIds, notes) {
 
 function pretty(name) {
   return String(name || "").replace(/[-_]/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
+}
+
+function prettyHost(name) {
+  // feeds.bbci.co.uk -> bbc.co.uk ; www.theverge.com -> theverge.com
+  const h = String(name || "").replace(/^https?:\/\//, "").split("/")[0]
+    .replace(/^feeds?\./, "").replace(/^www\./, "");
+  return h || String(name || "");
 }
 
 document.addEventListener("DOMContentLoaded", init);

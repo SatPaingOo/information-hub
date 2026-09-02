@@ -183,7 +183,12 @@ def fetch_collection(collection_name: str, sources: list[dict[str, Any]],
                 continue
             candidates.append(Candidate(
                 collection=collection_name,
-                source={"name": _source_name(src_type, src), "url": src.get("url", ""),
+                # source.url should be the ARTICLE's canonical URL, not the
+                # feed/API url — the article page links 'Source' to it.  The
+                # originating feed is kept separately as source.feed.
+                source={"name": _source_name(src_type, src),
+                        "url": e["url"],
+                        "feed": src.get("url", ""),
                         "type": src_type},
                 title=e["title"],
                 url=e["url"],
