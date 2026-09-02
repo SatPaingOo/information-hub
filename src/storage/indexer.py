@@ -155,6 +155,11 @@ class Indexer:
         def add_edge(source: str, target: str, relation: str) -> None:
             if source == target:
                 return
+            # Dangling edges (target node not in the graph — e.g. a related
+            # item whose record was later removed) crash D3's forceLink
+            # ('node not found').  Only keep edges whose endpoints exist.
+            if source not in nodes or target not in nodes:
+                return
             edges.append({"source": source, "target": target, "relation": relation})
 
         for rec in records:
