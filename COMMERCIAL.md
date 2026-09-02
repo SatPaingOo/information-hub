@@ -1,6 +1,7 @@
 # Commercial License — information-hub
 
-The repository dataset (`data/collections/data-set/**` and `data/collections/index/**`)
+The repository dataset (`data/collections/data-set/**` and derived views under
+`data/views/**`)
 is licensed under **CC BY-NC 4.0** (see `LICENSE`) for **non-commercial** use:
 personal research, learning, evaluation, and attribution-required sharing.
 

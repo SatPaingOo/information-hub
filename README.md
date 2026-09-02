@@ -18,6 +18,19 @@ checked and approved it).
 
 ---
 
+## 🌐 Live site
+
+A static, self-updating **content-library viewer** (browse → article → knowledge graph)
+is published from this repo on GitHub Pages — it re-renders automatically whenever the
+pipeline commits new data.
+
+- **URL**: https://satpaingo.github.io/information-hub-github-action/web/
+- Source: [`web/`](./web) — vanilla HTML + Tailwind (CDN) + D3; no build step
+- Data is fetched directly from the committed `data/views/*.json` (index + graph)
+  and `data/collections/data-set/*.json` records.
+
+---
+
 ## 📚 Docs
 
 - [Architecture](./docs/ARCHITECTURE.md) — system overview, phases, package layers

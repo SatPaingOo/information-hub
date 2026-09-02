@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Knowledge Graph — Information Hub</title>
+  <meta name="description" content="Interactive knowledge graph of the Information Hub library — items, entities and taxonomy." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🗞️</text></svg>" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body class="bg-slate-50 text-slate-800">
+  <nav class="bg-white border-b border-slate-200 sticky top-0 z-40">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="./" class="flex items-center gap-2 font-bold text-slate-900"><span class="text-xl">🗞️</span><span>Information Hub</span></a>
+      <div class="flex items-center gap-3 text-sm">
+        <a href="./" class="px-3 py-1.5 rounded-lg hover:bg-slate-100">Library</a>
+        <a href="./graph.html" class="px-3 py-1.5 rounded-lg bg-slate-900 text-white">Graph</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="max-w-6xl mx-auto px-4 py-6">
+    <div class="flex flex-wrap items-center justify-between gap-3 mb-4">
+      <div>
+        <h1 class="text-2xl font-bold">Knowledge Graph</h1>
+        <p id="graph-stats" class="text-xs text-slate-500"></p>
+      </div>
+      <div class="flex flex-wrap gap-4 text-xs" id="legend"></div>
+      <div class="text-xs text-slate-400">Drag to pan · scroll to zoom · click a node for details</div>
+    </div>
+
+    <div class="bg-white border border-slate-200 rounded-xl overflow-hidden relative">
+      <svg id="graph" width="100%" height="640"></svg>
+      <div id="tooltip" class="hidden absolute bg-slate-900 text-white text-xs rounded-lg px-3 py-2 max-w-xs pointer-events-none z-10"></div>
+    </div>
+
+    <!-- click detail panel -->
+    <div id="node-detail" class="hidden mt-6 bg-white border border-slate-200 rounded-xl p-5"></div>
+  </main>
+
+  <footer class="border-t border-slate-200 py-8 text-center text-xs text-slate-400 bg-white mt-10">
+    Information Hub · graph rebuilt automatically from the daily dataset
+  </footer>
+
+  <script src="assets/js/common.js"></script>
+  <script src="assets/js/graph.js"></script>
+</body>
+</html>
