@@ -271,7 +271,7 @@ function renderDailyLog(items) {
     const colls = Object.entries(countBy(list, (i) => i.collection)).sort((a, b) => b[1] - a[1]);
     const provs = [...new Set(list.map((i) => i.provider).filter(Boolean))];
     return `
-      <div class="py-3 grid grid-cols-1 sm:grid-cols-[110px_1fr] gap-1 sm:gap-4 items-start">
+      <div class="py-3 grid grid-cols-1 sm:grid-cols-[110px_minmax(0,1fr)] gap-1 sm:gap-4 items-start">
         <div>
           <a href="./library.html?d=${esc(d)}" class="text-slate-100 font-semibold text-sm hover:text-indigo-300 hover:underline">${esc(d)}</a>
           <div class="text-xs text-slate-500">${list.length} briefings</div>
@@ -281,7 +281,7 @@ function renderDailyLog(items) {
             ${colls.map(([c, n]) => `<span class="badge ${badgeCls(c)}">${esc(prettyLabel(c))} ${n}</span>`).join("")}
             ${provs.map((p) => `<span class="badge type">${esc(p)}</span>`).join("")}
           </div>
-          <div class="text-xs text-slate-500 truncate">
+          <div class="text-xs text-slate-500 truncate max-w-full overflow-hidden">
             ${list.slice(0, 2).map((i) => esc(i.title)).join(" · ")}${list.length > 2 ? ` · +${list.length - 2} more` : ""}
           </div>
         </div>
