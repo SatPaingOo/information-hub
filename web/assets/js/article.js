@@ -24,6 +24,16 @@ function render(r) {
   const article = document.getElementById("article");
   article.classList.remove("hidden");
   document.title = `${r.title} — Information Hub`;
+  // Share previews: reflect the actual briefing in the OG/meta tags
+  const setMeta = (sel, attr, val) => {
+    const el = document.head.querySelector(sel);
+    if (el) el.setAttribute(attr, val);
+  };
+  setMeta('meta[property="og:title"]', "content", `${r.title} — Information Hub`);
+  setMeta('meta[property="og:description"]', "content", (r.tldr || r.title).slice(0, 200));
+  setMeta('meta[property="og:url"]', "content", location.href);
+  setMeta('link[rel="canonical"]', "href", location.href);
+  setMeta('meta[name="description"]', "content", (r.tldr || r.title).slice(0, 160));
 
   // badges — use the shared badge system (collection/type/region colors)
   const badges = document.getElementById("badges");
