@@ -67,6 +67,10 @@ class RunControlConfig:
 class QualityConfig:
     reject_threshold: float = 0.5
     max_ai_verify_per_run: int = 10
+    # When the Gemini search quota is down, corroborate ungrounded claims
+    # against independent outlets via Google News RSS (free, key-less) so the
+    # lexical fallback still returns real citations instead of none.
+    web_corroborate: bool = True
 
 
 @dataclass
@@ -285,6 +289,7 @@ class Config:
         quality = QualityConfig(
             reject_threshold=quality_raw.get("reject_threshold", 0.5),
             max_ai_verify_per_run=quality_raw.get("max_ai_verify_per_run", 10),
+            web_corroborate=quality_raw.get("web_corroborate", True),
         )
         run_raw = raw.get("run", {})
         run = RunConfig(phases=list(run_raw.get("phases", ["collect", "check"])))

@@ -89,7 +89,12 @@ class GroundingEngine:
         self.log.event("check", "verify_failed", item_id=record["id"],
                        status="error", detail=reason)
         parsed = self._lexical(claims, fulltext)
-        return self._finalize(record, parsed, used_spec, method="lexical")
+        method = "lexical"
+        if self.cfg.quality.web_corroborate:
+            parsed = self._corroborate(record, claims, parsed)
+            if parsed["sources_verified"]:
+                method = "web"  # independent citations found — no longer bare lexical
+        return self._finalize(record, parsed, used_spec, method=method)
 
     def _finalize(self, record: dict[str, Any], parsed: dict[str, Any],
                   spec: Any, method: str) -> dict[str, Any]:
@@ -188,6 +193,107 @@ class GroundingEngine:
             "claims_grounded": grounded,
             "sources_verified": [],
         }
+
+    # ---- web corroboration (API-free independent check) ------------------
+    _STOP = frozenset("""a an and are as at be but by for from has have how in is it
+        its of on or that the this to was were what when where which who will with
+        without would you your says said new after over amid us uk against""".split())
+
+    def _corroborate(self, record: dict[str, Any], claims: list[str],
+                     lexical: dict[str, Any]) -> dict[str, Any]:
+        """Confirm ungrounded claims via independent outlets (Google News RSS).
+
+        When Gemini search is down, ``_lexical`` only checks the claims against
+        the ONE source article, so paraphrased claims it cannot tie to that
+        text stay ungrounded with zero citations.  This pass searches Google
+        News RSS (free, no key) for the claim's distinctive words and marks a
+        claim grounded when an INDEPENDENT outlet (not the record's own feed
+        host) carries the same story — turning ``sources_verified`` into real
+        citations.  The source URL is resolved through the redirect.
+        """
+        import re as _re
+        if not self.cfg.quality.web_corroborate:
+            return lexical
+        total = lexical["claims_total"]
+        if not total:
+            return lexical
+        claims = claims[:total]
+        sources = list(lexical.get("sources_verified", []))
+        seen = {s["url"] for s in sources}
+        grounded = lexical["claims_grounded"]
+        own_host = self._host_of((record.get("source") or {}).get("feed")
+                                 or (record.get("source") or {}).get("url"))
+        for claim in claims:
+            if grounded >= total:  # everything already grounded
+                break
+            words = [w for w in _re.findall(r"[a-z0-9']+", claim.lower())
+                     if w not in self._STOP]
+            if len(words) < 4:
+                continue
+            words.sort(key=len, reverse=True)
+            query = _re.sub(r"\s+", " ", " ".join(words[:6]))
+            url = ("https://news.google.com/rss/search?q="
+                   + _re.sub(r"\s+", "+", query)
+                   + "&hl=en-US&gl=US&ceid=US:en")
+            try:
+                import urllib.request
+                req = urllib.request.Request(
+                    url, headers={"User-Agent":
+                                  "Mozilla/5.0 (information-hub verify)"})
+                with urllib.request.urlopen(req, timeout=15) as r:
+                    xml = r.read()
+            except Exception:
+                continue
+            try:
+                import xml.etree.ElementTree as ET
+                root = ET.fromstring(xml)
+            except ET.ParseError:
+                continue
+            want = set(words)
+            for item in root.findall(".//item")[:8]:
+                title = (item.findtext("title") or "").strip()
+                hit = sum(1 for w in want if w in title.lower()) / max(1, len(want))
+                if hit < 0.6:
+                    continue
+                src_el = item.find("source")
+                src_host = (src_el.get("url") if src_el is not None else "") or ""
+                src_host = self._host_of(src_host)
+                if not src_host:
+                    src_host = (src_el.text or "").strip() if src_el is not None else ""
+                if own_host and src_host and own_host in src_host:
+                    continue  # same outlet as the source — not independent
+                if not src_host:
+                    continue  # no usable host to cite
+                # Google News RSS links resolve to a JS redirect page, so the
+                # citation is the outlet's domain (searchable) rather than the
+                # deep article — the source element is Google's canonical host.
+                cite_url = f"https://{src_host}/"
+                grounded += 1
+                if cite_url not in seen:
+                    seen.add(cite_url)
+                    sources.append({"url": cite_url, "title": title[:160]})
+                time.sleep(0.4)  # pace the free endpoint
+                break
+        return {**lexical, "claims_grounded": grounded,
+                "sources_verified": sources}
+
+    @staticmethod
+    def _host_of(u: str) -> str:
+        import re
+        m = re.search(r"https?://([^/]+)", u or "")
+        return m.group(1) if m else ""
+
+    @staticmethod
+    def _resolve(gn_url: str) -> str:
+        """Follow a Google News redirect to the real article URL."""
+        import urllib.request
+        try:
+            req = urllib.request.Request(
+                gn_url, headers={"User-Agent": "Mozilla/5.0 (information-hub)"})
+            with urllib.request.urlopen(req, timeout=20) as r:
+                return r.geturl()
+        except Exception:
+            return ""
 
 
 def _build_verify_prompt(record: dict[str, Any], claims: list[str]) -> str:

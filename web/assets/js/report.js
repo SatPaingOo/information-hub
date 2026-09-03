@@ -5,7 +5,7 @@
 
 const PALETTE = ["#818cf8", "#38bdf8", "#34d399", "#fbbf24", "#fb7185", "#a78bfa", "#2dd4bf", "#f472b6", "#60a5fa", "#c084fc"];
 const COL_LABEL = { "world-news": "World News", "tech-news": "Tech & AI", politics: "Politics", products: "Products" };
-const VERIFY_META = { gemini: { label: "🤖 AI check (Gemini)", color: "#34d399" }, lexical: { label: "⚙️ Lexical check", color: "#38bdf8" }, unverified: { label: "Unverified", color: "#64748b" } };
+const VERIFY_META = { gemini: { label: "🤖 AI check (Gemini)", color: "#34d399" }, web: { label: "🌐 Web corroborated", color: "#38bdf8" }, lexical: { label: "⚙️ Lexical check", color: "#818cf8" }, unverified: { label: "Unverified", color: "#64748b" } };
 
 let ITEMS = [];
 let charts = {};

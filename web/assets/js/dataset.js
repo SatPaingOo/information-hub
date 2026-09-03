@@ -35,6 +35,7 @@ function renderKpis(s) {
   const verify = s.per_verify_method || {};
   const gemini = verify.gemini || 0;
   const lexical = verify.lexical || 0;
+  const web = verify.web || 0;
   const aiPct = items ? Math.round((gemini / items) * 100) : 0;
   const first = s.first_date || "—";
   const last = s.last_date || "—";
@@ -42,7 +43,7 @@ function renderKpis(s) {
     { icon: "🗂️", n: items, l: "Records", sub: `${first} → ${last}`, c: "#818cf8" },
     { icon: "📚", n: Object.keys(s.per_collection || {}).length, l: "Collections", sub: "world · tech · politics · products", c: "#38bdf8" },
     { icon: "✍️", n: (s.total_words || 0).toLocaleString(), l: "Words written", sub: "schema-enforced deep-dives", c: "#34d399" },
-    { icon: aiPct > 0 ? "🤖" : "⚙️", n: aiPct > 0 ? `${aiPct}%` : "—", l: "AI-verified", sub: aiPct > 0 ? `Gemini · ${gemini} records` : `Gemini search busy · ${lexical} lexical`, c: aiPct > 0 ? "#34d399" : "#fbbf24" },
+    { icon: aiPct > 0 ? "🤖" : web > 0 ? "🌐" : "⚙️", n: aiPct > 0 ? `${aiPct}%` : "—", l: "AI-verified", sub: aiPct > 0 ? `Gemini · ${gemini} records` : web > 0 ? `Web corroborated · ${web} · ${lexical} lexical` : `Gemini search busy · ${lexical} lexical`, c: aiPct > 0 ? "#34d399" : web > 0 ? "#38bdf8" : "#fbbf24" },
   ];
   document.getElementById("kpis").innerHTML = kpis.map((k) => `
     <div class="dstat" style="--accent:${k.c}">

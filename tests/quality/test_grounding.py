@@ -96,3 +96,44 @@ def test_lexical_fallback_when_provider_unavailable(tmp_path: Path):
     assert result["review_status"] in ("verified", "pending_review")
     # registry approval still recorded for the lexical path
     assert reg.item_status(rec["id"])["review_status"] in ("verified", "pending_review")
+
+
+def test_web_corroboration_finds_independent_source(tmp_path: Path):
+    """Gemini down + claim not in source text → web corroboration grounds it
+    with an INDEPENDENT outlet citation (method 'web')."""
+    cfg, reg, run_log, pm = _setup(tmp_path)
+    engine = GroundingEngine(cfg, reg, run_log, pm)
+    rec = sample_record(key="2026-08-14-005")
+    rec["key_facts"] = [
+        "Iceland holds knife-edge referendum on EU membership talks"]
+    reg.record_item(rec, status="published", gemini_calls=1, validated=True,
+                    provider="mock", model="mock")
+    # exhaust gemini so the fallback path runs
+    gem = cfg.providers["gemini"]
+    reg.record_provider_call("gemini", gem.models[0],
+                             tokens=gem.max_daily_tokens)
+    result = engine.check_record(rec, spec=None,
+                                 fulltext="completely unrelated filler text")
+    # independent outlet corroboration succeeded
+    assert result["method"] == "web"
+    assert result["claims_grounded"] >= 1
+    assert result["sources_verified"]          # real citation(s) attached
+    assert reg.item_status(rec["id"])["review_status"] in (
+        "verified", "pending_review")
+
+
+def test_web_corroboration_disabled_stays_lexical(tmp_path: Path):
+    """web_corroborate=False → plain lexical fallback, no network."""
+    cfg, reg, run_log, pm = _setup(tmp_path)
+    cfg.quality.web_corroborate = False
+    engine = GroundingEngine(cfg, reg, run_log, pm)
+    rec = sample_record(key="2026-08-14-006")
+    rec["key_facts"] = ["unmatched claim about iceland eu referendum"]
+    reg.record_item(rec, status="published", gemini_calls=1, validated=True,
+                    provider="mock", model="mock")
+    gem = cfg.providers["gemini"]
+    reg.record_provider_call("gemini", gem.models[0],
+                             tokens=gem.max_daily_tokens)
+    result = engine.check_record(rec, spec=None, fulltext="nothing matches")
+    assert result["method"] == "lexical"
+    assert result["sources_verified"] == []      # no web pass

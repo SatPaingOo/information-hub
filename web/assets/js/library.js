@@ -215,6 +215,7 @@ function renderGrid() {
 
 function verifyBadge(v) {
   if (v === "gemini") return `<span class="badge" style="background:rgba(52,211,153,.13);color:#6ee7b7;border:1px solid rgba(52,211,153,.25)" title="Verified with Gemini web-search">🤖 AI-check</span>`;
+  if (v === "web") return `<span class="badge" style="background:rgba(56,189,248,.13);color:#7dd3fc;border:1px solid rgba(56,189,248,.25)" title="Corroborated against independent outlets via Google News">🌐 Web-corroborated</span>`;
   if (v === "lexical") return `<span class="badge type" title="Checked against source text (no AI search quota)">⚙️ Lexical</span>`;
   return `<span class="badge" style="background:rgba(255,255,255,.05);color:#94a3b8;border:1px solid rgba(255,255,255,.1)" title="Not yet through a check pass">◌ Unchecked</span>`;
 }

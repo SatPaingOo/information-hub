@@ -98,6 +98,7 @@ function render(r) {
   const byName = (o) => (o && typeof o === "object" ? (o.provider || o.model || "AI") : o || "—");
   const method = g.method || "";
   const methodLabel = method === "gemini" ? "🤖 AI check (Gemini)"
+    : method === "web" ? "🌐 Web corroboration"
     : method === "lexical" ? "⚙️ Lexical check" : "pending";
   const verified = g.checked_by
     ? `${methodLabel}${g.grounding_score != null ? " · score " + g.grounding_score : ""}${(g.claims_grounded != null && g.claims_total) ? " · " + g.claims_grounded + "/" + g.claims_total + " claims" : ""}`
