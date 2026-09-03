@@ -30,6 +30,49 @@ async function init() {
   }
 }
 
+/* Free sample: fetch the 3 newest full records, pack with license metadata,
+   and download as one JSON — an evaluation copy for prospective buyers.
+   Built in-browser from the live data (no backend, no pipeline change). */
+async function downloadSample() {
+  const btn = document.getElementById("sample-dl");
+  btn.textContent = "⏳ building sample…";
+  try {
+    const index = await fetchJSON(`${DATA_DIR}/views/index.json`);
+    const items = (Array.isArray(index) ? index : (index.items || []));
+    const newest = items.slice(0, 3);
+    const records = [];
+    for (const it of newest) {
+      // file is "collections/data-set/<name>.json" — dataset.html lives in
+      // web/, so the record is one level up under ../data/.
+      const path = "../data/" + (it.file || "").replace(/^\/+/, "");
+      try {
+        records.push(await fetchJSON(path));
+      } catch { /* skip a failed fetch rather than abort the sample */ }
+    }
+    if (!records.length) throw new Error("no sample records could be fetched");
+    const payload = {
+      sample: true,
+      description: "Information Hub — machine-written intelligence briefings. This is a 3-record evaluation sample of a dataset that grows daily.",
+      license: "CC BY-NC 4.0 — non-commercial use with attribution. Commercial use requires a separate license: satpaingoo777@gmail.com",
+      catalog: "https://satpaingoo.github.io/information-hub/web/dataset.html",
+      generated_at: new Date().toISOString(),
+      records,
+    };
+    const blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json" });
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = "information-hub-sample.json";
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    setTimeout(() => URL.revokeObjectURL(a.href), 4000);
+    btn.textContent = "✅ downloaded";
+  } catch (e) {
+    btn.textContent = "⚠️ " + e.message;
+  }
+  setTimeout(() => { btn.textContent = "⬇️ Free sample · 3 records"; }, 3000);
+}
+
 function renderKpis(s) {
   const items = s.total_items || 0;
   const verify = s.per_verify_method || {};

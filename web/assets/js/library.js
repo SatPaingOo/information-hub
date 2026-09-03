@@ -4,6 +4,7 @@
 const state = {
   items: [],
   filtered: [],
+  searchIndex: null,
   shown: 0,
   pageSize: 20,
   activeCollection: "all",
@@ -31,6 +32,7 @@ async function init() {
   }
   buildChips(state.items);
   buildFilters(state.items);
+  buildSearchIndex(state.items);
   bindEvents();
   // view toggle default grid
   document.getElementById("view-grid").classList.add("on");
@@ -167,16 +169,44 @@ function bindEvents() {
   document.getElementById("view-list").addEventListener("click", () => setView("list"));
 }
 
+function buildSearchIndex(items) {
+  if (!window.MiniSearch) return;  // CDN unavailable — substring fallback
+  state.searchIndex = new MiniSearch({
+    fields: ["title", "tldr", "topic", "region", "tags", "entities", "collection"],
+    storeFields: ["id"],
+    extractField: (doc, field) => {
+      const v = doc[field];
+      return Array.isArray(v) ? v.join(" ") : (v || "");
+    },
+    searchOptions: { boost: { title: 2 }, prefix: true, fuzzy: 0.2 },
+  });
+  state.searchIndex.addAll(items);
+}
+
 function applyFilters() {
   const q = state.query;
+  // Ranked search: Minisearch (prefix + fuzzy, title boosted) when the CDN
+  // loaded; falls back to the plain substring filter when it didn't.
+  let ranked = null;
+  if (q && window.MiniSearch && state.searchIndex) {
+    try {
+      ranked = new Set(state.searchIndex
+        .search(q, { prefix: true, fuzzy: 0.2, boost: { title: 2, tags: 1.5 } })
+        .map((r) => r.id));
+    } catch { /* malformed query → fall through to substring */ }
+  }
   state.filtered = state.items.filter((i) => {
     if (state.day && i.date !== state.day) return false;
     if (state.activeCollection !== "all" && canonicalCollection(i.collection || i.topic) !== state.activeCollection) return false;
     if (state.topic !== "all" && i.topic !== state.topic) return false;
     if (state.region !== "all" && i.region !== state.region) return false;
     if (q) {
-      const hay = [i.title, i.tldr, i.topic, i.region, (i.tags || []).join(" "), (i.entities || []).join(" ")].join(" ").toLowerCase();
-      if (!hay.includes(q)) return false;
+      if (ranked) {
+        if (!ranked.has(i.id)) return false;
+      } else {
+        const hay = [i.title, i.tldr, i.topic, i.region, (i.tags || []).join(" "), (i.entities || []).join(" ")].join(" ").toLowerCase();
+        if (!hay.includes(q)) return false;
+      }
     }
     return true;
   });

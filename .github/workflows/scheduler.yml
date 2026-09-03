@@ -28,6 +28,7 @@ on:
 
 permissions:
   contents: write              # allow the bot to commit generated data
+  issues: write                # zero-day alert opens tracking issues
 
 # NOTE: the GitHub App token CANNOT modify .github/workflows/*.yml.
 # To enable the dynamic cron rewrite, add a `BOT_PAT` secret (fine-grained
@@ -120,9 +121,34 @@ jobs:
             git push || { echo "push failed (remote moved) — will retry next heartbeat"; }
           fi
 
-      # Weekly data snapshot tag (dataset versioning for licensing/sales).
-      # Runs after the commit step pushed fresh data: if the latest tag is
-      # older than 7 days, tag HEAD data-YYYY-MM-DD and push it.
+      # Zero-day alert: after 12:00 UTC, if the UTC day has NO collected
+      # records at all, open (or bump) a GitHub issue so a silent pipeline
+      # failure is impossible to miss.  Idempotent — skips when an open
+      # alert for today already exists.
+      - name: Zero-day alert
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          H=$(date -u +%H); TODAY=$(date -u +%Y-%m-%d)
+          N=$(ls data/collections/data-set/ 2>/dev/null | grep -c "^${TODAY}" || true)
+          if [ "$H" -lt 12 ] || [ "${N:-0}" -gt 0 ]; then
+            echo "ok: ${N:-0} records today (or before noon) — no alert"
+            exit 0
+          fi
+          TITLE="[alert] No data collected today (${TODAY})"
+          EXISTS=$(gh issue list -R "$GITHUB_REPOSITORY" --state open --search "in:title \"${TODAY}\"" --json number --jq 'length' 2>/dev/null || echo 1)
+          if [ "${EXISTS:-1}" -gt 0 ]; then
+            echo "open alert for ${TODAY} already exists — skipping"
+            exit 0
+          fi
+          gh issue create -R "$GITHUB_REPOSITORY" \
+            --title "$TITLE" \
+            --label "alert" 2>/dev/null || \
+          gh issue create -R "$GITHUB_REPOSITORY" \
+            --title "$TITLE" \
+            --body "Today's scheduler runs produced **0 records**. Check the latest [scheduler runs](https://github.com/${GITHUB_REPOSITORY}/actions/workflows/scheduler.yml) — likely every provider is rate-limited/quarantined or the sources failed. The heartbeat retries until midnight UTC." || \
+            echo "issue create failed"
+
       - name: Weekly dataset tag
         env:
           BOT_PAT: ${{ secrets.BOT_PAT }}
