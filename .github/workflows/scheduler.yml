@@ -2,14 +2,17 @@ name: scheduler
 
 on:
   schedule:
-    # HEARTBEAT — every 15 min, the pipeline checks data/state/schedule.json
-    # and runs the due phase(s).  This is what drives "keep collecting until
-    # the daily target is met": after a rate-limited run the next-run time is
-    # persisted in schedule.json and the next heartbeat fires it.  Works with
-    # the plain GitHub App token (no BOT_PAT needed for data commits).
-    - cron: "0 1 4 9 *"
-    # SAFETY fallback — daily 01:00 UTC. Never rewritten; keeps the system
-    # alive if the heartbeat schedule goes stale.
+    # DYNAMIC — rewritten by the scheduler to the exact next-run time when a
+    # BOT_PAT secret is set.  Never edit this line by hand; the scheduler
+    # anchors on the "# DYNAMIC" marker so the entries below are untouched.
+    - cron: "0 1 * * *"
+    # HEARTBEAT — every 15 min.  NEVER REWRITTEN.  Each fire checks data/state/
+    # schedule.json and runs whichever phase is due; this is the driver that
+    # keeps collecting until the daily target is met and survives GitHub
+    # dropping or delaying a single schedule event (the 01:00 UTC events have
+    # been landing ~05:00-06:00 UTC).  Works with the plain GitHub App token.
+    - cron: "*/15 * * * *"
+    # SAFETY fallback — daily 01:00 UTC. Never rewritten; extra redundancy.
     - cron: "0 1 * * *"
   workflow_dispatch:
     inputs:

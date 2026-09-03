@@ -77,7 +77,13 @@ def iso_to_cron(iso: str) -> str:
 
 
 def update_workflow_cron(next_run_iso: str, path: Path | None = None) -> bool:
-    """Rewrite the dynamic (first) cron line in scheduler.yml (BOT_PAT only).
+    """Rewrite the DYNAMIC cron line in scheduler.yml (BOT_PAT only).
+
+    Only the ``cron:`` value directly below the ``# DYNAMIC`` marker comment
+    is changed — the heartbeat (``*/15``) and safety (``0 1 * * *``) entries
+    are never touched.  Rewriting the first ``cron:`` line blindly used to
+    clobber the heartbeat, leaving the pipeline at the mercy of a single
+    (often late) daily schedule event.
 
     Returns:
         True when the cron line was rewritten.
@@ -87,7 +93,10 @@ def update_workflow_cron(next_run_iso: str, path: Path | None = None) -> bool:
         return False
     text = path.read_text(encoding="utf-8")
     cron = iso_to_cron(next_run_iso)
-    new, n = re.subn(r'(\s*cron: ")[^"]*(")', rf"\g<1>{cron}\g<2>", text, count=1)
+    new, n = re.subn(
+        r'# DYNAMIC[^\n]*(?:\n\s*#[^\n]*)*\n\s*-\s*cron: "[^"]*"',
+        lambda m: re.sub(r'cron: "[^"]*"', f'cron: "{cron}"', m.group(0)),
+        text, count=1)
     if n:
         path.write_text(new, encoding="utf-8")
     return bool(n)
