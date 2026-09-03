@@ -476,6 +476,16 @@ class Indexer:
         root = self.preview / "taxonomy"
         root.mkdir(parents=True, exist_ok=True)
 
+        # Derived notes — rebuild wipes every layer dir first so a renamed /
+        # re-cased node (e.g. "Global" → "global") can't leave a stale
+        # duplicate note behind.  On case-insensitive filesystems (Windows)
+        # two case-variant paths collide into one physical file, which makes
+        # the indexer's own output look like an uncommittable dirty change.
+        for layer_dir in root.iterdir():
+            if layer_dir.is_dir():
+                for stale in layer_dir.glob("*.md"):
+                    stale.unlink(missing_ok=True)
+
         # items per taxonomy node
         items_by_node: dict[str, list[dict[str, Any]]] = {}
         for rec in records:
