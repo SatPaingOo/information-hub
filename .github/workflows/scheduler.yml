@@ -6,12 +6,15 @@ on:
     # BOT_PAT secret is set.  Never edit this line by hand; the scheduler
     # anchors on the "# DYNAMIC" marker so the entries below are untouched.
     - cron: "0 1 * * *"
-    # HEARTBEAT — every 15 min.  NEVER REWRITTEN.  Each fire checks data/state/
-    # schedule.json and runs whichever phase is due; this is the driver that
-    # keeps collecting until the daily target is met and survives GitHub
-    # dropping or delaying a single schedule event (the 01:00 UTC events have
-    # been landing ~05:00-06:00 UTC).  Works with the plain GitHub App token.
-    - cron: "*/15 * * * *"
+    # HEARTBEAT — every 15 min, offset OFF the quarter-hour marks.  NEVER
+    # REWRITTEN.  Each fire checks data/state/schedule.json and runs whichever
+    # phase is due; this is the driver that keeps collecting until the daily
+    # target is met and survives GitHub dropping or delaying a single schedule
+    # event.  Minutes 0/15/30/45 are GitHub's peak scheduler congestion slots
+    # (runs there were delayed ~3-4h or dropped — only 4 fired all day), so
+    # the heartbeat uses 4/19/34/49 instead, per GitHub's own advice to
+    # schedule away from the top of the hour.  Works with the plain App token.
+    - cron: "4-59/15 * * * *"
     # SAFETY fallback — daily 01:00 UTC. Never rewritten; extra redundancy.
     - cron: "0 1 * * *"
   workflow_dispatch:
