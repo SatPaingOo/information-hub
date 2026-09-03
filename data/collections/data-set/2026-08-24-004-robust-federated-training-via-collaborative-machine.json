@@ -12,8 +12,10 @@
   ],
   "source": {
     "name": "arXiv",
-    "url": "",
-    "type": "arxiv"
+    "url": "http://arxiv.org/abs/1905.02941v1",
+    "type": "arxiv",
+    "url_source": "backfill:arxiv",
+    "feed": ""
   },
   "title": "Robust Federated Training via Collaborative Machine Teaching using Trusted Instances",
   "tldr": "This paper proposes a collaborative machine teaching framework to enhance the robustness of federated learning against adversarial data poisoning by leveraging trusted instances across distributed agents. The method enables agents to jointly select informative training subsets and apply limited perturbations to improve model performance despite local data corruption.",

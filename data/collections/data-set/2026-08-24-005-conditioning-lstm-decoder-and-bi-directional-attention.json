@@ -12,8 +12,10 @@
   ],
   "source": {
     "name": "arXiv",
-    "url": "",
-    "type": "arxiv"
+    "url": "http://arxiv.org/abs/1905.02019v1",
+    "type": "arxiv",
+    "url_source": "backfill:arxiv",
+    "feed": ""
   },
   "title": "Conditioning LSTM Decoder and Bi-directional Attention Based Question Answering System",
   "tldr": "This research introduces a novel Question Answering architecture combining bi-directional attention flow with a conditioned LSTM decoder, achieving a 15.16% performance improvement and setting new benchmarks with 73.97% F1 score on the test set. The model innovates through its dual-decoder approach and smart-span prediction equation, offering significant advances for open-source QA development.",

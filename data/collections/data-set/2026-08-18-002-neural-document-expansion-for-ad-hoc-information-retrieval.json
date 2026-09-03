@@ -12,8 +12,10 @@
   ],
   "source": {
     "name": "arXiv",
-    "url": "",
-    "type": "arxiv"
+    "url": "http://arxiv.org/abs/2012.14005v1",
+    "type": "arxiv",
+    "url_source": "backfill:arxiv",
+    "feed": ""
   },
   "title": "Neural document expansion for ad-hoc information retrieval",
   "tldr": "The paper adapts a neural sequence‑to‑sequence document expansion model to standard ad‑hoc retrieval tasks, showing that it can operate effectively with limited labeled data and long documents, thereby reducing reliance on large in‑domain corpora.",
