@@ -1,7 +1,7 @@
 ---
 node: "world"
 layer: topic
-item_count: 57
+item_count: 60
 ---
 
 # world
@@ -17,6 +17,9 @@ item_count: 57
 
 ## Items
 
+- 2026-09-03 · [[2026-09-03-001-iranian-attack-on-saudi-tanker-killed-two-filipino-sailors]] — Iranian attack on Saudi tanker killed two Filipino sailors, Saudi Arabia says
+- 2026-09-03 · [[2026-09-03-002-protests-in-spain-against-government-s-handling-of-ceuta]] — Protests in Spain against government's handling of Ceuta migrant crisis
+- 2026-09-03 · [[2026-09-03-003-eu-and-nato-vow-to-step-up-pressure-on-russia-after-new]] — EU and Nato vow to step up pressure on Russia after 'new escalation' in Germany
 - 2026-09-02 · [[2026-09-02-001-iran-attacks-us-bases-in-middle-east-after-reports-us]] — Iran attacks US bases in Middle East after reports US strike killed five at wedding party
 - 2026-09-02 · [[2026-09-02-002-charlie-kirk-murder-suspect-pleads-not-guilty-as-judge]] — Charlie Kirk murder suspect pleads not guilty as judge clears way for death penalty trial
 - 2026-09-02 · [[2026-09-02-003-tiger-woods-to-change-plea-after-crash-arrest]] — Tiger Woods to change plea after crash arrest

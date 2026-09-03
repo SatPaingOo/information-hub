@@ -1,19 +1,17 @@
 ---
-node: "regulation"
+node: "Regulation"
 layer: misc
-item_count: 2
+item_count: 1
 ---
 
-# regulation
+# Regulation
 
 *Taxonomy layer: misc*
 
 ## Cross-layer relations
 
-- [[ai-ml]] — *relates*
-- [[world]] — *relates*
+- [[products]] — *relates*
 
 ## Items
 
-- 2026-08-28 · [[2026-08-28-001-trump-administration-illegally-retaliated-against]] — Trump administration illegally retaliated against Anthropic, judge rules
-- 2026-08-22 · [[2026-08-22-004-anthropic-s-opus-4-6-is-a-smut-machine]] — Anthropic’s Opus 4.6 is a smut-machine
+- 2026-08-19 · [[2026-08-19-007-crewtower]] — CrewTower

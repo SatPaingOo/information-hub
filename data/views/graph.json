@@ -2552,6 +2552,183 @@
       "title": "Sourclip 2.0"
     },
     {
+      "id": "info:item:world:global:2026-09-03-001",
+      "type": "item",
+      "date": "2026-09-03",
+      "title": "Iranian attack on Saudi tanker killed two Filipino sailors, Saudi Arabia says"
+    },
+    {
+      "id": "info:entity:event:US‑Israel war with Iran (Feb 2024‑present)",
+      "type": "event",
+      "name": "US‑Israel war with Iran (Feb 2024‑present)"
+    },
+    {
+      "id": "info:entity:concept:Strait of Hormuz",
+      "type": "concept",
+      "name": "Strait of Hormuz"
+    },
+    {
+      "id": "taxonomy/misc/Energy Security",
+      "type": "taxonomy",
+      "name": "Energy Security"
+    },
+    {
+      "id": "taxonomy/misc/Maritime Security",
+      "type": "taxonomy",
+      "name": "Maritime Security"
+    },
+    {
+      "id": "info:item:world:global:2026-09-03-002",
+      "type": "item",
+      "date": "2026-09-03",
+      "title": "Protests in Spain against government's handling of Ceuta migrant crisis"
+    },
+    {
+      "id": "info:entity:person:Pedro Sánchez",
+      "type": "person",
+      "name": "Pedro Sánchez"
+    },
+    {
+      "id": "info:entity:person:Alberto Núñez Feijóo",
+      "type": "person",
+      "name": "Alberto Núñez Feijóo"
+    },
+    {
+      "id": "info:entity:organization:Vox",
+      "type": "organization",
+      "name": "Vox"
+    },
+    {
+      "id": "info:entity:region:Morocco",
+      "type": "region",
+      "name": "Morocco"
+    },
+    {
+      "id": "taxonomy/misc/migration policy",
+      "type": "taxonomy",
+      "name": "migration policy"
+    },
+    {
+      "id": "taxonomy/misc/European Union",
+      "type": "taxonomy",
+      "name": "European Union"
+    },
+    {
+      "id": "taxonomy/misc/North Africa",
+      "type": "taxonomy",
+      "name": "North Africa"
+    },
+    {
+      "id": "info:item:world:global:2026-09-03-003",
+      "type": "item",
+      "date": "2026-09-03",
+      "title": "EU and Nato vow to step up pressure on Russia after 'new escalation' in Germany"
+    },
+    {
+      "id": "info:entity:person:Ursula von der Leyen",
+      "type": "person",
+      "name": "Ursula von der Leyen"
+    },
+    {
+      "id": "info:entity:person:Mark Rutte",
+      "type": "person",
+      "name": "Mark Rutte"
+    },
+    {
+      "id": "taxonomy/misc/EU‑Russia relations",
+      "type": "taxonomy",
+      "name": "EU‑Russia relations"
+    },
+    {
+      "id": "taxonomy/misc/NATO enlargement",
+      "type": "taxonomy",
+      "name": "NATO enlargement"
+    },
+    {
+      "id": "taxonomy/misc/Energy security",
+      "type": "taxonomy",
+      "name": "Energy security"
+    },
+    {
+      "id": "info:item:politics:global:2026-09-03-004",
+      "type": "item",
+      "date": "2026-09-03",
+      "title": "Burnham pressed on economy at first PMQs as borrowing costs surge"
+    },
+    {
+      "id": "taxonomy/misc/economics",
+      "type": "taxonomy",
+      "name": "economics"
+    },
+    {
+      "id": "info:item:politics:global:2026-09-03-005",
+      "type": "item",
+      "date": "2026-09-03",
+      "title": "Reform up against 'complainants' society', Farage tells BBC"
+    },
+    {
+      "id": "info:entity:person:Nigel Farage",
+      "type": "person",
+      "name": "Nigel Farage"
+    },
+    {
+      "id": "info:entity:person:Christopher Harborne",
+      "type": "person",
+      "name": "Christopher Harborne"
+    },
+    {
+      "id": "info:entity:person:Daniel Greenberg",
+      "type": "person",
+      "name": "Daniel Greenberg"
+    },
+    {
+      "id": "taxonomy/misc/global politics",
+      "type": "taxonomy",
+      "name": "global politics"
+    },
+    {
+      "id": "taxonomy/misc/policy scrutiny",
+      "type": "taxonomy",
+      "name": "policy scrutiny"
+    },
+    {
+      "id": "taxonomy/misc/UK internal politics",
+      "type": "taxonomy",
+      "name": "UK internal politics"
+    },
+    {
+      "id": "info:item:products:global:2026-09-03-006",
+      "type": "item",
+      "date": "2026-09-03",
+      "title": "Claude Fable 5.1"
+    },
+    {
+      "id": "info:item:products:global:2026-09-03-007",
+      "type": "item",
+      "date": "2026-09-03",
+      "title": "HydraDB OSS: The Fastest, Cheapest Open‑Source Graph Database"
+    },
+    {
+      "id": "info:entity:company:HydraDB",
+      "type": "company",
+      "name": "HydraDB"
+    },
+    {
+      "id": "taxonomy/misc/Artificial Intelligence",
+      "type": "taxonomy",
+      "name": "Artificial Intelligence"
+    },
+    {
+      "id": "taxonomy/misc/Open Source Software",
+      "type": "taxonomy",
+      "name": "Open Source Software"
+    },
+    {
+      "id": "taxonomy/misc/Data Governance",
+      "type": "taxonomy",
+      "name": "Data Governance"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -9242,6 +9419,441 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-09-03-001",
+      "target": "info:entity:organization:Islamic Revolutionary Guard Corps (IRGC)",
+      "relation": "claimed responsibility for the tanker incident"
+    },
+    {
+      "source": "info:item:world:global:2026-09-03-001",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "US President asserting strait is open"
+    },
+    {
+      "source": "info:item:world:global:2026-09-03-001",
+      "target": "info:entity:event:US‑Israel war with Iran (Feb 2024‑present)",
+      "relation": "context for strait closures"
+    },
+    {
+      "source": "info:item:world:global:2026-09-03-001",
+      "target": "info:entity:concept:Strait of Hormuz",
+      "relation": "critical maritime chokepoint affected by attacks"
+    },
+    {
+      "source": "info:item:world:global:2026-09-03-001",
+      "target": "info:item:world:global:2026-09-02-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-03-001",
+      "target": "info:item:world:global:2026-09-02-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-03-001",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-03-001",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-03-001",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-03-001",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-03-001",
+      "target": "taxonomy/misc/Middle East",
+      "relation": "region"
+    },
+    {
+      "source": "info:item:world:global:2026-09-03-001",
+      "target": "taxonomy/misc/Energy Security",
+      "relation": "topic"
+    },
+    {
+      "source": "info:item:world:global:2026-09-03-001",
+      "target": "taxonomy/misc/Maritime Security",
+      "relation": "category"
+    },
+    {
+      "source": "info:item:world:global:2026-09-03-002",
+      "target": "info:entity:person:Pedro Sánchez",
+      "relation": "Prime Minister of Spain"
+    },
+    {
+      "source": "info:item:world:global:2026-09-03-002",
+      "target": "info:entity:person:Alberto Núñez Feijóo",
+      "relation": "Leader of the Partido Popular"
+    },
+    {
+      "source": "info:item:world:global:2026-09-03-002",
+      "target": "info:entity:organization:Vox",
+      "relation": "Far‑right opposition party in Spain"
+    },
+    {
+      "source": "info:item:world:global:2026-09-03-002",
+      "target": "info:entity:region:Morocco",
+      "relation": "Neighboring country bordering Ceuta"
+    },
+    {
+      "source": "info:item:world:global:2026-09-03-002",
+      "target": "info:item:world:global:2026-09-03-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-03-002",
+      "target": "info:item:world:global:2026-09-02-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-03-002",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-03-002",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-03-002",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-03-002",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-03-002",
+      "target": "taxonomy/misc/migration policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-03-002",
+      "target": "taxonomy/misc/European Union",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-03-002",
+      "target": "taxonomy/misc/North Africa",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-03-003",
+      "target": "info:entity:organization:European Union",
+      "relation": "accused Russia of escalation and proposed sanctions"
+    },
+    {
+      "source": "info:item:world:global:2026-09-03-003",
+      "target": "info:entity:organization:NATO",
+      "relation": "solidarity with Germany and coordinated response"
+    },
+    {
+      "source": "info:item:world:global:2026-09-03-003",
+      "target": "info:entity:person:Ursula von der Leyen",
+      "relation": "Commission President linking attack to Russian operatives"
+    },
+    {
+      "source": "info:item:world:global:2026-09-03-003",
+      "target": "info:entity:person:Mark Rutte",
+      "relation": "NATO Secretary General expressing solidarity"
+    },
+    {
+      "source": "info:item:world:global:2026-09-03-003",
+      "target": "info:item:world:global:2026-09-03-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-03-003",
+      "target": "info:item:world:global:2026-09-03-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-03-003",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-03-003",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-03-003",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-03-003",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-03-003",
+      "target": "taxonomy/misc/EU‑Russia relations",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-03-003",
+      "target": "taxonomy/misc/NATO enlargement",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-03-003",
+      "target": "taxonomy/misc/Energy security",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-03-004",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "Prime Minister of the United Kingdom, facing fiscal scrutiny at PMQs"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-03-004",
+      "target": "info:entity:person:Kemi Badenoch",
+      "relation": "Conservative leader, pressing for spending cuts and debt management details"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-03-004",
+      "target": "info:entity:person:John Healey",
+      "relation": "Chancellor of the Exchequer, scheduled earlier budget to reduce speculation"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-03-004",
+      "target": "info:entity:person:Lord Jim O'Neill",
+      "relation": "Economist and potential chief economic adviser, warning on pension and welfare spending"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-03-004",
+      "target": "info:item:politics:global:2026-09-02-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-03-004",
+      "target": "info:item:politics:global:2026-09-01-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-03-004",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-03-004",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-03-004",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-03-004",
+      "target": "taxonomy/misc/global",
+      "relation": "region"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-03-004",
+      "target": "taxonomy/misc/policy",
+      "relation": "category"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-03-004",
+      "target": "taxonomy/misc/economics",
+      "relation": "topic"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-03-005",
+      "target": "info:entity:person:Nigel Farage",
+      "relation": "leader of Reform UK and primary spokesperson"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-03-005",
+      "target": "info:entity:organization:Reform UK",
+      "relation": "political party under scrutiny for donations"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-03-005",
+      "target": "info:entity:person:Christopher Harborne",
+      "relation": "major donor whose £5 million gift is under investigation"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-03-005",
+      "target": "info:entity:person:Daniel Greenberg",
+      "relation": "Parliament’s standards commissioner leading the inquiry"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-03-005",
+      "target": "info:item:politics:global:2026-09-03-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-03-005",
+      "target": "info:item:politics:global:2026-09-02-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-03-005",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-03-005",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-03-005",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-03-005",
+      "target": "taxonomy/misc/global politics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-03-005",
+      "target": "taxonomy/misc/policy scrutiny",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-03-005",
+      "target": "taxonomy/misc/UK internal politics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-09-03-006",
+      "target": "info:entity:company:Anthropic",
+      "relation": "developer of Claude Fable 5.1"
+    },
+    {
+      "source": "info:item:products:global:2026-09-03-006",
+      "target": "info:entity:model:Claude Opus 4.6",
+      "relation": "previous generation model"
+    },
+    {
+      "source": "info:item:products:global:2026-09-03-006",
+      "target": "info:entity:company:OpenAI",
+      "relation": "competitor in coding AI space"
+    },
+    {
+      "source": "info:item:products:global:2026-09-03-006",
+      "target": "info:entity:model:Gemini",
+      "relation": "competitor model"
+    },
+    {
+      "source": "info:item:products:global:2026-09-03-006",
+      "target": "info:item:products:global:2026-09-02-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-09-03-006",
+      "target": "info:item:products:global:2026-08-31-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-09-03-006",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-09-03-006",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-09-03-006",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-09-03-006",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-09-03-006",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-09-03-006",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-09-03-007",
+      "target": "info:entity:company:HydraDB",
+      "relation": "developer of the OSS graph database"
+    },
+    {
+      "source": "info:item:products:global:2026-09-03-007",
+      "target": "info:entity:concept:Agentic AI",
+      "relation": "HydraDB OSS is marketed as ready for agentic AI workflows"
+    },
+    {
+      "source": "info:item:products:global:2026-09-03-007",
+      "target": "info:entity:model:Gemini",
+      "relation": "potential downstream consumer of HydraDB for knowledge‑graph queries"
+    },
+    {
+      "source": "info:item:products:global:2026-09-03-007",
+      "target": "info:entity:organization:OpenAI",
+      "relation": "key ecosystem player influencing demand for graph‑backed LLMs"
+    },
+    {
+      "source": "info:item:products:global:2026-09-03-007",
+      "target": "info:item:products:global:2026-09-01-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-09-03-007",
+      "target": "info:item:products:global:2026-09-02-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-09-03-007",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-09-03-007",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-09-03-007",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-09-03-007",
+      "target": "taxonomy/misc/Artificial Intelligence",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-09-03-007",
+      "target": "taxonomy/misc/Open Source Software",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-09-03-007",
+      "target": "taxonomy/misc/Data Governance",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -9373,7 +9985,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
-      "weight": "15"
+      "weight": "16"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -9421,7 +10033,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:model:Claude Opus 4.6",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -9433,7 +10045,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "10"
+      "weight": "11"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -9592,6 +10204,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:company:HydraDB",
+      "target": "info:entity:concept:Agentic AI",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:HydraDB",
+      "target": "info:entity:model:Gemini",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:HydraDB",
+      "target": "info:entity:organization:OpenAI",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:company:MBDA",
       "target": "info:entity:organization:Russian Embassy to the UK",
       "relation": "co-occurs",
@@ -9703,7 +10333,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:model:Claude Opus 4.6",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -9715,7 +10345,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "13"
+      "weight": "14"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -9937,7 +10567,7 @@
       "source": "info:entity:concept:Agentic AI",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:concept:Agentic AI",
@@ -9949,7 +10579,7 @@
       "source": "info:entity:concept:Agentic AI",
       "target": "info:entity:organization:OpenAI",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:concept:Agentic AI",
@@ -10234,6 +10864,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:concept:Strait of Hormuz",
+      "target": "info:entity:event:US‑Israel war with Iran (Feb 2024‑present)",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Strait of Hormuz",
+      "target": "info:entity:organization:Islamic Revolutionary Guard Corps (IRGC)",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Strait of Hormuz",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:concept:agentic AI",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
@@ -10318,10 +10966,22 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:event:US‑Israel war with Iran (Feb 2024‑present)",
+      "target": "info:entity:organization:Islamic Revolutionary Guard Corps (IRGC)",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:event:US‑Israel war with Iran (Feb 2024‑present)",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:model:Claude Opus 4.6",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:model:Claude Opus 4.6",
@@ -10338,6 +10998,12 @@
     {
       "source": "info:entity:model:Claude Opus 4.6",
       "target": "info:entity:region:global",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
+      "target": "info:entity:organization:OpenAI",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -10855,7 +11521,7 @@
       "source": "info:entity:organization:European Union",
       "target": "info:entity:organization:NATO",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:organization:European Union",
@@ -10895,7 +11561,19 @@
     },
     {
       "source": "info:entity:organization:European Union",
+      "target": "info:entity:person:Mark Rutte",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:European Union",
       "target": "info:entity:person:Pierre Michel Formosa",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:European Union",
+      "target": "info:entity:person:Ursula von der Leyen",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -11041,7 +11719,7 @@
       "source": "info:entity:organization:Islamic Revolutionary Guard Corps (IRGC)",
       "target": "info:entity:person:Donald Trump",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:organization:Islamic Revolutionary Guard Corps (IRGC)",
@@ -11180,6 +11858,18 @@
       "target": "info:entity:person:Katrín Frostadóttir",
       "relation": "co-occurs",
       "weight": "2"
+    },
+    {
+      "source": "info:entity:organization:NATO",
+      "target": "info:entity:person:Mark Rutte",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:NATO",
+      "target": "info:entity:person:Ursula von der Leyen",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:organization:National Economic Council",
@@ -11351,6 +12041,18 @@
     },
     {
       "source": "info:entity:organization:Reform UK",
+      "target": "info:entity:person:Christopher Harborne",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Reform UK",
+      "target": "info:entity:person:Daniel Greenberg",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Reform UK",
       "target": "info:entity:person:Keir Starmer",
       "relation": "co-occurs",
       "weight": "1"
@@ -11360,6 +12062,12 @@
       "target": "info:entity:person:Kemi Badenoch",
       "relation": "co-occurs",
       "weight": "2"
+    },
+    {
+      "source": "info:entity:organization:Reform UK",
+      "target": "info:entity:person:Nigel Farage",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:organization:Reform UK",
@@ -11698,6 +12406,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Vox",
+      "target": "info:entity:person:Alberto Núñez Feijóo",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Vox",
+      "target": "info:entity:person:Pedro Sánchez",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Vox",
+      "target": "info:entity:region:Morocco",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Wildberries",
       "target": "info:entity:person:Vladimir Putin",
       "relation": "co-occurs",
@@ -11724,6 +12450,18 @@
     {
       "source": "info:entity:person:Ahmed al-Sharaa",
       "target": "info:entity:person:Scott Bessent",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Alberto Núñez Feijóo",
+      "target": "info:entity:person:Pedro Sánchez",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Alberto Núñez Feijóo",
+      "target": "info:entity:region:Morocco",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -11779,7 +12517,7 @@
       "source": "info:entity:person:Andy Burnham",
       "target": "info:entity:person:John Healey",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:person:Andy Burnham",
@@ -11791,7 +12529,7 @@
       "source": "info:entity:person:Andy Burnham",
       "target": "info:entity:person:Kemi Badenoch",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:person:Andy Burnham",
@@ -11803,7 +12541,7 @@
       "source": "info:entity:person:Andy Burnham",
       "target": "info:entity:person:Lord Jim O'Neill",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Andy Burnham",
@@ -12022,6 +12760,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:person:Christopher Harborne",
+      "target": "info:entity:person:Daniel Greenberg",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Christopher Harborne",
+      "target": "info:entity:person:Nigel Farage",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:person:Crown Prince Haakon",
       "target": "info:entity:person:King Harald V",
       "relation": "co-occurs",
@@ -12054,6 +12804,12 @@
     {
       "source": "info:entity:person:Dan Driscoll",
       "target": "info:entity:person:Pete Hegseth",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Daniel Greenberg",
+      "target": "info:entity:person:Nigel Farage",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -12295,7 +13051,13 @@
       "source": "info:entity:person:John Healey",
       "target": "info:entity:person:Kemi Badenoch",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
+    },
+    {
+      "source": "info:entity:person:John Healey",
+      "target": "info:entity:person:Lord Jim O'Neill",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:person:John Healey",
@@ -12336,6 +13098,12 @@
     {
       "source": "info:entity:person:Keir Starmer",
       "target": "info:entity:person:Yvette Cooper",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Kemi Badenoch",
+      "target": "info:entity:person:Lord Jim O'Neill",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -12400,6 +13168,12 @@
       "weight": "2"
     },
     {
+      "source": "info:entity:person:Mark Rutte",
+      "target": "info:entity:person:Ursula von der Leyen",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:person:Mike Searle",
       "target": "info:entity:person:Simon Cook",
       "relation": "co-occurs",
@@ -12416,6 +13190,12 @@
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
       "weight": "3"
+    },
+    {
+      "source": "info:entity:person:Pedro Sánchez",
+      "target": "info:entity:region:Morocco",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:person:Priti Patel",

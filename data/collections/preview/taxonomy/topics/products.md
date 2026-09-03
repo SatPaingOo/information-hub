@@ -1,7 +1,7 @@
 ---
 node: "products"
 layer: topic
-item_count: 13
+item_count: 15
 ---
 
 # products
@@ -15,6 +15,8 @@ item_count: 13
 
 ## Items
 
+- 2026-09-03 · [[2026-09-03-006-claude-fable-5-1]] — Claude Fable 5.1
+- 2026-09-03 · [[2026-09-03-007-hydradb-oss-the-fastest-cheapest-open-source-graph-database]] — HydraDB OSS: The Fastest, Cheapest Open‑Source Graph Database
 - 2026-09-02 · [[2026-09-02-006-sourclip-2-0]] — Sourclip 2.0
 - 2026-09-01 · [[2026-09-01-006-interactive-sessions]] — Interactive Sessions
 - 2026-08-31 · [[2026-08-31-006-maritime]] — Maritime

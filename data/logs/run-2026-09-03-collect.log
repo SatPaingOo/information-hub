@@ -1,0 +1,19 @@
+2026-09-03 04:17:10,959 INFO [world-news] published 2026-09-03-001 — Iranian attack on Saudi tanker killed two Filipino sailors, 
+2026-09-03 04:17:46,585 INFO [world-news] published 2026-09-03-002 — Protests in Spain against government's handling of Ceuta mig
+2026-09-03 04:18:08,053 INFO [world-news] published 2026-09-03-003 — EU and Nato vow to step up pressure on Russia after 'new esc
+2026-09-03 04:18:10,176 INFO [tech-news] nothing selected
+2026-09-03 04:18:46,596 INFO [politics] published 2026-09-03-004 — Burnham pressed on economy at first PMQs as borrowing costs 
+2026-09-03 04:19:04,774 INFO [politics] published 2026-09-03-005 — Reform up against 'complainants' society', Farage tells BBC
+2026-09-03 04:19:52,806 INFO [products] published 2026-09-03-006 — Claude Fable 5.1
+2026-09-03 04:19:57,089 INFO [products] published 2026-09-03-007 — HydraDB OSS: The Fastest, Cheapest Open‑Source Graph Databas
+2026-09-03 04:19:57,228 INFO collect done: 7 item(s) published — target 3/10, next run ≈ 2026-09-03T04:34:57+00:00 UTC
+2026-09-03 04:20:03,196 ERROR [world-news] generate error: HTTP 400: {"error":{"message":"Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":"{\"id\":\"info:item:world:global:2026-09-03-008\",\"key\":\"2026-09-03-008\",\"date\":\"2026-09-03\",\
+2026-09-03 04:20:10,291 ERROR [world-news] generate error: HTTP 400: {"error":{"message":"Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":"max completion tokens reached before generating a valid document"}}
+
+2026-09-03 04:20:16,293 WARNING [world-news] no collect provider for deep-dive
+2026-09-03 04:20:16,415 WARNING [world-news] no collect provider for deep-dive
+2026-09-03 04:20:16,534 WARNING [world-news] no collect provider for deep-dive
+2026-09-03 04:20:16,867 WARNING [tech-news] no collect provider available
+2026-09-03 04:20:17,088 WARNING [politics] no collect provider available
+2026-09-03 04:20:18,205 WARNING [products] no collect provider available
+2026-09-03 04:20:18,327 INFO collect done: 0 item(s) published — target 3/10, next run ≈ 2026-09-04T01:00:00+00:00 UTC

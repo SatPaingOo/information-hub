@@ -1,7 +1,7 @@
 ---
 name: "Anthropic"
 entity_type: company
-backlink_count: 17
+backlink_count: 18
 ---
 
 # Anthropic
@@ -10,6 +10,7 @@ backlink_count: 17
 
 ## Referenced by
 
+- 2026-09-03 · [[2026-09-03-006-claude-fable-5-1]] — Claude Fable 5.1
 - 2026-09-02 · [[2026-09-02-006-sourclip-2-0]] — Sourclip 2.0
 - 2026-09-01 · [[2026-09-01-006-interactive-sessions]] — Interactive Sessions
 - 2026-08-31 · [[2026-08-31-006-maritime]] — Maritime

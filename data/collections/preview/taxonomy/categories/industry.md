@@ -1,7 +1,7 @@
 ---
 node: "industry"
 layer: category
-item_count: 63
+item_count: 66
 ---
 
 # industry
@@ -19,6 +19,9 @@ item_count: 63
 
 ## Items
 
+- 2026-09-03 · [[2026-09-03-001-iranian-attack-on-saudi-tanker-killed-two-filipino-sailors]] — Iranian attack on Saudi tanker killed two Filipino sailors, Saudi Arabia says
+- 2026-09-03 · [[2026-09-03-002-protests-in-spain-against-government-s-handling-of-ceuta]] — Protests in Spain against government's handling of Ceuta migrant crisis
+- 2026-09-03 · [[2026-09-03-003-eu-and-nato-vow-to-step-up-pressure-on-russia-after-new]] — EU and Nato vow to step up pressure on Russia after 'new escalation' in Germany
 - 2026-09-02 · [[2026-09-02-001-iran-attacks-us-bases-in-middle-east-after-reports-us]] — Iran attacks US bases in Middle East after reports US strike killed five at wedding party
 - 2026-09-02 · [[2026-09-02-002-charlie-kirk-murder-suspect-pleads-not-guilty-as-judge]] — Charlie Kirk murder suspect pleads not guilty as judge clears way for death penalty trial
 - 2026-09-02 · [[2026-09-02-002-charlie-kirk-murder-suspect-pleads-not-guilty-as-judge]] — Charlie Kirk murder suspect pleads not guilty as judge clears way for death penalty trial

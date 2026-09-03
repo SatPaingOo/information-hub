@@ -1,7 +1,7 @@
 ---
 name: "Agentic AI"
 entity_type: concept
-backlink_count: 8
+backlink_count: 9
 ---
 
 # Agentic AI
@@ -10,6 +10,7 @@ backlink_count: 8
 
 ## Referenced by
 
+- 2026-09-03 · [[2026-09-03-007-hydradb-oss-the-fastest-cheapest-open-source-graph-database]] — HydraDB OSS: The Fastest, Cheapest Open‑Source Graph Database
 - 2026-08-29 · [[2026-08-29-007-god-s-eye-view-real-world-spy-satellite-simulation-in-the]] — God’s Eye View – Real‑World Spy Satellite Simulation in the Browser
 - 2026-08-28 · [[2026-08-28-004-pluto-your-professional-profile-becomes-an-ai-agent]] — Pluto: Your Professional Profile Becomes an AI Agent
 - 2026-08-28 · [[2026-08-28-005-gemini-3-5-transcribe]] — Gemini 3.5 Transcribe

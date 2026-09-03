@@ -1,7 +1,7 @@
 ---
 name: "Gemini"
 entity_type: model
-backlink_count: 13
+backlink_count: 15
 ---
 
 # Gemini
@@ -10,6 +10,8 @@ backlink_count: 13
 
 ## Referenced by
 
+- 2026-09-03 · [[2026-09-03-006-claude-fable-5-1]] — Claude Fable 5.1
+- 2026-09-03 · [[2026-09-03-007-hydradb-oss-the-fastest-cheapest-open-source-graph-database]] — HydraDB OSS: The Fastest, Cheapest Open‑Source Graph Database
 - 2026-09-02 · [[2026-09-02-004-chris-mason-will-burnham-find-pmqs-as-nail-biting-and]] — Chris Mason: Will Burnham find PMQs as 'nail biting' and 'nerve wracking' as Blair did?
 - 2026-09-02 · [[2026-09-02-006-sourclip-2-0]] — Sourclip 2.0
 - 2026-09-01 · [[2026-09-01-006-interactive-sessions]] — Interactive Sessions
