@@ -1,7 +1,7 @@
 ---
 node: "politics"
 layer: topic
-item_count: 29
+item_count: 32
 ---
 
 # politics
@@ -16,6 +16,9 @@ item_count: 29
 
 ## Items
 
+- 2026-09-04 · [[2026-09-04-004-farage-senior-aide-filmed-suggesting-way-to-avoid]] — Farage senior aide filmed suggesting way to avoid donations law
+- 2026-09-04 · [[2026-09-04-005-burnham-and-macron-agree-to-scale-up-action-on-small-boats]] — Burnham and Macron agree to scale up action on small boats
+- 2026-09-04 · [[2026-09-04-005-burnham-and-macron-agree-to-scale-up-action-on-small-boats]] — Burnham and Macron agree to scale up action on small boats
 - 2026-09-03 · [[2026-09-03-004-burnham-pressed-on-economy-at-first-pmqs-as-borrowing]] — Burnham pressed on economy at first PMQs as borrowing costs surge
 - 2026-09-03 · [[2026-09-03-005-reform-up-against-complainants-society-farage-tells-bbc]] — Reform up against 'complainants' society', Farage tells BBC
 - 2026-09-02 · [[2026-09-02-004-chris-mason-will-burnham-find-pmqs-as-nail-biting-and]] — Chris Mason: Will Burnham find PMQs as 'nail biting' and 'nerve wracking' as Blair did?

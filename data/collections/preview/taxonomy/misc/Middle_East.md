@@ -1,7 +1,7 @@
 ---
 node: "Middle East"
 layer: misc
-item_count: 3
+item_count: 4
 ---
 
 # Middle East
@@ -15,6 +15,7 @@ item_count: 3
 
 ## Items
 
+- 2026-09-04 · [[2026-09-04-002-us-investigating-if-missile-hit-iran-wedding-vance-says]] — US investigating if missile hit Iran wedding, Vance says
 - 2026-09-03 · [[2026-09-03-001-iranian-attack-on-saudi-tanker-killed-two-filipino-sailors]] — Iranian attack on Saudi tanker killed two Filipino sailors, Saudi Arabia says
 - 2026-09-02 · [[2026-09-02-001-iran-attacks-us-bases-in-middle-east-after-reports-us]] — Iran attacks US bases in Middle East after reports US strike killed five at wedding party
 - 2026-08-25 · [[2026-08-25-003-us-removes-syria-from-list-of-state-sponsors-of-terrorism]] — US removes Syria from list of state sponsors of terrorism

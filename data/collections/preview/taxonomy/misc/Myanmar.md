@@ -1,7 +1,7 @@
 ---
 node: "Myanmar"
 layer: misc
-item_count: 5
+item_count: 6
 ---
 
 # Myanmar
@@ -16,6 +16,7 @@ item_count: 5
 
 ## Items
 
+- 2026-09-04 · [[2026-09-04-006-grove]] — Grove
 - 2026-09-02 · [[2026-09-02-004-chris-mason-will-burnham-find-pmqs-as-nail-biting-and]] — Chris Mason: Will Burnham find PMQs as 'nail biting' and 'nerve wracking' as Blair did?
 - 2026-09-01 · [[2026-09-01-006-interactive-sessions]] — Interactive Sessions
 - 2026-08-31 · [[2026-08-31-002-us-and-iran-trade-strikes-for-first-time-in-weeks]] — US and Iran trade strikes for first time in weeks

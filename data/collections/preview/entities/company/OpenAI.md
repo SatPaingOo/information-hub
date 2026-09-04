@@ -1,7 +1,7 @@
 ---
 name: "OpenAI"
 entity_type: company
-backlink_count: 27
+backlink_count: 29
 ---
 
 # OpenAI
@@ -10,6 +10,8 @@ backlink_count: 27
 
 ## Referenced by
 
+- 2026-09-04 · [[2026-09-04-003-un-warns-of-supersized-el-ni-o-as-countries-prepare-for]] — UN warns of 'supersized' El Niño as countries prepare for impact
+- 2026-09-04 · [[2026-09-04-006-grove]] — Grove
 - 2026-09-03 · [[2026-09-03-006-claude-fable-5-1]] — Claude Fable 5.1
 - 2026-09-03 · [[2026-09-03-007-hydradb-oss-the-fastest-cheapest-open-source-graph-database]] — HydraDB OSS: The Fastest, Cheapest Open‑Source Graph Database
 - 2026-09-02 · [[2026-09-02-004-chris-mason-will-burnham-find-pmqs-as-nail-biting-and]] — Chris Mason: Will Burnham find PMQs as 'nail biting' and 'nerve wracking' as Blair did?

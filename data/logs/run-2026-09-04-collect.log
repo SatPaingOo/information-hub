@@ -1,0 +1,20 @@
+2026-09-04 01:19:51,139 INFO [world-news] published 2026-09-04-001 — Trump hints US would not back UK over Falkland Islands due t
+2026-09-04 01:22:23,243 INFO [world-news] published 2026-09-04-002 — US investigating if missile hit Iran wedding, Vance says
+2026-09-04 01:23:06,928 INFO [world-news] published 2026-09-04-003 — UN warns of 'supersized' El Niño as countries prepare for im
+2026-09-04 01:23:16,145 INFO [tech-news] nothing selected
+2026-09-04 01:23:47,881 INFO [politics] model returned no selection — using heuristic fallback (2)
+2026-09-04 01:24:41,598 INFO [politics] published 2026-09-04-004 — Farage senior aide filmed suggesting way to avoid donations 
+2026-09-04 01:25:23,191 INFO [politics] published 2026-09-04-005 — Burnham and Macron agree to scale up action on small boats
+2026-09-04 01:27:35,929 INFO [products] published 2026-09-04-006 — Grove
+2026-09-04 01:27:40,574 INFO [products] published 2026-09-04-007 — Agent Builder by Airtop – Self‑Healing Autonomous Agents for
+2026-09-04 01:27:40,725 INFO collect done: 7 item(s) published — target 3/10, next run ≈ 2026-09-04T01:42:40+00:00 UTC
+2026-09-04 01:27:43,252 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 4697, Requested 3351. Please try again in 360ms. Need more tokens? Upgrade to Dev Tier today at https://conso
+2026-09-04 01:27:49,136 ERROR [world-news] generate error: HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
+
+2026-09-04 01:27:55,138 WARNING [world-news] no collect provider for deep-dive
+2026-09-04 01:27:55,221 WARNING [world-news] no collect provider for deep-dive
+2026-09-04 01:27:55,301 WARNING [world-news] no collect provider for deep-dive
+2026-09-04 01:27:55,631 WARNING [tech-news] no collect provider available
+2026-09-04 01:27:55,966 WARNING [politics] no collect provider available
+2026-09-04 01:27:56,702 WARNING [products] no collect provider available
+2026-09-04 01:27:56,844 INFO collect done: 0 item(s) published — target 3/10, next run ≈ 2026-09-05T01:00:00+00:00 UTC

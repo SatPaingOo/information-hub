@@ -1,7 +1,7 @@
 ---
 node: "products"
 layer: topic
-item_count: 15
+item_count: 17
 ---
 
 # products
@@ -15,6 +15,8 @@ item_count: 15
 
 ## Items
 
+- 2026-09-04 · [[2026-09-04-006-grove]] — Grove
+- 2026-09-04 · [[2026-09-04-007-agent-builder-by-airtop-self-healing-autonomous-agents-for]] — Agent Builder by Airtop – Self‑Healing Autonomous Agents for the Enterprise
 - 2026-09-03 · [[2026-09-03-006-claude-fable-5-1]] — Claude Fable 5.1
 - 2026-09-03 · [[2026-09-03-007-hydradb-oss-the-fastest-cheapest-open-source-graph-database]] — HydraDB OSS: The Fastest, Cheapest Open‑Source Graph Database
 - 2026-09-02 · [[2026-09-02-006-sourclip-2-0]] — Sourclip 2.0

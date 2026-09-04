@@ -1,7 +1,7 @@
 ---
 name: "Keir Starmer"
 entity_type: person
-backlink_count: 4
+backlink_count: 5
 ---
 
 # Keir Starmer
@@ -10,6 +10,7 @@ backlink_count: 4
 
 ## Referenced by
 
+- 2026-09-04 · [[2026-09-04-001-trump-hints-us-would-not-back-uk-over-falkland-islands-due]] — Trump hints US would not back UK over Falkland Islands due to lack of Iran war support
 - 2026-09-02 · [[2026-09-02-004-chris-mason-will-burnham-find-pmqs-as-nail-biting-and]] — Chris Mason: Will Burnham find PMQs as 'nail biting' and 'nerve wracking' as Blair did?
 - 2026-09-01 · [[2026-09-01-004-burnham-to-promise-sense-of-optimism-in-first-commons]] — Burnham to promise 'sense of optimism' in first Commons statement as PM
 - 2026-08-30 · [[2026-08-30-005-burnham-s-summer-tour-is-over-now-he-has-to-prove-himself]] — Burnham's summer tour is over - now he has to prove himself in Parliament

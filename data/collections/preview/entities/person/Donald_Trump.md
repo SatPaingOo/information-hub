@@ -1,7 +1,7 @@
 ---
 name: "Donald Trump"
 entity_type: person
-backlink_count: 16
+backlink_count: 17
 ---
 
 # Donald Trump
@@ -10,6 +10,7 @@ backlink_count: 16
 
 ## Referenced by
 
+- 2026-09-04 · [[2026-09-04-001-trump-hints-us-would-not-back-uk-over-falkland-islands-due]] — Trump hints US would not back UK over Falkland Islands due to lack of Iran war support
 - 2026-09-03 · [[2026-09-03-001-iranian-attack-on-saudi-tanker-killed-two-filipino-sailors]] — Iranian attack on Saudi tanker killed two Filipino sailors, Saudi Arabia says
 - 2026-09-02 · [[2026-09-02-001-iran-attacks-us-bases-in-middle-east-after-reports-us]] — Iran attacks US bases in Middle East after reports US strike killed five at wedding party
 - 2026-09-01 · [[2026-09-01-003-us-army-secretary-resigns-after-months-of-tension]] — US army secretary resigns after months of tension

@@ -1,7 +1,7 @@
 ---
 node: "agentic AI"
 layer: misc
-item_count: 10
+item_count: 12
 ---
 
 # agentic AI
@@ -15,6 +15,8 @@ item_count: 10
 
 ## Items
 
+- 2026-09-04 · [[2026-09-04-006-grove]] — Grove
+- 2026-09-04 · [[2026-09-04-007-agent-builder-by-airtop-self-healing-autonomous-agents-for]] — Agent Builder by Airtop – Self‑Healing Autonomous Agents for the Enterprise
 - 2026-09-03 · [[2026-09-03-006-claude-fable-5-1]] — Claude Fable 5.1
 - 2026-09-02 · [[2026-09-02-006-sourclip-2-0]] — Sourclip 2.0
 - 2026-09-01 · [[2026-09-01-006-interactive-sessions]] — Interactive Sessions

@@ -1,7 +1,7 @@
 ---
 node: "world"
 layer: topic
-item_count: 60
+item_count: 63
 ---
 
 # world
@@ -17,6 +17,9 @@ item_count: 60
 
 ## Items
 
+- 2026-09-04 · [[2026-09-04-001-trump-hints-us-would-not-back-uk-over-falkland-islands-due]] — Trump hints US would not back UK over Falkland Islands due to lack of Iran war support
+- 2026-09-04 · [[2026-09-04-002-us-investigating-if-missile-hit-iran-wedding-vance-says]] — US investigating if missile hit Iran wedding, Vance says
+- 2026-09-04 · [[2026-09-04-003-un-warns-of-supersized-el-ni-o-as-countries-prepare-for]] — UN warns of 'supersized' El Niño as countries prepare for impact
 - 2026-09-03 · [[2026-09-03-001-iranian-attack-on-saudi-tanker-killed-two-filipino-sailors]] — Iranian attack on Saudi tanker killed two Filipino sailors, Saudi Arabia says
 - 2026-09-03 · [[2026-09-03-002-protests-in-spain-against-government-s-handling-of-ceuta]] — Protests in Spain against government's handling of Ceuta migrant crisis
 - 2026-09-03 · [[2026-09-03-003-eu-and-nato-vow-to-step-up-pressure-on-russia-after-new]] — EU and Nato vow to step up pressure on Russia after 'new escalation' in Germany

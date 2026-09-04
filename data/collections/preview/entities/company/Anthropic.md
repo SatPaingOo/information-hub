@@ -1,7 +1,7 @@
 ---
 name: "Anthropic"
 entity_type: company
-backlink_count: 18
+backlink_count: 20
 ---
 
 # Anthropic
@@ -10,6 +10,8 @@ backlink_count: 18
 
 ## Referenced by
 
+- 2026-09-04 · [[2026-09-04-003-un-warns-of-supersized-el-ni-o-as-countries-prepare-for]] — UN warns of 'supersized' El Niño as countries prepare for impact
+- 2026-09-04 · [[2026-09-04-006-grove]] — Grove
 - 2026-09-03 · [[2026-09-03-006-claude-fable-5-1]] — Claude Fable 5.1
 - 2026-09-02 · [[2026-09-02-006-sourclip-2-0]] — Sourclip 2.0
 - 2026-09-01 · [[2026-09-01-006-interactive-sessions]] — Interactive Sessions

@@ -1,7 +1,7 @@
 ---
 name: "Andy Burnham"
 entity_type: person
-backlink_count: 20
+backlink_count: 21
 ---
 
 # Andy Burnham
@@ -10,6 +10,7 @@ backlink_count: 20
 
 ## Referenced by
 
+- 2026-09-04 · [[2026-09-04-005-burnham-and-macron-agree-to-scale-up-action-on-small-boats]] — Burnham and Macron agree to scale up action on small boats
 - 2026-09-03 · [[2026-09-03-004-burnham-pressed-on-economy-at-first-pmqs-as-borrowing]] — Burnham pressed on economy at first PMQs as borrowing costs surge
 - 2026-09-02 · [[2026-09-02-004-chris-mason-will-burnham-find-pmqs-as-nail-biting-and]] — Chris Mason: Will Burnham find PMQs as 'nail biting' and 'nerve wracking' as Blair did?
 - 2026-09-02 · [[2026-09-02-005-burnham-promises-more-devolution-and-public-control-of]] — Burnham promises more devolution and public control of essential services
