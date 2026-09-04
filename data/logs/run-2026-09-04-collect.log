@@ -18,3 +18,11 @@
 2026-09-04 01:27:55,966 WARNING [politics] no collect provider available
 2026-09-04 01:27:56,702 WARNING [products] no collect provider available
 2026-09-04 01:27:56,844 INFO collect done: 0 item(s) published — target 3/10, next run ≈ 2026-09-05T01:00:00+00:00 UTC
+2026-09-04 05:41:56,915 INFO [world-news] published 2026-09-04-008 — Nepal Says It Will Need Billions in Funding to Rebuild After
+2026-09-04 05:41:57,219 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 4776, Requested 3861. Please try again in 4.7775s. Need more tokens? Upgrade to Dev Tier today at https://con
+2026-09-04 05:42:00,221 WARNING [world-news] no collect provider for deep-dive
+2026-09-04 05:42:00,342 WARNING [world-news] no collect provider for deep-dive
+2026-09-04 05:42:01,053 WARNING [tech-news] no collect provider available
+2026-09-04 05:42:01,744 WARNING [politics] no collect provider available
+2026-09-04 05:42:03,038 WARNING [products] no collect provider available
+2026-09-04 05:42:03,179 INFO collect done: 1 item(s) published — target 2/10, next run ≈ 2026-09-05T01:00:00+00:00 UTC

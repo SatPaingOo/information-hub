@@ -2886,6 +2886,22 @@
       "name": "Self‑healing loop"
     },
     {
+      "id": "info:item:world:global:2026-09-04-008",
+      "type": "item",
+      "date": "2026-09-04",
+      "title": "Nepal Says It Will Need Billions in Funding to Rebuild After Flash Floods"
+    },
+    {
+      "id": "info:entity:organization:World Meteorological Organization",
+      "type": "organization",
+      "name": "World Meteorological Organization"
+    },
+    {
+      "id": "info:entity:organization:Green Climate Fund",
+      "type": "organization",
+      "name": "Green Climate Fund"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -10486,6 +10502,66 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-09-04-008",
+      "target": "info:entity:organization:United Nations Office for the Coordination of Humanitarian Affairs",
+      "relation": "coordinating emergency response"
+    },
+    {
+      "source": "info:item:world:global:2026-09-04-008",
+      "target": "info:entity:organization:World Meteorological Organization",
+      "relation": "providing climate data and forecasts"
+    },
+    {
+      "source": "info:item:world:global:2026-09-04-008",
+      "target": "info:entity:concept:Glacial Lake Outburst Flood (GLOF)",
+      "relation": "primary natural trigger of the disaster"
+    },
+    {
+      "source": "info:item:world:global:2026-09-04-008",
+      "target": "info:entity:organization:Green Climate Fund",
+      "relation": "potential source of climate‑finance"
+    },
+    {
+      "source": "info:item:world:global:2026-09-04-008",
+      "target": "info:item:world:global:2026-09-04-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-04-008",
+      "target": "info:item:world:global:2026-09-04-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-04-008",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-04-008",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-04-008",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-04-008",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-04-008",
+      "target": "taxonomy/misc/climate change",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-04-008",
+      "target": "taxonomy/misc/disaster management",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -11485,7 +11561,19 @@
     },
     {
       "source": "info:entity:concept:Glacial Lake Outburst Flood (GLOF)",
+      "target": "info:entity:organization:Green Climate Fund",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Glacial Lake Outburst Flood (GLOF)",
       "target": "info:entity:organization:United Nations Office for the Coordination of Humanitarian Affairs",
+      "relation": "co-occurs",
+      "weight": "2"
+    },
+    {
+      "source": "info:entity:concept:Glacial Lake Outburst Flood (GLOF)",
+      "target": "info:entity:organization:World Meteorological Organization",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -12492,6 +12580,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Green Climate Fund",
+      "target": "info:entity:organization:United Nations Office for the Coordination of Humanitarian Affairs",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Green Climate Fund",
+      "target": "info:entity:organization:World Meteorological Organization",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Hayat Tahrir al-Sham (HTS)",
       "target": "info:entity:organization:Syrian Government",
       "relation": "co-occurs",
@@ -13316,6 +13416,12 @@
     {
       "source": "info:entity:organization:United Nations",
       "target": "info:entity:person:Ratko Mladić",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:United Nations Office for the Coordination of Humanitarian Affairs",
+      "target": "info:entity:organization:World Meteorological Organization",
       "relation": "co-occurs",
       "weight": "1"
     },

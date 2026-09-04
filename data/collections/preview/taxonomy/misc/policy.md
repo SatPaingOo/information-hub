@@ -1,7 +1,7 @@
 ---
 node: "policy"
 layer: misc
-item_count: 120
+item_count: 121
 ---
 
 # policy
@@ -24,6 +24,7 @@ item_count: 120
 - 2026-09-04 · [[2026-09-04-004-farage-senior-aide-filmed-suggesting-way-to-avoid]] — Farage senior aide filmed suggesting way to avoid donations law
 - 2026-09-04 · [[2026-09-04-005-burnham-and-macron-agree-to-scale-up-action-on-small-boats]] — Burnham and Macron agree to scale up action on small boats
 - 2026-09-04 · [[2026-09-04-005-burnham-and-macron-agree-to-scale-up-action-on-small-boats]] — Burnham and Macron agree to scale up action on small boats
+- 2026-09-04 · [[2026-09-04-008-nepal-says-it-will-need-billions-in-funding-to-rebuild]] — Nepal Says It Will Need Billions in Funding to Rebuild After Flash Floods
 - 2026-09-03 · [[2026-09-03-001-iranian-attack-on-saudi-tanker-killed-two-filipino-sailors]] — Iranian attack on Saudi tanker killed two Filipino sailors, Saudi Arabia says
 - 2026-09-03 · [[2026-09-03-002-protests-in-spain-against-government-s-handling-of-ceuta]] — Protests in Spain against government's handling of Ceuta migrant crisis
 - 2026-09-03 · [[2026-09-03-003-eu-and-nato-vow-to-step-up-pressure-on-russia-after-new]] — EU and Nato vow to step up pressure on Russia after 'new escalation' in Germany
