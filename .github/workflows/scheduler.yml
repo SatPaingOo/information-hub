@@ -5,7 +5,7 @@ on:
     # DYNAMIC — rewritten by the scheduler to the exact next-run time when a
     # BOT_PAT secret is set.  Never edit this line by hand; the scheduler
     # anchors on the "# DYNAMIC" marker so the entries below are untouched.
-    - cron: "0 1 5 9 *"
+    - cron: "0 1 6 9 *"
     # HEARTBEAT — every 15 min, offset OFF the quarter-hour marks.  NEVER
     # REWRITTEN.  Each fire checks data/state/schedule.json and runs whichever
     # phase is due; this is the driver that keeps collecting until the daily
