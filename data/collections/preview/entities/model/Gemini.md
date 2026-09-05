@@ -1,7 +1,7 @@
 ---
 name: "Gemini"
 entity_type: model
-backlink_count: 17
+backlink_count: 18
 ---
 
 # Gemini
@@ -10,6 +10,7 @@ backlink_count: 17
 
 ## Referenced by
 
+- 2026-09-05 · [[2026-09-05-001-mistrial-declared-in-lindsay-clancy-murder-case-after-jury]] — Mistrial declared in Lindsay Clancy murder case, after jury deadlocks
 - 2026-09-04 · [[2026-09-04-003-un-warns-of-supersized-el-ni-o-as-countries-prepare-for]] — UN warns of 'supersized' El Niño as countries prepare for impact
 - 2026-09-04 · [[2026-09-04-006-grove]] — Grove
 - 2026-09-03 · [[2026-09-03-006-claude-fable-5-1]] — Claude Fable 5.1

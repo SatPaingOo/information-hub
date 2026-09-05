@@ -1,0 +1,21 @@
+2026-09-05 04:16:09,101 INFO [world-news] model returned no selection — using heuristic fallback (3)
+2026-09-05 04:17:17,540 INFO [world-news] published 2026-09-05-001 — Mistrial declared in Lindsay Clancy murder case, after jury 
+2026-09-05 04:18:02,034 INFO [world-news] published 2026-09-05-002 — Trump's peace envoys to visit Moscow and Kyiv over weekend
+2026-09-05 04:18:39,602 INFO [world-news] published 2026-09-05-003 — Europe targeted by spiralling campaign of sabotage - and Rus
+2026-09-05 04:18:47,799 INFO [tech-news] nothing selected
+2026-09-05 04:20:00,069 INFO [politics] published 2026-09-05-004 — Farage threatens to overhaul Lords and judges to meet his pl
+2026-09-05 04:20:45,529 INFO [politics] published 2026-09-05-005 — Farage unveils small boats deal with French National Rally p
+2026-09-05 04:21:42,069 INFO [products] published 2026-09-05-006 — Clockwork
+2026-09-05 04:21:46,743 ERROR [products] generate error: HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
+
+2026-09-05 04:21:52,106 INFO [products] attempt 2 invalid: [": 'tags' is a required property", ": 'related_items' is a required property"]
+2026-09-05 04:21:54,437 INFO [products] attempt 3 invalid: [": 'title' is a required property", ": 'tldr' is a required property"]
+2026-09-05 04:21:54,590 INFO collect done: 6 item(s) published — target 4/10, next run ≈ 2026-09-05T04:36:54+00:00 UTC
+2026-09-05 04:21:56,672 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6982, Requested 3635. Please try again in 19.6275s. Need more tokens? Upgrade to Dev Tier today at https://con
+2026-09-05 04:21:59,674 WARNING [world-news] no collect provider for deep-dive
+2026-09-05 04:21:59,753 WARNING [world-news] no collect provider for deep-dive
+2026-09-05 04:21:59,831 WARNING [world-news] no collect provider for deep-dive
+2026-09-05 04:22:00,309 WARNING [tech-news] no collect provider available
+2026-09-05 04:22:00,662 WARNING [politics] no collect provider available
+2026-09-05 04:22:01,402 WARNING [products] no collect provider available
+2026-09-05 04:22:01,545 INFO collect done: 0 item(s) published — target 4/10, next run ≈ 2026-09-06T01:00:00+00:00 UTC

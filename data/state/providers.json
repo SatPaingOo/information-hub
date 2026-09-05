@@ -1,11 +1,11 @@
 {
   "groq": {
     "quota_date": "2026-09-05",
-    "tokens_used": 0,
-    "items": 0,
-    "calls": 0,
-    "errors": 0,
-    "cooldown_until": null,
+    "tokens_used": 10198,
+    "items": 2,
+    "calls": 3,
+    "errors": 2,
+    "cooldown_until": "2026-09-05T04:22:26+00:00",
     "models": {
       "llama-3.3-70b-versatile": {
         "calls": 0,
@@ -32,32 +32,32 @@
       "openai/gpt-oss-120b": {
         "calls": 95,
         "items": 36,
-        "errors": 55,
+        "errors": 56,
         "consecutive_failures": 1,
         "healthy": false,
-        "last_health_check": "2026-09-04T11:18:50+00:00",
+        "last_health_check": "2026-09-05T04:21:46+00:00",
         "latency_ms": 907,
         "supports_json": true,
         "cooldown_until": null
       },
       "openai/gpt-oss-20b": {
-        "calls": 19,
-        "items": 7,
-        "errors": 23,
+        "calls": 22,
+        "items": 9,
+        "errors": 24,
         "consecutive_failures": 1,
-        "healthy": false,
-        "last_health_check": "2026-09-04T01:27:49+00:00",
-        "latency_ms": 2480,
+        "healthy": true,
+        "last_health_check": "2026-09-05T04:21:56+00:00",
+        "latency_ms": 810,
         "supports_json": true,
-        "cooldown_until": null
+        "cooldown_until": "2026-09-05T04:22:26+00:00"
       }
     }
   },
   "openrouter": {
     "quota_date": "2026-09-05",
-    "tokens_used": 0,
-    "items": 0,
-    "calls": 0,
+    "tokens_used": 38713,
+    "items": 6,
+    "calls": 10,
     "errors": 0,
     "cooldown_until": null,
     "models": {
@@ -172,13 +172,13 @@
         "cooldown_until": null
       },
       "cohere/north-mini-code:free": {
-        "calls": 103,
-        "items": 63,
+        "calls": 113,
+        "items": 69,
         "errors": 3,
         "consecutive_failures": 0,
         "healthy": true,
-        "last_health_check": "2026-09-04T01:27:35+00:00",
-        "latency_ms": 80269,
+        "last_health_check": "2026-09-05T04:21:42+00:00",
+        "latency_ms": 35279,
         "supports_json": false,
         "cooldown_until": null
       },
@@ -346,6 +346,17 @@
         "latency_ms": null,
         "supports_json": false,
         "cooldown_until": null
+      },
+      "inclusionai/ling-3.0-flash-sante:free": {
+        "calls": 0,
+        "items": 0,
+        "errors": 0,
+        "consecutive_failures": 0,
+        "healthy": true,
+        "last_health_check": null,
+        "latency_ms": null,
+        "supports_json": false,
+        "cooldown_until": null
       }
     }
   },
@@ -361,8 +372,8 @@
         "calls": 0,
         "items": 0,
         "errors": 30,
-        "consecutive_failures": 3,
-        "healthy": false,
+        "consecutive_failures": 0,
+        "healthy": true,
         "last_health_check": "2026-09-04T06:05:19+00:00",
         "latency_ms": null,
         "supports_json": true,
@@ -372,8 +383,8 @@
         "calls": 0,
         "items": 0,
         "errors": 30,
-        "consecutive_failures": 3,
-        "healthy": false,
+        "consecutive_failures": 0,
+        "healthy": true,
         "last_health_check": "2026-09-04T06:05:22+00:00",
         "latency_ms": null,
         "supports_json": true,

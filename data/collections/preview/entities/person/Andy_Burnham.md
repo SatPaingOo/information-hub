@@ -1,7 +1,7 @@
 ---
 name: "Andy Burnham"
 entity_type: person
-backlink_count: 21
+backlink_count: 22
 ---
 
 # Andy Burnham
@@ -10,6 +10,7 @@ backlink_count: 21
 
 ## Referenced by
 
+- 2026-09-05 · [[2026-09-05-004-farage-threatens-to-overhaul-lords-and-judges-to-meet-his]] — Farage threatens to overhaul Lords and judges to meet his pledges
 - 2026-09-04 · [[2026-09-04-005-burnham-and-macron-agree-to-scale-up-action-on-small-boats]] — Burnham and Macron agree to scale up action on small boats
 - 2026-09-03 · [[2026-09-03-004-burnham-pressed-on-economy-at-first-pmqs-as-borrowing]] — Burnham pressed on economy at first PMQs as borrowing costs surge
 - 2026-09-02 · [[2026-09-02-004-chris-mason-will-burnham-find-pmqs-as-nail-biting-and]] — Chris Mason: Will Burnham find PMQs as 'nail biting' and 'nerve wracking' as Blair did?

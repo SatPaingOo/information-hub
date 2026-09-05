@@ -1,7 +1,7 @@
 ---
 node: "global"
 layer: misc
-item_count: 140
+item_count: 148
 ---
 
 # global
@@ -24,6 +24,14 @@ item_count: 140
 
 ## Items
 
+- 2026-09-05 · [[2026-09-05-001-mistrial-declared-in-lindsay-clancy-murder-case-after-jury]] — Mistrial declared in Lindsay Clancy murder case, after jury deadlocks
+- 2026-09-05 · [[2026-09-05-002-trump-s-peace-envoys-to-visit-moscow-and-kyiv-over-weekend]] — Trump's peace envoys to visit Moscow and Kyiv over weekend
+- 2026-09-05 · [[2026-09-05-003-europe-targeted-by-spiralling-campaign-of-sabotage-and]] — Europe targeted by spiralling campaign of sabotage - and Russia is the chief suspect
+- 2026-09-05 · [[2026-09-05-004-farage-threatens-to-overhaul-lords-and-judges-to-meet-his]] — Farage threatens to overhaul Lords and judges to meet his pledges
+- 2026-09-05 · [[2026-09-05-005-farage-unveils-small-boats-deal-with-french-national-rally]] — Farage unveils small boats deal with French National Rally party
+- 2026-09-05 · [[2026-09-05-005-farage-unveils-small-boats-deal-with-french-national-rally]] — Farage unveils small boats deal with French National Rally party
+- 2026-09-05 · [[2026-09-05-006-clockwork]] — Clockwork
+- 2026-09-05 · [[2026-09-05-006-clockwork]] — Clockwork
 - 2026-09-04 · [[2026-09-04-001-trump-hints-us-would-not-back-uk-over-falkland-islands-due]] — Trump hints US would not back UK over Falkland Islands due to lack of Iran war support
 - 2026-09-04 · [[2026-09-04-002-us-investigating-if-missile-hit-iran-wedding-vance-says]] — US investigating if missile hit Iran wedding, Vance says
 - 2026-09-04 · [[2026-09-04-003-un-warns-of-supersized-el-ni-o-as-countries-prepare-for]] — UN warns of 'supersized' El Niño as countries prepare for impact

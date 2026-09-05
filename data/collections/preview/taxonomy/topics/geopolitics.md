@@ -1,7 +1,7 @@
 ---
 node: "geopolitics"
 layer: topic
-item_count: 24
+item_count: 27
 ---
 
 # geopolitics
@@ -24,6 +24,9 @@ item_count: 24
 
 ## Items
 
+- 2026-09-05 · [[2026-09-05-003-europe-targeted-by-spiralling-campaign-of-sabotage-and]] — Europe targeted by spiralling campaign of sabotage - and Russia is the chief suspect
+- 2026-09-05 · [[2026-09-05-004-farage-threatens-to-overhaul-lords-and-judges-to-meet-his]] — Farage threatens to overhaul Lords and judges to meet his pledges
+- 2026-09-05 · [[2026-09-05-005-farage-unveils-small-boats-deal-with-french-national-rally]] — Farage unveils small boats deal with French National Rally party
 - 2026-09-02 · [[2026-09-02-003-tiger-woods-to-change-plea-after-crash-arrest]] — Tiger Woods to change plea after crash arrest
 - 2026-09-01 · [[2026-09-01-001-what-it-was-like-inside-court-for-tupac-shakur-s-murder]] — What it was like inside court for Tupac Shakur’s murder trial verdict
 - 2026-09-01 · [[2026-09-01-003-us-army-secretary-resigns-after-months-of-tension]] — US army secretary resigns after months of tension

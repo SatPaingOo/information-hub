@@ -2902,6 +2902,112 @@
       "name": "Green Climate Fund"
     },
     {
+      "id": "info:item:world:global:2026-09-05-001",
+      "type": "item",
+      "date": "2026-09-05",
+      "title": "Mistrial declared in Lindsay Clancy murder case, after jury deadlocks"
+    },
+    {
+      "id": "info:entity:person:Lindsay Clancy",
+      "type": "person",
+      "name": "Lindsay Clancy"
+    },
+    {
+      "id": "info:entity:person:Judge Sullivan",
+      "type": "person",
+      "name": "Judge Sullivan"
+    },
+    {
+      "id": "info:entity:person:Kevin Reddington",
+      "type": "person",
+      "name": "Kevin Reddington"
+    },
+    {
+      "id": "info:entity:concept:postpartum psychosis",
+      "type": "concept",
+      "name": "postpartum psychosis"
+    },
+    {
+      "id": "taxonomy/misc/Maternal mental health",
+      "type": "taxonomy",
+      "name": "Maternal mental health"
+    },
+    {
+      "id": "taxonomy/misc/Legal precedent",
+      "type": "taxonomy",
+      "name": "Legal precedent"
+    },
+    {
+      "id": "taxonomy/misc/AI in journalism",
+      "type": "taxonomy",
+      "name": "AI in journalism"
+    },
+    {
+      "id": "info:item:world:global:2026-09-05-002",
+      "type": "item",
+      "date": "2026-09-05",
+      "title": "Trump's peace envoys to visit Moscow and Kyiv over weekend"
+    },
+    {
+      "id": "info:entity:person:Steve Witkoff",
+      "type": "person",
+      "name": "Steve Witkoff"
+    },
+    {
+      "id": "info:entity:person:Jared Kushner",
+      "type": "person",
+      "name": "Jared Kushner"
+    },
+    {
+      "id": "info:item:world:global:2026-09-05-003",
+      "type": "item",
+      "date": "2026-09-05",
+      "title": "Europe targeted by spiralling campaign of sabotage - and Russia is the chief suspect"
+    },
+    {
+      "id": "info:item:politics:global:2026-09-05-004",
+      "type": "item",
+      "date": "2026-09-05",
+      "title": "Farage threatens to overhaul Lords and judges to meet his pledges"
+    },
+    {
+      "id": "info:entity:organization:House of Lords",
+      "type": "organization",
+      "name": "House of Lords"
+    },
+    {
+      "id": "taxonomy/misc/UK constitutional reform",
+      "type": "taxonomy",
+      "name": "UK constitutional reform"
+    },
+    {
+      "id": "info:item:politics:global:2026-09-05-005",
+      "type": "item",
+      "date": "2026-09-05",
+      "title": "Farage unveils small boats deal with French National Rally party"
+    },
+    {
+      "id": "info:entity:person:Jordan Bardella",
+      "type": "person",
+      "name": "Jordan Bardella"
+    },
+    {
+      "id": "info:entity:organization:National Rally (RN)",
+      "type": "organization",
+      "name": "National Rally (RN)"
+    },
+    {
+      "id": "info:item:products:global:2026-09-05-006",
+      "type": "item",
+      "date": "2026-09-05",
+      "title": "Clockwork"
+    },
+    {
+      "id": "info:entity:product:Clockwork",
+      "type": "product",
+      "name": "Clockwork"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -10562,6 +10668,396 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-09-05-001",
+      "target": "info:entity:person:Lindsay Clancy",
+      "relation": "defendant in murder trial"
+    },
+    {
+      "source": "info:item:world:global:2026-09-05-001",
+      "target": "info:entity:person:Judge Sullivan",
+      "relation": "presiding judge who declared mistrial"
+    },
+    {
+      "source": "info:item:world:global:2026-09-05-001",
+      "target": "info:entity:person:Kevin Reddington",
+      "relation": "lead defense attorney"
+    },
+    {
+      "source": "info:item:world:global:2026-09-05-001",
+      "target": "info:entity:organization:OpenAI",
+      "relation": "AI model used by news outlets for legal summarization"
+    },
+    {
+      "source": "info:item:world:global:2026-09-05-001",
+      "target": "info:entity:model:Gemini",
+      "relation": "LLM employed in courtroom reporting analytics"
+    },
+    {
+      "source": "info:item:world:global:2026-09-05-001",
+      "target": "info:entity:concept:postpartum psychosis",
+      "relation": "legal defense argument"
+    },
+    {
+      "source": "info:item:world:global:2026-09-05-001",
+      "target": "info:item:world:global:2026-09-04-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-05-001",
+      "target": "info:item:world:global:2026-09-04-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-05-001",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-05-001",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-05-001",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-05-001",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-05-001",
+      "target": "taxonomy/misc/Maternal mental health",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-05-001",
+      "target": "taxonomy/misc/Legal precedent",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-05-001",
+      "target": "taxonomy/misc/AI in journalism",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-05-002",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "U.S. President directing peace effort"
+    },
+    {
+      "source": "info:item:world:global:2026-09-05-002",
+      "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "President of Ukraine confirming meeting"
+    },
+    {
+      "source": "info:item:world:global:2026-09-05-002",
+      "target": "info:entity:person:Vladimir Putin",
+      "relation": "President of Russia setting maximalist demands"
+    },
+    {
+      "source": "info:item:world:global:2026-09-05-002",
+      "target": "info:entity:person:Steve Witkoff",
+      "relation": "U.S. negotiator leading peace talks"
+    },
+    {
+      "source": "info:item:world:global:2026-09-05-002",
+      "target": "info:entity:person:Jared Kushner",
+      "relation": "U.S. negotiator participating in peace talks"
+    },
+    {
+      "source": "info:item:world:global:2026-09-05-002",
+      "target": "info:item:world:global:2026-09-05-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-05-002",
+      "target": "info:item:world:global:2026-09-04-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-05-002",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-05-002",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-05-002",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-05-002",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-05-002",
+      "target": "taxonomy/misc/Geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-05-002",
+      "target": "taxonomy/misc/International Relations",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-05-002",
+      "target": "taxonomy/misc/Policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-05-003",
+      "target": "info:entity:person:Vladimir Putin",
+      "relation": "President of Russia, accused by European governments of orchestrating the sabotage campaign"
+    },
+    {
+      "source": "info:item:world:global:2026-09-05-003",
+      "target": "info:entity:organization:NATO",
+      "relation": "Primary security alliance whose members are targeted and whose defensive posture is being tested"
+    },
+    {
+      "source": "info:item:world:global:2026-09-05-003",
+      "target": "info:entity:organization:European Union",
+      "relation": "Collectively responding to the series of attacks through policy and security measures"
+    },
+    {
+      "source": "info:item:world:global:2026-09-05-003",
+      "target": "info:entity:event:Russian invasion of Ukraine",
+      "relation": "Underlying conflict driving Moscow’s strategic calculations in the sabotage campaign"
+    },
+    {
+      "source": "info:item:world:global:2026-09-05-003",
+      "target": "info:item:world:global:2026-09-05-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-05-003",
+      "target": "info:item:world:global:2026-09-05-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-05-003",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-05-003",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-05-003",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-05-003",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-05-003",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-05-003",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-05-003",
+      "target": "taxonomy/category/industry",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-05-004",
+      "target": "info:entity:person:Nigel Farage",
+      "relation": "leader of Reform UK and primary speaker outlining radical reforms"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-05-004",
+      "target": "info:entity:organization:Reform UK",
+      "relation": "political party proposing constitutional and judicial changes"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-05-004",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "Labour Party leader and rival in the upcoming election"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-05-004",
+      "target": "info:entity:organization:House of Lords",
+      "relation": "UK upper chamber threatened with mass appointments"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-05-004",
+      "target": "info:item:politics:global:2026-09-04-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-05-004",
+      "target": "info:item:politics:global:2026-09-04-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-05-004",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-05-004",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-05-004",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-05-004",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-05-004",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-05-004",
+      "target": "taxonomy/misc/UK constitutional reform",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-05-005",
+      "target": "info:entity:person:Nigel Farage",
+      "relation": "lead negotiator for Reform UK"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-05-005",
+      "target": "info:entity:person:Jordan Bardella",
+      "relation": "president of France's National Rally"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-05-005",
+      "target": "info:entity:organization:Reform UK",
+      "relation": "political party proposing the naval interception plan"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-05-005",
+      "target": "info:entity:organization:National Rally (RN)",
+      "relation": "French far‑right party signing the memorandum"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-05-005",
+      "target": "info:item:politics:global:2026-09-05-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-05-005",
+      "target": "info:item:politics:global:2026-09-04-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-05-005",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-05-005",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-05-005",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-05-005",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-05-005",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-05-005",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-09-05-006",
+      "target": "info:entity:product:Clockwork",
+      "relation": "core product offering"
+    },
+    {
+      "source": "info:item:products:global:2026-09-05-006",
+      "target": "info:entity:company:OpenAI",
+      "relation": "LLM provider integrated with Clockwork"
+    },
+    {
+      "source": "info:item:products:global:2026-09-05-006",
+      "target": "info:entity:company:Anthropic",
+      "relation": "LLM provider integrated with Clockwork"
+    },
+    {
+      "source": "info:item:products:global:2026-09-05-006",
+      "target": "info:entity:concept:Agentic AI",
+      "relation": "technology underlying Clockwork"
+    },
+    {
+      "source": "info:item:products:global:2026-09-05-006",
+      "target": "info:item:products:global:2026-09-04-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-09-05-006",
+      "target": "info:item:products:global:2026-09-04-007",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-09-05-006",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-09-05-006",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-09-05-006",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-09-05-006",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-09-05-006",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-09-05-006",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -10723,7 +11219,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
-      "weight": "18"
+      "weight": "19"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -10735,7 +11231,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:concept:Agentic AI",
       "relation": "co-occurs",
-      "weight": "4"
+      "weight": "5"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -10824,6 +11320,12 @@
     {
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:product:Checksum AI",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:product:Clockwork",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -11041,7 +11543,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:concept:Agentic AI",
       "relation": "co-occurs",
-      "weight": "6"
+      "weight": "7"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -11148,6 +11650,12 @@
     {
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:product:Checksum AI",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:product:Clockwork",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -11370,6 +11878,12 @@
     {
       "source": "info:entity:concept:Agentic AI",
       "target": "info:entity:person:Andy Burnham",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Agentic AI",
+      "target": "info:entity:product:Clockwork",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -11716,6 +12230,36 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:concept:postpartum psychosis",
+      "target": "info:entity:model:Gemini",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:postpartum psychosis",
+      "target": "info:entity:organization:OpenAI",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:postpartum psychosis",
+      "target": "info:entity:person:Judge Sullivan",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:postpartum psychosis",
+      "target": "info:entity:person:Kevin Reddington",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:postpartum psychosis",
+      "target": "info:entity:person:Lindsay Clancy",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:event:2017 Guinea landslide",
       "target": "info:entity:organization:BBC News",
       "relation": "co-occurs",
@@ -11765,6 +12309,18 @@
     },
     {
       "source": "info:entity:event:Russian invasion of Ukraine",
+      "target": "info:entity:organization:European Union",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:event:Russian invasion of Ukraine",
+      "target": "info:entity:organization:NATO",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:event:Russian invasion of Ukraine",
       "target": "info:entity:organization:Ukrainian Government",
       "relation": "co-occurs",
       "weight": "1"
@@ -11772,6 +12328,12 @@
     {
       "source": "info:entity:event:Russian invasion of Ukraine",
       "target": "info:entity:person:Mykhailo Fedorov",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:event:Russian invasion of Ukraine",
+      "target": "info:entity:person:Vladimir Putin",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -11863,7 +12425,7 @@
       "source": "info:entity:model:Gemini",
       "target": "info:entity:organization:OpenAI",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:model:Gemini",
@@ -11885,7 +12447,25 @@
     },
     {
       "source": "info:entity:model:Gemini",
+      "target": "info:entity:person:Judge Sullivan",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
       "target": "info:entity:person:Keir Starmer",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
+      "target": "info:entity:person:Kevin Reddington",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
+      "target": "info:entity:person:Lindsay Clancy",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -12463,7 +13043,7 @@
       "source": "info:entity:organization:European Union",
       "target": "info:entity:organization:NATO",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:organization:European Union",
@@ -12528,6 +13108,12 @@
     {
       "source": "info:entity:organization:European Union",
       "target": "info:entity:person:Ursula von der Leyen",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:European Union",
+      "target": "info:entity:person:Vladimir Putin",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -12642,6 +13228,24 @@
     {
       "source": "info:entity:organization:Hong Kong Alliance (HKA)",
       "target": "info:entity:person:Lee Cheuk‑yan",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:House of Lords",
+      "target": "info:entity:organization:Reform UK",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:House of Lords",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:House of Lords",
+      "target": "info:entity:person:Nigel Farage",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -12880,6 +13484,12 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:NATO",
+      "target": "info:entity:person:Vladimir Putin",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:National Economic Council",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
@@ -12924,6 +13534,24 @@
     {
       "source": "info:entity:organization:National Housing Federation",
       "target": "info:entity:person:Angela Rayner",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:National Rally (RN)",
+      "target": "info:entity:organization:Reform UK",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:National Rally (RN)",
+      "target": "info:entity:person:Jordan Bardella",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:National Rally (RN)",
+      "target": "info:entity:person:Nigel Farage",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -13001,6 +13629,24 @@
     },
     {
       "source": "info:entity:organization:OpenAI",
+      "target": "info:entity:person:Judge Sullivan",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:OpenAI",
+      "target": "info:entity:person:Kevin Reddington",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:OpenAI",
+      "target": "info:entity:person:Lindsay Clancy",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:OpenAI",
       "target": "info:entity:product:AI data centers",
       "relation": "co-occurs",
       "weight": "1"
@@ -13045,7 +13691,7 @@
       "source": "info:entity:organization:Reform UK",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Reform UK",
@@ -13079,6 +13725,12 @@
     },
     {
       "source": "info:entity:organization:Reform UK",
+      "target": "info:entity:person:Jordan Bardella",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Reform UK",
       "target": "info:entity:person:Keir Starmer",
       "relation": "co-occurs",
       "weight": "1"
@@ -13093,7 +13745,7 @@
       "source": "info:entity:organization:Reform UK",
       "target": "info:entity:person:Nigel Farage",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "4"
     },
     {
       "source": "info:entity:organization:Reform UK",
@@ -13631,6 +14283,12 @@
     },
     {
       "source": "info:entity:person:Andy Burnham",
+      "target": "info:entity:person:Nigel Farage",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Andy Burnham",
       "target": "info:entity:person:PC Andrew Harper",
       "relation": "co-occurs",
       "weight": "1"
@@ -13967,6 +14625,12 @@
     },
     {
       "source": "info:entity:person:Donald Trump",
+      "target": "info:entity:person:Jared Kushner",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:Javier Milei",
       "relation": "co-occurs",
       "weight": "1"
@@ -14004,6 +14668,24 @@
     {
       "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:Pete Hegseth",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Donald Trump",
+      "target": "info:entity:person:Steve Witkoff",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Donald Trump",
+      "target": "info:entity:person:Vladimir Putin",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Donald Trump",
+      "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -14164,6 +14846,24 @@
       "weight": "2"
     },
     {
+      "source": "info:entity:person:Jared Kushner",
+      "target": "info:entity:person:Steve Witkoff",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Jared Kushner",
+      "target": "info:entity:person:Vladimir Putin",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Jared Kushner",
+      "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:person:Javier Milei",
       "target": "info:entity:person:Keir Starmer",
       "relation": "co-occurs",
@@ -14218,6 +14918,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:person:Jordan Bardella",
+      "target": "info:entity:person:Nigel Farage",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Judge Sullivan",
+      "target": "info:entity:person:Kevin Reddington",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Judge Sullivan",
+      "target": "info:entity:person:Lindsay Clancy",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:person:Judge Tony Graf",
       "target": "info:entity:person:Tyler Robinson",
       "relation": "co-occurs",
@@ -14258,6 +14976,12 @@
       "target": "info:entity:person:Tom Tugendhat",
       "relation": "co-occurs",
       "weight": "2"
+    },
+    {
+      "source": "info:entity:person:Kevin Reddington",
+      "target": "info:entity:person:Lindsay Clancy",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:person:Laura Loomer",
@@ -14362,6 +15086,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:person:Steve Witkoff",
+      "target": "info:entity:person:Vladimir Putin",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Steve Witkoff",
+      "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:person:Tiger Woods",
       "target": "info:entity:product:hydrocodone",
       "relation": "co-occurs",
@@ -14377,7 +15113,7 @@
       "source": "info:entity:person:Vladimir Putin",
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:person:Vladimir Putin",

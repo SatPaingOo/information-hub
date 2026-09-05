@@ -1,7 +1,7 @@
 ---
 node: "LLM"
 layer: misc
-item_count: 16
+item_count: 17
 ---
 
 # LLM
@@ -16,6 +16,7 @@ item_count: 16
 
 ## Items
 
+- 2026-09-05 · [[2026-09-05-006-clockwork]] — Clockwork
 - 2026-09-04 · [[2026-09-04-006-grove]] — Grove
 - 2026-09-04 · [[2026-09-04-007-agent-builder-by-airtop-self-healing-autonomous-agents-for]] — Agent Builder by Airtop – Self‑Healing Autonomous Agents for the Enterprise
 - 2026-09-03 · [[2026-09-03-006-claude-fable-5-1]] — Claude Fable 5.1

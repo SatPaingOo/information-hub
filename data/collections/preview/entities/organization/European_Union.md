@@ -1,7 +1,7 @@
 ---
 name: "European Union"
 entity_type: organization
-backlink_count: 7
+backlink_count: 8
 ---
 
 # European Union
@@ -10,6 +10,7 @@ backlink_count: 7
 
 ## Referenced by
 
+- 2026-09-05 · [[2026-09-05-003-europe-targeted-by-spiralling-campaign-of-sabotage-and]] — Europe targeted by spiralling campaign of sabotage - and Russia is the chief suspect
 - 2026-09-04 · [[2026-09-04-005-burnham-and-macron-agree-to-scale-up-action-on-small-boats]] — Burnham and Macron agree to scale up action on small boats
 - 2026-09-03 · [[2026-09-03-003-eu-and-nato-vow-to-step-up-pressure-on-russia-after-new]] — EU and Nato vow to step up pressure on Russia after 'new escalation' in Germany
 - 2026-08-31 · [[2026-08-31-003-iceland-votes-against-restarting-eu-membership-talks]] — Iceland votes against restarting EU membership talks

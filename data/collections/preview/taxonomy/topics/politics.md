@@ -1,7 +1,7 @@
 ---
 node: "politics"
 layer: topic
-item_count: 32
+item_count: 34
 ---
 
 # politics
@@ -16,6 +16,8 @@ item_count: 32
 
 ## Items
 
+- 2026-09-05 · [[2026-09-05-004-farage-threatens-to-overhaul-lords-and-judges-to-meet-his]] — Farage threatens to overhaul Lords and judges to meet his pledges
+- 2026-09-05 · [[2026-09-05-005-farage-unveils-small-boats-deal-with-french-national-rally]] — Farage unveils small boats deal with French National Rally party
 - 2026-09-04 · [[2026-09-04-004-farage-senior-aide-filmed-suggesting-way-to-avoid]] — Farage senior aide filmed suggesting way to avoid donations law
 - 2026-09-04 · [[2026-09-04-005-burnham-and-macron-agree-to-scale-up-action-on-small-boats]] — Burnham and Macron agree to scale up action on small boats
 - 2026-09-04 · [[2026-09-04-005-burnham-and-macron-agree-to-scale-up-action-on-small-boats]] — Burnham and Macron agree to scale up action on small boats

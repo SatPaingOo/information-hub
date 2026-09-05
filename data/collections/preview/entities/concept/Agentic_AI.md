@@ -1,7 +1,7 @@
 ---
 name: "Agentic AI"
 entity_type: concept
-backlink_count: 10
+backlink_count: 11
 ---
 
 # Agentic AI
@@ -10,6 +10,7 @@ backlink_count: 10
 
 ## Referenced by
 
+- 2026-09-05 · [[2026-09-05-006-clockwork]] — Clockwork
 - 2026-09-04 · [[2026-09-04-007-agent-builder-by-airtop-self-healing-autonomous-agents-for]] — Agent Builder by Airtop – Self‑Healing Autonomous Agents for the Enterprise
 - 2026-09-03 · [[2026-09-03-007-hydradb-oss-the-fastest-cheapest-open-source-graph-database]] — HydraDB OSS: The Fastest, Cheapest Open‑Source Graph Database
 - 2026-08-29 · [[2026-08-29-007-god-s-eye-view-real-world-spy-satellite-simulation-in-the]] — God’s Eye View – Real‑World Spy Satellite Simulation in the Browser

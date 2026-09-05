@@ -1,7 +1,7 @@
 ---
 node: "Geopolitics"
 layer: misc
-item_count: 9
+item_count: 10
 ---
 
 # Geopolitics
@@ -15,6 +15,7 @@ item_count: 9
 
 ## Items
 
+- 2026-09-05 · [[2026-09-05-002-trump-s-peace-envoys-to-visit-moscow-and-kyiv-over-weekend]] — Trump's peace envoys to visit Moscow and Kyiv over weekend
 - 2026-08-25 · [[2026-08-25-003-us-removes-syria-from-list-of-state-sponsors-of-terrorism]] — US removes Syria from list of state sponsors of terrorism
 - 2026-08-25 · [[2026-08-25-005-burnham-vows-support-for-ukraine-despite-outrageous]] — Burnham vows support for Ukraine despite 'outrageous threats' from Russia
 - 2026-08-24 · [[2026-08-24-001-zelensky-should-be-asked-what-he-knew-about-government]] — Zelensky Should Be Asked What He Knew About Government Corruption, Sacked Minister Tells BBC

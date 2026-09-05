@@ -1,7 +1,7 @@
 ---
 node: "product"
 layer: category
-item_count: 30
+item_count: 31
 ---
 
 # product
@@ -19,6 +19,7 @@ item_count: 30
 
 ## Items
 
+- 2026-09-05 · [[2026-09-05-006-clockwork]] — Clockwork
 - 2026-09-04 · [[2026-09-04-006-grove]] — Grove
 - 2026-09-04 · [[2026-09-04-007-agent-builder-by-airtop-self-healing-autonomous-agents-for]] — Agent Builder by Airtop – Self‑Healing Autonomous Agents for the Enterprise
 - 2026-09-03 · [[2026-09-03-006-claude-fable-5-1]] — Claude Fable 5.1
