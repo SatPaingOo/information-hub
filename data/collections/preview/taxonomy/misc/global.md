@@ -1,7 +1,7 @@
 ---
 node: "global"
 layer: misc
-item_count: 159
+item_count: 160
 ---
 
 # global
@@ -35,6 +35,7 @@ item_count: 159
 - 2026-09-06 · [[2026-09-06-006-reflexio]] — Reflexio
 - 2026-09-06 · [[2026-09-06-007-gitwarren-ai-driven-pre-commit-code-review-for-the-agentic]] — GitWarren – AI‑Driven Pre‑Commit Code Review for the Agentic Era
 - 2026-09-06 · [[2026-09-06-008-watch-moment-64-year-old-nepali-woman-is-found-alive-in]] — Watch: Moment 64‑year‑old Nepali woman is found alive in mud‑buried home
+- 2026-09-06 · [[2026-09-06-009-volcano-eruption-triggers-flight-suspensions-at-indonesia]] — Volcano eruption triggers flight suspensions at Indonesia's main airport
 - 2026-09-05 · [[2026-09-05-001-mistrial-declared-in-lindsay-clancy-murder-case-after-jury]] — Mistrial declared in Lindsay Clancy murder case, after jury deadlocks
 - 2026-09-05 · [[2026-09-05-002-trump-s-peace-envoys-to-visit-moscow-and-kyiv-over-weekend]] — Trump's peace envoys to visit Moscow and Kyiv over weekend
 - 2026-09-05 · [[2026-09-05-003-europe-targeted-by-spiralling-campaign-of-sabotage-and]] — Europe targeted by spiralling campaign of sabotage - and Russia is the chief suspect

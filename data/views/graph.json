@@ -3131,6 +3131,42 @@
       "name": "emerging technologies"
     },
     {
+      "id": "info:item:world:global:2026-09-06-009",
+      "type": "item",
+      "date": "2026-09-06",
+      "title": "Volcano eruption triggers flight suspensions at Indonesia's main airport"
+    },
+    {
+      "id": "info:entity:region:Indonesia",
+      "type": "region",
+      "name": "Indonesia"
+    },
+    {
+      "id": "info:entity:event:Mount Anak Krakatoa eruption (6 Sept 2026)",
+      "type": "event",
+      "name": "Mount Anak Krakatoa eruption (6 Sept 2026)"
+    },
+    {
+      "id": "info:entity:organization:International Civil Aviation Organization",
+      "type": "organization",
+      "name": "International Civil Aviation Organization"
+    },
+    {
+      "id": "info:entity:company:Singapore Airlines",
+      "type": "company",
+      "name": "Singapore Airlines"
+    },
+    {
+      "id": "taxonomy/misc/Disaster Management",
+      "type": "taxonomy",
+      "name": "Disaster Management"
+    },
+    {
+      "id": "taxonomy/misc/Transportation Policy",
+      "type": "taxonomy",
+      "name": "Transportation Policy"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -11706,6 +11742,71 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-09-06-009",
+      "target": "info:entity:region:Indonesia",
+      "relation": "location of eruption and airport"
+    },
+    {
+      "source": "info:item:world:global:2026-09-06-009",
+      "target": "info:entity:event:Mount Anak Krakatoa eruption (6 Sept 2026)",
+      "relation": "triggered flight suspensions"
+    },
+    {
+      "source": "info:item:world:global:2026-09-06-009",
+      "target": "info:entity:organization:International Civil Aviation Organization",
+      "relation": "sets ash‑safety standards"
+    },
+    {
+      "source": "info:item:world:global:2026-09-06-009",
+      "target": "info:entity:company:Singapore Airlines",
+      "relation": "major carrier affected"
+    },
+    {
+      "source": "info:item:world:global:2026-09-06-009",
+      "target": "info:item:world:global:2026-09-06-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-06-009",
+      "target": "info:item:world:global:2026-09-06-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-06-009",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-06-009",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-06-009",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-06-009",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-06-009",
+      "target": "taxonomy/misc/Geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-06-009",
+      "target": "taxonomy/misc/Disaster Management",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-06-009",
+      "target": "taxonomy/misc/Transportation Policy",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -12416,6 +12517,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:company:Singapore Airlines",
+      "target": "info:entity:event:Mount Anak Krakatoa eruption (6 Sept 2026)",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Singapore Airlines",
+      "target": "info:entity:organization:International Civil Aviation Organization",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Singapore Airlines",
+      "target": "info:entity:region:Indonesia",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:company:Starlink (operated by SpaceX)",
       "target": "info:entity:organization:BBC News",
       "relation": "co-occurs",
@@ -13018,6 +13137,18 @@
     {
       "source": "info:entity:event:2021 Myanmar coup",
       "target": "info:entity:region:Sagaing region",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:event:Mount Anak Krakatoa eruption (6 Sept 2026)",
+      "target": "info:entity:organization:International Civil Aviation Organization",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:event:Mount Anak Krakatoa eruption (6 Sept 2026)",
+      "target": "info:entity:region:Indonesia",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -14050,6 +14181,12 @@
     {
       "source": "info:entity:organization:Immigration and Customs Enforcement",
       "target": "info:entity:person:Milo Yiannopoulos",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:International Civil Aviation Organization",
+      "target": "info:entity:region:Indonesia",
       "relation": "co-occurs",
       "weight": "1"
     },
