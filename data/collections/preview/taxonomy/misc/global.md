@@ -1,7 +1,7 @@
 ---
 node: "global"
 layer: misc
-item_count: 148
+item_count: 159
 ---
 
 # global
@@ -24,6 +24,17 @@ item_count: 148
 
 ## Items
 
+- 2026-09-06 · [[2026-09-06-001-us-envoys-set-for-ukraine-talks-after-meeting-putin-in]] — US envoys set for Ukraine talks after meeting Putin in Moscow
+- 2026-09-06 · [[2026-09-06-002-us-and-iran-trade-retaliatory-attacks-on-ships-as-conflict]] — US and Iran trade retaliatory attacks on ships as conflict flares
+- 2026-09-06 · [[2026-09-06-003-tv-presenter-among-11-sentenced-to-death-in-egypt-drugs-case]] — TV presenter among 11 sentenced to death in Egypt drugs case
+- 2026-09-06 · [[2026-09-06-003-tv-presenter-among-11-sentenced-to-death-in-egypt-drugs-case]] — TV presenter among 11 sentenced to death in Egypt drugs case
+- 2026-09-06 · [[2026-09-06-004-nigel-farage-tells-bbc-he-wasn-t-listening-during-foreign]] — Nigel Farage tells BBC he 'wasn't listening' during foreign donor talks filmed undercover
+- 2026-09-06 · [[2026-09-06-004-nigel-farage-tells-bbc-he-wasn-t-listening-during-foreign]] — Nigel Farage tells BBC he 'wasn't listening' during foreign donor talks filmed undercover
+- 2026-09-06 · [[2026-09-06-005-chris-mason-reform-winded-by-donations-row-as-insiders]] — Chris Mason: Reform winded by donations row as insiders call for shift in approach
+- 2026-09-06 · [[2026-09-06-005-chris-mason-reform-winded-by-donations-row-as-insiders]] — Chris Mason: Reform winded by donations row as insiders call for shift in approach
+- 2026-09-06 · [[2026-09-06-006-reflexio]] — Reflexio
+- 2026-09-06 · [[2026-09-06-007-gitwarren-ai-driven-pre-commit-code-review-for-the-agentic]] — GitWarren – AI‑Driven Pre‑Commit Code Review for the Agentic Era
+- 2026-09-06 · [[2026-09-06-008-watch-moment-64-year-old-nepali-woman-is-found-alive-in]] — Watch: Moment 64‑year‑old Nepali woman is found alive in mud‑buried home
 - 2026-09-05 · [[2026-09-05-001-mistrial-declared-in-lindsay-clancy-murder-case-after-jury]] — Mistrial declared in Lindsay Clancy murder case, after jury deadlocks
 - 2026-09-05 · [[2026-09-05-002-trump-s-peace-envoys-to-visit-moscow-and-kyiv-over-weekend]] — Trump's peace envoys to visit Moscow and Kyiv over weekend
 - 2026-09-05 · [[2026-09-05-003-europe-targeted-by-spiralling-campaign-of-sabotage-and]] — Europe targeted by spiralling campaign of sabotage - and Russia is the chief suspect

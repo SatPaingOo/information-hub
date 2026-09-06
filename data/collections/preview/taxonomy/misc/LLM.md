@@ -1,7 +1,7 @@
 ---
 node: "LLM"
 layer: misc
-item_count: 17
+item_count: 18
 ---
 
 # LLM
@@ -16,6 +16,7 @@ item_count: 17
 
 ## Items
 
+- 2026-09-06 · [[2026-09-06-006-reflexio]] — Reflexio
 - 2026-09-05 · [[2026-09-05-006-clockwork]] — Clockwork
 - 2026-09-04 · [[2026-09-04-006-grove]] — Grove
 - 2026-09-04 · [[2026-09-04-007-agent-builder-by-airtop-self-healing-autonomous-agents-for]] — Agent Builder by Airtop – Self‑Healing Autonomous Agents for the Enterprise

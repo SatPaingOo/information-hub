@@ -1,7 +1,7 @@
 ---
 name: "OpenAI"
 entity_type: company
-backlink_count: 31
+backlink_count: 33
 ---
 
 # OpenAI
@@ -10,6 +10,8 @@ backlink_count: 31
 
 ## Referenced by
 
+- 2026-09-06 · [[2026-09-06-006-reflexio]] — Reflexio
+- 2026-09-06 · [[2026-09-06-008-watch-moment-64-year-old-nepali-woman-is-found-alive-in]] — Watch: Moment 64‑year‑old Nepali woman is found alive in mud‑buried home
 - 2026-09-05 · [[2026-09-05-001-mistrial-declared-in-lindsay-clancy-murder-case-after-jury]] — Mistrial declared in Lindsay Clancy murder case, after jury deadlocks
 - 2026-09-05 · [[2026-09-05-006-clockwork]] — Clockwork
 - 2026-09-04 · [[2026-09-04-003-un-warns-of-supersized-el-ni-o-as-countries-prepare-for]] — UN warns of 'supersized' El Niño as countries prepare for impact

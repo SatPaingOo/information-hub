@@ -1,7 +1,7 @@
 ---
 node: "regulation"
 layer: misc
-item_count: 3
+item_count: 4
 ---
 
 # regulation
@@ -16,6 +16,7 @@ item_count: 3
 
 ## Items
 
+- 2026-09-06 · [[2026-09-06-006-reflexio]] — Reflexio
 - 2026-09-04 · [[2026-09-04-007-agent-builder-by-airtop-self-healing-autonomous-agents-for]] — Agent Builder by Airtop – Self‑Healing Autonomous Agents for the Enterprise
 - 2026-08-28 · [[2026-08-28-001-trump-administration-illegally-retaliated-against]] — Trump administration illegally retaliated against Anthropic, judge rules
 - 2026-08-22 · [[2026-08-22-004-anthropic-s-opus-4-6-is-a-smut-machine]] — Anthropic’s Opus 4.6 is a smut-machine

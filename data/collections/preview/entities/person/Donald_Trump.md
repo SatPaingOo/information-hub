@@ -1,7 +1,7 @@
 ---
 name: "Donald Trump"
 entity_type: person
-backlink_count: 18
+backlink_count: 19
 ---
 
 # Donald Trump
@@ -10,6 +10,7 @@ backlink_count: 18
 
 ## Referenced by
 
+- 2026-09-06 · [[2026-09-06-002-us-and-iran-trade-retaliatory-attacks-on-ships-as-conflict]] — US and Iran trade retaliatory attacks on ships as conflict flares
 - 2026-09-05 · [[2026-09-05-002-trump-s-peace-envoys-to-visit-moscow-and-kyiv-over-weekend]] — Trump's peace envoys to visit Moscow and Kyiv over weekend
 - 2026-09-04 · [[2026-09-04-001-trump-hints-us-would-not-back-uk-over-falkland-islands-due]] — Trump hints US would not back UK over Falkland Islands due to lack of Iran war support
 - 2026-09-03 · [[2026-09-03-001-iranian-attack-on-saudi-tanker-killed-two-filipino-sailors]] — Iranian attack on Saudi tanker killed two Filipino sailors, Saudi Arabia says

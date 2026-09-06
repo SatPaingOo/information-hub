@@ -1,7 +1,7 @@
 ---
 name: "Machine Teaching"
 entity_type: concept
-backlink_count: 2
+backlink_count: 3
 ---
 
 # Machine Teaching
@@ -10,5 +10,6 @@ backlink_count: 2
 
 ## Referenced by
 
+- 2026-09-06 · [[2026-09-06-006-reflexio]] — Reflexio
 - 2026-08-25 · [[2026-08-25-001-iran-faces-greatest-financial-offensive-ever-says-us]] — Iran faces 'greatest financial offensive ever', says US treasury secretary
 - 2026-08-24 · [[2026-08-24-004-robust-federated-training-via-collaborative-machine]] — Robust Federated Training via Collaborative Machine Teaching using Trusted Instances

@@ -1,7 +1,7 @@
 ---
 name: "Conditioning LSTM Decoder"
 entity_type: model
-backlink_count: 1
+backlink_count: 2
 ---
 
 # Conditioning LSTM Decoder
@@ -10,4 +10,5 @@ backlink_count: 1
 
 ## Referenced by
 
+- 2026-09-06 · [[2026-09-06-006-reflexio]] — Reflexio
 - 2026-08-24 · [[2026-08-24-005-conditioning-lstm-decoder-and-bi-directional-attention]] — Conditioning LSTM Decoder and Bi-directional Attention Based Question Answering System

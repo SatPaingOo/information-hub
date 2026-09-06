@@ -1,7 +1,7 @@
 ---
 node: "products"
 layer: topic
-item_count: 18
+item_count: 20
 ---
 
 # products
@@ -15,6 +15,8 @@ item_count: 18
 
 ## Items
 
+- 2026-09-06 · [[2026-09-06-006-reflexio]] — Reflexio
+- 2026-09-06 · [[2026-09-06-007-gitwarren-ai-driven-pre-commit-code-review-for-the-agentic]] — GitWarren – AI‑Driven Pre‑Commit Code Review for the Agentic Era
 - 2026-09-05 · [[2026-09-05-006-clockwork]] — Clockwork
 - 2026-09-04 · [[2026-09-04-006-grove]] — Grove
 - 2026-09-04 · [[2026-09-04-007-agent-builder-by-airtop-self-healing-autonomous-agents-for]] — Agent Builder by Airtop – Self‑Healing Autonomous Agents for the Enterprise

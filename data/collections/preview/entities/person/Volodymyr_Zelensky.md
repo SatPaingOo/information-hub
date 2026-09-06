@@ -1,7 +1,7 @@
 ---
 name: "Volodymyr Zelensky"
 entity_type: person
-backlink_count: 11
+backlink_count: 12
 ---
 
 # Volodymyr Zelensky
@@ -10,6 +10,7 @@ backlink_count: 11
 
 ## Referenced by
 
+- 2026-09-06 · [[2026-09-06-001-us-envoys-set-for-ukraine-talks-after-meeting-putin-in]] — US envoys set for Ukraine talks after meeting Putin in Moscow
 - 2026-09-05 · [[2026-09-05-002-trump-s-peace-envoys-to-visit-moscow-and-kyiv-over-weekend]] — Trump's peace envoys to visit Moscow and Kyiv over weekend
 - 2026-08-29 · [[2026-08-29-008-at-least-37-dead-and-hundreds-evacuated-after-strike-on]] — At least 37 dead and hundreds evacuated after strike on Kyiv weapons depot
 - 2026-08-25 · [[2026-08-25-002-uk-pm-burnham-vows-support-for-ukraine-despite-outrageous]] — UK PM Burnham vows support for Ukraine despite 'outrageous threats' from Russia
