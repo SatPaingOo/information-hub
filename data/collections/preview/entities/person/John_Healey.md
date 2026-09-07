@@ -1,7 +1,7 @@
 ---
 name: "John Healey"
 entity_type: person
-backlink_count: 4
+backlink_count: 5
 ---
 
 # John Healey
@@ -10,6 +10,7 @@ backlink_count: 4
 
 ## Referenced by
 
+- 2026-09-07 · [[2026-09-07-004-minister-to-meet-jaguar-land-rover-boss-as-thousands-of]] — Minister to meet Jaguar Land Rover boss as thousands of job cuts expected
 - 2026-09-03 · [[2026-09-03-004-burnham-pressed-on-economy-at-first-pmqs-as-borrowing]] — Burnham pressed on economy at first PMQs as borrowing costs surge
 - 2026-09-02 · [[2026-09-02-005-burnham-promises-more-devolution-and-public-control-of]] — Burnham promises more devolution and public control of essential services
 - 2026-08-30 · [[2026-08-30-005-burnham-s-summer-tour-is-over-now-he-has-to-prove-himself]] — Burnham's summer tour is over - now he has to prove himself in Parliament

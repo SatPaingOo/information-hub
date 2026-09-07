@@ -1,7 +1,7 @@
 ---
 name: "Myanmar"
 entity_type: region
-backlink_count: 6
+backlink_count: 7
 ---
 
 # Myanmar
@@ -10,6 +10,7 @@ backlink_count: 6
 
 ## Referenced by
 
+- 2026-09-07 · [[2026-09-07-007-agentic-video-understanding-in-gemini]] — Agentic Video Understanding in Gemini
 - 2026-09-02 · [[2026-09-02-006-sourclip-2-0]] — Sourclip 2.0
 - 2026-08-29 · [[2026-08-29-007-god-s-eye-view-real-world-spy-satellite-simulation-in-the]] — God’s Eye View – Real‑World Spy Satellite Simulation in the Browser
 - 2026-08-28 · [[2026-08-28-004-pluto-your-professional-profile-becomes-an-ai-agent]] — Pluto: Your Professional Profile Becomes an AI Agent

@@ -1,7 +1,7 @@
 ---
 node: "LLM"
 layer: misc
-item_count: 18
+item_count: 19
 ---
 
 # LLM
@@ -16,6 +16,7 @@ item_count: 18
 
 ## Items
 
+- 2026-09-07 · [[2026-09-07-006-kit-by-speakeasy]] — Kit by Speakeasy
 - 2026-09-06 · [[2026-09-06-006-reflexio]] — Reflexio
 - 2026-09-05 · [[2026-09-05-006-clockwork]] — Clockwork
 - 2026-09-04 · [[2026-09-04-006-grove]] — Grove

@@ -1,7 +1,7 @@
 ---
 node: "industry"
 layer: category
-item_count: 80
+item_count: 83
 ---
 
 # industry
@@ -19,6 +19,9 @@ item_count: 80
 
 ## Items
 
+- 2026-09-07 · [[2026-09-07-001-germany-s-far-right-afd-hails-big-victory-in-east-but]] — Germany's far‑right AfD hails big victory in east, but falls short of majority
+- 2026-09-07 · [[2026-09-07-002-europe-wrestles-with-impact-of-historic-regional-gains-for]] — Europe wrestles with impact of historic regional gains for Germany's AfD
+- 2026-09-07 · [[2026-09-07-003-five-dead-after-amazon-cargo-plane-crashes-at-miami-airport]] — Five dead after Amazon cargo plane crashes at Miami airport
 - 2026-09-06 · [[2026-09-06-001-us-envoys-set-for-ukraine-talks-after-meeting-putin-in]] — US envoys set for Ukraine talks after meeting Putin in Moscow
 - 2026-09-06 · [[2026-09-06-002-us-and-iran-trade-retaliatory-attacks-on-ships-as-conflict]] — US and Iran trade retaliatory attacks on ships as conflict flares
 - 2026-09-06 · [[2026-09-06-003-tv-presenter-among-11-sentenced-to-death-in-egypt-drugs-case]] — TV presenter among 11 sentenced to death in Egypt drugs case

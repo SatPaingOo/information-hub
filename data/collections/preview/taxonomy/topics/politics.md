@@ -1,7 +1,7 @@
 ---
 node: "politics"
 layer: topic
-item_count: 38
+item_count: 40
 ---
 
 # politics
@@ -16,6 +16,8 @@ item_count: 38
 
 ## Items
 
+- 2026-09-07 · [[2026-09-07-004-minister-to-meet-jaguar-land-rover-boss-as-thousands-of]] — Minister to meet Jaguar Land Rover boss as thousands of job cuts expected
+- 2026-09-07 · [[2026-09-07-005-green-party-deputy-leader-linked-to-property-lets-despite]] — Green Party deputy leader linked to property lets despite opposition to landlords
 - 2026-09-06 · [[2026-09-06-004-nigel-farage-tells-bbc-he-wasn-t-listening-during-foreign]] — Nigel Farage tells BBC he 'wasn't listening' during foreign donor talks filmed undercover
 - 2026-09-06 · [[2026-09-06-004-nigel-farage-tells-bbc-he-wasn-t-listening-during-foreign]] — Nigel Farage tells BBC he 'wasn't listening' during foreign donor talks filmed undercover
 - 2026-09-06 · [[2026-09-06-005-chris-mason-reform-winded-by-donations-row-as-insiders]] — Chris Mason: Reform winded by donations row as insiders call for shift in approach

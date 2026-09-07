@@ -1,7 +1,7 @@
 ---
 name: "Anthropic"
 entity_type: company
-backlink_count: 21
+backlink_count: 23
 ---
 
 # Anthropic
@@ -10,6 +10,8 @@ backlink_count: 21
 
 ## Referenced by
 
+- 2026-09-07 · [[2026-09-07-006-kit-by-speakeasy]] — Kit by Speakeasy
+- 2026-09-07 · [[2026-09-07-007-agentic-video-understanding-in-gemini]] — Agentic Video Understanding in Gemini
 - 2026-09-05 · [[2026-09-05-006-clockwork]] — Clockwork
 - 2026-09-04 · [[2026-09-04-003-un-warns-of-supersized-el-ni-o-as-countries-prepare-for]] — UN warns of 'supersized' El Niño as countries prepare for impact
 - 2026-09-04 · [[2026-09-04-006-grove]] — Grove

@@ -1,7 +1,7 @@
 ---
 node: "product"
 layer: category
-item_count: 33
+item_count: 35
 ---
 
 # product
@@ -19,6 +19,8 @@ item_count: 33
 
 ## Items
 
+- 2026-09-07 · [[2026-09-07-006-kit-by-speakeasy]] — Kit by Speakeasy
+- 2026-09-07 · [[2026-09-07-007-agentic-video-understanding-in-gemini]] — Agentic Video Understanding in Gemini
 - 2026-09-06 · [[2026-09-06-006-reflexio]] — Reflexio
 - 2026-09-06 · [[2026-09-06-007-gitwarren-ai-driven-pre-commit-code-review-for-the-agentic]] — GitWarren – AI‑Driven Pre‑Commit Code Review for the Agentic Era
 - 2026-09-05 · [[2026-09-05-006-clockwork]] — Clockwork
