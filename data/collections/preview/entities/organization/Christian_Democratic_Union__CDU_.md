@@ -1,22 +1,13 @@
 ---
-node: "europe"
-layer: region
-item_count: 1
+name: "Christian Democratic Union (CDU)"
+entity_type: organization
+backlink_count: 1
 ---
 
-# europe
+# Christian Democratic Union (CDU)
 
-*Taxonomy layer: region*
+*Type: organization*
 
-## Children
-
-- [[uk]]
-- [[germany]]
-
-## Cross-layer relations
-
-- [[world]] — *relates*
-
-## Items
+## Referenced by
 
 - 2026-09-07 · [[2026-09-07-008-germany-s-far-right-afd-says-democracy-demands-parties]] — Germany's far-right AfD says 'democracy demands' parties work with them after state election win

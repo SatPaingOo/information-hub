@@ -1,22 +1,13 @@
 ---
-node: "europe"
-layer: region
-item_count: 1
+name: "Beatrix von Storch"
+entity_type: person
+backlink_count: 1
 ---
 
-# europe
+# Beatrix von Storch
 
-*Taxonomy layer: region*
+*Type: person*
 
-## Children
-
-- [[uk]]
-- [[germany]]
-
-## Cross-layer relations
-
-- [[world]] — *relates*
-
-## Items
+## Referenced by
 
 - 2026-09-07 · [[2026-09-07-008-germany-s-far-right-afd-says-democracy-demands-parties]] — Germany's far-right AfD says 'democracy demands' parties work with them after state election win

@@ -1,7 +1,7 @@
 ---
 node: "politics"
 layer: topic
-item_count: 40
+item_count: 41
 ---
 
 # politics
@@ -13,11 +13,13 @@ item_count: 40
 - [[global]] — *regional_scope*
 - [[policy]] — *classified_in*
 - [[politics]] — *relates*
+- [[world]] — *relates*
 
 ## Items
 
 - 2026-09-07 · [[2026-09-07-004-minister-to-meet-jaguar-land-rover-boss-as-thousands-of]] — Minister to meet Jaguar Land Rover boss as thousands of job cuts expected
 - 2026-09-07 · [[2026-09-07-005-green-party-deputy-leader-linked-to-property-lets-despite]] — Green Party deputy leader linked to property lets despite opposition to landlords
+- 2026-09-07 · [[2026-09-07-008-germany-s-far-right-afd-says-democracy-demands-parties]] — Germany's far-right AfD says 'democracy demands' parties work with them after state election win
 - 2026-09-06 · [[2026-09-06-004-nigel-farage-tells-bbc-he-wasn-t-listening-during-foreign]] — Nigel Farage tells BBC he 'wasn't listening' during foreign donor talks filmed undercover
 - 2026-09-06 · [[2026-09-06-004-nigel-farage-tells-bbc-he-wasn-t-listening-during-foreign]] — Nigel Farage tells BBC he 'wasn't listening' during foreign donor talks filmed undercover
 - 2026-09-06 · [[2026-09-06-005-chris-mason-reform-winded-by-donations-row-as-insiders]] — Chris Mason: Reform winded by donations row as insiders call for shift in approach

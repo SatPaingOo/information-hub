@@ -1,17 +1,12 @@
 ---
-node: "europe"
-layer: region
+node: "democracy"
+layer: misc
 item_count: 1
 ---
 
-# europe
+# democracy
 
-*Taxonomy layer: region*
-
-## Children
-
-- [[uk]]
-- [[germany]]
+*Taxonomy layer: misc*
 
 ## Cross-layer relations
 

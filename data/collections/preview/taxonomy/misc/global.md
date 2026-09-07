@@ -1,7 +1,7 @@
 ---
 node: "global"
 layer: misc
-item_count: 168
+item_count: 169
 ---
 
 # global
@@ -32,6 +32,7 @@ item_count: 168
 - 2026-09-07 · [[2026-09-07-006-kit-by-speakeasy]] — Kit by Speakeasy
 - 2026-09-07 · [[2026-09-07-006-kit-by-speakeasy]] — Kit by Speakeasy
 - 2026-09-07 · [[2026-09-07-007-agentic-video-understanding-in-gemini]] — Agentic Video Understanding in Gemini
+- 2026-09-07 · [[2026-09-07-008-germany-s-far-right-afd-says-democracy-demands-parties]] — Germany's far-right AfD says 'democracy demands' parties work with them after state election win
 - 2026-09-06 · [[2026-09-06-001-us-envoys-set-for-ukraine-talks-after-meeting-putin-in]] — US envoys set for Ukraine talks after meeting Putin in Moscow
 - 2026-09-06 · [[2026-09-06-002-us-and-iran-trade-retaliatory-attacks-on-ships-as-conflict]] — US and Iran trade retaliatory attacks on ships as conflict flares
 - 2026-09-06 · [[2026-09-06-003-tv-presenter-among-11-sentenced-to-death-in-egypt-drugs-case]] — TV presenter among 11 sentenced to death in Egypt drugs case

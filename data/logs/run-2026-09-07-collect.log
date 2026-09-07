@@ -27,3 +27,11 @@
 2026-09-07 05:53:38,792 WARNING [politics] no collect provider available
 2026-09-07 05:53:39,713 WARNING [products] no collect provider available
 2026-09-07 05:53:39,869 INFO collect done: 0 item(s) published — target 3/10, next run ≈ 2026-09-08T01:00:00+00:00 UTC
+2026-09-07 10:10:00,128 INFO [world-news] published 2026-09-07-008 — Germany's far-right AfD says 'democracy demands' parties wor
+2026-09-07 10:10:00,282 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 5182, Requested 3632. Please try again in 6.105s. Need more tokens? Upgrade to Dev Tier today at https://cons
+2026-09-07 10:10:03,284 WARNING [world-news] no collect provider for deep-dive
+2026-09-07 10:10:03,406 WARNING [world-news] no collect provider for deep-dive
+2026-09-07 10:10:04,046 WARNING [tech-news] no collect provider available
+2026-09-07 10:10:04,263 WARNING [politics] no collect provider available
+2026-09-07 10:10:05,178 WARNING [products] no collect provider available
+2026-09-07 10:10:05,345 INFO collect done: 1 item(s) published — target 2/10, next run ≈ 2026-09-08T01:00:00+00:00 UTC

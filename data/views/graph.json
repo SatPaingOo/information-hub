@@ -3364,6 +3364,37 @@
       "name": "Geography > Southeast Asia"
     },
     {
+      "id": "info:item:world:global:2026-09-07-008",
+      "type": "item",
+      "date": "2026-09-07",
+      "title": "Germany's far-right AfD says 'democracy demands' parties work with them after state election win"
+    },
+    {
+      "id": "info:entity:person:Beatrix von Storch",
+      "type": "person",
+      "name": "Beatrix von Storch"
+    },
+    {
+      "id": "info:entity:organization:Christian Democratic Union (CDU)",
+      "type": "organization",
+      "name": "Christian Democratic Union (CDU)"
+    },
+    {
+      "id": "info:entity:concept:cordon sanitaire",
+      "type": "concept",
+      "name": "cordon sanitaire"
+    },
+    {
+      "id": "taxonomy/region/europe",
+      "type": "taxonomy",
+      "name": "europe"
+    },
+    {
+      "id": "taxonomy/misc/democracy",
+      "type": "taxonomy",
+      "name": "democracy"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -3398,12 +3429,6 @@
       "type": "taxonomy",
       "layer": "region",
       "name": "canada"
-    },
-    {
-      "id": "taxonomy/region/europe",
-      "type": "taxonomy",
-      "layer": "region",
-      "name": "europe"
     },
     {
       "id": "taxonomy/region/uk",
@@ -12449,6 +12474,76 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-09-07-008",
+      "target": "info:entity:organization:Alternative for Germany (AfD)",
+      "relation": "primary subject"
+    },
+    {
+      "source": "info:item:world:global:2026-09-07-008",
+      "target": "info:entity:person:Beatrix von Storch",
+      "relation": "AfD deputy parliamentary leader"
+    },
+    {
+      "source": "info:item:world:global:2026-09-07-008",
+      "target": "info:entity:person:Ulrich Siegmund",
+      "relation": "AfD state leader in Saxony‑Anhalt"
+    },
+    {
+      "source": "info:item:world:global:2026-09-07-008",
+      "target": "info:entity:organization:Christian Democratic Union (CDU)",
+      "relation": "potential coalition partner"
+    },
+    {
+      "source": "info:item:world:global:2026-09-07-008",
+      "target": "info:entity:concept:cordon sanitaire",
+      "relation": "political norm excluding far‑right parties"
+    },
+    {
+      "source": "info:item:world:global:2026-09-07-008",
+      "target": "info:item:world:global:2026-09-07-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-07-008",
+      "target": "info:item:world:global:2026-09-07-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-07-008",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-07-008",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-07-008",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-07-008",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-07-008",
+      "target": "taxonomy/topic/politics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-07-008",
+      "target": "taxonomy/region/europe",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-07-008",
+      "target": "taxonomy/misc/democracy",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -13807,6 +13902,30 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:concept:cordon sanitaire",
+      "target": "info:entity:organization:Alternative for Germany (AfD)",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:cordon sanitaire",
+      "target": "info:entity:organization:Christian Democratic Union (CDU)",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:cordon sanitaire",
+      "target": "info:entity:person:Beatrix von Storch",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:cordon sanitaire",
+      "target": "info:entity:person:Ulrich Siegmund",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:concept:postpartum psychosis",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
@@ -14162,7 +14281,19 @@
     },
     {
       "source": "info:entity:organization:Alternative for Germany (AfD)",
+      "target": "info:entity:organization:Christian Democratic Union (CDU)",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Alternative for Germany (AfD)",
       "target": "info:entity:organization:European Union",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Alternative for Germany (AfD)",
+      "target": "info:entity:person:Beatrix von Storch",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -14182,7 +14313,7 @@
       "source": "info:entity:organization:Alternative for Germany (AfD)",
       "target": "info:entity:person:Ulrich Siegmund",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Amnesty International",
@@ -14565,6 +14696,18 @@
     {
       "source": "info:entity:organization:China",
       "target": "info:entity:person:Simon Cook",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Christian Democratic Union (CDU)",
+      "target": "info:entity:person:Beatrix von Storch",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Christian Democratic Union (CDU)",
+      "target": "info:entity:person:Ulrich Siegmund",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -16179,6 +16322,12 @@
     {
       "source": "info:entity:person:Balendra Shah",
       "target": "info:entity:region:Tibet",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Beatrix von Storch",
+      "target": "info:entity:person:Ulrich Siegmund",
       "relation": "co-occurs",
       "weight": "1"
     },
