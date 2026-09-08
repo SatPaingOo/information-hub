@@ -1,7 +1,7 @@
 ---
 node: "policy"
 layer: misc
-item_count: 146
+item_count: 155
 ---
 
 # policy
@@ -16,6 +16,15 @@ item_count: 146
 
 ## Items
 
+- 2026-09-08 · [[2026-09-08-001-flight-recorders-recovered-from-amazon-cargo-plane-crash]] — Flight recorders recovered from Amazon cargo plane crash
+- 2026-09-08 · [[2026-09-08-001-flight-recorders-recovered-from-amazon-cargo-plane-crash]] — Flight recorders recovered from Amazon cargo plane crash
+- 2026-09-08 · [[2026-09-08-002-palestinian-parents-fear-for-children-s-lives-at-school-as]] — Palestinian parents fear for children's lives at school as settler attacks grow
+- 2026-09-08 · [[2026-09-08-003-eiffel-tower-shut-by-staff-protest-after-female-workers]] — Eiffel Tower shut by staff protest after female workers moved for religious visit
+- 2026-09-08 · [[2026-09-08-003-eiffel-tower-shut-by-staff-protest-after-female-workers]] — Eiffel Tower shut by staff protest after female workers moved for religious visit
+- 2026-09-08 · [[2026-09-08-004-chancellor-calls-for-confidence-about-britain-despite]] — Chancellor calls for 'confidence about Britain' despite 'historic high' borrowing costs
+- 2026-09-08 · [[2026-09-08-004-chancellor-calls-for-confidence-about-britain-despite]] — Chancellor calls for 'confidence about Britain' despite 'historic high' borrowing costs
+- 2026-09-08 · [[2026-09-08-005-plans-for-major-overhaul-of-councils-halted]] — Plans for major overhaul of councils halted
+- 2026-09-08 · [[2026-09-08-005-plans-for-major-overhaul-of-councils-halted]] — Plans for major overhaul of councils halted
 - 2026-09-07 · [[2026-09-07-001-germany-s-far-right-afd-hails-big-victory-in-east-but]] — Germany's far‑right AfD hails big victory in east, but falls short of majority
 - 2026-09-07 · [[2026-09-07-002-europe-wrestles-with-impact-of-historic-regional-gains-for]] — Europe wrestles with impact of historic regional gains for Germany's AfD
 - 2026-09-07 · [[2026-09-07-003-five-dead-after-amazon-cargo-plane-crashes-at-miami-airport]] — Five dead after Amazon cargo plane crashes at Miami airport

@@ -1,7 +1,7 @@
 ---
 node: "industry"
 layer: category
-item_count: 84
+item_count: 89
 ---
 
 # industry
@@ -19,6 +19,11 @@ item_count: 84
 
 ## Items
 
+- 2026-09-08 · [[2026-09-08-001-flight-recorders-recovered-from-amazon-cargo-plane-crash]] — Flight recorders recovered from Amazon cargo plane crash
+- 2026-09-08 · [[2026-09-08-001-flight-recorders-recovered-from-amazon-cargo-plane-crash]] — Flight recorders recovered from Amazon cargo plane crash
+- 2026-09-08 · [[2026-09-08-002-palestinian-parents-fear-for-children-s-lives-at-school-as]] — Palestinian parents fear for children's lives at school as settler attacks grow
+- 2026-09-08 · [[2026-09-08-003-eiffel-tower-shut-by-staff-protest-after-female-workers]] — Eiffel Tower shut by staff protest after female workers moved for religious visit
+- 2026-09-08 · [[2026-09-08-003-eiffel-tower-shut-by-staff-protest-after-female-workers]] — Eiffel Tower shut by staff protest after female workers moved for religious visit
 - 2026-09-07 · [[2026-09-07-001-germany-s-far-right-afd-hails-big-victory-in-east-but]] — Germany's far‑right AfD hails big victory in east, but falls short of majority
 - 2026-09-07 · [[2026-09-07-002-europe-wrestles-with-impact-of-historic-regional-gains-for]] — Europe wrestles with impact of historic regional gains for Germany's AfD
 - 2026-09-07 · [[2026-09-07-003-five-dead-after-amazon-cargo-plane-crashes-at-miami-airport]] — Five dead after Amazon cargo plane crashes at Miami airport

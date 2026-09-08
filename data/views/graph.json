@@ -3395,6 +3395,96 @@
       "name": "democracy"
     },
     {
+      "id": "info:item:world:global:2026-09-08-001",
+      "type": "item",
+      "date": "2026-09-08",
+      "title": "Flight recorders recovered from Amazon cargo plane crash"
+    },
+    {
+      "id": "info:entity:person:Jennifer Homendy",
+      "type": "person",
+      "name": "Jennifer Homendy"
+    },
+    {
+      "id": "info:item:world:global:2026-09-08-002",
+      "type": "item",
+      "date": "2026-09-08",
+      "title": "Palestinian parents fear for children's lives at school as settler attacks grow"
+    },
+    {
+      "id": "info:entity:person:Bassam al‑Assaf",
+      "type": "person",
+      "name": "Bassam al‑Assaf"
+    },
+    {
+      "id": "info:entity:event:UN Commission of Inquiry report (June 2026)",
+      "type": "event",
+      "name": "UN Commission of Inquiry report (June 2026)"
+    },
+    {
+      "id": "info:entity:concept:illegal settlements",
+      "type": "concept",
+      "name": "illegal settlements"
+    },
+    {
+      "id": "taxonomy/misc/West Bank",
+      "type": "taxonomy",
+      "name": "West Bank"
+    },
+    {
+      "id": "taxonomy/misc/Israeli settlements",
+      "type": "taxonomy",
+      "name": "Israeli settlements"
+    },
+    {
+      "id": "taxonomy/misc/Palestinian children",
+      "type": "taxonomy",
+      "name": "Palestinian children"
+    },
+    {
+      "id": "info:item:world:global:2026-09-08-003",
+      "type": "item",
+      "date": "2026-09-08",
+      "title": "Eiffel Tower shut by staff protest after female workers moved for religious visit"
+    },
+    {
+      "id": "info:entity:organization:Société d'Exploitation de la tour Eiffel (SETE)",
+      "type": "organization",
+      "name": "Société d'Exploitation de la tour Eiffel (SETE)"
+    },
+    {
+      "id": "info:entity:organization:BAPS",
+      "type": "organization",
+      "name": "BAPS"
+    },
+    {
+      "id": "info:entity:person:Marine Le Pen",
+      "type": "person",
+      "name": "Marine Le Pen"
+    },
+    {
+      "id": "info:item:politics:global:2026-09-08-004",
+      "type": "item",
+      "date": "2026-09-08",
+      "title": "Chancellor calls for 'confidence about Britain' despite 'historic high' borrowing costs"
+    },
+    {
+      "id": "info:entity:organization:Jaguar Land Rover",
+      "type": "organization",
+      "name": "Jaguar Land Rover"
+    },
+    {
+      "id": "info:item:politics:global:2026-09-08-005",
+      "type": "item",
+      "date": "2026-09-08",
+      "title": "Plans for major overhaul of councils halted"
+    },
+    {
+      "id": "taxonomy/misc/local governance",
+      "type": "taxonomy",
+      "name": "local governance"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -12544,6 +12634,331 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-09-08-001",
+      "target": "info:entity:company:Amazon",
+      "relation": "charterer and cargo client"
+    },
+    {
+      "source": "info:item:world:global:2026-09-08-001",
+      "target": "info:entity:company:21 Air",
+      "relation": "operator of the crashed aircraft"
+    },
+    {
+      "source": "info:item:world:global:2026-09-08-001",
+      "target": "info:entity:organization:National Transportation Safety Board (NTSB)",
+      "relation": "lead investigative agency"
+    },
+    {
+      "source": "info:item:world:global:2026-09-08-001",
+      "target": "info:entity:person:Jennifer Homendy",
+      "relation": "NTSB chairwoman overseeing the investigation"
+    },
+    {
+      "source": "info:item:world:global:2026-09-08-001",
+      "target": "info:item:world:global:2026-09-07-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-08-001",
+      "target": "info:item:world:global:2026-09-07-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-08-001",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-08-001",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-08-001",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-08-001",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-08-001",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-08-001",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-08-001",
+      "target": "taxonomy/category/industry",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-08-002",
+      "target": "info:entity:person:Bassam al‑Assaf",
+      "relation": "headteacher of al‑Mughayyir boys school"
+    },
+    {
+      "source": "info:item:world:global:2026-09-08-002",
+      "target": "info:entity:organization:Israeli Defence Forces",
+      "relation": "security force operating in the West Bank"
+    },
+    {
+      "source": "info:item:world:global:2026-09-08-002",
+      "target": "info:entity:region:West Bank",
+      "relation": "territory where settlement violence occurs"
+    },
+    {
+      "source": "info:item:world:global:2026-09-08-002",
+      "target": "info:entity:event:UN Commission of Inquiry report (June 2026)",
+      "relation": "document detailing settler targeting of Palestinian children"
+    },
+    {
+      "source": "info:item:world:global:2026-09-08-002",
+      "target": "info:entity:concept:illegal settlements",
+      "relation": "violates international law in occupied territories"
+    },
+    {
+      "source": "info:item:world:global:2026-09-08-002",
+      "target": "info:item:world:global:2026-09-08-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-08-002",
+      "target": "info:item:world:global:2026-09-07-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-08-002",
+      "target": "info:item:world:global:2026-09-07-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-08-002",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-08-002",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-08-002",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-08-002",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-08-002",
+      "target": "taxonomy/misc/West Bank",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-08-002",
+      "target": "taxonomy/misc/Israeli settlements",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-08-002",
+      "target": "taxonomy/misc/Palestinian children",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-08-003",
+      "target": "info:entity:organization:Société d'Exploitation de la tour Eiffel (SETE)",
+      "relation": "operator of the Eiffel Tower"
+    },
+    {
+      "source": "info:item:world:global:2026-09-08-003",
+      "target": "info:entity:person:Emmanuel Macron",
+      "relation": "President of France, head of state"
+    },
+    {
+      "source": "info:item:world:global:2026-09-08-003",
+      "target": "info:entity:organization:BAPS",
+      "relation": "religious delegation that requested gender‑segregated arrangements"
+    },
+    {
+      "source": "info:item:world:global:2026-09-08-003",
+      "target": "info:entity:person:Marine Le Pen",
+      "relation": "French far‑right leader, commentator on the incident"
+    },
+    {
+      "source": "info:item:world:global:2026-09-08-003",
+      "target": "info:item:world:global:2026-09-08-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-08-003",
+      "target": "info:item:world:global:2026-09-08-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-08-003",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-08-003",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-08-003",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-08-003",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-08-003",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-08-003",
+      "target": "taxonomy/category/industry",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-08-003",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-08-004",
+      "target": "info:entity:person:John Healey",
+      "relation": "Chancellor of the Exchequer presenting growth agenda and fiscal plans"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-08-004",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "Mayor of Greater Manchester aligning with Healey on fiscal discipline"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-08-004",
+      "target": "info:entity:person:Rachel Reeves",
+      "relation": "Former Chancellor whose fiscal stance Healey’s policies echo"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-08-004",
+      "target": "info:entity:organization:Jaguar Land Rover",
+      "relation": "Major UK employer whose job cuts highlight economic challenges"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-08-004",
+      "target": "info:item:politics:global:2026-09-07-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-08-004",
+      "target": "info:item:politics:global:2026-09-07-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-08-004",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-08-004",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-08-004",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-08-004",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-08-004",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-08-004",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-08-005",
+      "target": "info:entity:person:Angela Rayner",
+      "relation": "Secretary of State for Local Government leading the review"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-08-005",
+      "target": "info:entity:organization:Reform UK",
+      "relation": "Filed judicial reviews against council reorganisation plans"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-08-005",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "Prime Minister prioritising devolution"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-08-005",
+      "target": "info:entity:company:OpenAI",
+      "relation": "Mentioned in editorial priorities as a key AI entity"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-08-005",
+      "target": "info:item:politics:global:2026-09-08-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-08-005",
+      "target": "info:item:politics:global:2026-09-07-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-08-005",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-08-005",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-08-005",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-08-005",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-08-005",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-08-005",
+      "target": "taxonomy/misc/local governance",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -12657,7 +13072,7 @@
       "source": "info:entity:company:21 Air",
       "target": "info:entity:company:Amazon",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:company:21 Air",
@@ -12668,6 +13083,12 @@
     {
       "source": "info:entity:company:21 Air",
       "target": "info:entity:organization:National Transportation Safety Board (NTSB)",
+      "relation": "co-occurs",
+      "weight": "2"
+    },
+    {
+      "source": "info:entity:company:21 Air",
+      "target": "info:entity:person:Jennifer Homendy",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -12722,6 +13143,12 @@
     {
       "source": "info:entity:company:Amazon",
       "target": "info:entity:organization:National Transportation Safety Board (NTSB)",
+      "relation": "co-occurs",
+      "weight": "2"
+    },
+    {
+      "source": "info:entity:company:Amazon",
+      "target": "info:entity:person:Jennifer Homendy",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -13219,6 +13646,12 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:organization:Reform UK",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:organization:World Meteorological Organization",
       "relation": "co-occurs",
       "weight": "1"
@@ -13232,6 +13665,12 @@
     {
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Andy Burnham",
+      "relation": "co-occurs",
+      "weight": "2"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:person:Angela Rayner",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -13926,6 +14365,30 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:concept:illegal settlements",
+      "target": "info:entity:event:UN Commission of Inquiry report (June 2026)",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:illegal settlements",
+      "target": "info:entity:organization:Israeli Defence Forces",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:illegal settlements",
+      "target": "info:entity:person:Bassam al‑Assaf",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:illegal settlements",
+      "target": "info:entity:region:West Bank",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:concept:postpartum psychosis",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
@@ -14048,6 +14511,24 @@
     {
       "source": "info:entity:event:Russian invasion of Ukraine",
       "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:event:UN Commission of Inquiry report (June 2026)",
+      "target": "info:entity:organization:Israeli Defence Forces",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:event:UN Commission of Inquiry report (June 2026)",
+      "target": "info:entity:person:Bassam al‑Assaf",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:event:UN Commission of Inquiry report (June 2026)",
+      "target": "info:entity:region:West Bank",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -14426,6 +14907,24 @@
     {
       "source": "info:entity:organization:Avengers AI Labs",
       "target": "info:entity:product:Storm Shadow",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:BAPS",
+      "target": "info:entity:organization:Société d'Exploitation de la tour Eiffel (SETE)",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:BAPS",
+      "target": "info:entity:person:Emmanuel Macron",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:BAPS",
+      "target": "info:entity:person:Marine Le Pen",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -15223,6 +15722,12 @@
     },
     {
       "source": "info:entity:organization:Israeli Defence Forces",
+      "target": "info:entity:person:Bassam al‑Assaf",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Israeli Defence Forces",
       "target": "info:entity:person:Benjamin Netanyahu",
       "relation": "co-occurs",
       "weight": "1"
@@ -15242,6 +15747,30 @@
     {
       "source": "info:entity:organization:Israeli Defence Forces",
       "target": "info:entity:region:Middle East",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Israeli Defence Forces",
+      "target": "info:entity:region:West Bank",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Jaguar Land Rover",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Jaguar Land Rover",
+      "target": "info:entity:person:John Healey",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Jaguar Land Rover",
+      "target": "info:entity:person:Rachel Reeves",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -15438,6 +15967,12 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:National Transportation Safety Board (NTSB)",
+      "target": "info:entity:person:Jennifer Homendy",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:National Weather Service",
       "target": "info:entity:person:Pierre Michel Formosa",
       "relation": "co-occurs",
@@ -15573,7 +16108,13 @@
       "source": "info:entity:organization:Reform UK",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
+    },
+    {
+      "source": "info:entity:organization:Reform UK",
+      "target": "info:entity:person:Angela Rayner",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:organization:Reform UK",
@@ -15704,6 +16245,18 @@
     {
       "source": "info:entity:organization:Shelter",
       "target": "info:entity:person:Angela Rayner",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Société d'Exploitation de la tour Eiffel (SETE)",
+      "target": "info:entity:person:Emmanuel Macron",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Société d'Exploitation de la tour Eiffel (SETE)",
+      "target": "info:entity:person:Marine Le Pen",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -16125,7 +16678,7 @@
       "source": "info:entity:person:Andy Burnham",
       "target": "info:entity:person:Angela Rayner",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Andy Burnham",
@@ -16149,7 +16702,7 @@
       "source": "info:entity:person:Andy Burnham",
       "target": "info:entity:person:John Healey",
       "relation": "co-occurs",
-      "weight": "4"
+      "weight": "5"
     },
     {
       "source": "info:entity:person:Andy Burnham",
@@ -16197,7 +16750,7 @@
       "source": "info:entity:person:Andy Burnham",
       "target": "info:entity:person:Rachel Reeves",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Andy Burnham",
@@ -16322,6 +16875,12 @@
     {
       "source": "info:entity:person:Balendra Shah",
       "target": "info:entity:region:Tibet",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Bassam al‑Assaf",
+      "target": "info:entity:region:West Bank",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -16639,6 +17198,12 @@
     },
     {
       "source": "info:entity:person:Emmanuel Macron",
+      "target": "info:entity:person:Marine Le Pen",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Emmanuel Macron",
       "target": "info:entity:product:Scalp missile",
       "relation": "co-occurs",
       "weight": "1"
@@ -16833,7 +17398,7 @@
       "source": "info:entity:person:John Healey",
       "target": "info:entity:person:Rachel Reeves",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:John Healey",

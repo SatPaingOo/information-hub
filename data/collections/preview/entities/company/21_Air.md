@@ -1,7 +1,7 @@
 ---
 name: "21 Air"
 entity_type: company
-backlink_count: 1
+backlink_count: 2
 ---
 
 # 21 Air
@@ -10,4 +10,5 @@ backlink_count: 1
 
 ## Referenced by
 
+- 2026-09-08 · [[2026-09-08-001-flight-recorders-recovered-from-amazon-cargo-plane-crash]] — Flight recorders recovered from Amazon cargo plane crash
 - 2026-09-07 · [[2026-09-07-003-five-dead-after-amazon-cargo-plane-crashes-at-miami-airport]] — Five dead after Amazon cargo plane crashes at Miami airport

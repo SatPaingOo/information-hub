@@ -1,7 +1,7 @@
 ---
 node: "politics"
 layer: topic
-item_count: 41
+item_count: 43
 ---
 
 # politics
@@ -17,6 +17,8 @@ item_count: 41
 
 ## Items
 
+- 2026-09-08 · [[2026-09-08-004-chancellor-calls-for-confidence-about-britain-despite]] — Chancellor calls for 'confidence about Britain' despite 'historic high' borrowing costs
+- 2026-09-08 · [[2026-09-08-005-plans-for-major-overhaul-of-councils-halted]] — Plans for major overhaul of councils halted
 - 2026-09-07 · [[2026-09-07-004-minister-to-meet-jaguar-land-rover-boss-as-thousands-of]] — Minister to meet Jaguar Land Rover boss as thousands of job cuts expected
 - 2026-09-07 · [[2026-09-07-005-green-party-deputy-leader-linked-to-property-lets-despite]] — Green Party deputy leader linked to property lets despite opposition to landlords
 - 2026-09-07 · [[2026-09-07-008-germany-s-far-right-afd-says-democracy-demands-parties]] — Germany's far-right AfD says 'democracy demands' parties work with them after state election win

@@ -1,7 +1,7 @@
 ---
 node: "geopolitics"
 layer: topic
-item_count: 27
+item_count: 28
 ---
 
 # geopolitics
@@ -24,6 +24,7 @@ item_count: 27
 
 ## Items
 
+- 2026-09-08 · [[2026-09-08-004-chancellor-calls-for-confidence-about-britain-despite]] — Chancellor calls for 'confidence about Britain' despite 'historic high' borrowing costs
 - 2026-09-05 · [[2026-09-05-003-europe-targeted-by-spiralling-campaign-of-sabotage-and]] — Europe targeted by spiralling campaign of sabotage - and Russia is the chief suspect
 - 2026-09-05 · [[2026-09-05-004-farage-threatens-to-overhaul-lords-and-judges-to-meet-his]] — Farage threatens to overhaul Lords and judges to meet his pledges
 - 2026-09-05 · [[2026-09-05-005-farage-unveils-small-boats-deal-with-french-national-rally]] — Farage unveils small boats deal with French National Rally party
