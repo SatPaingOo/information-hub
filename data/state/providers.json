@@ -1,11 +1,11 @@
 {
   "groq": {
-    "quota_date": "2026-09-07",
-    "tokens_used": 24894,
-    "items": 4,
-    "calls": 8,
-    "errors": 4,
-    "cooldown_until": "2026-09-07T10:10:30+00:00",
+    "quota_date": "2026-09-08",
+    "tokens_used": 0,
+    "items": 0,
+    "calls": 0,
+    "errors": 0,
+    "cooldown_until": null,
     "models": {
       "llama-3.3-70b-versatile": {
         "calls": 0,
@@ -38,7 +38,7 @@
         "last_health_check": "2026-09-07T15:55:10+00:00",
         "latency_ms": 4654,
         "supports_json": true,
-        "cooldown_until": "2026-09-07T10:10:30+00:00"
+        "cooldown_until": null
       },
       "openai/gpt-oss-20b": {
         "calls": 23,
@@ -54,10 +54,10 @@
     }
   },
   "openrouter": {
-    "quota_date": "2026-09-07",
-    "tokens_used": 39548,
-    "items": 6,
-    "calls": 10,
+    "quota_date": "2026-09-08",
+    "tokens_used": 0,
+    "items": 0,
+    "calls": 0,
     "errors": 0,
     "cooldown_until": null,
     "models": {
@@ -361,12 +361,12 @@
     }
   },
   "gemini": {
-    "quota_date": "2026-09-07",
+    "quota_date": "2026-09-08",
     "tokens_used": 0,
     "items": 0,
     "calls": 0,
-    "errors": 6,
-    "cooldown_until": "2026-09-07T10:10:35+00:00",
+    "errors": 0,
+    "cooldown_until": null,
     "models": {
       "gemini-3.5-flash-lite": {
         "calls": 0,
@@ -377,7 +377,7 @@
         "last_health_check": "2026-09-07T05:53:40+00:00",
         "latency_ms": null,
         "supports_json": true,
-        "cooldown_until": "2026-09-07T05:55:40+00:00"
+        "cooldown_until": null
       },
       "gemini-3.5-flash": {
         "calls": 0,
@@ -388,7 +388,7 @@
         "last_health_check": "2026-09-07T10:10:05+00:00",
         "latency_ms": null,
         "supports_json": true,
-        "cooldown_until": "2026-09-07T10:12:05+00:00"
+        "cooldown_until": null
       }
     }
   }
