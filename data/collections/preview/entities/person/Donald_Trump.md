@@ -1,7 +1,7 @@
 ---
 name: "Donald Trump"
 entity_type: person
-backlink_count: 21
+backlink_count: 22
 ---
 
 # Donald Trump
@@ -10,6 +10,7 @@ backlink_count: 21
 
 ## Referenced by
 
+- 2026-09-09 · [[2026-09-09-003-us-slaps-import-ban-on-canadian-alcohol-and-other-goods]] — US slaps import ban on Canadian alcohol and other goods
 - 2026-09-07 · [[2026-09-07-001-germany-s-far-right-afd-hails-big-victory-in-east-but]] — Germany's far‑right AfD hails big victory in east, but falls short of majority
 - 2026-09-07 · [[2026-09-07-002-europe-wrestles-with-impact-of-historic-regional-gains-for]] — Europe wrestles with impact of historic regional gains for Germany's AfD
 - 2026-09-06 · [[2026-09-06-002-us-and-iran-trade-retaliatory-attacks-on-ships-as-conflict]] — US and Iran trade retaliatory attacks on ships as conflict flares

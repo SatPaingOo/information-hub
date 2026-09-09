@@ -1,7 +1,7 @@
 ---
 node: "geopolitics"
 layer: topic
-item_count: 28
+item_count: 30
 ---
 
 # geopolitics
@@ -24,6 +24,8 @@ item_count: 28
 
 ## Items
 
+- 2026-09-09 · [[2026-09-09-002-paul-adams-british-israeli-relations-at-lowest-ebb-in]] — Paul Adams: British-Israeli relations at lowest ebb in decades
+- 2026-09-09 · [[2026-09-09-003-us-slaps-import-ban-on-canadian-alcohol-and-other-goods]] — US slaps import ban on Canadian alcohol and other goods
 - 2026-09-08 · [[2026-09-08-004-chancellor-calls-for-confidence-about-britain-despite]] — Chancellor calls for 'confidence about Britain' despite 'historic high' borrowing costs
 - 2026-09-05 · [[2026-09-05-003-europe-targeted-by-spiralling-campaign-of-sabotage-and]] — Europe targeted by spiralling campaign of sabotage - and Russia is the chief suspect
 - 2026-09-05 · [[2026-09-05-004-farage-threatens-to-overhaul-lords-and-judges-to-meet-his]] — Farage threatens to overhaul Lords and judges to meet his pledges

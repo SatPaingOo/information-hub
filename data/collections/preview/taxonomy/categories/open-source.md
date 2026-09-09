@@ -1,7 +1,7 @@
 ---
 node: "open-source"
 layer: category
-item_count: 18
+item_count: 19
 ---
 
 # open-source
@@ -15,9 +15,11 @@ item_count: 18
 ## Cross-layer relations
 
 - [[ai-ml]] — *relates*
+- [[products]] — *relates*
 
 ## Items
 
+- 2026-09-09 · [[2026-09-09-006-relaticle-open-source-crm-with-approval-gated-ai-writes]] — Relaticle: Open‑source CRM with Approval‑Gated AI Writes
 - 2026-08-25 · [[2026-08-25-004-toward-compact-data-from-big-data]] — Toward Compact Data from Big Data
 - 2026-08-25 · [[2026-08-25-004-toward-compact-data-from-big-data]] — Toward Compact Data from Big Data
 - 2026-08-24 · [[2026-08-24-004-robust-federated-training-via-collaborative-machine]] — Robust Federated Training via Collaborative Machine Teaching using Trusted Instances

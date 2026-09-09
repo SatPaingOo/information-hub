@@ -1,7 +1,7 @@
 ---
 node: "product"
 layer: category
-item_count: 35
+item_count: 36
 ---
 
 # product
@@ -19,6 +19,7 @@ item_count: 35
 
 ## Items
 
+- 2026-09-09 · [[2026-09-09-006-relaticle-open-source-crm-with-approval-gated-ai-writes]] — Relaticle: Open‑source CRM with Approval‑Gated AI Writes
 - 2026-09-07 · [[2026-09-07-006-kit-by-speakeasy]] — Kit by Speakeasy
 - 2026-09-07 · [[2026-09-07-007-agentic-video-understanding-in-gemini]] — Agentic Video Understanding in Gemini
 - 2026-09-06 · [[2026-09-06-006-reflexio]] — Reflexio

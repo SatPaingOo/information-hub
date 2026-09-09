@@ -1,7 +1,7 @@
 ---
 name: "Mark Carney"
 entity_type: person
-backlink_count: 6
+backlink_count: 7
 ---
 
 # Mark Carney
@@ -10,6 +10,7 @@ backlink_count: 6
 
 ## Referenced by
 
+- 2026-09-09 · [[2026-09-09-003-us-slaps-import-ban-on-canadian-alcohol-and-other-goods]] — US slaps import ban on Canadian alcohol and other goods
 - 2026-08-30 · [[2026-08-30-003-canada-installs-large-lake-ontario-sign-in-latest-jab-at-us]] — Canada installs large Lake Ontario sign in latest jab at US
 - 2026-08-26 · [[2026-08-26-008-canada-announces-dollar-for-dollar-retaliatory-tariffs-on]] — Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%
 - 2026-08-24 · [[2026-08-24-002-trump-says-canada-wants-benefits-of-being-us-state-after]] — Trump says Canada wants 'benefits' of being US state after trade talks collapse

@@ -1,7 +1,7 @@
 ---
 name: "Reform UK"
 entity_type: organization
-backlink_count: 10
+backlink_count: 11
 ---
 
 # Reform UK
@@ -10,6 +10,7 @@ backlink_count: 10
 
 ## Referenced by
 
+- 2026-09-09 · [[2026-09-09-005-commentator-tim-montgomerie-quits-reform-following]] — Commentator Tim Montgomerie quits Reform following suspension
 - 2026-09-08 · [[2026-09-08-005-plans-for-major-overhaul-of-councils-halted]] — Plans for major overhaul of councils halted
 - 2026-09-06 · [[2026-09-06-004-nigel-farage-tells-bbc-he-wasn-t-listening-during-foreign]] — Nigel Farage tells BBC he 'wasn't listening' during foreign donor talks filmed undercover
 - 2026-09-06 · [[2026-09-06-005-chris-mason-reform-winded-by-donations-row-as-insiders]] — Chris Mason: Reform winded by donations row as insiders call for shift in approach

@@ -1,0 +1,122 @@
+{
+  "run_timestamp": "2026-09-09T01:38:11+00:00",
+  "items": [
+    {
+      "id": "info:item:world:global:2026-09-09-007",
+      "key": "2026-09-09-007",
+      "date": "2026-09-09",
+      "content_type": "digest",
+      "topic": "world",
+      "region": "global",
+      "categories": [
+        "policy",
+        "industry"
+      ],
+      "source": {
+        "name": "feeds.bbci.co.uk",
+        "url": "https://www.bbc.co.uk/news/articles/clyrjw1yj75o?at_medium=RSS&at_campaign=rss",
+        "feed": "https://feeds.bbci.co.uk/news/world/rss.xml",
+        "type": "rss"
+      },
+      "title": "‘Constantly on my mind’ – 9/11 agony goes on for bereaved, 25 years on",
+      "tldr": "A quarter‑century after 9/11, families still await justice as the trial of alleged mastermind Khalid Sheikh Mohammed stalls, with procedural delays and evidentiary challenges threatening to outlive the victims.",
+      "background": "On 11 September 2001 al‑Qaeda operatives hijacked four commercial aircraft, crashing two into the World Trade Center, one into the Pentagon and a fourth in Pennsylvania after passenger resistance. The attacks killed 2,977 victims, triggered the U.S. \"War on Terror\" and led to the creation of the Guantanamo Bay detention facility. Khalid Sheikh Mohammed (KSM), identified by U.S. intelligence as the chief architect of the plot, has been held at Guantanamo since 2006 without a final trial. Over the past two decades, a series of pre‑trial hearings, evidentiary disputes and judicial turnovers have delayed the case, while the families of victims continue to seek closure.",
+      "analysis": [
+        {
+          "heading": "Legal Gridlock and the Role of Torture Evidence",
+          "content": "The most significant obstacle to a speedy trial is the admissibility of evidence obtained under the CIA’s \"enhanced interrogation\" program. In June 2028 a military judge excluded KSM’s confessions, labeling the CIA’s methods as \"extraordinary physical and mental abuse\" and deeming the statements involuntary. International law scholars, such as Kasey McCall‑Smith of Edinburgh University, argue that the torture taint extends to any derivative evidence, forcing prosecutors to rely on a patchwork of intercepted communications, forensic data and witness testimony. This evidentiary uncertainty fuels repeated motions to suppress, prolonging pre‑trial phases and eroding confidence in the military commission system."
+        },
+        {
+          "heading": "Victim Advocacy and the Human Cost of Delay",
+          "content": "Families like the Restas and the Gerhardts have become de‑facto watchdogs, attending every hearing and lobbying Congress for a civilian federal trial. Their testimonies highlight a psychological toll: aging parents fear they will die before seeing a verdict, while younger relatives grapple with intergenerational trauma. The lottery system that determines courtroom access, the thick glass barrier separating victims from defendants, and the rotating roster of five military judges underscore a process perceived as distant and opaque. These dynamics have spurred calls for a transparent civilian court, arguing that a legitimate, public trial would better honor the 2,976 victims listed on the charge sheet."
+        },
+        {
+          "heading": "Geopolitical Ramifications and U.S. Credibility",
+          "content": "The prolonged Guantanamo case reverberates beyond domestic policy. Allies in NATO and the European Union have repeatedly criticized the United States for maintaining a detention regime that appears to contravene the Convention Against Torture. The case also influences U.S. soft power in the Middle East, where perceptions of American justice are tied to broader counter‑terrorism narratives. A successful, law‑based prosecution could reinforce the rule‑of‑law argument championed by successive administrations, whereas continued delays risk reinforcing narratives of impunity and double standards, potentially emboldening extremist recruitment."
+        }
+      ],
+      "key_facts": [
+        "Khalid Sheikh Mohammed has been detained at Guantanamo Bay for 20 years without conviction",
+        "A trial date was set for June 2028 but has been jeopardized by the exclusion of CIA‑derived confessions",
+        "More than 2,970 victims are named in the indictment, including families still awaiting justice",
+        "Five different military judges have overseen the pre‑trial process",
+        "Victims must win a lottery to attend hearings, which are conducted behind bullet‑proof glass"
+      ],
+      "implications": [
+        "Legal precedent: The handling of torture‑tainted evidence will shape future terrorism prosecutions in both military and civilian courts",
+        "Domestic politics: Congressional pressure may increase for a civilian trial venue, influencing defense‑budget allocations for Guantanamo",
+        "International relations: Continued delays could strain U.S. ties with allies advocating for human‑rights compliance",
+        "Victim policy: Growing advocacy may lead to legislative reforms granting families greater procedural rights and compensation mechanisms"
+      ],
+      "outlook": "If the military commission can secure sufficient admissible evidence, a trial could commence by late 2029, but the likelihood of further postponements remains high. Legislative initiatives in the 118th Congress propose transferring the case to a federal district court, which would require congressional approval and could reset procedural timelines. Meanwhile, the aging cohort of victims underscores a narrowing window for direct familial participation. International watchdogs are expected to intensify scrutiny of Guantanamo’s legal framework, potentially prompting executive action to either close the facility or overhaul its judicial processes.",
+      "entities": [
+        {
+          "type": "person",
+          "name": "Khalid Sheikh Mohammed",
+          "relation": "alleged mastermind of 9/11, detainee at Guantanamo Bay"
+        },
+        {
+          "type": "person",
+          "name": "Tom Resta",
+          "relation": "brother of a 9/11 victim, vocal advocate for trial"
+        },
+        {
+          "type": "organization",
+          "name": "Guantanamo Bay detention camp",
+          "relation": "site of pre‑trial hearings and detention of KSM"
+        },
+        {
+          "type": "organization",
+          "name": "CIA",
+          "relation": "conducted enhanced interrogation, source of contested evidence"
+        }
+      ],
+      "tags": [
+        "9/11",
+        "Guantanamo Bay",
+        "military commissions",
+        "torture",
+        "victim advocacy",
+        "U.S. justice system"
+      ],
+      "related_items": [
+        "info:item:world:global:2026-09-09-001",
+        "info:item:world:global:2026-09-09-002",
+        "info:item:world:global:2026-09-09-003",
+        "info:item:world:global:2026-09-09-004"
+      ],
+      "related_taxonomy": [
+        {
+          "node": "human rights",
+          "relation": "relates"
+        },
+        {
+          "node": "international law",
+          "relation": "relates"
+        },
+        {
+          "node": "counter‑terrorism policy",
+          "relation": "relates"
+        }
+      ],
+      "word_count": 660,
+      "collection": "world-news",
+      "provenance": {
+        "generated_by": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "prompt_version": "v3.1",
+          "supports_json": true
+        },
+        "schema_version": "v3"
+      },
+      "related_notes": [
+        "2026-09-09-001-uk-announces-sanctions-on-west-bank-settlements-prompting",
+        "2026-09-09-002-paul-adams-british-israeli-relations-at-lowest-ebb-in",
+        "2026-09-09-003-us-slaps-import-ban-on-canadian-alcohol-and-other-goods"
+      ],
+      "fulltext": "'Constantly on my mind' - 9/11 agony goes on for bereaved, 25 years on\n- Published\nThe US government has described it as the \"most egregious criminal act on American soil in modern history\".\nBut a quarter of a century on, the trial of its alleged mastermind is yet to begin and families of those killed fear that time for justice to be delivered is running out.\nTom Resta's brother John and his wife Sylvia, who was seven months pregnant, were among the almost 3,000 people killed on 11 September 2001 when hijackers flew planes into the World Trade Center in New York City and the Pentagon in Virginia. Another crashed in a field in Pennsylvania after the passengers fought back.\nThe couple had been preparing their unborn baby's nursery, painting it with characters from the children's television show Blue's Clues in the days before 9/11. They had dreamed of having a baby and doted on the children of friends and family.\nOn the day of the attacks, the couple - both traders - were working on the 92nd floor of the north tower of the World Trade Center.\n\"After all this time, it still chokes me up,\" Resta told the BBC through tears. While 25 years have passed, he said 9/11 was \"almost constantly\" on his mind.\n- New Yorkers were 'lied' to about toxic air after 9/11 attacks, says Mamdani \n  - Published7 hours ago\n- New videos of man in 9/11 lawsuit reveal extremist links \n  - Published1 day ago\nResta has been to the US naval base of Guantanamo Bay four times to watch complex pre-trial proceedings for alleged 9/11 mastermind Khalid Sheikh Mohammed and his co-defendants - a process he describes as \"laborious and tedious\".\nA military prison was established on the base in south-eastern Cuba during the \"war on terror\" that followed the 9/11 attacks, and Mohammed - often referred to as KSM - has now been held there for 20 years without ever being convicted.\nRelatives of victims enter a lottery process to attend the proceedings in a high-security courtroom, where thick glass separates them and members of the press from the defendants.\nThe pre-trial process has been going on for so long that it has now been presided over by five different military judges.\nLast month, as the 25th anniversary approached, there was a flurry of movement and something of a breakthrough, with a trial date set for Mohammed for June 2028.\nBut Resta said he was bracing himself for further delays, and with so much time having passed, some of his relatives feared they would not live long enough to see the trial.\n\"My father will be 98 in November, and I don't think he's expecting to see it. I have a lot of family members - aunts, uncles - that would all like to see it happen. But my parents in particular, I don't think they expect to live long enough,\" he said.\n\"Hopefully all the defendants will still be alive by the time we get to trial. That's a big worry,\" he added.\nResta's concerns that a trial could still be further delayed were shared by relatives of other 9/11 victims.\nEarlier this year, Stephan Gerhardt made his sixth trip to Guantanamo. He said seeing convictions for the death of his younger brother Ralph was vital for him, but something he wished he no longer had to think about.\n\"I want to concentrate on the memories,\" he said. â\"I still have Ralph's car. I'm trying to restore it and get it in pristine shape againâ¦ We were recently visiting my parents, and we found some of his things that they were holding onto, and the emotion behind it is like, 'yeah, this is just some old stuff, but it belonged to my little brother'.\"\nGerhardt said his \"biggest concern\" was that he wanted to see Mohammed and his alleged co-conspirators convicted before they died.\n\"They're getting elderlyâ¦ I don't want them to pass away without being convicted, because that would be an injustice to all the family members - that we captured these people, but we never got to try them and convict them for the mass murder that they did of our loved ones.\"\nMohammed has been charged with offences including conspiracy and murder, with 2,976 victims listed on the charge sheet. He is accused of conceiving the idea of training pilots to fly commercial planes into buildings and taking those plans to Osama bin Laden, leader of the militant Islamist group al-Qaeda.\nHe has previously said he planned the \"9/11 operation from A to Z\".\nBut days after the trial date was set for 2028, the military judge threw out confessions made by Mohammed to FBI agents on Guantanamo Bay after he was brought there from secret CIA prisons known as \"black sites\", which he had been held in for years. In his ruling, the judge described Mohammed's treatment by the CIA as \"extraordinary physical and mental abuse\".\nHe said the confessions were not voluntary and could not be used against Mohammed at trial.\nExperts say the torture of Mohammed and his alleged co-conspirators has been the main reason for the lengthy delays in the case.\n\"Every single issue has been litigated through the issue of torture,\" said Kasey McCall-Smith, an international law professor at Edinburgh University.\nShe said the defendants were subjected to \"years of abuse\", including waterboarding and stress positions.\nJohn Ryan, author of America's Trial: Torture and the 9/11 Case on Guantanamo Bay, said last month's ruling means prosecutors lose what they had described as their best evidence against Mohammed, but it is unclear how much it will impact the case.\nThe prosecution has other evidence, Ryan says, including intercepted phone calls and secret recordings, but whether they can feature in the trial is not yet guaranteed. \"Mohammad's team and the other defence teams will file motions to suppress some of these categories of evidence, as well.\"\nDuring the George W Bush administration, the US admitted using \"enhanced interrogation techniques\" to acquire information from suspects but said these methods saved lives and never amounted to torture. President Barack Obama banned them on his second day in office.\nRelatives of the victims "
+    }
+  ],
+  "item_count": 1
+}

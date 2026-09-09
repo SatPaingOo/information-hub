@@ -1,7 +1,7 @@
 ---
 name: "Gemini"
 entity_type: model
-backlink_count: 20
+backlink_count: 21
 ---
 
 # Gemini
@@ -10,6 +10,7 @@ backlink_count: 20
 
 ## Referenced by
 
+- 2026-09-09 · [[2026-09-09-006-relaticle-open-source-crm-with-approval-gated-ai-writes]] — Relaticle: Open‑source CRM with Approval‑Gated AI Writes
 - 2026-09-07 · [[2026-09-07-007-agentic-video-understanding-in-gemini]] — Agentic Video Understanding in Gemini
 - 2026-09-06 · [[2026-09-06-006-reflexio]] — Reflexio
 - 2026-09-05 · [[2026-09-05-001-mistrial-declared-in-lindsay-clancy-murder-case-after-jury]] — Mistrial declared in Lindsay Clancy murder case, after jury deadlocks

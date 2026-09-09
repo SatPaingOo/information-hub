@@ -1,7 +1,7 @@
 ---
 node: "politics"
 layer: topic
-item_count: 43
+item_count: 45
 ---
 
 # politics
@@ -17,6 +17,8 @@ item_count: 43
 
 ## Items
 
+- 2026-09-09 · [[2026-09-09-004-new-law-to-force-tech-firms-to-stop-children-taking-or]] — New law to force tech firms to stop children taking or sharing nude images
+- 2026-09-09 · [[2026-09-09-005-commentator-tim-montgomerie-quits-reform-following]] — Commentator Tim Montgomerie quits Reform following suspension
 - 2026-09-08 · [[2026-09-08-004-chancellor-calls-for-confidence-about-britain-despite]] — Chancellor calls for 'confidence about Britain' despite 'historic high' borrowing costs
 - 2026-09-08 · [[2026-09-08-005-plans-for-major-overhaul-of-councils-halted]] — Plans for major overhaul of councils halted
 - 2026-09-07 · [[2026-09-07-004-minister-to-meet-jaguar-land-rover-boss-as-thousands-of]] — Minister to meet Jaguar Land Rover boss as thousands of job cuts expected

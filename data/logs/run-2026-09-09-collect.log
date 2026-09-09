@@ -1,0 +1,17 @@
+2026-09-09 01:30:06,600 INFO [world-news] published 2026-09-09-001 — UK announces sanctions on West Bank settlements prompting fu
+2026-09-09 01:31:13,387 INFO [world-news] published 2026-09-09-002 — Paul Adams: British-Israeli relations at lowest ebb in decad
+2026-09-09 01:32:17,337 INFO [world-news] published 2026-09-09-003 — US slaps import ban on Canadian alcohol and other goods
+2026-09-09 01:32:29,449 INFO [tech-news] nothing selected
+2026-09-09 01:34:31,267 INFO [politics] published 2026-09-09-004 — New law to force tech firms to stop children taking or shari
+2026-09-09 01:35:27,397 INFO [politics] published 2026-09-09-005 — Commentator Tim Montgomerie quits Reform following suspensio
+2026-09-09 01:37:47,208 INFO [products] published 2026-09-09-006 — Relaticle: Open‑source CRM with Approval‑Gated AI Writes
+2026-09-09 01:37:47,318 INFO collect done: 6 item(s) published — target 4/10, next run ≈ 2026-09-09T01:52:47+00:00 UTC
+2026-09-09 01:37:54,422 INFO [world-news] published 2026-09-09-007 — ‘Constantly on my mind’ – 9/11 agony goes on for bereaved, 2
+2026-09-09 01:37:54,631 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6154, Requested 4181. Please try again in 17.5125s. Need more tokens? Upgrade to Dev Tier today at https://co
+2026-09-09 01:38:00,350 INFO [world-news] attempt 2 invalid: ["entities/2/type: 'government' is not one of ['concept', 'company', 'model', 'person', 'product', 'region', 'organization', 'event']"]
+2026-09-09 01:38:00,441 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 5398, Requested 4194. Please try again in 11.94s. Need more tokens? Upgrade to Dev Tier today at https://conso
+2026-09-09 01:38:09,522 WARNING [world-news] no collect provider for deep-dive
+2026-09-09 01:38:09,884 WARNING [tech-news] no collect provider available
+2026-09-09 01:38:10,543 WARNING [politics] no collect provider available
+2026-09-09 01:38:11,656 WARNING [products] no collect provider available
+2026-09-09 01:38:11,767 INFO collect done: 1 item(s) published — target 3/10, next run ≈ 2026-09-10T01:00:00+00:00 UTC

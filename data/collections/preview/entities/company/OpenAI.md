@@ -1,7 +1,7 @@
 ---
 name: "OpenAI"
 entity_type: company
-backlink_count: 35
+backlink_count: 36
 ---
 
 # OpenAI
@@ -10,6 +10,7 @@ backlink_count: 35
 
 ## Referenced by
 
+- 2026-09-09 · [[2026-09-09-006-relaticle-open-source-crm-with-approval-gated-ai-writes]] — Relaticle: Open‑source CRM with Approval‑Gated AI Writes
 - 2026-09-08 · [[2026-09-08-005-plans-for-major-overhaul-of-councils-halted]] — Plans for major overhaul of councils halted
 - 2026-09-07 · [[2026-09-07-007-agentic-video-understanding-in-gemini]] — Agentic Video Understanding in Gemini
 - 2026-09-06 · [[2026-09-06-006-reflexio]] — Reflexio

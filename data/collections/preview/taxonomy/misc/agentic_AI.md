@@ -1,7 +1,7 @@
 ---
 node: "agentic AI"
 layer: misc
-item_count: 15
+item_count: 16
 ---
 
 # agentic AI
@@ -15,6 +15,7 @@ item_count: 15
 
 ## Items
 
+- 2026-09-09 · [[2026-09-09-006-relaticle-open-source-crm-with-approval-gated-ai-writes]] — Relaticle: Open‑source CRM with Approval‑Gated AI Writes
 - 2026-09-07 · [[2026-09-07-006-kit-by-speakeasy]] — Kit by Speakeasy
 - 2026-09-06 · [[2026-09-06-006-reflexio]] — Reflexio
 - 2026-09-05 · [[2026-09-05-006-clockwork]] — Clockwork

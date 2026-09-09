@@ -1,7 +1,7 @@
 ---
 name: "Nigel Farage"
 entity_type: person
-backlink_count: 6
+backlink_count: 7
 ---
 
 # Nigel Farage
@@ -10,6 +10,7 @@ backlink_count: 6
 
 ## Referenced by
 
+- 2026-09-09 · [[2026-09-09-005-commentator-tim-montgomerie-quits-reform-following]] — Commentator Tim Montgomerie quits Reform following suspension
 - 2026-09-06 · [[2026-09-06-004-nigel-farage-tells-bbc-he-wasn-t-listening-during-foreign]] — Nigel Farage tells BBC he 'wasn't listening' during foreign donor talks filmed undercover
 - 2026-09-06 · [[2026-09-06-005-chris-mason-reform-winded-by-donations-row-as-insiders]] — Chris Mason: Reform winded by donations row as insiders call for shift in approach
 - 2026-09-05 · [[2026-09-05-004-farage-threatens-to-overhaul-lords-and-judges-to-meet-his]] — Farage threatens to overhaul Lords and judges to meet his pledges

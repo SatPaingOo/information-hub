@@ -1,7 +1,7 @@
 ---
 node: "policy"
 layer: misc
-item_count: 155
+item_count: 164
 ---
 
 # policy
@@ -16,6 +16,15 @@ item_count: 155
 
 ## Items
 
+- 2026-09-09 · [[2026-09-09-001-uk-announces-sanctions-on-west-bank-settlements-prompting]] — UK announces sanctions on West Bank settlements prompting furious Israeli response
+- 2026-09-09 · [[2026-09-09-001-uk-announces-sanctions-on-west-bank-settlements-prompting]] — UK announces sanctions on West Bank settlements prompting furious Israeli response
+- 2026-09-09 · [[2026-09-09-002-paul-adams-british-israeli-relations-at-lowest-ebb-in]] — Paul Adams: British-Israeli relations at lowest ebb in decades
+- 2026-09-09 · [[2026-09-09-002-paul-adams-british-israeli-relations-at-lowest-ebb-in]] — Paul Adams: British-Israeli relations at lowest ebb in decades
+- 2026-09-09 · [[2026-09-09-003-us-slaps-import-ban-on-canadian-alcohol-and-other-goods]] — US slaps import ban on Canadian alcohol and other goods
+- 2026-09-09 · [[2026-09-09-003-us-slaps-import-ban-on-canadian-alcohol-and-other-goods]] — US slaps import ban on Canadian alcohol and other goods
+- 2026-09-09 · [[2026-09-09-004-new-law-to-force-tech-firms-to-stop-children-taking-or]] — New law to force tech firms to stop children taking or sharing nude images
+- 2026-09-09 · [[2026-09-09-005-commentator-tim-montgomerie-quits-reform-following]] — Commentator Tim Montgomerie quits Reform following suspension
+- 2026-09-09 · [[2026-09-09-007-constantly-on-my-mind-9-11-agony-goes-on-for-bereaved-25]] — ‘Constantly on my mind’ – 9/11 agony goes on for bereaved, 25 years on
 - 2026-09-08 · [[2026-09-08-001-flight-recorders-recovered-from-amazon-cargo-plane-crash]] — Flight recorders recovered from Amazon cargo plane crash
 - 2026-09-08 · [[2026-09-08-001-flight-recorders-recovered-from-amazon-cargo-plane-crash]] — Flight recorders recovered from Amazon cargo plane crash
 - 2026-09-08 · [[2026-09-08-002-palestinian-parents-fear-for-children-s-lives-at-school-as]] — Palestinian parents fear for children's lives at school as settler attacks grow

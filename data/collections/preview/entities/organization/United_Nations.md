@@ -1,7 +1,7 @@
 ---
 name: "United Nations"
 entity_type: organization
-backlink_count: 1
+backlink_count: 2
 ---
 
 # United Nations
@@ -10,4 +10,5 @@ backlink_count: 1
 
 ## Referenced by
 
+- 2026-09-09 · [[2026-09-09-001-uk-announces-sanctions-on-west-bank-settlements-prompting]] — UK announces sanctions on West Bank settlements prompting furious Israeli response
 - 2026-08-27 · [[2026-08-27-008-convicted-bosnian-serb-war-criminal-mladi-dies-aged-84]] — Convicted Bosnian Serb war criminal Mladić dies aged 84

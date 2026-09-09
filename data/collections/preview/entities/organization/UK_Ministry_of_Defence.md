@@ -1,7 +1,7 @@
 ---
 name: "UK Ministry of Defence"
 entity_type: organization
-backlink_count: 3
+backlink_count: 4
 ---
 
 # UK Ministry of Defence
@@ -10,6 +10,7 @@ backlink_count: 3
 
 ## Referenced by
 
+- 2026-09-09 · [[2026-09-09-002-paul-adams-british-israeli-relations-at-lowest-ebb-in]] — Paul Adams: British-Israeli relations at lowest ebb in decades
 - 2026-08-27 · [[2026-08-27-005-wes-streeting-deluged-with-homophobic-hate-mail-since]] — Wes Streeting deluged with homophobic hate mail since becoming defence secretary
 - 2026-08-25 · [[2026-08-25-002-uk-pm-burnham-vows-support-for-ukraine-despite-outrageous]] — UK PM Burnham vows support for Ukraine despite 'outrageous threats' from Russia
 - 2026-08-18 · [[2026-08-18-004-russia-says-uk-will-pay-for-supplying-drones-to-ukraine]] — Russia says UK 'will pay' for supplying drones to Ukraine

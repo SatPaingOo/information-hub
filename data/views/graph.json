@@ -3485,6 +3485,153 @@
       "name": "local governance"
     },
     {
+      "id": "info:item:world:global:2026-09-09-001",
+      "type": "item",
+      "date": "2026-09-09",
+      "title": "UK announces sanctions on West Bank settlements prompting furious Israeli response"
+    },
+    {
+      "id": "info:entity:person:Ed Miliband",
+      "type": "person",
+      "name": "Ed Miliband"
+    },
+    {
+      "id": "info:entity:person:Gideon Saar",
+      "type": "person",
+      "name": "Gideon Saar"
+    },
+    {
+      "id": "info:item:world:global:2026-09-09-002",
+      "type": "item",
+      "date": "2026-09-09",
+      "title": "Paul Adams: British-Israeli relations at lowest ebb in decades"
+    },
+    {
+      "id": "taxonomy/misc/Israel-Palestine conflict",
+      "type": "taxonomy",
+      "name": "Israel-Palestine conflict"
+    },
+    {
+      "id": "info:item:world:global:2026-09-09-003",
+      "type": "item",
+      "date": "2026-09-09",
+      "title": "US slaps import ban on Canadian alcohol and other goods"
+    },
+    {
+      "id": "info:item:politics:global:2026-09-09-004",
+      "type": "item",
+      "date": "2026-09-09",
+      "title": "New law to force tech firms to stop children taking or sharing nude images"
+    },
+    {
+      "id": "info:entity:company:Apple",
+      "type": "company",
+      "name": "Apple"
+    },
+    {
+      "id": "info:entity:person:Lisa Nandy",
+      "type": "person",
+      "name": "Lisa Nandy"
+    },
+    {
+      "id": "info:entity:organization:NSPCC",
+      "type": "organization",
+      "name": "NSPCC"
+    },
+    {
+      "id": "info:entity:organization:Open Rights Group",
+      "type": "organization",
+      "name": "Open Rights Group"
+    },
+    {
+      "id": "taxonomy/misc/Child Safety",
+      "type": "taxonomy",
+      "name": "Child Safety"
+    },
+    {
+      "id": "taxonomy/misc/Digital Regulation",
+      "type": "taxonomy",
+      "name": "Digital Regulation"
+    },
+    {
+      "id": "taxonomy/misc/Tech Policy",
+      "type": "taxonomy",
+      "name": "Tech Policy"
+    },
+    {
+      "id": "info:item:politics:global:2026-09-09-005",
+      "type": "item",
+      "date": "2026-09-09",
+      "title": "Commentator Tim Montgomerie quits Reform following suspension"
+    },
+    {
+      "id": "info:entity:person:Tim Montgomerie",
+      "type": "person",
+      "name": "Tim Montgomerie"
+    },
+    {
+      "id": "taxonomy/misc/Politics > Parties > Reform UK",
+      "type": "taxonomy",
+      "name": "Politics > Parties > Reform UK"
+    },
+    {
+      "id": "taxonomy/misc/Geopolitics > Far‑Right Movements",
+      "type": "taxonomy",
+      "name": "Geopolitics > Far‑Right Movements"
+    },
+    {
+      "id": "taxonomy/misc/Technology > AI Regulation",
+      "type": "taxonomy",
+      "name": "Technology > AI Regulation"
+    },
+    {
+      "id": "info:item:products:global:2026-09-09-006",
+      "type": "item",
+      "date": "2026-09-09",
+      "title": "Relaticle: Open‑source CRM with Approval‑Gated AI Writes"
+    },
+    {
+      "id": "info:entity:product:Relaticle",
+      "type": "product",
+      "name": "Relaticle"
+    },
+    {
+      "id": "info:entity:model:GPT‑4",
+      "type": "model",
+      "name": "GPT‑4"
+    },
+    {
+      "id": "info:item:world:global:2026-09-09-007",
+      "type": "item",
+      "date": "2026-09-09",
+      "title": "‘Constantly on my mind’ – 9/11 agony goes on for bereaved, 25 years on"
+    },
+    {
+      "id": "info:entity:person:Khalid Sheikh Mohammed",
+      "type": "person",
+      "name": "Khalid Sheikh Mohammed"
+    },
+    {
+      "id": "info:entity:person:Tom Resta",
+      "type": "person",
+      "name": "Tom Resta"
+    },
+    {
+      "id": "info:entity:organization:Guantanamo Bay detention camp",
+      "type": "organization",
+      "name": "Guantanamo Bay detention camp"
+    },
+    {
+      "id": "taxonomy/misc/international law",
+      "type": "taxonomy",
+      "name": "international law"
+    },
+    {
+      "id": "taxonomy/misc/counter‑terrorism policy",
+      "type": "taxonomy",
+      "name": "counter‑terrorism policy"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -12959,6 +13106,456 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-09-09-001",
+      "target": "info:entity:person:Ed Miliband",
+      "relation": "UK Foreign Secretary who announced sanctions"
+    },
+    {
+      "source": "info:item:world:global:2026-09-09-001",
+      "target": "info:entity:person:Gideon Saar",
+      "relation": "Israeli Foreign Minister who ordered consulate closure"
+    },
+    {
+      "source": "info:item:world:global:2026-09-09-001",
+      "target": "info:entity:organization:United Nations",
+      "relation": "provides definition of ethnic cleansing and war crimes"
+    },
+    {
+      "source": "info:item:world:global:2026-09-09-001",
+      "target": "info:entity:region:West Bank",
+      "relation": "territory subject to sanctions and settlement expansion"
+    },
+    {
+      "source": "info:item:world:global:2026-09-09-001",
+      "target": "info:item:world:global:2026-09-08-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-09-001",
+      "target": "info:item:world:global:2026-09-08-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-09-001",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-09-001",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-09-001",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-09-001",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-09-001",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-09-001",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-09-001",
+      "target": "taxonomy/topic/world",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-09-002",
+      "target": "info:entity:person:Ed Miliband",
+      "relation": "UK Foreign Secretary who announced the settlement trade ban"
+    },
+    {
+      "source": "info:item:world:global:2026-09-09-002",
+      "target": "info:entity:person:Gideon Saar",
+      "relation": "Israeli Foreign Minister who condemned the UK’s decision"
+    },
+    {
+      "source": "info:item:world:global:2026-09-09-002",
+      "target": "info:entity:organization:UK Ministry of Defence",
+      "relation": "potential affected by diplomatic tension with Israel"
+    },
+    {
+      "source": "info:item:world:global:2026-09-09-002",
+      "target": "info:entity:region:West Bank",
+      "relation": "territory where Israeli settlements are located and targeted by the ban"
+    },
+    {
+      "source": "info:item:world:global:2026-09-09-002",
+      "target": "info:item:world:global:2026-09-09-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-09-002",
+      "target": "info:item:world:global:2026-09-08-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-09-002",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-09-002",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-09-002",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-09-002",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-09-002",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-09-002",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-09-002",
+      "target": "taxonomy/misc/Israel-Palestine conflict",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-09-003",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "U.S. President who signed the executive orders imposing the import ban"
+    },
+    {
+      "source": "info:item:world:global:2026-09-09-003",
+      "target": "info:entity:person:Mark Carney",
+      "relation": "Canadian Prime Minister who warned of economic costs of reducing reliance on the United States"
+    },
+    {
+      "source": "info:item:world:global:2026-09-09-003",
+      "target": "info:item:world:global:2026-09-09-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-09-003",
+      "target": "info:item:world:global:2026-09-08-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-09-003",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-09-003",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-09-003",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-09-003",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-09-003",
+      "target": "taxonomy/topic/world",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-09-003",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-09-003",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-09-004",
+      "target": "info:entity:company:Apple",
+      "relation": "target of legislation and provider of device‑level safety features"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-09-004",
+      "target": "info:entity:company:Google",
+      "relation": "target of legislation and provider of device‑level safety features"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-09-004",
+      "target": "info:entity:person:Lisa Nandy",
+      "relation": "Culture Secretary who announced the draft law"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-09-004",
+      "target": "info:entity:organization:NSPCC",
+      "relation": "advocacy group supporting swift legislative action"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-09-004",
+      "target": "info:entity:organization:Open Rights Group",
+      "relation": "digital‑rights organization warning about privacy impacts"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-09-004",
+      "target": "info:item:politics:global:2026-09-08-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-09-004",
+      "target": "info:item:politics:global:2026-09-08-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-09-004",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-09-004",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-09-004",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-09-004",
+      "target": "taxonomy/misc/Child Safety",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-09-004",
+      "target": "taxonomy/misc/Digital Regulation",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-09-004",
+      "target": "taxonomy/misc/Tech Policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-09-005",
+      "target": "info:entity:person:Tim Montgomerie",
+      "relation": "defector and commentator who resigned from Reform UK"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-09-005",
+      "target": "info:entity:person:Nigel Farage",
+      "relation": "leader of Reform UK urged to professionalise the party"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-09-005",
+      "target": "info:entity:organization:Reform UK",
+      "relation": "political party from which Montgomerie resigned"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-09-005",
+      "target": "info:entity:organization:Alternative for Germany (AfD)",
+      "relation": "far‑right German party cited as a warning model"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-09-005",
+      "target": "info:item:politics:global:2026-09-08-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-09-005",
+      "target": "info:item:politics:global:2026-09-08-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-09-005",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-09-005",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-09-005",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-09-005",
+      "target": "taxonomy/misc/Politics > Parties > Reform UK",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-09-005",
+      "target": "taxonomy/misc/Geopolitics > Far‑Right Movements",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-09-005",
+      "target": "taxonomy/misc/Technology > AI Regulation",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-09-09-006",
+      "target": "info:entity:product:Relaticle",
+      "relation": "core offering"
+    },
+    {
+      "source": "info:item:products:global:2026-09-09-006",
+      "target": "info:entity:company:OpenAI",
+      "relation": "LLM provider"
+    },
+    {
+      "source": "info:item:products:global:2026-09-09-006",
+      "target": "info:entity:model:GPT‑4",
+      "relation": "supported model"
+    },
+    {
+      "source": "info:item:products:global:2026-09-09-006",
+      "target": "info:entity:company:Google",
+      "relation": "LLM provider"
+    },
+    {
+      "source": "info:item:products:global:2026-09-09-006",
+      "target": "info:entity:model:Gemini",
+      "relation": "supported model"
+    },
+    {
+      "source": "info:item:products:global:2026-09-09-006",
+      "target": "info:entity:company:Anthropic",
+      "relation": "LLM provider"
+    },
+    {
+      "source": "info:item:products:global:2026-09-09-006",
+      "target": "info:item:products:global:2026-09-07-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-09-09-006",
+      "target": "info:item:products:global:2026-09-07-007",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-09-09-006",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-09-09-006",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-09-09-006",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-09-09-006",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-09-09-006",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-09-09-006",
+      "target": "taxonomy/category/open-source",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-09-007",
+      "target": "info:entity:person:Khalid Sheikh Mohammed",
+      "relation": "alleged mastermind of 9/11, detainee at Guantanamo Bay"
+    },
+    {
+      "source": "info:item:world:global:2026-09-09-007",
+      "target": "info:entity:person:Tom Resta",
+      "relation": "brother of a 9/11 victim, vocal advocate for trial"
+    },
+    {
+      "source": "info:item:world:global:2026-09-09-007",
+      "target": "info:entity:organization:Guantanamo Bay detention camp",
+      "relation": "site of pre‑trial hearings and detention of KSM"
+    },
+    {
+      "source": "info:item:world:global:2026-09-09-007",
+      "target": "info:entity:organization:CIA",
+      "relation": "conducted enhanced interrogation, source of contested evidence"
+    },
+    {
+      "source": "info:item:world:global:2026-09-09-007",
+      "target": "info:item:world:global:2026-09-09-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-09-007",
+      "target": "info:item:world:global:2026-09-09-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-09-007",
+      "target": "info:item:world:global:2026-09-09-003",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-09-007",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-09-007",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-09-007",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-09-007",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-09-007",
+      "target": "taxonomy/misc/human rights",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-09-007",
+      "target": "taxonomy/misc/international law",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-09-007",
+      "target": "taxonomy/misc/counter‑terrorism policy",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -13156,13 +13753,13 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:Google",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
-      "weight": "20"
+      "weight": "21"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -13232,9 +13829,15 @@
     },
     {
       "source": "info:entity:company:Anthropic",
+      "target": "info:entity:model:GPT‑4",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "14"
+      "weight": "15"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -13310,6 +13913,12 @@
     },
     {
       "source": "info:entity:company:Anthropic",
+      "target": "info:entity:product:Relaticle",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
       "target": "info:entity:region:Myanmar",
       "relation": "co-occurs",
       "weight": "5"
@@ -13319,6 +13928,30 @@
       "target": "info:entity:region:global",
       "relation": "co-occurs",
       "weight": "2"
+    },
+    {
+      "source": "info:entity:company:Apple",
+      "target": "info:entity:company:Google",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Apple",
+      "target": "info:entity:organization:NSPCC",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Apple",
+      "target": "info:entity:organization:Open Rights Group",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Apple",
+      "target": "info:entity:person:Lisa Nandy",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:company:ByteDance",
@@ -13426,7 +14059,7 @@
       "source": "info:entity:company:Google",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:company:Google",
@@ -13436,13 +14069,43 @@
     },
     {
       "source": "info:entity:company:Google",
-      "target": "info:entity:model:Gemini",
+      "target": "info:entity:model:GPT‑4",
       "relation": "co-occurs",
       "weight": "1"
     },
     {
       "source": "info:entity:company:Google",
+      "target": "info:entity:model:Gemini",
+      "relation": "co-occurs",
+      "weight": "2"
+    },
+    {
+      "source": "info:entity:company:Google",
       "target": "info:entity:model:Gemini 3.5 Transcribe",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Google",
+      "target": "info:entity:organization:NSPCC",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Google",
+      "target": "info:entity:organization:Open Rights Group",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Google",
+      "target": "info:entity:person:Lisa Nandy",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Google",
+      "target": "info:entity:product:Relaticle",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -13616,9 +14279,15 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:model:GPT‑4",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "18"
+      "weight": "19"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -13725,6 +14394,12 @@
     {
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:product:Pluto",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:product:Relaticle",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -14629,6 +15304,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:model:GPT‑4",
+      "target": "info:entity:model:Gemini",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:GPT‑4",
+      "target": "info:entity:product:Relaticle",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:model:Gemini",
       "target": "info:entity:organization:OpenAI",
       "relation": "co-occurs",
@@ -14708,6 +15395,12 @@
     },
     {
       "source": "info:entity:model:Gemini",
+      "target": "info:entity:product:Relaticle",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
       "target": "info:entity:region:Myanmar",
       "relation": "co-occurs",
       "weight": "6"
@@ -14774,6 +15467,12 @@
     },
     {
       "source": "info:entity:organization:Alternative for Germany (AfD)",
+      "target": "info:entity:organization:Reform UK",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Alternative for Germany (AfD)",
       "target": "info:entity:person:Beatrix von Storch",
       "relation": "co-occurs",
       "weight": "1"
@@ -14787,6 +15486,18 @@
     {
       "source": "info:entity:organization:Alternative for Germany (AfD)",
       "target": "info:entity:person:Friedrich Merz",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Alternative for Germany (AfD)",
+      "target": "info:entity:person:Nigel Farage",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Alternative for Germany (AfD)",
+      "target": "info:entity:person:Tim Montgomerie",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -15038,6 +15749,12 @@
     },
     {
       "source": "info:entity:organization:CIA",
+      "target": "info:entity:organization:Guantanamo Bay detention camp",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:CIA",
       "target": "info:entity:person:Evan Gershkovich",
       "relation": "co-occurs",
       "weight": "1"
@@ -15045,6 +15762,18 @@
     {
       "source": "info:entity:organization:CIA",
       "target": "info:entity:person:John Ratcliffe",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:CIA",
+      "target": "info:entity:person:Khalid Sheikh Mohammed",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:CIA",
+      "target": "info:entity:person:Tom Resta",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -15541,6 +16270,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Guantanamo Bay detention camp",
+      "target": "info:entity:person:Khalid Sheikh Mohammed",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Guantanamo Bay detention camp",
+      "target": "info:entity:person:Tom Resta",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Hayat Tahrir al-Sham (HTS)",
       "target": "info:entity:organization:Syrian Government",
       "relation": "co-occurs",
@@ -15901,6 +16642,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:NSPCC",
+      "target": "info:entity:organization:Open Rights Group",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:NSPCC",
+      "target": "info:entity:person:Lisa Nandy",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:National Economic Council",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
@@ -16039,6 +16792,12 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Open Rights Group",
+      "target": "info:entity:person:Lisa Nandy",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:OpenAI",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
@@ -16168,7 +16927,7 @@
       "source": "info:entity:organization:Reform UK",
       "target": "info:entity:person:Nigel Farage",
       "relation": "co-occurs",
-      "weight": "6"
+      "weight": "7"
     },
     {
       "source": "info:entity:organization:Reform UK",
@@ -16179,6 +16938,12 @@
     {
       "source": "info:entity:organization:Reform UK",
       "target": "info:entity:person:Shabana Mahmood",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Reform UK",
+      "target": "info:entity:person:Tim Montgomerie",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -16394,6 +17159,18 @@
     },
     {
       "source": "info:entity:organization:UK Ministry of Defence",
+      "target": "info:entity:person:Ed Miliband",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:UK Ministry of Defence",
+      "target": "info:entity:person:Gideon Saar",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:UK Ministry of Defence",
       "target": "info:entity:person:Iain Dale",
       "relation": "co-occurs",
       "weight": "1"
@@ -16419,6 +17196,12 @@
     {
       "source": "info:entity:organization:UK Ministry of Defence",
       "target": "info:entity:product:Scalp missile",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:UK Ministry of Defence",
+      "target": "info:entity:region:West Bank",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -16520,7 +17303,25 @@
     },
     {
       "source": "info:entity:organization:United Nations",
+      "target": "info:entity:person:Ed Miliband",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:United Nations",
+      "target": "info:entity:person:Gideon Saar",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:United Nations",
       "target": "info:entity:person:Ratko Mladić",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:United Nations",
+      "target": "info:entity:region:West Bank",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -17128,7 +17929,7 @@
       "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:Mark Carney",
       "relation": "co-occurs",
-      "weight": "6"
+      "weight": "7"
     },
     {
       "source": "info:entity:person:Donald Trump",
@@ -17197,6 +17998,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:person:Ed Miliband",
+      "target": "info:entity:person:Gideon Saar",
+      "relation": "co-occurs",
+      "weight": "2"
+    },
+    {
+      "source": "info:entity:person:Ed Miliband",
+      "target": "info:entity:region:West Bank",
+      "relation": "co-occurs",
+      "weight": "2"
+    },
+    {
       "source": "info:entity:person:Emmanuel Macron",
       "target": "info:entity:person:Marine Le Pen",
       "relation": "co-occurs",
@@ -17237,6 +18050,12 @@
       "target": "info:entity:person:Mark Carney",
       "relation": "co-occurs",
       "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Gideon Saar",
+      "target": "info:entity:region:West Bank",
+      "relation": "co-occurs",
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Gordon Brown",
@@ -17479,6 +18298,12 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:person:Khalid Sheikh Mohammed",
+      "target": "info:entity:person:Tom Resta",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:person:Laura Loomer",
       "target": "info:entity:person:Milo Yiannopoulos",
       "relation": "co-occurs",
@@ -17549,6 +18374,12 @@
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
       "weight": "3"
+    },
+    {
+      "source": "info:entity:person:Nigel Farage",
+      "target": "info:entity:person:Tim Montgomerie",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:person:Pedro Sánchez",
