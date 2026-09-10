@@ -1,7 +1,7 @@
 ---
 name: "Donald Trump"
 entity_type: person
-backlink_count: 23
+backlink_count: 24
 ---
 
 # Donald Trump
@@ -11,6 +11,7 @@ backlink_count: 23
 ## Referenced by
 
 - 2026-09-10 · [[2026-09-10-007-iran-war-won-t-end-until-after-crucial-november-elections]] — Iran war won't end until after crucial November elections, says Trump
+- 2026-09-10 · [[2026-09-10-008-trump-says-every-adult-american-will-get-5-000-if]] — Trump says every adult American will get $5,000 if Republicans win midterms
 - 2026-09-09 · [[2026-09-09-003-us-slaps-import-ban-on-canadian-alcohol-and-other-goods]] — US slaps import ban on Canadian alcohol and other goods
 - 2026-09-07 · [[2026-09-07-001-germany-s-far-right-afd-hails-big-victory-in-east-but]] — Germany's far‑right AfD hails big victory in east, but falls short of majority
 - 2026-09-07 · [[2026-09-07-002-europe-wrestles-with-impact-of-historic-regional-gains-for]] — Europe wrestles with impact of historic regional gains for Germany's AfD

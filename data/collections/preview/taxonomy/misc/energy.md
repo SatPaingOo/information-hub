@@ -1,19 +1,17 @@
 ---
-node: "economics"
+node: "energy"
 layer: misc
-item_count: 2
+item_count: 1
 ---
 
-# economics
+# energy
 
 *Taxonomy layer: misc*
 
 ## Cross-layer relations
 
-- [[politics]] — *topic*
 - [[world]] — *relates*
 
 ## Items
 
 - 2026-09-10 · [[2026-09-10-008-trump-says-every-adult-american-will-get-5-000-if]] — Trump says every adult American will get $5,000 if Republicans win midterms
-- 2026-09-03 · [[2026-09-03-004-burnham-pressed-on-economy-at-first-pmqs-as-borrowing]] — Burnham pressed on economy at first PMQs as borrowing costs surge

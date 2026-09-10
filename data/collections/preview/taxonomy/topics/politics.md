@@ -1,7 +1,7 @@
 ---
 node: "politics"
 layer: topic
-item_count: 48
+item_count: 49
 ---
 
 # politics
@@ -20,6 +20,7 @@ item_count: 48
 - 2026-09-10 · [[2026-09-10-004-police-launch-criminal-investigation-into-reform-uk]] — Police launch criminal investigation into Reform UK donations
 - 2026-09-10 · [[2026-09-10-004-police-launch-criminal-investigation-into-reform-uk]] — Police launch criminal investigation into Reform UK donations
 - 2026-09-10 · [[2026-09-10-005-national-security-can-t-come-at-expense-of-social-security]] — National security can't come at expense of social security, Burnham says
+- 2026-09-10 · [[2026-09-10-008-trump-says-every-adult-american-will-get-5-000-if]] — Trump says every adult American will get $5,000 if Republicans win midterms
 - 2026-09-09 · [[2026-09-09-004-new-law-to-force-tech-firms-to-stop-children-taking-or]] — New law to force tech firms to stop children taking or sharing nude images
 - 2026-09-09 · [[2026-09-09-005-commentator-tim-montgomerie-quits-reform-following]] — Commentator Tim Montgomerie quits Reform following suspension
 - 2026-09-08 · [[2026-09-08-004-chancellor-calls-for-confidence-about-britain-despite]] — Chancellor calls for 'confidence about Britain' despite 'historic high' borrowing costs

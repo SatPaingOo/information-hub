@@ -3789,6 +3789,22 @@
       "name": "election cycles"
     },
     {
+      "id": "info:item:world:global:2026-09-10-008",
+      "type": "item",
+      "date": "2026-09-10",
+      "title": "Trump says every adult American will get $5,000 if Republicans win midterms"
+    },
+    {
+      "id": "info:entity:organization:U.S. Congress",
+      "type": "organization",
+      "name": "U.S. Congress"
+    },
+    {
+      "id": "taxonomy/misc/energy",
+      "type": "taxonomy",
+      "name": "energy"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -14178,6 +14194,71 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-09-10-008",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "proposer of the $5,000 dividend"
+    },
+    {
+      "source": "info:item:world:global:2026-09-10-008",
+      "target": "info:entity:person:JD Vance",
+      "relation": "linked the dividend to tariff revenues"
+    },
+    {
+      "source": "info:item:world:global:2026-09-10-008",
+      "target": "info:entity:region:Iran",
+      "relation": "conflict affecting global oil prices"
+    },
+    {
+      "source": "info:item:world:global:2026-09-10-008",
+      "target": "info:entity:organization:U.S. Congress",
+      "relation": "potential approver of the funding legislation"
+    },
+    {
+      "source": "info:item:world:global:2026-09-10-008",
+      "target": "info:item:world:global:2026-09-10-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-10-008",
+      "target": "info:item:world:global:2026-09-10-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-10-008",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-10-008",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-10-008",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-10-008",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-10-008",
+      "target": "taxonomy/topic/politics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-10-008",
+      "target": "taxonomy/misc/economics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-10-008",
+      "target": "taxonomy/misc/energy",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -17918,6 +17999,24 @@
       "weight": "2"
     },
     {
+      "source": "info:entity:organization:U.S. Congress",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:U.S. Congress",
+      "target": "info:entity:person:JD Vance",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:U.S. Congress",
+      "target": "info:entity:region:Iran",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:U.S. Department of Defense",
       "target": "info:entity:person:Delcy Rodriguez",
       "relation": "co-occurs",
@@ -18695,7 +18794,7 @@
       "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:JD Vance",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Donald Trump",
@@ -18785,7 +18884,7 @@
       "source": "info:entity:person:Donald Trump",
       "target": "info:entity:region:Iran",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Donald Trump",
@@ -18929,7 +19028,7 @@
       "source": "info:entity:person:JD Vance",
       "target": "info:entity:region:Iran",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:James Cleverly",
