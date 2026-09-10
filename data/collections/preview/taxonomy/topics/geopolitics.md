@@ -1,7 +1,7 @@
 ---
 node: "geopolitics"
 layer: topic
-item_count: 32
+item_count: 33
 ---
 
 # geopolitics
@@ -26,6 +26,7 @@ item_count: 32
 
 - 2026-09-10 · [[2026-09-10-004-police-launch-criminal-investigation-into-reform-uk]] — Police launch criminal investigation into Reform UK donations
 - 2026-09-10 · [[2026-09-10-005-national-security-can-t-come-at-expense-of-social-security]] — National security can't come at expense of social security, Burnham says
+- 2026-09-10 · [[2026-09-10-007-iran-war-won-t-end-until-after-crucial-november-elections]] — Iran war won't end until after crucial November elections, says Trump
 - 2026-09-09 · [[2026-09-09-002-paul-adams-british-israeli-relations-at-lowest-ebb-in]] — Paul Adams: British-Israeli relations at lowest ebb in decades
 - 2026-09-09 · [[2026-09-09-003-us-slaps-import-ban-on-canadian-alcohol-and-other-goods]] — US slaps import ban on Canadian alcohol and other goods
 - 2026-09-08 · [[2026-09-08-004-chancellor-calls-for-confidence-about-britain-despite]] — Chancellor calls for 'confidence about Britain' despite 'historic high' borrowing costs

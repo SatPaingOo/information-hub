@@ -3768,6 +3768,27 @@
       "name": "Regulatory Frameworks"
     },
     {
+      "id": "info:item:world:global:2026-09-10-007",
+      "type": "item",
+      "date": "2026-09-10",
+      "title": "Iran war won't end until after crucial November elections, says Trump"
+    },
+    {
+      "id": "info:entity:concept:Oil Prices",
+      "type": "concept",
+      "name": "Oil Prices"
+    },
+    {
+      "id": "taxonomy/misc/energy markets",
+      "type": "taxonomy",
+      "name": "energy markets"
+    },
+    {
+      "id": "taxonomy/misc/election cycles",
+      "type": "taxonomy",
+      "name": "election cycles"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -14092,6 +14113,71 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-09-10-007",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "U.S. President making election‑linked war statements"
+    },
+    {
+      "source": "info:item:world:global:2026-09-10-007",
+      "target": "info:entity:region:Iran",
+      "relation": "Primary adversary in the naval conflict"
+    },
+    {
+      "source": "info:item:world:global:2026-09-10-007",
+      "target": "info:entity:organization:U.S. Central Command (CENTCOM)",
+      "relation": "Oversees US military operations in the region"
+    },
+    {
+      "source": "info:item:world:global:2026-09-10-007",
+      "target": "info:entity:concept:Oil Prices",
+      "relation": "Economic metric directly affected by the conflict"
+    },
+    {
+      "source": "info:item:world:global:2026-09-10-007",
+      "target": "info:item:world:global:2026-09-10-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-10-007",
+      "target": "info:item:world:global:2026-09-10-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-10-007",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-10-007",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-10-007",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-10-007",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-10-007",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-10-007",
+      "target": "taxonomy/misc/energy markets",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-10-007",
+      "target": "taxonomy/misc/election cycles",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -15488,6 +15574,24 @@
     {
       "source": "info:entity:concept:Natural Language Inference",
       "target": "info:entity:product:DECODE",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Oil Prices",
+      "target": "info:entity:organization:U.S. Central Command (CENTCOM)",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Oil Prices",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Oil Prices",
+      "target": "info:entity:region:Iran",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -17791,6 +17895,12 @@
     },
     {
       "source": "info:entity:organization:U.S. Central Command (CENTCOM)",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:U.S. Central Command (CENTCOM)",
       "target": "info:entity:person:Esmaeil Baqaei",
       "relation": "co-occurs",
       "weight": "1"
@@ -17805,7 +17915,7 @@
       "source": "info:entity:organization:U.S. Central Command (CENTCOM)",
       "target": "info:entity:region:Iran",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:U.S. Department of Defense",
@@ -18668,6 +18778,12 @@
     {
       "source": "info:entity:person:Donald Trump",
       "target": "info:entity:region:Hong Kong",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Donald Trump",
+      "target": "info:entity:region:Iran",
       "relation": "co-occurs",
       "weight": "1"
     },

@@ -1,7 +1,7 @@
 ---
 node: "industry"
 layer: category
-item_count: 96
+item_count: 97
 ---
 
 # industry
@@ -22,6 +22,7 @@ item_count: 96
 - 2026-09-10 · [[2026-09-10-001-five-dead-and-86-missing-as-heartbreaking-fire-breaks-out]] — Five dead and 86 missing as 'heartbreaking' fire breaks out on Philippines ferry
 - 2026-09-10 · [[2026-09-10-002-spanish-intelligence-warned-of-ceuta-mass-crossing-plans]] — Spanish intelligence warned of Ceuta mass crossing plans before surge
 - 2026-09-10 · [[2026-09-10-003-google-picks-finland-for-its-largest-single-investment-in]] — Google picks Finland for its largest single investment in Europe
+- 2026-09-10 · [[2026-09-10-007-iran-war-won-t-end-until-after-crucial-november-elections]] — Iran war won't end until after crucial November elections, says Trump
 - 2026-09-09 · [[2026-09-09-001-uk-announces-sanctions-on-west-bank-settlements-prompting]] — UK announces sanctions on West Bank settlements prompting furious Israeli response
 - 2026-09-09 · [[2026-09-09-002-paul-adams-british-israeli-relations-at-lowest-ebb-in]] — Paul Adams: British-Israeli relations at lowest ebb in decades
 - 2026-09-09 · [[2026-09-09-003-us-slaps-import-ban-on-canadian-alcohol-and-other-goods]] — US slaps import ban on Canadian alcohol and other goods

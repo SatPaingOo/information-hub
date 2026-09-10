@@ -1,7 +1,7 @@
 ---
 node: "global"
 layer: misc
-item_count: 193
+item_count: 194
 ---
 
 # global
@@ -31,6 +31,7 @@ item_count: 193
 - 2026-09-10 · [[2026-09-10-005-national-security-can-t-come-at-expense-of-social-security]] — National security can't come at expense of social security, Burnham says
 - 2026-09-10 · [[2026-09-10-005-national-security-can-t-come-at-expense-of-social-security]] — National security can't come at expense of social security, Burnham says
 - 2026-09-10 · [[2026-09-10-006-chatgpt-images-2-5]] — ChatGPT Images 2.5
+- 2026-09-10 · [[2026-09-10-007-iran-war-won-t-end-until-after-crucial-november-elections]] — Iran war won't end until after crucial November elections, says Trump
 - 2026-09-09 · [[2026-09-09-001-uk-announces-sanctions-on-west-bank-settlements-prompting]] — UK announces sanctions on West Bank settlements prompting furious Israeli response
 - 2026-09-09 · [[2026-09-09-001-uk-announces-sanctions-on-west-bank-settlements-prompting]] — UK announces sanctions on West Bank settlements prompting furious Israeli response
 - 2026-09-09 · [[2026-09-09-002-paul-adams-british-israeli-relations-at-lowest-ebb-in]] — Paul Adams: British-Israeli relations at lowest ebb in decades

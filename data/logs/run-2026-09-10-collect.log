@@ -10,3 +10,11 @@
 2026-09-10 04:56:34,656 ERROR [products] generate error: HTTP 400: {"error":{"message":"Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":"{\"id\":\"info:item:products:global:2026-09-10-007\",\"key\":\"2026-09-10-007\",\"date\":\"2026-09-10\
 2026-09-10 04:56:40,658 WARNING [products] no collect provider for deep-dive
 2026-09-10 04:56:40,827 INFO collect done: 6 item(s) published — target 4/10, next run ≈ 2026-09-11T01:00:00+00:00 UTC
+2026-09-10 05:44:59,067 INFO [world-news] published 2026-09-10-007 — Iran war won't end until after crucial November elections, s
+2026-09-10 05:44:59,269 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 5447, Requested 4078. Please try again in 11.4375s. Need more tokens? Upgrade to Dev Tier today at https://co
+2026-09-10 05:45:02,271 WARNING [world-news] no collect provider for deep-dive
+2026-09-10 05:45:02,616 WARNING [world-news] no collect provider for deep-dive
+2026-09-10 05:45:03,093 WARNING [tech-news] no collect provider available
+2026-09-10 05:45:03,549 WARNING [politics] no collect provider available
+2026-09-10 05:45:04,328 WARNING [products] no collect provider available
+2026-09-10 05:45:04,419 INFO collect done: 1 item(s) published — target 3/10, next run ≈ 2026-09-11T01:00:00+00:00 UTC
