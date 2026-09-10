@@ -1,7 +1,7 @@
 ---
 name: "Andy Burnham"
 entity_type: person
-backlink_count: 24
+backlink_count: 25
 ---
 
 # Andy Burnham
@@ -10,6 +10,7 @@ backlink_count: 24
 
 ## Referenced by
 
+- 2026-09-10 · [[2026-09-10-005-national-security-can-t-come-at-expense-of-social-security]] — National security can't come at expense of social security, Burnham says
 - 2026-09-08 · [[2026-09-08-004-chancellor-calls-for-confidence-about-britain-despite]] — Chancellor calls for 'confidence about Britain' despite 'historic high' borrowing costs
 - 2026-09-08 · [[2026-09-08-005-plans-for-major-overhaul-of-councils-halted]] — Plans for major overhaul of councils halted
 - 2026-09-05 · [[2026-09-05-004-farage-threatens-to-overhaul-lords-and-judges-to-meet-his]] — Farage threatens to overhaul Lords and judges to meet his pledges

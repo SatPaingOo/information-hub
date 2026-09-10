@@ -3632,6 +3632,142 @@
       "name": "counter‑terrorism policy"
     },
     {
+      "id": "info:item:world:global:2026-09-10-001",
+      "type": "item",
+      "date": "2026-09-10",
+      "title": "Five dead and 86 missing as 'heartbreaking' fire breaks out on Philippines ferry"
+    },
+    {
+      "id": "info:entity:organization:Philippine Coast Guard",
+      "type": "organization",
+      "name": "Philippine Coast Guard"
+    },
+    {
+      "id": "info:entity:event:MV June Aster fire",
+      "type": "event",
+      "name": "MV June Aster fire"
+    },
+    {
+      "id": "info:entity:person:Marlon Magbanua",
+      "type": "person",
+      "name": "Marlon Magbanua"
+    },
+    {
+      "id": "info:entity:region:Palawan",
+      "type": "region",
+      "name": "Palawan"
+    },
+    {
+      "id": "taxonomy/misc/Maritime safety",
+      "type": "taxonomy",
+      "name": "Maritime safety"
+    },
+    {
+      "id": "taxonomy/misc/Southeast Asia",
+      "type": "taxonomy",
+      "name": "Southeast Asia"
+    },
+    {
+      "id": "taxonomy/misc/Disaster response",
+      "type": "taxonomy",
+      "name": "Disaster response"
+    },
+    {
+      "id": "info:item:world:global:2026-09-10-002",
+      "type": "item",
+      "date": "2026-09-10",
+      "title": "Spanish intelligence warned of Ceuta mass crossing plans before surge"
+    },
+    {
+      "id": "info:entity:organization:CNI",
+      "type": "organization",
+      "name": "CNI"
+    },
+    {
+      "id": "taxonomy/misc/border security",
+      "type": "taxonomy",
+      "name": "border security"
+    },
+    {
+      "id": "info:item:world:global:2026-09-10-003",
+      "type": "item",
+      "date": "2026-09-10",
+      "title": "Google picks Finland for its largest single investment in Europe"
+    },
+    {
+      "id": "info:entity:region:Finland",
+      "type": "region",
+      "name": "Finland"
+    },
+    {
+      "id": "info:entity:person:Petteri Orpo",
+      "type": "person",
+      "name": "Petteri Orpo"
+    },
+    {
+      "id": "info:entity:organization:Fortum",
+      "type": "organization",
+      "name": "Fortum"
+    },
+    {
+      "id": "taxonomy/misc/AI data centers",
+      "type": "taxonomy",
+      "name": "AI data centers"
+    },
+    {
+      "id": "taxonomy/misc/European Union energy policy",
+      "type": "taxonomy",
+      "name": "European Union energy policy"
+    },
+    {
+      "id": "taxonomy/misc/Nordic digital infrastructure",
+      "type": "taxonomy",
+      "name": "Nordic digital infrastructure"
+    },
+    {
+      "id": "info:item:politics:global:2026-09-10-004",
+      "type": "item",
+      "date": "2026-09-10",
+      "title": "Police launch criminal investigation into Reform UK donations"
+    },
+    {
+      "id": "info:entity:organization:Metropolitan Police",
+      "type": "organization",
+      "name": "Metropolitan Police"
+    },
+    {
+      "id": "info:item:politics:global:2026-09-10-005",
+      "type": "item",
+      "date": "2026-09-10",
+      "title": "National security can't come at expense of social security, Burnham says"
+    },
+    {
+      "id": "info:item:products:global:2026-09-10-006",
+      "type": "item",
+      "date": "2026-09-10",
+      "title": "ChatGPT Images 2.5"
+    },
+    {
+      "id": "info:entity:model:ChatGPT Images 2.5",
+      "type": "model",
+      "name": "ChatGPT Images 2.5"
+    },
+    {
+      "id": "taxonomy/misc/AI Multimodal Products",
+      "type": "taxonomy",
+      "name": "AI Multimodal Products"
+    },
+    {
+      "id": "taxonomy/misc/Global Technology Trends",
+      "type": "taxonomy",
+      "name": "Global Technology Trends"
+    },
+    {
+      "id": "taxonomy/misc/Regulatory Frameworks",
+      "type": "taxonomy",
+      "name": "Regulatory Frameworks"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -13556,6 +13692,406 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-09-10-001",
+      "target": "info:entity:organization:Philippine Coast Guard",
+      "relation": "lead rescue agency"
+    },
+    {
+      "source": "info:item:world:global:2026-09-10-001",
+      "target": "info:entity:event:MV June Aster fire",
+      "relation": "disaster event"
+    },
+    {
+      "source": "info:item:world:global:2026-09-10-001",
+      "target": "info:entity:person:Marlon Magbanua",
+      "relation": "passenger, reported missing"
+    },
+    {
+      "source": "info:item:world:global:2026-09-10-001",
+      "target": "info:entity:region:Palawan",
+      "relation": "destination province"
+    },
+    {
+      "source": "info:item:world:global:2026-09-10-001",
+      "target": "info:item:world:global:2026-09-09-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-10-001",
+      "target": "info:item:world:global:2026-09-09-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-10-001",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-10-001",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-10-001",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-10-001",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-10-001",
+      "target": "taxonomy/misc/Maritime safety",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-10-001",
+      "target": "taxonomy/misc/Southeast Asia",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-10-001",
+      "target": "taxonomy/misc/Disaster response",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-10-002",
+      "target": "info:entity:person:Pedro Sánchez",
+      "relation": "Prime Minister of Spain, central figure in political response to Ceuta crossing"
+    },
+    {
+      "source": "info:item:world:global:2026-09-10-002",
+      "target": "info:entity:organization:CNI",
+      "relation": "Spanish National Intelligence Service, issuer of pre‑crossing warning"
+    },
+    {
+      "source": "info:item:world:global:2026-09-10-002",
+      "target": "info:entity:region:Morocco",
+      "relation": "Neighboring country with alleged indirect role in facilitating crossings"
+    },
+    {
+      "source": "info:item:world:global:2026-09-10-002",
+      "target": "info:entity:organization:Vox",
+      "relation": "Far‑right Spanish political party calling for legal action against government"
+    },
+    {
+      "source": "info:item:world:global:2026-09-10-002",
+      "target": "info:item:world:global:2026-09-10-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-10-002",
+      "target": "info:item:world:global:2026-09-09-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-10-002",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-10-002",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-10-002",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-10-002",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-10-002",
+      "target": "taxonomy/misc/global migration",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-10-002",
+      "target": "taxonomy/misc/European Union",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-10-002",
+      "target": "taxonomy/misc/border security",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-10-003",
+      "target": "info:entity:company:Google",
+      "relation": "lead investor and operator of AI data centres"
+    },
+    {
+      "source": "info:item:world:global:2026-09-10-003",
+      "target": "info:entity:region:Finland",
+      "relation": "host country for the €13 bn AI infrastructure project"
+    },
+    {
+      "source": "info:item:world:global:2026-09-10-003",
+      "target": "info:entity:person:Petteri Orpo",
+      "relation": "Prime Minister of Finland endorsing the investment"
+    },
+    {
+      "source": "info:item:world:global:2026-09-10-003",
+      "target": "info:entity:organization:Fortum",
+      "relation": "energy provider partnering on the Loviisa nuclear plant agreement"
+    },
+    {
+      "source": "info:item:world:global:2026-09-10-003",
+      "target": "info:item:world:global:2026-09-10-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-10-003",
+      "target": "info:item:world:global:2026-09-09-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-10-003",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-10-003",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-10-003",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-10-003",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-10-003",
+      "target": "taxonomy/misc/AI data centers",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-10-003",
+      "target": "taxonomy/misc/European Union energy policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-10-003",
+      "target": "taxonomy/misc/Nordic digital infrastructure",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-10-004",
+      "target": "info:entity:organization:Reform UK",
+      "relation": "subject of criminal investigation for alleged foreign funding breaches"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-10-004",
+      "target": "info:entity:person:Nigel Farage",
+      "relation": "leader of Reform UK, under scrutiny for knowledge of donation discussions"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-10-004",
+      "target": "info:entity:person:Dan Jukes",
+      "relation": "senior aide, chief of staff, implicated in undercover footage"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-10-004",
+      "target": "info:entity:person:James Orr",
+      "relation": "senior aide, head of policy, implicated in undercover footage"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-10-004",
+      "target": "info:entity:organization:Metropolitan Police",
+      "relation": "investigating authority for alleged electoral law violations"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-10-004",
+      "target": "info:entity:organization:Channel 4",
+      "relation": "media outlet that broadcast the undercover investigation"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-10-004",
+      "target": "info:entity:organization:Electoral Commission",
+      "relation": "regulatory body reviewing the allegations and considering further action"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-10-004",
+      "target": "info:item:politics:global:2026-09-09-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-10-004",
+      "target": "info:item:politics:global:2026-09-09-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-10-004",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-10-004",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-10-004",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-10-004",
+      "target": "taxonomy/topic/politics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-10-004",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-10-004",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-10-005",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "Prime Minister of the United Kingdom, proponent of the 'Labour way' for welfare reduction"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-10-005",
+      "target": "info:entity:person:Kemi Badenoch",
+      "relation": "Leader of the Conservative Party, critic of delayed defence spending"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-10-005",
+      "target": "info:entity:person:John Healey",
+      "relation": "Defence Secretary appointed by Burnham, tasked with defence funding strategy"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-10-005",
+      "target": "info:entity:organization:Labour Party",
+      "relation": "Political party backing Burnham’s welfare and defence policies"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-10-005",
+      "target": "info:entity:organization:Conservative Party",
+      "relation": "Opposing party advocating welfare cuts to fund defence"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-10-005",
+      "target": "info:entity:organization:NATO",
+      "relation": "Alliance setting the 3% GDP defence spending benchmark"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-10-005",
+      "target": "info:item:politics:global:2026-09-10-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-10-005",
+      "target": "info:item:politics:global:2026-09-09-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-10-005",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-10-005",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-10-005",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-10-005",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-10-005",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-10-005",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-09-10-006",
+      "target": "info:entity:company:OpenAI",
+      "relation": "developer of ChatGPT Images 2.5"
+    },
+    {
+      "source": "info:item:products:global:2026-09-10-006",
+      "target": "info:entity:model:ChatGPT Images 2.5",
+      "relation": "product released by OpenAI"
+    },
+    {
+      "source": "info:item:products:global:2026-09-10-006",
+      "target": "info:entity:company:Anthropic",
+      "relation": "competitor with Claude‑Vision"
+    },
+    {
+      "source": "info:item:products:global:2026-09-10-006",
+      "target": "info:entity:company:Google",
+      "relation": "competitor with Gemini Vision‑Pro"
+    },
+    {
+      "source": "info:item:products:global:2026-09-10-006",
+      "target": "info:item:products:global:2026-09-09-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-09-10-006",
+      "target": "info:item:products:global:2026-09-07-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-09-10-006",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-09-10-006",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-09-10-006",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-09-10-006",
+      "target": "taxonomy/misc/AI Multimodal Products",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-09-10-006",
+      "target": "taxonomy/misc/Global Technology Trends",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-09-10-006",
+      "target": "taxonomy/misc/Regulatory Frameworks",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -13753,13 +14289,13 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:Google",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
-      "weight": "21"
+      "weight": "22"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -13806,6 +14342,12 @@
     {
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:concept:agentic AI",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:model:ChatGPT Images 2.5",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -14059,11 +14601,17 @@
       "source": "info:entity:company:Google",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:company:Google",
       "target": "info:entity:concept:Agentic AI",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Google",
+      "target": "info:entity:model:ChatGPT Images 2.5",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -14087,6 +14635,12 @@
     },
     {
       "source": "info:entity:company:Google",
+      "target": "info:entity:organization:Fortum",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Google",
       "target": "info:entity:organization:NSPCC",
       "relation": "co-occurs",
       "weight": "1"
@@ -14105,7 +14659,19 @@
     },
     {
       "source": "info:entity:company:Google",
+      "target": "info:entity:person:Petteri Orpo",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Google",
       "target": "info:entity:product:Relaticle",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Google",
+      "target": "info:entity:region:Finland",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -14256,6 +14822,12 @@
     {
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:concept:agentic AI",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:model:ChatGPT Images 2.5",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -15124,6 +15696,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:event:MV June Aster fire",
+      "target": "info:entity:organization:Philippine Coast Guard",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:event:MV June Aster fire",
+      "target": "info:entity:person:Marlon Magbanua",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:event:MV June Aster fire",
+      "target": "info:entity:region:Palawan",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:event:Mount Anak Krakatoa eruption (6 Sept 2026)",
       "target": "info:entity:organization:International Civil Aviation Organization",
       "relation": "co-occurs",
@@ -15784,6 +16374,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:CNI",
+      "target": "info:entity:organization:Vox",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:CNI",
+      "target": "info:entity:person:Pedro Sánchez",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:CNI",
+      "target": "info:entity:region:Morocco",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Canadian Ministry of Foreign Affairs",
       "target": "info:entity:organization:European Union",
       "relation": "co-occurs",
@@ -15847,13 +16455,19 @@
       "source": "info:entity:organization:Channel 4",
       "target": "info:entity:organization:Electoral Commission",
       "relation": "co-occurs",
+      "weight": "2"
+    },
+    {
+      "source": "info:entity:organization:Channel 4",
+      "target": "info:entity:organization:Metropolitan Police",
+      "relation": "co-occurs",
       "weight": "1"
     },
     {
       "source": "info:entity:organization:Channel 4",
       "target": "info:entity:organization:Reform UK",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:organization:Channel 4",
@@ -15865,19 +16479,19 @@
       "source": "info:entity:organization:Channel 4",
       "target": "info:entity:person:Dan Jukes",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:organization:Channel 4",
       "target": "info:entity:person:James Orr",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:organization:Channel 4",
       "target": "info:entity:person:Nigel Farage",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:organization:China",
@@ -15943,19 +16557,25 @@
       "source": "info:entity:organization:Conservative Party",
       "target": "info:entity:organization:Labour Party",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
+    },
+    {
+      "source": "info:entity:organization:Conservative Party",
+      "target": "info:entity:organization:NATO",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:organization:Conservative Party",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:organization:Conservative Party",
       "target": "info:entity:person:John Healey",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:organization:Conservative Party",
@@ -15967,7 +16587,7 @@
       "source": "info:entity:organization:Conservative Party",
       "target": "info:entity:person:Kemi Badenoch",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:organization:Crown Prosecution Service",
@@ -16049,9 +16669,15 @@
     },
     {
       "source": "info:entity:organization:Electoral Commission",
-      "target": "info:entity:organization:Reform UK",
+      "target": "info:entity:organization:Metropolitan Police",
       "relation": "co-occurs",
       "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Electoral Commission",
+      "target": "info:entity:organization:Reform UK",
+      "relation": "co-occurs",
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Electoral Commission",
@@ -16063,19 +16689,19 @@
       "source": "info:entity:organization:Electoral Commission",
       "target": "info:entity:person:Dan Jukes",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Electoral Commission",
       "target": "info:entity:person:James Orr",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Electoral Commission",
       "target": "info:entity:person:Nigel Farage",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:European Broadcasting Union (EBU)",
@@ -16218,6 +16844,18 @@
     {
       "source": "info:entity:organization:Federal Aviation Administration (FAA)",
       "target": "info:entity:organization:National Transportation Safety Board (NTSB)",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Fortum",
+      "target": "info:entity:person:Petteri Orpo",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Fortum",
+      "target": "info:entity:region:Finland",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -16517,15 +17155,21 @@
     },
     {
       "source": "info:entity:organization:Labour Party",
+      "target": "info:entity:organization:NATO",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Labour Party",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:organization:Labour Party",
       "target": "info:entity:person:John Healey",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:organization:Labour Party",
@@ -16537,7 +17181,7 @@
       "source": "info:entity:organization:Labour Party",
       "target": "info:entity:person:Kemi Badenoch",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:organization:Liberal Democrats",
@@ -16594,8 +17238,38 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Metropolitan Police",
+      "target": "info:entity:organization:Reform UK",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Metropolitan Police",
+      "target": "info:entity:person:Dan Jukes",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Metropolitan Police",
+      "target": "info:entity:person:James Orr",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Metropolitan Police",
+      "target": "info:entity:person:Nigel Farage",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Myanmar military (Tatmadaw)",
       "target": "info:entity:region:Sagaing region",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:NATO",
+      "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -16613,6 +17287,12 @@
     },
     {
       "source": "info:entity:organization:NATO",
+      "target": "info:entity:person:John Healey",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:NATO",
       "target": "info:entity:person:Katrín Frostadóttir",
       "relation": "co-occurs",
       "weight": "2"
@@ -16620,6 +17300,12 @@
     {
       "source": "info:entity:organization:NATO",
       "target": "info:entity:person:Keir Starmer",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:NATO",
+      "target": "info:entity:person:Kemi Badenoch",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -16840,6 +17526,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Philippine Coast Guard",
+      "target": "info:entity:person:Marlon Magbanua",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Philippine Coast Guard",
+      "target": "info:entity:region:Palawan",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Public Opinion Foundation",
       "target": "info:entity:organization:Wildberries",
       "relation": "co-occurs",
@@ -16891,7 +17589,7 @@
       "source": "info:entity:organization:Reform UK",
       "target": "info:entity:person:Dan Jukes",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:organization:Reform UK",
@@ -16903,7 +17601,7 @@
       "source": "info:entity:organization:Reform UK",
       "target": "info:entity:person:James Orr",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:organization:Reform UK",
@@ -16927,7 +17625,7 @@
       "source": "info:entity:organization:Reform UK",
       "target": "info:entity:person:Nigel Farage",
       "relation": "co-occurs",
-      "weight": "7"
+      "weight": "8"
     },
     {
       "source": "info:entity:organization:Reform UK",
@@ -17389,13 +18087,13 @@
       "source": "info:entity:organization:Vox",
       "target": "info:entity:person:Pedro Sánchez",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Vox",
       "target": "info:entity:region:Morocco",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Wildberries",
@@ -17503,7 +18201,7 @@
       "source": "info:entity:person:Andy Burnham",
       "target": "info:entity:person:John Healey",
       "relation": "co-occurs",
-      "weight": "5"
+      "weight": "6"
     },
     {
       "source": "info:entity:person:Andy Burnham",
@@ -17515,7 +18213,7 @@
       "source": "info:entity:person:Andy Burnham",
       "target": "info:entity:person:Kemi Badenoch",
       "relation": "co-occurs",
-      "weight": "4"
+      "weight": "5"
     },
     {
       "source": "info:entity:person:Andy Burnham",
@@ -17815,13 +18513,13 @@
       "source": "info:entity:person:Dan Jukes",
       "target": "info:entity:person:James Orr",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:person:Dan Jukes",
       "target": "info:entity:person:Nigel Farage",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:person:Daniel Greenberg",
@@ -18139,7 +18837,7 @@
       "source": "info:entity:person:James Orr",
       "target": "info:entity:person:Nigel Farage",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:person:Jamieson Greer",
@@ -18205,7 +18903,7 @@
       "source": "info:entity:person:John Healey",
       "target": "info:entity:person:Kemi Badenoch",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:person:John Healey",
@@ -18358,6 +19056,12 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:person:Marlon Magbanua",
+      "target": "info:entity:region:Palawan",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:person:Mike Searle",
       "target": "info:entity:person:Simon Cook",
       "relation": "co-occurs",
@@ -18384,6 +19088,12 @@
     {
       "source": "info:entity:person:Pedro Sánchez",
       "target": "info:entity:region:Morocco",
+      "relation": "co-occurs",
+      "weight": "2"
+    },
+    {
+      "source": "info:entity:person:Petteri Orpo",
+      "target": "info:entity:region:Finland",
       "relation": "co-occurs",
       "weight": "1"
     },

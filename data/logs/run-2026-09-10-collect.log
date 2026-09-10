@@ -1,0 +1,12 @@
+2026-09-10 04:54:25,677 INFO [world-news] attempt 1 invalid: ["entities/1/type: 'vessel' is not one of ['concept', 'company', 'model', 'person', 'product', 'region', 'organization', 'event']"]
+2026-09-10 04:54:46,226 INFO [world-news] published 2026-09-10-001 — Five dead and 86 missing as 'heartbreaking' fire breaks out 
+2026-09-10 04:55:05,306 INFO [world-news] published 2026-09-10-002 — Spanish intelligence warned of Ceuta mass crossing plans bef
+2026-09-10 04:55:33,765 INFO [world-news] published 2026-09-10-003 — Google picks Finland for its largest single investment in Eu
+2026-09-10 04:55:36,133 INFO [tech-news] nothing selected
+2026-09-10 04:56:03,868 INFO [politics] published 2026-09-10-004 — Police launch criminal investigation into Reform UK donation
+2026-09-10 04:56:22,014 INFO [politics] published 2026-09-10-005 — National security can't come at expense of social security, 
+2026-09-10 04:56:29,195 INFO [products] published 2026-09-10-006 — ChatGPT Images 2.5
+2026-09-10 04:56:29,342 ERROR [products] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 5286, Requested 3055. Please try again in 2.5575s. Need more tokens? Upgrade to Dev Tier today at https://con
+2026-09-10 04:56:34,656 ERROR [products] generate error: HTTP 400: {"error":{"message":"Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":"{\"id\":\"info:item:products:global:2026-09-10-007\",\"key\":\"2026-09-10-007\",\"date\":\"2026-09-10\
+2026-09-10 04:56:40,658 WARNING [products] no collect provider for deep-dive
+2026-09-10 04:56:40,827 INFO collect done: 6 item(s) published — target 4/10, next run ≈ 2026-09-11T01:00:00+00:00 UTC

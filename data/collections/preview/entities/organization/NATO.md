@@ -1,7 +1,7 @@
 ---
 name: "NATO"
 entity_type: organization
-backlink_count: 5
+backlink_count: 6
 ---
 
 # NATO
@@ -10,6 +10,7 @@ backlink_count: 5
 
 ## Referenced by
 
+- 2026-09-10 · [[2026-09-10-005-national-security-can-t-come-at-expense-of-social-security]] — National security can't come at expense of social security, Burnham says
 - 2026-09-05 · [[2026-09-05-003-europe-targeted-by-spiralling-campaign-of-sabotage-and]] — Europe targeted by spiralling campaign of sabotage - and Russia is the chief suspect
 - 2026-09-04 · [[2026-09-04-001-trump-hints-us-would-not-back-uk-over-falkland-islands-due]] — Trump hints US would not back UK over Falkland Islands due to lack of Iran war support
 - 2026-09-03 · [[2026-09-03-003-eu-and-nato-vow-to-step-up-pressure-on-russia-after-new]] — EU and Nato vow to step up pressure on Russia after 'new escalation' in Germany

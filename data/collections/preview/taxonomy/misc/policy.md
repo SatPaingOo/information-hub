@@ -1,7 +1,7 @@
 ---
 node: "policy"
 layer: misc
-item_count: 164
+item_count: 171
 ---
 
 # policy
@@ -16,6 +16,13 @@ item_count: 164
 
 ## Items
 
+- 2026-09-10 · [[2026-09-10-001-five-dead-and-86-missing-as-heartbreaking-fire-breaks-out]] — Five dead and 86 missing as 'heartbreaking' fire breaks out on Philippines ferry
+- 2026-09-10 · [[2026-09-10-002-spanish-intelligence-warned-of-ceuta-mass-crossing-plans]] — Spanish intelligence warned of Ceuta mass crossing plans before surge
+- 2026-09-10 · [[2026-09-10-003-google-picks-finland-for-its-largest-single-investment-in]] — Google picks Finland for its largest single investment in Europe
+- 2026-09-10 · [[2026-09-10-004-police-launch-criminal-investigation-into-reform-uk]] — Police launch criminal investigation into Reform UK donations
+- 2026-09-10 · [[2026-09-10-004-police-launch-criminal-investigation-into-reform-uk]] — Police launch criminal investigation into Reform UK donations
+- 2026-09-10 · [[2026-09-10-005-national-security-can-t-come-at-expense-of-social-security]] — National security can't come at expense of social security, Burnham says
+- 2026-09-10 · [[2026-09-10-005-national-security-can-t-come-at-expense-of-social-security]] — National security can't come at expense of social security, Burnham says
 - 2026-09-09 · [[2026-09-09-001-uk-announces-sanctions-on-west-bank-settlements-prompting]] — UK announces sanctions on West Bank settlements prompting furious Israeli response
 - 2026-09-09 · [[2026-09-09-001-uk-announces-sanctions-on-west-bank-settlements-prompting]] — UK announces sanctions on West Bank settlements prompting furious Israeli response
 - 2026-09-09 · [[2026-09-09-002-paul-adams-british-israeli-relations-at-lowest-ebb-in]] — Paul Adams: British-Israeli relations at lowest ebb in decades
