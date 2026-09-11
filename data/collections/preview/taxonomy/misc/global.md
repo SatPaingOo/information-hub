@@ -1,7 +1,7 @@
 ---
 node: "global"
 layer: misc
-item_count: 204
+item_count: 205
 ---
 
 # global
@@ -32,6 +32,7 @@ item_count: 204
 - 2026-09-11 · [[2026-09-11-004-labour-mayors-in-england-vow-to-cap-tourist-tax-at-5]] — Labour mayors in England vow to cap tourist tax at 5%
 - 2026-09-11 · [[2026-09-11-005-badenoch-denies-housing-benefit-cuts-plan-would-make]] — Badenoch denies housing benefit cuts plan would make people homeless
 - 2026-09-11 · [[2026-09-11-006-ai-observability-by-openobserve]] — AI Observability by OpenObserve
+- 2026-09-11 · [[2026-09-11-007-five-killed-and-67-injured-in-russian-strike-on-shopping]] — Five killed and 67 injured in Russian strike on shopping centre, Ukraine says
 - 2026-09-10 · [[2026-09-10-001-five-dead-and-86-missing-as-heartbreaking-fire-breaks-out]] — Five dead and 86 missing as 'heartbreaking' fire breaks out on Philippines ferry
 - 2026-09-10 · [[2026-09-10-002-spanish-intelligence-warned-of-ceuta-mass-crossing-plans]] — Spanish intelligence warned of Ceuta mass crossing plans before surge
 - 2026-09-10 · [[2026-09-10-003-google-picks-finland-for-its-largest-single-investment-in]] — Google picks Finland for its largest single investment in Europe

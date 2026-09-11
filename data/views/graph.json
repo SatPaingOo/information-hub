@@ -3937,6 +3937,17 @@
       "name": "OpenTelemetry"
     },
     {
+      "id": "info:item:world:global:2026-09-11-007",
+      "type": "item",
+      "date": "2026-09-11",
+      "title": "Five killed and 67 injured in Russian strike on shopping centre, Ukraine says"
+    },
+    {
+      "id": "taxonomy/misc/Humanitarian Law",
+      "type": "taxonomy",
+      "name": "Humanitarian Law"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -14841,6 +14852,71 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-09-11-007",
+      "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "Ukrainian President condemning the attack"
+    },
+    {
+      "source": "info:item:world:global:2026-09-11-007",
+      "target": "info:entity:person:Vladimir Putin",
+      "relation": "Russian President overseeing the broader campaign"
+    },
+    {
+      "source": "info:item:world:global:2026-09-11-007",
+      "target": "info:entity:organization:Ukrainian Armed Forces",
+      "relation": "Defending against Russian drone incursions"
+    },
+    {
+      "source": "info:item:world:global:2026-09-11-007",
+      "target": "info:entity:organization:United Nations Office for the Coordination of Humanitarian Affairs",
+      "relation": "Monitoring civilian impact"
+    },
+    {
+      "source": "info:item:world:global:2026-09-11-007",
+      "target": "info:item:world:global:2026-09-11-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-11-007",
+      "target": "info:item:world:global:2026-09-11-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-11-007",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-11-007",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-11-007",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-11-007",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-11-007",
+      "target": "taxonomy/misc/Geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-11-007",
+      "target": "taxonomy/misc/Humanitarian Law",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-11-007",
+      "target": "taxonomy/misc/Defense Industry",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -18972,7 +19048,19 @@
     },
     {
       "source": "info:entity:organization:Ukrainian Armed Forces",
+      "target": "info:entity:organization:United Nations Office for the Coordination of Humanitarian Affairs",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Ukrainian Armed Forces",
       "target": "info:entity:person:Mykhailo Fedorov",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Ukrainian Armed Forces",
+      "target": "info:entity:person:Vladimir Putin",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -18980,7 +19068,7 @@
       "source": "info:entity:organization:Ukrainian Armed Forces",
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Ukrainian Government",
@@ -19033,6 +19121,18 @@
     {
       "source": "info:entity:organization:United Nations Office for the Coordination of Humanitarian Affairs",
       "target": "info:entity:organization:World Meteorological Organization",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:United Nations Office for the Coordination of Humanitarian Affairs",
+      "target": "info:entity:person:Vladimir Putin",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:United Nations Office for the Coordination of Humanitarian Affairs",
+      "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -20180,7 +20280,7 @@
       "source": "info:entity:person:Vladimir Putin",
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
-      "weight": "4"
+      "weight": "5"
     },
     {
       "source": "info:entity:person:Vladimir Putin",

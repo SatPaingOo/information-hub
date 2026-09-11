@@ -13,3 +13,11 @@
 
 2026-09-11 05:26:07,330 WARNING [products] no collect provider for deep-dive
 2026-09-11 05:26:07,421 INFO collect done: 6 item(s) published — target 4/10, next run ≈ 2026-09-12T01:00:00+00:00 UTC
+2026-09-11 05:45:00,059 INFO [world-news] published 2026-09-11-007 — Five killed and 67 injured in Russian strike on shopping cen
+2026-09-11 05:45:00,246 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 5563, Requested 4278. Please try again in 13.8075s. Need more tokens? Upgrade to Dev Tier today at https://co
+2026-09-11 05:45:03,248 WARNING [world-news] no collect provider for deep-dive
+2026-09-11 05:45:03,365 WARNING [world-news] no collect provider for deep-dive
+2026-09-11 05:45:03,991 WARNING [tech-news] no collect provider available
+2026-09-11 05:45:04,783 WARNING [politics] no collect provider available
+2026-09-11 05:45:05,709 WARNING [products] no collect provider available
+2026-09-11 05:45:05,911 INFO collect done: 1 item(s) published — target 3/10, next run ≈ 2026-09-12T01:00:00+00:00 UTC
