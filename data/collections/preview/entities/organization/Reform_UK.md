@@ -1,7 +1,7 @@
 ---
 name: "Reform UK"
 entity_type: organization
-backlink_count: 12
+backlink_count: 13
 ---
 
 # Reform UK
@@ -10,6 +10,7 @@ backlink_count: 12
 
 ## Referenced by
 
+- 2026-09-11 · [[2026-09-11-004-labour-mayors-in-england-vow-to-cap-tourist-tax-at-5]] — Labour mayors in England vow to cap tourist tax at 5%
 - 2026-09-10 · [[2026-09-10-004-police-launch-criminal-investigation-into-reform-uk]] — Police launch criminal investigation into Reform UK donations
 - 2026-09-09 · [[2026-09-09-005-commentator-tim-montgomerie-quits-reform-following]] — Commentator Tim Montgomerie quits Reform following suspension
 - 2026-09-08 · [[2026-09-08-005-plans-for-major-overhaul-of-councils-halted]] — Plans for major overhaul of councils halted

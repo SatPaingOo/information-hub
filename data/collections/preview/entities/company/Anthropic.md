@@ -1,7 +1,7 @@
 ---
 name: "Anthropic"
 entity_type: company
-backlink_count: 25
+backlink_count: 26
 ---
 
 # Anthropic
@@ -10,6 +10,7 @@ backlink_count: 25
 
 ## Referenced by
 
+- 2026-09-11 · [[2026-09-11-006-ai-observability-by-openobserve]] — AI Observability by OpenObserve
 - 2026-09-10 · [[2026-09-10-006-chatgpt-images-2-5]] — ChatGPT Images 2.5
 - 2026-09-09 · [[2026-09-09-006-relaticle-open-source-crm-with-approval-gated-ai-writes]] — Relaticle: Open‑source CRM with Approval‑Gated AI Writes
 - 2026-09-07 · [[2026-09-07-006-kit-by-speakeasy]] — Kit by Speakeasy

@@ -1,7 +1,7 @@
 ---
 name: "Iran"
 entity_type: region
-backlink_count: 5
+backlink_count: 6
 ---
 
 # Iran
@@ -10,6 +10,7 @@ backlink_count: 5
 
 ## Referenced by
 
+- 2026-09-11 · [[2026-09-11-001-yemen-s-houthis-reportedly-seize-strategic-red-sea-port-of]] — Yemen's Houthis reportedly seize strategic Red Sea port of Mokha
 - 2026-09-10 · [[2026-09-10-007-iran-war-won-t-end-until-after-crucial-november-elections]] — Iran war won't end until after crucial November elections, says Trump
 - 2026-09-10 · [[2026-09-10-008-trump-says-every-adult-american-will-get-5-000-if]] — Trump says every adult American will get $5,000 if Republicans win midterms
 - 2026-09-04 · [[2026-09-04-002-us-investigating-if-missile-hit-iran-wedding-vance-says]] — US investigating if missile hit Iran wedding, Vance says

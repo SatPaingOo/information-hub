@@ -1,7 +1,7 @@
 ---
 node: "industry"
 layer: category
-item_count: 99
+item_count: 104
 ---
 
 # industry
@@ -19,6 +19,11 @@ item_count: 99
 
 ## Items
 
+- 2026-09-11 · [[2026-09-11-001-yemen-s-houthis-reportedly-seize-strategic-red-sea-port-of]] — Yemen's Houthis reportedly seize strategic Red Sea port of Mokha
+- 2026-09-11 · [[2026-09-11-001-yemen-s-houthis-reportedly-seize-strategic-red-sea-port-of]] — Yemen's Houthis reportedly seize strategic Red Sea port of Mokha
+- 2026-09-11 · [[2026-09-11-002-can-trump-really-pay-5-000-to-every-american-adult]] — Can Trump really pay $5,000 to every American adult?
+- 2026-09-11 · [[2026-09-11-003-pilot-warned-amazon-cargo-plane-going-too-fast-before]] — Pilot warned Amazon cargo plane going too fast before deadly crash, data shows
+- 2026-09-11 · [[2026-09-11-003-pilot-warned-amazon-cargo-plane-going-too-fast-before]] — Pilot warned Amazon cargo plane going too fast before deadly crash, data shows
 - 2026-09-10 · [[2026-09-10-001-five-dead-and-86-missing-as-heartbreaking-fire-breaks-out]] — Five dead and 86 missing as 'heartbreaking' fire breaks out on Philippines ferry
 - 2026-09-10 · [[2026-09-10-002-spanish-intelligence-warned-of-ceuta-mass-crossing-plans]] — Spanish intelligence warned of Ceuta mass crossing plans before surge
 - 2026-09-10 · [[2026-09-10-003-google-picks-finland-for-its-largest-single-investment-in]] — Google picks Finland for its largest single investment in Europe

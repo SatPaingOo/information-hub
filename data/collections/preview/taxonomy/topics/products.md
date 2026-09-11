@@ -1,7 +1,7 @@
 ---
 node: "products"
 layer: topic
-item_count: 24
+item_count: 25
 ---
 
 # products
@@ -15,6 +15,7 @@ item_count: 24
 
 ## Items
 
+- 2026-09-11 · [[2026-09-11-006-ai-observability-by-openobserve]] — AI Observability by OpenObserve
 - 2026-09-10 · [[2026-09-10-006-chatgpt-images-2-5]] — ChatGPT Images 2.5
 - 2026-09-09 · [[2026-09-09-006-relaticle-open-source-crm-with-approval-gated-ai-writes]] — Relaticle: Open‑source CRM with Approval‑Gated AI Writes
 - 2026-09-07 · [[2026-09-07-006-kit-by-speakeasy]] — Kit by Speakeasy

@@ -1,5 +1,217 @@
 [
   {
+    "id": "info:item:world:global:2026-09-11-001",
+    "key": "2026-09-11-001",
+    "date": "2026-09-11",
+    "collection": "world-news",
+    "content_type": "digest",
+    "topic": "world",
+    "region": "global",
+    "categories": [
+      "policy",
+      "industry"
+    ],
+    "title": "Yemen's Houthis reportedly seize strategic Red Sea port of Mokha",
+    "tldr": "Iran‑backed Houthi forces have taken control of the Red Sea city of Mokha, positioning them just 75 km from the Bab al‑Mandab Strait. The capture has displaced hundreds, intensified the Yemen war, and contributed to rising oil prices as the Houthis expand their maritime embargo against Saudi Arabia.",
+    "source": "feeds.bbci.co.uk",
+    "source_url": "https://www.bbc.co.uk/news/articles/c4g7vr0lngwo?at_medium=RSS&at_campaign=rss",
+    "entities": [
+      "Iran",
+      "Saudi Arabia"
+    ],
+    "tags": [
+      "geopolitics",
+      "Red Sea",
+      "Yemen",
+      "energy security"
+    ],
+    "word_count": 704,
+    "provider": "openrouter",
+    "model": "cohere/north-mini-code:free",
+    "verify": "lexical",
+    "file": "collections/data-set/2026-09-11-001-yemen-s-houthis-reportedly-seize-strategic-red-sea-port-of.json"
+  },
+  {
+    "id": "info:item:world:global:2026-09-11-002",
+    "key": "2026-09-11-002",
+    "date": "2026-09-11",
+    "collection": "world-news",
+    "content_type": "digest",
+    "topic": "world",
+    "region": "global",
+    "categories": [
+      "policy",
+      "industry"
+    ],
+    "title": "Can Trump really pay $5,000 to every American adult?",
+    "tldr": "President Donald Trump pledged $5,000 to each U.S. adult if Republicans win the midterms, sparking debate over legality, financing, and electoral tactics. Analysts question whether tariff revenue or executive authority could fund the $1.3 trillion outlay, calling the promise both politically risky and fiscally unsustainable.",
+    "source": "feeds.bbci.co.uk",
+    "source_url": "https://www.bbc.co.uk/news/articles/c8r6vj7r8rko?at_medium=RSS&at_campaign=rss",
+    "entities": [
+      "Donald Trump",
+      "JD Vance",
+      "Erica York",
+      "U.S. Congress"
+    ],
+    "tags": [
+      "policy",
+      "industry",
+      "geopolitics",
+      "fiscal policy",
+      "elections"
+    ],
+    "word_count": 586,
+    "provider": "openrouter",
+    "model": "cohere/north-mini-code:free",
+    "verify": "web",
+    "file": "collections/data-set/2026-09-11-002-can-trump-really-pay-5-000-to-every-american-adult.json"
+  },
+  {
+    "id": "info:item:world:global:2026-09-11-003",
+    "key": "2026-09-11-003",
+    "date": "2026-09-11",
+    "collection": "world-news",
+    "content_type": "digest",
+    "topic": "world",
+    "region": "global",
+    "categories": [
+      "policy",
+      "industry"
+    ],
+    "title": "Pilot warned Amazon cargo plane going too fast before deadly crash, data shows",
+    "tldr": "Flight data from the NTSB reveals that a pilot repeatedly warned about the Amazon cargo jet’s excessive speed before it overshot the runway in Miami, leading to a fatal crash that killed five ground crew members. Inconsistent cockpit communication, late flap deployment, and multiple automated safety alerts compounded the mishap, prompting scrutiny of pilot training and airline safety protocols.",
+    "source": "feeds.bbci.co.uk",
+    "source_url": "https://www.bbc.co.uk/news/articles/cj4jynv59ddo?at_medium=RSS&at_campaign=rss",
+    "entities": [
+      "National Transportation Safety Board (NTSB)",
+      "Amazon",
+      "Pablo Rojas",
+      "Federal Aviation Administration (FAA)"
+    ],
+    "tags": [
+      "aviation safety",
+      "NTSB",
+      "Amazon Prime Air",
+      "Miami crash",
+      "pilot communication",
+      "flight data",
+      "regulatory review"
+    ],
+    "word_count": 615,
+    "provider": "openrouter",
+    "model": "cohere/north-mini-code:free",
+    "verify": "lexical",
+    "file": "collections/data-set/2026-09-11-003-pilot-warned-amazon-cargo-plane-going-too-fast-before.json"
+  },
+  {
+    "id": "info:item:politics:global:2026-09-11-004",
+    "key": "2026-09-11-004",
+    "date": "2026-09-11",
+    "collection": "politics",
+    "content_type": "digest",
+    "topic": "politics",
+    "region": "global",
+    "categories": [
+      "policy"
+    ],
+    "title": "Labour mayors in England vow to cap tourist tax at 5%",
+    "tldr": "Labour metro mayors across ten English city regions have pledged to limit a new visitor overnight levy to a maximum of 5%, seeking a balance between local investment and concerns over cost impacts on families and the hospitality sector.",
+    "source": "feeds.bbci.co.uk",
+    "source_url": "https://www.bbc.co.uk/news/articles/c3wjnv3z8nxo?at_medium=RSS&at_campaign=rss",
+    "entities": [
+      "Andy Burnham",
+      "Nigel Farage",
+      "Labour Party",
+      "Reform UK"
+    ],
+    "tags": [
+      "tourist tax",
+      "policy",
+      "local government",
+      "UK",
+      "hospitality"
+    ],
+    "word_count": 713,
+    "provider": "openrouter",
+    "model": "cohere/north-mini-code:free",
+    "verify": "lexical",
+    "file": "collections/data-set/2026-09-11-004-labour-mayors-in-england-vow-to-cap-tourist-tax-at-5.json"
+  },
+  {
+    "id": "info:item:politics:global:2026-09-11-005",
+    "key": "2026-09-11-005",
+    "date": "2026-09-11",
+    "collection": "politics",
+    "content_type": "digest",
+    "topic": "politics",
+    "region": "global",
+    "categories": [
+      "policy"
+    ],
+    "title": "Badenoch denies housing benefit cuts plan would make people homeless",
+    "tldr": "Conservative leader Kemi Badenoch defended a proposed £4bn cut to housing benefits to fund a rise in defence spending, insisting existing tenants would be protected while suggesting some would need to move to cheaper areas. Labour’s Andy Burnham countered that national security cannot be achieved at the expense of social security, warning the cuts would exacerbate homelessness and ultimately cost the government more.",
+    "source": "feeds.bbci.co.uk",
+    "source_url": "https://www.bbc.co.uk/news/articles/cj9xznl0yvzo?at_medium=RSS&at_campaign=rss",
+    "entities": [
+      "Kemi Badenoch",
+      "Andy Burnham",
+      "Shelter",
+      "Conservative Party"
+    ],
+    "tags": [
+      "housing benefit",
+      "defence spending",
+      "UK politics",
+      "social security",
+      "homelessness",
+      "fiscal policy"
+    ],
+    "word_count": 863,
+    "provider": "openrouter",
+    "model": "cohere/north-mini-code:free",
+    "verify": "lexical",
+    "file": "collections/data-set/2026-09-11-005-badenoch-denies-housing-benefit-cuts-plan-would-make.json"
+  },
+  {
+    "id": "info:item:products:global:2026-09-11-006",
+    "key": "2026-09-11-006",
+    "date": "2026-09-11",
+    "collection": "products",
+    "content_type": "article",
+    "topic": "products",
+    "region": "global",
+    "categories": [
+      "product"
+    ],
+    "title": "AI Observability by OpenObserve",
+    "tldr": "OpenObserve delivers OpenTelemetry‑native observability for agents and large language models (LLMs), enabling real‑time monitoring, debugging, and compliance across distributed AI systems. Its open‑source architecture empowers developers to instrument LLM workloads, detect anomalous behavior, and satisfy emerging regulatory requirements.",
+    "source": "producthunt.com",
+    "source_url": "https://www.producthunt.com/products/openobserve",
+    "entities": [
+      "OpenObserve",
+      "OpenAI",
+      "Gemini",
+      "Anthropic",
+      "Myanmar",
+      "OpenTelemetry",
+      "agentic AI",
+      "LLM"
+    ],
+    "tags": [
+      "AI observability",
+      "OpenTelemetry",
+      "LLM monitoring",
+      "open-source",
+      "agentic AI",
+      "regulation"
+    ],
+    "word_count": 562,
+    "provider": "groq",
+    "model": "openai/gpt-oss-20b",
+    "verify": "lexical",
+    "file": "collections/data-set/2026-09-11-006-ai-observability-by-openobserve.json"
+  },
+  {
     "id": "info:item:world:global:2026-09-10-001",
     "key": "2026-09-10-001",
     "date": "2026-09-10",

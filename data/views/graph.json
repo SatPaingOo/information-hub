@@ -3836,6 +3836,107 @@
       "name": "fiscal policy"
     },
     {
+      "id": "info:item:world:global:2026-09-11-001",
+      "type": "item",
+      "date": "2026-09-11",
+      "title": "Yemen's Houthis reportedly seize strategic Red Sea port of Mokha"
+    },
+    {
+      "id": "info:entity:organization:Saudi Arabia",
+      "type": "organization",
+      "name": "Saudi Arabia"
+    },
+    {
+      "id": "info:item:world:global:2026-09-11-002",
+      "type": "item",
+      "date": "2026-09-11",
+      "title": "Can Trump really pay $5,000 to every American adult?"
+    },
+    {
+      "id": "info:entity:person:Erica York",
+      "type": "person",
+      "name": "Erica York"
+    },
+    {
+      "id": "info:item:world:global:2026-09-11-003",
+      "type": "item",
+      "date": "2026-09-11",
+      "title": "Pilot warned Amazon cargo plane going too fast before deadly crash, data shows"
+    },
+    {
+      "id": "info:entity:person:Pablo Rojas",
+      "type": "person",
+      "name": "Pablo Rojas"
+    },
+    {
+      "id": "taxonomy/misc/aviation safety",
+      "type": "taxonomy",
+      "name": "aviation safety"
+    },
+    {
+      "id": "info:item:politics:global:2026-09-11-004",
+      "type": "item",
+      "date": "2026-09-11",
+      "title": "Labour mayors in England vow to cap tourist tax at 5%"
+    },
+    {
+      "id": "taxonomy/misc/regional policy",
+      "type": "taxonomy",
+      "name": "regional policy"
+    },
+    {
+      "id": "taxonomy/misc/tourism taxation",
+      "type": "taxonomy",
+      "name": "tourism taxation"
+    },
+    {
+      "id": "info:item:politics:global:2026-09-11-005",
+      "type": "item",
+      "date": "2026-09-11",
+      "title": "Badenoch denies housing benefit cuts plan would make people homeless"
+    },
+    {
+      "id": "info:item:products:global:2026-09-11-006",
+      "type": "item",
+      "date": "2026-09-11",
+      "title": "AI Observability by OpenObserve"
+    },
+    {
+      "id": "info:entity:company:OpenObserve",
+      "type": "company",
+      "name": "OpenObserve"
+    },
+    {
+      "id": "info:entity:company:Gemini",
+      "type": "company",
+      "name": "Gemini"
+    },
+    {
+      "id": "info:entity:concept:OpenTelemetry",
+      "type": "concept",
+      "name": "OpenTelemetry"
+    },
+    {
+      "id": "info:entity:concept:LLM",
+      "type": "concept",
+      "name": "LLM"
+    },
+    {
+      "id": "taxonomy/misc/AI",
+      "type": "taxonomy",
+      "name": "AI"
+    },
+    {
+      "id": "taxonomy/misc/Observability",
+      "type": "taxonomy",
+      "name": "Observability"
+    },
+    {
+      "id": "taxonomy/misc/OpenTelemetry",
+      "type": "taxonomy",
+      "name": "OpenTelemetry"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -14355,6 +14456,391 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-09-11-001",
+      "target": "info:entity:organization:Iran",
+      "relation": "backs Houthi movement and provides strategic support"
+    },
+    {
+      "source": "info:item:world:global:2026-09-11-001",
+      "target": "info:entity:organization:Saudi Arabia",
+      "relation": "supports pro‑government forces and relies on Red Sea oil exports"
+    },
+    {
+      "source": "info:item:world:global:2026-09-11-001",
+      "target": "info:item:world:global:2026-09-10-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-11-001",
+      "target": "info:item:world:global:2026-09-10-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-11-001",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-11-001",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-11-001",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-11-001",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-11-001",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-11-001",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-11-001",
+      "target": "taxonomy/category/industry",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-11-002",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "proposer of $5,000 payment plan"
+    },
+    {
+      "source": "info:item:world:global:2026-09-11-002",
+      "target": "info:entity:person:JD Vance",
+      "relation": "Vice President suggesting tariff funding"
+    },
+    {
+      "source": "info:item:world:global:2026-09-11-002",
+      "target": "info:entity:person:Erica York",
+      "relation": "economist warning fiscal unsustainability"
+    },
+    {
+      "source": "info:item:world:global:2026-09-11-002",
+      "target": "info:entity:organization:U.S. Congress",
+      "relation": "required to authorize spending"
+    },
+    {
+      "source": "info:item:world:global:2026-09-11-002",
+      "target": "info:item:world:global:2026-09-11-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-11-002",
+      "target": "info:item:world:global:2026-09-10-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-11-002",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-11-002",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-11-002",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-11-002",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-11-002",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-11-002",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-11-002",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-11-003",
+      "target": "info:entity:organization:National Transportation Safety Board (NTSB)",
+      "relation": "lead investigative body"
+    },
+    {
+      "source": "info:item:world:global:2026-09-11-003",
+      "target": "info:entity:company:Amazon",
+      "relation": "operator of the cargo flight"
+    },
+    {
+      "source": "info:item:world:global:2026-09-11-003",
+      "target": "info:entity:person:Pablo Rojas",
+      "relation": "aviation attorney commenting on the incident"
+    },
+    {
+      "source": "info:item:world:global:2026-09-11-003",
+      "target": "info:entity:organization:Federal Aviation Administration (FAA)",
+      "relation": "regulatory authority overseeing investigation"
+    },
+    {
+      "source": "info:item:world:global:2026-09-11-003",
+      "target": "info:item:world:global:2026-09-11-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-11-003",
+      "target": "info:item:world:global:2026-09-11-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-11-003",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-11-003",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-11-003",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-11-003",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-11-003",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-11-003",
+      "target": "taxonomy/category/industry",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-11-003",
+      "target": "taxonomy/misc/aviation safety",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-11-004",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "Labour mayor of Greater Manchester, signatory of the cap letter"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-11-004",
+      "target": "info:entity:person:Nigel Farage",
+      "relation": "Reform UK leader, critic of the tourist tax"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-11-004",
+      "target": "info:entity:organization:Labour Party",
+      "relation": "political party backing the mayors' cap proposal"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-11-004",
+      "target": "info:entity:organization:Reform UK",
+      "relation": "opposition party whose mayors oppose the levy"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-11-004",
+      "target": "info:item:politics:global:2026-09-10-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-11-004",
+      "target": "info:item:politics:global:2026-09-10-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-11-004",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-11-004",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-11-004",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-11-004",
+      "target": "taxonomy/misc/regional policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-11-004",
+      "target": "taxonomy/misc/tourism taxation",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-11-004",
+      "target": "taxonomy/misc/local governance",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-11-005",
+      "target": "info:entity:person:Kemi Badenoch",
+      "relation": "Conservative Party leader and proponent of housing benefit cuts"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-11-005",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "Mayor of Greater Manchester and Labour critic of the cuts"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-11-005",
+      "target": "info:entity:organization:Shelter",
+      "relation": "charity warning of unrealistic expectations for cheaper housing"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-11-005",
+      "target": "info:entity:organization:Conservative Party",
+      "relation": "political party advancing defence‑funding cuts to welfare"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-11-005",
+      "target": "info:item:politics:global:2026-09-11-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-11-005",
+      "target": "info:item:politics:global:2026-09-10-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-11-005",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-11-005",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-11-005",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-11-005",
+      "target": "taxonomy/topic/politics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-11-005",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-11-005",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-09-11-006",
+      "target": "info:entity:company:OpenObserve",
+      "relation": "product"
+    },
+    {
+      "source": "info:item:products:global:2026-09-11-006",
+      "target": "info:entity:company:OpenAI",
+      "relation": "integration"
+    },
+    {
+      "source": "info:item:products:global:2026-09-11-006",
+      "target": "info:entity:company:Gemini",
+      "relation": "integration"
+    },
+    {
+      "source": "info:item:products:global:2026-09-11-006",
+      "target": "info:entity:company:Anthropic",
+      "relation": "integration"
+    },
+    {
+      "source": "info:item:products:global:2026-09-11-006",
+      "target": "info:entity:region:Myanmar",
+      "relation": "regulatory context"
+    },
+    {
+      "source": "info:item:products:global:2026-09-11-006",
+      "target": "info:entity:concept:OpenTelemetry",
+      "relation": "standard"
+    },
+    {
+      "source": "info:item:products:global:2026-09-11-006",
+      "target": "info:entity:concept:agentic AI",
+      "relation": "focus"
+    },
+    {
+      "source": "info:item:products:global:2026-09-11-006",
+      "target": "info:entity:concept:LLM",
+      "relation": "focus"
+    },
+    {
+      "source": "info:item:products:global:2026-09-11-006",
+      "target": "info:item:products:global:2026-09-10-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-09-11-006",
+      "target": "info:item:products:global:2026-09-09-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-09-11-006",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-09-11-006",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-09-11-006",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-09-11-006",
+      "target": "taxonomy/misc/AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-09-11-006",
+      "target": "taxonomy/misc/Observability",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-09-11-006",
+      "target": "taxonomy/misc/OpenTelemetry",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -14534,17 +15020,29 @@
       "source": "info:entity:company:Amazon",
       "target": "info:entity:organization:Federal Aviation Administration (FAA)",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:company:Amazon",
       "target": "info:entity:organization:National Transportation Safety Board (NTSB)",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:company:Amazon",
       "target": "info:entity:person:Jennifer Homendy",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Amazon",
+      "target": "info:entity:person:Pablo Rojas",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:company:Gemini",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -14558,7 +15056,13 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
-      "weight": "22"
+      "weight": "23"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:company:OpenObserve",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -14592,6 +15096,18 @@
     },
     {
       "source": "info:entity:company:Anthropic",
+      "target": "info:entity:concept:LLM",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:concept:OpenTelemetry",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
       "target": "info:entity:concept:Principal Component Analysis",
       "relation": "co-occurs",
       "weight": "1"
@@ -14606,7 +15122,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:concept:agentic AI",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -14726,7 +15242,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:region:Myanmar",
       "relation": "co-occurs",
-      "weight": "5"
+      "weight": "6"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -14827,6 +15343,42 @@
     {
       "source": "info:entity:company:Filo Denizcilik",
       "target": "info:entity:person:Recep Tayyip Erdoğan",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Gemini",
+      "target": "info:entity:company:OpenAI",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Gemini",
+      "target": "info:entity:company:OpenObserve",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Gemini",
+      "target": "info:entity:concept:LLM",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Gemini",
+      "target": "info:entity:concept:OpenTelemetry",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Gemini",
+      "target": "info:entity:concept:agentic AI",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Gemini",
+      "target": "info:entity:region:Myanmar",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -15042,6 +15594,12 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:company:OpenObserve",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:company:Zhipu AI",
       "relation": "co-occurs",
       "weight": "1"
@@ -15066,9 +15624,21 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:concept:LLM",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:concept:Machine Teaching",
       "relation": "co-occurs",
       "weight": "2"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:concept:OpenTelemetry",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -15086,7 +15656,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:concept:agentic AI",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -15242,11 +15812,35 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:region:Myanmar",
       "relation": "co-occurs",
-      "weight": "7"
+      "weight": "8"
     },
     {
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:region:global",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenObserve",
+      "target": "info:entity:concept:LLM",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenObserve",
+      "target": "info:entity:concept:OpenTelemetry",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenObserve",
+      "target": "info:entity:concept:agentic AI",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenObserve",
+      "target": "info:entity:region:Myanmar",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -15707,6 +16301,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:concept:LLM",
+      "target": "info:entity:concept:OpenTelemetry",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:LLM",
+      "target": "info:entity:concept:agentic AI",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:LLM",
+      "target": "info:entity:region:Myanmar",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:concept:LSTM Decoder",
       "target": "info:entity:concept:Smart-span Equation",
       "relation": "co-occurs",
@@ -15769,6 +16381,18 @@
     {
       "source": "info:entity:concept:Oil Prices",
       "target": "info:entity:region:Iran",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:OpenTelemetry",
+      "target": "info:entity:concept:agentic AI",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:OpenTelemetry",
+      "target": "info:entity:region:Myanmar",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -15866,7 +16490,7 @@
       "source": "info:entity:concept:agentic AI",
       "target": "info:entity:region:Myanmar",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:concept:cordon sanitaire",
@@ -16848,9 +17472,15 @@
     },
     {
       "source": "info:entity:organization:Conservative Party",
+      "target": "info:entity:organization:Shelter",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Conservative Party",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:organization:Conservative Party",
@@ -16868,7 +17498,7 @@
       "source": "info:entity:organization:Conservative Party",
       "target": "info:entity:person:Kemi Badenoch",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:organization:Crown Prosecution Service",
@@ -17126,6 +17756,12 @@
       "source": "info:entity:organization:Federal Aviation Administration (FAA)",
       "target": "info:entity:organization:National Transportation Safety Board (NTSB)",
       "relation": "co-occurs",
+      "weight": "2"
+    },
+    {
+      "source": "info:entity:organization:Federal Aviation Administration (FAA)",
+      "target": "info:entity:person:Pablo Rojas",
+      "relation": "co-occurs",
       "weight": "1"
     },
     {
@@ -17322,6 +17958,12 @@
     },
     {
       "source": "info:entity:organization:Iran",
+      "target": "info:entity:organization:Saudi Arabia",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Iran",
       "target": "info:entity:person:Lin Jian",
       "relation": "co-occurs",
       "weight": "1"
@@ -17460,9 +18102,15 @@
     },
     {
       "source": "info:entity:organization:Labour Party",
+      "target": "info:entity:organization:Reform UK",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Labour Party",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:organization:Labour Party",
@@ -17481,6 +18129,12 @@
       "target": "info:entity:person:Kemi Badenoch",
       "relation": "co-occurs",
       "weight": "3"
+    },
+    {
+      "source": "info:entity:organization:Labour Party",
+      "target": "info:entity:person:Nigel Farage",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:organization:Liberal Democrats",
@@ -17711,6 +18365,12 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:National Transportation Safety Board (NTSB)",
+      "target": "info:entity:person:Pablo Rojas",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:National Weather Service",
       "target": "info:entity:person:Pierre Michel Formosa",
       "relation": "co-occurs",
@@ -17864,7 +18524,7 @@
       "source": "info:entity:organization:Reform UK",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:organization:Reform UK",
@@ -17924,7 +18584,7 @@
       "source": "info:entity:organization:Reform UK",
       "target": "info:entity:person:Nigel Farage",
       "relation": "co-occurs",
-      "weight": "8"
+      "weight": "9"
     },
     {
       "source": "info:entity:organization:Reform UK",
@@ -18002,11 +18662,17 @@
       "source": "info:entity:organization:Shelter",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Shelter",
       "target": "info:entity:person:Angela Rayner",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Shelter",
+      "target": "info:entity:person:Kemi Badenoch",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -18122,13 +18788,19 @@
       "source": "info:entity:organization:U.S. Congress",
       "target": "info:entity:person:Donald Trump",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
+    },
+    {
+      "source": "info:entity:organization:U.S. Congress",
+      "target": "info:entity:person:Erica York",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:organization:U.S. Congress",
       "target": "info:entity:person:JD Vance",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:U.S. Congress",
@@ -18548,7 +19220,7 @@
       "source": "info:entity:person:Andy Burnham",
       "target": "info:entity:person:Kemi Badenoch",
       "relation": "co-occurs",
-      "weight": "5"
+      "weight": "6"
     },
     {
       "source": "info:entity:person:Andy Burnham",
@@ -18572,7 +19244,7 @@
       "source": "info:entity:person:Andy Burnham",
       "target": "info:entity:person:Nigel Farage",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Andy Burnham",
@@ -18906,6 +19578,12 @@
     },
     {
       "source": "info:entity:person:Donald Trump",
+      "target": "info:entity:person:Erica York",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:François‑Philippe Champagne",
       "relation": "co-occurs",
       "weight": "2"
@@ -18920,7 +19598,7 @@
       "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:JD Vance",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:person:Donald Trump",
@@ -19057,6 +19735,12 @@
     {
       "source": "info:entity:person:Emmanuel Macron",
       "target": "info:entity:product:Scalp missile",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Erica York",
+      "target": "info:entity:person:JD Vance",
       "relation": "co-occurs",
       "weight": "1"
     },
