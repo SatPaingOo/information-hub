@@ -1,16 +1,17 @@
 ---
 name: "Iran"
-entity_type: region
-backlink_count: 7
+entity_type: organization
+backlink_count: 8
 ---
 
 # Iran
 
-*Type: region*
+*Type: organization*
 
 ## Referenced by
 
 - 2026-09-12 · [[2026-09-12-001-houthis-claim-major-advance-in-yemen-and-tighten-grip-on]] — Houthis claim major advance in Yemen and tighten grip on Red Sea shipping lane
+- 2026-09-12 · [[2026-09-12-007-saudi-arabia-shuts-key-oil-pipeline-after-drone-attack]] — Saudi Arabia shuts key oil pipeline after drone attack launched from Iraq
 - 2026-09-11 · [[2026-09-11-001-yemen-s-houthis-reportedly-seize-strategic-red-sea-port-of]] — Yemen's Houthis reportedly seize strategic Red Sea port of Mokha
 - 2026-09-10 · [[2026-09-10-007-iran-war-won-t-end-until-after-crucial-november-elections]] — Iran war won't end until after crucial November elections, says Trump
 - 2026-09-10 · [[2026-09-10-008-trump-says-every-adult-american-will-get-5-000-if]] — Trump says every adult American will get $5,000 if Republicans win midterms

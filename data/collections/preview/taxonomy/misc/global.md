@@ -1,7 +1,7 @@
 ---
 node: "global"
 layer: misc
-item_count: 212
+item_count: 213
 ---
 
 # global
@@ -31,6 +31,7 @@ item_count: 212
 - 2026-09-12 · [[2026-09-12-004-openai-s-feud-with-mathematicians-is-only-escalating]] — OpenAI’s feud with mathematicians is only escalating
 - 2026-09-12 · [[2026-09-12-005-y-combinator-s-garry-tan-wants-us-open-weight-ai-labs-to]] — Y Combinator’s Garry Tan wants US open-weight AI labs to ‘distill’ frontier models, too
 - 2026-09-12 · [[2026-09-12-006-mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid]] — Mecka AI nears $500M valuation in Sequoia-led deal amid rush for robot training data
+- 2026-09-12 · [[2026-09-12-007-saudi-arabia-shuts-key-oil-pipeline-after-drone-attack]] — Saudi Arabia shuts key oil pipeline after drone attack launched from Iraq
 - 2026-09-11 · [[2026-09-11-001-yemen-s-houthis-reportedly-seize-strategic-red-sea-port-of]] — Yemen's Houthis reportedly seize strategic Red Sea port of Mokha
 - 2026-09-11 · [[2026-09-11-001-yemen-s-houthis-reportedly-seize-strategic-red-sea-port-of]] — Yemen's Houthis reportedly seize strategic Red Sea port of Mokha
 - 2026-09-11 · [[2026-09-11-002-can-trump-really-pay-5-000-to-every-american-adult]] — Can Trump really pay $5,000 to every American adult?

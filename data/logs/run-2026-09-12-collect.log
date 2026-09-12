@@ -28,3 +28,11 @@
 2026-09-12 05:55:18,191 WARNING [politics] no collect provider available
 2026-09-12 05:55:19,477 WARNING [products] no collect provider available
 2026-09-12 05:55:19,615 INFO collect done: 0 item(s) published — target 4/10, next run ≈ 2026-09-13T01:00:00+00:00 UTC
+2026-09-12 10:37:57,664 INFO [world-news] published 2026-09-12-007 — Saudi Arabia shuts key oil pipeline after drone attack launc
+2026-09-12 10:37:57,824 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 5460, Requested 4043. Please try again in 11.2725s. Need more tokens? Upgrade to Dev Tier today at https://co
+2026-09-12 10:38:00,826 WARNING [world-news] no collect provider for deep-dive
+2026-09-12 10:38:00,938 WARNING [world-news] no collect provider for deep-dive
+2026-09-12 10:38:01,743 WARNING [tech-news] no collect provider available
+2026-09-12 10:38:01,908 WARNING [politics] no collect provider available
+2026-09-12 10:38:02,556 WARNING [products] no collect provider available
+2026-09-12 10:38:02,769 INFO collect done: 1 item(s) published — target 3/10, next run ≈ 2026-09-13T01:00:00+00:00 UTC
