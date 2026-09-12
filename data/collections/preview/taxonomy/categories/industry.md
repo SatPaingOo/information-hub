@@ -1,7 +1,7 @@
 ---
 node: "industry"
 layer: category
-item_count: 105
+item_count: 110
 ---
 
 # industry
@@ -19,6 +19,11 @@ item_count: 105
 
 ## Items
 
+- 2026-09-12 · [[2026-09-12-001-houthis-claim-major-advance-in-yemen-and-tighten-grip-on]] — Houthis claim major advance in Yemen and tighten grip on Red Sea shipping lane
+- 2026-09-12 · [[2026-09-12-001-houthis-claim-major-advance-in-yemen-and-tighten-grip-on]] — Houthis claim major advance in Yemen and tighten grip on Red Sea shipping lane
+- 2026-09-12 · [[2026-09-12-002-tragic-death-of-woman-who-testified-against-father-in]] — Tragic death of woman who testified against father in notorious mafia murder of mother
+- 2026-09-12 · [[2026-09-12-003-passenger-train-derails-in-france-leaving-at-least-44]] — Passenger train derails in France leaving at least 44 injured
+- 2026-09-12 · [[2026-09-12-003-passenger-train-derails-in-france-leaving-at-least-44]] — Passenger train derails in France leaving at least 44 injured
 - 2026-09-11 · [[2026-09-11-001-yemen-s-houthis-reportedly-seize-strategic-red-sea-port-of]] — Yemen's Houthis reportedly seize strategic Red Sea port of Mokha
 - 2026-09-11 · [[2026-09-11-001-yemen-s-houthis-reportedly-seize-strategic-red-sea-port-of]] — Yemen's Houthis reportedly seize strategic Red Sea port of Mokha
 - 2026-09-11 · [[2026-09-11-002-can-trump-really-pay-5-000-to-every-american-adult]] — Can Trump really pay $5,000 to every American adult?

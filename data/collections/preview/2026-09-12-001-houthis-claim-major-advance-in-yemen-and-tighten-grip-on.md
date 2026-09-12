@@ -1,0 +1,71 @@
+---
+id: "info:item:world:global:2026-09-12-001"
+key: "2026-09-12-001"
+date: 2026-09-12
+content_type: digest
+topic: world
+region: global
+categories: ["policy", "industry"]
+source: "feeds.bbci.co.uk"
+source_url: "https://www.bbc.co.uk/news/articles/c23x72yx2rvo?at_medium=RSS&at_campaign=rss"
+word_count: 838
+tags: ["Red Sea", "Yemen conflict", "energy security", "geopolitics", "Houthis", "Saudi Arabia", "US‑Saudi relations"]
+---
+
+# Houthis claim major advance in Yemen and tighten grip on Red Sea shipping lane
+
+> [!summary] TL;DR — The Iran‑backed Houthis have seized the strategic Perim Island at the Bab al‑Mandab Strait, consolidating control over a vital maritime corridor. The rapid advance has prompted Saudi Arabia to seek US military support, while the United Nations warns of a deepening humanitarian crisis.
+
+## Background
+
+Since the Houthis ousted Yemen’s internationally recognised government in 2015, the conflict has become a proxy battleground between Iran and Saudi Arabia. The closure of the Strait of Hormuz has heightened the strategic importance of the Red Sea route, making control of the Bab al‑Mandab choke point a linchpin for global oil shipments and regional power projection.
+
+## Military Dynamics and Territorial Gains
+
+The Houthis’ latest offensive represents a coordinated, large‑scale operation that has netted key geographic assets along the western Red Sea coast. In a single week, they captured the port city of Mocha, then moved to seize Perim Island (also known as Mayyun) at the narrowest point of the Bab al‑Mandab Strait. Military sources from Yemen’s recognised government confirm that Houthi forces now control the entire coastline from Mocha to the island, effectively tightening their grip on this critical shipping lane. Houthi spokesman Yahya Sarea framed the action as a response to Saudi Arabia’s “blatant aggression” and claimed the expulsion of Saudi‑backed forces from six districts in Taiz and Hodeidah, reporting hundreds of enemy troops killed, wounded, or captured. The operation underscores a shift from hit‑and‑run tactics to sustained territorial control, granting the Houthis leverage over maritime navigation that they have previously threatened but not fully enforced.
+
+## Geopolitical Implications for Energy Markets
+
+Control of the Bab al‑Mandab Strait now sits alongside the Strait of Hormuz as a dual choke point for global oil flows. With Hormuz effectively closed due to the US‑Iran standoff, Saudi Arabia has increasingly relied on the Red Sea route to transport crude to Asian markets. The Houthi takeover of Perim Island introduces a new, unpredictable variable into this supply chain, raising the risk of accidental or deliberate disruptions. Markets have already responded with a noticeable uptick in oil prices, reflecting concerns that any closure or intensified targeting of vessels could cascade into broader energy insecurity. Moreover, the Houthis’ declaration that “maritime navigation is safe for all companies except for Saudi vessels” signals a selective blockade that could be escalated or relaxed based on political calculations, adding another layer of volatility to an already fragile energy landscape.
+
+## Diplomatic and Strategic Responses from Major Powers
+
+Saudi Arabia’s de‑facto ruler, Crown Prince Mohammed bin Salman, has personally appealed to US President Donald Trump for military action against the Houthis, according to sources close to the Saudi leadership. Trump has so far declined a direct US military engagement, offering instead intelligence and targeting assistance—a limited commitment that leaves Saudi Arabia to consider alternative options. A senior Trump administration official emphasized “continuous dialogue” with both Riyadh and the Yemeni government, underscoring the delicate balance Washington seeks between supporting an ally and avoiding another open-ended Middle‑East war. Meanwhile, the United Nations and humanitarian agencies have sounded the alarm over the rapidly worsening humanitarian situation. The International Organization for Migration reports at least 46,000 displaced persons, with numbers “alarmingly rising by the hour.” The combination of territorial gains, energy market pressure, and diplomatic maneuvering suggests a protracted conflict that will likely draw in additional regional actors and keep global powers vigilant.
+
+## Key facts
+
+- Houthis seized Perim Island at the Bab al‑Mandab Strait, a strategic chokepoint for Red Sea shipping.
+- The advance followed the capture of the port city of Mocha, giving the Houthis control of the entire western Red Sea coastline.
+- Iran backs the Houthis, while Saudi Arabia is supported by the United States and a coalition of regional allies.
+- Saudi Crown Prince Mohammed bin Salman has personally asked President Donald Trump for military action against the Houthis.
+- Trump has offered only intelligence and targeting support, declining direct US military involvement.
+- The Houthis claim to have expelled Saudi‑backed forces from six districts in Taiz and Hodeidah, reporting hundreds of casualties.
+- The conflict has displaced at least 46,000 Yemenis, with the IOM warning the numbers are rising rapidly.
+- Control of the Bab al‑Mandab Strait adds pressure to global oil markets already strained by the closure of the Strait of Hormuz.
+
+## Implications
+
+- Potential disruption of Red Sea oil shipments could accelerate a shift in shipping routes, raising transportation costs and affecting global energy security.
+- Saudi Arabia may be forced to diversify its export infrastructure or seek more robust defensive capabilities, possibly accelerating regional arms races.
+- The limited US response signals a cautious American approach, potentially emboldening Iran’s proxy tactics and reshaping US strategic calculations in the Middle East.
+- Humanitarian conditions in Yemen are likely to deteriorate further, prompting increased aid demands and diplomatic pressure on all parties to observe ceasefires.
+
+## Outlook
+
+If the Houthis continue to consolidate control over the Bab al‑Mandab, they will possess a potent lever over global commerce, likely prompting a coalition of maritime powers to consider naval interventions or protective escorts. Conversely, a diplomatic breakthrough that includes a negotiated withdrawal from Perim could open a pathway to de‑escalation, but the entrenched regional rivalries and the humanitarian crisis suggest that any resolution will be protracted and require extensive international mediation.
+
+## Entities
+
+- [[Houthis]] — *organization* (controls territory and conducts offensive operations)
+- [[Iran]] — *organization* (backs the Houthis militarily and financially)
+- [[Saudi_Arabia]] — *organization* (opposes Houthis and seeks US military support)
+- [[Donald_Trump]] — *person* (US President approached for military action)
+
+## Related
+
+- [[2026-09-11-001-yemen-s-houthis-reportedly-seize-strategic-red-sea-port-of]]
+- [[2026-09-11-002-can-trump-really-pay-5-000-to-every-american-adult]]
+
+---
+
+*Source: [feeds.bbci.co.uk](https://www.bbc.co.uk/news/articles/c23x72yx2rvo?at_medium=RSS&at_campaign=rss)*

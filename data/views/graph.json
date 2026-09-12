@@ -3948,6 +3948,122 @@
       "name": "Humanitarian Law"
     },
     {
+      "id": "info:item:world:global:2026-09-12-001",
+      "type": "item",
+      "date": "2026-09-12",
+      "title": "Houthis claim major advance in Yemen and tighten grip on Red Sea shipping lane"
+    },
+    {
+      "id": "info:entity:organization:Houthis",
+      "type": "organization",
+      "name": "Houthis"
+    },
+    {
+      "id": "info:item:world:global:2026-09-12-002",
+      "type": "item",
+      "date": "2026-09-12",
+      "title": "Tragic death of woman who testified against father in notorious mafia murder of mother"
+    },
+    {
+      "id": "info:entity:person:Denise Cosco",
+      "type": "person",
+      "name": "Denise Cosco"
+    },
+    {
+      "id": "info:entity:organization:Ndrangheta",
+      "type": "organization",
+      "name": "Ndrangheta"
+    },
+    {
+      "id": "info:entity:person:Carlo Cosco",
+      "type": "person",
+      "name": "Carlo Cosco"
+    },
+    {
+      "id": "info:entity:person:Lea Garofalo",
+      "type": "person",
+      "name": "Lea Garofalo"
+    },
+    {
+      "id": "taxonomy/misc/Italy",
+      "type": "taxonomy",
+      "name": "Italy"
+    },
+    {
+      "id": "info:item:world:global:2026-09-12-003",
+      "type": "item",
+      "date": "2026-09-12",
+      "title": "Passenger train derails in France leaving at least 44 injured"
+    },
+    {
+      "id": "info:entity:organization:SNCF",
+      "type": "organization",
+      "name": "SNCF"
+    },
+    {
+      "id": "info:entity:person:Philippe Tabarot",
+      "type": "person",
+      "name": "Philippe Tabarot"
+    },
+    {
+      "id": "info:item:ai-ml:global:2026-09-12-004",
+      "type": "item",
+      "date": "2026-09-12",
+      "title": "OpenAI’s feud with mathematicians is only escalating"
+    },
+    {
+      "id": "info:entity:person:Tristan Buckmaster",
+      "type": "person",
+      "name": "Tristan Buckmaster"
+    },
+    {
+      "id": "info:entity:model:Codex",
+      "type": "model",
+      "name": "Codex"
+    },
+    {
+      "id": "info:item:ai-ml:global:2026-09-12-005",
+      "type": "item",
+      "date": "2026-09-12",
+      "title": "Y Combinator’s Garry Tan wants US open-weight AI labs to ‘distill’ frontier models, too"
+    },
+    {
+      "id": "info:entity:person:Garry Tan",
+      "type": "person",
+      "name": "Garry Tan"
+    },
+    {
+      "id": "info:item:ai-ml:global:2026-09-12-006",
+      "type": "item",
+      "date": "2026-09-12",
+      "title": "Mecka AI nears $500M valuation in Sequoia-led deal amid rush for robot training data"
+    },
+    {
+      "id": "info:entity:company:Mecka AI",
+      "type": "company",
+      "name": "Mecka AI"
+    },
+    {
+      "id": "info:entity:company:Sequoia Capital",
+      "type": "company",
+      "name": "Sequoia Capital"
+    },
+    {
+      "id": "info:entity:person:Josh Gao",
+      "type": "person",
+      "name": "Josh Gao"
+    },
+    {
+      "id": "info:entity:company:Scale AI",
+      "type": "company",
+      "name": "Scale AI"
+    },
+    {
+      "id": "taxonomy/misc/Open-source",
+      "type": "taxonomy",
+      "name": "Open-source"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -14917,6 +15033,406 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-09-12-001",
+      "target": "info:entity:organization:Houthis",
+      "relation": "controls territory and conducts offensive operations"
+    },
+    {
+      "source": "info:item:world:global:2026-09-12-001",
+      "target": "info:entity:organization:Iran",
+      "relation": "backs the Houthis militarily and financially"
+    },
+    {
+      "source": "info:item:world:global:2026-09-12-001",
+      "target": "info:entity:organization:Saudi Arabia",
+      "relation": "opposes Houthis and seeks US military support"
+    },
+    {
+      "source": "info:item:world:global:2026-09-12-001",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "US President approached for military action"
+    },
+    {
+      "source": "info:item:world:global:2026-09-12-001",
+      "target": "info:item:world:global:2026-09-11-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-12-001",
+      "target": "info:item:world:global:2026-09-11-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-12-001",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-12-001",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-12-001",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-12-001",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-12-001",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-12-001",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-12-001",
+      "target": "taxonomy/category/industry",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-12-002",
+      "target": "info:entity:person:Denise Cosco",
+      "relation": "victim and witness who testified against her father"
+    },
+    {
+      "source": "info:item:world:global:2026-09-12-002",
+      "target": "info:entity:organization:Ndrangheta",
+      "relation": "Calabrian mafia clan implicated in Lea Garofalo's murder"
+    },
+    {
+      "source": "info:item:world:global:2026-09-12-002",
+      "target": "info:entity:person:Carlo Cosco",
+      "relation": "Denise Cosco's father, convicted for his mother's murder"
+    },
+    {
+      "source": "info:item:world:global:2026-09-12-002",
+      "target": "info:entity:person:Lea Garofalo",
+      "relation": "murder victim and anti‑mafia symbol"
+    },
+    {
+      "source": "info:item:world:global:2026-09-12-002",
+      "target": "info:item:world:global:2026-09-12-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-12-002",
+      "target": "info:item:world:global:2026-09-11-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-12-002",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-12-002",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-12-002",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-12-002",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-12-002",
+      "target": "taxonomy/misc/Italy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-12-002",
+      "target": "taxonomy/misc/organized crime",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-12-002",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-12-003",
+      "target": "info:entity:person:Emmanuel Macron",
+      "relation": "French president overseeing national transport safety"
+    },
+    {
+      "source": "info:item:world:global:2026-09-12-003",
+      "target": "info:entity:organization:SNCF",
+      "relation": "state‑owned railway operator involved in the incident"
+    },
+    {
+      "source": "info:item:world:global:2026-09-12-003",
+      "target": "info:entity:person:Philippe Tabarot",
+      "relation": "French transport minister coordinating response"
+    },
+    {
+      "source": "info:item:world:global:2026-09-12-003",
+      "target": "info:item:world:global:2026-09-12-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-12-003",
+      "target": "info:item:world:global:2026-09-12-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-12-003",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-12-003",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-12-003",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-12-003",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-12-003",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-12-003",
+      "target": "taxonomy/category/industry",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-12-003",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-12-004",
+      "target": "info:entity:company:OpenAI",
+      "relation": "primary subject of dispute and alleged pressure on mathematicians"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-12-004",
+      "target": "info:entity:company:Anthropic",
+      "relation": "collaborator whose work was allegedly used without credit"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-12-004",
+      "target": "info:entity:person:Tristan Buckmaster",
+      "relation": "NYU professor who accused OpenAI of pressuring him"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-12-004",
+      "target": "info:entity:model:Codex",
+      "relation": "AI model used by OpenAI to generate mathematical proofs"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-12-004",
+      "target": "info:item:ai-ml:global:2026-08-25-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-12-004",
+      "target": "info:item:ai-ml:global:2026-08-24-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-12-004",
+      "target": "taxonomy/topic/ai-ml",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-12-004",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-12-004",
+      "target": "taxonomy/category/research",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-12-004",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-12-004",
+      "target": "taxonomy/category/open-source",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-12-004",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-12-004",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-12-004",
+      "target": "taxonomy/category/open-source",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-12-005",
+      "target": "info:entity:person:Garry Tan",
+      "relation": "advocates for U.S. open‑weight AI distillation"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-12-005",
+      "target": "info:entity:company:Anthropic",
+      "relation": "reports alleged illicit distillation by Chinese labs"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-12-005",
+      "target": "info:entity:model:Claude",
+      "relation": "product of Anthropic referenced in distillation debate"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-12-005",
+      "target": "info:entity:company:OpenAI",
+      "relation": "major frontier model provider in the U.S. AI landscape"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-12-005",
+      "target": "info:item:ai-ml:global:2026-09-12-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-12-005",
+      "target": "info:item:ai-ml:global:2026-08-25-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-12-005",
+      "target": "taxonomy/topic/ai-ml",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-12-005",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-12-005",
+      "target": "taxonomy/category/research",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-12-005",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-12-005",
+      "target": "taxonomy/category/open-source",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-12-005",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-12-005",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-12-005",
+      "target": "taxonomy/misc/regulation",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-12-006",
+      "target": "info:entity:company:Mecka AI",
+      "relation": "subject startup"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-12-006",
+      "target": "info:entity:company:Sequoia Capital",
+      "relation": "lead investor"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-12-006",
+      "target": "info:entity:person:Josh Gao",
+      "relation": "co‑founder"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-12-006",
+      "target": "info:entity:company:Scale AI",
+      "relation": "benchmark data platform"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-12-006",
+      "target": "info:item:ai-ml:global:2026-09-12-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-12-006",
+      "target": "info:item:ai-ml:global:2026-09-12-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-12-006",
+      "target": "taxonomy/topic/ai-ml",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-12-006",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-12-006",
+      "target": "taxonomy/category/research",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-12-006",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-12-006",
+      "target": "taxonomy/category/open-source",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-12-006",
+      "target": "taxonomy/misc/Agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-12-006",
+      "target": "taxonomy/misc/Open-source",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-12-006",
+      "target": "taxonomy/misc/Data Governance",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -15132,7 +15648,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
-      "weight": "23"
+      "weight": "25"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -15210,13 +15726,19 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:model:Claude",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:model:Claude Opus 4.6",
       "relation": "co-occurs",
       "weight": "3"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:model:Codex",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -15268,7 +15790,19 @@
     },
     {
       "source": "info:entity:company:Anthropic",
+      "target": "info:entity:person:Garry Tan",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
       "target": "info:entity:person:Judge Rita Lin",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:person:Tristan Buckmaster",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -15627,6 +16161,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:company:Mecka AI",
+      "target": "info:entity:company:Scale AI",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Mecka AI",
+      "target": "info:entity:company:Sequoia Capital",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Mecka AI",
+      "target": "info:entity:person:Josh Gao",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:company:Meta",
       "target": "info:entity:company:TikTok",
       "relation": "co-occurs",
@@ -15742,9 +16294,21 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:model:Claude",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:model:Claude Opus 4.6",
       "relation": "co-occurs",
       "weight": "2"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:model:Codex",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -15832,7 +16396,19 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:person:Garry Tan",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Keir Starmer",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:person:Tristan Buckmaster",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -15923,6 +16499,24 @@
     {
       "source": "info:entity:company:Rockstar Games",
       "target": "info:entity:product:Grand Theft Auto 6",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Scale AI",
+      "target": "info:entity:company:Sequoia Capital",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Scale AI",
+      "target": "info:entity:person:Josh Gao",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Sequoia Capital",
+      "target": "info:entity:person:Josh Gao",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -16840,6 +17434,12 @@
     },
     {
       "source": "info:entity:model:Claude",
+      "target": "info:entity:person:Garry Tan",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Claude",
       "target": "info:entity:product:Kit",
       "relation": "co-occurs",
       "weight": "1"
@@ -16865,6 +17465,12 @@
     {
       "source": "info:entity:model:Claude Opus 4.6",
       "target": "info:entity:region:global",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Codex",
+      "target": "info:entity:person:Tristan Buckmaster",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -18003,6 +18609,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Houthis",
+      "target": "info:entity:organization:Iran",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Houthis",
+      "target": "info:entity:organization:Saudi Arabia",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Houthis",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Immigration and Customs Enforcement",
       "target": "info:entity:person:Laura Loomer",
       "relation": "co-occurs",
@@ -18035,6 +18659,12 @@
     {
       "source": "info:entity:organization:Iran",
       "target": "info:entity:organization:Saudi Arabia",
+      "relation": "co-occurs",
+      "weight": "2"
+    },
+    {
+      "source": "info:entity:organization:Iran",
+      "target": "info:entity:person:Donald Trump",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -18453,6 +19083,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Ndrangheta",
+      "target": "info:entity:person:Carlo Cosco",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Ndrangheta",
+      "target": "info:entity:person:Denise Cosco",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Ndrangheta",
+      "target": "info:entity:person:Lea Garofalo",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Nepal",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
@@ -18721,6 +19369,24 @@
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
       "weight": "2"
+    },
+    {
+      "source": "info:entity:organization:SNCF",
+      "target": "info:entity:person:Emmanuel Macron",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:SNCF",
+      "target": "info:entity:person:Philippe Tabarot",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Saudi Arabia",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:organization:Scope",
@@ -19533,6 +20199,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:person:Carlo Cosco",
+      "target": "info:entity:person:Denise Cosco",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Carlo Cosco",
+      "target": "info:entity:person:Lea Garofalo",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:person:Caroline Voaden",
       "target": "info:entity:person:Lucy Powell",
       "relation": "co-occurs",
@@ -19643,6 +20321,12 @@
     {
       "source": "info:entity:person:Delcy Rodriguez",
       "target": "info:entity:person:Marco Rubio",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Denise Cosco",
+      "target": "info:entity:person:Lea Garofalo",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -19829,6 +20513,12 @@
     {
       "source": "info:entity:person:Emmanuel Macron",
       "target": "info:entity:person:Marine Le Pen",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Emmanuel Macron",
+      "target": "info:entity:person:Philippe Tabarot",
       "relation": "co-occurs",
       "weight": "1"
     },

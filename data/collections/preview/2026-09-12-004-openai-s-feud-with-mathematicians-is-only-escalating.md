@@ -1,0 +1,68 @@
+---
+id: "info:item:ai-ml:global:2026-09-12-004"
+key: "2026-09-12-004"
+date: 2026-09-12
+content_type: briefing
+topic: ai-ml
+region: global
+categories: ["research", "product", "open-source"]
+source: "techcrunch.com"
+source_url: "https://techcrunch.com/2026/09/11/openais-feud-with-mathematicians-is-only-escalating/"
+word_count: 863
+tags: ["AI ethics", "academic integrity", "open-source", "LLM", "agentic AI", "regulation"]
+---
+
+# OpenAI’s feud with mathematicians is only escalating
+
+> [!summary] TL;DR — Twenty‑five Fields Medalists warn that AI labs, especially OpenAI, are rushing to claim breakthroughs without proper attribution, jeopardizing academic integrity and the open‑source research culture. The dispute highlights growing tensions between rapid AI‑driven discovery and the traditional scholarly process.
+
+## Background
+
+In early September 2026, a coalition of twenty‑five leading mathematicians, each holder of the prestigious Fields Medal, released an open letter accusing AI laboratories of undermining their intellectual work. The signatories argue that the race to produce solutions to famous mathematical problems is being driven by commercial competition rather than scholarly rigor. The letter cites specific incidents, such as NYU professor Tristan Buckmaster’s claim that OpenAI pressured him to omit credit for an Anthropic collaborator on a key proof, and the subsequent withdrawal of OpenAI’s sponsorship of a Caltech math event after criticism from university researchers. The mathematicians stress that AI‑generated proofs must be vetted, documented, and attributed to preserve the human transmission chain that sustains mathematics. This controversy follows the June 2026 Leiden Declaration, which first outlined the challenges posed by LLM‑generated proofs and offered recommendations for the community, institutions, and policymakers. The debate now extends beyond pure mathematics, echoing concerns in software engineering and other creative fields where AI tools are reshaping workflows. As AI models become more capable at solving complex problems, the stakes of attribution, reproducibility, and open‑source collaboration are intensifying, raising questions about how the scientific enterprise will adapt.
+
+## Academic Integrity Under Threat
+
+The core of the mathematicians’ complaint is that AI labs are bypassing the traditional peer‑review and citation process that underpins scholarly credibility. By announcing proofs in a "rush," as the letter puts it, labs leave no time for proper write‑ups, isolation of new methods, or citation of prior work. This practice threatens the very foundation of academic integrity: the transparent attribution of ideas. The signatories worry that without clear attribution, the mathematical canon could become polluted with unverified claims, eroding trust in the discipline. Moreover, the pressure on individual researchers—exemplified by Buckmaster’s allegation—creates a chilling effect, discouraging collaboration and openness. The fear is that mathematicians may start to withhold their work or demand restrictive licensing to protect their intellectual contributions, thereby reversing decades of progress toward open science.
+
+## OpenAI's Strategic Pressures and the Codex Controversy
+
+OpenAI’s involvement in the dispute centers on its use of Codex and other language models to accelerate proof generation. According to the article, OpenAI allegedly pressured a mathematician not to credit an Anthropic collaborator, suggesting that the company may have leveraged that collaborator’s work to produce its own groundbreaking proof during a marathon inference session. This incident underscores a broader pattern: frontier labs are willing to spend tens of millions of dollars on LLM‑driven research pipelines to outpace original researchers. The strategic imperative to be first can incentivize secrecy and rapid, unvetted releases. The withdrawal of OpenAI’s sponsorship from a Caltech math event after criticism further illustrates the tension between corporate sponsorship and academic independence. While funding can accelerate research, the mathematicians argue that it must not come at the cost of transparency and proper credit allocation.
+
+## Broader Implications for AI‑Driven Research and Open‑Source Culture
+
+The mathematicians’ warning extends beyond their own field. They note that similar issues are emerging in software engineering, where AI tools are reshaping development cycles, and anticipate that other creative professions will face analogous challenges. The underlying question is how to preserve the human purpose of work—knowledge creation, education, and cultural enrichment—when AI can automate the generation of solutions. The letter calls for a re‑emphasis on the "intellectual super‑structure" that nourishes students, spawns new questions, and integrates ideas into civilization. This includes safeguarding open‑source practices, ensuring that AI‑conceived ideas are vetted by the community, and maintaining a transmission chain of human mentorship. If frontier labs continue to prioritize speed over rigor, the culture of open research could be replaced by a proprietary model, limiting access and stifling innovation. The Leiden Declaration’s recommendations—such as establishing clear attribution standards for LLM‑generated content, creating institutional review boards for AI‑assisted research, and fostering interdisciplinary dialogue—provide a roadmap for mitigating these risks.
+
+## Key facts
+
+- Twenty‑five Fields Medalists signed an open letter accusing AI labs of threatening intellectual work.
+- NYU professor Tristan Buckmaster alleged OpenAI pressured him to omit credit for an Anthropic collaborator.
+- OpenAI withdrew sponsorship of a Caltech math event after criticism from university researchers.
+- The dispute follows the June 2026 Leiden Declaration, which outlined challenges of LLM‑generated proofs.
+- Frontier labs may spend tens of millions of dollars using LLMs to beat original researchers to proofs.
+
+## Implications
+
+- Potential erosion of academic integrity and citation norms if AI‑generated proofs remain unattributed.
+- Increased risk that mathematicians will adopt restrictive licensing, undermining open‑source research culture.
+- Corporate sponsorship of academic events may face heightened scrutiny to ensure independence.
+- Broader AI‑driven fields (software, creative arts) may experience similar attribution and transparency challenges.
+
+## Outlook
+
+The escalating feud signals a pivotal moment for AI‑augmented research. Unless the community adopts robust standards for attribution, reproducibility, and ethical use of AI tools, the race for breakthrough discoveries could sacrifice the very principles that sustain scientific progress. Stakeholders—including labs, universities, policymakers, and professional societies—must collaborate to integrate AI as a supportive partner rather than a replacement, preserving the human element that drives curiosity, education, and cultural advancement.
+
+## Entities
+
+- [[OpenAI]] — *company* (primary subject of dispute and alleged pressure on mathematicians)
+- [[Anthropic]] — *company* (collaborator whose work was allegedly used without credit)
+- [[Tristan_Buckmaster]] — *person* (NYU professor who accused OpenAI of pressuring him)
+- [[Codex]] — *model* (AI model used by OpenAI to generate mathematical proofs)
+
+## Related
+
+- [[2026-08-25-004-toward-compact-data-from-big-data]]
+- [[2026-08-24-004-robust-federated-training-via-collaborative-machine]]
+
+---
+
+*Source: [techcrunch.com](https://techcrunch.com/2026/09/11/openais-feud-with-mathematicians-is-only-escalating/)*

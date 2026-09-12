@@ -1,7 +1,7 @@
 ---
 node: "agentic AI"
 layer: misc
-item_count: 16
+item_count: 18
 ---
 
 # agentic AI
@@ -10,11 +10,14 @@ item_count: 16
 
 ## Cross-layer relations
 
+- [[ai-ml]] — *relates*
 - [[products]] — *relates*
 - [[world]] — *relates*
 
 ## Items
 
+- 2026-09-12 · [[2026-09-12-004-openai-s-feud-with-mathematicians-is-only-escalating]] — OpenAI’s feud with mathematicians is only escalating
+- 2026-09-12 · [[2026-09-12-005-y-combinator-s-garry-tan-wants-us-open-weight-ai-labs-to]] — Y Combinator’s Garry Tan wants US open-weight AI labs to ‘distill’ frontier models, too
 - 2026-09-09 · [[2026-09-09-006-relaticle-open-source-crm-with-approval-gated-ai-writes]] — Relaticle: Open‑source CRM with Approval‑Gated AI Writes
 - 2026-09-07 · [[2026-09-07-006-kit-by-speakeasy]] — Kit by Speakeasy
 - 2026-09-06 · [[2026-09-06-006-reflexio]] — Reflexio

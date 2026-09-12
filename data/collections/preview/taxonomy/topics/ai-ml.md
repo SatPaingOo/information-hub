@@ -1,7 +1,7 @@
 ---
 node: "ai-ml"
 layer: topic
-item_count: 21
+item_count: 24
 ---
 
 # ai-ml
@@ -25,6 +25,9 @@ item_count: 21
 
 ## Items
 
+- 2026-09-12 · [[2026-09-12-004-openai-s-feud-with-mathematicians-is-only-escalating]] — OpenAI’s feud with mathematicians is only escalating
+- 2026-09-12 · [[2026-09-12-005-y-combinator-s-garry-tan-wants-us-open-weight-ai-labs-to]] — Y Combinator’s Garry Tan wants US open-weight AI labs to ‘distill’ frontier models, too
+- 2026-09-12 · [[2026-09-12-006-mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid]] — Mecka AI nears $500M valuation in Sequoia-led deal amid rush for robot training data
 - 2026-08-25 · [[2026-08-25-004-toward-compact-data-from-big-data]] — Toward Compact Data from Big Data
 - 2026-08-25 · [[2026-08-25-004-toward-compact-data-from-big-data]] — Toward Compact Data from Big Data
 - 2026-08-24 · [[2026-08-24-004-robust-federated-training-via-collaborative-machine]] — Robust Federated Training via Collaborative Machine Teaching using Trusted Instances
