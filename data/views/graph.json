@@ -4213,6 +4213,37 @@
       "name": "Gerald Bourguet"
     },
     {
+      "id": "info:item:world:global:2026-09-13-009",
+      "type": "item",
+      "date": "2026-09-13",
+      "title": "AI staff 'genuinely frightened' for humanity's future, ex-Anthropic researcher tells BBC"
+    },
+    {
+      "id": "info:entity:person:Jacob Coxon",
+      "type": "person",
+      "name": "Jacob Coxon"
+    },
+    {
+      "id": "info:entity:person:Elon Musk",
+      "type": "person",
+      "name": "Elon Musk"
+    },
+    {
+      "id": "taxonomy/misc/AI Governance",
+      "type": "taxonomy",
+      "name": "AI Governance"
+    },
+    {
+      "id": "taxonomy/misc/Emerging Technologies",
+      "type": "taxonomy",
+      "name": "Emerging Technologies"
+    },
+    {
+      "id": "taxonomy/misc/Global Policy",
+      "type": "taxonomy",
+      "name": "Global Policy"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -16182,6 +16213,81 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-09-13-009",
+      "target": "info:entity:person:Jacob Coxon",
+      "relation": "former Anthropic researcher, whistleblower"
+    },
+    {
+      "source": "info:item:world:global:2026-09-13-009",
+      "target": "info:entity:person:Dario Amodei",
+      "relation": "Anthropic CEO, advocate for slowdown"
+    },
+    {
+      "source": "info:item:world:global:2026-09-13-009",
+      "target": "info:entity:person:Sam Altman",
+      "relation": "OpenAI CEO, supports regulation"
+    },
+    {
+      "source": "info:item:world:global:2026-09-13-009",
+      "target": "info:entity:person:Elon Musk",
+      "relation": "xAI founder, backs deceleration proposal"
+    },
+    {
+      "source": "info:item:world:global:2026-09-13-009",
+      "target": "info:entity:company:Anthropic",
+      "relation": "AI lab developing Claude series"
+    },
+    {
+      "source": "info:item:world:global:2026-09-13-009",
+      "target": "info:entity:company:OpenAI",
+      "relation": "Developer of GPT‑4 and leading LLM"
+    },
+    {
+      "source": "info:item:world:global:2026-09-13-009",
+      "target": "info:item:world:global:2026-09-13-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-13-009",
+      "target": "info:item:world:global:2026-09-13-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-13-009",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-13-009",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-13-009",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-13-009",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-13-009",
+      "target": "taxonomy/misc/AI Governance",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-13-009",
+      "target": "taxonomy/misc/Emerging Technologies",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-13-009",
+      "target": "taxonomy/misc/Global Policy",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -16397,7 +16503,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
-      "weight": "28"
+      "weight": "29"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -16547,7 +16653,13 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:person:Dario Amodei",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:person:Elon Musk",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -16563,6 +16675,12 @@
     },
     {
       "source": "info:entity:company:Anthropic",
+      "target": "info:entity:person:Jacob Coxon",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
       "target": "info:entity:person:Judge Rita Lin",
       "relation": "co-occurs",
       "weight": "1"
@@ -16571,7 +16689,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:person:Sam Altman",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -17189,11 +17307,17 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Dario Amodei",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Donald Trump",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:person:Elon Musk",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -17206,6 +17330,12 @@
     {
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Gerald Bourguet",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:person:Jacob Coxon",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -17225,7 +17355,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Sam Altman",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -21309,9 +21439,21 @@
     },
     {
       "source": "info:entity:person:Dario Amodei",
+      "target": "info:entity:person:Elon Musk",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Dario Amodei",
+      "target": "info:entity:person:Jacob Coxon",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Dario Amodei",
       "target": "info:entity:person:Sam Altman",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:person:Delcy Rodriguez",
@@ -21518,6 +21660,18 @@
       "weight": "2"
     },
     {
+      "source": "info:entity:person:Elon Musk",
+      "target": "info:entity:person:Jacob Coxon",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Elon Musk",
+      "target": "info:entity:person:Sam Altman",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:person:Emmanuel Macron",
       "target": "info:entity:person:Marine Le Pen",
       "relation": "co-occurs",
@@ -21636,6 +21790,12 @@
       "target": "info:entity:region:Iran",
       "relation": "co-occurs",
       "weight": "2"
+    },
+    {
+      "source": "info:entity:person:Jacob Coxon",
+      "target": "info:entity:person:Sam Altman",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:person:James Cleverly",
