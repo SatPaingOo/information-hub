@@ -1,7 +1,7 @@
 ---
 name: "OpenAI"
 entity_type: company
-backlink_count: 40
+backlink_count: 45
 ---
 
 # OpenAI
@@ -10,6 +10,11 @@ backlink_count: 40
 
 ## Referenced by
 
+- 2026-09-13 · [[2026-09-13-001-anthropic-boss-dario-amodei-calls-for-ai-development-to]] — Anthropic boss Dario Amodei calls for AI development to slow down
+- 2026-09-13 · [[2026-09-13-002-trump-s-comments-on-a-united-ireland-may-have-targeted]] — Trump's comments on a united Ireland may have targeted audience across the Atlantic
+- 2026-09-13 · [[2026-09-13-003-fire-at-nursing-home-in-chile-kills-16-residents]] — Fire at nursing home in Chile kills 16 residents
+- 2026-09-13 · [[2026-09-13-004-anthropic-ceo-outlines-plan-to-pace-the-frontier]] — Anthropic CEO Outlines Plan to Pace the Frontier
+- 2026-09-13 · [[2026-09-13-005-openai-s-sam-altman-says-it-would-be-ill-advised-to-go]] — OpenAI’s Sam Altman says it would be ‘ill‑advised’ to go public in 2026
 - 2026-09-12 · [[2026-09-12-004-openai-s-feud-with-mathematicians-is-only-escalating]] — OpenAI’s feud with mathematicians is only escalating
 - 2026-09-12 · [[2026-09-12-005-y-combinator-s-garry-tan-wants-us-open-weight-ai-labs-to]] — Y Combinator’s Garry Tan wants US open-weight AI labs to ‘distill’ frontier models, too
 - 2026-09-11 · [[2026-09-11-006-ai-observability-by-openobserve]] — AI Observability by OpenObserve

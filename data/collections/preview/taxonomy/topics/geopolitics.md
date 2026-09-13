@@ -1,7 +1,7 @@
 ---
 node: "geopolitics"
 layer: topic
-item_count: 36
+item_count: 38
 ---
 
 # geopolitics
@@ -24,6 +24,8 @@ item_count: 36
 
 ## Items
 
+- 2026-09-13 · [[2026-09-13-002-trump-s-comments-on-a-united-ireland-may-have-targeted]] — Trump's comments on a united Ireland may have targeted audience across the Atlantic
+- 2026-09-13 · [[2026-09-13-006-reform-receives-second-36m-donation-in-two-days-as-crypto]] — Reform receives second £36m donation in two days as crypto investor matches record
 - 2026-09-12 · [[2026-09-12-001-houthis-claim-major-advance-in-yemen-and-tighten-grip-on]] — Houthis claim major advance in Yemen and tighten grip on Red Sea shipping lane
 - 2026-09-11 · [[2026-09-11-002-can-trump-really-pay-5-000-to-every-american-adult]] — Can Trump really pay $5,000 to every American adult?
 - 2026-09-11 · [[2026-09-11-005-badenoch-denies-housing-benefit-cuts-plan-would-make]] — Badenoch denies housing benefit cuts plan would make people homeless

@@ -1,7 +1,7 @@
 ---
 name: "Anthropic"
 entity_type: company
-backlink_count: 28
+backlink_count: 30
 ---
 
 # Anthropic
@@ -10,6 +10,8 @@ backlink_count: 28
 
 ## Referenced by
 
+- 2026-09-13 · [[2026-09-13-001-anthropic-boss-dario-amodei-calls-for-ai-development-to]] — Anthropic boss Dario Amodei calls for AI development to slow down
+- 2026-09-13 · [[2026-09-13-004-anthropic-ceo-outlines-plan-to-pace-the-frontier]] — Anthropic CEO Outlines Plan to Pace the Frontier
 - 2026-09-12 · [[2026-09-12-004-openai-s-feud-with-mathematicians-is-only-escalating]] — OpenAI’s feud with mathematicians is only escalating
 - 2026-09-12 · [[2026-09-12-005-y-combinator-s-garry-tan-wants-us-open-weight-ai-labs-to]] — Y Combinator’s Garry Tan wants US open-weight AI labs to ‘distill’ frontier models, too
 - 2026-09-11 · [[2026-09-11-006-ai-observability-by-openobserve]] — AI Observability by OpenObserve

@@ -1,0 +1,14 @@
+2026-09-13 01:09:05,168 INFO [world-news] published 2026-09-13-001 — Anthropic boss Dario Amodei calls for AI development to slow
+2026-09-13 01:09:26,330 INFO [world-news] published 2026-09-13-002 — Trump's comments on a united Ireland may have targeted audie
+2026-09-13 01:09:50,952 INFO [world-news] published 2026-09-13-003 — Fire at nursing home in Chile kills 16 residents
+2026-09-13 01:10:20,733 INFO [tech-news] published 2026-09-13-004 — Anthropic CEO Outlines Plan to Pace the Frontier
+2026-09-13 01:10:48,580 INFO [tech-news] published 2026-09-13-005 — OpenAI’s Sam Altman says it would be ‘ill‑advised’ to go pub
+2026-09-13 01:11:14,218 INFO [politics] model returned no selection — using heuristic fallback (2)
+2026-09-13 01:11:36,683 INFO [politics] published 2026-09-13-006 — Reform receives second £36m donation in two days as crypto i
+2026-09-13 01:11:40,698 INFO [politics] published 2026-09-13-007 — MPs vote against fresh attempt to legalise assisted dying
+2026-09-13 01:11:42,343 ERROR [products] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6277, Requested 3299. Please try again in 11.82s. Need more tokens? Upgrade to Dev Tier today at https://cons
+2026-09-13 01:11:47,993 ERROR [products] generate error: HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
+
+2026-09-13 01:11:53,995 WARNING [products] no collect provider for deep-dive
+2026-09-13 01:11:54,043 WARNING [products] no collect provider for deep-dive
+2026-09-13 01:11:54,246 INFO collect done: 7 item(s) published — target 3/10, next run ≈ 2026-09-14T01:00:00+00:00 UTC

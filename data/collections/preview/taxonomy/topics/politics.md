@@ -1,7 +1,7 @@
 ---
 node: "politics"
 layer: topic
-item_count: 52
+item_count: 54
 ---
 
 # politics
@@ -17,6 +17,8 @@ item_count: 52
 
 ## Items
 
+- 2026-09-13 · [[2026-09-13-006-reform-receives-second-36m-donation-in-two-days-as-crypto]] — Reform receives second £36m donation in two days as crypto investor matches record
+- 2026-09-13 · [[2026-09-13-007-mps-vote-against-fresh-attempt-to-legalise-assisted-dying]] — MPs vote against fresh attempt to legalise assisted dying
 - 2026-09-11 · [[2026-09-11-004-labour-mayors-in-england-vow-to-cap-tourist-tax-at-5]] — Labour mayors in England vow to cap tourist tax at 5%
 - 2026-09-11 · [[2026-09-11-005-badenoch-denies-housing-benefit-cuts-plan-would-make]] — Badenoch denies housing benefit cuts plan would make people homeless
 - 2026-09-11 · [[2026-09-11-005-badenoch-denies-housing-benefit-cuts-plan-would-make]] — Badenoch denies housing benefit cuts plan would make people homeless

@@ -1,7 +1,7 @@
 ---
 name: "Nigel Farage"
 entity_type: person
-backlink_count: 9
+backlink_count: 10
 ---
 
 # Nigel Farage
@@ -10,6 +10,7 @@ backlink_count: 9
 
 ## Referenced by
 
+- 2026-09-13 · [[2026-09-13-006-reform-receives-second-36m-donation-in-two-days-as-crypto]] — Reform receives second £36m donation in two days as crypto investor matches record
 - 2026-09-11 · [[2026-09-11-004-labour-mayors-in-england-vow-to-cap-tourist-tax-at-5]] — Labour mayors in England vow to cap tourist tax at 5%
 - 2026-09-10 · [[2026-09-10-004-police-launch-criminal-investigation-into-reform-uk]] — Police launch criminal investigation into Reform UK donations
 - 2026-09-09 · [[2026-09-09-005-commentator-tim-montgomerie-quits-reform-following]] — Commentator Tim Montgomerie quits Reform following suspension

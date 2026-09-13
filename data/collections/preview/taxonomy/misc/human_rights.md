@@ -1,7 +1,7 @@
 ---
 node: "human rights"
 layer: misc
-item_count: 5
+item_count: 6
 ---
 
 # human rights
@@ -10,10 +10,12 @@ item_count: 5
 
 ## Cross-layer relations
 
+- [[politics]] — *relates*
 - [[world]] — *relates*
 
 ## Items
 
+- 2026-09-13 · [[2026-09-13-007-mps-vote-against-fresh-attempt-to-legalise-assisted-dying]] — MPs vote against fresh attempt to legalise assisted dying
 - 2026-09-09 · [[2026-09-09-007-constantly-on-my-mind-9-11-agony-goes-on-for-bereaved-25]] — ‘Constantly on my mind’ – 9/11 agony goes on for bereaved, 25 years on
 - 2026-09-06 · [[2026-09-06-003-tv-presenter-among-11-sentenced-to-death-in-egypt-drugs-case]] — TV presenter among 11 sentenced to death in Egypt drugs case
 - 2026-08-29 · [[2026-08-29-001-footage-of-tibet-floods-isn-t-being-shown-in-china-and-we]] — Footage of Tibet floods isn't being shown in China - and we know little about victims there
