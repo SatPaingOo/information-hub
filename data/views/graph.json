@@ -4202,6 +4202,17 @@
       "name": "legislative process"
     },
     {
+      "id": "info:item:world:global:2026-09-13-008",
+      "type": "item",
+      "date": "2026-09-13",
+      "title": "They lost their jobs after posting about Charlie Kirk, but some have no regrets"
+    },
+    {
+      "id": "info:entity:person:Gerald Bourguet",
+      "type": "person",
+      "name": "Gerald Bourguet"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -16101,6 +16112,76 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-09-13-008",
+      "target": "info:entity:person:Charlie Kirk",
+      "relation": "subject of criticism"
+    },
+    {
+      "source": "info:item:world:global:2026-09-13-008",
+      "target": "info:entity:person:Gerald Bourguet",
+      "relation": "employee dismissed for posts"
+    },
+    {
+      "source": "info:item:world:global:2026-09-13-008",
+      "target": "info:entity:company:OpenAI",
+      "relation": "provider of LLMs used in content moderation"
+    },
+    {
+      "source": "info:item:world:global:2026-09-13-008",
+      "target": "info:entity:company:Anthropic",
+      "relation": "developer of Claude, referenced in AI moderation discussions"
+    },
+    {
+      "source": "info:item:world:global:2026-09-13-008",
+      "target": "info:entity:model:Gemini",
+      "relation": "Google's LLM cited as example of AI moderation tools"
+    },
+    {
+      "source": "info:item:world:global:2026-09-13-008",
+      "target": "info:item:world:global:2026-09-13-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-13-008",
+      "target": "info:item:world:global:2026-09-13-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-13-008",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-13-008",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-13-008",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-13-008",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-13-008",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-13-008",
+      "target": "taxonomy/category/industry",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-13-008",
+      "target": "taxonomy/topic/world",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -16316,7 +16397,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
-      "weight": "27"
+      "weight": "28"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -16424,7 +16505,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "15"
+      "weight": "16"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -16458,6 +16539,12 @@
     },
     {
       "source": "info:entity:company:Anthropic",
+      "target": "info:entity:person:Charlie Kirk",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
       "target": "info:entity:person:Dario Amodei",
       "relation": "co-occurs",
       "weight": "2"
@@ -16465,6 +16552,12 @@
     {
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:person:Garry Tan",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:person:Gerald Bourguet",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -17018,7 +17111,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "20"
+      "weight": "21"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -17088,6 +17181,12 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:person:Charlie Kirk",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Dario Amodei",
       "relation": "co-occurs",
       "weight": "2"
@@ -17101,6 +17200,12 @@
     {
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Garry Tan",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:person:Gerald Bourguet",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -18258,7 +18363,19 @@
     },
     {
       "source": "info:entity:model:Gemini",
+      "target": "info:entity:person:Charlie Kirk",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
       "target": "info:entity:person:Donald Trump",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
+      "target": "info:entity:person:Gerald Bourguet",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -21079,6 +21196,12 @@
     {
       "source": "info:entity:person:Caroline Voaden",
       "target": "info:entity:person:Lucy Powell",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Charlie Kirk",
+      "target": "info:entity:person:Gerald Bourguet",
       "relation": "co-occurs",
       "weight": "1"
     },

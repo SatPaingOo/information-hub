@@ -21,3 +21,11 @@
 2026-09-13 05:52:44,548 WARNING [politics] no collect provider available
 2026-09-13 05:52:45,481 WARNING [products] no collect provider available
 2026-09-13 05:52:45,709 INFO collect done: 0 item(s) published — target 3/10, next run ≈ 2026-09-14T01:00:00+00:00 UTC
+2026-09-13 06:18:15,306 INFO [world-news] published 2026-09-13-008 — They lost their jobs after posting about Charlie Kirk, but s
+2026-09-13 06:18:15,472 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6117, Requested 3681. Please try again in 13.485s. Need more tokens? Upgrade to Dev Tier today at https://con
+2026-09-13 06:18:18,474 WARNING [world-news] no collect provider for deep-dive
+2026-09-13 06:18:18,566 WARNING [world-news] no collect provider for deep-dive
+2026-09-13 06:18:38,879 WARNING [tech-news] no collect provider available
+2026-09-13 06:18:39,131 WARNING [politics] no collect provider available
+2026-09-13 06:18:39,894 WARNING [products] no collect provider available
+2026-09-13 06:18:40,135 INFO collect done: 1 item(s) published — target 2/10, next run ≈ 2026-09-14T01:00:00+00:00 UTC

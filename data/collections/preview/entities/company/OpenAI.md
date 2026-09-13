@@ -1,7 +1,7 @@
 ---
 name: "OpenAI"
 entity_type: company
-backlink_count: 45
+backlink_count: 46
 ---
 
 # OpenAI
@@ -15,6 +15,7 @@ backlink_count: 45
 - 2026-09-13 · [[2026-09-13-003-fire-at-nursing-home-in-chile-kills-16-residents]] — Fire at nursing home in Chile kills 16 residents
 - 2026-09-13 · [[2026-09-13-004-anthropic-ceo-outlines-plan-to-pace-the-frontier]] — Anthropic CEO Outlines Plan to Pace the Frontier
 - 2026-09-13 · [[2026-09-13-005-openai-s-sam-altman-says-it-would-be-ill-advised-to-go]] — OpenAI’s Sam Altman says it would be ‘ill‑advised’ to go public in 2026
+- 2026-09-13 · [[2026-09-13-008-they-lost-their-jobs-after-posting-about-charlie-kirk-but]] — They lost their jobs after posting about Charlie Kirk, but some have no regrets
 - 2026-09-12 · [[2026-09-12-004-openai-s-feud-with-mathematicians-is-only-escalating]] — OpenAI’s feud with mathematicians is only escalating
 - 2026-09-12 · [[2026-09-12-005-y-combinator-s-garry-tan-wants-us-open-weight-ai-labs-to]] — Y Combinator’s Garry Tan wants US open-weight AI labs to ‘distill’ frontier models, too
 - 2026-09-11 · [[2026-09-11-006-ai-observability-by-openobserve]] — AI Observability by OpenObserve

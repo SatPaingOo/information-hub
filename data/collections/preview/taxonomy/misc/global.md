@@ -1,7 +1,7 @@
 ---
 node: "global"
 layer: misc
-item_count: 221
+item_count: 222
 ---
 
 # global
@@ -32,6 +32,7 @@ item_count: 221
 - 2026-09-13 · [[2026-09-13-005-openai-s-sam-altman-says-it-would-be-ill-advised-to-go]] — OpenAI’s Sam Altman says it would be ‘ill‑advised’ to go public in 2026
 - 2026-09-13 · [[2026-09-13-006-reform-receives-second-36m-donation-in-two-days-as-crypto]] — Reform receives second £36m donation in two days as crypto investor matches record
 - 2026-09-13 · [[2026-09-13-007-mps-vote-against-fresh-attempt-to-legalise-assisted-dying]] — MPs vote against fresh attempt to legalise assisted dying
+- 2026-09-13 · [[2026-09-13-008-they-lost-their-jobs-after-posting-about-charlie-kirk-but]] — They lost their jobs after posting about Charlie Kirk, but some have no regrets
 - 2026-09-12 · [[2026-09-12-001-houthis-claim-major-advance-in-yemen-and-tighten-grip-on]] — Houthis claim major advance in Yemen and tighten grip on Red Sea shipping lane
 - 2026-09-12 · [[2026-09-12-002-tragic-death-of-woman-who-testified-against-father-in]] — Tragic death of woman who testified against father in notorious mafia murder of mother
 - 2026-09-12 · [[2026-09-12-003-passenger-train-derails-in-france-leaving-at-least-44]] — Passenger train derails in France leaving at least 44 injured
