@@ -1,7 +1,7 @@
 ---
 node: "global"
 layer: misc
-item_count: 223
+item_count: 233
 ---
 
 # global
@@ -24,6 +24,16 @@ item_count: 223
 
 ## Items
 
+- 2026-09-14 · [[2026-09-14-001-russia-hits-ukrainian-train-shortly-after-boris-johnson]] — Russia hits Ukrainian train shortly after Boris Johnson and top European officials leave station
+- 2026-09-14 · [[2026-09-14-002-trump-downplays-warnings-of-ai-risks-citing-rivalry-with]] — Trump downplays warnings of AI risks, citing rivalry with China
+- 2026-09-14 · [[2026-09-14-002-trump-downplays-warnings-of-ai-risks-citing-rivalry-with]] — Trump downplays warnings of AI risks, citing rivalry with China
+- 2026-09-14 · [[2026-09-14-003-questions-mount-over-what-an-ai-slowdown-would-look-like]] — Questions mount over what an AI 'slowdown' would look like
+- 2026-09-14 · [[2026-09-14-004-insight-partners-deven-parekh-on-why-the-firm-is]] — Insight Partners’ Deven Parekh on why the firm is diversifying while everyone else bets the farm on OpenAI and Anthropic
+- 2026-09-14 · [[2026-09-14-004-insight-partners-deven-parekh-on-why-the-firm-is]] — Insight Partners’ Deven Parekh on why the firm is diversifying while everyone else bets the farm on OpenAI and Anthropic
+- 2026-09-14 · [[2026-09-14-006-reform-confident-it-won-t-need-to-repay-any-of-72m-under]] — Reform confident it won't need to repay any of £72m under proposed new donor rules
+- 2026-09-14 · [[2026-09-14-007-will-record-donations-to-reform-go-down-as-a-moment-of]] — Will record donations to Reform go down as a moment of political change?
+- 2026-09-14 · [[2026-09-14-007-will-record-donations-to-reform-go-down-as-a-moment-of]] — Will record donations to Reform go down as a moment of political change?
+- 2026-09-14 · [[2026-09-14-008-neopress-ai-driven-conversational-website-builder]] — Neopress – AI‑Driven Conversational Website Builder
 - 2026-09-13 · [[2026-09-13-001-anthropic-boss-dario-amodei-calls-for-ai-development-to]] — Anthropic boss Dario Amodei calls for AI development to slow down
 - 2026-09-13 · [[2026-09-13-002-trump-s-comments-on-a-united-ireland-may-have-targeted]] — Trump's comments on a united Ireland may have targeted audience across the Atlantic
 - 2026-09-13 · [[2026-09-13-003-fire-at-nursing-home-in-chile-kills-16-residents]] — Fire at nursing home in Chile kills 16 residents

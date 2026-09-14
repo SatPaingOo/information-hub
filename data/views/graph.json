@@ -4244,6 +4244,113 @@
       "name": "Global Policy"
     },
     {
+      "id": "info:item:world:global:2026-09-14-001",
+      "type": "item",
+      "date": "2026-09-14",
+      "title": "Russia hits Ukrainian train shortly after Boris Johnson and top European officials leave station"
+    },
+    {
+      "id": "info:entity:organization:Ukrzaliznytsia",
+      "type": "organization",
+      "name": "Ukrzaliznytsia"
+    },
+    {
+      "id": "taxonomy/misc/European security",
+      "type": "taxonomy",
+      "name": "European security"
+    },
+    {
+      "id": "taxonomy/misc/Rail transport infrastructure",
+      "type": "taxonomy",
+      "name": "Rail transport infrastructure"
+    },
+    {
+      "id": "info:item:world:global:2026-09-14-002",
+      "type": "item",
+      "date": "2026-09-14",
+      "title": "Trump downplays warnings of AI risks, citing rivalry with China"
+    },
+    {
+      "id": "info:item:world:global:2026-09-14-003",
+      "type": "item",
+      "date": "2026-09-14",
+      "title": "Questions mount over what an AI 'slowdown' would look like"
+    },
+    {
+      "id": "info:item:ai-ml:global:2026-09-14-004",
+      "type": "item",
+      "date": "2026-09-14",
+      "title": "Insight Partners’ Deven Parekh on why the firm is diversifying while everyone else bets the farm on OpenAI and Anthropic"
+    },
+    {
+      "id": "info:entity:person:Deven Parekh",
+      "type": "person",
+      "name": "Deven Parekh"
+    },
+    {
+      "id": "info:entity:company:General Catalyst",
+      "type": "company",
+      "name": "General Catalyst"
+    },
+    {
+      "id": "info:item:politics:global:2026-09-14-006",
+      "type": "item",
+      "date": "2026-09-14",
+      "title": "Reform confident it won't need to repay any of £72m under proposed new donor rules"
+    },
+    {
+      "id": "info:entity:person:Robert Jenrick",
+      "type": "person",
+      "name": "Robert Jenrick"
+    },
+    {
+      "id": "taxonomy/misc/political donations",
+      "type": "taxonomy",
+      "name": "political donations"
+    },
+    {
+      "id": "info:item:politics:global:2026-09-14-007",
+      "type": "item",
+      "date": "2026-09-14",
+      "title": "Will record donations to Reform go down as a moment of political change?"
+    },
+    {
+      "id": "info:item:products:global:2026-09-14-008",
+      "type": "item",
+      "date": "2026-09-14",
+      "title": "Neopress – AI‑Driven Conversational Website Builder"
+    },
+    {
+      "id": "info:entity:company:Neopress",
+      "type": "company",
+      "name": "Neopress"
+    },
+    {
+      "id": "info:entity:model:OpenAI GPT‑4‑Turbo",
+      "type": "model",
+      "name": "OpenAI GPT‑4‑Turbo"
+    },
+    {
+      "id": "info:entity:model:Google Gemini 1.5",
+      "type": "model",
+      "name": "Google Gemini 1.5"
+    },
+    {
+      "id": "info:entity:concept:Open‑source SDK",
+      "type": "concept",
+      "name": "Open‑source SDK"
+    },
+    {
+      "id": "taxonomy/misc/Web Development",
+      "type": "taxonomy",
+      "name": "Web Development"
+    },
+    {
+      "id": "taxonomy/misc/Regulatory Compliance",
+      "type": "taxonomy",
+      "name": "Regulatory Compliance"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -16288,6 +16395,486 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-09-14-001",
+      "target": "info:entity:person:Vladimir Putin",
+      "relation": "Russian President ordering strikes on Ukrainian infrastructure"
+    },
+    {
+      "source": "info:item:world:global:2026-09-14-001",
+      "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "President of Ukraine condemning attacks and calling for increased Western support"
+    },
+    {
+      "source": "info:item:world:global:2026-09-14-001",
+      "target": "info:entity:organization:NATO",
+      "relation": "Alliance whose eastern flank is being tested by Russian strikes"
+    },
+    {
+      "source": "info:item:world:global:2026-09-14-001",
+      "target": "info:entity:organization:Ukrzaliznytsia",
+      "relation": "Ukrainian state railway company managing critical transport links"
+    },
+    {
+      "source": "info:item:world:global:2026-09-14-001",
+      "target": "info:item:world:global:2026-09-13-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-14-001",
+      "target": "info:item:world:global:2026-09-13-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-14-001",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-14-001",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-14-001",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-14-001",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-14-001",
+      "target": "taxonomy/misc/Ukraine conflict",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-14-001",
+      "target": "taxonomy/misc/European security",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-14-001",
+      "target": "taxonomy/misc/Rail transport infrastructure",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-14-002",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "U.S. President who downplayed AI risks and emphasized rivalry with China"
+    },
+    {
+      "source": "info:item:world:global:2026-09-14-002",
+      "target": "info:entity:company:Anthropic",
+      "relation": "AI developer whose CEO called for a coordinated slowdown and warned of existential risks"
+    },
+    {
+      "source": "info:item:world:global:2026-09-14-002",
+      "target": "info:entity:person:Elon Musk",
+      "relation": "xAI founder who supported a temporary AI development slowdown"
+    },
+    {
+      "source": "info:item:world:global:2026-09-14-002",
+      "target": "info:entity:person:Sam Altman",
+      "relation": "OpenAI CEO who backed the slowdown proposal"
+    },
+    {
+      "source": "info:item:world:global:2026-09-14-002",
+      "target": "info:entity:region:China",
+      "relation": "rival in the AI race, key partner for any coordinated slowdown"
+    },
+    {
+      "source": "info:item:world:global:2026-09-14-002",
+      "target": "info:item:world:global:2026-09-14-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-14-002",
+      "target": "info:item:world:global:2026-09-13-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-14-002",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-14-002",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-14-002",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-14-002",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-14-002",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-14-002",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-14-002",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-14-003",
+      "target": "info:entity:person:Dario Amodei",
+      "relation": "CEO of Anthropic, proponent of AI slowdown"
+    },
+    {
+      "source": "info:item:world:global:2026-09-14-003",
+      "target": "info:entity:company:Anthropic",
+      "relation": "AI developer advocating for regulated development pace"
+    },
+    {
+      "source": "info:item:world:global:2026-09-14-003",
+      "target": "info:entity:person:Sam Altman",
+      "relation": "OpenAI CEO, supports AI slowdown"
+    },
+    {
+      "source": "info:item:world:global:2026-09-14-003",
+      "target": "info:entity:company:OpenAI",
+      "relation": "Leading AI research organization, considering pause in development"
+    },
+    {
+      "source": "info:item:world:global:2026-09-14-003",
+      "target": "info:item:world:global:2026-09-14-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-14-003",
+      "target": "info:item:world:global:2026-09-14-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-14-003",
+      "target": "info:item:world:global:2026-09-13-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-14-003",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-14-003",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-14-003",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-14-003",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-14-003",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-14-003",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-14-003",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-14-004",
+      "target": "info:entity:company:OpenAI",
+      "relation": "portfolio investment"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-14-004",
+      "target": "info:entity:person:Deven Parekh",
+      "relation": "co‑founder and decision‑maker at Insight Partners"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-14-004",
+      "target": "info:entity:company:Anthropic",
+      "relation": "portfolio investment"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-14-004",
+      "target": "info:entity:company:General Catalyst",
+      "relation": "competitor in Legora acquisition"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-14-004",
+      "target": "info:item:ai-ml:global:2026-09-13-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-14-004",
+      "target": "info:item:ai-ml:global:2026-09-12-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-14-004",
+      "target": "taxonomy/topic/ai-ml",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-14-004",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-14-004",
+      "target": "taxonomy/category/research",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-14-004",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-14-004",
+      "target": "taxonomy/category/open-source",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-14-004",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-14-004",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-14-004",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-14-006",
+      "target": "info:entity:organization:Reform UK",
+      "relation": "recipient of political donations"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-14-006",
+      "target": "info:entity:person:Ben Delo",
+      "relation": "crypto billionaire donor"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-14-006",
+      "target": "info:entity:person:Christopher Harborne",
+      "relation": "crypto billionaire donor"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-14-006",
+      "target": "info:entity:person:Angela Rayner",
+      "relation": "Housing Secretary, proponent of retrospective donor rules"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-14-006",
+      "target": "info:entity:person:Robert Jenrick",
+      "relation": "Reform UK economic spokesman"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-14-006",
+      "target": "info:item:politics:global:2026-09-13-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-14-006",
+      "target": "info:item:politics:global:2026-09-11-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-14-006",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-14-006",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-14-006",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-14-006",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-14-006",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-14-006",
+      "target": "taxonomy/misc/political donations",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-14-007",
+      "target": "info:entity:organization:Reform UK",
+      "relation": "recipient of record donations"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-14-007",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "Prime Minister facing pressure on donation rules"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-14-007",
+      "target": "info:entity:person:Christopher Harborne",
+      "relation": "cryptocurrency donor to Reform UK"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-14-007",
+      "target": "info:entity:person:Ben Delo",
+      "relation": "cryptocurrency donor to Reform UK"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-14-007",
+      "target": "info:entity:organization:Labour Party",
+      "relation": "government planning donation caps"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-14-007",
+      "target": "info:entity:organization:Electoral Commission",
+      "relation": "reviewing party financing rules"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-14-007",
+      "target": "info:item:politics:global:2026-09-14-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-14-007",
+      "target": "info:item:politics:global:2026-09-13-007",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-14-007",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-14-007",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-14-007",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-14-007",
+      "target": "taxonomy/topic/politics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-14-007",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-14-007",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-09-14-008",
+      "target": "info:entity:company:Neopress",
+      "relation": "product developer"
+    },
+    {
+      "source": "info:item:products:global:2026-09-14-008",
+      "target": "info:entity:model:OpenAI GPT‑4‑Turbo",
+      "relation": "core LLM provider"
+    },
+    {
+      "source": "info:item:products:global:2026-09-14-008",
+      "target": "info:entity:model:Google Gemini 1.5",
+      "relation": "alternative LLM"
+    },
+    {
+      "source": "info:item:products:global:2026-09-14-008",
+      "target": "info:entity:model:Anthropic Claude",
+      "relation": "alternative LLM"
+    },
+    {
+      "source": "info:item:products:global:2026-09-14-008",
+      "target": "info:entity:concept:Agentic AI",
+      "relation": "core technology"
+    },
+    {
+      "source": "info:item:products:global:2026-09-14-008",
+      "target": "info:entity:concept:Open‑source SDK",
+      "relation": "self‑hosting option"
+    },
+    {
+      "source": "info:item:products:global:2026-09-14-008",
+      "target": "info:item:products:global:2026-09-11-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-09-14-008",
+      "target": "info:item:products:global:2026-09-10-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-09-14-008",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-09-14-008",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-09-14-008",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-09-14-008",
+      "target": "taxonomy/misc/Artificial Intelligence",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-09-14-008",
+      "target": "taxonomy/misc/Web Development",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-09-14-008",
+      "target": "taxonomy/misc/Regulatory Compliance",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -16495,6 +17082,12 @@
     },
     {
       "source": "info:entity:company:Anthropic",
+      "target": "info:entity:company:General Catalyst",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:Google",
       "relation": "co-occurs",
       "weight": "4"
@@ -16503,7 +17096,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
-      "weight": "29"
+      "weight": "31"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -16653,13 +17246,25 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:person:Dario Amodei",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:person:Deven Parekh",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:person:Elon Musk",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -16689,7 +17294,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:person:Sam Altman",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "5"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -16736,6 +17341,12 @@
     {
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:product:Relaticle",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:region:China",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -16880,6 +17491,18 @@
     {
       "source": "info:entity:company:Gemini",
       "target": "info:entity:region:Myanmar",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:General Catalyst",
+      "target": "info:entity:company:OpenAI",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:General Catalyst",
+      "target": "info:entity:person:Deven Parekh",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -17090,6 +17713,36 @@
     {
       "source": "info:entity:company:Meta",
       "target": "info:entity:person:Donald Trump",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Neopress",
+      "target": "info:entity:concept:Agentic AI",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Neopress",
+      "target": "info:entity:concept:Open‑source SDK",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Neopress",
+      "target": "info:entity:model:Anthropic Claude",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Neopress",
+      "target": "info:entity:model:Google Gemini 1.5",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Neopress",
+      "target": "info:entity:model:OpenAI GPT‑4‑Turbo",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -17307,7 +17960,13 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Dario Amodei",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:person:Deven Parekh",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -17355,7 +18014,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Sam Altman",
       "relation": "co-occurs",
-      "weight": "4"
+      "weight": "5"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -17629,6 +18288,12 @@
     },
     {
       "source": "info:entity:concept:Agentic AI",
+      "target": "info:entity:concept:Open‑source SDK",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Agentic AI",
       "target": "info:entity:concept:Retrieval-Augmented Generation",
       "relation": "co-occurs",
       "weight": "1"
@@ -17643,7 +18308,7 @@
       "source": "info:entity:concept:Agentic AI",
       "target": "info:entity:model:Anthropic Claude",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:concept:Agentic AI",
@@ -17665,7 +18330,19 @@
     },
     {
       "source": "info:entity:concept:Agentic AI",
+      "target": "info:entity:model:Google Gemini 1.5",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Agentic AI",
       "target": "info:entity:model:OpenAI GPT‑4",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Agentic AI",
+      "target": "info:entity:model:OpenAI GPT‑4‑Turbo",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -18030,6 +18707,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:concept:Open‑source SDK",
+      "target": "info:entity:model:Anthropic Claude",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Open‑source SDK",
+      "target": "info:entity:model:Google Gemini 1.5",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Open‑source SDK",
+      "target": "info:entity:model:OpenAI GPT‑4‑Turbo",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:concept:Principal Component Analysis",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
@@ -18385,9 +19080,21 @@
     },
     {
       "source": "info:entity:model:Anthropic Claude",
+      "target": "info:entity:model:Google Gemini 1.5",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Anthropic Claude",
       "target": "info:entity:model:OpenAI GPT‑4",
       "relation": "co-occurs",
       "weight": "2"
+    },
+    {
+      "source": "info:entity:model:Anthropic Claude",
+      "target": "info:entity:model:OpenAI GPT‑4‑Turbo",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:model:Anthropic Claude",
@@ -18614,6 +19321,12 @@
     {
       "source": "info:entity:model:Google Gemini",
       "target": "info:entity:product:GitWarren",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Google Gemini 1.5",
+      "target": "info:entity:model:OpenAI GPT‑4‑Turbo",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -19303,6 +20016,12 @@
     },
     {
       "source": "info:entity:organization:Electoral Commission",
+      "target": "info:entity:organization:Labour Party",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Electoral Commission",
       "target": "info:entity:organization:Metropolitan Police",
       "relation": "co-occurs",
       "weight": "1"
@@ -19311,11 +20030,29 @@
       "source": "info:entity:organization:Electoral Commission",
       "target": "info:entity:organization:Reform UK",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:organization:Electoral Commission",
       "target": "info:entity:organization:Verbatim Investigations",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Electoral Commission",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Electoral Commission",
+      "target": "info:entity:person:Ben Delo",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Electoral Commission",
+      "target": "info:entity:person:Christopher Harborne",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -19881,13 +20618,25 @@
       "source": "info:entity:organization:Labour Party",
       "target": "info:entity:organization:Reform UK",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Labour Party",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
-      "weight": "4"
+      "weight": "5"
+    },
+    {
+      "source": "info:entity:organization:Labour Party",
+      "target": "info:entity:person:Ben Delo",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Labour Party",
+      "target": "info:entity:person:Christopher Harborne",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:organization:Labour Party",
@@ -19999,6 +20748,12 @@
     },
     {
       "source": "info:entity:organization:NATO",
+      "target": "info:entity:organization:Ukrzaliznytsia",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:NATO",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
       "weight": "1"
@@ -20054,6 +20809,12 @@
     {
       "source": "info:entity:organization:NATO",
       "target": "info:entity:person:Vladimir Putin",
+      "relation": "co-occurs",
+      "weight": "2"
+    },
+    {
+      "source": "info:entity:organization:NATO",
+      "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -20331,19 +21092,19 @@
       "source": "info:entity:organization:Reform UK",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
-      "weight": "4"
+      "weight": "5"
     },
     {
       "source": "info:entity:organization:Reform UK",
       "target": "info:entity:person:Angela Rayner",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Reform UK",
       "target": "info:entity:person:Ben Delo",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "3"
     },
     {
       "source": "info:entity:organization:Reform UK",
@@ -20355,7 +21116,7 @@
       "source": "info:entity:organization:Reform UK",
       "target": "info:entity:person:Christopher Harborne",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "4"
     },
     {
       "source": "info:entity:organization:Reform UK",
@@ -20402,6 +21163,12 @@
     {
       "source": "info:entity:organization:Reform UK",
       "target": "info:entity:person:Rishi Sunak",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Reform UK",
+      "target": "info:entity:person:Robert Jenrick",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -20838,6 +21605,18 @@
       "weight": "2"
     },
     {
+      "source": "info:entity:organization:Ukrzaliznytsia",
+      "target": "info:entity:person:Vladimir Putin",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Ukrzaliznytsia",
+      "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Unite",
       "target": "info:entity:person:John Healey",
       "relation": "co-occurs",
@@ -21049,6 +21828,18 @@
     },
     {
       "source": "info:entity:person:Andy Burnham",
+      "target": "info:entity:person:Ben Delo",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Andy Burnham",
+      "target": "info:entity:person:Christopher Harborne",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Andy Burnham",
       "target": "info:entity:person:Emmanuel Macron",
       "relation": "co-occurs",
       "weight": "1"
@@ -21186,6 +21977,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:person:Angela Rayner",
+      "target": "info:entity:person:Ben Delo",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Angela Rayner",
+      "target": "info:entity:person:Christopher Harborne",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Angela Rayner",
+      "target": "info:entity:person:Robert Jenrick",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:person:Anoushka Mutanda-Dougherty",
       "target": "info:entity:person:Duane \"Keffe D\" Davis",
       "relation": "co-occurs",
@@ -21255,11 +22064,17 @@
       "source": "info:entity:person:Ben Delo",
       "target": "info:entity:person:Christopher Harborne",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "3"
     },
     {
       "source": "info:entity:person:Ben Delo",
       "target": "info:entity:person:Nigel Farage",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Ben Delo",
+      "target": "info:entity:person:Robert Jenrick",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -21378,6 +22193,12 @@
       "weight": "2"
     },
     {
+      "source": "info:entity:person:Christopher Harborne",
+      "target": "info:entity:person:Robert Jenrick",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:person:Crown Prince Haakon",
       "target": "info:entity:person:King Harald V",
       "relation": "co-occurs",
@@ -21453,7 +22274,7 @@
       "source": "info:entity:person:Dario Amodei",
       "target": "info:entity:person:Sam Altman",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:person:Delcy Rodriguez",
@@ -21500,6 +22321,12 @@
     {
       "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:Doug Ford",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Donald Trump",
+      "target": "info:entity:person:Elon Musk",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -21589,6 +22416,12 @@
     },
     {
       "source": "info:entity:person:Donald Trump",
+      "target": "info:entity:person:Sam Altman",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:Steve Witkoff",
       "relation": "co-occurs",
       "weight": "1"
@@ -21608,6 +22441,12 @@
     {
       "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Donald Trump",
+      "target": "info:entity:region:China",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -21668,6 +22507,12 @@
     {
       "source": "info:entity:person:Elon Musk",
       "target": "info:entity:person:Sam Altman",
+      "relation": "co-occurs",
+      "weight": "2"
+    },
+    {
+      "source": "info:entity:person:Elon Musk",
+      "target": "info:entity:region:China",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -22110,6 +22955,12 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:person:Sam Altman",
+      "target": "info:entity:region:China",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:person:Sarah Khalifa",
       "target": "info:entity:region:Egypt",
       "relation": "co-occurs",
@@ -22143,7 +22994,7 @@
       "source": "info:entity:person:Vladimir Putin",
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
-      "weight": "5"
+      "weight": "6"
     },
     {
       "source": "info:entity:person:Vladimir Putin",

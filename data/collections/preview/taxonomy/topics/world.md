@@ -1,7 +1,7 @@
 ---
 node: "world"
 layer: topic
-item_count: 106
+item_count: 109
 ---
 
 # world
@@ -17,6 +17,9 @@ item_count: 106
 
 ## Items
 
+- 2026-09-14 · [[2026-09-14-001-russia-hits-ukrainian-train-shortly-after-boris-johnson]] — Russia hits Ukrainian train shortly after Boris Johnson and top European officials leave station
+- 2026-09-14 · [[2026-09-14-002-trump-downplays-warnings-of-ai-risks-citing-rivalry-with]] — Trump downplays warnings of AI risks, citing rivalry with China
+- 2026-09-14 · [[2026-09-14-003-questions-mount-over-what-an-ai-slowdown-would-look-like]] — Questions mount over what an AI 'slowdown' would look like
 - 2026-09-13 · [[2026-09-13-001-anthropic-boss-dario-amodei-calls-for-ai-development-to]] — Anthropic boss Dario Amodei calls for AI development to slow down
 - 2026-09-13 · [[2026-09-13-002-trump-s-comments-on-a-united-ireland-may-have-targeted]] — Trump's comments on a united Ireland may have targeted audience across the Atlantic
 - 2026-09-13 · [[2026-09-13-002-trump-s-comments-on-a-united-ireland-may-have-targeted]] — Trump's comments on a united Ireland may have targeted audience across the Atlantic

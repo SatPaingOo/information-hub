@@ -1,7 +1,7 @@
 ---
 node: "product"
 layer: category
-item_count: 43
+item_count: 45
 ---
 
 # product
@@ -19,6 +19,8 @@ item_count: 43
 
 ## Items
 
+- 2026-09-14 · [[2026-09-14-004-insight-partners-deven-parekh-on-why-the-firm-is]] — Insight Partners’ Deven Parekh on why the firm is diversifying while everyone else bets the farm on OpenAI and Anthropic
+- 2026-09-14 · [[2026-09-14-008-neopress-ai-driven-conversational-website-builder]] — Neopress – AI‑Driven Conversational Website Builder
 - 2026-09-13 · [[2026-09-13-004-anthropic-ceo-outlines-plan-to-pace-the-frontier]] — Anthropic CEO Outlines Plan to Pace the Frontier
 - 2026-09-13 · [[2026-09-13-005-openai-s-sam-altman-says-it-would-be-ill-advised-to-go]] — OpenAI’s Sam Altman says it would be ‘ill‑advised’ to go public in 2026
 - 2026-09-12 · [[2026-09-12-004-openai-s-feud-with-mathematicians-is-only-escalating]] — OpenAI’s feud with mathematicians is only escalating

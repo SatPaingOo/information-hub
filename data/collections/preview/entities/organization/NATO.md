@@ -1,7 +1,7 @@
 ---
 name: "NATO"
 entity_type: organization
-backlink_count: 6
+backlink_count: 7
 ---
 
 # NATO
@@ -10,6 +10,7 @@ backlink_count: 6
 
 ## Referenced by
 
+- 2026-09-14 · [[2026-09-14-001-russia-hits-ukrainian-train-shortly-after-boris-johnson]] — Russia hits Ukrainian train shortly after Boris Johnson and top European officials leave station
 - 2026-09-10 · [[2026-09-10-005-national-security-can-t-come-at-expense-of-social-security]] — National security can't come at expense of social security, Burnham says
 - 2026-09-05 · [[2026-09-05-003-europe-targeted-by-spiralling-campaign-of-sabotage-and]] — Europe targeted by spiralling campaign of sabotage - and Russia is the chief suspect
 - 2026-09-04 · [[2026-09-04-001-trump-hints-us-would-not-back-uk-over-falkland-islands-due]] — Trump hints US would not back UK over Falkland Islands due to lack of Iran war support

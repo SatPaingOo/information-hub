@@ -1,7 +1,7 @@
 ---
 name: "Anthropic"
 entity_type: company
-backlink_count: 32
+backlink_count: 35
 ---
 
 # Anthropic
@@ -10,6 +10,9 @@ backlink_count: 32
 
 ## Referenced by
 
+- 2026-09-14 · [[2026-09-14-002-trump-downplays-warnings-of-ai-risks-citing-rivalry-with]] — Trump downplays warnings of AI risks, citing rivalry with China
+- 2026-09-14 · [[2026-09-14-003-questions-mount-over-what-an-ai-slowdown-would-look-like]] — Questions mount over what an AI 'slowdown' would look like
+- 2026-09-14 · [[2026-09-14-004-insight-partners-deven-parekh-on-why-the-firm-is]] — Insight Partners’ Deven Parekh on why the firm is diversifying while everyone else bets the farm on OpenAI and Anthropic
 - 2026-09-13 · [[2026-09-13-001-anthropic-boss-dario-amodei-calls-for-ai-development-to]] — Anthropic boss Dario Amodei calls for AI development to slow down
 - 2026-09-13 · [[2026-09-13-004-anthropic-ceo-outlines-plan-to-pace-the-frontier]] — Anthropic CEO Outlines Plan to Pace the Frontier
 - 2026-09-13 · [[2026-09-13-008-they-lost-their-jobs-after-posting-about-charlie-kirk-but]] — They lost their jobs after posting about Charlie Kirk, but some have no regrets

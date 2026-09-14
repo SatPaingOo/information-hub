@@ -1,0 +1,15 @@
+2026-09-14 01:34:21,547 INFO [world-news] published 2026-09-14-001 — Russia hits Ukrainian train shortly after Boris Johnson and 
+2026-09-14 01:34:48,550 INFO [world-news] published 2026-09-14-002 — Trump downplays warnings of AI risks, citing rivalry with Ch
+2026-09-14 01:35:16,212 INFO [world-news] published 2026-09-14-003 — Questions mount over what an AI 'slowdown' would look like
+2026-09-14 01:36:18,154 INFO [tech-news] published 2026-09-14-004 — Insight Partners’ Deven Parekh on why the firm is diversifyi
+2026-09-14 01:36:40,462 ERROR [tech-news] generate error: bad response: Expecting ',' delimiter: line 24 column 239 (char 1962)
+2026-09-14 01:36:43,577 ERROR [tech-news] generate error: HTTP 429: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"poolside/laguna-xs-2.1:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Poolside","is_byok":fa
+2026-09-14 01:37:08,959 ERROR [tech-news] generate error: bad response: Unterminated string starting at: line 45 column 5 (char 5918)
+2026-09-14 01:38:06,664 INFO [politics] published 2026-09-14-006 — Reform confident it won't need to repay any of £72m under pr
+2026-09-14 01:38:43,605 INFO [politics] published 2026-09-14-007 — Will record donations to Reform go down as a moment of polit
+2026-09-14 01:38:49,778 INFO [products] published 2026-09-14-008 — Neopress – AI‑Driven Conversational Website Builder
+2026-09-14 01:38:49,982 ERROR [products] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 5243, Requested 3373. Please try again in 4.62s. Need more tokens? Upgrade to Dev Tier today at https://conso
+2026-09-14 01:38:55,410 ERROR [products] generate error: HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
+
+2026-09-14 01:39:01,412 WARNING [products] no collect provider for deep-dive
+2026-09-14 01:39:01,609 INFO collect done: 7 item(s) published — target 3/10, next run ≈ 2026-09-15T01:00:00+00:00 UTC

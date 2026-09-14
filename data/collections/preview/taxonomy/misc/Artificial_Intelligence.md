@@ -1,7 +1,7 @@
 ---
 node: "Artificial Intelligence"
 layer: misc
-item_count: 1
+item_count: 2
 ---
 
 # Artificial Intelligence
@@ -14,4 +14,5 @@ item_count: 1
 
 ## Items
 
+- 2026-09-14 · [[2026-09-14-008-neopress-ai-driven-conversational-website-builder]] — Neopress – AI‑Driven Conversational Website Builder
 - 2026-09-03 · [[2026-09-03-007-hydradb-oss-the-fastest-cheapest-open-source-graph-database]] — HydraDB OSS: The Fastest, Cheapest Open‑Source Graph Database

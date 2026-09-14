@@ -1,7 +1,7 @@
 ---
 node: "LLM"
 layer: misc
-item_count: 25
+item_count: 27
 ---
 
 # LLM
@@ -17,6 +17,8 @@ item_count: 25
 
 ## Items
 
+- 2026-09-14 · [[2026-09-14-003-questions-mount-over-what-an-ai-slowdown-would-look-like]] — Questions mount over what an AI 'slowdown' would look like
+- 2026-09-14 · [[2026-09-14-004-insight-partners-deven-parekh-on-why-the-firm-is]] — Insight Partners’ Deven Parekh on why the firm is diversifying while everyone else bets the farm on OpenAI and Anthropic
 - 2026-09-13 · [[2026-09-13-001-anthropic-boss-dario-amodei-calls-for-ai-development-to]] — Anthropic boss Dario Amodei calls for AI development to slow down
 - 2026-09-13 · [[2026-09-13-004-anthropic-ceo-outlines-plan-to-pace-the-frontier]] — Anthropic CEO Outlines Plan to Pace the Frontier
 - 2026-09-13 · [[2026-09-13-005-openai-s-sam-altman-says-it-would-be-ill-advised-to-go]] — OpenAI’s Sam Altman says it would be ‘ill‑advised’ to go public in 2026

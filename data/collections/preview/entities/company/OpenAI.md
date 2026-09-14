@@ -1,7 +1,7 @@
 ---
 name: "OpenAI"
 entity_type: company
-backlink_count: 47
+backlink_count: 49
 ---
 
 # OpenAI
@@ -10,6 +10,8 @@ backlink_count: 47
 
 ## Referenced by
 
+- 2026-09-14 · [[2026-09-14-003-questions-mount-over-what-an-ai-slowdown-would-look-like]] — Questions mount over what an AI 'slowdown' would look like
+- 2026-09-14 · [[2026-09-14-004-insight-partners-deven-parekh-on-why-the-firm-is]] — Insight Partners’ Deven Parekh on why the firm is diversifying while everyone else bets the farm on OpenAI and Anthropic
 - 2026-09-13 · [[2026-09-13-001-anthropic-boss-dario-amodei-calls-for-ai-development-to]] — Anthropic boss Dario Amodei calls for AI development to slow down
 - 2026-09-13 · [[2026-09-13-002-trump-s-comments-on-a-united-ireland-may-have-targeted]] — Trump's comments on a united Ireland may have targeted audience across the Atlantic
 - 2026-09-13 · [[2026-09-13-003-fire-at-nursing-home-in-chile-kills-16-residents]] — Fire at nursing home in Chile kills 16 residents

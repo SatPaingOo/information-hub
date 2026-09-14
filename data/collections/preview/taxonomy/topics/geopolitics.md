@@ -1,7 +1,7 @@
 ---
 node: "geopolitics"
 layer: topic
-item_count: 38
+item_count: 40
 ---
 
 # geopolitics
@@ -24,6 +24,8 @@ item_count: 38
 
 ## Items
 
+- 2026-09-14 · [[2026-09-14-002-trump-downplays-warnings-of-ai-risks-citing-rivalry-with]] — Trump downplays warnings of AI risks, citing rivalry with China
+- 2026-09-14 · [[2026-09-14-006-reform-confident-it-won-t-need-to-repay-any-of-72m-under]] — Reform confident it won't need to repay any of £72m under proposed new donor rules
 - 2026-09-13 · [[2026-09-13-002-trump-s-comments-on-a-united-ireland-may-have-targeted]] — Trump's comments on a united Ireland may have targeted audience across the Atlantic
 - 2026-09-13 · [[2026-09-13-006-reform-receives-second-36m-donation-in-two-days-as-crypto]] — Reform receives second £36m donation in two days as crypto investor matches record
 - 2026-09-12 · [[2026-09-12-001-houthis-claim-major-advance-in-yemen-and-tighten-grip-on]] — Houthis claim major advance in Yemen and tighten grip on Red Sea shipping lane
