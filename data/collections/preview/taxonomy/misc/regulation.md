@@ -1,7 +1,7 @@
 ---
 node: "regulation"
 layer: misc
-item_count: 8
+item_count: 10
 ---
 
 # regulation
@@ -16,6 +16,8 @@ item_count: 8
 
 ## Items
 
+- 2026-09-15 · [[2026-09-15-001-trump-says-ai-safety-fears-a-hoax-as-he-rejects-calls-for]] — Trump says AI safety fears a 'hoax' as he rejects calls for greater safeguards
+- 2026-09-15 · [[2026-09-15-005-jensen-huang-took-a-call-from-trump-and-showed-off]] — Jensen Huang took a call from Trump, and showed off something else, too
 - 2026-09-13 · [[2026-09-13-001-anthropic-boss-dario-amodei-calls-for-ai-development-to]] — Anthropic boss Dario Amodei calls for AI development to slow down
 - 2026-09-13 · [[2026-09-13-004-anthropic-ceo-outlines-plan-to-pace-the-frontier]] — Anthropic CEO Outlines Plan to Pace the Frontier
 - 2026-09-13 · [[2026-09-13-005-openai-s-sam-altman-says-it-would-be-ill-advised-to-go]] — OpenAI’s Sam Altman says it would be ‘ill‑advised’ to go public in 2026

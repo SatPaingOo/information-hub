@@ -1,7 +1,7 @@
 ---
 name: "OpenAI"
 entity_type: company
-backlink_count: 49
+backlink_count: 52
 ---
 
 # OpenAI
@@ -10,6 +10,9 @@ backlink_count: 49
 
 ## Referenced by
 
+- 2026-09-15 · [[2026-09-15-002-china-criticises-idea-it-is-in-malicious-competition-over-ai]] — China criticises idea it is in 'malicious competition' over AI
+- 2026-09-15 · [[2026-09-15-003-ai-regulation-faces-political-deadlock-as-calls-grow-for]] — AI regulation faces political deadlock as calls grow for Congress to act
+- 2026-09-15 · [[2026-09-15-004-openai-buys-smartphone-camera-maker-glass-imaging-for-300]] — OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says
 - 2026-09-14 · [[2026-09-14-003-questions-mount-over-what-an-ai-slowdown-would-look-like]] — Questions mount over what an AI 'slowdown' would look like
 - 2026-09-14 · [[2026-09-14-004-insight-partners-deven-parekh-on-why-the-firm-is]] — Insight Partners’ Deven Parekh on why the firm is diversifying while everyone else bets the farm on OpenAI and Anthropic
 - 2026-09-13 · [[2026-09-13-001-anthropic-boss-dario-amodei-calls-for-ai-development-to]] — Anthropic boss Dario Amodei calls for AI development to slow down

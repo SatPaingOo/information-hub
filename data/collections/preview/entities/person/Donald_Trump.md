@@ -1,7 +1,7 @@
 ---
 name: "Donald Trump"
 entity_type: person
-backlink_count: 29
+backlink_count: 33
 ---
 
 # Donald Trump
@@ -10,6 +10,10 @@ backlink_count: 29
 
 ## Referenced by
 
+- 2026-09-15 · [[2026-09-15-001-trump-says-ai-safety-fears-a-hoax-as-he-rejects-calls-for]] — Trump says AI safety fears a 'hoax' as he rejects calls for greater safeguards
+- 2026-09-15 · [[2026-09-15-003-ai-regulation-faces-political-deadlock-as-calls-grow-for]] — AI regulation faces political deadlock as calls grow for Congress to act
+- 2026-09-15 · [[2026-09-15-005-jensen-huang-took-a-call-from-trump-and-showed-off]] — Jensen Huang took a call from Trump, and showed off something else, too
+- 2026-09-15 · [[2026-09-15-006-nvidia-ceo-jensen-huang-tells-trump-we-re-not-going-to-let]] — Nvidia CEO Jensen Huang tells Trump ‘we’re not going to let [an AI slowdown] happen’
 - 2026-09-14 · [[2026-09-14-002-trump-downplays-warnings-of-ai-risks-citing-rivalry-with]] — Trump downplays warnings of AI risks, citing rivalry with China
 - 2026-09-13 · [[2026-09-13-002-trump-s-comments-on-a-united-ireland-may-have-targeted]] — Trump's comments on a united Ireland may have targeted audience across the Atlantic
 - 2026-09-12 · [[2026-09-12-001-houthis-claim-major-advance-in-yemen-and-tighten-grip-on]] — Houthis claim major advance in Yemen and tighten grip on Red Sea shipping lane

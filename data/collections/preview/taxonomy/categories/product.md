@@ -1,7 +1,7 @@
 ---
 node: "product"
 layer: category
-item_count: 45
+item_count: 48
 ---
 
 # product
@@ -19,6 +19,9 @@ item_count: 45
 
 ## Items
 
+- 2026-09-15 · [[2026-09-15-004-openai-buys-smartphone-camera-maker-glass-imaging-for-300]] — OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says
+- 2026-09-15 · [[2026-09-15-005-jensen-huang-took-a-call-from-trump-and-showed-off]] — Jensen Huang took a call from Trump, and showed off something else, too
+- 2026-09-15 · [[2026-09-15-006-nvidia-ceo-jensen-huang-tells-trump-we-re-not-going-to-let]] — Nvidia CEO Jensen Huang tells Trump ‘we’re not going to let [an AI slowdown] happen’
 - 2026-09-14 · [[2026-09-14-004-insight-partners-deven-parekh-on-why-the-firm-is]] — Insight Partners’ Deven Parekh on why the firm is diversifying while everyone else bets the farm on OpenAI and Anthropic
 - 2026-09-14 · [[2026-09-14-008-neopress-ai-driven-conversational-website-builder]] — Neopress – AI‑Driven Conversational Website Builder
 - 2026-09-13 · [[2026-09-13-004-anthropic-ceo-outlines-plan-to-pace-the-frontier]] — Anthropic CEO Outlines Plan to Pace the Frontier

@@ -4351,6 +4351,92 @@
       "name": "Regulatory Compliance"
     },
     {
+      "id": "info:item:world:global:2026-09-15-001",
+      "type": "item",
+      "date": "2026-09-15",
+      "title": "Trump says AI safety fears a 'hoax' as he rejects calls for greater safeguards"
+    },
+    {
+      "id": "info:entity:person:Jack Clark",
+      "type": "person",
+      "name": "Jack Clark"
+    },
+    {
+      "id": "info:entity:company:Microsoft",
+      "type": "company",
+      "name": "Microsoft"
+    },
+    {
+      "id": "info:item:world:global:2026-09-15-002",
+      "type": "item",
+      "date": "2026-09-15",
+      "title": "China criticises idea it is in 'malicious competition' over AI"
+    },
+    {
+      "id": "info:entity:organization:Anthropic",
+      "type": "organization",
+      "name": "Anthropic"
+    },
+    {
+      "id": "taxonomy/misc/topic: agentic AI",
+      "type": "taxonomy",
+      "name": "topic: agentic AI"
+    },
+    {
+      "id": "taxonomy/misc/topic: LLM",
+      "type": "taxonomy",
+      "name": "topic: LLM"
+    },
+    {
+      "id": "taxonomy/misc/region: global",
+      "type": "taxonomy",
+      "name": "region: global"
+    },
+    {
+      "id": "info:item:world:global:2026-09-15-003",
+      "type": "item",
+      "date": "2026-09-15",
+      "title": "AI regulation faces political deadlock as calls grow for Congress to act"
+    },
+    {
+      "id": "info:item:ai-ml:global:2026-09-15-004",
+      "type": "item",
+      "date": "2026-09-15",
+      "title": "OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says"
+    },
+    {
+      "id": "info:entity:company:Glass Imaging",
+      "type": "company",
+      "name": "Glass Imaging"
+    },
+    {
+      "id": "info:item:ai-ml:global:2026-09-15-005",
+      "type": "item",
+      "date": "2026-09-15",
+      "title": "Jensen Huang took a call from Trump, and showed off something else, too"
+    },
+    {
+      "id": "info:entity:person:Jensen Huang",
+      "type": "person",
+      "name": "Jensen Huang"
+    },
+    {
+      "id": "info:entity:product:Samsung Galaxy Fold 8",
+      "type": "product",
+      "name": "Samsung Galaxy Fold 8"
+    },
+    {
+      "id": "info:item:ai-ml:global:2026-09-15-006",
+      "type": "item",
+      "date": "2026-09-15",
+      "title": "Nvidia CEO Jensen Huang tells Trump ‘we’re not going to let [an AI slowdown] happen’"
+    },
+    {
+      "id": "info:entity:concept:AI data centers",
+      "type": "concept",
+      "name": "AI data centers"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -16875,6 +16961,436 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-09-15-001",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "critic of AI safety regulations"
+    },
+    {
+      "source": "info:item:world:global:2026-09-15-001",
+      "target": "info:entity:person:Jack Clark",
+      "relation": "co‑founder of Anthropic advocating kill switch"
+    },
+    {
+      "source": "info:item:world:global:2026-09-15-001",
+      "target": "info:entity:company:Anthropic",
+      "relation": "AI developer calling for safeguards"
+    },
+    {
+      "source": "info:item:world:global:2026-09-15-001",
+      "target": "info:entity:company:Microsoft",
+      "relation": "released humanist AI guidelines"
+    },
+    {
+      "source": "info:item:world:global:2026-09-15-001",
+      "target": "info:item:world:global:2026-09-14-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-15-001",
+      "target": "info:item:world:global:2026-09-14-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-15-001",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-15-001",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-15-001",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-15-001",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-15-001",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-15-001",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-15-001",
+      "target": "taxonomy/misc/regulation",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-15-002",
+      "target": "info:entity:person:Dario Amodei",
+      "relation": "Anthropic CEO advocating for AI development slowdown"
+    },
+    {
+      "source": "info:item:world:global:2026-09-15-002",
+      "target": "info:entity:person:Xi Jinping",
+      "relation": "Chinese leader emphasizing balanced AI development and security"
+    },
+    {
+      "source": "info:item:world:global:2026-09-15-002",
+      "target": "info:entity:organization:Anthropic",
+      "relation": "US AI lab calling for regulated AI development"
+    },
+    {
+      "source": "info:item:world:global:2026-09-15-002",
+      "target": "info:entity:organization:OpenAI",
+      "relation": "US AI developer urging safety and alignment research"
+    },
+    {
+      "source": "info:item:world:global:2026-09-15-002",
+      "target": "info:item:world:global:2026-09-15-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-15-002",
+      "target": "info:item:world:global:2026-09-14-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-15-002",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-15-002",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-15-002",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-15-002",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-15-002",
+      "target": "taxonomy/misc/topic: agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-15-002",
+      "target": "taxonomy/misc/topic: LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-15-002",
+      "target": "taxonomy/misc/region: global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-15-003",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "president opposing AI regulation"
+    },
+    {
+      "source": "info:item:world:global:2026-09-15-003",
+      "target": "info:entity:company:Anthropic",
+      "relation": "AI firm issuing safety warnings and calling for regulation"
+    },
+    {
+      "source": "info:item:world:global:2026-09-15-003",
+      "target": "info:entity:person:Dario Amodei",
+      "relation": "co‑founder of Anthropic advocating development slowdown"
+    },
+    {
+      "source": "info:item:world:global:2026-09-15-003",
+      "target": "info:entity:company:OpenAI",
+      "relation": "AI developer calling for oversight and kill‑switch"
+    },
+    {
+      "source": "info:item:world:global:2026-09-15-003",
+      "target": "info:item:world:global:2026-09-15-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-15-003",
+      "target": "info:item:world:global:2026-09-15-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-15-003",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-15-003",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-15-003",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-15-003",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-15-003",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-15-003",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-15-003",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-15-004",
+      "target": "info:entity:company:OpenAI",
+      "relation": "acquirer"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-15-004",
+      "target": "info:entity:person:Sam Altman",
+      "relation": "CEO"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-15-004",
+      "target": "info:entity:company:Glass Imaging",
+      "relation": "target"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-15-004",
+      "target": "info:entity:concept:Agentic AI",
+      "relation": "technology focus"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-15-004",
+      "target": "info:item:ai-ml:global:2026-09-14-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-15-004",
+      "target": "info:item:ai-ml:global:2026-09-13-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-15-004",
+      "target": "taxonomy/topic/ai-ml",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-15-004",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-15-004",
+      "target": "taxonomy/category/research",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-15-004",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-15-004",
+      "target": "taxonomy/category/open-source",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-15-004",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-15-004",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-15-004",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-15-005",
+      "target": "info:entity:person:Jensen Huang",
+      "relation": "CEO of Nvidia and participant in the Trump call"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-15-005",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "U.S. President who called Jensen Huang live on stage"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-15-005",
+      "target": "info:entity:company:Nvidia",
+      "relation": "technology company whose CEO was on the call and whose stock reacted"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-15-005",
+      "target": "info:entity:product:Samsung Galaxy Fold 8",
+      "relation": "foldable phone used by Jensen Huang for the call"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-15-005",
+      "target": "info:entity:concept:Agentic AI",
+      "relation": "editorial priority topic highlighted in policy discussions"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-15-005",
+      "target": "info:item:ai-ml:global:2026-09-15-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-15-005",
+      "target": "info:item:ai-ml:global:2026-09-14-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-15-005",
+      "target": "taxonomy/topic/ai-ml",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-15-005",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-15-005",
+      "target": "taxonomy/category/research",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-15-005",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-15-005",
+      "target": "taxonomy/category/open-source",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-15-005",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-15-005",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-15-005",
+      "target": "taxonomy/misc/regulation",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-15-006",
+      "target": "info:entity:person:Jensen Huang",
+      "relation": "CEO of Nvidia"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-15-006",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "President of the United States"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-15-006",
+      "target": "info:entity:person:Dario Amodei",
+      "relation": "CEO of Anthropic"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-15-006",
+      "target": "info:entity:person:Elon Musk",
+      "relation": "CEO of SpaceX and advocate for AI pause"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-15-006",
+      "target": "info:entity:person:Sam Altman",
+      "relation": "CEO of OpenAI"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-15-006",
+      "target": "info:entity:company:Nvidia",
+      "relation": "GPU provider and AI hardware leader"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-15-006",
+      "target": "info:entity:company:Anthropic",
+      "relation": "AI research organization advocating slowdown"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-15-006",
+      "target": "info:entity:concept:AI data centers",
+      "relation": "Infrastructure supporting large‑scale AI training and inference"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-15-006",
+      "target": "info:item:ai-ml:global:2026-09-15-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-15-006",
+      "target": "info:item:ai-ml:global:2026-09-15-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-15-006",
+      "target": "taxonomy/topic/ai-ml",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-15-006",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-15-006",
+      "target": "taxonomy/category/research",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-15-006",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-15-006",
+      "target": "taxonomy/category/open-source",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-15-006",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-15-006",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-09-15-006",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -17094,9 +17610,21 @@
     },
     {
       "source": "info:entity:company:Anthropic",
+      "target": "info:entity:company:Microsoft",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:company:Nvidia",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
-      "weight": "31"
+      "weight": "32"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -17113,6 +17641,12 @@
     {
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:Zhipu AI",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:concept:AI data centers",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -17246,7 +17780,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:person:Dario Amodei",
       "relation": "co-occurs",
-      "weight": "4"
+      "weight": "6"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -17258,13 +17792,13 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:person:Donald Trump",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "4"
     },
     {
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:person:Elon Musk",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -17280,7 +17814,19 @@
     },
     {
       "source": "info:entity:company:Anthropic",
+      "target": "info:entity:person:Jack Clark",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
       "target": "info:entity:person:Jacob Coxon",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:person:Jensen Huang",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -17294,7 +17840,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:person:Sam Altman",
       "relation": "co-occurs",
-      "weight": "5"
+      "weight": "6"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -17537,6 +18083,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:company:Glass Imaging",
+      "target": "info:entity:company:OpenAI",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Glass Imaging",
+      "target": "info:entity:concept:Agentic AI",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Glass Imaging",
+      "target": "info:entity:person:Sam Altman",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:company:Google",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
@@ -17717,6 +18281,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:company:Microsoft",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Microsoft",
+      "target": "info:entity:person:Jack Clark",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:company:Neopress",
       "target": "info:entity:concept:Agentic AI",
       "relation": "co-occurs",
@@ -17748,13 +18324,61 @@
     },
     {
       "source": "info:entity:company:Nvidia",
+      "target": "info:entity:concept:AI data centers",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Nvidia",
+      "target": "info:entity:concept:Agentic AI",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Nvidia",
       "target": "info:entity:organization:OpenAI",
       "relation": "co-occurs",
       "weight": "1"
     },
     {
       "source": "info:entity:company:Nvidia",
+      "target": "info:entity:person:Dario Amodei",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Nvidia",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "co-occurs",
+      "weight": "2"
+    },
+    {
+      "source": "info:entity:company:Nvidia",
+      "target": "info:entity:person:Elon Musk",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Nvidia",
+      "target": "info:entity:person:Jensen Huang",
+      "relation": "co-occurs",
+      "weight": "2"
+    },
+    {
+      "source": "info:entity:company:Nvidia",
+      "target": "info:entity:person:Sam Altman",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Nvidia",
       "target": "info:entity:product:AI data centers",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Nvidia",
+      "target": "info:entity:product:Samsung Galaxy Fold 8",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -17780,7 +18404,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:concept:Agentic AI",
       "relation": "co-occurs",
-      "weight": "7"
+      "weight": "8"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -17960,7 +18584,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Dario Amodei",
       "relation": "co-occurs",
-      "weight": "4"
+      "weight": "5"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -17972,7 +18596,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Donald Trump",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -18014,7 +18638,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Sam Altman",
       "relation": "co-occurs",
-      "weight": "5"
+      "weight": "6"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -18263,6 +18887,36 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:concept:AI data centers",
+      "target": "info:entity:person:Dario Amodei",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:AI data centers",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:AI data centers",
+      "target": "info:entity:person:Elon Musk",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:AI data centers",
+      "target": "info:entity:person:Jensen Huang",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:AI data centers",
+      "target": "info:entity:person:Sam Altman",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:concept:Adversarial Data Poisoning",
       "target": "info:entity:concept:Federated Learning",
       "relation": "co-occurs",
@@ -18360,6 +19014,24 @@
     },
     {
       "source": "info:entity:concept:Agentic AI",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Agentic AI",
+      "target": "info:entity:person:Jensen Huang",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Agentic AI",
+      "target": "info:entity:person:Sam Altman",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Agentic AI",
       "target": "info:entity:product:Clockwork",
       "relation": "co-occurs",
       "weight": "1"
@@ -18367,6 +19039,12 @@
     {
       "source": "info:entity:concept:Agentic AI",
       "target": "info:entity:product:Pluto",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Agentic AI",
+      "target": "info:entity:product:Samsung Galaxy Fold 8",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -19477,6 +20155,24 @@
     {
       "source": "info:entity:organization:Amnesty International",
       "target": "info:entity:region:Tibet",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Anthropic",
+      "target": "info:entity:organization:OpenAI",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Anthropic",
+      "target": "info:entity:person:Dario Amodei",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Anthropic",
+      "target": "info:entity:person:Xi Jinping",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -21006,6 +21702,12 @@
     },
     {
       "source": "info:entity:organization:OpenAI",
+      "target": "info:entity:person:Dario Amodei",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:OpenAI",
       "target": "info:entity:person:José Antonio Kast",
       "relation": "co-occurs",
       "weight": "1"
@@ -21025,6 +21727,12 @@
     {
       "source": "info:entity:organization:OpenAI",
       "target": "info:entity:person:Lindsay Clancy",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:OpenAI",
+      "target": "info:entity:person:Xi Jinping",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -22260,9 +22968,15 @@
     },
     {
       "source": "info:entity:person:Dario Amodei",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "co-occurs",
+      "weight": "2"
+    },
+    {
+      "source": "info:entity:person:Dario Amodei",
       "target": "info:entity:person:Elon Musk",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Dario Amodei",
@@ -22272,9 +22986,21 @@
     },
     {
       "source": "info:entity:person:Dario Amodei",
+      "target": "info:entity:person:Jensen Huang",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Dario Amodei",
       "target": "info:entity:person:Sam Altman",
       "relation": "co-occurs",
-      "weight": "4"
+      "weight": "5"
+    },
+    {
+      "source": "info:entity:person:Dario Amodei",
+      "target": "info:entity:person:Xi Jinping",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:person:Delcy Rodriguez",
@@ -22328,7 +23054,7 @@
       "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:Elon Musk",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Donald Trump",
@@ -22356,6 +23082,12 @@
     },
     {
       "source": "info:entity:person:Donald Trump",
+      "target": "info:entity:person:Jack Clark",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:Jamieson Greer",
       "relation": "co-occurs",
       "weight": "3"
@@ -22371,6 +23103,12 @@
       "target": "info:entity:person:Javier Milei",
       "relation": "co-occurs",
       "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Donald Trump",
+      "target": "info:entity:person:Jensen Huang",
+      "relation": "co-occurs",
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Donald Trump",
@@ -22418,7 +23156,7 @@
       "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:Sam Altman",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Donald Trump",
@@ -22441,6 +23179,12 @@
     {
       "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Donald Trump",
+      "target": "info:entity:product:Samsung Galaxy Fold 8",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -22506,9 +23250,15 @@
     },
     {
       "source": "info:entity:person:Elon Musk",
+      "target": "info:entity:person:Jensen Huang",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Elon Musk",
       "target": "info:entity:person:Sam Altman",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:person:Elon Musk",
@@ -22699,6 +23449,18 @@
     {
       "source": "info:entity:person:Javier Milei",
       "target": "info:entity:person:Keir Starmer",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Jensen Huang",
+      "target": "info:entity:person:Sam Altman",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Jensen Huang",
+      "target": "info:entity:product:Samsung Galaxy Fold 8",
       "relation": "co-occurs",
       "weight": "1"
     },

@@ -1,7 +1,7 @@
 ---
 node: "geopolitics"
 layer: topic
-item_count: 40
+item_count: 41
 ---
 
 # geopolitics
@@ -24,6 +24,7 @@ item_count: 40
 
 ## Items
 
+- 2026-09-15 · [[2026-09-15-003-ai-regulation-faces-political-deadlock-as-calls-grow-for]] — AI regulation faces political deadlock as calls grow for Congress to act
 - 2026-09-14 · [[2026-09-14-002-trump-downplays-warnings-of-ai-risks-citing-rivalry-with]] — Trump downplays warnings of AI risks, citing rivalry with China
 - 2026-09-14 · [[2026-09-14-006-reform-confident-it-won-t-need-to-repay-any-of-72m-under]] — Reform confident it won't need to repay any of £72m under proposed new donor rules
 - 2026-09-13 · [[2026-09-13-002-trump-s-comments-on-a-united-ireland-may-have-targeted]] — Trump's comments on a united Ireland may have targeted audience across the Atlantic

@@ -1,7 +1,7 @@
 ---
 node: "open-source"
 layer: category
-item_count: 26
+item_count: 29
 ---
 
 # open-source
@@ -19,6 +19,9 @@ item_count: 26
 
 ## Items
 
+- 2026-09-15 · [[2026-09-15-004-openai-buys-smartphone-camera-maker-glass-imaging-for-300]] — OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says
+- 2026-09-15 · [[2026-09-15-005-jensen-huang-took-a-call-from-trump-and-showed-off]] — Jensen Huang took a call from Trump, and showed off something else, too
+- 2026-09-15 · [[2026-09-15-006-nvidia-ceo-jensen-huang-tells-trump-we-re-not-going-to-let]] — Nvidia CEO Jensen Huang tells Trump ‘we’re not going to let [an AI slowdown] happen’
 - 2026-09-14 · [[2026-09-14-004-insight-partners-deven-parekh-on-why-the-firm-is]] — Insight Partners’ Deven Parekh on why the firm is diversifying while everyone else bets the farm on OpenAI and Anthropic
 - 2026-09-13 · [[2026-09-13-004-anthropic-ceo-outlines-plan-to-pace-the-frontier]] — Anthropic CEO Outlines Plan to Pace the Frontier
 - 2026-09-13 · [[2026-09-13-005-openai-s-sam-altman-says-it-would-be-ill-advised-to-go]] — OpenAI’s Sam Altman says it would be ‘ill‑advised’ to go public in 2026
