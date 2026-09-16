@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T01:26:38+00:00",
+  "generated_at": "2026-09-16T05:51:02+00:00",
   "per_day_provider_model": {
     "2026-08-17": {
       "groq": {
@@ -1450,15 +1450,15 @@
       },
       "groq": {
         "openai/gpt-oss-120b": {
-          "calls": 3,
-          "ok": 2,
-          "errors": 1,
-          "tokens": 6070
+          "calls": 6,
+          "ok": 4,
+          "errors": 2,
+          "tokens": 13238
         },
         "openai/gpt-oss-20b": {
-          "calls": 2,
+          "calls": 3,
           "ok": 1,
-          "errors": 1,
+          "errors": 2,
           "tokens": 5023
         }
       },
@@ -1607,7 +1607,8 @@
       "HTTP 429": 5
     },
     "2026-09-16": {
-      "HTTP 429": 4
+      "HTTP 429": 5,
+      "HTTP 400": 1
     }
   }
 }
