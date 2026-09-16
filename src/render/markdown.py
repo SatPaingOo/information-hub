@@ -17,7 +17,7 @@ from __future__ import annotations
 import json
 from typing import Any
 
-from src.storage.naming import record_filename, safe_name
+from src.storage.naming import record_filename, safe_name, taxo_name
 
 _YAML_BOOL = {True: "true", False: "false"}
 
@@ -156,21 +156,21 @@ def taxonomy_note_markdown(node: str, layer: str,
         lines.append("## Parents")
         lines.append("")
         for p in parents:
-            lines.append(f"- [[{safe_name(p)}]]")
+            lines.append(f"- [[{taxo_name(p)}]]")
         lines.append("")
 
     if children:
         lines.append("## Children")
         lines.append("")
         for c in children:
-            lines.append(f"- [[{safe_name(c)}]]")
+            lines.append(f"- [[{taxo_name(c)}]]")
         lines.append("")
 
     if related_nodes:
         lines.append("## Cross-layer relations")
         lines.append("")
         for rel_node, rel_type in sorted(related_nodes):
-            lines.append(f"- [[{safe_name(rel_node)}]] — *{rel_type}*")
+            lines.append(f"- [[{taxo_name(rel_node)}]] — *{rel_type}*")
         lines.append("")
 
     lines.append("## Items")

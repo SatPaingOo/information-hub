@@ -50,6 +50,19 @@ def safe_name(name: str) -> str:
     return "".join(ch if ch.isalnum() or ch in "-_" else "_" for ch in name)
 
 
+def taxo_name(node: str) -> str:
+    """Note-safe, case-folded name for a TAXONOMY node file/wikilink.
+
+    Taxonomy node names come from LLM output, so the same topic arrives in
+    varying capitalizations ("International Law" / "international law"). Those
+    must map to ONE note file, otherwise case-variant paths pile up and collide
+    on case-insensitive filesystems (Windows). Lowercasing before ``safe_name``
+    collapses them. Writers (indexer) and the renderer must use this identically
+    so wikilinks resolve. Entity notes keep ``safe_name`` (proper-noun casing).
+    """
+    return safe_name(node.strip().lower())
+
+
 def win_safe(name: str) -> str:
     """Filename-safe on Windows: replace characters invalid in NTFS paths.
 

@@ -30,7 +30,7 @@ from pathlib import Path
 from typing import Any
 
 from src.render.markdown import daily_index_markdown, entity_markdown, taxonomy_note_markdown
-from src.storage.naming import record_filename, safe_name, win_safe
+from src.storage.naming import record_filename, safe_name, taxo_name, win_safe
 
 
 class Indexer:
@@ -525,24 +525,38 @@ class Indexer:
                     items=items_by_node.get(node, []),
                     related_nodes=sorted(node_relations.get(node, set())),
                 )
-                (layer_dir / safe_name(node)).with_suffix(".md").write_text(
+                (layer_dir / taxo_name(node)).with_suffix(".md").write_text(
                     md + "\n", encoding="utf-8")
         # Extra nodes referenced by items' related_taxonomy that aren't in
         # the config taxonomy (e.g. 'policy', 'research') — write them under
-        # a misc/ layer so every taxonomy wikilink resolves.
+        # a misc/ layer so every taxonomy wikilink resolves. Group by the
+        # case-folded file name so that the same topic in different casings
+        # ("Policy" / "policy") merges into one note instead of colliding.
         known = {n for mapping in taxonomy.layers().values() for n in
                  (list(mapping.keys()) + [c for ch in mapping.values() for c in ch])}
         misc_dir = root / "misc"
         misc_dir.mkdir(parents=True, exist_ok=True)
+        misc_groups: dict[str, dict[str, Any]] = {}
         for node in items_by_node:
             if node in known or not node:
                 continue
+            g = misc_groups.setdefault(
+                taxo_name(node), {"names": [], "items": [], "rel": set()})
+            g["names"].append(node)
+            g["items"].extend(items_by_node.get(node, []))
+            g["rel"] |= node_relations.get(node, set())
+        for fname, g in misc_groups.items():
+            # Representative display name: the most-capitalized variant
+            # (uppercase sorts first in ASCII) for a readable note heading.
+            display = sorted(set(g["names"]))[0]
+            seen: set[str] = set()
+            items = [it for it in g["items"]
+                     if not (it["id"] in seen or seen.add(it["id"]))]
             md = taxonomy_note_markdown(
-                node=node, layer="misc", children=[], parents=[],
-                items=items_by_node.get(node, []),
-                related_nodes=sorted(node_relations.get(node, set())),
+                node=display, layer="misc", children=[], parents=[],
+                items=items, related_nodes=sorted(g["rel"]),
             )
-            (misc_dir / safe_name(node)).with_suffix(".md").write_text(
+            (misc_dir / fname).with_suffix(".md").write_text(
                 md + "\n", encoding="utf-8")
 
 
