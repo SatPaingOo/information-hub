@@ -1,7 +1,7 @@
 ---
 name: "Reform UK"
 entity_type: organization
-backlink_count: 16
+backlink_count: 17
 ---
 
 # Reform UK
@@ -10,6 +10,7 @@ backlink_count: 16
 
 ## Referenced by
 
+- 2026-09-16 · [[2026-09-16-005-dan-thomas-resigns-as-reform-wales-leader-after-arrest-on]] — Dan Thomas resigns as Reform Wales leader after arrest on suspicion of assault
 - 2026-09-14 · [[2026-09-14-006-reform-confident-it-won-t-need-to-repay-any-of-72m-under]] — Reform confident it won't need to repay any of £72m under proposed new donor rules
 - 2026-09-14 · [[2026-09-14-007-will-record-donations-to-reform-go-down-as-a-moment-of]] — Will record donations to Reform go down as a moment of political change?
 - 2026-09-13 · [[2026-09-13-006-reform-receives-second-36m-donation-in-two-days-as-crypto]] — Reform receives second £36m donation in two days as crypto investor matches record

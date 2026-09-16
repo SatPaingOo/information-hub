@@ -1,7 +1,7 @@
 ---
 name: "Myanmar"
 entity_type: region
-backlink_count: 8
+backlink_count: 9
 ---
 
 # Myanmar
@@ -10,6 +10,7 @@ backlink_count: 8
 
 ## Referenced by
 
+- 2026-09-16 · [[2026-09-16-006-buddy-ai-access-mcp]] — Buddy AI Access (MCP)
 - 2026-09-11 · [[2026-09-11-006-ai-observability-by-openobserve]] — AI Observability by OpenObserve
 - 2026-09-07 · [[2026-09-07-007-agentic-video-understanding-in-gemini]] — Agentic Video Understanding in Gemini
 - 2026-09-02 · [[2026-09-02-006-sourclip-2-0]] — Sourclip 2.0

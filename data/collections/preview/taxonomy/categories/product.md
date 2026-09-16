@@ -1,7 +1,7 @@
 ---
 node: "product"
 layer: category
-item_count: 48
+item_count: 50
 ---
 
 # product
@@ -19,6 +19,8 @@ item_count: 48
 
 ## Items
 
+- 2026-09-16 · [[2026-09-16-006-buddy-ai-access-mcp]] — Buddy AI Access (MCP)
+- 2026-09-16 · [[2026-09-16-007-axari-delegating-security-busywork-to-an-ai-twin]] — Axari – Delegating Security Busywork to an AI Twin
 - 2026-09-15 · [[2026-09-15-004-openai-buys-smartphone-camera-maker-glass-imaging-for-300]] — OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says
 - 2026-09-15 · [[2026-09-15-005-jensen-huang-took-a-call-from-trump-and-showed-off]] — Jensen Huang took a call from Trump, and showed off something else, too
 - 2026-09-15 · [[2026-09-15-006-nvidia-ceo-jensen-huang-tells-trump-we-re-not-going-to-let]] — Nvidia CEO Jensen Huang tells Trump ‘we’re not going to let [an AI slowdown] happen’

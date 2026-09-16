@@ -1,7 +1,7 @@
 ---
 node: "global"
 layer: misc
-item_count: 242
+item_count: 252
 ---
 
 # global
@@ -24,6 +24,16 @@ item_count: 242
 
 ## Items
 
+- 2026-09-16 · [[2026-09-16-001-all-support-acts-on-ed-sheeran-s-us-tour-quit-after]] — All support acts on Ed Sheeran's US tour quit after Macklemore dropped
+- 2026-09-16 · [[2026-09-16-002-denmark-says-russian-warship-fired-flares-at-military]] — Denmark says Russian warship fired flares at military helicopter
+- 2026-09-16 · [[2026-09-16-002-denmark-says-russian-warship-fired-flares-at-military]] — Denmark says Russian warship fired flares at military helicopter
+- 2026-09-16 · [[2026-09-16-003-what-weapon-could-the-us-have-put-into-space]] — What weapon could the US have put into space?
+- 2026-09-16 · [[2026-09-16-004-uk-in-talks-about-joining-global-defence-bank-led-by-canada]] — UK in talks about joining global defence bank led by Canada
+- 2026-09-16 · [[2026-09-16-004-uk-in-talks-about-joining-global-defence-bank-led-by-canada]] — UK in talks about joining global defence bank led by Canada
+- 2026-09-16 · [[2026-09-16-005-dan-thomas-resigns-as-reform-wales-leader-after-arrest-on]] — Dan Thomas resigns as Reform Wales leader after arrest on suspicion of assault
+- 2026-09-16 · [[2026-09-16-006-buddy-ai-access-mcp]] — Buddy AI Access (MCP)
+- 2026-09-16 · [[2026-09-16-006-buddy-ai-access-mcp]] — Buddy AI Access (MCP)
+- 2026-09-16 · [[2026-09-16-007-axari-delegating-security-busywork-to-an-ai-twin]] — Axari – Delegating Security Busywork to an AI Twin
 - 2026-09-15 · [[2026-09-15-001-trump-says-ai-safety-fears-a-hoax-as-he-rejects-calls-for]] — Trump says AI safety fears a 'hoax' as he rejects calls for greater safeguards
 - 2026-09-15 · [[2026-09-15-002-china-criticises-idea-it-is-in-malicious-competition-over-ai]] — China criticises idea it is in 'malicious competition' over AI
 - 2026-09-15 · [[2026-09-15-003-ai-regulation-faces-political-deadlock-as-calls-grow-for]] — AI regulation faces political deadlock as calls grow for Congress to act

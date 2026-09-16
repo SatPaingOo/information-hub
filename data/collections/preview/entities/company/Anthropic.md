@@ -1,7 +1,7 @@
 ---
 name: "Anthropic"
 entity_type: company
-backlink_count: 39
+backlink_count: 40
 ---
 
 # Anthropic
@@ -10,6 +10,7 @@ backlink_count: 39
 
 ## Referenced by
 
+- 2026-09-16 · [[2026-09-16-006-buddy-ai-access-mcp]] — Buddy AI Access (MCP)
 - 2026-09-15 · [[2026-09-15-001-trump-says-ai-safety-fears-a-hoax-as-he-rejects-calls-for]] — Trump says AI safety fears a 'hoax' as he rejects calls for greater safeguards
 - 2026-09-15 · [[2026-09-15-002-china-criticises-idea-it-is-in-malicious-competition-over-ai]] — China criticises idea it is in 'malicious competition' over AI
 - 2026-09-15 · [[2026-09-15-003-ai-regulation-faces-political-deadlock-as-calls-grow-for]] — AI regulation faces political deadlock as calls grow for Congress to act

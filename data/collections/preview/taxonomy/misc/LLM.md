@@ -1,7 +1,7 @@
 ---
 node: "LLM"
 layer: misc
-item_count: 31
+item_count: 32
 ---
 
 # LLM
@@ -17,6 +17,7 @@ item_count: 31
 
 ## Items
 
+- 2026-09-16 · [[2026-09-16-006-buddy-ai-access-mcp]] — Buddy AI Access (MCP)
 - 2026-09-15 · [[2026-09-15-001-trump-says-ai-safety-fears-a-hoax-as-he-rejects-calls-for]] — Trump says AI safety fears a 'hoax' as he rejects calls for greater safeguards
 - 2026-09-15 · [[2026-09-15-004-openai-buys-smartphone-camera-maker-glass-imaging-for-300]] — OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says
 - 2026-09-15 · [[2026-09-15-005-jensen-huang-took-a-call-from-trump-and-showed-off]] — Jensen Huang took a call from Trump, and showed off something else, too

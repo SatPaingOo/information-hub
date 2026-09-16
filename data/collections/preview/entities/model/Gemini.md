@@ -1,7 +1,7 @@
 ---
 name: "Gemini"
 entity_type: model
-backlink_count: 25
+backlink_count: 26
 ---
 
 # Gemini
@@ -10,6 +10,7 @@ backlink_count: 25
 
 ## Referenced by
 
+- 2026-09-16 · [[2026-09-16-003-what-weapon-could-the-us-have-put-into-space]] — What weapon could the US have put into space?
 - 2026-09-13 · [[2026-09-13-002-trump-s-comments-on-a-united-ireland-may-have-targeted]] — Trump's comments on a united Ireland may have targeted audience across the Atlantic
 - 2026-09-13 · [[2026-09-13-003-fire-at-nursing-home-in-chile-kills-16-residents]] — Fire at nursing home in Chile kills 16 residents
 - 2026-09-13 · [[2026-09-13-008-they-lost-their-jobs-after-posting-about-charlie-kirk-but]] — They lost their jobs after posting about Charlie Kirk, but some have no regrets

@@ -1,7 +1,7 @@
 ---
 name: "John Healey"
 entity_type: person
-backlink_count: 7
+backlink_count: 8
 ---
 
 # John Healey
@@ -10,6 +10,7 @@ backlink_count: 7
 
 ## Referenced by
 
+- 2026-09-16 · [[2026-09-16-004-uk-in-talks-about-joining-global-defence-bank-led-by-canada]] — UK in talks about joining global defence bank led by Canada
 - 2026-09-10 · [[2026-09-10-005-national-security-can-t-come-at-expense-of-social-security]] — National security can't come at expense of social security, Burnham says
 - 2026-09-08 · [[2026-09-08-004-chancellor-calls-for-confidence-about-britain-despite]] — Chancellor calls for 'confidence about Britain' despite 'historic high' borrowing costs
 - 2026-09-07 · [[2026-09-07-004-minister-to-meet-jaguar-land-rover-boss-as-thousands-of]] — Minister to meet Jaguar Land Rover boss as thousands of job cuts expected

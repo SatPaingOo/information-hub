@@ -1,7 +1,7 @@
 ---
 node: "products"
 layer: topic
-item_count: 26
+item_count: 29
 ---
 
 # products
@@ -12,9 +12,13 @@ item_count: 26
 
 - [[global]] — *regional_scope*
 - [[product]] — *classified_in*
+- [[products]] — *relates*
 
 ## Items
 
+- 2026-09-16 · [[2026-09-16-006-buddy-ai-access-mcp]] — Buddy AI Access (MCP)
+- 2026-09-16 · [[2026-09-16-007-axari-delegating-security-busywork-to-an-ai-twin]] — Axari – Delegating Security Busywork to an AI Twin
+- 2026-09-16 · [[2026-09-16-007-axari-delegating-security-busywork-to-an-ai-twin]] — Axari – Delegating Security Busywork to an AI Twin
 - 2026-09-14 · [[2026-09-14-008-neopress-ai-driven-conversational-website-builder]] — Neopress – AI‑Driven Conversational Website Builder
 - 2026-09-11 · [[2026-09-11-006-ai-observability-by-openobserve]] — AI Observability by OpenObserve
 - 2026-09-10 · [[2026-09-10-006-chatgpt-images-2-5]] — ChatGPT Images 2.5
