@@ -1,7 +1,7 @@
 ---
 node: "geopolitics"
 layer: topic
-item_count: 45
+item_count: 46
 ---
 
 # geopolitics
@@ -28,6 +28,7 @@ item_count: 45
 - 2026-09-16 · [[2026-09-16-002-denmark-says-russian-warship-fired-flares-at-military]] — Denmark says Russian warship fired flares at military helicopter
 - 2026-09-16 · [[2026-09-16-003-what-weapon-could-the-us-have-put-into-space]] — What weapon could the US have put into space?
 - 2026-09-16 · [[2026-09-16-004-uk-in-talks-about-joining-global-defence-bank-led-by-canada]] — UK in talks about joining global defence bank led by Canada
+- 2026-09-16 · [[2026-09-16-008-us-limits-visas-for-south-african-officials-over-alleged]] — US limits visas for South African officials over alleged anti‑white discrimination
 - 2026-09-15 · [[2026-09-15-003-ai-regulation-faces-political-deadlock-as-calls-grow-for]] — AI regulation faces political deadlock as calls grow for Congress to act
 - 2026-09-14 · [[2026-09-14-002-trump-downplays-warnings-of-ai-risks-citing-rivalry-with]] — Trump downplays warnings of AI risks, citing rivalry with China
 - 2026-09-14 · [[2026-09-14-006-reform-confident-it-won-t-need-to-repay-any-of-72m-under]] — Reform confident it won't need to repay any of £72m under proposed new donor rules

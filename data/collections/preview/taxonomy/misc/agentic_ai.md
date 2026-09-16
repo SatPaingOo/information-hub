@@ -1,16 +1,17 @@
 ---
-node: "agentic AI"
+node: "Agentic AI"
 layer: misc
-item_count: 30
+item_count: 36
 ---
 
-# agentic AI
+# Agentic AI
 
 *Taxonomy layer: misc*
 
 ## Cross-layer relations
 
 - [[ai-ml]] — *relates*
+- [[politics]] — *relates*
 - [[products]] — *relates*
 - [[world]] — *relates*
 
@@ -28,6 +29,7 @@ item_count: 30
 - 2026-09-13 · [[2026-09-13-003-fire-at-nursing-home-in-chile-kills-16-residents]] — Fire at nursing home in Chile kills 16 residents
 - 2026-09-13 · [[2026-09-13-004-anthropic-ceo-outlines-plan-to-pace-the-frontier]] — Anthropic CEO Outlines Plan to Pace the Frontier
 - 2026-09-13 · [[2026-09-13-005-openai-s-sam-altman-says-it-would-be-ill-advised-to-go]] — OpenAI’s Sam Altman says it would be ‘ill‑advised’ to go public in 2026
+- 2026-09-12 · [[2026-09-12-006-mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid]] — Mecka AI nears $500M valuation in Sequoia-led deal amid rush for robot training data
 - 2026-09-12 · [[2026-09-12-004-openai-s-feud-with-mathematicians-is-only-escalating]] — OpenAI’s feud with mathematicians is only escalating
 - 2026-09-12 · [[2026-09-12-005-y-combinator-s-garry-tan-wants-us-open-weight-ai-labs-to]] — Y Combinator’s Garry Tan wants US open-weight AI labs to ‘distill’ frontier models, too
 - 2026-09-09 · [[2026-09-09-006-relaticle-open-source-crm-with-approval-gated-ai-writes]] — Relaticle: Open‑source CRM with Approval‑Gated AI Writes
@@ -37,12 +39,17 @@ item_count: 30
 - 2026-09-04 · [[2026-09-04-006-grove]] — Grove
 - 2026-09-04 · [[2026-09-04-007-agent-builder-by-airtop-self-healing-autonomous-agents-for]] — Agent Builder by Airtop – Self‑Healing Autonomous Agents for the Enterprise
 - 2026-09-03 · [[2026-09-03-006-claude-fable-5-1]] — Claude Fable 5.1
+- 2026-09-02 · [[2026-09-02-004-chris-mason-will-burnham-find-pmqs-as-nail-biting-and]] — Chris Mason: Will Burnham find PMQs as 'nail biting' and 'nerve wracking' as Blair did?
 - 2026-09-02 · [[2026-09-02-006-sourclip-2-0]] — Sourclip 2.0
 - 2026-09-01 · [[2026-09-01-006-interactive-sessions]] — Interactive Sessions
 - 2026-08-31 · [[2026-08-31-002-us-and-iran-trade-strikes-for-first-time-in-weeks]] — US and Iran trade strikes for first time in weeks
 - 2026-08-31 · [[2026-08-31-006-maritime]] — Maritime
 - 2026-08-29 · [[2026-08-29-006-cursor-craft-v2]] — Cursor Craft v2
+- 2026-08-28 · [[2026-08-28-004-pluto-your-professional-profile-becomes-an-ai-agent]] — Pluto: Your Professional Profile Becomes an AI Agent
 - 2026-08-28 · [[2026-08-28-001-trump-administration-illegally-retaliated-against]] — Trump administration illegally retaliated against Anthropic, judge rules
 - 2026-08-28 · [[2026-08-28-005-gemini-3-5-transcribe]] — Gemini 3.5 Transcribe
+- 2026-08-27 · [[2026-08-27-006-ojin-real-time-ai-agent-with-live-face-and-voice]] — Ojin – Real‑Time AI Agent with Live Face and Voice
+- 2026-08-26 · [[2026-08-26-006-ninj-ai]] — Ninjō AI
 - 2026-08-26 · [[2026-08-26-007-agnost-ai]] — Agnost AI
 - 2026-08-21 · [[2026-08-21-003-checksum-ai-your-coding-agent-s-testing-buddy]] — Checksum AI: Your Coding Agent’s Testing Buddy
+- 2026-08-19 · [[2026-08-19-007-crewtower]] — CrewTower

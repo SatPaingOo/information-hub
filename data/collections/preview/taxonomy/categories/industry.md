@@ -1,7 +1,7 @@
 ---
 node: "industry"
 layer: category
-item_count: 127
+item_count: 128
 ---
 
 # industry
@@ -23,6 +23,7 @@ item_count: 127
 - 2026-09-16 · [[2026-09-16-001-all-support-acts-on-ed-sheeran-s-us-tour-quit-after]] — All support acts on Ed Sheeran's US tour quit after Macklemore dropped
 - 2026-09-16 · [[2026-09-16-002-denmark-says-russian-warship-fired-flares-at-military]] — Denmark says Russian warship fired flares at military helicopter
 - 2026-09-16 · [[2026-09-16-003-what-weapon-could-the-us-have-put-into-space]] — What weapon could the US have put into space?
+- 2026-09-16 · [[2026-09-16-008-us-limits-visas-for-south-african-officials-over-alleged]] — US limits visas for South African officials over alleged anti‑white discrimination
 - 2026-09-15 · [[2026-09-15-001-trump-says-ai-safety-fears-a-hoax-as-he-rejects-calls-for]] — Trump says AI safety fears a 'hoax' as he rejects calls for greater safeguards
 - 2026-09-15 · [[2026-09-15-002-china-criticises-idea-it-is-in-malicious-competition-over-ai]] — China criticises idea it is in 'malicious competition' over AI
 - 2026-09-15 · [[2026-09-15-003-ai-regulation-faces-political-deadlock-as-calls-grow-for]] — AI regulation faces political deadlock as calls grow for Congress to act

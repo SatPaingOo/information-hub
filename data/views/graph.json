@@ -4554,6 +4554,27 @@
       "name": "Axari"
     },
     {
+      "id": "info:item:world:global:2026-09-16-008",
+      "type": "item",
+      "date": "2026-09-16",
+      "title": "US limits visas for South African officials over alleged anti‑white discrimination"
+    },
+    {
+      "id": "info:entity:person:Cyril Ramaphosa",
+      "type": "person",
+      "name": "Cyril Ramaphosa"
+    },
+    {
+      "id": "info:entity:organization:U.S. Department of State",
+      "type": "organization",
+      "name": "U.S. Department of State"
+    },
+    {
+      "id": "info:entity:organization:South African Government",
+      "type": "organization",
+      "name": "South African Government"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -17948,6 +17969,71 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-09-16-008",
+      "target": "info:entity:person:Marco Rubio",
+      "relation": "U.S. Secretary of State who announced the visa restrictions"
+    },
+    {
+      "source": "info:item:world:global:2026-09-16-008",
+      "target": "info:entity:person:Cyril Ramaphosa",
+      "relation": "President of South Africa, defending the land‑reform law"
+    },
+    {
+      "source": "info:item:world:global:2026-09-16-008",
+      "target": "info:entity:organization:U.S. Department of State",
+      "relation": "Issuer of the visa restriction policy"
+    },
+    {
+      "source": "info:item:world:global:2026-09-16-008",
+      "target": "info:entity:organization:South African Government",
+      "relation": "Target of U.S. criticism over land‑reform legislation"
+    },
+    {
+      "source": "info:item:world:global:2026-09-16-008",
+      "target": "info:item:world:global:2026-09-16-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-16-008",
+      "target": "info:item:world:global:2026-09-16-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-16-008",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-16-008",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-16-008",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-16-008",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-16-008",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-16-008",
+      "target": "taxonomy/misc/human rights",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-16-008",
+      "target": "taxonomy/misc/trade policy",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -22702,6 +22788,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:South African Government",
+      "target": "info:entity:organization:U.S. Department of State",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:South African Government",
+      "target": "info:entity:person:Cyril Ramaphosa",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:South African Government",
+      "target": "info:entity:person:Marco Rubio",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Syrian Government",
       "target": "info:entity:person:Ahmed al-Sharaa",
       "relation": "co-occurs",
@@ -22841,6 +22945,18 @@
     },
     {
       "source": "info:entity:organization:U.S. Department of Defense",
+      "target": "info:entity:person:Marco Rubio",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:U.S. Department of State",
+      "target": "info:entity:person:Cyril Ramaphosa",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:U.S. Department of State",
       "target": "info:entity:person:Marco Rubio",
       "relation": "co-occurs",
       "weight": "1"
@@ -23622,6 +23738,12 @@
     {
       "source": "info:entity:person:Crown Prince Haakon",
       "target": "info:entity:person:King Harald V",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Cyril Ramaphosa",
+      "target": "info:entity:person:Marco Rubio",
       "relation": "co-occurs",
       "weight": "1"
     },

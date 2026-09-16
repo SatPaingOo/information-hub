@@ -1,7 +1,7 @@
 ---
 node: "human rights"
 layer: misc
-item_count: 6
+item_count: 7
 ---
 
 # human rights
@@ -15,6 +15,7 @@ item_count: 6
 
 ## Items
 
+- 2026-09-16 · [[2026-09-16-008-us-limits-visas-for-south-african-officials-over-alleged]] — US limits visas for South African officials over alleged anti‑white discrimination
 - 2026-09-13 · [[2026-09-13-007-mps-vote-against-fresh-attempt-to-legalise-assisted-dying]] — MPs vote against fresh attempt to legalise assisted dying
 - 2026-09-09 · [[2026-09-09-007-constantly-on-my-mind-9-11-agony-goes-on-for-bereaved-25]] — ‘Constantly on my mind’ – 9/11 agony goes on for bereaved, 25 years on
 - 2026-09-06 · [[2026-09-06-003-tv-presenter-among-11-sentenced-to-death-in-egypt-drugs-case]] — TV presenter among 11 sentenced to death in Egypt drugs case
