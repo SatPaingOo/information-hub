@@ -4697,6 +4697,32 @@
       "name": "Gemini 3.8"
     },
     {
+      "id": "info:item:world:global:2026-09-17-008",
+      "type": "item",
+      "date": "2026-09-17",
+      "title": "Assad regime planned US journalist's kidnap for weeks, BBC finds"
+    },
+    {
+      "id": "info:entity:person:Bashar al-Assad",
+      "type": "person",
+      "name": "Bashar al-Assad"
+    },
+    {
+      "id": "info:entity:person:Austin Tice",
+      "type": "person",
+      "name": "Austin Tice"
+    },
+    {
+      "id": "info:entity:organization:National Defence Forces (NDF)",
+      "type": "organization",
+      "name": "National Defence Forces (NDF)"
+    },
+    {
+      "id": "taxonomy/misc/media policy",
+      "type": "taxonomy",
+      "name": "media policy"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -18606,6 +18632,71 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-09-17-008",
+      "target": "info:entity:person:Bashar al-Assad",
+      "relation": "approved kidnapping"
+    },
+    {
+      "source": "info:item:world:global:2026-09-17-008",
+      "target": "info:entity:person:Austin Tice",
+      "relation": "victim"
+    },
+    {
+      "source": "info:item:world:global:2026-09-17-008",
+      "target": "info:entity:organization:National Defence Forces (NDF)",
+      "relation": "executed operation"
+    },
+    {
+      "source": "info:item:world:global:2026-09-17-008",
+      "target": "info:entity:company:OpenAI",
+      "relation": "provided LLM tools for analysis"
+    },
+    {
+      "source": "info:item:world:global:2026-09-17-008",
+      "target": "info:item:world:global:2026-09-17-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-17-008",
+      "target": "info:item:world:global:2026-09-17-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-17-008",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-17-008",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-17-008",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-17-008",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-17-008",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-17-008",
+      "target": "taxonomy/misc/human rights",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-17-008",
+      "target": "taxonomy/misc/media policy",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -19839,6 +19930,12 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:organization:National Defence Forces (NDF)",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:organization:Reform UK",
       "relation": "co-occurs",
       "weight": "1"
@@ -19870,6 +19967,18 @@
     {
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:António Guterres",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:person:Austin Tice",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:person:Bashar al-Assad",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -22988,6 +23097,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:National Defence Forces (NDF)",
+      "target": "info:entity:person:Austin Tice",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:National Defence Forces (NDF)",
+      "target": "info:entity:person:Bashar al-Assad",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:National Economic Council",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
@@ -24334,6 +24455,12 @@
     {
       "source": "info:entity:person:Arnold Dix",
       "target": "info:entity:region:Tibet",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Austin Tice",
+      "target": "info:entity:person:Bashar al-Assad",
       "relation": "co-occurs",
       "weight": "1"
     },

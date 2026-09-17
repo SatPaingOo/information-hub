@@ -1,7 +1,7 @@
 ---
 node: "industry"
 layer: category
-item_count: 133
+item_count: 134
 ---
 
 # industry
@@ -24,6 +24,7 @@ item_count: 133
 - 2026-09-17 · [[2026-09-17-002-snapchat-willing-to-implement-daily-time-limits-for-teens]] — Snapchat 'willing to implement' daily time limits for teens, boss tells BBC
 - 2026-09-17 · [[2026-09-17-003-photos-show-widespread-damage-at-us-sites-from-iranian]] — Photos show widespread damage at US sites from Iranian attacks
 - 2026-09-17 · [[2026-09-17-003-photos-show-widespread-damage-at-us-sites-from-iranian]] — Photos show widespread damage at US sites from Iranian attacks
+- 2026-09-17 · [[2026-09-17-008-assad-regime-planned-us-journalist-s-kidnap-for-weeks-bbc]] — Assad regime planned US journalist's kidnap for weeks, BBC finds
 - 2026-09-16 · [[2026-09-16-001-all-support-acts-on-ed-sheeran-s-us-tour-quit-after]] — All support acts on Ed Sheeran's US tour quit after Macklemore dropped
 - 2026-09-16 · [[2026-09-16-001-all-support-acts-on-ed-sheeran-s-us-tour-quit-after]] — All support acts on Ed Sheeran's US tour quit after Macklemore dropped
 - 2026-09-16 · [[2026-09-16-002-denmark-says-russian-warship-fired-flares-at-military]] — Denmark says Russian warship fired flares at military helicopter

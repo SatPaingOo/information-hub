@@ -1,7 +1,7 @@
 ---
 node: "Policy"
 layer: misc
-item_count: 162
+item_count: 163
 ---
 
 # Policy
@@ -21,6 +21,7 @@ item_count: 162
 - 2026-09-17 · [[2026-09-17-003-photos-show-widespread-damage-at-us-sites-from-iranian]] — Photos show widespread damage at US sites from Iranian attacks
 - 2026-09-17 · [[2026-09-17-004-burnham-rejects-tax-and-spend-socialist-comments]] — Burnham rejects 'tax and spend socialist' comments
 - 2026-09-17 · [[2026-09-17-005-call-to-raise-tax-thresholds-among-union-demands-ahead-of]] — Call to raise tax thresholds among union demands ahead of Budget
+- 2026-09-17 · [[2026-09-17-008-assad-regime-planned-us-journalist-s-kidnap-for-weeks-bbc]] — Assad regime planned US journalist's kidnap for weeks, BBC finds
 - 2026-09-16 · [[2026-09-16-001-all-support-acts-on-ed-sheeran-s-us-tour-quit-after]] — All support acts on Ed Sheeran's US tour quit after Macklemore dropped
 - 2026-09-16 · [[2026-09-16-002-denmark-says-russian-warship-fired-flares-at-military]] — Denmark says Russian warship fired flares at military helicopter
 - 2026-09-16 · [[2026-09-16-003-what-weapon-could-the-us-have-put-into-space]] — What weapon could the US have put into space?
