@@ -1,7 +1,7 @@
 ---
 node: "Regulation"
 layer: misc
-item_count: 11
+item_count: 12
 ---
 
 # Regulation
@@ -16,6 +16,7 @@ item_count: 11
 
 ## Items
 
+- 2026-09-17 · [[2026-09-17-002-snapchat-willing-to-implement-daily-time-limits-for-teens]] — Snapchat 'willing to implement' daily time limits for teens, boss tells BBC
 - 2026-09-15 · [[2026-09-15-001-trump-says-ai-safety-fears-a-hoax-as-he-rejects-calls-for]] — Trump says AI safety fears a 'hoax' as he rejects calls for greater safeguards
 - 2026-09-15 · [[2026-09-15-005-jensen-huang-took-a-call-from-trump-and-showed-off]] — Jensen Huang took a call from Trump, and showed off something else, too
 - 2026-09-13 · [[2026-09-13-001-anthropic-boss-dario-amodei-calls-for-ai-development-to]] — Anthropic boss Dario Amodei calls for AI development to slow down

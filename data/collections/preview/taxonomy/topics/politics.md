@@ -1,7 +1,7 @@
 ---
 node: "politics"
 layer: topic
-item_count: 59
+item_count: 61
 ---
 
 # politics
@@ -17,6 +17,8 @@ item_count: 59
 
 ## Items
 
+- 2026-09-17 · [[2026-09-17-004-burnham-rejects-tax-and-spend-socialist-comments]] — Burnham rejects 'tax and spend socialist' comments
+- 2026-09-17 · [[2026-09-17-005-call-to-raise-tax-thresholds-among-union-demands-ahead-of]] — Call to raise tax thresholds among union demands ahead of Budget
 - 2026-09-16 · [[2026-09-16-004-uk-in-talks-about-joining-global-defence-bank-led-by-canada]] — UK in talks about joining global defence bank led by Canada
 - 2026-09-16 · [[2026-09-16-005-dan-thomas-resigns-as-reform-wales-leader-after-arrest-on]] — Dan Thomas resigns as Reform Wales leader after arrest on suspicion of assault
 - 2026-09-14 · [[2026-09-14-006-reform-confident-it-won-t-need-to-repay-any-of-72m-under]] — Reform confident it won't need to repay any of £72m under proposed new donor rules

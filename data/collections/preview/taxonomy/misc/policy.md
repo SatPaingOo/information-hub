@@ -1,7 +1,7 @@
 ---
 node: "Policy"
 layer: misc
-item_count: 157
+item_count: 162
 ---
 
 # Policy
@@ -16,6 +16,11 @@ item_count: 157
 
 ## Items
 
+- 2026-09-17 · [[2026-09-17-001-us-interest-rates-raised-for-first-time-in-three-years]] — US interest rates raised for first time in three years
+- 2026-09-17 · [[2026-09-17-002-snapchat-willing-to-implement-daily-time-limits-for-teens]] — Snapchat 'willing to implement' daily time limits for teens, boss tells BBC
+- 2026-09-17 · [[2026-09-17-003-photos-show-widespread-damage-at-us-sites-from-iranian]] — Photos show widespread damage at US sites from Iranian attacks
+- 2026-09-17 · [[2026-09-17-004-burnham-rejects-tax-and-spend-socialist-comments]] — Burnham rejects 'tax and spend socialist' comments
+- 2026-09-17 · [[2026-09-17-005-call-to-raise-tax-thresholds-among-union-demands-ahead-of]] — Call to raise tax thresholds among union demands ahead of Budget
 - 2026-09-16 · [[2026-09-16-001-all-support-acts-on-ed-sheeran-s-us-tour-quit-after]] — All support acts on Ed Sheeran's US tour quit after Macklemore dropped
 - 2026-09-16 · [[2026-09-16-002-denmark-says-russian-warship-fired-flares-at-military]] — Denmark says Russian warship fired flares at military helicopter
 - 2026-09-16 · [[2026-09-16-003-what-weapon-could-the-us-have-put-into-space]] — What weapon could the US have put into space?

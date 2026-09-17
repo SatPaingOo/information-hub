@@ -1,0 +1,19 @@
+2026-09-17 01:21:01,051 INFO [world-news] model returned no selection — using heuristic fallback (3)
+2026-09-17 01:22:12,090 INFO [world-news] published 2026-09-17-001 — US interest rates raised for first time in three years
+2026-09-17 01:22:50,924 INFO [world-news] published 2026-09-17-002 — Snapchat 'willing to implement' daily time limits for teens,
+2026-09-17 01:23:56,790 INFO [world-news] published 2026-09-17-003 — Photos show widespread damage at US sites from Iranian attac
+2026-09-17 01:24:09,203 INFO [tech-news] nothing selected
+2026-09-17 01:25:00,278 INFO [politics] published 2026-09-17-004 — Burnham rejects 'tax and spend socialist' comments
+2026-09-17 01:26:24,988 INFO [politics] published 2026-09-17-005 — Call to raise tax thresholds among union demands ahead of Bu
+2026-09-17 01:28:18,418 INFO [products] published 2026-09-17-006 — Weave Router 2.0 – Subscription Aware Coding Agent Router
+2026-09-17 01:28:22,948 INFO [products] published 2026-09-17-007 — Gemini 3.8 & 3.8 Live Extended Thinking
+2026-09-17 01:28:23,147 INFO collect done: 7 item(s) published — target 3/10, next run ≈ 2026-09-17T01:43:23+00:00 UTC
+2026-09-17 01:28:25,860 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 5256, Requested 4634. Please try again in 14.174999999s. Need more tokens? Upgrade to Dev Tier today at https
+2026-09-17 01:28:31,219 ERROR [world-news] generate error: model returned non-object JSON (list)
+2026-09-17 01:28:37,221 WARNING [world-news] no collect provider for deep-dive
+2026-09-17 01:28:37,319 WARNING [world-news] no collect provider for deep-dive
+2026-09-17 01:28:37,411 WARNING [world-news] no collect provider for deep-dive
+2026-09-17 01:28:37,652 WARNING [tech-news] no collect provider available
+2026-09-17 01:28:38,264 WARNING [politics] no collect provider available
+2026-09-17 01:28:38,893 WARNING [products] no collect provider available
+2026-09-17 01:28:39,100 INFO collect done: 0 item(s) published — target 3/10, next run ≈ 2026-09-18T01:00:00+00:00 UTC

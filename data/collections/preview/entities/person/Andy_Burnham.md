@@ -1,7 +1,7 @@
 ---
 name: "Andy Burnham"
 entity_type: person
-backlink_count: 28
+backlink_count: 29
 ---
 
 # Andy Burnham
@@ -10,6 +10,7 @@ backlink_count: 28
 
 ## Referenced by
 
+- 2026-09-17 · [[2026-09-17-004-burnham-rejects-tax-and-spend-socialist-comments]] — Burnham rejects 'tax and spend socialist' comments
 - 2026-09-14 · [[2026-09-14-007-will-record-donations-to-reform-go-down-as-a-moment-of]] — Will record donations to Reform go down as a moment of political change?
 - 2026-09-11 · [[2026-09-11-004-labour-mayors-in-england-vow-to-cap-tourist-tax-at-5]] — Labour mayors in England vow to cap tourist tax at 5%
 - 2026-09-11 · [[2026-09-11-005-badenoch-denies-housing-benefit-cuts-plan-would-make]] — Badenoch denies housing benefit cuts plan would make people homeless
