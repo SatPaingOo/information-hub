@@ -1,7 +1,7 @@
 ---
 node: "geopolitics"
 layer: topic
-item_count: 49
+item_count: 52
 ---
 
 # geopolitics
@@ -24,6 +24,9 @@ item_count: 49
 
 ## Items
 
+- 2026-09-18 · [[2026-09-18-003-un-experts-say-grounds-to-believe-us-committed-war-crimes]] — UN experts say grounds to believe US committed war crimes in Iran strikes
+- 2026-09-18 · [[2026-09-18-004-uk-needs-credible-path-on-defence-spending-says-nato-chief]] — UK needs 'credible path' on defence spending, says Nato chief
+- 2026-09-18 · [[2026-09-18-005-not-just-nice-guy-eddie-lib-dems-eager-for-leader-to-show]] — Not just 'Nice Guy Eddie': Lib Dems eager for leader to show radical side at party conference
 - 2026-09-17 · [[2026-09-17-003-photos-show-widespread-damage-at-us-sites-from-iranian]] — Photos show widespread damage at US sites from Iranian attacks
 - 2026-09-17 · [[2026-09-17-004-burnham-rejects-tax-and-spend-socialist-comments]] — Burnham rejects 'tax and spend socialist' comments
 - 2026-09-17 · [[2026-09-17-008-assad-regime-planned-us-journalist-s-kidnap-for-weeks-bbc]] — Assad regime planned US journalist's kidnap for weeks, BBC finds

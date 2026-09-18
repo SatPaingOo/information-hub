@@ -1,7 +1,7 @@
 ---
 name: "Mark Carney"
 entity_type: person
-backlink_count: 8
+backlink_count: 9
 ---
 
 # Mark Carney
@@ -10,6 +10,7 @@ backlink_count: 8
 
 ## Referenced by
 
+- 2026-09-18 · [[2026-09-18-001-canada-welcomes-eu-proposal-to-become-associate-member]] — Canada welcomes EU proposal to become 'associate member'
 - 2026-09-16 · [[2026-09-16-004-uk-in-talks-about-joining-global-defence-bank-led-by-canada]] — UK in talks about joining global defence bank led by Canada
 - 2026-09-09 · [[2026-09-09-003-us-slaps-import-ban-on-canadian-alcohol-and-other-goods]] — US slaps import ban on Canadian alcohol and other goods
 - 2026-08-30 · [[2026-08-30-003-canada-installs-large-lake-ontario-sign-in-latest-jab-at-us]] — Canada installs large Lake Ontario sign in latest jab at US

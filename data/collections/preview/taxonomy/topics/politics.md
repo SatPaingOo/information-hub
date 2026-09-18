@@ -1,7 +1,7 @@
 ---
 node: "politics"
 layer: topic
-item_count: 61
+item_count: 64
 ---
 
 # politics
@@ -17,6 +17,9 @@ item_count: 61
 
 ## Items
 
+- 2026-09-18 · [[2026-09-18-004-uk-needs-credible-path-on-defence-spending-says-nato-chief]] — UK needs 'credible path' on defence spending, says Nato chief
+- 2026-09-18 · [[2026-09-18-005-not-just-nice-guy-eddie-lib-dems-eager-for-leader-to-show]] — Not just 'Nice Guy Eddie': Lib Dems eager for leader to show radical side at party conference
+- 2026-09-18 · [[2026-09-18-005-not-just-nice-guy-eddie-lib-dems-eager-for-leader-to-show]] — Not just 'Nice Guy Eddie': Lib Dems eager for leader to show radical side at party conference
 - 2026-09-17 · [[2026-09-17-004-burnham-rejects-tax-and-spend-socialist-comments]] — Burnham rejects 'tax and spend socialist' comments
 - 2026-09-17 · [[2026-09-17-005-call-to-raise-tax-thresholds-among-union-demands-ahead-of]] — Call to raise tax thresholds among union demands ahead of Budget
 - 2026-09-16 · [[2026-09-16-004-uk-in-talks-about-joining-global-defence-bank-led-by-canada]] — UK in talks about joining global defence bank led by Canada

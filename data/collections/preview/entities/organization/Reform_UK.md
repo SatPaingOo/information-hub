@@ -1,7 +1,7 @@
 ---
 name: "Reform UK"
 entity_type: organization
-backlink_count: 17
+backlink_count: 18
 ---
 
 # Reform UK
@@ -10,6 +10,7 @@ backlink_count: 17
 
 ## Referenced by
 
+- 2026-09-18 · [[2026-09-18-005-not-just-nice-guy-eddie-lib-dems-eager-for-leader-to-show]] — Not just 'Nice Guy Eddie': Lib Dems eager for leader to show radical side at party conference
 - 2026-09-16 · [[2026-09-16-005-dan-thomas-resigns-as-reform-wales-leader-after-arrest-on]] — Dan Thomas resigns as Reform Wales leader after arrest on suspicion of assault
 - 2026-09-14 · [[2026-09-14-006-reform-confident-it-won-t-need-to-repay-any-of-72m-under]] — Reform confident it won't need to repay any of £72m under proposed new donor rules
 - 2026-09-14 · [[2026-09-14-007-will-record-donations-to-reform-go-down-as-a-moment-of]] — Will record donations to Reform go down as a moment of political change?

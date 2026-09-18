@@ -1,0 +1,22 @@
+2026-09-18 01:15:56,948 INFO [world-news] published 2026-09-18-001 — Canada welcomes EU proposal to become 'associate member'
+2026-09-18 01:16:19,432 INFO [world-news] published 2026-09-18-002 — Ninth woman's body found as South African police investigate
+2026-09-18 01:16:36,710 INFO [world-news] published 2026-09-18-003 — UN experts say grounds to believe US committed war crimes in
+2026-09-18 01:16:39,703 INFO [tech-news] nothing selected
+2026-09-18 01:17:26,774 INFO [politics] published 2026-09-18-004 — UK needs 'credible path' on defence spending, says Nato chie
+2026-09-18 01:18:10,265 INFO [politics] published 2026-09-18-005 — Not just 'Nice Guy Eddie': Lib Dems eager for leader to show
+2026-09-18 01:19:07,177 INFO [products] published 2026-09-18-006 — QAgent
+2026-09-18 01:19:11,912 INFO [products] attempt 1 invalid: [": 'title' is a required property", ": 'tldr' is a required property"]
+2026-09-18 01:19:12,021 ERROR [products] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 4692, Requested 3596. Please try again in 2.159999999s. Need more tokens? Upgrade to Dev Tier today at https:
+2026-09-18 01:19:20,781 INFO [products] attempt 3 invalid: [": 'key_facts' is a required property", ": 'implications' is a required property"]
+2026-09-18 01:19:21,019 INFO collect done: 6 item(s) published — target 4/10, next run ≈ 2026-09-18T01:27:12+00:00 UTC
+2026-09-18 01:19:44,662 INFO [world-news] model returned no selection — using heuristic fallback (3)
+2026-09-18 01:19:50,008 INFO [world-news] published 2026-09-18-007 — US to allow Iran delegation to attend UN meetings in New Yor
+2026-09-18 01:19:50,290 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6767, Requested 4410. Please try again in 23.8275s. Need more tokens? Upgrade to Dev Tier today at https://co
+2026-09-18 01:19:56,056 ERROR [world-news] generate error: HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
+
+2026-09-18 01:20:02,059 WARNING [world-news] no collect provider for deep-dive
+2026-09-18 01:20:02,161 WARNING [world-news] no collect provider for deep-dive
+2026-09-18 01:20:02,510 WARNING [tech-news] no collect provider available
+2026-09-18 01:20:02,814 WARNING [politics] no collect provider available
+2026-09-18 01:20:03,484 WARNING [products] no collect provider available
+2026-09-18 01:20:03,737 INFO collect done: 1 item(s) published — target 3/10, next run ≈ 2026-09-19T01:00:00+00:00 UTC

@@ -1,7 +1,7 @@
 ---
 node: "LLM"
 layer: misc
-item_count: 33
+item_count: 34
 ---
 
 # LLM
@@ -17,6 +17,7 @@ item_count: 33
 
 ## Items
 
+- 2026-09-18 · [[2026-09-18-006-qagent]] — QAgent
 - 2026-09-17 · [[2026-09-17-007-gemini-3-8-3-8-live-extended-thinking]] — Gemini 3.8 & 3.8 Live Extended Thinking
 - 2026-09-16 · [[2026-09-16-006-buddy-ai-access-mcp]] — Buddy AI Access (MCP)
 - 2026-09-15 · [[2026-09-15-001-trump-says-ai-safety-fears-a-hoax-as-he-rejects-calls-for]] — Trump says AI safety fears a 'hoax' as he rejects calls for greater safeguards

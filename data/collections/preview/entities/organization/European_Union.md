@@ -1,7 +1,7 @@
 ---
 name: "European Union"
 entity_type: organization
-backlink_count: 10
+backlink_count: 11
 ---
 
 # European Union
@@ -10,6 +10,7 @@ backlink_count: 10
 
 ## Referenced by
 
+- 2026-09-18 · [[2026-09-18-001-canada-welcomes-eu-proposal-to-become-associate-member]] — Canada welcomes EU proposal to become 'associate member'
 - 2026-09-16 · [[2026-09-16-007-axari-delegating-security-busywork-to-an-ai-twin]] — Axari – Delegating Security Busywork to an AI Twin
 - 2026-09-07 · [[2026-09-07-002-europe-wrestles-with-impact-of-historic-regional-gains-for]] — Europe wrestles with impact of historic regional gains for Germany's AfD
 - 2026-09-05 · [[2026-09-05-003-europe-targeted-by-spiralling-campaign-of-sabotage-and]] — Europe targeted by spiralling campaign of sabotage - and Russia is the chief suspect

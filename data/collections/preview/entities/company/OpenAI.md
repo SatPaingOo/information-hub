@@ -1,7 +1,7 @@
 ---
 name: "OpenAI"
 entity_type: company
-backlink_count: 57
+backlink_count: 59
 ---
 
 # OpenAI
@@ -10,6 +10,8 @@ backlink_count: 57
 
 ## Referenced by
 
+- 2026-09-18 · [[2026-09-18-002-ninth-woman-s-body-found-as-south-african-police]] — Ninth woman's body found as South African police investigate string of deaths
+- 2026-09-18 · [[2026-09-18-006-qagent]] — QAgent
 - 2026-09-17 · [[2026-09-17-006-weave-router-2-0-subscription-aware-coding-agent-router]] — Weave Router 2.0 – Subscription Aware Coding Agent Router
 - 2026-09-17 · [[2026-09-17-007-gemini-3-8-3-8-live-extended-thinking]] — Gemini 3.8 & 3.8 Live Extended Thinking
 - 2026-09-17 · [[2026-09-17-008-assad-regime-planned-us-journalist-s-kidnap-for-weeks-bbc]] — Assad regime planned US journalist's kidnap for weeks, BBC finds

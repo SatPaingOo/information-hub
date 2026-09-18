@@ -1,7 +1,7 @@
 ---
 node: "Agentic AI"
 layer: misc
-item_count: 38
+item_count: 39
 ---
 
 # Agentic AI
@@ -17,6 +17,7 @@ item_count: 38
 
 ## Items
 
+- 2026-09-18 · [[2026-09-18-006-qagent]] — QAgent
 - 2026-09-17 · [[2026-09-17-006-weave-router-2-0-subscription-aware-coding-agent-router]] — Weave Router 2.0 – Subscription Aware Coding Agent Router
 - 2026-09-17 · [[2026-09-17-007-gemini-3-8-3-8-live-extended-thinking]] — Gemini 3.8 & 3.8 Live Extended Thinking
 - 2026-09-16 · [[2026-09-16-006-buddy-ai-access-mcp]] — Buddy AI Access (MCP)

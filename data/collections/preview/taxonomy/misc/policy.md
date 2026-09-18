@@ -1,7 +1,7 @@
 ---
 node: "Policy"
 layer: misc
-item_count: 163
+item_count: 169
 ---
 
 # Policy
@@ -16,6 +16,12 @@ item_count: 163
 
 ## Items
 
+- 2026-09-18 · [[2026-09-18-001-canada-welcomes-eu-proposal-to-become-associate-member]] — Canada welcomes EU proposal to become 'associate member'
+- 2026-09-18 · [[2026-09-18-002-ninth-woman-s-body-found-as-south-african-police]] — Ninth woman's body found as South African police investigate string of deaths
+- 2026-09-18 · [[2026-09-18-003-un-experts-say-grounds-to-believe-us-committed-war-crimes]] — UN experts say grounds to believe US committed war crimes in Iran strikes
+- 2026-09-18 · [[2026-09-18-004-uk-needs-credible-path-on-defence-spending-says-nato-chief]] — UK needs 'credible path' on defence spending, says Nato chief
+- 2026-09-18 · [[2026-09-18-005-not-just-nice-guy-eddie-lib-dems-eager-for-leader-to-show]] — Not just 'Nice Guy Eddie': Lib Dems eager for leader to show radical side at party conference
+- 2026-09-18 · [[2026-09-18-007-us-to-allow-iran-delegation-to-attend-un-meetings-in-new]] — US to allow Iran delegation to attend UN meetings in New York as war passes half-year mark
 - 2026-09-17 · [[2026-09-17-001-us-interest-rates-raised-for-first-time-in-three-years]] — US interest rates raised for first time in three years
 - 2026-09-17 · [[2026-09-17-002-snapchat-willing-to-implement-daily-time-limits-for-teens]] — Snapchat 'willing to implement' daily time limits for teens, boss tells BBC
 - 2026-09-17 · [[2026-09-17-003-photos-show-widespread-damage-at-us-sites-from-iranian]] — Photos show widespread damage at US sites from Iranian attacks

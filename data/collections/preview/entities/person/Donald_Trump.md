@@ -1,7 +1,7 @@
 ---
 name: "Donald Trump"
 entity_type: person
-backlink_count: 34
+backlink_count: 35
 ---
 
 # Donald Trump
@@ -10,6 +10,7 @@ backlink_count: 34
 
 ## Referenced by
 
+- 2026-09-18 · [[2026-09-18-001-canada-welcomes-eu-proposal-to-become-associate-member]] — Canada welcomes EU proposal to become 'associate member'
 - 2026-09-17 · [[2026-09-17-001-us-interest-rates-raised-for-first-time-in-three-years]] — US interest rates raised for first time in three years
 - 2026-09-15 · [[2026-09-15-001-trump-says-ai-safety-fears-a-hoax-as-he-rejects-calls-for]] — Trump says AI safety fears a 'hoax' as he rejects calls for greater safeguards
 - 2026-09-15 · [[2026-09-15-003-ai-regulation-faces-political-deadlock-as-calls-grow-for]] — AI regulation faces political deadlock as calls grow for Congress to act
