@@ -5019,6 +5019,37 @@
       "name": "India"
     },
     {
+      "id": "info:item:world:global:2026-09-19-010",
+      "type": "item",
+      "date": "2026-09-19",
+      "title": "Grim discoveries of murdered women spark fear in South Africa"
+    },
+    {
+      "id": "info:entity:concept:femicide",
+      "type": "concept",
+      "name": "femicide"
+    },
+    {
+      "id": "info:entity:concept:AI‑enabled crime analytics",
+      "type": "concept",
+      "name": "AI‑enabled crime analytics"
+    },
+    {
+      "id": "taxonomy/misc/gender-based violence",
+      "type": "taxonomy",
+      "name": "gender-based violence"
+    },
+    {
+      "id": "taxonomy/misc/criminal justice reform",
+      "type": "taxonomy",
+      "name": "criminal justice reform"
+    },
+    {
+      "id": "taxonomy/misc/technology & regulation",
+      "type": "taxonomy",
+      "name": "technology & regulation"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -20048,6 +20079,71 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-09-19-010",
+      "target": "info:entity:person:Cyril Ramaphosa",
+      "relation": "President of South Africa, pledged investigation"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-010",
+      "target": "info:entity:organization:Amnesty International",
+      "relation": "Human‑rights NGO urging femicide legislation"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-010",
+      "target": "info:entity:concept:femicide",
+      "relation": "Proposed distinct criminal offence"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-010",
+      "target": "info:entity:concept:AI‑enabled crime analytics",
+      "relation": "Potential tool for prevention, subject to regulation"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-010",
+      "target": "info:item:world:global:2026-09-19-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-010",
+      "target": "info:item:world:global:2026-09-19-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-010",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-010",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-010",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-010",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-010",
+      "target": "taxonomy/misc/gender-based violence",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-010",
+      "target": "taxonomy/misc/criminal justice reform",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-010",
+      "target": "taxonomy/misc/technology & regulation",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -21808,6 +21904,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:concept:AI‑enabled crime analytics",
+      "target": "info:entity:concept:femicide",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:AI‑enabled crime analytics",
+      "target": "info:entity:organization:Amnesty International",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:AI‑enabled crime analytics",
+      "target": "info:entity:person:Cyril Ramaphosa",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:concept:Adversarial Data Poisoning",
       "target": "info:entity:concept:Federated Learning",
       "relation": "co-occurs",
@@ -22440,6 +22554,18 @@
     {
       "source": "info:entity:concept:cordon sanitaire",
       "target": "info:entity:person:Ulrich Siegmund",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:femicide",
+      "target": "info:entity:organization:Amnesty International",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:femicide",
+      "target": "info:entity:person:Cyril Ramaphosa",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -23190,6 +23316,12 @@
     {
       "source": "info:entity:organization:Amnesty International",
       "target": "info:entity:person:Chow Hang‑tung",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Amnesty International",
+      "target": "info:entity:person:Cyril Ramaphosa",
       "relation": "co-occurs",
       "weight": "1"
     },
