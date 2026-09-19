@@ -1,7 +1,7 @@
 ---
 name: "Donald Trump"
 entity_type: person
-backlink_count: 37
+backlink_count: 38
 ---
 
 # Donald Trump
@@ -12,6 +12,7 @@ backlink_count: 37
 
 - 2026-09-19 · [[2026-09-19-001-us-and-denmark-reach-deal-over-greenland-after-trump]] — US and Denmark reach deal over Greenland after Trump annexation threats
 - 2026-09-19 · [[2026-09-19-003-trump-says-he-is-banning-cnn-and-politico-from-white-house]] — Trump says he is banning CNN and Politico from White House
+- 2026-09-19 · [[2026-09-19-009-trump-signs-sweeping-russia-sanctions-bill]] — Trump signs sweeping Russia sanctions bill
 - 2026-09-18 · [[2026-09-18-001-canada-welcomes-eu-proposal-to-become-associate-member]] — Canada welcomes EU proposal to become 'associate member'
 - 2026-09-17 · [[2026-09-17-001-us-interest-rates-raised-for-first-time-in-three-years]] — US interest rates raised for first time in three years
 - 2026-09-15 · [[2026-09-15-001-trump-says-ai-safety-fears-a-hoax-as-he-rejects-calls-for]] — Trump says AI safety fears a 'hoax' as he rejects calls for greater safeguards

@@ -5003,6 +5003,22 @@
       "name": "Cybersecurity"
     },
     {
+      "id": "info:item:world:global:2026-09-19-009",
+      "type": "item",
+      "date": "2026-09-19",
+      "title": "Trump signs sweeping Russia sanctions bill"
+    },
+    {
+      "id": "info:entity:person:Lindsey Graham",
+      "type": "person",
+      "name": "Lindsey Graham"
+    },
+    {
+      "id": "info:entity:organization:India",
+      "type": "organization",
+      "name": "India"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -19972,6 +19988,66 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-09-19-009",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "signed the sanctions bill"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-009",
+      "target": "info:entity:person:Vladimir Putin",
+      "relation": "target of new sanctions"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-009",
+      "target": "info:entity:person:Lindsey Graham",
+      "relation": "bill named in his honor"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-009",
+      "target": "info:entity:organization:China",
+      "relation": "top purchaser of Russian oil"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-009",
+      "target": "info:entity:organization:India",
+      "relation": "top purchaser of Russian oil"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-009",
+      "target": "info:item:world:global:2026-09-19-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-009",
+      "target": "info:item:world:global:2026-09-19-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-009",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-009",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-009",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-009",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-009",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -23557,6 +23633,12 @@
     },
     {
       "source": "info:entity:organization:China",
+      "target": "info:entity:organization:India",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:China",
       "target": "info:entity:organization:Iran",
       "relation": "co-occurs",
       "weight": "1"
@@ -23581,7 +23663,19 @@
     },
     {
       "source": "info:entity:organization:China",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:China",
       "target": "info:entity:person:Lin Jian",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:China",
+      "target": "info:entity:person:Lindsey Graham",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -23600,6 +23694,12 @@
     {
       "source": "info:entity:organization:China",
       "target": "info:entity:person:Simon Cook",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:China",
+      "target": "info:entity:person:Vladimir Putin",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -24380,6 +24480,24 @@
     {
       "source": "info:entity:organization:Independent International Fact‑Finding Mission on Iran (IIFFMI)",
       "target": "info:entity:person:Pete Hegseth",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:India",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:India",
+      "target": "info:entity:person:Lindsey Graham",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:India",
+      "target": "info:entity:person:Vladimir Putin",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -26755,6 +26873,12 @@
     },
     {
       "source": "info:entity:person:Donald Trump",
+      "target": "info:entity:person:Lindsey Graham",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:Marco Rubio",
       "relation": "co-occurs",
       "weight": "1"
@@ -26817,7 +26941,7 @@
       "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:Vladimir Putin",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Donald Trump",
@@ -27296,6 +27420,12 @@
     {
       "source": "info:entity:person:Lin Jian",
       "target": "info:entity:person:Scott Bessent",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Lindsey Graham",
+      "target": "info:entity:person:Vladimir Putin",
       "relation": "co-occurs",
       "weight": "1"
     },

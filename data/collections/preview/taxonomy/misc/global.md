@@ -1,7 +1,7 @@
 ---
 node: "Global"
 layer: misc
-item_count: 229
+item_count: 230
 ---
 
 # Global
@@ -32,6 +32,7 @@ item_count: 229
 - 2026-09-19 · [[2026-09-19-006-citizen404]] — citizen404
 - 2026-09-19 · [[2026-09-19-007-sider-omni-sidebar-turning-every-mac-app-into-an-agent]] — Sider Omni Sidebar – Turning Every Mac App Into an Agent‑Powered Workspace
 - 2026-09-19 · [[2026-09-19-008-google-s-gemini-ai-hacked-three-companies-in-security-test]] — Google's Gemini AI hacked three companies in security test
+- 2026-09-19 · [[2026-09-19-009-trump-signs-sweeping-russia-sanctions-bill]] — Trump signs sweeping Russia sanctions bill
 - 2026-09-18 · [[2026-09-18-001-canada-welcomes-eu-proposal-to-become-associate-member]] — Canada welcomes EU proposal to become 'associate member'
 - 2026-09-18 · [[2026-09-18-002-ninth-woman-s-body-found-as-south-african-police]] — Ninth woman's body found as South African police investigate string of deaths
 - 2026-09-18 · [[2026-09-18-003-un-experts-say-grounds-to-believe-us-committed-war-crimes]] — UN experts say grounds to believe US committed war crimes in Iran strikes
