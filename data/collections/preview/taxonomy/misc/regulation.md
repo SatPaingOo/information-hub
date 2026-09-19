@@ -1,7 +1,7 @@
 ---
 node: "Regulation"
 layer: misc
-item_count: 13
+item_count: 15
 ---
 
 # Regulation
@@ -11,11 +11,14 @@ item_count: 13
 ## Cross-layer relations
 
 - [[ai-ml]] — *relates*
+- [[politics]] — *relates*
 - [[products]] — *relates*
 - [[world]] — *relates*
 
 ## Items
 
+- 2026-09-19 · [[2026-09-19-006-citizen404]] — citizen404
+- 2026-09-19 · [[2026-09-19-005-ex-labour-deputy-leader-tom-watson-joins-palantir]] — Ex-Labour deputy leader Tom Watson joins Palantir
 - 2026-09-18 · [[2026-09-18-006-qagent]] — QAgent
 - 2026-09-17 · [[2026-09-17-002-snapchat-willing-to-implement-daily-time-limits-for-teens]] — Snapchat 'willing to implement' daily time limits for teens, boss tells BBC
 - 2026-09-15 · [[2026-09-15-001-trump-says-ai-safety-fears-a-hoax-as-he-rejects-calls-for]] — Trump says AI safety fears a 'hoax' as he rejects calls for greater safeguards

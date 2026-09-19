@@ -1,7 +1,7 @@
 ---
 node: "LLM"
 layer: misc
-item_count: 34
+item_count: 35
 ---
 
 # LLM
@@ -17,6 +17,7 @@ item_count: 34
 
 ## Items
 
+- 2026-09-19 · [[2026-09-19-006-citizen404]] — citizen404
 - 2026-09-18 · [[2026-09-18-006-qagent]] — QAgent
 - 2026-09-17 · [[2026-09-17-007-gemini-3-8-3-8-live-extended-thinking]] — Gemini 3.8 & 3.8 Live Extended Thinking
 - 2026-09-16 · [[2026-09-16-006-buddy-ai-access-mcp]] — Buddy AI Access (MCP)

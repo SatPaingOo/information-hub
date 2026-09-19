@@ -1,7 +1,7 @@
 ---
 name: "JD Vance"
 entity_type: person
-backlink_count: 4
+backlink_count: 5
 ---
 
 # JD Vance
@@ -10,6 +10,7 @@ backlink_count: 4
 
 ## Referenced by
 
+- 2026-09-19 · [[2026-09-19-003-trump-says-he-is-banning-cnn-and-politico-from-white-house]] — Trump says he is banning CNN and Politico from White House
 - 2026-09-11 · [[2026-09-11-002-can-trump-really-pay-5-000-to-every-american-adult]] — Can Trump really pay $5,000 to every American adult?
 - 2026-09-10 · [[2026-09-10-008-trump-says-every-adult-american-will-get-5-000-if]] — Trump says every adult American will get $5,000 if Republicans win midterms
 - 2026-09-04 · [[2026-09-04-002-us-investigating-if-missile-hit-iran-wedding-vance-says]] — US investigating if missile hit Iran wedding, Vance says

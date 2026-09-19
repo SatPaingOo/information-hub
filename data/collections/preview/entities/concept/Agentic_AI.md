@@ -1,7 +1,7 @@
 ---
 name: "Agentic AI"
 entity_type: concept
-backlink_count: 19
+backlink_count: 21
 ---
 
 # Agentic AI
@@ -10,6 +10,8 @@ backlink_count: 19
 
 ## Referenced by
 
+- 2026-09-19 · [[2026-09-19-006-citizen404]] — citizen404
+- 2026-09-19 · [[2026-09-19-007-sider-omni-sidebar-turning-every-mac-app-into-an-agent]] — Sider Omni Sidebar – Turning Every Mac App Into an Agent‑Powered Workspace
 - 2026-09-18 · [[2026-09-18-006-qagent]] — QAgent
 - 2026-09-17 · [[2026-09-17-007-gemini-3-8-3-8-live-extended-thinking]] — Gemini 3.8 & 3.8 Live Extended Thinking
 - 2026-09-16 · [[2026-09-16-007-axari-delegating-security-busywork-to-an-ai-twin]] — Axari – Delegating Security Busywork to an AI Twin

@@ -1,7 +1,7 @@
 ---
 name: "Vladimir Putin"
 entity_type: person
-backlink_count: 11
+backlink_count: 12
 ---
 
 # Vladimir Putin
@@ -10,6 +10,7 @@ backlink_count: 11
 
 ## Referenced by
 
+- 2026-09-19 · [[2026-09-19-002-russian-hybrid-attacks-against-europe-intensifying-says]] — Russian hybrid attacks against Europe intensifying, says Macron
 - 2026-09-16 · [[2026-09-16-002-denmark-says-russian-warship-fired-flares-at-military]] — Denmark says Russian warship fired flares at military helicopter
 - 2026-09-14 · [[2026-09-14-001-russia-hits-ukrainian-train-shortly-after-boris-johnson]] — Russia hits Ukrainian train shortly after Boris Johnson and top European officials leave station
 - 2026-09-11 · [[2026-09-11-007-five-killed-and-67-injured-in-russian-strike-on-shopping]] — Five killed and 67 injured in Russian strike on shopping centre, Ukraine says

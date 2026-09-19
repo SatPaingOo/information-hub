@@ -1,7 +1,7 @@
 ---
 node: "world"
 layer: topic
-item_count: 124
+item_count: 128
 ---
 
 # world
@@ -17,6 +17,10 @@ item_count: 124
 
 ## Items
 
+- 2026-09-19 · [[2026-09-19-001-us-and-denmark-reach-deal-over-greenland-after-trump]] — US and Denmark reach deal over Greenland after Trump annexation threats
+- 2026-09-19 · [[2026-09-19-002-russian-hybrid-attacks-against-europe-intensifying-says]] — Russian hybrid attacks against Europe intensifying, says Macron
+- 2026-09-19 · [[2026-09-19-002-russian-hybrid-attacks-against-europe-intensifying-says]] — Russian hybrid attacks against Europe intensifying, says Macron
+- 2026-09-19 · [[2026-09-19-003-trump-says-he-is-banning-cnn-and-politico-from-white-house]] — Trump says he is banning CNN and Politico from White House
 - 2026-09-18 · [[2026-09-18-001-canada-welcomes-eu-proposal-to-become-associate-member]] — Canada welcomes EU proposal to become 'associate member'
 - 2026-09-18 · [[2026-09-18-002-ninth-woman-s-body-found-as-south-african-police]] — Ninth woman's body found as South African police investigate string of deaths
 - 2026-09-18 · [[2026-09-18-003-un-experts-say-grounds-to-believe-us-committed-war-crimes]] — UN experts say grounds to believe US committed war crimes in Iran strikes

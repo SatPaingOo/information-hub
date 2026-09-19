@@ -4830,6 +4830,153 @@
       "name": "energy security"
     },
     {
+      "id": "info:item:world:global:2026-09-19-001",
+      "type": "item",
+      "date": "2026-09-19",
+      "title": "US and Denmark reach deal over Greenland after Trump annexation threats"
+    },
+    {
+      "id": "info:entity:person:Mette Frederiksen",
+      "type": "person",
+      "name": "Mette Frederiksen"
+    },
+    {
+      "id": "taxonomy/misc/Arctic Security",
+      "type": "taxonomy",
+      "name": "Arctic Security"
+    },
+    {
+      "id": "taxonomy/misc/Geopolitical Risk",
+      "type": "taxonomy",
+      "name": "Geopolitical Risk"
+    },
+    {
+      "id": "taxonomy/misc/Strategic Minerals",
+      "type": "taxonomy",
+      "name": "Strategic Minerals"
+    },
+    {
+      "id": "info:item:world:global:2026-09-19-002",
+      "type": "item",
+      "date": "2026-09-19",
+      "title": "Russian hybrid attacks against Europe intensifying, says Macron"
+    },
+    {
+      "id": "info:item:world:global:2026-09-19-003",
+      "type": "item",
+      "date": "2026-09-19",
+      "title": "Trump says he is banning CNN and Politico from White House"
+    },
+    {
+      "id": "info:entity:organization:CNN",
+      "type": "organization",
+      "name": "CNN"
+    },
+    {
+      "id": "info:entity:organization:Politico",
+      "type": "organization",
+      "name": "Politico"
+    },
+    {
+      "id": "info:entity:organization:White House Correspondents Association",
+      "type": "organization",
+      "name": "White House Correspondents Association"
+    },
+    {
+      "id": "taxonomy/misc/media freedom",
+      "type": "taxonomy",
+      "name": "media freedom"
+    },
+    {
+      "id": "taxonomy/misc/US politics",
+      "type": "taxonomy",
+      "name": "US politics"
+    },
+    {
+      "id": "info:item:politics:global:2026-09-19-004",
+      "type": "item",
+      "date": "2026-09-19",
+      "title": "Ireland's relationship with UK under Burnham off to 'very good start'"
+    },
+    {
+      "id": "info:entity:person:Micheál Martin",
+      "type": "person",
+      "name": "Micheál Martin"
+    },
+    {
+      "id": "info:entity:event:Good Friday Agreement",
+      "type": "event",
+      "name": "Good Friday Agreement"
+    },
+    {
+      "id": "taxonomy/misc/Ireland",
+      "type": "taxonomy",
+      "name": "Ireland"
+    },
+    {
+      "id": "taxonomy/misc/Northern Ireland",
+      "type": "taxonomy",
+      "name": "Northern Ireland"
+    },
+    {
+      "id": "taxonomy/misc/EU‑UK relations",
+      "type": "taxonomy",
+      "name": "EU‑UK relations"
+    },
+    {
+      "id": "info:item:politics:global:2026-09-19-005",
+      "type": "item",
+      "date": "2026-09-19",
+      "title": "Ex-Labour deputy leader Tom Watson joins Palantir"
+    },
+    {
+      "id": "info:entity:person:Tom Watson",
+      "type": "person",
+      "name": "Tom Watson"
+    },
+    {
+      "id": "info:entity:company:Palantir",
+      "type": "company",
+      "name": "Palantir"
+    },
+    {
+      "id": "info:item:products:global:2026-09-19-006",
+      "type": "item",
+      "date": "2026-09-19",
+      "title": "citizen404"
+    },
+    {
+      "id": "info:item:products:global:2026-09-19-007",
+      "type": "item",
+      "date": "2026-09-19",
+      "title": "Sider Omni Sidebar – Turning Every Mac App Into an Agent‑Powered Workspace"
+    },
+    {
+      "id": "info:entity:company:Sider Omni",
+      "type": "company",
+      "name": "Sider Omni"
+    },
+    {
+      "id": "info:entity:concept:Open‑source LLM",
+      "type": "concept",
+      "name": "Open‑source LLM"
+    },
+    {
+      "id": "taxonomy/misc/software",
+      "type": "taxonomy",
+      "name": "software"
+    },
+    {
+      "id": "taxonomy/misc/artificial intelligence",
+      "type": "taxonomy",
+      "name": "artificial intelligence"
+    },
+    {
+      "id": "taxonomy/misc/productivity tools",
+      "type": "taxonomy",
+      "name": "productivity tools"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -19269,6 +19416,461 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-09-19-001",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "U.S. President who threatened annexation and announced the agreement's terms"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-001",
+      "target": "info:entity:person:Mette Frederiksen",
+      "relation": "Danish Prime Minister who confirmed the deal and emphasized sovereignty and self‑determination"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-001",
+      "target": "info:entity:organization:OpenAI",
+      "relation": "AI company whose supply chain depends on Greenland’s rare‑earth minerals"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-001",
+      "target": "info:entity:model:Gemini",
+      "relation": "AI model whose development relies on critical mineral inputs secured by the agreement"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-001",
+      "target": "info:item:world:global:2026-09-18-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-001",
+      "target": "info:item:world:global:2026-09-18-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-001",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-001",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-001",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-001",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-001",
+      "target": "taxonomy/misc/Arctic Security",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-001",
+      "target": "taxonomy/misc/Geopolitical Risk",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-001",
+      "target": "taxonomy/misc/Strategic Minerals",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-002",
+      "target": "info:entity:person:Emmanuel Macron",
+      "relation": "French President who announced protection plan for critical infrastructure"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-002",
+      "target": "info:entity:person:Vladimir Putin",
+      "relation": "Russian President who denies planning attacks on Europe"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-002",
+      "target": "info:entity:person:Marine Le Pen",
+      "relation": "Far‑right opposition candidate leading French presidential polls"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-002",
+      "target": "info:entity:organization:European Commission",
+      "relation": "EU executive body to be consulted on gas stocks and energy policy"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-002",
+      "target": "info:entity:organization:NATO",
+      "relation": "Western defence alliance concerned about Russian hybrid tactics"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-002",
+      "target": "info:entity:company:OpenAI",
+      "relation": "AI model provider highlighted in editorial priorities for regulation"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-002",
+      "target": "info:entity:model:Gemini",
+      "relation": "LLM model referenced in editorial priorities on AI regulation"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-002",
+      "target": "info:item:world:global:2026-09-19-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-002",
+      "target": "info:item:world:global:2026-09-18-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-002",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-002",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-002",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-002",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-002",
+      "target": "taxonomy/topic/world",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-002",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-002",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-003",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "president issuing the ban"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-003",
+      "target": "info:entity:organization:CNN",
+      "relation": "media outlet banned from White House"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-003",
+      "target": "info:entity:organization:Politico",
+      "relation": "media outlet banned from White House"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-003",
+      "target": "info:entity:person:JD Vance",
+      "relation": "vice president traveling with CNN crew"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-003",
+      "target": "info:entity:organization:White House Correspondents Association",
+      "relation": "defends press rights"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-003",
+      "target": "info:item:world:global:2026-09-19-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-003",
+      "target": "info:item:world:global:2026-09-18-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-003",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-003",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-003",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-003",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-003",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-003",
+      "target": "taxonomy/misc/media freedom",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-003",
+      "target": "taxonomy/misc/US politics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-19-004",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "UK politician and Greater Manchester Mayor who hosted Taoiseach Martin"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-19-004",
+      "target": "info:entity:person:Micheál Martin",
+      "relation": "Taoiseach of Ireland who led the diplomatic discussions"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-19-004",
+      "target": "info:entity:organization:European Union",
+      "relation": "co‑guarantor of the Good Friday Agreement and partner in future policy coordination"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-19-004",
+      "target": "info:entity:event:Good Friday Agreement",
+      "relation": "foundational peace accord whose 30th anniversary approaches"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-19-004",
+      "target": "info:item:politics:global:2026-09-18-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-19-004",
+      "target": "info:item:politics:global:2026-09-18-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-19-004",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-19-004",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-19-004",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-19-004",
+      "target": "taxonomy/misc/Ireland",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-19-004",
+      "target": "taxonomy/misc/Northern Ireland",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-19-004",
+      "target": "taxonomy/misc/EU‑UK relations",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-19-005",
+      "target": "info:entity:person:Tom Watson",
+      "relation": "joined Palantir as senior vice president, leveraging political connections"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-19-005",
+      "target": "info:entity:company:Palantir",
+      "relation": "US tech firm providing data‑integration software to UK public services"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-19-005",
+      "target": "info:entity:organization:Labour Party",
+      "relation": "former political home of Tom Watson, source of potential lobbying concerns"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-19-005",
+      "target": "info:item:politics:global:2026-09-19-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-19-005",
+      "target": "info:item:politics:global:2026-09-18-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-19-005",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-19-005",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-19-005",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-19-005",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-19-005",
+      "target": "taxonomy/misc/regulation",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-19-005",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-09-19-006",
+      "target": "info:entity:company:OpenAI",
+      "relation": "provides core model technology (GPT‑6 Astra) integrated by citizen404"
+    },
+    {
+      "source": "info:item:products:global:2026-09-19-006",
+      "target": "info:entity:model:Gemini",
+      "relation": "one of the component models combined with GPT‑6 Astra"
+    },
+    {
+      "source": "info:item:products:global:2026-09-19-006",
+      "target": "info:entity:concept:Agentic AI",
+      "relation": "primary capability category of citizen404"
+    },
+    {
+      "source": "info:item:products:global:2026-09-19-006",
+      "target": "info:entity:company:Microsoft",
+      "relation": "potential cloud partner and enterprise integrator"
+    },
+    {
+      "source": "info:item:products:global:2026-09-19-006",
+      "target": "info:item:products:global:2026-09-18-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-09-19-006",
+      "target": "info:item:products:global:2026-09-17-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-09-19-006",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-09-19-006",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-09-19-006",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-09-19-006",
+      "target": "taxonomy/misc/Agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-09-19-006",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-09-19-006",
+      "target": "taxonomy/misc/Regulation",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-09-19-007",
+      "target": "info:entity:company:Sider Omni",
+      "relation": "developer"
+    },
+    {
+      "source": "info:item:products:global:2026-09-19-007",
+      "target": "info:entity:company:OpenAI",
+      "relation": "LLM provider"
+    },
+    {
+      "source": "info:item:products:global:2026-09-19-007",
+      "target": "info:entity:company:Anthropic",
+      "relation": "alternative LLM provider"
+    },
+    {
+      "source": "info:item:products:global:2026-09-19-007",
+      "target": "info:entity:concept:Agentic AI",
+      "relation": "core technology"
+    },
+    {
+      "source": "info:item:products:global:2026-09-19-007",
+      "target": "info:entity:concept:Open‑source LLM",
+      "relation": "optional backend"
+    },
+    {
+      "source": "info:item:products:global:2026-09-19-007",
+      "target": "info:item:products:global:2026-09-19-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-09-19-007",
+      "target": "info:item:products:global:2026-09-18-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-09-19-007",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-09-19-007",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-09-19-007",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-09-19-007",
+      "target": "taxonomy/misc/software",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-09-19-007",
+      "target": "taxonomy/misc/artificial intelligence",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-09-19-007",
+      "target": "taxonomy/misc/productivity tools",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -19502,11 +20104,17 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
-      "weight": "36"
+      "weight": "37"
     },
     {
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:OpenObserve",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:company:Sider Omni",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -19532,7 +20140,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:concept:Agentic AI",
       "relation": "co-occurs",
-      "weight": "6"
+      "weight": "7"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -19555,6 +20163,12 @@
     {
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:concept:OpenTelemetry",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:concept:Open‑source LLM",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -20244,6 +20858,24 @@
     },
     {
       "source": "info:entity:company:Microsoft",
+      "target": "info:entity:company:OpenAI",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Microsoft",
+      "target": "info:entity:concept:Agentic AI",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Microsoft",
+      "target": "info:entity:model:Gemini",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Microsoft",
       "target": "info:entity:person:Donald Trump",
       "relation": "co-occurs",
       "weight": "1"
@@ -20358,6 +20990,12 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:company:Sider Omni",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:company:Zhipu AI",
       "relation": "co-occurs",
       "weight": "1"
@@ -20366,7 +21004,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:concept:Agentic AI",
       "relation": "co-occurs",
-      "weight": "10"
+      "weight": "12"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -20401,6 +21039,12 @@
     {
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:concept:OpenTelemetry",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:concept:Open‑source LLM",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -20468,7 +21112,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "24"
+      "weight": "26"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -20503,6 +21147,18 @@
     {
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:organization:Data Centre Alliance",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:organization:European Commission",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:organization:NATO",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -20604,6 +21260,12 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:person:Emmanuel Macron",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Garry Tan",
       "relation": "co-occurs",
       "weight": "1"
@@ -20628,6 +21290,12 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:person:Marine Le Pen",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Mick Mulvaney",
       "relation": "co-occurs",
       "weight": "1"
@@ -20641,6 +21309,12 @@
     {
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Tristan Buckmaster",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:person:Vladimir Putin",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -20735,6 +21409,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:company:Palantir",
+      "target": "info:entity:organization:Labour Party",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Palantir",
+      "target": "info:entity:person:Tom Watson",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:company:Rockstar Games",
       "target": "info:entity:product:Grand Theft Auto 6",
       "relation": "co-occurs",
@@ -20773,6 +21459,18 @@
     {
       "source": "info:entity:company:Shein",
       "target": "info:entity:region:Hong Kong",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Sider Omni",
+      "target": "info:entity:concept:Agentic AI",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Sider Omni",
+      "target": "info:entity:concept:Open‑source LLM",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -20958,6 +21656,12 @@
     },
     {
       "source": "info:entity:concept:Agentic AI",
+      "target": "info:entity:concept:Open‑source LLM",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Agentic AI",
       "target": "info:entity:concept:Open‑source SDK",
       "relation": "co-occurs",
       "weight": "1"
@@ -20990,7 +21694,7 @@
       "source": "info:entity:concept:Agentic AI",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "5"
+      "weight": "6"
     },
     {
       "source": "info:entity:concept:Agentic AI",
@@ -21665,6 +22369,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:event:Good Friday Agreement",
+      "target": "info:entity:organization:European Union",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:event:Good Friday Agreement",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:event:Good Friday Agreement",
+      "target": "info:entity:person:Micheál Martin",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:event:MV June Aster fire",
       "target": "info:entity:organization:Philippine Coast Guard",
       "relation": "co-occurs",
@@ -21924,9 +22646,21 @@
     },
     {
       "source": "info:entity:model:Gemini",
+      "target": "info:entity:organization:European Commission",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
+      "target": "info:entity:organization:NATO",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
       "target": "info:entity:organization:OpenAI",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:model:Gemini",
@@ -21968,6 +22702,12 @@
       "source": "info:entity:model:Gemini",
       "target": "info:entity:person:Donald Trump",
       "relation": "co-occurs",
+      "weight": "2"
+    },
+    {
+      "source": "info:entity:model:Gemini",
+      "target": "info:entity:person:Emmanuel Macron",
+      "relation": "co-occurs",
       "weight": "1"
     },
     {
@@ -22008,7 +22748,25 @@
     },
     {
       "source": "info:entity:model:Gemini",
+      "target": "info:entity:person:Marine Le Pen",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
+      "target": "info:entity:person:Mette Frederiksen",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
       "target": "info:entity:person:Mick Mulvaney",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
+      "target": "info:entity:person:Vladimir Putin",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -22505,6 +23263,30 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:CNN",
+      "target": "info:entity:organization:Politico",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:CNN",
+      "target": "info:entity:organization:White House Correspondents Association",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:CNN",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:CNN",
+      "target": "info:entity:person:JD Vance",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Canadian Ministry of Foreign Affairs",
       "target": "info:entity:organization:European Union",
       "relation": "co-occurs",
@@ -22920,7 +23702,25 @@
     },
     {
       "source": "info:entity:organization:European Commission",
+      "target": "info:entity:organization:NATO",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:European Commission",
       "target": "info:entity:person:Donald Trump",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:European Commission",
+      "target": "info:entity:person:Emmanuel Macron",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:European Commission",
+      "target": "info:entity:person:Marine Le Pen",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -22933,6 +23733,12 @@
     {
       "source": "info:entity:organization:European Commission",
       "target": "info:entity:person:Ursula von der Leyen",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:European Commission",
+      "target": "info:entity:person:Vladimir Putin",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -22952,7 +23758,7 @@
       "source": "info:entity:organization:European Union",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:European Union",
@@ -23005,6 +23811,12 @@
     {
       "source": "info:entity:organization:European Union",
       "target": "info:entity:person:Mark Rutte",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:European Union",
+      "target": "info:entity:person:Micheál Martin",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -23657,6 +24469,12 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Labour Party",
+      "target": "info:entity:person:Tom Watson",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Liberal Democrats",
       "target": "info:entity:organization:National Education Union (NEU)",
       "relation": "co-occurs",
@@ -23784,6 +24602,12 @@
     },
     {
       "source": "info:entity:organization:NATO",
+      "target": "info:entity:person:Emmanuel Macron",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:NATO",
       "target": "info:entity:person:Javier Milei",
       "relation": "co-occurs",
       "weight": "1"
@@ -23814,6 +24638,12 @@
     },
     {
       "source": "info:entity:organization:NATO",
+      "target": "info:entity:person:Marine Le Pen",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:NATO",
       "target": "info:entity:person:Mark Carney",
       "relation": "co-occurs",
       "weight": "1"
@@ -23834,7 +24664,7 @@
       "source": "info:entity:organization:NATO",
       "target": "info:entity:person:Vladimir Putin",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:organization:NATO",
@@ -24054,6 +24884,12 @@
     },
     {
       "source": "info:entity:organization:OpenAI",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:OpenAI",
       "target": "info:entity:person:Dr Bleddyn Bowen",
       "relation": "co-occurs",
       "weight": "1"
@@ -24079,6 +24915,12 @@
     {
       "source": "info:entity:organization:OpenAI",
       "target": "info:entity:person:Lindsay Clancy",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:OpenAI",
+      "target": "info:entity:person:Mette Frederiksen",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -24151,6 +24993,24 @@
     {
       "source": "info:entity:organization:Plaid Cymru",
       "target": "info:entity:person:Nigel Farage",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Politico",
+      "target": "info:entity:organization:White House Correspondents Association",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Politico",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Politico",
+      "target": "info:entity:person:JD Vance",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -24959,6 +25819,18 @@
       "weight": "2"
     },
     {
+      "source": "info:entity:organization:White House Correspondents Association",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:White House Correspondents Association",
+      "target": "info:entity:person:JD Vance",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Wildberries",
       "target": "info:entity:person:Vladimir Putin",
       "relation": "co-occurs",
@@ -25123,6 +25995,12 @@
     {
       "source": "info:entity:person:Andy Burnham",
       "target": "info:entity:person:Mark Rutte",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Andy Burnham",
+      "target": "info:entity:person:Micheál Martin",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -25646,7 +26524,7 @@
       "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:JD Vance",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:person:Donald Trump",
@@ -25713,6 +26591,12 @@
       "target": "info:entity:person:Masoud Pezeshkian",
       "relation": "co-occurs",
       "weight": "2"
+    },
+    {
+      "source": "info:entity:person:Donald Trump",
+      "target": "info:entity:person:Mette Frederiksen",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:person:Donald Trump",
@@ -25868,11 +26752,17 @@
       "source": "info:entity:person:Emmanuel Macron",
       "target": "info:entity:person:Marine Le Pen",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Emmanuel Macron",
       "target": "info:entity:person:Philippe Tabarot",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Emmanuel Macron",
+      "target": "info:entity:person:Vladimir Putin",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -26257,6 +27147,12 @@
     {
       "source": "info:entity:person:Marco Rubio",
       "target": "info:entity:person:Scott Bessent",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Marine Le Pen",
+      "target": "info:entity:person:Vladimir Putin",
       "relation": "co-occurs",
       "weight": "1"
     },

@@ -1,7 +1,7 @@
 ---
 name: "NATO"
 entity_type: organization
-backlink_count: 9
+backlink_count: 10
 ---
 
 # NATO
@@ -10,6 +10,7 @@ backlink_count: 9
 
 ## Referenced by
 
+- 2026-09-19 · [[2026-09-19-002-russian-hybrid-attacks-against-europe-intensifying-says]] — Russian hybrid attacks against Europe intensifying, says Macron
 - 2026-09-18 · [[2026-09-18-004-uk-needs-credible-path-on-defence-spending-says-nato-chief]] — UK needs 'credible path' on defence spending, says Nato chief
 - 2026-09-16 · [[2026-09-16-004-uk-in-talks-about-joining-global-defence-bank-led-by-canada]] — UK in talks about joining global defence bank led by Canada
 - 2026-09-14 · [[2026-09-14-001-russia-hits-ukrainian-train-shortly-after-boris-johnson]] — Russia hits Ukrainian train shortly after Boris Johnson and top European officials leave station

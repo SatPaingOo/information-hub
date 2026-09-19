@@ -1,0 +1,19 @@
+2026-09-19 01:31:40,429 INFO [world-news] published 2026-09-19-001 — US and Denmark reach deal over Greenland after Trump annexat
+2026-09-19 01:32:18,218 INFO [world-news] published 2026-09-19-002 — Russian hybrid attacks against Europe intensifying, says Mac
+2026-09-19 01:32:47,698 INFO [world-news] published 2026-09-19-003 — Trump says he is banning CNN and Politico from White House
+2026-09-19 01:32:54,916 INFO [tech-news] nothing selected
+2026-09-19 01:33:26,530 INFO [politics] published 2026-09-19-004 — Ireland's relationship with UK under Burnham off to 'very go
+2026-09-19 01:34:01,090 INFO [politics] published 2026-09-19-005 — Ex-Labour deputy leader Tom Watson joins Palantir
+2026-09-19 01:35:13,139 INFO [products] published 2026-09-19-006 — citizen404
+2026-09-19 01:35:17,685 INFO [products] published 2026-09-19-007 — Sider Omni Sidebar – Turning Every Mac App Into an Agent‑Pow
+2026-09-19 01:35:17,810 INFO collect done: 7 item(s) published — target 3/10, next run ≈ 2026-09-19T01:50:17+00:00 UTC
+2026-09-19 01:35:19,919 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 5172, Requested 4996. Please try again in 16.26s. Need more tokens? Upgrade to Dev Tier today at https://cons
+2026-09-19 01:35:25,579 ERROR [world-news] generate error: HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
+
+2026-09-19 01:35:31,581 WARNING [world-news] no collect provider for deep-dive
+2026-09-19 01:35:31,698 WARNING [world-news] no collect provider for deep-dive
+2026-09-19 01:35:31,815 WARNING [world-news] no collect provider for deep-dive
+2026-09-19 01:35:32,177 WARNING [tech-news] no collect provider available
+2026-09-19 01:35:32,714 WARNING [politics] no collect provider available
+2026-09-19 01:35:33,863 WARNING [products] no collect provider available
+2026-09-19 01:35:33,999 INFO collect done: 0 item(s) published — target 3/10, next run ≈ 2026-09-20T01:00:00+00:00 UTC

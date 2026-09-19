@@ -1,7 +1,7 @@
 ---
 name: "Andy Burnham"
 entity_type: person
-backlink_count: 31
+backlink_count: 32
 ---
 
 # Andy Burnham
@@ -10,6 +10,7 @@ backlink_count: 31
 
 ## Referenced by
 
+- 2026-09-19 · [[2026-09-19-004-ireland-s-relationship-with-uk-under-burnham-off-to-very]] — Ireland's relationship with UK under Burnham off to 'very good start'
 - 2026-09-18 · [[2026-09-18-004-uk-needs-credible-path-on-defence-spending-says-nato-chief]] — UK needs 'credible path' on defence spending, says Nato chief
 - 2026-09-18 · [[2026-09-18-005-not-just-nice-guy-eddie-lib-dems-eager-for-leader-to-show]] — Not just 'Nice Guy Eddie': Lib Dems eager for leader to show radical side at party conference
 - 2026-09-17 · [[2026-09-17-004-burnham-rejects-tax-and-spend-socialist-comments]] — Burnham rejects 'tax and spend socialist' comments

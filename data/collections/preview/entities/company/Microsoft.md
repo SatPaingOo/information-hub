@@ -1,7 +1,7 @@
 ---
 name: "Microsoft"
 entity_type: company
-backlink_count: 1
+backlink_count: 2
 ---
 
 # Microsoft
@@ -10,4 +10,5 @@ backlink_count: 1
 
 ## Referenced by
 
+- 2026-09-19 · [[2026-09-19-006-citizen404]] — citizen404
 - 2026-09-15 · [[2026-09-15-001-trump-says-ai-safety-fears-a-hoax-as-he-rejects-calls-for]] — Trump says AI safety fears a 'hoax' as he rejects calls for greater safeguards
