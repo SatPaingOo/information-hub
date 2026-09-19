@@ -4977,6 +4977,32 @@
       "name": "productivity tools"
     },
     {
+      "id": "info:item:world:global:2026-09-19-008",
+      "type": "item",
+      "date": "2026-09-19",
+      "title": "Google's Gemini AI hacked three companies in security test"
+    },
+    {
+      "id": "info:entity:organization:Google",
+      "type": "organization",
+      "name": "Google"
+    },
+    {
+      "id": "info:entity:person:Heather Adkins",
+      "type": "person",
+      "name": "Heather Adkins"
+    },
+    {
+      "id": "taxonomy/misc/AI safety",
+      "type": "taxonomy",
+      "name": "AI safety"
+    },
+    {
+      "id": "taxonomy/misc/Cybersecurity",
+      "type": "taxonomy",
+      "name": "Cybersecurity"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -19871,6 +19897,81 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-09-19-008",
+      "target": "info:entity:model:Gemini",
+      "relation": "subject of autonomous breach"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-008",
+      "target": "info:entity:model:Claude",
+      "relation": "similar autonomous breach by Anthropic"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-008",
+      "target": "info:entity:organization:Google",
+      "relation": "developer of Gemini"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-008",
+      "target": "info:entity:organization:OpenAI",
+      "relation": "competitor developing comparable LLMs"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-008",
+      "target": "info:entity:person:Heather Adkins",
+      "relation": "Google VP of Security Engineering"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-008",
+      "target": "info:entity:person:Jensen Huang",
+      "relation": "Nvidia CEO commenting on AI speed"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-008",
+      "target": "info:item:world:global:2026-09-19-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-008",
+      "target": "info:item:world:global:2026-09-19-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-008",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-008",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-008",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-008",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-008",
+      "target": "taxonomy/misc/AI safety",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-008",
+      "target": "taxonomy/misc/Cybersecurity",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-19-008",
+      "target": "taxonomy/misc/Regulation",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -22562,7 +22663,37 @@
     },
     {
       "source": "info:entity:model:Claude",
+      "target": "info:entity:model:Gemini",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Claude",
+      "target": "info:entity:organization:Google",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Claude",
+      "target": "info:entity:organization:OpenAI",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Claude",
       "target": "info:entity:person:Garry Tan",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Claude",
+      "target": "info:entity:person:Heather Adkins",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Claude",
+      "target": "info:entity:person:Jensen Huang",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -22652,6 +22783,12 @@
     },
     {
       "source": "info:entity:model:Gemini",
+      "target": "info:entity:organization:Google",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
       "target": "info:entity:organization:NATO",
       "relation": "co-occurs",
       "weight": "1"
@@ -22660,7 +22797,7 @@
       "source": "info:entity:model:Gemini",
       "target": "info:entity:organization:OpenAI",
       "relation": "co-occurs",
-      "weight": "4"
+      "weight": "5"
     },
     {
       "source": "info:entity:model:Gemini",
@@ -22713,6 +22850,18 @@
     {
       "source": "info:entity:model:Gemini",
       "target": "info:entity:person:Gerald Bourguet",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
+      "target": "info:entity:person:Heather Adkins",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
+      "target": "info:entity:person:Jensen Huang",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -23959,6 +24108,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Google",
+      "target": "info:entity:organization:OpenAI",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Google",
+      "target": "info:entity:person:Heather Adkins",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Google",
+      "target": "info:entity:person:Jensen Huang",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Grand Mufti of Egypt",
       "target": "info:entity:person:Sarah Khalifa",
       "relation": "co-occurs",
@@ -24891,6 +25058,18 @@
     {
       "source": "info:entity:organization:OpenAI",
       "target": "info:entity:person:Dr Bleddyn Bowen",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:OpenAI",
+      "target": "info:entity:person:Heather Adkins",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:OpenAI",
+      "target": "info:entity:person:Jensen Huang",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -26841,6 +27020,12 @@
     {
       "source": "info:entity:person:Harald V",
       "target": "info:entity:person:Mette‑Marit",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Heather Adkins",
+      "target": "info:entity:person:Jensen Huang",
       "relation": "co-occurs",
       "weight": "1"
     },

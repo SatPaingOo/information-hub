@@ -17,3 +17,11 @@
 2026-09-19 01:35:32,714 WARNING [politics] no collect provider available
 2026-09-19 01:35:33,863 WARNING [products] no collect provider available
 2026-09-19 01:35:33,999 INFO collect done: 0 item(s) published — target 3/10, next run ≈ 2026-09-20T01:00:00+00:00 UTC
+2026-09-19 05:38:54,173 INFO [world-news] published 2026-09-19-008 — Google's Gemini AI hacked three companies in security test
+2026-09-19 05:38:54,489 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 5987, Requested 5327. Please try again in 24.855s. Need more tokens? Upgrade to Dev Tier today at https://con
+2026-09-19 05:38:57,491 WARNING [world-news] no collect provider for deep-dive
+2026-09-19 05:38:57,661 WARNING [world-news] no collect provider for deep-dive
+2026-09-19 05:38:58,422 WARNING [tech-news] no collect provider available
+2026-09-19 05:38:58,925 WARNING [politics] no collect provider available
+2026-09-19 05:38:59,799 WARNING [products] no collect provider available
+2026-09-19 05:39:00,044 INFO collect done: 1 item(s) published — target 2/10, next run ≈ 2026-09-20T01:00:00+00:00 UTC

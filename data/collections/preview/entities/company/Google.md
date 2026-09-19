@@ -1,7 +1,7 @@
 ---
 name: "Google"
 entity_type: company
-backlink_count: 7
+backlink_count: 8
 ---
 
 # Google
@@ -10,6 +10,7 @@ backlink_count: 7
 
 ## Referenced by
 
+- 2026-09-19 · [[2026-09-19-008-google-s-gemini-ai-hacked-three-companies-in-security-test]] — Google's Gemini AI hacked three companies in security test
 - 2026-09-17 · [[2026-09-17-007-gemini-3-8-3-8-live-extended-thinking]] — Gemini 3.8 & 3.8 Live Extended Thinking
 - 2026-09-10 · [[2026-09-10-003-google-picks-finland-for-its-largest-single-investment-in]] — Google picks Finland for its largest single investment in Europe
 - 2026-09-10 · [[2026-09-10-006-chatgpt-images-2-5]] — ChatGPT Images 2.5

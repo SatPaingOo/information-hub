@@ -1,7 +1,7 @@
 ---
 node: "industry"
 layer: category
-item_count: 142
+item_count: 143
 ---
 
 # industry
@@ -22,6 +22,7 @@ item_count: 142
 - 2026-09-19 · [[2026-09-19-001-us-and-denmark-reach-deal-over-greenland-after-trump]] — US and Denmark reach deal over Greenland after Trump annexation threats
 - 2026-09-19 · [[2026-09-19-002-russian-hybrid-attacks-against-europe-intensifying-says]] — Russian hybrid attacks against Europe intensifying, says Macron
 - 2026-09-19 · [[2026-09-19-003-trump-says-he-is-banning-cnn-and-politico-from-white-house]] — Trump says he is banning CNN and Politico from White House
+- 2026-09-19 · [[2026-09-19-008-google-s-gemini-ai-hacked-three-companies-in-security-test]] — Google's Gemini AI hacked three companies in security test
 - 2026-09-18 · [[2026-09-18-001-canada-welcomes-eu-proposal-to-become-associate-member]] — Canada welcomes EU proposal to become 'associate member'
 - 2026-09-18 · [[2026-09-18-001-canada-welcomes-eu-proposal-to-become-associate-member]] — Canada welcomes EU proposal to become 'associate member'
 - 2026-09-18 · [[2026-09-18-002-ninth-woman-s-body-found-as-south-african-police]] — Ninth woman's body found as South African police investigate string of deaths

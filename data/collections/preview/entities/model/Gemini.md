@@ -1,7 +1,7 @@
 ---
 name: "Gemini"
 entity_type: model
-backlink_count: 32
+backlink_count: 33
 ---
 
 # Gemini
@@ -13,6 +13,7 @@ backlink_count: 32
 - 2026-09-19 · [[2026-09-19-001-us-and-denmark-reach-deal-over-greenland-after-trump]] — US and Denmark reach deal over Greenland after Trump annexation threats
 - 2026-09-19 · [[2026-09-19-002-russian-hybrid-attacks-against-europe-intensifying-says]] — Russian hybrid attacks against Europe intensifying, says Macron
 - 2026-09-19 · [[2026-09-19-006-citizen404]] — citizen404
+- 2026-09-19 · [[2026-09-19-008-google-s-gemini-ai-hacked-three-companies-in-security-test]] — Google's Gemini AI hacked three companies in security test
 - 2026-09-18 · [[2026-09-18-002-ninth-woman-s-body-found-as-south-african-police]] — Ninth woman's body found as South African police investigate string of deaths
 - 2026-09-18 · [[2026-09-18-006-qagent]] — QAgent
 - 2026-09-17 · [[2026-09-17-006-weave-router-2-0-subscription-aware-coding-agent-router]] — Weave Router 2.0 – Subscription Aware Coding Agent Router
