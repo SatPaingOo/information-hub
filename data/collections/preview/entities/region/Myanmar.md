@@ -1,7 +1,7 @@
 ---
 name: "Myanmar"
 entity_type: region
-backlink_count: 11
+backlink_count: 13
 ---
 
 # Myanmar
@@ -10,6 +10,8 @@ backlink_count: 11
 
 ## Referenced by
 
+- 2026-09-20 · [[2026-09-20-006-voicecap]] — VoiceCap
+- 2026-09-20 · [[2026-09-20-007-doneit-3-2-reimagined-assist-siri-ai-support-and-agentic]] — Doneit 3.2 – Reimagined Assist, Siri AI Support, and Agentic Features
 - 2026-09-17 · [[2026-09-17-006-weave-router-2-0-subscription-aware-coding-agent-router]] — Weave Router 2.0 – Subscription Aware Coding Agent Router
 - 2026-09-17 · [[2026-09-17-007-gemini-3-8-3-8-live-extended-thinking]] — Gemini 3.8 & 3.8 Live Extended Thinking
 - 2026-09-16 · [[2026-09-16-006-buddy-ai-access-mcp]] — Buddy AI Access (MCP)

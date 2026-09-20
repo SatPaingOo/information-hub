@@ -1,7 +1,7 @@
 ---
 node: "products"
 layer: topic
-item_count: 35
+item_count: 37
 ---
 
 # products
@@ -16,6 +16,8 @@ item_count: 35
 
 ## Items
 
+- 2026-09-20 · [[2026-09-20-006-voicecap]] — VoiceCap
+- 2026-09-20 · [[2026-09-20-007-doneit-3-2-reimagined-assist-siri-ai-support-and-agentic]] — Doneit 3.2 – Reimagined Assist, Siri AI Support, and Agentic Features
 - 2026-09-19 · [[2026-09-19-006-citizen404]] — citizen404
 - 2026-09-19 · [[2026-09-19-007-sider-omni-sidebar-turning-every-mac-app-into-an-agent]] — Sider Omni Sidebar – Turning Every Mac App Into an Agent‑Powered Workspace
 - 2026-09-18 · [[2026-09-18-006-qagent]] — QAgent

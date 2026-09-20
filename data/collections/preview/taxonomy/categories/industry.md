@@ -1,7 +1,7 @@
 ---
 node: "industry"
 layer: category
-item_count: 145
+item_count: 149
 ---
 
 # industry
@@ -19,6 +19,10 @@ item_count: 145
 
 ## Items
 
+- 2026-09-20 · [[2026-09-20-001-ed-sheeran-admits-mistakes-as-he-addresses-macklemore]] — Ed Sheeran admits 'mistakes' as he addresses Macklemore controversy at Philadelphia show
+- 2026-09-20 · [[2026-09-20-002-houthis-say-they-targeted-saudi-capital-with-ballistic]] — Houthis say they targeted Saudi capital with ballistic missiles
+- 2026-09-20 · [[2026-09-20-003-our-head-teacher-was-an-abuser-we-joined-forces-to-get]] — Our head teacher was an abuser. We joined forces to get justice - now we're married
+- 2026-09-20 · [[2026-09-20-008-trump-says-us-will-form-ai-force-and-appoint-an-artificial]] — Trump says US will form 'AI Force' and appoint an artificial intelligence tsar
 - 2026-09-19 · [[2026-09-19-001-us-and-denmark-reach-deal-over-greenland-after-trump]] — US and Denmark reach deal over Greenland after Trump annexation threats
 - 2026-09-19 · [[2026-09-19-002-russian-hybrid-attacks-against-europe-intensifying-says]] — Russian hybrid attacks against Europe intensifying, says Macron
 - 2026-09-19 · [[2026-09-19-003-trump-says-he-is-banning-cnn-and-politico-from-white-house]] — Trump says he is banning CNN and Politico from White House

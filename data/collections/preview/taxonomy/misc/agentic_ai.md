@@ -1,7 +1,7 @@
 ---
 node: "Agentic AI"
 layer: misc
-item_count: 41
+item_count: 42
 ---
 
 # Agentic AI
@@ -17,6 +17,7 @@ item_count: 41
 
 ## Items
 
+- 2026-09-20 · [[2026-09-20-006-voicecap]] — VoiceCap
 - 2026-09-19 · [[2026-09-19-006-citizen404]] — citizen404
 - 2026-09-19 · [[2026-09-19-005-ex-labour-deputy-leader-tom-watson-joins-palantir]] — Ex-Labour deputy leader Tom Watson joins Palantir
 - 2026-09-18 · [[2026-09-18-006-qagent]] — QAgent

@@ -1,7 +1,7 @@
 ---
 name: "Kemi Badenoch"
 entity_type: person
-backlink_count: 8
+backlink_count: 10
 ---
 
 # Kemi Badenoch
@@ -10,6 +10,8 @@ backlink_count: 8
 
 ## Referenced by
 
+- 2026-09-20 · [[2026-09-20-004-davey-says-lib-dems-are-firewall-against-farage-as]] — Davey says Lib Dems are 'firewall against Farage' as conference begins
+- 2026-09-20 · [[2026-09-20-005-badenoch-says-she-is-instructing-lawyers-to-challenge]] — Badenoch says she is instructing lawyers to challenge government after Tory-run council's 94% tax hike
 - 2026-09-11 · [[2026-09-11-005-badenoch-denies-housing-benefit-cuts-plan-would-make]] — Badenoch denies housing benefit cuts plan would make people homeless
 - 2026-09-10 · [[2026-09-10-005-national-security-can-t-come-at-expense-of-social-security]] — National security can't come at expense of social security, Burnham says
 - 2026-09-03 · [[2026-09-03-004-burnham-pressed-on-economy-at-first-pmqs-as-borrowing]] — Burnham pressed on economy at first PMQs as borrowing costs surge

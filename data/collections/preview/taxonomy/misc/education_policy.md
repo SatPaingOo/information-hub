@@ -1,17 +1,19 @@
 ---
-node: "education policy"
+node: "Education Policy"
 layer: misc
-item_count: 1
+item_count: 2
 ---
 
-# education policy
+# Education Policy
 
 *Taxonomy layer: misc*
 
 ## Cross-layer relations
 
 - [[politics]] — *relates*
+- [[world]] — *relates*
 
 ## Items
 
+- 2026-09-20 · [[2026-09-20-003-our-head-teacher-was-an-abuser-we-joined-forces-to-get]] — Our head teacher was an abuser. We joined forces to get justice - now we're married
 - 2026-08-31 · [[2026-08-31-005-emergency-measures-needed-to-stop-teachers-quitting-say]] — Emergency measures needed to stop teachers quitting, say Lib Dems

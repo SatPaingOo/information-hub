@@ -1,0 +1,13 @@
+---
+name: "Ahmad Imanuddin Sumar"
+entity_type: person
+backlink_count: 1
+---
+
+# Ahmad Imanuddin Sumar
+
+*Type: person*
+
+## Referenced by
+
+- 2026-09-20 · [[2026-09-20-003-our-head-teacher-was-an-abuser-we-joined-forces-to-get]] — Our head teacher was an abuser. We joined forces to get justice - now we're married

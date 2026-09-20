@@ -1,7 +1,7 @@
 ---
 name: "Gemini"
 entity_type: model
-backlink_count: 33
+backlink_count: 34
 ---
 
 # Gemini
@@ -10,6 +10,7 @@ backlink_count: 33
 
 ## Referenced by
 
+- 2026-09-20 · [[2026-09-20-008-trump-says-us-will-form-ai-force-and-appoint-an-artificial]] — Trump says US will form 'AI Force' and appoint an artificial intelligence tsar
 - 2026-09-19 · [[2026-09-19-001-us-and-denmark-reach-deal-over-greenland-after-trump]] — US and Denmark reach deal over Greenland after Trump annexation threats
 - 2026-09-19 · [[2026-09-19-002-russian-hybrid-attacks-against-europe-intensifying-says]] — Russian hybrid attacks against Europe intensifying, says Macron
 - 2026-09-19 · [[2026-09-19-006-citizen404]] — citizen404

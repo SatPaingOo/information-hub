@@ -1,7 +1,7 @@
 ---
 node: "Myanmar"
 layer: misc
-item_count: 6
+item_count: 7
 ---
 
 # Myanmar
@@ -16,6 +16,7 @@ item_count: 6
 
 ## Items
 
+- 2026-09-20 · [[2026-09-20-006-voicecap]] — VoiceCap
 - 2026-09-04 · [[2026-09-04-006-grove]] — Grove
 - 2026-09-02 · [[2026-09-02-004-chris-mason-will-burnham-find-pmqs-as-nail-biting-and]] — Chris Mason: Will Burnham find PMQs as 'nail biting' and 'nerve wracking' as Blair did?
 - 2026-09-01 · [[2026-09-01-006-interactive-sessions]] — Interactive Sessions

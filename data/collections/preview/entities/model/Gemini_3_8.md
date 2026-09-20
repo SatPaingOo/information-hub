@@ -1,7 +1,7 @@
 ---
 name: "Gemini 3.8"
 entity_type: model
-backlink_count: 1
+backlink_count: 2
 ---
 
 # Gemini 3.8
@@ -10,4 +10,5 @@ backlink_count: 1
 
 ## Referenced by
 
+- 2026-09-20 · [[2026-09-20-006-voicecap]] — VoiceCap
 - 2026-09-17 · [[2026-09-17-007-gemini-3-8-3-8-live-extended-thinking]] — Gemini 3.8 & 3.8 Live Extended Thinking

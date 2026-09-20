@@ -1,7 +1,7 @@
 ---
 name: "Anthropic"
 entity_type: company
-backlink_count: 44
+backlink_count: 45
 ---
 
 # Anthropic
@@ -10,6 +10,7 @@ backlink_count: 44
 
 ## Referenced by
 
+- 2026-09-20 · [[2026-09-20-008-trump-says-us-will-form-ai-force-and-appoint-an-artificial]] — Trump says US will form 'AI Force' and appoint an artificial intelligence tsar
 - 2026-09-19 · [[2026-09-19-007-sider-omni-sidebar-turning-every-mac-app-into-an-agent]] — Sider Omni Sidebar – Turning Every Mac App Into an Agent‑Powered Workspace
 - 2026-09-18 · [[2026-09-18-002-ninth-woman-s-body-found-as-south-african-police]] — Ninth woman's body found as South African police investigate string of deaths
 - 2026-09-17 · [[2026-09-17-006-weave-router-2-0-subscription-aware-coding-agent-router]] — Weave Router 2.0 – Subscription Aware Coding Agent Router

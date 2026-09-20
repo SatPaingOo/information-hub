@@ -1,7 +1,7 @@
 ---
 name: "Donald Trump"
 entity_type: person
-backlink_count: 38
+backlink_count: 39
 ---
 
 # Donald Trump
@@ -10,6 +10,7 @@ backlink_count: 38
 
 ## Referenced by
 
+- 2026-09-20 · [[2026-09-20-008-trump-says-us-will-form-ai-force-and-appoint-an-artificial]] — Trump says US will form 'AI Force' and appoint an artificial intelligence tsar
 - 2026-09-19 · [[2026-09-19-001-us-and-denmark-reach-deal-over-greenland-after-trump]] — US and Denmark reach deal over Greenland after Trump annexation threats
 - 2026-09-19 · [[2026-09-19-003-trump-says-he-is-banning-cnn-and-politico-from-white-house]] — Trump says he is banning CNN and Politico from White House
 - 2026-09-19 · [[2026-09-19-009-trump-signs-sweeping-russia-sanctions-bill]] — Trump signs sweeping Russia sanctions bill

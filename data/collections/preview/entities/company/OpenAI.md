@@ -1,7 +1,7 @@
 ---
 name: "OpenAI"
 entity_type: company
-backlink_count: 64
+backlink_count: 67
 ---
 
 # OpenAI
@@ -10,6 +10,9 @@ backlink_count: 64
 
 ## Referenced by
 
+- 2026-09-20 · [[2026-09-20-003-our-head-teacher-was-an-abuser-we-joined-forces-to-get]] — Our head teacher was an abuser. We joined forces to get justice - now we're married
+- 2026-09-20 · [[2026-09-20-006-voicecap]] — VoiceCap
+- 2026-09-20 · [[2026-09-20-008-trump-says-us-will-form-ai-force-and-appoint-an-artificial]] — Trump says US will form 'AI Force' and appoint an artificial intelligence tsar
 - 2026-09-19 · [[2026-09-19-001-us-and-denmark-reach-deal-over-greenland-after-trump]] — US and Denmark reach deal over Greenland after Trump annexation threats
 - 2026-09-19 · [[2026-09-19-002-russian-hybrid-attacks-against-europe-intensifying-says]] — Russian hybrid attacks against Europe intensifying, says Macron
 - 2026-09-19 · [[2026-09-19-006-citizen404]] — citizen404

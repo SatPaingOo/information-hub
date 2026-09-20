@@ -1,7 +1,7 @@
 ---
 name: "Labour Party"
 entity_type: organization
-backlink_count: 7
+backlink_count: 8
 ---
 
 # Labour Party
@@ -10,6 +10,7 @@ backlink_count: 7
 
 ## Referenced by
 
+- 2026-09-20 · [[2026-09-20-005-badenoch-says-she-is-instructing-lawyers-to-challenge]] — Badenoch says she is instructing lawyers to challenge government after Tory-run council's 94% tax hike
 - 2026-09-19 · [[2026-09-19-005-ex-labour-deputy-leader-tom-watson-joins-palantir]] — Ex-Labour deputy leader Tom Watson joins Palantir
 - 2026-09-17 · [[2026-09-17-004-burnham-rejects-tax-and-spend-socialist-comments]] — Burnham rejects 'tax and spend socialist' comments
 - 2026-09-14 · [[2026-09-14-007-will-record-donations-to-reform-go-down-as-a-moment-of]] — Will record donations to Reform go down as a moment of political change?

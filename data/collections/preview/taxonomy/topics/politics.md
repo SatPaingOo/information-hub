@@ -1,7 +1,7 @@
 ---
 node: "politics"
 layer: topic
-item_count: 66
+item_count: 69
 ---
 
 # politics
@@ -17,6 +17,9 @@ item_count: 66
 
 ## Items
 
+- 2026-09-20 · [[2026-09-20-004-davey-says-lib-dems-are-firewall-against-farage-as]] — Davey says Lib Dems are 'firewall against Farage' as conference begins
+- 2026-09-20 · [[2026-09-20-004-davey-says-lib-dems-are-firewall-against-farage-as]] — Davey says Lib Dems are 'firewall against Farage' as conference begins
+- 2026-09-20 · [[2026-09-20-005-badenoch-says-she-is-instructing-lawyers-to-challenge]] — Badenoch says she is instructing lawyers to challenge government after Tory-run council's 94% tax hike
 - 2026-09-19 · [[2026-09-19-004-ireland-s-relationship-with-uk-under-burnham-off-to-very]] — Ireland's relationship with UK under Burnham off to 'very good start'
 - 2026-09-19 · [[2026-09-19-005-ex-labour-deputy-leader-tom-watson-joins-palantir]] — Ex-Labour deputy leader Tom Watson joins Palantir
 - 2026-09-18 · [[2026-09-18-004-uk-needs-credible-path-on-defence-spending-says-nato-chief]] — UK needs 'credible path' on defence spending, says Nato chief

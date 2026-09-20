@@ -1,7 +1,7 @@
 ---
 name: "Nigel Farage"
 entity_type: person
-backlink_count: 11
+backlink_count: 12
 ---
 
 # Nigel Farage
@@ -10,6 +10,7 @@ backlink_count: 11
 
 ## Referenced by
 
+- 2026-09-20 · [[2026-09-20-004-davey-says-lib-dems-are-firewall-against-farage-as]] — Davey says Lib Dems are 'firewall against Farage' as conference begins
 - 2026-09-16 · [[2026-09-16-005-dan-thomas-resigns-as-reform-wales-leader-after-arrest-on]] — Dan Thomas resigns as Reform Wales leader after arrest on suspicion of assault
 - 2026-09-13 · [[2026-09-13-006-reform-receives-second-36m-donation-in-two-days-as-crypto]] — Reform receives second £36m donation in two days as crypto investor matches record
 - 2026-09-11 · [[2026-09-11-004-labour-mayors-in-england-vow-to-cap-tourist-tax-at-5]] — Labour mayors in England vow to cap tourist tax at 5%

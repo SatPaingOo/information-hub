@@ -1,7 +1,7 @@
 ---
 node: "Geopolitics"
 layer: misc
-item_count: 13
+item_count: 14
 ---
 
 # Geopolitics
@@ -15,6 +15,7 @@ item_count: 13
 
 ## Items
 
+- 2026-09-20 · [[2026-09-20-008-trump-says-us-will-form-ai-force-and-appoint-an-artificial]] — Trump says US will form 'AI Force' and appoint an artificial intelligence tsar
 - 2026-09-12 · [[2026-09-12-007-saudi-arabia-shuts-key-oil-pipeline-after-drone-attack]] — Saudi Arabia shuts key oil pipeline after drone attack launched from Iraq
 - 2026-09-11 · [[2026-09-11-007-five-killed-and-67-injured-in-russian-strike-on-shopping]] — Five killed and 67 injured in Russian strike on shopping centre, Ukraine says
 - 2026-09-06 · [[2026-09-06-009-volcano-eruption-triggers-flight-suspensions-at-indonesia]] — Volcano eruption triggers flight suspensions at Indonesia's main airport
