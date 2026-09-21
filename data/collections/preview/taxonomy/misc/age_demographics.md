@@ -1,10 +1,10 @@
 ---
-node: "tourism policy"
+node: "age demographics"
 layer: misc
-item_count: 2
+item_count: 1
 ---
 
-# tourism policy
+# age demographics
 
 *Taxonomy layer: misc*
 
@@ -15,4 +15,3 @@ item_count: 2
 ## Items
 
 - 2026-09-21 · [[2026-09-21-008-man-82-dies-after-beach-fight-with-76-year-old-over]] — Man, 82, dies after beach fight with 76‑year‑old over sunlounger in Greece
-- 2026-08-25 · [[2026-08-25-006-french-tourist-dies-in-death-valley-after-car-gets-stuck]] — French tourist dies in Death Valley after car gets stuck in mud

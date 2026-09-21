@@ -1,7 +1,7 @@
 ---
 node: "Policy"
 layer: misc
-item_count: 188
+item_count: 189
 ---
 
 # Policy
@@ -21,6 +21,7 @@ item_count: 188
 - 2026-09-21 · [[2026-09-21-003-trump-says-triumphal-arch-will-be-military-complex-with]] — Trump says triumphal arch will be military complex with drones and snipers
 - 2026-09-21 · [[2026-09-21-004-ed-davey-calls-for-immediate-10p-cut-to-fuel-duty]] — Ed Davey calls for immediate 10p cut to fuel duty
 - 2026-09-21 · [[2026-09-21-005-lib-dems-sleepwalking-to-irrelevance-under-davey-says]] — Lib Dems sleepwalking to irrelevance under Davey, says council leader
+- 2026-09-21 · [[2026-09-21-008-man-82-dies-after-beach-fight-with-76-year-old-over]] — Man, 82, dies after beach fight with 76‑year‑old over sunlounger in Greece
 - 2026-09-20 · [[2026-09-20-001-ed-sheeran-admits-mistakes-as-he-addresses-macklemore]] — Ed Sheeran admits 'mistakes' as he addresses Macklemore controversy at Philadelphia show
 - 2026-09-20 · [[2026-09-20-002-houthis-say-they-targeted-saudi-capital-with-ballistic]] — Houthis say they targeted Saudi capital with ballistic missiles
 - 2026-09-20 · [[2026-09-20-003-our-head-teacher-was-an-abuser-we-joined-forces-to-get]] — Our head teacher was an abuser. We joined forces to get justice - now we're married

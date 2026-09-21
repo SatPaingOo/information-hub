@@ -18,3 +18,11 @@
 2026-09-21 01:37:57,040 WARNING [politics] no collect provider available
 2026-09-21 01:37:58,244 WARNING [products] no collect provider available
 2026-09-21 01:37:58,429 INFO collect done: 0 item(s) published — target 3/10, next run ≈ 2026-09-22T01:00:00+00:00 UTC
+2026-09-21 06:03:33,298 INFO [world-news] published 2026-09-21-008 — Man, 82, dies after beach fight with 76‑year‑old over sunlou
+2026-09-21 06:03:33,494 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6009, Requested 4357. Please try again in 17.745s. Need more tokens? Upgrade to Dev Tier today at https://con
+2026-09-21 06:03:36,496 WARNING [world-news] no collect provider for deep-dive
+2026-09-21 06:03:36,588 WARNING [world-news] no collect provider for deep-dive
+2026-09-21 06:03:36,982 WARNING [tech-news] no collect provider available
+2026-09-21 06:03:37,487 WARNING [politics] no collect provider available
+2026-09-21 06:03:38,176 WARNING [products] no collect provider available
+2026-09-21 06:03:38,430 INFO collect done: 1 item(s) published — target 2/10, next run ≈ 2026-09-22T01:00:00+00:00 UTC

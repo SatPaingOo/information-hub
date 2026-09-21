@@ -5295,6 +5295,37 @@
       "name": "Open‑source Software"
     },
     {
+      "id": "info:item:world:global:2026-09-21-008",
+      "type": "item",
+      "date": "2026-09-21",
+      "title": "Man, 82, dies after beach fight with 76‑year‑old over sunlounger in Greece"
+    },
+    {
+      "id": "info:entity:person:Unnamed 82‑year‑old victim",
+      "type": "person",
+      "name": "Unnamed 82‑year‑old victim"
+    },
+    {
+      "id": "info:entity:person:Unnamed 76‑year‑old suspect",
+      "type": "person",
+      "name": "Unnamed 76‑year‑old suspect"
+    },
+    {
+      "id": "info:entity:organization:Greek Police",
+      "type": "organization",
+      "name": "Greek Police"
+    },
+    {
+      "id": "info:entity:organization:Kathimerini",
+      "type": "organization",
+      "name": "Kathimerini"
+    },
+    {
+      "id": "taxonomy/misc/age demographics",
+      "type": "taxonomy",
+      "name": "age demographics"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -21324,6 +21355,71 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-09-21-008",
+      "target": "info:entity:person:Unnamed 82‑year‑old victim",
+      "relation": "deceased"
+    },
+    {
+      "source": "info:item:world:global:2026-09-21-008",
+      "target": "info:entity:person:Unnamed 76‑year‑old suspect",
+      "relation": "arrested"
+    },
+    {
+      "source": "info:item:world:global:2026-09-21-008",
+      "target": "info:entity:organization:Greek Police",
+      "relation": "investigating"
+    },
+    {
+      "source": "info:item:world:global:2026-09-21-008",
+      "target": "info:entity:organization:Kathimerini",
+      "relation": "reported eyewitness accounts"
+    },
+    {
+      "source": "info:item:world:global:2026-09-21-008",
+      "target": "info:item:world:global:2026-09-21-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-21-008",
+      "target": "info:item:world:global:2026-09-21-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-21-008",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-21-008",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-21-008",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-21-008",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-21-008",
+      "target": "taxonomy/misc/public safety",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-21-008",
+      "target": "taxonomy/misc/tourism policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-21-008",
+      "target": "taxonomy/misc/age demographics",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -25814,6 +25910,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Greek Police",
+      "target": "info:entity:organization:Kathimerini",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Greek Police",
+      "target": "info:entity:person:Unnamed 76‑year‑old suspect",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Greek Police",
+      "target": "info:entity:person:Unnamed 82‑year‑old victim",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Green Climate Fund",
       "target": "info:entity:organization:United Nations Office for the Coordination of Humanitarian Affairs",
       "relation": "co-occurs",
@@ -26272,6 +26386,18 @@
     {
       "source": "info:entity:organization:Jaguar Land Rover",
       "target": "info:entity:person:Rachel Reeves",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Kathimerini",
+      "target": "info:entity:person:Unnamed 76‑year‑old suspect",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Kathimerini",
+      "target": "info:entity:person:Unnamed 82‑year‑old victim",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -29302,6 +29428,12 @@
     {
       "source": "info:entity:person:Tom Barrack",
       "target": "info:entity:region:Middle East",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Unnamed 76‑year‑old suspect",
+      "target": "info:entity:person:Unnamed 82‑year‑old victim",
       "relation": "co-occurs",
       "weight": "1"
     },
