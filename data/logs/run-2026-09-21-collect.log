@@ -1,0 +1,20 @@
+2026-09-21 01:34:22,550 INFO [world-news] published 2026-09-21-001 — German Chancellor Merz calls state election a 'disaster' for
+2026-09-21 01:34:49,868 INFO [world-news] published 2026-09-21-002 — Largest attack on Moscow sees Ukraine fire hundreds of drone
+2026-09-21 01:35:25,332 INFO [world-news] published 2026-09-21-003 — Trump says triumphal arch will be military complex with dron
+2026-09-21 01:35:32,460 INFO [tech-news] nothing selected
+2026-09-21 01:36:12,959 INFO [politics] published 2026-09-21-004 — Ed Davey calls for immediate 10p cut to fuel duty
+2026-09-21 01:36:39,056 INFO [politics] published 2026-09-21-005 — Lib Dems sleepwalking to irrelevance under Davey, says counc
+2026-09-21 01:37:19,066 ERROR [products] generate error: empty model content
+2026-09-21 01:37:37,588 INFO [products] published 2026-09-21-006 — Answers by Context.dev
+2026-09-21 01:37:41,363 INFO [products] published 2026-09-21-007 — Epismo OS – A Unified Workspace for Switching AI Tools
+2026-09-21 01:37:41,555 INFO collect done: 7 item(s) published — target 3/10, next run ≈ 2026-09-21T01:52:41+00:00 UTC
+2026-09-21 01:37:44,367 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 5191, Requested 4072. Please try again in 9.4725s. Need more tokens? Upgrade to Dev Tier today at https://con
+2026-09-21 01:37:50,201 ERROR [world-news] generate error: HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
+
+2026-09-21 01:37:56,203 WARNING [world-news] no collect provider for deep-dive
+2026-09-21 01:37:56,292 WARNING [world-news] no collect provider for deep-dive
+2026-09-21 01:37:56,365 WARNING [world-news] no collect provider for deep-dive
+2026-09-21 01:37:56,674 WARNING [tech-news] no collect provider available
+2026-09-21 01:37:57,040 WARNING [politics] no collect provider available
+2026-09-21 01:37:58,244 WARNING [products] no collect provider available
+2026-09-21 01:37:58,429 INFO collect done: 0 item(s) published — target 3/10, next run ≈ 2026-09-22T01:00:00+00:00 UTC

@@ -1,7 +1,7 @@
 ---
 name: "Agentic AI"
 entity_type: concept
-backlink_count: 22
+backlink_count: 23
 ---
 
 # Agentic AI
@@ -10,6 +10,7 @@ backlink_count: 22
 
 ## Referenced by
 
+- 2026-09-21 · [[2026-09-21-006-answers-by-context-dev]] — Answers by Context.dev
 - 2026-09-20 · [[2026-09-20-007-doneit-3-2-reimagined-assist-siri-ai-support-and-agentic]] — Doneit 3.2 – Reimagined Assist, Siri AI Support, and Agentic Features
 - 2026-09-19 · [[2026-09-19-006-citizen404]] — citizen404
 - 2026-09-19 · [[2026-09-19-007-sider-omni-sidebar-turning-every-mac-app-into-an-agent]] — Sider Omni Sidebar – Turning Every Mac App Into an Agent‑Powered Workspace

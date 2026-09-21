@@ -1,7 +1,7 @@
 ---
 node: "Energy Security"
 layer: misc
-item_count: 5
+item_count: 6
 ---
 
 # Energy Security
@@ -16,6 +16,7 @@ item_count: 5
 
 ## Items
 
+- 2026-09-21 · [[2026-09-21-002-largest-attack-on-moscow-sees-ukraine-fire-hundreds-of]] — Largest attack on Moscow sees Ukraine fire hundreds of drones, mayor says
 - 2026-09-20 · [[2026-09-20-002-houthis-say-they-targeted-saudi-capital-with-ballistic]] — Houthis say they targeted Saudi capital with ballistic missiles
 - 2026-09-18 · [[2026-09-18-007-us-to-allow-iran-delegation-to-attend-un-meetings-in-new]] — US to allow Iran delegation to attend UN meetings in New York as war passes half-year mark
 - 2026-09-06 · [[2026-09-06-002-us-and-iran-trade-retaliatory-attacks-on-ships-as-conflict]] — US and Iran trade retaliatory attacks on ships as conflict flares

@@ -1,7 +1,7 @@
 ---
 node: "industry"
 layer: category
-item_count: 149
+item_count: 153
 ---
 
 # industry
@@ -19,6 +19,10 @@ item_count: 149
 
 ## Items
 
+- 2026-09-21 · [[2026-09-21-001-german-chancellor-merz-calls-state-election-a-disaster-for]] — German Chancellor Merz calls state election a 'disaster' for his party but vows to stay on
+- 2026-09-21 · [[2026-09-21-002-largest-attack-on-moscow-sees-ukraine-fire-hundreds-of]] — Largest attack on Moscow sees Ukraine fire hundreds of drones, mayor says
+- 2026-09-21 · [[2026-09-21-003-trump-says-triumphal-arch-will-be-military-complex-with]] — Trump says triumphal arch will be military complex with drones and snipers
+- 2026-09-21 · [[2026-09-21-003-trump-says-triumphal-arch-will-be-military-complex-with]] — Trump says triumphal arch will be military complex with drones and snipers
 - 2026-09-20 · [[2026-09-20-001-ed-sheeran-admits-mistakes-as-he-addresses-macklemore]] — Ed Sheeran admits 'mistakes' as he addresses Macklemore controversy at Philadelphia show
 - 2026-09-20 · [[2026-09-20-002-houthis-say-they-targeted-saudi-capital-with-ballistic]] — Houthis say they targeted Saudi capital with ballistic missiles
 - 2026-09-20 · [[2026-09-20-003-our-head-teacher-was-an-abuser-we-joined-forces-to-get]] — Our head teacher was an abuser. We joined forces to get justice - now we're married

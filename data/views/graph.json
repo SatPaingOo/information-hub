@@ -5198,6 +5198,103 @@
       "name": "Technology Policy"
     },
     {
+      "id": "info:item:world:global:2026-09-21-001",
+      "type": "item",
+      "date": "2026-09-21",
+      "title": "German Chancellor Merz calls state election a 'disaster' for his party but vows to stay on"
+    },
+    {
+      "id": "info:entity:person:Alice Weidel",
+      "type": "person",
+      "name": "Alice Weidel"
+    },
+    {
+      "id": "taxonomy/misc/elections",
+      "type": "taxonomy",
+      "name": "elections"
+    },
+    {
+      "id": "taxonomy/misc/Germany",
+      "type": "taxonomy",
+      "name": "Germany"
+    },
+    {
+      "id": "info:item:world:global:2026-09-21-002",
+      "type": "item",
+      "date": "2026-09-21",
+      "title": "Largest attack on Moscow sees Ukraine fire hundreds of drones, mayor says"
+    },
+    {
+      "id": "taxonomy/misc/drone technology",
+      "type": "taxonomy",
+      "name": "drone technology"
+    },
+    {
+      "id": "info:item:world:global:2026-09-21-003",
+      "type": "item",
+      "date": "2026-09-21",
+      "title": "Trump says triumphal arch will be military complex with drones and snipers"
+    },
+    {
+      "id": "info:item:politics:global:2026-09-21-004",
+      "type": "item",
+      "date": "2026-09-21",
+      "title": "Ed Davey calls for immediate 10p cut to fuel duty"
+    },
+    {
+      "id": "info:item:politics:global:2026-09-21-005",
+      "type": "item",
+      "date": "2026-09-21",
+      "title": "Lib Dems sleepwalking to irrelevance under Davey, says council leader"
+    },
+    {
+      "id": "info:entity:person:Julian Brazil",
+      "type": "person",
+      "name": "Julian Brazil"
+    },
+    {
+      "id": "info:item:products:global:2026-09-21-006",
+      "type": "item",
+      "date": "2026-09-21",
+      "title": "Answers by Context.dev"
+    },
+    {
+      "id": "info:entity:product:Context.dev",
+      "type": "product",
+      "name": "Context.dev"
+    },
+    {
+      "id": "info:entity:model:OpenAI GPT-4",
+      "type": "model",
+      "name": "OpenAI GPT-4"
+    },
+    {
+      "id": "taxonomy/misc/Large Language Models",
+      "type": "taxonomy",
+      "name": "Large Language Models"
+    },
+    {
+      "id": "info:item:products:global:2026-09-21-007",
+      "type": "item",
+      "date": "2026-09-21",
+      "title": "Epismo OS – A Unified Workspace for Switching AI Tools"
+    },
+    {
+      "id": "info:entity:company:Epismo",
+      "type": "company",
+      "name": "Epismo"
+    },
+    {
+      "id": "taxonomy/misc/AI Platforms",
+      "type": "taxonomy",
+      "name": "AI Platforms"
+    },
+    {
+      "id": "taxonomy/misc/Open‑source Software",
+      "type": "taxonomy",
+      "name": "Open‑source Software"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -20812,6 +20909,421 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-09-21-001",
+      "target": "info:entity:person:Friedrich Merz",
+      "relation": "Chancellor of Germany and CDU leader"
+    },
+    {
+      "source": "info:item:world:global:2026-09-21-001",
+      "target": "info:entity:organization:Christian Democratic Union (CDU)",
+      "relation": "Merz's party, governing coalition member"
+    },
+    {
+      "source": "info:item:world:global:2026-09-21-001",
+      "target": "info:entity:organization:Alternative for Germany (AfD)",
+      "relation": "Opposition party, gaining electoral support"
+    },
+    {
+      "source": "info:item:world:global:2026-09-21-001",
+      "target": "info:entity:person:Alice Weidel",
+      "relation": "AfD national co‑leader"
+    },
+    {
+      "source": "info:item:world:global:2026-09-21-001",
+      "target": "info:item:world:global:2026-09-20-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-21-001",
+      "target": "info:item:world:global:2026-09-20-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-21-001",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-21-001",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-21-001",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-21-001",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-21-001",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-21-001",
+      "target": "taxonomy/misc/elections",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-21-001",
+      "target": "taxonomy/misc/Germany",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-21-002",
+      "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "President of Ukraine, confirmed the strike on Russian oil infrastructure."
+    },
+    {
+      "source": "info:item:world:global:2026-09-21-002",
+      "target": "info:entity:model:Gemini",
+      "relation": "AI model referenced in analysis of autonomous drone targeting capabilities."
+    },
+    {
+      "source": "info:item:world:global:2026-09-21-002",
+      "target": "info:entity:organization:Ukrainian Armed Forces",
+      "relation": "Executed the drone attack on Moscow region."
+    },
+    {
+      "source": "info:item:world:global:2026-09-21-002",
+      "target": "info:item:world:global:2026-09-21-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-21-002",
+      "target": "info:item:world:global:2026-09-20-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-21-002",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-21-002",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-21-002",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-21-002",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-21-002",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-21-002",
+      "target": "taxonomy/misc/energy security",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-21-002",
+      "target": "taxonomy/misc/drone technology",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-21-003",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "proposes and announces the militarized triumphal arch"
+    },
+    {
+      "source": "info:item:world:global:2026-09-21-003",
+      "target": "info:entity:organization:U.S. Department of Defense",
+      "relation": "declines comment and oversees military integration"
+    },
+    {
+      "source": "info:item:world:global:2026-09-21-003",
+      "target": "info:item:world:global:2026-09-21-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-21-003",
+      "target": "info:item:world:global:2026-09-21-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-21-003",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-21-003",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-21-003",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-21-003",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-21-003",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-21-003",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-21-003",
+      "target": "taxonomy/category/industry",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-21-004",
+      "target": "info:entity:person:Ed Davey",
+      "relation": "proposes fuel duty cut and related transport policies"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-21-004",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "cited as cause of rising fuel prices"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-21-004",
+      "target": "info:entity:person:John Healey",
+      "relation": "Chancellor responsible for budget decisions and funding the cut"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-21-004",
+      "target": "info:entity:person:Keir Starmer",
+      "relation": "Prime Minister whose government continues fuel duty freeze"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-21-004",
+      "target": "info:item:politics:global:2026-09-20-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-21-004",
+      "target": "info:item:politics:global:2026-09-20-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-21-004",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-21-004",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-21-004",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-21-004",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-21-004",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-21-004",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-21-005",
+      "target": "info:entity:person:Ed Davey",
+      "relation": "leader of the Liberal Democrats"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-21-005",
+      "target": "info:entity:person:Julian Brazil",
+      "relation": "Devon County Council leader and critic"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-21-005",
+      "target": "info:entity:organization:Liberal Democrats",
+      "relation": "political party under scrutiny"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-21-005",
+      "target": "info:entity:organization:Reform UK",
+      "relation": "political competitor"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-21-005",
+      "target": "info:item:politics:global:2026-09-21-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-21-005",
+      "target": "info:item:politics:global:2026-09-20-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-21-005",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-21-005",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-21-005",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-21-005",
+      "target": "taxonomy/topic/politics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-21-005",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-21-005",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-09-21-006",
+      "target": "info:entity:product:Context.dev",
+      "relation": "primary product"
+    },
+    {
+      "source": "info:item:products:global:2026-09-21-006",
+      "target": "info:entity:model:OpenAI GPT-4",
+      "relation": "underlying technology"
+    },
+    {
+      "source": "info:item:products:global:2026-09-21-006",
+      "target": "info:entity:model:Anthropic Claude",
+      "relation": "comparative reference"
+    },
+    {
+      "source": "info:item:products:global:2026-09-21-006",
+      "target": "info:entity:concept:Agentic AI",
+      "relation": "core capability"
+    },
+    {
+      "source": "info:item:products:global:2026-09-21-006",
+      "target": "info:entity:concept:Retrieval-Augmented Generation",
+      "relation": "technical foundation"
+    },
+    {
+      "source": "info:item:products:global:2026-09-21-006",
+      "target": "info:item:products:global:2026-09-20-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-09-21-006",
+      "target": "info:item:products:global:2026-09-20-007",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-09-21-006",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-09-21-006",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-09-21-006",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-09-21-006",
+      "target": "taxonomy/misc/Agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-09-21-006",
+      "target": "taxonomy/misc/Large Language Models",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-09-21-006",
+      "target": "taxonomy/misc/Data Governance",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-09-21-007",
+      "target": "info:entity:company:Epismo",
+      "relation": "developer of the OS"
+    },
+    {
+      "source": "info:item:products:global:2026-09-21-007",
+      "target": "info:entity:model:Google Gemini 1.5",
+      "relation": "supported LLM"
+    },
+    {
+      "source": "info:item:products:global:2026-09-21-007",
+      "target": "info:item:products:global:2026-09-20-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-09-21-007",
+      "target": "info:item:products:global:2026-09-20-007",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-09-21-007",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-09-21-007",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-09-21-007",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-09-21-007",
+      "target": "taxonomy/misc/AI Platforms",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-09-21-007",
+      "target": "taxonomy/misc/Data Governance",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-09-21-007",
+      "target": "taxonomy/misc/Open‑source Software",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -21506,6 +22018,12 @@
     {
       "source": "info:entity:company:Doneit",
       "target": "info:entity:region:Myanmar",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Epismo",
+      "target": "info:entity:model:Google Gemini 1.5",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -22743,7 +23261,7 @@
       "source": "info:entity:concept:Agentic AI",
       "target": "info:entity:concept:Retrieval-Augmented Generation",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:concept:Agentic AI",
@@ -22755,7 +23273,7 @@
       "source": "info:entity:concept:Agentic AI",
       "target": "info:entity:model:Anthropic Claude",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:concept:Agentic AI",
@@ -22796,6 +23314,12 @@
     {
       "source": "info:entity:concept:Agentic AI",
       "target": "info:entity:model:Google Gemini 3.8",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Agentic AI",
+      "target": "info:entity:model:OpenAI GPT-4",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -22844,6 +23368,12 @@
     {
       "source": "info:entity:concept:Agentic AI",
       "target": "info:entity:product:Clockwork",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Agentic AI",
+      "target": "info:entity:product:Context.dev",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -23222,6 +23752,24 @@
     {
       "source": "info:entity:concept:Principal Component Analysis",
       "target": "info:entity:region:global",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Retrieval-Augmented Generation",
+      "target": "info:entity:model:Anthropic Claude",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Retrieval-Augmented Generation",
+      "target": "info:entity:model:OpenAI GPT-4",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Retrieval-Augmented Generation",
+      "target": "info:entity:product:Context.dev",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -23641,6 +24189,12 @@
     },
     {
       "source": "info:entity:model:Anthropic Claude",
+      "target": "info:entity:model:OpenAI GPT-4",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Anthropic Claude",
       "target": "info:entity:model:OpenAI GPT‑4",
       "relation": "co-occurs",
       "weight": "2"
@@ -23650,6 +24204,12 @@
       "target": "info:entity:model:OpenAI GPT‑4‑Turbo",
       "relation": "co-occurs",
       "weight": "2"
+    },
+    {
+      "source": "info:entity:model:Anthropic Claude",
+      "target": "info:entity:product:Context.dev",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:model:Anthropic Claude",
@@ -23803,6 +24363,12 @@
     },
     {
       "source": "info:entity:model:Gemini",
+      "target": "info:entity:organization:Ukrainian Armed Forces",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
       "target": "info:entity:organization:World Meteorological Organization (WMO)",
       "relation": "co-occurs",
       "weight": "1"
@@ -23923,6 +24489,12 @@
     },
     {
       "source": "info:entity:model:Gemini",
+      "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
       "target": "info:entity:product:Checksum AI",
       "relation": "co-occurs",
       "weight": "1"
@@ -24036,6 +24608,12 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:model:OpenAI GPT-4",
+      "target": "info:entity:product:Context.dev",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:model:OpenAI GPT-4-Turbo",
       "target": "info:entity:region:Myanmar",
       "relation": "co-occurs",
@@ -24081,7 +24659,7 @@
       "source": "info:entity:organization:Alternative for Germany (AfD)",
       "target": "info:entity:organization:Christian Democratic Union (CDU)",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Alternative for Germany (AfD)",
@@ -24092,6 +24670,12 @@
     {
       "source": "info:entity:organization:Alternative for Germany (AfD)",
       "target": "info:entity:organization:Reform UK",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Alternative for Germany (AfD)",
+      "target": "info:entity:person:Alice Weidel",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -24111,7 +24695,7 @@
       "source": "info:entity:organization:Alternative for Germany (AfD)",
       "target": "info:entity:person:Friedrich Merz",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Alternative for Germany (AfD)",
@@ -24685,7 +25269,19 @@
     },
     {
       "source": "info:entity:organization:Christian Democratic Union (CDU)",
+      "target": "info:entity:person:Alice Weidel",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Christian Democratic Union (CDU)",
       "target": "info:entity:person:Beatrix von Storch",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Christian Democratic Union (CDU)",
+      "target": "info:entity:person:Friedrich Merz",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -25761,7 +26357,7 @@
       "source": "info:entity:organization:Liberal Democrats",
       "target": "info:entity:organization:Reform UK",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Liberal Democrats",
@@ -25772,6 +26368,12 @@
     {
       "source": "info:entity:organization:Liberal Democrats",
       "target": "info:entity:person:Ed Davey",
+      "relation": "co-occurs",
+      "weight": "2"
+    },
+    {
+      "source": "info:entity:organization:Liberal Democrats",
+      "target": "info:entity:person:Julian Brazil",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -26403,7 +27005,7 @@
       "source": "info:entity:organization:Reform UK",
       "target": "info:entity:person:Ed Davey",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:organization:Reform UK",
@@ -26414,6 +27016,12 @@
     {
       "source": "info:entity:organization:Reform UK",
       "target": "info:entity:person:Jordan Bardella",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Reform UK",
+      "target": "info:entity:person:Julian Brazil",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -26733,7 +27341,7 @@
       "source": "info:entity:organization:U.S. Department of Defense",
       "target": "info:entity:person:Donald Trump",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:U.S. Department of Defense",
@@ -26949,7 +27557,7 @@
       "source": "info:entity:organization:Ukrainian Armed Forces",
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:organization:Ukrainian Government",
@@ -27218,6 +27826,12 @@
     {
       "source": "info:entity:person:Alberto Núñez Feijóo",
       "target": "info:entity:region:Morocco",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Alice Weidel",
+      "target": "info:entity:person:Friedrich Merz",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -27835,6 +28449,12 @@
     },
     {
       "source": "info:entity:person:Donald Trump",
+      "target": "info:entity:person:Ed Davey",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:Elon Musk",
       "relation": "co-occurs",
       "weight": "2"
@@ -27895,6 +28515,12 @@
     },
     {
       "source": "info:entity:person:Donald Trump",
+      "target": "info:entity:person:John Healey",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:Katrín Frostadóttir",
       "relation": "co-occurs",
       "weight": "2"
@@ -27903,7 +28529,7 @@
       "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:Keir Starmer",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Donald Trump",
@@ -28040,6 +28666,24 @@
     {
       "source": "info:entity:person:Duane \"Keffe D\" Davis",
       "target": "info:entity:person:Tupac Shakur",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Ed Davey",
+      "target": "info:entity:person:John Healey",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Ed Davey",
+      "target": "info:entity:person:Julian Brazil",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Ed Davey",
+      "target": "info:entity:person:Keir Starmer",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -28347,7 +28991,7 @@
       "source": "info:entity:person:John Healey",
       "target": "info:entity:person:Keir Starmer",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:John Healey",
