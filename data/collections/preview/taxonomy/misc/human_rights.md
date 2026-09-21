@@ -1,7 +1,7 @@
 ---
 node: "human rights"
 layer: misc
-item_count: 9
+item_count: 10
 ---
 
 # human rights
@@ -15,6 +15,7 @@ item_count: 9
 
 ## Items
 
+- 2026-09-21 · [[2026-09-21-009-sister-of-pakistan-s-ex-pm-imran-khan-arrested]] — Sister of Pakistan's ex-PM Imran Khan arrested
 - 2026-09-18 · [[2026-09-18-003-un-experts-say-grounds-to-believe-us-committed-war-crimes]] — UN experts say grounds to believe US committed war crimes in Iran strikes
 - 2026-09-17 · [[2026-09-17-008-assad-regime-planned-us-journalist-s-kidnap-for-weeks-bbc]] — Assad regime planned US journalist's kidnap for weeks, BBC finds
 - 2026-09-16 · [[2026-09-16-008-us-limits-visas-for-south-african-officials-over-alleged]] — US limits visas for South African officials over alleged anti‑white discrimination

@@ -5326,6 +5326,42 @@
       "name": "age demographics"
     },
     {
+      "id": "info:item:world:global:2026-09-21-009",
+      "type": "item",
+      "date": "2026-09-21",
+      "title": "Sister of Pakistan's ex-PM Imran Khan arrested"
+    },
+    {
+      "id": "info:entity:person:Aleema Khanum",
+      "type": "person",
+      "name": "Aleema Khanum"
+    },
+    {
+      "id": "info:entity:person:Imran Khan",
+      "type": "person",
+      "name": "Imran Khan"
+    },
+    {
+      "id": "info:entity:organization:Pakistan Tehreek-e-Insaf (PTI)",
+      "type": "organization",
+      "name": "Pakistan Tehreek-e-Insaf (PTI)"
+    },
+    {
+      "id": "info:entity:organization:Lahore Deputy Commissioner Office",
+      "type": "organization",
+      "name": "Lahore Deputy Commissioner Office"
+    },
+    {
+      "id": "taxonomy/misc/political unrest",
+      "type": "taxonomy",
+      "name": "political unrest"
+    },
+    {
+      "id": "taxonomy/misc/South Asia",
+      "type": "taxonomy",
+      "name": "South Asia"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -21420,6 +21456,71 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-09-21-009",
+      "target": "info:entity:person:Aleema Khanum",
+      "relation": "subject of arrest"
+    },
+    {
+      "source": "info:item:world:global:2026-09-21-009",
+      "target": "info:entity:person:Imran Khan",
+      "relation": "brother of Aleema, former prime minister"
+    },
+    {
+      "source": "info:item:world:global:2026-09-21-009",
+      "target": "info:entity:organization:Pakistan Tehreek-e-Insaf (PTI)",
+      "relation": "political party leading protests"
+    },
+    {
+      "source": "info:item:world:global:2026-09-21-009",
+      "target": "info:entity:organization:Lahore Deputy Commissioner Office",
+      "relation": "issued arrest order"
+    },
+    {
+      "source": "info:item:world:global:2026-09-21-009",
+      "target": "info:item:world:global:2026-09-21-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-21-009",
+      "target": "info:item:world:global:2026-09-21-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-21-009",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-21-009",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-21-009",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-21-009",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-21-009",
+      "target": "taxonomy/misc/political unrest",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-21-009",
+      "target": "taxonomy/misc/human rights",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-21-009",
+      "target": "taxonomy/misc/South Asia",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -26474,6 +26575,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Lahore Deputy Commissioner Office",
+      "target": "info:entity:organization:Pakistan Tehreek-e-Insaf (PTI)",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Lahore Deputy Commissioner Office",
+      "target": "info:entity:person:Aleema Khanum",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Lahore Deputy Commissioner Office",
+      "target": "info:entity:person:Imran Khan",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Liberal Democrats",
       "target": "info:entity:organization:National Education Union (NEU)",
       "relation": "co-occurs",
@@ -26992,6 +27111,18 @@
     {
       "source": "info:entity:organization:OpenAI",
       "target": "info:entity:region:North America",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Pakistan Tehreek-e-Insaf (PTI)",
+      "target": "info:entity:person:Aleema Khanum",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Pakistan Tehreek-e-Insaf (PTI)",
+      "target": "info:entity:person:Imran Khan",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -27952,6 +28083,12 @@
     {
       "source": "info:entity:person:Alberto Núñez Feijóo",
       "target": "info:entity:region:Morocco",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Aleema Khanum",
+      "target": "info:entity:person:Imran Khan",
       "relation": "co-occurs",
       "weight": "1"
     },

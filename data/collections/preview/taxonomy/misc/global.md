@@ -1,7 +1,7 @@
 ---
 node: "Global"
 layer: misc
-item_count: 247
+item_count: 248
 ---
 
 # Global
@@ -32,6 +32,7 @@ item_count: 247
 - 2026-09-21 · [[2026-09-21-006-answers-by-context-dev]] — Answers by Context.dev
 - 2026-09-21 · [[2026-09-21-007-epismo-os-a-unified-workspace-for-switching-ai-tools]] — Epismo OS – A Unified Workspace for Switching AI Tools
 - 2026-09-21 · [[2026-09-21-008-man-82-dies-after-beach-fight-with-76-year-old-over]] — Man, 82, dies after beach fight with 76‑year‑old over sunlounger in Greece
+- 2026-09-21 · [[2026-09-21-009-sister-of-pakistan-s-ex-pm-imran-khan-arrested]] — Sister of Pakistan's ex-PM Imran Khan arrested
 - 2026-09-20 · [[2026-09-20-001-ed-sheeran-admits-mistakes-as-he-addresses-macklemore]] — Ed Sheeran admits 'mistakes' as he addresses Macklemore controversy at Philadelphia show
 - 2026-09-20 · [[2026-09-20-002-houthis-say-they-targeted-saudi-capital-with-ballistic]] — Houthis say they targeted Saudi capital with ballistic missiles
 - 2026-09-20 · [[2026-09-20-003-our-head-teacher-was-an-abuser-we-joined-forces-to-get]] — Our head teacher was an abuser. We joined forces to get justice - now we're married

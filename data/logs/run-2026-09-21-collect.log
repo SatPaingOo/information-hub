@@ -26,3 +26,10 @@
 2026-09-21 06:03:37,487 WARNING [politics] no collect provider available
 2026-09-21 06:03:38,176 WARNING [products] no collect provider available
 2026-09-21 06:03:38,430 INFO collect done: 1 item(s) published — target 2/10, next run ≈ 2026-09-22T01:00:00+00:00 UTC
+2026-09-21 07:08:07,601 INFO [world-news] published 2026-09-21-009 — Sister of Pakistan's ex-PM Imran Khan arrested
+2026-09-21 07:08:07,808 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6196, Requested 4137. Please try again in 17.4975s. Need more tokens? Upgrade to Dev Tier today at https://co
+2026-09-21 07:08:10,810 WARNING [world-news] no collect provider for deep-dive
+2026-09-21 07:08:11,591 WARNING [tech-news] no collect provider available
+2026-09-21 07:08:12,416 WARNING [politics] no collect provider available
+2026-09-21 07:08:13,267 WARNING [products] no collect provider available
+2026-09-21 07:08:13,501 INFO collect done: 1 item(s) published — target 1/10, next run ≈ 2026-09-22T01:00:00+00:00 UTC
