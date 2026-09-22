@@ -1,7 +1,7 @@
 ---
 node: "geopolitics"
 layer: topic
-item_count: 60
+item_count: 62
 ---
 
 # geopolitics
@@ -24,6 +24,8 @@ item_count: 60
 
 ## Items
 
+- 2026-09-22 · [[2026-09-22-003-merz-vows-to-keep-coalition-together-for-germany-s]] — Merz vows to keep coalition together for Germany's 'democratic future'
+- 2026-09-22 · [[2026-09-22-004-uk-to-provide-saudi-arabia-with-defensive-military-support]] — UK to provide Saudi Arabia with 'defensive' military support, says Burnham
 - 2026-09-21 · [[2026-09-21-002-largest-attack-on-moscow-sees-ukraine-fire-hundreds-of]] — Largest attack on Moscow sees Ukraine fire hundreds of drones, mayor says
 - 2026-09-21 · [[2026-09-21-004-ed-davey-calls-for-immediate-10p-cut-to-fuel-duty]] — Ed Davey calls for immediate 10p cut to fuel duty
 - 2026-09-21 · [[2026-09-21-005-lib-dems-sleepwalking-to-irrelevance-under-davey-says]] — Lib Dems sleepwalking to irrelevance under Davey, says council leader

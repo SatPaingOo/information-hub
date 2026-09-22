@@ -1,7 +1,7 @@
 ---
 node: "Policy"
 layer: misc
-item_count: 190
+item_count: 193
 ---
 
 # Policy
@@ -16,6 +16,9 @@ item_count: 190
 
 ## Items
 
+- 2026-09-22 · [[2026-09-22-003-merz-vows-to-keep-coalition-together-for-germany-s]] — Merz vows to keep coalition together for Germany's 'democratic future'
+- 2026-09-22 · [[2026-09-22-004-uk-to-provide-saudi-arabia-with-defensive-military-support]] — UK to provide Saudi Arabia with 'defensive' military support, says Burnham
+- 2026-09-22 · [[2026-09-22-005-manchester-to-host-world-leaders-at-g20-summit-in-2027]] — Manchester to host world leaders at G20 summit in 2027
 - 2026-09-21 · [[2026-09-21-001-german-chancellor-merz-calls-state-election-a-disaster-for]] — German Chancellor Merz calls state election a 'disaster' for his party but vows to stay on
 - 2026-09-21 · [[2026-09-21-002-largest-attack-on-moscow-sees-ukraine-fire-hundreds-of]] — Largest attack on Moscow sees Ukraine fire hundreds of drones, mayor says
 - 2026-09-21 · [[2026-09-21-003-trump-says-triumphal-arch-will-be-military-complex-with]] — Trump says triumphal arch will be military complex with drones and snipers

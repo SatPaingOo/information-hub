@@ -1,0 +1,18 @@
+2026-09-22 01:35:54,659 ERROR [world-news] generate error: empty model content
+2026-09-22 01:35:57,859 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"poolside/laguna-xs-2.1:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Poolside","is_byok":fa
+2026-09-22 01:36:07,976 INFO [world-news] attempt 3 invalid: ["entities/1/type: 'country' is not one of ['concept', 'company', 'model', 'person', 'product', 'region', 'organization', 'event']"]
+2026-09-22 01:36:08,201 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 5936, Requested 5055. Please try again in 22.4325s. Need more tokens? Upgrade to Dev Tier today at https://co
+2026-09-22 01:36:11,306 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"poolside/laguna-s-2.1:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Poolside","is_byok":fal
+2026-09-22 01:36:25,514 INFO [world-news] attempt 3 invalid: ["entities/2/type: 'institution' is not one of ['concept', 'company', 'model', 'person', 'product', 'region', 'organization', 'event']", "entities/3/type: 'network' is not one of ['concept', 'company', 'model', 'person', 'product', 'region', 'organization', 'event']"]
+2026-09-22 01:37:14,946 INFO [world-news] published 2026-09-22-003 — Merz vows to keep coalition together for Germany's 'democrat
+2026-09-22 01:37:19,604 INFO [tech-news] nothing selected
+2026-09-22 01:37:50,887 INFO [politics] published 2026-09-22-004 — UK to provide Saudi Arabia with 'defensive' military support
+2026-09-22 01:38:19,701 INFO [politics] published 2026-09-22-005 — Manchester to host world leaders at G20 summit in 2027
+2026-09-22 01:39:01,577 INFO [products] attempt 1 invalid: ["title: 'Jev' is too short"]
+2026-09-22 01:39:29,785 INFO [products] attempt 2 invalid: ["title: 'Jev' is too short"]
+2026-09-22 01:39:34,613 ERROR [products] generate error: HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
+
+2026-09-22 01:39:46,527 ERROR [products] generate error: HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
+
+2026-09-22 01:39:49,529 WARNING [products] no collect provider for deep-dive
+2026-09-22 01:39:49,762 INFO collect done: 3 item(s) published — target 7/10, next run ≈ 2026-09-23T01:00:00+00:00 UTC

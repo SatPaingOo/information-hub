@@ -5362,6 +5362,49 @@
       "name": "South Asia"
     },
     {
+      "id": "info:item:world:global:2026-09-22-003",
+      "type": "item",
+      "date": "2026-09-22",
+      "title": "Merz vows to keep coalition together for Germany's 'democratic future'"
+    },
+    {
+      "id": "info:entity:organization:Social Democratic Party (SPD)",
+      "type": "organization",
+      "name": "Social Democratic Party (SPD)"
+    },
+    {
+      "id": "info:item:politics:global:2026-09-22-004",
+      "type": "item",
+      "date": "2026-09-22",
+      "title": "UK to provide Saudi Arabia with 'defensive' military support, says Burnham"
+    },
+    {
+      "id": "info:entity:organization:Royal Air Force (RAF)",
+      "type": "organization",
+      "name": "Royal Air Force (RAF)"
+    },
+    {
+      "id": "info:item:politics:global:2026-09-22-005",
+      "type": "item",
+      "date": "2026-09-22",
+      "title": "Manchester to host world leaders at G20 summit in 2027"
+    },
+    {
+      "id": "info:entity:event:G20 summit 2027",
+      "type": "event",
+      "name": "G20 summit 2027"
+    },
+    {
+      "id": "info:entity:organization:Manchester Central Convention Centre",
+      "type": "organization",
+      "name": "Manchester Central Convention Centre"
+    },
+    {
+      "id": "taxonomy/misc/Economic governance",
+      "type": "taxonomy",
+      "name": "Economic governance"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -21521,6 +21564,191 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-09-22-003",
+      "target": "info:entity:person:Friedrich Merz",
+      "relation": "Chancellor of Germany"
+    },
+    {
+      "source": "info:item:world:global:2026-09-22-003",
+      "target": "info:entity:organization:Alternative for Germany (AfD)",
+      "relation": "far‑right party gaining electoral ground"
+    },
+    {
+      "source": "info:item:world:global:2026-09-22-003",
+      "target": "info:entity:organization:Christian Democratic Union (CDU)",
+      "relation": "ruling party in Merz’s coalition"
+    },
+    {
+      "source": "info:item:world:global:2026-09-22-003",
+      "target": "info:entity:organization:Social Democratic Party (SPD)",
+      "relation": "coalition partner"
+    },
+    {
+      "source": "info:item:world:global:2026-09-22-003",
+      "target": "info:item:world:global:2026-09-21-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-22-003",
+      "target": "info:item:world:global:2026-09-21-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-22-003",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-22-003",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-22-003",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-22-003",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-22-003",
+      "target": "taxonomy/topic/world",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-22-003",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-22-003",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-22-004",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "announced UK defensive support"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-22-004",
+      "target": "info:entity:organization:Royal Air Force (RAF)",
+      "relation": "operator of Voyager aircraft"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-22-004",
+      "target": "info:entity:organization:Saudi Arabia",
+      "relation": "recipient of UK military support"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-22-004",
+      "target": "info:entity:organization:Houthis",
+      "relation": "source of attacks"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-22-004",
+      "target": "info:item:politics:global:2026-09-21-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-22-004",
+      "target": "info:item:politics:global:2026-09-21-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-22-004",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-22-004",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-22-004",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-22-004",
+      "target": "taxonomy/topic/politics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-22-004",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-22-004",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-22-005",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "Prime Minister of the United Kingdom and former mayor of Greater Manchester"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-22-005",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "President of the United States attending the summit"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-22-005",
+      "target": "info:entity:event:G20 summit 2027",
+      "relation": "International economic gathering hosted by Manchester"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-22-005",
+      "target": "info:entity:organization:Manchester Central Convention Centre",
+      "relation": "Venue for the 2027 G20 summit"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-22-005",
+      "target": "info:item:politics:global:2026-09-22-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-22-005",
+      "target": "info:item:politics:global:2026-09-21-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-22-005",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-22-005",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-22-005",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-22-005",
+      "target": "taxonomy/misc/International diplomacy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-22-005",
+      "target": "taxonomy/misc/United Kingdom",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-22-005",
+      "target": "taxonomy/misc/Economic governance",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -24205,6 +24433,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:event:G20 summit 2027",
+      "target": "info:entity:organization:Manchester Central Convention Centre",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:event:G20 summit 2027",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:event:G20 summit 2027",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:event:Good Friday Agreement",
       "target": "info:entity:organization:European Union",
       "relation": "co-occurs",
@@ -24856,7 +25102,7 @@
       "source": "info:entity:organization:Alternative for Germany (AfD)",
       "target": "info:entity:organization:Christian Democratic Union (CDU)",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:organization:Alternative for Germany (AfD)",
@@ -24867,6 +25113,12 @@
     {
       "source": "info:entity:organization:Alternative for Germany (AfD)",
       "target": "info:entity:organization:Reform UK",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Alternative for Germany (AfD)",
+      "target": "info:entity:organization:Social Democratic Party (SPD)",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -24892,7 +25144,7 @@
       "source": "info:entity:organization:Alternative for Germany (AfD)",
       "target": "info:entity:person:Friedrich Merz",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:organization:Alternative for Germany (AfD)",
@@ -25466,6 +25718,12 @@
     },
     {
       "source": "info:entity:organization:Christian Democratic Union (CDU)",
+      "target": "info:entity:organization:Social Democratic Party (SPD)",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Christian Democratic Union (CDU)",
       "target": "info:entity:person:Alice Weidel",
       "relation": "co-occurs",
       "weight": "1"
@@ -25480,7 +25738,7 @@
       "source": "info:entity:organization:Christian Democratic Union (CDU)",
       "target": "info:entity:person:Friedrich Merz",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Christian Democratic Union (CDU)",
@@ -26186,13 +26444,25 @@
     },
     {
       "source": "info:entity:organization:Houthis",
+      "target": "info:entity:organization:Royal Air Force (RAF)",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Houthis",
       "target": "info:entity:organization:Saudi Arabia",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:organization:Houthis",
       "target": "info:entity:organization:U.S. State Department",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Houthis",
+      "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -26673,6 +26943,18 @@
     {
       "source": "info:entity:organization:MBDA",
       "target": "info:entity:product:Storm Shadow",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Manchester Central Convention Centre",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Manchester Central Convention Centre",
+      "target": "info:entity:person:Donald Trump",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -27349,6 +27631,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Royal Air Force (RAF)",
+      "target": "info:entity:organization:Saudi Arabia",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Royal Air Force (RAF)",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Russian Embassy to the UK",
       "target": "info:entity:organization:UK Ministry of Defence",
       "relation": "co-occurs",
@@ -27392,6 +27686,12 @@
     },
     {
       "source": "info:entity:organization:Saudi Arabia",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Saudi Arabia",
       "target": "info:entity:person:Donald Trump",
       "relation": "co-occurs",
       "weight": "1"
@@ -27423,6 +27723,12 @@
     {
       "source": "info:entity:organization:Shelter",
       "target": "info:entity:person:Kemi Badenoch",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Social Democratic Party (SPD)",
+      "target": "info:entity:person:Friedrich Merz",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -28155,6 +28461,12 @@
     {
       "source": "info:entity:person:Andy Burnham",
       "target": "info:entity:person:Christopher Harborne",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Andy Burnham",
+      "target": "info:entity:person:Donald Trump",
       "relation": "co-occurs",
       "weight": "1"
     },

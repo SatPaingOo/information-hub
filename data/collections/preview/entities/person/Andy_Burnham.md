@@ -1,7 +1,7 @@
 ---
 name: "Andy Burnham"
 entity_type: person
-backlink_count: 33
+backlink_count: 35
 ---
 
 # Andy Burnham
@@ -10,6 +10,8 @@ backlink_count: 33
 
 ## Referenced by
 
+- 2026-09-22 · [[2026-09-22-004-uk-to-provide-saudi-arabia-with-defensive-military-support]] — UK to provide Saudi Arabia with 'defensive' military support, says Burnham
+- 2026-09-22 · [[2026-09-22-005-manchester-to-host-world-leaders-at-g20-summit-in-2027]] — Manchester to host world leaders at G20 summit in 2027
 - 2026-09-20 · [[2026-09-20-005-badenoch-says-she-is-instructing-lawyers-to-challenge]] — Badenoch says she is instructing lawyers to challenge government after Tory-run council's 94% tax hike
 - 2026-09-19 · [[2026-09-19-004-ireland-s-relationship-with-uk-under-burnham-off-to-very]] — Ireland's relationship with UK under Burnham off to 'very good start'
 - 2026-09-18 · [[2026-09-18-004-uk-needs-credible-path-on-defence-spending-says-nato-chief]] — UK needs 'credible path' on defence spending, says Nato chief

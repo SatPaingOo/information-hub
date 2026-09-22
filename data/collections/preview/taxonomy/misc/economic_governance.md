@@ -1,19 +1,17 @@
 ---
-node: "International diplomacy"
+node: "Economic governance"
 layer: misc
-item_count: 2
+item_count: 1
 ---
 
-# International diplomacy
+# Economic governance
 
 *Taxonomy layer: misc*
 
 ## Cross-layer relations
 
 - [[politics]] — *relates*
-- [[world]] — *relates*
 
 ## Items
 
 - 2026-09-22 · [[2026-09-22-005-manchester-to-host-world-leaders-at-g20-summit-in-2027]] — Manchester to host world leaders at G20 summit in 2027
-- 2026-09-06 · [[2026-09-06-001-us-envoys-set-for-ukraine-talks-after-meeting-putin-in]] — US envoys set for Ukraine talks after meeting Putin in Moscow

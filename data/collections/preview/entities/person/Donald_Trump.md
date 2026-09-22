@@ -1,7 +1,7 @@
 ---
 name: "Donald Trump"
 entity_type: person
-backlink_count: 41
+backlink_count: 42
 ---
 
 # Donald Trump
@@ -10,6 +10,7 @@ backlink_count: 41
 
 ## Referenced by
 
+- 2026-09-22 · [[2026-09-22-005-manchester-to-host-world-leaders-at-g20-summit-in-2027]] — Manchester to host world leaders at G20 summit in 2027
 - 2026-09-21 · [[2026-09-21-003-trump-says-triumphal-arch-will-be-military-complex-with]] — Trump says triumphal arch will be military complex with drones and snipers
 - 2026-09-21 · [[2026-09-21-004-ed-davey-calls-for-immediate-10p-cut-to-fuel-duty]] — Ed Davey calls for immediate 10p cut to fuel duty
 - 2026-09-20 · [[2026-09-20-008-trump-says-us-will-form-ai-force-and-appoint-an-artificial]] — Trump says US will form 'AI Force' and appoint an artificial intelligence tsar
