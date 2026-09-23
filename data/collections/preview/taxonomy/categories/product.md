@@ -1,7 +1,7 @@
 ---
 node: "product"
 layer: category
-item_count: 60
+item_count: 62
 ---
 
 # product
@@ -19,6 +19,8 @@ item_count: 60
 
 ## Items
 
+- 2026-09-23 · [[2026-09-23-006-weweb-mcp]] — WeWeb MCP
+- 2026-09-23 · [[2026-09-23-007-reeno-ai-driven-conversational-language-coach-that-calls]] — Reeno – AI‑Driven Conversational Language Coach That Calls You Randomly
 - 2026-09-21 · [[2026-09-21-006-answers-by-context-dev]] — Answers by Context.dev
 - 2026-09-21 · [[2026-09-21-007-epismo-os-a-unified-workspace-for-switching-ai-tools]] — Epismo OS – A Unified Workspace for Switching AI Tools
 - 2026-09-20 · [[2026-09-20-006-voicecap]] — VoiceCap

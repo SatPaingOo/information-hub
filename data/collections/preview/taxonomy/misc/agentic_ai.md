@@ -1,7 +1,7 @@
 ---
 node: "Agentic AI"
 layer: misc
-item_count: 43
+item_count: 46
 ---
 
 # Agentic AI
@@ -17,6 +17,9 @@ item_count: 43
 
 ## Items
 
+- 2026-09-23 · [[2026-09-23-004-trump-says-he-can-do-business-with-burnham-but-criticises]] — Trump says he can do business with Burnham but criticises 'terrible' Chagos deal
+- 2026-09-23 · [[2026-09-23-006-weweb-mcp]] — WeWeb MCP
+- 2026-09-23 · [[2026-09-23-007-reeno-ai-driven-conversational-language-coach-that-calls]] — Reeno – AI‑Driven Conversational Language Coach That Calls You Randomly
 - 2026-09-21 · [[2026-09-21-006-answers-by-context-dev]] — Answers by Context.dev
 - 2026-09-20 · [[2026-09-20-006-voicecap]] — VoiceCap
 - 2026-09-19 · [[2026-09-19-006-citizen404]] — citizen404

@@ -5405,6 +5405,87 @@
       "name": "Economic governance"
     },
     {
+      "id": "info:item:world:global:2026-09-23-001",
+      "type": "item",
+      "date": "2026-09-23",
+      "title": "Trump threatens to 'annihilate' Iran in UN speech as officials from both countries meet on sidelines"
+    },
+    {
+      "id": "info:item:world:global:2026-09-23-003",
+      "type": "item",
+      "date": "2026-09-23",
+      "title": "US to build two military bases in Greenland under new deal with Denmark"
+    },
+    {
+      "id": "info:entity:person:Jens-Frederik Nielsen",
+      "type": "person",
+      "name": "Jens-Frederik Nielsen"
+    },
+    {
+      "id": "info:entity:organization:US Department of Defense",
+      "type": "organization",
+      "name": "US Department of Defense"
+    },
+    {
+      "id": "taxonomy/misc/Sovereignty and self‑determination",
+      "type": "taxonomy",
+      "name": "Sovereignty and self‑determination"
+    },
+    {
+      "id": "taxonomy/misc/Transatlantic defence cooperation",
+      "type": "taxonomy",
+      "name": "Transatlantic defence cooperation"
+    },
+    {
+      "id": "info:item:politics:global:2026-09-23-004",
+      "type": "item",
+      "date": "2026-09-23",
+      "title": "Trump says he can do business with Burnham but criticises 'terrible' Chagos deal"
+    },
+    {
+      "id": "info:entity:region:Diego Garcia",
+      "type": "region",
+      "name": "Diego Garcia"
+    },
+    {
+      "id": "info:item:politics:global:2026-09-23-005",
+      "type": "item",
+      "date": "2026-09-23",
+      "title": "Davey promises tax cuts for millions if UK rejoins EU single market"
+    },
+    {
+      "id": "info:item:products:global:2026-09-23-006",
+      "type": "item",
+      "date": "2026-09-23",
+      "title": "WeWeb MCP"
+    },
+    {
+      "id": "info:entity:product:WeWeb MCP",
+      "type": "product",
+      "name": "WeWeb MCP"
+    },
+    {
+      "id": "info:item:products:global:2026-09-23-007",
+      "type": "item",
+      "date": "2026-09-23",
+      "title": "Reeno – AI‑Driven Conversational Language Coach That Calls You Randomly"
+    },
+    {
+      "id": "info:entity:product:Reeno",
+      "type": "product",
+      "name": "Reeno"
+    },
+    {
+      "id": "taxonomy/misc/language learning",
+      "type": "taxonomy",
+      "name": "language learning"
+    },
+    {
+      "id": "taxonomy/misc/consumer applications",
+      "type": "taxonomy",
+      "name": "consumer applications"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -21749,6 +21830,401 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-09-23-001",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "speaker and US President"
+    },
+    {
+      "source": "info:item:world:global:2026-09-23-001",
+      "target": "info:entity:person:Steve Witkoff",
+      "relation": "US Special Envoy to the Middle East"
+    },
+    {
+      "source": "info:item:world:global:2026-09-23-001",
+      "target": "info:entity:person:Abbas Araghchi",
+      "relation": "Iranian Foreign Minister"
+    },
+    {
+      "source": "info:item:world:global:2026-09-23-001",
+      "target": "info:entity:organization:United Nations",
+      "relation": "host of the General Assembly and diplomatic forum"
+    },
+    {
+      "source": "info:item:world:global:2026-09-23-001",
+      "target": "info:entity:region:Iran",
+      "relation": "subject of threat and negotiation"
+    },
+    {
+      "source": "info:item:world:global:2026-09-23-001",
+      "target": "info:item:world:global:2026-09-22-003",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-23-001",
+      "target": "info:item:world:global:2026-09-21-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-23-001",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-23-001",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-23-001",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-23-001",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-23-001",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-23-001",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-23-001",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-23-003",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "US President who threatened to \"take\" Greenland, later signed the defence deal"
+    },
+    {
+      "source": "info:item:world:global:2026-09-23-003",
+      "target": "info:entity:person:Mette Frederiksen",
+      "relation": "Danish Prime Minister who described the agreement as a diplomatic triumph"
+    },
+    {
+      "source": "info:item:world:global:2026-09-23-003",
+      "target": "info:entity:person:Jens-Frederik Nielsen",
+      "relation": "Greenland Prime Minister who emphasized self‑determination and local benefits"
+    },
+    {
+      "source": "info:item:world:global:2026-09-23-003",
+      "target": "info:entity:organization:NATO",
+      "relation": "Alliance whose members are barred from establishing permanent installations in Greenland under the new pact"
+    },
+    {
+      "source": "info:item:world:global:2026-09-23-003",
+      "target": "info:entity:organization:US Department of Defense",
+      "relation": "Entity responsible for constructing and operating the new bases"
+    },
+    {
+      "source": "info:item:world:global:2026-09-23-003",
+      "target": "info:item:world:global:2026-09-23-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-23-003",
+      "target": "info:item:world:global:2026-09-22-003",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-23-003",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-23-003",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-23-003",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-23-003",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-23-003",
+      "target": "taxonomy/misc/Arctic security",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-23-003",
+      "target": "taxonomy/misc/Sovereignty and self‑determination",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-23-003",
+      "target": "taxonomy/misc/Transatlantic defence cooperation",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-23-004",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "UK Prime Minister and negotiator of Chagos resolution"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-23-004",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "U.S. President criticising Chagos deal and championing AI deregulation"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-23-004",
+      "target": "info:entity:region:Diego Garcia",
+      "relation": "Location of joint UK‑US military base central to strategic discussions"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-23-004",
+      "target": "info:entity:company:OpenAI",
+      "relation": "Key entity in agentic AI and LLM development highlighted by editorial priorities"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-23-004",
+      "target": "info:entity:model:Gemini",
+      "relation": "AI model referenced in editorial weighting for AI governance debates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-23-004",
+      "target": "info:entity:company:Anthropic",
+      "relation": "AI research organization included in editorial focus on AI regulation"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-23-004",
+      "target": "info:item:politics:global:2026-09-22-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-23-004",
+      "target": "info:item:politics:global:2026-09-21-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-23-004",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-23-004",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-23-004",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-23-004",
+      "target": "taxonomy/misc/Agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-23-004",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-23-004",
+      "target": "taxonomy/misc/Myanmar",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-23-005",
+      "target": "info:entity:person:Ed Davey",
+      "relation": "leader of the Liberal Democrats and proposer of the tax‑cut plan"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-23-005",
+      "target": "info:entity:organization:Liberal Democrats",
+      "relation": "political party advancing the tax‑cut and EU re‑engagement agenda"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-23-005",
+      "target": "info:entity:organization:Reform UK",
+      "relation": "political party whose tax policy is contrasted as \"cruelty‑funded\""
+    },
+    {
+      "source": "info:item:politics:global:2026-09-23-005",
+      "target": "info:entity:person:Nigel Farage",
+      "relation": "leader of Reform UK, criticized for far‑right affiliations"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-23-005",
+      "target": "info:item:politics:global:2026-09-23-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-23-005",
+      "target": "info:item:politics:global:2026-09-22-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-23-005",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-23-005",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-23-005",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-23-005",
+      "target": "taxonomy/topic/politics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-23-005",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-23-005",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-09-23-006",
+      "target": "info:entity:company:OpenAI",
+      "relation": "LLM provider integrated with WeWeb MCP"
+    },
+    {
+      "source": "info:item:products:global:2026-09-23-006",
+      "target": "info:entity:model:Gemini 3.8",
+      "relation": "LLM option supported by WeWeb MCP"
+    },
+    {
+      "source": "info:item:products:global:2026-09-23-006",
+      "target": "info:entity:product:WeWeb MCP",
+      "relation": "AI agent platform for autonomous app building"
+    },
+    {
+      "source": "info:item:products:global:2026-09-23-006",
+      "target": "info:entity:concept:Agentic AI",
+      "relation": "core technology enabling autonomous code generation"
+    },
+    {
+      "source": "info:item:products:global:2026-09-23-006",
+      "target": "info:item:products:global:2026-09-21-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-09-23-006",
+      "target": "info:item:products:global:2026-09-20-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-09-23-006",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-09-23-006",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-09-23-006",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-09-23-006",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-09-23-006",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-09-23-006",
+      "target": "taxonomy/misc/regulation",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-09-23-007",
+      "target": "info:entity:product:Reeno",
+      "relation": "subject"
+    },
+    {
+      "source": "info:item:products:global:2026-09-23-007",
+      "target": "info:entity:company:OpenAI",
+      "relation": "model benchmark"
+    },
+    {
+      "source": "info:item:products:global:2026-09-23-007",
+      "target": "info:entity:model:Google Gemini",
+      "relation": "comparative reference"
+    },
+    {
+      "source": "info:item:products:global:2026-09-23-007",
+      "target": "info:entity:company:Anthropic",
+      "relation": "safety reference"
+    },
+    {
+      "source": "info:item:products:global:2026-09-23-007",
+      "target": "info:entity:region:Myanmar",
+      "relation": "target market"
+    },
+    {
+      "source": "info:item:products:global:2026-09-23-007",
+      "target": "info:item:products:global:2026-09-21-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-09-23-007",
+      "target": "info:item:products:global:2026-09-21-007",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-09-23-007",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-09-23-007",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-09-23-007",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-09-23-007",
+      "target": "taxonomy/misc/language learning",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-09-23-007",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-09-23-007",
+      "target": "taxonomy/misc/consumer applications",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -21982,7 +22458,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
-      "weight": "38"
+      "weight": "40"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -22120,7 +22596,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "18"
+      "weight": "19"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -22131,6 +22607,12 @@
     {
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:model:Gemini 3.8",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:model:Google Gemini",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -22155,6 +22637,12 @@
     {
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:organization:World Meteorological Organization (WMO)",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -22192,7 +22680,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:person:Donald Trump",
       "relation": "co-occurs",
-      "weight": "5"
+      "weight": "6"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -22292,6 +22780,12 @@
     },
     {
       "source": "info:entity:company:Anthropic",
+      "target": "info:entity:product:Reeno",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
       "target": "info:entity:product:Relaticle",
       "relation": "co-occurs",
       "weight": "1"
@@ -22310,9 +22804,15 @@
     },
     {
       "source": "info:entity:company:Anthropic",
+      "target": "info:entity:region:Diego Garcia",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
       "target": "info:entity:region:Myanmar",
       "relation": "co-occurs",
-      "weight": "9"
+      "weight": "10"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -22948,7 +23448,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:concept:Agentic AI",
       "relation": "co-occurs",
-      "weight": "12"
+      "weight": "13"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -23056,7 +23556,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "26"
+      "weight": "27"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -23068,7 +23568,13 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:model:Gemini 3.8",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:model:Google Gemini",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -23146,7 +23652,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -23206,7 +23712,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Donald Trump",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -23330,7 +23836,19 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:product:Reeno",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:product:Relaticle",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:product:WeWeb MCP",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -23342,9 +23860,15 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:region:Diego Garcia",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:region:Myanmar",
       "relation": "co-occurs",
-      "weight": "12"
+      "weight": "13"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -23722,7 +24246,7 @@
       "source": "info:entity:concept:Agentic AI",
       "target": "info:entity:model:Gemini 3.8",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:concept:Agentic AI",
@@ -23811,6 +24335,12 @@
     {
       "source": "info:entity:concept:Agentic AI",
       "target": "info:entity:product:Samsung Galaxy Fold 8",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Agentic AI",
+      "target": "info:entity:product:WeWeb MCP",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -24820,7 +25350,7 @@
       "source": "info:entity:model:Gemini",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:model:Gemini",
@@ -24850,7 +25380,7 @@
       "source": "info:entity:model:Gemini",
       "target": "info:entity:person:Donald Trump",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:model:Gemini",
@@ -24986,6 +25516,12 @@
     },
     {
       "source": "info:entity:model:Gemini",
+      "target": "info:entity:region:Diego Garcia",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
       "target": "info:entity:region:Myanmar",
       "relation": "co-occurs",
       "weight": "7"
@@ -25010,6 +25546,12 @@
     },
     {
       "source": "info:entity:model:Gemini 3.8",
+      "target": "info:entity:product:WeWeb MCP",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini 3.8",
       "target": "info:entity:region:Myanmar",
       "relation": "co-occurs",
       "weight": "2"
@@ -25023,6 +25565,18 @@
     {
       "source": "info:entity:model:Google Gemini",
       "target": "info:entity:product:GitWarren",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Google Gemini",
+      "target": "info:entity:product:Reeno",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Google Gemini",
+      "target": "info:entity:region:Myanmar",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -26872,7 +27426,7 @@
       "source": "info:entity:organization:Liberal Democrats",
       "target": "info:entity:organization:Reform UK",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:organization:Liberal Democrats",
@@ -26884,7 +27438,7 @@
       "source": "info:entity:organization:Liberal Democrats",
       "target": "info:entity:person:Ed Davey",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:organization:Liberal Democrats",
@@ -26908,7 +27462,7 @@
       "source": "info:entity:organization:Liberal Democrats",
       "target": "info:entity:person:Nigel Farage",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:MA Holdings",
@@ -27014,6 +27568,12 @@
     },
     {
       "source": "info:entity:organization:NATO",
+      "target": "info:entity:organization:US Department of Defense",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:NATO",
       "target": "info:entity:organization:Ukrzaliznytsia",
       "relation": "co-occurs",
       "weight": "1"
@@ -27028,7 +27588,7 @@
       "source": "info:entity:organization:NATO",
       "target": "info:entity:person:Donald Trump",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:organization:NATO",
@@ -27039,6 +27599,12 @@
     {
       "source": "info:entity:organization:NATO",
       "target": "info:entity:person:Javier Milei",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:NATO",
+      "target": "info:entity:person:Jens-Frederik Nielsen",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -27083,6 +27649,12 @@
       "target": "info:entity:person:Mark Rutte",
       "relation": "co-occurs",
       "weight": "2"
+    },
+    {
+      "source": "info:entity:organization:NATO",
+      "target": "info:entity:person:Mette Frederiksen",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:organization:NATO",
@@ -27544,7 +28116,7 @@
       "source": "info:entity:organization:Reform UK",
       "target": "info:entity:person:Ed Davey",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:organization:Reform UK",
@@ -27580,7 +28152,7 @@
       "source": "info:entity:organization:Reform UK",
       "target": "info:entity:person:Nigel Farage",
       "relation": "co-occurs",
-      "weight": "12"
+      "weight": "13"
     },
     {
       "source": "info:entity:organization:Reform UK",
@@ -28057,6 +28629,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:US Department of Defense",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:US Department of Defense",
+      "target": "info:entity:person:Jens-Frederik Nielsen",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:US Department of Defense",
+      "target": "info:entity:person:Mette Frederiksen",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:US Department of Justice",
       "target": "info:entity:person:Andrew Tate",
       "relation": "co-occurs",
@@ -28184,6 +28774,18 @@
     },
     {
       "source": "info:entity:organization:United Nations",
+      "target": "info:entity:person:Abbas Araghchi",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:United Nations",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:United Nations",
       "target": "info:entity:person:Ed Miliband",
       "relation": "co-occurs",
       "weight": "1"
@@ -28197,6 +28799,18 @@
     {
       "source": "info:entity:organization:United Nations",
       "target": "info:entity:person:Ratko Mladić",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:United Nations",
+      "target": "info:entity:person:Steve Witkoff",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:United Nations",
+      "target": "info:entity:region:Iran",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -28352,7 +28966,25 @@
     },
     {
       "source": "info:entity:person:Abbas Araghchi",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Abbas Araghchi",
       "target": "info:entity:person:Masoud Pezeshkian",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Abbas Araghchi",
+      "target": "info:entity:person:Steve Witkoff",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Abbas Araghchi",
+      "target": "info:entity:region:Iran",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -28468,7 +29100,7 @@
       "source": "info:entity:person:Andy Burnham",
       "target": "info:entity:person:Donald Trump",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Andy Burnham",
@@ -28617,6 +29249,12 @@
     {
       "source": "info:entity:person:Andy Burnham",
       "target": "info:entity:product:Storm Shadow",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Andy Burnham",
+      "target": "info:entity:region:Diego Garcia",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -29084,6 +29722,12 @@
     },
     {
       "source": "info:entity:person:Donald Trump",
+      "target": "info:entity:person:Jens-Frederik Nielsen",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:Jensen Huang",
       "relation": "co-occurs",
       "weight": "2"
@@ -29140,7 +29784,7 @@
       "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:Mette Frederiksen",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Donald Trump",
@@ -29164,7 +29808,7 @@
       "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:Steve Witkoff",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Donald Trump",
@@ -29210,6 +29854,12 @@
     },
     {
       "source": "info:entity:person:Donald Trump",
+      "target": "info:entity:region:Diego Garcia",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Donald Trump",
       "target": "info:entity:region:Hong Kong",
       "relation": "co-occurs",
       "weight": "1"
@@ -29218,7 +29868,7 @@
       "source": "info:entity:person:Donald Trump",
       "target": "info:entity:region:Iran",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:person:Donald Trump",
@@ -29272,7 +29922,7 @@
       "source": "info:entity:person:Ed Davey",
       "target": "info:entity:person:Nigel Farage",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Ed Davey",
@@ -29529,6 +30179,12 @@
     {
       "source": "info:entity:person:Javier Milei",
       "target": "info:entity:person:Keir Starmer",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Jens-Frederik Nielsen",
+      "target": "info:entity:person:Mette Frederiksen",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -29869,6 +30525,12 @@
       "weight": "2"
     },
     {
+      "source": "info:entity:person:Steve Witkoff",
+      "target": "info:entity:region:Iran",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:person:Tiger Woods",
       "target": "info:entity:product:hydrocodone",
       "relation": "co-occurs",
@@ -29948,6 +30610,12 @@
     },
     {
       "source": "info:entity:product:Pluto",
+      "target": "info:entity:region:Myanmar",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:product:Reeno",
       "target": "info:entity:region:Myanmar",
       "relation": "co-occurs",
       "weight": "1"

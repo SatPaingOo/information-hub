@@ -1,7 +1,7 @@
 ---
 node: "Regulation"
 layer: misc
-item_count: 16
+item_count: 17
 ---
 
 # Regulation
@@ -17,6 +17,7 @@ item_count: 16
 
 ## Items
 
+- 2026-09-23 · [[2026-09-23-006-weweb-mcp]] — WeWeb MCP
 - 2026-09-19 · [[2026-09-19-006-citizen404]] — citizen404
 - 2026-09-19 · [[2026-09-19-008-google-s-gemini-ai-hacked-three-companies-in-security-test]] — Google's Gemini AI hacked three companies in security test
 - 2026-09-19 · [[2026-09-19-005-ex-labour-deputy-leader-tom-watson-joins-palantir]] — Ex-Labour deputy leader Tom Watson joins Palantir

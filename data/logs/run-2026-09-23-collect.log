@@ -1,0 +1,24 @@
+2026-09-23 01:29:03,828 INFO [world-news] published 2026-09-23-001 — Trump threatens to 'annihilate' Iran in UN speech as officia
+2026-09-23 01:30:39,718 ERROR [world-news] generate error: bad response: Expecting ':' delimiter: line 50 column 3 (char 6448)
+2026-09-23 01:30:42,946 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"poolside/laguna-xs-2.1:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Poolside","is_byok":fa
+2026-09-23 01:30:53,097 INFO [world-news] attempt 3 invalid: ["analysis/2: 'content' is a required property", "analysis/3: 'heading' is a required property"]
+2026-09-23 01:30:53,319 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 5574, Requested 4959. Please try again in 18.9975s. Need more tokens? Upgrade to Dev Tier today at https://co
+2026-09-23 01:32:19,482 INFO [world-news] attempt 2 invalid: ["entities/0/type: 'country' is not one of ['concept', 'company', 'model', 'person', 'product', 'region', 'organization', 'event']", "entities/1/type: 'territory' is not one of ['concept', 'company', 'model', 'person', 'product', 'region', 'organization', 'event']"]
+2026-09-23 01:33:18,282 INFO [world-news] published 2026-09-23-003 — US to build two military bases in Greenland under new deal w
+2026-09-23 01:33:36,422 INFO [tech-news] nothing selected
+2026-09-23 01:34:54,639 INFO [politics] published 2026-09-23-004 — Trump says he can do business with Burnham but criticises 't
+2026-09-23 01:35:24,001 INFO [politics] published 2026-09-23-005 — Davey promises tax cuts for millions if UK rejoins EU single
+2026-09-23 01:36:44,477 INFO [products] published 2026-09-23-006 — WeWeb MCP
+2026-09-23 01:36:48,983 INFO [products] published 2026-09-23-007 — Reeno – AI‑Driven Conversational Language Coach That Calls Y
+2026-09-23 01:36:49,123 INFO collect done: 6 item(s) published — target 4/10, next run ≈ 2026-09-23T01:51:49+00:00 UTC
+2026-09-23 01:36:51,508 INFO [world-news] model returned no selection — using heuristic fallback (3)
+2026-09-23 01:36:51,940 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 5921, Requested 5631. Please try again in 26.64s. Need more tokens? Upgrade to Dev Tier today at https://cons
+2026-09-23 01:36:57,626 ERROR [world-news] generate error: HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
+
+2026-09-23 01:37:03,627 WARNING [world-news] no collect provider for deep-dive
+2026-09-23 01:37:03,710 WARNING [world-news] no collect provider for deep-dive
+2026-09-23 01:37:03,770 WARNING [world-news] no collect provider for deep-dive
+2026-09-23 01:37:04,182 WARNING [tech-news] no collect provider available
+2026-09-23 01:37:04,729 WARNING [politics] no collect provider available
+2026-09-23 01:37:05,502 WARNING [products] no collect provider available
+2026-09-23 01:37:05,638 INFO collect done: 0 item(s) published — target 4/10, next run ≈ 2026-09-24T01:00:00+00:00 UTC
