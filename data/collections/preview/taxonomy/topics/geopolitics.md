@@ -1,7 +1,7 @@
 ---
 node: "geopolitics"
 layer: topic
-item_count: 64
+item_count: 65
 ---
 
 # geopolitics
@@ -26,6 +26,7 @@ item_count: 64
 
 - 2026-09-23 · [[2026-09-23-001-trump-threatens-to-annihilate-iran-in-un-speech-as]] — Trump threatens to 'annihilate' Iran in UN speech as officials from both countries meet on sidelines
 - 2026-09-23 · [[2026-09-23-005-davey-promises-tax-cuts-for-millions-if-uk-rejoins-eu]] — Davey promises tax cuts for millions if UK rejoins EU single market
+- 2026-09-23 · [[2026-09-23-008-burnham-expects-to-find-common-ground-with-trump-in-first]] — Burnham expects to find 'common ground' with Trump in first meeting
 - 2026-09-22 · [[2026-09-22-003-merz-vows-to-keep-coalition-together-for-germany-s]] — Merz vows to keep coalition together for Germany's 'democratic future'
 - 2026-09-22 · [[2026-09-22-004-uk-to-provide-saudi-arabia-with-defensive-military-support]] — UK to provide Saudi Arabia with 'defensive' military support, says Burnham
 - 2026-09-21 · [[2026-09-21-002-largest-attack-on-moscow-sees-ukraine-fire-hundreds-of]] — Largest attack on Moscow sees Ukraine fire hundreds of drones, mayor says

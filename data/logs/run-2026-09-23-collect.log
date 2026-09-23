@@ -22,3 +22,11 @@
 2026-09-23 01:37:04,729 WARNING [politics] no collect provider available
 2026-09-23 01:37:05,502 WARNING [products] no collect provider available
 2026-09-23 01:37:05,638 INFO collect done: 0 item(s) published — target 4/10, next run ≈ 2026-09-24T01:00:00+00:00 UTC
+2026-09-23 05:44:32,623 INFO [world-news] published 2026-09-23-008 — Burnham expects to find 'common ground' with Trump in first 
+2026-09-23 05:44:32,961 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6794, Requested 5198. Please try again in 29.94s. Need more tokens? Upgrade to Dev Tier today at https://cons
+2026-09-23 05:44:35,963 WARNING [world-news] no collect provider for deep-dive
+2026-09-23 05:44:36,129 WARNING [world-news] no collect provider for deep-dive
+2026-09-23 05:44:37,022 WARNING [tech-news] no collect provider available
+2026-09-23 05:44:37,497 WARNING [politics] no collect provider available
+2026-09-23 05:44:39,005 WARNING [products] no collect provider available
+2026-09-23 05:44:39,237 INFO collect done: 1 item(s) published — target 3/10, next run ≈ 2026-09-24T01:00:00+00:00 UTC

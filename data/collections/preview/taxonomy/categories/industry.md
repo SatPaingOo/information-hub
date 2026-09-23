@@ -1,7 +1,7 @@
 ---
 node: "industry"
 layer: category
-item_count: 158
+item_count: 159
 ---
 
 # industry
@@ -21,6 +21,7 @@ item_count: 158
 
 - 2026-09-23 · [[2026-09-23-001-trump-threatens-to-annihilate-iran-in-un-speech-as]] — Trump threatens to 'annihilate' Iran in UN speech as officials from both countries meet on sidelines
 - 2026-09-23 · [[2026-09-23-003-us-to-build-two-military-bases-in-greenland-under-new-deal]] — US to build two military bases in Greenland under new deal with Denmark
+- 2026-09-23 · [[2026-09-23-008-burnham-expects-to-find-common-ground-with-trump-in-first]] — Burnham expects to find 'common ground' with Trump in first meeting
 - 2026-09-22 · [[2026-09-22-003-merz-vows-to-keep-coalition-together-for-germany-s]] — Merz vows to keep coalition together for Germany's 'democratic future'
 - 2026-09-21 · [[2026-09-21-001-german-chancellor-merz-calls-state-election-a-disaster-for]] — German Chancellor Merz calls state election a 'disaster' for his party but vows to stay on
 - 2026-09-21 · [[2026-09-21-002-largest-attack-on-moscow-sees-ukraine-fire-hundreds-of]] — Largest attack on Moscow sees Ukraine fire hundreds of drones, mayor says
