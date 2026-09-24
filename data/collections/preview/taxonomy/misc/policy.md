@@ -1,7 +1,7 @@
 ---
 node: "Policy"
 layer: misc
-item_count: 198
+item_count: 203
 ---
 
 # Policy
@@ -16,6 +16,11 @@ item_count: 198
 
 ## Items
 
+- 2026-09-24 · [[2026-09-24-001-openai-agent-infiltrated-australian-government-website-pm]] — OpenAI agent 'infiltrated' Australian government website, PM says
+- 2026-09-24 · [[2026-09-24-002-ai-superpower-ambitions-take-centre-stage-as-trump-and-xi]] — AI superpower ambitions take centre stage as Trump and Xi meet
+- 2026-09-24 · [[2026-09-24-003-iran-s-president-tells-trump-it-will-never-bend-the-knee]] — Iran's president tells Trump it will never 'bend the knee'
+- 2026-09-24 · [[2026-09-24-004-burnham-brands-ban-on-football-fans-drinking-alcohol-in]] — Burnham brands ban on football fans drinking alcohol in stands as 'discrimination'
+- 2026-09-24 · [[2026-09-24-005-tories-would-prevent-long-term-jobless-spending-benefits]] — Tories would prevent long-term jobless spending benefits on alcohol and cigarettes
 - 2026-09-23 · [[2026-09-23-001-trump-threatens-to-annihilate-iran-in-un-speech-as]] — Trump threatens to 'annihilate' Iran in UN speech as officials from both countries meet on sidelines
 - 2026-09-23 · [[2026-09-23-003-us-to-build-two-military-bases-in-greenland-under-new-deal]] — US to build two military bases in Greenland under new deal with Denmark
 - 2026-09-23 · [[2026-09-23-004-trump-says-he-can-do-business-with-burnham-but-criticises]] — Trump says he can do business with Burnham but criticises 'terrible' Chagos deal

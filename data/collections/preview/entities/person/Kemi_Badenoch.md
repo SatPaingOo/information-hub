@@ -1,7 +1,7 @@
 ---
 name: "Kemi Badenoch"
 entity_type: person
-backlink_count: 10
+backlink_count: 11
 ---
 
 # Kemi Badenoch
@@ -10,6 +10,7 @@ backlink_count: 10
 
 ## Referenced by
 
+- 2026-09-24 · [[2026-09-24-005-tories-would-prevent-long-term-jobless-spending-benefits]] — Tories would prevent long-term jobless spending benefits on alcohol and cigarettes
 - 2026-09-20 · [[2026-09-20-004-davey-says-lib-dems-are-firewall-against-farage-as]] — Davey says Lib Dems are 'firewall against Farage' as conference begins
 - 2026-09-20 · [[2026-09-20-005-badenoch-says-she-is-instructing-lawyers-to-challenge]] — Badenoch says she is instructing lawyers to challenge government after Tory-run council's 94% tax hike
 - 2026-09-11 · [[2026-09-11-005-badenoch-denies-housing-benefit-cuts-plan-would-make]] — Badenoch denies housing benefit cuts plan would make people homeless

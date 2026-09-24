@@ -1,7 +1,7 @@
 ---
 node: "politics"
 layer: topic
-item_count: 78
+item_count: 81
 ---
 
 # politics
@@ -17,6 +17,9 @@ item_count: 78
 
 ## Items
 
+- 2026-09-24 · [[2026-09-24-004-burnham-brands-ban-on-football-fans-drinking-alcohol-in]] — Burnham brands ban on football fans drinking alcohol in stands as 'discrimination'
+- 2026-09-24 · [[2026-09-24-004-burnham-brands-ban-on-football-fans-drinking-alcohol-in]] — Burnham brands ban on football fans drinking alcohol in stands as 'discrimination'
+- 2026-09-24 · [[2026-09-24-005-tories-would-prevent-long-term-jobless-spending-benefits]] — Tories would prevent long-term jobless spending benefits on alcohol and cigarettes
 - 2026-09-23 · [[2026-09-23-004-trump-says-he-can-do-business-with-burnham-but-criticises]] — Trump says he can do business with Burnham but criticises 'terrible' Chagos deal
 - 2026-09-23 · [[2026-09-23-005-davey-promises-tax-cuts-for-millions-if-uk-rejoins-eu]] — Davey promises tax cuts for millions if UK rejoins EU single market
 - 2026-09-23 · [[2026-09-23-005-davey-promises-tax-cuts-for-millions-if-uk-rejoins-eu]] — Davey promises tax cuts for millions if UK rejoins EU single market

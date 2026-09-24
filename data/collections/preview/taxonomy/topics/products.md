@@ -1,7 +1,7 @@
 ---
 node: "products"
 layer: topic
-item_count: 41
+item_count: 42
 ---
 
 # products
@@ -16,6 +16,7 @@ item_count: 41
 
 ## Items
 
+- 2026-09-24 · [[2026-09-24-006-rankcontrol]] — RankControl
 - 2026-09-23 · [[2026-09-23-006-weweb-mcp]] — WeWeb MCP
 - 2026-09-23 · [[2026-09-23-007-reeno-ai-driven-conversational-language-coach-that-calls]] — Reeno – AI‑Driven Conversational Language Coach That Calls You Randomly
 - 2026-09-21 · [[2026-09-21-006-answers-by-context-dev]] — Answers by Context.dev

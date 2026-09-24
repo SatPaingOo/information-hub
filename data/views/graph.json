@@ -5502,6 +5502,87 @@
       "name": "Excalibur unmanned underwater drone"
     },
     {
+      "id": "info:item:world:global:2026-09-24-001",
+      "type": "item",
+      "date": "2026-09-24",
+      "title": "OpenAI agent 'infiltrated' Australian government website, PM says"
+    },
+    {
+      "id": "info:entity:person:Anthony Albanese",
+      "type": "person",
+      "name": "Anthony Albanese"
+    },
+    {
+      "id": "info:entity:organization:Services Australia",
+      "type": "organization",
+      "name": "Services Australia"
+    },
+    {
+      "id": "info:item:world:global:2026-09-24-002",
+      "type": "item",
+      "date": "2026-09-24",
+      "title": "AI superpower ambitions take centre stage as Trump and Xi meet"
+    },
+    {
+      "id": "info:item:world:global:2026-09-24-003",
+      "type": "item",
+      "date": "2026-09-24",
+      "title": "Iran's president tells Trump it will never 'bend the knee'"
+    },
+    {
+      "id": "info:entity:organization:Strait of Hormuz",
+      "type": "organization",
+      "name": "Strait of Hormuz"
+    },
+    {
+      "id": "info:item:politics:global:2026-09-24-004",
+      "type": "item",
+      "date": "2026-09-24",
+      "title": "Burnham brands ban on football fans drinking alcohol in stands as 'discrimination'"
+    },
+    {
+      "id": "info:entity:person:Leon Brittan",
+      "type": "person",
+      "name": "Leon Brittan"
+    },
+    {
+      "id": "info:entity:organization:Football Supporters' Association",
+      "type": "organization",
+      "name": "Football Supporters' Association"
+    },
+    {
+      "id": "info:entity:organization:UK Football Policing Unit",
+      "type": "organization",
+      "name": "UK Football Policing Unit"
+    },
+    {
+      "id": "info:item:politics:global:2026-09-24-005",
+      "type": "item",
+      "date": "2026-09-24",
+      "title": "Tories would prevent long-term jobless spending benefits on alcohol and cigarettes"
+    },
+    {
+      "id": "info:entity:organization:Trussell Trust",
+      "type": "organization",
+      "name": "Trussell Trust"
+    },
+    {
+      "id": "info:entity:concept:Universal Credit",
+      "type": "concept",
+      "name": "Universal Credit"
+    },
+    {
+      "id": "taxonomy/misc/welfare reform",
+      "type": "taxonomy",
+      "name": "welfare reform"
+    },
+    {
+      "id": "info:item:products:global:2026-09-24-006",
+      "type": "item",
+      "date": "2026-09-24",
+      "title": "RankControl"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -22301,6 +22382,381 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-09-24-001",
+      "target": "info:entity:person:Anthony Albanese",
+      "relation": "Prime Minister of Australia"
+    },
+    {
+      "source": "info:item:world:global:2026-09-24-001",
+      "target": "info:entity:person:Sam Altman",
+      "relation": "CEO of OpenAI"
+    },
+    {
+      "source": "info:item:world:global:2026-09-24-001",
+      "target": "info:entity:organization:OpenAI",
+      "relation": "Developer of the AI agent"
+    },
+    {
+      "source": "info:item:world:global:2026-09-24-001",
+      "target": "info:entity:organization:Services Australia",
+      "relation": "Operator of the Medicare portal"
+    },
+    {
+      "source": "info:item:world:global:2026-09-24-001",
+      "target": "info:item:world:global:2026-09-23-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-24-001",
+      "target": "info:item:world:global:2026-09-23-003",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-24-001",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-24-001",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-24-001",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-24-001",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-24-001",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-24-001",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-24-001",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-24-002",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "US President advocating aggressive AI investment and minimal regulation"
+    },
+    {
+      "source": "info:item:world:global:2026-09-24-002",
+      "target": "info:entity:person:Xi Jinping",
+      "relation": "Chinese President framing AI as a national power maximizer"
+    },
+    {
+      "source": "info:item:world:global:2026-09-24-002",
+      "target": "info:entity:company:OpenAI",
+      "relation": "US AI firm developing frontier models and influencing US policy stance"
+    },
+    {
+      "source": "info:item:world:global:2026-09-24-002",
+      "target": "info:entity:company:Anthropic",
+      "relation": "US AI leader in frontier models, cited in performance benchmarks"
+    },
+    {
+      "source": "info:item:world:global:2026-09-24-002",
+      "target": "info:item:world:global:2026-09-24-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-24-002",
+      "target": "info:item:world:global:2026-09-23-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-24-002",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-24-002",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-24-002",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-24-002",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-24-002",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-24-002",
+      "target": "taxonomy/misc/AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-24-002",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-24-003",
+      "target": "info:entity:person:Masoud Pezeshkian",
+      "relation": "President of Iran delivering defiant UN speech"
+    },
+    {
+      "source": "info:item:world:global:2026-09-24-003",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "U.S. President threatening to annihilate Iran"
+    },
+    {
+      "source": "info:item:world:global:2026-09-24-003",
+      "target": "info:entity:organization:Strait of Hormuz",
+      "relation": "Strategic maritime chokepoint central to the conflict"
+    },
+    {
+      "source": "info:item:world:global:2026-09-24-003",
+      "target": "info:entity:organization:Islamic Revolutionary Guard Corps (IRGC)",
+      "relation": "Iranian military body involved in regional actions"
+    },
+    {
+      "source": "info:item:world:global:2026-09-24-003",
+      "target": "info:item:world:global:2026-09-24-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-24-003",
+      "target": "info:item:world:global:2026-09-23-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-24-003",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-24-003",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-24-003",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-24-003",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-24-003",
+      "target": "taxonomy/topic/world",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-24-003",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-24-003",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-24-004",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "politician advocating removal of alcohol ban"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-24-004",
+      "target": "info:entity:person:Leon Brittan",
+      "relation": "former Home Secretary who introduced the 1985 legislation"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-24-004",
+      "target": "info:entity:organization:Football Supporters' Association",
+      "relation": "advocates for reviewing the alcohol restriction"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-24-004",
+      "target": "info:entity:organization:UK Football Policing Unit",
+      "relation": "raises safety concerns over relaxing the law"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-24-004",
+      "target": "info:item:politics:global:2026-09-23-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-24-004",
+      "target": "info:item:politics:global:2026-09-23-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-24-004",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-24-004",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-24-004",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-24-004",
+      "target": "taxonomy/topic/politics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-24-004",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-24-004",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-24-005",
+      "target": "info:entity:person:Kemi Badenoch",
+      "relation": "Conservative Party leader and architect of the welfare reform proposal"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-24-005",
+      "target": "info:entity:organization:Labour Party",
+      "relation": "principal opposition critic of the Tory welfare plan"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-24-005",
+      "target": "info:entity:organization:Trussell Trust",
+      "relation": "anti‑poverty charity warning of the plan’s detrimental impact"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-24-005",
+      "target": "info:entity:concept:Universal Credit",
+      "relation": "core benefit system targeted for reduction under the new proposal"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-24-005",
+      "target": "info:item:politics:global:2026-09-24-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-24-005",
+      "target": "info:item:politics:global:2026-09-23-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-24-005",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-24-005",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-24-005",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-24-005",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-24-005",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-24-005",
+      "target": "taxonomy/misc/welfare reform",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-09-24-006",
+      "target": "info:entity:company:OpenAI",
+      "relation": "primary AI model source for citation pattern analysis"
+    },
+    {
+      "source": "info:item:products:global:2026-09-24-006",
+      "target": "info:entity:company:Google",
+      "relation": "search engine and Gemini AI model provider"
+    },
+    {
+      "source": "info:item:products:global:2026-09-24-006",
+      "target": "info:entity:model:Google Gemini",
+      "relation": "AI model referenced for citation behavior"
+    },
+    {
+      "source": "info:item:products:global:2026-09-24-006",
+      "target": "info:entity:company:Anthropic",
+      "relation": "AI model provider used for cross‑model citation insights"
+    },
+    {
+      "source": "info:item:products:global:2026-09-24-006",
+      "target": "info:item:products:global:2026-09-23-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-09-24-006",
+      "target": "info:item:products:global:2026-09-23-007",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-09-24-006",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-09-24-006",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-09-24-006",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-09-24-006",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-09-24-006",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-09-24-006",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -22516,7 +22972,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:Google",
       "relation": "co-occurs",
-      "weight": "5"
+      "weight": "6"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -22534,7 +22990,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
-      "weight": "40"
+      "weight": "42"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -22690,7 +23146,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:model:Google Gemini",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -22756,7 +23212,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:person:Donald Trump",
       "relation": "co-occurs",
-      "weight": "6"
+      "weight": "7"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -22809,6 +23265,12 @@
     {
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:person:Tristan Buckmaster",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:person:Xi Jinping",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -23146,7 +23608,7 @@
       "source": "info:entity:company:Google",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
-      "weight": "5"
+      "weight": "6"
     },
     {
       "source": "info:entity:company:Google",
@@ -23181,6 +23643,12 @@
     {
       "source": "info:entity:company:Google",
       "target": "info:entity:model:Gemini 3.8",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Google",
+      "target": "info:entity:model:Google Gemini",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -23650,7 +24118,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:model:Google Gemini",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -23788,7 +24256,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Donald Trump",
       "relation": "co-occurs",
-      "weight": "4"
+      "weight": "5"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -23853,6 +24321,12 @@
     {
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Vladimir Putin",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:person:Xi Jinping",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -24867,6 +25341,24 @@
     {
       "source": "info:entity:concept:Strait of Hormuz",
       "target": "info:entity:person:Donald Trump",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Universal Credit",
+      "target": "info:entity:organization:Labour Party",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Universal Credit",
+      "target": "info:entity:organization:Trussell Trust",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Universal Credit",
+      "target": "info:entity:person:Kemi Badenoch",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -26851,6 +27343,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Football Supporters' Association",
+      "target": "info:entity:organization:UK Football Policing Unit",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Football Supporters' Association",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Football Supporters' Association",
+      "target": "info:entity:person:Leon Brittan",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Fortum",
       "target": "info:entity:person:Petteri Orpo",
       "relation": "co-occurs",
@@ -27302,6 +27812,12 @@
     },
     {
       "source": "info:entity:organization:Islamic Revolutionary Guard Corps (IRGC)",
+      "target": "info:entity:organization:Strait of Hormuz",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Islamic Revolutionary Guard Corps (IRGC)",
       "target": "info:entity:organization:U.S. Department of Defense",
       "relation": "co-occurs",
       "weight": "1"
@@ -27322,13 +27838,13 @@
       "source": "info:entity:organization:Islamic Revolutionary Guard Corps (IRGC)",
       "target": "info:entity:person:Donald Trump",
       "relation": "co-occurs",
-      "weight": "4"
+      "weight": "5"
     },
     {
       "source": "info:entity:organization:Islamic Revolutionary Guard Corps (IRGC)",
       "target": "info:entity:person:Masoud Pezeshkian",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:organization:Islamic Revolutionary Guard Corps (IRGC)",
@@ -27440,6 +27956,12 @@
     },
     {
       "source": "info:entity:organization:Labour Party",
+      "target": "info:entity:organization:Trussell Trust",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Labour Party",
       "target": "info:entity:organization:Wandsworth Council",
       "relation": "co-occurs",
       "weight": "1"
@@ -27484,7 +28006,7 @@
       "source": "info:entity:organization:Labour Party",
       "target": "info:entity:person:Kemi Badenoch",
       "relation": "co-occurs",
-      "weight": "4"
+      "weight": "5"
     },
     {
       "source": "info:entity:organization:Labour Party",
@@ -27986,6 +28508,12 @@
     },
     {
       "source": "info:entity:organization:OpenAI",
+      "target": "info:entity:organization:Services Australia",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:OpenAI",
       "target": "info:entity:organization:United States Department of Defense",
       "relation": "co-occurs",
       "weight": "1"
@@ -27993,6 +28521,12 @@
     {
       "source": "info:entity:organization:OpenAI",
       "target": "info:entity:person:Andy Burnham",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:OpenAI",
+      "target": "info:entity:person:Anthony Albanese",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -28053,6 +28587,12 @@
     {
       "source": "info:entity:organization:OpenAI",
       "target": "info:entity:person:Mette Frederiksen",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:OpenAI",
+      "target": "info:entity:person:Sam Altman",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -28399,6 +28939,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Services Australia",
+      "target": "info:entity:person:Anthony Albanese",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Services Australia",
+      "target": "info:entity:person:Sam Altman",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Shelter",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
@@ -28453,6 +29005,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Strait of Hormuz",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Strait of Hormuz",
+      "target": "info:entity:person:Masoud Pezeshkian",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Syrian Government",
       "target": "info:entity:person:Ahmed al-Sharaa",
       "relation": "co-occurs",
@@ -28503,6 +29067,12 @@
     {
       "source": "info:entity:organization:Transport for All",
       "target": "info:entity:person:Andy Burnham",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Trussell Trust",
+      "target": "info:entity:person:Kemi Badenoch",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -28665,6 +29235,18 @@
     {
       "source": "info:entity:organization:U.S. State Department",
       "target": "info:entity:person:Masoud Pezeshkian",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:UK Football Policing Unit",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:UK Football Policing Unit",
+      "target": "info:entity:person:Leon Brittan",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -29258,6 +29840,12 @@
     },
     {
       "source": "info:entity:person:Andy Burnham",
+      "target": "info:entity:person:Leon Brittan",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Andy Burnham",
       "target": "info:entity:person:Lizzie Harper",
       "relation": "co-occurs",
       "weight": "1"
@@ -29427,6 +30015,12 @@
     {
       "source": "info:entity:person:Anoushka Mutanda-Dougherty",
       "target": "info:entity:person:Tupac Shakur",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Anthony Albanese",
+      "target": "info:entity:person:Sam Altman",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -29902,7 +30496,7 @@
       "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:Masoud Pezeshkian",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:person:Donald Trump",
@@ -29955,6 +30549,12 @@
     {
       "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Donald Trump",
+      "target": "info:entity:person:Xi Jinping",
       "relation": "co-occurs",
       "weight": "1"
     },

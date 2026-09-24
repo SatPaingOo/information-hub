@@ -1,7 +1,7 @@
 ---
 name: "OpenAI"
 entity_type: company
-backlink_count: 70
+backlink_count: 73
 ---
 
 # OpenAI
@@ -10,6 +10,9 @@ backlink_count: 70
 
 ## Referenced by
 
+- 2026-09-24 · [[2026-09-24-001-openai-agent-infiltrated-australian-government-website-pm]] — OpenAI agent 'infiltrated' Australian government website, PM says
+- 2026-09-24 · [[2026-09-24-002-ai-superpower-ambitions-take-centre-stage-as-trump-and-xi]] — AI superpower ambitions take centre stage as Trump and Xi meet
+- 2026-09-24 · [[2026-09-24-006-rankcontrol]] — RankControl
 - 2026-09-23 · [[2026-09-23-004-trump-says-he-can-do-business-with-burnham-but-criticises]] — Trump says he can do business with Burnham but criticises 'terrible' Chagos deal
 - 2026-09-23 · [[2026-09-23-006-weweb-mcp]] — WeWeb MCP
 - 2026-09-23 · [[2026-09-23-007-reeno-ai-driven-conversational-language-coach-that-calls]] — Reeno – AI‑Driven Conversational Language Coach That Calls You Randomly

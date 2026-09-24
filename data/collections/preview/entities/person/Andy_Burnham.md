@@ -1,7 +1,7 @@
 ---
 name: "Andy Burnham"
 entity_type: person
-backlink_count: 37
+backlink_count: 38
 ---
 
 # Andy Burnham
@@ -10,6 +10,7 @@ backlink_count: 37
 
 ## Referenced by
 
+- 2026-09-24 · [[2026-09-24-004-burnham-brands-ban-on-football-fans-drinking-alcohol-in]] — Burnham brands ban on football fans drinking alcohol in stands as 'discrimination'
 - 2026-09-23 · [[2026-09-23-004-trump-says-he-can-do-business-with-burnham-but-criticises]] — Trump says he can do business with Burnham but criticises 'terrible' Chagos deal
 - 2026-09-23 · [[2026-09-23-008-burnham-expects-to-find-common-ground-with-trump-in-first]] — Burnham expects to find 'common ground' with Trump in first meeting
 - 2026-09-22 · [[2026-09-22-004-uk-to-provide-saudi-arabia-with-defensive-military-support]] — UK to provide Saudi Arabia with 'defensive' military support, says Burnham

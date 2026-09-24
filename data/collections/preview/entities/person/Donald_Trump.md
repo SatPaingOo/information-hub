@@ -1,7 +1,7 @@
 ---
 name: "Donald Trump"
 entity_type: person
-backlink_count: 46
+backlink_count: 48
 ---
 
 # Donald Trump
@@ -10,6 +10,8 @@ backlink_count: 46
 
 ## Referenced by
 
+- 2026-09-24 · [[2026-09-24-002-ai-superpower-ambitions-take-centre-stage-as-trump-and-xi]] — AI superpower ambitions take centre stage as Trump and Xi meet
+- 2026-09-24 · [[2026-09-24-003-iran-s-president-tells-trump-it-will-never-bend-the-knee]] — Iran's president tells Trump it will never 'bend the knee'
 - 2026-09-23 · [[2026-09-23-001-trump-threatens-to-annihilate-iran-in-un-speech-as]] — Trump threatens to 'annihilate' Iran in UN speech as officials from both countries meet on sidelines
 - 2026-09-23 · [[2026-09-23-003-us-to-build-two-military-bases-in-greenland-under-new-deal]] — US to build two military bases in Greenland under new deal with Denmark
 - 2026-09-23 · [[2026-09-23-004-trump-says-he-can-do-business-with-burnham-but-criticises]] — Trump says he can do business with Burnham but criticises 'terrible' Chagos deal

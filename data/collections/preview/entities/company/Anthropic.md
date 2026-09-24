@@ -1,7 +1,7 @@
 ---
 name: "Anthropic"
 entity_type: company
-backlink_count: 47
+backlink_count: 49
 ---
 
 # Anthropic
@@ -10,6 +10,8 @@ backlink_count: 47
 
 ## Referenced by
 
+- 2026-09-24 · [[2026-09-24-002-ai-superpower-ambitions-take-centre-stage-as-trump-and-xi]] — AI superpower ambitions take centre stage as Trump and Xi meet
+- 2026-09-24 · [[2026-09-24-006-rankcontrol]] — RankControl
 - 2026-09-23 · [[2026-09-23-004-trump-says-he-can-do-business-with-burnham-but-criticises]] — Trump says he can do business with Burnham but criticises 'terrible' Chagos deal
 - 2026-09-23 · [[2026-09-23-007-reeno-ai-driven-conversational-language-coach-that-calls]] — Reeno – AI‑Driven Conversational Language Coach That Calls You Randomly
 - 2026-09-20 · [[2026-09-20-008-trump-says-us-will-form-ai-force-and-appoint-an-artificial]] — Trump says US will form 'AI Force' and appoint an artificial intelligence tsar
