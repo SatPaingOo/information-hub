@@ -1,7 +1,7 @@
 ---
 node: "geopolitics"
 layer: topic
-item_count: 67
+item_count: 68
 ---
 
 # geopolitics
@@ -24,6 +24,7 @@ item_count: 67
 
 ## Items
 
+- 2026-09-25 · [[2026-09-25-003-media-outlets-banned-by-trump-denied-access-to-white-house]] — Media outlets banned by Trump denied access to White House dinner despite judge's order
 - 2026-09-24 · [[2026-09-24-002-ai-superpower-ambitions-take-centre-stage-as-trump-and-xi]] — AI superpower ambitions take centre stage as Trump and Xi meet
 - 2026-09-24 · [[2026-09-24-003-iran-s-president-tells-trump-it-will-never-bend-the-knee]] — Iran's president tells Trump it will never 'bend the knee'
 - 2026-09-23 · [[2026-09-23-001-trump-threatens-to-annihilate-iran-in-un-speech-as]] — Trump threatens to 'annihilate' Iran in UN speech as officials from both countries meet on sidelines

@@ -1,7 +1,7 @@
 ---
 node: "Agentic AI"
 layer: misc
-item_count: 48
+item_count: 50
 ---
 
 # Agentic AI
@@ -17,6 +17,8 @@ item_count: 48
 
 ## Items
 
+- 2026-09-25 · [[2026-09-25-001-why-australia-chose-the-world-s-biggest-political-stage-to]] — Why Australia chose the world's biggest political stage to reveal OpenAI hack
+- 2026-09-25 · [[2026-09-25-006-floot-mcp]] — Floot MCP
 - 2026-09-24 · [[2026-09-24-001-openai-agent-infiltrated-australian-government-website-pm]] — OpenAI agent 'infiltrated' Australian government website, PM says
 - 2026-09-24 · [[2026-09-24-006-rankcontrol]] — RankControl
 - 2026-09-23 · [[2026-09-23-004-trump-says-he-can-do-business-with-burnham-but-criticises]] — Trump says he can do business with Burnham but criticises 'terrible' Chagos deal

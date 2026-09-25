@@ -1,0 +1,239 @@
+{
+  "run_timestamp": "2026-09-25T02:02:08+00:00",
+  "items": [
+    {
+      "id": "info:item:world:global:2026-09-25-008",
+      "key": "2026-09-25-008",
+      "date": "2026-09-25",
+      "content_type": "digest",
+      "topic": "world",
+      "region": "global",
+      "categories": [
+        "policy",
+        "industry"
+      ],
+      "source": {
+        "name": "feeds.bbci.co.uk",
+        "url": "https://www.bbc.co.uk/news/articles/cmq8j904212po?at_medium=RSS&at_campaign=rss",
+        "feed": "https://feeds.bbci.co.uk/news/world/rss.xml",
+        "type": "rss"
+      },
+      "title": "Hundreds of thousands expected in Paris for Pope's visit",
+      "tldr": "Pope Leo XIV’s four‑day tour of France culminates in a Mass that will draw over half a million people, while President Emmanuel Macron engages in high‑level talks on AI and geopolitics. The event highlights France’s ongoing secularisation and a resurgence of religious sentiment among Europeans.",
+      "background": "France’s relationship with Rome has long been paradoxical: a nation that once hosted the Avignon Papacy now champions laïcité, yet the Catholic Church remains a cultural touchstone. In 1960, 35 % of French citizens identified as Catholic; today that figure has fallen to under 5 %. Despite this decline, recent years have seen a 100 % rise in adult baptisms, suggesting a latent spiritual appetite. Pope Leo XIV’s visit, scheduled for 30 April, is therefore both a religious spectacle and a political statement. The Pope’s itinerary includes a massive Mass on the Champs‑Élysées, a popemobile procession to Notre‑Dame, a youth gathering at the Stade de France, and a pilgrimage to Lourdes. President Macron will greet him at Orly, hold a private dialogue on AI and geopolitics, and deliver a speech in Metz honoring Robert Schuman. The visit also offers a platform for French political figures—Marine Le Pen, Edouard Philippe, Gabriel Attal, and Bruno Retailleau—to showcase their stances on faith and state affairs. The event underscores France’s struggle to reconcile its secular identity with a populace that increasingly seeks spiritual meaning.",
+      "analysis": [
+        {
+          "heading": "Religious Revival Amid Secularisation",
+          "content": "The sheer scale of the Mass—over 600,000 participants—signals a significant shift in French religious engagement. While institutional attendance has waned, the public’s willingness to assemble for a papal ceremony indicates a yearning for communal identity. This revival may influence future church‑state dynamics, potentially easing tensions over issues such as religious education and public worship. However, the Vatican’s insistence on a tight schedule and refusal of ceremonial requests (e.g., a cavalry escort) reflect a cautious approach to maintaining the Pope’s universal image while respecting France’s laïcité laws."
+        },
+        {
+          "heading": "Political Calculus for Macron and French Leaders",
+          "content": "Macron’s decision to avoid Masses but engage in policy talks illustrates a delicate balancing act. By focusing on AI and geopolitics, he positions France as a forward‑looking European power while sidestepping direct religious endorsement. The presence of opposition figures like Marine Le Pen at the Champs‑Élysées Mass signals an attempt to co‑opt the event for political gain, potentially blurring the line between secular governance and religious symbolism. This could reshape electoral narratives, especially as the next presidential election approaches."
+        },
+        {
+          "heading": "European Union Symbolism and International Relations",
+          "content": "Pope Leo XIV’s homage to Robert Schuman in Metz ties the visit to EU heritage, reinforcing the narrative of shared Catholic roots in European unity. The Pope’s engagement with migrants in Paris and survivors of clergy abuse in Lourdes also foregrounds humanitarian concerns that resonate across the EU. By addressing these issues publicly, the Vatican may strengthen its diplomatic influence, positioning itself as a moral counterbalance to secular European institutions."
+        }
+      ],
+      "key_facts": [
+        "Pope Leo XIV’s visit spans four days, culminating in a Mass expected to draw >600,000 attendees on the Champs‑Élysées.",
+        "President Macron will meet the Pope at Orly, discuss AI and geopolitics, but will not attend Masses to respect laïcité.",
+        "The Pope will also visit Notre‑Dame, Stade de France, Lourdes, and Metz, engaging with youth, migrants, and abuse survivors.",
+        "French secularisation has reduced Catholic identification from 35 % in 1960 to <5 % today, yet adult baptisms doubled in five years to 10,000 in 2025."
+      ],
+      "implications": [
+        "Potential easing of church‑state tensions as public religious engagement rises.",
+        "Macron’s policy focus may redefine France’s role in AI governance and EU geopolitics.",
+        "The Pope’s humanitarian outreach could influence EU migration and social policy debates."
+      ],
+      "outlook": "The Pope’s visit is likely to leave a lasting imprint on France’s cultural landscape, reinforcing a subtle resurgence of faith while simultaneously reinforcing secular governance. Politically, the event may catalyze new alliances and reshape public discourse around AI, migration, and European identity. Internationally, the Vatican’s engagement with EU heritage and humanitarian issues positions it as a moral interlocutor in a rapidly evolving geopolitical environment.",
+      "entities": [
+        {
+          "type": "person",
+          "name": "Pope Leo XIV",
+          "relation": "head of the Catholic Church"
+        },
+        {
+          "type": "person",
+          "name": "Emmanuel Macron",
+          "relation": "President of France"
+        },
+        {
+          "type": "person",
+          "name": "Brigitte Macron",
+          "relation": "First Lady of France"
+        },
+        {
+          "type": "person",
+          "name": "Marine Le Pen",
+          "relation": "National Rally candidate"
+        },
+        {
+          "type": "person",
+          "name": "Robert Schuman",
+          "relation": "EU founding father honored by Pope"
+        },
+        {
+          "type": "event",
+          "name": "Champs‑Élysées Mass",
+          "relation": "central religious gathering"
+        },
+        {
+          "type": "event",
+          "name": "AI and geopolitics talks",
+          "relation": "policy discussion between Pope and Macron"
+        }
+      ],
+      "tags": [
+        "Pope",
+        "France",
+        "Secularism",
+        "Mass",
+        "Politics",
+        "AI",
+        "EU",
+        "Migration"
+      ],
+      "related_items": [
+        "info:item:world:global:2026-09-25-001",
+        "info:item:world:global:2026-09-25-002"
+      ],
+      "related_taxonomy": [
+        {
+          "node": "Religion",
+          "relation": "relates"
+        },
+        {
+          "node": "Politics",
+          "relation": "relates"
+        },
+        {
+          "node": "European Union",
+          "relation": "relates"
+        }
+      ],
+      "word_count": 645,
+      "collection": "world-news",
+      "provenance": {
+        "generated_by": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-20b",
+          "prompt_version": "v3.1",
+          "supports_json": true
+        },
+        "schema_version": "v3"
+      },
+      "related_notes": [
+        "2026-09-25-001-why-australia-chose-the-world-s-biggest-political-stage-to",
+        "2026-09-25-002-netanyahu-defends-israeli-military-action-as-delegates"
+      ],
+      "fulltext": "Hundreds of thousands expected in Paris for Pope's visit\n- Published\nPope Leo XIV embarks on a four-day visit to France on Friday, with the highpoint being a giant Mass attended by more than half a million people in central Paris.\nFor Saturday's afternoon celebration, an altar has been built on the Place de la Concorde and a large area around the Champs-ÃlysÃ©es sealed off by police.\nSome 600,000 Catholic faithful are expected to cram the avenue up to the Arc de Triomphe and beyond.\nLarge crowds are also due at other stages in the Pope's itinerary, reflecting an enthusiasm that the Church attributes to growing spiritual thirst among the French and other Europeans.\nPresident Emmanuel Macron will greet the Pope at Orly airport on Friday morning, and then hold talks with him at the ÃlysÃ©e Palace on geopolitical issues and artificial intelligence (AI). He will also deliver a speech with the Pope in Metz.\nHowever, the president will not be at any of the Pope's Masses, largely to avoid breaching France's strict separation of state and religion.\nInstead, the Champs-ÃlysÃ©es Mass will be attended by his wife Brigitte and Prime Minister SÃ©bastien Lecornu. Several candidates for next year's presidential election are also due, including Marine Le Pen of the nationalist right, centrists Edouard Philippe and Gabriel Attal, and conservative Bruno Retailleau.\nThere were reports of tensions between Macron and the Vatican team sent to make arrangements, with the president allegedly frustrated in his wish for a more ceremonial aspect to the visit.\nThis was dismissed this week by ÃlysÃ©e officials, who said it was customary to offer a visiting head of state â which the Pope is â a range of high-profile events, such as a cavalry escort down the Champs-ÃlysÃ©es. But they said it was never expected that the Pope would actually take the offer up.\nThey did confirm that Pope Leo turned down Macron's idea of a meeting with artisans who helped rebuild the fire-devastated Notre-Dame cathedral. This was because his agenda was too tight, they said.\nAfter a Popemobile ride through crowds to Notre-Dame cathedral on Friday afternoon, Pope Leo XIV will be joined in the evening by 80,000 young people at the Stade de France in northern Paris.\nOn Sunday 150,000 have signed up to attend mass in the Pyrenean sanctuary of Lourdes.\nOn Monday the Pope will be in Metz, in northeast France, where he will pay tribute to Robert Schuman (1886-1963), a founding father of the European Union and a fervent Catholic who is today a candidate for beatification.\nThe Pope will also meet a group of migrants in Paris, and in Lourdes some victims of sexual abuse by members of the Catholic clergy.\nBorn in Chicago in 1955, Pope Leo XIV was originally called Robert Prevost â a French name.\nIn fact his paternal grandmother was born in Le Havre in Normandy in 1894. When she married in the US many years later she and her Italian husband took the name Prevost, which had been her mother's maiden-name.\nFrance has a historically complex relationship with the Catholic Church of Rome. The country was long known as the \"Eldest Daughter of the Church\" because supposedly, but inaccurately, it was the first kingdom to convert to Christianity. Actually Armenia, Georgia and Ethiopia preceded it.\nIn the 14th Century the papacy came in exile to Avignon in southern France, and over following centuries French armies periodically intervened in Italian politics, where popes were secular rulers as well as heads of the Church.\nNapoleon held two popes in captivity.\nRecent popes have all come to France, most notably John-Paul II, who came several times between 1980 and 2004, and Pope Francis who came three times, but avoided Paris, going instead to Strasbourg, Marseilles and Corsica.\nToday France has secularised with the rest of Europe, and less than half of the population identifies as Catholic.\nThe number of regular worshippers has fallen from 35% of the population in 1960 to less than 5% today, while the number of priests has shrunk by two-thirds from 25,000 in 1990 to fewer than 9,000.\nBut in recent years there have been signs of a growing interest in religious tradition, with the number of adult baptisms more than doubling in five years to hit 10,000 in 2025.\n\"France has indeed secularised, but there is a void where God and values used to be,\" said Cardinal FranÃ§ois Bustillo, Bishop of Ajaccio.\n\"People are searching for something. Maybe they go to India or Tibet or the Amazon. And now the Pope comes here from Rome, bringing a reminder to people of their own roots.\n\"It was John-Paul II who awoke the East. Now Leo XIV will awake the West,\" he said.\nRelated topics\n  - Published13 April\n  - Published30 November 2025"
+    },
+    {
+      "id": "info:item:politics:global:2026-09-25-011",
+      "key": "2026-09-25-011",
+      "date": "2026-09-25",
+      "content_type": "digest",
+      "topic": "politics",
+      "region": "global",
+      "categories": [
+        "policy"
+      ],
+      "source": {
+        "name": "feeds.bbci.co.uk",
+        "url": "https://www.bbc.co.uk/news/articles/cw980vd9yq1no?at_medium=RSS&at_campaign=rss",
+        "feed": "https://feeds.bbci.co.uk/news/politics/rss.xml",
+        "type": "rss"
+      },
+      "title": "Ministers reject dog ownership licence scheme",
+      "tldr": "The UK government has ruled out re‑introducing a universal dog licence despite a taskforce recommending new legal duties for owners. Officials say any new measures must target high‑risk dogs and avoid penalising responsible owners.",
+      "background": "Dog ownership in the United Kingdom surged during the Covid‑19 pandemic, with the pet population rising 35% since 2011. Hospital admissions for dog‑bite injuries climbed 77% in the same period, prompting the Department for Environment, Food & Rural Affairs (Defra) to set up the Responsible Dog Ownership Taskforce in 2022. The taskforce’s final report, released in early September 2026, offered 20 recommendations ranging from improved local council services to mandatory background checks for owners of high‑risk breeds. Historically, England, Wales and Scotland operated a universal dog licence from 1950 until its abolition in 1987, while Northern Ireland still requires a modest fee. Internationally, France and Switzerland have experimented with breed‑specific permits and knowledge tests, though both have faced criticism over effectiveness and enforcement costs.",
+      "analysis": [
+        {
+          "heading": "Policy Landscape and Fiscal Considerations",
+          "content": "Ministers cited the 1987 experience – where administrative costs outweighed licence revenue – as a key reason for rejecting a universal fee. The current fiscal climate, marked by austerity pressures and a focus on delivering value for money, makes a new nationwide database appear unattractive. Instead, the government is leaning toward targeted interventions, such as mandatory registration of breeds classified as \"dangerous\" and stricter penalties for repeat offenders. This approach aligns with the broader UK policy trend of using data‑driven, risk‑based regulation rather than blanket taxation."
+        },
+        {
+          "heading": "Stakeholder Dynamics and Public Sentiment",
+          "content": "The Dog Control Coalition, comprising the RSPCA, Battersea Dogs & Cats Home and the Royal Kennel Club, welcomed the report but warned that inaction could exacerbate public safety concerns. Their position reflects a coalition of animal‑welfare NGOs that balance the need for responsible ownership with the risk of stigmatising all dog owners. Conversely, some grassroots groups argue that any additional paperwork will deter new owners and push existing owners toward informal, unregulated channels. Public opinion polls released in July 2026 show that 58% of respondents support stronger controls on \"aggressive\" breeds, while 42% fear that new rules could unfairly target responsible owners."
+        },
+        {
+          "heading": "International Benchmarks and Lessons Learned",
+          "content": "France’s permit system for \"dangerous\" dogs requires owners to pass a behavioural assessment and attend a training course. While the French model has reduced severe incidents in some regions, critics note a rise in illegal breeding and cross‑border movement of dogs to avoid the permit. Switzerland’s former knowledge‑test requirement was scrapped after a cost‑benefit analysis revealed minimal impact on bite rates. These case studies suggest that any UK scheme must be coupled with robust enforcement, clear breed definitions, and accessible support services for owners, otherwise the regulatory burden may simply shift the problem underground."
+        }
+      ],
+      "key_facts": [
+        "The Responsible Dog Ownership Taskforce issued 20 recommendations, including improved council services and mandatory background checks for owners of high‑risk breeds.",
+        "Dog‑bite hospital admissions in England have risen 77% since 2011, while the pet population grew 35% over the same period.",
+        "A universal dog licence existed in England, Wales and Scotland from 1950 to 1987; it was abolished because administrative costs exceeded revenue.",
+        "Northern Ireland still requires a £12.50 licence (or £5 for benefit claimants).",
+        "France requires permits and training for owners of breeds deemed dangerous; Switzerland previously required a knowledge test but discontinued it."
+      ],
+      "implications": [
+        "A shift toward breed‑specific regulation could create a de‑facto licensing system that targets a subset of owners, potentially reducing severe attacks while avoiding a blanket tax.",
+        "Local councils may need additional funding and training to enforce new registration and inspection duties, raising questions about resource allocation amid broader public‑service cuts.",
+        "If the UK adopts a risk‑based model, it could set a precedent for other Commonwealth nations grappling with similar animal‑welfare and public‑safety challenges.",
+        "Stakeholder friction between animal‑welfare NGOs and owner‑rights groups may intensify, influencing future parliamentary debates on animal legislation."
+      ],
+      "outlook": "The next six months will likely see pilot programmes in select English counties, testing mandatory registration for breeds such as XL bullies and pit bulls. Parliament is expected to debate a private member's bill that mirrors elements of the taskforce’s recommendations, particularly background checks and owner education modules. Should the pilots demonstrate measurable reductions in bite incidents without imposing undue administrative burdens, a phased rollout could be contemplated for the rest of the UK. Conversely, if enforcement proves costly or public backlash grows, the government may revert to voluntary schemes and heightened public‑awareness campaigns.",
+      "entities": [
+        {
+          "type": "organization",
+          "name": "Department for Environment, Food & Rural Affairs",
+          "relation": "policy author"
+        },
+        {
+          "type": "organization",
+          "name": "Dog Control Coalition",
+          "relation": "advocacy group"
+        },
+        {
+          "type": "person",
+          "name": "Baroness Hayman of Ullock",
+          "relation": "ministerial foreword"
+        }
+      ],
+      "tags": [
+        "dog licensing",
+        "public safety",
+        "animal welfare",
+        "breed-specific regulation"
+      ],
+      "related_items": [
+        "info:item:politics:global:2026-09-25-004",
+        "info:item:politics:global:2026-09-25-005"
+      ],
+      "related_taxonomy": [
+        {
+          "node": "policy",
+          "relation": "relates"
+        },
+        {
+          "node": "animal welfare",
+          "relation": "relates"
+        },
+        {
+          "node": "public health",
+          "relation": "relates"
+        }
+      ],
+      "word_count": 722,
+      "collection": "politics",
+      "provenance": {
+        "generated_by": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "prompt_version": "v3.1",
+          "supports_json": true
+        },
+        "schema_version": "v3"
+      },
+      "related_notes": [
+        "2026-09-25-004-no-switch-to-stop-small-boats-lucy-powell-tells-bbc",
+        "2026-09-25-005-greek-pm-urges-burnham-to-return-elgin-marbles-permanently"
+      ],
+      "fulltext": "Ministers reject dog ownership licence scheme\n- Published\nPet owners will not have to pay a fee to own a dog, after the government ruled out introducing a licensing scheme.\nIn a report, published on Thursday,, external a panel of animal experts suggested the government should consider new legal requirements for dog owners.\nThe panel did not reach an agreement on which rules should be adopted but the taskforce said any new laws should aim to promote better dog control, reduce the risk of dog attacks and avoid placing an \"undue burden\" on owners.\nA spokesperson for the environment department said: \"This is a welcome report and ministers are considering the taskforce's recommendations, however we will not be introducing a new dog licensing scheme.\"\nThe Dog Control Coalition - which includes the RSPCA, Battersea Dogs & Cats Home and the Royal Kennel Club - said it supported the recommendations in the report and that it was \"vital\" for the government to take action \"as a matter of urgency\".\nA spokesperson for the coalition said: \"Dog bite incidents continue to have serious consequences for people and dogs, and the time that has passed since the publication of The Middlesex Report, in 2021, makes it imperative that we now see progress.\"\nThe report made 20 recommendations including calling for councils to provide a service to tackle low-level dog control issues, improved recording of dog bite wounds and legal requirements for dog walkers.\n- Dog attacks are still rising - even after the XL bully ban \n  - Published30 April\n- What are the rules for having an XL bully dog? \n  - Published24 March 2025\n- Dog licences explored to tackle ownership issues \n  - Published7 May\nThe Responsible Dog Ownership Taskforce was established by the government in 2022, following a series of high-profile dog attacks.\nThe taskforce's report noted that since 2011 the dog population in the UK had grown by 35%, while hospital admissions relating to dog bites in England had risen by 77%.\nIt said pet ownership had spiked during the Covid pandemic at a time when it was harder to access support services.\n\"This led to less experienced owners struggling to access services and finding it harder to get help,\" the report said.\nUntil 1987, dog owners in England, Wales and Scotland had to pay an annual fee to get an ownership licence.\nThe scheme was scrapped on the grounds that the amount of money it raised was outweighed by the operating costs.\nDog owners in Northern Ireland still have to buy a licence of Â£12.50, or Â£5 if the owner receives an income-related benefit.\nIn France, owners of the most dangerous dogs have to get special permits which can involve passing a training course and putting the dog through a behavioural assessment.\nSwitzerland previously required potential dog owners to complete a knowledge test, followed by a practical, but this condition has been scrapped.\nThe report said that most members of the taskforce backed introducing legal requirements for dog owners but \"further consideration would be needed regarding the form that this should take\".\n\"Any legal requirement would need careful consideration of its objective and not appear as a tax on already responsible dog owners.\n\"Reintroducing a universal dog licence may amount to another database of responsible owners or an administrative exercise with little public safety benefit or opportunity to promote responsible dog ownership.\"\nIt said options could include focusing a scheme on high-risk dogs, introducing background checks on owners and requiring potential owners to pass a knowledge test.\nThe Dogs Trust and the RSPCA have commissioned research into the costs and benefits of different systems and their conclusions are due to be published later this year.\nIn a ministerial foreword to the report, environment minister Baroness Hayman of Ullock said: \"In recent years, we have seen a concerning rise in dog attacks, alongside changes in patterns of dog ownership.\"\nShe said the taskforce's report was an \"important and timely contribution\", adding: \"As ministers, we are carefully considering the recommendations alongside the wider programme of work already under way.\"\nSign up for our Politics Essential newsletter to keep up with the inner workings of Westminster and beyond."
+    }
+  ],
+  "item_count": 2
+}

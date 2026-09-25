@@ -1,7 +1,7 @@
 ---
 name: "Anthropic"
 entity_type: company
-backlink_count: 49
+backlink_count: 50
 ---
 
 # Anthropic
@@ -10,6 +10,7 @@ backlink_count: 49
 
 ## Referenced by
 
+- 2026-09-25 · [[2026-09-25-006-floot-mcp]] — Floot MCP
 - 2026-09-24 · [[2026-09-24-002-ai-superpower-ambitions-take-centre-stage-as-trump-and-xi]] — AI superpower ambitions take centre stage as Trump and Xi meet
 - 2026-09-24 · [[2026-09-24-006-rankcontrol]] — RankControl
 - 2026-09-23 · [[2026-09-23-004-trump-says-he-can-do-business-with-burnham-but-criticises]] — Trump says he can do business with Burnham but criticises 'terrible' Chagos deal

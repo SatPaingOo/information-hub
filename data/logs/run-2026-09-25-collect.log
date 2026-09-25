@@ -1,0 +1,22 @@
+2026-09-25 01:53:57,653 INFO [world-news] published 2026-09-25-001 — Why Australia chose the world's biggest political stage to r
+2026-09-25 01:54:31,831 INFO [world-news] published 2026-09-25-002 — Netanyahu defends Israeli military action as delegates walk 
+2026-09-25 01:54:59,190 INFO [world-news] published 2026-09-25-003 — Media outlets banned by Trump denied access to White House d
+2026-09-25 01:57:16,739 INFO [tech-news] nothing selected
+2026-09-25 01:57:59,810 INFO [politics] published 2026-09-25-004 — No 'switch' to stop small boats, Lucy Powell tells BBC
+2026-09-25 01:58:39,078 INFO [politics] published 2026-09-25-005 — Greek PM urges Burnham to return Elgin Marbles permanently
+2026-09-25 01:59:17,702 INFO [products] published 2026-09-25-006 — Floot MCP
+2026-09-25 01:59:22,086 INFO [products] published 2026-09-25-007 — NOAN – The Fact Layer for Your AI Agents
+2026-09-25 01:59:22,455 INFO collect done: 7 item(s) published — target 3/10, next run ≈ 2026-09-25T02:14:22+00:00 UTC
+2026-09-25 01:59:25,052 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 5435, Requested 6282. Please try again in 27.8775s. Need more tokens? Upgrade to Dev Tier today at https://co
+2026-09-25 01:59:30,337 INFO [world-news] published 2026-09-25-008 — Hundreds of thousands expected in Paris for Pope's visit
+2026-09-25 01:59:30,498 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6001, Requested 4795. Please try again in 20.97s. Need more tokens? Upgrade to Dev Tier today at https://conso
+2026-09-25 01:59:33,500 WARNING [world-news] no collect provider for deep-dive
+2026-09-25 01:59:33,604 WARNING [world-news] no collect provider for deep-dive
+2026-09-25 02:01:49,880 INFO [tech-news] nothing selected
+2026-09-25 02:01:55,813 INFO [politics] published 2026-09-25-011 — Ministers reject dog ownership licence scheme
+2026-09-25 02:01:56,042 ERROR [politics] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7274, Requested 5193. Please try again in 33.502499999s. Need more tokens? Upgrade to Dev Tier today at https
+2026-09-25 02:02:01,960 ERROR [politics] generate error: HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
+
+2026-09-25 02:02:07,962 WARNING [politics] no collect provider for deep-dive
+2026-09-25 02:02:08,807 WARNING [products] no collect provider available
+2026-09-25 02:02:09,180 INFO collect done: 2 item(s) published — target 1/10, next run ≈ 2026-09-26T01:00:00+00:00 UTC

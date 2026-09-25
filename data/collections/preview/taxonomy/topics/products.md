@@ -1,7 +1,7 @@
 ---
 node: "products"
 layer: topic
-item_count: 42
+item_count: 44
 ---
 
 # products
@@ -16,6 +16,8 @@ item_count: 42
 
 ## Items
 
+- 2026-09-25 · [[2026-09-25-006-floot-mcp]] — Floot MCP
+- 2026-09-25 · [[2026-09-25-007-noan-the-fact-layer-for-your-ai-agents]] — NOAN – The Fact Layer for Your AI Agents
 - 2026-09-24 · [[2026-09-24-006-rankcontrol]] — RankControl
 - 2026-09-23 · [[2026-09-23-006-weweb-mcp]] — WeWeb MCP
 - 2026-09-23 · [[2026-09-23-007-reeno-ai-driven-conversational-language-coach-that-calls]] — Reeno – AI‑Driven Conversational Language Coach That Calls You Randomly

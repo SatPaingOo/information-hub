@@ -1,7 +1,7 @@
 ---
 node: "Regulation"
 layer: misc
-item_count: 17
+item_count: 20
 ---
 
 # Regulation
@@ -17,6 +17,9 @@ item_count: 17
 
 ## Items
 
+- 2026-09-25 · [[2026-09-25-001-why-australia-chose-the-world-s-biggest-political-stage-to]] — Why Australia chose the world's biggest political stage to reveal OpenAI hack
+- 2026-09-25 · [[2026-09-25-007-noan-the-fact-layer-for-your-ai-agents]] — NOAN – The Fact Layer for Your AI Agents
+- 2026-09-25 · [[2026-09-25-006-floot-mcp]] — Floot MCP
 - 2026-09-23 · [[2026-09-23-006-weweb-mcp]] — WeWeb MCP
 - 2026-09-19 · [[2026-09-19-006-citizen404]] — citizen404
 - 2026-09-19 · [[2026-09-19-008-google-s-gemini-ai-hacked-three-companies-in-security-test]] — Google's Gemini AI hacked three companies in security test

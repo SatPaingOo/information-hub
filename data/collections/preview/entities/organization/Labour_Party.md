@@ -1,7 +1,7 @@
 ---
 name: "Labour Party"
 entity_type: organization
-backlink_count: 9
+backlink_count: 10
 ---
 
 # Labour Party
@@ -10,6 +10,7 @@ backlink_count: 9
 
 ## Referenced by
 
+- 2026-09-25 · [[2026-09-25-004-no-switch-to-stop-small-boats-lucy-powell-tells-bbc]] — No 'switch' to stop small boats, Lucy Powell tells BBC
 - 2026-09-24 · [[2026-09-24-005-tories-would-prevent-long-term-jobless-spending-benefits]] — Tories would prevent long-term jobless spending benefits on alcohol and cigarettes
 - 2026-09-20 · [[2026-09-20-005-badenoch-says-she-is-instructing-lawyers-to-challenge]] — Badenoch says she is instructing lawyers to challenge government after Tory-run council's 94% tax hike
 - 2026-09-19 · [[2026-09-19-005-ex-labour-deputy-leader-tom-watson-joins-palantir]] — Ex-Labour deputy leader Tom Watson joins Palantir

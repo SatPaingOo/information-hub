@@ -1,7 +1,7 @@
 ---
 node: "politics"
 layer: topic
-item_count: 81
+item_count: 84
 ---
 
 # politics
@@ -17,6 +17,9 @@ item_count: 81
 
 ## Items
 
+- 2026-09-25 · [[2026-09-25-004-no-switch-to-stop-small-boats-lucy-powell-tells-bbc]] — No 'switch' to stop small boats, Lucy Powell tells BBC
+- 2026-09-25 · [[2026-09-25-005-greek-pm-urges-burnham-to-return-elgin-marbles-permanently]] — Greek PM urges Burnham to return Elgin Marbles permanently
+- 2026-09-25 · [[2026-09-25-011-ministers-reject-dog-ownership-licence-scheme]] — Ministers reject dog ownership licence scheme
 - 2026-09-24 · [[2026-09-24-004-burnham-brands-ban-on-football-fans-drinking-alcohol-in]] — Burnham brands ban on football fans drinking alcohol in stands as 'discrimination'
 - 2026-09-24 · [[2026-09-24-004-burnham-brands-ban-on-football-fans-drinking-alcohol-in]] — Burnham brands ban on football fans drinking alcohol in stands as 'discrimination'
 - 2026-09-24 · [[2026-09-24-005-tories-would-prevent-long-term-jobless-spending-benefits]] — Tories would prevent long-term jobless spending benefits on alcohol and cigarettes

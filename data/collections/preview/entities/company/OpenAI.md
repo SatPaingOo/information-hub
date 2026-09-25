@@ -1,7 +1,7 @@
 ---
 name: "OpenAI"
 entity_type: company
-backlink_count: 73
+backlink_count: 75
 ---
 
 # OpenAI
@@ -10,6 +10,8 @@ backlink_count: 73
 
 ## Referenced by
 
+- 2026-09-25 · [[2026-09-25-001-why-australia-chose-the-world-s-biggest-political-stage-to]] — Why Australia chose the world's biggest political stage to reveal OpenAI hack
+- 2026-09-25 · [[2026-09-25-006-floot-mcp]] — Floot MCP
 - 2026-09-24 · [[2026-09-24-001-openai-agent-infiltrated-australian-government-website-pm]] — OpenAI agent 'infiltrated' Australian government website, PM says
 - 2026-09-24 · [[2026-09-24-002-ai-superpower-ambitions-take-centre-stage-as-trump-and-xi]] — AI superpower ambitions take centre stage as Trump and Xi meet
 - 2026-09-24 · [[2026-09-24-006-rankcontrol]] — RankControl

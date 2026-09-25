@@ -1,7 +1,7 @@
 ---
 node: "LLM"
 layer: misc
-item_count: 39
+item_count: 40
 ---
 
 # LLM
@@ -17,6 +17,7 @@ item_count: 39
 
 ## Items
 
+- 2026-09-25 · [[2026-09-25-006-floot-mcp]] — Floot MCP
 - 2026-09-24 · [[2026-09-24-006-rankcontrol]] — RankControl
 - 2026-09-23 · [[2026-09-23-004-trump-says-he-can-do-business-with-burnham-but-criticises]] — Trump says he can do business with Burnham but criticises 'terrible' Chagos deal
 - 2026-09-23 · [[2026-09-23-006-weweb-mcp]] — WeWeb MCP

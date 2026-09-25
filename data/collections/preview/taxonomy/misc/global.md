@@ -1,7 +1,7 @@
 ---
 node: "Global"
 layer: misc
-item_count: 264
+item_count: 273
 ---
 
 # Global
@@ -24,6 +24,15 @@ item_count: 264
 
 ## Items
 
+- 2026-09-25 · [[2026-09-25-001-why-australia-chose-the-world-s-biggest-political-stage-to]] — Why Australia chose the world's biggest political stage to reveal OpenAI hack
+- 2026-09-25 · [[2026-09-25-002-netanyahu-defends-israeli-military-action-as-delegates]] — Netanyahu defends Israeli military action as delegates walk out before UN speech
+- 2026-09-25 · [[2026-09-25-003-media-outlets-banned-by-trump-denied-access-to-white-house]] — Media outlets banned by Trump denied access to White House dinner despite judge's order
+- 2026-09-25 · [[2026-09-25-004-no-switch-to-stop-small-boats-lucy-powell-tells-bbc]] — No 'switch' to stop small boats, Lucy Powell tells BBC
+- 2026-09-25 · [[2026-09-25-005-greek-pm-urges-burnham-to-return-elgin-marbles-permanently]] — Greek PM urges Burnham to return Elgin Marbles permanently
+- 2026-09-25 · [[2026-09-25-006-floot-mcp]] — Floot MCP
+- 2026-09-25 · [[2026-09-25-007-noan-the-fact-layer-for-your-ai-agents]] — NOAN – The Fact Layer for Your AI Agents
+- 2026-09-25 · [[2026-09-25-008-hundreds-of-thousands-expected-in-paris-for-pope-s-visit]] — Hundreds of thousands expected in Paris for Pope's visit
+- 2026-09-25 · [[2026-09-25-011-ministers-reject-dog-ownership-licence-scheme]] — Ministers reject dog ownership licence scheme
 - 2026-09-24 · [[2026-09-24-001-openai-agent-infiltrated-australian-government-website-pm]] — OpenAI agent 'infiltrated' Australian government website, PM says
 - 2026-09-24 · [[2026-09-24-002-ai-superpower-ambitions-take-centre-stage-as-trump-and-xi]] — AI superpower ambitions take centre stage as Trump and Xi meet
 - 2026-09-24 · [[2026-09-24-003-iran-s-president-tells-trump-it-will-never-bend-the-knee]] — Iran's president tells Trump it will never 'bend the knee'
