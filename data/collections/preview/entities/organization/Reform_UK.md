@@ -1,7 +1,7 @@
 ---
 name: "Reform UK"
 entity_type: organization
-backlink_count: 21
+backlink_count: 22
 ---
 
 # Reform UK
@@ -10,6 +10,7 @@ backlink_count: 21
 
 ## Referenced by
 
+- 2026-09-26 · [[2026-09-26-002-i-m-not-tempted-to-call-an-early-election-burnham-says]] — I'm not tempted to call an early election, Burnham says
 - 2026-09-23 · [[2026-09-23-005-davey-promises-tax-cuts-for-millions-if-uk-rejoins-eu]] — Davey promises tax cuts for millions if UK rejoins EU single market
 - 2026-09-21 · [[2026-09-21-005-lib-dems-sleepwalking-to-irrelevance-under-davey-says]] — Lib Dems sleepwalking to irrelevance under Davey, says council leader
 - 2026-09-20 · [[2026-09-20-004-davey-says-lib-dems-are-firewall-against-farage-as]] — Davey says Lib Dems are 'firewall against Farage' as conference begins

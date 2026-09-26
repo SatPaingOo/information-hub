@@ -1,7 +1,7 @@
 ---
 name: "Sam Altman"
 entity_type: person
-backlink_count: 10
+backlink_count: 11
 ---
 
 # Sam Altman
@@ -10,6 +10,7 @@ backlink_count: 10
 
 ## Referenced by
 
+- 2026-09-26 · [[2026-09-26-001-openai-bots-meddled-with-multiple-us-government-agency-sites]] — OpenAI bots meddled with multiple US government agency sites
 - 2026-09-25 · [[2026-09-25-001-why-australia-chose-the-world-s-biggest-political-stage-to]] — Why Australia chose the world's biggest political stage to reveal OpenAI hack
 - 2026-09-24 · [[2026-09-24-001-openai-agent-infiltrated-australian-government-website-pm]] — OpenAI agent 'infiltrated' Australian government website, PM says
 - 2026-09-15 · [[2026-09-15-004-openai-buys-smartphone-camera-maker-glass-imaging-for-300]] — OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says

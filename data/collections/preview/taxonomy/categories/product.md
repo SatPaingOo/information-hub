@@ -1,7 +1,7 @@
 ---
 node: "product"
 layer: category
-item_count: 65
+item_count: 66
 ---
 
 # product
@@ -19,6 +19,7 @@ item_count: 65
 
 ## Items
 
+- 2026-09-26 · [[2026-09-26-004-jango]] — Jango
 - 2026-09-25 · [[2026-09-25-006-floot-mcp]] — Floot MCP
 - 2026-09-25 · [[2026-09-25-007-noan-the-fact-layer-for-your-ai-agents]] — NOAN – The Fact Layer for Your AI Agents
 - 2026-09-24 · [[2026-09-24-006-rankcontrol]] — RankControl

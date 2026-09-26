@@ -1,0 +1,16 @@
+2026-09-26 05:09:34,971 INFO [world-news] published 2026-09-26-001 — OpenAI bots meddled with multiple US government agency sites
+2026-09-26 05:09:38,864 INFO [tech-news] nothing selected
+2026-09-26 05:10:13,467 INFO [politics] published 2026-09-26-002 — I'm not tempted to call an early election, Burnham says
+2026-09-26 05:10:36,366 INFO [politics] published 2026-09-26-003 — New policies, election speculation: What to expect from Burn
+2026-09-26 05:11:08,931 INFO [products] published 2026-09-26-004 — Jango
+2026-09-26 05:11:09,388 INFO collect done: 4 item(s) published — target 6/10, next run ≈ 2026-09-26T05:26:09+00:00 UTC
+2026-09-26 05:11:47,250 INFO [world-news] published 2026-09-26-005 — Iran offers US deal to reopen Strait of Hormuz in seven days
+2026-09-26 05:12:28,836 INFO [world-news] published 2026-09-26-006 — Russia targeting 'ordinary life' with attacks on Ukraine's d
+2026-09-26 05:12:33,653 INFO [world-news] attempt 1 invalid: [": 'key_facts' is a required property", ": 'implications' is a required property"]
+2026-09-26 05:12:33,820 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6375, Requested 5225. Please try again in 27s. Need more tokens? Upgrade to Dev Tier today at https://console
+2026-09-26 05:12:42,521 ERROR [world-news] generate error: HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
+
+2026-09-26 05:12:51,882 WARNING [tech-news] no collect provider available
+2026-09-26 05:12:52,097 WARNING [politics] no collect provider available
+2026-09-26 05:12:52,342 WARNING [products] no collect provider available
+2026-09-26 05:12:52,784 INFO collect done: 2 item(s) published — target 4/10, next run ≈ 2026-09-27T01:00:00+00:00 UTC

@@ -5787,6 +5787,62 @@
       "name": "public health"
     },
     {
+      "id": "info:item:world:global:2026-09-26-001",
+      "type": "item",
+      "date": "2026-09-26",
+      "title": "OpenAI bots meddled with multiple US government agency sites"
+    },
+    {
+      "id": "info:item:politics:global:2026-09-26-002",
+      "type": "item",
+      "date": "2026-09-26",
+      "title": "I'm not tempted to call an early election, Burnham says"
+    },
+    {
+      "id": "info:item:politics:global:2026-09-26-003",
+      "type": "item",
+      "date": "2026-09-26",
+      "title": "New policies, election speculation: What to expect from Burnham's first Labour conference as PM"
+    },
+    {
+      "id": "taxonomy/misc/social welfare",
+      "type": "taxonomy",
+      "name": "social welfare"
+    },
+    {
+      "id": "info:item:products:global:2026-09-26-004",
+      "type": "item",
+      "date": "2026-09-26",
+      "title": "Jango"
+    },
+    {
+      "id": "info:entity:model:GPT‑4‑Turbo",
+      "type": "model",
+      "name": "GPT‑4‑Turbo"
+    },
+    {
+      "id": "info:item:world:global:2026-09-26-005",
+      "type": "item",
+      "date": "2026-09-26",
+      "title": "Iran offers US deal to reopen Strait of Hormuz in seven days"
+    },
+    {
+      "id": "info:item:world:global:2026-09-26-006",
+      "type": "item",
+      "date": "2026-09-26",
+      "title": "Russia targeting 'ordinary life' with attacks on Ukraine's data centres, Zelensky says"
+    },
+    {
+      "id": "info:entity:company:Datagroup",
+      "type": "company",
+      "name": "Datagroup"
+    },
+    {
+      "id": "info:entity:model:OpenAI",
+      "type": "model",
+      "name": "OpenAI"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -23561,6 +23617,391 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-09-26-001",
+      "target": "info:entity:company:OpenAI",
+      "relation": "subject of investigation"
+    },
+    {
+      "source": "info:item:world:global:2026-09-26-001",
+      "target": "info:entity:organization:United Nations",
+      "relation": "forum for AI safety discussions"
+    },
+    {
+      "source": "info:item:world:global:2026-09-26-001",
+      "target": "info:entity:person:Sam Altman",
+      "relation": "CEO of OpenAI, advocate for global AI standards"
+    },
+    {
+      "source": "info:item:world:global:2026-09-26-001",
+      "target": "info:entity:company:Anthropic",
+      "relation": "rival AI developer, also committing to third‑party evaluators"
+    },
+    {
+      "source": "info:item:world:global:2026-09-26-001",
+      "target": "info:item:world:global:2026-09-25-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-26-001",
+      "target": "info:item:world:global:2026-09-25-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-26-001",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-26-001",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-26-001",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-26-001",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-26-001",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-26-001",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-26-001",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-26-002",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "Prime Minister of the United Kingdom and leader of the Labour Party"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-26-002",
+      "target": "info:entity:organization:Labour Party",
+      "relation": "governing party under Andy Burnham"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-26-002",
+      "target": "info:entity:organization:Reform UK",
+      "relation": "opposition party challenging Labour in polls"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-26-002",
+      "target": "info:entity:company:OpenAI",
+      "relation": "AI technology provider referenced in editorial priorities on AI regulation"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-26-002",
+      "target": "info:item:politics:global:2026-09-25-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-26-002",
+      "target": "info:item:politics:global:2026-09-25-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-26-002",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-26-002",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-26-002",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-26-002",
+      "target": "taxonomy/misc/Agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-26-002",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-26-002",
+      "target": "taxonomy/misc/Regulation",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-26-003",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "Prime Minister and Labour leader delivering the conference speech"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-26-003",
+      "target": "info:entity:organization:Labour Party",
+      "relation": "governing party presenting the conference agenda"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-26-003",
+      "target": "info:entity:organization:Unite",
+      "relation": "largest Labour union donor pushing for immediate cost‑of‑living measures"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-26-003",
+      "target": "info:entity:person:John Healey",
+      "relation": "Chancellor delivering the first conference speech on fiscal policy"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-26-003",
+      "target": "info:entity:person:Keir Starmer",
+      "relation": "previous Labour leader whose \"decade of national renewal\" serves as a point of contrast"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-26-003",
+      "target": "info:item:politics:global:2026-09-26-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-26-003",
+      "target": "info:item:politics:global:2026-09-25-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-26-003",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-26-003",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-26-003",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-26-003",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-26-003",
+      "target": "taxonomy/misc/UK politics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-26-003",
+      "target": "taxonomy/misc/social welfare",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-09-26-004",
+      "target": "info:entity:company:OpenAI",
+      "relation": "LLM provider used by Jango"
+    },
+    {
+      "source": "info:item:products:global:2026-09-26-004",
+      "target": "info:entity:model:GPT‑4‑Turbo",
+      "relation": "core language model for agent behavior"
+    },
+    {
+      "source": "info:item:products:global:2026-09-26-004",
+      "target": "info:entity:company:Anthropic",
+      "relation": "LLM provider integrated into Jango"
+    },
+    {
+      "source": "info:item:products:global:2026-09-26-004",
+      "target": "info:entity:model:Claude Opus 4.6",
+      "relation": "advanced model powering agent reasoning"
+    },
+    {
+      "source": "info:item:products:global:2026-09-26-004",
+      "target": "info:item:products:global:2026-09-25-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-09-26-004",
+      "target": "info:item:products:global:2026-09-24-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-09-26-004",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-09-26-004",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-09-26-004",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-09-26-004",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-09-26-004",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-09-26-004",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-26-005",
+      "target": "info:entity:person:Abbas Araghchi",
+      "relation": "Iranian Foreign Minister proposing the strait reopening deal"
+    },
+    {
+      "source": "info:item:world:global:2026-09-26-005",
+      "target": "info:entity:person:Masoud Pezeshkian",
+      "relation": "Iranian President stating ceasefire would begin upon US acceptance"
+    },
+    {
+      "source": "info:item:world:global:2026-09-26-005",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "US President privately rejecting the Iranian proposal and considering renewed bombing"
+    },
+    {
+      "source": "info:item:world:global:2026-09-26-005",
+      "target": "info:entity:organization:Houthis",
+      "relation": "Iran‑aligned group intensifying attacks on Red Sea oil infrastructure"
+    },
+    {
+      "source": "info:item:world:global:2026-09-26-005",
+      "target": "info:item:world:global:2026-09-26-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-26-005",
+      "target": "info:item:world:global:2026-09-25-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-26-005",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-26-005",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-26-005",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-26-005",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-26-005",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-26-005",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-26-005",
+      "target": "taxonomy/category/industry",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-26-006",
+      "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "President of Ukraine, source of statements on attacks"
+    },
+    {
+      "source": "info:item:world:global:2026-09-26-006",
+      "target": "info:entity:person:Vladimir Putin",
+      "relation": "President of Russia, referenced in diplomatic context"
+    },
+    {
+      "source": "info:item:world:global:2026-09-26-006",
+      "target": "info:entity:company:Datagroup",
+      "relation": "Ukrainian data‑center operator targeted in Russian strikes"
+    },
+    {
+      "source": "info:item:world:global:2026-09-26-006",
+      "target": "info:entity:model:OpenAI",
+      "relation": "AI organization referenced in editorial priorities on AI regulation"
+    },
+    {
+      "source": "info:item:world:global:2026-09-26-006",
+      "target": "info:entity:model:Gemini",
+      "relation": "AI model highlighted in editorial focus on LLM and agentic AI"
+    },
+    {
+      "source": "info:item:world:global:2026-09-26-006",
+      "target": "info:item:world:global:2026-09-26-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-26-006",
+      "target": "info:item:world:global:2026-09-26-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-26-006",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-26-006",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-26-006",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-26-006",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-26-006",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-26-006",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-26-006",
+      "target": "taxonomy/misc/regulation",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -23794,7 +24235,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
-      "weight": "43"
+      "weight": "45"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -23908,7 +24349,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:model:Claude Opus 4.6",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -23925,6 +24366,12 @@
     {
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:model:GPT‑4",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:model:GPT‑4‑Turbo",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -23967,6 +24414,12 @@
     {
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:organization:U.S. Department of Defense",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:organization:United Nations",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -24064,7 +24517,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:person:Sam Altman",
       "relation": "co-occurs",
-      "weight": "6"
+      "weight": "7"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -24267,6 +24720,30 @@
     {
       "source": "info:entity:company:Cloverleaf Infrastructure",
       "target": "info:entity:region:North America",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Datagroup",
+      "target": "info:entity:model:Gemini",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Datagroup",
+      "target": "info:entity:model:OpenAI",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Datagroup",
+      "target": "info:entity:person:Vladimir Putin",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Datagroup",
+      "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -24910,7 +25387,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:model:Claude Opus 4.6",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -24935,6 +25412,12 @@
       "target": "info:entity:model:GPT‑4",
       "relation": "co-occurs",
       "weight": "3"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:model:GPT‑4‑Turbo",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -24998,6 +25481,12 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:organization:Labour Party",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:organization:NATO",
       "relation": "co-occurs",
       "weight": "1"
@@ -25011,6 +25500,12 @@
     {
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:organization:Reform UK",
+      "relation": "co-occurs",
+      "weight": "2"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:organization:United Nations",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -25036,7 +25531,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -25156,7 +25651,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Sam Altman",
       "relation": "co-occurs",
-      "weight": "7"
+      "weight": "8"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -26780,6 +27275,12 @@
     },
     {
       "source": "info:entity:model:Claude Opus 4.6",
+      "target": "info:entity:model:GPT‑4‑Turbo",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Claude Opus 4.6",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
       "weight": "2"
@@ -26847,6 +27348,12 @@
     {
       "source": "info:entity:model:GPT‑4",
       "target": "info:entity:product:Relaticle",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
+      "target": "info:entity:model:OpenAI",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -26998,13 +27505,13 @@
       "source": "info:entity:model:Gemini",
       "target": "info:entity:person:Vladimir Putin",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:model:Gemini",
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:model:Gemini",
@@ -27147,6 +27654,18 @@
     {
       "source": "info:entity:model:Google Gemini 3.8",
       "target": "info:entity:region:Myanmar",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:OpenAI",
+      "target": "info:entity:person:Vladimir Putin",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:OpenAI",
+      "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -28652,6 +29171,12 @@
     },
     {
       "source": "info:entity:organization:Houthis",
+      "target": "info:entity:person:Abbas Araghchi",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Houthis",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
       "weight": "1"
@@ -28659,6 +29184,12 @@
     {
       "source": "info:entity:organization:Houthis",
       "target": "info:entity:person:Donald Trump",
+      "relation": "co-occurs",
+      "weight": "2"
+    },
+    {
+      "source": "info:entity:organization:Houthis",
+      "target": "info:entity:person:Masoud Pezeshkian",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -28978,11 +29509,17 @@
       "source": "info:entity:organization:Labour Party",
       "target": "info:entity:organization:Reform UK",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:organization:Labour Party",
       "target": "info:entity:organization:Trussell Trust",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Labour Party",
+      "target": "info:entity:organization:Unite",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -28996,7 +29533,7 @@
       "source": "info:entity:organization:Labour Party",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
-      "weight": "7"
+      "weight": "9"
     },
     {
       "source": "info:entity:organization:Labour Party",
@@ -29026,13 +29563,13 @@
       "source": "info:entity:organization:Labour Party",
       "target": "info:entity:person:John Healey",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:organization:Labour Party",
       "target": "info:entity:person:Keir Starmer",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:organization:Labour Party",
@@ -29800,7 +30337,7 @@
       "source": "info:entity:organization:Reform UK",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
-      "weight": "6"
+      "weight": "7"
     },
     {
       "source": "info:entity:organization:Reform UK",
@@ -30554,13 +31091,25 @@
     },
     {
       "source": "info:entity:organization:Unite",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Unite",
       "target": "info:entity:person:John Healey",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:organization:Unite",
       "target": "info:entity:person:Jonathan Reynolds",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Unite",
+      "target": "info:entity:person:Keir Starmer",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -30609,6 +31158,12 @@
     {
       "source": "info:entity:organization:United Nations",
       "target": "info:entity:person:Recep Tayyip Erdoğan",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:United Nations",
+      "target": "info:entity:person:Sam Altman",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -30796,13 +31351,13 @@
       "source": "info:entity:person:Abbas Araghchi",
       "target": "info:entity:person:Donald Trump",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Abbas Araghchi",
       "target": "info:entity:person:Masoud Pezeshkian",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Abbas Araghchi",
@@ -30952,13 +31507,13 @@
       "source": "info:entity:person:Andy Burnham",
       "target": "info:entity:person:John Healey",
       "relation": "co-occurs",
-      "weight": "6"
+      "weight": "7"
     },
     {
       "source": "info:entity:person:Andy Burnham",
       "target": "info:entity:person:Keir Starmer",
       "relation": "co-occurs",
-      "weight": "5"
+      "weight": "6"
     },
     {
       "source": "info:entity:person:Andy Burnham",
@@ -31678,7 +32233,7 @@
       "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:Masoud Pezeshkian",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:person:Donald Trump",
@@ -32146,7 +32701,7 @@
       "source": "info:entity:person:John Healey",
       "target": "info:entity:person:Keir Starmer",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:person:John Healey",
@@ -32518,7 +33073,7 @@
       "source": "info:entity:person:Vladimir Putin",
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
-      "weight": "6"
+      "weight": "7"
     },
     {
       "source": "info:entity:person:Vladimir Putin",

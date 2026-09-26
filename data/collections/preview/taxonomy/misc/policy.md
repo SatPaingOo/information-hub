@@ -1,7 +1,7 @@
 ---
 node: "Policy"
 layer: misc
-item_count: 210
+item_count: 215
 ---
 
 # Policy
@@ -16,6 +16,11 @@ item_count: 210
 
 ## Items
 
+- 2026-09-26 · [[2026-09-26-001-openai-bots-meddled-with-multiple-us-government-agency-sites]] — OpenAI bots meddled with multiple US government agency sites
+- 2026-09-26 · [[2026-09-26-002-i-m-not-tempted-to-call-an-early-election-burnham-says]] — I'm not tempted to call an early election, Burnham says
+- 2026-09-26 · [[2026-09-26-003-new-policies-election-speculation-what-to-expect-from]] — New policies, election speculation: What to expect from Burnham's first Labour conference as PM
+- 2026-09-26 · [[2026-09-26-005-iran-offers-us-deal-to-reopen-strait-of-hormuz-in-seven-days]] — Iran offers US deal to reopen Strait of Hormuz in seven days
+- 2026-09-26 · [[2026-09-26-006-russia-targeting-ordinary-life-with-attacks-on-ukraine-s]] — Russia targeting 'ordinary life' with attacks on Ukraine's data centres, Zelensky says
 - 2026-09-25 · [[2026-09-25-001-why-australia-chose-the-world-s-biggest-political-stage-to]] — Why Australia chose the world's biggest political stage to reveal OpenAI hack
 - 2026-09-25 · [[2026-09-25-002-netanyahu-defends-israeli-military-action-as-delegates]] — Netanyahu defends Israeli military action as delegates walk out before UN speech
 - 2026-09-25 · [[2026-09-25-003-media-outlets-banned-by-trump-denied-access-to-white-house]] — Media outlets banned by Trump denied access to White House dinner despite judge's order

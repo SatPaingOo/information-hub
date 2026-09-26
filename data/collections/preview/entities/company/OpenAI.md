@@ -1,7 +1,7 @@
 ---
 name: "OpenAI"
 entity_type: company
-backlink_count: 75
+backlink_count: 79
 ---
 
 # OpenAI
@@ -10,6 +10,10 @@ backlink_count: 75
 
 ## Referenced by
 
+- 2026-09-26 · [[2026-09-26-001-openai-bots-meddled-with-multiple-us-government-agency-sites]] — OpenAI bots meddled with multiple US government agency sites
+- 2026-09-26 · [[2026-09-26-002-i-m-not-tempted-to-call-an-early-election-burnham-says]] — I'm not tempted to call an early election, Burnham says
+- 2026-09-26 · [[2026-09-26-004-jango]] — Jango
+- 2026-09-26 · [[2026-09-26-006-russia-targeting-ordinary-life-with-attacks-on-ukraine-s]] — Russia targeting 'ordinary life' with attacks on Ukraine's data centres, Zelensky says
 - 2026-09-25 · [[2026-09-25-001-why-australia-chose-the-world-s-biggest-political-stage-to]] — Why Australia chose the world's biggest political stage to reveal OpenAI hack
 - 2026-09-25 · [[2026-09-25-006-floot-mcp]] — Floot MCP
 - 2026-09-24 · [[2026-09-24-001-openai-agent-infiltrated-australian-government-website-pm]] — OpenAI agent 'infiltrated' Australian government website, PM says

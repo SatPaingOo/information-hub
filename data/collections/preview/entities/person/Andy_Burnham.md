@@ -1,7 +1,7 @@
 ---
 name: "Andy Burnham"
 entity_type: person
-backlink_count: 39
+backlink_count: 41
 ---
 
 # Andy Burnham
@@ -10,6 +10,8 @@ backlink_count: 39
 
 ## Referenced by
 
+- 2026-09-26 · [[2026-09-26-002-i-m-not-tempted-to-call-an-early-election-burnham-says]] — I'm not tempted to call an early election, Burnham says
+- 2026-09-26 · [[2026-09-26-003-new-policies-election-speculation-what-to-expect-from]] — New policies, election speculation: What to expect from Burnham's first Labour conference as PM
 - 2026-09-25 · [[2026-09-25-005-greek-pm-urges-burnham-to-return-elgin-marbles-permanently]] — Greek PM urges Burnham to return Elgin Marbles permanently
 - 2026-09-24 · [[2026-09-24-004-burnham-brands-ban-on-football-fans-drinking-alcohol-in]] — Burnham brands ban on football fans drinking alcohol in stands as 'discrimination'
 - 2026-09-23 · [[2026-09-23-004-trump-says-he-can-do-business-with-burnham-but-criticises]] — Trump says he can do business with Burnham but criticises 'terrible' Chagos deal

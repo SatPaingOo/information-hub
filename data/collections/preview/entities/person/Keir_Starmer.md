@@ -1,7 +1,7 @@
 ---
 name: "Keir Starmer"
 entity_type: person
-backlink_count: 7
+backlink_count: 8
 ---
 
 # Keir Starmer
@@ -10,6 +10,7 @@ backlink_count: 7
 
 ## Referenced by
 
+- 2026-09-26 · [[2026-09-26-003-new-policies-election-speculation-what-to-expect-from]] — New policies, election speculation: What to expect from Burnham's first Labour conference as PM
 - 2026-09-21 · [[2026-09-21-004-ed-davey-calls-for-immediate-10p-cut-to-fuel-duty]] — Ed Davey calls for immediate 10p cut to fuel duty
 - 2026-09-17 · [[2026-09-17-004-burnham-rejects-tax-and-spend-socialist-comments]] — Burnham rejects 'tax and spend socialist' comments
 - 2026-09-04 · [[2026-09-04-001-trump-hints-us-would-not-back-uk-over-falkland-islands-due]] — Trump hints US would not back UK over Falkland Islands due to lack of Iran war support

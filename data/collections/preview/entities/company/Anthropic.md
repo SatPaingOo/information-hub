@@ -1,7 +1,7 @@
 ---
 name: "Anthropic"
 entity_type: company
-backlink_count: 50
+backlink_count: 52
 ---
 
 # Anthropic
@@ -10,6 +10,8 @@ backlink_count: 50
 
 ## Referenced by
 
+- 2026-09-26 · [[2026-09-26-001-openai-bots-meddled-with-multiple-us-government-agency-sites]] — OpenAI bots meddled with multiple US government agency sites
+- 2026-09-26 · [[2026-09-26-004-jango]] — Jango
 - 2026-09-25 · [[2026-09-25-006-floot-mcp]] — Floot MCP
 - 2026-09-24 · [[2026-09-24-002-ai-superpower-ambitions-take-centre-stage-as-trump-and-xi]] — AI superpower ambitions take centre stage as Trump and Xi meet
 - 2026-09-24 · [[2026-09-24-006-rankcontrol]] — RankControl

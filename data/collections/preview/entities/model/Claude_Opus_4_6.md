@@ -1,7 +1,7 @@
 ---
 name: "Claude Opus 4.6"
 entity_type: model
-backlink_count: 4
+backlink_count: 5
 ---
 
 # Claude Opus 4.6
@@ -10,6 +10,7 @@ backlink_count: 4
 
 ## Referenced by
 
+- 2026-09-26 · [[2026-09-26-004-jango]] — Jango
 - 2026-09-25 · [[2026-09-25-006-floot-mcp]] — Floot MCP
 - 2026-09-03 · [[2026-09-03-006-claude-fable-5-1]] — Claude Fable 5.1
 - 2026-08-26 · [[2026-08-26-006-ninj-ai]] — Ninjō AI

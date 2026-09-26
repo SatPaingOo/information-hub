@@ -1,7 +1,7 @@
 ---
 node: "politics"
 layer: topic
-item_count: 84
+item_count: 86
 ---
 
 # politics
@@ -17,6 +17,8 @@ item_count: 84
 
 ## Items
 
+- 2026-09-26 · [[2026-09-26-002-i-m-not-tempted-to-call-an-early-election-burnham-says]] — I'm not tempted to call an early election, Burnham says
+- 2026-09-26 · [[2026-09-26-003-new-policies-election-speculation-what-to-expect-from]] — New policies, election speculation: What to expect from Burnham's first Labour conference as PM
 - 2026-09-25 · [[2026-09-25-004-no-switch-to-stop-small-boats-lucy-powell-tells-bbc]] — No 'switch' to stop small boats, Lucy Powell tells BBC
 - 2026-09-25 · [[2026-09-25-005-greek-pm-urges-burnham-to-return-elgin-marbles-permanently]] — Greek PM urges Burnham to return Elgin Marbles permanently
 - 2026-09-25 · [[2026-09-25-011-ministers-reject-dog-ownership-licence-scheme]] — Ministers reject dog ownership licence scheme
