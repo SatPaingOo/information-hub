@@ -1,7 +1,7 @@
 ---
 name: "Anthropic"
 entity_type: company
-backlink_count: 52
+backlink_count: 53
 ---
 
 # Anthropic
@@ -10,6 +10,7 @@ backlink_count: 52
 
 ## Referenced by
 
+- 2026-09-27 · [[2026-09-27-006-hemory]] — Hemory
 - 2026-09-26 · [[2026-09-26-001-openai-bots-meddled-with-multiple-us-government-agency-sites]] — OpenAI bots meddled with multiple US government agency sites
 - 2026-09-26 · [[2026-09-26-004-jango]] — Jango
 - 2026-09-25 · [[2026-09-25-006-floot-mcp]] — Floot MCP

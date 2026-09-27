@@ -1,7 +1,7 @@
 ---
 node: "human rights"
 layer: misc
-item_count: 10
+item_count: 11
 ---
 
 # human rights
@@ -15,6 +15,7 @@ item_count: 10
 
 ## Items
 
+- 2026-09-27 · [[2026-09-27-003-german-town-bans-stumbling-stone-memorials-to-nazi-victims]] — German town bans 'stumbling stone' memorials to Nazi victims
 - 2026-09-21 · [[2026-09-21-009-sister-of-pakistan-s-ex-pm-imran-khan-arrested]] — Sister of Pakistan's ex-PM Imran Khan arrested
 - 2026-09-18 · [[2026-09-18-003-un-experts-say-grounds-to-believe-us-committed-war-crimes]] — UN experts say grounds to believe US committed war crimes in Iran strikes
 - 2026-09-17 · [[2026-09-17-008-assad-regime-planned-us-journalist-s-kidnap-for-weeks-bbc]] — Assad regime planned US journalist's kidnap for weeks, BBC finds

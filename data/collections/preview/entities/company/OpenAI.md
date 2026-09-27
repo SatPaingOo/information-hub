@@ -1,7 +1,7 @@
 ---
 name: "OpenAI"
 entity_type: company
-backlink_count: 79
+backlink_count: 83
 ---
 
 # OpenAI
@@ -10,6 +10,10 @@ backlink_count: 79
 
 ## Referenced by
 
+- 2026-09-27 · [[2026-09-27-001-pope-praises-young-people-s-energy-and-commitment-at-huge]] — Pope praises young people's 'energy and commitment' at huge open-air Mass in Paris
+- 2026-09-27 · [[2026-09-27-002-british-national-among-six-dead-in-building-explosion]] — British national among six dead in building explosion close to Acropolis in Athens
+- 2026-09-27 · [[2026-09-27-006-hemory]] — Hemory
+- 2026-09-27 · [[2026-09-27-007-nor-easter-brings-flooding-as-new-york-and-new-jersey]] — Nor'easter brings flooding as New York and New Jersey declare emergency
 - 2026-09-26 · [[2026-09-26-001-openai-bots-meddled-with-multiple-us-government-agency-sites]] — OpenAI bots meddled with multiple US government agency sites
 - 2026-09-26 · [[2026-09-26-002-i-m-not-tempted-to-call-an-early-election-burnham-says]] — I'm not tempted to call an early election, Burnham says
 - 2026-09-26 · [[2026-09-26-004-jango]] — Jango

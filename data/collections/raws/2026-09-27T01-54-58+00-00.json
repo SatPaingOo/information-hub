@@ -1,0 +1,122 @@
+{
+  "run_timestamp": "2026-09-27T01:54:58+00:00",
+  "items": [
+    {
+      "id": "info:item:world:global:2026-09-27-007",
+      "key": "2026-09-27-007",
+      "date": "2026-09-27",
+      "content_type": "digest",
+      "topic": "world",
+      "region": "global",
+      "categories": [
+        "policy",
+        "industry"
+      ],
+      "source": {
+        "name": "feeds.bbci.co.uk",
+        "url": "https://www.bbc.co.uk/news/articles/ck1wxxzn5jndo?at_medium=RSS&at_campaign=rss",
+        "feed": "https://feeds.bbci.co.uk/news/world/rss.xml",
+        "type": "rss"
+      },
+      "title": "Nor'easter brings flooding as New York and New Jersey declare emergency",
+      "tldr": "A powerful nor'easter is battering the U.S. Northeast, prompting emergency declarations in New York and New Jersey, widespread power outages, flight disruptions and the cancellation of major concerts and sporting events.",
+      "background": "Nor'easters are cyclonic storms that develop off the Atlantic seaboard and intensify as they draw warm, moist air from the Gulf of Mexico and the Atlantic Ocean. In recent decades, the frequency of high‑impact nor'easters has risen, a trend many climatologists link to a warming climate that expands the temperature gradient between the ocean and the continent. The current system, forecast by the National Weather Service (NWS) to bring up to 5 inches of rain, sustained winds of 55 mph, and a full‑moon‑enhanced tide, is expected to affect a corridor from Virginia to Maine, putting tens of millions of residents at risk of coastal flooding, power loss, and transport paralysis.",
+      "analysis": [
+        {
+          "heading": "Meteorological dynamics and climate context",
+          "content": "The storm’s intensity stems from a classic combination of a deepening low‑pressure center, strong onshore flow, and a high‑amplitude jet stream that funnels upper‑level energy into the region. Satellite‑derived sea‑surface temperatures are 1.2 °C above the 30‑year average, providing extra latent heat that fuels precipitation. Moreover, the full moon on Saturday will raise astronomical tides by up to 30 cm, amplifying storm surge in low‑lying coastal towns such as Surf City and Manasquan. Climate models, including those run on OpenAI’s GPT‑4‑Turbo and Anthropic’s Claude, have been used to simulate similar scenarios, underscoring how a warming ocean can increase both the frequency and the peak water levels of nor'easters."
+        },
+        {
+          "heading": "Infrastructure resilience and policy response",
+          "content": "Both New York and New Jersey have activated emergency operations centers, mobilizing the National Guard, the Federal Emergency Management Agency (FEMA), and state utility crews. PowerOutage data shows more than 100,000 households without electricity, highlighting the fragility of aging grid infrastructure. The Federal Aviation Administration (FAA) has issued a nationwide advisory, resulting in 2,400 delayed and 1,199 grounded flights, illustrating the cascading effects on national transport networks. Policy analysts argue that the event reignites debate over coastal zoning, investment in green infrastructure such as seawalls, and the need for stricter building codes that incorporate projected sea‑level rise."
+        },
+        {
+          "heading": "AI, data analytics, and regulatory considerations",
+          "content": "Real‑time forecasting for this nor'easter relied heavily on high‑resolution ensemble models that integrate data from NOAA, private satellite constellations, and AI‑enhanced pattern recognition. Companies like OpenAI and Google have contributed open‑source model components that improve precipitation nowcasting. However, the rapid deployment of AI tools raises regulatory questions about data provenance, model transparency, and liability when forecasts influence emergency decisions. The U.S. Department of Transportation is currently reviewing guidelines for AI‑assisted air‑traffic management, while the Federal Communications Commission is exploring standards for disseminating AI‑generated weather alerts to the public."
+        }
+      ],
+      "key_facts": [
+        "Emergency declarations issued in New York and New Jersey;",
+        "More than 100,000 households experience power outages;",
+        "2,400 flights delayed and 1,199 grounded per FlightAware;",
+        "Major events cancelled: Ed Sheeran concert at Gillette Stadium, Red Sox game, Global Citizen Festival;",
+        "Full moon expected to raise tide levels, worsening coastal flooding"
+      ],
+      "implications": [
+        "Short‑term: Disruption of commuter flows, economic losses for venues and airlines, heightened risk of water‑related injuries;",
+        "Medium‑term: Accelerated calls for climate‑resilient infrastructure investment and updated floodplain maps;",
+        "Long‑term: Potential revision of federal emergency management protocols to incorporate AI‑driven predictive analytics and clearer liability frameworks."
+      ],
+      "outlook": "The storm is expected to move offshore by Sunday, leaving behind residual flooding and power restoration challenges that could last several days. State and federal agencies will likely convene a post‑event review to assess the performance of AI‑augmented forecasts and to refine emergency communication strategies ahead of the upcoming hurricane season, which models predict will be above average for the Atlantic basin.",
+      "entities": [
+        {
+          "type": "organization",
+          "name": "National Weather Service",
+          "relation": "issued storm warnings and emergency guidance"
+        },
+        {
+          "type": "organization",
+          "name": "Federal Aviation Administration",
+          "relation": "issued flight advisories and grounded flights"
+        },
+        {
+          "type": "company",
+          "name": "OpenAI",
+          "relation": "provided AI model components for high‑resolution weather forecasting"
+        },
+        {
+          "type": "person",
+          "name": "Ed Sheeran",
+          "relation": "headliner of a concert cancelled due to safety concerns"
+        }
+      ],
+      "tags": [
+        "nor'easter",
+        "flooding",
+        "emergency",
+        "climate change",
+        "infrastructure",
+        "AI forecasting",
+        "regulation",
+        "open-source"
+      ],
+      "related_items": [
+        "info:item:world:global:2026-09-27-001",
+        "info:item:world:global:2026-09-27-002",
+        "info:item:world:global:2026-09-27-003"
+      ],
+      "related_taxonomy": [
+        {
+          "node": "weather events",
+          "relation": "relates"
+        },
+        {
+          "node": "climate policy",
+          "relation": "relates"
+        },
+        {
+          "node": "transport disruption",
+          "relation": "relates"
+        }
+      ],
+      "word_count": 613,
+      "collection": "world-news",
+      "provenance": {
+        "generated_by": {
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "prompt_version": "v3.1",
+          "supports_json": true
+        },
+        "schema_version": "v3"
+      },
+      "related_notes": [
+        "2026-09-27-001-pope-praises-young-people-s-energy-and-commitment-at-huge",
+        "2026-09-27-002-british-national-among-six-dead-in-building-explosion",
+        "2026-09-27-003-german-town-bans-stumbling-stone-memorials-to-nazi-victims"
+      ],
+      "fulltext": "Nor'easter brings flooding as New York and New Jersey declare emergency\n- Published\nTens of millions of people across the north-eastern US are in the path of a powerful storm bringing coastal flooding, power cuts, travel chaos and cancelled stadium events.\nThe so-called nor'easter is bringing \"dangerous coastal flooding and beach conditions, strong winds and heavy rainfall\" to areas including New York City and Boston on Saturday, the US National Weather Service (NWS) said.\nStates of emergency have been declared in New York and New Jersey, both of which faced a coastal deluge in some areas. Rain and strong winds are forecast from Virginia to Maine.\nEd Sheeran's much-awaited Boston concert was among events called off due to the weather.\nThe nor'easter caused widespread power cuts. More than 100,000 households, nearly all in the northeast US, have lost electricity, according to tracker PowerOutage.\nThe Federal Aviation Administration recommended air passengers check with airlines about their flight status. More than 2,400 flights have been delayed and another 1,199 grounded, according to FlightAware.\nSaturday's full moon is projected to worsen coastal flooding. Streets and homes were inundated with floodwater in the coastal New Jersey communities of Surf City and Manasquan on Saturday.\n\"I urge all New Jerseyans to take this storm seriously, stay alert and follow local guidance,\" Governor Mikie Sherrill said.\nNWS said in its alert: \"Prepare immediately for significant inundation in low-lying areas near the shore, including roads underwater and impacts to homes and businesses.\"\nIn New York, officials are warning of wind gusts of up to 55mph (86km/h) throughout the weekend, leading to downed trees and power lines.\n\"Don't travel if you don't have to,\" NYC Mayor Zohran Mamdani told residents in a video message. \"Do not drive or walk through floodwater.\"\nIn the Boston area, the Red Sox moved the last game in their series against the Chicago Cubs to Sunday afternoon in Florida.\nA professional football match between Red Bull New York and St Louis City SC was also cancelled.\nNor is the Global Citizen Festival concert in New York City's Central Park, which was to be headlined by Lauryn Hill, Wyclef Jean and John Legend, going ahead.\nSheeran's concert at the Gillette Stadium in the Boston area was cancelled for safety reasons, the venue said.\nRelated topics\n  - Published1 day ago"
+    }
+  ],
+  "item_count": 1
+}

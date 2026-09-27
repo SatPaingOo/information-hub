@@ -1,7 +1,7 @@
 ---
 node: "products"
 layer: topic
-item_count: 45
+item_count: 46
 ---
 
 # products
@@ -16,6 +16,7 @@ item_count: 45
 
 ## Items
 
+- 2026-09-27 · [[2026-09-27-006-hemory]] — Hemory
 - 2026-09-26 · [[2026-09-26-004-jango]] — Jango
 - 2026-09-25 · [[2026-09-25-006-floot-mcp]] — Floot MCP
 - 2026-09-25 · [[2026-09-25-007-noan-the-fact-layer-for-your-ai-agents]] — NOAN – The Fact Layer for Your AI Agents

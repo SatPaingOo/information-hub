@@ -1,7 +1,7 @@
 ---
 name: "Conservative Party"
 entity_type: organization
-backlink_count: 5
+backlink_count: 6
 ---
 
 # Conservative Party
@@ -10,6 +10,7 @@ backlink_count: 5
 
 ## Referenced by
 
+- 2026-09-27 · [[2026-09-27-004-burnham-announces-scheme-to-help-first-time-buyers-on-to]] — Burnham announces scheme to help first-time buyers on to housing ladder
 - 2026-09-25 · [[2026-09-25-004-no-switch-to-stop-small-boats-lucy-powell-tells-bbc]] — No 'switch' to stop small boats, Lucy Powell tells BBC
 - 2026-09-11 · [[2026-09-11-005-badenoch-denies-housing-benefit-cuts-plan-would-make]] — Badenoch denies housing benefit cuts plan would make people homeless
 - 2026-09-10 · [[2026-09-10-005-national-security-can-t-come-at-expense-of-social-security]] — National security can't come at expense of social security, Burnham says

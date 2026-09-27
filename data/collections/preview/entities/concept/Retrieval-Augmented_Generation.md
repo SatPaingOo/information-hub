@@ -1,7 +1,7 @@
 ---
 name: "Retrieval-Augmented Generation"
 entity_type: concept
-backlink_count: 4
+backlink_count: 5
 ---
 
 # Retrieval-Augmented Generation
@@ -10,6 +10,7 @@ backlink_count: 4
 
 ## Referenced by
 
+- 2026-09-27 · [[2026-09-27-006-hemory]] — Hemory
 - 2026-09-21 · [[2026-09-21-006-answers-by-context-dev]] — Answers by Context.dev
 - 2026-08-18 · [[2026-08-18-002-neural-document-expansion-for-ad-hoc-information-retrieval]] — Neural document expansion for ad-hoc information retrieval
 - 2026-08-13 · [[2026-08-13-001-a-new-benchmark-for-long-horizon-agentic-ai-reasoning]] — A new benchmark for long-horizon agentic AI reasoning
