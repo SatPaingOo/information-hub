@@ -5940,6 +5940,22 @@
       "name": "transport disruption"
     },
     {
+      "id": "info:item:world:global:2026-09-27-008",
+      "type": "item",
+      "date": "2026-09-27",
+      "title": "Iran says it will wait for official US response after Trump rejects Strait of Hormuz proposal"
+    },
+    {
+      "id": "info:entity:person:Abbas Araghzi",
+      "type": "person",
+      "name": "Abbas Araghzi"
+    },
+    {
+      "id": "info:entity:organization:Oman",
+      "type": "organization",
+      "name": "Oman"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -24554,6 +24570,71 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-09-27-008",
+      "target": "info:entity:person:Abbas Araghzi",
+      "relation": "Iranian Foreign Minister, negotiator"
+    },
+    {
+      "source": "info:item:world:global:2026-09-27-008",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "US President, rejected Iran's proposal"
+    },
+    {
+      "source": "info:item:world:global:2026-09-27-008",
+      "target": "info:entity:region:Strait of Hormuz",
+      "relation": "Strategic maritime chokepoint"
+    },
+    {
+      "source": "info:item:world:global:2026-09-27-008",
+      "target": "info:entity:organization:Oman",
+      "relation": "Mediator between US and Iran"
+    },
+    {
+      "source": "info:item:world:global:2026-09-27-008",
+      "target": "info:item:world:global:2026-09-27-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-27-008",
+      "target": "info:item:world:global:2026-09-27-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-27-008",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-27-008",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-27-008",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-27-008",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-27-008",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-27-008",
+      "target": "taxonomy/misc/energy security",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-27-008",
+      "target": "taxonomy/misc/international law",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -30820,6 +30901,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Oman",
+      "target": "info:entity:person:Abbas Araghzi",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Oman",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Oman",
+      "target": "info:entity:region:Strait of Hormuz",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Open Rights Group",
       "target": "info:entity:person:Lisa Nandy",
       "relation": "co-occurs",
@@ -32092,6 +32191,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:person:Abbas Araghzi",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Abbas Araghzi",
+      "target": "info:entity:region:Strait of Hormuz",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:person:Abu Adam",
       "target": "info:entity:person:Vincent Guerra",
       "relation": "co-occurs",
@@ -33091,7 +33202,7 @@
       "source": "info:entity:person:Donald Trump",
       "target": "info:entity:region:Strait of Hormuz",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Doug Ford",

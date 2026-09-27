@@ -1,7 +1,7 @@
 ---
 name: "Donald Trump"
 entity_type: person
-backlink_count: 50
+backlink_count: 51
 ---
 
 # Donald Trump
@@ -10,6 +10,7 @@ backlink_count: 50
 
 ## Referenced by
 
+- 2026-09-27 · [[2026-09-27-008-iran-says-it-will-wait-for-official-us-response-after]] — Iran says it will wait for official US response after Trump rejects Strait of Hormuz proposal
 - 2026-09-26 · [[2026-09-26-005-iran-offers-us-deal-to-reopen-strait-of-hormuz-in-seven-days]] — Iran offers US deal to reopen Strait of Hormuz in seven days
 - 2026-09-25 · [[2026-09-25-003-media-outlets-banned-by-trump-denied-access-to-white-house]] — Media outlets banned by Trump denied access to White House dinner despite judge's order
 - 2026-09-24 · [[2026-09-24-002-ai-superpower-ambitions-take-centre-stage-as-trump-and-xi]] — AI superpower ambitions take centre stage as Trump and Xi meet

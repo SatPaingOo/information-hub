@@ -1,7 +1,7 @@
 ---
 node: "industry"
 layer: category
-item_count: 176
+item_count: 177
 ---
 
 # industry
@@ -24,6 +24,7 @@ item_count: 176
 - 2026-09-27 · [[2026-09-27-002-british-national-among-six-dead-in-building-explosion]] — British national among six dead in building explosion close to Acropolis in Athens
 - 2026-09-27 · [[2026-09-27-003-german-town-bans-stumbling-stone-memorials-to-nazi-victims]] — German town bans 'stumbling stone' memorials to Nazi victims
 - 2026-09-27 · [[2026-09-27-007-nor-easter-brings-flooding-as-new-york-and-new-jersey]] — Nor'easter brings flooding as New York and New Jersey declare emergency
+- 2026-09-27 · [[2026-09-27-008-iran-says-it-will-wait-for-official-us-response-after]] — Iran says it will wait for official US response after Trump rejects Strait of Hormuz proposal
 - 2026-09-26 · [[2026-09-26-001-openai-bots-meddled-with-multiple-us-government-agency-sites]] — OpenAI bots meddled with multiple US government agency sites
 - 2026-09-26 · [[2026-09-26-005-iran-offers-us-deal-to-reopen-strait-of-hormuz-in-seven-days]] — Iran offers US deal to reopen Strait of Hormuz in seven days
 - 2026-09-26 · [[2026-09-26-005-iran-offers-us-deal-to-reopen-strait-of-hormuz-in-seven-days]] — Iran offers US deal to reopen Strait of Hormuz in seven days

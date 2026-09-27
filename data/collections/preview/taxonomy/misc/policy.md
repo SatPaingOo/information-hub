@@ -1,7 +1,7 @@
 ---
 node: "Policy"
 layer: misc
-item_count: 221
+item_count: 222
 ---
 
 # Policy
@@ -22,6 +22,7 @@ item_count: 221
 - 2026-09-27 · [[2026-09-27-004-burnham-announces-scheme-to-help-first-time-buyers-on-to]] — Burnham announces scheme to help first-time buyers on to housing ladder
 - 2026-09-27 · [[2026-09-27-005-rayner-criticises-visa-rule-proposals-ahead-of-labour]] — Rayner criticises visa rule proposals ahead of Labour conference
 - 2026-09-27 · [[2026-09-27-007-nor-easter-brings-flooding-as-new-york-and-new-jersey]] — Nor'easter brings flooding as New York and New Jersey declare emergency
+- 2026-09-27 · [[2026-09-27-008-iran-says-it-will-wait-for-official-us-response-after]] — Iran says it will wait for official US response after Trump rejects Strait of Hormuz proposal
 - 2026-09-26 · [[2026-09-26-001-openai-bots-meddled-with-multiple-us-government-agency-sites]] — OpenAI bots meddled with multiple US government agency sites
 - 2026-09-26 · [[2026-09-26-002-i-m-not-tempted-to-call-an-early-election-burnham-says]] — I'm not tempted to call an early election, Burnham says
 - 2026-09-26 · [[2026-09-26-003-new-policies-election-speculation-what-to-expect-from]] — New policies, election speculation: What to expect from Burnham's first Labour conference as PM

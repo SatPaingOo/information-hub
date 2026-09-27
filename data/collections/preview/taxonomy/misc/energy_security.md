@@ -1,7 +1,7 @@
 ---
 node: "Energy Security"
 layer: misc
-item_count: 6
+item_count: 7
 ---
 
 # Energy Security
@@ -16,6 +16,7 @@ item_count: 6
 
 ## Items
 
+- 2026-09-27 · [[2026-09-27-008-iran-says-it-will-wait-for-official-us-response-after]] — Iran says it will wait for official US response after Trump rejects Strait of Hormuz proposal
 - 2026-09-21 · [[2026-09-21-002-largest-attack-on-moscow-sees-ukraine-fire-hundreds-of]] — Largest attack on Moscow sees Ukraine fire hundreds of drones, mayor says
 - 2026-09-20 · [[2026-09-20-002-houthis-say-they-targeted-saudi-capital-with-ballistic]] — Houthis say they targeted Saudi capital with ballistic missiles
 - 2026-09-18 · [[2026-09-18-007-us-to-allow-iran-delegation-to-attend-un-meetings-in-new]] — US to allow Iran delegation to attend UN meetings in New York as war passes half-year mark

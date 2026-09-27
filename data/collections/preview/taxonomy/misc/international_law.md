@@ -1,7 +1,7 @@
 ---
 node: "International Law"
 layer: misc
-item_count: 5
+item_count: 6
 ---
 
 # International Law
@@ -15,6 +15,7 @@ item_count: 5
 
 ## Items
 
+- 2026-09-27 · [[2026-09-27-008-iran-says-it-will-wait-for-official-us-response-after]] — Iran says it will wait for official US response after Trump rejects Strait of Hormuz proposal
 - 2026-09-18 · [[2026-09-18-003-un-experts-say-grounds-to-believe-us-committed-war-crimes]] — UN experts say grounds to believe US committed war crimes in Iran strikes
 - 2026-09-09 · [[2026-09-09-007-constantly-on-my-mind-9-11-agony-goes-on-for-bereaved-25]] — ‘Constantly on my mind’ – 9/11 agony goes on for bereaved, 25 years on
 - 2026-08-30 · [[2026-08-30-003-canada-installs-large-lake-ontario-sign-in-latest-jab-at-us]] — Canada installs large Lake Ontario sign in latest jab at US
