@@ -1,7 +1,7 @@
 ---
 node: "politics"
 layer: topic
-item_count: 89
+item_count: 92
 ---
 
 # politics
@@ -17,6 +17,9 @@ item_count: 89
 
 ## Items
 
+- 2026-09-28 · [[2026-09-28-004-burnham-proposes-nhs-style-social-care-system-for-england]] — Burnham proposes NHS-style social care system for England
+- 2026-09-28 · [[2026-09-28-005-social-care-reform-could-mean-big-risks-and-big-rewards]] — Social care reform could mean big risks and big rewards for Burnham
+- 2026-09-28 · [[2026-09-28-005-social-care-reform-could-mean-big-risks-and-big-rewards]] — Social care reform could mean big risks and big rewards for Burnham
 - 2026-09-27 · [[2026-09-27-004-burnham-announces-scheme-to-help-first-time-buyers-on-to]] — Burnham announces scheme to help first-time buyers on to housing ladder
 - 2026-09-27 · [[2026-09-27-005-rayner-criticises-visa-rule-proposals-ahead-of-labour]] — Rayner criticises visa rule proposals ahead of Labour conference
 - 2026-09-27 · [[2026-09-27-005-rayner-criticises-visa-rule-proposals-ahead-of-labour]] — Rayner criticises visa rule proposals ahead of Labour conference

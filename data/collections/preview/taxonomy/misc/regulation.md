@@ -1,7 +1,7 @@
 ---
 node: "Regulation"
 layer: misc
-item_count: 24
+item_count: 25
 ---
 
 # Regulation
@@ -17,6 +17,7 @@ item_count: 24
 
 ## Items
 
+- 2026-09-28 · [[2026-09-28-006-cuey-one-tab-llm-comparison-for-agentic-ai-workflows]] — Cuey – One‑Tab LLM Comparison for Agentic AI Workflows
 - 2026-09-27 · [[2026-09-27-001-pope-praises-young-people-s-energy-and-commitment-at-huge]] — Pope praises young people's 'energy and commitment' at huge open-air Mass in Paris
 - 2026-09-27 · [[2026-09-27-006-hemory]] — Hemory
 - 2026-09-26 · [[2026-09-26-002-i-m-not-tempted-to-call-an-early-election-burnham-says]] — I'm not tempted to call an early election, Burnham says

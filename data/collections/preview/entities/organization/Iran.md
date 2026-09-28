@@ -1,15 +1,16 @@
 ---
 name: "Iran"
-entity_type: region
-backlink_count: 9
+entity_type: organization
+backlink_count: 10
 ---
 
 # Iran
 
-*Type: region*
+*Type: organization*
 
 ## Referenced by
 
+- 2026-09-28 · [[2026-09-28-001-inside-yemen-s-front-line-city-as-houthis-battle-for-control]] — Inside Yemen's front-line city as Houthis battle for control
 - 2026-09-23 · [[2026-09-23-001-trump-threatens-to-annihilate-iran-in-un-speech-as]] — Trump threatens to 'annihilate' Iran in UN speech as officials from both countries meet on sidelines
 - 2026-09-12 · [[2026-09-12-001-houthis-claim-major-advance-in-yemen-and-tighten-grip-on]] — Houthis claim major advance in Yemen and tighten grip on Red Sea shipping lane
 - 2026-09-12 · [[2026-09-12-007-saudi-arabia-shuts-key-oil-pipeline-after-drone-attack]] — Saudi Arabia shuts key oil pipeline after drone attack launched from Iraq

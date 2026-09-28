@@ -1,7 +1,7 @@
 ---
 node: "Global"
 layer: misc
-item_count: 287
+item_count: 293
 ---
 
 # Global
@@ -24,6 +24,12 @@ item_count: 287
 
 ## Items
 
+- 2026-09-28 · [[2026-09-28-001-inside-yemen-s-front-line-city-as-houthis-battle-for-control]] — Inside Yemen's front-line city as Houthis battle for control
+- 2026-09-28 · [[2026-09-28-002-embattled-serbian-president-resigns-paving-way-for-early]] — Embattled Serbian president resigns, paving way for early elections
+- 2026-09-28 · [[2026-09-28-003-two-bodies-found-after-avalanche-hits-himalayan-climbing]] — Two bodies found after avalanche hits Himalayan climbing group
+- 2026-09-28 · [[2026-09-28-004-burnham-proposes-nhs-style-social-care-system-for-england]] — Burnham proposes NHS-style social care system for England
+- 2026-09-28 · [[2026-09-28-005-social-care-reform-could-mean-big-risks-and-big-rewards]] — Social care reform could mean big risks and big rewards for Burnham
+- 2026-09-28 · [[2026-09-28-006-cuey-one-tab-llm-comparison-for-agentic-ai-workflows]] — Cuey – One‑Tab LLM Comparison for Agentic AI Workflows
 - 2026-09-27 · [[2026-09-27-001-pope-praises-young-people-s-energy-and-commitment-at-huge]] — Pope praises young people's 'energy and commitment' at huge open-air Mass in Paris
 - 2026-09-27 · [[2026-09-27-002-british-national-among-six-dead-in-building-explosion]] — British national among six dead in building explosion close to Acropolis in Athens
 - 2026-09-27 · [[2026-09-27-003-german-town-bans-stumbling-stone-memorials-to-nazi-victims]] — German town bans 'stumbling stone' memorials to Nazi victims

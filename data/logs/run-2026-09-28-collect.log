@@ -1,0 +1,13 @@
+2026-09-28 01:57:46,975 INFO [world-news] published 2026-09-28-001 — Inside Yemen's front-line city as Houthis battle for control
+2026-09-28 01:58:13,247 INFO [world-news] published 2026-09-28-002 — Embattled Serbian president resigns, paving way for early el
+2026-09-28 01:58:35,944 INFO [world-news] published 2026-09-28-003 — Two bodies found after avalanche hits Himalayan climbing gro
+2026-09-28 01:58:39,270 INFO [tech-news] nothing selected
+2026-09-28 01:59:16,273 INFO [politics] published 2026-09-28-004 — Burnham proposes NHS-style social care system for England
+2026-09-28 01:59:52,862 INFO [politics] published 2026-09-28-005 — Social care reform could mean big risks and big rewards for 
+2026-09-28 02:00:51,978 INFO [products] attempt 1 invalid: ["title: 'Cuey' is too short", 'body word count 442 < minimum 500']
+2026-09-28 02:00:55,619 INFO [products] published 2026-09-28-006 — Cuey – One‑Tab LLM Comparison for Agentic AI Workflows
+2026-09-28 02:00:55,810 ERROR [products] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 4829, Requested 5313. Please try again in 16.064999999s. Need more tokens? Upgrade to Dev Tier today at https
+2026-09-28 02:01:01,464 ERROR [products] generate error: HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
+
+2026-09-28 02:01:07,466 WARNING [products] no collect provider for deep-dive
+2026-09-28 02:01:07,802 INFO collect done: 6 item(s) published — target 4/10, next run ≈ 2026-09-29T01:00:00+00:00 UTC

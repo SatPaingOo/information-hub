@@ -1,7 +1,7 @@
 ---
 name: "OpenAI"
 entity_type: company
-backlink_count: 83
+backlink_count: 85
 ---
 
 # OpenAI
@@ -10,6 +10,8 @@ backlink_count: 83
 
 ## Referenced by
 
+- 2026-09-28 · [[2026-09-28-002-embattled-serbian-president-resigns-paving-way-for-early]] — Embattled Serbian president resigns, paving way for early elections
+- 2026-09-28 · [[2026-09-28-006-cuey-one-tab-llm-comparison-for-agentic-ai-workflows]] — Cuey – One‑Tab LLM Comparison for Agentic AI Workflows
 - 2026-09-27 · [[2026-09-27-001-pope-praises-young-people-s-energy-and-commitment-at-huge]] — Pope praises young people's 'energy and commitment' at huge open-air Mass in Paris
 - 2026-09-27 · [[2026-09-27-002-british-national-among-six-dead-in-building-explosion]] — British national among six dead in building explosion close to Acropolis in Athens
 - 2026-09-27 · [[2026-09-27-006-hemory]] — Hemory

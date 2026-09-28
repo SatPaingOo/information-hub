@@ -1,7 +1,7 @@
 ---
 node: "Artificial Intelligence"
 layer: misc
-item_count: 5
+item_count: 6
 ---
 
 # Artificial Intelligence
@@ -15,6 +15,7 @@ item_count: 5
 
 ## Items
 
+- 2026-09-28 · [[2026-09-28-006-cuey-one-tab-llm-comparison-for-agentic-ai-workflows]] — Cuey – One‑Tab LLM Comparison for Agentic AI Workflows
 - 2026-09-25 · [[2026-09-25-007-noan-the-fact-layer-for-your-ai-agents]] — NOAN – The Fact Layer for Your AI Agents
 - 2026-09-20 · [[2026-09-20-008-trump-says-us-will-form-ai-force-and-appoint-an-artificial]] — Trump says US will form 'AI Force' and appoint an artificial intelligence tsar
 - 2026-09-19 · [[2026-09-19-007-sider-omni-sidebar-turning-every-mac-app-into-an-agent]] — Sider Omni Sidebar – Turning Every Mac App Into an Agent‑Powered Workspace

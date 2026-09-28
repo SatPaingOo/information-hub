@@ -1,7 +1,7 @@
 ---
 name: "Keir Starmer"
 entity_type: person
-backlink_count: 8
+backlink_count: 10
 ---
 
 # Keir Starmer
@@ -10,6 +10,8 @@ backlink_count: 8
 
 ## Referenced by
 
+- 2026-09-28 · [[2026-09-28-004-burnham-proposes-nhs-style-social-care-system-for-england]] — Burnham proposes NHS-style social care system for England
+- 2026-09-28 · [[2026-09-28-005-social-care-reform-could-mean-big-risks-and-big-rewards]] — Social care reform could mean big risks and big rewards for Burnham
 - 2026-09-26 · [[2026-09-26-003-new-policies-election-speculation-what-to-expect-from]] — New policies, election speculation: What to expect from Burnham's first Labour conference as PM
 - 2026-09-21 · [[2026-09-21-004-ed-davey-calls-for-immediate-10p-cut-to-fuel-duty]] — Ed Davey calls for immediate 10p cut to fuel duty
 - 2026-09-17 · [[2026-09-17-004-burnham-rejects-tax-and-spend-socialist-comments]] — Burnham rejects 'tax and spend socialist' comments

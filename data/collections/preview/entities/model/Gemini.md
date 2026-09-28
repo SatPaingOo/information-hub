@@ -1,7 +1,7 @@
 ---
 name: "Gemini"
 entity_type: model
-backlink_count: 39
+backlink_count: 40
 ---
 
 # Gemini
@@ -10,6 +10,7 @@ backlink_count: 39
 
 ## Referenced by
 
+- 2026-09-28 · [[2026-09-28-002-embattled-serbian-president-resigns-paving-way-for-early]] — Embattled Serbian president resigns, paving way for early elections
 - 2026-09-27 · [[2026-09-27-001-pope-praises-young-people-s-energy-and-commitment-at-huge]] — Pope praises young people's 'energy and commitment' at huge open-air Mass in Paris
 - 2026-09-27 · [[2026-09-27-002-british-national-among-six-dead-in-building-explosion]] — British national among six dead in building explosion close to Acropolis in Athens
 - 2026-09-26 · [[2026-09-26-006-russia-targeting-ordinary-life-with-attacks-on-ukraine-s]] — Russia targeting 'ordinary life' with attacks on Ukraine's data centres, Zelensky says

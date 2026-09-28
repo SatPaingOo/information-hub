@@ -1,7 +1,7 @@
 ---
 node: "industry"
 layer: category
-item_count: 177
+item_count: 181
 ---
 
 # industry
@@ -19,6 +19,10 @@ item_count: 177
 
 ## Items
 
+- 2026-09-28 · [[2026-09-28-001-inside-yemen-s-front-line-city-as-houthis-battle-for-control]] — Inside Yemen's front-line city as Houthis battle for control
+- 2026-09-28 · [[2026-09-28-002-embattled-serbian-president-resigns-paving-way-for-early]] — Embattled Serbian president resigns, paving way for early elections
+- 2026-09-28 · [[2026-09-28-003-two-bodies-found-after-avalanche-hits-himalayan-climbing]] — Two bodies found after avalanche hits Himalayan climbing group
+- 2026-09-28 · [[2026-09-28-003-two-bodies-found-after-avalanche-hits-himalayan-climbing]] — Two bodies found after avalanche hits Himalayan climbing group
 - 2026-09-27 · [[2026-09-27-001-pope-praises-young-people-s-energy-and-commitment-at-huge]] — Pope praises young people's 'energy and commitment' at huge open-air Mass in Paris
 - 2026-09-27 · [[2026-09-27-002-british-national-among-six-dead-in-building-explosion]] — British national among six dead in building explosion close to Acropolis in Athens
 - 2026-09-27 · [[2026-09-27-002-british-national-among-six-dead-in-building-explosion]] — British national among six dead in building explosion close to Acropolis in Athens

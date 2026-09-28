@@ -5956,6 +5956,97 @@
       "name": "Oman"
     },
     {
+      "id": "info:item:world:global:2026-09-28-001",
+      "type": "item",
+      "date": "2026-09-28",
+      "title": "Inside Yemen's front-line city as Houthis battle for control"
+    },
+    {
+      "id": "taxonomy/misc/Yemen conflict",
+      "type": "taxonomy",
+      "name": "Yemen conflict"
+    },
+    {
+      "id": "taxonomy/misc/Red Sea security",
+      "type": "taxonomy",
+      "name": "Red Sea security"
+    },
+    {
+      "id": "taxonomy/misc/Proxy wars",
+      "type": "taxonomy",
+      "name": "Proxy wars"
+    },
+    {
+      "id": "info:item:world:global:2026-09-28-002",
+      "type": "item",
+      "date": "2026-09-28",
+      "title": "Embattled Serbian president resigns, paving way for early elections"
+    },
+    {
+      "id": "info:entity:person:Aleksandar Vučić",
+      "type": "person",
+      "name": "Aleksandar Vučić"
+    },
+    {
+      "id": "info:entity:organization:Progressive Party of Serbia",
+      "type": "organization",
+      "name": "Progressive Party of Serbia"
+    },
+    {
+      "id": "info:entity:organization:Students Win",
+      "type": "organization",
+      "name": "Students Win"
+    },
+    {
+      "id": "info:entity:organization:European Serbia",
+      "type": "organization",
+      "name": "European Serbia"
+    },
+    {
+      "id": "taxonomy/misc/Industry",
+      "type": "taxonomy",
+      "name": "Industry"
+    },
+    {
+      "id": "info:item:world:global:2026-09-28-003",
+      "type": "item",
+      "date": "2026-09-28",
+      "title": "Two bodies found after avalanche hits Himalayan climbing group"
+    },
+    {
+      "id": "info:item:politics:global:2026-09-28-004",
+      "type": "item",
+      "date": "2026-09-28",
+      "title": "Burnham proposes NHS-style social care system for England"
+    },
+    {
+      "id": "info:entity:person:Baroness Casey",
+      "type": "person",
+      "name": "Baroness Casey"
+    },
+    {
+      "id": "info:entity:organization:NHS",
+      "type": "organization",
+      "name": "NHS"
+    },
+    {
+      "id": "info:item:politics:global:2026-09-28-005",
+      "type": "item",
+      "date": "2026-09-28",
+      "title": "Social care reform could mean big risks and big rewards for Burnham"
+    },
+    {
+      "id": "info:item:products:global:2026-09-28-006",
+      "type": "item",
+      "date": "2026-09-28",
+      "title": "Cuey – One‑Tab LLM Comparison for Agentic AI Workflows"
+    },
+    {
+      "id": "info:entity:product:Cuey",
+      "type": "product",
+      "name": "Cuey"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -24635,6 +24726,391 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-09-28-001",
+      "target": "info:entity:organization:Houthis",
+      "relation": "primary belligerent in Yemen's civil war"
+    },
+    {
+      "source": "info:item:world:global:2026-09-28-001",
+      "target": "info:entity:organization:Saudi Arabia",
+      "relation": "leads coalition supporting Yemen's internationally recognised government"
+    },
+    {
+      "source": "info:item:world:global:2026-09-28-001",
+      "target": "info:entity:organization:Iran",
+      "relation": "provides weapons and military advice to Houthis"
+    },
+    {
+      "source": "info:item:world:global:2026-09-28-001",
+      "target": "info:entity:organization:United Nations",
+      "relation": "monitoring and attempting to resolve Yemen conflict"
+    },
+    {
+      "source": "info:item:world:global:2026-09-28-001",
+      "target": "info:item:world:global:2026-09-27-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-28-001",
+      "target": "info:item:world:global:2026-09-27-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-28-001",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-28-001",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-28-001",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-28-001",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-28-001",
+      "target": "taxonomy/misc/Yemen conflict",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-28-001",
+      "target": "taxonomy/misc/Red Sea security",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-28-001",
+      "target": "taxonomy/misc/Proxy wars",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-28-002",
+      "target": "info:entity:person:Aleksandar Vučić",
+      "relation": "incumbent president who resigned, leading candidate for prime minister"
+    },
+    {
+      "source": "info:item:world:global:2026-09-28-002",
+      "target": "info:entity:organization:Progressive Party of Serbia",
+      "relation": "ruling party, candidate in upcoming elections"
+    },
+    {
+      "source": "info:item:world:global:2026-09-28-002",
+      "target": "info:entity:organization:Students Win",
+      "relation": "student‑led anti‑corruption movement contesting the election"
+    },
+    {
+      "source": "info:item:world:global:2026-09-28-002",
+      "target": "info:entity:organization:European Serbia",
+      "relation": "pro‑Western opposition coalition"
+    },
+    {
+      "source": "info:item:world:global:2026-09-28-002",
+      "target": "info:entity:company:OpenAI",
+      "relation": "highlighted in editorial priorities for AI and regulation focus"
+    },
+    {
+      "source": "info:item:world:global:2026-09-28-002",
+      "target": "info:entity:model:Gemini",
+      "relation": "referenced in editorial priorities for LLM and agentic AI emphasis"
+    },
+    {
+      "source": "info:item:world:global:2026-09-28-002",
+      "target": "info:item:world:global:2026-09-28-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-28-002",
+      "target": "info:item:world:global:2026-09-27-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-28-002",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-28-002",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-28-002",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-28-002",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-28-002",
+      "target": "taxonomy/misc/Geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-28-002",
+      "target": "taxonomy/misc/Policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-28-002",
+      "target": "taxonomy/misc/Industry",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-28-003",
+      "target": "info:entity:region:Nepal",
+      "relation": "affected region and host of climbing tourism"
+    },
+    {
+      "source": "info:item:world:global:2026-09-28-003",
+      "target": "info:entity:organization:World Meteorological Organization",
+      "relation": "provides climate data and warnings for extreme weather"
+    },
+    {
+      "source": "info:item:world:global:2026-09-28-003",
+      "target": "info:entity:organization:Green Climate Fund",
+      "relation": "finances climate‑adaptation projects in vulnerable mountain regions"
+    },
+    {
+      "source": "info:item:world:global:2026-09-28-003",
+      "target": "info:item:world:global:2026-09-28-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-28-003",
+      "target": "info:item:world:global:2026-09-27-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-28-003",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-28-003",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-28-003",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-28-003",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-28-003",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-28-003",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-28-003",
+      "target": "taxonomy/category/industry",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-28-004",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "proposer of NHS‑style social care system and Labour leader for Greater Manchester"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-28-004",
+      "target": "info:entity:person:Chris Philp",
+      "relation": "Conservative shadow home secretary, opponent of tax rises for social care"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-28-004",
+      "target": "info:entity:person:Keir Starmer",
+      "relation": "Labour Party leader, overseeing manifesto commitments"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-28-004",
+      "target": "info:entity:person:Baroness Casey",
+      "relation": "Whitehall troubleshooter leading the accelerated social care review"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-28-004",
+      "target": "info:entity:organization:NHS",
+      "relation": "model for proposed universal social care system"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-28-004",
+      "target": "info:item:politics:global:2026-09-27-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-28-004",
+      "target": "info:item:politics:global:2026-09-27-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-28-004",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-28-004",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-28-004",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-28-004",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-28-004",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-28-004",
+      "target": "taxonomy/misc/social welfare",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-28-005",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "proposes social care reform"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-28-005",
+      "target": "info:entity:person:Baroness Casey",
+      "relation": "leads review influencing funding options"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-28-005",
+      "target": "info:entity:person:Keir Starmer",
+      "relation": "Labour Party leader providing political context"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-28-005",
+      "target": "info:entity:organization:Labour Party",
+      "relation": "policy constraints and manifesto commitments"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-28-005",
+      "target": "info:item:politics:global:2026-09-28-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-28-005",
+      "target": "info:item:politics:global:2026-09-27-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-28-005",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-28-005",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-28-005",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-28-005",
+      "target": "taxonomy/topic/politics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-28-005",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-28-005",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-09-28-006",
+      "target": "info:entity:company:OpenAI",
+      "relation": "provider of ChatGPT"
+    },
+    {
+      "source": "info:item:products:global:2026-09-28-006",
+      "target": "info:entity:company:Anthropic",
+      "relation": "provider of Claude"
+    },
+    {
+      "source": "info:item:products:global:2026-09-28-006",
+      "target": "info:entity:company:Google",
+      "relation": "provider of Gemini"
+    },
+    {
+      "source": "info:item:products:global:2026-09-28-006",
+      "target": "info:entity:product:Cuey",
+      "relation": "comparative LLM interface"
+    },
+    {
+      "source": "info:item:products:global:2026-09-28-006",
+      "target": "info:item:products:global:2026-09-27-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-09-28-006",
+      "target": "info:item:products:global:2026-09-26-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-09-28-006",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-09-28-006",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-09-28-006",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-09-28-006",
+      "target": "taxonomy/misc/Artificial Intelligence",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-09-28-006",
+      "target": "taxonomy/misc/Regulation",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-09-28-006",
+      "target": "taxonomy/misc/Open‑source Software",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -24850,7 +25326,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:Google",
       "relation": "co-occurs",
-      "weight": "6"
+      "weight": "7"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -24868,7 +25344,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
-      "weight": "46"
+      "weight": "47"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -25185,6 +25661,12 @@
     {
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:product:Clockwork",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:product:Cuey",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -25540,7 +26022,7 @@
       "source": "info:entity:company:Google",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
-      "weight": "6"
+      "weight": "7"
     },
     {
       "source": "info:entity:company:Google",
@@ -25611,6 +26093,12 @@
     {
       "source": "info:entity:company:Google",
       "target": "info:entity:person:Petteri Orpo",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Google",
+      "target": "info:entity:product:Cuey",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -26068,7 +26556,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "28"
+      "weight": "29"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -26126,6 +26614,12 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:organization:European Serbia",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:organization:Federal Aviation Administration",
       "relation": "co-occurs",
       "weight": "1"
@@ -26162,9 +26656,21 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:organization:Progressive Party of Serbia",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:organization:Reform UK",
       "relation": "co-occurs",
       "weight": "2"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:organization:Students Win",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -26193,6 +26699,12 @@
     {
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Ahmad Imanuddin Sumar",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:person:Aleksandar Vučić",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -26373,6 +26885,12 @@
     {
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:product:Clockwork",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:product:Cuey",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -28046,6 +28564,12 @@
     },
     {
       "source": "info:entity:model:Gemini",
+      "target": "info:entity:organization:European Serbia",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
       "target": "info:entity:organization:Google",
       "relation": "co-occurs",
       "weight": "1"
@@ -28070,6 +28594,18 @@
     },
     {
       "source": "info:entity:model:Gemini",
+      "target": "info:entity:organization:Progressive Party of Serbia",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
+      "target": "info:entity:organization:Students Win",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
       "target": "info:entity:organization:UK Foreign Office",
       "relation": "co-occurs",
       "weight": "1"
@@ -28083,6 +28619,12 @@
     {
       "source": "info:entity:model:Gemini",
       "target": "info:entity:organization:World Meteorological Organization (WMO)",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
+      "target": "info:entity:person:Aleksandar Vučić",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -29449,6 +29991,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:European Serbia",
+      "target": "info:entity:organization:Progressive Party of Serbia",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:European Serbia",
+      "target": "info:entity:organization:Students Win",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:European Serbia",
+      "target": "info:entity:person:Aleksandar Vučić",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:European Union",
       "target": "info:entity:organization:NATO",
       "relation": "co-occurs",
@@ -29758,6 +30318,12 @@
       "source": "info:entity:organization:Green Climate Fund",
       "target": "info:entity:organization:World Meteorological Organization",
       "relation": "co-occurs",
+      "weight": "2"
+    },
+    {
+      "source": "info:entity:organization:Green Climate Fund",
+      "target": "info:entity:region:Nepal",
+      "relation": "co-occurs",
       "weight": "1"
     },
     {
@@ -29920,7 +30486,7 @@
       "source": "info:entity:organization:Houthis",
       "target": "info:entity:organization:Iran",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Houthis",
@@ -29932,11 +30498,17 @@
       "source": "info:entity:organization:Houthis",
       "target": "info:entity:organization:Saudi Arabia",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:organization:Houthis",
       "target": "info:entity:organization:U.S. State Department",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Houthis",
+      "target": "info:entity:organization:United Nations",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -30088,7 +30660,13 @@
       "source": "info:entity:organization:Iran",
       "target": "info:entity:organization:Saudi Arabia",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
+    },
+    {
+      "source": "info:entity:organization:Iran",
+      "target": "info:entity:organization:United Nations",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:organization:Iran",
@@ -30304,7 +30882,7 @@
       "source": "info:entity:organization:Labour Party",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
-      "weight": "11"
+      "weight": "12"
     },
     {
       "source": "info:entity:organization:Labour Party",
@@ -30317,6 +30895,12 @@
       "target": "info:entity:person:Angela Rayner",
       "relation": "co-occurs",
       "weight": "2"
+    },
+    {
+      "source": "info:entity:organization:Labour Party",
+      "target": "info:entity:person:Baroness Casey",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:organization:Labour Party",
@@ -30346,7 +30930,7 @@
       "source": "info:entity:organization:Labour Party",
       "target": "info:entity:person:Keir Starmer",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:organization:Labour Party",
@@ -30705,6 +31289,30 @@
     {
       "source": "info:entity:organization:NATO",
       "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:NHS",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:NHS",
+      "target": "info:entity:person:Baroness Casey",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:NHS",
+      "target": "info:entity:person:Chris Philp",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:NHS",
+      "target": "info:entity:person:Keir Starmer",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -31129,6 +31737,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Progressive Party of Serbia",
+      "target": "info:entity:organization:Students Win",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Progressive Party of Serbia",
+      "target": "info:entity:person:Aleksandar Vučić",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Public Opinion Foundation",
       "target": "info:entity:organization:Wildberries",
       "relation": "co-occurs",
@@ -31346,6 +31966,12 @@
     },
     {
       "source": "info:entity:organization:Saudi Arabia",
+      "target": "info:entity:organization:United Nations",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Saudi Arabia",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
       "weight": "1"
@@ -31443,6 +32069,12 @@
     {
       "source": "info:entity:organization:Strait of Hormuz",
       "target": "info:entity:person:Masoud Pezeshkian",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Students Win",
+      "target": "info:entity:person:Aleksandar Vučić",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -32155,6 +32787,12 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:World Meteorological Organization",
+      "target": "info:entity:region:Nepal",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:World Meteorological Organization (WMO)",
       "target": "info:entity:person:António Guterres",
       "relation": "co-occurs",
@@ -32300,7 +32938,19 @@
     },
     {
       "source": "info:entity:person:Andy Burnham",
+      "target": "info:entity:person:Baroness Casey",
+      "relation": "co-occurs",
+      "weight": "2"
+    },
+    {
+      "source": "info:entity:person:Andy Burnham",
       "target": "info:entity:person:Ben Delo",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Andy Burnham",
+      "target": "info:entity:person:Chris Philp",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -32344,7 +32994,7 @@
       "source": "info:entity:person:Andy Burnham",
       "target": "info:entity:person:Keir Starmer",
       "relation": "co-occurs",
-      "weight": "6"
+      "weight": "8"
     },
     {
       "source": "info:entity:person:Andy Burnham",
@@ -32611,6 +33261,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:person:Baroness Casey",
+      "target": "info:entity:person:Chris Philp",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Baroness Casey",
+      "target": "info:entity:person:Keir Starmer",
+      "relation": "co-occurs",
+      "weight": "2"
+    },
+    {
       "source": "info:entity:person:Bassam al‑Assaf",
       "target": "info:entity:region:West Bank",
       "relation": "co-occurs",
@@ -32769,6 +33431,12 @@
     {
       "source": "info:entity:person:Chow Hang‑tung",
       "target": "info:entity:person:Lee Cheuk‑yan",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Chris Philp",
+      "target": "info:entity:person:Keir Starmer",
       "relation": "co-occurs",
       "weight": "1"
     },

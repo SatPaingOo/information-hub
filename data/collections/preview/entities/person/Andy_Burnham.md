@@ -1,7 +1,7 @@
 ---
 name: "Andy Burnham"
 entity_type: person
-backlink_count: 43
+backlink_count: 45
 ---
 
 # Andy Burnham
@@ -10,6 +10,8 @@ backlink_count: 43
 
 ## Referenced by
 
+- 2026-09-28 · [[2026-09-28-004-burnham-proposes-nhs-style-social-care-system-for-england]] — Burnham proposes NHS-style social care system for England
+- 2026-09-28 · [[2026-09-28-005-social-care-reform-could-mean-big-risks-and-big-rewards]] — Social care reform could mean big risks and big rewards for Burnham
 - 2026-09-27 · [[2026-09-27-004-burnham-announces-scheme-to-help-first-time-buyers-on-to]] — Burnham announces scheme to help first-time buyers on to housing ladder
 - 2026-09-27 · [[2026-09-27-005-rayner-criticises-visa-rule-proposals-ahead-of-labour]] — Rayner criticises visa rule proposals ahead of Labour conference
 - 2026-09-26 · [[2026-09-26-002-i-m-not-tempted-to-call-an-early-election-burnham-says]] — I'm not tempted to call an early election, Burnham says

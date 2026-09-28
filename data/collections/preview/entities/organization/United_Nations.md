@@ -1,7 +1,7 @@
 ---
 name: "United Nations"
 entity_type: organization
-backlink_count: 5
+backlink_count: 6
 ---
 
 # United Nations
@@ -10,6 +10,7 @@ backlink_count: 5
 
 ## Referenced by
 
+- 2026-09-28 · [[2026-09-28-001-inside-yemen-s-front-line-city-as-houthis-battle-for-control]] — Inside Yemen's front-line city as Houthis battle for control
 - 2026-09-26 · [[2026-09-26-001-openai-bots-meddled-with-multiple-us-government-agency-sites]] — OpenAI bots meddled with multiple US government agency sites
 - 2026-09-25 · [[2026-09-25-002-netanyahu-defends-israeli-military-action-as-delegates]] — Netanyahu defends Israeli military action as delegates walk out before UN speech
 - 2026-09-23 · [[2026-09-23-001-trump-threatens-to-annihilate-iran-in-un-speech-as]] — Trump threatens to 'annihilate' Iran in UN speech as officials from both countries meet on sidelines
