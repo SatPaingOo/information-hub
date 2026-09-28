@@ -1,7 +1,7 @@
 ---
 node: "world"
 layer: topic
-item_count: 165
+item_count: 166
 ---
 
 # world
@@ -21,6 +21,7 @@ item_count: 165
 - 2026-09-28 · [[2026-09-28-002-embattled-serbian-president-resigns-paving-way-for-early]] — Embattled Serbian president resigns, paving way for early elections
 - 2026-09-28 · [[2026-09-28-003-two-bodies-found-after-avalanche-hits-himalayan-climbing]] — Two bodies found after avalanche hits Himalayan climbing group
 - 2026-09-28 · [[2026-09-28-007-trump-xi-summit-what-wasn-t-said-might-matter-the-most]] — Trump‑Xi summit: What wasn’t said might matter the most
+- 2026-09-28 · [[2026-09-28-008-mexico-s-pacific-coast-braces-for-hurricane-polo]] — Mexico's Pacific coast braces for Hurricane Polo
 - 2026-09-27 · [[2026-09-27-001-pope-praises-young-people-s-energy-and-commitment-at-huge]] — Pope praises young people's 'energy and commitment' at huge open-air Mass in Paris
 - 2026-09-27 · [[2026-09-27-002-british-national-among-six-dead-in-building-explosion]] — British national among six dead in building explosion close to Acropolis in Athens
 - 2026-09-27 · [[2026-09-27-003-german-town-bans-stumbling-stone-memorials-to-nazi-victims]] — German town bans 'stumbling stone' memorials to Nazi victims

@@ -6058,6 +6058,47 @@
       "name": "Google Gemini"
     },
     {
+      "id": "info:item:world:global:2026-09-28-008",
+      "type": "item",
+      "date": "2026-09-28",
+      "title": "Mexico's Pacific coast braces for Hurricane Polo"
+    },
+    {
+      "id": "info:entity:event:Hurricane Polo",
+      "type": "event",
+      "name": "Hurricane Polo"
+    },
+    {
+      "id": "info:entity:person:Victor Manuel Castro Cosío",
+      "type": "person",
+      "name": "Victor Manuel Castro Cosío"
+    },
+    {
+      "id": "info:entity:organization:National Hurricane Center",
+      "type": "organization",
+      "name": "National Hurricane Center"
+    },
+    {
+      "id": "info:entity:concept:El Niño",
+      "type": "concept",
+      "name": "El Niño"
+    },
+    {
+      "id": "taxonomy/misc/climate‑risk",
+      "type": "taxonomy",
+      "name": "climate‑risk"
+    },
+    {
+      "id": "taxonomy/misc/tourism‑industry",
+      "type": "taxonomy",
+      "name": "tourism‑industry"
+    },
+    {
+      "id": "taxonomy/misc/emergency‑management",
+      "type": "taxonomy",
+      "name": "emergency‑management"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -25197,6 +25238,71 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-09-28-008",
+      "target": "info:entity:event:Hurricane Polo",
+      "relation": "subject of the article"
+    },
+    {
+      "source": "info:item:world:global:2026-09-28-008",
+      "target": "info:entity:person:Victor Manuel Castro Cosío",
+      "relation": "Governor of Baja California Sur, overseeing emergency response"
+    },
+    {
+      "source": "info:item:world:global:2026-09-28-008",
+      "target": "info:entity:organization:National Hurricane Center",
+      "relation": "U.S. agency issuing forecasts"
+    },
+    {
+      "source": "info:item:world:global:2026-09-28-008",
+      "target": "info:entity:concept:El Niño",
+      "relation": "Climate phenomenon amplifying storm intensity"
+    },
+    {
+      "source": "info:item:world:global:2026-09-28-008",
+      "target": "info:item:world:global:2026-09-28-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-28-008",
+      "target": "info:item:world:global:2026-09-28-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-28-008",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-28-008",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-28-008",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-28-008",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-28-008",
+      "target": "taxonomy/misc/climate‑risk",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-28-008",
+      "target": "taxonomy/misc/tourism‑industry",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-28-008",
+      "target": "taxonomy/misc/emergency‑management",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -27743,6 +27849,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:concept:El Niño",
+      "target": "info:entity:event:Hurricane Polo",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:El Niño",
+      "target": "info:entity:organization:National Hurricane Center",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:El Niño",
+      "target": "info:entity:person:Victor Manuel Castro Cosío",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:concept:Feature Extraction",
       "target": "info:entity:concept:Feature Selection",
       "relation": "co-occurs",
@@ -28357,6 +28481,18 @@
     {
       "source": "info:entity:event:Good Friday Agreement",
       "target": "info:entity:person:Micheál Martin",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:event:Hurricane Polo",
+      "target": "info:entity:organization:National Hurricane Center",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:event:Hurricane Polo",
+      "target": "info:entity:person:Victor Manuel Castro Cosío",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -31525,6 +31661,12 @@
     {
       "source": "info:entity:organization:National Housing Federation",
       "target": "info:entity:person:Angela Rayner",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:National Hurricane Center",
+      "target": "info:entity:person:Victor Manuel Castro Cosío",
       "relation": "co-occurs",
       "weight": "1"
     },
