@@ -6047,6 +6047,17 @@
       "name": "Cuey"
     },
     {
+      "id": "info:item:world:global:2026-09-28-007",
+      "type": "item",
+      "date": "2026-09-28",
+      "title": "Trump‑Xi summit: What wasn’t said might matter the most"
+    },
+    {
+      "id": "info:entity:company:Google Gemini",
+      "type": "company",
+      "name": "Google Gemini"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -25111,6 +25122,81 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-09-28-007",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "U.S. President, summit participant"
+    },
+    {
+      "source": "info:item:world:global:2026-09-28-007",
+      "target": "info:entity:person:Xi Jinping",
+      "relation": "Chinese President, summit participant"
+    },
+    {
+      "source": "info:item:world:global:2026-09-28-007",
+      "target": "info:entity:concept:Agentic AI",
+      "relation": "Topic of bilateral AI dialogue"
+    },
+    {
+      "source": "info:item:world:global:2026-09-28-007",
+      "target": "info:entity:model:GPT‑4‑Turbo",
+      "relation": "Referenced AI model in broader regulatory debate"
+    },
+    {
+      "source": "info:item:world:global:2026-09-28-007",
+      "target": "info:entity:company:Anthropic",
+      "relation": "U.S. AI firm urging slower development, cited in summit context"
+    },
+    {
+      "source": "info:item:world:global:2026-09-28-007",
+      "target": "info:entity:company:Google Gemini",
+      "relation": "Competing LLM mentioned in AI governance discussions"
+    },
+    {
+      "source": "info:item:world:global:2026-09-28-007",
+      "target": "info:item:world:global:2026-09-28-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-28-007",
+      "target": "info:item:world:global:2026-09-28-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-28-007",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-28-007",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-28-007",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-28-007",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-28-007",
+      "target": "taxonomy/misc/Geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-28-007",
+      "target": "taxonomy/misc/Technology Policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-28-007",
+      "target": "taxonomy/misc/International Trade",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -25330,6 +25416,12 @@
     },
     {
       "source": "info:entity:company:Anthropic",
+      "target": "info:entity:company:Google Gemini",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:Microsoft",
       "relation": "co-occurs",
       "weight": "1"
@@ -25392,7 +25484,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:concept:Agentic AI",
       "relation": "co-occurs",
-      "weight": "7"
+      "weight": "8"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -25488,7 +25580,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:model:GPT‑4‑Turbo",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -25584,7 +25676,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:person:Donald Trump",
       "relation": "co-occurs",
-      "weight": "7"
+      "weight": "8"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -25644,7 +25736,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:person:Xi Jinping",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -26119,6 +26211,30 @@
       "target": "info:entity:region:Myanmar",
       "relation": "co-occurs",
       "weight": "3"
+    },
+    {
+      "source": "info:entity:company:Google Gemini",
+      "target": "info:entity:concept:Agentic AI",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Google Gemini",
+      "target": "info:entity:model:GPT‑4‑Turbo",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Google Gemini",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Google Gemini",
+      "target": "info:entity:person:Xi Jinping",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:company:HydraDB",
@@ -27328,6 +27444,12 @@
     },
     {
       "source": "info:entity:concept:Agentic AI",
+      "target": "info:entity:model:GPT‑4‑Turbo",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Agentic AI",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
       "weight": "6"
@@ -27402,7 +27524,7 @@
       "source": "info:entity:concept:Agentic AI",
       "target": "info:entity:person:Donald Trump",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:concept:Agentic AI",
@@ -27415,6 +27537,12 @@
       "target": "info:entity:person:Sam Altman",
       "relation": "co-occurs",
       "weight": "2"
+    },
+    {
+      "source": "info:entity:concept:Agentic AI",
+      "target": "info:entity:person:Xi Jinping",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:concept:Agentic AI",
@@ -28547,6 +28675,18 @@
     {
       "source": "info:entity:model:GPT‑4",
       "target": "info:entity:product:Relaticle",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:GPT‑4‑Turbo",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:GPT‑4‑Turbo",
+      "target": "info:entity:person:Xi Jinping",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -33816,7 +33956,7 @@
       "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:Xi Jinping",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:person:Donald Trump",
