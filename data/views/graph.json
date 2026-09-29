@@ -6174,6 +6174,32 @@
       "name": "Vantage AI"
     },
     {
+      "id": "info:item:world:global:2026-09-29-007",
+      "type": "item",
+      "date": "2026-09-29",
+      "title": "Evicted Spanish pensioner can move back home, lawyer says"
+    },
+    {
+      "id": "info:entity:person:Maricarmen Abascal",
+      "type": "person",
+      "name": "Maricarmen Abascal"
+    },
+    {
+      "id": "info:entity:organization:Urbagestión",
+      "type": "organization",
+      "name": "Urbagestión"
+    },
+    {
+      "id": "taxonomy/misc/economic inequality",
+      "type": "taxonomy",
+      "name": "economic inequality"
+    },
+    {
+      "id": "taxonomy/misc/artificial intelligence regulation",
+      "type": "taxonomy",
+      "name": "artificial intelligence regulation"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -25688,6 +25714,81 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-09-29-007",
+      "target": "info:entity:person:Maricarmen Abascal",
+      "relation": "evicted tenant and symbolic figure of Spain's housing crisis"
+    },
+    {
+      "source": "info:item:world:global:2026-09-29-007",
+      "target": "info:entity:person:Pedro Sánchez",
+      "relation": "Prime Minister promising housing relief"
+    },
+    {
+      "source": "info:item:world:global:2026-09-29-007",
+      "target": "info:entity:organization:Urbagestión",
+      "relation": "investment firm that owned the disputed property"
+    },
+    {
+      "source": "info:item:world:global:2026-09-29-007",
+      "target": "info:entity:company:OpenAI",
+      "relation": "provider of LLMs used in municipal housing‑market monitoring"
+    },
+    {
+      "source": "info:item:world:global:2026-09-29-007",
+      "target": "info:entity:model:Gemini 3.8",
+      "relation": "AI model employed by Madrid city council for rent‑price analytics"
+    },
+    {
+      "source": "info:item:world:global:2026-09-29-007",
+      "target": "info:item:world:global:2026-09-29-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-29-007",
+      "target": "info:item:world:global:2026-09-29-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-29-007",
+      "target": "info:item:world:global:2026-09-29-003",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-29-007",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-29-007",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-29-007",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-29-007",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-29-007",
+      "target": "taxonomy/misc/housing policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-29-007",
+      "target": "taxonomy/misc/economic inequality",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-29-007",
+      "target": "taxonomy/misc/artificial intelligence regulation",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -27193,7 +27294,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:model:Gemini 3.8",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -27318,6 +27419,12 @@
     {
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:organization:United Nations",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:organization:Urbagestión",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -27461,6 +27568,12 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:person:Maricarmen Abascal",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Marine Le Pen",
       "relation": "co-occurs",
       "weight": "1"
@@ -27468,6 +27581,12 @@
     {
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Mick Mulvaney",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:person:Pedro Sánchez",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -29568,6 +29687,24 @@
     {
       "source": "info:entity:model:Gemini 3.8",
       "target": "info:entity:model:OpenAI GPT‑4‑Turbo",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini 3.8",
+      "target": "info:entity:organization:Urbagestión",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini 3.8",
+      "target": "info:entity:person:Maricarmen Abascal",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini 3.8",
+      "target": "info:entity:person:Pedro Sánchez",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -33472,6 +33609,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Urbagestión",
+      "target": "info:entity:person:Maricarmen Abascal",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Urbagestión",
+      "target": "info:entity:person:Pedro Sánchez",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Utah Valley University",
       "target": "info:entity:person:Charlie Kirk",
       "relation": "co-occurs",
@@ -35208,6 +35357,12 @@
     {
       "source": "info:entity:person:Marco Rubio",
       "target": "info:entity:person:Scott Bessent",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Maricarmen Abascal",
+      "target": "info:entity:person:Pedro Sánchez",
       "relation": "co-occurs",
       "weight": "1"
     },

@@ -1,7 +1,7 @@
 ---
 node: "Global"
 layer: misc
-item_count: 300
+item_count: 301
 ---
 
 # Global
@@ -29,6 +29,7 @@ item_count: 300
 - 2026-09-29 · [[2026-09-29-003-seoul-summons-ukraine-envoy-over-north-korean-prisoner-of]] — Seoul summons Ukraine envoy over North Korean prisoner‑of‑war row
 - 2026-09-29 · [[2026-09-29-004-burnham-to-unveil-public-body-to-invest-in-electricity-grid]] — Burnham to unveil public body to invest in electricity grid
 - 2026-09-29 · [[2026-09-29-006-vantage-ai]] — vantage.ai
+- 2026-09-29 · [[2026-09-29-007-evicted-spanish-pensioner-can-move-back-home-lawyer-says]] — Evicted Spanish pensioner can move back home, lawyer says
 - 2026-09-28 · [[2026-09-28-001-inside-yemen-s-front-line-city-as-houthis-battle-for-control]] — Inside Yemen's front-line city as Houthis battle for control
 - 2026-09-28 · [[2026-09-28-002-embattled-serbian-president-resigns-paving-way-for-early]] — Embattled Serbian president resigns, paving way for early elections
 - 2026-09-28 · [[2026-09-28-003-two-bodies-found-after-avalanche-hits-himalayan-climbing]] — Two bodies found after avalanche hits Himalayan climbing group

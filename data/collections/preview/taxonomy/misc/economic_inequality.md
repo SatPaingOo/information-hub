@@ -1,19 +1,17 @@
 ---
-node: "housing policy"
+node: "economic inequality"
 layer: misc
-item_count: 2
+item_count: 1
 ---
 
-# housing policy
+# economic inequality
 
 *Taxonomy layer: misc*
 
 ## Cross-layer relations
 
-- [[politics]] — *relates*
 - [[world]] — *relates*
 
 ## Items
 
 - 2026-09-29 · [[2026-09-29-007-evicted-spanish-pensioner-can-move-back-home-lawyer-says]] — Evicted Spanish pensioner can move back home, lawyer says
-- 2026-09-07 · [[2026-09-07-005-green-party-deputy-leader-linked-to-property-lets-despite]] — Green Party deputy leader linked to property lets despite opposition to landlords
