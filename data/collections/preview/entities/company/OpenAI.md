@@ -1,7 +1,7 @@
 ---
 name: "OpenAI"
 entity_type: company
-backlink_count: 85
+backlink_count: 87
 ---
 
 # OpenAI
@@ -10,6 +10,8 @@ backlink_count: 85
 
 ## Referenced by
 
+- 2026-09-29 · [[2026-09-29-001-openai-scraps-rollout-of-new-model-over-safety-concerns]] — OpenAI scraps rollout of new model over safety concerns
+- 2026-09-29 · [[2026-09-29-002-new-york-times-executive-fatally-shot-allegedly-by-elderly]] — New York Times executive fatally shot allegedly by elderly in-laws
 - 2026-09-28 · [[2026-09-28-002-embattled-serbian-president-resigns-paving-way-for-early]] — Embattled Serbian president resigns, paving way for early elections
 - 2026-09-28 · [[2026-09-28-006-cuey-one-tab-llm-comparison-for-agentic-ai-workflows]] — Cuey – One‑Tab LLM Comparison for Agentic AI Workflows
 - 2026-09-27 · [[2026-09-27-001-pope-praises-young-people-s-energy-and-commitment-at-huge]] — Pope praises young people's 'energy and commitment' at huge open-air Mass in Paris

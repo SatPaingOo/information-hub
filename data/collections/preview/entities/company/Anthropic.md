@@ -1,7 +1,7 @@
 ---
 name: "Anthropic"
 entity_type: company
-backlink_count: 55
+backlink_count: 56
 ---
 
 # Anthropic
@@ -10,6 +10,7 @@ backlink_count: 55
 
 ## Referenced by
 
+- 2026-09-29 · [[2026-09-29-006-vantage-ai]] — vantage.ai
 - 2026-09-28 · [[2026-09-28-006-cuey-one-tab-llm-comparison-for-agentic-ai-workflows]] — Cuey – One‑Tab LLM Comparison for Agentic AI Workflows
 - 2026-09-28 · [[2026-09-28-007-trump-xi-summit-what-wasn-t-said-might-matter-the-most]] — Trump‑Xi summit: What wasn’t said might matter the most
 - 2026-09-27 · [[2026-09-27-006-hemory]] — Hemory

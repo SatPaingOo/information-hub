@@ -1,7 +1,7 @@
 ---
 name: "Volodymyr Zelensky"
 entity_type: person
-backlink_count: 16
+backlink_count: 17
 ---
 
 # Volodymyr Zelensky
@@ -10,6 +10,7 @@ backlink_count: 16
 
 ## Referenced by
 
+- 2026-09-29 · [[2026-09-29-003-seoul-summons-ukraine-envoy-over-north-korean-prisoner-of]] — Seoul summons Ukraine envoy over North Korean prisoner‑of‑war row
 - 2026-09-26 · [[2026-09-26-006-russia-targeting-ordinary-life-with-attacks-on-ukraine-s]] — Russia targeting 'ordinary life' with attacks on Ukraine's data centres, Zelensky says
 - 2026-09-21 · [[2026-09-21-002-largest-attack-on-moscow-sees-ukraine-fire-hundreds-of]] — Largest attack on Moscow sees Ukraine fire hundreds of drones, mayor says
 - 2026-09-14 · [[2026-09-14-001-russia-hits-ukrainian-train-shortly-after-boris-johnson]] — Russia hits Ukrainian train shortly after Boris Johnson and top European officials leave station

@@ -1,0 +1,22 @@
+2026-09-29 02:17:06,527 INFO [world-news] published 2026-09-29-001 — OpenAI scraps rollout of new model over safety concerns
+2026-09-29 02:18:02,376 INFO [world-news] published 2026-09-29-002 — New York Times executive fatally shot allegedly by elderly i
+2026-09-29 02:18:52,862 INFO [world-news] published 2026-09-29-003 — Seoul summons Ukraine envoy over North Korean prisoner‑of‑wa
+2026-09-29 02:18:57,388 INFO [tech-news] nothing selected
+2026-09-29 02:19:56,460 INFO [politics] published 2026-09-29-004 — Burnham to unveil public body to invest in electricity grid
+2026-09-29 02:21:06,679 ERROR [politics] generate error: bad response: Unterminated string starting at: line 12 column 5 (char 232)
+2026-09-29 02:21:09,842 ERROR [politics] generate error: HTTP 429: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"poolside/laguna-xs-2.1:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Poolside","is_byok":fa
+2026-09-29 02:23:07,312 INFO [politics] attempt 3 invalid: ["entities/3/type: 'country' is not one of ['concept', 'company', 'model', 'person', 'product', 'region', 'organization', 'event']"]
+2026-09-29 02:23:54,509 INFO [products] published 2026-09-29-006 — vantage.ai
+2026-09-29 02:23:59,474 INFO [products] attempt 1 invalid: [": 'tags' is a required property", ": 'related_items' is a required property"]
+2026-09-29 02:23:59,585 ERROR [products] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 5291, Requested 4262. Please try again in 11.6475s. Need more tokens? Upgrade to Dev Tier today at https://co
+2026-09-29 02:24:08,316 INFO [products] attempt 3 invalid: [": 'key_facts' is a required property", ": 'implications' is a required property"]
+2026-09-29 02:24:08,714 INFO collect done: 5 item(s) published — target 5/10, next run ≈ 2026-09-29T02:31:59+00:00 UTC
+2026-09-29 02:24:32,006 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 2267, Requested 6644. Please try again in 6.8325s. Need more tokens? Upgrade to Dev Tier today at https://con
+2026-09-29 02:24:38,204 INFO [world-news] attempt 2 invalid: [": 'key_facts' is a required property", ": 'implications' is a required property"]
+2026-09-29 02:24:38,345 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7982, Requested 4994. Please try again in 37.32s. Need more tokens? Upgrade to Dev Tier today at https://conso
+2026-09-29 02:24:47,433 WARNING [world-news] no collect provider for deep-dive
+2026-09-29 02:24:47,536 WARNING [world-news] no collect provider for deep-dive
+2026-09-29 02:24:48,089 WARNING [tech-news] no collect provider available
+2026-09-29 02:24:48,528 WARNING [politics] no collect provider available
+2026-09-29 02:24:49,132 WARNING [products] no collect provider available
+2026-09-29 02:24:49,536 INFO collect done: 0 item(s) published — target 5/10, next run ≈ 2026-09-30T01:00:00+00:00 UTC

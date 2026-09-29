@@ -1,7 +1,7 @@
 ---
 node: "products"
 layer: topic
-item_count: 47
+item_count: 48
 ---
 
 # products
@@ -16,6 +16,7 @@ item_count: 47
 
 ## Items
 
+- 2026-09-29 · [[2026-09-29-006-vantage-ai]] — vantage.ai
 - 2026-09-28 · [[2026-09-28-006-cuey-one-tab-llm-comparison-for-agentic-ai-workflows]] — Cuey – One‑Tab LLM Comparison for Agentic AI Workflows
 - 2026-09-27 · [[2026-09-27-006-hemory]] — Hemory
 - 2026-09-26 · [[2026-09-26-004-jango]] — Jango

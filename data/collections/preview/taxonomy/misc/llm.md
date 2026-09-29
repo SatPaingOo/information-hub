@@ -1,7 +1,7 @@
 ---
 node: "LLM"
 layer: misc
-item_count: 46
+item_count: 47
 ---
 
 # LLM
@@ -17,6 +17,7 @@ item_count: 46
 
 ## Items
 
+- 2026-09-29 · [[2026-09-29-006-vantage-ai]] — vantage.ai
 - 2026-09-27 · [[2026-09-27-001-pope-praises-young-people-s-energy-and-commitment-at-huge]] — Pope praises young people's 'energy and commitment' at huge open-air Mass in Paris
 - 2026-09-27 · [[2026-09-27-006-hemory]] — Hemory
 - 2026-09-26 · [[2026-09-26-001-openai-bots-meddled-with-multiple-us-government-agency-sites]] — OpenAI bots meddled with multiple US government agency sites

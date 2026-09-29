@@ -1,7 +1,7 @@
 ---
 name: "Sam Altman"
 entity_type: person
-backlink_count: 11
+backlink_count: 12
 ---
 
 # Sam Altman
@@ -10,6 +10,7 @@ backlink_count: 11
 
 ## Referenced by
 
+- 2026-09-29 · [[2026-09-29-001-openai-scraps-rollout-of-new-model-over-safety-concerns]] — OpenAI scraps rollout of new model over safety concerns
 - 2026-09-26 · [[2026-09-26-001-openai-bots-meddled-with-multiple-us-government-agency-sites]] — OpenAI bots meddled with multiple US government agency sites
 - 2026-09-25 · [[2026-09-25-001-why-australia-chose-the-world-s-biggest-political-stage-to]] — Why Australia chose the world's biggest political stage to reveal OpenAI hack
 - 2026-09-24 · [[2026-09-24-001-openai-agent-infiltrated-australian-government-website-pm]] — OpenAI agent 'infiltrated' Australian government website, PM says

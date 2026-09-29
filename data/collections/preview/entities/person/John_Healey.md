@@ -1,7 +1,7 @@
 ---
 name: "John Healey"
 entity_type: person
-backlink_count: 11
+backlink_count: 12
 ---
 
 # John Healey
@@ -10,6 +10,7 @@ backlink_count: 11
 
 ## Referenced by
 
+- 2026-09-29 · [[2026-09-29-004-burnham-to-unveil-public-body-to-invest-in-electricity-grid]] — Burnham to unveil public body to invest in electricity grid
 - 2026-09-26 · [[2026-09-26-003-new-policies-election-speculation-what-to-expect-from]] — New policies, election speculation: What to expect from Burnham's first Labour conference as PM
 - 2026-09-21 · [[2026-09-21-004-ed-davey-calls-for-immediate-10p-cut-to-fuel-duty]] — Ed Davey calls for immediate 10p cut to fuel duty
 - 2026-09-17 · [[2026-09-17-005-call-to-raise-tax-thresholds-among-union-demands-ahead-of]] — Call to raise tax thresholds among union demands ahead of Budget

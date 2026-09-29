@@ -1,7 +1,7 @@
 ---
 node: "Policy"
 layer: misc
-item_count: 229
+item_count: 233
 ---
 
 # Policy
@@ -16,6 +16,10 @@ item_count: 229
 
 ## Items
 
+- 2026-09-29 · [[2026-09-29-001-openai-scraps-rollout-of-new-model-over-safety-concerns]] — OpenAI scraps rollout of new model over safety concerns
+- 2026-09-29 · [[2026-09-29-002-new-york-times-executive-fatally-shot-allegedly-by-elderly]] — New York Times executive fatally shot allegedly by elderly in-laws
+- 2026-09-29 · [[2026-09-29-003-seoul-summons-ukraine-envoy-over-north-korean-prisoner-of]] — Seoul summons Ukraine envoy over North Korean prisoner‑of‑war row
+- 2026-09-29 · [[2026-09-29-004-burnham-to-unveil-public-body-to-invest-in-electricity-grid]] — Burnham to unveil public body to invest in electricity grid
 - 2026-09-28 · [[2026-09-28-001-inside-yemen-s-front-line-city-as-houthis-battle-for-control]] — Inside Yemen's front-line city as Houthis battle for control
 - 2026-09-28 · [[2026-09-28-002-embattled-serbian-president-resigns-paving-way-for-early]] — Embattled Serbian president resigns, paving way for early elections
 - 2026-09-28 · [[2026-09-28-003-two-bodies-found-after-avalanche-hits-himalayan-climbing]] — Two bodies found after avalanche hits Himalayan climbing group

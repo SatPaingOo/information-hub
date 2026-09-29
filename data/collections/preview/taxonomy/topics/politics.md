@@ -1,7 +1,7 @@
 ---
 node: "politics"
 layer: topic
-item_count: 92
+item_count: 93
 ---
 
 # politics
@@ -17,6 +17,7 @@ item_count: 92
 
 ## Items
 
+- 2026-09-29 · [[2026-09-29-004-burnham-to-unveil-public-body-to-invest-in-electricity-grid]] — Burnham to unveil public body to invest in electricity grid
 - 2026-09-28 · [[2026-09-28-004-burnham-proposes-nhs-style-social-care-system-for-england]] — Burnham proposes NHS-style social care system for England
 - 2026-09-28 · [[2026-09-28-005-social-care-reform-could-mean-big-risks-and-big-rewards]] — Social care reform could mean big risks and big rewards for Burnham
 - 2026-09-28 · [[2026-09-28-005-social-care-reform-could-mean-big-risks-and-big-rewards]] — Social care reform could mean big risks and big rewards for Burnham

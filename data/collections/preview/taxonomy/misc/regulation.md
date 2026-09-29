@@ -1,7 +1,7 @@
 ---
 node: "Regulation"
 layer: misc
-item_count: 25
+item_count: 26
 ---
 
 # Regulation
@@ -17,6 +17,7 @@ item_count: 25
 
 ## Items
 
+- 2026-09-29 · [[2026-09-29-001-openai-scraps-rollout-of-new-model-over-safety-concerns]] — OpenAI scraps rollout of new model over safety concerns
 - 2026-09-28 · [[2026-09-28-006-cuey-one-tab-llm-comparison-for-agentic-ai-workflows]] — Cuey – One‑Tab LLM Comparison for Agentic AI Workflows
 - 2026-09-27 · [[2026-09-27-001-pope-praises-young-people-s-energy-and-commitment-at-huge]] — Pope praises young people's 'energy and commitment' at huge open-air Mass in Paris
 - 2026-09-27 · [[2026-09-27-006-hemory]] — Hemory

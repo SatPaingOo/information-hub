@@ -1,7 +1,7 @@
 ---
 name: "Andy Burnham"
 entity_type: person
-backlink_count: 45
+backlink_count: 46
 ---
 
 # Andy Burnham
@@ -10,6 +10,7 @@ backlink_count: 45
 
 ## Referenced by
 
+- 2026-09-29 · [[2026-09-29-004-burnham-to-unveil-public-body-to-invest-in-electricity-grid]] — Burnham to unveil public body to invest in electricity grid
 - 2026-09-28 · [[2026-09-28-004-burnham-proposes-nhs-style-social-care-system-for-england]] — Burnham proposes NHS-style social care system for England
 - 2026-09-28 · [[2026-09-28-005-social-care-reform-could-mean-big-risks-and-big-rewards]] — Social care reform could mean big risks and big rewards for Burnham
 - 2026-09-27 · [[2026-09-27-004-burnham-announces-scheme-to-help-first-time-buyers-on-to]] — Burnham announces scheme to help first-time buyers on to housing ladder

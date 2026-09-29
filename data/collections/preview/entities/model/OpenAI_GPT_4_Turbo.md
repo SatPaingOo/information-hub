@@ -1,7 +1,7 @@
 ---
 name: "OpenAI GPT‑4‑Turbo"
 entity_type: model
-backlink_count: 4
+backlink_count: 5
 ---
 
 # OpenAI GPT‑4‑Turbo
@@ -10,6 +10,7 @@ backlink_count: 4
 
 ## Referenced by
 
+- 2026-09-29 · [[2026-09-29-006-vantage-ai]] — vantage.ai
 - 2026-09-25 · [[2026-09-25-007-noan-the-fact-layer-for-your-ai-agents]] — NOAN – The Fact Layer for Your AI Agents
 - 2026-09-20 · [[2026-09-20-007-doneit-3-2-reimagined-assist-siri-ai-support-and-agentic]] — Doneit 3.2 – Reimagined Assist, Siri AI Support, and Agentic Features
 - 2026-09-16 · [[2026-09-16-007-axari-delegating-security-busywork-to-an-ai-twin]] — Axari – Delegating Security Busywork to an AI Twin
