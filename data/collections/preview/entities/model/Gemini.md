@@ -1,7 +1,7 @@
 ---
 name: "Gemini"
 entity_type: model
-backlink_count: 40
+backlink_count: 42
 ---
 
 # Gemini
@@ -10,6 +10,8 @@ backlink_count: 40
 
 ## Referenced by
 
+- 2026-09-30 · [[2026-09-30-003-south-africa-to-clean-up-high-risk-areas-after-12-women]] — South Africa to clean up high-risk areas after 12 women killed
+- 2026-09-30 · [[2026-09-30-004-burnham-vows-to-end-existing-pension-triple-lock-in-2030]] — Burnham vows to end existing pension triple lock in 2030 to help fund care
 - 2026-09-28 · [[2026-09-28-002-embattled-serbian-president-resigns-paving-way-for-early]] — Embattled Serbian president resigns, paving way for early elections
 - 2026-09-27 · [[2026-09-27-001-pope-praises-young-people-s-energy-and-commitment-at-huge]] — Pope praises young people's 'energy and commitment' at huge open-air Mass in Paris
 - 2026-09-27 · [[2026-09-27-002-british-national-among-six-dead-in-building-explosion]] — British national among six dead in building explosion close to Acropolis in Athens

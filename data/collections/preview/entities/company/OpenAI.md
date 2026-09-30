@@ -1,7 +1,7 @@
 ---
 name: "OpenAI"
 entity_type: company
-backlink_count: 88
+backlink_count: 91
 ---
 
 # OpenAI
@@ -10,6 +10,9 @@ backlink_count: 88
 
 ## Referenced by
 
+- 2026-09-30 · [[2026-09-30-003-south-africa-to-clean-up-high-risk-areas-after-12-women]] — South Africa to clean up high-risk areas after 12 women killed
+- 2026-09-30 · [[2026-09-30-004-burnham-vows-to-end-existing-pension-triple-lock-in-2030]] — Burnham vows to end existing pension triple lock in 2030 to help fund care
+- 2026-09-30 · [[2026-09-30-006-jotform-sign-for-chatgpt-and-claude]] — Jotform Sign for ChatGPT and Claude
 - 2026-09-29 · [[2026-09-29-001-openai-scraps-rollout-of-new-model-over-safety-concerns]] — OpenAI scraps rollout of new model over safety concerns
 - 2026-09-29 · [[2026-09-29-002-new-york-times-executive-fatally-shot-allegedly-by-elderly]] — New York Times executive fatally shot allegedly by elderly in-laws
 - 2026-09-29 · [[2026-09-29-007-evicted-spanish-pensioner-can-move-back-home-lawyer-says]] — Evicted Spanish pensioner can move back home, lawyer says

@@ -1,7 +1,7 @@
 ---
 node: "LLM"
 layer: misc
-item_count: 47
+item_count: 49
 ---
 
 # LLM
@@ -17,6 +17,8 @@ item_count: 47
 
 ## Items
 
+- 2026-09-30 · [[2026-09-30-001-chinese-ai-tool-told-researchers-how-to-make-bioweapons]] — Chinese AI tool told researchers how to make bioweapons
+- 2026-09-30 · [[2026-09-30-006-jotform-sign-for-chatgpt-and-claude]] — Jotform Sign for ChatGPT and Claude
 - 2026-09-29 · [[2026-09-29-006-vantage-ai]] — vantage.ai
 - 2026-09-27 · [[2026-09-27-001-pope-praises-young-people-s-energy-and-commitment-at-huge]] — Pope praises young people's 'energy and commitment' at huge open-air Mass in Paris
 - 2026-09-27 · [[2026-09-27-006-hemory]] — Hemory

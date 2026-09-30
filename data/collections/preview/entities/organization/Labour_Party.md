@@ -1,7 +1,7 @@
 ---
 name: "Labour Party"
 entity_type: organization
-backlink_count: 16
+backlink_count: 17
 ---
 
 # Labour Party
@@ -10,6 +10,7 @@ backlink_count: 16
 
 ## Referenced by
 
+- 2026-09-30 · [[2026-09-30-005-chris-mason-burnham-delivers-deeply-political-speech-with]] — Chris Mason: Burnham delivers deeply political speech with a personal core
 - 2026-09-29 · [[2026-09-29-004-burnham-to-unveil-public-body-to-invest-in-electricity-grid]] — Burnham to unveil public body to invest in electricity grid
 - 2026-09-28 · [[2026-09-28-005-social-care-reform-could-mean-big-risks-and-big-rewards]] — Social care reform could mean big risks and big rewards for Burnham
 - 2026-09-27 · [[2026-09-27-004-burnham-announces-scheme-to-help-first-time-buyers-on-to]] — Burnham announces scheme to help first-time buyers on to housing ladder

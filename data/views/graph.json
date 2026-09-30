@@ -6200,6 +6200,112 @@
       "name": "artificial intelligence regulation"
     },
     {
+      "id": "info:item:world:global:2026-09-30-001",
+      "type": "item",
+      "date": "2026-09-30",
+      "title": "Chinese AI tool told researchers how to make bioweapons"
+    },
+    {
+      "id": "info:entity:company:Moonshot",
+      "type": "company",
+      "name": "Moonshot"
+    },
+    {
+      "id": "info:entity:company:Mindgard",
+      "type": "company",
+      "name": "Mindgard"
+    },
+    {
+      "id": "info:entity:person:Peter Garraghan",
+      "type": "person",
+      "name": "Peter Garraghan"
+    },
+    {
+      "id": "info:entity:model:Kimi K2.6",
+      "type": "model",
+      "name": "Kimi K2.6"
+    },
+    {
+      "id": "info:entity:model:Kimi K3 Swarm",
+      "type": "model",
+      "name": "Kimi K3 Swarm"
+    },
+    {
+      "id": "info:item:world:global:2026-09-30-002",
+      "type": "item",
+      "date": "2026-09-30",
+      "title": "Spain announces ban on evictions after protests over 87-year-old woman's removal from flat"
+    },
+    {
+      "id": "info:entity:person:Mónica García",
+      "type": "person",
+      "name": "Mónica García"
+    },
+    {
+      "id": "info:entity:organization:Junts",
+      "type": "organization",
+      "name": "Junts"
+    },
+    {
+      "id": "info:entity:organization:Sumar",
+      "type": "organization",
+      "name": "Sumar"
+    },
+    {
+      "id": "info:item:world:global:2026-09-30-003",
+      "type": "item",
+      "date": "2026-09-30",
+      "title": "South Africa to clean up high-risk areas after 12 women killed"
+    },
+    {
+      "id": "taxonomy/misc/public policy",
+      "type": "taxonomy",
+      "name": "public policy"
+    },
+    {
+      "id": "taxonomy/misc/technology and law enforcement",
+      "type": "taxonomy",
+      "name": "technology and law enforcement"
+    },
+    {
+      "id": "info:item:politics:global:2026-09-30-004",
+      "type": "item",
+      "date": "2026-09-30",
+      "title": "Burnham vows to end existing pension triple lock in 2030 to help fund care"
+    },
+    {
+      "id": "info:item:politics:global:2026-09-30-005",
+      "type": "item",
+      "date": "2026-09-30",
+      "title": "Chris Mason: Burnham delivers deeply political speech with a personal core"
+    },
+    {
+      "id": "info:entity:concept:Pension Triple Lock",
+      "type": "concept",
+      "name": "Pension Triple Lock"
+    },
+    {
+      "id": "info:item:products:global:2026-09-30-006",
+      "type": "item",
+      "date": "2026-09-30",
+      "title": "Jotform Sign for ChatGPT and Claude"
+    },
+    {
+      "id": "info:entity:company:Jotform",
+      "type": "company",
+      "name": "Jotform"
+    },
+    {
+      "id": "info:entity:product:ChatGPT",
+      "type": "product",
+      "name": "ChatGPT"
+    },
+    {
+      "id": "info:entity:product:Claude",
+      "type": "product",
+      "name": "Claude"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -25789,6 +25895,406 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-09-30-001",
+      "target": "info:entity:company:Moonshot",
+      "relation": "developer of the compromised Kimi models"
+    },
+    {
+      "source": "info:item:world:global:2026-09-30-001",
+      "target": "info:entity:company:Mindgard",
+      "relation": "security firm that discovered the jailbreaks"
+    },
+    {
+      "source": "info:item:world:global:2026-09-30-001",
+      "target": "info:entity:person:Peter Garraghan",
+      "relation": "founder of Mindgard, commentator on AI misuse"
+    },
+    {
+      "source": "info:item:world:global:2026-09-30-001",
+      "target": "info:entity:model:Kimi K2.6",
+      "relation": "open‑weight LLM vulnerable to jailbreak"
+    },
+    {
+      "source": "info:item:world:global:2026-09-30-001",
+      "target": "info:entity:model:Kimi K3 Swarm",
+      "relation": "open‑weight LLM vulnerable to jailbreak"
+    },
+    {
+      "source": "info:item:world:global:2026-09-30-001",
+      "target": "info:entity:company:Anthropic",
+      "relation": "AI firm that reported disrupted weaponization attempts"
+    },
+    {
+      "source": "info:item:world:global:2026-09-30-001",
+      "target": "info:item:world:global:2026-09-29-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-30-001",
+      "target": "info:item:world:global:2026-09-29-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-30-001",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-30-001",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-30-001",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-30-001",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-30-001",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-30-001",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-30-001",
+      "target": "taxonomy/category/open-source",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-30-002",
+      "target": "info:entity:person:Pedro Sánchez",
+      "relation": "Prime Minister leading the coalition that introduced the eviction ban"
+    },
+    {
+      "source": "info:item:world:global:2026-09-30-002",
+      "target": "info:entity:person:Mónica García",
+      "relation": "Health Minister who announced the emergency housing measures"
+    },
+    {
+      "source": "info:item:world:global:2026-09-30-002",
+      "target": "info:entity:person:Maricarmen Abascal",
+      "relation": "87‑year‑old tenant whose eviction sparked nationwide protests"
+    },
+    {
+      "source": "info:item:world:global:2026-09-30-002",
+      "target": "info:entity:organization:Urbagestión",
+      "relation": "Investment firm that purchased Abascal’s flat in 2018 and raised her rent"
+    },
+    {
+      "source": "info:item:world:global:2026-09-30-002",
+      "target": "info:entity:organization:Junts",
+      "relation": "Catalan nationalist party warning against broad landlord restrictions"
+    },
+    {
+      "source": "info:item:world:global:2026-09-30-002",
+      "target": "info:entity:organization:Sumar",
+      "relation": "Junior partner in Sánchez’s coalition supporting the decrees"
+    },
+    {
+      "source": "info:item:world:global:2026-09-30-002",
+      "target": "info:item:world:global:2026-09-30-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-30-002",
+      "target": "info:item:world:global:2026-09-29-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-30-002",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-30-002",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-30-002",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-30-002",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-30-002",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-30-002",
+      "target": "taxonomy/misc/housing",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-30-002",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-30-003",
+      "target": "info:entity:person:Cyril Ramaphosa",
+      "relation": "President of South Africa and initiator of the national emergency response"
+    },
+    {
+      "source": "info:item:world:global:2026-09-30-003",
+      "target": "info:entity:organization:South African Government",
+      "relation": "implements safety audits and enforcement package"
+    },
+    {
+      "source": "info:item:world:global:2026-09-30-003",
+      "target": "info:entity:company:OpenAI",
+      "relation": "potential provider of AI analytics for crime prediction"
+    },
+    {
+      "source": "info:item:world:global:2026-09-30-003",
+      "target": "info:entity:model:Gemini",
+      "relation": "AI model under consideration for predictive policing tools"
+    },
+    {
+      "source": "info:item:world:global:2026-09-30-003",
+      "target": "info:item:world:global:2026-09-30-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-30-003",
+      "target": "info:item:world:global:2026-09-30-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-09-30-003",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-30-003",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-30-003",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-30-003",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-09-30-003",
+      "target": "taxonomy/misc/gender-based violence",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-30-003",
+      "target": "taxonomy/misc/public policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-09-30-003",
+      "target": "taxonomy/misc/technology and law enforcement",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-30-004",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "Prime Minister of the United Kingdom and proposer of pension triple lock reform"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-30-004",
+      "target": "info:entity:person:Kemi Badenoch",
+      "relation": "Leader of the Conservative Party, critic of the pension changes"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-30-004",
+      "target": "info:entity:company:OpenAI",
+      "relation": "AI model provider referenced in editorial priorities on regulation and open‑source AI"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-30-004",
+      "target": "info:entity:model:Gemini",
+      "relation": "AI model highlighted in editorial focus on LLM and agentic AI"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-30-004",
+      "target": "info:item:politics:global:2026-09-29-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-30-004",
+      "target": "info:item:politics:global:2026-09-28-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-30-004",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-30-004",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-30-004",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-30-004",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-30-004",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-30-004",
+      "target": "taxonomy/topic/politics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-30-005",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "prime minister delivering speech"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-30-005",
+      "target": "info:entity:person:Keir Starmer",
+      "relation": "former Labour leader, implicit comparison"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-30-005",
+      "target": "info:entity:organization:Labour Party",
+      "relation": "governing party, policy proponent"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-30-005",
+      "target": "info:entity:concept:Pension Triple Lock",
+      "relation": "policy under reform"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-30-005",
+      "target": "info:item:politics:global:2026-09-30-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-30-005",
+      "target": "info:item:politics:global:2026-09-29-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-30-005",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-30-005",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-30-005",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-30-005",
+      "target": "taxonomy/topic/politics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-30-005",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-09-30-005",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-09-30-006",
+      "target": "info:entity:company:Jotform",
+      "relation": "product developer and e‑signature provider"
+    },
+    {
+      "source": "info:item:products:global:2026-09-30-006",
+      "target": "info:entity:company:OpenAI",
+      "relation": "owner of ChatGPT platform"
+    },
+    {
+      "source": "info:item:products:global:2026-09-30-006",
+      "target": "info:entity:company:Anthropic",
+      "relation": "owner of Claude platform"
+    },
+    {
+      "source": "info:item:products:global:2026-09-30-006",
+      "target": "info:entity:product:ChatGPT",
+      "relation": "LLM platform integrated with Jotform Sign"
+    },
+    {
+      "source": "info:item:products:global:2026-09-30-006",
+      "target": "info:entity:product:Claude",
+      "relation": "LLM platform integrated with Jotform Sign"
+    },
+    {
+      "source": "info:item:products:global:2026-09-30-006",
+      "target": "info:item:products:global:2026-09-29-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-09-30-006",
+      "target": "info:item:products:global:2026-09-28-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-09-30-006",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-09-30-006",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-09-30-006",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-09-30-006",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-09-30-006",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-09-30-006",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -26014,7 +26520,25 @@
     },
     {
       "source": "info:entity:company:Anthropic",
+      "target": "info:entity:company:Jotform",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:Microsoft",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:company:Mindgard",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:company:Moonshot",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -26028,7 +26552,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
-      "weight": "47"
+      "weight": "48"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -26212,6 +26736,18 @@
     },
     {
       "source": "info:entity:company:Anthropic",
+      "target": "info:entity:model:Kimi K2.6",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:model:Kimi K3 Swarm",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
       "target": "info:entity:model:OpenAI GPT‑4‑Turbo",
       "relation": "co-occurs",
       "weight": "1"
@@ -26326,6 +26862,12 @@
     },
     {
       "source": "info:entity:company:Anthropic",
+      "target": "info:entity:person:Peter Garraghan",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
       "target": "info:entity:person:Sam Altman",
       "relation": "co-occurs",
       "weight": "7"
@@ -26344,7 +26886,19 @@
     },
     {
       "source": "info:entity:company:Anthropic",
+      "target": "info:entity:product:ChatGPT",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
       "target": "info:entity:product:Checksum AI",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:product:Claude",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -26895,6 +27449,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:company:Jotform",
+      "target": "info:entity:company:OpenAI",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Jotform",
+      "target": "info:entity:product:ChatGPT",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Jotform",
+      "target": "info:entity:product:Claude",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:company:MBDA",
       "target": "info:entity:organization:Russian Embassy to the UK",
       "relation": "co-occurs",
@@ -26999,6 +27571,48 @@
     {
       "source": "info:entity:company:Microsoft",
       "target": "info:entity:person:Jack Clark",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Mindgard",
+      "target": "info:entity:company:Moonshot",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Mindgard",
+      "target": "info:entity:model:Kimi K2.6",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Mindgard",
+      "target": "info:entity:model:Kimi K3 Swarm",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Mindgard",
+      "target": "info:entity:person:Peter Garraghan",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Moonshot",
+      "target": "info:entity:model:Kimi K2.6",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Moonshot",
+      "target": "info:entity:model:Kimi K3 Swarm",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Moonshot",
+      "target": "info:entity:person:Peter Garraghan",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -27282,7 +27896,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "29"
+      "weight": "31"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -27406,6 +28020,12 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:organization:South African Government",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:organization:Students Win",
       "relation": "co-occurs",
       "weight": "1"
@@ -27456,7 +28076,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
-      "weight": "4"
+      "weight": "5"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -27504,7 +28124,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Cyril Ramaphosa",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -27563,6 +28183,12 @@
     {
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Keir Starmer",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:person:Kemi Badenoch",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -27628,7 +28254,19 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:product:ChatGPT",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:product:Checksum AI",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:product:Claude",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -28659,6 +29297,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:concept:Pension Triple Lock",
+      "target": "info:entity:organization:Labour Party",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Pension Triple Lock",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Pension Triple Lock",
+      "target": "info:entity:person:Keir Starmer",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:concept:Principal Component Analysis",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
@@ -29452,6 +30108,12 @@
     },
     {
       "source": "info:entity:model:Gemini",
+      "target": "info:entity:organization:South African Government",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
       "target": "info:entity:organization:Students Win",
       "relation": "co-occurs",
       "weight": "1"
@@ -29484,7 +30146,7 @@
       "source": "info:entity:model:Gemini",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:model:Gemini",
@@ -29508,7 +30170,7 @@
       "source": "info:entity:model:Gemini",
       "target": "info:entity:person:Cyril Ramaphosa",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:model:Gemini",
@@ -29555,6 +30217,12 @@
     {
       "source": "info:entity:model:Gemini",
       "target": "info:entity:person:Keir Starmer",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
+      "target": "info:entity:person:Kemi Badenoch",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -29771,6 +30439,24 @@
     {
       "source": "info:entity:model:Google Gemini 3.8",
       "target": "info:entity:region:Myanmar",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Kimi K2.6",
+      "target": "info:entity:model:Kimi K3 Swarm",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Kimi K2.6",
+      "target": "info:entity:person:Peter Garraghan",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Kimi K3 Swarm",
+      "target": "info:entity:person:Peter Garraghan",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -31737,6 +32423,36 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Junts",
+      "target": "info:entity:organization:Sumar",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Junts",
+      "target": "info:entity:organization:Urbagestión",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Junts",
+      "target": "info:entity:person:Maricarmen Abascal",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Junts",
+      "target": "info:entity:person:Mónica García",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Junts",
+      "target": "info:entity:person:Pedro Sánchez",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Kathimerini",
       "target": "info:entity:person:Unnamed 76‑year‑old suspect",
       "relation": "co-occurs",
@@ -31782,7 +32498,7 @@
       "source": "info:entity:organization:Labour Party",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
-      "weight": "13"
+      "weight": "14"
     },
     {
       "source": "info:entity:organization:Labour Party",
@@ -31830,7 +32546,7 @@
       "source": "info:entity:organization:Labour Party",
       "target": "info:entity:person:Keir Starmer",
       "relation": "co-occurs",
-      "weight": "4"
+      "weight": "5"
     },
     {
       "source": "info:entity:organization:Labour Party",
@@ -32958,7 +33674,7 @@
       "source": "info:entity:organization:South African Government",
       "target": "info:entity:person:Cyril Ramaphosa",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:South African Government",
@@ -32993,6 +33709,30 @@
     {
       "source": "info:entity:organization:Students Win",
       "target": "info:entity:person:Aleksandar Vučić",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Sumar",
+      "target": "info:entity:organization:Urbagestión",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Sumar",
+      "target": "info:entity:person:Maricarmen Abascal",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Sumar",
+      "target": "info:entity:person:Mónica García",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Sumar",
+      "target": "info:entity:person:Pedro Sánchez",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -33612,13 +34352,19 @@
       "source": "info:entity:organization:Urbagestión",
       "target": "info:entity:person:Maricarmen Abascal",
       "relation": "co-occurs",
+      "weight": "2"
+    },
+    {
+      "source": "info:entity:organization:Urbagestión",
+      "target": "info:entity:person:Mónica García",
+      "relation": "co-occurs",
       "weight": "1"
     },
     {
       "source": "info:entity:organization:Urbagestión",
       "target": "info:entity:person:Pedro Sánchez",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Utah Valley University",
@@ -33924,13 +34670,13 @@
       "source": "info:entity:person:Andy Burnham",
       "target": "info:entity:person:Keir Starmer",
       "relation": "co-occurs",
-      "weight": "8"
+      "weight": "9"
     },
     {
       "source": "info:entity:person:Andy Burnham",
       "target": "info:entity:person:Kemi Badenoch",
       "relation": "co-occurs",
-      "weight": "7"
+      "weight": "8"
     },
     {
       "source": "info:entity:person:Andy Burnham",
@@ -35362,9 +36108,15 @@
     },
     {
       "source": "info:entity:person:Maricarmen Abascal",
-      "target": "info:entity:person:Pedro Sánchez",
+      "target": "info:entity:person:Mónica García",
       "relation": "co-occurs",
       "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Maricarmen Abascal",
+      "target": "info:entity:person:Pedro Sánchez",
+      "relation": "co-occurs",
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Marine Le Pen",
@@ -35431,6 +36183,12 @@
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
       "weight": "3"
+    },
+    {
+      "source": "info:entity:person:Mónica García",
+      "target": "info:entity:person:Pedro Sánchez",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:person:Nigel Farage",
@@ -35585,6 +36343,12 @@
     {
       "source": "info:entity:product:AI data centers",
       "target": "info:entity:region:North America",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:product:ChatGPT",
+      "target": "info:entity:product:Claude",
       "relation": "co-occurs",
       "weight": "1"
     },

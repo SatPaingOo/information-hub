@@ -1,0 +1,22 @@
+2026-09-30 02:28:10,010 INFO [world-news] published 2026-09-30-001 — Chinese AI tool told researchers how to make bioweapons
+2026-09-30 02:28:31,410 INFO [world-news] published 2026-09-30-002 — Spain announces ban on evictions after protests over 87-year
+2026-09-30 02:28:54,437 INFO [world-news] published 2026-09-30-003 — South Africa to clean up high-risk areas after 12 women kill
+2026-09-30 02:28:57,860 INFO [tech-news] nothing selected
+2026-09-30 02:29:11,355 INFO [politics] model returned no selection — using heuristic fallback (2)
+2026-09-30 02:29:28,332 INFO [politics] published 2026-09-30-004 — Burnham vows to end existing pension triple lock in 2030 to 
+2026-09-30 02:30:04,949 INFO [politics] published 2026-09-30-005 — Chris Mason: Burnham delivers deeply political speech with a
+2026-09-30 02:30:47,448 INFO [products] published 2026-09-30-006 — Jotform Sign for ChatGPT and Claude
+2026-09-30 02:30:52,062 INFO [products] attempt 1 invalid: ["related_taxonomy/2: 'relation' is a required property", "related_taxonomy/3: 'node' is a required property"]
+2026-09-30 02:30:52,244 ERROR [products] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 5337, Requested 4308. Please try again in 12.3375s. Need more tokens? Upgrade to Dev Tier today at https://co
+2026-09-30 02:31:01,548 INFO [products] attempt 3 invalid: [": 'key_facts' is a required property", ": 'implications' is a required property"]
+2026-09-30 02:31:01,952 INFO collect done: 6 item(s) published — target 4/10, next run ≈ 2026-09-30T02:38:52+00:00 UTC
+2026-09-30 02:31:29,647 INFO [world-news] attempt 1 invalid: [": 'tags' is a required property", ": 'related_items' is a required property"]
+2026-09-30 02:31:29,749 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7986, Requested 4786. Please try again in 35.79s. Need more tokens? Upgrade to Dev Tier today at https://cons
+2026-09-30 02:31:38,538 ERROR [world-news] generate error: HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
+
+2026-09-30 02:31:47,645 WARNING [world-news] no collect provider for deep-dive
+2026-09-30 02:31:47,747 WARNING [world-news] no collect provider for deep-dive
+2026-09-30 02:31:48,021 WARNING [tech-news] no collect provider available
+2026-09-30 02:31:48,232 WARNING [politics] no collect provider available
+2026-09-30 02:31:48,936 WARNING [products] no collect provider available
+2026-09-30 02:31:49,330 INFO collect done: 0 item(s) published — target 4/10, next run ≈ 2026-10-01T01:00:00+00:00 UTC

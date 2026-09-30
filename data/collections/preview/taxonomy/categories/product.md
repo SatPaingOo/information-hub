@@ -1,7 +1,7 @@
 ---
 node: "product"
 layer: category
-item_count: 69
+item_count: 70
 ---
 
 # product
@@ -19,6 +19,7 @@ item_count: 69
 
 ## Items
 
+- 2026-09-30 · [[2026-09-30-006-jotform-sign-for-chatgpt-and-claude]] — Jotform Sign for ChatGPT and Claude
 - 2026-09-29 · [[2026-09-29-006-vantage-ai]] — vantage.ai
 - 2026-09-28 · [[2026-09-28-006-cuey-one-tab-llm-comparison-for-agentic-ai-workflows]] — Cuey – One‑Tab LLM Comparison for Agentic AI Workflows
 - 2026-09-27 · [[2026-09-27-006-hemory]] — Hemory

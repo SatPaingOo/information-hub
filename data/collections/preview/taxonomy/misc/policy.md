@@ -1,7 +1,7 @@
 ---
 node: "Policy"
 layer: misc
-item_count: 234
+item_count: 239
 ---
 
 # Policy
@@ -16,6 +16,11 @@ item_count: 234
 
 ## Items
 
+- 2026-09-30 · [[2026-09-30-001-chinese-ai-tool-told-researchers-how-to-make-bioweapons]] — Chinese AI tool told researchers how to make bioweapons
+- 2026-09-30 · [[2026-09-30-002-spain-announces-ban-on-evictions-after-protests-over-87]] — Spain announces ban on evictions after protests over 87-year-old woman's removal from flat
+- 2026-09-30 · [[2026-09-30-003-south-africa-to-clean-up-high-risk-areas-after-12-women]] — South Africa to clean up high-risk areas after 12 women killed
+- 2026-09-30 · [[2026-09-30-004-burnham-vows-to-end-existing-pension-triple-lock-in-2030]] — Burnham vows to end existing pension triple lock in 2030 to help fund care
+- 2026-09-30 · [[2026-09-30-005-chris-mason-burnham-delivers-deeply-political-speech-with]] — Chris Mason: Burnham delivers deeply political speech with a personal core
 - 2026-09-29 · [[2026-09-29-001-openai-scraps-rollout-of-new-model-over-safety-concerns]] — OpenAI scraps rollout of new model over safety concerns
 - 2026-09-29 · [[2026-09-29-002-new-york-times-executive-fatally-shot-allegedly-by-elderly]] — New York Times executive fatally shot allegedly by elderly in-laws
 - 2026-09-29 · [[2026-09-29-003-seoul-summons-ukraine-envoy-over-north-korean-prisoner-of]] — Seoul summons Ukraine envoy over North Korean prisoner‑of‑war row
