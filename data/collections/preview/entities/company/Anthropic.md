@@ -1,7 +1,7 @@
 ---
 name: "Anthropic"
 entity_type: company
-backlink_count: 58
+backlink_count: 59
 ---
 
 # Anthropic
@@ -10,6 +10,7 @@ backlink_count: 58
 
 ## Referenced by
 
+- 2026-10-01 · [[2026-10-01-006-macaly-cloud-build-and-publish-sites-with-claude-or-chatgpt]] — Macaly Cloud – Build and Publish Sites with Claude or ChatGPT
 - 2026-09-30 · [[2026-09-30-001-chinese-ai-tool-told-researchers-how-to-make-bioweapons]] — Chinese AI tool told researchers how to make bioweapons
 - 2026-09-30 · [[2026-09-30-006-jotform-sign-for-chatgpt-and-claude]] — Jotform Sign for ChatGPT and Claude
 - 2026-09-29 · [[2026-09-29-006-vantage-ai]] — vantage.ai

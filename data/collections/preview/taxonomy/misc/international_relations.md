@@ -1,7 +1,7 @@
 ---
 node: "International Relations"
 layer: misc
-item_count: 6
+item_count: 7
 ---
 
 # International Relations
@@ -15,6 +15,7 @@ item_count: 6
 
 ## Items
 
+- 2026-10-01 · [[2026-10-01-008-putin-shows-no-sign-of-stopping-the-war-as-russia-doubles]] — Putin shows no sign of stopping the war as Russia doubles down on Ukraine
 - 2026-09-18 · [[2026-09-18-007-us-to-allow-iran-delegation-to-attend-un-meetings-in-new]] — US to allow Iran delegation to attend UN meetings in New York as war passes half-year mark
 - 2026-09-05 · [[2026-09-05-002-trump-s-peace-envoys-to-visit-moscow-and-kyiv-over-weekend]] — Trump's peace envoys to visit Moscow and Kyiv over weekend
 - 2026-08-25 · [[2026-08-25-005-burnham-vows-support-for-ukraine-despite-outrageous]] — Burnham vows support for Ukraine despite 'outrageous threats' from Russia

@@ -1,7 +1,7 @@
 ---
 node: "politics"
 layer: topic
-item_count: 97
+item_count: 100
 ---
 
 # politics
@@ -17,6 +17,9 @@ item_count: 97
 
 ## Items
 
+- 2026-10-01 · [[2026-10-01-004-employers-should-teach-primary-age-children-about-work]] — Employers should teach primary-age children about work, says Milburn
+- 2026-10-01 · [[2026-10-01-005-conservatives-pledge-tough-love-benefit-rules-for-under-25s]] — Conservatives pledge 'tough love' benefit rules for under-25s
+- 2026-10-01 · [[2026-10-01-005-conservatives-pledge-tough-love-benefit-rules-for-under-25s]] — Conservatives pledge 'tough love' benefit rules for under-25s
 - 2026-09-30 · [[2026-09-30-004-burnham-vows-to-end-existing-pension-triple-lock-in-2030]] — Burnham vows to end existing pension triple lock in 2030 to help fund care
 - 2026-09-30 · [[2026-09-30-004-burnham-vows-to-end-existing-pension-triple-lock-in-2030]] — Burnham vows to end existing pension triple lock in 2030 to help fund care
 - 2026-09-30 · [[2026-09-30-005-chris-mason-burnham-delivers-deeply-political-speech-with]] — Chris Mason: Burnham delivers deeply political speech with a personal core

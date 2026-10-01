@@ -1,7 +1,7 @@
 ---
 node: "Education Policy"
 layer: misc
-item_count: 2
+item_count: 3
 ---
 
 # Education Policy
@@ -15,5 +15,6 @@ item_count: 2
 
 ## Items
 
+- 2026-10-01 · [[2026-10-01-004-employers-should-teach-primary-age-children-about-work]] — Employers should teach primary-age children about work, says Milburn
 - 2026-09-20 · [[2026-09-20-003-our-head-teacher-was-an-abuser-we-joined-forces-to-get]] — Our head teacher was an abuser. We joined forces to get justice - now we're married
 - 2026-08-31 · [[2026-08-31-005-emergency-measures-needed-to-stop-teachers-quitting-say]] — Emergency measures needed to stop teachers quitting, say Lib Dems

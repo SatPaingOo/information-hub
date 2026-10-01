@@ -1,0 +1,18 @@
+2026-10-01 06:08:48,252 INFO [world-news] published 2026-10-01-001 — US death row inmate Christa Pike taken to hospital after sur
+2026-10-01 06:09:14,550 INFO [world-news] published 2026-10-01-002 — Too early to say what motive for Dubai‑Tel Aviv flight attac
+2026-10-01 06:09:32,770 INFO [world-news] published 2026-10-01-003 — What we know about stabbing on Flydubai flight to Israel
+2026-10-01 06:09:37,110 INFO [tech-news] nothing selected
+2026-10-01 06:10:17,304 INFO [politics] published 2026-10-01-004 — Employers should teach primary-age children about work, says
+2026-10-01 06:10:34,921 INFO [politics] published 2026-10-01-005 — Conservatives pledge 'tough love' benefit rules for under-25
+2026-10-01 06:11:16,671 INFO [products] published 2026-10-01-006 — Macaly Cloud – Build and Publish Sites with Claude or ChatGP
+2026-10-01 06:11:21,173 INFO [products] published 2026-10-01-007 — Ace from Automat Workforce – An Agentic AI Teammate for Mode
+2026-10-01 06:11:21,604 INFO collect done: 7 item(s) published — target 3/10, next run ≈ 2026-10-01T06:26:21+00:00 UTC
+2026-10-01 06:11:24,330 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6012, Requested 7062. Please try again in 38.055s. Need more tokens? Upgrade to Dev Tier today at https://con
+2026-10-01 06:11:30,207 INFO [world-news] published 2026-10-01-008 — Putin shows no sign of stopping the war as Russia doubles do
+2026-10-01 06:11:30,521 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6697, Requested 5809. Please try again in 33.795s. Need more tokens? Upgrade to Dev Tier today at https://cons
+2026-10-01 06:11:33,523 WARNING [world-news] no collect provider for deep-dive
+2026-10-01 06:11:33,635 WARNING [world-news] no collect provider for deep-dive
+2026-10-01 06:11:34,232 WARNING [tech-news] no collect provider available
+2026-10-01 06:11:34,589 WARNING [politics] no collect provider available
+2026-10-01 06:11:34,848 WARNING [products] no collect provider available
+2026-10-01 06:11:35,165 INFO collect done: 1 item(s) published — target 2/10, next run ≈ 2026-10-02T01:00:00+00:00 UTC

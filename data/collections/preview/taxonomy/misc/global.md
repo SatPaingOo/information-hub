@@ -1,7 +1,7 @@
 ---
 node: "Global"
 layer: misc
-item_count: 307
+item_count: 315
 ---
 
 # Global
@@ -24,6 +24,14 @@ item_count: 307
 
 ## Items
 
+- 2026-10-01 · [[2026-10-01-001-us-death-row-inmate-christa-pike-taken-to-hospital-after]] — US death row inmate Christa Pike taken to hospital after surviving two lethal injections, says lawyer
+- 2026-10-01 · [[2026-10-01-002-too-early-to-say-what-motive-for-dubai-tel-aviv-flight]] — Too early to say what motive for Dubai‑Tel Aviv flight attack was, Israeli PM says
+- 2026-10-01 · [[2026-10-01-003-what-we-know-about-stabbing-on-flydubai-flight-to-israel]] — What we know about stabbing on Flydubai flight to Israel
+- 2026-10-01 · [[2026-10-01-004-employers-should-teach-primary-age-children-about-work]] — Employers should teach primary-age children about work, says Milburn
+- 2026-10-01 · [[2026-10-01-005-conservatives-pledge-tough-love-benefit-rules-for-under-25s]] — Conservatives pledge 'tough love' benefit rules for under-25s
+- 2026-10-01 · [[2026-10-01-006-macaly-cloud-build-and-publish-sites-with-claude-or-chatgpt]] — Macaly Cloud – Build and Publish Sites with Claude or ChatGPT
+- 2026-10-01 · [[2026-10-01-007-ace-from-automat-workforce-an-agentic-ai-teammate-for]] — Ace from Automat Workforce – An Agentic AI Teammate for Modern Workflows
+- 2026-10-01 · [[2026-10-01-008-putin-shows-no-sign-of-stopping-the-war-as-russia-doubles]] — Putin shows no sign of stopping the war as Russia doubles down on Ukraine
 - 2026-09-30 · [[2026-09-30-001-chinese-ai-tool-told-researchers-how-to-make-bioweapons]] — Chinese AI tool told researchers how to make bioweapons
 - 2026-09-30 · [[2026-09-30-002-spain-announces-ban-on-evictions-after-protests-over-87]] — Spain announces ban on evictions after protests over 87-year-old woman's removal from flat
 - 2026-09-30 · [[2026-09-30-003-south-africa-to-clean-up-high-risk-areas-after-12-women]] — South Africa to clean up high-risk areas after 12 women killed

@@ -1,7 +1,7 @@
 ---
 name: "OpenAI"
 entity_type: company
-backlink_count: 91
+backlink_count: 92
 ---
 
 # OpenAI
@@ -10,6 +10,7 @@ backlink_count: 91
 
 ## Referenced by
 
+- 2026-10-01 · [[2026-10-01-006-macaly-cloud-build-and-publish-sites-with-claude-or-chatgpt]] — Macaly Cloud – Build and Publish Sites with Claude or ChatGPT
 - 2026-09-30 · [[2026-09-30-003-south-africa-to-clean-up-high-risk-areas-after-12-women]] — South Africa to clean up high-risk areas after 12 women killed
 - 2026-09-30 · [[2026-09-30-004-burnham-vows-to-end-existing-pension-triple-lock-in-2030]] — Burnham vows to end existing pension triple lock in 2030 to help fund care
 - 2026-09-30 · [[2026-09-30-006-jotform-sign-for-chatgpt-and-claude]] — Jotform Sign for ChatGPT and Claude

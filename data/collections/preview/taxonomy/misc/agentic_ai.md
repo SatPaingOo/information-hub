@@ -1,7 +1,7 @@
 ---
 node: "Agentic AI"
 layer: misc
-item_count: 60
+item_count: 62
 ---
 
 # Agentic AI
@@ -17,6 +17,8 @@ item_count: 60
 
 ## Items
 
+- 2026-10-01 · [[2026-10-01-006-macaly-cloud-build-and-publish-sites-with-claude-or-chatgpt]] — Macaly Cloud – Build and Publish Sites with Claude or ChatGPT
+- 2026-10-01 · [[2026-10-01-007-ace-from-automat-workforce-an-agentic-ai-teammate-for]] — Ace from Automat Workforce – An Agentic AI Teammate for Modern Workflows
 - 2026-09-30 · [[2026-09-30-001-chinese-ai-tool-told-researchers-how-to-make-bioweapons]] — Chinese AI tool told researchers how to make bioweapons
 - 2026-09-30 · [[2026-09-30-006-jotform-sign-for-chatgpt-and-claude]] — Jotform Sign for ChatGPT and Claude
 - 2026-09-29 · [[2026-09-29-001-openai-scraps-rollout-of-new-model-over-safety-concerns]] — OpenAI scraps rollout of new model over safety concerns

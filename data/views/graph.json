@@ -6306,6 +6306,174 @@
       "name": "Claude"
     },
     {
+      "id": "info:item:world:global:2026-10-01-001",
+      "type": "item",
+      "date": "2026-10-01",
+      "title": "US death row inmate Christa Pike taken to hospital after surviving two lethal injections, says lawyer"
+    },
+    {
+      "id": "info:entity:person:Christa Pike",
+      "type": "person",
+      "name": "Christa Pike"
+    },
+    {
+      "id": "info:entity:person:Dr Joel Zivot",
+      "type": "person",
+      "name": "Dr Joel Zivot"
+    },
+    {
+      "id": "info:entity:organization:Tennessee Department of Correction",
+      "type": "organization",
+      "name": "Tennessee Department of Correction"
+    },
+    {
+      "id": "info:entity:organization:U.S. Supreme Court",
+      "type": "organization",
+      "name": "U.S. Supreme Court"
+    },
+    {
+      "id": "taxonomy/misc/capital punishment",
+      "type": "taxonomy",
+      "name": "capital punishment"
+    },
+    {
+      "id": "taxonomy/misc/United States",
+      "type": "taxonomy",
+      "name": "United States"
+    },
+    {
+      "id": "info:item:world:global:2026-10-01-002",
+      "type": "item",
+      "date": "2026-10-01",
+      "title": "Too early to say what motive for Dubai‑Tel Aviv flight attack was, Israeli PM says"
+    },
+    {
+      "id": "info:entity:organization:Flydubai",
+      "type": "organization",
+      "name": "Flydubai"
+    },
+    {
+      "id": "info:entity:person:Captain Smit Machchhar",
+      "type": "person",
+      "name": "Captain Smit Machchhar"
+    },
+    {
+      "id": "info:entity:region:Saudi Arabia",
+      "type": "region",
+      "name": "Saudi Arabia"
+    },
+    {
+      "id": "info:item:world:global:2026-10-01-003",
+      "type": "item",
+      "date": "2026-10-01",
+      "title": "What we know about stabbing on Flydubai flight to Israel"
+    },
+    {
+      "id": "info:item:politics:global:2026-10-01-004",
+      "type": "item",
+      "date": "2026-10-01",
+      "title": "Employers should teach primary-age children about work, says Milburn"
+    },
+    {
+      "id": "info:entity:person:Alan Milburn",
+      "type": "person",
+      "name": "Alan Milburn"
+    },
+    {
+      "id": "info:entity:organization:National Association of Head Teachers (NAHT)",
+      "type": "organization",
+      "name": "National Association of Head Teachers (NAHT)"
+    },
+    {
+      "id": "info:entity:concept:NEET",
+      "type": "concept",
+      "name": "NEET"
+    },
+    {
+      "id": "info:entity:region:Scotland",
+      "type": "region",
+      "name": "Scotland"
+    },
+    {
+      "id": "taxonomy/misc/youth employment",
+      "type": "taxonomy",
+      "name": "youth employment"
+    },
+    {
+      "id": "taxonomy/misc/primary education",
+      "type": "taxonomy",
+      "name": "primary education"
+    },
+    {
+      "id": "info:item:politics:global:2026-10-01-005",
+      "type": "item",
+      "date": "2026-10-01",
+      "title": "Conservatives pledge 'tough love' benefit rules for under-25s"
+    },
+    {
+      "id": "info:entity:person:Helen Whately",
+      "type": "person",
+      "name": "Helen Whately"
+    },
+    {
+      "id": "taxonomy/misc/welfare policy",
+      "type": "taxonomy",
+      "name": "welfare policy"
+    },
+    {
+      "id": "info:item:products:global:2026-10-01-006",
+      "type": "item",
+      "date": "2026-10-01",
+      "title": "Macaly Cloud – Build and Publish Sites with Claude or ChatGPT"
+    },
+    {
+      "id": "info:item:products:global:2026-10-01-007",
+      "type": "item",
+      "date": "2026-10-01",
+      "title": "Ace from Automat Workforce – An Agentic AI Teammate for Modern Workflows"
+    },
+    {
+      "id": "info:entity:company:Automat Workforce",
+      "type": "company",
+      "name": "Automat Workforce"
+    },
+    {
+      "id": "info:entity:product:Ace",
+      "type": "product",
+      "name": "Ace"
+    },
+    {
+      "id": "info:item:world:global:2026-10-01-008",
+      "type": "item",
+      "date": "2026-10-01",
+      "title": "Putin shows no sign of stopping the war as Russia doubles down on Ukraine"
+    },
+    {
+      "id": "info:entity:organization:United Russia",
+      "type": "organization",
+      "name": "United Russia"
+    },
+    {
+      "id": "info:entity:organization:United Nations General Assembly",
+      "type": "organization",
+      "name": "United Nations General Assembly"
+    },
+    {
+      "id": "info:entity:region:Ukraine",
+      "type": "region",
+      "name": "Ukraine"
+    },
+    {
+      "id": "taxonomy/misc/Conflict",
+      "type": "taxonomy",
+      "name": "Conflict"
+    },
+    {
+      "id": "taxonomy/misc/Military Strategy",
+      "type": "taxonomy",
+      "name": "Military Strategy"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -26295,6 +26463,516 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-10-01-001",
+      "target": "info:entity:person:Christa Pike",
+      "relation": "inmate on Tennessee death row"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-001",
+      "target": "info:entity:person:Dr Joel Zivot",
+      "relation": "medical expert retained by Pike’s legal team"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-001",
+      "target": "info:entity:organization:Tennessee Department of Correction",
+      "relation": "oversaw execution protocol"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-001",
+      "target": "info:entity:organization:U.S. Supreme Court",
+      "relation": "overturned lower‑court reprieve in related case"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-001",
+      "target": "info:item:world:global:2026-09-30-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-001",
+      "target": "info:item:world:global:2026-09-30-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-001",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-001",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-001",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-001",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-001",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-001",
+      "target": "taxonomy/misc/capital punishment",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-001",
+      "target": "taxonomy/misc/United States",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-002",
+      "target": "info:entity:person:Benjamin Netanyahu",
+      "relation": "Israeli Prime Minister who commented on the motive and praised the rescued pilot"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-002",
+      "target": "info:entity:organization:Flydubai",
+      "relation": "Airline operating the attacked flight FZ1073"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-002",
+      "target": "info:entity:person:Captain Smit Machchhar",
+      "relation": "Indian co‑pilot who was stabbed and later commended as a hero"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-002",
+      "target": "info:entity:region:Saudi Arabia",
+      "relation": "Country where the attacker was arrested and the aircraft landed"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-002",
+      "target": "info:item:world:global:2026-10-01-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-002",
+      "target": "info:item:world:global:2026-09-30-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-002",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-002",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-002",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-002",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-002",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-002",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-002",
+      "target": "taxonomy/category/industry",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-003",
+      "target": "info:entity:person:Captain Smit Machchhar",
+      "relation": "stabbed pilot and hero"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-003",
+      "target": "info:entity:person:Benjamin Netanyahu",
+      "relation": "Israeli Prime Minister who praised the pilot"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-003",
+      "target": "info:entity:organization:Flydubai",
+      "relation": "airline operating the flight"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-003",
+      "target": "info:entity:region:Saudi Arabia",
+      "relation": "site of emergency landing and arrest"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-003",
+      "target": "info:item:world:global:2026-10-01-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-003",
+      "target": "info:item:world:global:2026-09-30-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-003",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-003",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-003",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-003",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-003",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-003",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-003",
+      "target": "taxonomy/category/industry",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-01-004",
+      "target": "info:entity:person:Alan Milburn",
+      "relation": "proposer of early career education and mandatory work experience"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-01-004",
+      "target": "info:entity:organization:National Association of Head Teachers (NAHT)",
+      "relation": "expressed concerns over primary school workload"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-01-004",
+      "target": "info:entity:concept:NEET",
+      "relation": "metric used to highlight youth inactivity"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-01-004",
+      "target": "info:entity:region:Scotland",
+      "relation": "already has career‑based learning from age three"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-01-004",
+      "target": "info:item:politics:global:2026-09-30-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-01-004",
+      "target": "info:item:politics:global:2026-09-30-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-01-004",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-01-004",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-01-004",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-01-004",
+      "target": "taxonomy/misc/education policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-01-004",
+      "target": "taxonomy/misc/youth employment",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-01-004",
+      "target": "taxonomy/misc/primary education",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-01-005",
+      "target": "info:entity:concept:Universal Credit",
+      "relation": "existing welfare program targeted by new rules"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-01-005",
+      "target": "info:entity:organization:Trussell Trust",
+      "relation": "critic warning of increased hardship for young claimants"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-01-005",
+      "target": "info:entity:person:Rishi Sunak",
+      "relation": "Prime Minister overseeing Conservative welfare reforms"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-01-005",
+      "target": "info:entity:person:Helen Whately",
+      "relation": "Shadow Work and Pensions Secretary commenting on the measures"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-01-005",
+      "target": "info:item:politics:global:2026-10-01-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-01-005",
+      "target": "info:item:politics:global:2026-09-30-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-01-005",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-01-005",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-01-005",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-01-005",
+      "target": "taxonomy/topic/politics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-01-005",
+      "target": "taxonomy/misc/welfare policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-01-005",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-10-01-006",
+      "target": "info:entity:company:Anthropic",
+      "relation": "provides Claude model used by Macaly Cloud"
+    },
+    {
+      "source": "info:item:products:global:2026-10-01-006",
+      "target": "info:entity:company:OpenAI",
+      "relation": "provides ChatGPT model used by Macaly Cloud"
+    },
+    {
+      "source": "info:item:products:global:2026-10-01-006",
+      "target": "info:entity:model:Claude",
+      "relation": "LLM integrated for content generation"
+    },
+    {
+      "source": "info:item:products:global:2026-10-01-006",
+      "target": "info:entity:product:ChatGPT",
+      "relation": "LLM integrated for site building"
+    },
+    {
+      "source": "info:item:products:global:2026-10-01-006",
+      "target": "info:entity:region:Myanmar",
+      "relation": "target market for low‑bandwidth AI site creation"
+    },
+    {
+      "source": "info:item:products:global:2026-10-01-006",
+      "target": "info:item:products:global:2026-09-30-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-10-01-006",
+      "target": "info:item:products:global:2026-09-29-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-10-01-006",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-10-01-006",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-10-01-006",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-10-01-006",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-10-01-006",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-10-01-006",
+      "target": "taxonomy/misc/Myanmar",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-10-01-007",
+      "target": "info:entity:company:Automat Workforce",
+      "relation": "developer of Ace"
+    },
+    {
+      "source": "info:item:products:global:2026-10-01-007",
+      "target": "info:entity:product:Ace",
+      "relation": "agentic AI teammate"
+    },
+    {
+      "source": "info:item:products:global:2026-10-01-007",
+      "target": "info:entity:model:OpenAI GPT‑4",
+      "relation": "benchmark LLM"
+    },
+    {
+      "source": "info:item:products:global:2026-10-01-007",
+      "target": "info:entity:model:Google Gemini",
+      "relation": "competitor LLM"
+    },
+    {
+      "source": "info:item:products:global:2026-10-01-007",
+      "target": "info:item:products:global:2026-09-30-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-10-01-007",
+      "target": "info:item:products:global:2026-09-29-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-10-01-007",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-10-01-007",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-10-01-007",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-10-01-007",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-10-01-007",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-10-01-007",
+      "target": "taxonomy/category/product",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-008",
+      "target": "info:entity:person:Vladimir Putin",
+      "relation": "President of Russia and central figure in the conflict"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-008",
+      "target": "info:entity:organization:United Russia",
+      "relation": "Dominant political party in the State Duma"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-008",
+      "target": "info:entity:organization:United Nations General Assembly",
+      "relation": "Platform where Russia’s foreign minister addressed Western actions"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-008",
+      "target": "info:entity:region:Ukraine",
+      "relation": "Primary theater of the conflict"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-008",
+      "target": "info:entity:organization:NATO",
+      "relation": "Alliance providing support to Ukraine and facing hybrid threats"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-008",
+      "target": "info:item:world:global:2026-10-01-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-008",
+      "target": "info:item:world:global:2026-10-01-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-008",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-008",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-008",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-008",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-008",
+      "target": "taxonomy/misc/Conflict",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-008",
+      "target": "taxonomy/misc/International Relations",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-008",
+      "target": "taxonomy/misc/Military Strategy",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -26552,7 +27230,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
-      "weight": "48"
+      "weight": "49"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -26666,7 +27344,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:model:Claude",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -26888,7 +27566,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:product:ChatGPT",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -26990,7 +27668,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:region:Myanmar",
       "relation": "co-occurs",
-      "weight": "10"
+      "weight": "11"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -27019,6 +27697,24 @@
     {
       "source": "info:entity:company:Apple",
       "target": "info:entity:person:Lisa Nandy",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Automat Workforce",
+      "target": "info:entity:model:Google Gemini",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Automat Workforce",
+      "target": "info:entity:model:OpenAI GPT‑4",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Automat Workforce",
+      "target": "info:entity:product:Ace",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -27842,7 +28538,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:model:Claude",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -28256,7 +28952,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:product:ChatGPT",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -28358,7 +29054,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:region:Myanmar",
       "relation": "co-occurs",
-      "weight": "13"
+      "weight": "14"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -29213,6 +29909,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:concept:NEET",
+      "target": "info:entity:organization:National Association of Head Teachers (NAHT)",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:NEET",
+      "target": "info:entity:person:Alan Milburn",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:NEET",
+      "target": "info:entity:region:Scotland",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:concept:Natural Language Inference",
       "target": "info:entity:model:Transformer",
       "relation": "co-occurs",
@@ -29402,11 +30116,23 @@
       "source": "info:entity:concept:Universal Credit",
       "target": "info:entity:organization:Trussell Trust",
       "relation": "co-occurs",
+      "weight": "2"
+    },
+    {
+      "source": "info:entity:concept:Universal Credit",
+      "target": "info:entity:person:Helen Whately",
+      "relation": "co-occurs",
       "weight": "1"
     },
     {
       "source": "info:entity:concept:Universal Credit",
       "target": "info:entity:person:Kemi Badenoch",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Universal Credit",
+      "target": "info:entity:person:Rishi Sunak",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -29952,7 +30678,19 @@
     },
     {
       "source": "info:entity:model:Claude",
+      "target": "info:entity:product:ChatGPT",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Claude",
       "target": "info:entity:product:Kit",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Claude",
+      "target": "info:entity:region:Myanmar",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -30392,11 +31130,17 @@
       "source": "info:entity:model:Google Gemini",
       "target": "info:entity:model:OpenAI GPT‑4",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:model:Google Gemini",
       "target": "info:entity:model:OpenAI GPT‑4‑Turbo",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Google Gemini",
+      "target": "info:entity:product:Ace",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -30481,6 +31225,12 @@
     {
       "source": "info:entity:model:OpenAI GPT-4-Turbo",
       "target": "info:entity:region:Myanmar",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:OpenAI GPT‑4",
+      "target": "info:entity:product:Ace",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -31763,6 +32513,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Flydubai",
+      "target": "info:entity:person:Benjamin Netanyahu",
+      "relation": "co-occurs",
+      "weight": "2"
+    },
+    {
+      "source": "info:entity:organization:Flydubai",
+      "target": "info:entity:person:Captain Smit Machchhar",
+      "relation": "co-occurs",
+      "weight": "2"
+    },
+    {
+      "source": "info:entity:organization:Flydubai",
+      "target": "info:entity:region:Saudi Arabia",
+      "relation": "co-occurs",
+      "weight": "2"
+    },
+    {
       "source": "info:entity:organization:Football Supporters' Association",
       "target": "info:entity:organization:UK Football Policing Unit",
       "relation": "co-occurs",
@@ -32814,6 +33582,18 @@
     },
     {
       "source": "info:entity:organization:NATO",
+      "target": "info:entity:organization:United Nations General Assembly",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:NATO",
+      "target": "info:entity:organization:United Russia",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:NATO",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
       "weight": "2"
@@ -32900,11 +33680,17 @@
       "source": "info:entity:organization:NATO",
       "target": "info:entity:person:Vladimir Putin",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:organization:NATO",
       "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:NATO",
+      "target": "info:entity:region:Ukraine",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -32941,6 +33727,18 @@
     {
       "source": "info:entity:organization:NSPCC",
       "target": "info:entity:person:Lisa Nandy",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:National Association of Head Teachers (NAHT)",
+      "target": "info:entity:person:Alan Milburn",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:National Association of Head Teachers (NAHT)",
+      "target": "info:entity:region:Scotland",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -33785,6 +34583,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Tennessee Department of Correction",
+      "target": "info:entity:organization:U.S. Supreme Court",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Tennessee Department of Correction",
+      "target": "info:entity:person:Christa Pike",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Tennessee Department of Correction",
+      "target": "info:entity:person:Dr Joel Zivot",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Transport for All",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
@@ -33792,7 +34608,19 @@
     },
     {
       "source": "info:entity:organization:Trussell Trust",
+      "target": "info:entity:person:Helen Whately",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Trussell Trust",
       "target": "info:entity:person:Kemi Badenoch",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Trussell Trust",
+      "target": "info:entity:person:Rishi Sunak",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -33979,6 +34807,18 @@
     {
       "source": "info:entity:organization:U.S. State Department",
       "target": "info:entity:person:Masoud Pezeshkian",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:U.S. Supreme Court",
+      "target": "info:entity:person:Christa Pike",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:U.S. Supreme Court",
+      "target": "info:entity:person:Dr Joel Zivot",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -34301,6 +35141,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:United Nations General Assembly",
+      "target": "info:entity:organization:United Russia",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:United Nations General Assembly",
+      "target": "info:entity:person:Vladimir Putin",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:United Nations General Assembly",
+      "target": "info:entity:region:Ukraine",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:United Nations Human Rights Council",
       "target": "info:entity:person:Masoud Pezeshkian",
       "relation": "co-occurs",
@@ -34339,6 +35197,18 @@
     {
       "source": "info:entity:organization:United Nations Office for the Coordination of Humanitarian Affairs",
       "target": "info:entity:region:Nepal",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:United Russia",
+      "target": "info:entity:person:Vladimir Putin",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:United Russia",
+      "target": "info:entity:region:Ukraine",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -34537,6 +35407,12 @@
     {
       "source": "info:entity:person:Ahmed al-Sharaa",
       "target": "info:entity:person:Scott Bessent",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Alan Milburn",
+      "target": "info:entity:region:Scotland",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -34986,6 +35862,12 @@
     },
     {
       "source": "info:entity:person:Benjamin Netanyahu",
+      "target": "info:entity:person:Captain Smit Machchhar",
+      "relation": "co-occurs",
+      "weight": "2"
+    },
+    {
+      "source": "info:entity:person:Benjamin Netanyahu",
       "target": "info:entity:person:Israel Katz",
       "relation": "co-occurs",
       "weight": "1"
@@ -35013,6 +35895,12 @@
       "target": "info:entity:region:Middle East",
       "relation": "co-occurs",
       "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Benjamin Netanyahu",
+      "target": "info:entity:region:Saudi Arabia",
+      "relation": "co-occurs",
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Benjamin Netanyahu",
@@ -35061,6 +35949,12 @@
       "target": "info:entity:person:Robert Schuman",
       "relation": "co-occurs",
       "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Captain Smit Machchhar",
+      "target": "info:entity:region:Saudi Arabia",
+      "relation": "co-occurs",
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Carlo Cosco",
@@ -35133,6 +36027,12 @@
       "target": "info:entity:person:Shabana Mahmood",
       "relation": "co-occurs",
       "weight": "2"
+    },
+    {
+      "source": "info:entity:person:Christa Pike",
+      "target": "info:entity:person:Dr Joel Zivot",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:person:Christopher Harborne",
@@ -35759,6 +36659,12 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:person:Helen Whately",
+      "target": "info:entity:person:Rishi Sunak",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:person:Holly Ratchford",
       "target": "info:entity:person:Omar al‑Bayoumi",
       "relation": "co-occurs",
@@ -36311,6 +37217,12 @@
       "weight": "2"
     },
     {
+      "source": "info:entity:person:Vladimir Putin",
+      "target": "info:entity:region:Ukraine",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:person:Volodymyr Zelensky",
       "target": "info:entity:product:Scalp missile",
       "relation": "co-occurs",
@@ -36349,6 +37261,12 @@
     {
       "source": "info:entity:product:ChatGPT",
       "target": "info:entity:product:Claude",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:product:ChatGPT",
+      "target": "info:entity:region:Myanmar",
       "relation": "co-occurs",
       "weight": "1"
     },

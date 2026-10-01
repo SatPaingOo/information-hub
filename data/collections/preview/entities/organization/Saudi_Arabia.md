@@ -1,7 +1,7 @@
 ---
 name: "Saudi Arabia"
 entity_type: organization
-backlink_count: 6
+backlink_count: 8
 ---
 
 # Saudi Arabia
@@ -10,6 +10,8 @@ backlink_count: 6
 
 ## Referenced by
 
+- 2026-10-01 · [[2026-10-01-002-too-early-to-say-what-motive-for-dubai-tel-aviv-flight]] — Too early to say what motive for Dubai‑Tel Aviv flight attack was, Israeli PM says
+- 2026-10-01 · [[2026-10-01-003-what-we-know-about-stabbing-on-flydubai-flight-to-israel]] — What we know about stabbing on Flydubai flight to Israel
 - 2026-09-28 · [[2026-09-28-001-inside-yemen-s-front-line-city-as-houthis-battle-for-control]] — Inside Yemen's front-line city as Houthis battle for control
 - 2026-09-22 · [[2026-09-22-004-uk-to-provide-saudi-arabia-with-defensive-military-support]] — UK to provide Saudi Arabia with 'defensive' military support, says Burnham
 - 2026-09-20 · [[2026-09-20-002-houthis-say-they-targeted-saudi-capital-with-ballistic]] — Houthis say they targeted Saudi capital with ballistic missiles

@@ -1,7 +1,7 @@
 ---
 name: "Vladimir Putin"
 entity_type: person
-backlink_count: 14
+backlink_count: 15
 ---
 
 # Vladimir Putin
@@ -10,6 +10,7 @@ backlink_count: 14
 
 ## Referenced by
 
+- 2026-10-01 · [[2026-10-01-008-putin-shows-no-sign-of-stopping-the-war-as-russia-doubles]] — Putin shows no sign of stopping the war as Russia doubles down on Ukraine
 - 2026-09-26 · [[2026-09-26-006-russia-targeting-ordinary-life-with-attacks-on-ukraine-s]] — Russia targeting 'ordinary life' with attacks on Ukraine's data centres, Zelensky says
 - 2026-09-19 · [[2026-09-19-002-russian-hybrid-attacks-against-europe-intensifying-says]] — Russian hybrid attacks against Europe intensifying, says Macron
 - 2026-09-19 · [[2026-09-19-009-trump-signs-sweeping-russia-sanctions-bill]] — Trump signs sweeping Russia sanctions bill
