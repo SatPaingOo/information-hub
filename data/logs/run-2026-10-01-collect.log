@@ -16,3 +16,11 @@
 2026-10-01 06:11:34,589 WARNING [politics] no collect provider available
 2026-10-01 06:11:34,848 WARNING [products] no collect provider available
 2026-10-01 06:11:35,165 INFO collect done: 1 item(s) published — target 2/10, next run ≈ 2026-10-02T01:00:00+00:00 UTC
+2026-10-01 07:04:25,204 INFO [world-news] published 2026-10-01-009 — Swiss glaciers suffer 'disastrous' year of ice loss, threate
+2026-10-01 07:04:25,455 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7348, Requested 5334. Please try again in 35.115s. Need more tokens? Upgrade to Dev Tier today at https://con
+2026-10-01 07:04:31,130 INFO [world-news] published 2026-10-01-010 — Six smugglers jailed for manslaughter over worst Channel sma
+2026-10-01 07:04:31,249 WARNING [world-news] no collect provider for deep-dive
+2026-10-01 07:04:31,947 WARNING [tech-news] no collect provider available
+2026-10-01 07:04:32,384 WARNING [politics] no collect provider available
+2026-10-01 07:04:33,250 WARNING [products] no collect provider available
+2026-10-01 07:04:33,425 INFO collect done: 2 item(s) published — target 0/10, next run ≈ 2026-10-02T01:00:00+00:00 UTC

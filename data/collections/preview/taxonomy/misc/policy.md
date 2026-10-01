@@ -1,7 +1,7 @@
 ---
 node: "Policy"
 layer: misc
-item_count: 245
+item_count: 247
 ---
 
 # Policy
@@ -22,6 +22,8 @@ item_count: 245
 - 2026-10-01 · [[2026-10-01-004-employers-should-teach-primary-age-children-about-work]] — Employers should teach primary-age children about work, says Milburn
 - 2026-10-01 · [[2026-10-01-005-conservatives-pledge-tough-love-benefit-rules-for-under-25s]] — Conservatives pledge 'tough love' benefit rules for under-25s
 - 2026-10-01 · [[2026-10-01-008-putin-shows-no-sign-of-stopping-the-war-as-russia-doubles]] — Putin shows no sign of stopping the war as Russia doubles down on Ukraine
+- 2026-10-01 · [[2026-10-01-009-swiss-glaciers-suffer-disastrous-year-of-ice-loss]] — Swiss glaciers suffer 'disastrous' year of ice loss, threatening water supplies
+- 2026-10-01 · [[2026-10-01-010-six-smugglers-jailed-for-manslaughter-over-worst-channel]] — Six smugglers jailed for manslaughter over worst Channel small boats disaster
 - 2026-09-30 · [[2026-09-30-001-chinese-ai-tool-told-researchers-how-to-make-bioweapons]] — Chinese AI tool told researchers how to make bioweapons
 - 2026-09-30 · [[2026-09-30-002-spain-announces-ban-on-evictions-after-protests-over-87]] — Spain announces ban on evictions after protests over 87-year-old woman's removal from flat
 - 2026-09-30 · [[2026-09-30-003-south-africa-to-clean-up-high-risk-areas-after-12-women]] — South Africa to clean up high-risk areas after 12 women killed

@@ -6474,6 +6474,53 @@
       "name": "Military Strategy"
     },
     {
+      "id": "info:item:world:global:2026-10-01-009",
+      "type": "item",
+      "date": "2026-10-01",
+      "title": "Swiss glaciers suffer 'disastrous' year of ice loss, threatening water supplies"
+    },
+    {
+      "id": "info:entity:person:Dr Matthias Huss",
+      "type": "person",
+      "name": "Dr Matthias Huss"
+    },
+    {
+      "id": "taxonomy/misc/water resources",
+      "type": "taxonomy",
+      "name": "water resources"
+    },
+    {
+      "id": "info:item:world:global:2026-10-01-010",
+      "type": "item",
+      "date": "2026-10-01",
+      "title": "Six smugglers jailed for manslaughter over worst Channel small boats disaster"
+    },
+    {
+      "id": "info:entity:person:Obaidullah Maroofkhel",
+      "type": "person",
+      "name": "Obaidullah Maroofkhel"
+    },
+    {
+      "id": "info:entity:organization:French Coastguard",
+      "type": "organization",
+      "name": "French Coastguard"
+    },
+    {
+      "id": "taxonomy/misc/Migration",
+      "type": "taxonomy",
+      "name": "Migration"
+    },
+    {
+      "id": "taxonomy/misc/Human Rights",
+      "type": "taxonomy",
+      "name": "Human Rights"
+    },
+    {
+      "id": "taxonomy/misc/Law Enforcement",
+      "type": "taxonomy",
+      "name": "Law Enforcement"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -26973,6 +27020,126 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-10-01-009",
+      "target": "info:entity:person:Dr Matthias Huss",
+      "relation": "Director of Glacier Monitoring Switzerland"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-009",
+      "target": "info:entity:organization:World Meteorological Organization",
+      "relation": "Provides regional climate data"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-009",
+      "target": "info:entity:company:OpenAI",
+      "relation": "Develops AI models for climate prediction"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-009",
+      "target": "info:entity:company:Anthropic",
+      "relation": "Collaborates on large‑scale climate modelling"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-009",
+      "target": "info:item:world:global:2026-10-01-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-009",
+      "target": "info:item:world:global:2026-10-01-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-009",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-009",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-009",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-009",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-009",
+      "target": "taxonomy/misc/climate change",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-009",
+      "target": "taxonomy/misc/water resources",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-009",
+      "target": "taxonomy/misc/energy policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-010",
+      "target": "info:entity:person:Obaidullah Maroofkhel",
+      "relation": "convicted trafficker"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-010",
+      "target": "info:entity:organization:French Coastguard",
+      "relation": "investigated for rescue failure"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-010",
+      "target": "info:item:world:global:2026-10-01-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-010",
+      "target": "info:item:world:global:2026-10-01-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-010",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-010",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-010",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-010",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-010",
+      "target": "taxonomy/misc/Migration",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-010",
+      "target": "taxonomy/misc/Human Rights",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-01-010",
+      "target": "taxonomy/misc/Law Enforcement",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -27230,7 +27397,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
-      "weight": "49"
+      "weight": "50"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -27450,6 +27617,12 @@
     },
     {
       "source": "info:entity:company:Anthropic",
+      "target": "info:entity:organization:World Meteorological Organization",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
       "target": "info:entity:organization:World Meteorological Organization (WMO)",
       "relation": "co-occurs",
       "weight": "1"
@@ -27495,6 +27668,12 @@
       "target": "info:entity:person:Donald Trump",
       "relation": "co-occurs",
       "weight": "8"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:person:Dr Matthias Huss",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -28748,7 +28927,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:organization:World Meteorological Organization",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -28839,6 +29018,12 @@
       "target": "info:entity:person:Donald Trump",
       "relation": "co-occurs",
       "weight": "5"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:person:Dr Matthias Huss",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -32561,6 +32746,12 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:French Coastguard",
+      "target": "info:entity:person:Obaidullah Maroofkhel",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Gemini",
       "target": "info:entity:organization:OpenAI",
       "relation": "co-occurs",
@@ -35329,6 +35520,12 @@
     {
       "source": "info:entity:organization:Wildberries",
       "target": "info:entity:person:Vladimir Putin",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:World Meteorological Organization",
+      "target": "info:entity:person:Dr Matthias Huss",
       "relation": "co-occurs",
       "weight": "1"
     },
