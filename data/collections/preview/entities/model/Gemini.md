@@ -1,7 +1,7 @@
 ---
 name: "Gemini"
 entity_type: model
-backlink_count: 42
+backlink_count: 43
 ---
 
 # Gemini
@@ -10,6 +10,7 @@ backlink_count: 42
 
 ## Referenced by
 
+- 2026-10-02 · [[2026-10-02-008-openai-fires-workers-for-mishandling-sensitive-information]] — OpenAI fires workers for mishandling ‘sensitive information’ amid escalating AI safety debate
 - 2026-09-30 · [[2026-09-30-003-south-africa-to-clean-up-high-risk-areas-after-12-women]] — South Africa to clean up high-risk areas after 12 women killed
 - 2026-09-30 · [[2026-09-30-004-burnham-vows-to-end-existing-pension-triple-lock-in-2030]] — Burnham vows to end existing pension triple lock in 2030 to help fund care
 - 2026-09-28 · [[2026-09-28-002-embattled-serbian-president-resigns-paving-way-for-early]] — Embattled Serbian president resigns, paving way for early elections

@@ -6613,6 +6613,48 @@
       "name": "United Arab Emirates"
     },
     {
+      "id": "info:item:world:global:2026-10-02-008",
+      "type": "item",
+      "date": "2026-10-02",
+      "title": "OpenAI fires workers for mishandling ‘sensitive information’ amid escalating AI safety debate"
+    },
+    {
+      "id": "taxonomy/misc/AI Safety",
+      "type": "taxonomy",
+      "name": "AI Safety"
+    },
+    {
+      "id": "info:item:politics:global:2026-10-02-009",
+      "type": "item",
+      "date": "2026-10-02",
+      "title": "Zack Polanski to call for three‑year cap on private rent rises"
+    },
+    {
+      "id": "info:entity:concept:Renters’ Rights Act",
+      "type": "concept",
+      "name": "Renters’ Rights Act"
+    },
+    {
+      "id": "info:entity:concept:Fair Rents Guarantee",
+      "type": "concept",
+      "name": "Fair Rents Guarantee"
+    },
+    {
+      "id": "taxonomy/misc/Housing Policy",
+      "type": "taxonomy",
+      "name": "Housing Policy"
+    },
+    {
+      "id": "taxonomy/misc/Political Competition",
+      "type": "taxonomy",
+      "name": "Political Competition"
+    },
+    {
+      "id": "taxonomy/misc/Economic Impact",
+      "type": "taxonomy",
+      "name": "Economic Impact"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -27682,6 +27724,146 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-10-02-008",
+      "target": "info:entity:company:OpenAI",
+      "relation": "subject of disciplinary action"
+    },
+    {
+      "source": "info:item:world:global:2026-10-02-008",
+      "target": "info:entity:person:Sam Altman",
+      "relation": "CEO of OpenAI"
+    },
+    {
+      "source": "info:item:world:global:2026-10-02-008",
+      "target": "info:entity:company:Anthropic",
+      "relation": "competitor and fellow AI safety advocate"
+    },
+    {
+      "source": "info:item:world:global:2026-10-02-008",
+      "target": "info:entity:person:Jacob Coxon",
+      "relation": "AI safety researcher calling for slower development"
+    },
+    {
+      "source": "info:item:world:global:2026-10-02-008",
+      "target": "info:entity:model:Gemini",
+      "relation": "competitor LLM referenced in editorial priorities"
+    },
+    {
+      "source": "info:item:world:global:2026-10-02-008",
+      "target": "info:item:world:global:2026-10-02-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-02-008",
+      "target": "info:item:world:global:2026-10-02-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-02-008",
+      "target": "info:item:world:global:2026-10-02-007",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-02-008",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-02-008",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-02-008",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-02-008",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-02-008",
+      "target": "taxonomy/misc/AI Safety",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-02-008",
+      "target": "taxonomy/misc/Regulation",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-02-008",
+      "target": "taxonomy/misc/Agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-02-009",
+      "target": "info:entity:person:Zack Polanski",
+      "relation": "Green Party leader and speaker"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-02-009",
+      "target": "info:entity:organization:Green Party of England and Wales",
+      "relation": "political party proposing rent cap"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-02-009",
+      "target": "info:entity:organization:Labour Party",
+      "relation": "opposing party with shifting policies"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-02-009",
+      "target": "info:entity:concept:Renters’ Rights Act",
+      "relation": "current legislation limiting rent increases"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-02-009",
+      "target": "info:entity:concept:Fair Rents Guarantee",
+      "relation": "proposed national policy to maintain affordability"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-02-009",
+      "target": "info:item:politics:global:2026-10-02-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-02-009",
+      "target": "info:item:politics:global:2026-10-02-003",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-02-009",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-02-009",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-02-009",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-02-009",
+      "target": "taxonomy/misc/Housing Policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-02-009",
+      "target": "taxonomy/misc/Political Competition",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-02-009",
+      "target": "taxonomy/misc/Economic Impact",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -27939,7 +28121,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
-      "weight": "52"
+      "weight": "53"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -28101,7 +28283,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "19"
+      "weight": "20"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -28251,7 +28433,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:person:Jacob Coxon",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -28275,7 +28457,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:person:Sam Altman",
       "relation": "co-occurs",
-      "weight": "7"
+      "weight": "8"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -29367,7 +29549,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "31"
+      "weight": "32"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -29679,7 +29861,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Jacob Coxon",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -29721,7 +29903,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Sam Altman",
       "relation": "co-occurs",
-      "weight": "9"
+      "weight": "10"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -30558,6 +30740,30 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:concept:Fair Rents Guarantee",
+      "target": "info:entity:concept:Renters’ Rights Act",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Fair Rents Guarantee",
+      "target": "info:entity:organization:Green Party of England and Wales",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Fair Rents Guarantee",
+      "target": "info:entity:organization:Labour Party",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Fair Rents Guarantee",
+      "target": "info:entity:person:Zack Polanski",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:concept:Feature Extraction",
       "target": "info:entity:concept:Feature Selection",
       "relation": "co-occurs",
@@ -30860,6 +31066,24 @@
     {
       "source": "info:entity:concept:Regulation",
       "target": "info:entity:region:Myanmar",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Renters’ Rights Act",
+      "target": "info:entity:organization:Green Party of England and Wales",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Renters’ Rights Act",
+      "target": "info:entity:organization:Labour Party",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Renters’ Rights Act",
+      "target": "info:entity:person:Zack Polanski",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -31783,6 +32007,12 @@
     },
     {
       "source": "info:entity:model:Gemini",
+      "target": "info:entity:person:Jacob Coxon",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
       "target": "info:entity:person:Jensen Huang",
       "relation": "co-occurs",
       "weight": "1"
@@ -31844,6 +32074,12 @@
     {
       "source": "info:entity:model:Gemini",
       "target": "info:entity:person:Pope Leo XIV",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
+      "target": "info:entity:person:Sam Altman",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -33553,6 +33789,12 @@
     },
     {
       "source": "info:entity:organization:Green Party of England and Wales",
+      "target": "info:entity:organization:Labour Party",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Green Party of England and Wales",
       "target": "info:entity:organization:MA Holdings",
       "relation": "co-occurs",
       "weight": "1"
@@ -33585,7 +33827,7 @@
       "source": "info:entity:organization:Green Party of England and Wales",
       "target": "info:entity:person:Zack Polanski",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Guantanamo Bay detention camp",
@@ -34220,6 +34462,12 @@
     {
       "source": "info:entity:organization:Labour Party",
       "target": "info:entity:person:Tom Watson",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Labour Party",
+      "target": "info:entity:person:Zack Polanski",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -37641,7 +37889,7 @@
       "source": "info:entity:person:Jacob Coxon",
       "target": "info:entity:person:Sam Altman",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:James Cleverly",

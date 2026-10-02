@@ -1,7 +1,7 @@
 ---
 node: "politics"
 layer: topic
-item_count: 104
+item_count: 105
 ---
 
 # politics
@@ -21,6 +21,7 @@ item_count: 104
 - 2026-10-02 · [[2026-10-02-002-man-city-not-above-the-rules-says-no-10-after-backlash-to]] — Man City not 'above the rules', says No 10 after backlash to Burnham remarks
 - 2026-10-02 · [[2026-10-02-003-chris-mason-why-andy-burnham-s-about-turn-on-manchester]] — Chris Mason: Why Andy Burnham's about-turn on Manchester City matters
 - 2026-10-02 · [[2026-10-02-003-chris-mason-why-andy-burnham-s-about-turn-on-manchester]] — Chris Mason: Why Andy Burnham's about-turn on Manchester City matters
+- 2026-10-02 · [[2026-10-02-009-zack-polanski-to-call-for-three-year-cap-on-private-rent]] — Zack Polanski to call for three‑year cap on private rent rises
 - 2026-10-01 · [[2026-10-01-004-employers-should-teach-primary-age-children-about-work]] — Employers should teach primary-age children about work, says Milburn
 - 2026-10-01 · [[2026-10-01-005-conservatives-pledge-tough-love-benefit-rules-for-under-25s]] — Conservatives pledge 'tough love' benefit rules for under-25s
 - 2026-10-01 · [[2026-10-01-005-conservatives-pledge-tough-love-benefit-rules-for-under-25s]] — Conservatives pledge 'tough love' benefit rules for under-25s

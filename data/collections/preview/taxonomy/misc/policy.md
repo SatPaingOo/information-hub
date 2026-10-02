@@ -1,7 +1,7 @@
 ---
 node: "Policy"
 layer: misc
-item_count: 252
+item_count: 254
 ---
 
 # Policy
@@ -21,6 +21,8 @@ item_count: 252
 - 2026-10-02 · [[2026-10-02-003-chris-mason-why-andy-burnham-s-about-turn-on-manchester]] — Chris Mason: Why Andy Burnham's about-turn on Manchester City matters
 - 2026-10-02 · [[2026-10-02-006-what-happened-in-the-failed-execution-of-christa-pike-and]] — What happened in the failed execution of Christa Pike – and what next?
 - 2026-10-02 · [[2026-10-02-007-netanyahu-says-flydubai-attacker-had-islamist-radical]] — Netanyahu says Flydubai attacker had 'Islamist radical indoctrination'
+- 2026-10-02 · [[2026-10-02-008-openai-fires-workers-for-mishandling-sensitive-information]] — OpenAI fires workers for mishandling ‘sensitive information’ amid escalating AI safety debate
+- 2026-10-02 · [[2026-10-02-009-zack-polanski-to-call-for-three-year-cap-on-private-rent]] — Zack Polanski to call for three‑year cap on private rent rises
 - 2026-10-01 · [[2026-10-01-001-us-death-row-inmate-christa-pike-taken-to-hospital-after]] — US death row inmate Christa Pike taken to hospital after surviving two lethal injections, says lawyer
 - 2026-10-01 · [[2026-10-01-002-too-early-to-say-what-motive-for-dubai-tel-aviv-flight]] — Too early to say what motive for Dubai‑Tel Aviv flight attack was, Israeli PM says
 - 2026-10-01 · [[2026-10-01-003-what-we-know-about-stabbing-on-flydubai-flight-to-israel]] — What we know about stabbing on Flydubai flight to Israel

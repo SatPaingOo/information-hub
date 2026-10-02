@@ -1,7 +1,7 @@
 ---
 node: "Global"
 layer: misc
-item_count: 324
+item_count: 326
 ---
 
 # Global
@@ -31,6 +31,8 @@ item_count: 324
 - 2026-10-02 · [[2026-10-02-005-omnia-agent]] — Omnia Agent
 - 2026-10-02 · [[2026-10-02-006-what-happened-in-the-failed-execution-of-christa-pike-and]] — What happened in the failed execution of Christa Pike – and what next?
 - 2026-10-02 · [[2026-10-02-007-netanyahu-says-flydubai-attacker-had-islamist-radical]] — Netanyahu says Flydubai attacker had 'Islamist radical indoctrination'
+- 2026-10-02 · [[2026-10-02-008-openai-fires-workers-for-mishandling-sensitive-information]] — OpenAI fires workers for mishandling ‘sensitive information’ amid escalating AI safety debate
+- 2026-10-02 · [[2026-10-02-009-zack-polanski-to-call-for-three-year-cap-on-private-rent]] — Zack Polanski to call for three‑year cap on private rent rises
 - 2026-10-01 · [[2026-10-01-001-us-death-row-inmate-christa-pike-taken-to-hospital-after]] — US death row inmate Christa Pike taken to hospital after surviving two lethal injections, says lawyer
 - 2026-10-01 · [[2026-10-01-002-too-early-to-say-what-motive-for-dubai-tel-aviv-flight]] — Too early to say what motive for Dubai‑Tel Aviv flight attack was, Israeli PM says
 - 2026-10-01 · [[2026-10-01-003-what-we-know-about-stabbing-on-flydubai-flight-to-israel]] — What we know about stabbing on Flydubai flight to Israel

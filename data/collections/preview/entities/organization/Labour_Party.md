@@ -1,7 +1,7 @@
 ---
 name: "Labour Party"
 entity_type: organization
-backlink_count: 17
+backlink_count: 18
 ---
 
 # Labour Party
@@ -10,6 +10,7 @@ backlink_count: 17
 
 ## Referenced by
 
+- 2026-10-02 · [[2026-10-02-009-zack-polanski-to-call-for-three-year-cap-on-private-rent]] — Zack Polanski to call for three‑year cap on private rent rises
 - 2026-09-30 · [[2026-09-30-005-chris-mason-burnham-delivers-deeply-political-speech-with]] — Chris Mason: Burnham delivers deeply political speech with a personal core
 - 2026-09-29 · [[2026-09-29-004-burnham-to-unveil-public-body-to-invest-in-electricity-grid]] — Burnham to unveil public body to invest in electricity grid
 - 2026-09-28 · [[2026-09-28-005-social-care-reform-could-mean-big-risks-and-big-rewards]] — Social care reform could mean big risks and big rewards for Burnham

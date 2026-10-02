@@ -17,3 +17,11 @@
 2026-10-02 02:23:13,873 WARNING [politics] no collect provider for deep-dive
 2026-10-02 02:23:14,676 WARNING [products] no collect provider available
 2026-10-02 02:23:15,093 INFO collect done: 2 item(s) published — target 3/10, next run ≈ 2026-10-03T01:00:00+00:00 UTC
+2026-10-02 06:52:16,400 INFO [world-news] published 2026-10-02-008 — OpenAI fires workers for mishandling ‘sensitive information’
+2026-10-02 06:52:17,882 INFO [tech-news] nothing selected
+2026-10-02 06:52:18,290 ERROR [politics] select failed: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7547, Requested 1023. Please try again in 4.274999999s. Need more tokens? Upgrade to Dev Tier today at https:
+2026-10-02 06:52:18,326 INFO [politics] model returned no selection — using heuristic fallback (2)
+2026-10-02 06:52:20,999 INFO [politics] published 2026-10-02-009 — Zack Polanski to call for three‑year cap on private rent ris
+2026-10-02 06:52:21,112 WARNING [politics] no collect provider for deep-dive
+2026-10-02 06:52:21,830 WARNING [products] no collect provider available
+2026-10-02 06:52:22,134 INFO collect done: 2 item(s) published — target 1/10, next run ≈ 2026-10-03T01:00:00+00:00 UTC

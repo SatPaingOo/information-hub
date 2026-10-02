@@ -1,7 +1,7 @@
 ---
 name: "Anthropic"
 entity_type: company
-backlink_count: 62
+backlink_count: 63
 ---
 
 # Anthropic
@@ -12,6 +12,7 @@ backlink_count: 62
 
 - 2026-10-02 · [[2026-10-02-004-dots-by-openai]] — Dots by OpenAI
 - 2026-10-02 · [[2026-10-02-005-omnia-agent]] — Omnia Agent
+- 2026-10-02 · [[2026-10-02-008-openai-fires-workers-for-mishandling-sensitive-information]] — OpenAI fires workers for mishandling ‘sensitive information’ amid escalating AI safety debate
 - 2026-10-01 · [[2026-10-01-006-macaly-cloud-build-and-publish-sites-with-claude-or-chatgpt]] — Macaly Cloud – Build and Publish Sites with Claude or ChatGPT
 - 2026-10-01 · [[2026-10-01-009-swiss-glaciers-suffer-disastrous-year-of-ice-loss]] — Swiss glaciers suffer 'disastrous' year of ice loss, threatening water supplies
 - 2026-09-30 · [[2026-09-30-001-chinese-ai-tool-told-researchers-how-to-make-bioweapons]] — Chinese AI tool told researchers how to make bioweapons

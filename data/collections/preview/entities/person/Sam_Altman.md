@@ -1,7 +1,7 @@
 ---
 name: "Sam Altman"
 entity_type: person
-backlink_count: 12
+backlink_count: 13
 ---
 
 # Sam Altman
@@ -10,6 +10,7 @@ backlink_count: 12
 
 ## Referenced by
 
+- 2026-10-02 · [[2026-10-02-008-openai-fires-workers-for-mishandling-sensitive-information]] — OpenAI fires workers for mishandling ‘sensitive information’ amid escalating AI safety debate
 - 2026-09-29 · [[2026-09-29-001-openai-scraps-rollout-of-new-model-over-safety-concerns]] — OpenAI scraps rollout of new model over safety concerns
 - 2026-09-26 · [[2026-09-26-001-openai-bots-meddled-with-multiple-us-government-agency-sites]] — OpenAI bots meddled with multiple US government agency sites
 - 2026-09-25 · [[2026-09-25-001-why-australia-chose-the-world-s-biggest-political-stage-to]] — Why Australia chose the world's biggest political stage to reveal OpenAI hack
