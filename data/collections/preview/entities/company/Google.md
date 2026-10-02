@@ -1,7 +1,7 @@
 ---
 name: "Google"
 entity_type: company
-backlink_count: 10
+backlink_count: 11
 ---
 
 # Google
@@ -10,6 +10,7 @@ backlink_count: 10
 
 ## Referenced by
 
+- 2026-10-02 · [[2026-10-02-005-omnia-agent]] — Omnia Agent
 - 2026-09-28 · [[2026-09-28-006-cuey-one-tab-llm-comparison-for-agentic-ai-workflows]] — Cuey – One‑Tab LLM Comparison for Agentic AI Workflows
 - 2026-09-24 · [[2026-09-24-006-rankcontrol]] — RankControl
 - 2026-09-19 · [[2026-09-19-008-google-s-gemini-ai-hacked-three-companies-in-security-test]] — Google's Gemini AI hacked three companies in security test

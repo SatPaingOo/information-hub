@@ -1,7 +1,7 @@
 ---
 name: "Andy Burnham"
 entity_type: person
-backlink_count: 48
+backlink_count: 50
 ---
 
 # Andy Burnham
@@ -10,6 +10,8 @@ backlink_count: 48
 
 ## Referenced by
 
+- 2026-10-02 · [[2026-10-02-002-man-city-not-above-the-rules-says-no-10-after-backlash-to]] — Man City not 'above the rules', says No 10 after backlash to Burnham remarks
+- 2026-10-02 · [[2026-10-02-003-chris-mason-why-andy-burnham-s-about-turn-on-manchester]] — Chris Mason: Why Andy Burnham's about-turn on Manchester City matters
 - 2026-09-30 · [[2026-09-30-004-burnham-vows-to-end-existing-pension-triple-lock-in-2030]] — Burnham vows to end existing pension triple lock in 2030 to help fund care
 - 2026-09-30 · [[2026-09-30-005-chris-mason-burnham-delivers-deeply-political-speech-with]] — Chris Mason: Burnham delivers deeply political speech with a personal core
 - 2026-09-29 · [[2026-09-29-004-burnham-to-unveil-public-body-to-invest-in-electricity-grid]] — Burnham to unveil public body to invest in electricity grid

@@ -1,7 +1,7 @@
 ---
 node: "Global"
 layer: misc
-item_count: 317
+item_count: 324
 ---
 
 # Global
@@ -24,6 +24,13 @@ item_count: 317
 
 ## Items
 
+- 2026-10-02 · [[2026-10-02-001-trump-s-ai-rebrand-causes-unprecedented-demand-for]] — Trump's AI rebrand causes 'unprecedented' demand for Slovenian website names
+- 2026-10-02 · [[2026-10-02-002-man-city-not-above-the-rules-says-no-10-after-backlash-to]] — Man City not 'above the rules', says No 10 after backlash to Burnham remarks
+- 2026-10-02 · [[2026-10-02-003-chris-mason-why-andy-burnham-s-about-turn-on-manchester]] — Chris Mason: Why Andy Burnham's about-turn on Manchester City matters
+- 2026-10-02 · [[2026-10-02-004-dots-by-openai]] — Dots by OpenAI
+- 2026-10-02 · [[2026-10-02-005-omnia-agent]] — Omnia Agent
+- 2026-10-02 · [[2026-10-02-006-what-happened-in-the-failed-execution-of-christa-pike-and]] — What happened in the failed execution of Christa Pike – and what next?
+- 2026-10-02 · [[2026-10-02-007-netanyahu-says-flydubai-attacker-had-islamist-radical]] — Netanyahu says Flydubai attacker had 'Islamist radical indoctrination'
 - 2026-10-01 · [[2026-10-01-001-us-death-row-inmate-christa-pike-taken-to-hospital-after]] — US death row inmate Christa Pike taken to hospital after surviving two lethal injections, says lawyer
 - 2026-10-01 · [[2026-10-01-002-too-early-to-say-what-motive-for-dubai-tel-aviv-flight]] — Too early to say what motive for Dubai‑Tel Aviv flight attack was, Israeli PM says
 - 2026-10-01 · [[2026-10-01-003-what-we-know-about-stabbing-on-flydubai-flight-to-israel]] — What we know about stabbing on Flydubai flight to Israel

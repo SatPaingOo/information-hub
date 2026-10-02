@@ -6521,6 +6521,98 @@
       "name": "Law Enforcement"
     },
     {
+      "id": "info:item:world:global:2026-10-02-001",
+      "type": "item",
+      "date": "2026-10-02",
+      "title": "Trump's AI rebrand causes 'unprecedented' demand for Slovenian website names"
+    },
+    {
+      "id": "info:entity:organization:Register.si",
+      "type": "organization",
+      "name": "Register.si"
+    },
+    {
+      "id": "info:entity:person:Klara Herman",
+      "type": "person",
+      "name": "Klara Herman"
+    },
+    {
+      "id": "info:entity:concept:Super Intelligence (SI)",
+      "type": "concept",
+      "name": "Super Intelligence (SI)"
+    },
+    {
+      "id": "info:item:politics:global:2026-10-02-002",
+      "type": "item",
+      "date": "2026-10-02",
+      "title": "Man City not 'above the rules', says No 10 after backlash to Burnham remarks"
+    },
+    {
+      "id": "info:entity:organization:Manchester City",
+      "type": "organization",
+      "name": "Manchester City"
+    },
+    {
+      "id": "info:entity:organization:Downing Street",
+      "type": "organization",
+      "name": "Downing Street"
+    },
+    {
+      "id": "info:item:politics:global:2026-10-02-003",
+      "type": "item",
+      "date": "2026-10-02",
+      "title": "Chris Mason: Why Andy Burnham's about-turn on Manchester City matters"
+    },
+    {
+      "id": "info:item:products:global:2026-10-02-004",
+      "type": "item",
+      "date": "2026-10-02",
+      "title": "Dots by OpenAI"
+    },
+    {
+      "id": "info:item:products:global:2026-10-02-005",
+      "type": "item",
+      "date": "2026-10-02",
+      "title": "Omnia Agent"
+    },
+    {
+      "id": "info:entity:product:Omnia Agent",
+      "type": "product",
+      "name": "Omnia Agent"
+    },
+    {
+      "id": "info:entity:concept:Regulation",
+      "type": "concept",
+      "name": "Regulation"
+    },
+    {
+      "id": "info:item:world:global:2026-10-02-006",
+      "type": "item",
+      "date": "2026-10-02",
+      "title": "What happened in the failed execution of Christa Pike – and what next?"
+    },
+    {
+      "id": "info:item:world:global:2026-10-02-007",
+      "type": "item",
+      "date": "2026-10-02",
+      "title": "Netanyahu says Flydubai attacker had 'Islamist radical indoctrination'"
+    },
+    {
+      "id": "info:entity:company:Flydubai",
+      "type": "company",
+      "name": "Flydubai"
+    },
+    {
+      "id": "info:entity:region:Oman",
+      "type": "region",
+      "name": "Oman"
+    },
+    {
+      "id": "info:entity:organization:United Arab Emirates",
+      "type": "organization",
+      "name": "United Arab Emirates"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -27140,6 +27232,456 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-10-02-001",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "advocated AI rebrand to SI"
+    },
+    {
+      "source": "info:item:world:global:2026-10-02-001",
+      "target": "info:entity:organization:Register.si",
+      "relation": "national domain registry reporting surge"
+    },
+    {
+      "source": "info:item:world:global:2026-10-02-001",
+      "target": "info:entity:person:Klara Herman",
+      "relation": "spokeswoman for Register.si"
+    },
+    {
+      "source": "info:item:world:global:2026-10-02-001",
+      "target": "info:entity:concept:Super Intelligence (SI)",
+      "relation": "new terminology for AI promoted by Trump"
+    },
+    {
+      "source": "info:item:world:global:2026-10-02-001",
+      "target": "info:item:world:global:2026-10-01-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-02-001",
+      "target": "info:item:world:global:2026-10-01-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-02-001",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-02-001",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-02-001",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-02-001",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-02-001",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-02-001",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-02-001",
+      "target": "taxonomy/misc/regulation",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-02-002",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "Mayor of Greater Manchester; commentator on Manchester City ownership"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-02-002",
+      "target": "info:entity:person:Rishi Sunak",
+      "relation": "Prime Minister of the United Kingdom; spokesperson on the City situation"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-02-002",
+      "target": "info:entity:organization:Manchester City",
+      "relation": "Club under investigation for Premier League rule breaches"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-02-002",
+      "target": "info:entity:organization:Downing Street",
+      "relation": "Official residence and office of the UK Prime Minister; issued clarification"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-02-002",
+      "target": "info:item:politics:global:2026-10-01-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-02-002",
+      "target": "info:item:politics:global:2026-10-01-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-02-002",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-02-002",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-02-002",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-02-002",
+      "target": "taxonomy/topic/politics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-02-002",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-02-002",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-02-003",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "UK Prime Minister and former Greater Manchester mayor"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-02-003",
+      "target": "info:entity:organization:Manchester City",
+      "relation": "Premier League club under investigation for rule breaches"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-02-003",
+      "target": "info:entity:company:OpenAI",
+      "relation": "AI model developer referenced in editorial priorities"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-02-003",
+      "target": "info:item:politics:global:2026-10-02-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-02-003",
+      "target": "info:item:politics:global:2026-10-01-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-02-003",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-02-003",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-02-003",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-02-003",
+      "target": "taxonomy/topic/politics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-02-003",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-02-003",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-10-02-004",
+      "target": "info:entity:company:OpenAI",
+      "relation": "developer and provider of Dots"
+    },
+    {
+      "source": "info:item:products:global:2026-10-02-004",
+      "target": "info:entity:model:GPT‑4‑Turbo",
+      "relation": "core language model used by Dots agents"
+    },
+    {
+      "source": "info:item:products:global:2026-10-02-004",
+      "target": "info:entity:company:Anthropic",
+      "relation": "competitor in the agentic AI space"
+    },
+    {
+      "source": "info:item:products:global:2026-10-02-004",
+      "target": "info:entity:model:Gemini 3.8",
+      "relation": "competitor LLM offering agentic features"
+    },
+    {
+      "source": "info:item:products:global:2026-10-02-004",
+      "target": "info:item:products:global:2026-10-01-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-10-02-004",
+      "target": "info:item:products:global:2026-09-30-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-10-02-004",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-10-02-004",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-10-02-004",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-10-02-004",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-10-02-004",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-10-02-004",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-10-02-005",
+      "target": "info:entity:product:Omnia Agent",
+      "relation": "product"
+    },
+    {
+      "source": "info:item:products:global:2026-10-02-005",
+      "target": "info:entity:company:OpenAI",
+      "relation": "LLM provider"
+    },
+    {
+      "source": "info:item:products:global:2026-10-02-005",
+      "target": "info:entity:company:Google",
+      "relation": "LLM provider"
+    },
+    {
+      "source": "info:item:products:global:2026-10-02-005",
+      "target": "info:entity:company:Anthropic",
+      "relation": "LLM provider"
+    },
+    {
+      "source": "info:item:products:global:2026-10-02-005",
+      "target": "info:entity:region:Myanmar",
+      "relation": "target market"
+    },
+    {
+      "source": "info:item:products:global:2026-10-02-005",
+      "target": "info:entity:concept:Regulation",
+      "relation": "subject"
+    },
+    {
+      "source": "info:item:products:global:2026-10-02-005",
+      "target": "info:item:products:global:2026-10-02-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-10-02-005",
+      "target": "info:item:products:global:2026-10-01-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-10-02-005",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-10-02-005",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-10-02-005",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-10-02-005",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-10-02-005",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-10-02-005",
+      "target": "taxonomy/misc/Myanmar",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-02-006",
+      "target": "info:entity:person:Christa Pike",
+      "relation": "convicted murderer"
+    },
+    {
+      "source": "info:item:world:global:2026-10-02-006",
+      "target": "info:entity:organization:Tennessee Department of Correction",
+      "relation": "administered lethal injection"
+    },
+    {
+      "source": "info:item:world:global:2026-10-02-006",
+      "target": "info:entity:person:Dr Joel Zivot",
+      "relation": "medical expert commenting on outcome"
+    },
+    {
+      "source": "info:item:world:global:2026-10-02-006",
+      "target": "info:entity:company:OpenAI",
+      "relation": "AI model referenced in policy discussions"
+    },
+    {
+      "source": "info:item:world:global:2026-10-02-006",
+      "target": "info:item:world:global:2026-10-02-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-02-006",
+      "target": "info:item:world:global:2026-10-01-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-02-006",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-02-006",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-02-006",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-02-006",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-02-006",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-02-006",
+      "target": "taxonomy/category/industry",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-02-006",
+      "target": "taxonomy/topic/world",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-02-007",
+      "target": "info:entity:person:Benjamin Netanyahu",
+      "relation": "Israeli Prime Minister commenting on the incident"
+    },
+    {
+      "source": "info:item:world:global:2026-10-02-007",
+      "target": "info:entity:person:Captain Smit Machchhar",
+      "relation": "Indian co‑pilot who was stabbed and later hailed as a hero"
+    },
+    {
+      "source": "info:item:world:global:2026-10-02-007",
+      "target": "info:entity:company:Flydubai",
+      "relation": "Operator of the flight involved in the attack"
+    },
+    {
+      "source": "info:item:world:global:2026-10-02-007",
+      "target": "info:entity:region:Oman",
+      "relation": "Nationality of the alleged attacker"
+    },
+    {
+      "source": "info:item:world:global:2026-10-02-007",
+      "target": "info:entity:organization:United Arab Emirates",
+      "relation": "State under whose flag the aircraft was registered"
+    },
+    {
+      "source": "info:item:world:global:2026-10-02-007",
+      "target": "info:item:world:global:2026-10-02-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-02-007",
+      "target": "info:item:world:global:2026-10-02-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-02-007",
+      "target": "info:item:world:global:2026-10-01-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-02-007",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-02-007",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-02-007",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-02-007",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-02-007",
+      "target": "taxonomy/topic/world",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-02-007",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-02-007",
+      "target": "taxonomy/category/industry",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -27355,7 +27897,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:Google",
       "relation": "co-occurs",
-      "weight": "7"
+      "weight": "8"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -27397,7 +27939,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
-      "weight": "50"
+      "weight": "52"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -27491,6 +28033,12 @@
     },
     {
       "source": "info:entity:company:Anthropic",
+      "target": "info:entity:concept:Regulation",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
       "target": "info:entity:concept:Retrieval-Augmented Generation",
       "relation": "co-occurs",
       "weight": "2"
@@ -27547,7 +28095,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:model:GPT‑4‑Turbo",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -27565,7 +28113,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:model:Gemini 3.8",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -27815,6 +28363,12 @@
     },
     {
       "source": "info:entity:company:Anthropic",
+      "target": "info:entity:product:Omnia Agent",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
       "target": "info:entity:product:Reeno",
       "relation": "co-occurs",
       "weight": "1"
@@ -27847,7 +28401,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:region:Myanmar",
       "relation": "co-occurs",
-      "weight": "11"
+      "weight": "12"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -28048,6 +28602,30 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:company:Flydubai",
+      "target": "info:entity:organization:United Arab Emirates",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Flydubai",
+      "target": "info:entity:person:Benjamin Netanyahu",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Flydubai",
+      "target": "info:entity:person:Captain Smit Machchhar",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Flydubai",
+      "target": "info:entity:region:Oman",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:company:Gemini",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
@@ -28147,13 +28725,19 @@
       "source": "info:entity:company:Google",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
-      "weight": "7"
+      "weight": "8"
     },
     {
       "source": "info:entity:company:Google",
       "target": "info:entity:concept:Agentic AI",
       "relation": "co-occurs",
       "weight": "2"
+    },
+    {
+      "source": "info:entity:company:Google",
+      "target": "info:entity:concept:Regulation",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:company:Google",
@@ -28229,6 +28813,12 @@
     },
     {
       "source": "info:entity:company:Google",
+      "target": "info:entity:product:Omnia Agent",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Google",
       "target": "info:entity:product:Relaticle",
       "relation": "co-occurs",
       "weight": "1"
@@ -28243,7 +28833,7 @@
       "source": "info:entity:company:Google",
       "target": "info:entity:region:Myanmar",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:company:Google Gemini",
@@ -28697,6 +29287,12 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:concept:Regulation",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:concept:Retrieval-Augmented Generation",
       "relation": "co-occurs",
       "weight": "3"
@@ -28759,7 +29355,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:model:GPT‑4‑Turbo",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -28783,7 +29379,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:model:Gemini 3.8",
       "relation": "co-occurs",
-      "weight": "4"
+      "weight": "5"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -28859,6 +29455,12 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:organization:Manchester City",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:organization:NATO",
       "relation": "co-occurs",
       "weight": "1"
@@ -28902,6 +29504,12 @@
     {
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:organization:Students Win",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:organization:Tennessee Department of Correction",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -28951,7 +29559,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
-      "weight": "5"
+      "weight": "6"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -28997,6 +29605,12 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:person:Christa Pike",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Cyril Ramaphosa",
       "relation": "co-occurs",
       "weight": "2"
@@ -29018,6 +29632,12 @@
       "target": "info:entity:person:Donald Trump",
       "relation": "co-occurs",
       "weight": "5"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:person:Dr Joel Zivot",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -29201,6 +29821,12 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:product:Omnia Agent",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:product:Pluto",
       "relation": "co-occurs",
       "weight": "1"
@@ -29239,7 +29865,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:region:Myanmar",
       "relation": "co-occurs",
-      "weight": "14"
+      "weight": "15"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -30226,6 +30852,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:concept:Regulation",
+      "target": "info:entity:product:Omnia Agent",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Regulation",
+      "target": "info:entity:region:Myanmar",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:concept:Retrieval-Augmented Generation",
       "target": "info:entity:model:Anthropic Claude",
       "relation": "co-occurs",
@@ -30288,6 +30926,24 @@
     {
       "source": "info:entity:concept:Strait of Hormuz",
       "target": "info:entity:person:Donald Trump",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Super Intelligence (SI)",
+      "target": "info:entity:organization:Register.si",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Super Intelligence (SI)",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Super Intelligence (SI)",
+      "target": "info:entity:person:Klara Herman",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -30954,6 +31610,12 @@
     {
       "source": "info:entity:model:GPT‑4",
       "target": "info:entity:product:Relaticle",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:GPT‑4‑Turbo",
+      "target": "info:entity:model:Gemini 3.8",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -32368,6 +33030,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Downing Street",
+      "target": "info:entity:organization:Manchester City",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Downing Street",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Downing Street",
+      "target": "info:entity:person:Rishi Sunak",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Electoral Commission",
       "target": "info:entity:organization:Labour Party",
       "relation": "co-occurs",
@@ -33706,6 +34386,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Manchester City",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "co-occurs",
+      "weight": "2"
+    },
+    {
+      "source": "info:entity:organization:Manchester City",
+      "target": "info:entity:person:Rishi Sunak",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Messina Touring Group",
       "target": "info:entity:person:Ed Sheeran",
       "relation": "co-occurs",
@@ -34522,6 +35214,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Register.si",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Register.si",
+      "target": "info:entity:person:Klara Herman",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Royal Air Force (RAF)",
       "target": "info:entity:organization:Saudi Arabia",
       "relation": "co-occurs",
@@ -34783,13 +35487,13 @@
       "source": "info:entity:organization:Tennessee Department of Correction",
       "target": "info:entity:person:Christa Pike",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Tennessee Department of Correction",
       "target": "info:entity:person:Dr Joel Zivot",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Transport for All",
@@ -35256,6 +35960,24 @@
     {
       "source": "info:entity:organization:Unite",
       "target": "info:entity:person:Sharon Graham",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:United Arab Emirates",
+      "target": "info:entity:person:Benjamin Netanyahu",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:United Arab Emirates",
+      "target": "info:entity:person:Captain Smit Machchhar",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:United Arab Emirates",
+      "target": "info:entity:region:Oman",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -35821,7 +36543,7 @@
       "source": "info:entity:person:Andy Burnham",
       "target": "info:entity:person:Rishi Sunak",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Andy Burnham",
@@ -36061,7 +36783,7 @@
       "source": "info:entity:person:Benjamin Netanyahu",
       "target": "info:entity:person:Captain Smit Machchhar",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:person:Benjamin Netanyahu",
@@ -36090,6 +36812,12 @@
     {
       "source": "info:entity:person:Benjamin Netanyahu",
       "target": "info:entity:region:Middle East",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Benjamin Netanyahu",
+      "target": "info:entity:region:Oman",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -36144,6 +36872,12 @@
     {
       "source": "info:entity:person:Brigitte Macron",
       "target": "info:entity:person:Robert Schuman",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Captain Smit Machchhar",
+      "target": "info:entity:region:Oman",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -36229,7 +36963,7 @@
       "source": "info:entity:person:Christa Pike",
       "target": "info:entity:person:Dr Joel Zivot",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Christopher Harborne",
@@ -36504,6 +37238,12 @@
     {
       "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:Kevin Warsh",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Donald Trump",
+      "target": "info:entity:person:Klara Herman",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -37475,6 +38215,12 @@
     },
     {
       "source": "info:entity:product:God’s Eye View",
+      "target": "info:entity:region:Myanmar",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:product:Omnia Agent",
       "target": "info:entity:region:Myanmar",
       "relation": "co-occurs",
       "weight": "1"

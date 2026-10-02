@@ -1,7 +1,7 @@
 ---
 name: "OpenAI"
 entity_type: company
-backlink_count: 93
+backlink_count: 97
 ---
 
 # OpenAI
@@ -10,6 +10,10 @@ backlink_count: 93
 
 ## Referenced by
 
+- 2026-10-02 · [[2026-10-02-003-chris-mason-why-andy-burnham-s-about-turn-on-manchester]] — Chris Mason: Why Andy Burnham's about-turn on Manchester City matters
+- 2026-10-02 · [[2026-10-02-004-dots-by-openai]] — Dots by OpenAI
+- 2026-10-02 · [[2026-10-02-005-omnia-agent]] — Omnia Agent
+- 2026-10-02 · [[2026-10-02-006-what-happened-in-the-failed-execution-of-christa-pike-and]] — What happened in the failed execution of Christa Pike – and what next?
 - 2026-10-01 · [[2026-10-01-006-macaly-cloud-build-and-publish-sites-with-claude-or-chatgpt]] — Macaly Cloud – Build and Publish Sites with Claude or ChatGPT
 - 2026-10-01 · [[2026-10-01-009-swiss-glaciers-suffer-disastrous-year-of-ice-loss]] — Swiss glaciers suffer 'disastrous' year of ice loss, threatening water supplies
 - 2026-09-30 · [[2026-09-30-003-south-africa-to-clean-up-high-risk-areas-after-12-women]] — South Africa to clean up high-risk areas after 12 women killed

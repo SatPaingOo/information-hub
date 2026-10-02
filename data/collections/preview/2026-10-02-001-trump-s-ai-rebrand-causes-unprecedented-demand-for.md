@@ -1,0 +1,66 @@
+---
+id: "info:item:world:global:2026-10-02-001"
+key: "2026-10-02-001"
+date: 2026-10-02
+content_type: digest
+topic: world
+region: global
+categories: ["policy", "industry"]
+source: "feeds.bbci.co.uk"
+source_url: "https://www.bbc.co.uk/news/articles/cqx2z23xj555o?at_medium=RSS&at_campaign=rss"
+word_count: 606
+tags: ["AI rebranding", "domain speculation", "U.S. policy", "Slovenia", "cybersquatting", "tech regulation"]
+---
+
+# Trump's AI rebrand causes 'unprecedented' demand for Slovenian website names
+
+> [!summary] TL;DR — U.S. President Donald Trump’s call to rename AI as “super intelligence” (SI) sparked a surge in registrations of .si domain names, with September 2026 seeing over 44,000 new addresses—far exceeding prior months. The phenomenon reflects both speculative investment and geopolitical ripple effects of high‑profile policy statements on technology nomenclature.
+
+## Background
+
+The United Nations General Assembly on 11 September 2026 heard Trump urge a shift from “artificial intelligence” to “super intelligence,” arguing the former sounds “fake.” He subsequently signed an executive order directing U.S. agencies to adopt the terms “SI” and “Super Intelligence” in all official communications, effectively deprecating the acronym AI. While the rebranding was framed as a semantic refresh, the immediate market reaction was concrete: Slovenia’s national registry, Register.si, reported an unprecedented spike in domain registrations, suggesting that the announcement resonated far beyond political circles and triggered real‑world commercial activity.
+
+## Market Speculation vs. Genuine Demand
+
+The 2,100 % month‑over‑month increase in .si registrations—44,000 in September versus fewer than 2,000 in August—appears to be driven by a blend of speculative buying and genuine interest. Analysts note that many registrants are likely “domain flippers” who snap up short, memorable .si strings anticipating future resale value, especially as the SI acronym becomes more prominent in tech discourse. However, the sheer volume (11,000 registrations in a single day, 30 Sept) also hints at broader corporate adoption, with firms possibly securing .si presences to align with the new terminology or to hedge against future branding needs.
+
+## Geopolitical Echoes of U.S. Tech Policy
+
+Trump’s unilateral push to rebrand AI illustrates how a single nation’s policy stance can ripple through the global digital ecosystem. Slovenia, a small EU member with a modest tech sector, became an inadvertent focal point because its country‑code top‑level domain (ccTLD) matches the new acronym. This underscores the vulnerability—and opportunity—of small economies to headline‑driven market movements. Moreover, the episode highlights the growing trend of “language‑driven branding” where technical terminology influences branding strategies, prompting companies to secure domain names that reflect emerging jargon.
+
+## Regulatory and Brand Implications for the Tech Industry
+
+The executive order mandating the use of “SI” and “Super Intelligence” across U.S. government communications signals a potential shift in how AI‑related standards, procurement, and research are framed domestically. For the industry, this could mean re‑tooling marketing materials, updating product positioning, and even revising internal documentation. The rapid .si surge also raises questions about cyber‑squatting and the need for clearer policies on domain registration during periods of heightened geopolitical attention. Regulators may need to balance protecting legitimate brand interests with preventing speculative hoarding that could inflate costs for genuine adopters.
+
+## Key facts
+
+- September 2026 saw 44,000 new .si domain registrations, a 2,100 % increase from August’s <2,000.
+- On 30 Sept alone, 11,000 new .si addresses were recorded, described by Register.si as “unprecedented.”
+- Trump announced the AI‑to‑SI rebrand at the UN General Assembly on 11 Sept and signed an executive order the same week.
+- The executive order requires U.S. agencies to use “SI” and “Super Intelligence” in all official correspondence, websites, and reports.
+
+## Implications
+
+- Potential inflation of domain name prices could affect startups and SMEs seeking .si branding.
+- Other nations may see similar spikes in ccTLDs that match emerging tech acronyms, prompting regulatory scrutiny.
+- U.S. policy may force global tech firms to adapt branding and compliance strategies, potentially fragmenting the market.
+
+## Outlook
+
+In the short term, the .si domain market is likely to remain volatile as speculators continue to capitalize on the SI hype. Over the medium term, if the SI terminology gains broader acceptance, we may see a new wave of brand registrations across multiple ccTLDs, prompting domain registries to implement safeguards against hoarding. Policymakers will need to monitor these dynamics to ensure that semantic shifts do not inadvertently create barriers to innovation or inflate costs for legitimate users.
+
+## Entities
+
+- [[Donald_Trump]] — *person* (advocated AI rebrand to SI)
+- [[Register_si]] — *organization* (national domain registry reporting surge)
+- [[Klara_Herman]] — *person* (spokeswoman for Register.si)
+- [[Super_Intelligence__SI_]] — *concept* (new terminology for AI promoted by Trump)
+
+## Related
+
+- [[2026-10-01-001-us-death-row-inmate-christa-pike-taken-to-hospital-after]]
+- [[2026-10-01-002-too-early-to-say-what-motive-for-dubai-tel-aviv-flight]]
+
+---
+
+*Source: [feeds.bbci.co.uk](https://www.bbc.co.uk/news/articles/cqx2z23xj555o?at_medium=RSS&at_campaign=rss)*

@@ -1,7 +1,7 @@
 ---
 name: "Myanmar"
 entity_type: region
-backlink_count: 15
+backlink_count: 16
 ---
 
 # Myanmar
@@ -10,6 +10,7 @@ backlink_count: 15
 
 ## Referenced by
 
+- 2026-10-02 · [[2026-10-02-005-omnia-agent]] — Omnia Agent
 - 2026-10-01 · [[2026-10-01-006-macaly-cloud-build-and-publish-sites-with-claude-or-chatgpt]] — Macaly Cloud – Build and Publish Sites with Claude or ChatGPT
 - 2026-09-23 · [[2026-09-23-007-reeno-ai-driven-conversational-language-coach-that-calls]] — Reeno – AI‑Driven Conversational Language Coach That Calls You Randomly
 - 2026-09-20 · [[2026-09-20-006-voicecap]] — VoiceCap

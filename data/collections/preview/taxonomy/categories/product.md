@@ -1,7 +1,7 @@
 ---
 node: "product"
 layer: category
-item_count: 73
+item_count: 75
 ---
 
 # product
@@ -19,6 +19,8 @@ item_count: 73
 
 ## Items
 
+- 2026-10-02 · [[2026-10-02-004-dots-by-openai]] — Dots by OpenAI
+- 2026-10-02 · [[2026-10-02-005-omnia-agent]] — Omnia Agent
 - 2026-10-01 · [[2026-10-01-006-macaly-cloud-build-and-publish-sites-with-claude-or-chatgpt]] — Macaly Cloud – Build and Publish Sites with Claude or ChatGPT
 - 2026-10-01 · [[2026-10-01-007-ace-from-automat-workforce-an-agentic-ai-teammate-for]] — Ace from Automat Workforce – An Agentic AI Teammate for Modern Workflows
 - 2026-10-01 · [[2026-10-01-007-ace-from-automat-workforce-an-agentic-ai-teammate-for]] — Ace from Automat Workforce – An Agentic AI Teammate for Modern Workflows

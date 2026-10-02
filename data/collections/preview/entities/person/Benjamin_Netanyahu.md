@@ -1,7 +1,7 @@
 ---
 name: "Benjamin Netanyahu"
 entity_type: person
-backlink_count: 6
+backlink_count: 7
 ---
 
 # Benjamin Netanyahu
@@ -10,6 +10,7 @@ backlink_count: 6
 
 ## Referenced by
 
+- 2026-10-02 · [[2026-10-02-007-netanyahu-says-flydubai-attacker-had-islamist-radical]] — Netanyahu says Flydubai attacker had 'Islamist radical indoctrination'
 - 2026-10-01 · [[2026-10-01-002-too-early-to-say-what-motive-for-dubai-tel-aviv-flight]] — Too early to say what motive for Dubai‑Tel Aviv flight attack was, Israeli PM says
 - 2026-10-01 · [[2026-10-01-003-what-we-know-about-stabbing-on-flydubai-flight-to-israel]] — What we know about stabbing on Flydubai flight to Israel
 - 2026-09-25 · [[2026-09-25-002-netanyahu-defends-israeli-military-action-as-delegates]] — Netanyahu defends Israeli military action as delegates walk out before UN speech

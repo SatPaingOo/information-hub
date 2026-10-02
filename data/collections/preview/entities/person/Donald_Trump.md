@@ -1,7 +1,7 @@
 ---
 name: "Donald Trump"
 entity_type: person
-backlink_count: 52
+backlink_count: 53
 ---
 
 # Donald Trump
@@ -10,6 +10,7 @@ backlink_count: 52
 
 ## Referenced by
 
+- 2026-10-02 · [[2026-10-02-001-trump-s-ai-rebrand-causes-unprecedented-demand-for]] — Trump's AI rebrand causes 'unprecedented' demand for Slovenian website names
 - 2026-09-28 · [[2026-09-28-007-trump-xi-summit-what-wasn-t-said-might-matter-the-most]] — Trump‑Xi summit: What wasn’t said might matter the most
 - 2026-09-27 · [[2026-09-27-008-iran-says-it-will-wait-for-official-us-response-after]] — Iran says it will wait for official US response after Trump rejects Strait of Hormuz proposal
 - 2026-09-26 · [[2026-09-26-005-iran-offers-us-deal-to-reopen-strait-of-hormuz-in-seven-days]] — Iran offers US deal to reopen Strait of Hormuz in seven days

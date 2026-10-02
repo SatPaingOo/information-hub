@@ -1,0 +1,19 @@
+2026-10-02 02:20:02,575 INFO [world-news] published 2026-10-02-001 — Trump's AI rebrand causes 'unprecedented' demand for Sloveni
+2026-10-02 02:20:06,876 INFO [tech-news] nothing selected
+2026-10-02 02:20:45,488 INFO [politics] published 2026-10-02-002 — Man City not 'above the rules', says No 10 after backlash to
+2026-10-02 02:21:07,676 INFO [politics] published 2026-10-02-003 — Chris Mason: Why Andy Burnham's about-turn on Manchester Cit
+2026-10-02 02:21:42,709 INFO [products] published 2026-10-02-004 — Dots by OpenAI
+2026-10-02 02:22:19,909 INFO [products] published 2026-10-02-005 — Omnia Agent
+2026-10-02 02:22:20,314 INFO collect done: 5 item(s) published — target 5/10, next run ≈ 2026-10-02T02:37:20+00:00 UTC
+2026-10-02 02:22:28,350 INFO [world-news] near-duplicate pruned — 'Christa Pike in critical condition after surviving two letha' ~ 2026-10-01-001
+2026-10-02 02:22:57,391 INFO [world-news] published 2026-10-02-006 — What happened in the failed execution of Christa Pike – and 
+2026-10-02 02:23:02,411 INFO [world-news] published 2026-10-02-007 — Netanyahu says Flydubai attacker had 'Islamist radical indoc
+2026-10-02 02:23:03,573 INFO [tech-news] nothing selected
+2026-10-02 02:23:04,347 ERROR [politics] select failed: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7042, Requested 2392. Please try again in 10.754999999s. Need more tokens? Upgrade to Dev Tier today at https
+2026-10-02 02:23:04,379 INFO [politics] model returned no selection — using heuristic fallback (2)
+2026-10-02 02:23:07,369 INFO [politics] attempt 1 invalid: [": 'key_facts' is a required property", ": 'implications' is a required property"]
+2026-10-02 02:23:07,490 ERROR [politics] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6739, Requested 5693. Please try again in 33.24s. Need more tokens? Upgrade to Dev Tier today at https://conso
+2026-10-02 02:23:13,492 WARNING [politics] no collect provider for deep-dive
+2026-10-02 02:23:13,873 WARNING [politics] no collect provider for deep-dive
+2026-10-02 02:23:14,676 WARNING [products] no collect provider available
+2026-10-02 02:23:15,093 INFO collect done: 2 item(s) published — target 3/10, next run ≈ 2026-10-03T01:00:00+00:00 UTC

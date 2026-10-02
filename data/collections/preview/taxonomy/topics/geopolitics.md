@@ -1,7 +1,7 @@
 ---
 node: "geopolitics"
 layer: topic
-item_count: 71
+item_count: 73
 ---
 
 # geopolitics
@@ -24,6 +24,8 @@ item_count: 71
 
 ## Items
 
+- 2026-10-02 · [[2026-10-02-002-man-city-not-above-the-rules-says-no-10-after-backlash-to]] — Man City not 'above the rules', says No 10 after backlash to Burnham remarks
+- 2026-10-02 · [[2026-10-02-003-chris-mason-why-andy-burnham-s-about-turn-on-manchester]] — Chris Mason: Why Andy Burnham's about-turn on Manchester City matters
 - 2026-09-29 · [[2026-09-29-003-seoul-summons-ukraine-envoy-over-north-korean-prisoner-of]] — Seoul summons Ukraine envoy over North Korean prisoner‑of‑war row
 - 2026-09-28 · [[2026-09-28-004-burnham-proposes-nhs-style-social-care-system-for-england]] — Burnham proposes NHS-style social care system for England
 - 2026-09-27 · [[2026-09-27-008-iran-says-it-will-wait-for-official-us-response-after]] — Iran says it will wait for official US response after Trump rejects Strait of Hormuz proposal
