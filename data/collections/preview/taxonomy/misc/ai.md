@@ -1,7 +1,7 @@
 ---
 node: "AI"
 layer: misc
-item_count: 3
+item_count: 4
 ---
 
 # AI
@@ -15,6 +15,7 @@ item_count: 3
 
 ## Items
 
+- 2026-10-03 · [[2026-10-03-007-jarviscore-a-zero-trust-mesh-for-agentic-ai]] — JarvisCore – A Zero‑Trust Mesh for Agentic AI
 - 2026-09-24 · [[2026-09-24-002-ai-superpower-ambitions-take-centre-stage-as-trump-and-xi]] — AI superpower ambitions take centre stage as Trump and Xi meet
 - 2026-09-20 · [[2026-09-20-007-doneit-3-2-reimagined-assist-siri-ai-support-and-agentic]] — Doneit 3.2 – Reimagined Assist, Siri AI Support, and Agentic Features
 - 2026-09-11 · [[2026-09-11-006-ai-observability-by-openobserve]] — AI Observability by OpenObserve

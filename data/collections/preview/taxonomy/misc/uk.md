@@ -1,7 +1,7 @@
 ---
 node: "UK"
 layer: misc
-item_count: 1
+item_count: 2
 ---
 
 # UK
@@ -14,4 +14,5 @@ item_count: 1
 
 ## Items
 
+- 2026-10-03 · [[2026-10-03-005-tories-pledge-to-build-50-000-new-prison-places]] — Tories pledge to build 50,000 new prison places
 - 2026-09-29 · [[2026-09-29-004-burnham-to-unveil-public-body-to-invest-in-electricity-grid]] — Burnham to unveil public body to invest in electricity grid

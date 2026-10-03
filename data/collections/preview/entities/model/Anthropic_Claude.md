@@ -1,7 +1,7 @@
 ---
 name: "Anthropic Claude"
 entity_type: model
-backlink_count: 6
+backlink_count: 7
 ---
 
 # Anthropic Claude
@@ -10,6 +10,7 @@ backlink_count: 6
 
 ## Referenced by
 
+- 2026-10-03 · [[2026-10-03-007-jarviscore-a-zero-trust-mesh-for-agentic-ai]] — JarvisCore – A Zero‑Trust Mesh for Agentic AI
 - 2026-09-25 · [[2026-09-25-007-noan-the-fact-layer-for-your-ai-agents]] — NOAN – The Fact Layer for Your AI Agents
 - 2026-09-21 · [[2026-09-21-006-answers-by-context-dev]] — Answers by Context.dev
 - 2026-09-20 · [[2026-09-20-007-doneit-3-2-reimagined-assist-siri-ai-support-and-agentic]] — Doneit 3.2 – Reimagined Assist, Siri AI Support, and Agentic Features

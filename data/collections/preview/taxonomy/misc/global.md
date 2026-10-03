@@ -1,7 +1,7 @@
 ---
 node: "Global"
 layer: misc
-item_count: 326
+item_count: 333
 ---
 
 # Global
@@ -20,10 +20,18 @@ item_count: 326
 - [[product]] — *classified_in*
 - [[products]] — *relates*
 - [[research]] — *classified_in*
+- [[world]] — *region*
 - [[world]] — *relates*
 
 ## Items
 
+- 2026-10-03 · [[2026-10-03-001-g7-to-release-millions-of-barrels-of-oil-and-diesel-after]] — G7 to release millions of barrels of oil and diesel after Trump threat
+- 2026-10-03 · [[2026-10-03-002-us-murderer-christa-pike-unconscious-and-on-ventilator]] — US murderer Christa Pike unconscious and on ventilator after failed execution, lawyers say
+- 2026-10-03 · [[2026-10-03-003-cornell-frat-house-rape-accuser-under-siege-online-says]] — Cornell frat house rape accuser 'under siege' online, says lawyer
+- 2026-10-03 · [[2026-10-03-004-widdecombe-suspect-charged-with-planning-terror-act]] — Widdecombe suspect charged with planning terror act against Farage
+- 2026-10-03 · [[2026-10-03-005-tories-pledge-to-build-50-000-new-prison-places]] — Tories pledge to build 50,000 new prison places
+- 2026-10-03 · [[2026-10-03-006-never-boring-ai-the-ai-agent-that-writes-your-linkedin]] — Never Boring AI – The AI Agent That Writes Your LinkedIn Posts in Your Voice
+- 2026-10-03 · [[2026-10-03-007-jarviscore-a-zero-trust-mesh-for-agentic-ai]] — JarvisCore – A Zero‑Trust Mesh for Agentic AI
 - 2026-10-02 · [[2026-10-02-001-trump-s-ai-rebrand-causes-unprecedented-demand-for]] — Trump's AI rebrand causes 'unprecedented' demand for Slovenian website names
 - 2026-10-02 · [[2026-10-02-002-man-city-not-above-the-rules-says-no-10-after-backlash-to]] — Man City not 'above the rules', says No 10 after backlash to Burnham remarks
 - 2026-10-02 · [[2026-10-02-003-chris-mason-why-andy-burnham-s-about-turn-on-manchester]] — Chris Mason: Why Andy Burnham's about-turn on Manchester City matters

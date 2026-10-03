@@ -1,7 +1,7 @@
 ---
 node: "Regulation"
 layer: misc
-item_count: 28
+item_count: 29
 ---
 
 # Regulation
@@ -17,6 +17,7 @@ item_count: 28
 
 ## Items
 
+- 2026-10-03 · [[2026-10-03-006-never-boring-ai-the-ai-agent-that-writes-your-linkedin]] — Never Boring AI – The AI Agent That Writes Your LinkedIn Posts in Your Voice
 - 2026-10-02 · [[2026-10-02-008-openai-fires-workers-for-mishandling-sensitive-information]] — OpenAI fires workers for mishandling ‘sensitive information’ amid escalating AI safety debate
 - 2026-10-02 · [[2026-10-02-001-trump-s-ai-rebrand-causes-unprecedented-demand-for]] — Trump's AI rebrand causes 'unprecedented' demand for Slovenian website names
 - 2026-09-29 · [[2026-09-29-001-openai-scraps-rollout-of-new-model-over-safety-concerns]] — OpenAI scraps rollout of new model over safety concerns

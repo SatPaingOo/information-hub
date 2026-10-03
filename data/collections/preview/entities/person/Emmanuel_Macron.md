@@ -1,7 +1,7 @@
 ---
 name: "Emmanuel Macron"
 entity_type: person
-backlink_count: 6
+backlink_count: 7
 ---
 
 # Emmanuel Macron
@@ -10,6 +10,7 @@ backlink_count: 6
 
 ## Referenced by
 
+- 2026-10-03 · [[2026-10-03-001-g7-to-release-millions-of-barrels-of-oil-and-diesel-after]] — G7 to release millions of barrels of oil and diesel after Trump threat
 - 2026-09-27 · [[2026-09-27-001-pope-praises-young-people-s-energy-and-commitment-at-huge]] — Pope praises young people's 'energy and commitment' at huge open-air Mass in Paris
 - 2026-09-25 · [[2026-09-25-008-hundreds-of-thousands-expected-in-paris-for-pope-s-visit]] — Hundreds of thousands expected in Paris for Pope's visit
 - 2026-09-19 · [[2026-09-19-002-russian-hybrid-attacks-against-europe-intensifying-says]] — Russian hybrid attacks against Europe intensifying, says Macron

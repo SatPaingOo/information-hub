@@ -1,7 +1,7 @@
 ---
 node: "LLM"
 layer: misc
-item_count: 54
+item_count: 55
 ---
 
 # LLM
@@ -17,6 +17,7 @@ item_count: 54
 
 ## Items
 
+- 2026-10-03 · [[2026-10-03-006-never-boring-ai-the-ai-agent-that-writes-your-linkedin]] — Never Boring AI – The AI Agent That Writes Your LinkedIn Posts in Your Voice
 - 2026-10-02 · [[2026-10-02-001-trump-s-ai-rebrand-causes-unprecedented-demand-for]] — Trump's AI rebrand causes 'unprecedented' demand for Slovenian website names
 - 2026-10-02 · [[2026-10-02-004-dots-by-openai]] — Dots by OpenAI
 - 2026-10-02 · [[2026-10-02-005-omnia-agent]] — Omnia Agent

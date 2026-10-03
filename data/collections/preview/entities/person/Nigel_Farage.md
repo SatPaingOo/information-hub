@@ -1,7 +1,7 @@
 ---
 name: "Nigel Farage"
 entity_type: person
-backlink_count: 13
+backlink_count: 14
 ---
 
 # Nigel Farage
@@ -10,6 +10,7 @@ backlink_count: 13
 
 ## Referenced by
 
+- 2026-10-03 · [[2026-10-03-004-widdecombe-suspect-charged-with-planning-terror-act]] — Widdecombe suspect charged with planning terror act against Farage
 - 2026-09-23 · [[2026-09-23-005-davey-promises-tax-cuts-for-millions-if-uk-rejoins-eu]] — Davey promises tax cuts for millions if UK rejoins EU single market
 - 2026-09-20 · [[2026-09-20-004-davey-says-lib-dems-are-firewall-against-farage-as]] — Davey says Lib Dems are 'firewall against Farage' as conference begins
 - 2026-09-16 · [[2026-09-16-005-dan-thomas-resigns-as-reform-wales-leader-after-arrest-on]] — Dan Thomas resigns as Reform Wales leader after arrest on suspicion of assault

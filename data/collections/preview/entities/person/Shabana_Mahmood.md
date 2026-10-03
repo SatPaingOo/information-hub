@@ -1,7 +1,7 @@
 ---
 name: "Shabana Mahmood"
 entity_type: person
-backlink_count: 4
+backlink_count: 5
 ---
 
 # Shabana Mahmood
@@ -10,6 +10,7 @@ backlink_count: 4
 
 ## Referenced by
 
+- 2026-10-03 · [[2026-10-03-004-widdecombe-suspect-charged-with-planning-terror-act]] — Widdecombe suspect charged with planning terror act against Farage
 - 2026-09-27 · [[2026-09-27-005-rayner-criticises-visa-rule-proposals-ahead-of-labour]] — Rayner criticises visa rule proposals ahead of Labour conference
 - 2026-09-25 · [[2026-09-25-004-no-switch-to-stop-small-boats-lucy-powell-tells-bbc]] — No 'switch' to stop small boats, Lucy Powell tells BBC
 - 2026-08-28 · [[2026-08-28-002-number-of-asylum-seekers-in-hotels-halves-in-a-year]] — Number of asylum seekers in hotels halves in a year

@@ -1,7 +1,7 @@
 ---
 name: "OpenAI"
 entity_type: company
-backlink_count: 98
+backlink_count: 99
 ---
 
 # OpenAI
@@ -10,6 +10,7 @@ backlink_count: 98
 
 ## Referenced by
 
+- 2026-10-03 · [[2026-10-03-006-never-boring-ai-the-ai-agent-that-writes-your-linkedin]] — Never Boring AI – The AI Agent That Writes Your LinkedIn Posts in Your Voice
 - 2026-10-02 · [[2026-10-02-003-chris-mason-why-andy-burnham-s-about-turn-on-manchester]] — Chris Mason: Why Andy Burnham's about-turn on Manchester City matters
 - 2026-10-02 · [[2026-10-02-004-dots-by-openai]] — Dots by OpenAI
 - 2026-10-02 · [[2026-10-02-005-omnia-agent]] — Omnia Agent

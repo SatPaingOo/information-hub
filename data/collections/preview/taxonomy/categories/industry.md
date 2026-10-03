@@ -1,7 +1,7 @@
 ---
 node: "industry"
 layer: category
-item_count: 205
+item_count: 211
 ---
 
 # industry
@@ -15,10 +15,17 @@ item_count: 205
 
 ## Cross-layer relations
 
+- [[world]] — *category*
 - [[world]] — *relates*
 
 ## Items
 
+- 2026-10-03 · [[2026-10-03-001-g7-to-release-millions-of-barrels-of-oil-and-diesel-after]] — G7 to release millions of barrels of oil and diesel after Trump threat
+- 2026-10-03 · [[2026-10-03-001-g7-to-release-millions-of-barrels-of-oil-and-diesel-after]] — G7 to release millions of barrels of oil and diesel after Trump threat
+- 2026-10-03 · [[2026-10-03-002-us-murderer-christa-pike-unconscious-and-on-ventilator]] — US murderer Christa Pike unconscious and on ventilator after failed execution, lawyers say
+- 2026-10-03 · [[2026-10-03-002-us-murderer-christa-pike-unconscious-and-on-ventilator]] — US murderer Christa Pike unconscious and on ventilator after failed execution, lawyers say
+- 2026-10-03 · [[2026-10-03-003-cornell-frat-house-rape-accuser-under-siege-online-says]] — Cornell frat house rape accuser 'under siege' online, says lawyer
+- 2026-10-03 · [[2026-10-03-003-cornell-frat-house-rape-accuser-under-siege-online-says]] — Cornell frat house rape accuser 'under siege' online, says lawyer
 - 2026-10-02 · [[2026-10-02-001-trump-s-ai-rebrand-causes-unprecedented-demand-for]] — Trump's AI rebrand causes 'unprecedented' demand for Slovenian website names
 - 2026-10-02 · [[2026-10-02-006-what-happened-in-the-failed-execution-of-christa-pike-and]] — What happened in the failed execution of Christa Pike – and what next?
 - 2026-10-02 · [[2026-10-02-006-what-happened-in-the-failed-execution-of-christa-pike-and]] — What happened in the failed execution of Christa Pike – and what next?

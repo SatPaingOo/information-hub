@@ -6655,6 +6655,128 @@
       "name": "Economic Impact"
     },
     {
+      "id": "info:item:world:global:2026-10-03-001",
+      "type": "item",
+      "date": "2026-10-03",
+      "title": "G7 to release millions of barrels of oil and diesel after Trump threat"
+    },
+    {
+      "id": "info:entity:organization:International Energy Agency (IEA)",
+      "type": "organization",
+      "name": "International Energy Agency (IEA)"
+    },
+    {
+      "id": "info:item:world:global:2026-10-03-002",
+      "type": "item",
+      "date": "2026-10-03",
+      "title": "US murderer Christa Pike unconscious and on ventilator after failed execution, lawyers say"
+    },
+    {
+      "id": "info:item:world:global:2026-10-03-003",
+      "type": "item",
+      "date": "2026-10-03",
+      "title": "Cornell frat house rape accuser 'under siege' online, says lawyer"
+    },
+    {
+      "id": "info:entity:person:Jane Doe",
+      "type": "person",
+      "name": "Jane Doe"
+    },
+    {
+      "id": "info:entity:person:Thomas Giuffra",
+      "type": "person",
+      "name": "Thomas Giuffra"
+    },
+    {
+      "id": "info:entity:person:Kathy Hochul",
+      "type": "person",
+      "name": "Kathy Hochul"
+    },
+    {
+      "id": "info:entity:person:Letitia James",
+      "type": "person",
+      "name": "Letitia James"
+    },
+    {
+      "id": "info:item:politics:global:2026-10-03-004",
+      "type": "item",
+      "date": "2026-10-03",
+      "title": "Widdecombe suspect charged with planning terror act against Farage"
+    },
+    {
+      "id": "info:entity:person:Joshua Kerry",
+      "type": "person",
+      "name": "Joshua Kerry"
+    },
+    {
+      "id": "info:entity:organization:Counter Terrorism Policing",
+      "type": "organization",
+      "name": "Counter Terrorism Policing"
+    },
+    {
+      "id": "taxonomy/misc/UK domestic security",
+      "type": "taxonomy",
+      "name": "UK domestic security"
+    },
+    {
+      "id": "info:item:politics:global:2026-10-03-005",
+      "type": "item",
+      "date": "2026-10-03",
+      "title": "Tories pledge to build 50,000 new prison places"
+    },
+    {
+      "id": "info:entity:organization:Prison Governors' Association",
+      "type": "organization",
+      "name": "Prison Governors' Association"
+    },
+    {
+      "id": "taxonomy/misc/prison reform",
+      "type": "taxonomy",
+      "name": "prison reform"
+    },
+    {
+      "id": "info:item:products:global:2026-10-03-006",
+      "type": "item",
+      "date": "2026-10-03",
+      "title": "Never Boring AI – The AI Agent That Writes Your LinkedIn Posts in Your Voice"
+    },
+    {
+      "id": "info:entity:product:Never Boring AI",
+      "type": "product",
+      "name": "Never Boring AI"
+    },
+    {
+      "id": "info:entity:model:ChatGPT",
+      "type": "model",
+      "name": "ChatGPT"
+    },
+    {
+      "id": "info:item:products:global:2026-10-03-007",
+      "type": "item",
+      "date": "2026-10-03",
+      "title": "JarvisCore – A Zero‑Trust Mesh for Agentic AI"
+    },
+    {
+      "id": "info:entity:company:JarvisCore",
+      "type": "company",
+      "name": "JarvisCore"
+    },
+    {
+      "id": "info:entity:concept:Zero‑Trust Mesh",
+      "type": "concept",
+      "name": "Zero‑Trust Mesh"
+    },
+    {
+      "id": "taxonomy/misc/Security",
+      "type": "taxonomy",
+      "name": "Security"
+    },
+    {
+      "id": "taxonomy/misc/Software Development",
+      "type": "taxonomy",
+      "name": "Software Development"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -27864,6 +27986,451 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-10-03-001",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "U.S. President who threatened diesel export ban, later advocated for coordinated release"
+    },
+    {
+      "source": "info:item:world:global:2026-10-03-001",
+      "target": "info:entity:organization:International Energy Agency (IEA)",
+      "relation": "Coordinator of the 100 million barrel release"
+    },
+    {
+      "source": "info:item:world:global:2026-10-03-001",
+      "target": "info:entity:person:Emmanuel Macron",
+      "relation": "French President who highlighted the diesel release and Trump’s clarity on export bans"
+    },
+    {
+      "source": "info:item:world:global:2026-10-03-001",
+      "target": "info:entity:person:Ed Miliband",
+      "relation": "UK Foreign Secretary representing the UK at the G7 meeting"
+    },
+    {
+      "source": "info:item:world:global:2026-10-03-001",
+      "target": "info:item:world:global:2026-10-02-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-03-001",
+      "target": "info:item:world:global:2026-10-02-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-03-001",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-03-001",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-03-001",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-03-001",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-03-001",
+      "target": "taxonomy/misc/global",
+      "relation": "region"
+    },
+    {
+      "source": "info:item:world:global:2026-10-03-001",
+      "target": "taxonomy/misc/policy",
+      "relation": "category"
+    },
+    {
+      "source": "info:item:world:global:2026-10-03-001",
+      "target": "taxonomy/category/industry",
+      "relation": "category"
+    },
+    {
+      "source": "info:item:world:global:2026-10-03-002",
+      "target": "info:entity:person:Christa Pike",
+      "relation": "inmate subject to botched execution"
+    },
+    {
+      "source": "info:item:world:global:2026-10-03-002",
+      "target": "info:entity:person:Dr Joel Zivot",
+      "relation": "anaesthesiologist advising defence"
+    },
+    {
+      "source": "info:item:world:global:2026-10-03-002",
+      "target": "info:entity:organization:Tennessee Department of Correction",
+      "relation": "entity responsible for execution protocol"
+    },
+    {
+      "source": "info:item:world:global:2026-10-03-002",
+      "target": "info:item:world:global:2026-10-03-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-03-002",
+      "target": "info:item:world:global:2026-10-02-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-03-002",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-03-002",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-03-002",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-03-002",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-03-002",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-03-002",
+      "target": "taxonomy/category/industry",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-03-002",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-03-003",
+      "target": "info:entity:person:Jane Doe",
+      "relation": "alleged victim"
+    },
+    {
+      "source": "info:item:world:global:2026-10-03-003",
+      "target": "info:entity:person:Thomas Giuffra",
+      "relation": "legal representative"
+    },
+    {
+      "source": "info:item:world:global:2026-10-03-003",
+      "target": "info:entity:person:Kathy Hochul",
+      "relation": "Governor of New York"
+    },
+    {
+      "source": "info:item:world:global:2026-10-03-003",
+      "target": "info:entity:person:Letitia James",
+      "relation": "Attorney General of New York"
+    },
+    {
+      "source": "info:item:world:global:2026-10-03-003",
+      "target": "info:item:world:global:2026-10-03-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-03-003",
+      "target": "info:item:world:global:2026-10-02-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-03-003",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-03-003",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-03-003",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-03-003",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-03-003",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-03-003",
+      "target": "taxonomy/category/industry",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-03-003",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-03-004",
+      "target": "info:entity:person:Joshua Kerry",
+      "relation": "defendant"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-03-004",
+      "target": "info:entity:person:Nigel Farage",
+      "relation": "target of alleged terror plot"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-03-004",
+      "target": "info:entity:organization:Reform UK",
+      "relation": "political party of victim and target"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-03-004",
+      "target": "info:entity:person:Shabana Mahmood",
+      "relation": "Home Secretary, responded to case"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-03-004",
+      "target": "info:entity:organization:Counter Terrorism Policing",
+      "relation": "investigating agency"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-03-004",
+      "target": "info:item:politics:global:2026-10-02-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-03-004",
+      "target": "info:item:politics:global:2026-10-02-009",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-03-004",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-03-004",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-03-004",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-03-004",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-03-004",
+      "target": "taxonomy/misc/counter-terrorism",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-03-004",
+      "target": "taxonomy/misc/UK domestic security",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-03-005",
+      "target": "info:entity:organization:Conservative Party",
+      "relation": "proposer of prison expansion"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-03-005",
+      "target": "info:entity:person:Kemi Badenoch",
+      "relation": "Conservative leader advocating the plan"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-03-005",
+      "target": "info:entity:organization:Labour Party",
+      "relation": "critic of the proposal"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-03-005",
+      "target": "info:entity:organization:Prison Governors' Association",
+      "relation": "warning on staffing challenges"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-03-005",
+      "target": "info:item:politics:global:2026-10-03-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-03-005",
+      "target": "info:item:politics:global:2026-10-02-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-03-005",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-03-005",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-03-005",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-03-005",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-03-005",
+      "target": "taxonomy/misc/prison reform",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-03-005",
+      "target": "taxonomy/misc/UK",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-10-03-006",
+      "target": "info:entity:product:Never Boring AI",
+      "relation": "product under review"
+    },
+    {
+      "source": "info:item:products:global:2026-10-03-006",
+      "target": "info:entity:company:OpenAI",
+      "relation": "provider of underlying LLM technology"
+    },
+    {
+      "source": "info:item:products:global:2026-10-03-006",
+      "target": "info:entity:model:ChatGPT",
+      "relation": "benchmark for natural language generation used in voice learning"
+    },
+    {
+      "source": "info:item:products:global:2026-10-03-006",
+      "target": "info:item:products:global:2026-10-02-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-10-03-006",
+      "target": "info:item:products:global:2026-10-02-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-10-03-006",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-10-03-006",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-10-03-006",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-10-03-006",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-10-03-006",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-10-03-006",
+      "target": "taxonomy/misc/regulation",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-10-03-007",
+      "target": "info:entity:company:JarvisCore",
+      "relation": "product developer"
+    },
+    {
+      "source": "info:item:products:global:2026-10-03-007",
+      "target": "info:entity:model:OpenAI GPT‑4",
+      "relation": "supported LLM"
+    },
+    {
+      "source": "info:item:products:global:2026-10-03-007",
+      "target": "info:entity:model:Google Gemini",
+      "relation": "supported LLM"
+    },
+    {
+      "source": "info:item:products:global:2026-10-03-007",
+      "target": "info:entity:model:Anthropic Claude",
+      "relation": "supported LLM"
+    },
+    {
+      "source": "info:item:products:global:2026-10-03-007",
+      "target": "info:entity:concept:Zero‑Trust Mesh",
+      "relation": "core architecture"
+    },
+    {
+      "source": "info:item:products:global:2026-10-03-007",
+      "target": "info:entity:region:Myanmar",
+      "relation": "regulatory focus"
+    },
+    {
+      "source": "info:item:products:global:2026-10-03-007",
+      "target": "info:item:products:global:2026-10-03-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-10-03-007",
+      "target": "info:item:products:global:2026-10-02-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-10-03-007",
+      "target": "info:item:products:global:2026-10-02-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-10-03-007",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-10-03-007",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-10-03-007",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-10-03-007",
+      "target": "taxonomy/misc/AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-10-03-007",
+      "target": "taxonomy/misc/Security",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-10-03-007",
+      "target": "taxonomy/misc/Software Development",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -29096,6 +29663,36 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:company:JarvisCore",
+      "target": "info:entity:concept:Zero‑Trust Mesh",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:JarvisCore",
+      "target": "info:entity:model:Anthropic Claude",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:JarvisCore",
+      "target": "info:entity:model:Google Gemini",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:JarvisCore",
+      "target": "info:entity:model:OpenAI GPT‑4",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:JarvisCore",
+      "target": "info:entity:region:Myanmar",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:company:Jotform",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
@@ -29484,6 +30081,12 @@
       "target": "info:entity:concept:agentic AI",
       "relation": "co-occurs",
       "weight": "2"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:model:ChatGPT",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -29998,6 +30601,12 @@
     {
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:product:Maritime",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:product:Never Boring AI",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -31202,6 +31811,30 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:concept:Zero‑Trust Mesh",
+      "target": "info:entity:model:Anthropic Claude",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Zero‑Trust Mesh",
+      "target": "info:entity:model:Google Gemini",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Zero‑Trust Mesh",
+      "target": "info:entity:model:OpenAI GPT‑4",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Zero‑Trust Mesh",
+      "target": "info:entity:region:Myanmar",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:concept:agentic AI",
       "target": "info:entity:model:Anthropic Claude",
       "relation": "co-occurs",
@@ -31655,7 +32288,7 @@
       "source": "info:entity:model:Anthropic Claude",
       "target": "info:entity:model:Google Gemini",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:model:Anthropic Claude",
@@ -31679,7 +32312,7 @@
       "source": "info:entity:model:Anthropic Claude",
       "target": "info:entity:model:OpenAI GPT‑4",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:model:Anthropic Claude",
@@ -31702,6 +32335,12 @@
     {
       "source": "info:entity:model:Anthropic Claude",
       "target": "info:entity:region:Myanmar",
+      "relation": "co-occurs",
+      "weight": "2"
+    },
+    {
+      "source": "info:entity:model:ChatGPT",
+      "target": "info:entity:product:Never Boring AI",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -32213,7 +32852,7 @@
       "source": "info:entity:model:Google Gemini",
       "target": "info:entity:model:OpenAI GPT‑4",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:model:Google Gemini",
@@ -32243,7 +32882,7 @@
       "source": "info:entity:model:Google Gemini",
       "target": "info:entity:region:Myanmar",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:model:Google Gemini 1.5",
@@ -32320,6 +32959,12 @@
     {
       "source": "info:entity:model:OpenAI GPT‑4",
       "target": "info:entity:product:GitWarren",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:OpenAI GPT‑4",
+      "target": "info:entity:region:Myanmar",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -33077,11 +33722,17 @@
       "source": "info:entity:organization:Conservative Party",
       "target": "info:entity:organization:Labour Party",
       "relation": "co-occurs",
-      "weight": "5"
+      "weight": "6"
     },
     {
       "source": "info:entity:organization:Conservative Party",
       "target": "info:entity:organization:NATO",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Conservative Party",
+      "target": "info:entity:organization:Prison Governors' Association",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -33125,7 +33776,7 @@
       "source": "info:entity:organization:Conservative Party",
       "target": "info:entity:person:Kemi Badenoch",
       "relation": "co-occurs",
-      "weight": "4"
+      "weight": "5"
     },
     {
       "source": "info:entity:organization:Conservative Party",
@@ -33135,6 +33786,30 @@
     },
     {
       "source": "info:entity:organization:Conservative Party",
+      "target": "info:entity:person:Shabana Mahmood",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Counter Terrorism Policing",
+      "target": "info:entity:organization:Reform UK",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Counter Terrorism Policing",
+      "target": "info:entity:person:Joshua Kerry",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Counter Terrorism Policing",
+      "target": "info:entity:person:Nigel Farage",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Counter Terrorism Policing",
       "target": "info:entity:person:Shabana Mahmood",
       "relation": "co-occurs",
       "weight": "1"
@@ -34118,6 +34793,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:International Energy Agency (IEA)",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:International Energy Agency (IEA)",
+      "target": "info:entity:person:Ed Miliband",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:International Energy Agency (IEA)",
+      "target": "info:entity:person:Emmanuel Macron",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Iran",
       "target": "info:entity:organization:Iraq",
       "relation": "co-occurs",
@@ -34353,6 +35046,12 @@
     },
     {
       "source": "info:entity:organization:Labour Party",
+      "target": "info:entity:organization:Prison Governors' Association",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Labour Party",
       "target": "info:entity:organization:Reform UK",
       "relation": "co-occurs",
       "weight": "3"
@@ -34433,7 +35132,7 @@
       "source": "info:entity:organization:Labour Party",
       "target": "info:entity:person:Kemi Badenoch",
       "relation": "co-occurs",
-      "weight": "5"
+      "weight": "6"
     },
     {
       "source": "info:entity:organization:Labour Party",
@@ -35288,6 +35987,12 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Prison Governors' Association",
+      "target": "info:entity:person:Kemi Badenoch",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Progressive Party of Serbia",
       "target": "info:entity:organization:Students Win",
       "relation": "co-occurs",
@@ -35391,6 +36096,12 @@
     },
     {
       "source": "info:entity:organization:Reform UK",
+      "target": "info:entity:person:Joshua Kerry",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Reform UK",
       "target": "info:entity:person:Julian Brazil",
       "relation": "co-occurs",
       "weight": "1"
@@ -35411,7 +36122,7 @@
       "source": "info:entity:organization:Reform UK",
       "target": "info:entity:person:Nigel Farage",
       "relation": "co-occurs",
-      "weight": "13"
+      "weight": "14"
     },
     {
       "source": "info:entity:organization:Reform UK",
@@ -35429,7 +36140,7 @@
       "source": "info:entity:organization:Reform UK",
       "target": "info:entity:person:Shabana Mahmood",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Reform UK",
@@ -35735,13 +36446,13 @@
       "source": "info:entity:organization:Tennessee Department of Correction",
       "target": "info:entity:person:Christa Pike",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:organization:Tennessee Department of Correction",
       "target": "info:entity:person:Dr Joel Zivot",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:organization:Transport for All",
@@ -37211,7 +37922,7 @@
       "source": "info:entity:person:Christa Pike",
       "target": "info:entity:person:Dr Joel Zivot",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:person:Christopher Harborne",
@@ -37395,9 +38106,21 @@
     },
     {
       "source": "info:entity:person:Donald Trump",
+      "target": "info:entity:person:Ed Miliband",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:Elon Musk",
       "relation": "co-occurs",
       "weight": "2"
+    },
+    {
+      "source": "info:entity:person:Donald Trump",
+      "target": "info:entity:person:Emmanuel Macron",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:person:Donald Trump",
@@ -37683,6 +38406,12 @@
     },
     {
       "source": "info:entity:person:Ed Miliband",
+      "target": "info:entity:person:Emmanuel Macron",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Ed Miliband",
       "target": "info:entity:person:Gideon Saar",
       "relation": "co-occurs",
       "weight": "2"
@@ -37928,6 +38657,24 @@
       "weight": "2"
     },
     {
+      "source": "info:entity:person:Jane Doe",
+      "target": "info:entity:person:Kathy Hochul",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Jane Doe",
+      "target": "info:entity:person:Letitia James",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Jane Doe",
+      "target": "info:entity:person:Thomas Giuffra",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:person:Jared Kushner",
       "target": "info:entity:person:Steve Witkoff",
       "relation": "co-occurs",
@@ -38042,6 +38789,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:person:Joshua Kerry",
+      "target": "info:entity:person:Nigel Farage",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Joshua Kerry",
+      "target": "info:entity:person:Shabana Mahmood",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:person:José Antonio Kast",
       "target": "info:entity:region:Chile",
       "relation": "co-occurs",
@@ -38068,6 +38827,18 @@
     {
       "source": "info:entity:person:Judge Tony Graf",
       "target": "info:entity:person:Tyler Robinson",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Kathy Hochul",
+      "target": "info:entity:person:Letitia James",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Kathy Hochul",
+      "target": "info:entity:person:Thomas Giuffra",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -38134,6 +38905,12 @@
     {
       "source": "info:entity:person:Lee Jae Myung",
       "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Letitia James",
+      "target": "info:entity:person:Thomas Giuffra",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -38278,6 +39055,12 @@
     {
       "source": "info:entity:person:Mónica García",
       "target": "info:entity:person:Pedro Sánchez",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Nigel Farage",
+      "target": "info:entity:person:Shabana Mahmood",
       "relation": "co-occurs",
       "weight": "1"
     },
