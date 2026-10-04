@@ -1,7 +1,7 @@
 ---
 node: "product"
 layer: category
-item_count: 77
+item_count: 78
 ---
 
 # product
@@ -19,6 +19,7 @@ item_count: 77
 
 ## Items
 
+- 2026-10-04 · [[2026-10-04-006-notchware]] — Notchware
 - 2026-10-03 · [[2026-10-03-006-never-boring-ai-the-ai-agent-that-writes-your-linkedin]] — Never Boring AI – The AI Agent That Writes Your LinkedIn Posts in Your Voice
 - 2026-10-03 · [[2026-10-03-007-jarviscore-a-zero-trust-mesh-for-agentic-ai]] — JarvisCore – A Zero‑Trust Mesh for Agentic AI
 - 2026-10-02 · [[2026-10-02-004-dots-by-openai]] — Dots by OpenAI

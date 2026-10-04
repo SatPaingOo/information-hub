@@ -1,7 +1,7 @@
 ---
 node: "politics"
 layer: topic
-item_count: 107
+item_count: 109
 ---
 
 # politics
@@ -17,6 +17,8 @@ item_count: 107
 
 ## Items
 
+- 2026-10-04 · [[2026-10-04-004-tories-pledge-to-remove-100-000-childcare-cliff-edge]] — Tories pledge to remove £100,000 childcare 'cliff edge'
+- 2026-10-04 · [[2026-10-04-005-greens-would-offer-two-year-jobs-to-unemployed-under-24s]] — Greens would offer two-year jobs to unemployed under-24s
 - 2026-10-03 · [[2026-10-03-004-widdecombe-suspect-charged-with-planning-terror-act]] — Widdecombe suspect charged with planning terror act against Farage
 - 2026-10-03 · [[2026-10-03-005-tories-pledge-to-build-50-000-new-prison-places]] — Tories pledge to build 50,000 new prison places
 - 2026-10-02 · [[2026-10-02-002-man-city-not-above-the-rules-says-no-10-after-backlash-to]] — Man City not 'above the rules', says No 10 after backlash to Burnham remarks

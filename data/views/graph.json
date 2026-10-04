@@ -6777,6 +6777,117 @@
       "name": "Software Development"
     },
     {
+      "id": "info:item:world:global:2026-10-04-001",
+      "type": "item",
+      "date": "2026-10-04",
+      "title": "Tennessee prison chief to resign after Christa Pike's failed execution"
+    },
+    {
+      "id": "info:entity:person:Frank Strada",
+      "type": "person",
+      "name": "Frank Strada"
+    },
+    {
+      "id": "info:entity:person:Bill Lee",
+      "type": "person",
+      "name": "Bill Lee"
+    },
+    {
+      "id": "taxonomy/misc/death penalty",
+      "type": "taxonomy",
+      "name": "death penalty"
+    },
+    {
+      "id": "taxonomy/misc/healthcare in criminal justice",
+      "type": "taxonomy",
+      "name": "healthcare in criminal justice"
+    },
+    {
+      "id": "taxonomy/misc/U.S. states policy",
+      "type": "taxonomy",
+      "name": "U.S. states policy"
+    },
+    {
+      "id": "info:item:world:global:2026-10-04-002",
+      "type": "item",
+      "date": "2026-10-04",
+      "title": "Cornell president says university 'must do better' after frat house rape allegations"
+    },
+    {
+      "id": "info:entity:person:Michael Kotlikoff",
+      "type": "person",
+      "name": "Michael Kotlikoff"
+    },
+    {
+      "id": "info:entity:organization:Cornell University",
+      "type": "organization",
+      "name": "Cornell University"
+    },
+    {
+      "id": "info:entity:organization:Chi Phi fraternity",
+      "type": "organization",
+      "name": "Chi Phi fraternity"
+    },
+    {
+      "id": "taxonomy/misc/higher education policy",
+      "type": "taxonomy",
+      "name": "higher education policy"
+    },
+    {
+      "id": "taxonomy/misc/campus sexual assault",
+      "type": "taxonomy",
+      "name": "campus sexual assault"
+    },
+    {
+      "id": "taxonomy/misc/student activism",
+      "type": "taxonomy",
+      "name": "student activism"
+    },
+    {
+      "id": "info:item:world:global:2026-10-04-003",
+      "type": "item",
+      "date": "2026-10-04",
+      "title": "Flydubai co‑pilot attacked captain with axe, UAE official says"
+    },
+    {
+      "id": "info:entity:person:Hamam al‑Hammami",
+      "type": "person",
+      "name": "Hamam al‑Hammami"
+    },
+    {
+      "id": "info:item:politics:global:2026-10-04-004",
+      "type": "item",
+      "date": "2026-10-04",
+      "title": "Tories pledge to remove £100,000 childcare 'cliff edge'"
+    },
+    {
+      "id": "taxonomy/misc/taxation",
+      "type": "taxonomy",
+      "name": "taxation"
+    },
+    {
+      "id": "info:item:politics:global:2026-10-04-005",
+      "type": "item",
+      "date": "2026-10-04",
+      "title": "Greens would offer two-year jobs to unemployed under-24s"
+    },
+    {
+      "id": "taxonomy/misc/AI & regulation",
+      "type": "taxonomy",
+      "name": "AI & regulation"
+    },
+    {
+      "id": "info:item:products:global:2026-10-04-006",
+      "type": "item",
+      "date": "2026-10-04",
+      "title": "Notchware"
+    },
+    {
+      "id": "info:entity:product:Notchware",
+      "type": "product",
+      "name": "Notchware"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -28431,6 +28542,406 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-10-04-001",
+      "target": "info:entity:person:Christa Pike",
+      "relation": "death row inmate"
+    },
+    {
+      "source": "info:item:world:global:2026-10-04-001",
+      "target": "info:entity:organization:Tennessee Department of Correction",
+      "relation": "oversaw execution"
+    },
+    {
+      "source": "info:item:world:global:2026-10-04-001",
+      "target": "info:entity:person:Frank Strada",
+      "relation": "former commissioner"
+    },
+    {
+      "source": "info:item:world:global:2026-10-04-001",
+      "target": "info:entity:person:Bill Lee",
+      "relation": "governor of Tennessee"
+    },
+    {
+      "source": "info:item:world:global:2026-10-04-001",
+      "target": "info:item:world:global:2026-10-03-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-04-001",
+      "target": "info:item:world:global:2026-10-03-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-04-001",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-04-001",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-04-001",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-04-001",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-04-001",
+      "target": "taxonomy/misc/death penalty",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-04-001",
+      "target": "taxonomy/misc/healthcare in criminal justice",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-04-001",
+      "target": "taxonomy/misc/U.S. states policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-04-002",
+      "target": "info:entity:person:Michael Kotlikoff",
+      "relation": "Cornell University president who acknowledged institutional failures"
+    },
+    {
+      "source": "info:item:world:global:2026-10-04-002",
+      "target": "info:entity:person:Jane Doe",
+      "relation": "alleged victim who filed civil lawsuit against Cornell University"
+    },
+    {
+      "source": "info:item:world:global:2026-10-04-002",
+      "target": "info:entity:organization:Cornell University",
+      "relation": "Ivy League institution facing allegations and civil litigation"
+    },
+    {
+      "source": "info:item:world:global:2026-10-04-002",
+      "target": "info:entity:person:Letitia James",
+      "relation": "New York Attorney General leading criminal investigation review"
+    },
+    {
+      "source": "info:item:world:global:2026-10-04-002",
+      "target": "info:entity:organization:Chi Phi fraternity",
+      "relation": "Greek organization whose members are accused in the alleged assault"
+    },
+    {
+      "source": "info:item:world:global:2026-10-04-002",
+      "target": "info:entity:person:Kathy Hochul",
+      "relation": "New York Governor who appointed Attorney General to investigate"
+    },
+    {
+      "source": "info:item:world:global:2026-10-04-002",
+      "target": "info:item:world:global:2026-10-03-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-04-002",
+      "target": "info:item:world:global:2026-10-03-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-04-002",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-04-002",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-04-002",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-04-002",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-04-002",
+      "target": "taxonomy/misc/higher education policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-04-002",
+      "target": "taxonomy/misc/campus sexual assault",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-04-002",
+      "target": "taxonomy/misc/student activism",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-04-003",
+      "target": "info:entity:person:Hamam al‑Hammami",
+      "relation": "alleged attacker and co‑pilot"
+    },
+    {
+      "source": "info:item:world:global:2026-10-04-003",
+      "target": "info:entity:person:Captain Smit Machchhar",
+      "relation": "pilot who was wounded"
+    },
+    {
+      "source": "info:item:world:global:2026-10-04-003",
+      "target": "info:entity:organization:Flydubai",
+      "relation": "airline operating the compromised flight"
+    },
+    {
+      "source": "info:item:world:global:2026-10-04-003",
+      "target": "info:entity:person:Benjamin Netanyahu",
+      "relation": "Israeli Prime Minister commenting on radicalisation"
+    },
+    {
+      "source": "info:item:world:global:2026-10-04-003",
+      "target": "info:item:world:global:2026-10-04-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-04-003",
+      "target": "info:item:world:global:2026-10-04-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-04-003",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-04-003",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-04-003",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-04-003",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-04-003",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-04-003",
+      "target": "taxonomy/category/industry",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-04-003",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-04-004",
+      "target": "info:entity:person:Kemi Badenoch",
+      "relation": "Conservative Party leader and principal advocate of the childcare reform"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-04-004",
+      "target": "info:entity:person:Andrew Griffith",
+      "relation": "Shadow Chancellor and architect of the broader tax‑simplification agenda"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-04-004",
+      "target": "info:entity:organization:Conservative Party",
+      "relation": "proposing and implementing the removal of the £100,000 childcare threshold"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-04-004",
+      "target": "info:entity:organization:Reform UK",
+      "relation": "political competitor likely to critique the policy’s targeting"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-04-004",
+      "target": "info:item:politics:global:2026-10-03-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-04-004",
+      "target": "info:item:politics:global:2026-10-02-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-04-004",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-04-004",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-04-004",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-04-004",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-04-004",
+      "target": "taxonomy/misc/taxation",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-04-004",
+      "target": "taxonomy/misc/social welfare",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-04-005",
+      "target": "info:entity:person:Mothin Ali",
+      "relation": "co‑deputy leader of the Green Party, primary architect of the proposed two‑year job scheme"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-04-005",
+      "target": "info:entity:organization:Green Party of England and Wales",
+      "relation": "political party that introduced the guaranteed job proposal"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-04-005",
+      "target": "info:entity:company:OpenAI",
+      "relation": "AI model provider whose technologies may be used in training components of the employment scheme"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-04-005",
+      "target": "info:entity:model:Gemini",
+      "relation": "Google’s AI model referenced in policy discussions on AI‑driven workforce preparation"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-04-005",
+      "target": "info:entity:company:Anthropic",
+      "relation": "AI research organization whose models are considered in the context of AI‑enhanced job training"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-04-005",
+      "target": "info:entity:concept:NEET",
+      "relation": " demographic group targeted by the Green Party’s employment policy"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-04-005",
+      "target": "info:item:politics:global:2026-10-04-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-04-005",
+      "target": "info:item:politics:global:2026-10-03-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-04-005",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-04-005",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-04-005",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-04-005",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-04-005",
+      "target": "taxonomy/misc/employment",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-04-005",
+      "target": "taxonomy/misc/AI & regulation",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-10-04-006",
+      "target": "info:entity:product:Notchware",
+      "relation": "developer of AI‑driven notch UI"
+    },
+    {
+      "source": "info:item:products:global:2026-10-04-006",
+      "target": "info:entity:company:Apple",
+      "relation": "manufacturer of MacBook hardware"
+    },
+    {
+      "source": "info:item:products:global:2026-10-04-006",
+      "target": "info:entity:model:OpenAI GPT-4-Turbo",
+      "relation": "LLM backend option"
+    },
+    {
+      "source": "info:item:products:global:2026-10-04-006",
+      "target": "info:entity:model:Google Gemini 3.8",
+      "relation": "LLM backend option"
+    },
+    {
+      "source": "info:item:products:global:2026-10-04-006",
+      "target": "info:entity:company:Anthropic",
+      "relation": "LLM backend provider"
+    },
+    {
+      "source": "info:item:products:global:2026-10-04-006",
+      "target": "info:item:products:global:2026-10-03-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-10-04-006",
+      "target": "info:item:products:global:2026-10-03-007",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-10-04-006",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-10-04-006",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-10-04-006",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-10-04-006",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-10-04-006",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-10-04-006",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -28632,6 +29143,12 @@
     },
     {
       "source": "info:entity:company:Anthropic",
+      "target": "info:entity:company:Apple",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:Gemini",
       "relation": "co-occurs",
       "weight": "1"
@@ -28688,7 +29205,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
-      "weight": "53"
+      "weight": "54"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -28759,6 +29276,12 @@
     {
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:concept:LLM",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:concept:NEET",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -28850,7 +29373,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "20"
+      "weight": "21"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -28878,6 +29401,12 @@
     },
     {
       "source": "info:entity:company:Anthropic",
+      "target": "info:entity:model:Google Gemini 3.8",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
       "target": "info:entity:model:Kimi K2.6",
       "relation": "co-occurs",
       "weight": "1"
@@ -28890,7 +29419,19 @@
     },
     {
       "source": "info:entity:company:Anthropic",
+      "target": "info:entity:model:OpenAI GPT-4-Turbo",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
       "target": "info:entity:model:OpenAI GPT‑4‑Turbo",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:organization:Green Party of England and Wales",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -29016,6 +29557,12 @@
     },
     {
       "source": "info:entity:company:Anthropic",
+      "target": "info:entity:person:Mothin Ali",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
       "target": "info:entity:person:Peter Garraghan",
       "relation": "co-occurs",
       "weight": "1"
@@ -29112,6 +29659,12 @@
     },
     {
       "source": "info:entity:company:Anthropic",
+      "target": "info:entity:product:Notchware",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
       "target": "info:entity:product:Omnia Agent",
       "relation": "co-occurs",
       "weight": "1"
@@ -29166,6 +29719,18 @@
     },
     {
       "source": "info:entity:company:Apple",
+      "target": "info:entity:model:Google Gemini 3.8",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Apple",
+      "target": "info:entity:model:OpenAI GPT-4-Turbo",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Apple",
       "target": "info:entity:organization:NSPCC",
       "relation": "co-occurs",
       "weight": "1"
@@ -29179,6 +29744,12 @@
     {
       "source": "info:entity:company:Apple",
       "target": "info:entity:person:Lisa Nandy",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Apple",
+      "target": "info:entity:product:Notchware",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -30048,6 +30619,12 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:concept:NEET",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:concept:OpenTelemetry",
       "relation": "co-occurs",
       "weight": "1"
@@ -30152,7 +30729,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "32"
+      "weight": "33"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -30229,6 +30806,12 @@
     {
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:organization:Greek Police",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:organization:Green Party of England and Wales",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -30493,6 +31076,12 @@
     {
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Mick Mulvaney",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:person:Mothin Ali",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -31536,6 +32125,18 @@
     },
     {
       "source": "info:entity:concept:NEET",
+      "target": "info:entity:model:Gemini",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:NEET",
+      "target": "info:entity:organization:Green Party of England and Wales",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:NEET",
       "target": "info:entity:organization:National Association of Head Teachers (NAHT)",
       "relation": "co-occurs",
       "weight": "1"
@@ -31543,6 +32144,12 @@
     {
       "source": "info:entity:concept:NEET",
       "target": "info:entity:person:Alan Milburn",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:NEET",
+      "target": "info:entity:person:Mothin Ali",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -32538,6 +33145,12 @@
     },
     {
       "source": "info:entity:model:Gemini",
+      "target": "info:entity:organization:Green Party of England and Wales",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
       "target": "info:entity:organization:NATO",
       "relation": "co-occurs",
       "weight": "1"
@@ -32707,6 +33320,12 @@
     {
       "source": "info:entity:model:Gemini",
       "target": "info:entity:person:Mick Mulvaney",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
+      "target": "info:entity:person:Mothin Ali",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -32898,7 +33517,19 @@
     },
     {
       "source": "info:entity:model:Google Gemini 3.8",
+      "target": "info:entity:model:OpenAI GPT-4-Turbo",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Google Gemini 3.8",
       "target": "info:entity:model:OpenAI GPT‑4‑Turbo",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Google Gemini 3.8",
+      "target": "info:entity:product:Notchware",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -32941,6 +33572,12 @@
     {
       "source": "info:entity:model:OpenAI GPT-4",
       "target": "info:entity:product:Context.dev",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:OpenAI GPT-4-Turbo",
+      "target": "info:entity:product:Notchware",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -33605,6 +34242,36 @@
       "weight": "3"
     },
     {
+      "source": "info:entity:organization:Chi Phi fraternity",
+      "target": "info:entity:organization:Cornell University",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Chi Phi fraternity",
+      "target": "info:entity:person:Jane Doe",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Chi Phi fraternity",
+      "target": "info:entity:person:Kathy Hochul",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Chi Phi fraternity",
+      "target": "info:entity:person:Letitia James",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Chi Phi fraternity",
+      "target": "info:entity:person:Michael Kotlikoff",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:China",
       "target": "info:entity:organization:India",
       "relation": "co-occurs",
@@ -33738,7 +34405,19 @@
     },
     {
       "source": "info:entity:organization:Conservative Party",
+      "target": "info:entity:organization:Reform UK",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Conservative Party",
       "target": "info:entity:organization:Shelter",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Conservative Party",
+      "target": "info:entity:person:Andrew Griffith",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -33776,7 +34455,7 @@
       "source": "info:entity:organization:Conservative Party",
       "target": "info:entity:person:Kemi Badenoch",
       "relation": "co-occurs",
-      "weight": "5"
+      "weight": "6"
     },
     {
       "source": "info:entity:organization:Conservative Party",
@@ -33787,6 +34466,30 @@
     {
       "source": "info:entity:organization:Conservative Party",
       "target": "info:entity:person:Shabana Mahmood",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Cornell University",
+      "target": "info:entity:person:Jane Doe",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Cornell University",
+      "target": "info:entity:person:Kathy Hochul",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Cornell University",
+      "target": "info:entity:person:Letitia James",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Cornell University",
+      "target": "info:entity:person:Michael Kotlikoff",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -34292,13 +34995,19 @@
       "source": "info:entity:organization:Flydubai",
       "target": "info:entity:person:Benjamin Netanyahu",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:organization:Flydubai",
       "target": "info:entity:person:Captain Smit Machchhar",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
+    },
+    {
+      "source": "info:entity:organization:Flydubai",
+      "target": "info:entity:person:Hamam al‑Hammami",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:organization:Flydubai",
@@ -34496,7 +35205,7 @@
       "source": "info:entity:organization:Green Party of England and Wales",
       "target": "info:entity:person:Mothin Ali",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Green Party of England and Wales",
@@ -36026,7 +36735,7 @@
       "source": "info:entity:organization:Reform UK",
       "target": "info:entity:person:Andrew Griffith",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:organization:Reform UK",
@@ -36116,7 +36825,7 @@
       "source": "info:entity:organization:Reform UK",
       "target": "info:entity:person:Kemi Badenoch",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:organization:Reform UK",
@@ -36444,15 +37153,27 @@
     },
     {
       "source": "info:entity:organization:Tennessee Department of Correction",
+      "target": "info:entity:person:Bill Lee",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Tennessee Department of Correction",
       "target": "info:entity:person:Christa Pike",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:organization:Tennessee Department of Correction",
       "target": "info:entity:person:Dr Joel Zivot",
       "relation": "co-occurs",
       "weight": "3"
+    },
+    {
+      "source": "info:entity:organization:Tennessee Department of Correction",
+      "target": "info:entity:person:Frank Strada",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:organization:Transport for All",
@@ -37334,7 +38055,7 @@
       "source": "info:entity:person:Andrew Griffith",
       "target": "info:entity:person:Kemi Badenoch",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:person:Andrew Griffith",
@@ -37742,7 +38463,13 @@
       "source": "info:entity:person:Benjamin Netanyahu",
       "target": "info:entity:person:Captain Smit Machchhar",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
+    },
+    {
+      "source": "info:entity:person:Benjamin Netanyahu",
+      "target": "info:entity:person:Hamam al‑Hammami",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:person:Benjamin Netanyahu",
@@ -37799,6 +38526,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:person:Bill Lee",
+      "target": "info:entity:person:Christa Pike",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Bill Lee",
+      "target": "info:entity:person:Frank Strada",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:person:Brendan Boyle",
       "target": "info:entity:person:Donald Trump",
       "relation": "co-occurs",
@@ -37831,6 +38570,12 @@
     {
       "source": "info:entity:person:Brigitte Macron",
       "target": "info:entity:person:Robert Schuman",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Captain Smit Machchhar",
+      "target": "info:entity:person:Hamam al‑Hammami",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -37923,6 +38668,12 @@
       "target": "info:entity:person:Dr Joel Zivot",
       "relation": "co-occurs",
       "weight": "3"
+    },
+    {
+      "source": "info:entity:person:Christa Pike",
+      "target": "info:entity:person:Frank Strada",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:person:Christopher Harborne",
@@ -38660,11 +39411,17 @@
       "source": "info:entity:person:Jane Doe",
       "target": "info:entity:person:Kathy Hochul",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Jane Doe",
       "target": "info:entity:person:Letitia James",
+      "relation": "co-occurs",
+      "weight": "2"
+    },
+    {
+      "source": "info:entity:person:Jane Doe",
+      "target": "info:entity:person:Michael Kotlikoff",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -38834,6 +39591,12 @@
       "source": "info:entity:person:Kathy Hochul",
       "target": "info:entity:person:Letitia James",
       "relation": "co-occurs",
+      "weight": "2"
+    },
+    {
+      "source": "info:entity:person:Kathy Hochul",
+      "target": "info:entity:person:Michael Kotlikoff",
+      "relation": "co-occurs",
       "weight": "1"
     },
     {
@@ -38905,6 +39668,12 @@
     {
       "source": "info:entity:person:Lee Jae Myung",
       "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Letitia James",
+      "target": "info:entity:person:Michael Kotlikoff",
       "relation": "co-occurs",
       "weight": "1"
     },

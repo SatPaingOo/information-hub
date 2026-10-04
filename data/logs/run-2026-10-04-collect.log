@@ -1,0 +1,14 @@
+2026-10-04 06:17:34,626 INFO [world-news] published 2026-10-04-001 — Tennessee prison chief to resign after Christa Pike's failed
+2026-10-04 06:17:51,793 ERROR [world-news] generate error: empty model content
+2026-10-04 06:18:09,462 ERROR [world-news] generate error: bad response: Unterminated string starting at: line 56 column 15 (char 4899)
+2026-10-04 06:18:38,712 INFO [world-news] published 2026-10-04-002 — Cornell president says university 'must do better' after fra
+2026-10-04 06:18:52,491 INFO [world-news] published 2026-10-04-003 — Flydubai co‑pilot attacked captain with axe, UAE official sa
+2026-10-04 06:18:58,339 INFO [tech-news] nothing selected
+2026-10-04 06:19:37,361 INFO [politics] published 2026-10-04-004 — Tories pledge to remove £100,000 childcare 'cliff edge'
+2026-10-04 06:19:59,647 INFO [politics] published 2026-10-04-005 — Greens would offer two-year jobs to unemployed under-24s
+2026-10-04 06:20:35,930 INFO [products] published 2026-10-04-006 — Notchware
+2026-10-04 06:20:40,613 INFO [products] attempt 1 invalid: [": 'title' is a required property", ": 'tldr' is a required property"]
+2026-10-04 06:20:40,723 ERROR [products] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 5660, Requested 4504. Please try again in 16.23s. Need more tokens? Upgrade to Dev Tier today at https://cons
+2026-10-04 06:20:49,411 ERROR [products] generate error: HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
+
+2026-10-04 06:20:58,790 INFO collect done: 6 item(s) published — target 4/10, next run ≈ 2026-10-05T01:00:00+00:00 UTC

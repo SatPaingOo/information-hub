@@ -1,7 +1,7 @@
 ---
 node: "Policy"
 layer: misc
-item_count: 259
+item_count: 264
 ---
 
 # Policy
@@ -17,6 +17,11 @@ item_count: 259
 
 ## Items
 
+- 2026-10-04 · [[2026-10-04-001-tennessee-prison-chief-to-resign-after-christa-pike-s]] — Tennessee prison chief to resign after Christa Pike's failed execution
+- 2026-10-04 · [[2026-10-04-002-cornell-president-says-university-must-do-better-after]] — Cornell president says university 'must do better' after frat house rape allegations
+- 2026-10-04 · [[2026-10-04-003-flydubai-co-pilot-attacked-captain-with-axe-uae-official]] — Flydubai co‑pilot attacked captain with axe, UAE official says
+- 2026-10-04 · [[2026-10-04-004-tories-pledge-to-remove-100-000-childcare-cliff-edge]] — Tories pledge to remove £100,000 childcare 'cliff edge'
+- 2026-10-04 · [[2026-10-04-005-greens-would-offer-two-year-jobs-to-unemployed-under-24s]] — Greens would offer two-year jobs to unemployed under-24s
 - 2026-10-03 · [[2026-10-03-001-g7-to-release-millions-of-barrels-of-oil-and-diesel-after]] — G7 to release millions of barrels of oil and diesel after Trump threat
 - 2026-10-03 · [[2026-10-03-002-us-murderer-christa-pike-unconscious-and-on-ventilator]] — US murderer Christa Pike unconscious and on ventilator after failed execution, lawyers say
 - 2026-10-03 · [[2026-10-03-003-cornell-frat-house-rape-accuser-under-siege-online-says]] — Cornell frat house rape accuser 'under siege' online, says lawyer

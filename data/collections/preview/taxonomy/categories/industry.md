@@ -1,7 +1,7 @@
 ---
 node: "industry"
 layer: category
-item_count: 211
+item_count: 215
 ---
 
 # industry
@@ -20,6 +20,10 @@ item_count: 211
 
 ## Items
 
+- 2026-10-04 · [[2026-10-04-001-tennessee-prison-chief-to-resign-after-christa-pike-s]] — Tennessee prison chief to resign after Christa Pike's failed execution
+- 2026-10-04 · [[2026-10-04-002-cornell-president-says-university-must-do-better-after]] — Cornell president says university 'must do better' after frat house rape allegations
+- 2026-10-04 · [[2026-10-04-003-flydubai-co-pilot-attacked-captain-with-axe-uae-official]] — Flydubai co‑pilot attacked captain with axe, UAE official says
+- 2026-10-04 · [[2026-10-04-003-flydubai-co-pilot-attacked-captain-with-axe-uae-official]] — Flydubai co‑pilot attacked captain with axe, UAE official says
 - 2026-10-03 · [[2026-10-03-001-g7-to-release-millions-of-barrels-of-oil-and-diesel-after]] — G7 to release millions of barrels of oil and diesel after Trump threat
 - 2026-10-03 · [[2026-10-03-001-g7-to-release-millions-of-barrels-of-oil-and-diesel-after]] — G7 to release millions of barrels of oil and diesel after Trump threat
 - 2026-10-03 · [[2026-10-03-002-us-murderer-christa-pike-unconscious-and-on-ventilator]] — US murderer Christa Pike unconscious and on ventilator after failed execution, lawyers say
