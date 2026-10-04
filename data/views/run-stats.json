@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T06:21:28+00:00",
+  "generated_at": "2026-10-04T06:43:07+00:00",
   "per_day_provider_model": {
     "2026-08-17": {
       "groq": {
@@ -2194,10 +2194,10 @@
       },
       "groq": {
         "openai/gpt-oss-120b": {
-          "calls": 2,
-          "ok": 1,
-          "errors": 1,
-          "tokens": 6270
+          "calls": 5,
+          "ok": 3,
+          "errors": 2,
+          "tokens": 14613
         },
         "openai/gpt-oss-20b": {
           "calls": 1,
@@ -2208,15 +2208,15 @@
       },
       "gemini": {
         "gemini-3.5-flash-lite": {
-          "calls": 1,
+          "calls": 2,
           "ok": 0,
-          "errors": 1,
+          "errors": 2,
           "tokens": 0
         },
         "gemini-3.5-flash": {
-          "calls": 1,
+          "calls": 2,
           "ok": 0,
-          "errors": 1,
+          "errors": 2,
           "tokens": 0
         }
       }
@@ -2426,7 +2426,7 @@
     },
     "2026-10-04": {
       "network": 2,
-      "HTTP 429": 3,
+      "HTTP 429": 6,
       "HTTP 400": 1
     }
   }
