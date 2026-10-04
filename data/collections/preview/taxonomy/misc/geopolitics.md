@@ -1,7 +1,7 @@
 ---
 node: "Geopolitics"
 layer: misc
-item_count: 16
+item_count: 17
 ---
 
 # Geopolitics
@@ -15,6 +15,7 @@ item_count: 16
 
 ## Items
 
+- 2026-10-04 · [[2026-10-04-007-kyiv-bridge-hit-in-further-russian-drone-attack-as-german]] — Kyiv bridge hit in further Russian drone attack as German chancellor makes surprise visit
 - 2026-09-28 · [[2026-09-28-002-embattled-serbian-president-resigns-paving-way-for-early]] — Embattled Serbian president resigns, paving way for early elections
 - 2026-09-28 · [[2026-09-28-007-trump-xi-summit-what-wasn-t-said-might-matter-the-most]] — Trump‑Xi summit: What wasn’t said might matter the most
 - 2026-09-20 · [[2026-09-20-008-trump-says-us-will-form-ai-force-and-appoint-an-artificial]] — Trump says US will form 'AI Force' and appoint an artificial intelligence tsar

@@ -1,7 +1,7 @@
 ---
 node: "Global"
 layer: misc
-item_count: 339
+item_count: 340
 ---
 
 # Global
@@ -31,6 +31,7 @@ item_count: 339
 - 2026-10-04 · [[2026-10-04-004-tories-pledge-to-remove-100-000-childcare-cliff-edge]] — Tories pledge to remove £100,000 childcare 'cliff edge'
 - 2026-10-04 · [[2026-10-04-005-greens-would-offer-two-year-jobs-to-unemployed-under-24s]] — Greens would offer two-year jobs to unemployed under-24s
 - 2026-10-04 · [[2026-10-04-006-notchware]] — Notchware
+- 2026-10-04 · [[2026-10-04-007-kyiv-bridge-hit-in-further-russian-drone-attack-as-german]] — Kyiv bridge hit in further Russian drone attack as German chancellor makes surprise visit
 - 2026-10-03 · [[2026-10-03-001-g7-to-release-millions-of-barrels-of-oil-and-diesel-after]] — G7 to release millions of barrels of oil and diesel after Trump threat
 - 2026-10-03 · [[2026-10-03-002-us-murderer-christa-pike-unconscious-and-on-ventilator]] — US murderer Christa Pike unconscious and on ventilator after failed execution, lawyers say
 - 2026-10-03 · [[2026-10-03-003-cornell-frat-house-rape-accuser-under-siege-online-says]] — Cornell frat house rape accuser 'under siege' online, says lawyer

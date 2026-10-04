@@ -1,7 +1,7 @@
 ---
 node: "industry"
 layer: category
-item_count: 215
+item_count: 216
 ---
 
 # industry
@@ -24,6 +24,7 @@ item_count: 215
 - 2026-10-04 · [[2026-10-04-002-cornell-president-says-university-must-do-better-after]] — Cornell president says university 'must do better' after frat house rape allegations
 - 2026-10-04 · [[2026-10-04-003-flydubai-co-pilot-attacked-captain-with-axe-uae-official]] — Flydubai co‑pilot attacked captain with axe, UAE official says
 - 2026-10-04 · [[2026-10-04-003-flydubai-co-pilot-attacked-captain-with-axe-uae-official]] — Flydubai co‑pilot attacked captain with axe, UAE official says
+- 2026-10-04 · [[2026-10-04-007-kyiv-bridge-hit-in-further-russian-drone-attack-as-german]] — Kyiv bridge hit in further Russian drone attack as German chancellor makes surprise visit
 - 2026-10-03 · [[2026-10-03-001-g7-to-release-millions-of-barrels-of-oil-and-diesel-after]] — G7 to release millions of barrels of oil and diesel after Trump threat
 - 2026-10-03 · [[2026-10-03-001-g7-to-release-millions-of-barrels-of-oil-and-diesel-after]] — G7 to release millions of barrels of oil and diesel after Trump threat
 - 2026-10-03 · [[2026-10-03-002-us-murderer-christa-pike-unconscious-and-on-ventilator]] — US murderer Christa Pike unconscious and on ventilator after failed execution, lawyers say
