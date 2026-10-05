@@ -1,7 +1,7 @@
 ---
 node: "industry"
 layer: category
-item_count: 216
+item_count: 220
 ---
 
 # industry
@@ -20,6 +20,10 @@ item_count: 216
 
 ## Items
 
+- 2026-10-05 · [[2026-10-05-001-watch-what-we-know-about-russian-strikes-on-kyiv-bridges]] — Watch: What we know about Russian strikes on Kyiv bridges
+- 2026-10-05 · [[2026-10-05-002-yemen-s-government-announces-all-out-war-to-reclaim-land]] — Yemen's government announces all-out war to reclaim land from Houthis
+- 2026-10-05 · [[2026-10-05-002-yemen-s-government-announces-all-out-war-to-reclaim-land]] — Yemen's government announces all-out war to reclaim land from Houthis
+- 2026-10-05 · [[2026-10-05-003-brazil-election-goes-to-run-off-as-right-wing-fl-vio]] — Brazil election goes to run-off as right-wing Flávio Bolsonaro wins first round
 - 2026-10-04 · [[2026-10-04-001-tennessee-prison-chief-to-resign-after-christa-pike-s]] — Tennessee prison chief to resign after Christa Pike's failed execution
 - 2026-10-04 · [[2026-10-04-002-cornell-president-says-university-must-do-better-after]] — Cornell president says university 'must do better' after frat house rape allegations
 - 2026-10-04 · [[2026-10-04-003-flydubai-co-pilot-attacked-captain-with-axe-uae-official]] — Flydubai co‑pilot attacked captain with axe, UAE official says

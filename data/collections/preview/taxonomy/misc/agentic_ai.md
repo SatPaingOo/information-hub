@@ -1,7 +1,7 @@
 ---
 node: "Agentic AI"
 layer: misc
-item_count: 68
+item_count: 69
 ---
 
 # Agentic AI
@@ -17,6 +17,7 @@ item_count: 68
 
 ## Items
 
+- 2026-10-05 · [[2026-10-05-006-clair]] — Clair
 - 2026-10-04 · [[2026-10-04-006-notchware]] — Notchware
 - 2026-10-03 · [[2026-10-03-006-never-boring-ai-the-ai-agent-that-writes-your-linkedin]] — Never Boring AI – The AI Agent That Writes Your LinkedIn Posts in Your Voice
 - 2026-10-02 · [[2026-10-02-008-openai-fires-workers-for-mishandling-sensitive-information]] — OpenAI fires workers for mishandling ‘sensitive information’ amid escalating AI safety debate

@@ -1,7 +1,7 @@
 ---
 node: "War in Ukraine"
 layer: misc
-item_count: 1
+item_count: 2
 ---
 
 # War in Ukraine
@@ -14,4 +14,5 @@ item_count: 1
 
 ## Items
 
+- 2026-10-05 · [[2026-10-05-001-watch-what-we-know-about-russian-strikes-on-kyiv-bridges]] — Watch: What we know about Russian strikes on Kyiv bridges
 - 2026-08-23 · [[2026-08-23-002-rescuers-dig-through-ukraine-mall-wreckage-as-zelensky]] — Rescuers dig through Ukraine mall wreckage as Zelensky condemns 'despicable' Russian strike

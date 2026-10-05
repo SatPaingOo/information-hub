@@ -1,7 +1,7 @@
 ---
 node: "Global"
 layer: misc
-item_count: 340
+item_count: 346
 ---
 
 # Global
@@ -25,6 +25,12 @@ item_count: 340
 
 ## Items
 
+- 2026-10-05 · [[2026-10-05-001-watch-what-we-know-about-russian-strikes-on-kyiv-bridges]] — Watch: What we know about Russian strikes on Kyiv bridges
+- 2026-10-05 · [[2026-10-05-002-yemen-s-government-announces-all-out-war-to-reclaim-land]] — Yemen's government announces all-out war to reclaim land from Houthis
+- 2026-10-05 · [[2026-10-05-003-brazil-election-goes-to-run-off-as-right-wing-fl-vio]] — Brazil election goes to run-off as right-wing Flávio Bolsonaro wins first round
+- 2026-10-05 · [[2026-10-05-004-polanski-banned-from-israel-after-party-s-motion-declaring]] — Polanski banned from Israel after party's motion declaring 'Zionism is racism'
+- 2026-10-05 · [[2026-10-05-005-i-m-a-classic-old-school-conservative-says-kemi-badenoch]] — I'm a classic old school Conservative, says Kemi Badenoch
+- 2026-10-05 · [[2026-10-05-006-clair]] — Clair
 - 2026-10-04 · [[2026-10-04-001-tennessee-prison-chief-to-resign-after-christa-pike-s]] — Tennessee prison chief to resign after Christa Pike's failed execution
 - 2026-10-04 · [[2026-10-04-002-cornell-president-says-university-must-do-better-after]] — Cornell president says university 'must do better' after frat house rape allegations
 - 2026-10-04 · [[2026-10-04-003-flydubai-co-pilot-attacked-captain-with-axe-uae-official]] — Flydubai co‑pilot attacked captain with axe, UAE official says

@@ -1,7 +1,7 @@
 ---
 name: "Anthropic"
 entity_type: company
-backlink_count: 65
+backlink_count: 66
 ---
 
 # Anthropic
@@ -10,6 +10,7 @@ backlink_count: 65
 
 ## Referenced by
 
+- 2026-10-05 · [[2026-10-05-006-clair]] — Clair
 - 2026-10-04 · [[2026-10-04-005-greens-would-offer-two-year-jobs-to-unemployed-under-24s]] — Greens would offer two-year jobs to unemployed under-24s
 - 2026-10-04 · [[2026-10-04-006-notchware]] — Notchware
 - 2026-10-02 · [[2026-10-02-004-dots-by-openai]] — Dots by OpenAI

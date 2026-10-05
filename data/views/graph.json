@@ -6909,6 +6909,92 @@
       "name": "Defense Policy"
     },
     {
+      "id": "info:item:world:global:2026-10-05-001",
+      "type": "item",
+      "date": "2026-10-05",
+      "title": "Watch: What we know about Russian strikes on Kyiv bridges"
+    },
+    {
+      "id": "taxonomy/misc/Russian invasion of Ukraine",
+      "type": "taxonomy",
+      "name": "Russian invasion of Ukraine"
+    },
+    {
+      "id": "taxonomy/misc/Infrastructure targeting",
+      "type": "taxonomy",
+      "name": "Infrastructure targeting"
+    },
+    {
+      "id": "info:item:world:global:2026-10-05-002",
+      "type": "item",
+      "date": "2026-10-05",
+      "title": "Yemen's government announces all-out war to reclaim land from Houthis"
+    },
+    {
+      "id": "info:entity:person:Rashad al‑Alimi",
+      "type": "person",
+      "name": "Rashad al‑Alimi"
+    },
+    {
+      "id": "info:entity:company:Aramco",
+      "type": "company",
+      "name": "Aramco"
+    },
+    {
+      "id": "info:item:world:global:2026-10-05-003",
+      "type": "item",
+      "date": "2026-10-05",
+      "title": "Brazil election goes to run-off as right-wing Flávio Bolsonaro wins first round"
+    },
+    {
+      "id": "info:entity:person:Flávio Bolsonaro",
+      "type": "person",
+      "name": "Flávio Bolsonaro"
+    },
+    {
+      "id": "info:entity:person:Lula da Silva",
+      "type": "person",
+      "name": "Lula da Silva"
+    },
+    {
+      "id": "info:item:politics:global:2026-10-05-004",
+      "type": "item",
+      "date": "2026-10-05",
+      "title": "Polanski banned from Israel after party's motion declaring 'Zionism is racism'"
+    },
+    {
+      "id": "info:entity:organization:Israel's Foreign Ministry",
+      "type": "organization",
+      "name": "Israel's Foreign Ministry"
+    },
+    {
+      "id": "info:entity:organization:Board of Deputies of British Jews",
+      "type": "organization",
+      "name": "Board of Deputies of British Jews"
+    },
+    {
+      "id": "info:item:politics:global:2026-10-05-005",
+      "type": "item",
+      "date": "2026-10-05",
+      "title": "I'm a classic old school Conservative, says Kemi Badenoch"
+    },
+    {
+      "id": "info:item:products:global:2026-10-05-006",
+      "type": "item",
+      "date": "2026-10-05",
+      "title": "Clair"
+    },
+    {
+      "id": "info:entity:product:Clair",
+      "type": "product",
+      "name": "Clair"
+    },
+    {
+      "id": "taxonomy/misc/wearable technology",
+      "type": "taxonomy",
+      "name": "wearable technology"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -29028,6 +29114,381 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-10-05-001",
+      "target": "info:entity:person:Friedrich Merz",
+      "relation": "German Chancellor who visited Kyiv during the bridge attacks"
+    },
+    {
+      "source": "info:item:world:global:2026-10-05-001",
+      "target": "info:entity:organization:Ukrainian Government",
+      "relation": "responsible for response and reconstruction efforts"
+    },
+    {
+      "source": "info:item:world:global:2026-10-05-001",
+      "target": "info:entity:organization:Russian Embassy to the UK",
+      "relation": "diplomatic entity linked to Russian military actions"
+    },
+    {
+      "source": "info:item:world:global:2026-10-05-001",
+      "target": "info:entity:organization:German Government",
+      "relation": "source of diplomatic support and potential policy response"
+    },
+    {
+      "source": "info:item:world:global:2026-10-05-001",
+      "target": "info:item:world:global:2026-10-04-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-05-001",
+      "target": "info:item:world:global:2026-10-04-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-05-001",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-05-001",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-05-001",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-05-001",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-05-001",
+      "target": "taxonomy/misc/War in Ukraine",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-05-001",
+      "target": "taxonomy/misc/Russian invasion of Ukraine",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-05-001",
+      "target": "taxonomy/misc/Infrastructure targeting",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-05-002",
+      "target": "info:entity:person:Rashad al‑Alimi",
+      "relation": "president of Yemen's internationally recognized government"
+    },
+    {
+      "source": "info:item:world:global:2026-10-05-002",
+      "target": "info:entity:organization:Houthis",
+      "relation": "Iran‑backed rebel group controlling parts of Yemen"
+    },
+    {
+      "source": "info:item:world:global:2026-10-05-002",
+      "target": "info:entity:organization:Saudi Arabia",
+      "relation": "key backer of Yemen's government and target of Houthi attacks"
+    },
+    {
+      "source": "info:item:world:global:2026-10-05-002",
+      "target": "info:entity:company:Aramco",
+      "relation": "Saudi national oil company targeted by Houthi missile and drone strikes"
+    },
+    {
+      "source": "info:item:world:global:2026-10-05-002",
+      "target": "info:item:world:global:2026-10-05-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-05-002",
+      "target": "info:item:world:global:2026-10-04-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-05-002",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-05-002",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-05-002",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-05-002",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-05-002",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-05-002",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-05-002",
+      "target": "taxonomy/category/industry",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-05-003",
+      "target": "info:entity:person:Flávio Bolsonaro",
+      "relation": "presidential candidate, son of former president Jair Bolsonaro"
+    },
+    {
+      "source": "info:item:world:global:2026-10-05-003",
+      "target": "info:entity:person:Lula da Silva",
+      "relation": "incumbent president, leftist candidate"
+    },
+    {
+      "source": "info:item:world:global:2026-10-05-003",
+      "target": "info:entity:company:OpenAI",
+      "relation": "AI model developer referenced in editorial priorities"
+    },
+    {
+      "source": "info:item:world:global:2026-10-05-003",
+      "target": "info:entity:model:Gemini",
+      "relation": "LLM referenced in editorial priorities"
+    },
+    {
+      "source": "info:item:world:global:2026-10-05-003",
+      "target": "info:item:world:global:2026-10-05-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-05-003",
+      "target": "info:item:world:global:2026-10-05-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-05-003",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-05-003",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-05-003",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-05-003",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-05-003",
+      "target": "taxonomy/topic/world",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-05-003",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-05-003",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-05-004",
+      "target": "info:entity:person:Zack Polanski",
+      "relation": "Green Party leader targeted by Israeli entry ban"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-05-004",
+      "target": "info:entity:organization:Green Party of England and Wales",
+      "relation": "party that passed the Zionism motion"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-05-004",
+      "target": "info:entity:organization:Israel's Foreign Ministry",
+      "relation": "issued entry ban over antisemitic wording"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-05-004",
+      "target": "info:entity:organization:Board of Deputies of British Jews",
+      "relation": "condemned motion as attack on Jewish community"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-05-004",
+      "target": "info:item:politics:global:2026-10-04-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-05-004",
+      "target": "info:item:politics:global:2026-10-04-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-05-004",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-05-004",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-05-004",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-05-004",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-05-004",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-05-004",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-05-005",
+      "target": "info:entity:person:Kemi Badenoch",
+      "relation": "Tory leader and author of *The Right Way*"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-05-005",
+      "target": "info:entity:person:Nigel Farage",
+      "relation": "Reform UK leader, described as \"grumpy grandpa\""
+    },
+    {
+      "source": "info:item:politics:global:2026-10-05-005",
+      "target": "info:entity:organization:Conservative Party",
+      "relation": "UK governing party under Badenoch's leadership"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-05-005",
+      "target": "info:entity:organization:Labour Party",
+      "relation": "Opposition party, contrasted with Badenoch's vision"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-05-005",
+      "target": "info:item:politics:global:2026-10-05-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-05-005",
+      "target": "info:item:politics:global:2026-10-04-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-05-005",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-05-005",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-05-005",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-05-005",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-05-005",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-05-005",
+      "target": "taxonomy/topic/politics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-10-05-006",
+      "target": "info:entity:product:Clair",
+      "relation": "primary product"
+    },
+    {
+      "source": "info:item:products:global:2026-10-05-006",
+      "target": "info:entity:company:Anthropic",
+      "relation": "provider of Claude models"
+    },
+    {
+      "source": "info:item:products:global:2026-10-05-006",
+      "target": "info:entity:model:Claude Opus 4.6",
+      "relation": "core LLM powering Clair"
+    },
+    {
+      "source": "info:item:products:global:2026-10-05-006",
+      "target": "info:entity:model:OpenAI GPT‑4",
+      "relation": "competitor model in coding assistance"
+    },
+    {
+      "source": "info:item:products:global:2026-10-05-006",
+      "target": "info:item:products:global:2026-10-04-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-10-05-006",
+      "target": "info:item:products:global:2026-10-03-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-10-05-006",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-10-05-006",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-10-05-006",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-10-05-006",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-10-05-006",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-10-05-006",
+      "target": "taxonomy/misc/wearable technology",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -29423,7 +29884,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:model:Claude Opus 4.6",
       "relation": "co-occurs",
-      "weight": "4"
+      "weight": "5"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -29506,6 +29967,12 @@
     {
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:model:OpenAI GPT-4-Turbo",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:model:OpenAI GPT‑4",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -29685,6 +30152,12 @@
     },
     {
       "source": "info:entity:company:Anthropic",
+      "target": "info:entity:product:Clair",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
       "target": "info:entity:product:Claude",
       "relation": "co-occurs",
       "weight": "1"
@@ -29836,6 +30309,24 @@
     {
       "source": "info:entity:company:Apple",
       "target": "info:entity:product:Notchware",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Aramco",
+      "target": "info:entity:organization:Houthis",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Aramco",
+      "target": "info:entity:organization:Saudi Arabia",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Aramco",
+      "target": "info:entity:person:Rashad al‑Alimi",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -30815,7 +31306,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "33"
+      "weight": "34"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -31119,6 +31610,12 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:person:Flávio Bolsonaro",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Garry Tan",
       "relation": "co-occurs",
       "weight": "1"
@@ -31144,6 +31641,12 @@
     {
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Kemi Badenoch",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:person:Lula da Silva",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -33105,7 +33608,19 @@
     },
     {
       "source": "info:entity:model:Claude Opus 4.6",
+      "target": "info:entity:model:OpenAI GPT‑4",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Claude Opus 4.6",
       "target": "info:entity:organization:TechCrunch",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Claude Opus 4.6",
+      "target": "info:entity:product:Clair",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -33333,6 +33848,12 @@
     },
     {
       "source": "info:entity:model:Gemini",
+      "target": "info:entity:person:Flávio Bolsonaro",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
       "target": "info:entity:person:Gerald Bourguet",
       "relation": "co-occurs",
       "weight": "1"
@@ -33388,6 +33909,12 @@
     {
       "source": "info:entity:model:Gemini",
       "target": "info:entity:person:Lindsay Clancy",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
+      "target": "info:entity:person:Lula da Silva",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -33676,6 +34203,12 @@
     {
       "source": "info:entity:model:OpenAI GPT‑4",
       "target": "info:entity:product:Ace",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:OpenAI GPT‑4",
+      "target": "info:entity:product:Clair",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -34094,6 +34627,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Board of Deputies of British Jews",
+      "target": "info:entity:organization:Green Party of England and Wales",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Board of Deputies of British Jews",
+      "target": "info:entity:organization:Israel's Foreign Ministry",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Board of Deputies of British Jews",
+      "target": "info:entity:person:Zack Polanski",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:British Museum",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
@@ -34475,7 +35026,7 @@
       "source": "info:entity:organization:Conservative Party",
       "target": "info:entity:organization:Labour Party",
       "relation": "co-occurs",
-      "weight": "6"
+      "weight": "7"
     },
     {
       "source": "info:entity:organization:Conservative Party",
@@ -34541,11 +35092,17 @@
       "source": "info:entity:organization:Conservative Party",
       "target": "info:entity:person:Kemi Badenoch",
       "relation": "co-occurs",
-      "weight": "6"
+      "weight": "7"
     },
     {
       "source": "info:entity:organization:Conservative Party",
       "target": "info:entity:person:Lucy Powell",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Conservative Party",
+      "target": "info:entity:person:Nigel Farage",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -35163,9 +35720,21 @@
     },
     {
       "source": "info:entity:organization:German Government",
-      "target": "info:entity:person:Friedrich Merz",
+      "target": "info:entity:organization:Russian Embassy to the UK",
       "relation": "co-occurs",
       "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:German Government",
+      "target": "info:entity:organization:Ukrainian Government",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:German Government",
+      "target": "info:entity:person:Friedrich Merz",
+      "relation": "co-occurs",
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:German Government",
@@ -35277,6 +35846,12 @@
     },
     {
       "source": "info:entity:organization:Green Party of England and Wales",
+      "target": "info:entity:organization:Israel's Foreign Ministry",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Green Party of England and Wales",
       "target": "info:entity:organization:Labour Party",
       "relation": "co-occurs",
       "weight": "1"
@@ -35315,7 +35890,7 @@
       "source": "info:entity:organization:Green Party of England and Wales",
       "target": "info:entity:person:Zack Polanski",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:organization:Guantanamo Bay detention camp",
@@ -35453,7 +36028,7 @@
       "source": "info:entity:organization:Houthis",
       "target": "info:entity:organization:Saudi Arabia",
       "relation": "co-occurs",
-      "weight": "4"
+      "weight": "5"
     },
     {
       "source": "info:entity:organization:Houthis",
@@ -35488,6 +36063,12 @@
     {
       "source": "info:entity:organization:Houthis",
       "target": "info:entity:person:Masoud Pezeshkian",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Houthis",
+      "target": "info:entity:person:Rashad al‑Alimi",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -35750,6 +36331,12 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Israel's Foreign Ministry",
+      "target": "info:entity:person:Zack Polanski",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Israeli Defence Forces",
       "target": "info:entity:organization:Syrian Government",
       "relation": "co-occurs",
@@ -35945,7 +36532,7 @@
       "source": "info:entity:organization:Labour Party",
       "target": "info:entity:person:Kemi Badenoch",
       "relation": "co-occurs",
-      "weight": "6"
+      "weight": "7"
     },
     {
       "source": "info:entity:organization:Labour Party",
@@ -35963,7 +36550,7 @@
       "source": "info:entity:organization:Labour Party",
       "target": "info:entity:person:Nigel Farage",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Labour Party",
@@ -37023,9 +37610,21 @@
     },
     {
       "source": "info:entity:organization:Russian Embassy to the UK",
+      "target": "info:entity:organization:Ukrainian Government",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Russian Embassy to the UK",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
       "weight": "2"
+    },
+    {
+      "source": "info:entity:organization:Russian Embassy to the UK",
+      "target": "info:entity:person:Friedrich Merz",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:organization:Russian Embassy to the UK",
@@ -37072,6 +37671,12 @@
     {
       "source": "info:entity:organization:Saudi Arabia",
       "target": "info:entity:person:Donald Trump",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Saudi Arabia",
+      "target": "info:entity:person:Rashad al‑Alimi",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -37680,6 +38285,12 @@
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
       "weight": "3"
+    },
+    {
+      "source": "info:entity:organization:Ukrainian Government",
+      "target": "info:entity:person:Friedrich Merz",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:organization:Ukrainian Government",
@@ -39392,6 +40003,12 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:person:Flávio Bolsonaro",
+      "target": "info:entity:person:Lula da Silva",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:person:François‑Philippe Champagne",
       "target": "info:entity:person:Mark Carney",
       "relation": "co-occurs",
@@ -39749,7 +40366,7 @@
       "source": "info:entity:person:Kemi Badenoch",
       "target": "info:entity:person:Nigel Farage",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Kemi Badenoch",

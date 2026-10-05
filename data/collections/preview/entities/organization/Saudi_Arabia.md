@@ -1,7 +1,7 @@
 ---
 name: "Saudi Arabia"
 entity_type: organization
-backlink_count: 8
+backlink_count: 9
 ---
 
 # Saudi Arabia
@@ -10,6 +10,7 @@ backlink_count: 8
 
 ## Referenced by
 
+- 2026-10-05 · [[2026-10-05-002-yemen-s-government-announces-all-out-war-to-reclaim-land]] — Yemen's government announces all-out war to reclaim land from Houthis
 - 2026-10-01 · [[2026-10-01-002-too-early-to-say-what-motive-for-dubai-tel-aviv-flight]] — Too early to say what motive for Dubai‑Tel Aviv flight attack was, Israeli PM says
 - 2026-10-01 · [[2026-10-01-003-what-we-know-about-stabbing-on-flydubai-flight-to-israel]] — What we know about stabbing on Flydubai flight to Israel
 - 2026-09-28 · [[2026-09-28-001-inside-yemen-s-front-line-city-as-houthis-battle-for-control]] — Inside Yemen's front-line city as Houthis battle for control
