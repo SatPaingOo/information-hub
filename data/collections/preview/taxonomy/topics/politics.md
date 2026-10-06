@@ -1,7 +1,7 @@
 ---
 node: "politics"
 layer: topic
-item_count: 112
+item_count: 116
 ---
 
 # politics
@@ -17,6 +17,10 @@ item_count: 112
 
 ## Items
 
+- 2026-10-06 · [[2026-10-06-004-author-and-former-politician-jeffrey-archer-dies-aged-86]] — Author and former politician Jeffrey Archer dies aged 86
+- 2026-10-06 · [[2026-10-06-004-author-and-former-politician-jeffrey-archer-dies-aged-86]] — Author and former politician Jeffrey Archer dies aged 86
+- 2026-10-06 · [[2026-10-06-005-tories-pledge-10bn-british-iron-dome-air-defence-system]] — Tories pledge £10bn British 'Iron Dome' air defence system
+- 2026-10-06 · [[2026-10-06-005-tories-pledge-10bn-british-iron-dome-air-defence-system]] — Tories pledge £10bn British 'Iron Dome' air defence system
 - 2026-10-05 · [[2026-10-05-004-polanski-banned-from-israel-after-party-s-motion-declaring]] — Polanski banned from Israel after party's motion declaring 'Zionism is racism'
 - 2026-10-05 · [[2026-10-05-005-i-m-a-classic-old-school-conservative-says-kemi-badenoch]] — I'm a classic old school Conservative, says Kemi Badenoch
 - 2026-10-05 · [[2026-10-05-005-i-m-a-classic-old-school-conservative-says-kemi-badenoch]] — I'm a classic old school Conservative, says Kemi Badenoch

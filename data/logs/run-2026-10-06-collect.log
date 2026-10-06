@@ -1,0 +1,17 @@
+2026-10-06 06:48:51,840 ERROR [world-news] select failed: bad response: Expecting ',' delimiter: line 1 column 216 (char 215)
+2026-10-06 06:48:51,886 INFO [world-news] model returned no selection — using heuristic fallback (3)
+2026-10-06 06:48:52,363 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"poolside/laguna-xs-2.1:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Poolside","is_byok":fa
+2026-10-06 06:48:59,948 INFO [world-news] published 2026-10-06-001 — Trump says 'threat' led US to pull bombers from RAF Fairford
+2026-10-06 06:49:00,186 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6650, Requested 5533. Please try again in 31.3725s. Need more tokens? Upgrade to Dev Tier today at https://co
+2026-10-06 06:49:20,315 INFO [world-news] attempt 2 invalid: ["related_taxonomy/0: 'regions' is not of type 'object'", "related_taxonomy/1: 'topics' is not of type 'object'"]
+2026-10-06 06:50:07,088 INFO [world-news] published 2026-10-06-002 — France braces for national day of school protests after inju
+2026-10-06 06:50:37,133 INFO [world-news] published 2026-10-06-003 — Saudi Arabia urged to spare man sentenced to death over Face
+2026-10-06 06:50:43,373 INFO [tech-news] nothing selected
+2026-10-06 06:51:35,476 INFO [politics] published 2026-10-06-004 — Author and former politician Jeffrey Archer dies aged 86
+2026-10-06 06:52:55,428 INFO [politics] published 2026-10-06-005 — Tories pledge £10bn British 'Iron Dome' air defence system
+2026-10-06 06:53:53,410 INFO [products] published 2026-10-06-006 — Opengeni: Ship AI agents within minutes. Infrastructure for 
+2026-10-06 06:53:58,283 INFO [products] attempt 1 invalid: [": 'tags' is a required property", ": 'related_items' is a required property"]
+2026-10-06 06:53:58,423 ERROR [products] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 5751, Requested 4601. Please try again in 17.64s. Need more tokens? Upgrade to Dev Tier today at https://cons
+2026-10-06 06:54:06,996 ERROR [products] generate error: HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
+
+2026-10-06 06:54:16,498 INFO collect done: 6 item(s) published — target 4/10, next run ≈ 2026-10-07T01:00:00+00:00 UTC

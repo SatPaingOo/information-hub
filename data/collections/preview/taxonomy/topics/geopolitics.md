@@ -1,7 +1,7 @@
 ---
 node: "geopolitics"
 layer: topic
-item_count: 75
+item_count: 76
 ---
 
 # geopolitics
@@ -24,6 +24,7 @@ item_count: 75
 
 ## Items
 
+- 2026-10-06 · [[2026-10-06-005-tories-pledge-10bn-british-iron-dome-air-defence-system]] — Tories pledge £10bn British 'Iron Dome' air defence system
 - 2026-10-05 · [[2026-10-05-003-brazil-election-goes-to-run-off-as-right-wing-fl-vio]] — Brazil election goes to run-off as right-wing Flávio Bolsonaro wins first round
 - 2026-10-05 · [[2026-10-05-004-polanski-banned-from-israel-after-party-s-motion-declaring]] — Polanski banned from Israel after party's motion declaring 'Zionism is racism'
 - 2026-10-02 · [[2026-10-02-002-man-city-not-above-the-rules-says-no-10-after-backlash-to]] — Man City not 'above the rules', says No 10 after backlash to Burnham remarks

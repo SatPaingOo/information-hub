@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T02:12:55+00:00",
+  "generated_at": "2026-10-06T06:54:46+00:00",
   "per_day_provider_model": {
     "2026-08-17": {
       "groq": {
@@ -2258,6 +2258,56 @@
           "tokens": 0
         }
       }
+    },
+    "2026-10-06": {
+      "openrouter": {
+        "cohere/north-mini-code:free": {
+          "calls": 8,
+          "ok": 7,
+          "errors": 1,
+          "tokens": 33313
+        },
+        "poolside/laguna-xs-2.1:free": {
+          "calls": 1,
+          "ok": 0,
+          "errors": 1,
+          "tokens": 0
+        },
+        "liquid/lfm-2.5-2.6b:free": {
+          "calls": 2,
+          "ok": 2,
+          "errors": 0,
+          "tokens": 18242
+        }
+      },
+      "groq": {
+        "openai/gpt-oss-120b": {
+          "calls": 4,
+          "ok": 2,
+          "errors": 2,
+          "tokens": 13665
+        },
+        "openai/gpt-oss-20b": {
+          "calls": 1,
+          "ok": 0,
+          "errors": 1,
+          "tokens": 0
+        }
+      },
+      "gemini": {
+        "gemini-3.5-flash-lite": {
+          "calls": 1,
+          "ok": 0,
+          "errors": 1,
+          "tokens": 0
+        },
+        "gemini-3.5-flash": {
+          "calls": 1,
+          "ok": 0,
+          "errors": 1,
+          "tokens": 0
+        }
+      }
     }
   },
   "errors_by_day": {
@@ -2470,6 +2520,11 @@
     "2026-10-05": {
       "HTTP 400": 2,
       "HTTP 429": 2
+    },
+    "2026-10-06": {
+      "network": 1,
+      "HTTP 429": 5,
+      "HTTP 400": 1
     }
   }
 }

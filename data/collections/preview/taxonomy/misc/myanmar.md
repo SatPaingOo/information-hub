@@ -1,7 +1,7 @@
 ---
 node: "Myanmar"
 layer: misc
-item_count: 11
+item_count: 12
 ---
 
 # Myanmar
@@ -16,6 +16,7 @@ item_count: 11
 
 ## Items
 
+- 2026-10-06 · [[2026-10-06-006-opengeni-ship-ai-agents-within-minutes-infrastructure-for]] — Opengeni: Ship AI agents within minutes. Infrastructure for Agents
 - 2026-10-02 · [[2026-10-02-005-omnia-agent]] — Omnia Agent
 - 2026-10-01 · [[2026-10-01-006-macaly-cloud-build-and-publish-sites-with-claude-or-chatgpt]] — Macaly Cloud – Build and Publish Sites with Claude or ChatGPT
 - 2026-09-29 · [[2026-09-29-006-vantage-ai]] — vantage.ai
