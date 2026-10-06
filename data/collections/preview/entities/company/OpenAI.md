@@ -1,7 +1,7 @@
 ---
 name: "OpenAI"
 entity_type: company
-backlink_count: 103
+backlink_count: 104
 ---
 
 # OpenAI
@@ -12,6 +12,7 @@ backlink_count: 103
 
 - 2026-10-06 · [[2026-10-06-003-saudi-arabia-urged-to-spare-man-sentenced-to-death-over]] — Saudi Arabia urged to spare man sentenced to death over Facebook post
 - 2026-10-06 · [[2026-10-06-006-opengeni-ship-ai-agents-within-minutes-infrastructure-for]] — Opengeni: Ship AI agents within minutes. Infrastructure for Agents
+- 2026-10-06 · [[2026-10-06-007-openai-concedes-inadequate-response-to-australian]] — OpenAI Concedes Inadequate Response to Australian Government Hack, Promises New Safeguards
 - 2026-10-05 · [[2026-10-05-003-brazil-election-goes-to-run-off-as-right-wing-fl-vio]] — Brazil election goes to run-off as right-wing Flávio Bolsonaro wins first round
 - 2026-10-04 · [[2026-10-04-005-greens-would-offer-two-year-jobs-to-unemployed-under-24s]] — Greens would offer two-year jobs to unemployed under-24s
 - 2026-10-03 · [[2026-10-03-006-never-boring-ai-the-ai-agent-that-writes-your-linkedin]] — Never Boring AI – The AI Agent That Writes Your LinkedIn Posts in Your Voice

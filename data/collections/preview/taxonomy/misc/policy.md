@@ -1,7 +1,7 @@
 ---
 node: "Policy"
 layer: misc
-item_count: 275
+item_count: 276
 ---
 
 # Policy
@@ -22,6 +22,7 @@ item_count: 275
 - 2026-10-06 · [[2026-10-06-003-saudi-arabia-urged-to-spare-man-sentenced-to-death-over]] — Saudi Arabia urged to spare man sentenced to death over Facebook post
 - 2026-10-06 · [[2026-10-06-004-author-and-former-politician-jeffrey-archer-dies-aged-86]] — Author and former politician Jeffrey Archer dies aged 86
 - 2026-10-06 · [[2026-10-06-005-tories-pledge-10bn-british-iron-dome-air-defence-system]] — Tories pledge £10bn British 'Iron Dome' air defence system
+- 2026-10-06 · [[2026-10-06-007-openai-concedes-inadequate-response-to-australian]] — OpenAI Concedes Inadequate Response to Australian Government Hack, Promises New Safeguards
 - 2026-10-05 · [[2026-10-05-001-watch-what-we-know-about-russian-strikes-on-kyiv-bridges]] — Watch: What we know about Russian strikes on Kyiv bridges
 - 2026-10-05 · [[2026-10-05-002-yemen-s-government-announces-all-out-war-to-reclaim-land]] — Yemen's government announces all-out war to reclaim land from Houthis
 - 2026-10-05 · [[2026-10-05-003-brazil-election-goes-to-run-off-as-right-wing-fl-vio]] — Brazil election goes to run-off as right-wing Flávio Bolsonaro wins first round

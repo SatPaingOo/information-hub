@@ -15,3 +15,11 @@
 2026-10-06 06:54:06,996 ERROR [products] generate error: HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
 
 2026-10-06 06:54:16,498 INFO collect done: 6 item(s) published — target 4/10, next run ≈ 2026-10-07T01:00:00+00:00 UTC
+2026-10-06 07:24:10,435 INFO [world-news] published 2026-10-06-007 — OpenAI Concedes Inadequate Response to Australian Government
+2026-10-06 07:24:10,738 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7596, Requested 5551. Please try again in 38.6025s. Need more tokens? Upgrade to Dev Tier today at https://co
+2026-10-06 07:24:13,740 WARNING [world-news] no collect provider for deep-dive
+2026-10-06 07:24:13,813 WARNING [world-news] no collect provider for deep-dive
+2026-10-06 07:24:14,119 WARNING [tech-news] no collect provider available
+2026-10-06 07:24:14,451 WARNING [politics] no collect provider available
+2026-10-06 07:24:15,144 WARNING [products] no collect provider available
+2026-10-06 07:24:15,417 INFO collect done: 1 item(s) published — target 3/10, next run ≈ 2026-10-07T01:00:00+00:00 UTC

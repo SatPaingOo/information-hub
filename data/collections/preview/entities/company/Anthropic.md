@@ -1,7 +1,7 @@
 ---
 name: "Anthropic"
 entity_type: company
-backlink_count: 67
+backlink_count: 68
 ---
 
 # Anthropic
@@ -11,6 +11,7 @@ backlink_count: 67
 ## Referenced by
 
 - 2026-10-06 · [[2026-10-06-006-opengeni-ship-ai-agents-within-minutes-infrastructure-for]] — Opengeni: Ship AI agents within minutes. Infrastructure for Agents
+- 2026-10-06 · [[2026-10-06-007-openai-concedes-inadequate-response-to-australian]] — OpenAI Concedes Inadequate Response to Australian Government Hack, Promises New Safeguards
 - 2026-10-05 · [[2026-10-05-006-clair]] — Clair
 - 2026-10-04 · [[2026-10-04-005-greens-would-offer-two-year-jobs-to-unemployed-under-24s]] — Greens would offer two-year jobs to unemployed under-24s
 - 2026-10-04 · [[2026-10-04-006-notchware]] — Notchware

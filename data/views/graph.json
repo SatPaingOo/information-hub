@@ -7111,6 +7111,22 @@
       "name": "Opengeni"
     },
     {
+      "id": "info:item:world:global:2026-10-06-007",
+      "type": "item",
+      "date": "2026-10-06",
+      "title": "OpenAI Concedes Inadequate Response to Australian Government Hack, Promises New Safeguards"
+    },
+    {
+      "id": "info:entity:person:Jason Kwon",
+      "type": "person",
+      "name": "Jason Kwon"
+    },
+    {
+      "id": "taxonomy/misc/AI policy",
+      "type": "taxonomy",
+      "name": "AI policy"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -29975,6 +29991,71 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-10-06-007",
+      "target": "info:entity:company:OpenAI",
+      "relation": "subject of breach and policy response"
+    },
+    {
+      "source": "info:item:world:global:2026-10-06-007",
+      "target": "info:entity:company:Anthropic",
+      "relation": "provided comparative breach review"
+    },
+    {
+      "source": "info:item:world:global:2026-10-06-007",
+      "target": "info:entity:person:Jason Kwon",
+      "relation": "OpenAI chief strategy officer, testified to parliament"
+    },
+    {
+      "source": "info:item:world:global:2026-10-06-007",
+      "target": "info:entity:organization:Australian Government",
+      "relation": "affected party and regulator"
+    },
+    {
+      "source": "info:item:world:global:2026-10-06-007",
+      "target": "info:item:world:global:2026-10-06-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-06-007",
+      "target": "info:item:world:global:2026-10-06-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-06-007",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-06-007",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-06-007",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-06-007",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-06-007",
+      "target": "taxonomy/misc/AI policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-06-007",
+      "target": "taxonomy/misc/Cybersecurity",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-06-007",
+      "target": "taxonomy/misc/Geopolitics",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -30238,7 +30319,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
-      "weight": "55"
+      "weight": "56"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -30470,6 +30551,12 @@
     },
     {
       "source": "info:entity:company:Anthropic",
+      "target": "info:entity:organization:Australian Government",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
       "target": "info:entity:organization:Green Party of England and Wales",
       "relation": "co-occurs",
       "weight": "1"
@@ -30581,6 +30668,12 @@
       "target": "info:entity:person:Jacob Coxon",
       "relation": "co-occurs",
       "weight": "2"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:person:Jason Kwon",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -31858,7 +31951,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:organization:Australian Government",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -32141,6 +32234,12 @@
       "target": "info:entity:person:Jacob Coxon",
       "relation": "co-occurs",
       "weight": "2"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:person:Jason Kwon",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -35013,6 +35112,12 @@
     {
       "source": "info:entity:organization:Armed Police Force (APF) of Nepal",
       "target": "info:entity:organization:World Meteorological Organization",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Australian Government",
+      "target": "info:entity:person:Jason Kwon",
       "relation": "co-occurs",
       "weight": "1"
     },

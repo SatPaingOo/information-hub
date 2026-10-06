@@ -1,7 +1,7 @@
 ---
 node: "Geopolitics"
 layer: misc
-item_count: 18
+item_count: 19
 ---
 
 # Geopolitics
@@ -16,6 +16,7 @@ item_count: 18
 ## Items
 
 - 2026-10-06 · [[2026-10-06-001-trump-says-threat-led-us-to-pull-bombers-from-raf-fairford]] — Trump says 'threat' led US to pull bombers from RAF Fairford
+- 2026-10-06 · [[2026-10-06-007-openai-concedes-inadequate-response-to-australian]] — OpenAI Concedes Inadequate Response to Australian Government Hack, Promises New Safeguards
 - 2026-10-04 · [[2026-10-04-007-kyiv-bridge-hit-in-further-russian-drone-attack-as-german]] — Kyiv bridge hit in further Russian drone attack as German chancellor makes surprise visit
 - 2026-09-28 · [[2026-09-28-002-embattled-serbian-president-resigns-paving-way-for-early]] — Embattled Serbian president resigns, paving way for early elections
 - 2026-09-28 · [[2026-09-28-007-trump-xi-summit-what-wasn-t-said-might-matter-the-most]] — Trump‑Xi summit: What wasn’t said might matter the most
