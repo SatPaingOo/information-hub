@@ -1,7 +1,7 @@
 ---
 node: "industry"
 layer: category
-item_count: 224
+item_count: 225
 ---
 
 # industry
@@ -24,6 +24,7 @@ item_count: 224
 - 2026-10-06 · [[2026-10-06-002-france-braces-for-national-day-of-school-protests-after]] — France braces for national day of school protests after injuries and mass arrests
 - 2026-10-06 · [[2026-10-06-003-saudi-arabia-urged-to-spare-man-sentenced-to-death-over]] — Saudi Arabia urged to spare man sentenced to death over Facebook post
 - 2026-10-06 · [[2026-10-06-007-openai-concedes-inadequate-response-to-australian]] — OpenAI Concedes Inadequate Response to Australian Government Hack, Promises New Safeguards
+- 2026-10-06 · [[2026-10-06-008-former-german-spy-chief-arrested-for-espionage-and-treason]] — Former German spy chief arrested for espionage and treason
 - 2026-10-05 · [[2026-10-05-001-watch-what-we-know-about-russian-strikes-on-kyiv-bridges]] — Watch: What we know about Russian strikes on Kyiv bridges
 - 2026-10-05 · [[2026-10-05-002-yemen-s-government-announces-all-out-war-to-reclaim-land]] — Yemen's government announces all-out war to reclaim land from Houthis
 - 2026-10-05 · [[2026-10-05-002-yemen-s-government-announces-all-out-war-to-reclaim-land]] — Yemen's government announces all-out war to reclaim land from Houthis

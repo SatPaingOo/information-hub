@@ -7127,6 +7127,27 @@
       "name": "AI policy"
     },
     {
+      "id": "info:item:world:global:2026-10-06-008",
+      "type": "item",
+      "date": "2026-10-06",
+      "title": "Former German spy chief arrested for espionage and treason"
+    },
+    {
+      "id": "info:entity:person:August Hanning",
+      "type": "person",
+      "name": "August Hanning"
+    },
+    {
+      "id": "info:entity:person:Manfred D",
+      "type": "person",
+      "name": "Manfred D"
+    },
+    {
+      "id": "info:entity:organization:Federal Intelligence Service (BND)",
+      "type": "organization",
+      "name": "Federal Intelligence Service (BND)"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -30056,6 +30077,76 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-10-06-008",
+      "target": "info:entity:person:August Hanning",
+      "relation": "former BND chief accused of espionage"
+    },
+    {
+      "source": "info:item:world:global:2026-10-06-008",
+      "target": "info:entity:person:Manfred D",
+      "relation": "former BND bureau chief charged with aiding treason"
+    },
+    {
+      "source": "info:item:world:global:2026-10-06-008",
+      "target": "info:entity:organization:Federal Intelligence Service (BND)",
+      "relation": "Germany's foreign intelligence agency"
+    },
+    {
+      "source": "info:item:world:global:2026-10-06-008",
+      "target": "info:entity:company:OpenAI",
+      "relation": "provider of LLMs referenced in regulatory discussion"
+    },
+    {
+      "source": "info:item:world:global:2026-10-06-008",
+      "target": "info:item:world:global:2026-10-06-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-06-008",
+      "target": "info:item:world:global:2026-10-06-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-06-008",
+      "target": "info:item:world:global:2026-10-06-003",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-06-008",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-06-008",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-06-008",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-06-008",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-06-008",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-06-008",
+      "target": "taxonomy/misc/intelligence",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-06-008",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -31979,6 +32070,12 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:organization:Federal Intelligence Service (BND)",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:organization:Greek Police",
       "relation": "co-occurs",
       "weight": "1"
@@ -32129,6 +32226,12 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:person:August Hanning",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Austin Tice",
       "relation": "co-occurs",
       "weight": "1"
@@ -32256,6 +32359,12 @@
     {
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Lula da Silva",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:person:Manfred D",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -36298,6 +36407,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Federal Intelligence Service (BND)",
+      "target": "info:entity:person:August Hanning",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Federal Intelligence Service (BND)",
+      "target": "info:entity:person:Manfred D",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Federal Reserve",
       "target": "info:entity:person:Donald Trump",
       "relation": "co-occurs",
@@ -39882,6 +40003,12 @@
     {
       "source": "info:entity:person:Arnold Dix",
       "target": "info:entity:region:Tibet",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:August Hanning",
+      "target": "info:entity:person:Manfred D",
       "relation": "co-occurs",
       "weight": "1"
     },
