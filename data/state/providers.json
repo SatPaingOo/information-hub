@@ -1,10 +1,10 @@
 {
   "groq": {
-    "quota_date": "2026-10-05",
-    "tokens_used": 1214,
+    "quota_date": "2026-10-06",
+    "tokens_used": 0,
     "items": 0,
-    "calls": 1,
-    "errors": 2,
+    "calls": 0,
+    "errors": 0,
     "cooldown_until": null,
     "models": {
       "llama-3.3-70b-versatile": {
@@ -54,10 +54,10 @@
     }
   },
   "openrouter": {
-    "quota_date": "2026-10-05",
-    "tokens_used": 51312,
-    "items": 6,
-    "calls": 10,
+    "quota_date": "2026-10-06",
+    "tokens_used": 0,
+    "items": 0,
+    "calls": 0,
     "errors": 0,
     "cooldown_until": null,
     "models": {
@@ -460,12 +460,12 @@
     }
   },
   "gemini": {
-    "quota_date": "2026-10-05",
+    "quota_date": "2026-10-06",
     "tokens_used": 0,
     "items": 0,
     "calls": 0,
-    "errors": 2,
-    "cooldown_until": "2026-10-05T02:12:57+00:00",
+    "errors": 0,
+    "cooldown_until": null,
     "models": {
       "gemini-3.5-flash-lite": {
         "calls": 0,
@@ -476,7 +476,7 @@
         "last_health_check": "2026-10-05T02:12:24+00:00",
         "latency_ms": null,
         "supports_json": true,
-        "cooldown_until": "2026-10-05T02:12:54+00:00"
+        "cooldown_until": null
       },
       "gemini-3.5-flash": {
         "calls": 0,
@@ -487,7 +487,7 @@
         "last_health_check": "2026-10-05T02:12:27+00:00",
         "latency_ms": null,
         "supports_json": true,
-        "cooldown_until": "2026-10-05T02:12:57+00:00"
+        "cooldown_until": null
       }
     }
   }
