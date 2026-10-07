@@ -1,7 +1,7 @@
 ---
 node: "Agentic AI"
 layer: misc
-item_count: 71
+item_count: 73
 ---
 
 # Agentic AI
@@ -17,6 +17,8 @@ item_count: 71
 
 ## Items
 
+- 2026-10-07 · [[2026-10-07-005-cosmic-ai-support-agent]] — Cosmic AI Support Agent
+- 2026-10-07 · [[2026-10-07-006-iphone-use]] — iphone-use
 - 2026-10-06 · [[2026-10-06-003-saudi-arabia-urged-to-spare-man-sentenced-to-death-over]] — Saudi Arabia urged to spare man sentenced to death over Facebook post
 - 2026-10-06 · [[2026-10-06-006-opengeni-ship-ai-agents-within-minutes-infrastructure-for]] — Opengeni: Ship AI agents within minutes. Infrastructure for Agents
 - 2026-10-05 · [[2026-10-05-006-clair]] — Clair

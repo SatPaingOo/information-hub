@@ -1,7 +1,7 @@
 ---
 node: "Middle East"
 layer: misc
-item_count: 6
+item_count: 7
 ---
 
 # Middle East
@@ -10,11 +10,13 @@ item_count: 6
 
 ## Cross-layer relations
 
+- [[politics]] — *relates*
 - [[world]] — *region*
 - [[world]] — *relates*
 
 ## Items
 
+- 2026-10-07 · [[2026-10-07-004-green-member-behind-zionism-motion-named-as-close-friend]] — Green member behind Zionism motion named as 'close friend' of jailed al-Qaeda supporter in court
 - 2026-09-20 · [[2026-09-20-002-houthis-say-they-targeted-saudi-capital-with-ballistic]] — Houthis say they targeted Saudi capital with ballistic missiles
 - 2026-09-06 · [[2026-09-06-002-us-and-iran-trade-retaliatory-attacks-on-ships-as-conflict]] — US and Iran trade retaliatory attacks on ships as conflict flares
 - 2026-09-04 · [[2026-09-04-002-us-investigating-if-missile-hit-iran-wedding-vance-says]] — US investigating if missile hit Iran wedding, Vance says

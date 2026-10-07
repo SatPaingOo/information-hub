@@ -1,7 +1,7 @@
 ---
 node: "Human Rights"
 layer: misc
-item_count: 12
+item_count: 13
 ---
 
 # Human Rights
@@ -15,6 +15,7 @@ item_count: 12
 
 ## Items
 
+- 2026-10-07 · [[2026-10-07-004-green-member-behind-zionism-motion-named-as-close-friend]] — Green member behind Zionism motion named as 'close friend' of jailed al-Qaeda supporter in court
 - 2026-10-01 · [[2026-10-01-010-six-smugglers-jailed-for-manslaughter-over-worst-channel]] — Six smugglers jailed for manslaughter over worst Channel small boats disaster
 - 2026-09-27 · [[2026-09-27-003-german-town-bans-stumbling-stone-memorials-to-nazi-victims]] — German town bans 'stumbling stone' memorials to Nazi victims
 - 2026-09-21 · [[2026-09-21-009-sister-of-pakistan-s-ex-pm-imran-khan-arrested]] — Sister of Pakistan's ex-PM Imran Khan arrested

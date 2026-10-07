@@ -1,0 +1,13 @@
+---
+name: "Minh Quang Pham"
+entity_type: person
+backlink_count: 1
+---
+
+# Minh Quang Pham
+
+*Type: person*
+
+## Referenced by
+
+- 2026-10-07 · [[2026-10-07-004-green-member-behind-zionism-motion-named-as-close-friend]] — Green member behind Zionism motion named as 'close friend' of jailed al-Qaeda supporter in court

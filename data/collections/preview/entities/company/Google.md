@@ -1,7 +1,7 @@
 ---
 name: "Google"
 entity_type: company
-backlink_count: 11
+backlink_count: 12
 ---
 
 # Google
@@ -10,6 +10,7 @@ backlink_count: 11
 
 ## Referenced by
 
+- 2026-10-07 · [[2026-10-07-008-finland-orders-halt-to-work-on-two-google-data-centres]] — Finland orders halt to work on two Google data centres
 - 2026-10-02 · [[2026-10-02-005-omnia-agent]] — Omnia Agent
 - 2026-09-28 · [[2026-09-28-006-cuey-one-tab-llm-comparison-for-agentic-ai-workflows]] — Cuey – One‑Tab LLM Comparison for Agentic AI Workflows
 - 2026-09-24 · [[2026-09-24-006-rankcontrol]] — RankControl

@@ -1,7 +1,7 @@
 ---
 node: "education"
 layer: category
-item_count: 0
+item_count: 1
 ---
 
 # education
@@ -12,6 +12,10 @@ item_count: 0
 
 - [[society]]
 
+## Cross-layer relations
+
+- [[world]] — *relates*
+
 ## Items
 
-_No items yet._
+- 2026-10-07 · [[2026-10-07-001-tear-gas-in-paris-and-marseille-as-school-protests-grow]] — Tear gas in Paris and Marseille as school protests grow across France

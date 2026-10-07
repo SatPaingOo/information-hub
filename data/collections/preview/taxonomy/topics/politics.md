@@ -1,7 +1,7 @@
 ---
 node: "politics"
 layer: topic
-item_count: 116
+item_count: 119
 ---
 
 # politics
@@ -17,6 +17,9 @@ item_count: 116
 
 ## Items
 
+- 2026-10-07 · [[2026-10-07-003-i-d-rather-have-another-election-than-do-a-deal-with]] — I'd rather have another election than do a deal with Reform UK, says Badenoch
+- 2026-10-07 · [[2026-10-07-003-i-d-rather-have-another-election-than-do-a-deal-with]] — I'd rather have another election than do a deal with Reform UK, says Badenoch
+- 2026-10-07 · [[2026-10-07-004-green-member-behind-zionism-motion-named-as-close-friend]] — Green member behind Zionism motion named as 'close friend' of jailed al-Qaeda supporter in court
 - 2026-10-06 · [[2026-10-06-004-author-and-former-politician-jeffrey-archer-dies-aged-86]] — Author and former politician Jeffrey Archer dies aged 86
 - 2026-10-06 · [[2026-10-06-004-author-and-former-politician-jeffrey-archer-dies-aged-86]] — Author and former politician Jeffrey Archer dies aged 86
 - 2026-10-06 · [[2026-10-06-005-tories-pledge-10bn-british-iron-dome-air-defence-system]] — Tories pledge £10bn British 'Iron Dome' air defence system
