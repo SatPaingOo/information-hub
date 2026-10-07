@@ -1,7 +1,7 @@
 ---
 node: "world"
 layer: topic
-item_count: 205
+item_count: 206
 ---
 
 # world
@@ -21,6 +21,7 @@ item_count: 205
 - 2026-10-07 · [[2026-10-07-002-a-beautiful-himalayan-bird-is-changing-its-voice-due-to]] — A beautiful Himalayan bird is changing its voice due to human activity, research shows
 - 2026-10-07 · [[2026-10-07-007-lawyer-for-one-of-cornell-7-calls-for-special-prosecutor]] — Lawyer for one of Cornell 7 calls for special prosecutor to be removed over previous comments
 - 2026-10-07 · [[2026-10-07-008-finland-orders-halt-to-work-on-two-google-data-centres]] — Finland orders halt to work on two Google data centres
+- 2026-10-07 · [[2026-10-07-009-residents-of-kibbutz-destroyed-in-7-october-hamas-led]] — Residents of kibbutz destroyed in 7 October Hamas‑led attacks grapple with how to rebuild
 - 2026-10-06 · [[2026-10-06-001-trump-says-threat-led-us-to-pull-bombers-from-raf-fairford]] — Trump says 'threat' led US to pull bombers from RAF Fairford
 - 2026-10-06 · [[2026-10-06-002-france-braces-for-national-day-of-school-protests-after]] — France braces for national day of school protests after injuries and mass arrests
 - 2026-10-06 · [[2026-10-06-003-saudi-arabia-urged-to-spare-man-sentenced-to-death-over]] — Saudi Arabia urged to spare man sentenced to death over Facebook post

@@ -7306,6 +7306,32 @@
       "name": "Environmental Policy"
     },
     {
+      "id": "info:item:world:global:2026-10-07-009",
+      "type": "item",
+      "date": "2026-10-07",
+      "title": "Residents of kibbutz destroyed in 7 October Hamas‑led attacks grapple with how to rebuild"
+    },
+    {
+      "id": "info:entity:organization:Israeli Defense Forces",
+      "type": "organization",
+      "name": "Israeli Defense Forces"
+    },
+    {
+      "id": "info:entity:organization:Hamas",
+      "type": "organization",
+      "name": "Hamas"
+    },
+    {
+      "id": "taxonomy/misc/humanitarian policy",
+      "type": "taxonomy",
+      "name": "humanitarian policy"
+    },
+    {
+      "id": "taxonomy/misc/technology and society",
+      "type": "taxonomy",
+      "name": "technology and society"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -30814,6 +30840,76 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-10-07-009",
+      "target": "info:entity:organization:Israeli Defense Forces",
+      "relation": "investigated the attack and faced criticism for delayed response"
+    },
+    {
+      "source": "info:item:world:global:2026-10-07-009",
+      "target": "info:entity:organization:Hamas",
+      "relation": "executed the Oct 7 assault on Nir Oz"
+    },
+    {
+      "source": "info:item:world:global:2026-10-07-009",
+      "target": "info:entity:company:OpenAI",
+      "relation": "provides AI models used for evidence analysis"
+    },
+    {
+      "source": "info:item:world:global:2026-10-07-009",
+      "target": "info:entity:company:Anthropic",
+      "relation": "offers AI tools employed by NGOs for testimony processing"
+    },
+    {
+      "source": "info:item:world:global:2026-10-07-009",
+      "target": "info:item:world:global:2026-10-07-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-07-009",
+      "target": "info:item:world:global:2026-10-07-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-07-009",
+      "target": "info:item:world:global:2026-10-07-007",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-07-009",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-07-009",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-07-009",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-07-009",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-07-009",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-07-009",
+      "target": "taxonomy/misc/humanitarian policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-07-009",
+      "target": "taxonomy/misc/technology and society",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -31077,7 +31173,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
-      "weight": "56"
+      "weight": "57"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -31316,6 +31412,18 @@
     {
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:organization:Green Party of England and Wales",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:organization:Hamas",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:organization:Israeli Defense Forces",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -32786,6 +32894,18 @@
     {
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:organization:Green Party of England and Wales",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:organization:Hamas",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:organization:Israeli Defense Forces",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -37538,6 +37658,12 @@
     {
       "source": "info:entity:organization:Gulf Cooperation Council",
       "target": "info:entity:organization:Saudi Arabia",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Hamas",
+      "target": "info:entity:organization:Israeli Defense Forces",
       "relation": "co-occurs",
       "weight": "1"
     },
