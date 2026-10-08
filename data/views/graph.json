@@ -7407,6 +7407,32 @@
       "name": "Conservative electoral strategy"
     },
     {
+      "id": "info:item:world:global:2026-10-08-006",
+      "type": "item",
+      "date": "2026-10-08",
+      "title": "US and Lebanon protecting wanted Syrian general, BBC finds"
+    },
+    {
+      "id": "info:entity:person:Bassam al‑Hassan",
+      "type": "person",
+      "name": "Bassam al‑Hassan"
+    },
+    {
+      "id": "info:entity:organization:Lebanese General Directorate of General Security",
+      "type": "organization",
+      "name": "Lebanese General Directorate of General Security"
+    },
+    {
+      "id": "taxonomy/misc/human‑rights",
+      "type": "taxonomy",
+      "name": "human‑rights"
+    },
+    {
+      "id": "taxonomy/misc/intelligence‑operations",
+      "type": "taxonomy",
+      "name": "intelligence‑operations"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -31290,6 +31316,71 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-10-08-006",
+      "target": "info:entity:person:Bassam al‑Hassan",
+      "relation": "subject of protection arrangement"
+    },
+    {
+      "source": "info:item:world:global:2026-10-08-006",
+      "target": "info:entity:person:Austin Tice",
+      "relation": "abducted journalist whose case drives the arrangement"
+    },
+    {
+      "source": "info:item:world:global:2026-10-08-006",
+      "target": "info:entity:organization:FBI",
+      "relation": "U.S. agency coordinating the deal"
+    },
+    {
+      "source": "info:item:world:global:2026-10-08-006",
+      "target": "info:entity:organization:Lebanese General Directorate of General Security",
+      "relation": "Lebanese counterpart in the arrangement"
+    },
+    {
+      "source": "info:item:world:global:2026-10-08-006",
+      "target": "info:item:world:global:2026-10-08-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-08-006",
+      "target": "info:item:world:global:2026-10-08-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-08-006",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-08-006",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-08-006",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-08-006",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-08-006",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-08-006",
+      "target": "taxonomy/misc/human‑rights",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-08-006",
+      "target": "taxonomy/misc/intelligence‑operations",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -37653,7 +37744,25 @@
     },
     {
       "source": "info:entity:organization:FBI",
+      "target": "info:entity:organization:Lebanese General Directorate of General Security",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:FBI",
       "target": "info:entity:person:Andy Burnham",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:FBI",
+      "target": "info:entity:person:Austin Tice",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:FBI",
+      "target": "info:entity:person:Bassam al‑Hassan",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -38818,6 +38927,18 @@
     {
       "source": "info:entity:organization:Lahore Deputy Commissioner Office",
       "target": "info:entity:person:Imran Khan",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Lebanese General Directorate of General Security",
+      "target": "info:entity:person:Austin Tice",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Lebanese General Directorate of General Security",
+      "target": "info:entity:person:Bassam al‑Hassan",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -41428,6 +41549,12 @@
     {
       "source": "info:entity:person:Austin Tice",
       "target": "info:entity:person:Bashar al-Assad",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Austin Tice",
+      "target": "info:entity:person:Bassam al‑Hassan",
       "relation": "co-occurs",
       "weight": "1"
     },

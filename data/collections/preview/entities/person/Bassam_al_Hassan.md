@@ -1,14 +1,13 @@
 ---
-name: "Austin Tice"
+name: "Bassam al‑Hassan"
 entity_type: person
-backlink_count: 2
+backlink_count: 1
 ---
 
-# Austin Tice
+# Bassam al‑Hassan
 
 *Type: person*
 
 ## Referenced by
 
 - 2026-10-08 · [[2026-10-08-006-us-and-lebanon-protecting-wanted-syrian-general-bbc-finds]] — US and Lebanon protecting wanted Syrian general, BBC finds
-- 2026-09-17 · [[2026-09-17-008-assad-regime-planned-us-journalist-s-kidnap-for-weeks-bbc]] — Assad regime planned US journalist's kidnap for weeks, BBC finds

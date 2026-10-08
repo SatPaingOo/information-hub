@@ -12,3 +12,11 @@
 
 2026-10-08 01:32:13,326 WARNING [products] no collect provider for deep-dive
 2026-10-08 01:32:13,802 INFO collect done: 5 item(s) published — target 5/10, next run ≈ 2026-10-09T01:00:00+00:00 UTC
+2026-10-08 07:12:00,579 INFO [world-news] published 2026-10-08-006 — US and Lebanon protecting wanted Syrian general, BBC finds
+2026-10-08 07:12:00,770 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7570, Requested 5487. Please try again in 37.9275s. Need more tokens? Upgrade to Dev Tier today at https://co
+2026-10-08 07:12:03,772 WARNING [world-news] no collect provider for deep-dive
+2026-10-08 07:12:03,874 WARNING [world-news] no collect provider for deep-dive
+2026-10-08 07:12:04,571 WARNING [tech-news] no collect provider available
+2026-10-08 07:12:04,807 WARNING [politics] no collect provider available
+2026-10-08 07:12:05,636 WARNING [products] no collect provider available
+2026-10-08 07:12:06,108 INFO collect done: 1 item(s) published — target 4/10, next run ≈ 2026-10-09T01:00:00+00:00 UTC

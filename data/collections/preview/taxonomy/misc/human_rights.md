@@ -1,7 +1,7 @@
 ---
 node: "Human Rights"
 layer: misc
-item_count: 14
+item_count: 15
 ---
 
 # Human Rights
@@ -16,6 +16,7 @@ item_count: 14
 ## Items
 
 - 2026-10-08 · [[2026-10-08-002-israelis-mourn-7-october-attack-victims-three-years-after]] — Israelis mourn 7 October attack victims three years after deadly Hamas raid
+- 2026-10-08 · [[2026-10-08-006-us-and-lebanon-protecting-wanted-syrian-general-bbc-finds]] — US and Lebanon protecting wanted Syrian general, BBC finds
 - 2026-10-07 · [[2026-10-07-004-green-member-behind-zionism-motion-named-as-close-friend]] — Green member behind Zionism motion named as 'close friend' of jailed al-Qaeda supporter in court
 - 2026-10-01 · [[2026-10-01-010-six-smugglers-jailed-for-manslaughter-over-worst-channel]] — Six smugglers jailed for manslaughter over worst Channel small boats disaster
 - 2026-09-27 · [[2026-09-27-003-german-town-bans-stumbling-stone-memorials-to-nazi-victims]] — German town bans 'stumbling stone' memorials to Nazi victims

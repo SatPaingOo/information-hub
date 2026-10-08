@@ -1,7 +1,7 @@
 ---
 node: "world"
 layer: topic
-item_count: 209
+item_count: 210
 ---
 
 # world
@@ -20,6 +20,7 @@ item_count: 209
 - 2026-10-08 · [[2026-10-08-001-spanish-pensioner-whose-eviction-sparked-nationwide]] — Spanish pensioner whose eviction sparked nationwide protests dies, union says
 - 2026-10-08 · [[2026-10-08-002-israelis-mourn-7-october-attack-victims-three-years-after]] — Israelis mourn 7 October attack victims three years after deadly Hamas raid
 - 2026-10-08 · [[2026-10-08-003-israelis-demand-accountability-over-7-october-failures]] — Israelis demand accountability over 7 October failures three years after attacks
+- 2026-10-08 · [[2026-10-08-006-us-and-lebanon-protecting-wanted-syrian-general-bbc-finds]] — US and Lebanon protecting wanted Syrian general, BBC finds
 - 2026-10-07 · [[2026-10-07-001-tear-gas-in-paris-and-marseille-as-school-protests-grow]] — Tear gas in Paris and Marseille as school protests grow across France
 - 2026-10-07 · [[2026-10-07-002-a-beautiful-himalayan-bird-is-changing-its-voice-due-to]] — A beautiful Himalayan bird is changing its voice due to human activity, research shows
 - 2026-10-07 · [[2026-10-07-007-lawyer-for-one-of-cornell-7-calls-for-special-prosecutor]] — Lawyer for one of Cornell 7 calls for special prosecutor to be removed over previous comments
