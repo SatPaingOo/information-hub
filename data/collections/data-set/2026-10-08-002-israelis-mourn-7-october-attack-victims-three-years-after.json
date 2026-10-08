@@ -118,24 +118,29 @@
   ],
   "grounding": {
     "checked_by": {
-      "provider": "lexical",
+      "provider": "web",
       "model": "lexical",
       "search_tool": null
     },
-    "checked_at": "2026-10-08T07:57:56+00:00",
-    "grounding_score": 0.833,
+    "checked_at": "2026-10-08T15:32:05+00:00",
+    "grounding_score": 1.0,
     "claims_total": 6,
-    "claims_grounded": 5,
-    "sources_verified": [],
-    "method": "lexical"
+    "claims_grounded": 6,
+    "sources_verified": [
+      {
+        "url": "https://www.facebook.com/",
+        "title": "On October 7, 2023, militants from Hamas and other groups launched the deadliest terror attack in Israel's history, killing around 1,200 people and taking 251 h"
+      }
+    ],
+    "method": "web"
   },
   "review": {
     "status": "verified",
     "approved_by": {
       "type": "ai",
-      "provider": "lexical",
+      "provider": "web",
       "model": "lexical"
     },
-    "approved_at": "2026-10-08T07:57:56+00:00"
+    "approved_at": "2026-10-08T15:32:05+00:00"
   }
 }
