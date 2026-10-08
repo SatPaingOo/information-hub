@@ -1,7 +1,7 @@
 ---
 node: "Policy"
 layer: misc
-item_count: 290
+item_count: 291
 ---
 
 # Policy
@@ -23,6 +23,7 @@ item_count: 290
 - 2026-10-08 · [[2026-10-08-004-burnham-to-hold-security-talks-with-german-chancellor-in]] — Burnham to hold security talks with German chancellor in Berlin
 - 2026-10-08 · [[2026-10-08-005-badenoch-says-tories-would-scrap-inheritance-tax-on-family]] — Badenoch says Tories would scrap inheritance tax on family homes
 - 2026-10-08 · [[2026-10-08-006-us-and-lebanon-protecting-wanted-syrian-general-bbc-finds]] — US and Lebanon protecting wanted Syrian general, BBC finds
+- 2026-10-08 · [[2026-10-08-007-uk-says-vital-services-to-continue-in-east-jerusalem-as]] — UK says 'vital services' to continue in East Jerusalem as Israel says most consulate diplomats leaving
 - 2026-10-07 · [[2026-10-07-001-tear-gas-in-paris-and-marseille-as-school-protests-grow]] — Tear gas in Paris and Marseille as school protests grow across France
 - 2026-10-07 · [[2026-10-07-002-a-beautiful-himalayan-bird-is-changing-its-voice-due-to]] — A beautiful Himalayan bird is changing its voice due to human activity, research shows
 - 2026-10-07 · [[2026-10-07-003-i-d-rather-have-another-election-than-do-a-deal-with]] — I'd rather have another election than do a deal with Reform UK, says Badenoch

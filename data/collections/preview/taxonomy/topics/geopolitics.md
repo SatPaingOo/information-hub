@@ -1,7 +1,7 @@
 ---
 node: "geopolitics"
 layer: topic
-item_count: 82
+item_count: 83
 ---
 
 # geopolitics
@@ -27,6 +27,7 @@ item_count: 82
 - 2026-10-08 · [[2026-10-08-003-israelis-demand-accountability-over-7-october-failures]] — Israelis demand accountability over 7 October failures three years after attacks
 - 2026-10-08 · [[2026-10-08-004-burnham-to-hold-security-talks-with-german-chancellor-in]] — Burnham to hold security talks with German chancellor in Berlin
 - 2026-10-08 · [[2026-10-08-006-us-and-lebanon-protecting-wanted-syrian-general-bbc-finds]] — US and Lebanon protecting wanted Syrian general, BBC finds
+- 2026-10-08 · [[2026-10-08-007-uk-says-vital-services-to-continue-in-east-jerusalem-as]] — UK says 'vital services' to continue in East Jerusalem as Israel says most consulate diplomats leaving
 - 2026-10-07 · [[2026-10-07-003-i-d-rather-have-another-election-than-do-a-deal-with]] — I'd rather have another election than do a deal with Reform UK, says Badenoch
 - 2026-10-07 · [[2026-10-07-009-residents-of-kibbutz-destroyed-in-7-october-hamas-led]] — Residents of kibbutz destroyed in 7 October Hamas‑led attacks grapple with how to rebuild
 - 2026-10-06 · [[2026-10-06-005-tories-pledge-10bn-british-iron-dome-air-defence-system]] — Tories pledge £10bn British 'Iron Dome' air defence system

@@ -1,7 +1,7 @@
 ---
 node: "International Law"
 layer: misc
-item_count: 6
+item_count: 7
 ---
 
 # International Law
@@ -15,6 +15,7 @@ item_count: 6
 
 ## Items
 
+- 2026-10-08 · [[2026-10-08-007-uk-says-vital-services-to-continue-in-east-jerusalem-as]] — UK says 'vital services' to continue in East Jerusalem as Israel says most consulate diplomats leaving
 - 2026-09-27 · [[2026-09-27-008-iran-says-it-will-wait-for-official-us-response-after]] — Iran says it will wait for official US response after Trump rejects Strait of Hormuz proposal
 - 2026-09-18 · [[2026-09-18-003-un-experts-say-grounds-to-believe-us-committed-war-crimes]] — UN experts say grounds to believe US committed war crimes in Iran strikes
 - 2026-09-09 · [[2026-09-09-007-constantly-on-my-mind-9-11-agony-goes-on-for-bereaved-25]] — ‘Constantly on my mind’ – 9/11 agony goes on for bereaved, 25 years on

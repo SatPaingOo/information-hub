@@ -7433,6 +7433,27 @@
       "name": "intelligence‑operations"
     },
     {
+      "id": "info:item:world:global:2026-10-08-007",
+      "type": "item",
+      "date": "2026-10-08",
+      "title": "UK says 'vital services' to continue in East Jerusalem as Israel says most consulate diplomats leaving"
+    },
+    {
+      "id": "info:entity:organization:Foreign, Commonwealth & Development Office (FCDO)",
+      "type": "organization",
+      "name": "Foreign, Commonwealth & Development Office (FCDO)"
+    },
+    {
+      "id": "info:entity:region:East Jerusalem",
+      "type": "region",
+      "name": "East Jerusalem"
+    },
+    {
+      "id": "taxonomy/misc/humanitarian aid",
+      "type": "taxonomy",
+      "name": "humanitarian aid"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -31381,6 +31402,71 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-10-08-007",
+      "target": "info:entity:person:Ed Miliband",
+      "relation": "UK Foreign Secretary who announced the temporary withdrawal"
+    },
+    {
+      "source": "info:item:world:global:2026-10-08-007",
+      "target": "info:entity:person:Gideon Saar",
+      "relation": "Israeli Foreign Minister who announced the consulate’s operational changes"
+    },
+    {
+      "source": "info:item:world:global:2026-10-08-007",
+      "target": "info:entity:organization:Foreign, Commonwealth & Development Office (FCDO)",
+      "relation": "UK department managing the diplomatic mission"
+    },
+    {
+      "source": "info:item:world:global:2026-10-08-007",
+      "target": "info:entity:region:East Jerusalem",
+      "relation": "Location of the contested consulate"
+    },
+    {
+      "source": "info:item:world:global:2026-10-08-007",
+      "target": "info:item:world:global:2026-10-08-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-08-007",
+      "target": "info:item:world:global:2026-10-08-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-08-007",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-08-007",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-08-007",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-08-007",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-08-007",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-08-007",
+      "target": "taxonomy/misc/international law",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-08-007",
+      "target": "taxonomy/misc/humanitarian aid",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -37893,6 +37979,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Foreign, Commonwealth & Development Office (FCDO)",
+      "target": "info:entity:person:Ed Miliband",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Foreign, Commonwealth & Development Office (FCDO)",
+      "target": "info:entity:person:Gideon Saar",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Foreign, Commonwealth & Development Office (FCDO)",
+      "target": "info:entity:region:East Jerusalem",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Fortum",
       "target": "info:entity:person:Petteri Orpo",
       "relation": "co-occurs",
@@ -42324,7 +42428,13 @@
       "source": "info:entity:person:Ed Miliband",
       "target": "info:entity:person:Gideon Saar",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
+    },
+    {
+      "source": "info:entity:person:Ed Miliband",
+      "target": "info:entity:region:East Jerusalem",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:person:Ed Miliband",
@@ -42461,6 +42571,12 @@
     {
       "source": "info:entity:person:Friedrich Merz",
       "target": "info:entity:region:Russia",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Gideon Saar",
+      "target": "info:entity:region:East Jerusalem",
       "relation": "co-occurs",
       "weight": "1"
     },
