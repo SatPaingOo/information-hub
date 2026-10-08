@@ -1,7 +1,7 @@
 ---
 node: "politics"
 layer: topic
-item_count: 119
+item_count: 122
 ---
 
 # politics
@@ -17,6 +17,9 @@ item_count: 119
 
 ## Items
 
+- 2026-10-08 · [[2026-10-08-004-burnham-to-hold-security-talks-with-german-chancellor-in]] — Burnham to hold security talks with German chancellor in Berlin
+- 2026-10-08 · [[2026-10-08-004-burnham-to-hold-security-talks-with-german-chancellor-in]] — Burnham to hold security talks with German chancellor in Berlin
+- 2026-10-08 · [[2026-10-08-005-badenoch-says-tories-would-scrap-inheritance-tax-on-family]] — Badenoch says Tories would scrap inheritance tax on family homes
 - 2026-10-07 · [[2026-10-07-003-i-d-rather-have-another-election-than-do-a-deal-with]] — I'd rather have another election than do a deal with Reform UK, says Badenoch
 - 2026-10-07 · [[2026-10-07-003-i-d-rather-have-another-election-than-do-a-deal-with]] — I'd rather have another election than do a deal with Reform UK, says Badenoch
 - 2026-10-07 · [[2026-10-07-004-green-member-behind-zionism-motion-named-as-close-friend]] — Green member behind Zionism motion named as 'close friend' of jailed al-Qaeda supporter in court

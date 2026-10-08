@@ -1,7 +1,7 @@
 ---
 name: "Conservative Party"
 entity_type: organization
-backlink_count: 10
+backlink_count: 11
 ---
 
 # Conservative Party
@@ -10,6 +10,7 @@ backlink_count: 10
 
 ## Referenced by
 
+- 2026-10-08 · [[2026-10-08-005-badenoch-says-tories-would-scrap-inheritance-tax-on-family]] — Badenoch says Tories would scrap inheritance tax on family homes
 - 2026-10-06 · [[2026-10-06-005-tories-pledge-10bn-british-iron-dome-air-defence-system]] — Tories pledge £10bn British 'Iron Dome' air defence system
 - 2026-10-05 · [[2026-10-05-005-i-m-a-classic-old-school-conservative-says-kemi-badenoch]] — I'm a classic old school Conservative, says Kemi Badenoch
 - 2026-10-04 · [[2026-10-04-004-tories-pledge-to-remove-100-000-childcare-cliff-edge]] — Tories pledge to remove £100,000 childcare 'cliff edge'

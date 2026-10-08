@@ -7332,6 +7332,81 @@
       "name": "technology and society"
     },
     {
+      "id": "info:item:world:global:2026-10-08-001",
+      "type": "item",
+      "date": "2026-10-08",
+      "title": "Spanish pensioner whose eviction sparked nationwide protests dies, union says"
+    },
+    {
+      "id": "info:entity:company:Urbagestión",
+      "type": "company",
+      "name": "Urbagestión"
+    },
+    {
+      "id": "info:entity:organization:Madrid Tenants' Union",
+      "type": "organization",
+      "name": "Madrid Tenants' Union"
+    },
+    {
+      "id": "taxonomy/misc/Spain",
+      "type": "taxonomy",
+      "name": "Spain"
+    },
+    {
+      "id": "info:item:world:global:2026-10-08-002",
+      "type": "item",
+      "date": "2026-10-08",
+      "title": "Israelis mourn 7 October attack victims three years after deadly Hamas raid"
+    },
+    {
+      "id": "info:item:world:global:2026-10-08-003",
+      "type": "item",
+      "date": "2026-10-08",
+      "title": "Israelis demand accountability over 7 October failures three years after attacks"
+    },
+    {
+      "id": "taxonomy/misc/global security",
+      "type": "taxonomy",
+      "name": "global security"
+    },
+    {
+      "id": "info:item:politics:global:2026-10-08-004",
+      "type": "item",
+      "date": "2026-10-08",
+      "title": "Burnham to hold security talks with German chancellor in Berlin"
+    },
+    {
+      "id": "info:entity:organization:German Federal Intelligence Service (BND)",
+      "type": "organization",
+      "name": "German Federal Intelligence Service (BND)"
+    },
+    {
+      "id": "info:entity:region:Russia",
+      "type": "region",
+      "name": "Russia"
+    },
+    {
+      "id": "info:item:politics:global:2026-10-08-005",
+      "type": "item",
+      "date": "2026-10-08",
+      "title": "Badenoch says Tories would scrap inheritance tax on family homes"
+    },
+    {
+      "id": "taxonomy/misc/inheritance tax reform",
+      "type": "taxonomy",
+      "name": "inheritance tax reform"
+    },
+    {
+      "id": "taxonomy/misc/UK fiscal policy",
+      "type": "taxonomy",
+      "name": "UK fiscal policy"
+    },
+    {
+      "id": "taxonomy/misc/Conservative electoral strategy",
+      "type": "taxonomy",
+      "name": "Conservative electoral strategy"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -30910,6 +30985,311 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-10-08-001",
+      "target": "info:entity:person:Maricarmen Abascal",
+      "relation": "victim of eviction; symbol of housing crisis"
+    },
+    {
+      "source": "info:item:world:global:2026-10-08-001",
+      "target": "info:entity:company:Urbagestión",
+      "relation": "property owner that raised rent leading to eviction"
+    },
+    {
+      "source": "info:item:world:global:2026-10-08-001",
+      "target": "info:entity:person:Pedro Sánchez",
+      "relation": "Prime Minister of Spain; called snap election"
+    },
+    {
+      "source": "info:item:world:global:2026-10-08-001",
+      "target": "info:entity:organization:Madrid Tenants' Union",
+      "relation": "advocated for Abascal; announced her death"
+    },
+    {
+      "source": "info:item:world:global:2026-10-08-001",
+      "target": "info:item:world:global:2026-10-07-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-08-001",
+      "target": "info:item:world:global:2026-10-07-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-08-001",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-08-001",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-08-001",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-08-001",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-08-001",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-08-001",
+      "target": "taxonomy/misc/housing",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-08-001",
+      "target": "taxonomy/misc/Spain",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-08-002",
+      "target": "info:entity:person:Benjamin Netanyahu",
+      "relation": "Prime Minister of Israel, responded to memorial events and rejected independent inquiry"
+    },
+    {
+      "source": "info:item:world:global:2026-10-08-002",
+      "target": "info:entity:organization:Hamas",
+      "relation": "Perpetrator of the 7 October 2023 attack"
+    },
+    {
+      "source": "info:item:world:global:2026-10-08-002",
+      "target": "info:entity:organization:Israeli Defense Forces",
+      "relation": "Responsible for security response and ongoing operations in Gaza"
+    },
+    {
+      "source": "info:item:world:global:2026-10-08-002",
+      "target": "info:entity:organization:United Nations",
+      "relation": "Credible source for casualty figures in Gaza"
+    },
+    {
+      "source": "info:item:world:global:2026-10-08-002",
+      "target": "info:item:world:global:2026-10-08-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-08-002",
+      "target": "info:item:world:global:2026-10-07-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-08-002",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-08-002",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-08-002",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-08-002",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-08-002",
+      "target": "taxonomy/misc/Geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-08-002",
+      "target": "taxonomy/misc/Middle East",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-08-002",
+      "target": "taxonomy/misc/Human Rights",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-08-003",
+      "target": "info:entity:person:Benjamin Netanyahu",
+      "relation": "Prime Minister of Israel during the 7 October attacks, currently running for re‑election"
+    },
+    {
+      "source": "info:item:world:global:2026-10-08-003",
+      "target": "info:entity:organization:Hamas",
+      "relation": "Perpetrator of the 7 October 2023 attacks"
+    },
+    {
+      "source": "info:item:world:global:2026-10-08-003",
+      "target": "info:item:world:global:2026-10-08-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-08-003",
+      "target": "info:item:world:global:2026-10-08-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-08-003",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-08-003",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-08-003",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-08-003",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-08-003",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-08-003",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-08-003",
+      "target": "taxonomy/misc/global security",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-08-004",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "UK Prime Minister leading security talks"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-08-004",
+      "target": "info:entity:person:Friedrich Merz",
+      "relation": "German Chancellor engaged in security dialogue"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-08-004",
+      "target": "info:entity:organization:German Federal Intelligence Service (BND)",
+      "relation": "agency involved in threat assessment and implicated in espionage case"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-08-004",
+      "target": "info:entity:region:Russia",
+      "relation": "source of hybrid threats driving UK‑German cooperation"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-08-004",
+      "target": "info:item:politics:global:2026-10-07-003",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-08-004",
+      "target": "info:item:politics:global:2026-10-06-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-08-004",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-08-004",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-08-004",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-08-004",
+      "target": "taxonomy/topic/politics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-08-004",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-08-004",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-08-005",
+      "target": "info:entity:person:Kemi Badenoch",
+      "relation": "Conservative Party leader who announced the inheritance‑tax plan"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-08-005",
+      "target": "info:entity:organization:Labour Party",
+      "relation": "principal opposition critic of the IHT proposal"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-08-005",
+      "target": "info:entity:organization:Reform UK",
+      "relation": "opposition party offering alternative tax‑cut policies"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-08-005",
+      "target": "info:entity:organization:Conservative Party",
+      "relation": "party implementing the proposed inheritance‑tax changes"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-08-005",
+      "target": "info:item:politics:global:2026-10-08-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-08-005",
+      "target": "info:item:politics:global:2026-10-07-003",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-08-005",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-08-005",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-08-005",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-08-005",
+      "target": "taxonomy/misc/inheritance tax reform",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-08-005",
+      "target": "taxonomy/misc/UK fiscal policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-08-005",
+      "target": "taxonomy/misc/Conservative electoral strategy",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -33578,6 +33958,24 @@
     {
       "source": "info:entity:company:TikTok",
       "target": "info:entity:person:Donald Trump",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Urbagestión",
+      "target": "info:entity:organization:Madrid Tenants' Union",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Urbagestión",
+      "target": "info:entity:person:Maricarmen Abascal",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Urbagestión",
+      "target": "info:entity:person:Pedro Sánchez",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -36705,7 +37103,7 @@
       "source": "info:entity:organization:Conservative Party",
       "target": "info:entity:organization:Labour Party",
       "relation": "co-occurs",
-      "weight": "7"
+      "weight": "8"
     },
     {
       "source": "info:entity:organization:Conservative Party",
@@ -36723,7 +37121,7 @@
       "source": "info:entity:organization:Conservative Party",
       "target": "info:entity:organization:Reform UK",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Conservative Party",
@@ -36777,7 +37175,7 @@
       "source": "info:entity:organization:Conservative Party",
       "target": "info:entity:person:Kemi Badenoch",
       "relation": "co-occurs",
-      "weight": "7"
+      "weight": "8"
     },
     {
       "source": "info:entity:organization:Conservative Party",
@@ -37434,6 +37832,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:German Federal Intelligence Service (BND)",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:German Federal Intelligence Service (BND)",
+      "target": "info:entity:person:Friedrich Merz",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:German Federal Intelligence Service (BND)",
+      "target": "info:entity:region:Russia",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:German Government",
       "target": "info:entity:organization:NATO",
       "relation": "co-occurs",
@@ -37665,7 +38081,19 @@
       "source": "info:entity:organization:Hamas",
       "target": "info:entity:organization:Israeli Defense Forces",
       "relation": "co-occurs",
+      "weight": "2"
+    },
+    {
+      "source": "info:entity:organization:Hamas",
+      "target": "info:entity:organization:United Nations",
+      "relation": "co-occurs",
       "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Hamas",
+      "target": "info:entity:person:Benjamin Netanyahu",
+      "relation": "co-occurs",
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:HarperCollins",
@@ -38154,6 +38582,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Israeli Defense Forces",
+      "target": "info:entity:organization:United Nations",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Israeli Defense Forces",
+      "target": "info:entity:person:Benjamin Netanyahu",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Jaguar Land Rover",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
@@ -38247,7 +38687,7 @@
       "source": "info:entity:organization:Labour Party",
       "target": "info:entity:organization:Reform UK",
       "relation": "co-occurs",
-      "weight": "4"
+      "weight": "5"
     },
     {
       "source": "info:entity:organization:Labour Party",
@@ -38325,7 +38765,7 @@
       "source": "info:entity:organization:Labour Party",
       "target": "info:entity:person:Kemi Badenoch",
       "relation": "co-occurs",
-      "weight": "8"
+      "weight": "9"
     },
     {
       "source": "info:entity:organization:Labour Party",
@@ -38510,6 +38950,18 @@
     {
       "source": "info:entity:organization:MS NOW",
       "target": "info:entity:person:Xi Jinping",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Madrid Tenants' Union",
+      "target": "info:entity:person:Maricarmen Abascal",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Madrid Tenants' Union",
+      "target": "info:entity:person:Pedro Sánchez",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -39315,7 +39767,7 @@
       "source": "info:entity:organization:Reform UK",
       "target": "info:entity:person:Kemi Badenoch",
       "relation": "co-occurs",
-      "weight": "5"
+      "weight": "6"
     },
     {
       "source": "info:entity:organization:Reform UK",
@@ -40215,7 +40667,7 @@
       "source": "info:entity:organization:United Nations",
       "target": "info:entity:person:Benjamin Netanyahu",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:United Nations",
@@ -40687,6 +41139,12 @@
     },
     {
       "source": "info:entity:person:Andy Burnham",
+      "target": "info:entity:person:Friedrich Merz",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Andy Burnham",
       "target": "info:entity:person:Gordon Brown",
       "relation": "co-occurs",
       "weight": "1"
@@ -40862,6 +41320,12 @@
     {
       "source": "info:entity:person:Andy Burnham",
       "target": "info:entity:region:Iran",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Andy Burnham",
+      "target": "info:entity:region:Russia",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -41868,6 +42332,12 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:person:Friedrich Merz",
+      "target": "info:entity:region:Russia",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:person:Gideon Saar",
       "target": "info:entity:region:West Bank",
       "relation": "co-occurs",
@@ -42387,7 +42857,7 @@
       "source": "info:entity:person:Maricarmen Abascal",
       "target": "info:entity:person:Pedro Sánchez",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:person:Marine Le Pen",

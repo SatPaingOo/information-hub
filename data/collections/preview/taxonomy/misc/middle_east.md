@@ -1,7 +1,7 @@
 ---
 node: "Middle East"
 layer: misc
-item_count: 7
+item_count: 8
 ---
 
 # Middle East
@@ -16,6 +16,7 @@ item_count: 7
 
 ## Items
 
+- 2026-10-08 · [[2026-10-08-002-israelis-mourn-7-october-attack-victims-three-years-after]] — Israelis mourn 7 October attack victims three years after deadly Hamas raid
 - 2026-10-07 · [[2026-10-07-004-green-member-behind-zionism-motion-named-as-close-friend]] — Green member behind Zionism motion named as 'close friend' of jailed al-Qaeda supporter in court
 - 2026-09-20 · [[2026-09-20-002-houthis-say-they-targeted-saudi-capital-with-ballistic]] — Houthis say they targeted Saudi capital with ballistic missiles
 - 2026-09-06 · [[2026-09-06-002-us-and-iran-trade-retaliatory-attacks-on-ships-as-conflict]] — US and Iran trade retaliatory attacks on ships as conflict flares

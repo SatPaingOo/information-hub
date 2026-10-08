@@ -1,0 +1,14 @@
+2026-10-08 01:23:37,642 INFO [world-news] published 2026-10-08-001 — Spanish pensioner whose eviction sparked nationwide protests
+2026-10-08 01:24:38,617 INFO [world-news] published 2026-10-08-002 — Israelis mourn 7 October attack victims three years after de
+2026-10-08 01:26:15,257 ERROR [world-news] generate error: empty model content
+2026-10-08 01:26:47,708 INFO [world-news] attempt 2 invalid: ["related_taxonomy/0: 'regions' is not of type 'object'", "related_taxonomy/1: 'topics' is not of type 'object'"]
+2026-10-08 01:28:36,844 INFO [world-news] published 2026-10-08-003 — Israelis demand accountability over 7 October failures three
+2026-10-08 01:28:55,692 INFO [tech-news] nothing selected
+2026-10-08 01:30:19,145 INFO [politics] published 2026-10-08-004 — Burnham to hold security talks with German chancellor in Ber
+2026-10-08 01:31:48,198 INFO [politics] published 2026-10-08-005 — Badenoch says Tories would scrap inheritance tax on family h
+2026-10-08 01:31:55,298 INFO [products] attempt 1 invalid: [": 'tags' is a required property", ": 'related_items' is a required property"]
+2026-10-08 01:31:55,375 ERROR [products] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7007, Requested 4732. Please try again in 28.0425s. Need more tokens? Upgrade to Dev Tier today at https://co
+2026-10-08 01:32:04,263 ERROR [products] generate error: HTTP 400: {"error":{"message":"Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":"max completion tokens reached before generating a valid document"}}
+
+2026-10-08 01:32:13,326 WARNING [products] no collect provider for deep-dive
+2026-10-08 01:32:13,802 INFO collect done: 5 item(s) published — target 5/10, next run ≈ 2026-10-09T01:00:00+00:00 UTC

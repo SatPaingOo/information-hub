@@ -1,7 +1,7 @@
 ---
 name: "Reform UK"
 entity_type: organization
-backlink_count: 25
+backlink_count: 26
 ---
 
 # Reform UK
@@ -10,6 +10,7 @@ backlink_count: 25
 
 ## Referenced by
 
+- 2026-10-08 · [[2026-10-08-005-badenoch-says-tories-would-scrap-inheritance-tax-on-family]] — Badenoch says Tories would scrap inheritance tax on family homes
 - 2026-10-07 · [[2026-10-07-003-i-d-rather-have-another-election-than-do-a-deal-with]] — I'd rather have another election than do a deal with Reform UK, says Badenoch
 - 2026-10-04 · [[2026-10-04-004-tories-pledge-to-remove-100-000-childcare-cliff-edge]] — Tories pledge to remove £100,000 childcare 'cliff edge'
 - 2026-10-03 · [[2026-10-03-004-widdecombe-suspect-charged-with-planning-terror-act]] — Widdecombe suspect charged with planning terror act against Farage

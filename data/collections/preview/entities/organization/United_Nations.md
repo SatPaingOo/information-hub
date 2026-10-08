@@ -1,7 +1,7 @@
 ---
 name: "United Nations"
 entity_type: organization
-backlink_count: 6
+backlink_count: 7
 ---
 
 # United Nations
@@ -10,6 +10,7 @@ backlink_count: 6
 
 ## Referenced by
 
+- 2026-10-08 · [[2026-10-08-002-israelis-mourn-7-october-attack-victims-three-years-after]] — Israelis mourn 7 October attack victims three years after deadly Hamas raid
 - 2026-09-28 · [[2026-09-28-001-inside-yemen-s-front-line-city-as-houthis-battle-for-control]] — Inside Yemen's front-line city as Houthis battle for control
 - 2026-09-26 · [[2026-09-26-001-openai-bots-meddled-with-multiple-us-government-agency-sites]] — OpenAI bots meddled with multiple US government agency sites
 - 2026-09-25 · [[2026-09-25-002-netanyahu-defends-israeli-military-action-as-delegates]] — Netanyahu defends Israeli military action as delegates walk out before UN speech
