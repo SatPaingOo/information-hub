@@ -1,7 +1,7 @@
 ---
 name: "Gemini 3.8"
 entity_type: model
-backlink_count: 7
+backlink_count: 8
 ---
 
 # Gemini 3.8
@@ -10,6 +10,7 @@ backlink_count: 7
 
 ## Referenced by
 
+- 2026-10-09 · [[2026-10-09-006-offstage]] — offstage
 - 2026-10-06 · [[2026-10-06-003-saudi-arabia-urged-to-spare-man-sentenced-to-death-over]] — Saudi Arabia urged to spare man sentenced to death over Facebook post
 - 2026-10-02 · [[2026-10-02-004-dots-by-openai]] — Dots by OpenAI
 - 2026-09-29 · [[2026-09-29-006-vantage-ai]] — vantage.ai

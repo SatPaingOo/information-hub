@@ -1,7 +1,7 @@
 ---
 node: "product"
 layer: category
-item_count: 82
+item_count: 83
 ---
 
 # product
@@ -19,6 +19,7 @@ item_count: 82
 
 ## Items
 
+- 2026-10-09 · [[2026-10-09-006-offstage]] — offstage
 - 2026-10-07 · [[2026-10-07-005-cosmic-ai-support-agent]] — Cosmic AI Support Agent
 - 2026-10-07 · [[2026-10-07-006-iphone-use]] — iphone-use
 - 2026-10-06 · [[2026-10-06-006-opengeni-ship-ai-agents-within-minutes-infrastructure-for]] — Opengeni: Ship AI agents within minutes. Infrastructure for Agents

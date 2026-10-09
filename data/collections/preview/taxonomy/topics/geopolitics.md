@@ -1,7 +1,7 @@
 ---
 node: "geopolitics"
 layer: topic
-item_count: 83
+item_count: 87
 ---
 
 # geopolitics
@@ -24,6 +24,10 @@ item_count: 83
 
 ## Items
 
+- 2026-10-09 · [[2026-10-09-001-suspect-linked-to-monaco-bomb-attack-on-millionaire-speaks]] — Suspect linked to Monaco bomb attack on millionaire speaks to BBC
+- 2026-10-09 · [[2026-10-09-003-ice-agent-shoots-man-in-new-york-city]] — ICE agent shoots man in New York City
+- 2026-10-09 · [[2026-10-09-004-polanski-defends-leadership-after-zionism-row-and-by]] — Polanski defends leadership after Zionism row and by‑election loss
+- 2026-10-09 · [[2026-10-09-005-labour-sees-off-green-challenge-to-win-holborn-by-election]] — Labour sees off Green challenge to win Holborn by-election
 - 2026-10-08 · [[2026-10-08-003-israelis-demand-accountability-over-7-october-failures]] — Israelis demand accountability over 7 October failures three years after attacks
 - 2026-10-08 · [[2026-10-08-004-burnham-to-hold-security-talks-with-german-chancellor-in]] — Burnham to hold security talks with German chancellor in Berlin
 - 2026-10-08 · [[2026-10-08-006-us-and-lebanon-protecting-wanted-syrian-general-bbc-finds]] — US and Lebanon protecting wanted Syrian general, BBC finds

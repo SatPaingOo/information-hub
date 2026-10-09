@@ -1,7 +1,7 @@
 ---
 name: "OpenAI"
 entity_type: company
-backlink_count: 108
+backlink_count: 110
 ---
 
 # OpenAI
@@ -10,6 +10,8 @@ backlink_count: 108
 
 ## Referenced by
 
+- 2026-10-09 · [[2026-10-09-005-labour-sees-off-green-challenge-to-win-holborn-by-election]] — Labour sees off Green challenge to win Holborn by-election
+- 2026-10-09 · [[2026-10-09-006-offstage]] — offstage
 - 2026-10-07 · [[2026-10-07-002-a-beautiful-himalayan-bird-is-changing-its-voice-due-to]] — A beautiful Himalayan bird is changing its voice due to human activity, research shows
 - 2026-10-07 · [[2026-10-07-005-cosmic-ai-support-agent]] — Cosmic AI Support Agent
 - 2026-10-07 · [[2026-10-07-009-residents-of-kibbutz-destroyed-in-7-october-hamas-led]] — Residents of kibbutz destroyed in 7 October Hamas‑led attacks grapple with how to rebuild

@@ -1,7 +1,7 @@
 ---
 node: "Agentic AI"
 layer: misc
-item_count: 73
+item_count: 74
 ---
 
 # Agentic AI
@@ -17,6 +17,7 @@ item_count: 73
 
 ## Items
 
+- 2026-10-09 · [[2026-10-09-006-offstage]] — offstage
 - 2026-10-07 · [[2026-10-07-005-cosmic-ai-support-agent]] — Cosmic AI Support Agent
 - 2026-10-07 · [[2026-10-07-006-iphone-use]] — iphone-use
 - 2026-10-06 · [[2026-10-06-003-saudi-arabia-urged-to-spare-man-sentenced-to-death-over]] — Saudi Arabia urged to spare man sentenced to death over Facebook post

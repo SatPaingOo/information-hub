@@ -1,7 +1,7 @@
 ---
 name: "Labour Party"
 entity_type: organization
-backlink_count: 22
+backlink_count: 23
 ---
 
 # Labour Party
@@ -10,6 +10,7 @@ backlink_count: 22
 
 ## Referenced by
 
+- 2026-10-09 · [[2026-10-09-005-labour-sees-off-green-challenge-to-win-holborn-by-election]] — Labour sees off Green challenge to win Holborn by-election
 - 2026-10-08 · [[2026-10-08-005-badenoch-says-tories-would-scrap-inheritance-tax-on-family]] — Badenoch says Tories would scrap inheritance tax on family homes
 - 2026-10-07 · [[2026-10-07-003-i-d-rather-have-another-election-than-do-a-deal-with]] — I'd rather have another election than do a deal with Reform UK, says Badenoch
 - 2026-10-05 · [[2026-10-05-005-i-m-a-classic-old-school-conservative-says-kemi-badenoch]] — I'm a classic old school Conservative, says Kemi Badenoch

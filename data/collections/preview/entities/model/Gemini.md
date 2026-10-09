@@ -1,7 +1,7 @@
 ---
 name: "Gemini"
 entity_type: model
-backlink_count: 47
+backlink_count: 48
 ---
 
 # Gemini
@@ -10,6 +10,7 @@ backlink_count: 47
 
 ## Referenced by
 
+- 2026-10-09 · [[2026-10-09-005-labour-sees-off-green-challenge-to-win-holborn-by-election]] — Labour sees off Green challenge to win Holborn by-election
 - 2026-10-07 · [[2026-10-07-002-a-beautiful-himalayan-bird-is-changing-its-voice-due-to]] — A beautiful Himalayan bird is changing its voice due to human activity, research shows
 - 2026-10-07 · [[2026-10-07-008-finland-orders-halt-to-work-on-two-google-data-centres]] — Finland orders halt to work on two Google data centres
 - 2026-10-05 · [[2026-10-05-003-brazil-election-goes-to-run-off-as-right-wing-fl-vio]] — Brazil election goes to run-off as right-wing Flávio Bolsonaro wins first round

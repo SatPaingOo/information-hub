@@ -1,7 +1,7 @@
 ---
 name: "Donald Trump"
 entity_type: person
-backlink_count: 55
+backlink_count: 56
 ---
 
 # Donald Trump
@@ -10,6 +10,7 @@ backlink_count: 55
 
 ## Referenced by
 
+- 2026-10-09 · [[2026-10-09-003-ice-agent-shoots-man-in-new-york-city]] — ICE agent shoots man in New York City
 - 2026-10-06 · [[2026-10-06-001-trump-says-threat-led-us-to-pull-bombers-from-raf-fairford]] — Trump says 'threat' led US to pull bombers from RAF Fairford
 - 2026-10-03 · [[2026-10-03-001-g7-to-release-millions-of-barrels-of-oil-and-diesel-after]] — G7 to release millions of barrels of oil and diesel after Trump threat
 - 2026-10-02 · [[2026-10-02-001-trump-s-ai-rebrand-causes-unprecedented-demand-for]] — Trump's AI rebrand causes 'unprecedented' demand for Slovenian website names

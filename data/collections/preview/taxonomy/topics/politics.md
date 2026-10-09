@@ -1,7 +1,7 @@
 ---
 node: "politics"
 layer: topic
-item_count: 122
+item_count: 126
 ---
 
 # politics
@@ -17,6 +17,10 @@ item_count: 122
 
 ## Items
 
+- 2026-10-09 · [[2026-10-09-004-polanski-defends-leadership-after-zionism-row-and-by]] — Polanski defends leadership after Zionism row and by‑election loss
+- 2026-10-09 · [[2026-10-09-004-polanski-defends-leadership-after-zionism-row-and-by]] — Polanski defends leadership after Zionism row and by‑election loss
+- 2026-10-09 · [[2026-10-09-005-labour-sees-off-green-challenge-to-win-holborn-by-election]] — Labour sees off Green challenge to win Holborn by-election
+- 2026-10-09 · [[2026-10-09-005-labour-sees-off-green-challenge-to-win-holborn-by-election]] — Labour sees off Green challenge to win Holborn by-election
 - 2026-10-08 · [[2026-10-08-004-burnham-to-hold-security-talks-with-german-chancellor-in]] — Burnham to hold security talks with German chancellor in Berlin
 - 2026-10-08 · [[2026-10-08-004-burnham-to-hold-security-talks-with-german-chancellor-in]] — Burnham to hold security talks with German chancellor in Berlin
 - 2026-10-08 · [[2026-10-08-005-badenoch-says-tories-would-scrap-inheritance-tax-on-family]] — Badenoch says Tories would scrap inheritance tax on family homes

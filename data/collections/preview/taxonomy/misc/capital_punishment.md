@@ -1,7 +1,7 @@
 ---
 node: "capital punishment"
 layer: misc
-item_count: 1
+item_count: 2
 ---
 
 # capital punishment
@@ -14,4 +14,5 @@ item_count: 1
 
 ## Items
 
+- 2026-10-09 · [[2026-10-09-002-firing-squad-execution-to-be-livestreamed-pentagon-says]] — Firing squad execution to be livestreamed, Pentagon says
 - 2026-10-01 · [[2026-10-01-001-us-death-row-inmate-christa-pike-taken-to-hospital-after]] — US death row inmate Christa Pike taken to hospital after surviving two lethal injections, says lawyer

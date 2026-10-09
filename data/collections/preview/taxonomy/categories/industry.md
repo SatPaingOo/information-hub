@@ -1,7 +1,7 @@
 ---
 node: "industry"
 layer: category
-item_count: 235
+item_count: 239
 ---
 
 # industry
@@ -20,6 +20,10 @@ item_count: 235
 
 ## Items
 
+- 2026-10-09 · [[2026-10-09-001-suspect-linked-to-monaco-bomb-attack-on-millionaire-speaks]] — Suspect linked to Monaco bomb attack on millionaire speaks to BBC
+- 2026-10-09 · [[2026-10-09-001-suspect-linked-to-monaco-bomb-attack-on-millionaire-speaks]] — Suspect linked to Monaco bomb attack on millionaire speaks to BBC
+- 2026-10-09 · [[2026-10-09-002-firing-squad-execution-to-be-livestreamed-pentagon-says]] — Firing squad execution to be livestreamed, Pentagon says
+- 2026-10-09 · [[2026-10-09-003-ice-agent-shoots-man-in-new-york-city]] — ICE agent shoots man in New York City
 - 2026-10-08 · [[2026-10-08-001-spanish-pensioner-whose-eviction-sparked-nationwide]] — Spanish pensioner whose eviction sparked nationwide protests dies, union says
 - 2026-10-08 · [[2026-10-08-002-israelis-mourn-7-october-attack-victims-three-years-after]] — Israelis mourn 7 October attack victims three years after deadly Hamas raid
 - 2026-10-08 · [[2026-10-08-003-israelis-demand-accountability-over-7-october-failures]] — Israelis demand accountability over 7 October failures three years after attacks

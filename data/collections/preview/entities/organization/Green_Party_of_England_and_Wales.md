@@ -1,7 +1,7 @@
 ---
 name: "Green Party of England and Wales"
 entity_type: organization
-backlink_count: 6
+backlink_count: 7
 ---
 
 # Green Party of England and Wales
@@ -10,6 +10,7 @@ backlink_count: 6
 
 ## Referenced by
 
+- 2026-10-09 · [[2026-10-09-004-polanski-defends-leadership-after-zionism-row-and-by]] — Polanski defends leadership after Zionism row and by‑election loss
 - 2026-10-07 · [[2026-10-07-004-green-member-behind-zionism-motion-named-as-close-friend]] — Green member behind Zionism motion named as 'close friend' of jailed al-Qaeda supporter in court
 - 2026-10-05 · [[2026-10-05-004-polanski-banned-from-israel-after-party-s-motion-declaring]] — Polanski banned from Israel after party's motion declaring 'Zionism is racism'
 - 2026-10-04 · [[2026-10-04-005-greens-would-offer-two-year-jobs-to-unemployed-under-24s]] — Greens would offer two-year jobs to unemployed under-24s
