@@ -7599,6 +7599,27 @@
       "name": "liberal democrats"
     },
     {
+      "id": "info:item:world:global:2026-10-10-005",
+      "type": "item",
+      "date": "2026-10-10",
+      "title": "Flydubai attacker began a ‘drift towards extremism and terrorism’ in Australia, UAE says"
+    },
+    {
+      "id": "info:entity:organization:RMIT University",
+      "type": "organization",
+      "name": "RMIT University"
+    },
+    {
+      "id": "info:entity:concept:AI‑driven risk analytics",
+      "type": "concept",
+      "name": "AI‑driven risk analytics"
+    },
+    {
+      "id": "taxonomy/misc/Security Policy",
+      "type": "taxonomy",
+      "name": "Security Policy"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -32257,6 +32278,76 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-10-10-005",
+      "target": "info:entity:person:Hamam al‑Hammami",
+      "relation": "suspected attacker"
+    },
+    {
+      "source": "info:item:world:global:2026-10-10-005",
+      "target": "info:entity:person:Captain Smit Machchhar",
+      "relation": "crew member who helped subdue attacker"
+    },
+    {
+      "source": "info:item:world:global:2026-10-10-005",
+      "target": "info:entity:organization:Flydubai",
+      "relation": "airline operating the flight"
+    },
+    {
+      "source": "info:item:world:global:2026-10-10-005",
+      "target": "info:entity:organization:RMIT University",
+      "relation": "institution where radicalisation allegedly began"
+    },
+    {
+      "source": "info:item:world:global:2026-10-10-005",
+      "target": "info:entity:concept:AI‑driven risk analytics",
+      "relation": "proposed tool for future security screening"
+    },
+    {
+      "source": "info:item:world:global:2026-10-10-005",
+      "target": "info:item:world:global:2026-10-10-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-10-005",
+      "target": "info:item:world:global:2026-10-10-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-10-005",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-10-005",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-10-005",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-10-005",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-10-005",
+      "target": "taxonomy/misc/Geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-10-005",
+      "target": "taxonomy/misc/Regulation",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-10-005",
+      "target": "taxonomy/misc/Security Policy",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -35081,6 +35172,30 @@
     {
       "source": "info:entity:concept:AI tsar",
       "target": "info:entity:product:Gemini",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:AI‑driven risk analytics",
+      "target": "info:entity:organization:Flydubai",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:AI‑driven risk analytics",
+      "target": "info:entity:organization:RMIT University",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:AI‑driven risk analytics",
+      "target": "info:entity:person:Captain Smit Machchhar",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:AI‑driven risk analytics",
+      "target": "info:entity:person:Hamam al‑Hammami",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -38860,6 +38975,12 @@
     },
     {
       "source": "info:entity:organization:Flydubai",
+      "target": "info:entity:organization:RMIT University",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Flydubai",
       "target": "info:entity:person:Benjamin Netanyahu",
       "relation": "co-occurs",
       "weight": "3"
@@ -38868,13 +38989,13 @@
       "source": "info:entity:organization:Flydubai",
       "target": "info:entity:person:Captain Smit Machchhar",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:organization:Flydubai",
       "target": "info:entity:person:Hamam al‑Hammami",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Flydubai",
@@ -40875,6 +40996,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:RMIT University",
+      "target": "info:entity:person:Captain Smit Machchhar",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:RMIT University",
+      "target": "info:entity:person:Hamam al‑Hammami",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Reform UK",
       "target": "info:entity:organization:Verbatim Investigations",
       "relation": "co-occurs",
@@ -42852,7 +42985,7 @@
       "source": "info:entity:person:Captain Smit Machchhar",
       "target": "info:entity:person:Hamam al‑Hammami",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Captain Smit Machchhar",

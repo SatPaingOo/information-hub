@@ -1,7 +1,7 @@
 ---
 node: "industry"
 layer: category
-item_count: 243
+item_count: 244
 ---
 
 # industry
@@ -24,6 +24,7 @@ item_count: 243
 - 2026-10-10 · [[2026-10-10-001-trump-announces-deal-for-russian-diesel-as-zelensky-calls]] — Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin
 - 2026-10-10 · [[2026-10-10-002-analysis-trump-s-shock-russia-deal-highlights-mounting]] — Analysis: Trump's shock Russia deal highlights mounting pressure to curb fuel prices
 - 2026-10-10 · [[2026-10-10-003-us-unveils-sanctions-on-icc-in-move-court-condemns-as]] — US unveils sanctions on ICC in move court condemns as 'assault on rule of law'
+- 2026-10-10 · [[2026-10-10-005-flydubai-attacker-began-a-drift-towards-extremism-and]] — Flydubai attacker began a ‘drift towards extremism and terrorism’ in Australia, UAE says
 - 2026-10-09 · [[2026-10-09-001-suspect-linked-to-monaco-bomb-attack-on-millionaire-speaks]] — Suspect linked to Monaco bomb attack on millionaire speaks to BBC
 - 2026-10-09 · [[2026-10-09-001-suspect-linked-to-monaco-bomb-attack-on-millionaire-speaks]] — Suspect linked to Monaco bomb attack on millionaire speaks to BBC
 - 2026-10-09 · [[2026-10-09-002-firing-squad-execution-to-be-livestreamed-pentagon-says]] — Firing squad execution to be livestreamed, Pentagon says

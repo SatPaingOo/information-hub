@@ -11,3 +11,11 @@
 
 2026-10-10 02:43:51,651 WARNING [products] no collect provider available
 2026-10-10 02:43:52,289 INFO collect done: 4 item(s) published — target 6/10, next run ≈ 2026-10-11T01:00:00+00:00 UTC
+2026-10-10 06:53:11,419 INFO [world-news] published 2026-10-10-005 — Flydubai attacker began a ‘drift towards extremism and terro
+2026-10-10 06:53:11,670 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7304, Requested 5627. Please try again in 36.9825s. Need more tokens? Upgrade to Dev Tier today at https://co
+2026-10-10 06:53:14,672 WARNING [world-news] no collect provider for deep-dive
+2026-10-10 06:53:14,784 WARNING [world-news] no collect provider for deep-dive
+2026-10-10 06:53:15,649 WARNING [tech-news] no collect provider available
+2026-10-10 06:53:15,871 WARNING [politics] no collect provider available
+2026-10-10 06:53:16,156 WARNING [products] no collect provider available
+2026-10-10 06:53:16,539 INFO collect done: 1 item(s) published — target 5/10, next run ≈ 2026-10-11T01:00:00+00:00 UTC

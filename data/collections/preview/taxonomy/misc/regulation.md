@@ -1,7 +1,7 @@
 ---
 node: "Regulation"
 layer: misc
-item_count: 31
+item_count: 32
 ---
 
 # Regulation
@@ -17,6 +17,7 @@ item_count: 31
 
 ## Items
 
+- 2026-10-10 · [[2026-10-10-005-flydubai-attacker-began-a-drift-towards-extremism-and]] — Flydubai attacker began a ‘drift towards extremism and terrorism’ in Australia, UAE says
 - 2026-10-07 · [[2026-10-07-005-cosmic-ai-support-agent]] — Cosmic AI Support Agent
 - 2026-10-07 · [[2026-10-07-006-iphone-use]] — iphone-use
 - 2026-10-03 · [[2026-10-03-006-never-boring-ai-the-ai-agent-that-writes-your-linkedin]] — Never Boring AI – The AI Agent That Writes Your LinkedIn Posts in Your Voice

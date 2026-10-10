@@ -1,7 +1,7 @@
 ---
 node: "Geopolitics"
 layer: misc
-item_count: 20
+item_count: 21
 ---
 
 # Geopolitics
@@ -15,6 +15,7 @@ item_count: 20
 
 ## Items
 
+- 2026-10-10 · [[2026-10-10-005-flydubai-attacker-began-a-drift-towards-extremism-and]] — Flydubai attacker began a ‘drift towards extremism and terrorism’ in Australia, UAE says
 - 2026-10-08 · [[2026-10-08-002-israelis-mourn-7-october-attack-victims-three-years-after]] — Israelis mourn 7 October attack victims three years after deadly Hamas raid
 - 2026-10-06 · [[2026-10-06-001-trump-says-threat-led-us-to-pull-bombers-from-raf-fairford]] — Trump says 'threat' led US to pull bombers from RAF Fairford
 - 2026-10-06 · [[2026-10-06-007-openai-concedes-inadequate-response-to-australian]] — OpenAI Concedes Inadequate Response to Australian Government Hack, Promises New Safeguards
