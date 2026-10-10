@@ -1,7 +1,7 @@
 ---
 name: "Donald Trump"
 entity_type: person
-backlink_count: 56
+backlink_count: 59
 ---
 
 # Donald Trump
@@ -10,6 +10,9 @@ backlink_count: 56
 
 ## Referenced by
 
+- 2026-10-10 · [[2026-10-10-001-trump-announces-deal-for-russian-diesel-as-zelensky-calls]] — Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin
+- 2026-10-10 · [[2026-10-10-002-analysis-trump-s-shock-russia-deal-highlights-mounting]] — Analysis: Trump's shock Russia deal highlights mounting pressure to curb fuel prices
+- 2026-10-10 · [[2026-10-10-003-us-unveils-sanctions-on-icc-in-move-court-condemns-as]] — US unveils sanctions on ICC in move court condemns as 'assault on rule of law'
 - 2026-10-09 · [[2026-10-09-003-ice-agent-shoots-man-in-new-york-city]] — ICE agent shoots man in New York City
 - 2026-10-06 · [[2026-10-06-001-trump-says-threat-led-us-to-pull-bombers-from-raf-fairford]] — Trump says 'threat' led US to pull bombers from RAF Fairford
 - 2026-10-03 · [[2026-10-03-001-g7-to-release-millions-of-barrels-of-oil-and-diesel-after]] — G7 to release millions of barrels of oil and diesel after Trump threat

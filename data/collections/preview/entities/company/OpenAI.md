@@ -1,7 +1,7 @@
 ---
 name: "OpenAI"
 entity_type: company
-backlink_count: 110
+backlink_count: 111
 ---
 
 # OpenAI
@@ -10,6 +10,7 @@ backlink_count: 110
 
 ## Referenced by
 
+- 2026-10-10 · [[2026-10-10-002-analysis-trump-s-shock-russia-deal-highlights-mounting]] — Analysis: Trump's shock Russia deal highlights mounting pressure to curb fuel prices
 - 2026-10-09 · [[2026-10-09-005-labour-sees-off-green-challenge-to-win-holborn-by-election]] — Labour sees off Green challenge to win Holborn by-election
 - 2026-10-09 · [[2026-10-09-006-offstage]] — offstage
 - 2026-10-07 · [[2026-10-07-002-a-beautiful-himalayan-bird-is-changing-its-voice-due-to]] — A beautiful Himalayan bird is changing its voice due to human activity, research shows

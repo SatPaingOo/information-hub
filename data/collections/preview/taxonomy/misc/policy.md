@@ -1,7 +1,7 @@
 ---
 node: "Policy"
 layer: misc
-item_count: 296
+item_count: 300
 ---
 
 # Policy
@@ -17,6 +17,10 @@ item_count: 296
 
 ## Items
 
+- 2026-10-10 · [[2026-10-10-001-trump-announces-deal-for-russian-diesel-as-zelensky-calls]] — Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin
+- 2026-10-10 · [[2026-10-10-002-analysis-trump-s-shock-russia-deal-highlights-mounting]] — Analysis: Trump's shock Russia deal highlights mounting pressure to curb fuel prices
+- 2026-10-10 · [[2026-10-10-003-us-unveils-sanctions-on-icc-in-move-court-condemns-as]] — US unveils sanctions on ICC in move court condemns as 'assault on rule of law'
+- 2026-10-10 · [[2026-10-10-004-lib-dem-mp-quits-frontbench-job-over-ed-davey-s-leadership]] — Lib Dem MP quits frontbench job over Ed Davey's leadership
 - 2026-10-09 · [[2026-10-09-001-suspect-linked-to-monaco-bomb-attack-on-millionaire-speaks]] — Suspect linked to Monaco bomb attack on millionaire speaks to BBC
 - 2026-10-09 · [[2026-10-09-002-firing-squad-execution-to-be-livestreamed-pentagon-says]] — Firing squad execution to be livestreamed, Pentagon says
 - 2026-10-09 · [[2026-10-09-003-ice-agent-shoots-man-in-new-york-city]] — ICE agent shoots man in New York City

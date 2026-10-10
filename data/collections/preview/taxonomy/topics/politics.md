@@ -1,7 +1,7 @@
 ---
 node: "politics"
 layer: topic
-item_count: 126
+item_count: 127
 ---
 
 # politics
@@ -17,6 +17,7 @@ item_count: 126
 
 ## Items
 
+- 2026-10-10 · [[2026-10-10-004-lib-dem-mp-quits-frontbench-job-over-ed-davey-s-leadership]] — Lib Dem MP quits frontbench job over Ed Davey's leadership
 - 2026-10-09 · [[2026-10-09-004-polanski-defends-leadership-after-zionism-row-and-by]] — Polanski defends leadership after Zionism row and by‑election loss
 - 2026-10-09 · [[2026-10-09-004-polanski-defends-leadership-after-zionism-row-and-by]] — Polanski defends leadership after Zionism row and by‑election loss
 - 2026-10-09 · [[2026-10-09-005-labour-sees-off-green-challenge-to-win-holborn-by-election]] — Labour sees off Green challenge to win Holborn by-election

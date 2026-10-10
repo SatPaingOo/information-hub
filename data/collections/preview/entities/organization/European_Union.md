@@ -1,7 +1,7 @@
 ---
 name: "European Union"
 entity_type: organization
-backlink_count: 12
+backlink_count: 13
 ---
 
 # European Union
@@ -10,6 +10,7 @@ backlink_count: 12
 
 ## Referenced by
 
+- 2026-10-10 · [[2026-10-10-001-trump-announces-deal-for-russian-diesel-as-zelensky-calls]] — Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin
 - 2026-09-19 · [[2026-09-19-004-ireland-s-relationship-with-uk-under-burnham-off-to-very]] — Ireland's relationship with UK under Burnham off to 'very good start'
 - 2026-09-18 · [[2026-09-18-001-canada-welcomes-eu-proposal-to-become-associate-member]] — Canada welcomes EU proposal to become 'associate member'
 - 2026-09-16 · [[2026-09-16-007-axari-delegating-security-busywork-to-an-ai-twin]] — Axari – Delegating Security Busywork to an AI Twin

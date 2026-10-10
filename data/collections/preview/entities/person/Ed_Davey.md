@@ -1,7 +1,7 @@
 ---
 name: "Ed Davey"
 entity_type: person
-backlink_count: 5
+backlink_count: 6
 ---
 
 # Ed Davey
@@ -10,6 +10,7 @@ backlink_count: 5
 
 ## Referenced by
 
+- 2026-10-10 · [[2026-10-10-004-lib-dem-mp-quits-frontbench-job-over-ed-davey-s-leadership]] — Lib Dem MP quits frontbench job over Ed Davey's leadership
 - 2026-09-23 · [[2026-09-23-005-davey-promises-tax-cuts-for-millions-if-uk-rejoins-eu]] — Davey promises tax cuts for millions if UK rejoins EU single market
 - 2026-09-21 · [[2026-09-21-004-ed-davey-calls-for-immediate-10p-cut-to-fuel-duty]] — Ed Davey calls for immediate 10p cut to fuel duty
 - 2026-09-21 · [[2026-09-21-005-lib-dems-sleepwalking-to-irrelevance-under-davey-says]] — Lib Dems sleepwalking to irrelevance under Davey, says council leader

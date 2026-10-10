@@ -1,7 +1,7 @@
 ---
 name: "Liberal Democrats"
 entity_type: organization
-backlink_count: 5
+backlink_count: 6
 ---
 
 # Liberal Democrats
@@ -10,6 +10,7 @@ backlink_count: 5
 
 ## Referenced by
 
+- 2026-10-10 · [[2026-10-10-004-lib-dem-mp-quits-frontbench-job-over-ed-davey-s-leadership]] — Lib Dem MP quits frontbench job over Ed Davey's leadership
 - 2026-09-23 · [[2026-09-23-005-davey-promises-tax-cuts-for-millions-if-uk-rejoins-eu]] — Davey promises tax cuts for millions if UK rejoins EU single market
 - 2026-09-23 · [[2026-09-23-008-burnham-expects-to-find-common-ground-with-trump-in-first]] — Burnham expects to find 'common ground' with Trump in first meeting
 - 2026-09-21 · [[2026-09-21-005-lib-dems-sleepwalking-to-irrelevance-under-davey-says]] — Lib Dems sleepwalking to irrelevance under Davey, says council leader

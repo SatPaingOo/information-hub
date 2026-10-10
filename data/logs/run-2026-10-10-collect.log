@@ -1,0 +1,13 @@
+2026-10-10 02:41:34,752 INFO [world-news] published 2026-10-10-001 — Trump announces deal for Russian diesel as Zelensky calls it
+2026-10-10 02:41:57,424 INFO [world-news] attempt 1 invalid: ['body word count 484 < minimum 500']
+2026-10-10 02:42:15,837 INFO [world-news] published 2026-10-10-002 — Analysis: Trump's shock Russia deal highlights mounting pres
+2026-10-10 02:42:36,987 INFO [world-news] published 2026-10-10-003 — US unveils sanctions on ICC in move court condemns as 'assau
+2026-10-10 02:42:40,383 INFO [tech-news] nothing selected
+2026-10-10 02:43:08,725 INFO [politics] attempt 1 invalid: ['body word count 498 < minimum 500']
+2026-10-10 02:43:27,536 INFO [politics] published 2026-10-10-004 — Lib Dem MP quits frontbench job over Ed Davey's leadership
+2026-10-10 02:43:32,555 INFO [politics] attempt 1 invalid: [": 'tags' is a required property", ": 'related_items' is a required property"]
+2026-10-10 02:43:32,707 ERROR [politics] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7206, Requested 6137. Please try again in 40.0725s. Need more tokens? Upgrade to Dev Tier today at https://co
+2026-10-10 02:43:41,449 ERROR [politics] generate error: HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
+
+2026-10-10 02:43:51,651 WARNING [products] no collect provider available
+2026-10-10 02:43:52,289 INFO collect done: 4 item(s) published — target 6/10, next run ≈ 2026-10-11T01:00:00+00:00 UTC
