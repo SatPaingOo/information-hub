@@ -20,3 +20,12 @@
 2026-10-11 06:57:54,573 WARNING [politics] no collect provider available
 2026-10-11 06:57:55,390 WARNING [products] no collect provider available
 2026-10-11 06:57:55,921 INFO collect done: 0 item(s) published — target 4/10, next run ≈ 2026-10-12T01:00:00+00:00 UTC
+2026-10-11 07:53:58,865 ERROR [world-news] generate error: HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
+
+2026-10-11 07:54:01,867 WARNING [world-news] no collect provider for deep-dive
+2026-10-11 07:54:02,012 WARNING [world-news] no collect provider for deep-dive
+2026-10-11 07:54:02,146 WARNING [world-news] no collect provider for deep-dive
+2026-10-11 07:54:02,835 WARNING [tech-news] no collect provider available
+2026-10-11 07:54:03,365 WARNING [politics] no collect provider available
+2026-10-11 07:54:04,401 WARNING [products] no collect provider available
+2026-10-11 07:54:04,582 INFO collect done: 0 item(s) published — target 4/10, next run ≈ 2026-10-12T01:00:00+00:00 UTC
