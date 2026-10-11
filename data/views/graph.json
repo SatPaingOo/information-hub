@@ -7620,6 +7620,82 @@
       "name": "Security Policy"
     },
     {
+      "id": "info:item:world:global:2026-10-11-001",
+      "type": "item",
+      "date": "2026-10-11",
+      "title": "Young men live in fear of being snatched off the streets and sold to Myanmar's army"
+    },
+    {
+      "id": "info:entity:person:Zaw Min",
+      "type": "person",
+      "name": "Zaw Min"
+    },
+    {
+      "id": "info:item:world:global:2026-10-11-002",
+      "type": "item",
+      "date": "2026-10-11",
+      "title": "Time for Ukraine to get new president, says Trump after Zelensky condemns diesel deal"
+    },
+    {
+      "id": "info:item:world:global:2026-10-11-003",
+      "type": "item",
+      "date": "2026-10-11",
+      "title": "Twelve killed in attack on airport in Saudi capital Riyadh"
+    },
+    {
+      "id": "info:entity:organization:King Khalid International Airport",
+      "type": "organization",
+      "name": "King Khalid International Airport"
+    },
+    {
+      "id": "taxonomy/misc/conflict escalation",
+      "type": "taxonomy",
+      "name": "conflict escalation"
+    },
+    {
+      "id": "taxonomy/misc/Gulf Cooperation Council",
+      "type": "taxonomy",
+      "name": "Gulf Cooperation Council"
+    },
+    {
+      "id": "taxonomy/misc/International humanitarian law",
+      "type": "taxonomy",
+      "name": "International humanitarian law"
+    },
+    {
+      "id": "info:item:politics:global:2026-10-11-004",
+      "type": "item",
+      "date": "2026-10-11",
+      "title": "Green Party MP wants to make sure it is 'not vulnerable to extremists'"
+    },
+    {
+      "id": "info:entity:person:Ellie Chowns",
+      "type": "person",
+      "name": "Ellie Chowns"
+    },
+    {
+      "id": "info:item:politics:global:2026-10-11-005",
+      "type": "item",
+      "date": "2026-10-11",
+      "title": "Polanski vows to stay as Green leader as he faces criticism after by-election defeat"
+    },
+    {
+      "id": "info:entity:person:Vivien Lichtenstein",
+      "type": "person",
+      "name": "Vivien Lichtenstein"
+    },
+    {
+      "id": "info:item:products:global:2026-10-11-006",
+      "type": "item",
+      "date": "2026-10-11",
+      "title": "Lune – The Search Engine Built for Scientific AI Agents"
+    },
+    {
+      "id": "info:entity:product:Lune",
+      "type": "product",
+      "name": "Lune"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -32348,6 +32424,396 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-10-11-001",
+      "target": "info:entity:organization:Myanmar military (Tatmadaw)",
+      "relation": "implements forced conscription and recruitment"
+    },
+    {
+      "source": "info:item:world:global:2026-10-11-001",
+      "target": "info:entity:person:Zaw Min",
+      "relation": "tuk‑tuk driver fearing abduction in Hpa‑An"
+    },
+    {
+      "source": "info:item:world:global:2026-10-11-001",
+      "target": "info:entity:organization:Amnesty International",
+      "relation": "documents forced‑labor practices in Myanmar"
+    },
+    {
+      "source": "info:item:world:global:2026-10-11-001",
+      "target": "info:entity:model:OpenAI GPT‑4",
+      "relation": "referenced in editorial priorities for AI regulation"
+    },
+    {
+      "source": "info:item:world:global:2026-10-11-001",
+      "target": "info:item:world:global:2026-10-10-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-11-001",
+      "target": "info:item:world:global:2026-10-10-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-11-001",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-11-001",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-11-001",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-11-001",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-11-001",
+      "target": "taxonomy/misc/Myanmar",
+      "relation": "region"
+    },
+    {
+      "source": "info:item:world:global:2026-10-11-001",
+      "target": "taxonomy/misc/human rights",
+      "relation": "topic"
+    },
+    {
+      "source": "info:item:world:global:2026-10-11-001",
+      "target": "taxonomy/misc/policy",
+      "relation": "category"
+    },
+    {
+      "source": "info:item:world:global:2026-10-11-002",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "U.S. President who called for new Ukrainian leadership and brokered diesel deal"
+    },
+    {
+      "source": "info:item:world:global:2026-10-11-002",
+      "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "President of Ukraine who condemned the diesel agreement with Russia"
+    },
+    {
+      "source": "info:item:world:global:2026-10-11-002",
+      "target": "info:entity:person:Vladimir Putin",
+      "relation": "President of Russia whose government benefits from diesel export revenues"
+    },
+    {
+      "source": "info:item:world:global:2026-10-11-002",
+      "target": "info:entity:organization:European Union",
+      "relation": "Critic of the diesel sanctions suspension, planning tougher sanctions"
+    },
+    {
+      "source": "info:item:world:global:2026-10-11-002",
+      "target": "info:item:world:global:2026-10-11-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-11-002",
+      "target": "info:item:world:global:2026-10-10-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-11-002",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-11-002",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-11-002",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-11-002",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-11-002",
+      "target": "taxonomy/misc/global",
+      "relation": "region"
+    },
+    {
+      "source": "info:item:world:global:2026-10-11-002",
+      "target": "taxonomy/misc/policy",
+      "relation": "category"
+    },
+    {
+      "source": "info:item:world:global:2026-10-11-002",
+      "target": "taxonomy/category/industry",
+      "relation": "sector"
+    },
+    {
+      "source": "info:item:world:global:2026-10-11-003",
+      "target": "info:entity:organization:Houthis",
+      "relation": "perpetrator of the airport attack"
+    },
+    {
+      "source": "info:item:world:global:2026-10-11-003",
+      "target": "info:entity:person:Marco Rubio",
+      "relation": "U.S. Secretary of State who condemned the attack"
+    },
+    {
+      "source": "info:item:world:global:2026-10-11-003",
+      "target": "info:entity:organization:Saudi Arabia",
+      "relation": "target nation and member of the Saudi‑led coalition"
+    },
+    {
+      "source": "info:item:world:global:2026-10-11-003",
+      "target": "info:entity:organization:King Khalid International Airport",
+      "relation": "primary target of the assault"
+    },
+    {
+      "source": "info:item:world:global:2026-10-11-003",
+      "target": "info:item:world:global:2026-10-11-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-11-003",
+      "target": "info:item:world:global:2026-10-11-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-11-003",
+      "target": "info:item:world:global:2026-10-10-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-11-003",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-11-003",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-11-003",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-11-003",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-11-003",
+      "target": "taxonomy/misc/conflict escalation",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-11-003",
+      "target": "taxonomy/misc/Gulf Cooperation Council",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-11-003",
+      "target": "taxonomy/misc/International humanitarian law",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-11-004",
+      "target": "info:entity:person:Ellie Chowns",
+      "relation": "Westminster leader of the Green Party of England and Wales"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-11-004",
+      "target": "info:entity:person:Caroline Lucas",
+      "relation": "former leader of the Green Party and advocate for Jewish inclusion"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-11-004",
+      "target": "info:entity:person:Zack Polanski",
+      "relation": "current leader of the Green Party"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-11-004",
+      "target": "info:entity:organization:Green Party of England and Wales",
+      "relation": "political party that approved the controversial motion"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-11-004",
+      "target": "info:entity:organization:Board of Deputies of British Jews",
+      "relation": "critic of the motion and defender of Zionism"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-11-004",
+      "target": "info:item:politics:global:2026-10-10-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-11-004",
+      "target": "info:item:politics:global:2026-10-09-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-11-004",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-11-004",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-11-004",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-11-004",
+      "target": "taxonomy/topic/politics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-11-004",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-11-004",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-11-005",
+      "target": "info:entity:person:Zack Polanski",
+      "relation": "Green Party leader facing criticism"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-11-005",
+      "target": "info:entity:person:Vivien Lichtenstein",
+      "relation": "Jewish Greens leader calling for resignation"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-11-005",
+      "target": "info:entity:organization:Green Party of England and Wales",
+      "relation": "political party involved in by‑election and Zionism debate"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-11-005",
+      "target": "info:entity:organization:Labour Party",
+      "relation": "won the Holborn & St Pancras by‑election"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-11-005",
+      "target": "info:item:politics:global:2026-10-11-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-11-005",
+      "target": "info:item:politics:global:2026-10-10-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-11-005",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-11-005",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-11-005",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-11-005",
+      "target": "taxonomy/topic/politics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-11-005",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-11-005",
+      "target": "taxonomy/misc/UK",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-10-11-006",
+      "target": "info:entity:product:Lune",
+      "relation": "search engine for scientific AI agents"
+    },
+    {
+      "source": "info:item:products:global:2026-10-11-006",
+      "target": "info:entity:company:OpenAI",
+      "relation": "provider of GPT‑4‑Turbo model used with Lune"
+    },
+    {
+      "source": "info:item:products:global:2026-10-11-006",
+      "target": "info:entity:model:Gemini",
+      "relation": "alternative LLM that can consume Lune's RAG output"
+    },
+    {
+      "source": "info:item:products:global:2026-10-11-006",
+      "target": "info:entity:company:Anthropic",
+      "relation": "competitor model that can be integrated via Lune SDK"
+    },
+    {
+      "source": "info:item:products:global:2026-10-11-006",
+      "target": "info:item:products:global:2026-10-09-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-10-11-006",
+      "target": "info:item:products:global:2026-10-07-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-10-11-006",
+      "target": "info:item:products:global:2026-10-07-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-10-11-006",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-10-11-006",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-10-11-006",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-10-11-006",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-10-11-006",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-10-11-006",
+      "target": "taxonomy/category/product",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -32611,7 +33077,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
-      "weight": "58"
+      "weight": "59"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -32779,7 +33245,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "21"
+      "weight": "22"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -33090,6 +33556,12 @@
     {
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:product:Kit",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:product:Lune",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -34243,7 +34715,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "36"
+      "weight": "37"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -34776,6 +35248,12 @@
     {
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:product:Interactive Sessions",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:product:Lune",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -37151,6 +37629,12 @@
     },
     {
       "source": "info:entity:model:Gemini",
+      "target": "info:entity:product:Lune",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
       "target": "info:entity:product:Maritime",
       "relation": "co-occurs",
       "weight": "1"
@@ -37409,6 +37893,24 @@
     },
     {
       "source": "info:entity:model:OpenAI GPT‑4",
+      "target": "info:entity:organization:Amnesty International",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:OpenAI GPT‑4",
+      "target": "info:entity:organization:Myanmar military (Tatmadaw)",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:OpenAI GPT‑4",
+      "target": "info:entity:person:Zaw Min",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:OpenAI GPT‑4",
       "target": "info:entity:product:Ace",
       "relation": "co-occurs",
       "weight": "1"
@@ -37559,6 +38061,12 @@
     },
     {
       "source": "info:entity:organization:Amnesty International",
+      "target": "info:entity:organization:Myanmar military (Tatmadaw)",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Amnesty International",
       "target": "info:entity:person:Anojan Sivarasa",
       "relation": "co-occurs",
       "weight": "1"
@@ -37608,6 +38116,12 @@
     {
       "source": "info:entity:organization:Amnesty International",
       "target": "info:entity:person:Xi Jinping",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Amnesty International",
+      "target": "info:entity:person:Zaw Min",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -37849,7 +38363,7 @@
       "source": "info:entity:organization:Board of Deputies of British Jews",
       "target": "info:entity:organization:Green Party of England and Wales",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Board of Deputies of British Jews",
@@ -37859,9 +38373,21 @@
     },
     {
       "source": "info:entity:organization:Board of Deputies of British Jews",
-      "target": "info:entity:person:Zack Polanski",
+      "target": "info:entity:person:Caroline Lucas",
       "relation": "co-occurs",
       "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Board of Deputies of British Jews",
+      "target": "info:entity:person:Ellie Chowns",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Board of Deputies of British Jews",
+      "target": "info:entity:person:Zack Polanski",
+      "relation": "co-occurs",
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:British Museum",
@@ -38785,7 +39311,7 @@
       "source": "info:entity:organization:European Union",
       "target": "info:entity:person:Donald Trump",
       "relation": "co-occurs",
-      "weight": "5"
+      "weight": "6"
     },
     {
       "source": "info:entity:organization:European Union",
@@ -38839,13 +39365,13 @@
       "source": "info:entity:organization:European Union",
       "target": "info:entity:person:Vladimir Putin",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:organization:European Union",
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:European Union",
@@ -39247,7 +39773,7 @@
       "source": "info:entity:organization:Green Party of England and Wales",
       "target": "info:entity:organization:Labour Party",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Green Party of England and Wales",
@@ -39271,11 +39797,17 @@
       "source": "info:entity:organization:Green Party of England and Wales",
       "target": "info:entity:person:Caroline Lucas",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Green Party of England and Wales",
       "target": "info:entity:person:Ed Davey",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Green Party of England and Wales",
+      "target": "info:entity:person:Ellie Chowns",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -39299,9 +39831,15 @@
     },
     {
       "source": "info:entity:organization:Green Party of England and Wales",
+      "target": "info:entity:person:Vivien Lichtenstein",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Green Party of England and Wales",
       "target": "info:entity:person:Zack Polanski",
       "relation": "co-occurs",
-      "weight": "5"
+      "weight": "7"
     },
     {
       "source": "info:entity:organization:Green Party of England and Wales",
@@ -39503,6 +40041,12 @@
     },
     {
       "source": "info:entity:organization:Houthis",
+      "target": "info:entity:organization:King Khalid International Airport",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Houthis",
       "target": "info:entity:organization:Royal Air Force (RAF)",
       "relation": "co-occurs",
       "weight": "1"
@@ -39511,7 +40055,7 @@
       "source": "info:entity:organization:Houthis",
       "target": "info:entity:organization:Saudi Arabia",
       "relation": "co-occurs",
-      "weight": "5"
+      "weight": "6"
     },
     {
       "source": "info:entity:organization:Houthis",
@@ -39542,6 +40086,12 @@
       "target": "info:entity:person:Donald Trump",
       "relation": "co-occurs",
       "weight": "2"
+    },
+    {
+      "source": "info:entity:organization:Houthis",
+      "target": "info:entity:person:Marco Rubio",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:organization:Houthis",
@@ -39952,6 +40502,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:King Khalid International Airport",
+      "target": "info:entity:organization:Saudi Arabia",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:King Khalid International Airport",
+      "target": "info:entity:person:Marco Rubio",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:La France Insoumise (LFI)",
       "target": "info:entity:organization:Union Syndicale Lycène (USL)",
       "relation": "co-occurs",
@@ -40097,9 +40659,15 @@
     },
     {
       "source": "info:entity:organization:Labour Party",
+      "target": "info:entity:person:Vivien Lichtenstein",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Labour Party",
       "target": "info:entity:person:Zack Polanski",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:organization:Lahore Deputy Commissioner Office",
@@ -40344,6 +40912,12 @@
     {
       "source": "info:entity:organization:Metropolitan Police",
       "target": "info:entity:person:Nigel Farage",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Myanmar military (Tatmadaw)",
+      "target": "info:entity:person:Zaw Min",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -41274,6 +41848,12 @@
     {
       "source": "info:entity:organization:Saudi Arabia",
       "target": "info:entity:person:Donald Trump",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Saudi Arabia",
+      "target": "info:entity:person:Marco Rubio",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -43013,9 +43593,15 @@
     },
     {
       "source": "info:entity:person:Caroline Lucas",
-      "target": "info:entity:person:Zack Polanski",
+      "target": "info:entity:person:Ellie Chowns",
       "relation": "co-occurs",
       "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Caroline Lucas",
+      "target": "info:entity:person:Zack Polanski",
+      "relation": "co-occurs",
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Caroline Voaden",
@@ -43465,13 +44051,13 @@
       "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:Vladimir Putin",
       "relation": "co-occurs",
-      "weight": "4"
+      "weight": "5"
     },
     {
       "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:person:Donald Trump",
@@ -43634,6 +44220,12 @@
       "target": "info:entity:person:Robert Kraft",
       "relation": "co-occurs",
       "weight": "2"
+    },
+    {
+      "source": "info:entity:person:Ellie Chowns",
+      "target": "info:entity:person:Zack Polanski",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:person:Elon Musk",
@@ -44512,10 +45104,16 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:person:Vivien Lichtenstein",
+      "target": "info:entity:person:Zack Polanski",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:person:Vladimir Putin",
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
-      "weight": "9"
+      "weight": "10"
     },
     {
       "source": "info:entity:person:Vladimir Putin",

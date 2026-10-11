@@ -1,7 +1,7 @@
 ---
 node: "industry"
 layer: category
-item_count: 244
+item_count: 248
 ---
 
 # industry
@@ -17,9 +17,14 @@ item_count: 244
 
 - [[world]] — *category*
 - [[world]] — *relates*
+- [[world]] — *sector*
 
 ## Items
 
+- 2026-10-11 · [[2026-10-11-001-young-men-live-in-fear-of-being-snatched-off-the-streets]] — Young men live in fear of being snatched off the streets and sold to Myanmar's army
+- 2026-10-11 · [[2026-10-11-002-time-for-ukraine-to-get-new-president-says-trump-after]] — Time for Ukraine to get new president, says Trump after Zelensky condemns diesel deal
+- 2026-10-11 · [[2026-10-11-002-time-for-ukraine-to-get-new-president-says-trump-after]] — Time for Ukraine to get new president, says Trump after Zelensky condemns diesel deal
+- 2026-10-11 · [[2026-10-11-003-twelve-killed-in-attack-on-airport-in-saudi-capital-riyadh]] — Twelve killed in attack on airport in Saudi capital Riyadh
 - 2026-10-10 · [[2026-10-10-001-trump-announces-deal-for-russian-diesel-as-zelensky-calls]] — Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin
 - 2026-10-10 · [[2026-10-10-001-trump-announces-deal-for-russian-diesel-as-zelensky-calls]] — Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin
 - 2026-10-10 · [[2026-10-10-002-analysis-trump-s-shock-russia-deal-highlights-mounting]] — Analysis: Trump's shock Russia deal highlights mounting pressure to curb fuel prices

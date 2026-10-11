@@ -1,7 +1,7 @@
 ---
 name: "Volodymyr Zelensky"
 entity_type: person
-backlink_count: 20
+backlink_count: 21
 ---
 
 # Volodymyr Zelensky
@@ -10,6 +10,7 @@ backlink_count: 20
 
 ## Referenced by
 
+- 2026-10-11 · [[2026-10-11-002-time-for-ukraine-to-get-new-president-says-trump-after]] — Time for Ukraine to get new president, says Trump after Zelensky condemns diesel deal
 - 2026-10-10 · [[2026-10-10-001-trump-announces-deal-for-russian-diesel-as-zelensky-calls]] — Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin
 - 2026-10-10 · [[2026-10-10-002-analysis-trump-s-shock-russia-deal-highlights-mounting]] — Analysis: Trump's shock Russia deal highlights mounting pressure to curb fuel prices
 - 2026-10-04 · [[2026-10-04-007-kyiv-bridge-hit-in-further-russian-drone-attack-as-german]] — Kyiv bridge hit in further Russian drone attack as German chancellor makes surprise visit

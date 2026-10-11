@@ -1,0 +1,12 @@
+2026-10-11 01:49:43,411 INFO [world-news] published 2026-10-11-001 — Young men live in fear of being snatched off the streets and
+2026-10-11 01:50:04,490 INFO [world-news] published 2026-10-11-002 — Time for Ukraine to get new president, says Trump after Zele
+2026-10-11 01:51:16,484 INFO [world-news] published 2026-10-11-003 — Twelve killed in attack on airport in Saudi capital Riyadh
+2026-10-11 01:51:24,729 INFO [tech-news] nothing selected
+2026-10-11 01:52:30,925 INFO [politics] published 2026-10-11-004 — Green Party MP wants to make sure it is 'not vulnerable to e
+2026-10-11 01:53:37,251 INFO [politics] published 2026-10-11-005 — Polanski vows to stay as Green leader as he faces criticism 
+2026-10-11 01:54:34,821 INFO [products] attempt 1 invalid: ["title: 'Lune' is too short"]
+2026-10-11 01:54:39,760 INFO [products] published 2026-10-11-006 — Lune – The Search Engine Built for Scientific AI Agents
+2026-10-11 01:54:39,918 ERROR [products] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 5756, Requested 5061. Please try again in 21.1275s. Need more tokens? Upgrade to Dev Tier today at https://co
+2026-10-11 01:54:45,475 INFO [products] attempt 2 invalid: [": 'title' is a required property", ": 'tldr' is a required property"]
+2026-10-11 01:54:45,560 ERROR [products] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6352, Requested 5241. Please try again in 26.947499999s. Need more tokens? Upgrade to Dev Tier today at https:
+2026-10-11 01:54:55,051 INFO collect done: 6 item(s) published — target 4/10, next run ≈ 2026-10-12T01:00:00+00:00 UTC

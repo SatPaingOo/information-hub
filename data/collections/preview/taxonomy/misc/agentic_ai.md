@@ -1,7 +1,7 @@
 ---
 node: "Agentic AI"
 layer: misc
-item_count: 74
+item_count: 75
 ---
 
 # Agentic AI
@@ -17,6 +17,7 @@ item_count: 74
 
 ## Items
 
+- 2026-10-11 · [[2026-10-11-006-lune-the-search-engine-built-for-scientific-ai-agents]] — Lune – The Search Engine Built for Scientific AI Agents
 - 2026-10-09 · [[2026-10-09-006-offstage]] — offstage
 - 2026-10-07 · [[2026-10-07-005-cosmic-ai-support-agent]] — Cosmic AI Support Agent
 - 2026-10-07 · [[2026-10-07-006-iphone-use]] — iphone-use

@@ -1,7 +1,7 @@
 ---
 node: "UK"
 layer: misc
-item_count: 2
+item_count: 3
 ---
 
 # UK
@@ -14,5 +14,6 @@ item_count: 2
 
 ## Items
 
+- 2026-10-11 · [[2026-10-11-005-polanski-vows-to-stay-as-green-leader-as-he-faces]] — Polanski vows to stay as Green leader as he faces criticism after by-election defeat
 - 2026-10-03 · [[2026-10-03-005-tories-pledge-to-build-50-000-new-prison-places]] — Tories pledge to build 50,000 new prison places
 - 2026-09-29 · [[2026-09-29-004-burnham-to-unveil-public-body-to-invest-in-electricity-grid]] — Burnham to unveil public body to invest in electricity grid

@@ -1,7 +1,7 @@
 ---
 node: "Myanmar"
 layer: misc
-item_count: 13
+item_count: 14
 ---
 
 # Myanmar
@@ -12,10 +12,12 @@ item_count: 13
 
 - [[politics]] — *relates*
 - [[products]] — *relates*
+- [[world]] — *region*
 - [[world]] — *relates*
 
 ## Items
 
+- 2026-10-11 · [[2026-10-11-001-young-men-live-in-fear-of-being-snatched-off-the-streets]] — Young men live in fear of being snatched off the streets and sold to Myanmar's army
 - 2026-10-09 · [[2026-10-09-006-offstage]] — offstage
 - 2026-10-06 · [[2026-10-06-006-opengeni-ship-ai-agents-within-minutes-infrastructure-for]] — Opengeni: Ship AI agents within minutes. Infrastructure for Agents
 - 2026-10-02 · [[2026-10-02-005-omnia-agent]] — Omnia Agent

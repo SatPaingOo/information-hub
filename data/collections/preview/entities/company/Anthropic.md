@@ -1,7 +1,7 @@
 ---
 name: "Anthropic"
 entity_type: company
-backlink_count: 70
+backlink_count: 71
 ---
 
 # Anthropic
@@ -10,6 +10,7 @@ backlink_count: 70
 
 ## Referenced by
 
+- 2026-10-11 · [[2026-10-11-006-lune-the-search-engine-built-for-scientific-ai-agents]] — Lune – The Search Engine Built for Scientific AI Agents
 - 2026-10-09 · [[2026-10-09-006-offstage]] — offstage
 - 2026-10-07 · [[2026-10-07-009-residents-of-kibbutz-destroyed-in-7-october-hamas-led]] — Residents of kibbutz destroyed in 7 October Hamas‑led attacks grapple with how to rebuild
 - 2026-10-06 · [[2026-10-06-006-opengeni-ship-ai-agents-within-minutes-infrastructure-for]] — Opengeni: Ship AI agents within minutes. Infrastructure for Agents

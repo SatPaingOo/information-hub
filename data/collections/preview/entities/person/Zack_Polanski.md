@@ -1,7 +1,7 @@
 ---
 name: "Zack Polanski"
 entity_type: person
-backlink_count: 7
+backlink_count: 9
 ---
 
 # Zack Polanski
@@ -10,6 +10,8 @@ backlink_count: 7
 
 ## Referenced by
 
+- 2026-10-11 · [[2026-10-11-004-green-party-mp-wants-to-make-sure-it-is-not-vulnerable-to]] — Green Party MP wants to make sure it is 'not vulnerable to extremists'
+- 2026-10-11 · [[2026-10-11-005-polanski-vows-to-stay-as-green-leader-as-he-faces]] — Polanski vows to stay as Green leader as he faces criticism after by-election defeat
 - 2026-10-09 · [[2026-10-09-004-polanski-defends-leadership-after-zionism-row-and-by]] — Polanski defends leadership after Zionism row and by‑election loss
 - 2026-10-09 · [[2026-10-09-005-labour-sees-off-green-challenge-to-win-holborn-by-election]] — Labour sees off Green challenge to win Holborn by-election
 - 2026-10-07 · [[2026-10-07-004-green-member-behind-zionism-motion-named-as-close-friend]] — Green member behind Zionism motion named as 'close friend' of jailed al-Qaeda supporter in court

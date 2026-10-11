@@ -1,7 +1,7 @@
 ---
 node: "Policy"
 layer: misc
-item_count: 301
+item_count: 306
 ---
 
 # Policy
@@ -17,6 +17,11 @@ item_count: 301
 
 ## Items
 
+- 2026-10-11 · [[2026-10-11-001-young-men-live-in-fear-of-being-snatched-off-the-streets]] — Young men live in fear of being snatched off the streets and sold to Myanmar's army
+- 2026-10-11 · [[2026-10-11-002-time-for-ukraine-to-get-new-president-says-trump-after]] — Time for Ukraine to get new president, says Trump after Zelensky condemns diesel deal
+- 2026-10-11 · [[2026-10-11-003-twelve-killed-in-attack-on-airport-in-saudi-capital-riyadh]] — Twelve killed in attack on airport in Saudi capital Riyadh
+- 2026-10-11 · [[2026-10-11-004-green-party-mp-wants-to-make-sure-it-is-not-vulnerable-to]] — Green Party MP wants to make sure it is 'not vulnerable to extremists'
+- 2026-10-11 · [[2026-10-11-005-polanski-vows-to-stay-as-green-leader-as-he-faces]] — Polanski vows to stay as Green leader as he faces criticism after by-election defeat
 - 2026-10-10 · [[2026-10-10-001-trump-announces-deal-for-russian-diesel-as-zelensky-calls]] — Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin
 - 2026-10-10 · [[2026-10-10-002-analysis-trump-s-shock-russia-deal-highlights-mounting]] — Analysis: Trump's shock Russia deal highlights mounting pressure to curb fuel prices
 - 2026-10-10 · [[2026-10-10-003-us-unveils-sanctions-on-icc-in-move-court-condemns-as]] — US unveils sanctions on ICC in move court condemns as 'assault on rule of law'

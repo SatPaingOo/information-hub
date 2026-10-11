@@ -1,7 +1,7 @@
 ---
 name: "Donald Trump"
 entity_type: person
-backlink_count: 59
+backlink_count: 60
 ---
 
 # Donald Trump
@@ -10,6 +10,7 @@ backlink_count: 59
 
 ## Referenced by
 
+- 2026-10-11 · [[2026-10-11-002-time-for-ukraine-to-get-new-president-says-trump-after]] — Time for Ukraine to get new president, says Trump after Zelensky condemns diesel deal
 - 2026-10-10 · [[2026-10-10-001-trump-announces-deal-for-russian-diesel-as-zelensky-calls]] — Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin
 - 2026-10-10 · [[2026-10-10-002-analysis-trump-s-shock-russia-deal-highlights-mounting]] — Analysis: Trump's shock Russia deal highlights mounting pressure to curb fuel prices
 - 2026-10-10 · [[2026-10-10-003-us-unveils-sanctions-on-icc-in-move-court-condemns-as]] — US unveils sanctions on ICC in move court condemns as 'assault on rule of law'

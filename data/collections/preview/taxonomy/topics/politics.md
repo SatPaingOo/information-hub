@@ -1,7 +1,7 @@
 ---
 node: "politics"
 layer: topic
-item_count: 127
+item_count: 131
 ---
 
 # politics
@@ -17,6 +17,10 @@ item_count: 127
 
 ## Items
 
+- 2026-10-11 · [[2026-10-11-004-green-party-mp-wants-to-make-sure-it-is-not-vulnerable-to]] — Green Party MP wants to make sure it is 'not vulnerable to extremists'
+- 2026-10-11 · [[2026-10-11-004-green-party-mp-wants-to-make-sure-it-is-not-vulnerable-to]] — Green Party MP wants to make sure it is 'not vulnerable to extremists'
+- 2026-10-11 · [[2026-10-11-005-polanski-vows-to-stay-as-green-leader-as-he-faces]] — Polanski vows to stay as Green leader as he faces criticism after by-election defeat
+- 2026-10-11 · [[2026-10-11-005-polanski-vows-to-stay-as-green-leader-as-he-faces]] — Polanski vows to stay as Green leader as he faces criticism after by-election defeat
 - 2026-10-10 · [[2026-10-10-004-lib-dem-mp-quits-frontbench-job-over-ed-davey-s-leadership]] — Lib Dem MP quits frontbench job over Ed Davey's leadership
 - 2026-10-09 · [[2026-10-09-004-polanski-defends-leadership-after-zionism-row-and-by]] — Polanski defends leadership after Zionism row and by‑election loss
 - 2026-10-09 · [[2026-10-09-004-polanski-defends-leadership-after-zionism-row-and-by]] — Polanski defends leadership after Zionism row and by‑election loss

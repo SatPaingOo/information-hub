@@ -1,7 +1,7 @@
 ---
 name: "Caroline Lucas"
 entity_type: person
-backlink_count: 1
+backlink_count: 2
 ---
 
 # Caroline Lucas
@@ -10,4 +10,5 @@ backlink_count: 1
 
 ## Referenced by
 
+- 2026-10-11 · [[2026-10-11-004-green-party-mp-wants-to-make-sure-it-is-not-vulnerable-to]] — Green Party MP wants to make sure it is 'not vulnerable to extremists'
 - 2026-10-09 · [[2026-10-09-004-polanski-defends-leadership-after-zionism-row-and-by]] — Polanski defends leadership after Zionism row and by‑election loss

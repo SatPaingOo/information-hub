@@ -1,7 +1,7 @@
 ---
 name: "Amnesty International"
 entity_type: organization
-backlink_count: 6
+backlink_count: 7
 ---
 
 # Amnesty International
@@ -10,6 +10,7 @@ backlink_count: 6
 
 ## Referenced by
 
+- 2026-10-11 · [[2026-10-11-001-young-men-live-in-fear-of-being-snatched-off-the-streets]] — Young men live in fear of being snatched off the streets and sold to Myanmar's army
 - 2026-10-06 · [[2026-10-06-003-saudi-arabia-urged-to-spare-man-sentenced-to-death-over]] — Saudi Arabia urged to spare man sentenced to death over Facebook post
 - 2026-09-19 · [[2026-09-19-010-grim-discoveries-of-murdered-women-spark-fear-in-south]] — Grim discoveries of murdered women spark fear in South Africa
 - 2026-09-06 · [[2026-09-06-003-tv-presenter-among-11-sentenced-to-death-in-egypt-drugs-case]] — TV presenter among 11 sentenced to death in Egypt drugs case

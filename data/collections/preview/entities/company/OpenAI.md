@@ -1,7 +1,7 @@
 ---
 name: "OpenAI"
 entity_type: company
-backlink_count: 111
+backlink_count: 112
 ---
 
 # OpenAI
@@ -10,6 +10,7 @@ backlink_count: 111
 
 ## Referenced by
 
+- 2026-10-11 · [[2026-10-11-006-lune-the-search-engine-built-for-scientific-ai-agents]] — Lune – The Search Engine Built for Scientific AI Agents
 - 2026-10-10 · [[2026-10-10-002-analysis-trump-s-shock-russia-deal-highlights-mounting]] — Analysis: Trump's shock Russia deal highlights mounting pressure to curb fuel prices
 - 2026-10-09 · [[2026-10-09-005-labour-sees-off-green-challenge-to-win-holborn-by-election]] — Labour sees off Green challenge to win Holborn by-election
 - 2026-10-09 · [[2026-10-09-006-offstage]] — offstage
