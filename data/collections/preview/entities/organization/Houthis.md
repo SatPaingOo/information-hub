@@ -1,7 +1,7 @@
 ---
 name: "Houthis"
 entity_type: organization
-backlink_count: 7
+backlink_count: 8
 ---
 
 # Houthis
@@ -10,6 +10,7 @@ backlink_count: 7
 
 ## Referenced by
 
+- 2026-10-12 · [[2026-10-12-002-one-killed-11-injured-in-second-houthi-strike-on-riyadh]] — One killed, 11 injured in second Houthi strike on Riyadh airport in two days
 - 2026-10-11 · [[2026-10-11-003-twelve-killed-in-attack-on-airport-in-saudi-capital-riyadh]] — Twelve killed in attack on airport in Saudi capital Riyadh
 - 2026-10-05 · [[2026-10-05-002-yemen-s-government-announces-all-out-war-to-reclaim-land]] — Yemen's government announces all-out war to reclaim land from Houthis
 - 2026-09-28 · [[2026-09-28-001-inside-yemen-s-front-line-city-as-houthis-battle-for-control]] — Inside Yemen's front-line city as Houthis battle for control

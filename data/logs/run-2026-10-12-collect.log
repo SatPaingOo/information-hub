@@ -1,0 +1,14 @@
+2026-10-12 02:30:48,883 INFO [world-news] published 2026-10-12-001 — Trump's 'energy ceasefire' claim welcomed by Zelensky but Ru
+2026-10-12 02:31:28,508 ERROR [world-news] generate error: bad response: Unterminated string starting at: line 23 column 18 (char 1713)
+2026-10-12 02:33:19,952 INFO [world-news] attempt 2 invalid: ["entities/1/type: 'country' is not one of ['concept', 'company', 'model', 'person', 'product', 'region', 'organization', 'event']", "entities/2/type: 'country' is not one of ['concept', 'company', 'model', 'person', 'product', 'region', 'organization', 'event']"]
+2026-10-12 02:34:56,135 INFO [world-news] published 2026-10-12-002 — One killed, 11 injured in second Houthi strike on Riyadh air
+2026-10-12 02:35:36,699 INFO [world-news] published 2026-10-12-003 — Poland detains man suspected of planning assassination of PM
+2026-10-12 02:35:43,841 INFO [tech-news] nothing selected
+2026-10-12 02:36:29,398 INFO [politics] published 2026-10-12-004 — PM says it is 'clear' Russia interfered with Brexit vote
+2026-10-12 02:37:13,318 INFO [politics] published 2026-10-12-005 — Reform would suspend asylum system for parliamentary term if
+2026-10-12 02:37:20,189 INFO [products] published 2026-10-12-006 — SimpleSpread
+2026-10-12 02:37:20,331 ERROR [products] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7019, Requested 5447. Please try again in 33.495s. Need more tokens? Upgrade to Dev Tier today at https://con
+2026-10-12 02:37:26,029 ERROR [products] generate error: HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
+
+2026-10-12 02:37:32,031 WARNING [products] no collect provider for deep-dive
+2026-10-12 02:37:32,535 INFO collect done: 6 item(s) published — target 4/10, next run ≈ 2026-10-13T01:00:00+00:00 UTC

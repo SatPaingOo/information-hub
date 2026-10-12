@@ -1,7 +1,7 @@
 ---
 node: "industry"
 layer: category
-item_count: 248
+item_count: 252
 ---
 
 # industry
@@ -21,6 +21,10 @@ item_count: 248
 
 ## Items
 
+- 2026-10-12 · [[2026-10-12-001-trump-s-energy-ceasefire-claim-welcomed-by-zelensky-but]] — Trump's 'energy ceasefire' claim welcomed by Zelensky but Russia silent
+- 2026-10-12 · [[2026-10-12-002-one-killed-11-injured-in-second-houthi-strike-on-riyadh]] — One killed, 11 injured in second Houthi strike on Riyadh airport in two days
+- 2026-10-12 · [[2026-10-12-003-poland-detains-man-suspected-of-planning-assassination-of]] — Poland detains man suspected of planning assassination of PM Tusk
+- 2026-10-12 · [[2026-10-12-003-poland-detains-man-suspected-of-planning-assassination-of]] — Poland detains man suspected of planning assassination of PM Tusk
 - 2026-10-11 · [[2026-10-11-001-young-men-live-in-fear-of-being-snatched-off-the-streets]] — Young men live in fear of being snatched off the streets and sold to Myanmar's army
 - 2026-10-11 · [[2026-10-11-002-time-for-ukraine-to-get-new-president-says-trump-after]] — Time for Ukraine to get new president, says Trump after Zelensky condemns diesel deal
 - 2026-10-11 · [[2026-10-11-002-time-for-ukraine-to-get-new-president-says-trump-after]] — Time for Ukraine to get new president, says Trump after Zelensky condemns diesel deal

@@ -1,7 +1,7 @@
 ---
 node: "product"
 layer: category
-item_count: 85
+item_count: 86
 ---
 
 # product
@@ -19,6 +19,7 @@ item_count: 85
 
 ## Items
 
+- 2026-10-12 · [[2026-10-12-006-simplespread]] — SimpleSpread
 - 2026-10-11 · [[2026-10-11-006-lune-the-search-engine-built-for-scientific-ai-agents]] — Lune – The Search Engine Built for Scientific AI Agents
 - 2026-10-11 · [[2026-10-11-006-lune-the-search-engine-built-for-scientific-ai-agents]] — Lune – The Search Engine Built for Scientific AI Agents
 - 2026-10-09 · [[2026-10-09-006-offstage]] — offstage
