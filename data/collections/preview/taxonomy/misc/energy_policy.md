@@ -1,7 +1,7 @@
 ---
 node: "Energy Policy"
 layer: misc
-item_count: 5
+item_count: 6
 ---
 
 # Energy Policy
@@ -10,10 +10,12 @@ item_count: 5
 
 ## Cross-layer relations
 
+- [[politics]] — *relates*
 - [[world]] — *relates*
 
 ## Items
 
+- 2026-10-13 · [[2026-10-13-004-burnham-to-push-for-new-post-brexit-deals-at-eu-summit]] — Burnham to push for new post-Brexit deals at EU summit
 - 2026-10-12 · [[2026-10-12-001-trump-s-energy-ceasefire-claim-welcomed-by-zelensky-but]] — Trump's 'energy ceasefire' claim welcomed by Zelensky but Russia silent
 - 2026-10-10 · [[2026-10-10-002-analysis-trump-s-shock-russia-deal-highlights-mounting]] — Analysis: Trump's shock Russia deal highlights mounting pressure to curb fuel prices
 - 2026-10-01 · [[2026-10-01-009-swiss-glaciers-suffer-disastrous-year-of-ice-loss]] — Swiss glaciers suffer 'disastrous' year of ice loss, threatening water supplies

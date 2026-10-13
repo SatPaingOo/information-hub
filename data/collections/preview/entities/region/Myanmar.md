@@ -1,7 +1,7 @@
 ---
 name: "Myanmar"
 entity_type: region
-backlink_count: 20
+backlink_count: 21
 ---
 
 # Myanmar
@@ -10,6 +10,7 @@ backlink_count: 20
 
 ## Referenced by
 
+- 2026-10-13 · [[2026-10-13-007-squadroom-ai-employees-that-work-24-7]] — SquadRoom – AI Employees That Work 24/7
 - 2026-10-09 · [[2026-10-09-006-offstage]] — offstage
 - 2026-10-07 · [[2026-10-07-005-cosmic-ai-support-agent]] — Cosmic AI Support Agent
 - 2026-10-06 · [[2026-10-06-006-opengeni-ship-ai-agents-within-minutes-infrastructure-for]] — Opengeni: Ship AI agents within minutes. Infrastructure for Agents

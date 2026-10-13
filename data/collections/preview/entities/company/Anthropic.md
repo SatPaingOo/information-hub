@@ -1,7 +1,7 @@
 ---
 name: "Anthropic"
 entity_type: company
-backlink_count: 71
+backlink_count: 73
 ---
 
 # Anthropic
@@ -10,6 +10,8 @@ backlink_count: 71
 
 ## Referenced by
 
+- 2026-10-13 · [[2026-10-13-006-manifold-mcp]] — Manifold MCP
+- 2026-10-13 · [[2026-10-13-007-squadroom-ai-employees-that-work-24-7]] — SquadRoom – AI Employees That Work 24/7
 - 2026-10-11 · [[2026-10-11-006-lune-the-search-engine-built-for-scientific-ai-agents]] — Lune – The Search Engine Built for Scientific AI Agents
 - 2026-10-09 · [[2026-10-09-006-offstage]] — offstage
 - 2026-10-07 · [[2026-10-07-009-residents-of-kibbutz-destroyed-in-7-october-hamas-led]] — Residents of kibbutz destroyed in 7 October Hamas‑led attacks grapple with how to rebuild

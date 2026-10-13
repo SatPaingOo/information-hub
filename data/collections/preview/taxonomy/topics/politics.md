@@ -1,7 +1,7 @@
 ---
 node: "politics"
 layer: topic
-item_count: 134
+item_count: 136
 ---
 
 # politics
@@ -17,6 +17,8 @@ item_count: 134
 
 ## Items
 
+- 2026-10-13 · [[2026-10-13-004-burnham-to-push-for-new-post-brexit-deals-at-eu-summit]] — Burnham to push for new post-Brexit deals at EU summit
+- 2026-10-13 · [[2026-10-13-005-government-expands-police-support-to-political-figures-who]] — Government expands police support to political figures who are not MPs
 - 2026-10-12 · [[2026-10-12-004-pm-says-it-is-clear-russia-interfered-with-brexit-vote]] — PM says it is 'clear' Russia interfered with Brexit vote
 - 2026-10-12 · [[2026-10-12-005-reform-would-suspend-asylum-system-for-parliamentary-term]] — Reform would suspend asylum system for parliamentary term if in government
 - 2026-10-12 · [[2026-10-12-005-reform-would-suspend-asylum-system-for-parliamentary-term]] — Reform would suspend asylum system for parliamentary term if in government

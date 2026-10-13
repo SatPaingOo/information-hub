@@ -7797,6 +7797,118 @@
       "name": "privacy regulation"
     },
     {
+      "id": "info:item:world:global:2026-10-13-001",
+      "type": "item",
+      "date": "2026-10-13",
+      "title": "Six Ukrainian energy sites hit by Russia since Trump announced ceasefire, Zelensky says"
+    },
+    {
+      "id": "info:entity:organization:Ukrenergo",
+      "type": "organization",
+      "name": "Ukrenergo"
+    },
+    {
+      "id": "info:entity:person:Sergei Lavrov",
+      "type": "person",
+      "name": "Sergei Lavrov"
+    },
+    {
+      "id": "info:item:world:global:2026-10-13-002",
+      "type": "item",
+      "date": "2026-10-13",
+      "title": "Why Moscow is staying tight-lipped on Trump's energy ceasefire"
+    },
+    {
+      "id": "info:entity:organization:Kremlin",
+      "type": "organization",
+      "name": "Kremlin"
+    },
+    {
+      "id": "info:item:world:global:2026-10-13-003",
+      "type": "item",
+      "date": "2026-10-13",
+      "title": "Documents falsified to evade tax on Abramovich's wealth, BBC finds"
+    },
+    {
+      "id": "info:entity:person:Roman Abramovich",
+      "type": "person",
+      "name": "Roman Abramovich"
+    },
+    {
+      "id": "info:entity:company:Deloitte",
+      "type": "company",
+      "name": "Deloitte"
+    },
+    {
+      "id": "info:entity:organization:BBC Panorama",
+      "type": "organization",
+      "name": "BBC Panorama"
+    },
+    {
+      "id": "info:entity:company:MeritServus",
+      "type": "company",
+      "name": "MeritServus"
+    },
+    {
+      "id": "info:item:politics:global:2026-10-13-004",
+      "type": "item",
+      "date": "2026-10-13",
+      "title": "Burnham to push for new post-Brexit deals at EU summit"
+    },
+    {
+      "id": "taxonomy/misc/Brexit",
+      "type": "taxonomy",
+      "name": "Brexit"
+    },
+    {
+      "id": "taxonomy/misc/EU-UK Trade",
+      "type": "taxonomy",
+      "name": "EU-UK Trade"
+    },
+    {
+      "id": "info:item:politics:global:2026-10-13-005",
+      "type": "item",
+      "date": "2026-10-13",
+      "title": "Government expands police support to political figures who are not MPs"
+    },
+    {
+      "id": "info:entity:person:Stephen Lovegrove",
+      "type": "person",
+      "name": "Stephen Lovegrove"
+    },
+    {
+      "id": "info:entity:organization:Royal and VIP Executive Committee (RAVEC)",
+      "type": "organization",
+      "name": "Royal and VIP Executive Committee (RAVEC)"
+    },
+    {
+      "id": "taxonomy/misc/security",
+      "type": "taxonomy",
+      "name": "security"
+    },
+    {
+      "id": "info:item:products:global:2026-10-13-006",
+      "type": "item",
+      "date": "2026-10-13",
+      "title": "Manifold MCP"
+    },
+    {
+      "id": "info:entity:product:Manifold MCP",
+      "type": "product",
+      "name": "Manifold MCP"
+    },
+    {
+      "id": "info:item:products:global:2026-10-13-007",
+      "type": "item",
+      "date": "2026-10-13",
+      "title": "SquadRoom – AI Employees That Work 24/7"
+    },
+    {
+      "id": "info:entity:company:SquadRoom",
+      "type": "company",
+      "name": "SquadRoom"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -33300,6 +33412,446 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-10-13-001",
+      "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "President of Ukraine, spokesperson on ceasefire and attacks"
+    },
+    {
+      "source": "info:item:world:global:2026-10-13-001",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "U.S. President who announced the energy ceasefire"
+    },
+    {
+      "source": "info:item:world:global:2026-10-13-001",
+      "target": "info:entity:organization:Ukrenergo",
+      "relation": "Ukraine’s state grid operator reporting power cuts"
+    },
+    {
+      "source": "info:item:world:global:2026-10-13-001",
+      "target": "info:entity:person:Sergei Lavrov",
+      "relation": "Russian Foreign Minister commenting on ceasefire"
+    },
+    {
+      "source": "info:item:world:global:2026-10-13-001",
+      "target": "info:item:world:global:2026-10-12-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-13-001",
+      "target": "info:item:world:global:2026-10-12-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-13-001",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-13-001",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-13-001",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-13-001",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-13-001",
+      "target": "taxonomy/topic/world",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-13-001",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-13-001",
+      "target": "taxonomy/misc/energy security",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-13-002",
+      "target": "info:entity:person:Vladimir Putin",
+      "relation": "President of Russia, overseeing overall strategic response to the energy ceasefire announcement."
+    },
+    {
+      "source": "info:item:world:global:2026-10-13-002",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "U.S. President who announced the energy ceasefire and promoted the Russian diesel import deal."
+    },
+    {
+      "source": "info:item:world:global:2026-10-13-002",
+      "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "President of Ukraine, demanding reciprocal ceasefire terms and a 60‑day halt to hostilities for elections."
+    },
+    {
+      "source": "info:item:world:global:2026-10-13-002",
+      "target": "info:entity:organization:Kremlin",
+      "relation": "Russian executive branch, issuing cautious statements and proposing a one‑day cessation."
+    },
+    {
+      "source": "info:item:world:global:2026-10-13-002",
+      "target": "info:item:world:global:2026-10-13-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-13-002",
+      "target": "info:item:world:global:2026-10-12-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-13-002",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-13-002",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-13-002",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-13-002",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-13-002",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-13-002",
+      "target": "taxonomy/misc/energy security",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-13-002",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-13-003",
+      "target": "info:entity:person:Roman Abramovich",
+      "relation": "subject of tax evasion allegations"
+    },
+    {
+      "source": "info:item:world:global:2026-10-13-003",
+      "target": "info:entity:company:Deloitte",
+      "relation": "accountancy firm implicated in falsifying documents"
+    },
+    {
+      "source": "info:item:world:global:2026-10-13-003",
+      "target": "info:entity:organization:BBC Panorama",
+      "relation": "investigative unit that uncovered the scheme"
+    },
+    {
+      "source": "info:item:world:global:2026-10-13-003",
+      "target": "info:entity:company:MeritServus",
+      "relation": "corporate services firm managing offshore entities"
+    },
+    {
+      "source": "info:item:world:global:2026-10-13-003",
+      "target": "info:item:world:global:2026-10-13-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-13-003",
+      "target": "info:item:world:global:2026-10-13-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-13-003",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-13-003",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-13-003",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-13-003",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-13-003",
+      "target": "taxonomy/topic/world",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-13-003",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-13-003",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-13-004",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "UK Prime Minister"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-13-004",
+      "target": "info:entity:person:Kemi Badenoch",
+      "relation": "Conservative leader"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-13-004",
+      "target": "info:entity:organization:European Union",
+      "relation": "Negotiating partner"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-13-004",
+      "target": "info:item:politics:global:2026-10-12-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-13-004",
+      "target": "info:item:politics:global:2026-10-12-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-13-004",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-13-004",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-13-004",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-13-004",
+      "target": "taxonomy/misc/Brexit",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-13-004",
+      "target": "taxonomy/misc/EU-UK Trade",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-13-004",
+      "target": "taxonomy/misc/Energy Policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-13-005",
+      "target": "info:entity:person:Shabana Mahmood",
+      "relation": "Home Secretary announcing expanded police support"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-13-005",
+      "target": "info:entity:person:Stephen Lovegrove",
+      "relation": "Chair of the independent security review"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-13-005",
+      "target": "info:entity:organization:Reform UK",
+      "relation": "Political party whose spokeswoman was recently murdered"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-13-005",
+      "target": "info:entity:organization:Royal and VIP Executive Committee (RAVEC)",
+      "relation": "Existing body handling high‑profile political security"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-13-005",
+      "target": "info:item:politics:global:2026-10-13-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-13-005",
+      "target": "info:item:politics:global:2026-10-12-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-13-005",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-13-005",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-13-005",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-13-005",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-13-005",
+      "target": "taxonomy/misc/security",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-13-005",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-10-13-006",
+      "target": "info:entity:company:OpenAI",
+      "relation": "major provider of underlying language models used by Manifold MCP for AI answer generation"
+    },
+    {
+      "source": "info:item:products:global:2026-10-13-006",
+      "target": "info:entity:model:Gemini",
+      "relation": "competitor LLM platform whose data connectors are abstracted by Manifold MCP"
+    },
+    {
+      "source": "info:item:products:global:2026-10-13-006",
+      "target": "info:entity:company:Anthropic",
+      "relation": "provider of Claude models integrated into Manifold MCP for contextual AI responses"
+    },
+    {
+      "source": "info:item:products:global:2026-10-13-006",
+      "target": "info:entity:product:Manifold MCP",
+      "relation": "core offering that unifies SEO, social, ads, and lead data for AI agents"
+    },
+    {
+      "source": "info:item:products:global:2026-10-13-006",
+      "target": "info:item:products:global:2026-10-12-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-10-13-006",
+      "target": "info:item:products:global:2026-10-11-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-10-13-006",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-10-13-006",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-10-13-006",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-10-13-006",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-10-13-006",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-10-13-006",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-10-13-007",
+      "target": "info:entity:company:SquadRoom",
+      "relation": "provider"
+    },
+    {
+      "source": "info:item:products:global:2026-10-13-007",
+      "target": "info:entity:company:OpenAI",
+      "relation": "model API supplier"
+    },
+    {
+      "source": "info:item:products:global:2026-10-13-007",
+      "target": "info:entity:company:Anthropic",
+      "relation": "safety model supplier"
+    },
+    {
+      "source": "info:item:products:global:2026-10-13-007",
+      "target": "info:entity:model:Gemini",
+      "relation": "alternative commercial LLM"
+    },
+    {
+      "source": "info:item:products:global:2026-10-13-007",
+      "target": "info:entity:concept:agentic AI",
+      "relation": "core capability"
+    },
+    {
+      "source": "info:item:products:global:2026-10-13-007",
+      "target": "info:entity:region:Myanmar",
+      "relation": "regulatory focus"
+    },
+    {
+      "source": "info:item:products:global:2026-10-13-007",
+      "target": "info:item:products:global:2026-10-12-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-10-13-007",
+      "target": "info:item:products:global:2026-10-11-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-10-13-007",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-10-13-007",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-10-13-007",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-10-13-007",
+      "target": "taxonomy/topic/products",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-10-13-007",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-10-13-007",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -33563,7 +34115,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
-      "weight": "59"
+      "weight": "61"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -33580,6 +34132,12 @@
     {
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:Speakeasy",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:company:SquadRoom",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -33677,7 +34235,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:concept:agentic AI",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -33731,7 +34289,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "22"
+      "weight": "24"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -34053,6 +34611,12 @@
     },
     {
       "source": "info:entity:company:Anthropic",
+      "target": "info:entity:product:Manifold MCP",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
       "target": "info:entity:product:Maritime",
       "relation": "co-occurs",
       "weight": "1"
@@ -34109,7 +34673,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:region:Myanmar",
       "relation": "co-occurs",
-      "weight": "14"
+      "weight": "15"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -34294,6 +34858,24 @@
     {
       "source": "info:entity:company:Datagroup",
       "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Deloitte",
+      "target": "info:entity:company:MeritServus",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Deloitte",
+      "target": "info:entity:organization:BBC Panorama",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Deloitte",
+      "target": "info:entity:person:Roman Abramovich",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -34772,6 +35354,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:company:MeritServus",
+      "target": "info:entity:organization:BBC Panorama",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:MeritServus",
+      "target": "info:entity:person:Roman Abramovich",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:company:Meta",
       "target": "info:entity:company:Snap",
       "relation": "co-occurs",
@@ -35031,6 +35625,12 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:company:SquadRoom",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:company:Zhipu AI",
       "relation": "co-occurs",
       "weight": "1"
@@ -35129,7 +35729,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:concept:agentic AI",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -35201,7 +35801,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "38"
+      "weight": "40"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -35751,6 +36351,12 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:product:Manifold MCP",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:product:Maritime",
       "relation": "co-occurs",
       "weight": "1"
@@ -35813,7 +36419,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:region:Myanmar",
       "relation": "co-occurs",
-      "weight": "18"
+      "weight": "19"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -35974,6 +36580,24 @@
     {
       "source": "info:entity:company:Speakeasy",
       "target": "info:entity:product:Kit",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:SquadRoom",
+      "target": "info:entity:concept:agentic AI",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:SquadRoom",
+      "target": "info:entity:model:Gemini",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:SquadRoom",
+      "target": "info:entity:region:Myanmar",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -37157,7 +37781,7 @@
       "source": "info:entity:concept:agentic AI",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:concept:agentic AI",
@@ -37205,7 +37829,7 @@
       "source": "info:entity:concept:agentic AI",
       "target": "info:entity:region:Myanmar",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:concept:cordon sanitaire",
@@ -38181,6 +38805,12 @@
     },
     {
       "source": "info:entity:model:Gemini",
+      "target": "info:entity:product:Manifold MCP",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
       "target": "info:entity:product:Maritime",
       "relation": "co-occurs",
       "weight": "1"
@@ -38219,7 +38849,7 @@
       "source": "info:entity:model:Gemini",
       "target": "info:entity:region:Myanmar",
       "relation": "co-occurs",
-      "weight": "7"
+      "weight": "8"
     },
     {
       "source": "info:entity:model:Gemini",
@@ -38892,6 +39522,12 @@
       "target": "info:entity:region:Kryvyi Rih",
       "relation": "co-occurs",
       "weight": "2"
+    },
+    {
+      "source": "info:entity:organization:BBC Panorama",
+      "target": "info:entity:person:Roman Abramovich",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:organization:BSW (Bündnis Sahra Wagenknecht)",
@@ -39839,7 +40475,7 @@
       "source": "info:entity:organization:European Union",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:organization:European Union",
@@ -39882,6 +40518,12 @@
       "target": "info:entity:person:Katrín Frostadóttir",
       "relation": "co-occurs",
       "weight": "2"
+    },
+    {
+      "source": "info:entity:organization:European Union",
+      "target": "info:entity:person:Kemi Badenoch",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:organization:European Union",
@@ -41078,6 +41720,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Kremlin",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Kremlin",
+      "target": "info:entity:person:Vladimir Putin",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Kremlin",
+      "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:La France Insoumise (LFI)",
       "target": "info:entity:organization:Union Syndicale Lycène (USL)",
       "relation": "co-occurs",
@@ -42177,6 +42837,12 @@
     },
     {
       "source": "info:entity:organization:Reform UK",
+      "target": "info:entity:organization:Royal and VIP Executive Committee (RAVEC)",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Reform UK",
       "target": "info:entity:organization:Verbatim Investigations",
       "relation": "co-occurs",
       "weight": "2"
@@ -42299,7 +42965,13 @@
       "source": "info:entity:organization:Reform UK",
       "target": "info:entity:person:Shabana Mahmood",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
+    },
+    {
+      "source": "info:entity:organization:Reform UK",
+      "target": "info:entity:person:Stephen Lovegrove",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:organization:Reform UK",
@@ -42370,6 +43042,18 @@
     {
       "source": "info:entity:organization:Royal Air Force (RAF)",
       "target": "info:entity:person:Andy Burnham",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Royal and VIP Executive Committee (RAVEC)",
+      "target": "info:entity:person:Shabana Mahmood",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Royal and VIP Executive Committee (RAVEC)",
+      "target": "info:entity:person:Stephen Lovegrove",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -43136,6 +43820,24 @@
       "weight": "2"
     },
     {
+      "source": "info:entity:organization:Ukrenergo",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Ukrenergo",
+      "target": "info:entity:person:Sergei Lavrov",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Ukrenergo",
+      "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Ukrzaliznytsia",
       "target": "info:entity:person:Vladimir Putin",
       "relation": "co-occurs",
@@ -43745,7 +44447,7 @@
       "source": "info:entity:person:Andy Burnham",
       "target": "info:entity:person:Kemi Badenoch",
       "relation": "co-occurs",
-      "weight": "8"
+      "weight": "9"
     },
     {
       "source": "info:entity:person:Andy Burnham",
@@ -44661,6 +45363,12 @@
     },
     {
       "source": "info:entity:person:Donald Trump",
+      "target": "info:entity:person:Sergei Lavrov",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:Steve Witkoff",
       "relation": "co-occurs",
       "weight": "2"
@@ -44681,13 +45389,13 @@
       "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:Vladimir Putin",
       "relation": "co-occurs",
-      "weight": "6"
+      "weight": "7"
     },
     {
       "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
-      "weight": "5"
+      "weight": "7"
     },
     {
       "source": "info:entity:person:Donald Trump",
@@ -45680,6 +46388,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:person:Sergei Lavrov",
+      "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Shabana Mahmood",
+      "target": "info:entity:person:Stephen Lovegrove",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:person:Steve Witkoff",
       "target": "info:entity:person:Vladimir Putin",
       "relation": "co-occurs",
@@ -45749,7 +46469,7 @@
       "source": "info:entity:person:Vladimir Putin",
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
-      "weight": "11"
+      "weight": "12"
     },
     {
       "source": "info:entity:person:Vladimir Putin",

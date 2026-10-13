@@ -1,7 +1,7 @@
 ---
 node: "Policy"
 layer: misc
-item_count: 311
+item_count: 316
 ---
 
 # Policy
@@ -17,6 +17,11 @@ item_count: 311
 
 ## Items
 
+- 2026-10-13 · [[2026-10-13-001-six-ukrainian-energy-sites-hit-by-russia-since-trump]] — Six Ukrainian energy sites hit by Russia since Trump announced ceasefire, Zelensky says
+- 2026-10-13 · [[2026-10-13-002-why-moscow-is-staying-tight-lipped-on-trump-s-energy]] — Why Moscow is staying tight-lipped on Trump's energy ceasefire
+- 2026-10-13 · [[2026-10-13-003-documents-falsified-to-evade-tax-on-abramovich-s-wealth]] — Documents falsified to evade tax on Abramovich's wealth, BBC finds
+- 2026-10-13 · [[2026-10-13-004-burnham-to-push-for-new-post-brexit-deals-at-eu-summit]] — Burnham to push for new post-Brexit deals at EU summit
+- 2026-10-13 · [[2026-10-13-005-government-expands-police-support-to-political-figures-who]] — Government expands police support to political figures who are not MPs
 - 2026-10-12 · [[2026-10-12-001-trump-s-energy-ceasefire-claim-welcomed-by-zelensky-but]] — Trump's 'energy ceasefire' claim welcomed by Zelensky but Russia silent
 - 2026-10-12 · [[2026-10-12-002-one-killed-11-injured-in-second-houthi-strike-on-riyadh]] — One killed, 11 injured in second Houthi strike on Riyadh airport in two days
 - 2026-10-12 · [[2026-10-12-003-poland-detains-man-suspected-of-planning-assassination-of]] — Poland detains man suspected of planning assassination of PM Tusk

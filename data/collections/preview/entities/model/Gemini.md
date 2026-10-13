@@ -1,7 +1,7 @@
 ---
 name: "Gemini"
 entity_type: model
-backlink_count: 51
+backlink_count: 53
 ---
 
 # Gemini
@@ -10,6 +10,8 @@ backlink_count: 51
 
 ## Referenced by
 
+- 2026-10-13 · [[2026-10-13-006-manifold-mcp]] — Manifold MCP
+- 2026-10-13 · [[2026-10-13-007-squadroom-ai-employees-that-work-24-7]] — SquadRoom – AI Employees That Work 24/7
 - 2026-10-12 · [[2026-10-12-004-pm-says-it-is-clear-russia-interfered-with-brexit-vote]] — PM says it is 'clear' Russia interfered with Brexit vote
 - 2026-10-12 · [[2026-10-12-005-reform-would-suspend-asylum-system-for-parliamentary-term]] — Reform would suspend asylum system for parliamentary term if in government
 - 2026-10-11 · [[2026-10-11-006-lune-the-search-engine-built-for-scientific-ai-agents]] — Lune – The Search Engine Built for Scientific AI Agents

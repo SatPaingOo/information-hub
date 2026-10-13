@@ -1,7 +1,7 @@
 ---
 name: "Reform UK"
 entity_type: organization
-backlink_count: 27
+backlink_count: 28
 ---
 
 # Reform UK
@@ -10,6 +10,7 @@ backlink_count: 27
 
 ## Referenced by
 
+- 2026-10-13 · [[2026-10-13-005-government-expands-police-support-to-political-figures-who]] — Government expands police support to political figures who are not MPs
 - 2026-10-12 · [[2026-10-12-005-reform-would-suspend-asylum-system-for-parliamentary-term]] — Reform would suspend asylum system for parliamentary term if in government
 - 2026-10-08 · [[2026-10-08-005-badenoch-says-tories-would-scrap-inheritance-tax-on-family]] — Badenoch says Tories would scrap inheritance tax on family homes
 - 2026-10-07 · [[2026-10-07-003-i-d-rather-have-another-election-than-do-a-deal-with]] — I'd rather have another election than do a deal with Reform UK, says Badenoch

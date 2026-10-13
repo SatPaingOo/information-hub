@@ -1,7 +1,7 @@
 ---
 node: "geopolitics"
 layer: topic
-item_count: 94
+item_count: 97
 ---
 
 # geopolitics
@@ -24,6 +24,9 @@ item_count: 94
 
 ## Items
 
+- 2026-10-13 · [[2026-10-13-001-six-ukrainian-energy-sites-hit-by-russia-since-trump]] — Six Ukrainian energy sites hit by Russia since Trump announced ceasefire, Zelensky says
+- 2026-10-13 · [[2026-10-13-002-why-moscow-is-staying-tight-lipped-on-trump-s-energy]] — Why Moscow is staying tight-lipped on Trump's energy ceasefire
+- 2026-10-13 · [[2026-10-13-003-documents-falsified-to-evade-tax-on-abramovich-s-wealth]] — Documents falsified to evade tax on Abramovich's wealth, BBC finds
 - 2026-10-12 · [[2026-10-12-003-poland-detains-man-suspected-of-planning-assassination-of]] — Poland detains man suspected of planning assassination of PM Tusk
 - 2026-10-12 · [[2026-10-12-004-pm-says-it-is-clear-russia-interfered-with-brexit-vote]] — PM says it is 'clear' Russia interfered with Brexit vote
 - 2026-10-12 · [[2026-10-12-005-reform-would-suspend-asylum-system-for-parliamentary-term]] — Reform would suspend asylum system for parliamentary term if in government
