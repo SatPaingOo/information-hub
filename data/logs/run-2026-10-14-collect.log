@@ -22,3 +22,12 @@
 2026-10-14 10:41:57,910 WARNING [politics] no collect provider for deep-dive
 2026-10-14 10:41:59,118 WARNING [products] no collect provider available
 2026-10-14 10:41:59,382 INFO collect done: 0 item(s) published — target 4/10, next run ≈ 2026-10-15T01:00:00+00:00 UTC
+2026-10-14 15:27:35,384 INFO [world-news] near-duplicate pruned — 'Saudi employee charged with planting recording device in Ope' ~ 2026-10-14-001
+2026-10-14 15:27:40,473 ERROR [world-news] generate error: HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
+
+2026-10-14 15:27:43,474 WARNING [world-news] no collect provider for deep-dive
+2026-10-14 15:27:43,612 WARNING [world-news] no collect provider for deep-dive
+2026-10-14 15:27:44,369 WARNING [tech-news] no collect provider available
+2026-10-14 15:27:44,666 WARNING [politics] no collect provider available
+2026-10-14 15:27:45,651 WARNING [products] no collect provider available
+2026-10-14 15:27:47,062 INFO collect done: 0 item(s) published — target 4/10, next run ≈ 2026-10-15T01:00:00+00:00 UTC
