@@ -1,7 +1,7 @@
 ---
 node: "Energy Security"
 layer: misc
-item_count: 9
+item_count: 10
 ---
 
 # Energy Security
@@ -10,12 +10,14 @@ item_count: 9
 
 ## Cross-layer relations
 
+- [[politics]] — *relates*
 - [[world]] — *relates*
 - [[world]] — *sector*
 - [[world]] — *topic*
 
 ## Items
 
+- 2026-10-14 · [[2026-10-14-003-argentina-targets-uk-in-legal-claim-over-falklands-oil]] — Argentina targets UK in legal claim over Falklands oil exploration
 - 2026-10-13 · [[2026-10-13-001-six-ukrainian-energy-sites-hit-by-russia-since-trump]] — Six Ukrainian energy sites hit by Russia since Trump announced ceasefire, Zelensky says
 - 2026-10-13 · [[2026-10-13-002-why-moscow-is-staying-tight-lipped-on-trump-s-energy]] — Why Moscow is staying tight-lipped on Trump's energy ceasefire
 - 2026-09-27 · [[2026-09-27-008-iran-says-it-will-wait-for-official-us-response-after]] — Iran says it will wait for official US response after Trump rejects Strait of Hormuz proposal

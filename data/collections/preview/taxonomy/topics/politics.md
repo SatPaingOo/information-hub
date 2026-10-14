@@ -1,7 +1,7 @@
 ---
 node: "politics"
 layer: topic
-item_count: 136
+item_count: 138
 ---
 
 # politics
@@ -17,6 +17,8 @@ item_count: 136
 
 ## Items
 
+- 2026-10-14 · [[2026-10-14-002-mi5-chief-warns-against-overstating-russian-interference]] — MI5 chief warns against overstating Russian interference in Brexit vote
+- 2026-10-14 · [[2026-10-14-003-argentina-targets-uk-in-legal-claim-over-falklands-oil]] — Argentina targets UK in legal claim over Falklands oil exploration
 - 2026-10-13 · [[2026-10-13-004-burnham-to-push-for-new-post-brexit-deals-at-eu-summit]] — Burnham to push for new post-Brexit deals at EU summit
 - 2026-10-13 · [[2026-10-13-005-government-expands-police-support-to-political-figures-who]] — Government expands police support to political figures who are not MPs
 - 2026-10-12 · [[2026-10-12-004-pm-says-it-is-clear-russia-interfered-with-brexit-vote]] — PM says it is 'clear' Russia interfered with Brexit vote

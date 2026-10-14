@@ -1,7 +1,7 @@
 ---
 node: "Global"
 layer: misc
-item_count: 400
+item_count: 404
 ---
 
 # Global
@@ -25,6 +25,10 @@ item_count: 400
 
 ## Items
 
+- 2026-10-14 · [[2026-10-14-001-saudi-man-charged-with-planting-sophisticated-recording]] — Saudi man charged with planting 'sophisticated' recording device in OpenAI office
+- 2026-10-14 · [[2026-10-14-002-mi5-chief-warns-against-overstating-russian-interference]] — MI5 chief warns against overstating Russian interference in Brexit vote
+- 2026-10-14 · [[2026-10-14-003-argentina-targets-uk-in-legal-claim-over-falklands-oil]] — Argentina targets UK in legal claim over Falklands oil exploration
+- 2026-10-14 · [[2026-10-14-004-muse-wonder]] — Muse Wonder
 - 2026-10-13 · [[2026-10-13-001-six-ukrainian-energy-sites-hit-by-russia-since-trump]] — Six Ukrainian energy sites hit by Russia since Trump announced ceasefire, Zelensky says
 - 2026-10-13 · [[2026-10-13-002-why-moscow-is-staying-tight-lipped-on-trump-s-energy]] — Why Moscow is staying tight-lipped on Trump's energy ceasefire
 - 2026-10-13 · [[2026-10-13-003-documents-falsified-to-evade-tax-on-abramovich-s-wealth]] — Documents falsified to evade tax on Abramovich's wealth, BBC finds

@@ -1,7 +1,7 @@
 ---
 node: "product"
 layer: category
-item_count: 88
+item_count: 89
 ---
 
 # product
@@ -19,6 +19,7 @@ item_count: 88
 
 ## Items
 
+- 2026-10-14 · [[2026-10-14-004-muse-wonder]] — Muse Wonder
 - 2026-10-13 · [[2026-10-13-006-manifold-mcp]] — Manifold MCP
 - 2026-10-13 · [[2026-10-13-007-squadroom-ai-employees-that-work-24-7]] — SquadRoom – AI Employees That Work 24/7
 - 2026-10-12 · [[2026-10-12-006-simplespread]] — SimpleSpread

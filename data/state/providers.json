@@ -464,30 +464,30 @@
     "tokens_used": 0,
     "items": 0,
     "calls": 0,
-    "errors": 0,
-    "cooldown_until": null,
+    "errors": 2,
+    "cooldown_until": "2026-10-14T05:55:39+00:00",
     "models": {
       "gemini-3.5-flash-lite": {
         "calls": 0,
         "items": 0,
-        "errors": 120,
-        "consecutive_failures": 3,
-        "healthy": false,
-        "last_health_check": "2026-10-13T07:34:29+00:00",
+        "errors": 121,
+        "consecutive_failures": 1,
+        "healthy": true,
+        "last_health_check": "2026-10-14T05:55:06+00:00",
         "latency_ms": null,
         "supports_json": true,
-        "cooldown_until": null
+        "cooldown_until": "2026-10-14T05:55:36+00:00"
       },
       "gemini-3.5-flash": {
         "calls": 0,
         "items": 0,
-        "errors": 120,
-        "consecutive_failures": 3,
-        "healthy": false,
-        "last_health_check": "2026-10-13T07:34:32+00:00",
+        "errors": 121,
+        "consecutive_failures": 1,
+        "healthy": true,
+        "last_health_check": "2026-10-14T05:55:09+00:00",
         "latency_ms": null,
         "supports_json": true,
-        "cooldown_until": null
+        "cooldown_until": "2026-10-14T05:55:39+00:00"
       }
     }
   }

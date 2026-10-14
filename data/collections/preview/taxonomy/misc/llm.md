@@ -1,7 +1,7 @@
 ---
 node: "LLM"
 layer: misc
-item_count: 64
+item_count: 65
 ---
 
 # LLM
@@ -17,6 +17,7 @@ item_count: 64
 
 ## Items
 
+- 2026-10-14 · [[2026-10-14-004-muse-wonder]] — Muse Wonder
 - 2026-10-13 · [[2026-10-13-006-manifold-mcp]] — Manifold MCP
 - 2026-10-13 · [[2026-10-13-007-squadroom-ai-employees-that-work-24-7]] — SquadRoom – AI Employees That Work 24/7
 - 2026-10-11 · [[2026-10-11-006-lune-the-search-engine-built-for-scientific-ai-agents]] — Lune – The Search Engine Built for Scientific AI Agents

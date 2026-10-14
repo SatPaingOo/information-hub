@@ -1,7 +1,7 @@
 ---
 node: "industry"
 layer: category
-item_count: 255
+item_count: 256
 ---
 
 # industry
@@ -21,6 +21,7 @@ item_count: 255
 
 ## Items
 
+- 2026-10-14 · [[2026-10-14-001-saudi-man-charged-with-planting-sophisticated-recording]] — Saudi man charged with planting 'sophisticated' recording device in OpenAI office
 - 2026-10-13 · [[2026-10-13-001-six-ukrainian-energy-sites-hit-by-russia-since-trump]] — Six Ukrainian energy sites hit by Russia since Trump announced ceasefire, Zelensky says
 - 2026-10-13 · [[2026-10-13-002-why-moscow-is-staying-tight-lipped-on-trump-s-energy]] — Why Moscow is staying tight-lipped on Trump's energy ceasefire
 - 2026-10-13 · [[2026-10-13-003-documents-falsified-to-evade-tax-on-abramovich-s-wealth]] — Documents falsified to evade tax on Abramovich's wealth, BBC finds
