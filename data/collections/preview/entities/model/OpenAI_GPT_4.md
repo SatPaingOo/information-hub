@@ -1,7 +1,7 @@
 ---
 name: "OpenAI GPT‑4"
 entity_type: model
-backlink_count: 6
+backlink_count: 7
 ---
 
 # OpenAI GPT‑4
@@ -10,6 +10,7 @@ backlink_count: 6
 
 ## Referenced by
 
+- 2026-10-14 · [[2026-10-14-005-gemini-4-argon]] — Gemini 4 Argon
 - 2026-10-11 · [[2026-10-11-001-young-men-live-in-fear-of-being-snatched-off-the-streets]] — Young men live in fear of being snatched off the streets and sold to Myanmar's army
 - 2026-10-05 · [[2026-10-05-006-clair]] — Clair
 - 2026-10-03 · [[2026-10-03-007-jarviscore-a-zero-trust-mesh-for-agentic-ai]] — JarvisCore – A Zero‑Trust Mesh for Agentic AI

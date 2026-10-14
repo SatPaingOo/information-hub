@@ -1,7 +1,7 @@
 ---
 name: "John Healey"
 entity_type: person
-backlink_count: 12
+backlink_count: 13
 ---
 
 # John Healey
@@ -10,6 +10,7 @@ backlink_count: 12
 
 ## Referenced by
 
+- 2026-10-14 · [[2026-10-14-003-zelensky-and-burnham-to-meet-in-downing-street]] — Zelensky and Burnham to meet in Downing Street
 - 2026-09-29 · [[2026-09-29-004-burnham-to-unveil-public-body-to-invest-in-electricity-grid]] — Burnham to unveil public body to invest in electricity grid
 - 2026-09-26 · [[2026-09-26-003-new-policies-election-speculation-what-to-expect-from]] — New policies, election speculation: What to expect from Burnham's first Labour conference as PM
 - 2026-09-21 · [[2026-09-21-004-ed-davey-calls-for-immediate-10p-cut-to-fuel-duty]] — Ed Davey calls for immediate 10p cut to fuel duty

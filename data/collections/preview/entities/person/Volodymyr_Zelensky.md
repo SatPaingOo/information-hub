@@ -1,7 +1,7 @@
 ---
 name: "Volodymyr Zelensky"
 entity_type: person
-backlink_count: 24
+backlink_count: 26
 ---
 
 # Volodymyr Zelensky
@@ -10,6 +10,8 @@ backlink_count: 24
 
 ## Referenced by
 
+- 2026-10-14 · [[2026-10-14-001-russian-strikes-leave-600-000-without-power-in-ukraine-as]] — Russian strikes leave 600,000 without power in Ukraine, as Starlink restrictions affect front line
+- 2026-10-14 · [[2026-10-14-003-zelensky-and-burnham-to-meet-in-downing-street]] — Zelensky and Burnham to meet in Downing Street
 - 2026-10-13 · [[2026-10-13-001-six-ukrainian-energy-sites-hit-by-russia-since-trump]] — Six Ukrainian energy sites hit by Russia since Trump announced ceasefire, Zelensky says
 - 2026-10-13 · [[2026-10-13-002-why-moscow-is-staying-tight-lipped-on-trump-s-energy]] — Why Moscow is staying tight-lipped on Trump's energy ceasefire
 - 2026-10-12 · [[2026-10-12-001-trump-s-energy-ceasefire-claim-welcomed-by-zelensky-but]] — Trump's 'energy ceasefire' claim welcomed by Zelensky but Russia silent

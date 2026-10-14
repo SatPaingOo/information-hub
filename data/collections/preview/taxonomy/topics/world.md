@@ -1,7 +1,7 @@
 ---
 node: "world"
 layer: topic
-item_count: 230
+item_count: 232
 ---
 
 # world
@@ -17,7 +17,9 @@ item_count: 230
 
 ## Items
 
+- 2026-10-14 · [[2026-10-14-001-russian-strikes-leave-600-000-without-power-in-ukraine-as]] — Russian strikes leave 600,000 without power in Ukraine, as Starlink restrictions affect front line
 - 2026-10-14 · [[2026-10-14-001-saudi-man-charged-with-planting-sophisticated-recording]] — Saudi man charged with planting 'sophisticated' recording device in OpenAI office
+- 2026-10-14 · [[2026-10-14-002-pope-diagnosed-with-lung-cancer-but-had-successful-surgery]] — Pope diagnosed with lung cancer but had successful surgery, Vatican says
 - 2026-10-13 · [[2026-10-13-001-six-ukrainian-energy-sites-hit-by-russia-since-trump]] — Six Ukrainian energy sites hit by Russia since Trump announced ceasefire, Zelensky says
 - 2026-10-13 · [[2026-10-13-001-six-ukrainian-energy-sites-hit-by-russia-since-trump]] — Six Ukrainian energy sites hit by Russia since Trump announced ceasefire, Zelensky says
 - 2026-10-13 · [[2026-10-13-002-why-moscow-is-staying-tight-lipped-on-trump-s-energy]] — Why Moscow is staying tight-lipped on Trump's energy ceasefire

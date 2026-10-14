@@ -1,7 +1,7 @@
 ---
 node: "Agentic AI"
 layer: misc
-item_count: 79
+item_count: 81
 ---
 
 # Agentic AI
@@ -19,6 +19,8 @@ item_count: 79
 
 - 2026-10-14 · [[2026-10-14-001-saudi-man-charged-with-planting-sophisticated-recording]] — Saudi man charged with planting 'sophisticated' recording device in OpenAI office
 - 2026-10-14 · [[2026-10-14-004-muse-wonder]] — Muse Wonder
+- 2026-10-14 · [[2026-10-14-005-gemini-4-argon]] — Gemini 4 Argon
+- 2026-10-14 · [[2026-10-14-006-reason]] — Reason
 - 2026-10-13 · [[2026-10-13-006-manifold-mcp]] — Manifold MCP
 - 2026-10-13 · [[2026-10-13-007-squadroom-ai-employees-that-work-24-7]] — SquadRoom – AI Employees That Work 24/7
 - 2026-10-11 · [[2026-10-11-006-lune-the-search-engine-built-for-scientific-ai-agents]] — Lune – The Search Engine Built for Scientific AI Agents

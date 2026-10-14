@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T05:55:36+00:00",
+  "generated_at": "2026-10-14T10:42:50+00:00",
   "per_day_provider_model": {
     "2026-08-17": {
       "groq": {
@@ -2596,20 +2596,34 @@
     "2026-10-14": {
       "openrouter": {
         "cohere/north-mini-code:free": {
-          "calls": 8,
-          "ok": 8,
+          "calls": 18,
+          "ok": 18,
           "errors": 0,
-          "tokens": 39742
+          "tokens": 91465
         }
       },
       "gemini": {
         "gemini-3.5-flash-lite": {
-          "calls": 1,
+          "calls": 2,
           "ok": 0,
-          "errors": 1,
+          "errors": 2,
           "tokens": 0
         },
         "gemini-3.5-flash": {
+          "calls": 2,
+          "ok": 0,
+          "errors": 2,
+          "tokens": 0
+        }
+      },
+      "groq": {
+        "openai/gpt-oss-120b": {
+          "calls": 4,
+          "ok": 3,
+          "errors": 1,
+          "tokens": 3759
+        },
+        "openai/gpt-oss-20b": {
           "calls": 1,
           "ok": 0,
           "errors": 1,
@@ -2865,7 +2879,8 @@
       "HTTP 429": 9
     },
     "2026-10-14": {
-      "HTTP 429": 2
+      "HTTP 429": 5,
+      "HTTP 400": 1
     }
   }
 }

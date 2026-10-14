@@ -1,7 +1,7 @@
 ---
 name: "Andy Burnham"
 entity_type: person
-backlink_count: 55
+backlink_count: 57
 ---
 
 # Andy Burnham
@@ -11,6 +11,8 @@ backlink_count: 55
 ## Referenced by
 
 - 2026-10-14 · [[2026-10-14-002-mi5-chief-warns-against-overstating-russian-interference]] — MI5 chief warns against overstating Russian interference in Brexit vote
+- 2026-10-14 · [[2026-10-14-003-zelensky-and-burnham-to-meet-in-downing-street]] — Zelensky and Burnham to meet in Downing Street
+- 2026-10-14 · [[2026-10-14-004-burnham-had-two-hospitality-dinners-with-man-city-chairman]] — Burnham had two hospitality dinners with Man City chairman, deleted records show
 - 2026-10-13 · [[2026-10-13-004-burnham-to-push-for-new-post-brexit-deals-at-eu-summit]] — Burnham to push for new post-Brexit deals at EU summit
 - 2026-10-12 · [[2026-10-12-001-trump-s-energy-ceasefire-claim-welcomed-by-zelensky-but]] — Trump's 'energy ceasefire' claim welcomed by Zelensky but Russia silent
 - 2026-10-12 · [[2026-10-12-004-pm-says-it-is-clear-russia-interfered-with-brexit-vote]] — PM says it is 'clear' Russia interfered with Brexit vote

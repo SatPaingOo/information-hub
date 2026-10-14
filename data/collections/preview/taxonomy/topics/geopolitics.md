@@ -1,7 +1,7 @@
 ---
 node: "geopolitics"
 layer: topic
-item_count: 97
+item_count: 99
 ---
 
 # geopolitics
@@ -24,6 +24,8 @@ item_count: 97
 
 ## Items
 
+- 2026-10-14 · [[2026-10-14-002-pope-diagnosed-with-lung-cancer-but-had-successful-surgery]] — Pope diagnosed with lung cancer but had successful surgery, Vatican says
+- 2026-10-14 · [[2026-10-14-004-burnham-had-two-hospitality-dinners-with-man-city-chairman]] — Burnham had two hospitality dinners with Man City chairman, deleted records show
 - 2026-10-13 · [[2026-10-13-001-six-ukrainian-energy-sites-hit-by-russia-since-trump]] — Six Ukrainian energy sites hit by Russia since Trump announced ceasefire, Zelensky says
 - 2026-10-13 · [[2026-10-13-002-why-moscow-is-staying-tight-lipped-on-trump-s-energy]] — Why Moscow is staying tight-lipped on Trump's energy ceasefire
 - 2026-10-13 · [[2026-10-13-003-documents-falsified-to-evade-tax-on-abramovich-s-wealth]] — Documents falsified to evade tax on Abramovich's wealth, BBC finds
