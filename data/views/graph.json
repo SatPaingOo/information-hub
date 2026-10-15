@@ -8067,6 +8067,62 @@
       "title": "Reason"
     },
     {
+      "id": "info:item:world:global:2026-10-15-001",
+      "type": "item",
+      "date": "2026-10-15",
+      "title": "Anthropic flags revenue surge to investors ahead of stock market debut"
+    },
+    {
+      "id": "info:item:world:global:2026-10-15-002",
+      "type": "item",
+      "date": "2026-10-15",
+      "title": "Musk says US government may be behind slowdown of Ukraine drone speeds"
+    },
+    {
+      "id": "info:entity:organization:Starlink",
+      "type": "organization",
+      "name": "Starlink"
+    },
+    {
+      "id": "info:entity:organization:Starshield",
+      "type": "organization",
+      "name": "Starshield"
+    },
+    {
+      "id": "info:item:world:global:2026-10-15-003",
+      "type": "item",
+      "date": "2026-10-15",
+      "title": "Student protesters attack government buildings in Albania"
+    },
+    {
+      "id": "info:item:politics:global:2026-10-15-004",
+      "type": "item",
+      "date": "2026-10-15",
+      "title": "We are behind you and that will not change, PM tells Zelensky"
+    },
+    {
+      "id": "info:entity:company:Starlink",
+      "type": "company",
+      "name": "Starlink"
+    },
+    {
+      "id": "info:item:politics:global:2026-10-15-005",
+      "type": "item",
+      "date": "2026-10-15",
+      "title": "Reform faces criticism after councillors filmed making racist comments"
+    },
+    {
+      "id": "info:entity:person:Alan Feeney",
+      "type": "person",
+      "name": "Alan Feeney"
+    },
+    {
+      "id": "info:item:products:global:2026-10-15-006",
+      "type": "item",
+      "date": "2026-10-15",
+      "title": "Make0 Brain"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -34610,6 +34666,376 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-10-15-001",
+      "target": "info:entity:company:Anthropic",
+      "relation": "reported Q3 2026 revenue surge ahead of IPO"
+    },
+    {
+      "source": "info:item:world:global:2026-10-15-001",
+      "target": "info:entity:person:Dario Amodei",
+      "relation": "CEO of Anthropic, called for slower AI development pace"
+    },
+    {
+      "source": "info:item:world:global:2026-10-15-001",
+      "target": "info:entity:company:OpenAI",
+      "relation": "rival AI firm, also planning a high‑valuation IPO"
+    },
+    {
+      "source": "info:item:world:global:2026-10-15-001",
+      "target": "info:entity:person:Sam Altman",
+      "relation": "CEO of OpenAI, focusing on AI safety before public listing"
+    },
+    {
+      "source": "info:item:world:global:2026-10-15-001",
+      "target": "info:item:world:global:2026-10-14-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-15-001",
+      "target": "info:item:world:global:2026-10-14-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-15-001",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-15-001",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-15-001",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-15-001",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-15-001",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-15-001",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-15-001",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-15-002",
+      "target": "info:entity:person:Elon Musk",
+      "relation": "CEO of SpaceX, commentator on Starlink restrictions"
+    },
+    {
+      "source": "info:item:world:global:2026-10-15-002",
+      "target": "info:entity:organization:Starlink",
+      "relation": "commercial satellite internet service owned by SpaceX"
+    },
+    {
+      "source": "info:item:world:global:2026-10-15-002",
+      "target": "info:entity:organization:Starshield",
+      "relation": "U.S. Department of Defense‑controlled military satellite service"
+    },
+    {
+      "source": "info:item:world:global:2026-10-15-002",
+      "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "President of Ukraine, called for restored connectivity"
+    },
+    {
+      "source": "info:item:world:global:2026-10-15-002",
+      "target": "info:item:world:global:2026-10-15-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-15-002",
+      "target": "info:item:world:global:2026-10-14-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-15-002",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-15-002",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-15-002",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-15-002",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-15-002",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-15-002",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-15-002",
+      "target": "taxonomy/category/industry",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-15-003",
+      "target": "info:entity:organization:OpenAI",
+      "relation": "AI firm with investments in Albania’s tourism sector"
+    },
+    {
+      "source": "info:item:world:global:2026-10-15-003",
+      "target": "info:entity:model:Gemini",
+      "relation": "AI model involved in crowd‑analytics projects in Albania"
+    },
+    {
+      "source": "info:item:world:global:2026-10-15-003",
+      "target": "info:entity:organization:Anthropic",
+      "relation": "AI company exploring AI‑enabled analytics for Albanian hospitality"
+    },
+    {
+      "source": "info:item:world:global:2026-10-15-003",
+      "target": "info:entity:person:Jared Kushner",
+      "relation": "linked to luxury tourism project cited by protesters"
+    },
+    {
+      "source": "info:item:world:global:2026-10-15-003",
+      "target": "info:item:world:global:2026-10-15-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-15-003",
+      "target": "info:item:world:global:2026-10-15-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-15-003",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-15-003",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-15-003",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-15-003",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-15-003",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-15-003",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-15-003",
+      "target": "taxonomy/category/industry",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-15-004",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "UK Prime Minister who reaffirmed support for Ukraine"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-15-004",
+      "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "President of Ukraine who met with the UK PM"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-15-004",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "US President whose sanctions lift and criticism affect Ukraine"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-15-004",
+      "target": "info:entity:company:Starlink",
+      "relation": "commercial satellite internet service used by Ukrainian forces"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-15-004",
+      "target": "info:item:politics:global:2026-10-14-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-15-004",
+      "target": "info:item:politics:global:2026-10-14-003",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-15-004",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-15-004",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-15-004",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-15-004",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-15-004",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-15-004",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-15-005",
+      "target": "info:entity:person:Nigel Farage",
+      "relation": "leader of Reform UK, responsible for party direction and response to scandal"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-15-005",
+      "target": "info:entity:person:Alan Feeney",
+      "relation": "Reform councillor and deputy mayor of Solihull, filmed making racist comments"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-15-005",
+      "target": "info:entity:organization:Labour Party",
+      "relation": "principal critic of the scandal, called the revelations \"truly sickening\""
+    },
+    {
+      "source": "info:item:politics:global:2026-10-15-005",
+      "target": "info:entity:organization:Conservative Party",
+      "relation": "used the controversy to highlight Reform’s failure to professionalize"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-15-005",
+      "target": "info:item:politics:global:2026-10-15-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-15-005",
+      "target": "info:item:politics:global:2026-10-14-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-15-005",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-15-005",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-15-005",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-15-005",
+      "target": "taxonomy/topic/politics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-15-005",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-15-005",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-10-15-006",
+      "target": "info:entity:company:OpenAI",
+      "relation": "competitor"
+    },
+    {
+      "source": "info:item:products:global:2026-10-15-006",
+      "target": "info:entity:model:Gemini",
+      "relation": "integrated"
+    },
+    {
+      "source": "info:item:products:global:2026-10-15-006",
+      "target": "info:entity:company:Anthropic",
+      "relation": "potential partner"
+    },
+    {
+      "source": "info:item:products:global:2026-10-15-006",
+      "target": "info:item:products:global:2026-10-14-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-10-15-006",
+      "target": "info:item:products:global:2026-10-14-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-10-15-006",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-10-15-006",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-10-15-006",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-10-15-006",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-10-15-006",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-10-15-006",
+      "target": "taxonomy/misc/regulation",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -34879,7 +35305,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
-      "weight": "62"
+      "weight": "64"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -35053,7 +35479,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "24"
+      "weight": "25"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -35197,7 +35623,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:person:Dario Amodei",
       "relation": "co-occurs",
-      "weight": "6"
+      "weight": "7"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -35281,7 +35707,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:person:Sam Altman",
       "relation": "co-occurs",
-      "weight": "8"
+      "weight": "9"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -36607,7 +37033,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "40"
+      "weight": "41"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -36925,7 +37351,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Dario Amodei",
       "relation": "co-occurs",
-      "weight": "5"
+      "weight": "6"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -37063,7 +37489,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Sam Altman",
       "relation": "co-occurs",
-      "weight": "10"
+      "weight": "11"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -37458,6 +37884,24 @@
     {
       "source": "info:entity:company:SquadRoom",
       "target": "info:entity:region:Myanmar",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Starlink",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Starlink",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Starlink",
+      "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -39365,6 +39809,12 @@
     },
     {
       "source": "info:entity:model:Gemini",
+      "target": "info:entity:organization:Anthropic",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
       "target": "info:entity:organization:European Commission",
       "relation": "co-occurs",
       "weight": "1"
@@ -39409,7 +39859,7 @@
       "source": "info:entity:model:Gemini",
       "target": "info:entity:organization:OpenAI",
       "relation": "co-occurs",
-      "weight": "8"
+      "weight": "9"
     },
     {
       "source": "info:entity:model:Gemini",
@@ -39534,6 +39984,12 @@
     {
       "source": "info:entity:model:Gemini",
       "target": "info:entity:person:Jacob Coxon",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
+      "target": "info:entity:person:Jared Kushner",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -40231,11 +40687,17 @@
       "source": "info:entity:organization:Anthropic",
       "target": "info:entity:organization:OpenAI",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Anthropic",
       "target": "info:entity:person:Dario Amodei",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Anthropic",
+      "target": "info:entity:person:Jared Kushner",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -40879,7 +41341,7 @@
       "source": "info:entity:organization:Conservative Party",
       "target": "info:entity:organization:Labour Party",
       "relation": "co-occurs",
-      "weight": "8"
+      "weight": "9"
     },
     {
       "source": "info:entity:organization:Conservative Party",
@@ -40902,6 +41364,12 @@
     {
       "source": "info:entity:organization:Conservative Party",
       "target": "info:entity:organization:Shelter",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Conservative Party",
+      "target": "info:entity:person:Alan Feeney",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -40963,7 +41431,7 @@
       "source": "info:entity:organization:Conservative Party",
       "target": "info:entity:person:Nigel Farage",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Conservative Party",
@@ -42755,6 +43223,12 @@
     },
     {
       "source": "info:entity:organization:Labour Party",
+      "target": "info:entity:person:Alan Feeney",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Labour Party",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
       "weight": "14"
@@ -42829,7 +43303,7 @@
       "source": "info:entity:organization:Labour Party",
       "target": "info:entity:person:Nigel Farage",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:organization:Labour Party",
@@ -43577,6 +44051,12 @@
     },
     {
       "source": "info:entity:organization:OpenAI",
+      "target": "info:entity:person:Jared Kushner",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:OpenAI",
       "target": "info:entity:person:Jensen Huang",
       "relation": "co-occurs",
       "weight": "1"
@@ -44201,6 +44681,36 @@
     },
     {
       "source": "info:entity:organization:South Korean Ministry of Foreign Affairs",
+      "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Starlink",
+      "target": "info:entity:organization:Starshield",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Starlink",
+      "target": "info:entity:person:Elon Musk",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Starlink",
+      "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Starshield",
+      "target": "info:entity:person:Elon Musk",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Starshield",
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
       "weight": "1"
@@ -45286,6 +45796,12 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:person:Alan Feeney",
+      "target": "info:entity:person:Nigel Farage",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:person:Alan Milburn",
       "target": "info:entity:region:Scotland",
       "relation": "co-occurs",
@@ -45391,7 +45907,7 @@
       "source": "info:entity:person:Andy Burnham",
       "target": "info:entity:person:Donald Trump",
       "relation": "co-occurs",
-      "weight": "5"
+      "weight": "6"
     },
     {
       "source": "info:entity:person:Andy Burnham",
@@ -45553,7 +46069,7 @@
       "source": "info:entity:person:Andy Burnham",
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
-      "weight": "6"
+      "weight": "7"
     },
     {
       "source": "info:entity:person:Andy Burnham",
@@ -46129,7 +46645,7 @@
       "source": "info:entity:person:Dario Amodei",
       "target": "info:entity:person:Sam Altman",
       "relation": "co-occurs",
-      "weight": "5"
+      "weight": "6"
     },
     {
       "source": "info:entity:person:Dario Amodei",
@@ -46393,7 +46909,7 @@
       "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
-      "weight": "9"
+      "weight": "10"
     },
     {
       "source": "info:entity:person:Donald Trump",
@@ -46586,6 +47102,12 @@
       "target": "info:entity:person:Sam Altman",
       "relation": "co-occurs",
       "weight": "3"
+    },
+    {
+      "source": "info:entity:person:Elon Musk",
+      "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:person:Elon Musk",

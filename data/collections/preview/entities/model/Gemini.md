@@ -1,7 +1,7 @@
 ---
 name: "Gemini"
 entity_type: model
-backlink_count: 55
+backlink_count: 57
 ---
 
 # Gemini
@@ -10,6 +10,8 @@ backlink_count: 55
 
 ## Referenced by
 
+- 2026-10-15 · [[2026-10-15-003-student-protesters-attack-government-buildings-in-albania]] — Student protesters attack government buildings in Albania
+- 2026-10-15 · [[2026-10-15-006-make0-brain]] — Make0 Brain
 - 2026-10-14 · [[2026-10-14-002-mi5-chief-warns-against-overstating-russian-interference]] — MI5 chief warns against overstating Russian interference in Brexit vote
 - 2026-10-14 · [[2026-10-14-006-reason]] — Reason
 - 2026-10-13 · [[2026-10-13-006-manifold-mcp]] — Manifold MCP

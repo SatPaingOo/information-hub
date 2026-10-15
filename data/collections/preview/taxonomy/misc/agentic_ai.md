@@ -1,7 +1,7 @@
 ---
 node: "Agentic AI"
 layer: misc
-item_count: 81
+item_count: 83
 ---
 
 # Agentic AI
@@ -17,6 +17,8 @@ item_count: 81
 
 ## Items
 
+- 2026-10-15 · [[2026-10-15-001-anthropic-flags-revenue-surge-to-investors-ahead-of-stock]] — Anthropic flags revenue surge to investors ahead of stock market debut
+- 2026-10-15 · [[2026-10-15-006-make0-brain]] — Make0 Brain
 - 2026-10-14 · [[2026-10-14-001-saudi-man-charged-with-planting-sophisticated-recording]] — Saudi man charged with planting 'sophisticated' recording device in OpenAI office
 - 2026-10-14 · [[2026-10-14-004-muse-wonder]] — Muse Wonder
 - 2026-10-14 · [[2026-10-14-005-gemini-4-argon]] — Gemini 4 Argon

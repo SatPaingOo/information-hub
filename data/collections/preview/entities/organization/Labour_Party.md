@@ -1,7 +1,7 @@
 ---
 name: "Labour Party"
 entity_type: organization
-backlink_count: 24
+backlink_count: 25
 ---
 
 # Labour Party
@@ -10,6 +10,7 @@ backlink_count: 24
 
 ## Referenced by
 
+- 2026-10-15 · [[2026-10-15-005-reform-faces-criticism-after-councillors-filmed-making]] — Reform faces criticism after councillors filmed making racist comments
 - 2026-10-11 · [[2026-10-11-005-polanski-vows-to-stay-as-green-leader-as-he-faces]] — Polanski vows to stay as Green leader as he faces criticism after by-election defeat
 - 2026-10-09 · [[2026-10-09-005-labour-sees-off-green-challenge-to-win-holborn-by-election]] — Labour sees off Green challenge to win Holborn by-election
 - 2026-10-08 · [[2026-10-08-005-badenoch-says-tories-would-scrap-inheritance-tax-on-family]] — Badenoch says Tories would scrap inheritance tax on family homes

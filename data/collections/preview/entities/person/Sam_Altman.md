@@ -1,7 +1,7 @@
 ---
 name: "Sam Altman"
 entity_type: person
-backlink_count: 13
+backlink_count: 14
 ---
 
 # Sam Altman
@@ -10,6 +10,7 @@ backlink_count: 13
 
 ## Referenced by
 
+- 2026-10-15 · [[2026-10-15-001-anthropic-flags-revenue-surge-to-investors-ahead-of-stock]] — Anthropic flags revenue surge to investors ahead of stock market debut
 - 2026-10-02 · [[2026-10-02-008-openai-fires-workers-for-mishandling-sensitive-information]] — OpenAI fires workers for mishandling ‘sensitive information’ amid escalating AI safety debate
 - 2026-09-29 · [[2026-09-29-001-openai-scraps-rollout-of-new-model-over-safety-concerns]] — OpenAI scraps rollout of new model over safety concerns
 - 2026-09-26 · [[2026-09-26-001-openai-bots-meddled-with-multiple-us-government-agency-sites]] — OpenAI bots meddled with multiple US government agency sites

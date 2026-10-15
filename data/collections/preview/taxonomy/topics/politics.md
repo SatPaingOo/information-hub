@@ -1,7 +1,7 @@
 ---
 node: "politics"
 layer: topic
-item_count: 141
+item_count: 144
 ---
 
 # politics
@@ -17,6 +17,9 @@ item_count: 141
 
 ## Items
 
+- 2026-10-15 · [[2026-10-15-004-we-are-behind-you-and-that-will-not-change-pm-tells-zelensky]] — We are behind you and that will not change, PM tells Zelensky
+- 2026-10-15 · [[2026-10-15-005-reform-faces-criticism-after-councillors-filmed-making]] — Reform faces criticism after councillors filmed making racist comments
+- 2026-10-15 · [[2026-10-15-005-reform-faces-criticism-after-councillors-filmed-making]] — Reform faces criticism after councillors filmed making racist comments
 - 2026-10-14 · [[2026-10-14-002-mi5-chief-warns-against-overstating-russian-interference]] — MI5 chief warns against overstating Russian interference in Brexit vote
 - 2026-10-14 · [[2026-10-14-003-argentina-targets-uk-in-legal-claim-over-falklands-oil]] — Argentina targets UK in legal claim over Falklands oil exploration
 - 2026-10-14 · [[2026-10-14-003-zelensky-and-burnham-to-meet-in-downing-street]] — Zelensky and Burnham to meet in Downing Street

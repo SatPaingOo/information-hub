@@ -1,7 +1,7 @@
 ---
 name: "OpenAI"
 entity_type: company
-backlink_count: 119
+backlink_count: 122
 ---
 
 # OpenAI
@@ -10,6 +10,9 @@ backlink_count: 119
 
 ## Referenced by
 
+- 2026-10-15 · [[2026-10-15-001-anthropic-flags-revenue-surge-to-investors-ahead-of-stock]] — Anthropic flags revenue surge to investors ahead of stock market debut
+- 2026-10-15 · [[2026-10-15-003-student-protesters-attack-government-buildings-in-albania]] — Student protesters attack government buildings in Albania
+- 2026-10-15 · [[2026-10-15-006-make0-brain]] — Make0 Brain
 - 2026-10-14 · [[2026-10-14-001-saudi-man-charged-with-planting-sophisticated-recording]] — Saudi man charged with planting 'sophisticated' recording device in OpenAI office
 - 2026-10-14 · [[2026-10-14-002-mi5-chief-warns-against-overstating-russian-interference]] — MI5 chief warns against overstating Russian interference in Brexit vote
 - 2026-10-14 · [[2026-10-14-004-muse-wonder]] — Muse Wonder

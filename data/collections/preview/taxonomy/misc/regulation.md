@@ -1,7 +1,7 @@
 ---
 node: "Regulation"
 layer: misc
-item_count: 34
+item_count: 35
 ---
 
 # Regulation
@@ -17,6 +17,7 @@ item_count: 34
 
 ## Items
 
+- 2026-10-15 · [[2026-10-15-006-make0-brain]] — Make0 Brain
 - 2026-10-14 · [[2026-10-14-001-saudi-man-charged-with-planting-sophisticated-recording]] — Saudi man charged with planting 'sophisticated' recording device in OpenAI office
 - 2026-10-14 · [[2026-10-14-004-muse-wonder]] — Muse Wonder
 - 2026-10-10 · [[2026-10-10-005-flydubai-attacker-began-a-drift-towards-extremism-and]] — Flydubai attacker began a ‘drift towards extremism and terrorism’ in Australia, UAE says

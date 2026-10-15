@@ -1,0 +1,20 @@
+2026-10-15 05:34:42,102 INFO [world-news] published 2026-10-15-001 — Anthropic flags revenue surge to investors ahead of stock ma
+2026-10-15 05:34:51,572 INFO [world-news] published 2026-10-15-002 — Musk says US government may be behind slowdown of Ukraine dr
+2026-10-15 05:35:03,170 INFO [world-news] published 2026-10-15-003 — Student protesters attack government buildings in Albania
+2026-10-15 05:35:07,193 INFO [tech-news] nothing selected
+2026-10-15 05:35:30,485 INFO [politics] published 2026-10-15-004 — We are behind you and that will not change, PM tells Zelensk
+2026-10-15 05:35:42,348 INFO [politics] published 2026-10-15-005 — Reform faces criticism after councillors filmed making racis
+2026-10-15 05:36:12,768 INFO [products] published 2026-10-15-006 — Make0 Brain
+2026-10-15 05:36:17,662 INFO [products] attempt 1 invalid: [": 'tags' is a required property", ": 'related_items' is a required property"]
+2026-10-15 05:36:17,782 ERROR [products] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6257, Requested 5187. Please try again in 25.83s. Need more tokens? Upgrade to Dev Tier today at https://cons
+2026-10-15 05:36:26,249 INFO [products] attempt 3 invalid: [": 'key_facts' is a required property", ": 'implications' is a required property"]
+2026-10-15 05:36:26,726 INFO collect done: 6 item(s) published — target 4/10, next run ≈ 2026-10-15T05:44:17+00:00 UTC
+2026-10-15 05:36:49,435 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 3395, Requested 5767. Please try again in 8.715s. Need more tokens? Upgrade to Dev Tier today at https://cons
+2026-10-15 05:36:52,556 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 3062, Requested 7509. Please try again in 19.2825s. Need more tokens? Upgrade to Dev Tier today at https://con
+2026-10-15 05:36:58,558 WARNING [world-news] no collect provider for deep-dive
+2026-10-15 05:36:58,673 WARNING [world-news] no collect provider for deep-dive
+2026-10-15 05:36:58,781 WARNING [world-news] no collect provider for deep-dive
+2026-10-15 05:36:59,039 WARNING [tech-news] no collect provider available
+2026-10-15 05:36:59,473 WARNING [politics] no collect provider available
+2026-10-15 05:37:00,397 WARNING [products] no collect provider available
+2026-10-15 05:37:00,887 INFO collect done: 0 item(s) published — target 4/10, next run ≈ 2026-10-16T01:00:00+00:00 UTC

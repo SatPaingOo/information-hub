@@ -1,7 +1,7 @@
 ---
 name: "Nigel Farage"
 entity_type: person
-backlink_count: 17
+backlink_count: 18
 ---
 
 # Nigel Farage
@@ -10,6 +10,7 @@ backlink_count: 17
 
 ## Referenced by
 
+- 2026-10-15 · [[2026-10-15-005-reform-faces-criticism-after-councillors-filmed-making]] — Reform faces criticism after councillors filmed making racist comments
 - 2026-10-12 · [[2026-10-12-005-reform-would-suspend-asylum-system-for-parliamentary-term]] — Reform would suspend asylum system for parliamentary term if in government
 - 2026-10-07 · [[2026-10-07-003-i-d-rather-have-another-election-than-do-a-deal-with]] — I'd rather have another election than do a deal with Reform UK, says Badenoch
 - 2026-10-05 · [[2026-10-05-005-i-m-a-classic-old-school-conservative-says-kemi-badenoch]] — I'm a classic old school Conservative, says Kemi Badenoch

@@ -1,7 +1,7 @@
 ---
 node: "Policy"
 layer: misc
-item_count: 321
+item_count: 326
 ---
 
 # Policy
@@ -17,6 +17,11 @@ item_count: 321
 
 ## Items
 
+- 2026-10-15 · [[2026-10-15-001-anthropic-flags-revenue-surge-to-investors-ahead-of-stock]] — Anthropic flags revenue surge to investors ahead of stock market debut
+- 2026-10-15 · [[2026-10-15-002-musk-says-us-government-may-be-behind-slowdown-of-ukraine]] — Musk says US government may be behind slowdown of Ukraine drone speeds
+- 2026-10-15 · [[2026-10-15-003-student-protesters-attack-government-buildings-in-albania]] — Student protesters attack government buildings in Albania
+- 2026-10-15 · [[2026-10-15-004-we-are-behind-you-and-that-will-not-change-pm-tells-zelensky]] — We are behind you and that will not change, PM tells Zelensky
+- 2026-10-15 · [[2026-10-15-005-reform-faces-criticism-after-councillors-filmed-making]] — Reform faces criticism after councillors filmed making racist comments
 - 2026-10-14 · [[2026-10-14-001-russian-strikes-leave-600-000-without-power-in-ukraine-as]] — Russian strikes leave 600,000 without power in Ukraine, as Starlink restrictions affect front line
 - 2026-10-14 · [[2026-10-14-002-mi5-chief-warns-against-overstating-russian-interference]] — MI5 chief warns against overstating Russian interference in Brexit vote
 - 2026-10-14 · [[2026-10-14-002-pope-diagnosed-with-lung-cancer-but-had-successful-surgery]] — Pope diagnosed with lung cancer but had successful surgery, Vatican says

@@ -1,7 +1,7 @@
 ---
 node: "product"
 layer: category
-item_count: 91
+item_count: 92
 ---
 
 # product
@@ -19,6 +19,7 @@ item_count: 91
 
 ## Items
 
+- 2026-10-15 · [[2026-10-15-006-make0-brain]] — Make0 Brain
 - 2026-10-14 · [[2026-10-14-004-muse-wonder]] — Muse Wonder
 - 2026-10-14 · [[2026-10-14-005-gemini-4-argon]] — Gemini 4 Argon
 - 2026-10-14 · [[2026-10-14-006-reason]] — Reason
