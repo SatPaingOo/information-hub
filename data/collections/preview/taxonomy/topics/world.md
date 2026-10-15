@@ -1,7 +1,7 @@
 ---
 node: "world"
 layer: topic
-item_count: 235
+item_count: 236
 ---
 
 # world
@@ -20,6 +20,7 @@ item_count: 235
 - 2026-10-15 · [[2026-10-15-001-anthropic-flags-revenue-surge-to-investors-ahead-of-stock]] — Anthropic flags revenue surge to investors ahead of stock market debut
 - 2026-10-15 · [[2026-10-15-002-musk-says-us-government-may-be-behind-slowdown-of-ukraine]] — Musk says US government may be behind slowdown of Ukraine drone speeds
 - 2026-10-15 · [[2026-10-15-003-student-protesters-attack-government-buildings-in-albania]] — Student protesters attack government buildings in Albania
+- 2026-10-15 · [[2026-10-15-007-retired-us-generals-urge-pentagon-to-cancel-planned]] — Retired US Generals Urge Pentagon to Cancel Planned Execution Livestream
 - 2026-10-14 · [[2026-10-14-001-russian-strikes-leave-600-000-without-power-in-ukraine-as]] — Russian strikes leave 600,000 without power in Ukraine, as Starlink restrictions affect front line
 - 2026-10-14 · [[2026-10-14-001-saudi-man-charged-with-planting-sophisticated-recording]] — Saudi man charged with planting 'sophisticated' recording device in OpenAI office
 - 2026-10-14 · [[2026-10-14-002-pope-diagnosed-with-lung-cancer-but-had-successful-surgery]] — Pope diagnosed with lung cancer but had successful surgery, Vatican says

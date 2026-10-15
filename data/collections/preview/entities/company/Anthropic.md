@@ -1,7 +1,7 @@
 ---
 name: "Anthropic"
 entity_type: company
-backlink_count: 77
+backlink_count: 78
 ---
 
 # Anthropic
@@ -13,6 +13,7 @@ backlink_count: 77
 - 2026-10-15 · [[2026-10-15-001-anthropic-flags-revenue-surge-to-investors-ahead-of-stock]] — Anthropic flags revenue surge to investors ahead of stock market debut
 - 2026-10-15 · [[2026-10-15-003-student-protesters-attack-government-buildings-in-albania]] — Student protesters attack government buildings in Albania
 - 2026-10-15 · [[2026-10-15-006-make0-brain]] — Make0 Brain
+- 2026-10-15 · [[2026-10-15-007-retired-us-generals-urge-pentagon-to-cancel-planned]] — Retired US Generals Urge Pentagon to Cancel Planned Execution Livestream
 - 2026-10-14 · [[2026-10-14-004-muse-wonder]] — Muse Wonder
 - 2026-10-13 · [[2026-10-13-006-manifold-mcp]] — Manifold MCP
 - 2026-10-13 · [[2026-10-13-007-squadroom-ai-employees-that-work-24-7]] — SquadRoom – AI Employees That Work 24/7

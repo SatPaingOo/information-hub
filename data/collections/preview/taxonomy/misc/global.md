@@ -1,7 +1,7 @@
 ---
 node: "Global"
 layer: misc
-item_count: 414
+item_count: 415
 ---
 
 # Global
@@ -31,6 +31,7 @@ item_count: 414
 - 2026-10-15 · [[2026-10-15-004-we-are-behind-you-and-that-will-not-change-pm-tells-zelensky]] — We are behind you and that will not change, PM tells Zelensky
 - 2026-10-15 · [[2026-10-15-005-reform-faces-criticism-after-councillors-filmed-making]] — Reform faces criticism after councillors filmed making racist comments
 - 2026-10-15 · [[2026-10-15-006-make0-brain]] — Make0 Brain
+- 2026-10-15 · [[2026-10-15-007-retired-us-generals-urge-pentagon-to-cancel-planned]] — Retired US Generals Urge Pentagon to Cancel Planned Execution Livestream
 - 2026-10-14 · [[2026-10-14-001-russian-strikes-leave-600-000-without-power-in-ukraine-as]] — Russian strikes leave 600,000 without power in Ukraine, as Starlink restrictions affect front line
 - 2026-10-14 · [[2026-10-14-002-mi5-chief-warns-against-overstating-russian-interference]] — MI5 chief warns against overstating Russian interference in Brexit vote
 - 2026-10-14 · [[2026-10-14-002-pope-diagnosed-with-lung-cancer-but-had-successful-surgery]] — Pope diagnosed with lung cancer but had successful surgery, Vatican says

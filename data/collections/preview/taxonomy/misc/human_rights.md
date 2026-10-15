@@ -1,7 +1,7 @@
 ---
 node: "Human Rights"
 layer: misc
-item_count: 16
+item_count: 17
 ---
 
 # Human Rights
@@ -16,6 +16,7 @@ item_count: 16
 
 ## Items
 
+- 2026-10-15 · [[2026-10-15-007-retired-us-generals-urge-pentagon-to-cancel-planned]] — Retired US Generals Urge Pentagon to Cancel Planned Execution Livestream
 - 2026-10-11 · [[2026-10-11-001-young-men-live-in-fear-of-being-snatched-off-the-streets]] — Young men live in fear of being snatched off the streets and sold to Myanmar's army
 - 2026-10-08 · [[2026-10-08-002-israelis-mourn-7-october-attack-victims-three-years-after]] — Israelis mourn 7 October attack victims three years after deadly Hamas raid
 - 2026-10-08 · [[2026-10-08-006-us-and-lebanon-protecting-wanted-syrian-general-bbc-finds]] — US and Lebanon protecting wanted Syrian general, BBC finds

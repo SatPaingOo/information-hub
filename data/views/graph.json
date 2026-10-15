@@ -8123,6 +8123,17 @@
       "title": "Make0 Brain"
     },
     {
+      "id": "info:item:world:global:2026-10-15-007",
+      "type": "item",
+      "date": "2026-10-15",
+      "title": "Retired US Generals Urge Pentagon to Cancel Planned Execution Livestream"
+    },
+    {
+      "id": "info:entity:concept:Eighth Amendment",
+      "type": "concept",
+      "name": "Eighth Amendment"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -35036,6 +35047,86 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-10-15-007",
+      "target": "info:entity:person:Nidal Hasan",
+      "relation": "subject of execution"
+    },
+    {
+      "source": "info:item:world:global:2026-10-15-007",
+      "target": "info:entity:person:Pete Hegseth",
+      "relation": "U.S. Secretary of Defense who announced livestream"
+    },
+    {
+      "source": "info:item:world:global:2026-10-15-007",
+      "target": "info:entity:organization:U.S. Department of Defense",
+      "relation": "planner of livestream"
+    },
+    {
+      "source": "info:item:world:global:2026-10-15-007",
+      "target": "info:entity:concept:Eighth Amendment",
+      "relation": "constitutional basis for legal challenge"
+    },
+    {
+      "source": "info:item:world:global:2026-10-15-007",
+      "target": "info:entity:company:OpenAI",
+      "relation": "potential provider of AI moderation tools"
+    },
+    {
+      "source": "info:item:world:global:2026-10-15-007",
+      "target": "info:entity:company:Anthropic",
+      "relation": "potential provider of AI moderation tools"
+    },
+    {
+      "source": "info:item:world:global:2026-10-15-007",
+      "target": "info:item:world:global:2026-10-15-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-15-007",
+      "target": "info:item:world:global:2026-10-15-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-15-007",
+      "target": "info:item:world:global:2026-10-15-003",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-15-007",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-15-007",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-15-007",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-15-007",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-15-007",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-15-007",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-15-007",
+      "target": "taxonomy/misc/human rights",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -35305,7 +35396,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
-      "weight": "64"
+      "weight": "65"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -35366,6 +35457,12 @@
       "target": "info:entity:concept:Agentic AI",
       "relation": "co-occurs",
       "weight": "8"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:concept:Eighth Amendment",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -35575,7 +35672,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:organization:U.S. Department of Defense",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -35694,6 +35791,18 @@
     {
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:person:Mothin Ali",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:person:Nidal Hasan",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:person:Pete Hegseth",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -36887,6 +36996,12 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:concept:Eighth Amendment",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:concept:Feature Extraction",
       "relation": "co-occurs",
       "weight": "1"
@@ -37229,6 +37344,12 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:organization:U.S. Department of Defense",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:organization:UK Foreign Office",
       "relation": "co-occurs",
       "weight": "1"
@@ -37481,7 +37602,19 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:person:Nidal Hasan",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Pedro Sánchez",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:person:Pete Hegseth",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -38472,6 +38605,24 @@
     {
       "source": "info:entity:concept:Double-tap strike",
       "target": "info:entity:region:Kryvyi Rih",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Eighth Amendment",
+      "target": "info:entity:organization:U.S. Department of Defense",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Eighth Amendment",
+      "target": "info:entity:person:Nidal Hasan",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Eighth Amendment",
+      "target": "info:entity:person:Pete Hegseth",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -44999,9 +45150,15 @@
     },
     {
       "source": "info:entity:organization:U.S. Department of Defense",
-      "target": "info:entity:person:Pete Hegseth",
+      "target": "info:entity:person:Nidal Hasan",
       "relation": "co-occurs",
       "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:U.S. Department of Defense",
+      "target": "info:entity:person:Pete Hegseth",
+      "relation": "co-occurs",
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:U.S. Department of Justice",
@@ -47845,7 +48002,7 @@
       "source": "info:entity:person:Nidal Hasan",
       "target": "info:entity:person:Pete Hegseth",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Nigel Farage",
