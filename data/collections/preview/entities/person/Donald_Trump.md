@@ -1,7 +1,7 @@
 ---
 name: "Donald Trump"
 entity_type: person
-backlink_count: 66
+backlink_count: 67
 ---
 
 # Donald Trump
@@ -10,6 +10,7 @@ backlink_count: 66
 
 ## Referenced by
 
+- 2026-10-16 · [[2026-10-16-006-trump-cancels-planned-livestream-of-fort-hood-attacker-s]] — Trump Cancels Planned Livestream of Fort Hood Attacker’s Execution by Firing Squad
 - 2026-10-15 · [[2026-10-15-004-we-are-behind-you-and-that-will-not-change-pm-tells-zelensky]] — We are behind you and that will not change, PM tells Zelensky
 - 2026-10-14 · [[2026-10-14-001-russian-strikes-leave-600-000-without-power-in-ukraine-as]] — Russian strikes leave 600,000 without power in Ukraine, as Starlink restrictions affect front line
 - 2026-10-14 · [[2026-10-14-003-zelensky-and-burnham-to-meet-in-downing-street]] — Zelensky and Burnham to meet in Downing Street

@@ -1,7 +1,7 @@
 ---
 name: "Amnesty International"
 entity_type: organization
-backlink_count: 7
+backlink_count: 8
 ---
 
 # Amnesty International
@@ -10,6 +10,7 @@ backlink_count: 7
 
 ## Referenced by
 
+- 2026-10-16 · [[2026-10-16-006-trump-cancels-planned-livestream-of-fort-hood-attacker-s]] — Trump Cancels Planned Livestream of Fort Hood Attacker’s Execution by Firing Squad
 - 2026-10-11 · [[2026-10-11-001-young-men-live-in-fear-of-being-snatched-off-the-streets]] — Young men live in fear of being snatched off the streets and sold to Myanmar's army
 - 2026-10-06 · [[2026-10-06-003-saudi-arabia-urged-to-spare-man-sentenced-to-death-over]] — Saudi Arabia urged to spare man sentenced to death over Facebook post
 - 2026-09-19 · [[2026-09-19-010-grim-discoveries-of-murdered-women-spark-fear-in-south]] — Grim discoveries of murdered women spark fear in South Africa

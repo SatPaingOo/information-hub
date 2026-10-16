@@ -1,11 +1,11 @@
 {
   "groq": {
     "quota_date": "2026-10-16",
-    "tokens_used": 9004,
-    "items": 1,
-    "calls": 2,
-    "errors": 2,
-    "cooldown_until": "2026-10-16T05:20:01+00:00",
+    "tokens_used": 17979,
+    "items": 2,
+    "calls": 4,
+    "errors": 3,
+    "cooldown_until": "2026-10-16T05:41:47+00:00",
     "models": {
       "llama-3.3-70b-versatile": {
         "calls": 0,
@@ -30,15 +30,15 @@
         "cooldown_until": null
       },
       "openai/gpt-oss-120b": {
-        "calls": 291,
-        "items": 130,
-        "errors": 155,
+        "calls": 293,
+        "items": 131,
+        "errors": 156,
         "consecutive_failures": 1,
         "healthy": true,
-        "last_health_check": "2026-10-16T05:19:31+00:00",
-        "latency_ms": 1891,
+        "last_health_check": "2026-10-16T05:41:17+00:00",
+        "latency_ms": 4787,
         "supports_json": true,
-        "cooldown_until": "2026-10-16T05:20:01+00:00"
+        "cooldown_until": "2026-10-16T05:41:47+00:00"
       },
       "openai/gpt-oss-20b": {
         "calls": 50,

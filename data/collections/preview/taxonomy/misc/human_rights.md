@@ -1,7 +1,7 @@
 ---
 node: "Human Rights"
 layer: misc
-item_count: 18
+item_count: 19
 ---
 
 # Human Rights
@@ -17,6 +17,7 @@ item_count: 18
 ## Items
 
 - 2026-10-16 · [[2026-10-16-005-equality-watchdog-writes-to-greens-over-zionism-is-racism]] — Equality watchdog writes to Greens over ‘Zionism is racism’ motion
+- 2026-10-16 · [[2026-10-16-006-trump-cancels-planned-livestream-of-fort-hood-attacker-s]] — Trump Cancels Planned Livestream of Fort Hood Attacker’s Execution by Firing Squad
 - 2026-10-15 · [[2026-10-15-007-retired-us-generals-urge-pentagon-to-cancel-planned]] — Retired US Generals Urge Pentagon to Cancel Planned Execution Livestream
 - 2026-10-11 · [[2026-10-11-001-young-men-live-in-fear-of-being-snatched-off-the-streets]] — Young men live in fear of being snatched off the streets and sold to Myanmar's army
 - 2026-10-08 · [[2026-10-08-002-israelis-mourn-7-october-attack-victims-three-years-after]] — Israelis mourn 7 October attack victims three years after deadly Hamas raid

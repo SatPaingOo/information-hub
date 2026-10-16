@@ -12,3 +12,11 @@
 2026-10-16 05:19:43,453 WARNING [products] no collect provider for deep-dive
 2026-10-16 05:19:43,560 WARNING [products] no collect provider for deep-dive
 2026-10-16 05:19:44,000 INFO collect done: 5 item(s) published — target 5/10, next run ≈ 2026-10-17T01:00:00+00:00 UTC
+2026-10-16 05:41:17,103 INFO [world-news] published 2026-10-16-006 — Trump Cancels Planned Livestream of Fort Hood Attacker’s Exe
+2026-10-16 05:41:17,278 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7972, Requested 6261. Please try again in 46.747499999s. Need more tokens? Upgrade to Dev Tier today at https
+2026-10-16 05:41:20,280 WARNING [world-news] no collect provider for deep-dive
+2026-10-16 05:41:20,384 WARNING [world-news] no collect provider for deep-dive
+2026-10-16 05:41:20,696 WARNING [tech-news] no collect provider available
+2026-10-16 05:41:21,060 WARNING [politics] no collect provider available
+2026-10-16 05:41:21,751 WARNING [products] no collect provider available
+2026-10-16 05:41:22,148 INFO collect done: 1 item(s) published — target 4/10, next run ≈ 2026-10-17T01:00:00+00:00 UTC
