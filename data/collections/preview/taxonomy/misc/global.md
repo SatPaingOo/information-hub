@@ -1,7 +1,7 @@
 ---
 node: "Global"
 layer: misc
-item_count: 415
+item_count: 420
 ---
 
 # Global
@@ -25,6 +25,11 @@ item_count: 415
 
 ## Items
 
+- 2026-10-16 · [[2026-10-16-001-three-children-and-teacher-killed-in-us-primary-school]] — Three children and teacher killed in US primary school shooting
+- 2026-10-16 · [[2026-10-16-002-it-s-really-hard-to-believe-how-oregon-primary-school]] — 'It's really hard to believe' - How Oregon primary school shooting unfolded
+- 2026-10-16 · [[2026-10-16-003-ship-attack-reports-near-hormuz-reach-record-high-as-oil]] — Ship attack reports near Hormuz reach record high as oil exports slow
+- 2026-10-16 · [[2026-10-16-004-banks-say-healey-is-planning-budget-tax-raid-on-their]] — Banks say Healey is planning Budget tax raid on their profits
+- 2026-10-16 · [[2026-10-16-005-equality-watchdog-writes-to-greens-over-zionism-is-racism]] — Equality watchdog writes to Greens over ‘Zionism is racism’ motion
 - 2026-10-15 · [[2026-10-15-001-anthropic-flags-revenue-surge-to-investors-ahead-of-stock]] — Anthropic flags revenue surge to investors ahead of stock market debut
 - 2026-10-15 · [[2026-10-15-002-musk-says-us-government-may-be-behind-slowdown-of-ukraine]] — Musk says US government may be behind slowdown of Ukraine drone speeds
 - 2026-10-15 · [[2026-10-15-003-student-protesters-attack-government-buildings-in-albania]] — Student protesters attack government buildings in Albania

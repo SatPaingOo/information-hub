@@ -1,7 +1,7 @@
 ---
 name: "Strait of Hormuz"
 entity_type: region
-backlink_count: 4
+backlink_count: 5
 ---
 
 # Strait of Hormuz
@@ -10,6 +10,7 @@ backlink_count: 4
 
 ## Referenced by
 
+- 2026-10-16 · [[2026-10-16-003-ship-attack-reports-near-hormuz-reach-record-high-as-oil]] — Ship attack reports near Hormuz reach record high as oil exports slow
 - 2026-09-27 · [[2026-09-27-008-iran-says-it-will-wait-for-official-us-response-after]] — Iran says it will wait for official US response after Trump rejects Strait of Hormuz proposal
 - 2026-09-24 · [[2026-09-24-003-iran-s-president-tells-trump-it-will-never-bend-the-knee]] — Iran's president tells Trump it will never 'bend the knee'
 - 2026-09-06 · [[2026-09-06-002-us-and-iran-trade-retaliatory-attacks-on-ships-as-conflict]] — US and Iran trade retaliatory attacks on ships as conflict flares

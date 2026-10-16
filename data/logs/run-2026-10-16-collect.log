@@ -1,0 +1,14 @@
+2026-10-16 05:16:42,450 INFO [world-news] published 2026-10-16-001 — Three children and teacher killed in US primary school shoot
+2026-10-16 05:17:14,481 INFO [world-news] published 2026-10-16-002 — 'It's really hard to believe' - How Oregon primary school sh
+2026-10-16 05:17:35,601 INFO [world-news] attempt 1 invalid: ["entities/1/type: 'country' is not one of ['concept', 'company', 'model', 'person', 'product', 'region', 'organization', 'event']"]
+2026-10-16 05:18:06,866 INFO [world-news] attempt 2 invalid: ["entities/2/type: 'country' is not one of ['concept', 'company', 'model', 'person', 'product', 'region', 'organization', 'event']", "entities/3/type: 'country' is not one of ['concept', 'company', 'model', 'person', 'product', 'region', 'organization', 'event']"]
+2026-10-16 05:18:37,769 INFO [world-news] published 2026-10-16-003 — Ship attack reports near Hormuz reach record high as oil exp
+2026-10-16 05:18:49,453 INFO [tech-news] nothing selected
+2026-10-16 05:19:23,453 INFO [politics] published 2026-10-16-004 — Banks say Healey is planning Budget tax raid on their profit
+2026-10-16 05:19:28,504 INFO [politics] published 2026-10-16-005 — Equality watchdog writes to Greens over ‘Zionism is racism’ 
+2026-10-16 05:19:31,632 ERROR [products] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7965, Requested 5162. Please try again in 38.4525s. Need more tokens? Upgrade to Dev Tier today at https://co
+2026-10-16 05:19:37,452 ERROR [products] generate error: HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
+
+2026-10-16 05:19:43,453 WARNING [products] no collect provider for deep-dive
+2026-10-16 05:19:43,560 WARNING [products] no collect provider for deep-dive
+2026-10-16 05:19:44,000 INFO collect done: 5 item(s) published — target 5/10, next run ≈ 2026-10-17T01:00:00+00:00 UTC

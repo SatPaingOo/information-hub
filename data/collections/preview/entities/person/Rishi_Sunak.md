@@ -1,7 +1,7 @@
 ---
 name: "Rishi Sunak"
 entity_type: person
-backlink_count: 4
+backlink_count: 5
 ---
 
 # Rishi Sunak
@@ -10,6 +10,7 @@ backlink_count: 4
 
 ## Referenced by
 
+- 2026-10-16 · [[2026-10-16-004-banks-say-healey-is-planning-budget-tax-raid-on-their]] — Banks say Healey is planning Budget tax raid on their profits
 - 2026-10-02 · [[2026-10-02-002-man-city-not-above-the-rules-says-no-10-after-backlash-to]] — Man City not 'above the rules', says No 10 after backlash to Burnham remarks
 - 2026-10-01 · [[2026-10-01-005-conservatives-pledge-tough-love-benefit-rules-for-under-25s]] — Conservatives pledge 'tough love' benefit rules for under-25s
 - 2026-08-28 · [[2026-08-28-002-number-of-asylum-seekers-in-hotels-halves-in-a-year]] — Number of asylum seekers in hotels halves in a year

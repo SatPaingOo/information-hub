@@ -1,7 +1,7 @@
 ---
 node: "geopolitics"
 layer: topic
-item_count: 102
+item_count: 105
 ---
 
 # geopolitics
@@ -24,6 +24,9 @@ item_count: 102
 
 ## Items
 
+- 2026-10-16 · [[2026-10-16-002-it-s-really-hard-to-believe-how-oregon-primary-school]] — 'It's really hard to believe' - How Oregon primary school shooting unfolded
+- 2026-10-16 · [[2026-10-16-003-ship-attack-reports-near-hormuz-reach-record-high-as-oil]] — Ship attack reports near Hormuz reach record high as oil exports slow
+- 2026-10-16 · [[2026-10-16-004-banks-say-healey-is-planning-budget-tax-raid-on-their]] — Banks say Healey is planning Budget tax raid on their profits
 - 2026-10-15 · [[2026-10-15-002-musk-says-us-government-may-be-behind-slowdown-of-ukraine]] — Musk says US government may be behind slowdown of Ukraine drone speeds
 - 2026-10-15 · [[2026-10-15-004-we-are-behind-you-and-that-will-not-change-pm-tells-zelensky]] — We are behind you and that will not change, PM tells Zelensky
 - 2026-10-15 · [[2026-10-15-007-retired-us-generals-urge-pentagon-to-cancel-planned]] — Retired US Generals Urge Pentagon to Cancel Planned Execution Livestream

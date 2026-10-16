@@ -1,7 +1,7 @@
 ---
 name: "U.S. Department of Defense"
 entity_type: organization
-backlink_count: 5
+backlink_count: 6
 ---
 
 # U.S. Department of Defense
@@ -10,6 +10,7 @@ backlink_count: 5
 
 ## Referenced by
 
+- 2026-10-16 · [[2026-10-16-002-it-s-really-hard-to-believe-how-oregon-primary-school]] — 'It's really hard to believe' - How Oregon primary school shooting unfolded
 - 2026-10-15 · [[2026-10-15-007-retired-us-generals-urge-pentagon-to-cancel-planned]] — Retired US Generals Urge Pentagon to Cancel Planned Execution Livestream
 - 2026-09-21 · [[2026-09-21-003-trump-says-triumphal-arch-will-be-military-complex-with]] — Trump says triumphal arch will be military complex with drones and snipers
 - 2026-09-18 · [[2026-09-18-003-un-experts-say-grounds-to-believe-us-committed-war-crimes]] — UN experts say grounds to believe US committed war crimes in Iran strikes

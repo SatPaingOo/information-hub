@@ -8134,6 +8134,66 @@
       "name": "Eighth Amendment"
     },
     {
+      "id": "info:item:world:global:2026-10-16-001",
+      "type": "item",
+      "date": "2026-10-16",
+      "title": "Three children and teacher killed in US primary school shooting"
+    },
+    {
+      "id": "info:entity:organization:Bend Police Department",
+      "type": "organization",
+      "name": "Bend Police Department"
+    },
+    {
+      "id": "info:item:world:global:2026-10-16-002",
+      "type": "item",
+      "date": "2026-10-16",
+      "title": "'It's really hard to believe' - How Oregon primary school shooting unfolded"
+    },
+    {
+      "id": "info:item:world:global:2026-10-16-003",
+      "type": "item",
+      "date": "2026-10-16",
+      "title": "Ship attack reports near Hormuz reach record high as oil exports slow"
+    },
+    {
+      "id": "info:entity:organization:Kpler",
+      "type": "organization",
+      "name": "Kpler"
+    },
+    {
+      "id": "info:item:politics:global:2026-10-16-004",
+      "type": "item",
+      "date": "2026-10-16",
+      "title": "Banks say Healey is planning Budget tax raid on their profits"
+    },
+    {
+      "id": "info:entity:organization:UK Finance",
+      "type": "organization",
+      "name": "UK Finance"
+    },
+    {
+      "id": "taxonomy/misc/finance",
+      "type": "taxonomy",
+      "name": "finance"
+    },
+    {
+      "id": "info:item:politics:global:2026-10-16-005",
+      "type": "item",
+      "date": "2026-10-16",
+      "title": "Equality watchdog writes to Greens over ‘Zionism is racism’ motion"
+    },
+    {
+      "id": "info:entity:organization:Equality and Human Rights Commission",
+      "type": "organization",
+      "name": "Equality and Human Rights Commission"
+    },
+    {
+      "id": "info:entity:organization:Campaign Against Antisemitism",
+      "type": "organization",
+      "name": "Campaign Against Antisemitism"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -35127,6 +35187,316 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-10-16-001",
+      "target": "info:entity:organization:Bend Police Department",
+      "relation": "lead law‑enforcement agency responding to the shooting"
+    },
+    {
+      "source": "info:item:world:global:2026-10-16-001",
+      "target": "info:entity:organization:OpenAI",
+      "relation": "cited for potential AI‑driven risk analytics in school safety"
+    },
+    {
+      "source": "info:item:world:global:2026-10-16-001",
+      "target": "info:entity:model:Gemini",
+      "relation": "referenced as a model for AI‑based threat detection discussions"
+    },
+    {
+      "source": "info:item:world:global:2026-10-16-001",
+      "target": "info:entity:company:Anthropic",
+      "relation": "mentioned in context of AI safety collaborations"
+    },
+    {
+      "source": "info:item:world:global:2026-10-16-001",
+      "target": "info:item:world:global:2026-10-15-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-16-001",
+      "target": "info:item:world:global:2026-10-15-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-16-001",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-16-001",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-16-001",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-16-001",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-16-001",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-16-001",
+      "target": "taxonomy/category/education",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-16-001",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-16-002",
+      "target": "info:entity:organization:U.S. Department of Defense",
+      "relation": "federal agency overseeing law‑enforcement coordination in domestic security matters"
+    },
+    {
+      "source": "info:item:world:global:2026-10-16-002",
+      "target": "info:entity:organization:National Defence Forces (NDF)",
+      "relation": "non‑state armed group with indirect relevance to global armed‑conflict dynamics"
+    },
+    {
+      "source": "info:item:world:global:2026-10-16-002",
+      "target": "info:item:world:global:2026-10-15-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-16-002",
+      "target": "info:item:world:global:2026-10-15-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-16-002",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-16-002",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-16-002",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-16-002",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-16-002",
+      "target": "taxonomy/topic/world",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-16-002",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-16-002",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-16-003",
+      "target": "info:entity:organization:Islamic Revolutionary Guard Corps (IRGC)",
+      "relation": "principal actor in maritime attacks"
+    },
+    {
+      "source": "info:item:world:global:2026-10-16-003",
+      "target": "info:entity:region:Strait of Hormuz",
+      "relation": "key shipping lane affected by attacks"
+    },
+    {
+      "source": "info:item:world:global:2026-10-16-003",
+      "target": "info:entity:organization:US Central Command (Centcom)",
+      "relation": "oversees naval protection operations"
+    },
+    {
+      "source": "info:item:world:global:2026-10-16-003",
+      "target": "info:entity:organization:Kpler",
+      "relation": "provides oil shipment data"
+    },
+    {
+      "source": "info:item:world:global:2026-10-16-003",
+      "target": "info:item:world:global:2026-10-16-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-16-003",
+      "target": "info:item:world:global:2026-10-15-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-16-003",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-16-003",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-16-003",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-16-003",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-16-003",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-16-003",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-16-003",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-16-004",
+      "target": "info:entity:person:John Healey",
+      "relation": "Chancellor of the UK responsible for the upcoming Budget"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-16-004",
+      "target": "info:entity:organization:UK Finance",
+      "relation": "banking sector trade body warning on tax competitiveness"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-16-004",
+      "target": "info:entity:company:JP Morgan",
+      "relation": "major foreign bank operating in the UK, CEO Jamie Dimon has voiced concerns"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-16-004",
+      "target": "info:entity:person:Rishi Sunak",
+      "relation": "former chancellor who reduced the bank surcharge from 8 % to 3 %"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-16-004",
+      "target": "info:item:politics:global:2026-10-15-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-16-004",
+      "target": "info:item:politics:global:2026-10-15-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-16-004",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-16-004",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-16-004",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-16-004",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-16-004",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-16-004",
+      "target": "taxonomy/misc/finance",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-16-005",
+      "target": "info:entity:organization:Green Party of England and Wales",
+      "relation": "adopted the motion"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-16-005",
+      "target": "info:entity:organization:Equality and Human Rights Commission",
+      "relation": "regulatory inquiry"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-16-005",
+      "target": "info:entity:person:Zack Polanski",
+      "relation": "Green Party leader"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-16-005",
+      "target": "info:entity:organization:Labour Party",
+      "relation": "threatening to end power‑sharing"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-16-005",
+      "target": "info:entity:organization:Campaign Against Antisemitism",
+      "relation": "filed complaint"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-16-005",
+      "target": "info:item:politics:global:2026-10-16-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-16-005",
+      "target": "info:item:politics:global:2026-10-15-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-16-005",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-16-005",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-16-005",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-16-005",
+      "target": "taxonomy/topic/politics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-16-005",
+      "target": "taxonomy/misc/human rights",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-16-005",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -35576,7 +35946,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "25"
+      "weight": "26"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -35646,6 +36016,12 @@
     },
     {
       "source": "info:entity:company:Anthropic",
+      "target": "info:entity:organization:Bend Police Department",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
       "target": "info:entity:organization:Green Party of England and Wales",
       "relation": "co-occurs",
       "weight": "1"
@@ -35659,6 +36035,12 @@
     {
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:organization:Israeli Defense Forces",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:organization:OpenAI",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -36564,13 +36946,31 @@
     },
     {
       "source": "info:entity:company:JP Morgan",
+      "target": "info:entity:organization:UK Finance",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:JP Morgan",
       "target": "info:entity:person:Donald Trump",
       "relation": "co-occurs",
       "weight": "1"
     },
     {
       "source": "info:entity:company:JP Morgan",
+      "target": "info:entity:person:John Healey",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:JP Morgan",
       "target": "info:entity:person:Kevin Warsh",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:JP Morgan",
+      "target": "info:entity:person:Rishi Sunak",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -39966,6 +40366,12 @@
     },
     {
       "source": "info:entity:model:Gemini",
+      "target": "info:entity:organization:Bend Police Department",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
       "target": "info:entity:organization:European Commission",
       "relation": "co-occurs",
       "weight": "1"
@@ -40010,7 +40416,7 @@
       "source": "info:entity:model:Gemini",
       "target": "info:entity:organization:OpenAI",
       "relation": "co-occurs",
-      "weight": "9"
+      "weight": "10"
     },
     {
       "source": "info:entity:model:Gemini",
@@ -41063,6 +41469,12 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Bend Police Department",
+      "target": "info:entity:organization:OpenAI",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Board of Deputies of British Jews",
       "target": "info:entity:organization:Green Party of England and Wales",
       "relation": "co-occurs",
@@ -41221,6 +41633,30 @@
     {
       "source": "info:entity:organization:CNN",
       "target": "info:entity:person:Xi Jinping",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Campaign Against Antisemitism",
+      "target": "info:entity:organization:Equality and Human Rights Commission",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Campaign Against Antisemitism",
+      "target": "info:entity:organization:Green Party of England and Wales",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Campaign Against Antisemitism",
+      "target": "info:entity:organization:Labour Party",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Campaign Against Antisemitism",
+      "target": "info:entity:person:Zack Polanski",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -41871,6 +42307,24 @@
       "target": "info:entity:person:Nigel Farage",
       "relation": "co-occurs",
       "weight": "2"
+    },
+    {
+      "source": "info:entity:organization:Equality and Human Rights Commission",
+      "target": "info:entity:organization:Green Party of England and Wales",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Equality and Human Rights Commission",
+      "target": "info:entity:organization:Labour Party",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Equality and Human Rights Commission",
+      "target": "info:entity:person:Zack Polanski",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:organization:European Broadcasting Union (EBU)",
@@ -42536,7 +42990,7 @@
       "source": "info:entity:organization:Green Party of England and Wales",
       "target": "info:entity:organization:Labour Party",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:organization:Green Party of England and Wales",
@@ -42602,7 +43056,7 @@
       "source": "info:entity:organization:Green Party of England and Wales",
       "target": "info:entity:person:Zack Polanski",
       "relation": "co-occurs",
-      "weight": "7"
+      "weight": "8"
     },
     {
       "source": "info:entity:organization:Green Party of England and Wales",
@@ -43110,6 +43564,12 @@
     },
     {
       "source": "info:entity:organization:Islamic Revolutionary Guard Corps (IRGC)",
+      "target": "info:entity:organization:Kpler",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Islamic Revolutionary Guard Corps (IRGC)",
       "target": "info:entity:organization:Strait of Hormuz",
       "relation": "co-occurs",
       "weight": "1"
@@ -43124,7 +43584,7 @@
       "source": "info:entity:organization:Islamic Revolutionary Guard Corps (IRGC)",
       "target": "info:entity:organization:US Central Command (Centcom)",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:organization:Islamic Revolutionary Guard Corps (IRGC)",
@@ -43154,7 +43614,7 @@
       "source": "info:entity:organization:Islamic Revolutionary Guard Corps (IRGC)",
       "target": "info:entity:region:Strait of Hormuz",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Islamic State (IS)",
@@ -43297,6 +43757,18 @@
     {
       "source": "info:entity:organization:King Khalid International Airport",
       "target": "info:entity:person:Marco Rubio",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Kpler",
+      "target": "info:entity:organization:US Central Command (Centcom)",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Kpler",
+      "target": "info:entity:region:Strait of Hormuz",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -43478,7 +43950,7 @@
       "source": "info:entity:organization:Labour Party",
       "target": "info:entity:person:Zack Polanski",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:organization:Lahore Deputy Commissioner Office",
@@ -43927,6 +44399,12 @@
     {
       "source": "info:entity:organization:National Association of Head Teachers (NAHT)",
       "target": "info:entity:region:Scotland",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:National Defence Forces (NDF)",
+      "target": "info:entity:organization:U.S. Department of Defense",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -45269,6 +45747,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:UK Finance",
+      "target": "info:entity:person:John Healey",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:UK Finance",
+      "target": "info:entity:person:Rishi Sunak",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:UK Football Policing Unit",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
@@ -45356,7 +45846,7 @@
       "source": "info:entity:organization:US Central Command (Centcom)",
       "target": "info:entity:region:Strait of Hormuz",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:US Department of Defense",
@@ -47637,6 +48127,12 @@
       "target": "info:entity:person:Rachel Reeves",
       "relation": "co-occurs",
       "weight": "2"
+    },
+    {
+      "source": "info:entity:person:John Healey",
+      "target": "info:entity:person:Rishi Sunak",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:person:John Healey",

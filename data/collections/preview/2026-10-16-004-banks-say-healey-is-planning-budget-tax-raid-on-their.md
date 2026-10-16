@@ -1,0 +1,70 @@
+---
+id: "info:item:politics:global:2026-10-16-004"
+key: "2026-10-16-004"
+date: 2026-10-16
+content_type: digest
+topic: politics
+region: global
+categories: ["policy"]
+source: "feeds.bbci.co.uk"
+source_url: "https://www.bbc.co.uk/news/articles/c32l4k2xdvrzo?at_medium=RSS&at_campaign=rss"
+word_count: 705
+tags: ["tax", "banking", "budget", "UK", "finance", "competitiveness"]
+---
+
+# Banks say Healey is planning Budget tax raid on their profits
+
+> [!summary] TL;DR — Senior banking executives anticipate a tax increase in Chancellor John Healey's upcoming Budget, targeting record profits. The UK Finance trade body warns higher taxes could hurt competitiveness, while analysts see a possible surcharge restoration and a moratorium on loss offsetting as likely measures.
+
+## Background
+
+The UK banking sector recorded collective profits of roughly £15 bn in the first six months of 2026, prompting renewed debate over fiscal policy. Chancellor John Healey has praised banks as "crown jewels" of the economy but has left the door open to additional levies. The current regime includes a 3 % surcharge on top of the 25 % corporation tax and a separate bank levy (0.1 % on short‑term loans, 0.05 % on longer‑dated loans, excluding mortgages). Under Rishi Sunak, the surcharge was cut from 8 % while corporation tax was raised from 19 % to 25 %. The sector contributed nearly £40 bn to the Treasury in 2025 when employee income tax is included, and the levy and surcharge together generated £2.6 bn. Banks have historically argued that higher taxes risk eroding the UK’s competitive edge, reducing lending capacity and ultimately harming growth. The last Budget spared the sector, surprising many given the surge in profitability driven by higher interest rates and wider net interest margins.
+
+## Fiscal Impact Assessment
+
+Analysts estimate that restoring the 3 % surcharge to its pre‑Sunak level could raise around £2 bn annually, while a targeted moratorium on the use of past losses to offset current profits could add a further £1 bn per year. The Treasury is also considering adjustments to the bank levy thresholds and possibly extending the levy to include certain off‑balance‑sheet exposures. Such measures would directly address the £15 bn profit surge, but they also risk altering the sector’s risk‑pricing behavior, especially if banks anticipate a tighter fiscal environment.
+
+## Competitive Implications
+
+UK Finance has warned that "further increases in bank taxes would weaken competitiveness, discourage investment and job creation, and work against the government's ambition to deliver growth in every postcode." International banks, notably JP Morgan, have echoed this concern, with CEO Jamie Dimon cautioning that the UK already carries one of the highest tax burdens on banks globally. A tax hike that spares foreign banks operating in the UK could create an uneven playing field, potentially driving capital toward jurisdictions with more favourable tax regimes, undermining the government’s goal of positioning the UK as a premier financial hub.
+
+## Political Dynamics
+
+Healey’s rhetoric frames banks as essential to the UK’s economic success, yet the political pressure to capture a larger share of windfall profits is strong. Trade unions and advocacy groups have called for additional levies, arguing that the sector’s profitability should contribute more to public services. Any tax increase must balance fiscal needs with the risk of dampening investment, a calculus that will be scrutinized by markets, investors, and the broader public ahead of the Budget.
+
+## Key facts
+
+- The four largest UK banks generated about £15 bn in profit in H1 2026.
+- Current bank tax regime: 3 % surcharge + 25 % corporation tax + asset‑based levy.
+- Bank levy and surcharge together contributed £2.6 bn to the Treasury in 2025.
+- Restoring the surcharge to 8 % could raise roughly £2 bn per year.
+- A moratorium on loss‑carry‑back could add an estimated £1 bn annually.
+- UK Finance warns higher taxes could hurt competitiveness and investment.
+- JP Morgan’s Jamie Dimon cautions the UK already has one of the highest bank tax burdens worldwide.
+
+## Implications
+
+- Potential reduction in banks’ lending capacity if tax burden rises, possibly tightening credit for households and businesses.
+- Shift of financial activity to other jurisdictions if UK tax regime becomes relatively less attractive.
+- Increased fiscal revenue for the Treasury, enabling greater spending on public services or debt reduction.
+- Political fallout depending on how the tax measures are framed—balancing public demand for fairness against business concerns.
+
+## Outlook
+
+The Chancellor’s Budget later this month is expected to include a mix of targeted tax adjustments aimed at capturing a portion of the banking sector’s recent windfall while attempting to preserve the UK’s status as a competitive financial centre. Markets will watch for any signals on the durability of the surcharge and the treatment of loss‑offset rules. If the measures are perceived as balanced, they could bolster public confidence in fiscal fairness without triggering a significant exodus of banking capital. Conversely, overly aggressive taxation could dampen investment, slow economic growth, and invite criticism from both industry and international observers.
+
+## Entities
+
+- [[John_Healey]] — *person* (Chancellor of the UK responsible for the upcoming Budget)
+- [[UK_Finance]] — *organization* (banking sector trade body warning on tax competitiveness)
+- [[JP_Morgan]] — *company* (major foreign bank operating in the UK, CEO Jamie Dimon has voiced concerns)
+- [[Rishi_Sunak]] — *person* (former chancellor who reduced the bank surcharge from 8 % to 3 %)
+
+## Related
+
+- [[2026-10-15-004-we-are-behind-you-and-that-will-not-change-pm-tells-zelensky]]
+- [[2026-10-15-005-reform-faces-criticism-after-councillors-filmed-making]]
+
+---
+
+*Source: [feeds.bbci.co.uk](https://www.bbc.co.uk/news/articles/c32l4k2xdvrzo?at_medium=RSS&at_campaign=rss)*

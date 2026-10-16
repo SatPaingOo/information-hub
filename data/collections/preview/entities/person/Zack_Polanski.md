@@ -1,7 +1,7 @@
 ---
 name: "Zack Polanski"
 entity_type: person
-backlink_count: 9
+backlink_count: 10
 ---
 
 # Zack Polanski
@@ -10,6 +10,7 @@ backlink_count: 9
 
 ## Referenced by
 
+- 2026-10-16 · [[2026-10-16-005-equality-watchdog-writes-to-greens-over-zionism-is-racism]] — Equality watchdog writes to Greens over ‘Zionism is racism’ motion
 - 2026-10-11 · [[2026-10-11-004-green-party-mp-wants-to-make-sure-it-is-not-vulnerable-to]] — Green Party MP wants to make sure it is 'not vulnerable to extremists'
 - 2026-10-11 · [[2026-10-11-005-polanski-vows-to-stay-as-green-leader-as-he-faces]] — Polanski vows to stay as Green leader as he faces criticism after by-election defeat
 - 2026-10-09 · [[2026-10-09-004-polanski-defends-leadership-after-zionism-row-and-by]] — Polanski defends leadership after Zionism row and by‑election loss
