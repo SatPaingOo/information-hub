@@ -8306,6 +8306,37 @@
       "name": "FDA union"
     },
     {
+      "id": "info:item:world:global:2026-10-17-007",
+      "type": "item",
+      "date": "2026-10-17",
+      "title": "Three men jailed for 158 years each for murdering Australian and US surfers in Mexico"
+    },
+    {
+      "id": "info:entity:person:Jake Robinson",
+      "type": "person",
+      "name": "Jake Robinson"
+    },
+    {
+      "id": "info:entity:person:Jesús Gerardo (alias \"El Kekas\")",
+      "type": "person",
+      "name": "Jesús Gerardo (alias \"El Kekas\")"
+    },
+    {
+      "id": "info:entity:organization:Mexican Federal Police",
+      "type": "organization",
+      "name": "Mexican Federal Police"
+    },
+    {
+      "id": "info:entity:region:Baja California",
+      "type": "region",
+      "name": "Baja California"
+    },
+    {
+      "id": "taxonomy/misc/crime",
+      "type": "taxonomy",
+      "name": "crime"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -36084,6 +36115,71 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-10-17-007",
+      "target": "info:entity:person:Jake Robinson",
+      "relation": "victim"
+    },
+    {
+      "source": "info:item:world:global:2026-10-17-007",
+      "target": "info:entity:person:Jesús Gerardo (alias \"El Kekas\")",
+      "relation": "convicted perpetrator"
+    },
+    {
+      "source": "info:item:world:global:2026-10-17-007",
+      "target": "info:entity:organization:Mexican Federal Police",
+      "relation": "investigating authority"
+    },
+    {
+      "source": "info:item:world:global:2026-10-17-007",
+      "target": "info:entity:region:Baja California",
+      "relation": "location of crime"
+    },
+    {
+      "source": "info:item:world:global:2026-10-17-007",
+      "target": "info:item:world:global:2026-10-17-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-17-007",
+      "target": "info:item:world:global:2026-10-17-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-17-007",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-17-007",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-17-007",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-17-007",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-17-007",
+      "target": "taxonomy/misc/crime",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-17-007",
+      "target": "taxonomy/misc/tourism",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-17-007",
+      "target": "taxonomy/misc/border security",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -44900,6 +44996,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Mexican Federal Police",
+      "target": "info:entity:person:Jake Robinson",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Mexican Federal Police",
+      "target": "info:entity:person:Jesús Gerardo (alias \"El Kekas\")",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Mexican Federal Police",
+      "target": "info:entity:region:Baja California",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Myanmar military (Tatmadaw)",
       "target": "info:entity:person:Zaw Min",
       "relation": "co-occurs",
@@ -48746,6 +48860,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:person:Jake Robinson",
+      "target": "info:entity:person:Jesús Gerardo (alias \"El Kekas\")",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Jake Robinson",
+      "target": "info:entity:region:Baja California",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:person:James Cartlidge",
       "target": "info:entity:person:Wes Streeting",
       "relation": "co-occurs",
@@ -48874,6 +49000,12 @@
     {
       "source": "info:entity:person:Jensen Huang",
       "target": "info:entity:product:Samsung Galaxy Fold 8",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Jesús Gerardo (alias \"El Kekas\")",
+      "target": "info:entity:region:Baja California",
       "relation": "co-occurs",
       "weight": "1"
     },
