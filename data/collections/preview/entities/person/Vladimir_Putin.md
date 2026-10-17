@@ -1,7 +1,7 @@
 ---
 name: "Vladimir Putin"
 entity_type: person
-backlink_count: 21
+backlink_count: 22
 ---
 
 # Vladimir Putin
@@ -10,6 +10,7 @@ backlink_count: 21
 
 ## Referenced by
 
+- 2026-10-17 · [[2026-10-17-003-trump-waives-several-russia-sanctions-as-new-us-law-takes]] — Trump waives several Russia sanctions as new US law takes effect
 - 2026-10-13 · [[2026-10-13-002-why-moscow-is-staying-tight-lipped-on-trump-s-energy]] — Why Moscow is staying tight-lipped on Trump's energy ceasefire
 - 2026-10-12 · [[2026-10-12-001-trump-s-energy-ceasefire-claim-welcomed-by-zelensky-but]] — Trump's 'energy ceasefire' claim welcomed by Zelensky but Russia silent
 - 2026-10-12 · [[2026-10-12-004-pm-says-it-is-clear-russia-interfered-with-brexit-vote]] — PM says it is 'clear' Russia interfered with Brexit vote

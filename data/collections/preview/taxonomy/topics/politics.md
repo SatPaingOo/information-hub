@@ -1,7 +1,7 @@
 ---
 node: "politics"
 layer: topic
-item_count: 147
+item_count: 149
 ---
 
 # politics
@@ -17,6 +17,8 @@ item_count: 147
 
 ## Items
 
+- 2026-10-17 · [[2026-10-17-006-ex-top-official-robbins-reaches-settlement-with-government]] — Ex-top official Robbins reaches settlement with government over sacking
+- 2026-10-17 · [[2026-10-17-006-ex-top-official-robbins-reaches-settlement-with-government]] — Ex-top official Robbins reaches settlement with government over sacking
 - 2026-10-16 · [[2026-10-16-004-banks-say-healey-is-planning-budget-tax-raid-on-their]] — Banks say Healey is planning Budget tax raid on their profits
 - 2026-10-16 · [[2026-10-16-005-equality-watchdog-writes-to-greens-over-zionism-is-racism]] — Equality watchdog writes to Greens over ‘Zionism is racism’ motion
 - 2026-10-16 · [[2026-10-16-005-equality-watchdog-writes-to-greens-over-zionism-is-racism]] — Equality watchdog writes to Greens over ‘Zionism is racism’ motion

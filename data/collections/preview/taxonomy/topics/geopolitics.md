@@ -1,7 +1,7 @@
 ---
 node: "geopolitics"
 layer: topic
-item_count: 105
+item_count: 106
 ---
 
 # geopolitics
@@ -24,6 +24,7 @@ item_count: 105
 
 ## Items
 
+- 2026-10-17 · [[2026-10-17-003-trump-waives-several-russia-sanctions-as-new-us-law-takes]] — Trump waives several Russia sanctions as new US law takes effect
 - 2026-10-16 · [[2026-10-16-002-it-s-really-hard-to-believe-how-oregon-primary-school]] — 'It's really hard to believe' - How Oregon primary school shooting unfolded
 - 2026-10-16 · [[2026-10-16-003-ship-attack-reports-near-hormuz-reach-record-high-as-oil]] — Ship attack reports near Hormuz reach record high as oil exports slow
 - 2026-10-16 · [[2026-10-16-004-banks-say-healey-is-planning-budget-tax-raid-on-their]] — Banks say Healey is planning Budget tax raid on their profits

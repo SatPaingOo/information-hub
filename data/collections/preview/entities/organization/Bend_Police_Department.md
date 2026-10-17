@@ -1,7 +1,7 @@
 ---
 name: "Bend Police Department"
 entity_type: organization
-backlink_count: 1
+backlink_count: 2
 ---
 
 # Bend Police Department
@@ -10,4 +10,5 @@ backlink_count: 1
 
 ## Referenced by
 
+- 2026-10-17 · [[2026-10-17-002-oregon-teacher-fought-school-attacker-before-armed-dad]] — Oregon teacher fought school attacker before armed dad shot suspect 'multiple times'
 - 2026-10-16 · [[2026-10-16-001-three-children-and-teacher-killed-in-us-primary-school]] — Three children and teacher killed in US primary school shooting

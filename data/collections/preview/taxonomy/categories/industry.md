@@ -1,7 +1,7 @@
 ---
 node: "industry"
 layer: category
-item_count: 269
+item_count: 272
 ---
 
 # industry
@@ -21,6 +21,9 @@ item_count: 269
 
 ## Items
 
+- 2026-10-17 · [[2026-10-17-001-brazil-sees-record-fall-in-amazon-deforestation-as-key]] — Brazil sees record fall in Amazon deforestation as key election looms
+- 2026-10-17 · [[2026-10-17-002-oregon-teacher-fought-school-attacker-before-armed-dad]] — Oregon teacher fought school attacker before armed dad shot suspect 'multiple times'
+- 2026-10-17 · [[2026-10-17-003-trump-waives-several-russia-sanctions-as-new-us-law-takes]] — Trump waives several Russia sanctions as new US law takes effect
 - 2026-10-16 · [[2026-10-16-001-three-children-and-teacher-killed-in-us-primary-school]] — Three children and teacher killed in US primary school shooting
 - 2026-10-16 · [[2026-10-16-002-it-s-really-hard-to-believe-how-oregon-primary-school]] — 'It's really hard to believe' - How Oregon primary school shooting unfolded
 - 2026-10-16 · [[2026-10-16-003-ship-attack-reports-near-hormuz-reach-record-high-as-oil]] — Ship attack reports near Hormuz reach record high as oil exports slow

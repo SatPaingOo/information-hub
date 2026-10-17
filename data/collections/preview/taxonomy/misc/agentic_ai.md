@@ -1,7 +1,7 @@
 ---
 node: "Agentic AI"
 layer: misc
-item_count: 83
+item_count: 85
 ---
 
 # Agentic AI
@@ -17,6 +17,8 @@ item_count: 83
 
 ## Items
 
+- 2026-10-17 · [[2026-10-17-004-india-becomes-the-latest-country-to-report-rogue-ai-agent]] — India becomes the latest country to report rogue AI agent activity
+- 2026-10-17 · [[2026-10-17-005-replit-is-no-longer-working-with-anthropic-ceo-says]] — Replit is no longer working with Anthropic, CEO says
 - 2026-10-15 · [[2026-10-15-001-anthropic-flags-revenue-surge-to-investors-ahead-of-stock]] — Anthropic flags revenue surge to investors ahead of stock market debut
 - 2026-10-15 · [[2026-10-15-006-make0-brain]] — Make0 Brain
 - 2026-10-14 · [[2026-10-14-001-saudi-man-charged-with-planting-sophisticated-recording]] — Saudi man charged with planting 'sophisticated' recording device in OpenAI office

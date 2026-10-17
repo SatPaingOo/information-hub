@@ -1,7 +1,7 @@
 ---
 name: "Volodymyr Zelensky"
 entity_type: person
-backlink_count: 28
+backlink_count: 29
 ---
 
 # Volodymyr Zelensky
@@ -10,6 +10,7 @@ backlink_count: 28
 
 ## Referenced by
 
+- 2026-10-17 · [[2026-10-17-003-trump-waives-several-russia-sanctions-as-new-us-law-takes]] — Trump waives several Russia sanctions as new US law takes effect
 - 2026-10-15 · [[2026-10-15-002-musk-says-us-government-may-be-behind-slowdown-of-ukraine]] — Musk says US government may be behind slowdown of Ukraine drone speeds
 - 2026-10-15 · [[2026-10-15-004-we-are-behind-you-and-that-will-not-change-pm-tells-zelensky]] — We are behind you and that will not change, PM tells Zelensky
 - 2026-10-14 · [[2026-10-14-001-russian-strikes-leave-600-000-without-power-in-ukraine-as]] — Russian strikes leave 600,000 without power in Ukraine, as Starlink restrictions affect front line

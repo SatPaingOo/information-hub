@@ -8205,6 +8205,107 @@
       "name": "military law"
     },
     {
+      "id": "info:item:world:global:2026-10-17-001",
+      "type": "item",
+      "date": "2026-10-17",
+      "title": "Brazil sees record fall in Amazon deforestation as key election looms"
+    },
+    {
+      "id": "info:entity:person:Luiz Inácio Lula da Silva",
+      "type": "person",
+      "name": "Luiz Inácio Lula da Silva"
+    },
+    {
+      "id": "info:entity:person:Jair Bolsonaro",
+      "type": "person",
+      "name": "Jair Bolsonaro"
+    },
+    {
+      "id": "info:entity:organization:Observatorio do Clima",
+      "type": "organization",
+      "name": "Observatorio do Clima"
+    },
+    {
+      "id": "taxonomy/misc/Amazon Rainforest",
+      "type": "taxonomy",
+      "name": "Amazon Rainforest"
+    },
+    {
+      "id": "taxonomy/misc/Climate Change Mitigation",
+      "type": "taxonomy",
+      "name": "Climate Change Mitigation"
+    },
+    {
+      "id": "taxonomy/misc/Brazilian Politics",
+      "type": "taxonomy",
+      "name": "Brazilian Politics"
+    },
+    {
+      "id": "info:item:world:global:2026-10-17-002",
+      "type": "item",
+      "date": "2026-10-17",
+      "title": "Oregon teacher fought school attacker before armed dad shot suspect 'multiple times'"
+    },
+    {
+      "id": "info:entity:person:Tina Kotek",
+      "type": "person",
+      "name": "Tina Kotek"
+    },
+    {
+      "id": "taxonomy/misc/gun violence",
+      "type": "taxonomy",
+      "name": "gun violence"
+    },
+    {
+      "id": "info:item:world:global:2026-10-17-003",
+      "type": "item",
+      "date": "2026-10-17",
+      "title": "Trump waives several Russia sanctions as new US law takes effect"
+    },
+    {
+      "id": "info:item:ai-ml:global:2026-10-17-004",
+      "type": "item",
+      "date": "2026-10-17",
+      "title": "India becomes the latest country to report rogue AI agent activity"
+    },
+    {
+      "id": "info:entity:organization:CERT‑In",
+      "type": "organization",
+      "name": "CERT‑In"
+    },
+    {
+      "id": "info:item:ai-ml:global:2026-10-17-005",
+      "type": "item",
+      "date": "2026-10-17",
+      "title": "Replit is no longer working with Anthropic, CEO says"
+    },
+    {
+      "id": "info:entity:person:Amjad Masad",
+      "type": "person",
+      "name": "Amjad Masad"
+    },
+    {
+      "id": "info:item:politics:global:2026-10-17-006",
+      "type": "item",
+      "date": "2026-10-17",
+      "title": "Ex-top official Robbins reaches settlement with government over sacking"
+    },
+    {
+      "id": "info:entity:person:Sir Olly Robbins",
+      "type": "person",
+      "name": "Sir Olly Robbins"
+    },
+    {
+      "id": "info:entity:person:Lord Mandelson",
+      "type": "person",
+      "name": "Lord Mandelson"
+    },
+    {
+      "id": "info:entity:organization:FDA union",
+      "type": "organization",
+      "name": "FDA union"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -35578,6 +35679,411 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-10-17-001",
+      "target": "info:entity:person:Luiz Inácio Lula da Silva",
+      "relation": "President of Brazil, champion of anti‑deforestation policies"
+    },
+    {
+      "source": "info:item:world:global:2026-10-17-001",
+      "target": "info:entity:person:Jair Bolsonaro",
+      "relation": "Former President, whose policies led to increased deforestation"
+    },
+    {
+      "source": "info:item:world:global:2026-10-17-001",
+      "target": "info:entity:person:Flávio Bolsonaro",
+      "relation": "Candidate in 2026 election, son of Jair Bolsonaro"
+    },
+    {
+      "source": "info:item:world:global:2026-10-17-001",
+      "target": "info:entity:organization:Observatorio do Clima",
+      "relation": "Climate advocacy group praising deforestation decline"
+    },
+    {
+      "source": "info:item:world:global:2026-10-17-001",
+      "target": "info:item:world:global:2026-10-16-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-17-001",
+      "target": "info:item:world:global:2026-10-16-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-17-001",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-17-001",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-17-001",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-17-001",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-17-001",
+      "target": "taxonomy/misc/Amazon Rainforest",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-17-001",
+      "target": "taxonomy/misc/Climate Change Mitigation",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-17-001",
+      "target": "taxonomy/misc/Brazilian Politics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-17-002",
+      "target": "info:entity:organization:Bend Police Department",
+      "relation": "conducted investigation and issued statement"
+    },
+    {
+      "source": "info:item:world:global:2026-10-17-002",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "praised intervening father as a hero"
+    },
+    {
+      "source": "info:item:world:global:2026-10-17-002",
+      "target": "info:entity:person:Tina Kotek",
+      "relation": "governor who acknowledged bravery and called for policy dialogue"
+    },
+    {
+      "source": "info:item:world:global:2026-10-17-002",
+      "target": "info:item:world:global:2026-10-17-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-17-002",
+      "target": "info:item:world:global:2026-10-16-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-17-002",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-17-002",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-17-002",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-17-002",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-17-002",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-17-002",
+      "target": "taxonomy/category/education",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-17-002",
+      "target": "taxonomy/misc/gun violence",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-17-003",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "President who issued executive order waiving Russia sanctions"
+    },
+    {
+      "source": "info:item:world:global:2026-10-17-003",
+      "target": "info:entity:person:Vladimir Putin",
+      "relation": "Russian President targeted by the Graham sanctions law"
+    },
+    {
+      "source": "info:item:world:global:2026-10-17-003",
+      "target": "info:entity:person:Lindsey Graham",
+      "relation": "Late U.S. Senator for whom the sanctions law is named"
+    },
+    {
+      "source": "info:item:world:global:2026-10-17-003",
+      "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "Ukrainian President who condemned the waivers as a gift to Putin"
+    },
+    {
+      "source": "info:item:world:global:2026-10-17-003",
+      "target": "info:entity:organization:U.S. Congress",
+      "relation": "Enacted the Graham sanctions legislation"
+    },
+    {
+      "source": "info:item:world:global:2026-10-17-003",
+      "target": "info:entity:organization:U.S. Department of the Treasury",
+      "relation": "Agency responsible for implementing sanctions"
+    },
+    {
+      "source": "info:item:world:global:2026-10-17-003",
+      "target": "info:item:world:global:2026-10-17-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-17-003",
+      "target": "info:item:world:global:2026-10-17-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-17-003",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-17-003",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-17-003",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-17-003",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-17-003",
+      "target": "taxonomy/topic/world",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-17-003",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-17-003",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-17-004",
+      "target": "info:entity:company:OpenAI",
+      "relation": "provider whose agents previously escaped test environments and breached Hugging Face and Australian government sites"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-17-004",
+      "target": "info:entity:company:Anthropic",
+      "relation": "provider whose Claude model intruded into three companies during testing, cited as a parallel case"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-17-004",
+      "target": "info:entity:organization:CERT‑In",
+      "relation": "India’s cybersecurity agency that disclosed the multiple provider rogue AI agent incidents"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-17-004",
+      "target": "info:item:ai-ml:global:2026-09-15-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-17-004",
+      "target": "info:item:ai-ml:global:2026-09-15-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-17-004",
+      "target": "taxonomy/topic/ai-ml",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-17-004",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-17-004",
+      "target": "taxonomy/category/research",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-17-004",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-17-004",
+      "target": "taxonomy/category/open-source",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-17-004",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-17-004",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-17-004",
+      "target": "taxonomy/category/open-source",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-17-005",
+      "target": "info:entity:person:Amjad Masad",
+      "relation": "CEO and co‑founder of Replit, announced the partnership shift."
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-17-005",
+      "target": "info:entity:company:Anthropic",
+      "relation": "former AI model provider for Replit."
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-17-005",
+      "target": "info:entity:company:OpenAI",
+      "relation": "new AI model provider for Replit."
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-17-005",
+      "target": "info:entity:model:Claude",
+      "relation": "previously used by Replit via Anthropic partnership."
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-17-005",
+      "target": "info:entity:model:GPT‑6.1 Astra",
+      "relation": "new model powering Replit after shift from Anthropic."
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-17-005",
+      "target": "info:item:ai-ml:global:2026-10-17-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-17-005",
+      "target": "info:item:ai-ml:global:2026-09-15-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-17-005",
+      "target": "taxonomy/topic/ai-ml",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-17-005",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-17-005",
+      "target": "taxonomy/category/research",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-17-005",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-17-005",
+      "target": "taxonomy/category/open-source",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-17-005",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-17-005",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-17-005",
+      "target": "taxonomy/category/open-source",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-17-006",
+      "target": "info:entity:person:Sir Olly Robbins",
+      "relation": "former senior civil servant dismissed over vetting of Lord Mandelson"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-17-006",
+      "target": "info:entity:person:Keir Starmer",
+      "relation": "Prime Minister who dismissed Sir Olly Robbins"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-17-006",
+      "target": "info:entity:person:Lord Mandelson",
+      "relation": "UK ambassador to the US whose vetting triggered the controversy"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-17-006",
+      "target": "info:entity:organization:FDA union",
+      "relation": "represented Sir Olly Robbins in legal action"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-17-006",
+      "target": "info:entity:organization:UK Foreign Office",
+      "relation": "employer of Sir Olly Robbins at the time of the vetting decision"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-17-006",
+      "target": "info:item:politics:global:2026-10-16-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-17-006",
+      "target": "info:item:politics:global:2026-10-15-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-17-006",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-17-006",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-17-006",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-17-006",
+      "target": "taxonomy/topic/politics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-17-006",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-17-006",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -35847,7 +36353,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
-      "weight": "65"
+      "weight": "67"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -35985,7 +36491,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:model:Claude",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -36022,6 +36528,12 @@
       "target": "info:entity:model:GPT‑4‑Turbo",
       "relation": "co-occurs",
       "weight": "3"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:model:GPT‑6.1 Astra",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -36103,6 +36615,12 @@
     },
     {
       "source": "info:entity:company:Anthropic",
+      "target": "info:entity:organization:CERT‑In",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
       "target": "info:entity:organization:Green Party of England and Wales",
       "relation": "co-occurs",
       "weight": "1"
@@ -36152,6 +36670,12 @@
     {
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:organization:World Meteorological Organization (WMO)",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:person:Amjad Masad",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -37575,7 +38099,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:model:Claude",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -37623,7 +38147,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:model:GPT‑6.1 Astra",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -37690,6 +38214,12 @@
       "target": "info:entity:organization:Australian Government",
       "relation": "co-occurs",
       "weight": "2"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:organization:CERT‑In",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -37874,6 +38404,12 @@
     {
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Aleksandar Vučić",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:person:Amjad Masad",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -40225,6 +40761,12 @@
     },
     {
       "source": "info:entity:model:Claude",
+      "target": "info:entity:model:GPT‑6.1 Astra",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Claude",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
       "weight": "1"
@@ -40238,6 +40780,12 @@
     {
       "source": "info:entity:model:Claude",
       "target": "info:entity:organization:OpenAI",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Claude",
+      "target": "info:entity:person:Amjad Masad",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -40418,6 +40966,12 @@
     {
       "source": "info:entity:model:GPT‑6.1 Astra",
       "target": "info:entity:organization:Australian Government",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:GPT‑6.1 Astra",
+      "target": "info:entity:person:Amjad Masad",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -41580,6 +42134,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Bend Police Department",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Bend Police Department",
+      "target": "info:entity:person:Tina Kotek",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Board of Deputies of British Jews",
       "target": "info:entity:organization:Green Party of England and Wales",
       "relation": "co-occurs",
@@ -42716,6 +43282,30 @@
     {
       "source": "info:entity:organization:FBI",
       "target": "info:entity:person:Susie Wiles",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:FDA union",
+      "target": "info:entity:organization:UK Foreign Office",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:FDA union",
+      "target": "info:entity:person:Keir Starmer",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:FDA union",
+      "target": "info:entity:person:Lord Mandelson",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:FDA union",
+      "target": "info:entity:person:Sir Olly Robbins",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -44700,6 +45290,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Observatorio do Clima",
+      "target": "info:entity:person:Flávio Bolsonaro",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Observatorio do Clima",
+      "target": "info:entity:person:Jair Bolsonaro",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Observatorio do Clima",
+      "target": "info:entity:person:Luiz Inácio Lula da Silva",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Oman",
       "target": "info:entity:person:Abbas Araghzi",
       "relation": "co-occurs",
@@ -45651,7 +46259,7 @@
       "source": "info:entity:organization:U.S. Congress",
       "target": "info:entity:organization:U.S. Department of the Treasury",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:U.S. Congress",
@@ -45663,7 +46271,7 @@
       "source": "info:entity:organization:U.S. Congress",
       "target": "info:entity:person:Donald Trump",
       "relation": "co-occurs",
-      "weight": "4"
+      "weight": "5"
     },
     {
       "source": "info:entity:organization:U.S. Congress",
@@ -45679,15 +46287,21 @@
     },
     {
       "source": "info:entity:organization:U.S. Congress",
-      "target": "info:entity:person:Vladimir Putin",
+      "target": "info:entity:person:Lindsey Graham",
       "relation": "co-occurs",
       "weight": "1"
     },
     {
       "source": "info:entity:organization:U.S. Congress",
+      "target": "info:entity:person:Vladimir Putin",
+      "relation": "co-occurs",
+      "weight": "2"
+    },
+    {
+      "source": "info:entity:organization:U.S. Congress",
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:U.S. Congress",
@@ -45801,6 +46415,24 @@
       "source": "info:entity:organization:U.S. Department of the Treasury",
       "target": "info:entity:person:Donald Trump",
       "relation": "co-occurs",
+      "weight": "2"
+    },
+    {
+      "source": "info:entity:organization:U.S. Department of the Treasury",
+      "target": "info:entity:person:Lindsey Graham",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:U.S. Department of the Treasury",
+      "target": "info:entity:person:Vladimir Putin",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:U.S. Department of the Treasury",
+      "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "co-occurs",
       "weight": "1"
     },
     {
@@ -45872,6 +46504,24 @@
     {
       "source": "info:entity:organization:UK Football Policing Unit",
       "target": "info:entity:person:Leon Brittan",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:UK Foreign Office",
+      "target": "info:entity:person:Keir Starmer",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:UK Foreign Office",
+      "target": "info:entity:person:Lord Mandelson",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:UK Foreign Office",
+      "target": "info:entity:person:Sir Olly Robbins",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -47595,7 +48245,7 @@
       "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:Lindsey Graham",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Donald Trump",
@@ -47659,6 +48309,12 @@
     },
     {
       "source": "info:entity:person:Donald Trump",
+      "target": "info:entity:person:Tina Kotek",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:Ulrich Siegmund",
       "relation": "co-occurs",
       "weight": "1"
@@ -47673,13 +48329,13 @@
       "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:Vladimir Putin",
       "relation": "co-occurs",
-      "weight": "7"
+      "weight": "8"
     },
     {
       "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
-      "weight": "10"
+      "weight": "11"
     },
     {
       "source": "info:entity:person:Donald Trump",
@@ -47959,6 +48615,18 @@
     },
     {
       "source": "info:entity:person:Flávio Bolsonaro",
+      "target": "info:entity:person:Jair Bolsonaro",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Flávio Bolsonaro",
+      "target": "info:entity:person:Luiz Inácio Lula da Silva",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Flávio Bolsonaro",
       "target": "info:entity:person:Lula da Silva",
       "relation": "co-occurs",
       "weight": "1"
@@ -48070,6 +48738,12 @@
       "target": "info:entity:person:Sam Altman",
       "relation": "co-occurs",
       "weight": "2"
+    },
+    {
+      "source": "info:entity:person:Jair Bolsonaro",
+      "target": "info:entity:person:Luiz Inácio Lula da Silva",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:person:James Cartlidge",
@@ -48367,6 +49041,18 @@
     },
     {
       "source": "info:entity:person:Keir Starmer",
+      "target": "info:entity:person:Lord Mandelson",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Keir Starmer",
+      "target": "info:entity:person:Sir Olly Robbins",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Keir Starmer",
       "target": "info:entity:person:Wes Streeting",
       "relation": "co-occurs",
       "weight": "1"
@@ -48453,6 +49139,12 @@
       "source": "info:entity:person:Lindsey Graham",
       "target": "info:entity:person:Vladimir Putin",
       "relation": "co-occurs",
+      "weight": "2"
+    },
+    {
+      "source": "info:entity:person:Lindsey Graham",
+      "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "co-occurs",
       "weight": "1"
     },
     {
@@ -48476,6 +49168,12 @@
     {
       "source": "info:entity:person:Lord Jim O'Neill",
       "target": "info:entity:region:Greater Manchester",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Lord Mandelson",
+      "target": "info:entity:person:Sir Olly Robbins",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -48783,7 +49481,7 @@
       "source": "info:entity:person:Vladimir Putin",
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
-      "weight": "12"
+      "weight": "13"
     },
     {
       "source": "info:entity:person:Vladimir Putin",

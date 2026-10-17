@@ -1,0 +1,13 @@
+2026-10-17 04:14:32,767 INFO [world-news] published 2026-10-17-001 — Brazil sees record fall in Amazon deforestation as key elect
+2026-10-17 04:15:12,297 INFO [world-news] published 2026-10-17-002 — Oregon teacher fought school attacker before armed dad shot 
+2026-10-17 04:16:04,345 INFO [world-news] published 2026-10-17-003 — Trump waives several Russia sanctions as new US law takes ef
+2026-10-17 04:16:40,716 INFO [tech-news] near-duplicate pruned — 'Elorian’s first AI model wants to reason with images, not ju' ~ 2026-10-14-006
+2026-10-17 04:17:07,481 INFO [tech-news] published 2026-10-17-004 — India becomes the latest country to report rogue AI agent ac
+2026-10-17 04:17:31,156 INFO [tech-news] published 2026-10-17-005 — Replit is no longer working with Anthropic, CEO says
+2026-10-17 04:18:07,594 INFO [politics] published 2026-10-17-006 — Ex-top official Robbins reaches settlement with government o
+2026-10-17 04:18:12,458 INFO [politics] attempt 1 invalid: [": 'tags' is a required property", ": 'related_items' is a required property"]
+2026-10-17 04:18:12,612 ERROR [politics] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7371, Requested 6466. Please try again in 43.7775s. Need more tokens? Upgrade to Dev Tier today at https://co
+2026-10-17 04:18:21,401 ERROR [politics] generate error: HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
+
+2026-10-17 04:18:31,230 WARNING [products] no collect provider available
+2026-10-17 04:18:31,661 INFO collect done: 6 item(s) published — target 4/10, next run ≈ 2026-10-18T01:00:00+00:00 UTC

@@ -1,7 +1,7 @@
 ---
 node: "ai-ml"
 layer: topic
-item_count: 30
+item_count: 32
 ---
 
 # ai-ml
@@ -25,6 +25,8 @@ item_count: 30
 
 ## Items
 
+- 2026-10-17 · [[2026-10-17-004-india-becomes-the-latest-country-to-report-rogue-ai-agent]] — India becomes the latest country to report rogue AI agent activity
+- 2026-10-17 · [[2026-10-17-005-replit-is-no-longer-working-with-anthropic-ceo-says]] — Replit is no longer working with Anthropic, CEO says
 - 2026-09-15 · [[2026-09-15-004-openai-buys-smartphone-camera-maker-glass-imaging-for-300]] — OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says
 - 2026-09-15 · [[2026-09-15-005-jensen-huang-took-a-call-from-trump-and-showed-off]] — Jensen Huang took a call from Trump, and showed off something else, too
 - 2026-09-15 · [[2026-09-15-006-nvidia-ceo-jensen-huang-tells-trump-we-re-not-going-to-let]] — Nvidia CEO Jensen Huang tells Trump ‘we’re not going to let [an AI slowdown] happen’

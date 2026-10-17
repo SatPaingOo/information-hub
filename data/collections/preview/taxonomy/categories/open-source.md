@@ -1,7 +1,7 @@
 ---
 node: "open-source"
 layer: category
-item_count: 31
+item_count: 35
 ---
 
 # open-source
@@ -20,6 +20,10 @@ item_count: 31
 
 ## Items
 
+- 2026-10-17 · [[2026-10-17-004-india-becomes-the-latest-country-to-report-rogue-ai-agent]] — India becomes the latest country to report rogue AI agent activity
+- 2026-10-17 · [[2026-10-17-004-india-becomes-the-latest-country-to-report-rogue-ai-agent]] — India becomes the latest country to report rogue AI agent activity
+- 2026-10-17 · [[2026-10-17-005-replit-is-no-longer-working-with-anthropic-ceo-says]] — Replit is no longer working with Anthropic, CEO says
+- 2026-10-17 · [[2026-10-17-005-replit-is-no-longer-working-with-anthropic-ceo-says]] — Replit is no longer working with Anthropic, CEO says
 - 2026-09-30 · [[2026-09-30-001-chinese-ai-tool-told-researchers-how-to-make-bioweapons]] — Chinese AI tool told researchers how to make bioweapons
 - 2026-09-29 · [[2026-09-29-001-openai-scraps-rollout-of-new-model-over-safety-concerns]] — OpenAI scraps rollout of new model over safety concerns
 - 2026-09-15 · [[2026-09-15-004-openai-buys-smartphone-camera-maker-glass-imaging-for-300]] — OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says

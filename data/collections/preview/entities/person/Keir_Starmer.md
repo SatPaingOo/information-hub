@@ -1,7 +1,7 @@
 ---
 name: "Keir Starmer"
 entity_type: person
-backlink_count: 11
+backlink_count: 12
 ---
 
 # Keir Starmer
@@ -10,6 +10,7 @@ backlink_count: 11
 
 ## Referenced by
 
+- 2026-10-17 · [[2026-10-17-006-ex-top-official-robbins-reaches-settlement-with-government]] — Ex-top official Robbins reaches settlement with government over sacking
 - 2026-09-30 · [[2026-09-30-005-chris-mason-burnham-delivers-deeply-political-speech-with]] — Chris Mason: Burnham delivers deeply political speech with a personal core
 - 2026-09-28 · [[2026-09-28-004-burnham-proposes-nhs-style-social-care-system-for-england]] — Burnham proposes NHS-style social care system for England
 - 2026-09-28 · [[2026-09-28-005-social-care-reform-could-mean-big-risks-and-big-rewards]] — Social care reform could mean big risks and big rewards for Burnham

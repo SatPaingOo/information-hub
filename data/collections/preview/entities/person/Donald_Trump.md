@@ -1,7 +1,7 @@
 ---
 name: "Donald Trump"
 entity_type: person
-backlink_count: 67
+backlink_count: 69
 ---
 
 # Donald Trump
@@ -10,6 +10,8 @@ backlink_count: 67
 
 ## Referenced by
 
+- 2026-10-17 · [[2026-10-17-002-oregon-teacher-fought-school-attacker-before-armed-dad]] — Oregon teacher fought school attacker before armed dad shot suspect 'multiple times'
+- 2026-10-17 · [[2026-10-17-003-trump-waives-several-russia-sanctions-as-new-us-law-takes]] — Trump waives several Russia sanctions as new US law takes effect
 - 2026-10-16 · [[2026-10-16-006-trump-cancels-planned-livestream-of-fort-hood-attacker-s]] — Trump Cancels Planned Livestream of Fort Hood Attacker’s Execution by Firing Squad
 - 2026-10-15 · [[2026-10-15-004-we-are-behind-you-and-that-will-not-change-pm-tells-zelensky]] — We are behind you and that will not change, PM tells Zelensky
 - 2026-10-14 · [[2026-10-14-001-russian-strikes-leave-600-000-without-power-in-ukraine-as]] — Russian strikes leave 600,000 without power in Ukraine, as Starlink restrictions affect front line
