@@ -8337,6 +8337,42 @@
       "name": "crime"
     },
     {
+      "id": "info:item:world:global:2026-10-17-008",
+      "type": "item",
+      "date": "2026-10-17",
+      "title": "Centennial Return of the Grand Condé: A Pink Diamond’s Journey from 1926 Heist to Modern Exhibition"
+    },
+    {
+      "id": "info:entity:concept:Grand Condé pink diamond",
+      "type": "concept",
+      "name": "Grand Condé pink diamond"
+    },
+    {
+      "id": "info:entity:organization:Musée Condé",
+      "type": "organization",
+      "name": "Musée Condé"
+    },
+    {
+      "id": "info:entity:organization:Louvre Museum",
+      "type": "organization",
+      "name": "Louvre Museum"
+    },
+    {
+      "id": "info:entity:concept:blockchain provenance",
+      "type": "concept",
+      "name": "blockchain provenance"
+    },
+    {
+      "id": "taxonomy/misc/luxury goods market",
+      "type": "taxonomy",
+      "name": "luxury goods market"
+    },
+    {
+      "id": "taxonomy/misc/security policy",
+      "type": "taxonomy",
+      "name": "security policy"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -36180,6 +36216,71 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-10-17-008",
+      "target": "info:entity:concept:Grand Condé pink diamond",
+      "relation": "subject of exhibition and historic theft"
+    },
+    {
+      "source": "info:item:world:global:2026-10-17-008",
+      "target": "info:entity:organization:Musée Condé",
+      "relation": "current custodian and exhibitor"
+    },
+    {
+      "source": "info:item:world:global:2026-10-17-008",
+      "target": "info:entity:organization:Louvre Museum",
+      "relation": "recent site of a high‑profile jewellery robbery"
+    },
+    {
+      "source": "info:item:world:global:2026-10-17-008",
+      "target": "info:entity:concept:blockchain provenance",
+      "relation": "emerging security technology referenced in analysis"
+    },
+    {
+      "source": "info:item:world:global:2026-10-17-008",
+      "target": "info:item:world:global:2026-10-17-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-17-008",
+      "target": "info:item:world:global:2026-10-17-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-17-008",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-17-008",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-17-008",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-17-008",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-17-008",
+      "target": "taxonomy/misc/cultural heritage",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-17-008",
+      "target": "taxonomy/misc/luxury goods market",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-17-008",
+      "target": "taxonomy/misc/security policy",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -39884,6 +39985,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:concept:Grand Condé pink diamond",
+      "target": "info:entity:concept:blockchain provenance",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Grand Condé pink diamond",
+      "target": "info:entity:organization:Louvre Museum",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Grand Condé pink diamond",
+      "target": "info:entity:organization:Musée Condé",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:concept:Himalayan monal",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
@@ -40398,6 +40517,18 @@
       "target": "info:entity:region:Myanmar",
       "relation": "co-occurs",
       "weight": "3"
+    },
+    {
+      "source": "info:entity:concept:blockchain provenance",
+      "target": "info:entity:organization:Louvre Museum",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:blockchain provenance",
+      "target": "info:entity:organization:Musée Condé",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:concept:cordon sanitaire",
@@ -44842,6 +44973,12 @@
     {
       "source": "info:entity:organization:Liberal Democrats",
       "target": "info:entity:product:Excalibur unmanned underwater drone",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Louvre Museum",
+      "target": "info:entity:organization:Musée Condé",
       "relation": "co-occurs",
       "weight": "1"
     },
