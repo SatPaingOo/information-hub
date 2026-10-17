@@ -1,11 +1,11 @@
 {
   "groq": {
     "quota_date": "2026-10-17",
-    "tokens_used": 16023,
-    "items": 2,
-    "calls": 3,
-    "errors": 3,
-    "cooldown_until": "2026-10-17T05:27:15+00:00",
+    "tokens_used": 25145,
+    "items": 3,
+    "calls": 5,
+    "errors": 4,
+    "cooldown_until": "2026-10-17T08:39:40+00:00",
     "models": {
       "llama-3.3-70b-versatile": {
         "calls": 0,
@@ -30,15 +30,15 @@
         "cooldown_until": null
       },
       "openai/gpt-oss-120b": {
-        "calls": 296,
-        "items": 133,
-        "errors": 158,
+        "calls": 298,
+        "items": 134,
+        "errors": 159,
         "consecutive_failures": 1,
         "healthy": true,
-        "last_health_check": "2026-10-17T05:26:45+00:00",
-        "latency_ms": 3652,
+        "last_health_check": "2026-10-17T08:39:10+00:00",
+        "latency_ms": 4061,
         "supports_json": true,
-        "cooldown_until": "2026-10-17T05:27:15+00:00"
+        "cooldown_until": "2026-10-17T08:39:40+00:00"
       },
       "openai/gpt-oss-20b": {
         "calls": 50,
@@ -486,30 +486,30 @@
     "tokens_used": 0,
     "items": 0,
     "calls": 0,
-    "errors": 4,
-    "cooldown_until": "2026-10-17T05:27:24+00:00",
+    "errors": 6,
+    "cooldown_until": "2026-10-17T08:39:52+00:00",
     "models": {
       "gemini-3.5-flash-lite": {
         "calls": 0,
         "items": 0,
-        "errors": 128,
-        "consecutive_failures": 2,
-        "healthy": true,
-        "last_health_check": "2026-10-17T05:26:51+00:00",
+        "errors": 129,
+        "consecutive_failures": 3,
+        "healthy": false,
+        "last_health_check": "2026-10-17T08:39:19+00:00",
         "latency_ms": null,
         "supports_json": true,
-        "cooldown_until": "2026-10-17T05:27:51+00:00"
+        "cooldown_until": "2026-10-17T08:41:19+00:00"
       },
       "gemini-3.5-flash": {
         "calls": 0,
         "items": 0,
-        "errors": 128,
-        "consecutive_failures": 2,
-        "healthy": true,
-        "last_health_check": "2026-10-17T05:26:54+00:00",
+        "errors": 129,
+        "consecutive_failures": 3,
+        "healthy": false,
+        "last_health_check": "2026-10-17T08:39:22+00:00",
         "latency_ms": null,
         "supports_json": true,
-        "cooldown_until": "2026-10-17T05:27:54+00:00"
+        "cooldown_until": "2026-10-17T08:41:22+00:00"
       }
     }
   }
