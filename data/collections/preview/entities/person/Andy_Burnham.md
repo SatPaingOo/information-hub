@@ -1,7 +1,7 @@
 ---
 name: "Andy Burnham"
 entity_type: person
-backlink_count: 58
+backlink_count: 59
 ---
 
 # Andy Burnham
@@ -10,6 +10,7 @@ backlink_count: 58
 
 ## Referenced by
 
+- 2026-10-18 · [[2026-10-18-004-burnham-invites-swinney-to-work-together-on-deeper]] — Burnham invites Swinney to work together on 'deeper Scottish devolution'
 - 2026-10-15 · [[2026-10-15-004-we-are-behind-you-and-that-will-not-change-pm-tells-zelensky]] — We are behind you and that will not change, PM tells Zelensky
 - 2026-10-14 · [[2026-10-14-002-mi5-chief-warns-against-overstating-russian-interference]] — MI5 chief warns against overstating Russian interference in Brexit vote
 - 2026-10-14 · [[2026-10-14-003-zelensky-and-burnham-to-meet-in-downing-street]] — Zelensky and Burnham to meet in Downing Street

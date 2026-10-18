@@ -1,7 +1,7 @@
 ---
 node: "politics"
 layer: topic
-item_count: 149
+item_count: 151
 ---
 
 # politics
@@ -17,6 +17,8 @@ item_count: 149
 
 ## Items
 
+- 2026-10-18 · [[2026-10-18-004-burnham-invites-swinney-to-work-together-on-deeper]] — Burnham invites Swinney to work together on 'deeper Scottish devolution'
+- 2026-10-18 · [[2026-10-18-005-police-assess-palestine-action-post-by-national-security]] — Police assess Palestine Action post by national security adviser's wife
 - 2026-10-17 · [[2026-10-17-006-ex-top-official-robbins-reaches-settlement-with-government]] — Ex-top official Robbins reaches settlement with government over sacking
 - 2026-10-17 · [[2026-10-17-006-ex-top-official-robbins-reaches-settlement-with-government]] — Ex-top official Robbins reaches settlement with government over sacking
 - 2026-10-16 · [[2026-10-16-004-banks-say-healey-is-planning-budget-tax-raid-on-their]] — Banks say Healey is planning Budget tax raid on their profits

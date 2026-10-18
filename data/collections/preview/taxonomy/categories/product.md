@@ -1,7 +1,7 @@
 ---
 node: "product"
 layer: category
-item_count: 94
+item_count: 95
 ---
 
 # product
@@ -19,6 +19,7 @@ item_count: 94
 
 ## Items
 
+- 2026-10-18 · [[2026-10-18-006-step-5-preview]] — Step 5 Preview
 - 2026-10-17 · [[2026-10-17-004-india-becomes-the-latest-country-to-report-rogue-ai-agent]] — India becomes the latest country to report rogue AI agent activity
 - 2026-10-17 · [[2026-10-17-005-replit-is-no-longer-working-with-anthropic-ceo-says]] — Replit is no longer working with Anthropic, CEO says
 - 2026-10-15 · [[2026-10-15-006-make0-brain]] — Make0 Brain

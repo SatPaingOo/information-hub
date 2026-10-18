@@ -1,7 +1,7 @@
 ---
 node: "world"
 layer: topic
-item_count: 247
+item_count: 249
 ---
 
 # world
@@ -17,6 +17,8 @@ item_count: 247
 
 ## Items
 
+- 2026-10-18 · [[2026-10-18-002-a-wave-of-homemade-synthetic-drugs-sweeps-us-and-deepens]] — A wave of homemade, synthetic drugs sweeps US and deepens crisis
+- 2026-10-18 · [[2026-10-18-003-european-diplomats-attacked-by-israeli-settlers-in-west-bank]] — European diplomats attacked by Israeli settlers in West Bank
 - 2026-10-17 · [[2026-10-17-001-brazil-sees-record-fall-in-amazon-deforestation-as-key]] — Brazil sees record fall in Amazon deforestation as key election looms
 - 2026-10-17 · [[2026-10-17-002-oregon-teacher-fought-school-attacker-before-armed-dad]] — Oregon teacher fought school attacker before armed dad shot suspect 'multiple times'
 - 2026-10-17 · [[2026-10-17-003-trump-waives-several-russia-sanctions-as-new-us-law-takes]] — Trump waives several Russia sanctions as new US law takes effect

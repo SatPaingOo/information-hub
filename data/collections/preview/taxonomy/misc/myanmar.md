@@ -1,7 +1,7 @@
 ---
 node: "Myanmar"
 layer: misc
-item_count: 14
+item_count: 15
 ---
 
 # Myanmar
@@ -17,6 +17,7 @@ item_count: 14
 
 ## Items
 
+- 2026-10-18 · [[2026-10-18-002-a-wave-of-homemade-synthetic-drugs-sweeps-us-and-deepens]] — A wave of homemade, synthetic drugs sweeps US and deepens crisis
 - 2026-10-11 · [[2026-10-11-001-young-men-live-in-fear-of-being-snatched-off-the-streets]] — Young men live in fear of being snatched off the streets and sold to Myanmar's army
 - 2026-10-09 · [[2026-10-09-006-offstage]] — offstage
 - 2026-10-06 · [[2026-10-06-006-opengeni-ship-ai-agents-within-minutes-infrastructure-for]] — Opengeni: Ship AI agents within minutes. Infrastructure for Agents

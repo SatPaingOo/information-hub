@@ -1,0 +1,14 @@
+2026-10-18 05:38:22,942 ERROR [world-news] generate error: empty model content
+2026-10-18 05:38:38,100 INFO [world-news] attempt 2 invalid: ["entities/1/type: 'entity' is not one of ['concept', 'company', 'model', 'person', 'product', 'region', 'organization', 'event']", "entities/3/type: 'movement' is not one of ['concept', 'company', 'model', 'person', 'product', 'region', 'organization', 'event']"]
+2026-10-18 05:38:56,215 ERROR [world-news] generate error: bad response: Unterminated string starting at: line 58 column 7 (char 5183)
+2026-10-18 05:39:52,139 INFO [world-news] published 2026-10-18-002 — A wave of homemade, synthetic drugs sweeps US and deepens cr
+2026-10-18 05:41:03,077 INFO [world-news] published 2026-10-18-003 — European diplomats attacked by Israeli settlers in West Bank
+2026-10-18 05:41:16,935 INFO [tech-news] nothing selected
+2026-10-18 05:42:09,165 INFO [politics] published 2026-10-18-004 — Burnham invites Swinney to work together on 'deeper Scottish
+2026-10-18 05:43:03,536 INFO [politics] published 2026-10-18-005 — Police assess Palestine Action post by national security adv
+2026-10-18 05:44:39,279 INFO [products] published 2026-10-18-006 — Step 5 Preview
+2026-10-18 05:44:44,187 INFO [products] attempt 1 invalid: [": 'key_facts' is a required property", ": 'implications' is a required property"]
+2026-10-18 05:44:44,324 ERROR [products] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6466, Requested 5471. Please try again in 29.5275s. Need more tokens? Upgrade to Dev Tier today at https://co
+2026-10-18 05:44:52,973 ERROR [products] generate error: HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
+
+2026-10-18 05:45:02,439 INFO collect done: 5 item(s) published — target 5/10, next run ≈ 2026-10-19T01:00:00+00:00 UTC

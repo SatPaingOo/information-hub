@@ -1,7 +1,7 @@
 ---
 name: "Anthropic"
 entity_type: company
-backlink_count: 81
+backlink_count: 83
 ---
 
 # Anthropic
@@ -10,6 +10,8 @@ backlink_count: 81
 
 ## Referenced by
 
+- 2026-10-18 · [[2026-10-18-002-a-wave-of-homemade-synthetic-drugs-sweeps-us-and-deepens]] — A wave of homemade, synthetic drugs sweeps US and deepens crisis
+- 2026-10-18 · [[2026-10-18-006-step-5-preview]] — Step 5 Preview
 - 2026-10-17 · [[2026-10-17-004-india-becomes-the-latest-country-to-report-rogue-ai-agent]] — India becomes the latest country to report rogue AI agent activity
 - 2026-10-17 · [[2026-10-17-005-replit-is-no-longer-working-with-anthropic-ceo-says]] — Replit is no longer working with Anthropic, CEO says
 - 2026-10-16 · [[2026-10-16-001-three-children-and-teacher-killed-in-us-primary-school]] — Three children and teacher killed in US primary school shooting

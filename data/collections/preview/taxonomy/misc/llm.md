@@ -1,7 +1,7 @@
 ---
 node: "LLM"
 layer: misc
-item_count: 69
+item_count: 71
 ---
 
 # LLM
@@ -17,6 +17,8 @@ item_count: 69
 
 ## Items
 
+- 2026-10-18 · [[2026-10-18-002-a-wave-of-homemade-synthetic-drugs-sweeps-us-and-deepens]] — A wave of homemade, synthetic drugs sweeps US and deepens crisis
+- 2026-10-18 · [[2026-10-18-006-step-5-preview]] — Step 5 Preview
 - 2026-10-15 · [[2026-10-15-001-anthropic-flags-revenue-surge-to-investors-ahead-of-stock]] — Anthropic flags revenue surge to investors ahead of stock market debut
 - 2026-10-15 · [[2026-10-15-006-make0-brain]] — Make0 Brain
 - 2026-10-14 · [[2026-10-14-004-muse-wonder]] — Muse Wonder

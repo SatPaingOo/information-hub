@@ -8373,6 +8373,121 @@
       "name": "security policy"
     },
     {
+      "id": "info:item:world:global:2026-10-18-002",
+      "type": "item",
+      "date": "2026-10-18",
+      "title": "A wave of homemade, synthetic drugs sweeps US and deepens crisis"
+    },
+    {
+      "id": "info:entity:person:Mike",
+      "type": "person",
+      "name": "Mike"
+    },
+    {
+      "id": "info:entity:organization:Hope Dealer Community",
+      "type": "organization",
+      "name": "Hope Dealer Community"
+    },
+    {
+      "id": "info:entity:organization:Centers for Disease Control and Prevention (CDC)",
+      "type": "organization",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    {
+      "id": "info:item:world:global:2026-10-18-003",
+      "type": "item",
+      "date": "2026-10-18",
+      "title": "European diplomats attacked by Israeli settlers in West Bank"
+    },
+    {
+      "id": "info:entity:person:Gideon Sa'ar",
+      "type": "person",
+      "name": "Gideon Sa'ar"
+    },
+    {
+      "id": "taxonomy/misc/Israel",
+      "type": "taxonomy",
+      "name": "Israel"
+    },
+    {
+      "id": "info:item:politics:global:2026-10-18-004",
+      "type": "item",
+      "date": "2026-10-18",
+      "title": "Burnham invites Swinney to work together on 'deeper Scottish devolution'"
+    },
+    {
+      "id": "info:entity:person:John Swinney",
+      "type": "person",
+      "name": "John Swinney"
+    },
+    {
+      "id": "info:entity:organization:Scottish National Party (SNP)",
+      "type": "organization",
+      "name": "Scottish National Party (SNP)"
+    },
+    {
+      "id": "info:entity:organization:Department for Work and Pensions (DWP)",
+      "type": "organization",
+      "name": "Department for Work and Pensions (DWP)"
+    },
+    {
+      "id": "taxonomy/misc/regional_devolution",
+      "type": "taxonomy",
+      "name": "regional_devolution"
+    },
+    {
+      "id": "taxonomy/misc/scotland_policy",
+      "type": "taxonomy",
+      "name": "scotland_policy"
+    },
+    {
+      "id": "taxonomy/misc/uk_governance",
+      "type": "taxonomy",
+      "name": "uk_governance"
+    },
+    {
+      "id": "info:item:politics:global:2026-10-18-005",
+      "type": "item",
+      "date": "2026-10-18",
+      "title": "Police assess Palestine Action post by national security adviser's wife"
+    },
+    {
+      "id": "info:entity:person:Sarah Helm",
+      "type": "person",
+      "name": "Sarah Helm"
+    },
+    {
+      "id": "info:entity:person:Jonathan Powell",
+      "type": "person",
+      "name": "Jonathan Powell"
+    },
+    {
+      "id": "info:entity:organization:Palestine Action",
+      "type": "organization",
+      "name": "Palestine Action"
+    },
+    {
+      "id": "info:entity:person:Sally Rooney",
+      "type": "person",
+      "name": "Sally Rooney"
+    },
+    {
+      "id": "taxonomy/misc/terrorism",
+      "type": "taxonomy",
+      "name": "terrorism"
+    },
+    {
+      "id": "info:item:products:global:2026-10-18-006",
+      "type": "item",
+      "date": "2026-10-18",
+      "title": "Step 5 Preview"
+    },
+    {
+      "id": "info:entity:product:Step 3.5 Flash",
+      "type": "product",
+      "name": "Step 3.5 Flash"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -36281,6 +36396,321 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-10-18-002",
+      "target": "info:entity:person:Mike",
+      "relation": "opioid user featured in field reporting"
+    },
+    {
+      "source": "info:item:world:global:2026-10-18-002",
+      "target": "info:entity:organization:Hope Dealer Community",
+      "relation": "recovery group operating in Columbus"
+    },
+    {
+      "source": "info:item:world:global:2026-10-18-002",
+      "target": "info:entity:organization:Centers for Disease Control and Prevention (CDC)",
+      "relation": "partner in drug‑sampling and surveillance"
+    },
+    {
+      "source": "info:item:world:global:2026-10-18-002",
+      "target": "info:entity:company:OpenAI",
+      "relation": "AI provider supporting forensic analytics"
+    },
+    {
+      "source": "info:item:world:global:2026-10-18-002",
+      "target": "info:entity:model:Gemini",
+      "relation": "LLM used in predictive drug‑synthesis analysis"
+    },
+    {
+      "source": "info:item:world:global:2026-10-18-002",
+      "target": "info:entity:company:Anthropic",
+      "relation": "AI developer contributing agentic AI tools for law‑enforcement support"
+    },
+    {
+      "source": "info:item:world:global:2026-10-18-002",
+      "target": "info:item:world:global:2026-10-17-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-18-002",
+      "target": "info:item:world:global:2026-10-17-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-18-002",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-18-002",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-18-002",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-18-002",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-18-002",
+      "target": "taxonomy/misc/Agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-18-002",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-18-002",
+      "target": "taxonomy/misc/Myanmar",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-18-003",
+      "target": "info:entity:person:Benjamin Netanyahu",
+      "relation": "Prime Minister of Israel"
+    },
+    {
+      "source": "info:item:world:global:2026-10-18-003",
+      "target": "info:entity:person:Gideon Sa'ar",
+      "relation": "Israel's Foreign Minister"
+    },
+    {
+      "source": "info:item:world:global:2026-10-18-003",
+      "target": "info:entity:company:OpenAI",
+      "relation": "AI firm referenced for conflict‑monitoring technology partnerships"
+    },
+    {
+      "source": "info:item:world:global:2026-10-18-003",
+      "target": "info:item:world:global:2026-10-18-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-18-003",
+      "target": "info:item:world:global:2026-10-17-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-18-003",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-18-003",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-18-003",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-18-003",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-18-003",
+      "target": "taxonomy/misc/West Bank",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-18-003",
+      "target": "taxonomy/misc/Israel",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-18-003",
+      "target": "taxonomy/misc/European Union",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-18-004",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "UK Prime Minister proposing deeper devolution"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-18-004",
+      "target": "info:entity:person:John Swinney",
+      "relation": "Scottish First Minister invited to collaborate"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-18-004",
+      "target": "info:entity:organization:Scottish National Party (SNP)",
+      "relation": "governing party in Scotland"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-18-004",
+      "target": "info:entity:organization:Department for Work and Pensions (DWP)",
+      "relation": "source of proposed devolved powers"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-18-004",
+      "target": "info:item:politics:global:2026-10-17-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-18-004",
+      "target": "info:item:politics:global:2026-10-16-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-18-004",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-18-004",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-18-004",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-18-004",
+      "target": "taxonomy/misc/regional_devolution",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-18-004",
+      "target": "taxonomy/misc/scotland_policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-18-004",
+      "target": "taxonomy/misc/uk_governance",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-18-005",
+      "target": "info:entity:person:Sarah Helm",
+      "relation": "author and spouse of national security adviser; posted X reference to Palestine Action"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-18-005",
+      "target": "info:entity:person:Jonathan Powell",
+      "relation": "UK national security adviser; husband of Sarah Helm"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-18-005",
+      "target": "info:entity:organization:Palestine Action",
+      "relation": "proscribed terrorist group referenced in the X post"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-18-005",
+      "target": "info:entity:person:Sally Rooney",
+      "relation": "author whose books were withdrawn after she pledged royalties to Palestine Action"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-18-005",
+      "target": "info:item:politics:global:2026-10-18-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-18-005",
+      "target": "info:item:politics:global:2026-10-17-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-18-005",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-18-005",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-18-005",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-18-005",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-18-005",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-18-005",
+      "target": "taxonomy/misc/terrorism",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-10-18-006",
+      "target": "info:entity:product:Step 3.5 Flash",
+      "relation": "core product under development"
+    },
+    {
+      "source": "info:item:products:global:2026-10-18-006",
+      "target": "info:entity:company:OpenAI",
+      "relation": "key competitor in the LLM space"
+    },
+    {
+      "source": "info:item:products:global:2026-10-18-006",
+      "target": "info:entity:model:Gemini 3.8",
+      "relation": "benchmark reference for performance comparison"
+    },
+    {
+      "source": "info:item:products:global:2026-10-18-006",
+      "target": "info:entity:company:Anthropic",
+      "relation": "another major LLM provider"
+    },
+    {
+      "source": "info:item:products:global:2026-10-18-006",
+      "target": "info:item:products:global:2026-10-15-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-10-18-006",
+      "target": "info:item:products:global:2026-10-14-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-10-18-006",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-10-18-006",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-10-18-006",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-10-18-006",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-10-18-006",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-10-18-006",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -36550,7 +36980,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
-      "weight": "67"
+      "weight": "69"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -36736,7 +37166,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "26"
+      "weight": "27"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -36748,7 +37178,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:model:Gemini 3.8",
       "relation": "co-occurs",
-      "weight": "5"
+      "weight": "6"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -36818,6 +37248,12 @@
     },
     {
       "source": "info:entity:company:Anthropic",
+      "target": "info:entity:organization:Centers for Disease Control and Prevention (CDC)",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
       "target": "info:entity:organization:Green Party of England and Wales",
       "relation": "co-occurs",
       "weight": "1"
@@ -36825,6 +37261,12 @@
     {
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:organization:Hamas",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:organization:Hope Dealer Community",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -36969,6 +37411,12 @@
     {
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:person:Judge Rita Lin",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:person:Mike",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -37137,6 +37585,12 @@
     {
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:product:Relaticle",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:product:Step 3.5 Flash",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -38350,7 +38804,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "41"
+      "weight": "42"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -38362,7 +38816,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:model:Gemini 3.8",
       "relation": "co-occurs",
-      "weight": "8"
+      "weight": "9"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -38420,6 +38874,12 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:organization:Centers for Disease Control and Prevention (CDC)",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:organization:Data Centre Alliance",
       "relation": "co-occurs",
       "weight": "1"
@@ -38469,6 +38929,12 @@
     {
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:organization:Hamas",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:organization:Hope Dealer Community",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -38660,6 +39126,12 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:person:Benjamin Netanyahu",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Brendan Boyle",
       "relation": "co-occurs",
       "weight": "1"
@@ -38756,6 +39228,12 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:person:Gideon Sa'ar",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Jacob Coxon",
       "relation": "co-occurs",
       "weight": "2"
@@ -38805,6 +39283,12 @@
     {
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Mick Mulvaney",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:person:Mike",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -38991,6 +39475,12 @@
     {
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:product:Relaticle",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:product:Step 3.5 Flash",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -41234,6 +41724,12 @@
     },
     {
       "source": "info:entity:model:Gemini",
+      "target": "info:entity:organization:Centers for Disease Control and Prevention (CDC)",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
       "target": "info:entity:organization:European Commission",
       "relation": "co-occurs",
       "weight": "1"
@@ -41259,6 +41755,12 @@
     {
       "source": "info:entity:model:Gemini",
       "target": "info:entity:organization:Green Party of England and Wales",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
+      "target": "info:entity:organization:Hope Dealer Community",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -41480,6 +41982,12 @@
     },
     {
       "source": "info:entity:model:Gemini",
+      "target": "info:entity:person:Mike",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
       "target": "info:entity:person:Mothin Ali",
       "relation": "co-occurs",
       "weight": "1"
@@ -41661,6 +42169,12 @@
     {
       "source": "info:entity:model:Gemini 3.8",
       "target": "info:entity:product:Muse Wonder",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini 3.8",
+      "target": "info:entity:product:Step 3.5 Flash",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -42637,6 +43151,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Centers for Disease Control and Prevention (CDC)",
+      "target": "info:entity:organization:Hope Dealer Community",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Centers for Disease Control and Prevention (CDC)",
+      "target": "info:entity:person:Mike",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Channel 4",
       "target": "info:entity:organization:Electoral Commission",
       "relation": "co-occurs",
@@ -43071,6 +43597,24 @@
     {
       "source": "info:entity:organization:Department for Transport",
       "target": "info:entity:person:Andy Burnham",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Department for Work and Pensions (DWP)",
+      "target": "info:entity:organization:Scottish National Party (SNP)",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Department for Work and Pensions (DWP)",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Department for Work and Pensions (DWP)",
+      "target": "info:entity:person:John Swinney",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -44139,6 +44683,12 @@
     {
       "source": "info:entity:organization:Hong Kong Alliance (HKA)",
       "target": "info:entity:person:Lee Cheuk‑yan",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Hope Dealer Community",
+      "target": "info:entity:person:Mike",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -45763,6 +46313,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Palestine Action",
+      "target": "info:entity:person:Jonathan Powell",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Palestine Action",
+      "target": "info:entity:person:Sally Rooney",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Palestine Action",
+      "target": "info:entity:person:Sarah Helm",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Pentagon Office of Inspector General",
       "target": "info:entity:organization:U.S. Central Command (CENTCOM)",
       "relation": "co-occurs",
@@ -46197,6 +46765,18 @@
     {
       "source": "info:entity:organization:Scope",
       "target": "info:entity:person:Andy Burnham",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Scottish National Party (SNP)",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Scottish National Party (SNP)",
+      "target": "info:entity:person:John Swinney",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -47606,6 +48186,12 @@
     },
     {
       "source": "info:entity:person:Andy Burnham",
+      "target": "info:entity:person:John Swinney",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Andy Burnham",
       "target": "info:entity:person:Keir Starmer",
       "relation": "co-occurs",
       "weight": "9"
@@ -47963,6 +48549,12 @@
       "target": "info:entity:person:Captain Smit Machchhar",
       "relation": "co-occurs",
       "weight": "4"
+    },
+    {
+      "source": "info:entity:person:Benjamin Netanyahu",
+      "target": "info:entity:person:Gideon Sa'ar",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:person:Benjamin Netanyahu",
@@ -49225,6 +49817,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:person:Jonathan Powell",
+      "target": "info:entity:person:Sally Rooney",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Jonathan Powell",
+      "target": "info:entity:person:Sarah Helm",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:person:Jordan Bardella",
       "target": "info:entity:person:Nigel Farage",
       "relation": "co-occurs",
@@ -49653,6 +50257,12 @@
     {
       "source": "info:entity:person:Rishi Sunak",
       "target": "info:entity:region:Greater Manchester",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Sally Rooney",
+      "target": "info:entity:person:Sarah Helm",
       "relation": "co-occurs",
       "weight": "1"
     },
