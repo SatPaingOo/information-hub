@@ -12,3 +12,11 @@
 2026-10-18 05:44:52,973 ERROR [products] generate error: HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
 
 2026-10-18 05:45:02,439 INFO collect done: 5 item(s) published — target 5/10, next run ≈ 2026-10-19T01:00:00+00:00 UTC
+2026-10-18 09:57:28,469 INFO [world-news] published 2026-10-18-007 — Violent clashes, looting and buildings ablaze in France as m
+2026-10-18 09:57:28,668 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7968, Requested 6591. Please try again in 49.1925s. Need more tokens? Upgrade to Dev Tier today at https://co
+2026-10-18 09:57:31,670 WARNING [world-news] no collect provider for deep-dive
+2026-10-18 09:57:31,784 WARNING [world-news] no collect provider for deep-dive
+2026-10-18 09:57:32,670 WARNING [tech-news] no collect provider available
+2026-10-18 09:57:33,076 WARNING [politics] no collect provider available
+2026-10-18 09:57:34,075 WARNING [products] no collect provider available
+2026-10-18 09:57:34,665 INFO collect done: 1 item(s) published — target 4/10, next run ≈ 2026-10-19T01:00:00+00:00 UTC

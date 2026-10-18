@@ -1,7 +1,7 @@
 ---
 name: "Sébastien Lecornu"
 entity_type: person
-backlink_count: 2
+backlink_count: 3
 ---
 
 # Sébastien Lecornu
@@ -10,5 +10,6 @@ backlink_count: 2
 
 ## Referenced by
 
+- 2026-10-18 · [[2026-10-18-007-violent-clashes-looting-and-buildings-ablaze-in-france-as]] — Violent clashes, looting and buildings ablaze in France as more than 1,200 arrested after protests
 - 2026-10-07 · [[2026-10-07-001-tear-gas-in-paris-and-marseille-as-school-protests-grow]] — Tear gas in Paris and Marseille as school protests grow across France
 - 2026-10-06 · [[2026-10-06-002-france-braces-for-national-day-of-school-protests-after]] — France braces for national day of school protests after injuries and mass arrests

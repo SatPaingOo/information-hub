@@ -8488,6 +8488,22 @@
       "name": "Step 3.5 Flash"
     },
     {
+      "id": "info:item:world:global:2026-10-18-007",
+      "type": "item",
+      "date": "2026-10-18",
+      "title": "Violent clashes, looting and buildings ablaze in France as more than 1,200 arrested after protests"
+    },
+    {
+      "id": "taxonomy/misc/social unrest",
+      "type": "taxonomy",
+      "name": "social unrest"
+    },
+    {
+      "id": "taxonomy/misc/French domestic policy",
+      "type": "taxonomy",
+      "name": "French domestic policy"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -36711,6 +36727,81 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-10-18-007",
+      "target": "info:entity:person:Emmanuel Macron",
+      "relation": "incumbent president (out of office in 2027)"
+    },
+    {
+      "source": "info:item:world:global:2026-10-18-007",
+      "target": "info:entity:person:Marine Le Pen",
+      "relation": "leader of National Rally, presidential candidate"
+    },
+    {
+      "source": "info:item:world:global:2026-10-18-007",
+      "target": "info:entity:person:Jean‑Luc Mélenchon",
+      "relation": "leader of La France Insoumise, presidential candidate"
+    },
+    {
+      "source": "info:item:world:global:2026-10-18-007",
+      "target": "info:entity:person:Sébastien Lecornu",
+      "relation": "French interior minister, overseeing police response"
+    },
+    {
+      "source": "info:item:world:global:2026-10-18-007",
+      "target": "info:entity:organization:National Rally (RN)",
+      "relation": "right‑wing political party"
+    },
+    {
+      "source": "info:item:world:global:2026-10-18-007",
+      "target": "info:entity:organization:La France Insoumise (LFI)",
+      "relation": "left‑wing political party"
+    },
+    {
+      "source": "info:item:world:global:2026-10-18-007",
+      "target": "info:item:world:global:2026-10-18-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-18-007",
+      "target": "info:item:world:global:2026-10-18-003",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-18-007",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-18-007",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-18-007",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-18-007",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-18-007",
+      "target": "taxonomy/misc/social unrest",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-18-007",
+      "target": "taxonomy/misc/French domestic policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-18-007",
+      "target": "taxonomy/misc/election cycles",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -45264,7 +45355,19 @@
     },
     {
       "source": "info:entity:organization:La France Insoumise (LFI)",
+      "target": "info:entity:organization:National Rally (RN)",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:La France Insoumise (LFI)",
       "target": "info:entity:organization:Union Syndicale Lycène (USL)",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:La France Insoumise (LFI)",
+      "target": "info:entity:person:Emmanuel Macron",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -45276,9 +45379,21 @@
     },
     {
       "source": "info:entity:organization:La France Insoumise (LFI)",
-      "target": "info:entity:person:Sébastien Lecornu",
+      "target": "info:entity:person:Jean‑Luc Mélenchon",
       "relation": "co-occurs",
       "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:La France Insoumise (LFI)",
+      "target": "info:entity:person:Marine Le Pen",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:La France Insoumise (LFI)",
+      "target": "info:entity:person:Sébastien Lecornu",
+      "relation": "co-occurs",
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Labour Party",
@@ -45978,13 +46093,37 @@
     },
     {
       "source": "info:entity:organization:National Rally (RN)",
+      "target": "info:entity:person:Emmanuel Macron",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:National Rally (RN)",
+      "target": "info:entity:person:Jean‑Luc Mélenchon",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:National Rally (RN)",
       "target": "info:entity:person:Jordan Bardella",
       "relation": "co-occurs",
       "weight": "1"
     },
     {
       "source": "info:entity:organization:National Rally (RN)",
+      "target": "info:entity:person:Marine Le Pen",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:National Rally (RN)",
       "target": "info:entity:person:Nigel Farage",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:National Rally (RN)",
+      "target": "info:entity:person:Sébastien Lecornu",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -49386,9 +49525,15 @@
     },
     {
       "source": "info:entity:person:Emmanuel Macron",
+      "target": "info:entity:person:Jean‑Luc Mélenchon",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Emmanuel Macron",
       "target": "info:entity:person:Marine Le Pen",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:person:Emmanuel Macron",
@@ -49405,6 +49550,12 @@
     {
       "source": "info:entity:person:Emmanuel Macron",
       "target": "info:entity:person:Robert Schuman",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Emmanuel Macron",
+      "target": "info:entity:person:Sébastien Lecornu",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -49704,9 +49855,15 @@
     },
     {
       "source": "info:entity:person:Jean‑Luc Mélenchon",
-      "target": "info:entity:person:Sébastien Lecornu",
+      "target": "info:entity:person:Marine Le Pen",
       "relation": "co-occurs",
       "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Jean‑Luc Mélenchon",
+      "target": "info:entity:person:Sébastien Lecornu",
+      "relation": "co-occurs",
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Jeffrey Archer",
@@ -50113,6 +50270,12 @@
     {
       "source": "info:entity:person:Marine Le Pen",
       "target": "info:entity:person:Robert Schuman",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Marine Le Pen",
+      "target": "info:entity:person:Sébastien Lecornu",
       "relation": "co-occurs",
       "weight": "1"
     },
