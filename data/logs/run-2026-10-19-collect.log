@@ -1,0 +1,13 @@
+2026-10-19 01:52:17,959 INFO [world-news] attempt 1 invalid: ['body word count 370 < minimum 500']
+2026-10-19 01:53:13,102 INFO [world-news] published 2026-10-19-001 — Macron calls for 'calm and order' after riots across France
+2026-10-19 01:54:00,771 INFO [world-news] published 2026-10-19-002 — 'Very upsetting': Residents in shock after historic French t
+2026-10-19 01:55:26,341 INFO [world-news] published 2026-10-19-003 — Major fire at Canada military base leaves four dead, dozens 
+2026-10-19 01:55:30,853 INFO [tech-news] nothing selected
+2026-10-19 01:56:36,830 INFO [politics] published 2026-10-19-004 — Polanski says he will not overturn Green Party's 'Zionism is
+2026-10-19 01:57:45,271 INFO [politics] published 2026-10-19-005 — Ending corridor care in hospitals for children a priority, s
+2026-10-19 01:57:52,962 INFO [products] attempt 1 invalid: [": 'tags' is a required property", ": 'related_items' is a required property"]
+2026-10-19 01:57:53,100 ERROR [products] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7791, Requested 5387. Please try again in 38.835s. Need more tokens? Upgrade to Dev Tier today at https://con
+2026-10-19 01:58:01,812 ERROR [products] generate error: HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
+
+2026-10-19 01:58:10,913 WARNING [products] no collect provider for deep-dive
+2026-10-19 01:58:11,463 INFO collect done: 5 item(s) published — target 5/10, next run ≈ 2026-10-20T01:00:00+00:00 UTC

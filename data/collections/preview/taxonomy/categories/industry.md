@@ -1,7 +1,7 @@
 ---
 node: "industry"
 layer: category
-item_count: 277
+item_count: 282
 ---
 
 # industry
@@ -21,6 +21,11 @@ item_count: 277
 
 ## Items
 
+- 2026-10-19 · [[2026-10-19-001-macron-calls-for-calm-and-order-after-riots-across-france]] — Macron calls for 'calm and order' after riots across France
+- 2026-10-19 · [[2026-10-19-001-macron-calls-for-calm-and-order-after-riots-across-france]] — Macron calls for 'calm and order' after riots across France
+- 2026-10-19 · [[2026-10-19-002-very-upsetting-residents-in-shock-after-historic-french]] — 'Very upsetting': Residents in shock after historic French town hall set alight
+- 2026-10-19 · [[2026-10-19-002-very-upsetting-residents-in-shock-after-historic-french]] — 'Very upsetting': Residents in shock after historic French town hall set alight
+- 2026-10-19 · [[2026-10-19-003-major-fire-at-canada-military-base-leaves-four-dead-dozens]] — Major fire at Canada military base leaves four dead, dozens injured
 - 2026-10-18 · [[2026-10-18-002-a-wave-of-homemade-synthetic-drugs-sweeps-us-and-deepens]] — A wave of homemade, synthetic drugs sweeps US and deepens crisis
 - 2026-10-18 · [[2026-10-18-003-european-diplomats-attacked-by-israeli-settlers-in-west-bank]] — European diplomats attacked by Israeli settlers in West Bank
 - 2026-10-18 · [[2026-10-18-007-violent-clashes-looting-and-buildings-ablaze-in-france-as]] — Violent clashes, looting and buildings ablaze in France as more than 1,200 arrested after protests

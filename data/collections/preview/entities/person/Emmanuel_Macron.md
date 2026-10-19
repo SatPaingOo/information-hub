@@ -1,7 +1,7 @@
 ---
 name: "Emmanuel Macron"
 entity_type: person
-backlink_count: 8
+backlink_count: 10
 ---
 
 # Emmanuel Macron
@@ -10,6 +10,8 @@ backlink_count: 8
 
 ## Referenced by
 
+- 2026-10-19 · [[2026-10-19-001-macron-calls-for-calm-and-order-after-riots-across-france]] — Macron calls for 'calm and order' after riots across France
+- 2026-10-19 · [[2026-10-19-002-very-upsetting-residents-in-shock-after-historic-french]] — 'Very upsetting': Residents in shock after historic French town hall set alight
 - 2026-10-18 · [[2026-10-18-007-violent-clashes-looting-and-buildings-ablaze-in-france-as]] — Violent clashes, looting and buildings ablaze in France as more than 1,200 arrested after protests
 - 2026-10-03 · [[2026-10-03-001-g7-to-release-millions-of-barrels-of-oil-and-diesel-after]] — G7 to release millions of barrels of oil and diesel after Trump threat
 - 2026-09-27 · [[2026-09-27-001-pope-praises-young-people-s-energy-and-commitment-at-huge]] — Pope praises young people's 'energy and commitment' at huge open-air Mass in Paris

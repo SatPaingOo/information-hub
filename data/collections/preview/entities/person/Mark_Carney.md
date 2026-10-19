@@ -1,7 +1,7 @@
 ---
 name: "Mark Carney"
 entity_type: person
-backlink_count: 9
+backlink_count: 10
 ---
 
 # Mark Carney
@@ -10,6 +10,7 @@ backlink_count: 9
 
 ## Referenced by
 
+- 2026-10-19 · [[2026-10-19-003-major-fire-at-canada-military-base-leaves-four-dead-dozens]] — Major fire at Canada military base leaves four dead, dozens injured
 - 2026-09-18 · [[2026-09-18-001-canada-welcomes-eu-proposal-to-become-associate-member]] — Canada welcomes EU proposal to become 'associate member'
 - 2026-09-16 · [[2026-09-16-004-uk-in-talks-about-joining-global-defence-bank-led-by-canada]] — UK in talks about joining global defence bank led by Canada
 - 2026-09-09 · [[2026-09-09-003-us-slaps-import-ban-on-canadian-alcohol-and-other-goods]] — US slaps import ban on Canadian alcohol and other goods

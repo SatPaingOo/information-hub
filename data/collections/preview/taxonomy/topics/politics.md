@@ -1,7 +1,7 @@
 ---
 node: "politics"
 layer: topic
-item_count: 151
+item_count: 153
 ---
 
 # politics
@@ -17,6 +17,8 @@ item_count: 151
 
 ## Items
 
+- 2026-10-19 · [[2026-10-19-004-polanski-says-he-will-not-overturn-green-party-s-zionism]] — Polanski says he will not overturn Green Party's 'Zionism is racism' motion
+- 2026-10-19 · [[2026-10-19-005-ending-corridor-care-in-hospitals-for-children-a-priority]] — Ending corridor care in hospitals for children a priority, says health secretary
 - 2026-10-18 · [[2026-10-18-004-burnham-invites-swinney-to-work-together-on-deeper]] — Burnham invites Swinney to work together on 'deeper Scottish devolution'
 - 2026-10-18 · [[2026-10-18-005-police-assess-palestine-action-post-by-national-security]] — Police assess Palestine Action post by national security adviser's wife
 - 2026-10-17 · [[2026-10-17-006-ex-top-official-robbins-reaches-settlement-with-government]] — Ex-top official Robbins reaches settlement with government over sacking

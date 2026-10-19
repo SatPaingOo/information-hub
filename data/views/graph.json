@@ -8504,6 +8504,81 @@
       "name": "French domestic policy"
     },
     {
+      "id": "info:item:world:global:2026-10-19-001",
+      "type": "item",
+      "date": "2026-10-19",
+      "title": "Macron calls for 'calm and order' after riots across France"
+    },
+    {
+      "id": "info:item:world:global:2026-10-19-002",
+      "type": "item",
+      "date": "2026-10-19",
+      "title": "'Very upsetting': Residents in shock after historic French town hall set alight"
+    },
+    {
+      "id": "info:item:world:global:2026-10-19-003",
+      "type": "item",
+      "date": "2026-10-19",
+      "title": "Major fire at Canada military base leaves four dead, dozens injured"
+    },
+    {
+      "id": "info:entity:organization:Canadian Armed Forces",
+      "type": "organization",
+      "name": "Canadian Armed Forces"
+    },
+    {
+      "id": "info:entity:person:Danielle Smith",
+      "type": "person",
+      "name": "Danielle Smith"
+    },
+    {
+      "id": "info:entity:person:Bruce Pugh",
+      "type": "person",
+      "name": "Bruce Pugh"
+    },
+    {
+      "id": "taxonomy/misc/military training",
+      "type": "taxonomy",
+      "name": "military training"
+    },
+    {
+      "id": "info:item:politics:global:2026-10-19-004",
+      "type": "item",
+      "date": "2026-10-19",
+      "title": "Polanski says he will not overturn Green Party's 'Zionism is racism' motion"
+    },
+    {
+      "id": "info:item:politics:global:2026-10-19-005",
+      "type": "item",
+      "date": "2026-10-19",
+      "title": "Ending corridor care in hospitals for children a priority, says health secretary"
+    },
+    {
+      "id": "info:entity:organization:NHS England",
+      "type": "organization",
+      "name": "NHS England"
+    },
+    {
+      "id": "info:entity:person:Finlay Roberts",
+      "type": "person",
+      "name": "Finlay Roberts"
+    },
+    {
+      "id": "info:entity:organization:Royal College of Nursing (RCN)",
+      "type": "organization",
+      "name": "Royal College of Nursing (RCN)"
+    },
+    {
+      "id": "taxonomy/misc/child healthcare",
+      "type": "taxonomy",
+      "name": "child healthcare"
+    },
+    {
+      "id": "taxonomy/misc/NHS capacity",
+      "type": "taxonomy",
+      "name": "NHS capacity"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -36802,6 +36877,311 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-10-19-001",
+      "target": "info:entity:person:Emmanuel Macron",
+      "relation": "President of France, called for calm and order"
+    },
+    {
+      "source": "info:item:world:global:2026-10-19-001",
+      "target": "info:entity:company:OpenAI",
+      "relation": "AI firm with growing involvement in public‑safety analytics"
+    },
+    {
+      "source": "info:item:world:global:2026-10-19-001",
+      "target": "info:entity:model:Gemini",
+      "relation": "AI model referenced in discussions of crowd‑monitoring technology"
+    },
+    {
+      "source": "info:item:world:global:2026-10-19-001",
+      "target": "info:entity:person:Marine Le Pen",
+      "relation": "Leader of National Rally, political commentator on the unrest"
+    },
+    {
+      "source": "info:item:world:global:2026-10-19-001",
+      "target": "info:item:world:global:2026-10-18-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-19-001",
+      "target": "info:item:world:global:2026-10-18-003",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-19-001",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-19-001",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-19-001",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-19-001",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-19-001",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-19-001",
+      "target": "taxonomy/category/industry",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-19-001",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-19-002",
+      "target": "info:entity:person:Emmanuel Macron",
+      "relation": "President of France overseeing response to the arson and nationwide protests"
+    },
+    {
+      "source": "info:item:world:global:2026-10-19-002",
+      "target": "info:entity:organization:National Rally (RN)",
+      "relation": "Opposition party whose supporters have been involved in some protest actions"
+    },
+    {
+      "source": "info:item:world:global:2026-10-19-002",
+      "target": "info:item:world:global:2026-10-19-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-19-002",
+      "target": "info:item:world:global:2026-10-18-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-19-002",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-19-002",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-19-002",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-19-002",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-19-002",
+      "target": "taxonomy/topic/world",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-19-002",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-19-002",
+      "target": "taxonomy/category/industry",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-19-003",
+      "target": "info:entity:person:Mark Carney",
+      "relation": "Prime Minister of Canada, addressed the nation on the tragedy"
+    },
+    {
+      "source": "info:item:world:global:2026-10-19-003",
+      "target": "info:entity:organization:Canadian Armed Forces",
+      "relation": "entity involved in the response and investigation"
+    },
+    {
+      "source": "info:item:world:global:2026-10-19-003",
+      "target": "info:entity:person:Danielle Smith",
+      "relation": "Premier of Alberta, briefed on casualty figures"
+    },
+    {
+      "source": "info:item:world:global:2026-10-19-003",
+      "target": "info:entity:person:Bruce Pugh",
+      "relation": "Mayor of Wainwright, provided updates on the fire response"
+    },
+    {
+      "source": "info:item:world:global:2026-10-19-003",
+      "target": "info:item:world:global:2026-10-19-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-19-003",
+      "target": "info:item:world:global:2026-10-19-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-19-003",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-19-003",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-19-003",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-19-003",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-19-003",
+      "target": "taxonomy/misc/global security",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-19-003",
+      "target": "taxonomy/misc/military training",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-19-003",
+      "target": "taxonomy/misc/disaster response",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-19-004",
+      "target": "info:entity:person:Zack Polanski",
+      "relation": "leader of the Green Party of England and Wales"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-19-004",
+      "target": "info:entity:organization:Green Party of England and Wales",
+      "relation": "party that passed the motion"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-19-004",
+      "target": "info:entity:person:Vivien Lichtenstein",
+      "relation": "chair of Jewish Greens, called for apology"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-19-004",
+      "target": "info:entity:organization:Board of Deputies of British Jews",
+      "relation": "criticised the motion as erasing Jewish identity"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-19-004",
+      "target": "info:item:politics:global:2026-10-18-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-19-004",
+      "target": "info:item:politics:global:2026-10-17-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-19-004",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-19-004",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-19-004",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-19-004",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-19-004",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-19-004",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-19-005",
+      "target": "info:entity:person:Yvette Cooper",
+      "relation": "Health Secretary announcing paediatric corridor‑care reforms"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-19-005",
+      "target": "info:entity:organization:NHS England",
+      "relation": "responsible for implementing corridor‑care plans and receiving funding"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-19-005",
+      "target": "info:entity:person:Finlay Roberts",
+      "relation": "child whose death highlighted corridor‑care issues"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-19-005",
+      "target": "info:entity:organization:Royal College of Nursing (RCN)",
+      "relation": "critic of current NHS capacity and funding approach"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-19-005",
+      "target": "info:item:politics:global:2026-10-19-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-19-005",
+      "target": "info:item:politics:global:2026-10-18-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-19-005",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-19-005",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-19-005",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-19-005",
+      "target": "taxonomy/misc/health policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-19-005",
+      "target": "taxonomy/misc/child healthcare",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-19-005",
+      "target": "taxonomy/misc/NHS capacity",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -38895,7 +39275,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "42"
+      "weight": "43"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -39297,7 +39677,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Emmanuel Macron",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -39369,7 +39749,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Marine Le Pen",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -41973,7 +42353,7 @@
       "source": "info:entity:model:Gemini",
       "target": "info:entity:person:Emmanuel Macron",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:model:Gemini",
@@ -42057,7 +42437,7 @@
       "source": "info:entity:model:Gemini",
       "target": "info:entity:person:Marine Le Pen",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:model:Gemini",
@@ -42981,7 +43361,7 @@
       "source": "info:entity:organization:Board of Deputies of British Jews",
       "target": "info:entity:organization:Green Party of England and Wales",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:organization:Board of Deputies of British Jews",
@@ -43003,9 +43383,15 @@
     },
     {
       "source": "info:entity:organization:Board of Deputies of British Jews",
+      "target": "info:entity:person:Vivien Lichtenstein",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Board of Deputies of British Jews",
       "target": "info:entity:person:Zack Polanski",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:organization:British Museum",
@@ -43160,6 +43546,24 @@
     {
       "source": "info:entity:organization:Campaign Against Antisemitism",
       "target": "info:entity:person:Zack Polanski",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Canadian Armed Forces",
+      "target": "info:entity:person:Bruce Pugh",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Canadian Armed Forces",
+      "target": "info:entity:person:Danielle Smith",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Canadian Armed Forces",
+      "target": "info:entity:person:Mark Carney",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -44607,13 +45011,13 @@
       "source": "info:entity:organization:Green Party of England and Wales",
       "target": "info:entity:person:Vivien Lichtenstein",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Green Party of England and Wales",
       "target": "info:entity:person:Zack Polanski",
       "relation": "co-occurs",
-      "weight": "8"
+      "weight": "9"
     },
     {
       "source": "info:entity:organization:Green Party of England and Wales",
@@ -45990,6 +46394,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:NHS England",
+      "target": "info:entity:organization:Royal College of Nursing (RCN)",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:NHS England",
+      "target": "info:entity:person:Finlay Roberts",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:NHS England",
+      "target": "info:entity:person:Yvette Cooper",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:NSPCC",
       "target": "info:entity:organization:Open Rights Group",
       "relation": "co-occurs",
@@ -46095,7 +46517,7 @@
       "source": "info:entity:organization:National Rally (RN)",
       "target": "info:entity:person:Emmanuel Macron",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:National Rally (RN)",
@@ -46796,6 +47218,18 @@
     {
       "source": "info:entity:organization:Royal Air Force (RAF)",
       "target": "info:entity:person:Andy Burnham",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Royal College of Nursing (RCN)",
+      "target": "info:entity:person:Finlay Roberts",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Royal College of Nursing (RCN)",
+      "target": "info:entity:person:Yvette Cooper",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -48804,6 +49238,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:person:Bruce Pugh",
+      "target": "info:entity:person:Danielle Smith",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Bruce Pugh",
+      "target": "info:entity:person:Mark Carney",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:person:Captain Smit Machchhar",
       "target": "info:entity:person:Hamam al‑Hammami",
       "relation": "co-occurs",
@@ -49010,6 +49456,12 @@
     {
       "source": "info:entity:person:Daniel Greenberg",
       "target": "info:entity:person:Nigel Farage",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Danielle Smith",
+      "target": "info:entity:person:Mark Carney",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -49533,7 +49985,7 @@
       "source": "info:entity:person:Emmanuel Macron",
       "target": "info:entity:person:Marine Le Pen",
       "relation": "co-occurs",
-      "weight": "4"
+      "weight": "5"
     },
     {
       "source": "info:entity:person:Emmanuel Macron",
@@ -49604,6 +50056,12 @@
     {
       "source": "info:entity:person:Evan Spiegel",
       "target": "info:entity:product:Specs glasses",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Finlay Roberts",
+      "target": "info:entity:person:Yvette Cooper",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -50517,7 +50975,7 @@
       "source": "info:entity:person:Vivien Lichtenstein",
       "target": "info:entity:person:Zack Polanski",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Vladimir Putin",

@@ -1,7 +1,7 @@
 ---
 node: "global security"
 layer: misc
-item_count: 1
+item_count: 2
 ---
 
 # global security
@@ -14,4 +14,5 @@ item_count: 1
 
 ## Items
 
+- 2026-10-19 · [[2026-10-19-003-major-fire-at-canada-military-base-leaves-four-dead-dozens]] — Major fire at Canada military base leaves four dead, dozens injured
 - 2026-10-08 · [[2026-10-08-003-israelis-demand-accountability-over-7-october-failures]] — Israelis demand accountability over 7 October failures three years after attacks
