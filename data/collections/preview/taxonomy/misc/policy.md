@@ -1,7 +1,7 @@
 ---
 node: "Policy"
 layer: misc
-item_count: 350
+item_count: 351
 ---
 
 # Policy
@@ -23,6 +23,7 @@ item_count: 350
 - 2026-10-19 · [[2026-10-19-004-polanski-says-he-will-not-overturn-green-party-s-zionism]] — Polanski says he will not overturn Green Party's 'Zionism is racism' motion
 - 2026-10-19 · [[2026-10-19-005-ending-corridor-care-in-hospitals-for-children-a-priority]] — Ending corridor care in hospitals for children a priority, says health secretary
 - 2026-10-19 · [[2026-10-19-006-france-s-government-under-pressure-after-weekend-of]] — France's government under pressure after weekend of widespread violence
+- 2026-10-19 · [[2026-10-19-007-funding-shortages-force-world-food-programme-to-cut-aid-to]] — Funding shortages force World Food Programme to cut aid to Gaza
 - 2026-10-18 · [[2026-10-18-002-a-wave-of-homemade-synthetic-drugs-sweeps-us-and-deepens]] — A wave of homemade, synthetic drugs sweeps US and deepens crisis
 - 2026-10-18 · [[2026-10-18-003-european-diplomats-attacked-by-israeli-settlers-in-west-bank]] — European diplomats attacked by Israeli settlers in West Bank
 - 2026-10-18 · [[2026-10-18-004-burnham-invites-swinney-to-work-together-on-deeper]] — Burnham invites Swinney to work together on 'deeper Scottish devolution'

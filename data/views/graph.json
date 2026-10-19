@@ -8600,6 +8600,22 @@
       "name": "Security > Public Order & Policing"
     },
     {
+      "id": "info:item:world:global:2026-10-19-007",
+      "type": "item",
+      "date": "2026-10-19",
+      "title": "Funding shortages force World Food Programme to cut aid to Gaza"
+    },
+    {
+      "id": "info:entity:organization:World Food Programme",
+      "type": "organization",
+      "name": "World Food Programme"
+    },
+    {
+      "id": "info:entity:person:Shaun Hughes",
+      "type": "person",
+      "name": "Shaun Hughes"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -37268,6 +37284,71 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-10-19-007",
+      "target": "info:entity:organization:World Food Programme",
+      "relation": "operates humanitarian aid programme in Gaza"
+    },
+    {
+      "source": "info:item:world:global:2026-10-19-007",
+      "target": "info:entity:person:Shaun Hughes",
+      "relation": "WFP Palestine director"
+    },
+    {
+      "source": "info:item:world:global:2026-10-19-007",
+      "target": "info:entity:region:Gaza Strip",
+      "relation": "location of aid delivery"
+    },
+    {
+      "source": "info:item:world:global:2026-10-19-007",
+      "target": "info:entity:organization:Israeli Defence Forces",
+      "relation": "controls border crossings and imports"
+    },
+    {
+      "source": "info:item:world:global:2026-10-19-007",
+      "target": "info:item:world:global:2026-10-19-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-19-007",
+      "target": "info:item:world:global:2026-10-19-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-19-007",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-19-007",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-19-007",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-19-007",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-19-007",
+      "target": "taxonomy/topic/world",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-19-007",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-19-007",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -45707,6 +45788,12 @@
     },
     {
       "source": "info:entity:organization:Israeli Defence Forces",
+      "target": "info:entity:organization:World Food Programme",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Israeli Defence Forces",
       "target": "info:entity:person:Bassam al‑Assaf",
       "relation": "co-occurs",
       "weight": "1"
@@ -45725,7 +45812,19 @@
     },
     {
       "source": "info:entity:organization:Israeli Defence Forces",
+      "target": "info:entity:person:Shaun Hughes",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Israeli Defence Forces",
       "target": "info:entity:person:Tom Barrack",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Israeli Defence Forces",
+      "target": "info:entity:region:Gaza Strip",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -48628,6 +48727,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:World Food Programme",
+      "target": "info:entity:person:Shaun Hughes",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:World Food Programme",
+      "target": "info:entity:region:Gaza Strip",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:World Meteorological Organization",
       "target": "info:entity:person:Dr Matthias Huss",
       "relation": "co-occurs",
@@ -51006,6 +51117,12 @@
     {
       "source": "info:entity:person:Shabana Mahmood",
       "target": "info:entity:person:Stephen Lovegrove",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Shaun Hughes",
+      "target": "info:entity:region:Gaza Strip",
       "relation": "co-occurs",
       "weight": "1"
     },

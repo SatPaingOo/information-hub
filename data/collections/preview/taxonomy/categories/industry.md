@@ -1,7 +1,7 @@
 ---
 node: "industry"
 layer: category
-item_count: 283
+item_count: 284
 ---
 
 # industry
@@ -27,6 +27,7 @@ item_count: 283
 - 2026-10-19 · [[2026-10-19-002-very-upsetting-residents-in-shock-after-historic-french]] — 'Very upsetting': Residents in shock after historic French town hall set alight
 - 2026-10-19 · [[2026-10-19-003-major-fire-at-canada-military-base-leaves-four-dead-dozens]] — Major fire at Canada military base leaves four dead, dozens injured
 - 2026-10-19 · [[2026-10-19-006-france-s-government-under-pressure-after-weekend-of]] — France's government under pressure after weekend of widespread violence
+- 2026-10-19 · [[2026-10-19-007-funding-shortages-force-world-food-programme-to-cut-aid-to]] — Funding shortages force World Food Programme to cut aid to Gaza
 - 2026-10-18 · [[2026-10-18-002-a-wave-of-homemade-synthetic-drugs-sweeps-us-and-deepens]] — A wave of homemade, synthetic drugs sweeps US and deepens crisis
 - 2026-10-18 · [[2026-10-18-003-european-diplomats-attacked-by-israeli-settlers-in-west-bank]] — European diplomats attacked by Israeli settlers in West Bank
 - 2026-10-18 · [[2026-10-18-007-violent-clashes-looting-and-buildings-ablaze-in-france-as]] — Violent clashes, looting and buildings ablaze in France as more than 1,200 arrested after protests

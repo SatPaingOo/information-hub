@@ -19,3 +19,11 @@
 2026-10-19 05:56:01,982 WARNING [politics] no collect provider available
 2026-10-19 05:56:03,208 WARNING [products] no collect provider available
 2026-10-19 05:56:03,681 INFO collect done: 1 item(s) published — target 4/10, next run ≈ 2026-10-20T01:00:00+00:00 UTC
+2026-10-19 07:40:30,811 INFO [world-news] published 2026-10-19-007 — Funding shortages force World Food Programme to cut aid to G
+2026-10-19 07:40:30,977 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7973, Requested 6391. Please try again in 47.73s. Need more tokens? Upgrade to Dev Tier today at https://cons
+2026-10-19 07:40:33,979 WARNING [world-news] no collect provider for deep-dive
+2026-10-19 07:40:34,077 WARNING [world-news] no collect provider for deep-dive
+2026-10-19 07:40:34,773 WARNING [tech-news] no collect provider available
+2026-10-19 07:40:35,260 WARNING [politics] no collect provider available
+2026-10-19 07:40:36,341 WARNING [products] no collect provider available
+2026-10-19 07:40:36,717 INFO collect done: 1 item(s) published — target 3/10, next run ≈ 2026-10-20T01:00:00+00:00 UTC

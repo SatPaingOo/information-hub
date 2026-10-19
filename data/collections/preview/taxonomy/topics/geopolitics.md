@@ -1,7 +1,7 @@
 ---
 node: "geopolitics"
 layer: topic
-item_count: 108
+item_count: 109
 ---
 
 # geopolitics
@@ -25,6 +25,7 @@ item_count: 108
 ## Items
 
 - 2026-10-19 · [[2026-10-19-004-polanski-says-he-will-not-overturn-green-party-s-zionism]] — Polanski says he will not overturn Green Party's 'Zionism is racism' motion
+- 2026-10-19 · [[2026-10-19-007-funding-shortages-force-world-food-programme-to-cut-aid-to]] — Funding shortages force World Food Programme to cut aid to Gaza
 - 2026-10-18 · [[2026-10-18-005-police-assess-palestine-action-post-by-national-security]] — Police assess Palestine Action post by national security adviser's wife
 - 2026-10-17 · [[2026-10-17-003-trump-waives-several-russia-sanctions-as-new-us-law-takes]] — Trump waives several Russia sanctions as new US law takes effect
 - 2026-10-16 · [[2026-10-16-002-it-s-really-hard-to-believe-how-oregon-primary-school]] — 'It's really hard to believe' - How Oregon primary school shooting unfolded
