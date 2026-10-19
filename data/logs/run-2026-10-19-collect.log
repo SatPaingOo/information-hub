@@ -11,3 +11,11 @@
 
 2026-10-19 01:58:10,913 WARNING [products] no collect provider for deep-dive
 2026-10-19 01:58:11,463 INFO collect done: 5 item(s) published — target 5/10, next run ≈ 2026-10-20T01:00:00+00:00 UTC
+2026-10-19 05:55:57,098 INFO [world-news] published 2026-10-19-006 — France's government under pressure after weekend of widespre
+2026-10-19 05:55:57,348 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7963, Requested 6717. Please try again in 50.099999999s. Need more tokens? Upgrade to Dev Tier today at https
+2026-10-19 05:56:00,350 WARNING [world-news] no collect provider for deep-dive
+2026-10-19 05:56:00,495 WARNING [world-news] no collect provider for deep-dive
+2026-10-19 05:56:01,291 WARNING [tech-news] no collect provider available
+2026-10-19 05:56:01,982 WARNING [politics] no collect provider available
+2026-10-19 05:56:03,208 WARNING [products] no collect provider available
+2026-10-19 05:56:03,681 INFO collect done: 1 item(s) published — target 4/10, next run ≈ 2026-10-20T01:00:00+00:00 UTC

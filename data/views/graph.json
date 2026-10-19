@@ -8579,6 +8579,27 @@
       "name": "NHS capacity"
     },
     {
+      "id": "info:item:world:global:2026-10-19-006",
+      "type": "item",
+      "date": "2026-10-19",
+      "title": "France's government under pressure after weekend of widespread violence"
+    },
+    {
+      "id": "taxonomy/misc/Europe > France > Domestic Politics",
+      "type": "taxonomy",
+      "name": "Europe > France > Domestic Politics"
+    },
+    {
+      "id": "taxonomy/misc/Economy > Public Debt & Fiscal Policy",
+      "type": "taxonomy",
+      "name": "Economy > Public Debt & Fiscal Policy"
+    },
+    {
+      "id": "taxonomy/misc/Security > Public Order & Policing",
+      "type": "taxonomy",
+      "name": "Security > Public Order & Policing"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -37182,6 +37203,71 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-10-19-006",
+      "target": "info:entity:person:Emmanuel Macron",
+      "relation": "President of France, addressing nation after riots"
+    },
+    {
+      "source": "info:item:world:global:2026-10-19-006",
+      "target": "info:entity:person:Sébastien Lecornu",
+      "relation": "Prime Minister, convened crisis cabinet"
+    },
+    {
+      "source": "info:item:world:global:2026-10-19-006",
+      "target": "info:entity:organization:CGT",
+      "relation": "Major trade union, vocal critic of government response"
+    },
+    {
+      "source": "info:item:world:global:2026-10-19-006",
+      "target": "info:entity:organization:National Rally (RN)",
+      "relation": "Far‑right party led by Marine Le Pen, leveraging law‑and‑order narrative"
+    },
+    {
+      "source": "info:item:world:global:2026-10-19-006",
+      "target": "info:item:world:global:2026-10-19-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-19-006",
+      "target": "info:item:world:global:2026-10-19-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-19-006",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-19-006",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-19-006",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-19-006",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-19-006",
+      "target": "taxonomy/misc/Europe > France > Domestic Politics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-19-006",
+      "target": "taxonomy/misc/Economy > Public Debt & Fiscal Policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-19-006",
+      "target": "taxonomy/misc/Security > Public Order & Policing",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -43413,6 +43499,18 @@
     },
     {
       "source": "info:entity:organization:CGT",
+      "target": "info:entity:organization:National Rally (RN)",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:CGT",
+      "target": "info:entity:person:Emmanuel Macron",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:CGT",
       "target": "info:entity:person:Jean‑Luc Mélenchon",
       "relation": "co-occurs",
       "weight": "1"
@@ -43421,7 +43519,7 @@
       "source": "info:entity:organization:CGT",
       "target": "info:entity:person:Sébastien Lecornu",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:CIA",
@@ -46517,7 +46615,7 @@
       "source": "info:entity:organization:National Rally (RN)",
       "target": "info:entity:person:Emmanuel Macron",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:organization:National Rally (RN)",
@@ -46547,7 +46645,7 @@
       "source": "info:entity:organization:National Rally (RN)",
       "target": "info:entity:person:Sébastien Lecornu",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:National Transportation Safety Board (NTSB)",
@@ -50009,7 +50107,7 @@
       "source": "info:entity:person:Emmanuel Macron",
       "target": "info:entity:person:Sébastien Lecornu",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Emmanuel Macron",
