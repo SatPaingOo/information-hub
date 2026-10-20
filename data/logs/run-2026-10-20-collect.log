@@ -10,3 +10,12 @@
 2026-10-20 04:46:19,982 ERROR [products] generate error: HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
 
 2026-10-20 04:46:29,501 INFO collect done: 6 item(s) published — target 4/10, next run ≈ 2026-10-21T01:00:00+00:00 UTC
+2026-10-20 05:48:44,853 ERROR [world-news] generate error: HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
+
+2026-10-20 05:48:47,855 WARNING [world-news] no collect provider for deep-dive
+2026-10-20 05:48:47,960 WARNING [world-news] no collect provider for deep-dive
+2026-10-20 05:48:48,058 WARNING [world-news] no collect provider for deep-dive
+2026-10-20 05:48:48,680 WARNING [tech-news] no collect provider available
+2026-10-20 05:48:49,223 WARNING [politics] no collect provider available
+2026-10-20 05:48:50,090 WARNING [products] no collect provider available
+2026-10-20 05:48:50,648 INFO collect done: 0 item(s) published — target 4/10, next run ≈ 2026-10-21T01:00:00+00:00 UTC

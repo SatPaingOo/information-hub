@@ -1,10 +1,10 @@
 {
   "groq": {
     "quota_date": "2026-10-20",
-    "tokens_used": 7170,
+    "tokens_used": 8485,
     "items": 1,
-    "calls": 1,
-    "errors": 2,
+    "calls": 2,
+    "errors": 3,
     "cooldown_until": "2026-10-20T04:46:41+00:00",
     "models": {
       "llama-3.3-70b-versatile": {
@@ -30,13 +30,13 @@
         "cooldown_until": null
       },
       "openai/gpt-oss-120b": {
-        "calls": 312,
+        "calls": 313,
         "items": 141,
-        "errors": 167,
+        "errors": 168,
         "consecutive_failures": 1,
-        "healthy": true,
-        "last_health_check": "2026-10-20T04:46:11+00:00",
-        "latency_ms": 4919,
+        "healthy": false,
+        "last_health_check": "2026-10-20T05:48:44+00:00",
+        "latency_ms": 1481,
         "supports_json": true,
         "cooldown_until": "2026-10-20T04:46:41+00:00"
       },
@@ -497,30 +497,30 @@
     "tokens_used": 0,
     "items": 0,
     "calls": 0,
-    "errors": 2,
-    "cooldown_until": "2026-10-20T04:47:03+00:00",
+    "errors": 4,
+    "cooldown_until": "2026-10-20T05:49:24+00:00",
     "models": {
       "gemini-3.5-flash-lite": {
         "calls": 0,
         "items": 0,
-        "errors": 136,
-        "consecutive_failures": 1,
+        "errors": 137,
+        "consecutive_failures": 2,
         "healthy": true,
-        "last_health_check": "2026-10-20T04:46:29+00:00",
+        "last_health_check": "2026-10-20T05:48:51+00:00",
         "latency_ms": null,
         "supports_json": true,
-        "cooldown_until": "2026-10-20T04:46:59+00:00"
+        "cooldown_until": "2026-10-20T05:49:51+00:00"
       },
       "gemini-3.5-flash": {
         "calls": 0,
         "items": 0,
-        "errors": 136,
-        "consecutive_failures": 1,
+        "errors": 137,
+        "consecutive_failures": 2,
         "healthy": true,
-        "last_health_check": "2026-10-20T04:46:33+00:00",
+        "last_health_check": "2026-10-20T05:48:54+00:00",
         "latency_ms": null,
         "supports_json": true,
-        "cooldown_until": "2026-10-20T04:47:03+00:00"
+        "cooldown_until": "2026-10-20T05:49:54+00:00"
       }
     }
   }
