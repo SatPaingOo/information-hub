@@ -1,7 +1,7 @@
 ---
 node: "world"
 layer: topic
-item_count: 257
+item_count: 260
 ---
 
 # world
@@ -17,6 +17,9 @@ item_count: 257
 
 ## Items
 
+- 2026-10-20 · [[2026-10-20-001-ex-openai-worker-accused-of-planting-device-had-saudi]] — Ex-OpenAI worker accused of planting device had Saudi support, says court filing
+- 2026-10-20 · [[2026-10-20-002-curfew-imposed-in-parts-of-central-paris-and-other-cities]] — Curfew imposed in parts of central Paris and other cities after rioting across France
+- 2026-10-20 · [[2026-10-20-003-ukrainians-dying-because-us-restricting-intelligence]] — Ukrainians dying because US restricting intelligence sharing, Zelensky adviser tells BBC
 - 2026-10-19 · [[2026-10-19-001-macron-calls-for-calm-and-order-after-riots-across-france]] — Macron calls for 'calm and order' after riots across France
 - 2026-10-19 · [[2026-10-19-002-very-upsetting-residents-in-shock-after-historic-french]] — 'Very upsetting': Residents in shock after historic French town hall set alight
 - 2026-10-19 · [[2026-10-19-002-very-upsetting-residents-in-shock-after-historic-french]] — 'Very upsetting': Residents in shock after historic French town hall set alight

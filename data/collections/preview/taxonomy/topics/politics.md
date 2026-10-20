@@ -1,7 +1,7 @@
 ---
 node: "politics"
 layer: topic
-item_count: 153
+item_count: 156
 ---
 
 # politics
@@ -17,6 +17,9 @@ item_count: 153
 
 ## Items
 
+- 2026-10-20 · [[2026-10-20-004-burnham-vows-end-to-rip-off-parking-charges-under-new-rules]] — Burnham vows end to 'rip‑off parking charges' under new rules
+- 2026-10-20 · [[2026-10-20-005-pm-says-youth-unemployment-is-a-catastrophe-and-a-moral]] — PM says youth unemployment is a 'catastrophe and a moral failure'
+- 2026-10-20 · [[2026-10-20-005-pm-says-youth-unemployment-is-a-catastrophe-and-a-moral]] — PM says youth unemployment is a 'catastrophe and a moral failure'
 - 2026-10-19 · [[2026-10-19-004-polanski-says-he-will-not-overturn-green-party-s-zionism]] — Polanski says he will not overturn Green Party's 'Zionism is racism' motion
 - 2026-10-19 · [[2026-10-19-005-ending-corridor-care-in-hospitals-for-children-a-priority]] — Ending corridor care in hospitals for children a priority, says health secretary
 - 2026-10-18 · [[2026-10-18-004-burnham-invites-swinney-to-work-together-on-deeper]] — Burnham invites Swinney to work together on 'deeper Scottish devolution'

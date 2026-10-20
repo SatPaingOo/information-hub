@@ -1,7 +1,7 @@
 ---
 name: "Volodymyr Zelensky"
 entity_type: person
-backlink_count: 29
+backlink_count: 30
 ---
 
 # Volodymyr Zelensky
@@ -10,6 +10,7 @@ backlink_count: 29
 
 ## Referenced by
 
+- 2026-10-20 · [[2026-10-20-003-ukrainians-dying-because-us-restricting-intelligence]] — Ukrainians dying because US restricting intelligence sharing, Zelensky adviser tells BBC
 - 2026-10-17 · [[2026-10-17-003-trump-waives-several-russia-sanctions-as-new-us-law-takes]] — Trump waives several Russia sanctions as new US law takes effect
 - 2026-10-15 · [[2026-10-15-002-musk-says-us-government-may-be-behind-slowdown-of-ukraine]] — Musk says US government may be behind slowdown of Ukraine drone speeds
 - 2026-10-15 · [[2026-10-15-004-we-are-behind-you-and-that-will-not-change-pm-tells-zelensky]] — We are behind you and that will not change, PM tells Zelensky

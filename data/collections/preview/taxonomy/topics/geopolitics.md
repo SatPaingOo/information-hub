@@ -1,7 +1,7 @@
 ---
 node: "geopolitics"
 layer: topic
-item_count: 109
+item_count: 112
 ---
 
 # geopolitics
@@ -24,6 +24,9 @@ item_count: 109
 
 ## Items
 
+- 2026-10-20 · [[2026-10-20-002-curfew-imposed-in-parts-of-central-paris-and-other-cities]] — Curfew imposed in parts of central Paris and other cities after rioting across France
+- 2026-10-20 · [[2026-10-20-003-ukrainians-dying-because-us-restricting-intelligence]] — Ukrainians dying because US restricting intelligence sharing, Zelensky adviser tells BBC
+- 2026-10-20 · [[2026-10-20-005-pm-says-youth-unemployment-is-a-catastrophe-and-a-moral]] — PM says youth unemployment is a 'catastrophe and a moral failure'
 - 2026-10-19 · [[2026-10-19-004-polanski-says-he-will-not-overturn-green-party-s-zionism]] — Polanski says he will not overturn Green Party's 'Zionism is racism' motion
 - 2026-10-19 · [[2026-10-19-007-funding-shortages-force-world-food-programme-to-cut-aid-to]] — Funding shortages force World Food Programme to cut aid to Gaza
 - 2026-10-18 · [[2026-10-18-005-police-assess-palestine-action-post-by-national-security]] — Police assess Palestine Action post by national security adviser's wife

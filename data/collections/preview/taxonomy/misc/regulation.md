@@ -1,7 +1,7 @@
 ---
 node: "Regulation"
 layer: misc
-item_count: 35
+item_count: 38
 ---
 
 # Regulation
@@ -17,6 +17,9 @@ item_count: 35
 
 ## Items
 
+- 2026-10-20 · [[2026-10-20-004-burnham-vows-end-to-rip-off-parking-charges-under-new-rules]] — Burnham vows end to 'rip‑off parking charges' under new rules
+- 2026-10-20 · [[2026-10-20-001-ex-openai-worker-accused-of-planting-device-had-saudi]] — Ex-OpenAI worker accused of planting device had Saudi support, says court filing
+- 2026-10-20 · [[2026-10-20-006-beam-win]] — Beam.win
 - 2026-10-15 · [[2026-10-15-006-make0-brain]] — Make0 Brain
 - 2026-10-14 · [[2026-10-14-001-saudi-man-charged-with-planting-sophisticated-recording]] — Saudi man charged with planting 'sophisticated' recording device in OpenAI office
 - 2026-10-14 · [[2026-10-14-004-muse-wonder]] — Muse Wonder

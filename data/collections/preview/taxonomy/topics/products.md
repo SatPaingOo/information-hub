@@ -1,7 +1,7 @@
 ---
 node: "products"
 layer: topic
-item_count: 71
+item_count: 72
 ---
 
 # products
@@ -16,6 +16,7 @@ item_count: 71
 
 ## Items
 
+- 2026-10-20 · [[2026-10-20-006-beam-win]] — Beam.win
 - 2026-10-18 · [[2026-10-18-006-step-5-preview]] — Step 5 Preview
 - 2026-10-15 · [[2026-10-15-006-make0-brain]] — Make0 Brain
 - 2026-10-14 · [[2026-10-14-004-muse-wonder]] — Muse Wonder

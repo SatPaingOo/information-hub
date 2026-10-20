@@ -1,7 +1,7 @@
 ---
 name: "FBI"
 entity_type: organization
-backlink_count: 4
+backlink_count: 5
 ---
 
 # FBI
@@ -10,6 +10,7 @@ backlink_count: 4
 
 ## Referenced by
 
+- 2026-10-20 · [[2026-10-20-001-ex-openai-worker-accused-of-planting-device-had-saudi]] — Ex-OpenAI worker accused of planting device had Saudi support, says court filing
 - 2026-10-14 · [[2026-10-14-001-saudi-man-charged-with-planting-sophisticated-recording]] — Saudi man charged with planting 'sophisticated' recording device in OpenAI office
 - 2026-10-08 · [[2026-10-08-006-us-and-lebanon-protecting-wanted-syrian-general-bbc-finds]] — US and Lebanon protecting wanted Syrian general, BBC finds
 - 2026-08-29 · [[2026-08-29-003-landlady-to-9-11-hijackers-reveals-their-links-to-alleged]] — Landlady to 9/11 hijackers reveals their links to alleged Saudi spy
