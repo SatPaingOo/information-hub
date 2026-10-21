@@ -8810,6 +8810,17 @@
       "name": "transport safety"
     },
     {
+      "id": "info:item:world:global:2026-10-21-009",
+      "type": "item",
+      "date": "2026-10-21",
+      "title": "Trump and Zelensky appear at loggerheads despite Oslo optimism"
+    },
+    {
+      "id": "taxonomy/misc/Defense",
+      "type": "taxonomy",
+      "name": "Defense"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -38433,6 +38444,81 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-10-21-009",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "US President and key decision-maker"
+    },
+    {
+      "source": "info:item:world:global:2026-10-21-009",
+      "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "President of Ukraine and primary recipient of US aid"
+    },
+    {
+      "source": "info:item:world:global:2026-10-21-009",
+      "target": "info:entity:person:Steve Witkoff",
+      "relation": "US Ambassador to Ukraine and envoy to Oslo"
+    },
+    {
+      "source": "info:item:world:global:2026-10-21-009",
+      "target": "info:entity:person:Jared Kushner",
+      "relation": "US Senior Advisor and envoy involved in Ukraine talks"
+    },
+    {
+      "source": "info:item:world:global:2026-10-21-009",
+      "target": "info:entity:person:Vladimir Putin",
+      "relation": "President of Russia and adversary in the Ukraine conflict"
+    },
+    {
+      "source": "info:item:world:global:2026-10-21-009",
+      "target": "info:item:world:global:2026-10-21-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-21-009",
+      "target": "info:item:world:global:2026-10-21-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-21-009",
+      "target": "info:item:world:global:2026-10-21-003",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-21-009",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-21-009",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-21-009",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-21-009",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-21-009",
+      "target": "taxonomy/misc/Geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-21-009",
+      "target": "taxonomy/misc/Defense",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-21-009",
+      "target": "taxonomy/misc/International Relations",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -51236,7 +51322,7 @@
       "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:Jared Kushner",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Donald Trump",
@@ -51362,7 +51448,7 @@
       "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:Steve Witkoff",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:person:Donald Trump",
@@ -51386,13 +51472,13 @@
       "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:Vladimir Putin",
       "relation": "co-occurs",
-      "weight": "8"
+      "weight": "9"
     },
     {
       "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
-      "weight": "11"
+      "weight": "12"
     },
     {
       "source": "info:entity:person:Donald Trump",
@@ -51920,19 +52006,19 @@
       "source": "info:entity:person:Jared Kushner",
       "target": "info:entity:person:Steve Witkoff",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:person:Jared Kushner",
       "target": "info:entity:person:Vladimir Putin",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:person:Jared Kushner",
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:person:Javier Milei",
@@ -52568,13 +52654,13 @@
       "source": "info:entity:person:Steve Witkoff",
       "target": "info:entity:person:Vladimir Putin",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:person:Steve Witkoff",
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:person:Steve Witkoff",
@@ -52634,7 +52720,7 @@
       "source": "info:entity:person:Vladimir Putin",
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
-      "weight": "14"
+      "weight": "15"
     },
     {
       "source": "info:entity:person:Vladimir Putin",

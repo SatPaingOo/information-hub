@@ -1,7 +1,7 @@
 ---
 name: "Volodymyr Zelensky"
 entity_type: person
-backlink_count: 31
+backlink_count: 32
 ---
 
 # Volodymyr Zelensky
@@ -11,6 +11,7 @@ backlink_count: 31
 ## Referenced by
 
 - 2026-10-21 · [[2026-10-21-001-us-envoy-to-meet-putin-in-russia-as-zelensky-says]] — US envoy to meet Putin in Russia as Zelensky says intelligence sharing 'works now'
+- 2026-10-21 · [[2026-10-21-009-trump-and-zelensky-appear-at-loggerheads-despite-oslo]] — Trump and Zelensky appear at loggerheads despite Oslo optimism
 - 2026-10-20 · [[2026-10-20-003-ukrainians-dying-because-us-restricting-intelligence]] — Ukrainians dying because US restricting intelligence sharing, Zelensky adviser tells BBC
 - 2026-10-17 · [[2026-10-17-003-trump-waives-several-russia-sanctions-as-new-us-law-takes]] — Trump waives several Russia sanctions as new US law takes effect
 - 2026-10-15 · [[2026-10-15-002-musk-says-us-government-may-be-behind-slowdown-of-ukraine]] — Musk says US government may be behind slowdown of Ukraine drone speeds

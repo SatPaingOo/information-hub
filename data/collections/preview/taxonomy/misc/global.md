@@ -1,7 +1,7 @@
 ---
 node: "Global"
 layer: misc
-item_count: 456
+item_count: 457
 ---
 
 # Global
@@ -33,6 +33,7 @@ item_count: 456
 - 2026-10-21 · [[2026-10-21-006-harness]] — Harness²
 - 2026-10-21 · [[2026-10-21-007-lugh-xtudio]] — Lugh Xtudio
 - 2026-10-21 · [[2026-10-21-008-man-charged-with-attack-on-australia-mp-to-face-court]] — Man charged with attack on Australia MP to face court
+- 2026-10-21 · [[2026-10-21-009-trump-and-zelensky-appear-at-loggerheads-despite-oslo]] — Trump and Zelensky appear at loggerheads despite Oslo optimism
 - 2026-10-20 · [[2026-10-20-001-ex-openai-worker-accused-of-planting-device-had-saudi]] — Ex-OpenAI worker accused of planting device had Saudi support, says court filing
 - 2026-10-20 · [[2026-10-20-002-curfew-imposed-in-parts-of-central-paris-and-other-cities]] — Curfew imposed in parts of central Paris and other cities after rioting across France
 - 2026-10-20 · [[2026-10-20-003-ukrainians-dying-because-us-restricting-intelligence]] — Ukrainians dying because US restricting intelligence sharing, Zelensky adviser tells BBC

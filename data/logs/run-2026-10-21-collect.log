@@ -17,3 +17,13 @@
 2026-10-21 05:22:01,568 WARNING [politics] no collect provider available
 2026-10-21 05:22:02,232 WARNING [products] no collect provider available
 2026-10-21 05:22:02,463 INFO collect done: 1 item(s) published — target 2/10, next run ≈ 2026-10-22T01:00:00+00:00 UTC
+2026-10-21 05:51:52,787 ERROR [world-news] generate error: HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
+
+2026-10-21 05:51:58,746 INFO [world-news] published 2026-10-21-009 — Trump and Zelensky appear at loggerheads despite Oslo optimi
+2026-10-21 05:51:58,930 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7928, Requested 6928. Please try again in 51.42s. Need more tokens? Upgrade to Dev Tier today at https://conso
+2026-10-21 05:52:01,932 WARNING [world-news] no collect provider for deep-dive
+2026-10-21 05:52:02,046 WARNING [world-news] no collect provider for deep-dive
+2026-10-21 05:52:02,523 WARNING [tech-news] no collect provider available
+2026-10-21 05:52:02,929 WARNING [politics] no collect provider available
+2026-10-21 05:52:03,764 WARNING [products] no collect provider available
+2026-10-21 05:52:04,337 INFO collect done: 1 item(s) published — target 1/10, next run ≈ 2026-10-22T01:00:00+00:00 UTC

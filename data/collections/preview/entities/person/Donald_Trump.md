@@ -1,7 +1,7 @@
 ---
 name: "Donald Trump"
 entity_type: person
-backlink_count: 69
+backlink_count: 70
 ---
 
 # Donald Trump
@@ -10,6 +10,7 @@ backlink_count: 69
 
 ## Referenced by
 
+- 2026-10-21 · [[2026-10-21-009-trump-and-zelensky-appear-at-loggerheads-despite-oslo]] — Trump and Zelensky appear at loggerheads despite Oslo optimism
 - 2026-10-17 · [[2026-10-17-002-oregon-teacher-fought-school-attacker-before-armed-dad]] — Oregon teacher fought school attacker before armed dad shot suspect 'multiple times'
 - 2026-10-17 · [[2026-10-17-003-trump-waives-several-russia-sanctions-as-new-us-law-takes]] — Trump waives several Russia sanctions as new US law takes effect
 - 2026-10-16 · [[2026-10-16-006-trump-cancels-planned-livestream-of-fort-hood-attacker-s]] — Trump Cancels Planned Livestream of Fort Hood Attacker’s Execution by Firing Squad
