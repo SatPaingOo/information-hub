@@ -1,7 +1,7 @@
 ---
 name: "OpenAI"
 entity_type: company
-backlink_count: 133
+backlink_count: 137
 ---
 
 # OpenAI
@@ -10,6 +10,10 @@ backlink_count: 133
 
 ## Referenced by
 
+- 2026-10-21 · [[2026-10-21-002-france-is-divided-over-who-to-blame-for-weekend-riots-and]] — France is divided over who to blame for weekend riots and what to learn from them
+- 2026-10-21 · [[2026-10-21-004-uk-government-expected-to-approve-jackdaw-gas-field]] — UK government expected to approve Jackdaw gas field
+- 2026-10-21 · [[2026-10-21-006-harness]] — Harness²
+- 2026-10-21 · [[2026-10-21-007-lugh-xtudio]] — Lugh Xtudio
 - 2026-10-20 · [[2026-10-20-001-ex-openai-worker-accused-of-planting-device-had-saudi]] — Ex-OpenAI worker accused of planting device had Saudi support, says court filing
 - 2026-10-20 · [[2026-10-20-004-burnham-vows-end-to-rip-off-parking-charges-under-new-rules]] — Burnham vows end to 'rip‑off parking charges' under new rules
 - 2026-10-20 · [[2026-10-20-006-beam-win]] — Beam.win

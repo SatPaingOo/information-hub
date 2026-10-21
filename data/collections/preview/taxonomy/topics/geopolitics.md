@@ -1,7 +1,7 @@
 ---
 node: "geopolitics"
 layer: topic
-item_count: 112
+item_count: 114
 ---
 
 # geopolitics
@@ -24,6 +24,8 @@ item_count: 112
 
 ## Items
 
+- 2026-10-21 · [[2026-10-21-001-us-envoy-to-meet-putin-in-russia-as-zelensky-says]] — US envoy to meet Putin in Russia as Zelensky says intelligence sharing 'works now'
+- 2026-10-21 · [[2026-10-21-002-france-is-divided-over-who-to-blame-for-weekend-riots-and]] — France is divided over who to blame for weekend riots and what to learn from them
 - 2026-10-20 · [[2026-10-20-002-curfew-imposed-in-parts-of-central-paris-and-other-cities]] — Curfew imposed in parts of central Paris and other cities after rioting across France
 - 2026-10-20 · [[2026-10-20-003-ukrainians-dying-because-us-restricting-intelligence]] — Ukrainians dying because US restricting intelligence sharing, Zelensky adviser tells BBC
 - 2026-10-20 · [[2026-10-20-005-pm-says-youth-unemployment-is-a-catastrophe-and-a-moral]] — PM says youth unemployment is a 'catastrophe and a moral failure'

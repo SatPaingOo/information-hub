@@ -1,7 +1,7 @@
 ---
 node: "industry"
 layer: category
-item_count: 288
+item_count: 295
 ---
 
 # industry
@@ -21,6 +21,13 @@ item_count: 288
 
 ## Items
 
+- 2026-10-21 · [[2026-10-21-001-us-envoy-to-meet-putin-in-russia-as-zelensky-says]] — US envoy to meet Putin in Russia as Zelensky says intelligence sharing 'works now'
+- 2026-10-21 · [[2026-10-21-001-us-envoy-to-meet-putin-in-russia-as-zelensky-says]] — US envoy to meet Putin in Russia as Zelensky says intelligence sharing 'works now'
+- 2026-10-21 · [[2026-10-21-002-france-is-divided-over-who-to-blame-for-weekend-riots-and]] — France is divided over who to blame for weekend riots and what to learn from them
+- 2026-10-21 · [[2026-10-21-002-france-is-divided-over-who-to-blame-for-weekend-riots-and]] — France is divided over who to blame for weekend riots and what to learn from them
+- 2026-10-21 · [[2026-10-21-003-elon-musk-says-tesla-spacex-merger-being-considered]] — Elon Musk says Tesla-SpaceX merger being considered
+- 2026-10-21 · [[2026-10-21-003-elon-musk-says-tesla-spacex-merger-being-considered]] — Elon Musk says Tesla-SpaceX merger being considered
+- 2026-10-21 · [[2026-10-21-008-man-charged-with-attack-on-australia-mp-to-face-court]] — Man charged with attack on Australia MP to face court
 - 2026-10-20 · [[2026-10-20-001-ex-openai-worker-accused-of-planting-device-had-saudi]] — Ex-OpenAI worker accused of planting device had Saudi support, says court filing
 - 2026-10-20 · [[2026-10-20-002-curfew-imposed-in-parts-of-central-paris-and-other-cities]] — Curfew imposed in parts of central Paris and other cities after rioting across France
 - 2026-10-20 · [[2026-10-20-002-curfew-imposed-in-parts-of-central-paris-and-other-cities]] — Curfew imposed in parts of central Paris and other cities after rioting across France

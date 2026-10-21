@@ -1,7 +1,7 @@
 ---
 name: "Anthropic"
 entity_type: company
-backlink_count: 83
+backlink_count: 85
 ---
 
 # Anthropic
@@ -10,6 +10,8 @@ backlink_count: 83
 
 ## Referenced by
 
+- 2026-10-21 · [[2026-10-21-006-harness]] — Harness²
+- 2026-10-21 · [[2026-10-21-007-lugh-xtudio]] — Lugh Xtudio
 - 2026-10-18 · [[2026-10-18-002-a-wave-of-homemade-synthetic-drugs-sweeps-us-and-deepens]] — A wave of homemade, synthetic drugs sweeps US and deepens crisis
 - 2026-10-18 · [[2026-10-18-006-step-5-preview]] — Step 5 Preview
 - 2026-10-17 · [[2026-10-17-004-india-becomes-the-latest-country-to-report-rogue-ai-agent]] — India becomes the latest country to report rogue AI agent activity

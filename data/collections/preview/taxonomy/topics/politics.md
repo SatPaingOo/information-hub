@@ -1,7 +1,7 @@
 ---
 node: "politics"
 layer: topic
-item_count: 156
+item_count: 159
 ---
 
 # politics
@@ -17,6 +17,9 @@ item_count: 156
 
 ## Items
 
+- 2026-10-21 · [[2026-10-21-004-uk-government-expected-to-approve-jackdaw-gas-field]] — UK government expected to approve Jackdaw gas field
+- 2026-10-21 · [[2026-10-21-005-second-labour-mp-suspended-over-covid-loan-repayments]] — Second Labour MP suspended over Covid loan repayments
+- 2026-10-21 · [[2026-10-21-005-second-labour-mp-suspended-over-covid-loan-repayments]] — Second Labour MP suspended over Covid loan repayments
 - 2026-10-20 · [[2026-10-20-004-burnham-vows-end-to-rip-off-parking-charges-under-new-rules]] — Burnham vows end to 'rip‑off parking charges' under new rules
 - 2026-10-20 · [[2026-10-20-005-pm-says-youth-unemployment-is-a-catastrophe-and-a-moral]] — PM says youth unemployment is a 'catastrophe and a moral failure'
 - 2026-10-20 · [[2026-10-20-005-pm-says-youth-unemployment-is-a-catastrophe-and-a-moral]] — PM says youth unemployment is a 'catastrophe and a moral failure'

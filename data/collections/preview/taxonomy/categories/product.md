@@ -1,7 +1,7 @@
 ---
 node: "product"
 layer: category
-item_count: 96
+item_count: 98
 ---
 
 # product
@@ -19,6 +19,8 @@ item_count: 96
 
 ## Items
 
+- 2026-10-21 · [[2026-10-21-006-harness]] — Harness²
+- 2026-10-21 · [[2026-10-21-007-lugh-xtudio]] — Lugh Xtudio
 - 2026-10-20 · [[2026-10-20-006-beam-win]] — Beam.win
 - 2026-10-18 · [[2026-10-18-006-step-5-preview]] — Step 5 Preview
 - 2026-10-17 · [[2026-10-17-004-india-becomes-the-latest-country-to-report-rogue-ai-agent]] — India becomes the latest country to report rogue AI agent activity

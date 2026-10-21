@@ -1,7 +1,7 @@
 ---
 name: "Andy Burnham"
 entity_type: person
-backlink_count: 61
+backlink_count: 62
 ---
 
 # Andy Burnham
@@ -10,6 +10,7 @@ backlink_count: 61
 
 ## Referenced by
 
+- 2026-10-21 · [[2026-10-21-004-uk-government-expected-to-approve-jackdaw-gas-field]] — UK government expected to approve Jackdaw gas field
 - 2026-10-20 · [[2026-10-20-004-burnham-vows-end-to-rip-off-parking-charges-under-new-rules]] — Burnham vows end to 'rip‑off parking charges' under new rules
 - 2026-10-20 · [[2026-10-20-005-pm-says-youth-unemployment-is-a-catastrophe-and-a-moral]] — PM says youth unemployment is a 'catastrophe and a moral failure'
 - 2026-10-18 · [[2026-10-18-004-burnham-invites-swinney-to-work-together-on-deeper]] — Burnham invites Swinney to work together on 'deeper Scottish devolution'

@@ -1,0 +1,19 @@
+2026-10-21 05:17:00,938 INFO [world-news] model returned no selection — using heuristic fallback (3)
+2026-10-21 05:18:03,252 INFO [world-news] published 2026-10-21-001 — US envoy to meet Putin in Russia as Zelensky says intelligen
+2026-10-21 05:19:00,738 INFO [world-news] published 2026-10-21-002 — France is divided over who to blame for weekend riots and wh
+2026-10-21 05:19:26,320 INFO [world-news] published 2026-10-21-003 — Elon Musk says Tesla-SpaceX merger being considered
+2026-10-21 05:19:30,090 INFO [tech-news] nothing selected
+2026-10-21 05:20:11,382 INFO [politics] published 2026-10-21-004 — UK government expected to approve Jackdaw gas field
+2026-10-21 05:20:35,078 INFO [politics] published 2026-10-21-005 — Second Labour MP suspended over Covid loan repayments
+2026-10-21 05:21:44,242 INFO [products] published 2026-10-21-006 — Harness²
+2026-10-21 05:21:49,238 INFO [products] published 2026-10-21-007 — Lugh Xtudio
+2026-10-21 05:21:49,756 INFO collect done: 7 item(s) published — target 3/10, next run ≈ 2026-10-21T05:36:49+00:00 UTC
+2026-10-21 05:21:52,098 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7450, Requested 6072. Please try again in 41.415s. Need more tokens? Upgrade to Dev Tier today at https://con
+2026-10-21 05:21:57,385 INFO [world-news] published 2026-10-21-008 — Man charged with attack on Australia MP to face court
+2026-10-21 05:21:57,656 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6922, Requested 6793. Please try again in 42.8625s. Need more tokens? Upgrade to Dev Tier today at https://con
+2026-10-21 05:22:00,658 WARNING [world-news] no collect provider for deep-dive
+2026-10-21 05:22:00,786 WARNING [world-news] no collect provider for deep-dive
+2026-10-21 05:22:01,181 WARNING [tech-news] no collect provider available
+2026-10-21 05:22:01,568 WARNING [politics] no collect provider available
+2026-10-21 05:22:02,232 WARNING [products] no collect provider available
+2026-10-21 05:22:02,463 INFO collect done: 1 item(s) published — target 2/10, next run ≈ 2026-10-22T01:00:00+00:00 UTC

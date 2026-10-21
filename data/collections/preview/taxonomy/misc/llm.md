@@ -1,7 +1,7 @@
 ---
 node: "LLM"
 layer: misc
-item_count: 73
+item_count: 74
 ---
 
 # LLM
@@ -17,6 +17,7 @@ item_count: 73
 
 ## Items
 
+- 2026-10-21 · [[2026-10-21-006-harness]] — Harness²
 - 2026-10-20 · [[2026-10-20-001-ex-openai-worker-accused-of-planting-device-had-saudi]] — Ex-OpenAI worker accused of planting device had Saudi support, says court filing
 - 2026-10-20 · [[2026-10-20-006-beam-win]] — Beam.win
 - 2026-10-18 · [[2026-10-18-002-a-wave-of-homemade-synthetic-drugs-sweeps-us-and-deepens]] — A wave of homemade, synthetic drugs sweeps US and deepens crisis

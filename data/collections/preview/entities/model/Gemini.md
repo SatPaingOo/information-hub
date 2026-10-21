@@ -1,7 +1,7 @@
 ---
 name: "Gemini"
 entity_type: model
-backlink_count: 60
+backlink_count: 63
 ---
 
 # Gemini
@@ -10,6 +10,9 @@ backlink_count: 60
 
 ## Referenced by
 
+- 2026-10-21 · [[2026-10-21-004-uk-government-expected-to-approve-jackdaw-gas-field]] — UK government expected to approve Jackdaw gas field
+- 2026-10-21 · [[2026-10-21-006-harness]] — Harness²
+- 2026-10-21 · [[2026-10-21-007-lugh-xtudio]] — Lugh Xtudio
 - 2026-10-19 · [[2026-10-19-001-macron-calls-for-calm-and-order-after-riots-across-france]] — Macron calls for 'calm and order' after riots across France
 - 2026-10-18 · [[2026-10-18-002-a-wave-of-homemade-synthetic-drugs-sweeps-us-and-deepens]] — A wave of homemade, synthetic drugs sweeps US and deepens crisis
 - 2026-10-16 · [[2026-10-16-001-three-children-and-teacher-killed-in-us-primary-school]] — Three children and teacher killed in US primary school shooting

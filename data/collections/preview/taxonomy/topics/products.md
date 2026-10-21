@@ -1,7 +1,7 @@
 ---
 node: "products"
 layer: topic
-item_count: 72
+item_count: 75
 ---
 
 # products
@@ -16,6 +16,9 @@ item_count: 72
 
 ## Items
 
+- 2026-10-21 · [[2026-10-21-006-harness]] — Harness²
+- 2026-10-21 · [[2026-10-21-007-lugh-xtudio]] — Lugh Xtudio
+- 2026-10-21 · [[2026-10-21-007-lugh-xtudio]] — Lugh Xtudio
 - 2026-10-20 · [[2026-10-20-006-beam-win]] — Beam.win
 - 2026-10-18 · [[2026-10-18-006-step-5-preview]] — Step 5 Preview
 - 2026-10-15 · [[2026-10-15-006-make0-brain]] — Make0 Brain

@@ -1,7 +1,7 @@
 ---
 name: "GPT-4"
 entity_type: model
-backlink_count: 1
+backlink_count: 2
 ---
 
 # GPT-4
@@ -10,4 +10,5 @@ backlink_count: 1
 
 ## Referenced by
 
+- 2026-10-21 · [[2026-10-21-007-lugh-xtudio]] — Lugh Xtudio
 - 2026-10-10 · [[2026-10-10-002-analysis-trump-s-shock-russia-deal-highlights-mounting]] — Analysis: Trump's shock Russia deal highlights mounting pressure to curb fuel prices
