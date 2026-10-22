@@ -1,7 +1,7 @@
 ---
 node: "energy"
 layer: misc
-item_count: 2
+item_count: 3
 ---
 
 # energy
@@ -15,5 +15,6 @@ item_count: 2
 
 ## Items
 
+- 2026-10-22 · [[2026-10-22-004-burnham-defends-jackdaw-decision-as-badenoch-urges-pm-to]] — Burnham defends Jackdaw decision as Badenoch urges PM to overturn ban on new oil and gas licences
 - 2026-09-29 · [[2026-09-29-004-burnham-to-unveil-public-body-to-invest-in-electricity-grid]] — Burnham to unveil public body to invest in electricity grid
 - 2026-09-10 · [[2026-09-10-008-trump-says-every-adult-american-will-get-5-000-if]] — Trump says every adult American will get $5,000 if Republicans win midterms

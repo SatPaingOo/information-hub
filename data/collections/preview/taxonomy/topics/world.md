@@ -1,7 +1,7 @@
 ---
 node: "world"
 layer: topic
-item_count: 265
+item_count: 269
 ---
 
 # world
@@ -17,6 +17,10 @@ item_count: 265
 
 ## Items
 
+- 2026-10-22 · [[2026-10-22-001-missiles-hit-kyiv-after-russia-agrees-to-us-call-to-resume]] — Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks
+- 2026-10-22 · [[2026-10-22-002-rosenberg-us-diplomatic-push-offers-little-hope-for]] — Rosenberg: US diplomatic push offers little hope for imminent Ukraine peace
+- 2026-10-22 · [[2026-10-22-002-rosenberg-us-diplomatic-push-offers-little-hope-for]] — Rosenberg: US diplomatic push offers little hope for imminent Ukraine peace
+- 2026-10-22 · [[2026-10-22-003-macron-accuses-foreign-leaders-of-exploiting-french-riots]] — Macron accuses foreign leaders of exploiting French riots
 - 2026-10-21 · [[2026-10-21-001-us-envoy-to-meet-putin-in-russia-as-zelensky-says]] — US envoy to meet Putin in Russia as Zelensky says intelligence sharing 'works now'
 - 2026-10-21 · [[2026-10-21-002-france-is-divided-over-who-to-blame-for-weekend-riots-and]] — France is divided over who to blame for weekend riots and what to learn from them
 - 2026-10-21 · [[2026-10-21-003-elon-musk-says-tesla-spacex-merger-being-considered]] — Elon Musk says Tesla-SpaceX merger being considered

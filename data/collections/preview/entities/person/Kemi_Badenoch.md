@@ -1,7 +1,7 @@
 ---
 name: "Kemi Badenoch"
 entity_type: person
-backlink_count: 19
+backlink_count: 20
 ---
 
 # Kemi Badenoch
@@ -10,6 +10,7 @@ backlink_count: 19
 
 ## Referenced by
 
+- 2026-10-22 · [[2026-10-22-004-burnham-defends-jackdaw-decision-as-badenoch-urges-pm-to]] — Burnham defends Jackdaw decision as Badenoch urges PM to overturn ban on new oil and gas licences
 - 2026-10-13 · [[2026-10-13-004-burnham-to-push-for-new-post-brexit-deals-at-eu-summit]] — Burnham to push for new post-Brexit deals at EU summit
 - 2026-10-08 · [[2026-10-08-005-badenoch-says-tories-would-scrap-inheritance-tax-on-family]] — Badenoch says Tories would scrap inheritance tax on family homes
 - 2026-10-07 · [[2026-10-07-003-i-d-rather-have-another-election-than-do-a-deal-with]] — I'd rather have another election than do a deal with Reform UK, says Badenoch

@@ -1,7 +1,7 @@
 ---
 node: "politics"
 layer: topic
-item_count: 159
+item_count: 163
 ---
 
 # politics
@@ -17,6 +17,10 @@ item_count: 159
 
 ## Items
 
+- 2026-10-22 · [[2026-10-22-004-burnham-defends-jackdaw-decision-as-badenoch-urges-pm-to]] — Burnham defends Jackdaw decision as Badenoch urges PM to overturn ban on new oil and gas licences
+- 2026-10-22 · [[2026-10-22-004-burnham-defends-jackdaw-decision-as-badenoch-urges-pm-to]] — Burnham defends Jackdaw decision as Badenoch urges PM to overturn ban on new oil and gas licences
+- 2026-10-22 · [[2026-10-22-005-jailed-former-dup-leader-jeffrey-donaldson-being]] — Jailed former DUP leader Jeffrey Donaldson being investigated over alleged rape inside Parliament
+- 2026-10-22 · [[2026-10-22-005-jailed-former-dup-leader-jeffrey-donaldson-being]] — Jailed former DUP leader Jeffrey Donaldson being investigated over alleged rape inside Parliament
 - 2026-10-21 · [[2026-10-21-004-uk-government-expected-to-approve-jackdaw-gas-field]] — UK government expected to approve Jackdaw gas field
 - 2026-10-21 · [[2026-10-21-005-second-labour-mp-suspended-over-covid-loan-repayments]] — Second Labour MP suspended over Covid loan repayments
 - 2026-10-21 · [[2026-10-21-005-second-labour-mp-suspended-over-covid-loan-repayments]] — Second Labour MP suspended over Covid loan repayments

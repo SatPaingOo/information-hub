@@ -1,7 +1,7 @@
 ---
 node: "geopolitics"
 layer: topic
-item_count: 114
+item_count: 117
 ---
 
 # geopolitics
@@ -24,6 +24,9 @@ item_count: 114
 
 ## Items
 
+- 2026-10-22 · [[2026-10-22-002-rosenberg-us-diplomatic-push-offers-little-hope-for]] — Rosenberg: US diplomatic push offers little hope for imminent Ukraine peace
+- 2026-10-22 · [[2026-10-22-003-macron-accuses-foreign-leaders-of-exploiting-french-riots]] — Macron accuses foreign leaders of exploiting French riots
+- 2026-10-22 · [[2026-10-22-005-jailed-former-dup-leader-jeffrey-donaldson-being]] — Jailed former DUP leader Jeffrey Donaldson being investigated over alleged rape inside Parliament
 - 2026-10-21 · [[2026-10-21-001-us-envoy-to-meet-putin-in-russia-as-zelensky-says]] — US envoy to meet Putin in Russia as Zelensky says intelligence sharing 'works now'
 - 2026-10-21 · [[2026-10-21-002-france-is-divided-over-who-to-blame-for-weekend-riots-and]] — France is divided over who to blame for weekend riots and what to learn from them
 - 2026-10-20 · [[2026-10-20-002-curfew-imposed-in-parts-of-central-paris-and-other-cities]] — Curfew imposed in parts of central Paris and other cities after rioting across France

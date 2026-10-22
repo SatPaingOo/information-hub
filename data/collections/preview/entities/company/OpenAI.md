@@ -1,7 +1,7 @@
 ---
 name: "OpenAI"
 entity_type: company
-backlink_count: 137
+backlink_count: 139
 ---
 
 # OpenAI
@@ -10,6 +10,8 @@ backlink_count: 137
 
 ## Referenced by
 
+- 2026-10-22 · [[2026-10-22-002-rosenberg-us-diplomatic-push-offers-little-hope-for]] — Rosenberg: US diplomatic push offers little hope for imminent Ukraine peace
+- 2026-10-22 · [[2026-10-22-006-needle]] — Needle
 - 2026-10-21 · [[2026-10-21-002-france-is-divided-over-who-to-blame-for-weekend-riots-and]] — France is divided over who to blame for weekend riots and what to learn from them
 - 2026-10-21 · [[2026-10-21-004-uk-government-expected-to-approve-jackdaw-gas-field]] — UK government expected to approve Jackdaw gas field
 - 2026-10-21 · [[2026-10-21-006-harness]] — Harness²

@@ -1,7 +1,7 @@
 ---
 node: "product"
 layer: category
-item_count: 98
+item_count: 100
 ---
 
 # product
@@ -19,6 +19,8 @@ item_count: 98
 
 ## Items
 
+- 2026-10-22 · [[2026-10-22-006-needle]] — Needle
+- 2026-10-22 · [[2026-10-22-007-nimbalyst-wiki-agentic-ai-powered-knowledge-management-for]] — Nimbalyst Wiki – Agentic AI‑Powered Knowledge Management for Teams
 - 2026-10-21 · [[2026-10-21-006-harness]] — Harness²
 - 2026-10-21 · [[2026-10-21-007-lugh-xtudio]] — Lugh Xtudio
 - 2026-10-20 · [[2026-10-20-006-beam-win]] — Beam.win

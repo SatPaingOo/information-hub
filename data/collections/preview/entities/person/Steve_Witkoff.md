@@ -1,7 +1,7 @@
 ---
 name: "Steve Witkoff"
 entity_type: person
-backlink_count: 5
+backlink_count: 7
 ---
 
 # Steve Witkoff
@@ -10,6 +10,8 @@ backlink_count: 5
 
 ## Referenced by
 
+- 2026-10-22 · [[2026-10-22-001-missiles-hit-kyiv-after-russia-agrees-to-us-call-to-resume]] — Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks
+- 2026-10-22 · [[2026-10-22-002-rosenberg-us-diplomatic-push-offers-little-hope-for]] — Rosenberg: US diplomatic push offers little hope for imminent Ukraine peace
 - 2026-10-21 · [[2026-10-21-001-us-envoy-to-meet-putin-in-russia-as-zelensky-says]] — US envoy to meet Putin in Russia as Zelensky says intelligence sharing 'works now'
 - 2026-10-21 · [[2026-10-21-009-trump-and-zelensky-appear-at-loggerheads-despite-oslo]] — Trump and Zelensky appear at loggerheads despite Oslo optimism
 - 2026-09-23 · [[2026-09-23-001-trump-threatens-to-annihilate-iran-in-un-speech-as]] — Trump threatens to 'annihilate' Iran in UN speech as officials from both countries meet on sidelines

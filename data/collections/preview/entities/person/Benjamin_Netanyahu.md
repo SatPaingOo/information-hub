@@ -1,7 +1,7 @@
 ---
 name: "Benjamin Netanyahu"
 entity_type: person
-backlink_count: 11
+backlink_count: 12
 ---
 
 # Benjamin Netanyahu
@@ -10,6 +10,7 @@ backlink_count: 11
 
 ## Referenced by
 
+- 2026-10-22 · [[2026-10-22-003-macron-accuses-foreign-leaders-of-exploiting-french-riots]] — Macron accuses foreign leaders of exploiting French riots
 - 2026-10-18 · [[2026-10-18-003-european-diplomats-attacked-by-israeli-settlers-in-west-bank]] — European diplomats attacked by Israeli settlers in West Bank
 - 2026-10-08 · [[2026-10-08-002-israelis-mourn-7-october-attack-victims-three-years-after]] — Israelis mourn 7 October attack victims three years after deadly Hamas raid
 - 2026-10-08 · [[2026-10-08-003-israelis-demand-accountability-over-7-october-failures]] — Israelis demand accountability over 7 October failures three years after attacks

@@ -1,11 +1,11 @@
 {
   "groq": {
-    "quota_date": "2026-10-21",
-    "tokens_used": 26696,
-    "items": 3,
-    "calls": 6,
-    "errors": 5,
-    "cooldown_until": "2026-10-21T05:52:28+00:00",
+    "quota_date": "2026-10-22",
+    "tokens_used": 8023,
+    "items": 1,
+    "calls": 2,
+    "errors": 2,
+    "cooldown_until": "2026-10-22T01:08:39+00:00",
     "models": {
       "llama-3.3-70b-versatile": {
         "calls": 0,
@@ -30,32 +30,32 @@
         "cooldown_until": null
       },
       "openai/gpt-oss-120b": {
-        "calls": 316,
-        "items": 142,
-        "errors": 170,
+        "calls": 318,
+        "items": 143,
+        "errors": 171,
         "consecutive_failures": 1,
-        "healthy": false,
-        "last_health_check": "2026-10-21T05:51:52+00:00",
-        "latency_ms": 994,
+        "healthy": true,
+        "last_health_check": "2026-10-22T01:08:09+00:00",
+        "latency_ms": 1150,
         "supports_json": true,
-        "cooldown_until": "2026-10-21T05:22:22+00:00"
+        "cooldown_until": "2026-10-22T01:08:39+00:00"
       },
       "openai/gpt-oss-20b": {
         "calls": 53,
         "items": 35,
-        "errors": 80,
+        "errors": 81,
         "consecutive_failures": 1,
         "healthy": false,
-        "last_health_check": "2026-10-21T10:19:28+00:00",
+        "last_health_check": "2026-10-22T01:08:15+00:00",
         "latency_ms": 1405,
         "supports_json": true,
-        "cooldown_until": "2026-10-21T05:52:28+00:00"
+        "cooldown_until": null
       }
     }
   },
   "openrouter": {
-    "quota_date": "2026-10-21",
-    "tokens_used": 54954,
+    "quota_date": "2026-10-22",
+    "tokens_used": 55377,
     "items": 6,
     "calls": 10,
     "errors": 0,
@@ -172,13 +172,13 @@
         "cooldown_until": null
       },
       "cohere/north-mini-code:free": {
-        "calls": 549,
-        "items": 335,
+        "calls": 559,
+        "items": 341,
         "errors": 14,
         "consecutive_failures": 0,
         "healthy": true,
-        "last_health_check": "2026-10-21T05:21:44+00:00",
-        "latency_ms": 35228,
+        "last_health_check": "2026-10-22T01:08:02+00:00",
+        "latency_ms": 48573,
         "supports_json": false,
         "cooldown_until": null
       },
@@ -489,38 +489,49 @@
         "latency_ms": null,
         "supports_json": true,
         "cooldown_until": null
+      },
+      "recursive/flint-v1.0:free": {
+        "calls": 0,
+        "items": 0,
+        "errors": 0,
+        "consecutive_failures": 0,
+        "healthy": true,
+        "last_health_check": null,
+        "latency_ms": null,
+        "supports_json": true,
+        "cooldown_until": null
       }
     }
   },
   "gemini": {
-    "quota_date": "2026-10-21",
+    "quota_date": "2026-10-22",
     "tokens_used": 0,
     "items": 0,
     "calls": 0,
     "errors": 2,
-    "cooldown_until": "2026-10-21T05:22:36+00:00",
+    "cooldown_until": "2026-10-22T01:08:57+00:00",
     "models": {
       "gemini-3.5-flash-lite": {
         "calls": 0,
         "items": 0,
-        "errors": 138,
-        "consecutive_failures": 3,
-        "healthy": false,
-        "last_health_check": "2026-10-21T05:22:02+00:00",
+        "errors": 139,
+        "consecutive_failures": 1,
+        "healthy": true,
+        "last_health_check": "2026-10-22T01:08:24+00:00",
         "latency_ms": null,
         "supports_json": true,
-        "cooldown_until": "2026-10-21T05:24:02+00:00"
+        "cooldown_until": "2026-10-22T01:08:54+00:00"
       },
       "gemini-3.5-flash": {
         "calls": 0,
         "items": 0,
-        "errors": 138,
-        "consecutive_failures": 3,
-        "healthy": false,
-        "last_health_check": "2026-10-21T05:22:06+00:00",
+        "errors": 139,
+        "consecutive_failures": 1,
+        "healthy": true,
+        "last_health_check": "2026-10-22T01:08:27+00:00",
         "latency_ms": null,
         "supports_json": true,
-        "cooldown_until": "2026-10-21T05:24:06+00:00"
+        "cooldown_until": "2026-10-22T01:08:57+00:00"
       }
     }
   }

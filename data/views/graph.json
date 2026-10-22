@@ -8821,6 +8821,88 @@
       "name": "Defense"
     },
     {
+      "id": "info:item:world:global:2026-10-22-001",
+      "type": "item",
+      "date": "2026-10-22",
+      "title": "Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks"
+    },
+    {
+      "id": "info:item:world:global:2026-10-22-002",
+      "type": "item",
+      "date": "2026-10-22",
+      "title": "Rosenberg: US diplomatic push offers little hope for imminent Ukraine peace"
+    },
+    {
+      "id": "info:item:world:global:2026-10-22-003",
+      "type": "item",
+      "date": "2026-10-22",
+      "title": "Macron accuses foreign leaders of exploiting French riots"
+    },
+    {
+      "id": "info:item:politics:global:2026-10-22-004",
+      "type": "item",
+      "date": "2026-10-22",
+      "title": "Burnham defends Jackdaw decision as Badenoch urges PM to overturn ban on new oil and gas licences"
+    },
+    {
+      "id": "info:entity:company:Adura",
+      "type": "company",
+      "name": "Adura"
+    },
+    {
+      "id": "taxonomy/misc/climate",
+      "type": "taxonomy",
+      "name": "climate"
+    },
+    {
+      "id": "info:item:politics:global:2026-10-22-005",
+      "type": "item",
+      "date": "2026-10-22",
+      "title": "Jailed former DUP leader Jeffrey Donaldson being investigated over alleged rape inside Parliament"
+    },
+    {
+      "id": "info:entity:person:Jeffrey Donaldson",
+      "type": "person",
+      "name": "Jeffrey Donaldson"
+    },
+    {
+      "id": "info:entity:organization:Police Service of Northern Ireland (PSNI)",
+      "type": "organization",
+      "name": "Police Service of Northern Ireland (PSNI)"
+    },
+    {
+      "id": "info:entity:organization:Democratic Unionist Party (DUP)",
+      "type": "organization",
+      "name": "Democratic Unionist Party (DUP)"
+    },
+    {
+      "id": "info:item:products:global:2026-10-22-006",
+      "type": "item",
+      "date": "2026-10-22",
+      "title": "Needle"
+    },
+    {
+      "id": "info:item:products:global:2026-10-22-007",
+      "type": "item",
+      "date": "2026-10-22",
+      "title": "Nimbalyst Wiki – Agentic AI‑Powered Knowledge Management for Teams"
+    },
+    {
+      "id": "info:entity:company:Nimbalyst",
+      "type": "company",
+      "name": "Nimbalyst"
+    },
+    {
+      "id": "taxonomy/misc/Enterprise Software",
+      "type": "taxonomy",
+      "name": "Enterprise Software"
+    },
+    {
+      "id": "taxonomy/misc/Open-source Projects",
+      "type": "taxonomy",
+      "name": "Open-source Projects"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -38519,6 +38601,446 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-10-22-001",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "U.S. President leading diplomatic push for Ukraine peace"
+    },
+    {
+      "source": "info:item:world:global:2026-10-22-001",
+      "target": "info:entity:person:Vladimir Putin",
+      "relation": "President of Russia, engaged in peace talks with U.S. envoys"
+    },
+    {
+      "source": "info:item:world:global:2026-10-22-001",
+      "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "President of Ukraine, open to front‑line freeze in exchange for security guarantees"
+    },
+    {
+      "source": "info:item:world:global:2026-10-22-001",
+      "target": "info:entity:person:Steve Witkoff",
+      "relation": "U.S. Special Envoy, conducted talks with both Russian and Ukrainian leaders"
+    },
+    {
+      "source": "info:item:world:global:2026-10-22-001",
+      "target": "info:item:world:global:2026-10-21-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-22-001",
+      "target": "info:item:world:global:2026-10-21-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-22-001",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-22-001",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-22-001",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-22-001",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-22-001",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-22-001",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-22-001",
+      "target": "taxonomy/category/industry",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-22-002",
+      "target": "info:entity:person:Vladimir Putin",
+      "relation": "President of Russia, central figure in peace talks"
+    },
+    {
+      "source": "info:item:world:global:2026-10-22-002",
+      "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "President of Ukraine, participant in diplomatic talks"
+    },
+    {
+      "source": "info:item:world:global:2026-10-22-002",
+      "target": "info:entity:person:Steve Witkoff",
+      "relation": "U.S. Special Envoy, lead negotiator"
+    },
+    {
+      "source": "info:item:world:global:2026-10-22-002",
+      "target": "info:entity:organization:OpenAI",
+      "relation": "AI developer whose technologies are relevant to modern warfare and regulation"
+    },
+    {
+      "source": "info:item:world:global:2026-10-22-002",
+      "target": "info:entity:model:Gemini",
+      "relation": "AI model referenced in editorial priorities and tech policy discussions"
+    },
+    {
+      "source": "info:item:world:global:2026-10-22-002",
+      "target": "info:item:world:global:2026-10-22-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-22-002",
+      "target": "info:item:world:global:2026-10-21-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-22-002",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-22-002",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-22-002",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-22-002",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-22-002",
+      "target": "taxonomy/topic/world",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-22-002",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-22-002",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-22-003",
+      "target": "info:entity:person:Emmanuel Macron",
+      "relation": "French President who accused foreign leaders"
+    },
+    {
+      "source": "info:item:world:global:2026-10-22-003",
+      "target": "info:entity:person:Benjamin Netanyahu",
+      "relation": "Israeli Prime Minister referenced in Macron's remarks"
+    },
+    {
+      "source": "info:item:world:global:2026-10-22-003",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "Former U.S. President referenced in Macron's remarks"
+    },
+    {
+      "source": "info:item:world:global:2026-10-22-003",
+      "target": "info:entity:organization:European Union",
+      "relation": "Investigating foreign interference in French riots"
+    },
+    {
+      "source": "info:item:world:global:2026-10-22-003",
+      "target": "info:item:world:global:2026-10-22-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-22-003",
+      "target": "info:item:world:global:2026-10-22-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-22-003",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-22-003",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-22-003",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-22-003",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-22-003",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-22-003",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-22-003",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-22-004",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "Labour politician defending Jackdaw decision"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-22-004",
+      "target": "info:entity:person:Kemi Badenoch",
+      "relation": "Conservative leader urging repeal of oil and gas licence ban"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-22-004",
+      "target": "info:entity:company:Adura",
+      "relation": "Joint venture operator of Jackdaw gas field (Shell‑Equinor)"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-22-004",
+      "target": "info:entity:person:Miatta Fahnbulleh",
+      "relation": "UK Energy Secretary supporting the approval"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-22-004",
+      "target": "info:item:politics:global:2026-10-21-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-22-004",
+      "target": "info:item:politics:global:2026-10-21-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-22-004",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-22-004",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-22-004",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-22-004",
+      "target": "taxonomy/topic/politics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-22-004",
+      "target": "taxonomy/misc/energy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-22-004",
+      "target": "taxonomy/misc/climate",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-22-005",
+      "target": "info:entity:person:Jeffrey Donaldson",
+      "relation": "alleged perpetrator; former DUP leader and MP"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-22-005",
+      "target": "info:entity:organization:Metropolitan Police",
+      "relation": "investigating authority for alleged rape"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-22-005",
+      "target": "info:entity:organization:Police Service of Northern Ireland (PSNI)",
+      "relation": "initial reporting and interview authority"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-22-005",
+      "target": "info:entity:organization:Democratic Unionist Party (DUP)",
+      "relation": "political party of Donaldson; location of alleged assault"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-22-005",
+      "target": "info:item:politics:global:2026-10-22-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-22-005",
+      "target": "info:item:politics:global:2026-10-21-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-22-005",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-22-005",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-22-005",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-22-005",
+      "target": "taxonomy/topic/politics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-22-005",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-22-005",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-10-22-006",
+      "target": "info:entity:company:OpenAI",
+      "relation": "LLM provider"
+    },
+    {
+      "source": "info:item:products:global:2026-10-22-006",
+      "target": "info:entity:model:GPT-4",
+      "relation": "benchmark for Needle’s text generation"
+    },
+    {
+      "source": "info:item:products:global:2026-10-22-006",
+      "target": "info:entity:company:Anthropic",
+      "relation": "LLM partner"
+    },
+    {
+      "source": "info:item:products:global:2026-10-22-006",
+      "target": "info:entity:model:Gemini",
+      "relation": "LLM partner"
+    },
+    {
+      "source": "info:item:products:global:2026-10-22-006",
+      "target": "info:item:products:global:2026-10-21-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-10-22-006",
+      "target": "info:item:products:global:2026-10-20-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-10-22-006",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-10-22-006",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-10-22-006",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-10-22-006",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-10-22-006",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-10-22-006",
+      "target": "taxonomy/misc/regulation",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-10-22-007",
+      "target": "info:entity:company:Nimbalyst",
+      "relation": "developer of Nimbalyst Wiki"
+    },
+    {
+      "source": "info:item:products:global:2026-10-22-007",
+      "target": "info:entity:model:GPT‑4‑Turbo",
+      "relation": "default LLM integration"
+    },
+    {
+      "source": "info:item:products:global:2026-10-22-007",
+      "target": "info:entity:model:Claude",
+      "relation": "alternative LLM integration"
+    },
+    {
+      "source": "info:item:products:global:2026-10-22-007",
+      "target": "info:entity:concept:agentic AI",
+      "relation": "core architectural paradigm"
+    },
+    {
+      "source": "info:item:products:global:2026-10-22-007",
+      "target": "info:item:products:global:2026-10-21-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-10-22-007",
+      "target": "info:item:products:global:2026-10-21-007",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-10-22-007",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-10-22-007",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-10-22-007",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-10-22-007",
+      "target": "taxonomy/misc/AI Tools",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-10-22-007",
+      "target": "taxonomy/misc/Enterprise Software",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-10-22-007",
+      "target": "taxonomy/misc/Open-source Projects",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -38649,6 +39171,24 @@
     {
       "source": "info:entity:company:21 Air",
       "target": "info:entity:person:Jennifer Homendy",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Adura",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Adura",
+      "target": "info:entity:person:Kemi Badenoch",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Adura",
+      "target": "info:entity:person:Miatta Fahnbulleh",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -38788,7 +39328,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
-      "weight": "70"
+      "weight": "71"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -38948,6 +39488,12 @@
     },
     {
       "source": "info:entity:company:Anthropic",
+      "target": "info:entity:model:GPT-4",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
       "target": "info:entity:model:GPT-4-Turbo",
       "relation": "co-occurs",
       "weight": "1"
@@ -38974,7 +39520,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "28"
+      "weight": "29"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -40399,6 +40945,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:company:Nimbalyst",
+      "target": "info:entity:concept:agentic AI",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Nimbalyst",
+      "target": "info:entity:model:Claude",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Nimbalyst",
+      "target": "info:entity:model:GPT‑4‑Turbo",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:company:Nvidia",
       "target": "info:entity:concept:AI data centers",
       "relation": "co-occurs",
@@ -40634,6 +41198,12 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:model:GPT-4",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:model:GPT-4-Turbo",
       "relation": "co-occurs",
       "weight": "1"
@@ -40660,7 +41230,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "44"
+      "weight": "45"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -42896,6 +43466,12 @@
     },
     {
       "source": "info:entity:concept:agentic AI",
+      "target": "info:entity:model:Claude",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:agentic AI",
       "target": "info:entity:model:GPT-4",
       "relation": "co-occurs",
       "weight": "1"
@@ -42903,6 +43479,12 @@
     {
       "source": "info:entity:concept:agentic AI",
       "target": "info:entity:model:GPT-4‑Turbo",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:agentic AI",
+      "target": "info:entity:model:GPT‑4‑Turbo",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -43442,6 +44024,12 @@
     },
     {
       "source": "info:entity:model:Claude",
+      "target": "info:entity:model:GPT‑4‑Turbo",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Claude",
       "target": "info:entity:model:GPT‑6.1 Astra",
       "relation": "co-occurs",
       "weight": "1"
@@ -43582,7 +44170,7 @@
       "source": "info:entity:model:GPT-4",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:model:GPT-4",
@@ -43768,7 +44356,7 @@
       "source": "info:entity:model:Gemini",
       "target": "info:entity:organization:OpenAI",
       "relation": "co-occurs",
-      "weight": "12"
+      "weight": "13"
     },
     {
       "source": "info:entity:model:Gemini",
@@ -44012,15 +44600,21 @@
     },
     {
       "source": "info:entity:model:Gemini",
+      "target": "info:entity:person:Steve Witkoff",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
       "target": "info:entity:person:Vladimir Putin",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:model:Gemini",
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:model:Gemini",
@@ -45649,6 +46243,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Democratic Unionist Party (DUP)",
+      "target": "info:entity:organization:Metropolitan Police",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Democratic Unionist Party (DUP)",
+      "target": "info:entity:organization:Police Service of Northern Ireland (PSNI)",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Democratic Unionist Party (DUP)",
+      "target": "info:entity:person:Jeffrey Donaldson",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Department for Environment, Food & Rural Affairs",
       "target": "info:entity:organization:Dog Control Coalition",
       "relation": "co-occurs",
@@ -45994,7 +46606,7 @@
       "source": "info:entity:organization:European Union",
       "target": "info:entity:person:Benjamin Netanyahu",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:organization:European Union",
@@ -46006,13 +46618,13 @@
       "source": "info:entity:organization:European Union",
       "target": "info:entity:person:Donald Trump",
       "relation": "co-occurs",
-      "weight": "7"
+      "weight": "8"
     },
     {
       "source": "info:entity:organization:European Union",
       "target": "info:entity:person:Emmanuel Macron",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:European Union",
@@ -47804,6 +48416,12 @@
     },
     {
       "source": "info:entity:organization:Metropolitan Police",
+      "target": "info:entity:organization:Police Service of Northern Ireland (PSNI)",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Metropolitan Police",
       "target": "info:entity:organization:Reform UK",
       "relation": "co-occurs",
       "weight": "1"
@@ -47817,6 +48435,12 @@
     {
       "source": "info:entity:organization:Metropolitan Police",
       "target": "info:entity:person:James Orr",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Metropolitan Police",
+      "target": "info:entity:person:Jeffrey Donaldson",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -48452,15 +49076,21 @@
     },
     {
       "source": "info:entity:organization:OpenAI",
-      "target": "info:entity:person:Vladimir Putin",
+      "target": "info:entity:person:Steve Witkoff",
       "relation": "co-occurs",
       "weight": "1"
     },
     {
       "source": "info:entity:organization:OpenAI",
+      "target": "info:entity:person:Vladimir Putin",
+      "relation": "co-occurs",
+      "weight": "2"
+    },
+    {
+      "source": "info:entity:organization:OpenAI",
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:OpenAI",
@@ -48561,6 +49191,12 @@
     {
       "source": "info:entity:organization:Plaid Cymru",
       "target": "info:entity:person:Nigel Farage",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Police Service of Northern Ireland (PSNI)",
+      "target": "info:entity:person:Jeffrey Donaldson",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -50464,7 +51100,7 @@
       "source": "info:entity:person:Andy Burnham",
       "target": "info:entity:person:Kemi Badenoch",
       "relation": "co-occurs",
-      "weight": "9"
+      "weight": "10"
     },
     {
       "source": "info:entity:person:Andy Burnham",
@@ -50512,7 +51148,7 @@
       "source": "info:entity:person:Andy Burnham",
       "target": "info:entity:person:Miatta Fahnbulleh",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Andy Burnham",
@@ -50819,6 +51455,18 @@
       "target": "info:entity:person:Captain Smit Machchhar",
       "relation": "co-occurs",
       "weight": "4"
+    },
+    {
+      "source": "info:entity:person:Benjamin Netanyahu",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Benjamin Netanyahu",
+      "target": "info:entity:person:Emmanuel Macron",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:person:Benjamin Netanyahu",
@@ -51280,7 +51928,7 @@
       "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:Emmanuel Macron",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Donald Trump",
@@ -51448,7 +52096,7 @@
       "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:Steve Witkoff",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:person:Donald Trump",
@@ -51472,13 +52120,13 @@
       "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:Vladimir Putin",
       "relation": "co-occurs",
-      "weight": "9"
+      "weight": "10"
     },
     {
       "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
-      "weight": "12"
+      "weight": "13"
     },
     {
       "source": "info:entity:person:Donald Trump",
@@ -52286,6 +52934,12 @@
     },
     {
       "source": "info:entity:person:Kemi Badenoch",
+      "target": "info:entity:person:Miatta Fahnbulleh",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Kemi Badenoch",
       "target": "info:entity:person:Nigel Farage",
       "relation": "co-occurs",
       "weight": "3"
@@ -52654,13 +53308,13 @@
       "source": "info:entity:person:Steve Witkoff",
       "target": "info:entity:person:Vladimir Putin",
       "relation": "co-occurs",
-      "weight": "4"
+      "weight": "6"
     },
     {
       "source": "info:entity:person:Steve Witkoff",
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
-      "weight": "4"
+      "weight": "6"
     },
     {
       "source": "info:entity:person:Steve Witkoff",
@@ -52720,7 +53374,7 @@
       "source": "info:entity:person:Vladimir Putin",
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
-      "weight": "15"
+      "weight": "17"
     },
     {
       "source": "info:entity:person:Vladimir Putin",

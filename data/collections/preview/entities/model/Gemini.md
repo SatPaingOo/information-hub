@@ -1,7 +1,7 @@
 ---
 name: "Gemini"
 entity_type: model
-backlink_count: 63
+backlink_count: 65
 ---
 
 # Gemini
@@ -10,6 +10,8 @@ backlink_count: 63
 
 ## Referenced by
 
+- 2026-10-22 · [[2026-10-22-002-rosenberg-us-diplomatic-push-offers-little-hope-for]] — Rosenberg: US diplomatic push offers little hope for imminent Ukraine peace
+- 2026-10-22 · [[2026-10-22-006-needle]] — Needle
 - 2026-10-21 · [[2026-10-21-004-uk-government-expected-to-approve-jackdaw-gas-field]] — UK government expected to approve Jackdaw gas field
 - 2026-10-21 · [[2026-10-21-006-harness]] — Harness²
 - 2026-10-21 · [[2026-10-21-007-lugh-xtudio]] — Lugh Xtudio

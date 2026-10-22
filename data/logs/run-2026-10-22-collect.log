@@ -1,0 +1,19 @@
+2026-10-22 01:03:26,546 INFO [world-news] published 2026-10-22-001 — Missiles hit Kyiv after Russia agrees to US call to resume U
+2026-10-22 01:04:03,083 INFO [world-news] published 2026-10-22-002 — Rosenberg: US diplomatic push offers little hope for imminen
+2026-10-22 01:04:40,821 INFO [world-news] published 2026-10-22-003 — Macron accuses foreign leaders of exploiting French riots
+2026-10-22 01:04:49,193 INFO [tech-news] nothing selected
+2026-10-22 01:05:42,759 INFO [politics] published 2026-10-22-004 — Burnham defends Jackdaw decision as Badenoch urges PM to ove
+2026-10-22 01:06:37,290 INFO [politics] published 2026-10-22-005 — Jailed former DUP leader Jeffrey Donaldson being investigate
+2026-10-22 01:08:02,542 INFO [products] published 2026-10-22-006 — Needle
+2026-10-22 01:08:06,824 INFO [products] published 2026-10-22-007 — Nimbalyst Wiki – Agentic AI‑Powered Knowledge Management for
+2026-10-22 01:08:07,316 INFO collect done: 7 item(s) published — target 3/10, next run ≈ 2026-10-22T01:23:07+00:00 UTC
+2026-10-22 01:08:09,498 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7135, Requested 7283. Please try again in 48.135s. Need more tokens? Upgrade to Dev Tier today at https://con
+2026-10-22 01:08:15,337 ERROR [world-news] generate error: HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
+
+2026-10-22 01:08:21,339 WARNING [world-news] no collect provider for deep-dive
+2026-10-22 01:08:21,457 WARNING [world-news] no collect provider for deep-dive
+2026-10-22 01:08:21,600 WARNING [world-news] no collect provider for deep-dive
+2026-10-22 01:08:22,803 WARNING [tech-news] no collect provider available
+2026-10-22 01:08:23,028 WARNING [politics] no collect provider available
+2026-10-22 01:08:23,894 WARNING [products] no collect provider available
+2026-10-22 01:08:24,149 INFO collect done: 0 item(s) published — target 3/10, next run ≈ 2026-10-23T01:00:00+00:00 UTC

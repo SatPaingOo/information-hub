@@ -1,7 +1,7 @@
 ---
 node: "Agentic AI"
 layer: misc
-item_count: 90
+item_count: 91
 ---
 
 # Agentic AI
@@ -17,6 +17,7 @@ item_count: 90
 
 ## Items
 
+- 2026-10-22 · [[2026-10-22-006-needle]] — Needle
 - 2026-10-21 · [[2026-10-21-006-harness]] — Harness²
 - 2026-10-20 · [[2026-10-20-001-ex-openai-worker-accused-of-planting-device-had-saudi]] — Ex-OpenAI worker accused of planting device had Saudi support, says court filing
 - 2026-10-20 · [[2026-10-20-006-beam-win]] — Beam.win

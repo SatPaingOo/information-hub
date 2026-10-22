@@ -1,7 +1,7 @@
 ---
 name: "Anthropic"
 entity_type: company
-backlink_count: 85
+backlink_count: 86
 ---
 
 # Anthropic
@@ -10,6 +10,7 @@ backlink_count: 85
 
 ## Referenced by
 
+- 2026-10-22 · [[2026-10-22-006-needle]] — Needle
 - 2026-10-21 · [[2026-10-21-006-harness]] — Harness²
 - 2026-10-21 · [[2026-10-21-007-lugh-xtudio]] — Lugh Xtudio
 - 2026-10-18 · [[2026-10-18-002-a-wave-of-homemade-synthetic-drugs-sweeps-us-and-deepens]] — A wave of homemade, synthetic drugs sweeps US and deepens crisis

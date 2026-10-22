@@ -1,7 +1,7 @@
 ---
 name: "Agentic AI"
 entity_type: concept
-backlink_count: 31
+backlink_count: 32
 ---
 
 # Agentic AI
@@ -10,6 +10,7 @@ backlink_count: 31
 
 ## Referenced by
 
+- 2026-10-22 · [[2026-10-22-007-nimbalyst-wiki-agentic-ai-powered-knowledge-management-for]] — Nimbalyst Wiki – Agentic AI‑Powered Knowledge Management for Teams
 - 2026-10-21 · [[2026-10-21-006-harness]] — Harness²
 - 2026-10-21 · [[2026-10-21-007-lugh-xtudio]] — Lugh Xtudio
 - 2026-10-13 · [[2026-10-13-007-squadroom-ai-employees-that-work-24-7]] — SquadRoom – AI Employees That Work 24/7

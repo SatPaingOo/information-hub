@@ -1,7 +1,7 @@
 ---
 node: "Regulation"
 layer: misc
-item_count: 39
+item_count: 40
 ---
 
 # Regulation
@@ -17,6 +17,7 @@ item_count: 39
 
 ## Items
 
+- 2026-10-22 · [[2026-10-22-006-needle]] — Needle
 - 2026-10-21 · [[2026-10-21-006-harness]] — Harness²
 - 2026-10-20 · [[2026-10-20-004-burnham-vows-end-to-rip-off-parking-charges-under-new-rules]] — Burnham vows end to 'rip‑off parking charges' under new rules
 - 2026-10-20 · [[2026-10-20-001-ex-openai-worker-accused-of-planting-device-had-saudi]] — Ex-OpenAI worker accused of planting device had Saudi support, says court filing

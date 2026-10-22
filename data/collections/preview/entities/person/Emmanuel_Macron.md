@@ -1,7 +1,7 @@
 ---
 name: "Emmanuel Macron"
 entity_type: person
-backlink_count: 12
+backlink_count: 13
 ---
 
 # Emmanuel Macron
@@ -10,6 +10,7 @@ backlink_count: 12
 
 ## Referenced by
 
+- 2026-10-22 · [[2026-10-22-003-macron-accuses-foreign-leaders-of-exploiting-french-riots]] — Macron accuses foreign leaders of exploiting French riots
 - 2026-10-21 · [[2026-10-21-002-france-is-divided-over-who-to-blame-for-weekend-riots-and]] — France is divided over who to blame for weekend riots and what to learn from them
 - 2026-10-19 · [[2026-10-19-001-macron-calls-for-calm-and-order-after-riots-across-france]] — Macron calls for 'calm and order' after riots across France
 - 2026-10-19 · [[2026-10-19-002-very-upsetting-residents-in-shock-after-historic-french]] — 'Very upsetting': Residents in shock after historic French town hall set alight
