@@ -1,0 +1,66 @@
+---
+id: "info:item:world:global:2026-10-23-003"
+key: "2026-10-23-003"
+date: 2026-10-23
+content_type: digest
+topic: world
+region: global
+categories: ["policy", "industry"]
+source: "feeds.bbci.co.uk"
+source_url: "https://www.bbc.co.uk/news/articles/cr5ynl63v0pyo?at_medium=RSS&at_campaign=rss"
+word_count: 764
+tags: ["Yemen", "humanitarian crisis", "malnutrition", "conflict", "UN"]
+---
+
+# Newborn twins fight for survival as conflict fuels Yemen's hunger crisis
+
+> [!summary] TL;DR — Twin infants Raghad and Raad, just seven weeks old, are battling severe acute malnutrition after their family fled Houthi‑occupied villages in Yemen’s mountains. The conflict has intensified the nation’s hunger crisis, leaving over 800,000 people without aid and displacing more than 250,000. At al‑Sadaqah hospital in Aden, limited resources and funding threaten the twins’ survival.
+
+## Background
+
+Yemen’s protracted civil war between the internationally recognised government and Houthi rebels has entered a new, more brutal phase. An informal ceasefire collapsed in the summer of 2026, prompting a rapid Houthi advance along the Red Sea coast and the complete封锁 of the strategic city of Taiz. The United Nations reports that roughly 800,000 Yemenis have been cut off from life‑saving assistance, while more than 250,000 have been displaced. The war has driven up food prices, crippled supply routes, and left health facilities like al‑Sadaqah hospital in Aden operating at a fraction of their former capacity. The twins’ father, Bajash Ali Sagir Hassan, a shepherd, described a three‑day trek on foot with blankets as the only protection from bombs, missiles, and drone attacks. The family’s ordeal exemplifies how the conflict is not only a political struggle but also a humanitarian catastrophe that is deepening malnutrition, especially among the most vulnerable—newborns and young children.
+
+## Humanitarian Impact and Civilian Displacement
+
+The twins’ story is a microcosm of the broader humanitarian crisis. Over 800,000 people are now denied essential aid, and the displacement figure exceeds a quarter‑million. The Houthi offensive has cut off critical supply lines, especially to Taiz, Yemen’s third‑largest city, leaving civilians "at grave risk" according to the UN. Families like Bajash’s are forced to flee on foot, carrying only what they can grab, often with infants in their arms. The lack of transportation, combined with soaring prices for baby formula and fortified milk, means that many parents cannot meet the nutritional needs of their children. The situation is exacerbated by the collapse of the informal ceasefire, which had offered even a modicum of relief to besieged communities.
+
+## Health System Collapse and Resource Constraints
+
+Al‑Sadaqah hospital in Aden illustrates the dire state of Yemen’s health infrastructure. With only 22 beds, staff limit admissions to the most critical cases—13 at any given time—due to shortages of international funding, medical personnel, and equipment. Dr. Noor Mohammed, a young physician, laments the lack of ventilators, oxygen cylinders, and laboratory capacity, noting that patients are lost because of these deficiencies. The malnutrition unit operates like a conveyor belt: as severely ill infants are discharged, new arrivals stream in, and many return repeatedly because families cannot afford proper nutrition, vitamins, or antibiotics. The twins’ condition—severe acute malnutrition—mirrors the broader epidemic that the UN estimates will affect half a million Yemeni children this year alone.
+
+## Geopolitical Dimensions and International Response
+
+The conflict is being fought with external support. The internationally recognised government receives backing from Saudi air strikes, while the Houthis have secured a rapid advance along the Red Sea coast, tightening their grip on key ports. This external involvement prolongs the war and intensifies civilian suffering. The UN’s calls for increased aid and protection of civilians have been largely ineffective, as the collapse of the ceasefire removed a fragile pathway for humanitarian convoys. Meanwhile, the international community’s focus on other crises and the weight of ongoing sanctions have limited the flow of resources. The twins’ plight underscores how geopolitical rivalries directly translate into life‑or‑death outcomes for ordinary Yemenis, especially the most defenseless.
+
+## Key facts
+
+- The twins, Raghad and Raad, are seven weeks old and suffer from severe acute malnutrition after fleeing Houthi‑controlled villages in Yemen’s mountains.
+- The UN reports that about 800,000 Yemenis have lost access to life‑saving aid and over 250,000 have been displaced since the ceasefire collapsed.
+- Al‑Sadaqah hospital in Aden has only 22 beds, admitting at most 13 critical patients at a time due to funding, staff, and equipment shortages.
+- The Houthi advance has completely封锁了Taiz, Yemen’s third‑largest city, cutting off food and medical supplies to its civilian population.
+
+## Implications
+
+- The ongoing conflict threatens to create a generation of malnourished children, with long‑term health and developmental consequences.
+- Limited international funding and political will risk entrenching a cycle of dependency on under‑staffed health facilities, undermining any post‑conflict recovery.
+- The blockade of Taiz and other strategic areas could have regional security ramifications, potentially drawing in additional external actors.
+
+## Outlook
+
+Unless a sustainable political solution is reached and humanitarian corridors are established, Yemen’s hunger crisis will continue to worsen. The twins’ survival will depend on immediate access to fortified milk, medical care, and sustained international assistance. The broader population faces a looming famine that could claim hundreds of thousands more lives, underscoring the urgent need for a coordinated global response that prioritizes civilian protection and the restoration of basic services.
+
+## Entities
+
+- [[Houthis]] — *organization* (rebels fighting against Yemen's government)
+- [[Dr_Noor_Mohammed]] — *person* (doctor treating malnutrition cases at al‑Sadaqah hospital)
+- [[United_Nations]] — *organization* (provides aid figures and calls for protection of civilians)
+- [[Bajash_Ali_Sagir_Hassan]] — *person* (father of the twins, a shepherd who fled the conflict)
+
+## Related
+
+- [[2026-10-23-001-hospitals-deliberately-targeted-by-sudan-s-rsf-fighters]]
+- [[2026-10-23-002-trump-says-musk-has-restored-access-to-ukraine-s-starlink]]
+
+---
+
+*Source: [feeds.bbci.co.uk](https://www.bbc.co.uk/news/articles/cr5ynl63v0pyo?at_medium=RSS&at_campaign=rss)*

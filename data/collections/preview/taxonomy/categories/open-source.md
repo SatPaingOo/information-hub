@@ -1,7 +1,7 @@
 ---
 node: "open-source"
 layer: category
-item_count: 35
+item_count: 40
 ---
 
 # open-source
@@ -20,6 +20,11 @@ item_count: 35
 
 ## Items
 
+- 2026-10-23 · [[2026-10-23-004-left-alone-with-nothing-to-do-ai-agents-started-playing]] — Left alone with nothing to do, AI agents started playing
+- 2026-10-23 · [[2026-10-23-004-left-alone-with-nothing-to-do-ai-agents-started-playing]] — Left alone with nothing to do, AI agents started playing
+- 2026-10-23 · [[2026-10-23-005-openai-working-on-new-30b-raise-at-1-25t-valuation-ahead]] — OpenAI working on new $30B raise at $1.25T valuation ahead of IPO
+- 2026-10-23 · [[2026-10-23-006-rivian-buys-world-model-startup-to-accelerate-self-driving]] — Rivian buys world model startup to accelerate self-driving ambitions
+- 2026-10-23 · [[2026-10-23-006-rivian-buys-world-model-startup-to-accelerate-self-driving]] — Rivian buys world model startup to accelerate self-driving ambitions
 - 2026-10-17 · [[2026-10-17-004-india-becomes-the-latest-country-to-report-rogue-ai-agent]] — India becomes the latest country to report rogue AI agent activity
 - 2026-10-17 · [[2026-10-17-004-india-becomes-the-latest-country-to-report-rogue-ai-agent]] — India becomes the latest country to report rogue AI agent activity
 - 2026-10-17 · [[2026-10-17-005-replit-is-no-longer-working-with-anthropic-ceo-says]] — Replit is no longer working with Anthropic, CEO says

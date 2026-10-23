@@ -1,7 +1,7 @@
 ---
 name: "Gemini"
 entity_type: model
-backlink_count: 65
+backlink_count: 66
 ---
 
 # Gemini
@@ -10,6 +10,7 @@ backlink_count: 65
 
 ## Referenced by
 
+- 2026-10-23 · [[2026-10-23-005-openai-working-on-new-30b-raise-at-1-25t-valuation-ahead]] — OpenAI working on new $30B raise at $1.25T valuation ahead of IPO
 - 2026-10-22 · [[2026-10-22-002-rosenberg-us-diplomatic-push-offers-little-hope-for]] — Rosenberg: US diplomatic push offers little hope for imminent Ukraine peace
 - 2026-10-22 · [[2026-10-22-006-needle]] — Needle
 - 2026-10-21 · [[2026-10-21-004-uk-government-expected-to-approve-jackdaw-gas-field]] — UK government expected to approve Jackdaw gas field

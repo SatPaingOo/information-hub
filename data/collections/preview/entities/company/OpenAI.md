@@ -1,7 +1,7 @@
 ---
 name: "OpenAI"
 entity_type: company
-backlink_count: 139
+backlink_count: 140
 ---
 
 # OpenAI
@@ -10,6 +10,7 @@ backlink_count: 139
 
 ## Referenced by
 
+- 2026-10-23 · [[2026-10-23-005-openai-working-on-new-30b-raise-at-1-25t-valuation-ahead]] — OpenAI working on new $30B raise at $1.25T valuation ahead of IPO
 - 2026-10-22 · [[2026-10-22-002-rosenberg-us-diplomatic-push-offers-little-hope-for]] — Rosenberg: US diplomatic push offers little hope for imminent Ukraine peace
 - 2026-10-22 · [[2026-10-22-006-needle]] — Needle
 - 2026-10-21 · [[2026-10-21-002-france-is-divided-over-who-to-blame-for-weekend-riots-and]] — France is divided over who to blame for weekend riots and what to learn from them

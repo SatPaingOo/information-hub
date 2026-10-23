@@ -1,7 +1,7 @@
 ---
 node: "product"
 layer: category
-item_count: 100
+item_count: 103
 ---
 
 # product
@@ -19,6 +19,9 @@ item_count: 100
 
 ## Items
 
+- 2026-10-23 · [[2026-10-23-004-left-alone-with-nothing-to-do-ai-agents-started-playing]] — Left alone with nothing to do, AI agents started playing
+- 2026-10-23 · [[2026-10-23-005-openai-working-on-new-30b-raise-at-1-25t-valuation-ahead]] — OpenAI working on new $30B raise at $1.25T valuation ahead of IPO
+- 2026-10-23 · [[2026-10-23-006-rivian-buys-world-model-startup-to-accelerate-self-driving]] — Rivian buys world model startup to accelerate self-driving ambitions
 - 2026-10-22 · [[2026-10-22-006-needle]] — Needle
 - 2026-10-22 · [[2026-10-22-007-nimbalyst-wiki-agentic-ai-powered-knowledge-management-for]] — Nimbalyst Wiki – Agentic AI‑Powered Knowledge Management for Teams
 - 2026-10-21 · [[2026-10-21-006-harness]] — Harness²

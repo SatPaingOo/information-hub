@@ -1,7 +1,7 @@
 ---
 node: "world"
 layer: topic
-item_count: 269
+item_count: 272
 ---
 
 # world
@@ -17,6 +17,9 @@ item_count: 269
 
 ## Items
 
+- 2026-10-23 · [[2026-10-23-001-hospitals-deliberately-targeted-by-sudan-s-rsf-fighters]] — Hospitals deliberately targeted by Sudan's RSF fighters, BBC investigation finds
+- 2026-10-23 · [[2026-10-23-002-trump-says-musk-has-restored-access-to-ukraine-s-starlink]] — Trump says Musk has restored access to Ukraine's Starlink network
+- 2026-10-23 · [[2026-10-23-003-newborn-twins-fight-for-survival-as-conflict-fuels-yemen-s]] — Newborn twins fight for survival as conflict fuels Yemen's hunger crisis
 - 2026-10-22 · [[2026-10-22-001-missiles-hit-kyiv-after-russia-agrees-to-us-call-to-resume]] — Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks
 - 2026-10-22 · [[2026-10-22-002-rosenberg-us-diplomatic-push-offers-little-hope-for]] — Rosenberg: US diplomatic push offers little hope for imminent Ukraine peace
 - 2026-10-22 · [[2026-10-22-002-rosenberg-us-diplomatic-push-offers-little-hope-for]] — Rosenberg: US diplomatic push offers little hope for imminent Ukraine peace

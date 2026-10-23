@@ -1,7 +1,7 @@
 ---
 name: "Anthropic"
 entity_type: company
-backlink_count: 86
+backlink_count: 87
 ---
 
 # Anthropic
@@ -10,6 +10,7 @@ backlink_count: 86
 
 ## Referenced by
 
+- 2026-10-23 · [[2026-10-23-005-openai-working-on-new-30b-raise-at-1-25t-valuation-ahead]] — OpenAI working on new $30B raise at $1.25T valuation ahead of IPO
 - 2026-10-22 · [[2026-10-22-006-needle]] — Needle
 - 2026-10-21 · [[2026-10-21-006-harness]] — Harness²
 - 2026-10-21 · [[2026-10-21-007-lugh-xtudio]] — Lugh Xtudio

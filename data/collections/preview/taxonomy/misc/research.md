@@ -1,7 +1,7 @@
 ---
 node: "research"
 layer: misc
-item_count: 24
+item_count: 27
 ---
 
 # research
@@ -14,6 +14,9 @@ item_count: 24
 
 ## Items
 
+- 2026-10-23 · [[2026-10-23-004-left-alone-with-nothing-to-do-ai-agents-started-playing]] — Left alone with nothing to do, AI agents started playing
+- 2026-10-23 · [[2026-10-23-005-openai-working-on-new-30b-raise-at-1-25t-valuation-ahead]] — OpenAI working on new $30B raise at $1.25T valuation ahead of IPO
+- 2026-10-23 · [[2026-10-23-006-rivian-buys-world-model-startup-to-accelerate-self-driving]] — Rivian buys world model startup to accelerate self-driving ambitions
 - 2026-10-17 · [[2026-10-17-004-india-becomes-the-latest-country-to-report-rogue-ai-agent]] — India becomes the latest country to report rogue AI agent activity
 - 2026-10-17 · [[2026-10-17-005-replit-is-no-longer-working-with-anthropic-ceo-says]] — Replit is no longer working with Anthropic, CEO says
 - 2026-09-15 · [[2026-09-15-004-openai-buys-smartphone-camera-maker-glass-imaging-for-300]] — OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says

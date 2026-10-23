@@ -1,7 +1,7 @@
 ---
 name: "United Nations"
 entity_type: organization
-backlink_count: 8
+backlink_count: 9
 ---
 
 # United Nations
@@ -10,6 +10,7 @@ backlink_count: 8
 
 ## Referenced by
 
+- 2026-10-23 · [[2026-10-23-003-newborn-twins-fight-for-survival-as-conflict-fuels-yemen-s]] — Newborn twins fight for survival as conflict fuels Yemen's hunger crisis
 - 2026-10-16 · [[2026-10-16-006-trump-cancels-planned-livestream-of-fort-hood-attacker-s]] — Trump Cancels Planned Livestream of Fort Hood Attacker’s Execution by Firing Squad
 - 2026-10-08 · [[2026-10-08-002-israelis-mourn-7-october-attack-victims-three-years-after]] — Israelis mourn 7 October attack victims three years after deadly Hamas raid
 - 2026-09-28 · [[2026-09-28-001-inside-yemen-s-front-line-city-as-houthis-battle-for-control]] — Inside Yemen's front-line city as Houthis battle for control

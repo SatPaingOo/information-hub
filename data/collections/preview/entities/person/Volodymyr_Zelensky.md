@@ -1,7 +1,7 @@
 ---
 name: "Volodymyr Zelensky"
 entity_type: person
-backlink_count: 34
+backlink_count: 35
 ---
 
 # Volodymyr Zelensky
@@ -10,6 +10,7 @@ backlink_count: 34
 
 ## Referenced by
 
+- 2026-10-23 · [[2026-10-23-002-trump-says-musk-has-restored-access-to-ukraine-s-starlink]] — Trump says Musk has restored access to Ukraine's Starlink network
 - 2026-10-22 · [[2026-10-22-001-missiles-hit-kyiv-after-russia-agrees-to-us-call-to-resume]] — Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks
 - 2026-10-22 · [[2026-10-22-002-rosenberg-us-diplomatic-push-offers-little-hope-for]] — Rosenberg: US diplomatic push offers little hope for imminent Ukraine peace
 - 2026-10-21 · [[2026-10-21-001-us-envoy-to-meet-putin-in-russia-as-zelensky-says]] — US envoy to meet Putin in Russia as Zelensky says intelligence sharing 'works now'

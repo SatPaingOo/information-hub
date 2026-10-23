@@ -8903,6 +8903,148 @@
       "name": "Open-source Projects"
     },
     {
+      "id": "info:item:world:global:2026-10-23-001",
+      "type": "item",
+      "date": "2026-10-23",
+      "title": "Hospitals deliberately targeted by Sudan's RSF fighters, BBC investigation finds"
+    },
+    {
+      "id": "info:entity:organization:Rapid Support Forces (RSF)",
+      "type": "organization",
+      "name": "Rapid Support Forces (RSF)"
+    },
+    {
+      "id": "info:entity:person:Volker Türk",
+      "type": "person",
+      "name": "Volker Türk"
+    },
+    {
+      "id": "info:entity:organization:World Health Organization (WHO)",
+      "type": "organization",
+      "name": "World Health Organization (WHO)"
+    },
+    {
+      "id": "taxonomy/misc/Armed Conflict",
+      "type": "taxonomy",
+      "name": "Armed Conflict"
+    },
+    {
+      "id": "taxonomy/misc/Health Policy",
+      "type": "taxonomy",
+      "name": "Health Policy"
+    },
+    {
+      "id": "info:item:world:global:2026-10-23-002",
+      "type": "item",
+      "date": "2026-10-23",
+      "title": "Trump says Musk has restored access to Ukraine's Starlink network"
+    },
+    {
+      "id": "info:item:world:global:2026-10-23-003",
+      "type": "item",
+      "date": "2026-10-23",
+      "title": "Newborn twins fight for survival as conflict fuels Yemen's hunger crisis"
+    },
+    {
+      "id": "info:entity:person:Dr Noor Mohammed",
+      "type": "person",
+      "name": "Dr Noor Mohammed"
+    },
+    {
+      "id": "info:entity:person:Bajash Ali Sagir Hassan",
+      "type": "person",
+      "name": "Bajash Ali Sagir Hassan"
+    },
+    {
+      "id": "info:item:ai-ml:global:2026-10-23-004",
+      "type": "item",
+      "date": "2026-10-23",
+      "title": "Left alone with nothing to do, AI agents started playing"
+    },
+    {
+      "id": "info:entity:organization:MIT",
+      "type": "organization",
+      "name": "MIT"
+    },
+    {
+      "id": "info:entity:model:Claude Opus 4.7",
+      "type": "model",
+      "name": "Claude Opus 4.7"
+    },
+    {
+      "id": "info:entity:person:Eunice Yiu",
+      "type": "person",
+      "name": "Eunice Yiu"
+    },
+    {
+      "id": "info:entity:concept:Play‑driven learning",
+      "type": "concept",
+      "name": "Play‑driven learning"
+    },
+    {
+      "id": "info:item:ai-ml:global:2026-10-23-005",
+      "type": "item",
+      "date": "2026-10-23",
+      "title": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO"
+    },
+    {
+      "id": "info:entity:organization:Coatue",
+      "type": "organization",
+      "name": "Coatue"
+    },
+    {
+      "id": "info:entity:region:United Arab Emirates",
+      "type": "region",
+      "name": "United Arab Emirates"
+    },
+    {
+      "id": "info:item:ai-ml:global:2026-10-23-006",
+      "type": "item",
+      "date": "2026-10-23",
+      "title": "Rivian buys world model startup to accelerate self-driving ambitions"
+    },
+    {
+      "id": "info:entity:company:Rivian",
+      "type": "company",
+      "name": "Rivian"
+    },
+    {
+      "id": "info:entity:company:Third Dimension",
+      "type": "company",
+      "name": "Third Dimension"
+    },
+    {
+      "id": "info:entity:person:James Philbin",
+      "type": "person",
+      "name": "James Philbin"
+    },
+    {
+      "id": "info:entity:person:Tolga Kart",
+      "type": "person",
+      "name": "Tolga Kart"
+    },
+    {
+      "id": "taxonomy/misc/self-driving",
+      "type": "taxonomy",
+      "name": "self-driving"
+    },
+    {
+      "id": "info:item:politics:global:2026-10-23-007",
+      "type": "item",
+      "date": "2026-10-23",
+      "title": "UK to draft in military aircraft to fight wildfires, Burnham says"
+    },
+    {
+      "id": "taxonomy/misc/Climate Change",
+      "type": "taxonomy",
+      "name": "Climate Change"
+    },
+    {
+      "id": "taxonomy/misc/Wildfire Management",
+      "type": "taxonomy",
+      "name": "Wildfire Management"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -39041,6 +39183,486 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-10-23-001",
+      "target": "info:entity:organization:Rapid Support Forces (RSF)",
+      "relation": "alleged perpetrator of hospital attacks"
+    },
+    {
+      "source": "info:item:world:global:2026-10-23-001",
+      "target": "info:entity:person:Volker Türk",
+      "relation": "UN Human Rights Chief who condemned the attacks"
+    },
+    {
+      "source": "info:item:world:global:2026-10-23-001",
+      "target": "info:entity:organization:BBC",
+      "relation": "investigative outlet that uncovered the attacks"
+    },
+    {
+      "source": "info:item:world:global:2026-10-23-001",
+      "target": "info:entity:organization:World Health Organization (WHO)",
+      "relation": "condemned the bombing of al‑Daein hospital and commented on el‑Fasher"
+    },
+    {
+      "source": "info:item:world:global:2026-10-23-001",
+      "target": "info:item:world:global:2026-10-22-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-23-001",
+      "target": "info:item:world:global:2026-10-22-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-23-001",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-23-001",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-23-001",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-23-001",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-23-001",
+      "target": "taxonomy/misc/Human Rights",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-23-001",
+      "target": "taxonomy/misc/Armed Conflict",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-23-001",
+      "target": "taxonomy/misc/Health Policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-23-002",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "U.S. President who confirmed Starlink restoration"
+    },
+    {
+      "source": "info:item:world:global:2026-10-23-002",
+      "target": "info:entity:person:Elon Musk",
+      "relation": "CEO of SpaceX, operator of Starlink"
+    },
+    {
+      "source": "info:item:world:global:2026-10-23-002",
+      "target": "info:entity:product:Starlink",
+      "relation": "Commercial satellite internet service used by Ukraine"
+    },
+    {
+      "source": "info:item:world:global:2026-10-23-002",
+      "target": "info:entity:company:SpaceX",
+      "relation": "Provider of Starlink/Starshield infrastructure"
+    },
+    {
+      "source": "info:item:world:global:2026-10-23-002",
+      "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "President of Ukraine, reported on Starlink performance"
+    },
+    {
+      "source": "info:item:world:global:2026-10-23-002",
+      "target": "info:entity:person:Marco Rubio",
+      "relation": "U.S. Secretary of State, contacted by Zelensky regarding Starlink"
+    },
+    {
+      "source": "info:item:world:global:2026-10-23-002",
+      "target": "info:item:world:global:2026-10-23-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-23-002",
+      "target": "info:item:world:global:2026-10-22-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-23-002",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-23-002",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-23-002",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-23-002",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-23-002",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-23-002",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-23-002",
+      "target": "taxonomy/category/industry",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-23-003",
+      "target": "info:entity:organization:Houthis",
+      "relation": "rebels fighting against Yemen's government"
+    },
+    {
+      "source": "info:item:world:global:2026-10-23-003",
+      "target": "info:entity:person:Dr Noor Mohammed",
+      "relation": "doctor treating malnutrition cases at al‑Sadaqah hospital"
+    },
+    {
+      "source": "info:item:world:global:2026-10-23-003",
+      "target": "info:entity:organization:United Nations",
+      "relation": "provides aid figures and calls for protection of civilians"
+    },
+    {
+      "source": "info:item:world:global:2026-10-23-003",
+      "target": "info:entity:person:Bajash Ali Sagir Hassan",
+      "relation": "father of the twins, a shepherd who fled the conflict"
+    },
+    {
+      "source": "info:item:world:global:2026-10-23-003",
+      "target": "info:item:world:global:2026-10-23-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-23-003",
+      "target": "info:item:world:global:2026-10-23-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-23-003",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-23-003",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-23-003",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-23-003",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-23-003",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-23-003",
+      "target": "taxonomy/misc/humanitarian aid",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-23-003",
+      "target": "taxonomy/misc/Middle East",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-23-004",
+      "target": "info:entity:organization:MIT",
+      "relation": "researcher"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-23-004",
+      "target": "info:entity:model:Claude Opus 4.7",
+      "relation": "underlying LLM for Eko agents"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-23-004",
+      "target": "info:entity:person:Eunice Yiu",
+      "relation": "cognitive scientist commenting on cognition"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-23-004",
+      "target": "info:entity:concept:Play‑driven learning",
+      "relation": "experimental paradigm"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-23-004",
+      "target": "info:item:ai-ml:global:2026-10-17-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-23-004",
+      "target": "info:item:ai-ml:global:2026-09-15-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-23-004",
+      "target": "taxonomy/topic/ai-ml",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-23-004",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-23-004",
+      "target": "taxonomy/category/research",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-23-004",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-23-004",
+      "target": "taxonomy/category/open-source",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-23-004",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-23-004",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-23-004",
+      "target": "taxonomy/category/open-source",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-23-005",
+      "target": "info:entity:company:OpenAI",
+      "relation": "subject of funding round and upcoming IPO"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-23-005",
+      "target": "info:entity:person:Sam Altman",
+      "relation": "CEO leading OpenAI’s fundraising and IPO strategy"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-23-005",
+      "target": "info:entity:organization:Coatue",
+      "relation": "lead investor in the new funding round"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-23-005",
+      "target": "info:entity:region:United Arab Emirates",
+      "relation": "sovereign investor and potential provider of compute resources"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-23-005",
+      "target": "info:entity:company:Anthropic",
+      "relation": "competitor targeting a $1.5‑$2 trillion IPO valuation"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-23-005",
+      "target": "info:entity:model:Gemini",
+      "relation": "Google’s AI model competing in the valuation race"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-23-005",
+      "target": "info:item:ai-ml:global:2026-10-23-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-23-005",
+      "target": "info:item:ai-ml:global:2026-10-17-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-23-005",
+      "target": "taxonomy/topic/ai-ml",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-23-005",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-23-005",
+      "target": "taxonomy/category/research",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-23-005",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-23-005",
+      "target": "taxonomy/category/open-source",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-23-005",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-23-005",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-23-005",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-23-006",
+      "target": "info:entity:company:Rivian",
+      "relation": "acquirer"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-23-006",
+      "target": "info:entity:company:Third Dimension",
+      "relation": "acquired startup"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-23-006",
+      "target": "info:entity:person:James Philbin",
+      "relation": "leads Rivian autonomy and AI team"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-23-006",
+      "target": "info:entity:person:Tolga Kart",
+      "relation": "CEO of Third Dimension"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-23-006",
+      "target": "info:item:ai-ml:global:2026-10-23-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-23-006",
+      "target": "info:item:ai-ml:global:2026-10-23-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-23-006",
+      "target": "taxonomy/topic/ai-ml",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-23-006",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-23-006",
+      "target": "taxonomy/category/research",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-23-006",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-23-006",
+      "target": "taxonomy/category/open-source",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-23-006",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-23-006",
+      "target": "taxonomy/category/open-source",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:ai-ml:global:2026-10-23-006",
+      "target": "taxonomy/misc/self-driving",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-23-007",
+      "target": "info:entity:organization:Royal Air Force",
+      "relation": "provides aircraft for wildfire suppression"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-23-007",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "Prime Minister who announced the strategy"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-23-007",
+      "target": "info:item:politics:global:2026-10-22-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-23-007",
+      "target": "info:item:politics:global:2026-10-22-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-23-007",
+      "target": "info:item:politics:global:2026-10-21-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-23-007",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-23-007",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-23-007",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-23-007",
+      "target": "taxonomy/misc/Climate Change",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-23-007",
+      "target": "taxonomy/misc/Wildfire Management",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-23-007",
+      "target": "taxonomy/misc/Defense Policy",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -39328,7 +39950,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
-      "weight": "71"
+      "weight": "72"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -39520,7 +40142,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "29"
+      "weight": "30"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -39603,6 +40225,12 @@
     {
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:organization:Centers for Disease Control and Prevention (CDC)",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:organization:Coatue",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -39802,7 +40430,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:person:Sam Altman",
       "relation": "co-occurs",
-      "weight": "9"
+      "weight": "10"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -39971,6 +40599,12 @@
       "target": "info:entity:region:Myanmar",
       "relation": "co-occurs",
       "weight": "15"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:region:United Arab Emirates",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -41230,7 +41864,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "45"
+      "weight": "46"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -41301,6 +41935,12 @@
     {
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:organization:Centers for Disease Control and Prevention (CDC)",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:organization:Coatue",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -41764,7 +42404,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Sam Altman",
       "relation": "co-occurs",
-      "weight": "11"
+      "weight": "12"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -41966,6 +42606,12 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:region:United Arab Emirates",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:region:Uttarakhand",
       "relation": "co-occurs",
       "weight": "1"
@@ -42027,6 +42673,24 @@
     {
       "source": "info:entity:company:Product Hunt",
       "target": "info:entity:product:SimpleSpread",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Rivian",
+      "target": "info:entity:company:Third Dimension",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Rivian",
+      "target": "info:entity:person:James Philbin",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Rivian",
+      "target": "info:entity:person:Tolga Kart",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -42148,11 +42812,17 @@
       "source": "info:entity:company:SpaceX",
       "target": "info:entity:person:Donald Trump",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:company:SpaceX",
       "target": "info:entity:person:Elon Musk",
+      "relation": "co-occurs",
+      "weight": "2"
+    },
+    {
+      "source": "info:entity:company:SpaceX",
+      "target": "info:entity:person:Marco Rubio",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -42160,13 +42830,13 @@
       "source": "info:entity:company:SpaceX",
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:company:SpaceX",
       "target": "info:entity:product:Starlink",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:company:Speakeasy",
@@ -42261,6 +42931,18 @@
     {
       "source": "info:entity:company:Tesla",
       "target": "info:entity:product:Starlink",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Third Dimension",
+      "target": "info:entity:person:James Philbin",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Third Dimension",
+      "target": "info:entity:person:Tolga Kart",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -43279,6 +43961,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:concept:Play‑driven learning",
+      "target": "info:entity:model:Claude Opus 4.7",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Play‑driven learning",
+      "target": "info:entity:organization:MIT",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Play‑driven learning",
+      "target": "info:entity:person:Eunice Yiu",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:concept:Principal Component Analysis",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
@@ -44137,6 +44837,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:model:Claude Opus 4.7",
+      "target": "info:entity:organization:MIT",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Claude Opus 4.7",
+      "target": "info:entity:person:Eunice Yiu",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:model:Codex",
       "target": "info:entity:person:Tristan Buckmaster",
       "relation": "co-occurs",
@@ -44301,6 +45013,12 @@
     {
       "source": "info:entity:model:Gemini",
       "target": "info:entity:organization:Centers for Disease Control and Prevention (CDC)",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
+      "target": "info:entity:organization:Coatue",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -44590,7 +45308,7 @@
       "source": "info:entity:model:Gemini",
       "target": "info:entity:person:Sam Altman",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:model:Gemini",
@@ -44693,6 +45411,12 @@
       "target": "info:entity:region:Myanmar",
       "relation": "co-occurs",
       "weight": "8"
+    },
+    {
+      "source": "info:entity:model:Gemini",
+      "target": "info:entity:region:United Arab Emirates",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:model:Gemini",
@@ -45380,6 +46104,18 @@
     },
     {
       "source": "info:entity:organization:BBC",
+      "target": "info:entity:organization:Rapid Support Forces (RSF)",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:BBC",
+      "target": "info:entity:organization:World Health Organization (WHO)",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:BBC",
       "target": "info:entity:person:Anoushka Mutanda-Dougherty",
       "relation": "co-occurs",
       "weight": "1"
@@ -45405,6 +46141,12 @@
     {
       "source": "info:entity:organization:BBC",
       "target": "info:entity:person:Tupac Shakur",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:BBC",
+      "target": "info:entity:person:Volker Türk",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -45999,6 +46741,18 @@
     {
       "source": "info:entity:organization:Christian Democratic Union (CDU)",
       "target": "info:entity:person:Ulrich Siegmund",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Coatue",
+      "target": "info:entity:person:Sam Altman",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Coatue",
+      "target": "info:entity:region:United Arab Emirates",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -47458,7 +48212,7 @@
       "source": "info:entity:organization:Houthis",
       "target": "info:entity:organization:United Nations",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Houthis",
@@ -47474,9 +48228,21 @@
     },
     {
       "source": "info:entity:organization:Houthis",
+      "target": "info:entity:person:Bajash Ali Sagir Hassan",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Houthis",
       "target": "info:entity:person:Donald Trump",
       "relation": "co-occurs",
       "weight": "2"
+    },
+    {
+      "source": "info:entity:organization:Houthis",
+      "target": "info:entity:person:Dr Noor Mohammed",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:organization:Houthis",
@@ -48321,6 +49087,12 @@
     {
       "source": "info:entity:organization:MBDA",
       "target": "info:entity:product:Storm Shadow",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:MIT",
+      "target": "info:entity:person:Eunice Yiu",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -49285,6 +50057,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Rapid Support Forces (RSF)",
+      "target": "info:entity:organization:World Health Organization (WHO)",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Rapid Support Forces (RSF)",
+      "target": "info:entity:person:Volker Türk",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Reform UK",
       "target": "info:entity:organization:Royal and VIP Executive Committee (RAVEC)",
       "relation": "co-occurs",
@@ -49467,6 +50251,12 @@
     {
       "source": "info:entity:organization:Royal Air Force",
       "target": "info:entity:organization:United States Department of Defense",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Royal Air Force",
+      "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -50498,6 +51288,12 @@
     },
     {
       "source": "info:entity:organization:United Nations",
+      "target": "info:entity:person:Bajash Ali Sagir Hassan",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:United Nations",
       "target": "info:entity:person:Benjamin Netanyahu",
       "relation": "co-occurs",
       "weight": "2"
@@ -50507,6 +51303,12 @@
       "target": "info:entity:person:Donald Trump",
       "relation": "co-occurs",
       "weight": "2"
+    },
+    {
+      "source": "info:entity:organization:United Nations",
+      "target": "info:entity:person:Dr Noor Mohammed",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:organization:United Nations",
@@ -50841,6 +51643,12 @@
     {
       "source": "info:entity:organization:World Food Programme",
       "target": "info:entity:region:Gaza Strip",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:World Health Organization (WHO)",
+      "target": "info:entity:person:Volker Türk",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -51397,6 +52205,12 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:person:Bajash Ali Sagir Hassan",
+      "target": "info:entity:person:Dr Noor Mohammed",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:person:Balendra Shah",
       "target": "info:entity:region:Tibet",
       "relation": "co-occurs",
@@ -51922,7 +52736,7 @@
       "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:Elon Musk",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:person:Donald Trump",
@@ -52042,7 +52856,7 @@
       "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:Marco Rubio",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:person:Donald Trump",
@@ -52126,7 +52940,7 @@
       "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
-      "weight": "13"
+      "weight": "14"
     },
     {
       "source": "info:entity:person:Donald Trump",
@@ -52155,6 +52969,12 @@
     {
       "source": "info:entity:person:Donald Trump",
       "target": "info:entity:product:Samsung Galaxy Fold 8",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Donald Trump",
+      "target": "info:entity:product:Starlink",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -52316,6 +53136,12 @@
     },
     {
       "source": "info:entity:person:Elon Musk",
+      "target": "info:entity:person:Marco Rubio",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Elon Musk",
       "target": "info:entity:person:Sam Altman",
       "relation": "co-occurs",
       "weight": "3"
@@ -52330,13 +53156,13 @@
       "source": "info:entity:person:Elon Musk",
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:person:Elon Musk",
       "target": "info:entity:product:Starlink",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Elon Musk",
@@ -52613,6 +53439,12 @@
       "target": "info:entity:person:Nigel Farage",
       "relation": "co-occurs",
       "weight": "4"
+    },
+    {
+      "source": "info:entity:person:James Philbin",
+      "target": "info:entity:person:Tolga Kart",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:person:Jamieson Greer",
@@ -53089,6 +53921,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:person:Marco Rubio",
+      "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Marco Rubio",
+      "target": "info:entity:product:Starlink",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:person:Maricarmen Abascal",
       "target": "info:entity:person:Mónica García",
       "relation": "co-occurs",
@@ -53275,6 +54119,12 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:person:Sam Altman",
+      "target": "info:entity:region:United Arab Emirates",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:person:Sarah Khalifa",
       "target": "info:entity:region:Egypt",
       "relation": "co-occurs",
@@ -53399,6 +54249,12 @@
       "target": "info:entity:product:Scalp missile",
       "relation": "co-occurs",
       "weight": "2"
+    },
+    {
+      "source": "info:entity:person:Volodymyr Zelensky",
+      "target": "info:entity:product:Starlink",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:person:Volodymyr Zelensky",

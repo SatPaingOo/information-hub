@@ -1,7 +1,7 @@
 ---
 name: "Donald Trump"
 entity_type: person
-backlink_count: 72
+backlink_count: 73
 ---
 
 # Donald Trump
@@ -10,6 +10,7 @@ backlink_count: 72
 
 ## Referenced by
 
+- 2026-10-23 · [[2026-10-23-002-trump-says-musk-has-restored-access-to-ukraine-s-starlink]] — Trump says Musk has restored access to Ukraine's Starlink network
 - 2026-10-22 · [[2026-10-22-001-missiles-hit-kyiv-after-russia-agrees-to-us-call-to-resume]] — Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks
 - 2026-10-22 · [[2026-10-22-003-macron-accuses-foreign-leaders-of-exploiting-french-riots]] — Macron accuses foreign leaders of exploiting French riots
 - 2026-10-21 · [[2026-10-21-009-trump-and-zelensky-appear-at-loggerheads-despite-oslo]] — Trump and Zelensky appear at loggerheads despite Oslo optimism

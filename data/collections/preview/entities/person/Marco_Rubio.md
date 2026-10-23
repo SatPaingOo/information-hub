@@ -1,7 +1,7 @@
 ---
 name: "Marco Rubio"
 entity_type: person
-backlink_count: 6
+backlink_count: 7
 ---
 
 # Marco Rubio
@@ -10,6 +10,7 @@ backlink_count: 6
 
 ## Referenced by
 
+- 2026-10-23 · [[2026-10-23-002-trump-says-musk-has-restored-access-to-ukraine-s-starlink]] — Trump says Musk has restored access to Ukraine's Starlink network
 - 2026-10-11 · [[2026-10-11-003-twelve-killed-in-attack-on-airport-in-saudi-capital-riyadh]] — Twelve killed in attack on airport in Saudi capital Riyadh
 - 2026-10-10 · [[2026-10-10-003-us-unveils-sanctions-on-icc-in-move-court-condemns-as]] — US unveils sanctions on ICC in move court condemns as 'assault on rule of law'
 - 2026-10-06 · [[2026-10-06-001-trump-says-threat-led-us-to-pull-bombers-from-raf-fairford]] — Trump says 'threat' led US to pull bombers from RAF Fairford

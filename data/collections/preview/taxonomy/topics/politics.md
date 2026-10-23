@@ -1,7 +1,7 @@
 ---
 node: "politics"
 layer: topic
-item_count: 163
+item_count: 164
 ---
 
 # politics
@@ -17,6 +17,7 @@ item_count: 163
 
 ## Items
 
+- 2026-10-23 · [[2026-10-23-007-uk-to-draft-in-military-aircraft-to-fight-wildfires]] — UK to draft in military aircraft to fight wildfires, Burnham says
 - 2026-10-22 · [[2026-10-22-004-burnham-defends-jackdaw-decision-as-badenoch-urges-pm-to]] — Burnham defends Jackdaw decision as Badenoch urges PM to overturn ban on new oil and gas licences
 - 2026-10-22 · [[2026-10-22-004-burnham-defends-jackdaw-decision-as-badenoch-urges-pm-to]] — Burnham defends Jackdaw decision as Badenoch urges PM to overturn ban on new oil and gas licences
 - 2026-10-22 · [[2026-10-22-005-jailed-former-dup-leader-jeffrey-donaldson-being]] — Jailed former DUP leader Jeffrey Donaldson being investigated over alleged rape inside Parliament

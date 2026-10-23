@@ -1,7 +1,7 @@
 ---
 node: "Agentic AI"
 layer: misc
-item_count: 91
+item_count: 94
 ---
 
 # Agentic AI
@@ -17,6 +17,9 @@ item_count: 91
 
 ## Items
 
+- 2026-10-23 · [[2026-10-23-004-left-alone-with-nothing-to-do-ai-agents-started-playing]] — Left alone with nothing to do, AI agents started playing
+- 2026-10-23 · [[2026-10-23-005-openai-working-on-new-30b-raise-at-1-25t-valuation-ahead]] — OpenAI working on new $30B raise at $1.25T valuation ahead of IPO
+- 2026-10-23 · [[2026-10-23-006-rivian-buys-world-model-startup-to-accelerate-self-driving]] — Rivian buys world model startup to accelerate self-driving ambitions
 - 2026-10-22 · [[2026-10-22-006-needle]] — Needle
 - 2026-10-21 · [[2026-10-21-006-harness]] — Harness²
 - 2026-10-20 · [[2026-10-20-001-ex-openai-worker-accused-of-planting-device-had-saudi]] — Ex-OpenAI worker accused of planting device had Saudi support, says court filing

@@ -1,7 +1,7 @@
 ---
 node: "Global"
 layer: misc
-item_count: 464
+item_count: 471
 ---
 
 # Global
@@ -25,6 +25,13 @@ item_count: 464
 
 ## Items
 
+- 2026-10-23 · [[2026-10-23-001-hospitals-deliberately-targeted-by-sudan-s-rsf-fighters]] — Hospitals deliberately targeted by Sudan's RSF fighters, BBC investigation finds
+- 2026-10-23 · [[2026-10-23-002-trump-says-musk-has-restored-access-to-ukraine-s-starlink]] — Trump says Musk has restored access to Ukraine's Starlink network
+- 2026-10-23 · [[2026-10-23-003-newborn-twins-fight-for-survival-as-conflict-fuels-yemen-s]] — Newborn twins fight for survival as conflict fuels Yemen's hunger crisis
+- 2026-10-23 · [[2026-10-23-004-left-alone-with-nothing-to-do-ai-agents-started-playing]] — Left alone with nothing to do, AI agents started playing
+- 2026-10-23 · [[2026-10-23-005-openai-working-on-new-30b-raise-at-1-25t-valuation-ahead]] — OpenAI working on new $30B raise at $1.25T valuation ahead of IPO
+- 2026-10-23 · [[2026-10-23-006-rivian-buys-world-model-startup-to-accelerate-self-driving]] — Rivian buys world model startup to accelerate self-driving ambitions
+- 2026-10-23 · [[2026-10-23-007-uk-to-draft-in-military-aircraft-to-fight-wildfires]] — UK to draft in military aircraft to fight wildfires, Burnham says
 - 2026-10-22 · [[2026-10-22-001-missiles-hit-kyiv-after-russia-agrees-to-us-call-to-resume]] — Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks
 - 2026-10-22 · [[2026-10-22-002-rosenberg-us-diplomatic-push-offers-little-hope-for]] — Rosenberg: US diplomatic push offers little hope for imminent Ukraine peace
 - 2026-10-22 · [[2026-10-22-003-macron-accuses-foreign-leaders-of-exploiting-french-riots]] — Macron accuses foreign leaders of exploiting French riots
