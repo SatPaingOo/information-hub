@@ -9136,6 +9136,42 @@
       "name": "La France Insoumise"
     },
     {
+      "id": "info:item:world:global:2026-10-24-008",
+      "type": "item",
+      "date": "2026-10-24",
+      "title": "Woman, 65, becomes second patient to die of Ebola in Kenya"
+    },
+    {
+      "id": "info:entity:organization:World Health Organization",
+      "type": "organization",
+      "name": "World Health Organization"
+    },
+    {
+      "id": "info:entity:organization:International Rescue Committee",
+      "type": "organization",
+      "name": "International Rescue Committee"
+    },
+    {
+      "id": "info:entity:concept:Bundibugyo Ebola virus",
+      "type": "concept",
+      "name": "Bundibugyo Ebola virus"
+    },
+    {
+      "id": "info:entity:organization:Kenya Ministry of Health",
+      "type": "organization",
+      "name": "Kenya Ministry of Health"
+    },
+    {
+      "id": "taxonomy/misc/global health security",
+      "type": "taxonomy",
+      "name": "global health security"
+    },
+    {
+      "id": "taxonomy/misc/infectious disease policy",
+      "type": "taxonomy",
+      "name": "infectious disease policy"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -40134,6 +40170,71 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-10-24-008",
+      "target": "info:entity:organization:World Health Organization",
+      "relation": "providing technical guidance and coordinating international response"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-008",
+      "target": "info:entity:organization:International Rescue Committee",
+      "relation": "partnering with Kenyan authorities on treatment and logistics"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-008",
+      "target": "info:entity:concept:Bundibugyo Ebola virus",
+      "relation": "pathogen strain responsible for the Kenyan cases"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-008",
+      "target": "info:entity:organization:Kenya Ministry of Health",
+      "relation": "lead agency managing quarantine, screening, and public communication"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-008",
+      "target": "info:item:world:global:2026-10-24-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-008",
+      "target": "info:item:world:global:2026-10-24-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-008",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-008",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-008",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-008",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-008",
+      "target": "taxonomy/misc/global health security",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-008",
+      "target": "taxonomy/misc/infectious disease policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-008",
+      "target": "taxonomy/misc/emerging technologies",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -43930,6 +44031,24 @@
     {
       "source": "info:entity:concept:Buddhist Lent (Vassa)",
       "target": "info:entity:region:Sagaing region",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Bundibugyo Ebola virus",
+      "target": "info:entity:organization:International Rescue Committee",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Bundibugyo Ebola virus",
+      "target": "info:entity:organization:Kenya Ministry of Health",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Bundibugyo Ebola virus",
+      "target": "info:entity:organization:World Health Organization",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -48986,6 +49105,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:International Rescue Committee",
+      "target": "info:entity:organization:Kenya Ministry of Health",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:International Rescue Committee",
+      "target": "info:entity:organization:World Health Organization",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:International Tribunal for the Law of the Sea (ITLOS)",
       "target": "info:entity:person:Javier Milei",
       "relation": "co-occurs",
@@ -49282,6 +49413,12 @@
     {
       "source": "info:entity:organization:Kathimerini",
       "target": "info:entity:person:Unnamed 82‑year‑old victim",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Kenya Ministry of Health",
+      "target": "info:entity:organization:World Health Organization",
       "relation": "co-occurs",
       "weight": "1"
     },
