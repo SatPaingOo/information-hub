@@ -1,7 +1,7 @@
 ---
 node: "product"
 layer: category
-item_count: 103
+item_count: 104
 ---
 
 # product
@@ -19,6 +19,7 @@ item_count: 103
 
 ## Items
 
+- 2026-10-24 · [[2026-10-24-006-dotmd]] — DotMD
 - 2026-10-23 · [[2026-10-23-004-left-alone-with-nothing-to-do-ai-agents-started-playing]] — Left alone with nothing to do, AI agents started playing
 - 2026-10-23 · [[2026-10-23-005-openai-working-on-new-30b-raise-at-1-25t-valuation-ahead]] — OpenAI working on new $30B raise at $1.25T valuation ahead of IPO
 - 2026-10-23 · [[2026-10-23-006-rivian-buys-world-model-startup-to-accelerate-self-driving]] — Rivian buys world model startup to accelerate self-driving ambitions

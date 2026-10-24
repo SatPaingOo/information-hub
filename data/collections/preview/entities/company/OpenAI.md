@@ -1,7 +1,7 @@
 ---
 name: "OpenAI"
 entity_type: company
-backlink_count: 140
+backlink_count: 142
 ---
 
 # OpenAI
@@ -10,6 +10,8 @@ backlink_count: 140
 
 ## Referenced by
 
+- 2026-10-24 · [[2026-10-24-001-deadly-shooting-near-paris-is-a-racist-terrorist-attack]] — Deadly shooting near Paris is a 'racist terrorist attack', Macron says
+- 2026-10-24 · [[2026-10-24-003-arrest-made-after-fire-at-hitler-s-eagle-s-nest-retreat]] — Arrest made after fire at Hitler's Eagle's Nest retreat
 - 2026-10-23 · [[2026-10-23-005-openai-working-on-new-30b-raise-at-1-25t-valuation-ahead]] — OpenAI working on new $30B raise at $1.25T valuation ahead of IPO
 - 2026-10-22 · [[2026-10-22-002-rosenberg-us-diplomatic-push-offers-little-hope-for]] — Rosenberg: US diplomatic push offers little hope for imminent Ukraine peace
 - 2026-10-22 · [[2026-10-22-006-needle]] — Needle

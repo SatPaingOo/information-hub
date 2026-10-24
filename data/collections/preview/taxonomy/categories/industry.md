@@ -1,7 +1,7 @@
 ---
 node: "industry"
 layer: category
-item_count: 304
+item_count: 308
 ---
 
 # industry
@@ -21,6 +21,10 @@ item_count: 304
 
 ## Items
 
+- 2026-10-24 · [[2026-10-24-001-deadly-shooting-near-paris-is-a-racist-terrorist-attack]] — Deadly shooting near Paris is a 'racist terrorist attack', Macron says
+- 2026-10-24 · [[2026-10-24-002-seven-shot-dead-by-gunmen-at-church-funeral-in-jordan]] — Seven shot dead by gunmen at church funeral in Jordan, officials say
+- 2026-10-24 · [[2026-10-24-003-arrest-made-after-fire-at-hitler-s-eagle-s-nest-retreat]] — Arrest made after fire at Hitler's Eagle's Nest retreat
+- 2026-10-24 · [[2026-10-24-007-france-prepares-for-day-of-protest-a-week-after-nationwide]] — France prepares for day of protest a week after nationwide riots
 - 2026-10-23 · [[2026-10-23-001-hospitals-deliberately-targeted-by-sudan-s-rsf-fighters]] — Hospitals deliberately targeted by Sudan's RSF fighters, BBC investigation finds
 - 2026-10-23 · [[2026-10-23-002-trump-says-musk-has-restored-access-to-ukraine-s-starlink]] — Trump says Musk has restored access to Ukraine's Starlink network
 - 2026-10-23 · [[2026-10-23-002-trump-says-musk-has-restored-access-to-ukraine-s-starlink]] — Trump says Musk has restored access to Ukraine's Starlink network

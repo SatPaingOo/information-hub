@@ -1,0 +1,21 @@
+2026-10-24 04:26:41,262 INFO [world-news] model returned no selection — using heuristic fallback (3)
+2026-10-24 04:27:05,185 INFO [world-news] published 2026-10-24-001 — Deadly shooting near Paris is a 'racist terrorist attack', M
+2026-10-24 04:27:39,942 INFO [world-news] published 2026-10-24-002 — Seven shot dead by gunmen at church funeral in Jordan, offic
+2026-10-24 04:28:04,687 INFO [world-news] published 2026-10-24-003 — Arrest made after fire at Hitler's Eagle's Nest retreat
+2026-10-24 04:28:09,424 INFO [tech-news] nothing selected
+2026-10-24 04:28:51,331 INFO [politics] published 2026-10-24-004 — Chancellor says he will cut 'pointless paperwork' to save bu
+2026-10-24 04:34:03,178 ERROR [products] generate error: empty model content
+2026-10-24 04:34:06,458 ERROR [products] generate error: HTTP 429: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"poolside/laguna-xs-2.1:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Poolside","is_byok":fa
+2026-10-24 04:35:10,614 ERROR [products] generate error: bad response: Unterminated string starting at: line 18 column 17 (char 628)
+2026-10-24 04:35:44,604 INFO [products] published 2026-10-24-006 — DotMD
+2026-10-24 04:35:45,098 INFO collect done: 5 item(s) published — target 5/10, next run ≈ 2026-10-24T04:50:45+00:00 UTC
+2026-10-24 04:36:27,092 INFO [world-news] published 2026-10-24-007 — France prepares for day of protest a week after nationwide r
+2026-10-24 04:36:31,910 INFO [world-news] attempt 1 invalid: ["entities/3/type: 'country' is not one of ['concept', 'company', 'model', 'person', 'product', 'region', 'organization', 'event']"]
+2026-10-24 04:36:32,008 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7426, Requested 6481. Please try again in 44.3025s. Need more tokens? Upgrade to Dev Tier today at https://co
+2026-10-24 04:36:40,809 ERROR [world-news] generate error: HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
+
+2026-10-24 04:36:49,930 WARNING [world-news] no collect provider for deep-dive
+2026-10-24 04:36:50,425 WARNING [tech-news] no collect provider available
+2026-10-24 04:36:50,862 WARNING [politics] no collect provider available
+2026-10-24 04:36:52,062 WARNING [products] no collect provider available
+2026-10-24 04:36:52,522 INFO collect done: 1 item(s) published — target 4/10, next run ≈ 2026-10-25T01:00:00+00:00 UTC

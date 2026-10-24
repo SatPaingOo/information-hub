@@ -1,7 +1,7 @@
 ---
 node: "Middle East"
 layer: misc
-item_count: 9
+item_count: 10
 ---
 
 # Middle East
@@ -16,6 +16,7 @@ item_count: 9
 
 ## Items
 
+- 2026-10-24 · [[2026-10-24-002-seven-shot-dead-by-gunmen-at-church-funeral-in-jordan]] — Seven shot dead by gunmen at church funeral in Jordan, officials say
 - 2026-10-23 · [[2026-10-23-003-newborn-twins-fight-for-survival-as-conflict-fuels-yemen-s]] — Newborn twins fight for survival as conflict fuels Yemen's hunger crisis
 - 2026-10-08 · [[2026-10-08-002-israelis-mourn-7-october-attack-victims-three-years-after]] — Israelis mourn 7 October attack victims three years after deadly Hamas raid
 - 2026-10-07 · [[2026-10-07-004-green-member-behind-zionism-motion-named-as-close-friend]] — Green member behind Zionism motion named as 'close friend' of jailed al-Qaeda supporter in court

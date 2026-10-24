@@ -1,7 +1,7 @@
 ---
 node: "products"
 layer: topic
-item_count: 77
+item_count: 78
 ---
 
 # products
@@ -16,6 +16,7 @@ item_count: 77
 
 ## Items
 
+- 2026-10-24 · [[2026-10-24-006-dotmd]] — DotMD
 - 2026-10-22 · [[2026-10-22-006-needle]] — Needle
 - 2026-10-22 · [[2026-10-22-007-nimbalyst-wiki-agentic-ai-powered-knowledge-management-for]] — Nimbalyst Wiki – Agentic AI‑Powered Knowledge Management for Teams
 - 2026-10-21 · [[2026-10-21-006-harness]] — Harness²

@@ -1,7 +1,7 @@
 ---
 name: "John Healey"
 entity_type: person
-backlink_count: 14
+backlink_count: 15
 ---
 
 # John Healey
@@ -10,6 +10,7 @@ backlink_count: 14
 
 ## Referenced by
 
+- 2026-10-24 · [[2026-10-24-004-chancellor-says-he-will-cut-pointless-paperwork-to-save]] — Chancellor says he will cut 'pointless paperwork' to save businesses up to £800m
 - 2026-10-16 · [[2026-10-16-004-banks-say-healey-is-planning-budget-tax-raid-on-their]] — Banks say Healey is planning Budget tax raid on their profits
 - 2026-10-14 · [[2026-10-14-003-zelensky-and-burnham-to-meet-in-downing-street]] — Zelensky and Burnham to meet in Downing Street
 - 2026-09-29 · [[2026-09-29-004-burnham-to-unveil-public-body-to-invest-in-electricity-grid]] — Burnham to unveil public body to invest in electricity grid

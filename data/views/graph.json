@@ -9045,6 +9045,97 @@
       "name": "Wildfire Management"
     },
     {
+      "id": "info:item:world:global:2026-10-24-001",
+      "type": "item",
+      "date": "2026-10-24",
+      "title": "Deadly shooting near Paris is a 'racist terrorist attack', Macron says"
+    },
+    {
+      "id": "info:entity:organization:National Anti‑Terrorist Prosecutor’s Office (PNAT)",
+      "type": "organization",
+      "name": "National Anti‑Terrorist Prosecutor’s Office (PNAT)"
+    },
+    {
+      "id": "info:item:world:global:2026-10-24-002",
+      "type": "item",
+      "date": "2026-10-24",
+      "title": "Seven shot dead by gunmen at church funeral in Jordan, officials say"
+    },
+    {
+      "id": "info:entity:person:King Abdullah II",
+      "type": "person",
+      "name": "King Abdullah II"
+    },
+    {
+      "id": "info:entity:organization:Jordanian Interior Ministry",
+      "type": "organization",
+      "name": "Jordanian Interior Ministry"
+    },
+    {
+      "id": "info:entity:concept:Extremist ideology",
+      "type": "concept",
+      "name": "Extremist ideology"
+    },
+    {
+      "id": "info:entity:region:Karak governorate",
+      "type": "region",
+      "name": "Karak governorate"
+    },
+    {
+      "id": "taxonomy/misc/religious freedom",
+      "type": "taxonomy",
+      "name": "religious freedom"
+    },
+    {
+      "id": "info:item:world:global:2026-10-24-003",
+      "type": "item",
+      "date": "2026-10-24",
+      "title": "Arrest made after fire at Hitler's Eagle's Nest retreat"
+    },
+    {
+      "id": "info:entity:person:Adolf Hitler",
+      "type": "person",
+      "name": "Adolf Hitler"
+    },
+    {
+      "id": "taxonomy/misc/heritage",
+      "type": "taxonomy",
+      "name": "heritage"
+    },
+    {
+      "id": "info:item:politics:global:2026-10-24-004",
+      "type": "item",
+      "date": "2026-10-24",
+      "title": "Chancellor says he will cut 'pointless paperwork' to save businesses up to £800m"
+    },
+    {
+      "id": "info:entity:organization:CBI",
+      "type": "organization",
+      "name": "CBI"
+    },
+    {
+      "id": "info:item:products:global:2026-10-24-006",
+      "type": "item",
+      "date": "2026-10-24",
+      "title": "DotMD"
+    },
+    {
+      "id": "info:item:world:global:2026-10-24-007",
+      "type": "item",
+      "date": "2026-10-24",
+      "title": "France prepares for day of protest a week after nationwide riots"
+    },
+    {
+      "id": "info:entity:organization:National Rally",
+      "type": "organization",
+      "name": "National Rally"
+    },
+    {
+      "id": "info:entity:organization:La France Insoumise",
+      "type": "organization",
+      "name": "La France Insoumise"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -39663,6 +39754,386 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-10-24-001",
+      "target": "info:entity:person:Emmanuel Macron",
+      "relation": "head of state responding to attack"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-001",
+      "target": "info:entity:company:OpenAI",
+      "relation": "AI model provider under regulatory scrutiny"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-001",
+      "target": "info:entity:model:Gemini",
+      "relation": "AI platform referenced for risk analytics"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-001",
+      "target": "info:entity:organization:National Anti‑Terrorist Prosecutor’s Office (PNAT)",
+      "relation": "investigating terrorist motive"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-001",
+      "target": "info:item:world:global:2026-10-23-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-001",
+      "target": "info:item:world:global:2026-10-23-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-001",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-001",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-001",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-001",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-001",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-001",
+      "target": "taxonomy/misc/counter-terrorism",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-001",
+      "target": "taxonomy/misc/European Union",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-002",
+      "target": "info:entity:person:King Abdullah II",
+      "relation": "head of state who vowed harsh penalties"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-002",
+      "target": "info:entity:organization:Jordanian Interior Ministry",
+      "relation": "led the investigation and manhunt"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-002",
+      "target": "info:entity:concept:Extremist ideology",
+      "relation": "suspected motive"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-002",
+      "target": "info:entity:region:Karak governorate",
+      "relation": "location of the attack"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-002",
+      "target": "info:item:world:global:2026-10-24-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-002",
+      "target": "info:item:world:global:2026-10-23-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-002",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-002",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-002",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-002",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-002",
+      "target": "taxonomy/misc/terrorism",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-002",
+      "target": "taxonomy/misc/Middle East",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-002",
+      "target": "taxonomy/misc/religious freedom",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-003",
+      "target": "info:entity:person:Adolf Hitler",
+      "relation": "historical occupant of the Kehlsteinhaus"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-003",
+      "target": "info:entity:organization:German Government",
+      "relation": "oversees protection of historic heritage sites"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-003",
+      "target": "info:entity:company:OpenAI",
+      "relation": "provides AI analytics for heritage risk management"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-003",
+      "target": "info:entity:model:Gemini",
+      "relation": "AI model used for predictive fire‑risk analysis"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-003",
+      "target": "info:item:world:global:2026-10-24-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-003",
+      "target": "info:item:world:global:2026-10-24-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-003",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-003",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-003",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-003",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-003",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-003",
+      "target": "taxonomy/misc/heritage",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-003",
+      "target": "taxonomy/misc/tourism",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-24-004",
+      "target": "info:entity:person:John Healey",
+      "relation": "Chancellor of the Exchequer announcing deregulation"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-24-004",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "Prime Minister supporting the reforms"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-24-004",
+      "target": "info:entity:organization:Labour Party",
+      "relation": "government party implementing the policy"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-24-004",
+      "target": "info:entity:organization:Conservative Party",
+      "relation": "opposition criticising the reforms"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-24-004",
+      "target": "info:entity:organization:CBI",
+      "relation": "business group welcoming the plans"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-24-004",
+      "target": "info:item:politics:global:2026-10-23-007",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-24-004",
+      "target": "info:item:politics:global:2026-10-22-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-24-004",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-24-004",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-24-004",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-24-004",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-24-004",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-24-004",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-10-24-006",
+      "target": "info:entity:model:OpenAI GPT‑4‑Turbo",
+      "relation": "primary LLM model supported for spec generation"
+    },
+    {
+      "source": "info:item:products:global:2026-10-24-006",
+      "target": "info:entity:model:Anthropic Claude",
+      "relation": "secondary LLM model integrated for cross‑model validation"
+    },
+    {
+      "source": "info:item:products:global:2026-10-24-006",
+      "target": "info:entity:person:Tristan Tate",
+      "relation": "co‑founder and vision leader of DotMD"
+    },
+    {
+      "source": "info:item:products:global:2026-10-24-006",
+      "target": "info:item:products:global:2026-10-22-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-10-24-006",
+      "target": "info:item:products:global:2026-10-22-007",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-10-24-006",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-10-24-006",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-10-24-006",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-10-24-006",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-10-24-006",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-10-24-006",
+      "target": "taxonomy/misc/regulation",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-007",
+      "target": "info:entity:person:Emmanuel Macron",
+      "relation": "President of France"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-007",
+      "target": "info:entity:person:Marine Le Pen",
+      "relation": "Leader of National Rally"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-007",
+      "target": "info:entity:organization:National Rally",
+      "relation": "Opposition party"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-007",
+      "target": "info:entity:organization:La France Insoumise",
+      "relation": "Left‑wing opposition movement"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-007",
+      "target": "info:item:world:global:2026-10-24-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-007",
+      "target": "info:item:world:global:2026-10-24-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-007",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-007",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-007",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-007",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-007",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-007",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-007",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -41864,7 +42335,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "46"
+      "weight": "48"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -41988,6 +42459,12 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:organization:German Government",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:organization:Greek Police",
       "relation": "co-occurs",
       "weight": "1"
@@ -42037,6 +42514,12 @@
     {
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:organization:NATO",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:organization:National Anti‑Terrorist Prosecutor’s Office (PNAT)",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -42141,6 +42624,12 @@
       "target": "info:entity:person:Abdulrahman Alfozan",
       "relation": "co-occurs",
       "weight": "2"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:person:Adolf Hitler",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -42290,7 +42779,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Emmanuel Macron",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -43565,6 +44054,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:concept:Extremist ideology",
+      "target": "info:entity:organization:Jordanian Interior Ministry",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Extremist ideology",
+      "target": "info:entity:person:King Abdullah II",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Extremist ideology",
+      "target": "info:entity:region:Karak governorate",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:concept:Fair Rents Guarantee",
       "target": "info:entity:concept:Renters’ Rights Act",
       "relation": "co-occurs",
@@ -44696,7 +45203,13 @@
       "source": "info:entity:model:Anthropic Claude",
       "target": "info:entity:model:OpenAI GPT‑4‑Turbo",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
+    },
+    {
+      "source": "info:entity:model:Anthropic Claude",
+      "target": "info:entity:person:Tristan Tate",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:model:Anthropic Claude",
@@ -45036,6 +45549,12 @@
     },
     {
       "source": "info:entity:model:Gemini",
+      "target": "info:entity:organization:German Government",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
       "target": "info:entity:organization:Google",
       "relation": "co-occurs",
       "weight": "1"
@@ -45067,6 +45586,12 @@
     {
       "source": "info:entity:model:Gemini",
       "target": "info:entity:organization:NATO",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
+      "target": "info:entity:organization:National Anti‑Terrorist Prosecutor’s Office (PNAT)",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -45126,6 +45651,12 @@
     },
     {
       "source": "info:entity:model:Gemini",
+      "target": "info:entity:person:Adolf Hitler",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
       "target": "info:entity:person:Aleksandar Vučić",
       "relation": "co-occurs",
       "weight": "1"
@@ -45176,7 +45707,7 @@
       "source": "info:entity:model:Gemini",
       "target": "info:entity:person:Emmanuel Macron",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:model:Gemini",
@@ -45715,6 +46246,12 @@
     {
       "source": "info:entity:model:OpenAI GPT‑4‑Turbo",
       "target": "info:entity:organization:European Union",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:OpenAI GPT‑4‑Turbo",
+      "target": "info:entity:person:Tristan Tate",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -46295,6 +46832,30 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:CBI",
+      "target": "info:entity:organization:Conservative Party",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:CBI",
+      "target": "info:entity:organization:Labour Party",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:CBI",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:CBI",
+      "target": "info:entity:person:John Healey",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:CGT",
       "target": "info:entity:organization:France Unbowed (LFI)",
       "relation": "co-occurs",
@@ -46772,7 +47333,7 @@
       "source": "info:entity:organization:Conservative Party",
       "target": "info:entity:organization:Labour Party",
       "relation": "co-occurs",
-      "weight": "10"
+      "weight": "11"
     },
     {
       "source": "info:entity:organization:Conservative Party",
@@ -46820,7 +47381,7 @@
       "source": "info:entity:organization:Conservative Party",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
-      "weight": "6"
+      "weight": "7"
     },
     {
       "source": "info:entity:organization:Conservative Party",
@@ -46844,7 +47405,7 @@
       "source": "info:entity:organization:Conservative Party",
       "target": "info:entity:person:John Healey",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:organization:Conservative Party",
@@ -47772,6 +48333,12 @@
     },
     {
       "source": "info:entity:organization:German Government",
+      "target": "info:entity:person:Adolf Hitler",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:German Government",
       "target": "info:entity:person:Friedrich Merz",
       "relation": "co-occurs",
       "weight": "2"
@@ -48665,6 +49232,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Jordanian Interior Ministry",
+      "target": "info:entity:person:King Abdullah II",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Jordanian Interior Ministry",
+      "target": "info:entity:region:Karak governorate",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Junts",
       "target": "info:entity:organization:Sumar",
       "relation": "co-occurs",
@@ -48745,6 +49324,24 @@
     {
       "source": "info:entity:organization:Kremlin",
       "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:La France Insoumise",
+      "target": "info:entity:organization:National Rally",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:La France Insoumise",
+      "target": "info:entity:person:Emmanuel Macron",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:La France Insoumise",
+      "target": "info:entity:person:Marine Le Pen",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -48842,7 +49439,7 @@
       "source": "info:entity:organization:Labour Party",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
-      "weight": "15"
+      "weight": "16"
     },
     {
       "source": "info:entity:organization:Labour Party",
@@ -48884,7 +49481,7 @@
       "source": "info:entity:organization:Labour Party",
       "target": "info:entity:person:John Healey",
       "relation": "co-occurs",
-      "weight": "5"
+      "weight": "6"
     },
     {
       "source": "info:entity:organization:Labour Party",
@@ -49445,6 +50042,12 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:National Anti‑Terrorist Prosecutor’s Office (PNAT)",
+      "target": "info:entity:person:Emmanuel Macron",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:National Association of Head Teachers (NAHT)",
       "target": "info:entity:person:Alan Milburn",
       "relation": "co-occurs",
@@ -49525,6 +50128,18 @@
     {
       "source": "info:entity:organization:National Hurricane Center",
       "target": "info:entity:person:Victor Manuel Castro Cosío",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:National Rally",
+      "target": "info:entity:person:Emmanuel Macron",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:National Rally",
+      "target": "info:entity:person:Marine Le Pen",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -51890,7 +52505,7 @@
       "source": "info:entity:person:Andy Burnham",
       "target": "info:entity:person:John Healey",
       "relation": "co-occurs",
-      "weight": "9"
+      "weight": "10"
     },
     {
       "source": "info:entity:person:Andy Burnham",
@@ -53180,7 +53795,7 @@
       "source": "info:entity:person:Emmanuel Macron",
       "target": "info:entity:person:Marine Le Pen",
       "relation": "co-occurs",
-      "weight": "5"
+      "weight": "6"
     },
     {
       "source": "info:entity:person:Emmanuel Macron",
@@ -53797,6 +54412,12 @@
     {
       "source": "info:entity:person:Khalid Sheikh Mohammed",
       "target": "info:entity:person:Tom Resta",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:King Abdullah II",
+      "target": "info:entity:region:Karak governorate",
       "relation": "co-occurs",
       "weight": "1"
     },

@@ -1,7 +1,7 @@
 ---
 name: "Labour Party"
 entity_type: organization
-backlink_count: 28
+backlink_count: 29
 ---
 
 # Labour Party
@@ -10,6 +10,7 @@ backlink_count: 28
 
 ## Referenced by
 
+- 2026-10-24 · [[2026-10-24-004-chancellor-says-he-will-cut-pointless-paperwork-to-save]] — Chancellor says he will cut 'pointless paperwork' to save businesses up to £800m
 - 2026-10-21 · [[2026-10-21-005-second-labour-mp-suspended-over-covid-loan-repayments]] — Second Labour MP suspended over Covid loan repayments
 - 2026-10-20 · [[2026-10-20-005-pm-says-youth-unemployment-is-a-catastrophe-and-a-moral]] — PM says youth unemployment is a 'catastrophe and a moral failure'
 - 2026-10-16 · [[2026-10-16-005-equality-watchdog-writes-to-greens-over-zionism-is-racism]] — Equality watchdog writes to Greens over ‘Zionism is racism’ motion
