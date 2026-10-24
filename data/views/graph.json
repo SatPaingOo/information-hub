@@ -9172,6 +9172,27 @@
       "name": "infectious disease policy"
     },
     {
+      "id": "info:item:world:global:2026-10-24-009",
+      "type": "item",
+      "date": "2026-10-24",
+      "title": "Father who killed Oregon school gunman describes anguish over children he couldn't save"
+    },
+    {
+      "id": "info:entity:person:Kaylub Giamanco",
+      "type": "person",
+      "name": "Kaylub Giamanco"
+    },
+    {
+      "id": "info:entity:person:Griffin J John II",
+      "type": "person",
+      "name": "Griffin J John II"
+    },
+    {
+      "id": "info:entity:organization:Oregon Public Broadcasting (OPB)",
+      "type": "organization",
+      "name": "Oregon Public Broadcasting (OPB)"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -40235,6 +40256,71 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-10-24-009",
+      "target": "info:entity:person:Kaylub Giamanco",
+      "relation": "civilian responder who stopped the shooter"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-009",
+      "target": "info:entity:person:Griffin J John II",
+      "relation": "perpetrator of the Silver Rail Elementary shooting"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-009",
+      "target": "info:entity:organization:Oregon Public Broadcasting (OPB)",
+      "relation": "interviewer and source of Giamanco’s statements"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-009",
+      "target": "info:entity:person:Tina Kotek",
+      "relation": "Governor of Oregon who praised Giamanco"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-009",
+      "target": "info:item:world:global:2026-10-24-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-009",
+      "target": "info:item:world:global:2026-10-24-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-009",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-009",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-009",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-009",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-009",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-009",
+      "target": "taxonomy/category/industry",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-24-009",
+      "target": "taxonomy/topic/world",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -50647,6 +50733,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Oregon Public Broadcasting (OPB)",
+      "target": "info:entity:person:Griffin J John II",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Oregon Public Broadcasting (OPB)",
+      "target": "info:entity:person:Kaylub Giamanco",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Oregon Public Broadcasting (OPB)",
+      "target": "info:entity:person:Tina Kotek",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Pakistan Tehreek-e-Insaf (PTI)",
       "target": "info:entity:person:Aleema Khanum",
       "relation": "co-occurs",
@@ -54067,6 +54171,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:person:Griffin J John II",
+      "target": "info:entity:person:Kaylub Giamanco",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Griffin J John II",
+      "target": "info:entity:person:Tina Kotek",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:person:Haakon VIII",
       "target": "info:entity:person:Harald V",
       "relation": "co-occurs",
@@ -54477,6 +54593,12 @@
     {
       "source": "info:entity:person:Kathy Hochul",
       "target": "info:entity:person:Zohran Mamdani",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Kaylub Giamanco",
+      "target": "info:entity:person:Tina Kotek",
       "relation": "co-occurs",
       "weight": "1"
     },
