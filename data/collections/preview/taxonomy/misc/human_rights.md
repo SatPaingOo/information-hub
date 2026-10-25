@@ -1,7 +1,7 @@
 ---
 node: "Human Rights"
 layer: misc
-item_count: 20
+item_count: 21
 ---
 
 # Human Rights
@@ -16,6 +16,7 @@ item_count: 20
 
 ## Items
 
+- 2026-10-25 · [[2026-10-25-003-palestinian-families-displaced-as-israeli-forces-demolish]] — Palestinian families displaced as Israeli forces demolish Hebron homes
 - 2026-10-23 · [[2026-10-23-001-hospitals-deliberately-targeted-by-sudan-s-rsf-fighters]] — Hospitals deliberately targeted by Sudan's RSF fighters, BBC investigation finds
 - 2026-10-16 · [[2026-10-16-005-equality-watchdog-writes-to-greens-over-zionism-is-racism]] — Equality watchdog writes to Greens over ‘Zionism is racism’ motion
 - 2026-10-16 · [[2026-10-16-006-trump-cancels-planned-livestream-of-fort-hood-attacker-s]] — Trump Cancels Planned Livestream of Fort Hood Attacker’s Execution by Firing Squad

@@ -1,7 +1,7 @@
 ---
 name: "Emmanuel Macron"
 entity_type: person
-backlink_count: 15
+backlink_count: 16
 ---
 
 # Emmanuel Macron
@@ -10,6 +10,7 @@ backlink_count: 15
 
 ## Referenced by
 
+- 2026-10-25 · [[2026-10-25-001-almost-1-000-arrested-as-clashes-follow-another-day-of]] — Almost 1,000 arrested as clashes follow another day of mass protests across France
 - 2026-10-24 · [[2026-10-24-001-deadly-shooting-near-paris-is-a-racist-terrorist-attack]] — Deadly shooting near Paris is a 'racist terrorist attack', Macron says
 - 2026-10-24 · [[2026-10-24-007-france-prepares-for-day-of-protest-a-week-after-nationwide]] — France prepares for day of protest a week after nationwide riots
 - 2026-10-22 · [[2026-10-22-003-macron-accuses-foreign-leaders-of-exploiting-french-riots]] — Macron accuses foreign leaders of exploiting French riots

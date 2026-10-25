@@ -1,7 +1,7 @@
 ---
 node: "Global"
 layer: misc
-item_count: 479
+item_count: 486
 ---
 
 # Global
@@ -25,6 +25,13 @@ item_count: 479
 
 ## Items
 
+- 2026-10-25 · [[2026-10-25-001-almost-1-000-arrested-as-clashes-follow-another-day-of]] — Almost 1,000 arrested as clashes follow another day of mass protests across France
+- 2026-10-25 · [[2026-10-25-002-ukraine-says-starlink-connection-now-stable-after-network]] — Ukraine says Starlink connection 'now stable' after network limits
+- 2026-10-25 · [[2026-10-25-003-palestinian-families-displaced-as-israeli-forces-demolish]] — Palestinian families displaced as Israeli forces demolish Hebron homes
+- 2026-10-25 · [[2026-10-25-004-uk-to-invest-100m-in-world-first-ai-biosecurity-lab]] — UK to invest £100m in 'world first' AI Biosecurity Lab
+- 2026-10-25 · [[2026-10-25-005-burnham-open-to-honest-discussion-on-eu-free-movement]] — Burnham open to 'honest discussion' on EU free movement
+- 2026-10-25 · [[2026-10-25-006-agentvalley-every-claude-code-agent-at-a-glance-in-your]] — AgentValley – Every Claude Code Agent, at a Glance, in Your Mac's Notch
+- 2026-10-25 · [[2026-10-25-007-british-woman-dies-after-trying-to-rescue-sons-swept-away]] — British woman dies after trying to rescue sons swept away at sea in the Bahamas
 - 2026-10-24 · [[2026-10-24-001-deadly-shooting-near-paris-is-a-racist-terrorist-attack]] — Deadly shooting near Paris is a 'racist terrorist attack', Macron says
 - 2026-10-24 · [[2026-10-24-002-seven-shot-dead-by-gunmen-at-church-funeral-in-jordan]] — Seven shot dead by gunmen at church funeral in Jordan, officials say
 - 2026-10-24 · [[2026-10-24-003-arrest-made-after-fire-at-hitler-s-eagle-s-nest-retreat]] — Arrest made after fire at Hitler's Eagle's Nest retreat

@@ -1,7 +1,7 @@
 ---
 node: "geopolitics"
 layer: topic
-item_count: 120
+item_count: 122
 ---
 
 # geopolitics
@@ -24,6 +24,8 @@ item_count: 120
 
 ## Items
 
+- 2026-10-25 · [[2026-10-25-001-almost-1-000-arrested-as-clashes-follow-another-day-of]] — Almost 1,000 arrested as clashes follow another day of mass protests across France
+- 2026-10-25 · [[2026-10-25-002-ukraine-says-starlink-connection-now-stable-after-network]] — Ukraine says Starlink connection 'now stable' after network limits
 - 2026-10-24 · [[2026-10-24-004-chancellor-says-he-will-cut-pointless-paperwork-to-save]] — Chancellor says he will cut 'pointless paperwork' to save businesses up to £800m
 - 2026-10-24 · [[2026-10-24-007-france-prepares-for-day-of-protest-a-week-after-nationwide]] — France prepares for day of protest a week after nationwide riots
 - 2026-10-23 · [[2026-10-23-002-trump-says-musk-has-restored-access-to-ukraine-s-starlink]] — Trump says Musk has restored access to Ukraine's Starlink network

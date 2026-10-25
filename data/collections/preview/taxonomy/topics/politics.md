@@ -1,7 +1,7 @@
 ---
 node: "politics"
 layer: topic
-item_count: 165
+item_count: 167
 ---
 
 # politics
@@ -17,6 +17,8 @@ item_count: 165
 
 ## Items
 
+- 2026-10-25 · [[2026-10-25-004-uk-to-invest-100m-in-world-first-ai-biosecurity-lab]] — UK to invest £100m in 'world first' AI Biosecurity Lab
+- 2026-10-25 · [[2026-10-25-005-burnham-open-to-honest-discussion-on-eu-free-movement]] — Burnham open to 'honest discussion' on EU free movement
 - 2026-10-24 · [[2026-10-24-004-chancellor-says-he-will-cut-pointless-paperwork-to-save]] — Chancellor says he will cut 'pointless paperwork' to save businesses up to £800m
 - 2026-10-23 · [[2026-10-23-007-uk-to-draft-in-military-aircraft-to-fight-wildfires]] — UK to draft in military aircraft to fight wildfires, Burnham says
 - 2026-10-22 · [[2026-10-22-004-burnham-defends-jackdaw-decision-as-badenoch-urges-pm-to]] — Burnham defends Jackdaw decision as Badenoch urges PM to overturn ban on new oil and gas licences

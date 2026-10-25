@@ -1,7 +1,7 @@
 ---
 node: "world"
 layer: topic
-item_count: 279
+item_count: 283
 ---
 
 # world
@@ -17,6 +17,10 @@ item_count: 279
 
 ## Items
 
+- 2026-10-25 · [[2026-10-25-001-almost-1-000-arrested-as-clashes-follow-another-day-of]] — Almost 1,000 arrested as clashes follow another day of mass protests across France
+- 2026-10-25 · [[2026-10-25-002-ukraine-says-starlink-connection-now-stable-after-network]] — Ukraine says Starlink connection 'now stable' after network limits
+- 2026-10-25 · [[2026-10-25-003-palestinian-families-displaced-as-israeli-forces-demolish]] — Palestinian families displaced as Israeli forces demolish Hebron homes
+- 2026-10-25 · [[2026-10-25-007-british-woman-dies-after-trying-to-rescue-sons-swept-away]] — British woman dies after trying to rescue sons swept away at sea in the Bahamas
 - 2026-10-24 · [[2026-10-24-001-deadly-shooting-near-paris-is-a-racist-terrorist-attack]] — Deadly shooting near Paris is a 'racist terrorist attack', Macron says
 - 2026-10-24 · [[2026-10-24-002-seven-shot-dead-by-gunmen-at-church-funeral-in-jordan]] — Seven shot dead by gunmen at church funeral in Jordan, officials say
 - 2026-10-24 · [[2026-10-24-003-arrest-made-after-fire-at-hitler-s-eagle-s-nest-retreat]] — Arrest made after fire at Hitler's Eagle's Nest retreat

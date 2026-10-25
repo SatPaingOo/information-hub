@@ -1,7 +1,7 @@
 ---
 node: "Geopolitics"
 layer: misc
-item_count: 22
+item_count: 23
 ---
 
 # Geopolitics
@@ -15,6 +15,7 @@ item_count: 22
 
 ## Items
 
+- 2026-10-25 · [[2026-10-25-004-uk-to-invest-100m-in-world-first-ai-biosecurity-lab]] — UK to invest £100m in 'world first' AI Biosecurity Lab
 - 2026-10-21 · [[2026-10-21-009-trump-and-zelensky-appear-at-loggerheads-despite-oslo]] — Trump and Zelensky appear at loggerheads despite Oslo optimism
 - 2026-10-10 · [[2026-10-10-005-flydubai-attacker-began-a-drift-towards-extremism-and]] — Flydubai attacker began a ‘drift towards extremism and terrorism’ in Australia, UAE says
 - 2026-10-08 · [[2026-10-08-002-israelis-mourn-7-october-attack-victims-three-years-after]] — Israelis mourn 7 October attack victims three years after deadly Hamas raid

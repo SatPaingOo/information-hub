@@ -1,7 +1,7 @@
 ---
 node: "International Relations"
 layer: misc
-item_count: 8
+item_count: 9
 ---
 
 # International Relations
@@ -15,6 +15,7 @@ item_count: 8
 
 ## Items
 
+- 2026-10-25 · [[2026-10-25-007-british-woman-dies-after-trying-to-rescue-sons-swept-away]] — British woman dies after trying to rescue sons swept away at sea in the Bahamas
 - 2026-10-21 · [[2026-10-21-009-trump-and-zelensky-appear-at-loggerheads-despite-oslo]] — Trump and Zelensky appear at loggerheads despite Oslo optimism
 - 2026-10-01 · [[2026-10-01-008-putin-shows-no-sign-of-stopping-the-war-as-russia-doubles]] — Putin shows no sign of stopping the war as Russia doubles down on Ukraine
 - 2026-09-18 · [[2026-09-18-007-us-to-allow-iran-delegation-to-attend-un-meetings-in-new]] — US to allow Iran delegation to attend UN meetings in New York as war passes half-year mark

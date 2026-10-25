@@ -1,7 +1,7 @@
 ---
 node: "conflict"
 layer: topic
-item_count: 0
+item_count: 1
 ---
 
 # conflict
@@ -12,6 +12,10 @@ item_count: 0
 
 - [[geopolitics]]
 
+## Cross-layer relations
+
+- [[world]] — *relates*
+
 ## Items
 
-_No items yet._
+- 2026-10-25 · [[2026-10-25-003-palestinian-families-displaced-as-israeli-forces-demolish]] — Palestinian families displaced as Israeli forces demolish Hebron homes

@@ -9193,6 +9193,128 @@
       "name": "Oregon Public Broadcasting (OPB)"
     },
     {
+      "id": "info:item:world:global:2026-10-25-001",
+      "type": "item",
+      "date": "2026-10-25",
+      "title": "Almost 1,000 arrested as clashes follow another day of mass protests across France"
+    },
+    {
+      "id": "info:item:world:global:2026-10-25-002",
+      "type": "item",
+      "date": "2026-10-25",
+      "title": "Ukraine says Starlink connection 'now stable' after network limits"
+    },
+    {
+      "id": "info:entity:product:Starshield",
+      "type": "product",
+      "name": "Starshield"
+    },
+    {
+      "id": "info:entity:organization:SpaceX",
+      "type": "organization",
+      "name": "SpaceX"
+    },
+    {
+      "id": "info:item:world:global:2026-10-25-003",
+      "type": "item",
+      "date": "2026-10-25",
+      "title": "Palestinian families displaced as Israeli forces demolish Hebron homes"
+    },
+    {
+      "id": "info:entity:organization:Palestinian Authority",
+      "type": "organization",
+      "name": "Palestinian Authority"
+    },
+    {
+      "id": "taxonomy/topic/conflict",
+      "type": "taxonomy",
+      "name": "conflict"
+    },
+    {
+      "id": "info:item:politics:global:2026-10-25-004",
+      "type": "item",
+      "date": "2026-10-25",
+      "title": "UK to invest £100m in 'world first' AI Biosecurity Lab"
+    },
+    {
+      "id": "info:entity:concept:AI Biosecurity Lab",
+      "type": "concept",
+      "name": "AI Biosecurity Lab"
+    },
+    {
+      "id": "info:entity:organization:AI Security Institute (AISI)",
+      "type": "organization",
+      "name": "AI Security Institute (AISI)"
+    },
+    {
+      "id": "info:entity:person:Kanishka Narayan",
+      "type": "person",
+      "name": "Kanishka Narayan"
+    },
+    {
+      "id": "taxonomy/misc/AI regulation",
+      "type": "taxonomy",
+      "name": "AI regulation"
+    },
+    {
+      "id": "taxonomy/misc/Biosecurity",
+      "type": "taxonomy",
+      "name": "Biosecurity"
+    },
+    {
+      "id": "info:item:politics:global:2026-10-25-005",
+      "type": "item",
+      "date": "2026-10-25",
+      "title": "Burnham open to 'honest discussion' on EU free movement"
+    },
+    {
+      "id": "taxonomy/misc/migration",
+      "type": "taxonomy",
+      "name": "migration"
+    },
+    {
+      "id": "taxonomy/misc/UK domestic politics",
+      "type": "taxonomy",
+      "name": "UK domestic politics"
+    },
+    {
+      "id": "info:item:products:global:2026-10-25-006",
+      "type": "item",
+      "date": "2026-10-25",
+      "title": "AgentValley – Every Claude Code Agent, at a Glance, in Your Mac's Notch"
+    },
+    {
+      "id": "info:entity:product:AgentValley",
+      "type": "product",
+      "name": "AgentValley"
+    },
+    {
+      "id": "info:item:world:global:2026-10-25-007",
+      "type": "item",
+      "date": "2026-10-25",
+      "title": "British woman dies after trying to rescue sons swept away at sea in the Bahamas"
+    },
+    {
+      "id": "info:entity:person:Leanne Gregory",
+      "type": "person",
+      "name": "Leanne Gregory"
+    },
+    {
+      "id": "info:entity:organization:Royal Bahamas Police Force",
+      "type": "organization",
+      "name": "Royal Bahamas Police Force"
+    },
+    {
+      "id": "taxonomy/misc/Maritime Safety",
+      "type": "taxonomy",
+      "name": "Maritime Safety"
+    },
+    {
+      "id": "taxonomy/misc/Tourism Industry",
+      "type": "taxonomy",
+      "name": "Tourism Industry"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -9257,12 +9379,6 @@
       "type": "taxonomy",
       "layer": "topic",
       "name": "vision"
-    },
-    {
-      "id": "taxonomy/topic/conflict",
-      "type": "taxonomy",
-      "layer": "topic",
-      "name": "conflict"
     },
     {
       "id": "taxonomy/topic/trade",
@@ -40321,6 +40437,456 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-10-25-001",
+      "target": "info:entity:person:Emmanuel Macron",
+      "relation": "President of France, key decision‑maker on protest restrictions"
+    },
+    {
+      "source": "info:item:world:global:2026-10-25-001",
+      "target": "info:entity:organization:National Rally",
+      "relation": "Opposition party capitalizing on protest discontent"
+    },
+    {
+      "source": "info:item:world:global:2026-10-25-001",
+      "target": "info:entity:company:OpenAI",
+      "relation": "Highlighted in editorial priorities for AI regulation relevance"
+    },
+    {
+      "source": "info:item:world:global:2026-10-25-001",
+      "target": "info:entity:model:Gemini",
+      "relation": "Referenced in editorial priorities concerning AI and LLMs"
+    },
+    {
+      "source": "info:item:world:global:2026-10-25-001",
+      "target": "info:item:world:global:2026-10-24-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-25-001",
+      "target": "info:item:world:global:2026-10-24-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-25-001",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-25-001",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-25-001",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-25-001",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-25-001",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-25-001",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-25-001",
+      "target": "taxonomy/misc/social unrest",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-25-002",
+      "target": "info:entity:person:Elon Musk",
+      "relation": "owner of SpaceX and Starlink"
+    },
+    {
+      "source": "info:item:world:global:2026-10-25-002",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "former U.S. president alleged to have directed Starlink limits"
+    },
+    {
+      "source": "info:item:world:global:2026-10-25-002",
+      "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "President of Ukraine"
+    },
+    {
+      "source": "info:item:world:global:2026-10-25-002",
+      "target": "info:entity:product:Starlink",
+      "relation": "commercial satellite internet service used by Ukrainian military"
+    },
+    {
+      "source": "info:item:world:global:2026-10-25-002",
+      "target": "info:entity:product:Starshield",
+      "relation": "military‑grade variant of Starlink"
+    },
+    {
+      "source": "info:item:world:global:2026-10-25-002",
+      "target": "info:entity:organization:SpaceX",
+      "relation": "operator of Starlink"
+    },
+    {
+      "source": "info:item:world:global:2026-10-25-002",
+      "target": "info:item:world:global:2026-10-25-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-25-002",
+      "target": "info:item:world:global:2026-10-24-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-25-002",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-25-002",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-25-002",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-25-002",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-25-002",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-25-002",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-25-002",
+      "target": "taxonomy/category/industry",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-25-003",
+      "target": "info:entity:person:Benjamin Netanyahu",
+      "relation": "Prime Minister of Israel announcing the operation"
+    },
+    {
+      "source": "info:item:world:global:2026-10-25-003",
+      "target": "info:entity:organization:Israeli Defence Forces",
+      "relation": "Executed the demolition and cordon operations in Hebron"
+    },
+    {
+      "source": "info:item:world:global:2026-10-25-003",
+      "target": "info:entity:region:West Bank",
+      "relation": "Location of the demolition campaign and broader Israeli‑Palestinian conflict"
+    },
+    {
+      "source": "info:item:world:global:2026-10-25-003",
+      "target": "info:entity:organization:Palestinian Authority",
+      "relation": "Called for urgent international action against the displacement"
+    },
+    {
+      "source": "info:item:world:global:2026-10-25-003",
+      "target": "info:item:world:global:2026-10-25-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-25-003",
+      "target": "info:item:world:global:2026-10-25-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-25-003",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-25-003",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-25-003",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-25-003",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-25-003",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-25-003",
+      "target": "taxonomy/misc/human rights",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-25-003",
+      "target": "taxonomy/topic/conflict",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-25-004",
+      "target": "info:entity:company:OpenAI",
+      "relation": "provides £200 million in AI model credits to the AI Biosecurity Lab"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-25-004",
+      "target": "info:entity:company:Anthropic",
+      "relation": "provides £200 million in AI model credits to the AI Biosecurity Lab"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-25-004",
+      "target": "info:entity:person:John Healey",
+      "relation": "Chancellor of the Exchequer announcing the AI security spending package"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-25-004",
+      "target": "info:entity:concept:AI Biosecurity Lab",
+      "relation": "new national institute established with £100 million funding"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-25-004",
+      "target": "info:entity:organization:AI Security Institute (AISI)",
+      "relation": "receives additional £120 million to expand AI model risk evaluation"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-25-004",
+      "target": "info:entity:person:Kanishka Narayan",
+      "relation": "AI Minister overseeing the AI Biosecurity Lab and broader AI security initiatives"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-25-004",
+      "target": "info:item:politics:global:2026-10-24-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-25-004",
+      "target": "info:item:politics:global:2026-10-23-007",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-25-004",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-25-004",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-25-004",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-25-004",
+      "target": "taxonomy/misc/AI regulation",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-25-004",
+      "target": "taxonomy/misc/Biosecurity",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-25-004",
+      "target": "taxonomy/misc/Geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-25-005",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "UK Prime Minister proposing renewed EU free‑movement discussion"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-25-005",
+      "target": "info:entity:organization:Labour Party",
+      "relation": "official stance previously ruled out free movement, now under reconsideration"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-25-005",
+      "target": "info:entity:person:Chris Philp",
+      "relation": "Shadow Home Secretary opposing any return to EU free movement"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-25-005",
+      "target": "info:entity:person:Nigel Farage",
+      "relation": "Reform UK leader criticising Burnham’s remarks as a Brexit betrayal"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-25-005",
+      "target": "info:item:politics:global:2026-10-25-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-25-005",
+      "target": "info:item:politics:global:2026-10-24-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-25-005",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-25-005",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-25-005",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-25-005",
+      "target": "taxonomy/misc/EU policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-25-005",
+      "target": "taxonomy/misc/migration",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-25-005",
+      "target": "taxonomy/misc/UK domestic politics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-10-25-006",
+      "target": "info:entity:product:AgentValley",
+      "relation": "primary subject of briefing"
+    },
+    {
+      "source": "info:item:products:global:2026-10-25-006",
+      "target": "info:entity:company:Anthropic",
+      "relation": "provider of Claude models (Claude Opus 4.7)"
+    },
+    {
+      "source": "info:item:products:global:2026-10-25-006",
+      "target": "info:entity:model:Claude Opus 4.7",
+      "relation": "LLM model integrated by AgentValley"
+    },
+    {
+      "source": "info:item:products:global:2026-10-25-006",
+      "target": "info:entity:model:OpenAI GPT-4-Turbo",
+      "relation": "supported LLM backend"
+    },
+    {
+      "source": "info:item:products:global:2026-10-25-006",
+      "target": "info:item:products:global:2026-10-24-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-10-25-006",
+      "target": "info:item:products:global:2026-10-22-007",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-10-25-006",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-10-25-006",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-10-25-006",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-10-25-006",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-10-25-006",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-10-25-006",
+      "target": "taxonomy/misc/regulation",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-25-007",
+      "target": "info:entity:person:Leanne Gregory",
+      "relation": "deceased mother and rescuer"
+    },
+    {
+      "source": "info:item:world:global:2026-10-25-007",
+      "target": "info:entity:organization:Royal Bahamas Police Force",
+      "relation": "conducted rescue and investigation"
+    },
+    {
+      "source": "info:item:world:global:2026-10-25-007",
+      "target": "info:item:world:global:2026-10-25-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-25-007",
+      "target": "info:item:world:global:2026-10-25-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-25-007",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-25-007",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-25-007",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-25-007",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-25-007",
+      "target": "taxonomy/misc/Maritime Safety",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-25-007",
+      "target": "taxonomy/misc/International Relations",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-25-007",
+      "target": "taxonomy/misc/Tourism Industry",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -40608,7 +41174,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
-      "weight": "72"
+      "weight": "73"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -40643,6 +41209,12 @@
     {
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:Zhipu AI",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:concept:AI Biosecurity Lab",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -40756,6 +41328,12 @@
     },
     {
       "source": "info:entity:company:Anthropic",
+      "target": "info:entity:model:Claude Opus 4.7",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
       "target": "info:entity:model:Codex",
       "relation": "co-occurs",
       "weight": "1"
@@ -40848,7 +41426,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:model:OpenAI GPT-4-Turbo",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -40859,6 +41437,12 @@
     {
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:model:OpenAI GPT‑4‑Turbo",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:organization:AI Security Institute (AISI)",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -41050,7 +41634,19 @@
     },
     {
       "source": "info:entity:company:Anthropic",
+      "target": "info:entity:person:John Healey",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
       "target": "info:entity:person:Judge Rita Lin",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:person:Kanishka Narayan",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -41101,6 +41697,12 @@
       "target": "info:entity:person:Xi Jinping",
       "relation": "co-occurs",
       "weight": "2"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:product:AgentValley",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -42346,6 +42948,12 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:concept:AI Biosecurity Lab",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:concept:AI Force",
       "relation": "co-occurs",
       "weight": "1"
@@ -42522,7 +43130,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "48"
+      "weight": "49"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -42563,6 +43171,12 @@
     {
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:model:Retrieval-Augmented Generation",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:organization:AI Security Institute (AISI)",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -42713,6 +43327,12 @@
     {
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:organization:National Defence Forces (NDF)",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:organization:National Rally",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -42966,7 +43586,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Emmanuel Macron",
       "relation": "co-occurs",
-      "weight": "4"
+      "weight": "5"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -43001,6 +43621,18 @@
     {
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Jason Kwon",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:person:John Healey",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:person:Kanishka Narayan",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -43721,6 +44353,24 @@
     {
       "source": "info:entity:company:Zhipu AI",
       "target": "info:entity:model:GLM-5.3-Flash",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:AI Biosecurity Lab",
+      "target": "info:entity:organization:AI Security Institute (AISI)",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:AI Biosecurity Lab",
+      "target": "info:entity:person:John Healey",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:AI Biosecurity Lab",
+      "target": "info:entity:person:Kanishka Narayan",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -45556,6 +46206,12 @@
     },
     {
       "source": "info:entity:model:Claude Opus 4.7",
+      "target": "info:entity:model:OpenAI GPT-4-Turbo",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Claude Opus 4.7",
       "target": "info:entity:organization:MIT",
       "relation": "co-occurs",
       "weight": "1"
@@ -45563,6 +46219,12 @@
     {
       "source": "info:entity:model:Claude Opus 4.7",
       "target": "info:entity:person:Eunice Yiu",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Claude Opus 4.7",
+      "target": "info:entity:product:AgentValley",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -45802,6 +46464,12 @@
     },
     {
       "source": "info:entity:model:Gemini",
+      "target": "info:entity:organization:National Rally",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
       "target": "info:entity:organization:OpenAI",
       "relation": "co-occurs",
       "weight": "13"
@@ -45912,7 +46580,7 @@
       "source": "info:entity:model:Gemini",
       "target": "info:entity:person:Emmanuel Macron",
       "relation": "co-occurs",
-      "weight": "4"
+      "weight": "5"
     },
     {
       "source": "info:entity:model:Gemini",
@@ -46384,6 +47052,12 @@
     },
     {
       "source": "info:entity:model:OpenAI GPT-4-Turbo",
+      "target": "info:entity:product:AgentValley",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:OpenAI GPT-4-Turbo",
       "target": "info:entity:product:Notchware",
       "relation": "co-occurs",
       "weight": "1"
@@ -46487,6 +47161,18 @@
     {
       "source": "info:entity:model:Transformer",
       "target": "info:entity:product:DECODE",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:AI Security Institute (AISI)",
+      "target": "info:entity:person:John Healey",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:AI Security Institute (AISI)",
+      "target": "info:entity:person:Kanishka Narayan",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -49360,6 +50046,12 @@
     },
     {
       "source": "info:entity:organization:Israeli Defence Forces",
+      "target": "info:entity:organization:Palestinian Authority",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Israeli Defence Forces",
       "target": "info:entity:organization:Syrian Government",
       "relation": "co-occurs",
       "weight": "1"
@@ -49380,7 +50072,7 @@
       "source": "info:entity:organization:Israeli Defence Forces",
       "target": "info:entity:person:Benjamin Netanyahu",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Israeli Defence Forces",
@@ -49416,7 +50108,7 @@
       "source": "info:entity:organization:Israeli Defence Forces",
       "target": "info:entity:region:West Bank",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Israeli Defense Forces",
@@ -49662,7 +50354,7 @@
       "source": "info:entity:organization:Labour Party",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
-      "weight": "16"
+      "weight": "17"
     },
     {
       "source": "info:entity:organization:Labour Party",
@@ -49692,7 +50384,7 @@
       "source": "info:entity:organization:Labour Party",
       "target": "info:entity:person:Chris Philp",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Labour Party",
@@ -49734,7 +50426,7 @@
       "source": "info:entity:organization:Labour Party",
       "target": "info:entity:person:Nigel Farage",
       "relation": "co-occurs",
-      "weight": "4"
+      "weight": "5"
     },
     {
       "source": "info:entity:organization:Labour Party",
@@ -50358,7 +51050,7 @@
       "source": "info:entity:organization:National Rally",
       "target": "info:entity:person:Emmanuel Macron",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:National Rally",
@@ -50781,6 +51473,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Palestinian Authority",
+      "target": "info:entity:person:Benjamin Netanyahu",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Palestinian Authority",
+      "target": "info:entity:region:West Bank",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Pentagon Office of Inspector General",
       "target": "info:entity:organization:U.S. Central Command (CENTCOM)",
       "relation": "co-occurs",
@@ -51141,6 +51845,12 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Royal Bahamas Police Force",
+      "target": "info:entity:person:Leanne Gregory",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Royal College of Nursing (RCN)",
       "target": "info:entity:person:Finlay Roberts",
       "relation": "co-occurs",
@@ -51347,6 +52057,36 @@
     {
       "source": "info:entity:organization:South Korean Ministry of Foreign Affairs",
       "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:SpaceX",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:SpaceX",
+      "target": "info:entity:person:Elon Musk",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:SpaceX",
+      "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:SpaceX",
+      "target": "info:entity:product:Starlink",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:SpaceX",
+      "target": "info:entity:product:Starshield",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -52704,7 +53444,7 @@
       "source": "info:entity:person:Andy Burnham",
       "target": "info:entity:person:Chris Philp",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Andy Burnham",
@@ -52830,7 +53570,7 @@
       "source": "info:entity:person:Andy Burnham",
       "target": "info:entity:person:Nigel Farage",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:person:Andy Burnham",
@@ -53196,7 +53936,7 @@
       "source": "info:entity:person:Benjamin Netanyahu",
       "target": "info:entity:region:West Bank",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Bezalel Smotrich",
@@ -53369,6 +54109,12 @@
     {
       "source": "info:entity:person:Chris Philp",
       "target": "info:entity:person:Lucy Powell",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Chris Philp",
+      "target": "info:entity:person:Nigel Farage",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -53592,7 +54338,7 @@
       "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:Elon Musk",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:person:Donald Trump",
@@ -53796,7 +54542,7 @@
       "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
-      "weight": "14"
+      "weight": "15"
     },
     {
       "source": "info:entity:person:Donald Trump",
@@ -53831,6 +54577,12 @@
     {
       "source": "info:entity:person:Donald Trump",
       "target": "info:entity:product:Starlink",
+      "relation": "co-occurs",
+      "weight": "2"
+    },
+    {
+      "source": "info:entity:person:Donald Trump",
+      "target": "info:entity:product:Starshield",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -54012,13 +54764,19 @@
       "source": "info:entity:person:Elon Musk",
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:person:Elon Musk",
       "target": "info:entity:product:Starlink",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
+    },
+    {
+      "source": "info:entity:person:Elon Musk",
+      "target": "info:entity:product:Starshield",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:person:Elon Musk",
@@ -54443,6 +55201,12 @@
     {
       "source": "info:entity:person:John Healey",
       "target": "info:entity:person:Jonathan Reynolds",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:John Healey",
+      "target": "info:entity:person:Kanishka Narayan",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -55134,6 +55898,12 @@
       "source": "info:entity:person:Volodymyr Zelensky",
       "target": "info:entity:product:Starlink",
       "relation": "co-occurs",
+      "weight": "2"
+    },
+    {
+      "source": "info:entity:person:Volodymyr Zelensky",
+      "target": "info:entity:product:Starshield",
+      "relation": "co-occurs",
       "weight": "1"
     },
     {
@@ -55241,6 +56011,12 @@
     {
       "source": "info:entity:product:Scalp missile",
       "target": "info:entity:product:Storm Shadow",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:product:Starlink",
+      "target": "info:entity:product:Starshield",
       "relation": "co-occurs",
       "weight": "1"
     },

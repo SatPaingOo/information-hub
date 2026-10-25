@@ -1,0 +1,18 @@
+2026-10-25 01:54:09,504 INFO [world-news] published 2026-10-25-001 — Almost 1,000 arrested as clashes follow another day of mass 
+2026-10-25 01:54:32,700 INFO [world-news] published 2026-10-25-002 — Ukraine says Starlink connection 'now stable' after network 
+2026-10-25 01:55:03,465 INFO [world-news] published 2026-10-25-003 — Palestinian families displaced as Israeli forces demolish He
+2026-10-25 01:55:09,407 INFO [tech-news] nothing selected
+2026-10-25 01:55:59,629 INFO [politics] published 2026-10-25-004 — UK to invest £100m in 'world first' AI Biosecurity Lab
+2026-10-25 01:56:46,595 INFO [politics] published 2026-10-25-005 — Burnham open to 'honest discussion' on EU free movement
+2026-10-25 01:57:33,911 INFO [products] published 2026-10-25-006 — AgentValley – Every Claude Code Agent, at a Glance, in Your 
+2026-10-25 01:57:34,493 INFO collect done: 6 item(s) published — target 4/10, next run ≈ 2026-10-25T02:12:34+00:00 UTC
+2026-10-25 01:57:41,378 ERROR [world-news] generate error: HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
+
+2026-10-25 01:57:46,605 INFO [world-news] published 2026-10-25-007 — British woman dies after trying to rescue sons swept away at
+2026-10-25 01:57:46,859 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7085, Requested 6214. Please try again in 39.7425s. Need more tokens? Upgrade to Dev Tier today at https://con
+2026-10-25 01:57:49,861 WARNING [world-news] no collect provider for deep-dive
+2026-10-25 01:57:49,984 WARNING [world-news] no collect provider for deep-dive
+2026-10-25 01:57:50,355 WARNING [tech-news] no collect provider available
+2026-10-25 01:57:50,789 WARNING [politics] no collect provider available
+2026-10-25 01:57:51,068 WARNING [products] no collect provider available
+2026-10-25 01:57:51,379 INFO collect done: 1 item(s) published — target 3/10, next run ≈ 2026-10-26T01:00:00+00:00 UTC

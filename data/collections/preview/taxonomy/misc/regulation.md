@@ -1,7 +1,7 @@
 ---
 node: "Regulation"
 layer: misc
-item_count: 41
+item_count: 42
 ---
 
 # Regulation
@@ -17,6 +17,7 @@ item_count: 41
 
 ## Items
 
+- 2026-10-25 · [[2026-10-25-006-agentvalley-every-claude-code-agent-at-a-glance-in-your]] — AgentValley – Every Claude Code Agent, at a Glance, in Your Mac's Notch
 - 2026-10-24 · [[2026-10-24-006-dotmd]] — DotMD
 - 2026-10-22 · [[2026-10-22-006-needle]] — Needle
 - 2026-10-21 · [[2026-10-21-006-harness]] — Harness²

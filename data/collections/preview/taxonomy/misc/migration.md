@@ -1,7 +1,7 @@
 ---
 node: "Migration"
 layer: misc
-item_count: 1
+item_count: 2
 ---
 
 # Migration
@@ -10,8 +10,10 @@ item_count: 1
 
 ## Cross-layer relations
 
+- [[politics]] — *relates*
 - [[world]] — *relates*
 
 ## Items
 
+- 2026-10-25 · [[2026-10-25-005-burnham-open-to-honest-discussion-on-eu-free-movement]] — Burnham open to 'honest discussion' on EU free movement
 - 2026-10-01 · [[2026-10-01-010-six-smugglers-jailed-for-manslaughter-over-worst-channel]] — Six smugglers jailed for manslaughter over worst Channel small boats disaster

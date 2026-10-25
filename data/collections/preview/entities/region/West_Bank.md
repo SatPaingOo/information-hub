@@ -1,7 +1,7 @@
 ---
 name: "West Bank"
 entity_type: region
-backlink_count: 4
+backlink_count: 5
 ---
 
 # West Bank
@@ -10,6 +10,7 @@ backlink_count: 4
 
 ## Referenced by
 
+- 2026-10-25 · [[2026-10-25-003-palestinian-families-displaced-as-israeli-forces-demolish]] — Palestinian families displaced as Israeli forces demolish Hebron homes
 - 2026-09-09 · [[2026-09-09-001-uk-announces-sanctions-on-west-bank-settlements-prompting]] — UK announces sanctions on West Bank settlements prompting furious Israeli response
 - 2026-09-09 · [[2026-09-09-002-paul-adams-british-israeli-relations-at-lowest-ebb-in]] — Paul Adams: British-Israeli relations at lowest ebb in decades
 - 2026-09-08 · [[2026-09-08-002-palestinian-parents-fear-for-children-s-lives-at-school-as]] — Palestinian parents fear for children's lives at school as settler attacks grow

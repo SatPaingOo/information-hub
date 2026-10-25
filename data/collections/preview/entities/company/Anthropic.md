@@ -1,7 +1,7 @@
 ---
 name: "Anthropic"
 entity_type: company
-backlink_count: 87
+backlink_count: 89
 ---
 
 # Anthropic
@@ -10,6 +10,8 @@ backlink_count: 87
 
 ## Referenced by
 
+- 2026-10-25 · [[2026-10-25-004-uk-to-invest-100m-in-world-first-ai-biosecurity-lab]] — UK to invest £100m in 'world first' AI Biosecurity Lab
+- 2026-10-25 · [[2026-10-25-006-agentvalley-every-claude-code-agent-at-a-glance-in-your]] — AgentValley – Every Claude Code Agent, at a Glance, in Your Mac's Notch
 - 2026-10-23 · [[2026-10-23-005-openai-working-on-new-30b-raise-at-1-25t-valuation-ahead]] — OpenAI working on new $30B raise at $1.25T valuation ahead of IPO
 - 2026-10-22 · [[2026-10-22-006-needle]] — Needle
 - 2026-10-21 · [[2026-10-21-006-harness]] — Harness²

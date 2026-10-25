@@ -1,7 +1,7 @@
 ---
 name: "Andy Burnham"
 entity_type: person
-backlink_count: 65
+backlink_count: 66
 ---
 
 # Andy Burnham
@@ -10,6 +10,7 @@ backlink_count: 65
 
 ## Referenced by
 
+- 2026-10-25 · [[2026-10-25-005-burnham-open-to-honest-discussion-on-eu-free-movement]] — Burnham open to 'honest discussion' on EU free movement
 - 2026-10-24 · [[2026-10-24-004-chancellor-says-he-will-cut-pointless-paperwork-to-save]] — Chancellor says he will cut 'pointless paperwork' to save businesses up to £800m
 - 2026-10-23 · [[2026-10-23-007-uk-to-draft-in-military-aircraft-to-fight-wildfires]] — UK to draft in military aircraft to fight wildfires, Burnham says
 - 2026-10-22 · [[2026-10-22-004-burnham-defends-jackdaw-decision-as-badenoch-urges-pm-to]] — Burnham defends Jackdaw decision as Badenoch urges PM to overturn ban on new oil and gas licences

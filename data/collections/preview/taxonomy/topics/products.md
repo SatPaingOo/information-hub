@@ -1,7 +1,7 @@
 ---
 node: "products"
 layer: topic
-item_count: 78
+item_count: 79
 ---
 
 # products
@@ -16,6 +16,7 @@ item_count: 78
 
 ## Items
 
+- 2026-10-25 · [[2026-10-25-006-agentvalley-every-claude-code-agent-at-a-glance-in-your]] — AgentValley – Every Claude Code Agent, at a Glance, in Your Mac's Notch
 - 2026-10-24 · [[2026-10-24-006-dotmd]] — DotMD
 - 2026-10-22 · [[2026-10-22-006-needle]] — Needle
 - 2026-10-22 · [[2026-10-22-007-nimbalyst-wiki-agentic-ai-powered-knowledge-management-for]] — Nimbalyst Wiki – Agentic AI‑Powered Knowledge Management for Teams
