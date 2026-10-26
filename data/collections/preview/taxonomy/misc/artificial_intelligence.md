@@ -1,7 +1,7 @@
 ---
 node: "Artificial Intelligence"
 layer: misc
-item_count: 9
+item_count: 10
 ---
 
 # Artificial Intelligence
@@ -16,6 +16,7 @@ item_count: 9
 ## Items
 
 - 2026-10-26 · [[2026-10-26-007-agentgrid-io-a-shared-workspace-for-humans-and-ai-agents]] — AgentGrid.io – A Shared Workspace for Humans and AI Agents
+- 2026-10-26 · [[2026-10-26-009-eric-bauza-voice-of-bugs-bunny-and-daffy-duck-dies-aged-46]] — Eric Bauza, voice of Bugs Bunny and Daffy Duck, dies aged 46
 - 2026-10-12 · [[2026-10-12-006-simplespread]] — SimpleSpread
 - 2026-10-07 · [[2026-10-07-008-finland-orders-halt-to-work-on-two-google-data-centres]] — Finland orders halt to work on two Google data centres
 - 2026-09-28 · [[2026-09-28-006-cuey-one-tab-llm-comparison-for-agentic-ai-workflows]] — Cuey – One‑Tab LLM Comparison for Agentic AI Workflows

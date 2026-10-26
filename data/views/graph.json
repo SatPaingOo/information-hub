@@ -9438,6 +9438,32 @@
       "name": "technology regulation"
     },
     {
+      "id": "info:item:world:global:2026-10-26-009",
+      "type": "item",
+      "date": "2026-10-26",
+      "title": "Eric Bauza, voice of Bugs Bunny and Daffy Duck, dies aged 46"
+    },
+    {
+      "id": "info:entity:person:Eric Bauza",
+      "type": "person",
+      "name": "Eric Bauza"
+    },
+    {
+      "id": "info:entity:company:Warner Bros. Television Group",
+      "type": "company",
+      "name": "Warner Bros. Television Group"
+    },
+    {
+      "id": "info:entity:concept:AI‑generated synthetic voice",
+      "type": "concept",
+      "name": "AI‑generated synthetic voice"
+    },
+    {
+      "id": "taxonomy/misc/intellectual property",
+      "type": "taxonomy",
+      "name": "intellectual property"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -41510,6 +41536,71 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-10-26-009",
+      "target": "info:entity:person:Eric Bauza",
+      "relation": "primary subject, voice actor"
+    },
+    {
+      "source": "info:item:world:global:2026-10-26-009",
+      "target": "info:entity:company:Warner Bros. Television Group",
+      "relation": "employer and rights holder"
+    },
+    {
+      "source": "info:item:world:global:2026-10-26-009",
+      "target": "info:entity:model:OpenAI GPT‑4‑Turbo",
+      "relation": "example of LLM capable of voice synthesis"
+    },
+    {
+      "source": "info:item:world:global:2026-10-26-009",
+      "target": "info:entity:concept:AI‑generated synthetic voice",
+      "relation": "emerging technology impacting the industry"
+    },
+    {
+      "source": "info:item:world:global:2026-10-26-009",
+      "target": "info:item:world:global:2026-10-26-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-26-009",
+      "target": "info:item:world:global:2026-10-26-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-26-009",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-26-009",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-26-009",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-26-009",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-26-009",
+      "target": "taxonomy/misc/entertainment",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-26-009",
+      "target": "taxonomy/misc/artificial intelligence",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-26-009",
+      "target": "taxonomy/misc/intellectual property",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -44992,6 +45083,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:company:Warner Bros. Television Group",
+      "target": "info:entity:concept:AI‑generated synthetic voice",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Warner Bros. Television Group",
+      "target": "info:entity:model:OpenAI GPT‑4‑Turbo",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Warner Bros. Television Group",
+      "target": "info:entity:person:Eric Bauza",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:company:Wildberries",
       "target": "info:entity:organization:BBC News",
       "relation": "co-occurs",
@@ -45168,6 +45277,18 @@
     {
       "source": "info:entity:concept:AI‑enabled surveillance",
       "target": "info:entity:product:Vegemite",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:AI‑generated synthetic voice",
+      "target": "info:entity:model:OpenAI GPT‑4‑Turbo",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:AI‑generated synthetic voice",
+      "target": "info:entity:person:Eric Bauza",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -47880,6 +48001,12 @@
     {
       "source": "info:entity:model:OpenAI GPT‑4‑Turbo",
       "target": "info:entity:organization:European Union",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:OpenAI GPT‑4‑Turbo",
+      "target": "info:entity:person:Eric Bauza",
       "relation": "co-occurs",
       "weight": "1"
     },

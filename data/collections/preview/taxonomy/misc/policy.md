@@ -1,7 +1,7 @@
 ---
 node: "Policy"
 layer: misc
-item_count: 391
+item_count: 392
 ---
 
 # Policy
@@ -23,6 +23,7 @@ item_count: 391
 - 2026-10-26 · [[2026-10-26-004-funding-set-to-double-for-plan-to-get-rough-sleepers-off]] — Funding set to double for plan to get rough sleepers off streets by Christmas
 - 2026-10-26 · [[2026-10-26-005-students-like-new-tenancy-freedoms-but-landlords-warn-of]] — Students like new tenancy freedoms - but landlords warn of higher rents
 - 2026-10-26 · [[2026-10-26-008-australian-murderer-loses-bid-to-eat-vegemite-in-prison]] — Australian murderer loses bid to eat Vegemite in prison
+- 2026-10-26 · [[2026-10-26-009-eric-bauza-voice-of-bugs-bunny-and-daffy-duck-dies-aged-46]] — Eric Bauza, voice of Bugs Bunny and Daffy Duck, dies aged 46
 - 2026-10-25 · [[2026-10-25-001-almost-1-000-arrested-as-clashes-follow-another-day-of]] — Almost 1,000 arrested as clashes follow another day of mass protests across France
 - 2026-10-25 · [[2026-10-25-002-ukraine-says-starlink-connection-now-stable-after-network]] — Ukraine says Starlink connection 'now stable' after network limits
 - 2026-10-25 · [[2026-10-25-003-palestinian-families-displaced-as-israeli-forces-demolish]] — Palestinian families displaced as Israeli forces demolish Hebron homes
