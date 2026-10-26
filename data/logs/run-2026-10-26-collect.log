@@ -1,0 +1,19 @@
+2026-10-26 04:59:44,895 INFO [world-news] published 2026-10-26-001 — Elation across Serbia after veteran ruler Vučić concedes to 
+2026-10-26 05:00:04,033 INFO [world-news] published 2026-10-26-002 — Deeply divided Israel braces for pivotal election
+2026-10-26 05:00:35,993 INFO [world-news] published 2026-10-26-003 — Venezuelan opposition leader María Machado returns after mon
+2026-10-26 05:00:40,441 INFO [tech-news] nothing selected
+2026-10-26 05:01:44,988 INFO [politics] published 2026-10-26-004 — Funding set to double for plan to get rough sleepers off str
+2026-10-26 05:02:27,034 INFO [politics] published 2026-10-26-005 — Students like new tenancy freedoms - but landlords warn of h
+2026-10-26 05:03:15,661 INFO [products] published 2026-10-26-006 — Moli by Lexmount – The Fastest Headless Browser for Agents a
+2026-10-26 05:03:19,668 INFO [products] published 2026-10-26-007 — AgentGrid.io – A Shared Workspace for Humans and AI Agents
+2026-10-26 05:03:20,295 INFO collect done: 7 item(s) published — target 3/10, next run ≈ 2026-10-26T05:18:20+00:00 UTC
+2026-10-26 05:03:22,709 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7241, Requested 6966. Please try again in 46.5525s. Need more tokens? Upgrade to Dev Tier today at https://co
+2026-10-26 05:03:28,869 ERROR [world-news] generate error: HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
+
+2026-10-26 05:03:34,872 WARNING [world-news] no collect provider for deep-dive
+2026-10-26 05:03:35,047 WARNING [world-news] no collect provider for deep-dive
+2026-10-26 05:03:35,214 WARNING [world-news] no collect provider for deep-dive
+2026-10-26 05:03:35,637 WARNING [tech-news] no collect provider available
+2026-10-26 05:03:36,188 WARNING [politics] no collect provider available
+2026-10-26 05:03:36,513 WARNING [products] no collect provider available
+2026-10-26 05:03:36,994 INFO collect done: 0 item(s) published — target 3/10, next run ≈ 2026-10-27T01:00:00+00:00 UTC

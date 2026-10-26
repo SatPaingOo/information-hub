@@ -1,7 +1,7 @@
 ---
 name: "Anthropic Claude"
 entity_type: model
-backlink_count: 8
+backlink_count: 9
 ---
 
 # Anthropic Claude
@@ -10,6 +10,7 @@ backlink_count: 8
 
 ## Referenced by
 
+- 2026-10-26 · [[2026-10-26-007-agentgrid-io-a-shared-workspace-for-humans-and-ai-agents]] — AgentGrid.io – A Shared Workspace for Humans and AI Agents
 - 2026-10-24 · [[2026-10-24-006-dotmd]] — DotMD
 - 2026-10-03 · [[2026-10-03-007-jarviscore-a-zero-trust-mesh-for-agentic-ai]] — JarvisCore – A Zero‑Trust Mesh for Agentic AI
 - 2026-09-25 · [[2026-09-25-007-noan-the-fact-layer-for-your-ai-agents]] — NOAN – The Fact Layer for Your AI Agents

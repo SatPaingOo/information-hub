@@ -1,7 +1,7 @@
 ---
 name: "Labour Party"
 entity_type: organization
-backlink_count: 30
+backlink_count: 31
 ---
 
 # Labour Party
@@ -10,6 +10,7 @@ backlink_count: 30
 
 ## Referenced by
 
+- 2026-10-26 · [[2026-10-26-004-funding-set-to-double-for-plan-to-get-rough-sleepers-off]] — Funding set to double for plan to get rough sleepers off streets by Christmas
 - 2026-10-25 · [[2026-10-25-005-burnham-open-to-honest-discussion-on-eu-free-movement]] — Burnham open to 'honest discussion' on EU free movement
 - 2026-10-24 · [[2026-10-24-004-chancellor-says-he-will-cut-pointless-paperwork-to-save]] — Chancellor says he will cut 'pointless paperwork' to save businesses up to £800m
 - 2026-10-21 · [[2026-10-21-005-second-labour-mp-suspended-over-covid-loan-repayments]] — Second Labour MP suspended over Covid loan repayments

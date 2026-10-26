@@ -9315,6 +9315,98 @@
       "name": "Tourism Industry"
     },
     {
+      "id": "info:item:world:global:2026-10-26-001",
+      "type": "item",
+      "date": "2026-10-26",
+      "title": "Elation across Serbia after veteran ruler Vučić concedes to student-led protest movement"
+    },
+    {
+      "id": "info:entity:organization:Student List",
+      "type": "organization",
+      "name": "Student List"
+    },
+    {
+      "id": "info:entity:event:2022 Novi Sad train‑station collapse",
+      "type": "event",
+      "name": "2022 Novi Sad train‑station collapse"
+    },
+    {
+      "id": "info:item:world:global:2026-10-26-002",
+      "type": "item",
+      "date": "2026-10-26",
+      "title": "Deeply divided Israel braces for pivotal election"
+    },
+    {
+      "id": "info:entity:person:Gadi Eisenkot",
+      "type": "person",
+      "name": "Gadi Eisenkot"
+    },
+    {
+      "id": "info:item:world:global:2026-10-26-003",
+      "type": "item",
+      "date": "2026-10-26",
+      "title": "Venezuelan opposition leader María Machado returns after months in exile"
+    },
+    {
+      "id": "info:entity:person:María Corina Machado",
+      "type": "person",
+      "name": "María Corina Machado"
+    },
+    {
+      "id": "info:item:politics:global:2026-10-26-004",
+      "type": "item",
+      "date": "2026-10-26",
+      "title": "Funding set to double for plan to get rough sleepers off streets by Christmas"
+    },
+    {
+      "id": "info:entity:person:Katie Lam",
+      "type": "person",
+      "name": "Katie Lam"
+    },
+    {
+      "id": "info:item:politics:global:2026-10-26-005",
+      "type": "item",
+      "date": "2026-10-26",
+      "title": "Students like new tenancy freedoms - but landlords warn of higher rents"
+    },
+    {
+      "id": "info:item:products:global:2026-10-26-006",
+      "type": "item",
+      "date": "2026-10-26",
+      "title": "Moli by Lexmount – The Fastest Headless Browser for Agents and Harnesses"
+    },
+    {
+      "id": "info:entity:company:Lexmount",
+      "type": "company",
+      "name": "Lexmount"
+    },
+    {
+      "id": "info:entity:product:Moli",
+      "type": "product",
+      "name": "Moli"
+    },
+    {
+      "id": "info:item:products:global:2026-10-26-007",
+      "type": "item",
+      "date": "2026-10-26",
+      "title": "AgentGrid.io – A Shared Workspace for Humans and AI Agents"
+    },
+    {
+      "id": "info:entity:company:AgentGrid.io",
+      "type": "company",
+      "name": "AgentGrid.io"
+    },
+    {
+      "id": "info:entity:concept:regulation",
+      "type": "concept",
+      "name": "regulation"
+    },
+    {
+      "id": "taxonomy/misc/Collaboration Software",
+      "type": "taxonomy",
+      "name": "Collaboration Software"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -40887,6 +40979,441 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-10-26-001",
+      "target": "info:entity:person:Aleksandar Vučić",
+      "relation": "former president and concession loser"
+    },
+    {
+      "source": "info:item:world:global:2026-10-26-001",
+      "target": "info:entity:organization:Student List",
+      "relation": "opposition movement and election winner"
+    },
+    {
+      "source": "info:item:world:global:2026-10-26-001",
+      "target": "info:entity:organization:European Union",
+      "relation": "potential integration partner"
+    },
+    {
+      "source": "info:item:world:global:2026-10-26-001",
+      "target": "info:entity:event:2022 Novi Sad train‑station collapse",
+      "relation": "catalyst for protests"
+    },
+    {
+      "source": "info:item:world:global:2026-10-26-001",
+      "target": "info:item:world:global:2026-10-25-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-26-001",
+      "target": "info:item:world:global:2026-10-25-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-26-001",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-26-001",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-26-001",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-26-001",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-26-001",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-26-001",
+      "target": "taxonomy/category/industry",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-26-001",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-26-002",
+      "target": "info:entity:person:Benjamin Netanyahu",
+      "relation": "incumbent prime minister, leader of Likud party"
+    },
+    {
+      "source": "info:item:world:global:2026-10-26-002",
+      "target": "info:entity:person:Gadi Eisenkot",
+      "relation": "centrist challenger, former IDF chief of staff, leader of Yashar party"
+    },
+    {
+      "source": "info:item:world:global:2026-10-26-002",
+      "target": "info:entity:company:OpenAI",
+      "relation": "AI model provider referenced in campaign AI tools"
+    },
+    {
+      "source": "info:item:world:global:2026-10-26-002",
+      "target": "info:entity:model:Gemini",
+      "relation": "AI platform used for data analytics in electoral strategy"
+    },
+    {
+      "source": "info:item:world:global:2026-10-26-002",
+      "target": "info:item:world:global:2026-10-26-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-26-002",
+      "target": "info:item:world:global:2026-10-25-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-26-002",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-26-002",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-26-002",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-26-002",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-26-002",
+      "target": "taxonomy/topic/world",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-26-002",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-26-002",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-26-003",
+      "target": "info:entity:person:María Corina Machado",
+      "relation": "opposition leader returning to Venezuela"
+    },
+    {
+      "source": "info:item:world:global:2026-10-26-003",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "U.S. president supporting Machado’s return"
+    },
+    {
+      "source": "info:item:world:global:2026-10-26-003",
+      "target": "info:entity:company:OpenAI",
+      "relation": "AI model provider used for election monitoring"
+    },
+    {
+      "source": "info:item:world:global:2026-10-26-003",
+      "target": "info:entity:model:Gemini",
+      "relation": "AI model referenced in geopolitical analysis"
+    },
+    {
+      "source": "info:item:world:global:2026-10-26-003",
+      "target": "info:item:world:global:2026-10-26-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-26-003",
+      "target": "info:item:world:global:2026-10-25-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-26-003",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-26-003",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-26-003",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-26-003",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-26-003",
+      "target": "taxonomy/misc/global",
+      "relation": "region"
+    },
+    {
+      "source": "info:item:world:global:2026-10-26-003",
+      "target": "taxonomy/misc/policy",
+      "relation": "category"
+    },
+    {
+      "source": "info:item:world:global:2026-10-26-003",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "topic"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-26-004",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "Prime Minister who pledged the funding and launched the rough‑sleeping initiative"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-26-004",
+      "target": "info:entity:person:Katie Lam",
+      "relation": "Shadow Housing Secretary who criticised the plan and highlighted past failures"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-26-004",
+      "target": "info:entity:organization:National Housing Federation",
+      "relation": "partner working to identify 2,000 potential homes and bed spaces"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-26-004",
+      "target": "info:entity:organization:Labour Party",
+      "relation": "previous government under which rough‑sleeping reached record highs, cited in opposition critique"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-26-004",
+      "target": "info:item:politics:global:2026-10-25-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-26-004",
+      "target": "info:item:politics:global:2026-10-24-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-26-004",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-26-004",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-26-004",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-26-004",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-26-004",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-26-004",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-26-005",
+      "target": "info:entity:company:OpenAI",
+      "relation": "provides AI policy analysis tools that help regulators model the housing market effects of tenancy reforms."
+    },
+    {
+      "source": "info:item:politics:global:2026-10-26-005",
+      "target": "info:entity:model:Gemini",
+      "relation": "used to simulate rental market dynamics and predict void periods for student landlords."
+    },
+    {
+      "source": "info:item:politics:global:2026-10-26-005",
+      "target": "info:entity:company:Anthropic",
+      "relation": "offers AI forecasting services that can be applied to assess rent‑price elasticity in the student sector."
+    },
+    {
+      "source": "info:item:politics:global:2026-10-26-005",
+      "target": "info:item:politics:global:2026-10-26-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-26-005",
+      "target": "info:item:politics:global:2026-10-25-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-26-005",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-26-005",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-26-005",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-26-005",
+      "target": "taxonomy/topic/politics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-26-005",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-26-005",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-10-26-006",
+      "target": "info:entity:company:Lexmount",
+      "relation": "developer and publisher of Moli"
+    },
+    {
+      "source": "info:item:products:global:2026-10-26-006",
+      "target": "info:entity:product:Moli",
+      "relation": "headless browser for agents and harnesses"
+    },
+    {
+      "source": "info:item:products:global:2026-10-26-006",
+      "target": "info:entity:model:OpenAI GPT‑4‑Turbo",
+      "relation": "benchmark LLM integrated with Moli for prompt pipelines"
+    },
+    {
+      "source": "info:item:products:global:2026-10-26-006",
+      "target": "info:item:products:global:2026-10-25-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-10-26-006",
+      "target": "info:item:products:global:2026-10-24-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-10-26-006",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-10-26-006",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-10-26-006",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-10-26-006",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-10-26-006",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-10-26-006",
+      "target": "taxonomy/misc/Myanmar",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-10-26-007",
+      "target": "info:entity:company:AgentGrid.io",
+      "relation": "product provider"
+    },
+    {
+      "source": "info:item:products:global:2026-10-26-007",
+      "target": "info:entity:model:OpenAI GPT‑4‑Turbo",
+      "relation": "supported LLM"
+    },
+    {
+      "source": "info:item:products:global:2026-10-26-007",
+      "target": "info:entity:model:Anthropic Claude",
+      "relation": "supported LLM"
+    },
+    {
+      "source": "info:item:products:global:2026-10-26-007",
+      "target": "info:entity:model:Google Gemini",
+      "relation": "supported LLM"
+    },
+    {
+      "source": "info:item:products:global:2026-10-26-007",
+      "target": "info:entity:concept:agentic AI",
+      "relation": "core technology"
+    },
+    {
+      "source": "info:item:products:global:2026-10-26-007",
+      "target": "info:entity:concept:regulation",
+      "relation": "context"
+    },
+    {
+      "source": "info:item:products:global:2026-10-26-007",
+      "target": "info:item:products:global:2026-10-25-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-10-26-007",
+      "target": "info:item:products:global:2026-10-24-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-10-26-007",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-10-26-007",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-10-26-007",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-10-26-007",
+      "target": "taxonomy/misc/Artificial Intelligence",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-10-26-007",
+      "target": "taxonomy/misc/Collaboration Software",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-10-26-007",
+      "target": "taxonomy/misc/Regulatory Compliance",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -41039,6 +41566,36 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:company:AgentGrid.io",
+      "target": "info:entity:concept:agentic AI",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:AgentGrid.io",
+      "target": "info:entity:concept:regulation",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:AgentGrid.io",
+      "target": "info:entity:model:Anthropic Claude",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:AgentGrid.io",
+      "target": "info:entity:model:Google Gemini",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:AgentGrid.io",
+      "target": "info:entity:model:OpenAI GPT‑4‑Turbo",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:company:Airtop",
       "target": "info:entity:concept:Agentic AI",
       "relation": "co-occurs",
@@ -41174,7 +41731,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
-      "weight": "73"
+      "weight": "74"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -41378,7 +41935,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "30"
+      "weight": "31"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -42563,6 +43120,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:company:Lexmount",
+      "target": "info:entity:model:OpenAI GPT‑4‑Turbo",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Lexmount",
+      "target": "info:entity:product:Moli",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:company:Lugh Xtudio",
       "target": "info:entity:concept:agentic AI",
       "relation": "co-occurs",
@@ -43130,7 +43699,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "49"
+      "weight": "52"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -43508,7 +44077,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Benjamin Netanyahu",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -43550,7 +44119,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Donald Trump",
       "relation": "co-occurs",
-      "weight": "5"
+      "weight": "6"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -43591,6 +44160,12 @@
     {
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Flávio Bolsonaro",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:person:Gadi Eisenkot",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -43671,6 +44246,12 @@
       "target": "info:entity:person:Marine Le Pen",
       "relation": "co-occurs",
       "weight": "2"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:person:María Corina Machado",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -45522,9 +46103,15 @@
     },
     {
       "source": "info:entity:concept:agentic AI",
+      "target": "info:entity:concept:regulation",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:agentic AI",
       "target": "info:entity:model:Anthropic Claude",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:concept:agentic AI",
@@ -45560,7 +46147,7 @@
       "source": "info:entity:concept:agentic AI",
       "target": "info:entity:model:Google Gemini",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:concept:agentic AI",
@@ -45572,7 +46159,7 @@
       "source": "info:entity:concept:agentic AI",
       "target": "info:entity:model:OpenAI GPT‑4‑Turbo",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:concept:agentic AI",
@@ -45719,6 +46306,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:concept:regulation",
+      "target": "info:entity:model:Anthropic Claude",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:regulation",
+      "target": "info:entity:model:Google Gemini",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:regulation",
+      "target": "info:entity:model:OpenAI GPT‑4‑Turbo",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:event:2017 Guinea landslide",
       "target": "info:entity:organization:BBC News",
       "relation": "co-occurs",
@@ -45745,6 +46350,24 @@
     {
       "source": "info:entity:event:2021 Myanmar coup",
       "target": "info:entity:region:Sagaing region",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:event:2022 Novi Sad train‑station collapse",
+      "target": "info:entity:organization:European Union",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:event:2022 Novi Sad train‑station collapse",
+      "target": "info:entity:organization:Student List",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:event:2022 Novi Sad train‑station collapse",
+      "target": "info:entity:person:Aleksandar Vučić",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -46028,7 +46651,7 @@
       "source": "info:entity:model:Anthropic Claude",
       "target": "info:entity:model:Google Gemini",
       "relation": "co-occurs",
-      "weight": "4"
+      "weight": "5"
     },
     {
       "source": "info:entity:model:Anthropic Claude",
@@ -46058,7 +46681,7 @@
       "source": "info:entity:model:Anthropic Claude",
       "target": "info:entity:model:OpenAI GPT‑4‑Turbo",
       "relation": "co-occurs",
-      "weight": "4"
+      "weight": "5"
     },
     {
       "source": "info:entity:model:Anthropic Claude",
@@ -46548,6 +47171,12 @@
     },
     {
       "source": "info:entity:model:Gemini",
+      "target": "info:entity:person:Benjamin Netanyahu",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
       "target": "info:entity:person:Brendan Boyle",
       "relation": "co-occurs",
       "weight": "1"
@@ -46568,7 +47197,7 @@
       "source": "info:entity:model:Gemini",
       "target": "info:entity:person:Donald Trump",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:model:Gemini",
@@ -46585,6 +47214,12 @@
     {
       "source": "info:entity:model:Gemini",
       "target": "info:entity:person:Flávio Bolsonaro",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
+      "target": "info:entity:person:Gadi Eisenkot",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -46665,6 +47300,12 @@
       "target": "info:entity:person:Marine Le Pen",
       "relation": "co-occurs",
       "weight": "2"
+    },
+    {
+      "source": "info:entity:model:Gemini",
+      "target": "info:entity:person:María Corina Machado",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:model:Gemini",
@@ -46922,7 +47563,7 @@
       "source": "info:entity:model:Google Gemini",
       "target": "info:entity:model:OpenAI GPT‑4‑Turbo",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:model:Google Gemini",
@@ -47131,6 +47772,12 @@
     {
       "source": "info:entity:model:OpenAI GPT‑4‑Turbo",
       "target": "info:entity:person:Tristan Tate",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:OpenAI GPT‑4‑Turbo",
+      "target": "info:entity:product:Moli",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -48786,6 +49433,12 @@
     },
     {
       "source": "info:entity:organization:European Union",
+      "target": "info:entity:organization:Student List",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:European Union",
       "target": "info:entity:organization:U.S. Congress",
       "relation": "co-occurs",
       "weight": "1"
@@ -48793,6 +49446,12 @@
     {
       "source": "info:entity:organization:European Union",
       "target": "info:entity:organization:U.S. Treasury",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:European Union",
+      "target": "info:entity:person:Aleksandar Vučić",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -50310,6 +50969,12 @@
     },
     {
       "source": "info:entity:organization:Labour Party",
+      "target": "info:entity:organization:National Housing Federation",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Labour Party",
       "target": "info:entity:organization:Prison Governors' Association",
       "relation": "co-occurs",
       "weight": "1"
@@ -50354,7 +51019,7 @@
       "source": "info:entity:organization:Labour Party",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
-      "weight": "17"
+      "weight": "18"
     },
     {
       "source": "info:entity:organization:Labour Party",
@@ -50397,6 +51062,12 @@
       "target": "info:entity:person:John Healey",
       "relation": "co-occurs",
       "weight": "6"
+    },
+    {
+      "source": "info:entity:organization:Labour Party",
+      "target": "info:entity:person:Katie Lam",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:organization:Labour Party",
@@ -51032,11 +51703,17 @@
       "source": "info:entity:organization:National Housing Federation",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:National Housing Federation",
       "target": "info:entity:person:Angela Rayner",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:National Housing Federation",
+      "target": "info:entity:person:Katie Lam",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -52141,6 +52818,12 @@
     {
       "source": "info:entity:organization:Strait of Hormuz",
       "target": "info:entity:person:Masoud Pezeshkian",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Student List",
+      "target": "info:entity:person:Aleksandar Vučić",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -53496,6 +54179,12 @@
     },
     {
       "source": "info:entity:person:Andy Burnham",
+      "target": "info:entity:person:Katie Lam",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Andy Burnham",
       "target": "info:entity:person:Keir Starmer",
       "relation": "co-occurs",
       "weight": "9"
@@ -53875,6 +54564,12 @@
     {
       "source": "info:entity:person:Benjamin Netanyahu",
       "target": "info:entity:person:Emmanuel Macron",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Benjamin Netanyahu",
+      "target": "info:entity:person:Gadi Eisenkot",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -54465,6 +55160,12 @@
       "target": "info:entity:person:Mark Carney",
       "relation": "co-occurs",
       "weight": "8"
+    },
+    {
+      "source": "info:entity:person:Donald Trump",
+      "target": "info:entity:person:María Corina Machado",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:person:Donald Trump",

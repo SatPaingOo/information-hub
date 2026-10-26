@@ -1,7 +1,7 @@
 ---
 name: "European Union"
 entity_type: organization
-backlink_count: 17
+backlink_count: 18
 ---
 
 # European Union
@@ -10,6 +10,7 @@ backlink_count: 17
 
 ## Referenced by
 
+- 2026-10-26 · [[2026-10-26-001-elation-across-serbia-after-veteran-ruler-vu-i-concedes-to]] — Elation across Serbia after veteran ruler Vučić concedes to student-led protest movement
 - 2026-10-22 · [[2026-10-22-003-macron-accuses-foreign-leaders-of-exploiting-french-riots]] — Macron accuses foreign leaders of exploiting French riots
 - 2026-10-13 · [[2026-10-13-004-burnham-to-push-for-new-post-brexit-deals-at-eu-summit]] — Burnham to push for new post-Brexit deals at EU summit
 - 2026-10-12 · [[2026-10-12-001-trump-s-energy-ceasefire-claim-welcomed-by-zelensky-but]] — Trump's 'energy ceasefire' claim welcomed by Zelensky but Russia silent

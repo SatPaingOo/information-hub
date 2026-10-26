@@ -1,7 +1,7 @@
 ---
 name: "Gemini"
 entity_type: model
-backlink_count: 69
+backlink_count: 72
 ---
 
 # Gemini
@@ -10,6 +10,9 @@ backlink_count: 69
 
 ## Referenced by
 
+- 2026-10-26 · [[2026-10-26-002-deeply-divided-israel-braces-for-pivotal-election]] — Deeply divided Israel braces for pivotal election
+- 2026-10-26 · [[2026-10-26-003-venezuelan-opposition-leader-mar-a-machado-returns-after]] — Venezuelan opposition leader María Machado returns after months in exile
+- 2026-10-26 · [[2026-10-26-005-students-like-new-tenancy-freedoms-but-landlords-warn-of]] — Students like new tenancy freedoms - but landlords warn of higher rents
 - 2026-10-25 · [[2026-10-25-001-almost-1-000-arrested-as-clashes-follow-another-day-of]] — Almost 1,000 arrested as clashes follow another day of mass protests across France
 - 2026-10-24 · [[2026-10-24-001-deadly-shooting-near-paris-is-a-racist-terrorist-attack]] — Deadly shooting near Paris is a 'racist terrorist attack', Macron says
 - 2026-10-24 · [[2026-10-24-003-arrest-made-after-fire-at-hitler-s-eagle-s-nest-retreat]] — Arrest made after fire at Hitler's Eagle's Nest retreat

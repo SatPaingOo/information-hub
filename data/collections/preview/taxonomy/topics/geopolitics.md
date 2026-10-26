@@ -1,7 +1,7 @@
 ---
 node: "geopolitics"
 layer: topic
-item_count: 122
+item_count: 127
 ---
 
 # geopolitics
@@ -21,9 +21,15 @@ item_count: 122
 - [[policy]] — *classified_in*
 - [[politics]] — *relates*
 - [[world]] — *relates*
+- [[world]] — *topic*
 
 ## Items
 
+- 2026-10-26 · [[2026-10-26-001-elation-across-serbia-after-veteran-ruler-vu-i-concedes-to]] — Elation across Serbia after veteran ruler Vučić concedes to student-led protest movement
+- 2026-10-26 · [[2026-10-26-002-deeply-divided-israel-braces-for-pivotal-election]] — Deeply divided Israel braces for pivotal election
+- 2026-10-26 · [[2026-10-26-003-venezuelan-opposition-leader-mar-a-machado-returns-after]] — Venezuelan opposition leader María Machado returns after months in exile
+- 2026-10-26 · [[2026-10-26-004-funding-set-to-double-for-plan-to-get-rough-sleepers-off]] — Funding set to double for plan to get rough sleepers off streets by Christmas
+- 2026-10-26 · [[2026-10-26-005-students-like-new-tenancy-freedoms-but-landlords-warn-of]] — Students like new tenancy freedoms - but landlords warn of higher rents
 - 2026-10-25 · [[2026-10-25-001-almost-1-000-arrested-as-clashes-follow-another-day-of]] — Almost 1,000 arrested as clashes follow another day of mass protests across France
 - 2026-10-25 · [[2026-10-25-002-ukraine-says-starlink-connection-now-stable-after-network]] — Ukraine says Starlink connection 'now stable' after network limits
 - 2026-10-24 · [[2026-10-24-004-chancellor-says-he-will-cut-pointless-paperwork-to-save]] — Chancellor says he will cut 'pointless paperwork' to save businesses up to £800m

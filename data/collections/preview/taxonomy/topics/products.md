@@ -1,7 +1,7 @@
 ---
 node: "products"
 layer: topic
-item_count: 79
+item_count: 81
 ---
 
 # products
@@ -16,6 +16,8 @@ item_count: 79
 
 ## Items
 
+- 2026-10-26 · [[2026-10-26-006-moli-by-lexmount-the-fastest-headless-browser-for-agents]] — Moli by Lexmount – The Fastest Headless Browser for Agents and Harnesses
+- 2026-10-26 · [[2026-10-26-007-agentgrid-io-a-shared-workspace-for-humans-and-ai-agents]] — AgentGrid.io – A Shared Workspace for Humans and AI Agents
 - 2026-10-25 · [[2026-10-25-006-agentvalley-every-claude-code-agent-at-a-glance-in-your]] — AgentValley – Every Claude Code Agent, at a Glance, in Your Mac's Notch
 - 2026-10-24 · [[2026-10-24-006-dotmd]] — DotMD
 - 2026-10-22 · [[2026-10-22-006-needle]] — Needle

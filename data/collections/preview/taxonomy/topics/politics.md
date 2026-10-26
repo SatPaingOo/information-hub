@@ -1,7 +1,7 @@
 ---
 node: "politics"
 layer: topic
-item_count: 167
+item_count: 170
 ---
 
 # politics
@@ -17,6 +17,9 @@ item_count: 167
 
 ## Items
 
+- 2026-10-26 · [[2026-10-26-004-funding-set-to-double-for-plan-to-get-rough-sleepers-off]] — Funding set to double for plan to get rough sleepers off streets by Christmas
+- 2026-10-26 · [[2026-10-26-005-students-like-new-tenancy-freedoms-but-landlords-warn-of]] — Students like new tenancy freedoms - but landlords warn of higher rents
+- 2026-10-26 · [[2026-10-26-005-students-like-new-tenancy-freedoms-but-landlords-warn-of]] — Students like new tenancy freedoms - but landlords warn of higher rents
 - 2026-10-25 · [[2026-10-25-004-uk-to-invest-100m-in-world-first-ai-biosecurity-lab]] — UK to invest £100m in 'world first' AI Biosecurity Lab
 - 2026-10-25 · [[2026-10-25-005-burnham-open-to-honest-discussion-on-eu-free-movement]] — Burnham open to 'honest discussion' on EU free movement
 - 2026-10-24 · [[2026-10-24-004-chancellor-says-he-will-cut-pointless-paperwork-to-save]] — Chancellor says he will cut 'pointless paperwork' to save businesses up to £800m

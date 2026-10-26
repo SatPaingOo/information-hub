@@ -1,7 +1,7 @@
 ---
 name: "Agentic AI"
 entity_type: concept
-backlink_count: 32
+backlink_count: 33
 ---
 
 # Agentic AI
@@ -10,6 +10,7 @@ backlink_count: 32
 
 ## Referenced by
 
+- 2026-10-26 · [[2026-10-26-007-agentgrid-io-a-shared-workspace-for-humans-and-ai-agents]] — AgentGrid.io – A Shared Workspace for Humans and AI Agents
 - 2026-10-22 · [[2026-10-22-007-nimbalyst-wiki-agentic-ai-powered-knowledge-management-for]] — Nimbalyst Wiki – Agentic AI‑Powered Knowledge Management for Teams
 - 2026-10-21 · [[2026-10-21-006-harness]] — Harness²
 - 2026-10-21 · [[2026-10-21-007-lugh-xtudio]] — Lugh Xtudio
