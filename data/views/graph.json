@@ -9407,6 +9407,37 @@
       "name": "Collaboration Software"
     },
     {
+      "id": "info:item:world:global:2026-10-26-008",
+      "type": "item",
+      "date": "2026-10-26",
+      "title": "Australian murderer loses bid to eat Vegemite in prison"
+    },
+    {
+      "id": "info:entity:person:Andre McKechnie",
+      "type": "person",
+      "name": "Andre McKechnie"
+    },
+    {
+      "id": "info:entity:organization:Corrections Victoria",
+      "type": "organization",
+      "name": "Corrections Victoria"
+    },
+    {
+      "id": "info:entity:product:Vegemite",
+      "type": "product",
+      "name": "Vegemite"
+    },
+    {
+      "id": "info:entity:concept:AI‑enabled surveillance",
+      "type": "concept",
+      "name": "AI‑enabled surveillance"
+    },
+    {
+      "id": "taxonomy/misc/technology regulation",
+      "type": "taxonomy",
+      "name": "technology regulation"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -41414,6 +41445,71 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-10-26-008",
+      "target": "info:entity:person:Andre McKechnie",
+      "relation": "convicted murderer and appellant"
+    },
+    {
+      "source": "info:item:world:global:2026-10-26-008",
+      "target": "info:entity:organization:Corrections Victoria",
+      "relation": "state agency managing Victorian prisons"
+    },
+    {
+      "source": "info:item:world:global:2026-10-26-008",
+      "target": "info:entity:product:Vegemite",
+      "relation": "culturally iconic yeast spread banned in prisons"
+    },
+    {
+      "source": "info:item:world:global:2026-10-26-008",
+      "target": "info:entity:concept:AI‑enabled surveillance",
+      "relation": "emerging technology influencing prison security policy"
+    },
+    {
+      "source": "info:item:world:global:2026-10-26-008",
+      "target": "info:item:world:global:2026-10-26-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-26-008",
+      "target": "info:item:world:global:2026-10-26-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-26-008",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-26-008",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-26-008",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-26-008",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-26-008",
+      "target": "taxonomy/misc/prison reform",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-26-008",
+      "target": "taxonomy/misc/cultural heritage",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-26-008",
+      "target": "taxonomy/misc/technology regulation",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -45054,6 +45150,24 @@
     {
       "source": "info:entity:concept:AI‑enabled crime analytics",
       "target": "info:entity:person:Cyril Ramaphosa",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:AI‑enabled surveillance",
+      "target": "info:entity:organization:Corrections Victoria",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:AI‑enabled surveillance",
+      "target": "info:entity:person:Andre McKechnie",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:AI‑enabled surveillance",
+      "target": "info:entity:product:Vegemite",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -49008,6 +49122,18 @@
     {
       "source": "info:entity:organization:Cornell University",
       "target": "info:entity:person:Sally Yates",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Corrections Victoria",
+      "target": "info:entity:person:Andre McKechnie",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Corrections Victoria",
+      "target": "info:entity:product:Vegemite",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -54060,6 +54186,12 @@
     {
       "source": "info:entity:person:Alice Weidel",
       "target": "info:entity:person:Friedrich Merz",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Andre McKechnie",
+      "target": "info:entity:product:Vegemite",
       "relation": "co-occurs",
       "weight": "1"
     },

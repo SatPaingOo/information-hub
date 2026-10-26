@@ -17,3 +17,11 @@
 2026-10-26 05:03:36,188 WARNING [politics] no collect provider available
 2026-10-26 05:03:36,513 WARNING [products] no collect provider available
 2026-10-26 05:03:36,994 INFO collect done: 0 item(s) published — target 3/10, next run ≈ 2026-10-27T01:00:00+00:00 UTC
+2026-10-26 05:54:24,194 INFO [world-news] published 2026-10-26-008 — Australian murderer loses bid to eat Vegemite in prison
+2026-10-26 05:54:24,371 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7971, Requested 6429. Please try again in 48s. Need more tokens? Upgrade to Dev Tier today at https://console
+2026-10-26 05:54:27,373 WARNING [world-news] no collect provider for deep-dive
+2026-10-26 05:54:27,472 WARNING [world-news] no collect provider for deep-dive
+2026-10-26 05:54:28,085 WARNING [tech-news] no collect provider available
+2026-10-26 05:54:28,542 WARNING [politics] no collect provider available
+2026-10-26 05:54:28,895 WARNING [products] no collect provider available
+2026-10-26 05:54:29,340 INFO collect done: 1 item(s) published — target 2/10, next run ≈ 2026-10-27T01:00:00+00:00 UTC
