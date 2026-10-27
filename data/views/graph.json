@@ -9551,6 +9551,22 @@
       "name": "legal proceedings"
     },
     {
+      "id": "info:item:world:global:2026-10-27-009",
+      "type": "item",
+      "date": "2026-10-27",
+      "title": "Turnout so far highest in decades as Israelis vote in pivotal election"
+    },
+    {
+      "id": "info:entity:concept:AI‑generated synthetic media",
+      "type": "concept",
+      "name": "AI‑generated synthetic media"
+    },
+    {
+      "id": "taxonomy/misc/election",
+      "type": "taxonomy",
+      "name": "election"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -42113,6 +42129,76 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-10-27-009",
+      "target": "info:entity:person:Benjamin Netanyahu",
+      "relation": "incumbent prime minister candidate"
+    },
+    {
+      "source": "info:item:world:global:2026-10-27-009",
+      "target": "info:entity:person:Gadi Eisenkot",
+      "relation": "former military chief and opposition candidate"
+    },
+    {
+      "source": "info:item:world:global:2026-10-27-009",
+      "target": "info:entity:organization:Israeli Defense Forces",
+      "relation": "primary security apparatus"
+    },
+    {
+      "source": "info:item:world:global:2026-10-27-009",
+      "target": "info:entity:concept:AI‑generated synthetic media",
+      "relation": "used in campaign messaging"
+    },
+    {
+      "source": "info:item:world:global:2026-10-27-009",
+      "target": "info:item:world:global:2026-10-27-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-27-009",
+      "target": "info:item:world:global:2026-10-27-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-27-009",
+      "target": "info:item:world:global:2026-10-27-003",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-27-009",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-27-009",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-27-009",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-27-009",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-27-009",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-27-009",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-27-009",
+      "target": "taxonomy/misc/election",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -45843,6 +45929,24 @@
     {
       "source": "info:entity:concept:AI‑enabled surveillance",
       "target": "info:entity:product:Vegemite",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:AI‑generated synthetic media",
+      "target": "info:entity:organization:Israeli Defense Forces",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:AI‑generated synthetic media",
+      "target": "info:entity:person:Benjamin Netanyahu",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:AI‑generated synthetic media",
+      "target": "info:entity:person:Gadi Eisenkot",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -51634,6 +51738,12 @@
       "source": "info:entity:organization:Israeli Defense Forces",
       "target": "info:entity:person:Benjamin Netanyahu",
       "relation": "co-occurs",
+      "weight": "2"
+    },
+    {
+      "source": "info:entity:organization:Israeli Defense Forces",
+      "target": "info:entity:person:Gadi Eisenkot",
+      "relation": "co-occurs",
       "weight": "1"
     },
     {
@@ -55462,7 +55572,7 @@
       "source": "info:entity:person:Benjamin Netanyahu",
       "target": "info:entity:person:Gadi Eisenkot",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Benjamin Netanyahu",

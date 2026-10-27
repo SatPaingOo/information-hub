@@ -1,7 +1,7 @@
 ---
 node: "geopolitics"
 layer: topic
-item_count: 129
+item_count: 130
 ---
 
 # geopolitics
@@ -27,6 +27,7 @@ item_count: 129
 
 - 2026-10-27 · [[2026-10-27-002-lula-wins-fourth-term-in-dramatic-brazil-election-comeback]] — Lula wins fourth term in dramatic Brazil election comeback
 - 2026-10-27 · [[2026-10-27-008-ex-fbi-director-james-comey-charged-for-third-time-legal]] — Ex‑FBI Director James Comey Charged for Third Time: Legal, Political and Institutional Ramifications
+- 2026-10-27 · [[2026-10-27-009-turnout-so-far-highest-in-decades-as-israelis-vote-in]] — Turnout so far highest in decades as Israelis vote in pivotal election
 - 2026-10-26 · [[2026-10-26-001-elation-across-serbia-after-veteran-ruler-vu-i-concedes-to]] — Elation across Serbia after veteran ruler Vučić concedes to student-led protest movement
 - 2026-10-26 · [[2026-10-26-002-deeply-divided-israel-braces-for-pivotal-election]] — Deeply divided Israel braces for pivotal election
 - 2026-10-26 · [[2026-10-26-003-venezuelan-opposition-leader-mar-a-machado-returns-after]] — Venezuelan opposition leader María Machado returns after months in exile

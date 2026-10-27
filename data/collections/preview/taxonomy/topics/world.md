@@ -1,7 +1,7 @@
 ---
 node: "world"
 layer: topic
-item_count: 294
+item_count: 295
 ---
 
 # world
@@ -22,6 +22,7 @@ item_count: 294
 - 2026-10-27 · [[2026-10-27-002-lula-wins-fourth-term-in-dramatic-brazil-election-comeback]] — Lula wins fourth term in dramatic Brazil election comeback
 - 2026-10-27 · [[2026-10-27-003-trump-administration-illegally-fired-james-comey-s]] — Trump administration illegally fired James Comey's daughter, judge rules
 - 2026-10-27 · [[2026-10-27-008-ex-fbi-director-james-comey-charged-for-third-time-legal]] — Ex‑FBI Director James Comey Charged for Third Time: Legal, Political and Institutional Ramifications
+- 2026-10-27 · [[2026-10-27-009-turnout-so-far-highest-in-decades-as-israelis-vote-in]] — Turnout so far highest in decades as Israelis vote in pivotal election
 - 2026-10-26 · [[2026-10-26-001-elation-across-serbia-after-veteran-ruler-vu-i-concedes-to]] — Elation across Serbia after veteran ruler Vučić concedes to student-led protest movement
 - 2026-10-26 · [[2026-10-26-002-deeply-divided-israel-braces-for-pivotal-election]] — Deeply divided Israel braces for pivotal election
 - 2026-10-26 · [[2026-10-26-002-deeply-divided-israel-braces-for-pivotal-election]] — Deeply divided Israel braces for pivotal election

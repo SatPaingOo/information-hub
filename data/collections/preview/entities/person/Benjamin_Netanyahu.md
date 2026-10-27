@@ -1,7 +1,7 @@
 ---
 name: "Benjamin Netanyahu"
 entity_type: person
-backlink_count: 14
+backlink_count: 15
 ---
 
 # Benjamin Netanyahu
@@ -10,6 +10,7 @@ backlink_count: 14
 
 ## Referenced by
 
+- 2026-10-27 · [[2026-10-27-009-turnout-so-far-highest-in-decades-as-israelis-vote-in]] — Turnout so far highest in decades as Israelis vote in pivotal election
 - 2026-10-26 · [[2026-10-26-002-deeply-divided-israel-braces-for-pivotal-election]] — Deeply divided Israel braces for pivotal election
 - 2026-10-25 · [[2026-10-25-003-palestinian-families-displaced-as-israeli-forces-demolish]] — Palestinian families displaced as Israeli forces demolish Hebron homes
 - 2026-10-22 · [[2026-10-22-003-macron-accuses-foreign-leaders-of-exploiting-french-riots]] — Macron accuses foreign leaders of exploiting French riots
