@@ -1,11 +1,11 @@
 {
   "groq": {
     "quota_date": "2026-10-27",
-    "tokens_used": 18119,
-    "items": 2,
-    "calls": 3,
-    "errors": 3,
-    "cooldown_until": "2026-10-27T01:00:16+00:00",
+    "tokens_used": 27413,
+    "items": 3,
+    "calls": 5,
+    "errors": 5,
+    "cooldown_until": "2026-10-27T06:07:32+00:00",
     "models": {
       "llama-3.3-70b-versatile": {
         "calls": 0,
@@ -30,23 +30,23 @@
         "cooldown_until": null
       },
       "openai/gpt-oss-120b": {
-        "calls": 342,
-        "items": 153,
-        "errors": 186,
+        "calls": 344,
+        "items": 154,
+        "errors": 187,
         "consecutive_failures": 1,
         "healthy": true,
-        "last_health_check": "2026-10-27T00:59:46+00:00",
-        "latency_ms": 1324,
+        "last_health_check": "2026-10-27T06:07:02+00:00",
+        "latency_ms": 4617,
         "supports_json": true,
-        "cooldown_until": "2026-10-27T01:00:16+00:00"
+        "cooldown_until": "2026-10-27T06:07:32+00:00"
       },
       "openai/gpt-oss-20b": {
         "calls": 63,
         "items": 40,
-        "errors": 90,
-        "consecutive_failures": 1,
-        "healthy": true,
-        "last_health_check": "2026-10-27T00:59:52+00:00",
+        "errors": 91,
+        "consecutive_failures": 2,
+        "healthy": false,
+        "last_health_check": "2026-10-27T06:07:08+00:00",
         "latency_ms": 3070,
         "supports_json": true,
         "cooldown_until": "2026-10-27T01:00:22+00:00"
@@ -508,30 +508,30 @@
     "tokens_used": 0,
     "items": 0,
     "calls": 0,
-    "errors": 2,
-    "cooldown_until": "2026-10-27T01:00:37+00:00",
+    "errors": 4,
+    "cooldown_until": "2026-10-27T06:07:50+00:00",
     "models": {
       "gemini-3.5-flash-lite": {
         "calls": 0,
         "items": 0,
-        "errors": 154,
-        "consecutive_failures": 1,
+        "errors": 155,
+        "consecutive_failures": 2,
         "healthy": true,
-        "last_health_check": "2026-10-27T01:00:04+00:00",
+        "last_health_check": "2026-10-27T06:07:17+00:00",
         "latency_ms": null,
         "supports_json": true,
-        "cooldown_until": "2026-10-27T01:00:34+00:00"
+        "cooldown_until": "2026-10-27T06:08:17+00:00"
       },
       "gemini-3.5-flash": {
         "calls": 0,
         "items": 0,
-        "errors": 154,
-        "consecutive_failures": 1,
+        "errors": 155,
+        "consecutive_failures": 2,
         "healthy": true,
-        "last_health_check": "2026-10-27T01:00:07+00:00",
+        "last_health_check": "2026-10-27T06:07:20+00:00",
         "latency_ms": null,
         "supports_json": true,
-        "cooldown_until": "2026-10-27T01:00:37+00:00"
+        "cooldown_until": "2026-10-27T06:08:20+00:00"
       }
     }
   }

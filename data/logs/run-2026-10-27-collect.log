@@ -21,3 +21,13 @@
 2026-10-27 01:00:02,865 WARNING [politics] no collect provider available
 2026-10-27 01:00:03,128 WARNING [products] no collect provider available
 2026-10-27 01:00:03,592 INFO collect done: 0 item(s) published — target 4/10, next run ≈ 2026-10-28T01:00:00+00:00 UTC
+2026-10-27 06:07:02,593 INFO [world-news] published 2026-10-27-008 — Ex‑FBI Director James Comey Charged for Third Time: Legal, P
+2026-10-27 06:07:02,801 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7973, Requested 6278. Please try again in 46.8825s. Need more tokens? Upgrade to Dev Tier today at https://co
+2026-10-27 06:07:08,689 ERROR [world-news] generate error: HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
+
+2026-10-27 06:07:14,690 WARNING [world-news] no collect provider for deep-dive
+2026-10-27 06:07:14,815 WARNING [world-news] no collect provider for deep-dive
+2026-10-27 06:07:15,727 WARNING [tech-news] no collect provider available
+2026-10-27 06:07:16,344 WARNING [politics] no collect provider available
+2026-10-27 06:07:17,243 WARNING [products] no collect provider available
+2026-10-27 06:07:17,467 INFO collect done: 1 item(s) published — target 3/10, next run ≈ 2026-10-28T01:00:00+00:00 UTC
