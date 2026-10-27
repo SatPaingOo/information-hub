@@ -1,7 +1,7 @@
 ---
 name: "Gemini"
 entity_type: model
-backlink_count: 72
+backlink_count: 75
 ---
 
 # Gemini
@@ -10,6 +10,9 @@ backlink_count: 72
 
 ## Referenced by
 
+- 2026-10-27 · [[2026-10-27-002-lula-wins-fourth-term-in-dramatic-brazil-election-comeback]] — Lula wins fourth term in dramatic Brazil election comeback
+- 2026-10-27 · [[2026-10-27-006-surgepix-ai-visual-generation-with-agent-callable-layering]] — SurgePix: AI Visual Generation with Agent-Callable Layering
+- 2026-10-27 · [[2026-10-27-007-strawberry-1-0-ai-browser-that-saves-your-team-100h-week]] — Strawberry 1.0 – AI Browser that saves your team >100h/week
 - 2026-10-26 · [[2026-10-26-002-deeply-divided-israel-braces-for-pivotal-election]] — Deeply divided Israel braces for pivotal election
 - 2026-10-26 · [[2026-10-26-003-venezuelan-opposition-leader-mar-a-machado-returns-after]] — Venezuelan opposition leader María Machado returns after months in exile
 - 2026-10-26 · [[2026-10-26-005-students-like-new-tenancy-freedoms-but-landlords-warn-of]] — Students like new tenancy freedoms - but landlords warn of higher rents

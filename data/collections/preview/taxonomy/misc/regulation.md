@@ -1,7 +1,7 @@
 ---
 node: "Regulation"
 layer: misc
-item_count: 42
+item_count: 43
 ---
 
 # Regulation
@@ -17,6 +17,7 @@ item_count: 42
 
 ## Items
 
+- 2026-10-27 · [[2026-10-27-001-anthropic-warns-of-catastrophic-risk-to-humankind-ahead-of]] — Anthropic warns of 'catastrophic risk' to humankind ahead of blockbuster share listing
 - 2026-10-25 · [[2026-10-25-006-agentvalley-every-claude-code-agent-at-a-glance-in-your]] — AgentValley – Every Claude Code Agent, at a Glance, in Your Mac's Notch
 - 2026-10-24 · [[2026-10-24-006-dotmd]] — DotMD
 - 2026-10-22 · [[2026-10-22-006-needle]] — Needle

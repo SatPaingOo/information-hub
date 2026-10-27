@@ -1,7 +1,7 @@
 ---
 node: "products"
 layer: topic
-item_count: 81
+item_count: 83
 ---
 
 # products
@@ -16,6 +16,8 @@ item_count: 81
 
 ## Items
 
+- 2026-10-27 · [[2026-10-27-006-surgepix-ai-visual-generation-with-agent-callable-layering]] — SurgePix: AI Visual Generation with Agent-Callable Layering
+- 2026-10-27 · [[2026-10-27-007-strawberry-1-0-ai-browser-that-saves-your-team-100h-week]] — Strawberry 1.0 – AI Browser that saves your team >100h/week
 - 2026-10-26 · [[2026-10-26-006-moli-by-lexmount-the-fastest-headless-browser-for-agents]] — Moli by Lexmount – The Fastest Headless Browser for Agents and Harnesses
 - 2026-10-26 · [[2026-10-26-007-agentgrid-io-a-shared-workspace-for-humans-and-ai-agents]] — AgentGrid.io – A Shared Workspace for Humans and AI Agents
 - 2026-10-25 · [[2026-10-25-006-agentvalley-every-claude-code-agent-at-a-glance-in-your]] — AgentValley – Every Claude Code Agent, at a Glance, in Your Mac's Notch

@@ -1,7 +1,7 @@
 ---
 name: "OpenAI"
 entity_type: company
-backlink_count: 147
+backlink_count: 150
 ---
 
 # OpenAI
@@ -10,6 +10,9 @@ backlink_count: 147
 
 ## Referenced by
 
+- 2026-10-27 · [[2026-10-27-001-anthropic-warns-of-catastrophic-risk-to-humankind-ahead-of]] — Anthropic warns of 'catastrophic risk' to humankind ahead of blockbuster share listing
+- 2026-10-27 · [[2026-10-27-002-lula-wins-fourth-term-in-dramatic-brazil-election-comeback]] — Lula wins fourth term in dramatic Brazil election comeback
+- 2026-10-27 · [[2026-10-27-006-surgepix-ai-visual-generation-with-agent-callable-layering]] — SurgePix: AI Visual Generation with Agent-Callable Layering
 - 2026-10-26 · [[2026-10-26-002-deeply-divided-israel-braces-for-pivotal-election]] — Deeply divided Israel braces for pivotal election
 - 2026-10-26 · [[2026-10-26-003-venezuelan-opposition-leader-mar-a-machado-returns-after]] — Venezuelan opposition leader María Machado returns after months in exile
 - 2026-10-26 · [[2026-10-26-005-students-like-new-tenancy-freedoms-but-landlords-warn-of]] — Students like new tenancy freedoms - but landlords warn of higher rents

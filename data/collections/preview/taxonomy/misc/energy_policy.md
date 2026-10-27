@@ -1,7 +1,7 @@
 ---
 node: "Energy Policy"
 layer: misc
-item_count: 7
+item_count: 8
 ---
 
 # Energy Policy
@@ -15,6 +15,7 @@ item_count: 7
 
 ## Items
 
+- 2026-10-27 · [[2026-10-27-004-chris-mason-the-budget-is-imminent-as-tricky-things-pile]] — Chris Mason: The Budget is imminent as tricky things pile up for Burnham
 - 2026-10-21 · [[2026-10-21-004-uk-government-expected-to-approve-jackdaw-gas-field]] — UK government expected to approve Jackdaw gas field
 - 2026-10-13 · [[2026-10-13-004-burnham-to-push-for-new-post-brexit-deals-at-eu-summit]] — Burnham to push for new post-Brexit deals at EU summit
 - 2026-10-12 · [[2026-10-12-001-trump-s-energy-ceasefire-claim-welcomed-by-zelensky-but]] — Trump's 'energy ceasefire' claim welcomed by Zelensky but Russia silent

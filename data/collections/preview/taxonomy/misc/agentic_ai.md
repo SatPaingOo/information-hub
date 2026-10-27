@@ -1,7 +1,7 @@
 ---
 node: "Agentic AI"
 layer: misc
-item_count: 97
+item_count: 99
 ---
 
 # Agentic AI
@@ -17,6 +17,8 @@ item_count: 97
 
 ## Items
 
+- 2026-10-27 · [[2026-10-27-001-anthropic-warns-of-catastrophic-risk-to-humankind-ahead-of]] — Anthropic warns of 'catastrophic risk' to humankind ahead of blockbuster share listing
+- 2026-10-27 · [[2026-10-27-007-strawberry-1-0-ai-browser-that-saves-your-team-100h-week]] — Strawberry 1.0 – AI Browser that saves your team >100h/week
 - 2026-10-26 · [[2026-10-26-006-moli-by-lexmount-the-fastest-headless-browser-for-agents]] — Moli by Lexmount – The Fastest Headless Browser for Agents and Harnesses
 - 2026-10-25 · [[2026-10-25-006-agentvalley-every-claude-code-agent-at-a-glance-in-your]] — AgentValley – Every Claude Code Agent, at a Glance, in Your Mac's Notch
 - 2026-10-24 · [[2026-10-24-006-dotmd]] — DotMD

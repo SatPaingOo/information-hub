@@ -1,7 +1,7 @@
 ---
 node: "politics"
 layer: topic
-item_count: 170
+item_count: 171
 ---
 
 # politics
@@ -17,6 +17,7 @@ item_count: 170
 
 ## Items
 
+- 2026-10-27 · [[2026-10-27-004-chris-mason-the-budget-is-imminent-as-tricky-things-pile]] — Chris Mason: The Budget is imminent as tricky things pile up for Burnham
 - 2026-10-26 · [[2026-10-26-004-funding-set-to-double-for-plan-to-get-rough-sleepers-off]] — Funding set to double for plan to get rough sleepers off streets by Christmas
 - 2026-10-26 · [[2026-10-26-005-students-like-new-tenancy-freedoms-but-landlords-warn-of]] — Students like new tenancy freedoms - but landlords warn of higher rents
 - 2026-10-26 · [[2026-10-26-005-students-like-new-tenancy-freedoms-but-landlords-warn-of]] — Students like new tenancy freedoms - but landlords warn of higher rents

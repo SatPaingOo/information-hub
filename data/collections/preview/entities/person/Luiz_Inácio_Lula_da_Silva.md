@@ -1,7 +1,7 @@
 ---
 name: "Luiz Inácio Lula da Silva"
 entity_type: person
-backlink_count: 1
+backlink_count: 2
 ---
 
 # Luiz Inácio Lula da Silva
@@ -10,4 +10,5 @@ backlink_count: 1
 
 ## Referenced by
 
+- 2026-10-27 · [[2026-10-27-002-lula-wins-fourth-term-in-dramatic-brazil-election-comeback]] — Lula wins fourth term in dramatic Brazil election comeback
 - 2026-10-17 · [[2026-10-17-001-brazil-sees-record-fall-in-amazon-deforestation-as-key]] — Brazil sees record fall in Amazon deforestation as key election looms

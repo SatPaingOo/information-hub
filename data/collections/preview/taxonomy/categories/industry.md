@@ -1,7 +1,7 @@
 ---
 node: "industry"
 layer: category
-item_count: 322
+item_count: 325
 ---
 
 # industry
@@ -21,6 +21,9 @@ item_count: 322
 
 ## Items
 
+- 2026-10-27 · [[2026-10-27-001-anthropic-warns-of-catastrophic-risk-to-humankind-ahead-of]] — Anthropic warns of 'catastrophic risk' to humankind ahead of blockbuster share listing
+- 2026-10-27 · [[2026-10-27-002-lula-wins-fourth-term-in-dramatic-brazil-election-comeback]] — Lula wins fourth term in dramatic Brazil election comeback
+- 2026-10-27 · [[2026-10-27-003-trump-administration-illegally-fired-james-comey-s]] — Trump administration illegally fired James Comey's daughter, judge rules
 - 2026-10-26 · [[2026-10-26-001-elation-across-serbia-after-veteran-ruler-vu-i-concedes-to]] — Elation across Serbia after veteran ruler Vučić concedes to student-led protest movement
 - 2026-10-26 · [[2026-10-26-001-elation-across-serbia-after-veteran-ruler-vu-i-concedes-to]] — Elation across Serbia after veteran ruler Vučić concedes to student-led protest movement
 - 2026-10-26 · [[2026-10-26-002-deeply-divided-israel-braces-for-pivotal-election]] — Deeply divided Israel braces for pivotal election

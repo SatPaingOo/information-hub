@@ -9464,6 +9464,77 @@
       "name": "intellectual property"
     },
     {
+      "id": "info:item:world:global:2026-10-27-001",
+      "type": "item",
+      "date": "2026-10-27",
+      "title": "Anthropic warns of 'catastrophic risk' to humankind ahead of blockbuster share listing"
+    },
+    {
+      "id": "info:item:world:global:2026-10-27-002",
+      "type": "item",
+      "date": "2026-10-27",
+      "title": "Lula wins fourth term in dramatic Brazil election comeback"
+    },
+    {
+      "id": "info:item:world:global:2026-10-27-003",
+      "type": "item",
+      "date": "2026-10-27",
+      "title": "Trump administration illegally fired James Comey's daughter, judge rules"
+    },
+    {
+      "id": "info:entity:person:Maurene Comey",
+      "type": "person",
+      "name": "Maurene Comey"
+    },
+    {
+      "id": "info:entity:person:James B. Comey",
+      "type": "person",
+      "name": "James B. Comey"
+    },
+    {
+      "id": "info:entity:person:Judge Jesse Furman",
+      "type": "person",
+      "name": "Judge Jesse Furman"
+    },
+    {
+      "id": "taxonomy/misc/judicial review",
+      "type": "taxonomy",
+      "name": "judicial review"
+    },
+    {
+      "id": "taxonomy/misc/federal employment law",
+      "type": "taxonomy",
+      "name": "federal employment law"
+    },
+    {
+      "id": "info:item:politics:global:2026-10-27-004",
+      "type": "item",
+      "date": "2026-10-27",
+      "title": "Chris Mason: The Budget is imminent as tricky things pile up for Burnham"
+    },
+    {
+      "id": "info:entity:region:Rosebank oil field",
+      "type": "region",
+      "name": "Rosebank oil field"
+    },
+    {
+      "id": "info:item:products:global:2026-10-27-006",
+      "type": "item",
+      "date": "2026-10-27",
+      "title": "SurgePix: AI Visual Generation with Agent-Callable Layering"
+    },
+    {
+      "id": "info:entity:product:SurgePix",
+      "type": "product",
+      "name": "SurgePix"
+    },
+    {
+      "id": "info:item:products:global:2026-10-27-007",
+      "type": "item",
+      "date": "2026-10-27",
+      "title": "Strawberry 1.0 – AI Browser that saves your team >100h/week"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -41601,6 +41672,366 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-10-27-001",
+      "target": "info:entity:company:Anthropic",
+      "relation": "subject of IPO and risk warnings"
+    },
+    {
+      "source": "info:item:world:global:2026-10-27-001",
+      "target": "info:entity:company:OpenAI",
+      "relation": "rival AI developer referenced in filing"
+    },
+    {
+      "source": "info:item:world:global:2026-10-27-001",
+      "target": "info:entity:person:Dario Amodei",
+      "relation": "CEO and co‑founder of Anthropic"
+    },
+    {
+      "source": "info:item:world:global:2026-10-27-001",
+      "target": "info:entity:company:SpaceX",
+      "relation": "benchmark valuation for upcoming IPO"
+    },
+    {
+      "source": "info:item:world:global:2026-10-27-001",
+      "target": "info:item:world:global:2026-10-26-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-27-001",
+      "target": "info:item:world:global:2026-10-26-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-27-001",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-27-001",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-27-001",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-27-001",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-27-001",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-27-001",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-27-001",
+      "target": "taxonomy/misc/regulation",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-27-002",
+      "target": "info:entity:person:Luiz Inácio Lula da Silva",
+      "relation": "incumbent president and election winner"
+    },
+    {
+      "source": "info:item:world:global:2026-10-27-002",
+      "target": "info:entity:person:Flávio Bolsonaro",
+      "relation": "right‑wing challenger who refused to concede"
+    },
+    {
+      "source": "info:item:world:global:2026-10-27-002",
+      "target": "info:entity:company:OpenAI",
+      "relation": "cited in editorial priorities as a key AI entity"
+    },
+    {
+      "source": "info:item:world:global:2026-10-27-002",
+      "target": "info:entity:model:Gemini",
+      "relation": "referenced alongside OpenAI and Anthropic in policy discussions"
+    },
+    {
+      "source": "info:item:world:global:2026-10-27-002",
+      "target": "info:item:world:global:2026-10-27-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-27-002",
+      "target": "info:item:world:global:2026-10-26-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-27-002",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-27-002",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-27-002",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-27-002",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-27-002",
+      "target": "taxonomy/topic/world",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-27-002",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-27-002",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-27-003",
+      "target": "info:entity:person:Maurene Comey",
+      "relation": "plaintiff, former federal prosecutor"
+    },
+    {
+      "source": "info:item:world:global:2026-10-27-003",
+      "target": "info:entity:person:James B. Comey",
+      "relation": "father, former FBI director, critic of Trump"
+    },
+    {
+      "source": "info:item:world:global:2026-10-27-003",
+      "target": "info:entity:organization:U.S. Department of Justice",
+      "relation": "defendant, issuing appeal"
+    },
+    {
+      "source": "info:item:world:global:2026-10-27-003",
+      "target": "info:entity:person:Judge Jesse Furman",
+      "relation": "presiding judge, issued reinstatement order"
+    },
+    {
+      "source": "info:item:world:global:2026-10-27-003",
+      "target": "info:item:world:global:2026-10-27-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-27-003",
+      "target": "info:item:world:global:2026-10-27-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-27-003",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-27-003",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-27-003",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-27-003",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-27-003",
+      "target": "taxonomy/misc/U.S. politics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-27-003",
+      "target": "taxonomy/misc/judicial review",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-27-003",
+      "target": "taxonomy/misc/federal employment law",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-27-004",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "Prime Minister leading the government through Budget and Brexit deliberations"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-27-004",
+      "target": "info:entity:region:Rosebank oil field",
+      "relation": "Controversial North Sea oil project facing internal Labour division"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-27-004",
+      "target": "info:item:politics:global:2026-10-26-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-27-004",
+      "target": "info:item:politics:global:2026-10-25-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-27-004",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-27-004",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-27-004",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-27-004",
+      "target": "taxonomy/misc/Politics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-27-004",
+      "target": "taxonomy/misc/Geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-27-004",
+      "target": "taxonomy/misc/Energy Policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-10-27-006",
+      "target": "info:entity:product:SurgePix",
+      "relation": "AI visual generation platform with agent-callable layer editing"
+    },
+    {
+      "source": "info:item:products:global:2026-10-27-006",
+      "target": "info:entity:company:OpenAI",
+      "relation": "LLM provider whose capabilities are integrated into SurgePix's architecture"
+    },
+    {
+      "source": "info:item:products:global:2026-10-27-006",
+      "target": "info:entity:company:Gemini",
+      "relation": "Google's LLM family that may be referenced in SurgePix's technical stack"
+    },
+    {
+      "source": "info:item:products:global:2026-10-27-006",
+      "target": "info:entity:concept:Agentic AI",
+      "relation": "The core architectural paradigm enabling intelligent, autonomous agent interaction"
+    },
+    {
+      "source": "info:item:products:global:2026-10-27-006",
+      "target": "info:item:products:global:2026-10-26-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-10-27-006",
+      "target": "info:item:products:global:2026-10-25-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-10-27-006",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-10-27-006",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-10-27-006",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-10-27-006",
+      "target": "taxonomy/misc/regions",
+      "relation": "global"
+    },
+    {
+      "source": "info:item:products:global:2026-10-27-006",
+      "target": "taxonomy/misc/topics",
+      "relation": "products"
+    },
+    {
+      "source": "info:item:products:global:2026-10-27-006",
+      "target": "taxonomy/misc/categories",
+      "relation": "product"
+    },
+    {
+      "source": "info:item:products:global:2026-10-27-007",
+      "target": "info:entity:model:OpenAI GPT-4-Turbo",
+      "relation": "powers Strawberry's core reasoning"
+    },
+    {
+      "source": "info:item:products:global:2026-10-27-007",
+      "target": "info:entity:model:Gemini",
+      "relation": "alternative LLM option for multimodal tasks"
+    },
+    {
+      "source": "info:item:products:global:2026-10-27-007",
+      "target": "info:entity:company:Product Hunt",
+      "relation": "platform where Strawberry 1.0 debuted"
+    },
+    {
+      "source": "info:item:products:global:2026-10-27-007",
+      "target": "info:item:products:global:2026-10-27-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-10-27-007",
+      "target": "info:item:products:global:2026-10-26-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-10-27-007",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-10-27-007",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-10-27-007",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-10-27-007",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-10-27-007",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-10-27-007",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -41918,7 +42349,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
-      "weight": "74"
+      "weight": "75"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -41929,6 +42360,12 @@
     {
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:Sider Omni",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:company:SpaceX",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -42314,7 +42751,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:person:Dario Amodei",
       "relation": "co-occurs",
-      "weight": "7"
+      "weight": "8"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -42932,11 +43369,17 @@
       "source": "info:entity:company:Gemini",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:company:Gemini",
       "target": "info:entity:company:OpenObserve",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Gemini",
+      "target": "info:entity:concept:Agentic AI",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -42955,6 +43398,12 @@
     {
       "source": "info:entity:company:Gemini",
       "target": "info:entity:concept:agentic AI",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Gemini",
+      "target": "info:entity:product:SurgePix",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -43692,6 +44141,12 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:company:SpaceX",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:company:SquadRoom",
       "relation": "co-occurs",
       "weight": "1"
@@ -43724,7 +44179,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:concept:Agentic AI",
       "relation": "co-occurs",
-      "weight": "15"
+      "weight": "16"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -43886,7 +44341,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "52"
+      "weight": "53"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -44294,7 +44749,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Dario Amodei",
       "relation": "co-occurs",
-      "weight": "6"
+      "weight": "7"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -44348,7 +44803,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Flávio Bolsonaro",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -44407,6 +44862,12 @@
     {
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Kemi Badenoch",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:person:Luiz Inácio Lula da Silva",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -44652,6 +45113,12 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:product:SurgePix",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:product:WeWeb MCP",
       "relation": "co-occurs",
       "weight": "1"
@@ -44743,6 +45210,18 @@
     {
       "source": "info:entity:company:Product Hunt",
       "target": "info:entity:model:GPT-4‑Turbo",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Product Hunt",
+      "target": "info:entity:model:Gemini",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Product Hunt",
+      "target": "info:entity:model:OpenAI GPT-4-Turbo",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -44881,6 +45360,12 @@
     {
       "source": "info:entity:company:SpaceX",
       "target": "info:entity:model:Starlink",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:SpaceX",
+      "target": "info:entity:person:Dario Amodei",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -45475,6 +45960,12 @@
     {
       "source": "info:entity:concept:Agentic AI",
       "target": "info:entity:product:Samsung Galaxy Fold 8",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Agentic AI",
+      "target": "info:entity:product:SurgePix",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -47238,6 +47729,12 @@
     },
     {
       "source": "info:entity:model:Gemini",
+      "target": "info:entity:model:OpenAI GPT-4-Turbo",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
       "target": "info:entity:organization:Anthropic",
       "relation": "co-occurs",
       "weight": "2"
@@ -47450,7 +47947,7 @@
       "source": "info:entity:model:Gemini",
       "target": "info:entity:person:Flávio Bolsonaro",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:model:Gemini",
@@ -47521,6 +48018,12 @@
     {
       "source": "info:entity:model:Gemini",
       "target": "info:entity:person:Lindsay Clancy",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
+      "target": "info:entity:person:Luiz Inácio Lula da Silva",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -53370,7 +53873,25 @@
     },
     {
       "source": "info:entity:organization:U.S. Department of Justice",
+      "target": "info:entity:person:James B. Comey",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:U.S. Department of Justice",
+      "target": "info:entity:person:Judge Jesse Furman",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:U.S. Department of Justice",
       "target": "info:entity:person:Judge Timothy Kelly",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:U.S. Department of Justice",
+      "target": "info:entity:person:Maurene Comey",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -54636,6 +55157,12 @@
     },
     {
       "source": "info:entity:person:Andy Burnham",
+      "target": "info:entity:region:Rosebank oil field",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Andy Burnham",
       "target": "info:entity:region:Russia",
       "relation": "co-occurs",
       "weight": "1"
@@ -55844,7 +56371,7 @@
       "source": "info:entity:person:Flávio Bolsonaro",
       "target": "info:entity:person:Luiz Inácio Lula da Silva",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Flávio Bolsonaro",
@@ -55993,6 +56520,18 @@
     {
       "source": "info:entity:person:Jake Robinson",
       "target": "info:entity:region:Baja California",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:James B. Comey",
+      "target": "info:entity:person:Judge Jesse Furman",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:James B. Comey",
+      "target": "info:entity:person:Maurene Comey",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -56263,6 +56802,12 @@
     {
       "source": "info:entity:person:José Antonio Kast",
       "target": "info:entity:region:Chile",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Judge Jesse Furman",
+      "target": "info:entity:person:Maurene Comey",
       "relation": "co-occurs",
       "weight": "1"
     },

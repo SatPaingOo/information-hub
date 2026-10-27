@@ -1,0 +1,23 @@
+2026-10-27 00:55:04,183 INFO [world-news] published 2026-10-27-001 — Anthropic warns of 'catastrophic risk' to humankind ahead of
+2026-10-27 00:55:44,469 INFO [world-news] published 2026-10-27-002 — Lula wins fourth term in dramatic Brazil election comeback
+2026-10-27 00:56:13,280 INFO [world-news] published 2026-10-27-003 — Trump administration illegally fired James Comey's daughter,
+2026-10-27 00:56:17,777 INFO [tech-news] nothing selected
+2026-10-27 00:57:28,187 INFO [politics] published 2026-10-27-004 — Chris Mason: The Budget is imminent as tricky things pile up
+2026-10-27 00:58:38,000 ERROR [politics] generate error: empty model content
+2026-10-27 00:58:41,247 ERROR [politics] generate error: HTTP 429: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"poolside/laguna-xs-2.1:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Poolside","is_byok":fa
+2026-10-27 00:58:51,982 INFO [politics] attempt 3 invalid: [": 'key_facts' is a required property", ": 'implications' is a required property"]
+2026-10-27 00:58:53,465 ERROR [products] select failed: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7604, Requested 1198. Please try again in 6.015s. Need more tokens? Upgrade to Dev Tier today at https://cons
+2026-10-27 00:58:53,513 INFO [products] model returned no selection — using heuristic fallback (2)
+2026-10-27 00:59:04,819 INFO [products] published 2026-10-27-006 — SurgePix: AI Visual Generation with Agent-Callable Layering
+2026-10-27 00:59:05,017 ERROR [products] generate error: HTTP 429: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"liquid/lfm-2.5-2.6b:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Liquid","is_byok":false,"
+2026-10-27 00:59:43,605 INFO [products] published 2026-10-27-007 — Strawberry 1.0 – AI Browser that saves your team >100h/week
+2026-10-27 00:59:44,216 INFO collect done: 6 item(s) published — target 4/10, next run ≈ 2026-10-27T01:14:44+00:00 UTC
+2026-10-27 00:59:46,662 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 1822, Requested 6780. Please try again in 4.515s. Need more tokens? Upgrade to Dev Tier today at https://cons
+2026-10-27 00:59:52,735 INFO [world-news] attempt 2 invalid: [": 'key_facts' is a required property", ": 'implications' is a required property"]
+2026-10-27 00:59:52,802 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7979, Requested 6826. Please try again in 51.037499999s. Need more tokens? Upgrade to Dev Tier today at https:
+2026-10-27 01:00:01,927 WARNING [world-news] no collect provider for deep-dive
+2026-10-27 01:00:02,058 WARNING [world-news] no collect provider for deep-dive
+2026-10-27 01:00:02,427 WARNING [tech-news] no collect provider available
+2026-10-27 01:00:02,865 WARNING [politics] no collect provider available
+2026-10-27 01:00:03,128 WARNING [products] no collect provider available
+2026-10-27 01:00:03,592 INFO collect done: 0 item(s) published — target 4/10, next run ≈ 2026-10-28T01:00:00+00:00 UTC
