@@ -1,7 +1,7 @@
 ---
 node: "Geopolitics"
 layer: misc
-item_count: 24
+item_count: 25
 ---
 
 # Geopolitics
@@ -15,6 +15,7 @@ item_count: 24
 
 ## Items
 
+- 2026-10-28 · [[2026-10-28-008-lula-s-comeback-in-brazil-dents-trump-s-ambitions-for]] — Lula's comeback in Brazil dents Trump's ambitions for Latin America
 - 2026-10-27 · [[2026-10-27-004-chris-mason-the-budget-is-imminent-as-tricky-things-pile]] — Chris Mason: The Budget is imminent as tricky things pile up for Burnham
 - 2026-10-25 · [[2026-10-25-004-uk-to-invest-100m-in-world-first-ai-biosecurity-lab]] — UK to invest £100m in 'world first' AI Biosecurity Lab
 - 2026-10-21 · [[2026-10-21-009-trump-and-zelensky-appear-at-loggerheads-despite-oslo]] — Trump and Zelensky appear at loggerheads despite Oslo optimism

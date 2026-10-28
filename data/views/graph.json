@@ -9704,6 +9704,27 @@
       "name": "open-source software"
     },
     {
+      "id": "info:item:world:global:2026-10-28-008",
+      "type": "item",
+      "date": "2026-10-28",
+      "title": "Lula's comeback in Brazil dents Trump's ambitions for Latin America"
+    },
+    {
+      "id": "info:entity:organization:Meta",
+      "type": "organization",
+      "name": "Meta"
+    },
+    {
+      "id": "info:entity:product:Pix",
+      "type": "product",
+      "name": "Pix"
+    },
+    {
+      "id": "taxonomy/misc/Latin America",
+      "type": "taxonomy",
+      "name": "Latin America"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -42760,6 +42781,71 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-10-28-008",
+      "target": "info:entity:person:Luiz Inácio Lula da Silva",
+      "relation": "President of Brazil, champion of sovereignty"
+    },
+    {
+      "source": "info:item:world:global:2026-10-28-008",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "Former U.S. President, former ally of Jair Bolsonaro"
+    },
+    {
+      "source": "info:item:world:global:2026-10-28-008",
+      "target": "info:entity:organization:Meta",
+      "relation": "Social media platform accused of algorithmic bias against Lula's campaign"
+    },
+    {
+      "source": "info:item:world:global:2026-10-28-008",
+      "target": "info:entity:product:Pix",
+      "relation": "Brazilian instant‑payment system challenging U.S. payment networks"
+    },
+    {
+      "source": "info:item:world:global:2026-10-28-008",
+      "target": "info:item:world:global:2026-10-28-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-28-008",
+      "target": "info:item:world:global:2026-10-28-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-28-008",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-28-008",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-28-008",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-28-008",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-28-008",
+      "target": "taxonomy/misc/Geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-28-008",
+      "target": "taxonomy/misc/Latin America",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-28-008",
+      "target": "taxonomy/misc/Trade Policy",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -52980,6 +53066,24 @@
       "weight": "2"
     },
     {
+      "source": "info:entity:organization:Meta",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Meta",
+      "target": "info:entity:person:Luiz Inácio Lula da Silva",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Meta",
+      "target": "info:entity:product:Pix",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Metropolitan Police",
       "target": "info:entity:organization:Police Service of Northern Ireland (PSNI)",
       "relation": "co-occurs",
@@ -56845,6 +56949,12 @@
     },
     {
       "source": "info:entity:person:Donald Trump",
+      "target": "info:entity:person:Luiz Inácio Lula da Silva",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:Marco Rubio",
       "relation": "co-occurs",
       "weight": "4"
@@ -56960,6 +57070,12 @@
     {
       "source": "info:entity:person:Donald Trump",
       "target": "info:entity:product:Gemini",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Donald Trump",
+      "target": "info:entity:product:Pix",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -57980,6 +58096,12 @@
     {
       "source": "info:entity:person:Lucy Powell",
       "target": "info:entity:person:Shabana Mahmood",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Luiz Inácio Lula da Silva",
+      "target": "info:entity:product:Pix",
       "relation": "co-occurs",
       "weight": "1"
     },

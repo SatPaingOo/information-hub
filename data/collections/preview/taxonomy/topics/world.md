@@ -1,7 +1,7 @@
 ---
 node: "world"
 layer: topic
-item_count: 298
+item_count: 299
 ---
 
 # world
@@ -20,6 +20,7 @@ item_count: 298
 - 2026-10-28 · [[2026-10-28-001-norway-and-finland-leaders-hold-rare-call-with-putin]] — Norway and Finland leaders hold rare call with Putin
 - 2026-10-28 · [[2026-10-28-002-ceasefire-extended-across-ukraine-s-kherson-region]] — Ceasefire extended across Ukraine's Kherson region, officials say
 - 2026-10-28 · [[2026-10-28-003-mbapp-apologises-for-ill-judged-mao-remark-after-backlash]] — Mbappé apologises for 'ill-judged' Mao remark after backlash in China
+- 2026-10-28 · [[2026-10-28-008-lula-s-comeback-in-brazil-dents-trump-s-ambitions-for]] — Lula's comeback in Brazil dents Trump's ambitions for Latin America
 - 2026-10-27 · [[2026-10-27-001-anthropic-warns-of-catastrophic-risk-to-humankind-ahead-of]] — Anthropic warns of 'catastrophic risk' to humankind ahead of blockbuster share listing
 - 2026-10-27 · [[2026-10-27-002-lula-wins-fourth-term-in-dramatic-brazil-election-comeback]] — Lula wins fourth term in dramatic Brazil election comeback
 - 2026-10-27 · [[2026-10-27-002-lula-wins-fourth-term-in-dramatic-brazil-election-comeback]] — Lula wins fourth term in dramatic Brazil election comeback

@@ -18,3 +18,11 @@
 2026-10-28 01:43:58,376 WARNING [politics] no collect provider available
 2026-10-28 01:43:59,140 WARNING [products] no collect provider available
 2026-10-28 01:43:59,483 INFO collect done: 0 item(s) published — target 3/10, next run ≈ 2026-10-29T01:00:00+00:00 UTC
+2026-10-28 06:45:11,262 INFO [world-news] published 2026-10-28-008 — Lula's comeback in Brazil dents Trump's ambitions for Latin 
+2026-10-28 06:45:11,421 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7976, Requested 6105. Please try again in 45.6075s. Need more tokens? Upgrade to Dev Tier today at https://co
+2026-10-28 06:45:14,422 WARNING [world-news] no collect provider for deep-dive
+2026-10-28 06:45:14,532 WARNING [world-news] no collect provider for deep-dive
+2026-10-28 06:45:16,597 WARNING [tech-news] no collect provider available
+2026-10-28 06:45:17,106 WARNING [politics] no collect provider available
+2026-10-28 06:45:17,819 WARNING [products] no collect provider available
+2026-10-28 06:45:18,052 INFO collect done: 1 item(s) published — target 2/10, next run ≈ 2026-10-29T01:00:00+00:00 UTC

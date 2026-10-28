@@ -1,7 +1,7 @@
 ---
 name: "Donald Trump"
 entity_type: person
-backlink_count: 76
+backlink_count: 77
 ---
 
 # Donald Trump
@@ -10,6 +10,7 @@ backlink_count: 76
 
 ## Referenced by
 
+- 2026-10-28 · [[2026-10-28-008-lula-s-comeback-in-brazil-dents-trump-s-ambitions-for]] — Lula's comeback in Brazil dents Trump's ambitions for Latin America
 - 2026-10-27 · [[2026-10-27-008-ex-fbi-director-james-comey-charged-for-third-time-legal]] — Ex‑FBI Director James Comey Charged for Third Time: Legal, Political and Institutional Ramifications
 - 2026-10-26 · [[2026-10-26-003-venezuelan-opposition-leader-mar-a-machado-returns-after]] — Venezuelan opposition leader María Machado returns after months in exile
 - 2026-10-25 · [[2026-10-25-002-ukraine-says-starlink-connection-now-stable-after-network]] — Ukraine says Starlink connection 'now stable' after network limits

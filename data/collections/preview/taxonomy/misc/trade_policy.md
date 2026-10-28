@@ -1,7 +1,7 @@
 ---
 node: "Trade Policy"
 layer: misc
-item_count: 5
+item_count: 6
 ---
 
 # Trade Policy
@@ -14,6 +14,7 @@ item_count: 5
 
 ## Items
 
+- 2026-10-28 · [[2026-10-28-008-lula-s-comeback-in-brazil-dents-trump-s-ambitions-for]] — Lula's comeback in Brazil dents Trump's ambitions for Latin America
 - 2026-09-16 · [[2026-09-16-008-us-limits-visas-for-south-african-officials-over-alleged]] — US limits visas for South African officials over alleged anti‑white discrimination
 - 2026-08-26 · [[2026-08-26-001-canada-announces-dollar-for-dollar-retaliatory-tariffs-on]] — Canada Announces ‘Dollar‑for‑Dollar’ Retaliatory Tariffs on US Goods Up to 50%
 - 2026-08-24 · [[2026-08-24-002-trump-says-canada-wants-benefits-of-being-us-state-after]] — Trump says Canada wants 'benefits' of being US state after trade talks collapse
