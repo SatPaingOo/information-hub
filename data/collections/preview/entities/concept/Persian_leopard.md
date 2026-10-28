@@ -1,0 +1,13 @@
+---
+name: "Persian leopard"
+entity_type: concept
+backlink_count: 1
+---
+
+# Persian leopard
+
+*Type: concept*
+
+## Referenced by
+
+- 2026-10-28 · [[2026-10-28-009-dutch-zookeeper-dies-after-leopard-attack-at-beekse-bergen]] — Dutch Zookeeper Dies After Leopard Attack at Beekse Bergen Safari Park

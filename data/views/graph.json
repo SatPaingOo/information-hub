@@ -9725,6 +9725,32 @@
       "name": "Latin America"
     },
     {
+      "id": "info:item:world:global:2026-10-28-009",
+      "type": "item",
+      "date": "2026-10-28",
+      "title": "Dutch Zookeeper Dies After Leopard Attack at Beekse Bergen Safari Park"
+    },
+    {
+      "id": "info:entity:person:Unnamed zookeeper",
+      "type": "person",
+      "name": "Unnamed zookeeper"
+    },
+    {
+      "id": "info:entity:organization:Beekse Bergen Safari Park",
+      "type": "organization",
+      "name": "Beekse Bergen Safari Park"
+    },
+    {
+      "id": "info:entity:concept:Persian leopard",
+      "type": "concept",
+      "name": "Persian leopard"
+    },
+    {
+      "id": "info:entity:organization:NL Times",
+      "type": "organization",
+      "name": "NL Times"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -42846,6 +42872,71 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-10-28-009",
+      "target": "info:entity:person:Unnamed zookeeper",
+      "relation": "subject"
+    },
+    {
+      "source": "info:item:world:global:2026-10-28-009",
+      "target": "info:entity:organization:Beekse Bergen Safari Park",
+      "relation": "employer"
+    },
+    {
+      "source": "info:item:world:global:2026-10-28-009",
+      "target": "info:entity:concept:Persian leopard",
+      "relation": "animal"
+    },
+    {
+      "source": "info:item:world:global:2026-10-28-009",
+      "target": "info:entity:organization:NL Times",
+      "relation": "media source"
+    },
+    {
+      "source": "info:item:world:global:2026-10-28-009",
+      "target": "info:item:world:global:2026-10-28-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-28-009",
+      "target": "info:item:world:global:2026-10-28-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-28-009",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-28-009",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-28-009",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-28-009",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-28-009",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-28-009",
+      "target": "taxonomy/category/industry",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-28-009",
+      "target": "taxonomy/topic/world",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -47498,6 +47589,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:concept:Persian leopard",
+      "target": "info:entity:organization:Beekse Bergen Safari Park",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Persian leopard",
+      "target": "info:entity:organization:NL Times",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Persian leopard",
+      "target": "info:entity:person:Unnamed zookeeper",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:concept:Play‑driven learning",
       "target": "info:entity:model:Claude Opus 4.7",
       "relation": "co-occurs",
@@ -49930,6 +50039,18 @@
     {
       "source": "info:entity:organization:BSW (Bündnis Sahra Wagenknecht)",
       "target": "info:entity:person:Ulrich Siegmund",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Beekse Bergen Safari Park",
+      "target": "info:entity:organization:NL Times",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Beekse Bergen Safari Park",
+      "target": "info:entity:person:Unnamed zookeeper",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -53326,6 +53447,12 @@
     {
       "source": "info:entity:organization:NHS England",
       "target": "info:entity:person:Yvette Cooper",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:NL Times",
+      "target": "info:entity:person:Unnamed zookeeper",
       "relation": "co-occurs",
       "weight": "1"
     },

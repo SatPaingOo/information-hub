@@ -1,7 +1,7 @@
 ---
 node: "Global"
 layer: misc
-item_count: 511
+item_count: 512
 ---
 
 # Global
@@ -33,6 +33,7 @@ item_count: 511
 - 2026-10-28 · [[2026-10-28-006-pulsedev-ai-powered-local-ui-bug-fixing]] — PulseDev: AI‑Powered Local UI Bug Fixing
 - 2026-10-28 · [[2026-10-28-007-openradview-open-source-ai-ready-viewer-for-ct-mri-and-x]] — OpenRadView: Open‑Source, AI‑Ready Viewer for CT, MRI and X‑Ray Imaging
 - 2026-10-28 · [[2026-10-28-008-lula-s-comeback-in-brazil-dents-trump-s-ambitions-for]] — Lula's comeback in Brazil dents Trump's ambitions for Latin America
+- 2026-10-28 · [[2026-10-28-009-dutch-zookeeper-dies-after-leopard-attack-at-beekse-bergen]] — Dutch Zookeeper Dies After Leopard Attack at Beekse Bergen Safari Park
 - 2026-10-27 · [[2026-10-27-001-anthropic-warns-of-catastrophic-risk-to-humankind-ahead-of]] — Anthropic warns of 'catastrophic risk' to humankind ahead of blockbuster share listing
 - 2026-10-27 · [[2026-10-27-002-lula-wins-fourth-term-in-dramatic-brazil-election-comeback]] — Lula wins fourth term in dramatic Brazil election comeback
 - 2026-10-27 · [[2026-10-27-003-trump-administration-illegally-fired-james-comey-s]] — Trump administration illegally fired James Comey's daughter, judge rules

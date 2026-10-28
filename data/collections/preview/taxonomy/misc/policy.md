@@ -1,7 +1,7 @@
 ---
 node: "Policy"
 layer: misc
-item_count: 404
+item_count: 405
 ---
 
 # Policy
@@ -23,6 +23,7 @@ item_count: 404
 - 2026-10-28 · [[2026-10-28-004-chris-mason-budget-needs-to-go-some-way-towards-delivering]] — Chris Mason: Budget needs to go some way towards delivering PM's promises
 - 2026-10-28 · [[2026-10-28-005-minimum-wage-set-to-rise-but-18-20-year-olds-will-not-get]] — Minimum wage set to rise but 18‑20 year‑olds will not get bigger increase
 - 2026-10-28 · [[2026-10-28-008-lula-s-comeback-in-brazil-dents-trump-s-ambitions-for]] — Lula's comeback in Brazil dents Trump's ambitions for Latin America
+- 2026-10-28 · [[2026-10-28-009-dutch-zookeeper-dies-after-leopard-attack-at-beekse-bergen]] — Dutch Zookeeper Dies After Leopard Attack at Beekse Bergen Safari Park
 - 2026-10-27 · [[2026-10-27-001-anthropic-warns-of-catastrophic-risk-to-humankind-ahead-of]] — Anthropic warns of 'catastrophic risk' to humankind ahead of blockbuster share listing
 - 2026-10-27 · [[2026-10-27-002-lula-wins-fourth-term-in-dramatic-brazil-election-comeback]] — Lula wins fourth term in dramatic Brazil election comeback
 - 2026-10-27 · [[2026-10-27-003-trump-administration-illegally-fired-james-comey-s]] — Trump administration illegally fired James Comey's daughter, judge rules

@@ -26,3 +26,11 @@
 2026-10-28 06:45:17,106 WARNING [politics] no collect provider available
 2026-10-28 06:45:17,819 WARNING [products] no collect provider available
 2026-10-28 06:45:18,052 INFO collect done: 1 item(s) published — target 2/10, next run ≈ 2026-10-29T01:00:00+00:00 UTC
+2026-10-28 07:31:48,324 INFO [world-news] published 2026-10-28-009 — Dutch Zookeeper Dies After Leopard Attack at Beekse Bergen S
+2026-10-28 07:31:48,455 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7953, Requested 6220. Please try again in 46.2975s. Need more tokens? Upgrade to Dev Tier today at https://co
+2026-10-28 07:31:51,457 WARNING [world-news] no collect provider for deep-dive
+2026-10-28 07:31:51,538 WARNING [world-news] no collect provider for deep-dive
+2026-10-28 07:31:51,766 WARNING [tech-news] no collect provider available
+2026-10-28 07:31:52,425 WARNING [politics] no collect provider available
+2026-10-28 07:31:53,178 WARNING [products] no collect provider available
+2026-10-28 07:31:53,633 INFO collect done: 1 item(s) published — target 1/10, next run ≈ 2026-10-29T01:00:00+00:00 UTC
