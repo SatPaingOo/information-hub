@@ -1,7 +1,7 @@
 ---
 node: "geopolitics"
 layer: topic
-item_count: 130
+item_count: 131
 ---
 
 # geopolitics
@@ -25,6 +25,7 @@ item_count: 130
 
 ## Items
 
+- 2026-10-28 · [[2026-10-28-004-chris-mason-budget-needs-to-go-some-way-towards-delivering]] — Chris Mason: Budget needs to go some way towards delivering PM's promises
 - 2026-10-27 · [[2026-10-27-002-lula-wins-fourth-term-in-dramatic-brazil-election-comeback]] — Lula wins fourth term in dramatic Brazil election comeback
 - 2026-10-27 · [[2026-10-27-008-ex-fbi-director-james-comey-charged-for-third-time-legal]] — Ex‑FBI Director James Comey Charged for Third Time: Legal, Political and Institutional Ramifications
 - 2026-10-27 · [[2026-10-27-009-turnout-so-far-highest-in-decades-as-israelis-vote-in]] — Turnout so far highest in decades as Israelis vote in pivotal election

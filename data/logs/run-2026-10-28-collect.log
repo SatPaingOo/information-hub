@@ -1,0 +1,20 @@
+2026-10-28 01:39:03,369 INFO [world-news] published 2026-10-28-001 — Norway and Finland leaders hold rare call with Putin
+2026-10-28 01:40:01,076 INFO [world-news] published 2026-10-28-002 — Ceasefire extended across Ukraine's Kherson region, official
+2026-10-28 01:40:59,809 INFO [world-news] published 2026-10-28-003 — Mbappé apologises for 'ill-judged' Mao remark after backlash
+2026-10-28 01:41:04,142 INFO [tech-news] nothing selected
+2026-10-28 01:41:50,857 INFO [politics] published 2026-10-28-004 — Chris Mason: Budget needs to go some way towards delivering 
+2026-10-28 01:42:37,191 INFO [politics] published 2026-10-28-005 — Minimum wage set to rise but 18‑20 year‑olds will not get bi
+2026-10-28 01:43:45,373 INFO [products] published 2026-10-28-006 — PulseDev: AI‑Powered Local UI Bug Fixing
+2026-10-28 01:43:49,997 INFO [products] published 2026-10-28-007 — OpenRadView: Open‑Source, AI‑Ready Viewer for CT, MRI and X‑
+2026-10-28 01:43:50,587 INFO collect done: 7 item(s) published — target 3/10, next run ≈ 2026-10-28T01:58:50+00:00 UTC
+2026-10-28 01:43:51,357 ERROR [world-news] select failed: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6734, Requested 2833. Please try again in 11.7525s. Need more tokens? Upgrade to Dev Tier today at https://co
+2026-10-28 01:43:51,404 INFO [world-news] model returned no selection — using heuristic fallback (3)
+2026-10-28 01:43:54,372 ERROR [world-news] generate error: HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
+
+2026-10-28 01:43:57,374 WARNING [world-news] no collect provider for deep-dive
+2026-10-28 01:43:57,491 WARNING [world-news] no collect provider for deep-dive
+2026-10-28 01:43:57,612 WARNING [world-news] no collect provider for deep-dive
+2026-10-28 01:43:58,003 WARNING [tech-news] no collect provider available
+2026-10-28 01:43:58,376 WARNING [politics] no collect provider available
+2026-10-28 01:43:59,140 WARNING [products] no collect provider available
+2026-10-28 01:43:59,483 INFO collect done: 0 item(s) published — target 3/10, next run ≈ 2026-10-29T01:00:00+00:00 UTC
