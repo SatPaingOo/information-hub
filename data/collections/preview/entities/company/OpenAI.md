@@ -1,7 +1,7 @@
 ---
 name: "OpenAI"
 entity_type: company
-backlink_count: 153
+backlink_count: 157
 ---
 
 # OpenAI
@@ -10,6 +10,10 @@ backlink_count: 153
 
 ## Referenced by
 
+- 2026-10-29 · [[2026-10-29-003-fl-vio-bolsonaro-denies-fleeing-brazil-after-landing-in]] — Flávio Bolsonaro denies fleeing Brazil after landing in Miami
+- 2026-10-29 · [[2026-10-29-004-healey-unveils-100-for-energy-bills-and-bank-tax-in-first]] — Healey unveils £100 for energy bills and bank tax in first Budget
+- 2026-10-29 · [[2026-10-29-005-chris-mason-budget-felt-cautious-despite-its-range-of]] — Chris Mason: Budget felt cautious despite its range of small measures
+- 2026-10-29 · [[2026-10-29-006-yardlet]] — Yardlet
 - 2026-10-28 · [[2026-10-28-003-mbapp-apologises-for-ill-judged-mao-remark-after-backlash]] — Mbappé apologises for 'ill-judged' Mao remark after backlash in China
 - 2026-10-28 · [[2026-10-28-006-pulsedev-ai-powered-local-ui-bug-fixing]] — PulseDev: AI‑Powered Local UI Bug Fixing
 - 2026-10-28 · [[2026-10-28-007-openradview-open-source-ai-ready-viewer-for-ct-mri-and-x]] — OpenRadView: Open‑Source, AI‑Ready Viewer for CT, MRI and X‑Ray Imaging

@@ -1,7 +1,7 @@
 ---
 name: "Gemini 3.8"
 entity_type: model
-backlink_count: 11
+backlink_count: 12
 ---
 
 # Gemini 3.8
@@ -10,6 +10,7 @@ backlink_count: 11
 
 ## Referenced by
 
+- 2026-10-29 · [[2026-10-29-006-yardlet]] — Yardlet
 - 2026-10-20 · [[2026-10-20-006-beam-win]] — Beam.win
 - 2026-10-18 · [[2026-10-18-006-step-5-preview]] — Step 5 Preview
 - 2026-10-14 · [[2026-10-14-004-muse-wonder]] — Muse Wonder

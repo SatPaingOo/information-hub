@@ -1,7 +1,7 @@
 ---
 name: "John Healey"
 entity_type: person
-backlink_count: 18
+backlink_count: 20
 ---
 
 # John Healey
@@ -10,6 +10,8 @@ backlink_count: 18
 
 ## Referenced by
 
+- 2026-10-29 · [[2026-10-29-004-healey-unveils-100-for-energy-bills-and-bank-tax-in-first]] — Healey unveils £100 for energy bills and bank tax in first Budget
+- 2026-10-29 · [[2026-10-29-005-chris-mason-budget-felt-cautious-despite-its-range-of]] — Chris Mason: Budget felt cautious despite its range of small measures
 - 2026-10-28 · [[2026-10-28-004-chris-mason-budget-needs-to-go-some-way-towards-delivering]] — Chris Mason: Budget needs to go some way towards delivering PM's promises
 - 2026-10-28 · [[2026-10-28-005-minimum-wage-set-to-rise-but-18-20-year-olds-will-not-get]] — Minimum wage set to rise but 18‑20 year‑olds will not get bigger increase
 - 2026-10-25 · [[2026-10-25-004-uk-to-invest-100m-in-world-first-ai-biosecurity-lab]] — UK to invest £100m in 'world first' AI Biosecurity Lab

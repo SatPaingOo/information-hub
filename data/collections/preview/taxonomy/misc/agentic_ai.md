@@ -1,7 +1,7 @@
 ---
 node: "Agentic AI"
 layer: misc
-item_count: 100
+item_count: 101
 ---
 
 # Agentic AI
@@ -17,6 +17,7 @@ item_count: 100
 
 ## Items
 
+- 2026-10-29 · [[2026-10-29-006-yardlet]] — Yardlet
 - 2026-10-28 · [[2026-10-28-006-pulsedev-ai-powered-local-ui-bug-fixing]] — PulseDev: AI‑Powered Local UI Bug Fixing
 - 2026-10-27 · [[2026-10-27-001-anthropic-warns-of-catastrophic-risk-to-humankind-ahead-of]] — Anthropic warns of 'catastrophic risk' to humankind ahead of blockbuster share listing
 - 2026-10-27 · [[2026-10-27-007-strawberry-1-0-ai-browser-that-saves-your-team-100h-week]] — Strawberry 1.0 – AI Browser that saves your team >100h/week

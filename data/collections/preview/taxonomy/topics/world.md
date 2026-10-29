@@ -1,7 +1,7 @@
 ---
 node: "world"
 layer: topic
-item_count: 301
+item_count: 305
 ---
 
 # world
@@ -17,6 +17,10 @@ item_count: 301
 
 ## Items
 
+- 2026-10-29 · [[2026-10-29-001-high-speed-train-crash-kills-at-least-68-people-in-spain]] — High-speed train crash kills at least 68 people in Spain
+- 2026-10-29 · [[2026-10-29-002-bloodied-dazed-and-angry-how-passengers-rail-journey]] — Bloodied, dazed and angry - how passengers' rail journey turned to disaster in Spain
+- 2026-10-29 · [[2026-10-29-003-fl-vio-bolsonaro-denies-fleeing-brazil-after-landing-in]] — Flávio Bolsonaro denies fleeing Brazil after landing in Miami
+- 2026-10-29 · [[2026-10-29-003-fl-vio-bolsonaro-denies-fleeing-brazil-after-landing-in]] — Flávio Bolsonaro denies fleeing Brazil after landing in Miami
 - 2026-10-28 · [[2026-10-28-001-norway-and-finland-leaders-hold-rare-call-with-putin]] — Norway and Finland leaders hold rare call with Putin
 - 2026-10-28 · [[2026-10-28-002-ceasefire-extended-across-ukraine-s-kherson-region]] — Ceasefire extended across Ukraine's Kherson region, officials say
 - 2026-10-28 · [[2026-10-28-003-mbapp-apologises-for-ill-judged-mao-remark-after-backlash]] — Mbappé apologises for 'ill-judged' Mao remark after backlash in China

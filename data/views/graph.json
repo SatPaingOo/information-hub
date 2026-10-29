@@ -9751,6 +9751,87 @@
       "name": "NL Times"
     },
     {
+      "id": "info:item:world:global:2026-10-29-001",
+      "type": "item",
+      "date": "2026-10-29",
+      "title": "High-speed train crash kills at least 68 people in Spain"
+    },
+    {
+      "id": "info:entity:person:Ãscar Puente",
+      "type": "person",
+      "name": "Ãscar Puente"
+    },
+    {
+      "id": "info:entity:organization:Renfe",
+      "type": "organization",
+      "name": "Renfe"
+    },
+    {
+      "id": "info:entity:organization:Iryo",
+      "type": "organization",
+      "name": "Iryo"
+    },
+    {
+      "id": "taxonomy/misc/rail transport safety",
+      "type": "taxonomy",
+      "name": "rail transport safety"
+    },
+    {
+      "id": "taxonomy/misc/infrastructure regulation",
+      "type": "taxonomy",
+      "name": "infrastructure regulation"
+    },
+    {
+      "id": "info:item:world:global:2026-10-29-002",
+      "type": "item",
+      "date": "2026-10-29",
+      "title": "Bloodied, dazed and angry - how passengers' rail journey turned to disaster in Spain"
+    },
+    {
+      "id": "info:entity:person:Óscar Puente",
+      "type": "person",
+      "name": "Óscar Puente"
+    },
+    {
+      "id": "info:entity:event:Adamuz high‑speed rail disaster",
+      "type": "event",
+      "name": "Adamuz high‑speed rail disaster"
+    },
+    {
+      "id": "taxonomy/misc/transport",
+      "type": "taxonomy",
+      "name": "transport"
+    },
+    {
+      "id": "info:item:world:global:2026-10-29-003",
+      "type": "item",
+      "date": "2026-10-29",
+      "title": "Flávio Bolsonaro denies fleeing Brazil after landing in Miami"
+    },
+    {
+      "id": "info:item:politics:global:2026-10-29-004",
+      "type": "item",
+      "date": "2026-10-29",
+      "title": "Healey unveils £100 for energy bills and bank tax in first Budget"
+    },
+    {
+      "id": "info:item:politics:global:2026-10-29-005",
+      "type": "item",
+      "date": "2026-10-29",
+      "title": "Chris Mason: Budget felt cautious despite its range of small measures"
+    },
+    {
+      "id": "info:entity:organization:Office for Budget Responsibility (OBR)",
+      "type": "organization",
+      "name": "Office for Budget Responsibility (OBR)"
+    },
+    {
+      "id": "info:item:products:global:2026-10-29-006",
+      "type": "item",
+      "date": "2026-10-29",
+      "title": "Yardlet"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -42937,6 +43018,386 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-10-29-001",
+      "target": "info:entity:person:Ãscar Puente",
+      "relation": "Spain's Transport Minister who attributed the crash to computer failure and human error"
+    },
+    {
+      "source": "info:item:world:global:2026-10-29-001",
+      "target": "info:entity:organization:Renfe",
+      "relation": "State‑owned Spanish railway operator whose moving train struck the stationary Iryo service"
+    },
+    {
+      "source": "info:item:world:global:2026-10-29-001",
+      "target": "info:entity:organization:Iryo",
+      "relation": "Private rail operator whose train was stationary on the tracks when the collision occurred"
+    },
+    {
+      "source": "info:item:world:global:2026-10-29-001",
+      "target": "info:entity:concept:Agentic AI",
+      "relation": "Technology highlighted in the analysis for its role in automated rail control decisions"
+    },
+    {
+      "source": "info:item:world:global:2026-10-29-001",
+      "target": "info:item:world:global:2026-10-28-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-29-001",
+      "target": "info:item:world:global:2026-10-28-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-29-001",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-29-001",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-29-001",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-29-001",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-29-001",
+      "target": "taxonomy/misc/rail transport safety",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-29-001",
+      "target": "taxonomy/misc/EU policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-29-001",
+      "target": "taxonomy/misc/infrastructure regulation",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-29-002",
+      "target": "info:entity:organization:Renfe",
+      "relation": "state‑owned train operator involved in the crash"
+    },
+    {
+      "source": "info:item:world:global:2026-10-29-002",
+      "target": "info:entity:organization:Iryo",
+      "relation": "private high‑speed rail operator involved in the crash"
+    },
+    {
+      "source": "info:item:world:global:2026-10-29-002",
+      "target": "info:entity:person:Óscar Puente",
+      "relation": "Spanish Transport Minister who announced safety audit"
+    },
+    {
+      "source": "info:item:world:global:2026-10-29-002",
+      "target": "info:entity:event:Adamuz high‑speed rail disaster",
+      "relation": "previous major Spanish rail incident that heightened safety concerns"
+    },
+    {
+      "source": "info:item:world:global:2026-10-29-002",
+      "target": "info:item:world:global:2026-10-29-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-29-002",
+      "target": "info:item:world:global:2026-10-28-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-29-002",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-29-002",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-29-002",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-29-002",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-29-002",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-29-002",
+      "target": "taxonomy/category/industry",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-29-002",
+      "target": "taxonomy/misc/transport",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-29-003",
+      "target": "info:entity:person:Flávio Bolsonaro",
+      "relation": "Brazilian senator and political figure at the centre of the controversy"
+    },
+    {
+      "source": "info:item:world:global:2026-10-29-003",
+      "target": "info:entity:person:Luiz Inácio Lula da Silva",
+      "relation": "President of Brazil who criticised Bolsonaro’s departure"
+    },
+    {
+      "source": "info:item:world:global:2026-10-29-003",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "U.S. President who confirmed granting visas to Bolsonaro"
+    },
+    {
+      "source": "info:item:world:global:2026-10-29-003",
+      "target": "info:entity:organization:OpenAI",
+      "relation": "AI research organisation referenced in analysis of disinformation"
+    },
+    {
+      "source": "info:item:world:global:2026-10-29-003",
+      "target": "info:entity:organization:Anthropic",
+      "relation": "AI developer mentioned in the context of AI‑generated political narratives"
+    },
+    {
+      "source": "info:item:world:global:2026-10-29-003",
+      "target": "info:item:world:global:2026-10-29-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-29-003",
+      "target": "info:item:world:global:2026-10-29-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-10-29-003",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-29-003",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-29-003",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-29-003",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-10-29-003",
+      "target": "taxonomy/topic/world",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-29-003",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-10-29-003",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-29-004",
+      "target": "info:entity:person:John Healey",
+      "relation": "Chancellor of the Exchequer presenting the budget"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-29-004",
+      "target": "info:entity:person:Kemi Badenoch",
+      "relation": "Conservative leader criticising the budget"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-29-004",
+      "target": "info:entity:organization:OpenAI",
+      "relation": "editorial priority entity highlighted for AI regulation relevance"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-29-004",
+      "target": "info:entity:model:Gemini",
+      "relation": "editorial priority model referenced in context of AI policy"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-29-004",
+      "target": "info:item:politics:global:2026-10-28-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-29-004",
+      "target": "info:item:politics:global:2026-10-27-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-29-004",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-29-004",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-29-004",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-29-004",
+      "target": "taxonomy/topic/politics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-29-004",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-29-004",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-29-005",
+      "target": "info:entity:person:John Healey",
+      "relation": "Chancellor of the Exchequer presenting the 2026 Budget"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-29-005",
+      "target": "info:entity:company:OpenAI",
+      "relation": "AI entity highlighted in editorial priorities for regulation and open‑source focus"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-29-005",
+      "target": "info:entity:person:Rachel Reeves",
+      "relation": "Former Chancellor whose inheritance‑tax changes were previously controversial"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-29-005",
+      "target": "info:entity:organization:Office for Budget Responsibility (OBR)",
+      "relation": "Fiscal watchdog providing Economic and Fiscal Outlook"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-29-005",
+      "target": "info:item:politics:global:2026-10-29-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-29-005",
+      "target": "info:item:politics:global:2026-10-28-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-29-005",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-29-005",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-29-005",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-29-005",
+      "target": "taxonomy/topic/politics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-29-005",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-10-29-005",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-10-29-006",
+      "target": "info:entity:company:OpenAI",
+      "relation": "integrated LLM provider"
+    },
+    {
+      "source": "info:item:products:global:2026-10-29-006",
+      "target": "info:entity:model:Gemini 3.8",
+      "relation": "supported large language model"
+    },
+    {
+      "source": "info:item:products:global:2026-10-29-006",
+      "target": "info:entity:company:Anthropic",
+      "relation": "integrated LLM provider"
+    },
+    {
+      "source": "info:item:products:global:2026-10-29-006",
+      "target": "info:entity:concept:LLM",
+      "relation": "core technology"
+    },
+    {
+      "source": "info:item:products:global:2026-10-29-006",
+      "target": "info:item:products:global:2026-10-28-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-10-29-006",
+      "target": "info:item:products:global:2026-10-27-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-10-29-006",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-10-29-006",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-10-29-006",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-10-29-006",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-10-29-006",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-10-29-006",
+      "target": "taxonomy/misc/regulation",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -43254,7 +43715,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
-      "weight": "76"
+      "weight": "77"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -43350,7 +43811,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:concept:LLM",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -43476,7 +43937,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:model:Gemini 3.8",
       "relation": "co-occurs",
-      "weight": "6"
+      "weight": "7"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -45126,7 +45587,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:concept:LLM",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -45264,7 +45725,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:model:Gemini 3.8",
       "relation": "co-occurs",
-      "weight": "10"
+      "weight": "11"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -45467,6 +45928,12 @@
     {
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:organization:New York Times",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:organization:Office for Budget Responsibility (OBR)",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -45756,7 +46223,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:John Healey",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -45857,6 +46324,12 @@
     {
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Pete Hegseth",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:person:Rachel Reeves",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -46852,9 +47325,21 @@
     },
     {
       "source": "info:entity:concept:Agentic AI",
+      "target": "info:entity:organization:Iryo",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Agentic AI",
       "target": "info:entity:organization:OpenAI",
       "relation": "co-occurs",
       "weight": "2"
+    },
+    {
+      "source": "info:entity:concept:Agentic AI",
+      "target": "info:entity:organization:Renfe",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:concept:Agentic AI",
@@ -46889,6 +47374,12 @@
     {
       "source": "info:entity:concept:Agentic AI",
       "target": "info:entity:person:Xi Jinping",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Agentic AI",
+      "target": "info:entity:person:Ãscar Puente",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -47393,6 +47884,12 @@
     {
       "source": "info:entity:concept:LLM",
       "target": "info:entity:concept:agentic AI",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:LLM",
+      "target": "info:entity:model:Gemini 3.8",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -48135,6 +48632,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:event:Adamuz high‑speed rail disaster",
+      "target": "info:entity:organization:Iryo",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:event:Adamuz high‑speed rail disaster",
+      "target": "info:entity:organization:Renfe",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:event:Adamuz high‑speed rail disaster",
+      "target": "info:entity:person:Óscar Puente",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:event:Champs‑Élysées Mass",
       "target": "info:entity:person:Brigitte Macron",
       "relation": "co-occurs",
@@ -48810,7 +49325,7 @@
       "source": "info:entity:model:Gemini",
       "target": "info:entity:organization:OpenAI",
       "relation": "co-occurs",
-      "weight": "13"
+      "weight": "14"
     },
     {
       "source": "info:entity:model:Gemini",
@@ -48970,6 +49485,12 @@
     },
     {
       "source": "info:entity:model:Gemini",
+      "target": "info:entity:person:John Healey",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
       "target": "info:entity:person:José Antonio Kast",
       "relation": "co-occurs",
       "weight": "1"
@@ -48990,7 +49511,7 @@
       "source": "info:entity:model:Gemini",
       "target": "info:entity:person:Kemi Badenoch",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:model:Gemini",
@@ -49776,7 +50297,7 @@
       "source": "info:entity:organization:Anthropic",
       "target": "info:entity:organization:OpenAI",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:organization:Anthropic",
@@ -49786,7 +50307,25 @@
     },
     {
       "source": "info:entity:organization:Anthropic",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Anthropic",
+      "target": "info:entity:person:Flávio Bolsonaro",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Anthropic",
       "target": "info:entity:person:Jared Kushner",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Anthropic",
+      "target": "info:entity:person:Luiz Inácio Lula da Silva",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -52431,6 +52970,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Iryo",
+      "target": "info:entity:organization:Renfe",
+      "relation": "co-occurs",
+      "weight": "2"
+    },
+    {
+      "source": "info:entity:organization:Iryo",
+      "target": "info:entity:person:Ãscar Puente",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Iryo",
+      "target": "info:entity:person:Óscar Puente",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Islamic Revolutionary Guard Corps (IRGC)",
       "target": "info:entity:organization:Kpler",
       "relation": "co-occurs",
@@ -53739,6 +54296,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Office for Budget Responsibility (OBR)",
+      "target": "info:entity:person:John Healey",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Office for Budget Responsibility (OBR)",
+      "target": "info:entity:person:Rachel Reeves",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Oman",
       "target": "info:entity:person:Abbas Araghzi",
       "relation": "co-occurs",
@@ -53802,7 +54371,7 @@
       "source": "info:entity:organization:OpenAI",
       "target": "info:entity:person:Donald Trump",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:organization:OpenAI",
@@ -53813,6 +54382,12 @@
     {
       "source": "info:entity:organization:OpenAI",
       "target": "info:entity:person:Emmanuel Macron",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:OpenAI",
+      "target": "info:entity:person:Flávio Bolsonaro",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -53836,6 +54411,12 @@
     },
     {
       "source": "info:entity:organization:OpenAI",
+      "target": "info:entity:person:John Healey",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:OpenAI",
       "target": "info:entity:person:José Antonio Kast",
       "relation": "co-occurs",
       "weight": "1"
@@ -53848,6 +54429,12 @@
     },
     {
       "source": "info:entity:organization:OpenAI",
+      "target": "info:entity:person:Kemi Badenoch",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:OpenAI",
       "target": "info:entity:person:Kevin Reddington",
       "relation": "co-occurs",
       "weight": "1"
@@ -53855,6 +54442,12 @@
     {
       "source": "info:entity:organization:OpenAI",
       "target": "info:entity:person:Lindsay Clancy",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:OpenAI",
+      "target": "info:entity:person:Luiz Inácio Lula da Silva",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -54323,6 +54916,18 @@
     {
       "source": "info:entity:organization:Register.si",
       "target": "info:entity:person:Klara Herman",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Renfe",
+      "target": "info:entity:person:Ãscar Puente",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Renfe",
+      "target": "info:entity:person:Óscar Puente",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -56968,6 +57573,12 @@
     },
     {
       "source": "info:entity:person:Donald Trump",
+      "target": "info:entity:person:Flávio Bolsonaro",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:François‑Philippe Champagne",
       "relation": "co-occurs",
       "weight": "2"
@@ -57078,7 +57689,7 @@
       "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:Luiz Inácio Lula da Silva",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Donald Trump",
@@ -57522,7 +58133,7 @@
       "source": "info:entity:person:Flávio Bolsonaro",
       "target": "info:entity:person:Luiz Inácio Lula da Silva",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:person:Flávio Bolsonaro",
@@ -57870,7 +58481,7 @@
       "source": "info:entity:person:John Healey",
       "target": "info:entity:person:Kemi Badenoch",
       "relation": "co-occurs",
-      "weight": "4"
+      "weight": "5"
     },
     {
       "source": "info:entity:person:John Healey",
@@ -57888,7 +58499,7 @@
       "source": "info:entity:person:John Healey",
       "target": "info:entity:person:Rachel Reeves",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:person:John Healey",

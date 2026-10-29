@@ -1,7 +1,7 @@
 ---
 node: "product"
 layer: category
-item_count: 111
+item_count: 112
 ---
 
 # product
@@ -19,6 +19,7 @@ item_count: 111
 
 ## Items
 
+- 2026-10-29 · [[2026-10-29-006-yardlet]] — Yardlet
 - 2026-10-28 · [[2026-10-28-006-pulsedev-ai-powered-local-ui-bug-fixing]] — PulseDev: AI‑Powered Local UI Bug Fixing
 - 2026-10-28 · [[2026-10-28-007-openradview-open-source-ai-ready-viewer-for-ct-mri-and-x]] — OpenRadView: Open‑Source, AI‑Ready Viewer for CT, MRI and X‑Ray Imaging
 - 2026-10-27 · [[2026-10-27-006-surgepix-ai-visual-generation-with-agent-callable-layering]] — SurgePix: AI Visual Generation with Agent-Callable Layering

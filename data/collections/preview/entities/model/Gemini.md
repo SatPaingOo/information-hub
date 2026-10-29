@@ -1,7 +1,7 @@
 ---
 name: "Gemini"
 entity_type: model
-backlink_count: 76
+backlink_count: 77
 ---
 
 # Gemini
@@ -10,6 +10,7 @@ backlink_count: 76
 
 ## Referenced by
 
+- 2026-10-29 · [[2026-10-29-004-healey-unveils-100-for-energy-bills-and-bank-tax-in-first]] — Healey unveils £100 for energy bills and bank tax in first Budget
 - 2026-10-28 · [[2026-10-28-003-mbapp-apologises-for-ill-judged-mao-remark-after-backlash]] — Mbappé apologises for 'ill-judged' Mao remark after backlash in China
 - 2026-10-27 · [[2026-10-27-002-lula-wins-fourth-term-in-dramatic-brazil-election-comeback]] — Lula wins fourth term in dramatic Brazil election comeback
 - 2026-10-27 · [[2026-10-27-006-surgepix-ai-visual-generation-with-agent-callable-layering]] — SurgePix: AI Visual Generation with Agent-Callable Layering

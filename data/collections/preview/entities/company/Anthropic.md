@@ -1,7 +1,7 @@
 ---
 name: "Anthropic"
 entity_type: company
-backlink_count: 92
+backlink_count: 94
 ---
 
 # Anthropic
@@ -10,6 +10,8 @@ backlink_count: 92
 
 ## Referenced by
 
+- 2026-10-29 · [[2026-10-29-003-fl-vio-bolsonaro-denies-fleeing-brazil-after-landing-in]] — Flávio Bolsonaro denies fleeing Brazil after landing in Miami
+- 2026-10-29 · [[2026-10-29-006-yardlet]] — Yardlet
 - 2026-10-28 · [[2026-10-28-007-openradview-open-source-ai-ready-viewer-for-ct-mri-and-x]] — OpenRadView: Open‑Source, AI‑Ready Viewer for CT, MRI and X‑Ray Imaging
 - 2026-10-27 · [[2026-10-27-001-anthropic-warns-of-catastrophic-risk-to-humankind-ahead-of]] — Anthropic warns of 'catastrophic risk' to humankind ahead of blockbuster share listing
 - 2026-10-26 · [[2026-10-26-005-students-like-new-tenancy-freedoms-but-landlords-warn-of]] — Students like new tenancy freedoms - but landlords warn of higher rents

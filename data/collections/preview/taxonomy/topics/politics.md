@@ -1,7 +1,7 @@
 ---
 node: "politics"
 layer: topic
-item_count: 173
+item_count: 177
 ---
 
 # politics
@@ -17,6 +17,10 @@ item_count: 173
 
 ## Items
 
+- 2026-10-29 · [[2026-10-29-004-healey-unveils-100-for-energy-bills-and-bank-tax-in-first]] — Healey unveils £100 for energy bills and bank tax in first Budget
+- 2026-10-29 · [[2026-10-29-004-healey-unveils-100-for-energy-bills-and-bank-tax-in-first]] — Healey unveils £100 for energy bills and bank tax in first Budget
+- 2026-10-29 · [[2026-10-29-005-chris-mason-budget-felt-cautious-despite-its-range-of]] — Chris Mason: Budget felt cautious despite its range of small measures
+- 2026-10-29 · [[2026-10-29-005-chris-mason-budget-felt-cautious-despite-its-range-of]] — Chris Mason: Budget felt cautious despite its range of small measures
 - 2026-10-28 · [[2026-10-28-004-chris-mason-budget-needs-to-go-some-way-towards-delivering]] — Chris Mason: Budget needs to go some way towards delivering PM's promises
 - 2026-10-28 · [[2026-10-28-005-minimum-wage-set-to-rise-but-18-20-year-olds-will-not-get]] — Minimum wage set to rise but 18‑20 year‑olds will not get bigger increase
 - 2026-10-27 · [[2026-10-27-004-chris-mason-the-budget-is-imminent-as-tricky-things-pile]] — Chris Mason: The Budget is imminent as tricky things pile up for Burnham
