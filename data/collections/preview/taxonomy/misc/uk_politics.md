@@ -1,7 +1,7 @@
 ---
 node: "UK Politics"
 layer: misc
-item_count: 5
+item_count: 6
 ---
 
 # UK Politics
@@ -14,6 +14,7 @@ item_count: 5
 
 ## Items
 
+- 2026-10-30 · [[2026-10-30-004-burnham-says-he-wants-to-cut-welfare-bill-as-soon-as-we]] — Burnham says he wants to cut welfare bill 'as soon as we possibly can'
 - 2026-09-26 · [[2026-09-26-003-new-policies-election-speculation-what-to-expect-from]] — New policies, election speculation: What to expect from Burnham's first Labour conference as PM
 - 2026-09-07 · [[2026-09-07-005-green-party-deputy-leader-linked-to-property-lets-despite]] — Green Party deputy leader linked to property lets despite opposition to landlords
 - 2026-09-02 · [[2026-09-02-005-burnham-promises-more-devolution-and-public-control-of]] — Burnham promises more devolution and public control of essential services

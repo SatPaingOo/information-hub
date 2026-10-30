@@ -1,7 +1,7 @@
 ---
 node: "politics"
 layer: topic
-item_count: 177
+item_count: 178
 ---
 
 # politics
@@ -17,6 +17,7 @@ item_count: 177
 
 ## Items
 
+- 2026-10-30 · [[2026-10-30-004-burnham-says-he-wants-to-cut-welfare-bill-as-soon-as-we]] — Burnham says he wants to cut welfare bill 'as soon as we possibly can'
 - 2026-10-29 · [[2026-10-29-004-healey-unveils-100-for-energy-bills-and-bank-tax-in-first]] — Healey unveils £100 for energy bills and bank tax in first Budget
 - 2026-10-29 · [[2026-10-29-004-healey-unveils-100-for-energy-bills-and-bank-tax-in-first]] — Healey unveils £100 for energy bills and bank tax in first Budget
 - 2026-10-29 · [[2026-10-29-005-chris-mason-budget-felt-cautious-despite-its-range-of]] — Chris Mason: Budget felt cautious despite its range of small measures

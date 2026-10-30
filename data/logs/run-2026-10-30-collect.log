@@ -1,0 +1,17 @@
+2026-10-30 01:55:43,055 INFO [world-news] published 2026-10-30-001 — Israeli opposition accuses Netanyahu of trying to 'delegitim
+2026-10-30 01:57:04,427 ERROR [world-news] generate error: empty model content
+2026-10-30 01:59:37,435 INFO [world-news] published 2026-10-30-002 — Audio reveals exchanges between Spain train operators and dr
+2026-10-30 02:00:13,208 INFO [world-news] published 2026-10-30-003 — 'The city is alive': A brief peace in Kherson, but residents
+2026-10-30 02:00:29,013 INFO [tech-news] nothing selected
+2026-10-30 02:01:22,103 INFO [politics] published 2026-10-30-004 — Burnham says he wants to cut welfare bill 'as soon as we pos
+2026-10-30 02:01:59,213 ERROR [politics] generate error: empty model content
+2026-10-30 02:02:02,327 ERROR [politics] generate error: HTTP 429: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"poolside/laguna-xs-2.1:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Poolside","is_byok":fa
+2026-10-30 02:02:13,169 INFO [politics] attempt 3 invalid: [": 'tags' is a required property", ": 'related_items' is a required property"]
+2026-10-30 02:02:14,254 ERROR [products] select failed: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7856, Requested 1072. Please try again in 6.96s. Need more tokens? Upgrade to Dev Tier today at https://conso
+2026-10-30 02:02:14,306 INFO [products] model returned no selection — using heuristic fallback (2)
+2026-10-30 02:02:21,021 INFO [products] attempt 1 invalid: ["entities/2/type: 'platform' is not one of ['concept', 'company', 'model', 'person', 'product', 'region', 'organization', 'event']", "entities/3/type: 'technology' is not one of ['concept', 'company', 'model', 'person', 'product', 'region', 'organization', 'event']"]
+2026-10-30 02:02:25,083 INFO [products] attempt 2 invalid: ["entities/1/type: 'technology' is not one of ['concept', 'company', 'model', 'person', 'product', 'region', 'organization', 'event']", "entities/2/type: 'infrastructure' is not one of ['concept', 'company', 'model', 'person', 'product', 'region', 'organization', 'event']"]
+2026-10-30 02:02:28,314 INFO [products] attempt 3 invalid: [": 'key_facts' is a required property", ": 'implications' is a required property"]
+2026-10-30 02:02:28,453 ERROR [products] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7306, Requested 6288. Please try again in 41.955s. Need more tokens? Upgrade to Dev Tier today at https://cons
+2026-10-30 02:02:31,455 WARNING [products] no collect provider for deep-dive
+2026-10-30 02:02:32,127 INFO collect done: 4 item(s) published — target 6/10, next run ≈ 2026-10-31T01:00:00+00:00 UTC

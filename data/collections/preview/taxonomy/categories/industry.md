@@ -1,7 +1,7 @@
 ---
 node: "industry"
 layer: category
-item_count: 338
+item_count: 343
 ---
 
 # industry
@@ -21,6 +21,11 @@ item_count: 338
 
 ## Items
 
+- 2026-10-30 · [[2026-10-30-001-israeli-opposition-accuses-netanyahu-of-trying-to]] — Israeli opposition accuses Netanyahu of trying to 'delegitimise' election
+- 2026-10-30 · [[2026-10-30-001-israeli-opposition-accuses-netanyahu-of-trying-to]] — Israeli opposition accuses Netanyahu of trying to 'delegitimise' election
+- 2026-10-30 · [[2026-10-30-002-audio-reveals-exchanges-between-spain-train-operators-and]] — Audio reveals exchanges between Spain train operators and drivers moments before deadly crash
+- 2026-10-30 · [[2026-10-30-003-the-city-is-alive-a-brief-peace-in-kherson-but-residents]] — 'The city is alive': A brief peace in Kherson, but residents fear what comes next
+- 2026-10-30 · [[2026-10-30-003-the-city-is-alive-a-brief-peace-in-kherson-but-residents]] — 'The city is alive': A brief peace in Kherson, but residents fear what comes next
 - 2026-10-29 · [[2026-10-29-001-high-speed-train-crash-kills-at-least-68-people-in-spain]] — High-speed train crash kills at least 68 people in Spain
 - 2026-10-29 · [[2026-10-29-002-bloodied-dazed-and-angry-how-passengers-rail-journey]] — Bloodied, dazed and angry - how passengers' rail journey turned to disaster in Spain
 - 2026-10-29 · [[2026-10-29-002-bloodied-dazed-and-angry-how-passengers-rail-journey]] — Bloodied, dazed and angry - how passengers' rail journey turned to disaster in Spain

@@ -1,7 +1,7 @@
 ---
 name: "Volodymyr Zelensky"
 entity_type: person
-backlink_count: 38
+backlink_count: 39
 ---
 
 # Volodymyr Zelensky
@@ -10,6 +10,7 @@ backlink_count: 38
 
 ## Referenced by
 
+- 2026-10-30 · [[2026-10-30-003-the-city-is-alive-a-brief-peace-in-kherson-but-residents]] — 'The city is alive': A brief peace in Kherson, but residents fear what comes next
 - 2026-10-28 · [[2026-10-28-001-norway-and-finland-leaders-hold-rare-call-with-putin]] — Norway and Finland leaders hold rare call with Putin
 - 2026-10-28 · [[2026-10-28-002-ceasefire-extended-across-ukraine-s-kherson-region]] — Ceasefire extended across Ukraine's Kherson region, officials say
 - 2026-10-25 · [[2026-10-25-002-ukraine-says-starlink-connection-now-stable-after-network]] — Ukraine says Starlink connection 'now stable' after network limits

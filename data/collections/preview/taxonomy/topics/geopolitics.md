@@ -1,7 +1,7 @@
 ---
 node: "geopolitics"
 layer: topic
-item_count: 133
+item_count: 135
 ---
 
 # geopolitics
@@ -25,6 +25,8 @@ item_count: 133
 
 ## Items
 
+- 2026-10-30 · [[2026-10-30-001-israeli-opposition-accuses-netanyahu-of-trying-to]] — Israeli opposition accuses Netanyahu of trying to 'delegitimise' election
+- 2026-10-30 · [[2026-10-30-004-burnham-says-he-wants-to-cut-welfare-bill-as-soon-as-we]] — Burnham says he wants to cut welfare bill 'as soon as we possibly can'
 - 2026-10-29 · [[2026-10-29-003-fl-vio-bolsonaro-denies-fleeing-brazil-after-landing-in]] — Flávio Bolsonaro denies fleeing Brazil after landing in Miami
 - 2026-10-29 · [[2026-10-29-005-chris-mason-budget-felt-cautious-despite-its-range-of]] — Chris Mason: Budget felt cautious despite its range of small measures
 - 2026-10-28 · [[2026-10-28-004-chris-mason-budget-needs-to-go-some-way-towards-delivering]] — Chris Mason: Budget needs to go some way towards delivering PM's promises

@@ -1,7 +1,7 @@
 ---
 name: "Andy Burnham"
 entity_type: person
-backlink_count: 69
+backlink_count: 70
 ---
 
 # Andy Burnham
@@ -10,6 +10,7 @@ backlink_count: 69
 
 ## Referenced by
 
+- 2026-10-30 · [[2026-10-30-004-burnham-says-he-wants-to-cut-welfare-bill-as-soon-as-we]] — Burnham says he wants to cut welfare bill 'as soon as we possibly can'
 - 2026-10-28 · [[2026-10-28-004-chris-mason-budget-needs-to-go-some-way-towards-delivering]] — Chris Mason: Budget needs to go some way towards delivering PM's promises
 - 2026-10-27 · [[2026-10-27-004-chris-mason-the-budget-is-imminent-as-tricky-things-pile]] — Chris Mason: The Budget is imminent as tricky things pile up for Burnham
 - 2026-10-26 · [[2026-10-26-004-funding-set-to-double-for-plan-to-get-rough-sleepers-off]] — Funding set to double for plan to get rough sleepers off streets by Christmas
