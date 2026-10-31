@@ -1,0 +1,23 @@
+2026-10-31 02:47:58,194 ERROR [world-news] generate error: empty model content
+2026-10-31 02:48:01,392 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"liquid/lfm-2.5-2.6b:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Liquid","is_byok":false,"
+2026-10-31 02:48:12,285 INFO [world-news] attempt 3 invalid: [": 'key_facts' is a required property", ": 'implications' is a required property"]
+2026-10-31 02:48:12,470 ERROR [world-news] generate error: HTTP 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Requested 8118, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https
+2026-10-31 02:48:40,914 INFO [world-news] published 2026-10-31-002 — Crypto giant Binance attempting to recover $6.3bn stolen in 
+2026-10-31 02:49:15,310 ERROR [world-news] generate error: empty model content
+2026-10-31 02:49:18,466 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"poolside/laguna-xs-2.1:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Poolside","is_byok":fa
+2026-10-31 02:49:24,634 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"liquid/lfm-2.5-2.6b:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Liquid","is_byok":false,"
+2026-10-31 02:49:35,493 INFO [tech-news] nothing selected
+2026-10-31 02:50:12,196 INFO [politics] published 2026-10-31-004 — Burnham's Number 10 North goes on multi-million pound hiring
+2026-10-31 02:50:47,964 INFO [politics] published 2026-10-31-005 — 'No nation left behind' says Burnham after meeting first min
+2026-10-31 02:51:18,982 INFO [products] published 2026-10-31-006 — SpeakON Agent
+2026-10-31 02:51:34,102 INFO [products] published 2026-10-31-007 — Canva Brush
+2026-10-31 02:51:34,732 INFO collect done: 5 item(s) published — target 5/10, next run ≈ 2026-10-31T03:06:34+00:00 UTC
+2026-10-31 02:52:06,893 INFO [world-news] published 2026-10-31-008 — US approves sale of 500 Patriot missiles to Ukraine
+2026-10-31 02:52:09,779 ERROR [world-news] generate error: HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
+
+2026-10-31 02:52:12,781 WARNING [world-news] no collect provider for deep-dive
+2026-10-31 02:52:12,880 WARNING [world-news] no collect provider for deep-dive
+2026-10-31 02:52:13,230 WARNING [tech-news] no collect provider available
+2026-10-31 02:52:13,611 WARNING [politics] no collect provider available
+2026-10-31 02:52:14,369 WARNING [products] no collect provider available
+2026-10-31 02:52:14,980 INFO collect done: 1 item(s) published — target 4/10, next run ≈ 2026-11-01T01:00:00+00:00 UTC

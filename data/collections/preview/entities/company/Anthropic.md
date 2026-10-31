@@ -1,7 +1,7 @@
 ---
 name: "Anthropic"
 entity_type: company
-backlink_count: 94
+backlink_count: 96
 ---
 
 # Anthropic
@@ -10,6 +10,8 @@ backlink_count: 94
 
 ## Referenced by
 
+- 2026-10-31 · [[2026-10-31-006-speakon-agent]] — SpeakON Agent
+- 2026-10-31 · [[2026-10-31-007-canva-brush]] — Canva Brush
 - 2026-10-29 · [[2026-10-29-003-fl-vio-bolsonaro-denies-fleeing-brazil-after-landing-in]] — Flávio Bolsonaro denies fleeing Brazil after landing in Miami
 - 2026-10-29 · [[2026-10-29-006-yardlet]] — Yardlet
 - 2026-10-28 · [[2026-10-28-007-openradview-open-source-ai-ready-viewer-for-ct-mri-and-x]] — OpenRadView: Open‑Source, AI‑Ready Viewer for CT, MRI and X‑Ray Imaging

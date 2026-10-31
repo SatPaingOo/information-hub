@@ -1,7 +1,7 @@
 ---
 name: "Gemini"
 entity_type: model
-backlink_count: 78
+backlink_count: 79
 ---
 
 # Gemini
@@ -10,6 +10,7 @@ backlink_count: 78
 
 ## Referenced by
 
+- 2026-10-31 · [[2026-10-31-007-canva-brush]] — Canva Brush
 - 2026-10-30 · [[2026-10-30-001-israeli-opposition-accuses-netanyahu-of-trying-to]] — Israeli opposition accuses Netanyahu of trying to 'delegitimise' election
 - 2026-10-29 · [[2026-10-29-004-healey-unveils-100-for-energy-bills-and-bank-tax-in-first]] — Healey unveils £100 for energy bills and bank tax in first Budget
 - 2026-10-28 · [[2026-10-28-003-mbapp-apologises-for-ill-judged-mao-remark-after-backlash]] — Mbappé apologises for 'ill-judged' Mao remark after backlash in China

@@ -1,7 +1,7 @@
 ---
 node: "Global"
 layer: misc
-item_count: 522
+item_count: 528
 ---
 
 # Global
@@ -25,6 +25,12 @@ item_count: 522
 
 ## Items
 
+- 2026-10-31 · [[2026-10-31-002-crypto-giant-binance-attempting-to-recover-6-3bn-stolen-in]] — Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea
+- 2026-10-31 · [[2026-10-31-004-burnham-s-number-10-north-goes-on-multi-million-pound]] — Burnham's Number 10 North goes on multi-million pound hiring spree
+- 2026-10-31 · [[2026-10-31-005-no-nation-left-behind-says-burnham-after-meeting-first]] — 'No nation left behind' says Burnham after meeting first ministers in Glasgow
+- 2026-10-31 · [[2026-10-31-006-speakon-agent]] — SpeakON Agent
+- 2026-10-31 · [[2026-10-31-007-canva-brush]] — Canva Brush
+- 2026-10-31 · [[2026-10-31-008-us-approves-sale-of-500-patriot-missiles-to-ukraine]] — US approves sale of 500 Patriot missiles to Ukraine
 - 2026-10-30 · [[2026-10-30-001-israeli-opposition-accuses-netanyahu-of-trying-to]] — Israeli opposition accuses Netanyahu of trying to 'delegitimise' election
 - 2026-10-30 · [[2026-10-30-002-audio-reveals-exchanges-between-spain-train-operators-and]] — Audio reveals exchanges between Spain train operators and drivers moments before deadly crash
 - 2026-10-30 · [[2026-10-30-003-the-city-is-alive-a-brief-peace-in-kherson-but-residents]] — 'The city is alive': A brief peace in Kherson, but residents fear what comes next

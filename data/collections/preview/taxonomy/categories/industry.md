@@ -1,7 +1,7 @@
 ---
 node: "industry"
 layer: category
-item_count: 343
+item_count: 345
 ---
 
 # industry
@@ -21,6 +21,8 @@ item_count: 343
 
 ## Items
 
+- 2026-10-31 · [[2026-10-31-002-crypto-giant-binance-attempting-to-recover-6-3bn-stolen-in]] — Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea
+- 2026-10-31 · [[2026-10-31-008-us-approves-sale-of-500-patriot-missiles-to-ukraine]] — US approves sale of 500 Patriot missiles to Ukraine
 - 2026-10-30 · [[2026-10-30-001-israeli-opposition-accuses-netanyahu-of-trying-to]] — Israeli opposition accuses Netanyahu of trying to 'delegitimise' election
 - 2026-10-30 · [[2026-10-30-001-israeli-opposition-accuses-netanyahu-of-trying-to]] — Israeli opposition accuses Netanyahu of trying to 'delegitimise' election
 - 2026-10-30 · [[2026-10-30-002-audio-reveals-exchanges-between-spain-train-operators-and]] — Audio reveals exchanges between Spain train operators and drivers moments before deadly crash

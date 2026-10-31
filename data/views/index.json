@@ -1,5 +1,220 @@
 [
   {
+    "id": "info:item:world:global:2026-10-31-002",
+    "key": "2026-10-31-002",
+    "date": "2026-10-31",
+    "collection": "world-news",
+    "content_type": "digest",
+    "topic": "world",
+    "region": "global",
+    "categories": [
+      "policy",
+      "industry"
+    ],
+    "title": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
+    "tldr": "Binance reported a sophisticated cyber-heist resulting in $6.3bn in stolen assets, with investigators linking the attack to North Korea's Lazarus Group. The exchange has frozen $3bn and is collaborating with the FBI and US Secret Service to recover funds, while reassuring users that losses will be covered.",
+    "source": "feeds.bbci.co.uk",
+    "source_url": "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_medium=RSS&at_campaign=rss",
+    "entities": [
+      "Binance",
+      "Lazarus Group",
+      "Richard Teng",
+      "FBI",
+      "Chainalysis",
+      "Tether (USDT)"
+    ],
+    "tags": [
+      "cybersecurity",
+      "cryptocurrency",
+      "North Korea",
+      "financial crime",
+      "regulation",
+      "hacking"
+    ],
+    "word_count": 622,
+    "provider": "openrouter",
+    "model": "poolside/laguna-xs-2.1:free",
+    "verify": "lexical",
+    "file": "collections/data-set/2026-10-31-002-crypto-giant-binance-attempting-to-recover-6-3bn-stolen-in.json"
+  },
+  {
+    "id": "info:item:politics:global:2026-10-31-004",
+    "key": "2026-10-31-004",
+    "date": "2026-10-31",
+    "collection": "politics",
+    "content_type": "digest",
+    "topic": "politics",
+    "region": "global",
+    "categories": [
+      "policy"
+    ],
+    "title": "Burnham's Number 10 North goes on multi-million pound hiring spree",
+    "tldr": "Prime Minister Andy Burnham's newly established Number 10 North office in Manchester is launching 50 job adverts, including a 'rewiring the state deputy director', as part of a multi-million-pound expansion aimed at decentralising decision-making. Funded from existing budgets, the move signals a major push to embed regional governance, though opposition parties criticise it as bureaucratic overreach.",
+    "source": "feeds.bbci.co.uk",
+    "source_url": "https://www.bbc.co.uk/news/articles/cqm24pdylmm2o?at_medium=RSS&at_campaign=rss",
+    "entities": [
+      "Andy Burnham",
+      "Number 10 North",
+      "Conservative Party",
+      "Manchester"
+    ],
+    "tags": [
+      "devolution",
+      "civil service reform",
+      "regional governance",
+      "Labour Party",
+      "UK politics",
+      "policy implementation"
+    ],
+    "word_count": 557,
+    "provider": "openrouter",
+    "model": "poolside/laguna-s-2.1:free",
+    "verify": "lexical",
+    "file": "collections/data-set/2026-10-31-004-burnham-s-number-10-north-goes-on-multi-million-pound.json"
+  },
+  {
+    "id": "info:item:politics:global:2026-10-31-005",
+    "key": "2026-10-31-005",
+    "date": "2026-10-31",
+    "collection": "politics",
+    "content_type": "digest",
+    "topic": "politics",
+    "region": "global",
+    "categories": [
+      "policy"
+    ],
+    "title": "'No nation left behind' says Burnham after meeting first ministers in Glasgow",
+    "tldr": "UK Prime Minister Andy Burnham hosted the inaugural National Economic Council for the Nations in Glasgow, committing to deeper devolution for Scotland, Wales, and Northern Ireland while explicitly ruling out new independence referendums. The summit focused on regional empowerment, reindustrialisation, and youth employment, with first ministers welcoming the dialogue but reiterating calls for greater autonomy.",
+    "source": "feeds.bbci.co.uk",
+    "source_url": "https://www.bbc.co.uk/news/articles/cqr7yp8dngn8o?at_medium=RSS&at_campaign=rss",
+    "entities": [
+      "Andy Burnham",
+      "John Swinney",
+      "Rhun ap Iorwerth",
+      "National Economic Council for the Nations"
+    ],
+    "tags": [
+      "devolution",
+      "intergovernmental relations",
+      "economic policy",
+      "regional development",
+      "youth employment",
+      "constitutional reform"
+    ],
+    "word_count": 557,
+    "provider": "openrouter",
+    "model": "poolside/laguna-s-2.1:free",
+    "verify": "lexical",
+    "file": "collections/data-set/2026-10-31-005-no-nation-left-behind-says-burnham-after-meeting-first.json"
+  },
+  {
+    "id": "info:item:products:global:2026-10-31-006",
+    "key": "2026-10-31-006",
+    "date": "2026-10-31",
+    "collection": "products",
+    "content_type": "article",
+    "topic": "products",
+    "region": "global",
+    "categories": [
+      "product"
+    ],
+    "title": "SpeakON Agent",
+    "tldr": "SpeakON Agent transforms natural speech into actionable tasks for AI agents, bridging the gap between human conversation and automated workflow execution.",
+    "source": "producthunt.com",
+    "source_url": "https://www.producthunt.com/products/speakon",
+    "entities": [
+      "SpeakON Agent",
+      "OpenAI",
+      "GPT-4-Turbo",
+      "Anthropic"
+    ],
+    "tags": [
+      "agentic AI",
+      "LLM",
+      "voice automation",
+      "regulation",
+      "open-source"
+    ],
+    "word_count": 579,
+    "provider": "openrouter",
+    "model": "cohere/north-mini-code:free",
+    "verify": "lexical",
+    "file": "collections/data-set/2026-10-31-006-speakon-agent.json"
+  },
+  {
+    "id": "info:item:products:global:2026-10-31-007",
+    "key": "2026-10-31-007",
+    "date": "2026-10-31",
+    "collection": "products",
+    "content_type": "article",
+    "topic": "products",
+    "region": "global",
+    "categories": [
+      "product"
+    ],
+    "title": "Canva Brush",
+    "tldr": "Canva launched Brush, a vision‑language model that lets users edit graphics with natural‑language prompts, streamlining design workflows and expanding AI‑driven creativity for non‑technical users.",
+    "source": "producthunt.com",
+    "source_url": "https://www.producthunt.com/products/canva",
+    "entities": [
+      "Canva",
+      "OpenAI",
+      "Gemini",
+      "Anthropic"
+    ],
+    "tags": [
+      "agentic AI",
+      "vision‑language model",
+      "design automation",
+      "open‑source AI",
+      "AI regulation",
+      "creative productivity"
+    ],
+    "word_count": 717,
+    "provider": "openrouter",
+    "model": "cohere/north-mini-code:free",
+    "verify": "lexical",
+    "file": "collections/data-set/2026-10-31-007-canva-brush.json"
+  },
+  {
+    "id": "info:item:world:global:2026-10-31-008",
+    "key": "2026-10-31-008",
+    "date": "2026-10-31",
+    "collection": "world-news",
+    "content_type": "digest",
+    "topic": "world",
+    "region": "global",
+    "categories": [
+      "policy",
+      "industry"
+    ],
+    "title": "US approves sale of 500 Patriot missiles to Ukraine",
+    "tldr": "The United States has approved a $2.1 billion sale of 500 PAC‑3 Patriot interceptor missiles to Ukraine, funded by European allies and Canada, despite warnings that delivery could take years. The deal arrives as Russia intensifies attacks on Ukrainian energy infrastructure, underscoring Kyiv’s urgent need for advanced air‑defence systems.",
+    "source": "feeds.bbci.co.uk",
+    "source_url": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_medium=RSS&at_campaign=rss",
+    "entities": [
+      "Volodymyr Zelensky",
+      "Lockheed Martin",
+      "U.S. Department of State"
+    ],
+    "tags": [
+      "missile defense",
+      "Patriot",
+      "Ukraine",
+      "U.S. foreign policy",
+      "G20",
+      "EU security",
+      "arms control",
+      "regulation",
+      "open-source"
+    ],
+    "word_count": 594,
+    "provider": "openrouter",
+    "model": "cohere/north-mini-code:free",
+    "verify": "lexical",
+    "file": "collections/data-set/2026-10-31-008-us-approves-sale-of-500-patriot-missiles-to-ukraine.json"
+  },
+  {
     "id": "info:item:world:global:2026-10-30-001",
     "key": "2026-10-30-001",
     "date": "2026-10-30",

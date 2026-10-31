@@ -1,7 +1,7 @@
 ---
 name: "FBI"
 entity_type: organization
-backlink_count: 6
+backlink_count: 7
 ---
 
 # FBI
@@ -10,6 +10,7 @@ backlink_count: 6
 
 ## Referenced by
 
+- 2026-10-31 · [[2026-10-31-002-crypto-giant-binance-attempting-to-recover-6-3bn-stolen-in]] — Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea
 - 2026-10-27 · [[2026-10-27-008-ex-fbi-director-james-comey-charged-for-third-time-legal]] — Ex‑FBI Director James Comey Charged for Third Time: Legal, Political and Institutional Ramifications
 - 2026-10-20 · [[2026-10-20-001-ex-openai-worker-accused-of-planting-device-had-saudi]] — Ex-OpenAI worker accused of planting device had Saudi support, says court filing
 - 2026-10-14 · [[2026-10-14-001-saudi-man-charged-with-planting-sophisticated-recording]] — Saudi man charged with planting 'sophisticated' recording device in OpenAI office

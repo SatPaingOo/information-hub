@@ -1,7 +1,7 @@
 ---
 node: "politics"
 layer: topic
-item_count: 178
+item_count: 180
 ---
 
 # politics
@@ -17,6 +17,8 @@ item_count: 178
 
 ## Items
 
+- 2026-10-31 · [[2026-10-31-004-burnham-s-number-10-north-goes-on-multi-million-pound]] — Burnham's Number 10 North goes on multi-million pound hiring spree
+- 2026-10-31 · [[2026-10-31-005-no-nation-left-behind-says-burnham-after-meeting-first]] — 'No nation left behind' says Burnham after meeting first ministers in Glasgow
 - 2026-10-30 · [[2026-10-30-004-burnham-says-he-wants-to-cut-welfare-bill-as-soon-as-we]] — Burnham says he wants to cut welfare bill 'as soon as we possibly can'
 - 2026-10-29 · [[2026-10-29-004-healey-unveils-100-for-energy-bills-and-bank-tax-in-first]] — Healey unveils £100 for energy bills and bank tax in first Budget
 - 2026-10-29 · [[2026-10-29-004-healey-unveils-100-for-energy-bills-and-bank-tax-in-first]] — Healey unveils £100 for energy bills and bank tax in first Budget

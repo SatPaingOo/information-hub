@@ -1,7 +1,7 @@
 ---
 node: "products"
 layer: topic
-item_count: 86
+item_count: 88
 ---
 
 # products
@@ -16,6 +16,8 @@ item_count: 86
 
 ## Items
 
+- 2026-10-31 · [[2026-10-31-006-speakon-agent]] — SpeakON Agent
+- 2026-10-31 · [[2026-10-31-007-canva-brush]] — Canva Brush
 - 2026-10-29 · [[2026-10-29-006-yardlet]] — Yardlet
 - 2026-10-28 · [[2026-10-28-006-pulsedev-ai-powered-local-ui-bug-fixing]] — PulseDev: AI‑Powered Local UI Bug Fixing
 - 2026-10-28 · [[2026-10-28-007-openradview-open-source-ai-ready-viewer-for-ct-mri-and-x]] — OpenRadView: Open‑Source, AI‑Ready Viewer for CT, MRI and X‑Ray Imaging

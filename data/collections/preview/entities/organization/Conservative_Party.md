@@ -1,7 +1,7 @@
 ---
 name: "Conservative Party"
 entity_type: organization
-backlink_count: 14
+backlink_count: 15
 ---
 
 # Conservative Party
@@ -10,6 +10,7 @@ backlink_count: 14
 
 ## Referenced by
 
+- 2026-10-31 · [[2026-10-31-004-burnham-s-number-10-north-goes-on-multi-million-pound]] — Burnham's Number 10 North goes on multi-million pound hiring spree
 - 2026-10-24 · [[2026-10-24-004-chancellor-says-he-will-cut-pointless-paperwork-to-save]] — Chancellor says he will cut 'pointless paperwork' to save businesses up to £800m
 - 2026-10-20 · [[2026-10-20-005-pm-says-youth-unemployment-is-a-catastrophe-and-a-moral]] — PM says youth unemployment is a 'catastrophe and a moral failure'
 - 2026-10-15 · [[2026-10-15-005-reform-faces-criticism-after-councillors-filmed-making]] — Reform faces criticism after councillors filmed making racist comments
