@@ -1,10 +1,10 @@
 {
   "groq": {
     "quota_date": "2026-11-01",
-    "tokens_used": 1321,
+    "tokens_used": 2676,
     "items": 0,
-    "calls": 1,
-    "errors": 2,
+    "calls": 2,
+    "errors": 3,
     "cooldown_until": "2026-11-01T07:23:13+00:00",
     "models": {
       "llama-3.3-70b-versatile": {
@@ -41,13 +41,13 @@
         "cooldown_until": null
       },
       "openai/gpt-oss-20b": {
-        "calls": 65,
+        "calls": 66,
         "items": 41,
-        "errors": 97,
+        "errors": 98,
         "consecutive_failures": 1,
-        "healthy": true,
-        "last_health_check": "2026-11-01T07:22:43+00:00",
-        "latency_ms": 1043,
+        "healthy": false,
+        "last_health_check": "2026-11-01T08:05:48+00:00",
+        "latency_ms": 978,
         "supports_json": true,
         "cooldown_until": "2026-11-01T07:23:13+00:00"
       }
@@ -508,30 +508,30 @@
     "tokens_used": 0,
     "items": 0,
     "calls": 0,
-    "errors": 2,
-    "cooldown_until": "2026-11-01T07:23:22+00:00",
+    "errors": 4,
+    "cooldown_until": "2026-11-01T08:06:27+00:00",
     "models": {
       "gemini-3.5-flash-lite": {
         "calls": 0,
         "items": 0,
-        "errors": 164,
-        "consecutive_failures": 2,
-        "healthy": true,
-        "last_health_check": "2026-11-01T07:22:49+00:00",
+        "errors": 165,
+        "consecutive_failures": 3,
+        "healthy": false,
+        "last_health_check": "2026-11-01T08:05:54+00:00",
         "latency_ms": null,
         "supports_json": true,
-        "cooldown_until": "2026-11-01T07:23:49+00:00"
+        "cooldown_until": "2026-11-01T08:07:54+00:00"
       },
       "gemini-3.5-flash": {
         "calls": 0,
         "items": 0,
-        "errors": 164,
-        "consecutive_failures": 2,
-        "healthy": true,
-        "last_health_check": "2026-11-01T07:22:52+00:00",
+        "errors": 165,
+        "consecutive_failures": 3,
+        "healthy": false,
+        "last_health_check": "2026-11-01T08:05:57+00:00",
         "latency_ms": null,
         "supports_json": true,
-        "cooldown_until": "2026-11-01T07:23:52+00:00"
+        "cooldown_until": "2026-11-01T08:07:57+00:00"
       }
     }
   }
