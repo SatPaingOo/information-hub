@@ -1,7 +1,7 @@
 ---
 node: "Brexit"
 layer: misc
-item_count: 1
+item_count: 2
 ---
 
 # Brexit
@@ -14,4 +14,5 @@ item_count: 1
 
 ## Items
 
+- 2026-11-01 · [[2026-11-01-005-reeves-says-uk-s-future-should-be-inside-the-eu]] — Reeves says UK's future should be inside the EU
 - 2026-10-13 · [[2026-10-13-004-burnham-to-push-for-new-post-brexit-deals-at-eu-summit]] — Burnham to push for new post-Brexit deals at EU summit

@@ -1,7 +1,7 @@
 ---
 node: "politics"
 layer: topic
-item_count: 180
+item_count: 182
 ---
 
 # politics
@@ -17,6 +17,8 @@ item_count: 180
 
 ## Items
 
+- 2026-11-01 · [[2026-11-01-004-laura-kuenssberg-healey-risks-breaking-minimum-wage]] — Laura Kuenssberg: Healey risks breaking minimum wage promise for younger workers
+- 2026-11-01 · [[2026-11-01-005-reeves-says-uk-s-future-should-be-inside-the-eu]] — Reeves says UK's future should be inside the EU
 - 2026-10-31 · [[2026-10-31-004-burnham-s-number-10-north-goes-on-multi-million-pound]] — Burnham's Number 10 North goes on multi-million pound hiring spree
 - 2026-10-31 · [[2026-10-31-005-no-nation-left-behind-says-burnham-after-meeting-first]] — 'No nation left behind' says Burnham after meeting first ministers in Glasgow
 - 2026-10-30 · [[2026-10-30-004-burnham-says-he-wants-to-cut-welfare-bill-as-soon-as-we]] — Burnham says he wants to cut welfare bill 'as soon as we possibly can'

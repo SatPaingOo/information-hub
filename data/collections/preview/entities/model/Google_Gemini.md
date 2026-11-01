@@ -1,7 +1,7 @@
 ---
 name: "Google Gemini"
 entity_type: model
-backlink_count: 9
+backlink_count: 10
 ---
 
 # Google Gemini
@@ -10,6 +10,7 @@ backlink_count: 9
 
 ## Referenced by
 
+- 2026-11-01 · [[2026-11-01-007-clawsgo-science]] — ClawsGO Science
 - 2026-10-26 · [[2026-10-26-007-agentgrid-io-a-shared-workspace-for-humans-and-ai-agents]] — AgentGrid.io – A Shared Workspace for Humans and AI Agents
 - 2026-10-03 · [[2026-10-03-007-jarviscore-a-zero-trust-mesh-for-agentic-ai]] — JarvisCore – A Zero‑Trust Mesh for Agentic AI
 - 2026-10-01 · [[2026-10-01-007-ace-from-automat-workforce-an-agentic-ai-teammate-for]] — Ace from Automat Workforce – An Agentic AI Teammate for Modern Workflows

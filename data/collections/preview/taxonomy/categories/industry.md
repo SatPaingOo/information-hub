@@ -1,7 +1,7 @@
 ---
 node: "industry"
 layer: category
-item_count: 345
+item_count: 348
 ---
 
 # industry
@@ -21,6 +21,9 @@ item_count: 345
 
 ## Items
 
+- 2026-11-01 · [[2026-11-01-001-shops-looted-as-german-cost-of-living-protests-turn-violent]] — Shops looted as German cost of living protests turn violent
+- 2026-11-01 · [[2026-11-01-001-shops-looted-as-german-cost-of-living-protests-turn-violent]] — Shops looted as German cost of living protests turn violent
+- 2026-11-01 · [[2026-11-01-002-we-came-back-from-hell-say-ukrainians-after-years-in]] — 'We came back from hell', say Ukrainians after years in Russia-occupied front-line city
 - 2026-10-31 · [[2026-10-31-002-crypto-giant-binance-attempting-to-recover-6-3bn-stolen-in]] — Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea
 - 2026-10-31 · [[2026-10-31-008-us-approves-sale-of-500-patriot-missiles-to-ukraine]] — US approves sale of 500 Patriot missiles to Ukraine
 - 2026-10-30 · [[2026-10-30-001-israeli-opposition-accuses-netanyahu-of-trying-to]] — Israeli opposition accuses Netanyahu of trying to 'delegitimise' election

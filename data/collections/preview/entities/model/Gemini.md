@@ -1,7 +1,7 @@
 ---
 name: "Gemini"
 entity_type: model
-backlink_count: 79
+backlink_count: 81
 ---
 
 # Gemini
@@ -10,6 +10,8 @@ backlink_count: 79
 
 ## Referenced by
 
+- 2026-11-01 · [[2026-11-01-001-shops-looted-as-german-cost-of-living-protests-turn-violent]] — Shops looted as German cost of living protests turn violent
+- 2026-11-01 · [[2026-11-01-006-usage-for-claude-chatgpt-4-0]] — Usage for Claude + ChatGPT 4.0
 - 2026-10-31 · [[2026-10-31-007-canva-brush]] — Canva Brush
 - 2026-10-30 · [[2026-10-30-001-israeli-opposition-accuses-netanyahu-of-trying-to]] — Israeli opposition accuses Netanyahu of trying to 'delegitimise' election
 - 2026-10-29 · [[2026-10-29-004-healey-unveils-100-for-energy-bills-and-bank-tax-in-first]] — Healey unveils £100 for energy bills and bank tax in first Budget

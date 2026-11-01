@@ -1,7 +1,7 @@
 ---
 node: "labour market policy"
 layer: misc
-item_count: 1
+item_count: 2
 ---
 
 # labour market policy
@@ -14,4 +14,5 @@ item_count: 1
 
 ## Items
 
+- 2026-11-01 · [[2026-11-01-004-laura-kuenssberg-healey-risks-breaking-minimum-wage]] — Laura Kuenssberg: Healey risks breaking minimum wage promise for younger workers
 - 2026-10-28 · [[2026-10-28-005-minimum-wage-set-to-rise-but-18-20-year-olds-will-not-get]] — Minimum wage set to rise but 18‑20 year‑olds will not get bigger increase

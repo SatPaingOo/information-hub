@@ -1,7 +1,7 @@
 ---
 node: "Global"
 layer: misc
-item_count: 528
+item_count: 534
 ---
 
 # Global
@@ -25,6 +25,12 @@ item_count: 528
 
 ## Items
 
+- 2026-11-01 · [[2026-11-01-001-shops-looted-as-german-cost-of-living-protests-turn-violent]] — Shops looted as German cost of living protests turn violent
+- 2026-11-01 · [[2026-11-01-002-we-came-back-from-hell-say-ukrainians-after-years-in]] — 'We came back from hell', say Ukrainians after years in Russia-occupied front-line city
+- 2026-11-01 · [[2026-11-01-004-laura-kuenssberg-healey-risks-breaking-minimum-wage]] — Laura Kuenssberg: Healey risks breaking minimum wage promise for younger workers
+- 2026-11-01 · [[2026-11-01-005-reeves-says-uk-s-future-should-be-inside-the-eu]] — Reeves says UK's future should be inside the EU
+- 2026-11-01 · [[2026-11-01-006-usage-for-claude-chatgpt-4-0]] — Usage for Claude + ChatGPT 4.0
+- 2026-11-01 · [[2026-11-01-007-clawsgo-science]] — ClawsGO Science
 - 2026-10-31 · [[2026-10-31-002-crypto-giant-binance-attempting-to-recover-6-3bn-stolen-in]] — Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea
 - 2026-10-31 · [[2026-10-31-004-burnham-s-number-10-north-goes-on-multi-million-pound]] — Burnham's Number 10 North goes on multi-million pound hiring spree
 - 2026-10-31 · [[2026-10-31-005-no-nation-left-behind-says-burnham-after-meeting-first]] — 'No nation left behind' says Burnham after meeting first ministers in Glasgow

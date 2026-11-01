@@ -1,7 +1,7 @@
 ---
 name: "Myanmar"
 entity_type: region
-backlink_count: 21
+backlink_count: 22
 ---
 
 # Myanmar
@@ -10,6 +10,7 @@ backlink_count: 21
 
 ## Referenced by
 
+- 2026-11-01 · [[2026-11-01-007-clawsgo-science]] — ClawsGO Science
 - 2026-10-13 · [[2026-10-13-007-squadroom-ai-employees-that-work-24-7]] — SquadRoom – AI Employees That Work 24/7
 - 2026-10-09 · [[2026-10-09-006-offstage]] — offstage
 - 2026-10-07 · [[2026-10-07-005-cosmic-ai-support-agent]] — Cosmic AI Support Agent

@@ -1,0 +1,24 @@
+2026-11-01 07:17:46,954 INFO [world-news] published 2026-11-01-001 — Shops looted as German cost of living protests turn violent
+2026-11-01 07:18:37,878 INFO [world-news] published 2026-11-01-002 — 'We came back from hell', say Ukrainians after years in Russ
+2026-11-01 07:19:42,741 ERROR [world-news] generate error: empty model content
+2026-11-01 07:19:45,878 ERROR [world-news] generate error: HTTP 404: {"error":{"message":"poolside/laguna-s-2.1:free is no longer available on OpenRouter: no provider serves this model anymore. See available models at https://openrouter.ai/models","code":404},"user_id":"user_2mqLaYz9PPTm2loHhHg0PQ896kb"}
+2026-11-01 07:19:56,724 ERROR [world-news] generate error: HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
+
+2026-11-01 07:20:06,831 ERROR [tech-news] select failed: HTTP 404: {"error":{"message":"poolside/laguna-xs-2.1:free is no longer available on OpenRouter: no provider serves this model anymore. See available models at https://openrouter.ai/models","code":404},"user_id":"user_2mqLaYz9PPTm2loHhHg0PQ896kb"}
+2026-11-01 07:20:06,843 INFO [tech-news] nothing selected
+2026-11-01 07:20:07,684 ERROR [politics] select failed: HTTP 429: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"liquid/lfm-2.5-2.6b:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Liquid","is_byok":false,"
+2026-11-01 07:20:07,720 INFO [politics] model returned no selection — using heuristic fallback (2)
+2026-11-01 07:20:09,027 ERROR [politics] generate error: HTTP 400: {"error":{"message":"Provider returned error","code":400,"metadata":{"raw":"{\"code\":400,\"msg\":\"bad request\",\"request_id\":\"fac91cdb-4dfc-45d1-ac2d-c31390ed2608\"}","provider_name":"AtlasCloud","is_byok":false}},"user_id":"user_2mqLaYz9PPTm2loHhHg0PQ896kb"}
+2026-11-01 07:20:39,455 INFO [politics] published 2026-11-01-004 — Laura Kuenssberg: Healey risks breaking minimum wage promise
+2026-11-01 07:21:24,913 INFO [politics] published 2026-11-01-005 — Reeves says UK's future should be inside the EU
+2026-11-01 07:22:20,350 INFO [products] published 2026-11-01-006 — Usage for Claude + ChatGPT 4.0
+2026-11-01 07:22:41,142 INFO [products] published 2026-11-01-007 — ClawsGO Science
+2026-11-01 07:22:41,756 INFO collect done: 6 item(s) published — target 4/10, next run ≈ 2026-11-01T07:37:41+00:00 UTC
+2026-11-01 07:22:43,831 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 1161, Requested 7495. Please try again in 4.92s. Need more tokens? Upgrade to Dev Tier today at https://consol
+2026-11-01 07:22:46,833 WARNING [world-news] no collect provider for deep-dive
+2026-11-01 07:22:46,941 WARNING [world-news] no collect provider for deep-dive
+2026-11-01 07:22:47,043 WARNING [world-news] no collect provider for deep-dive
+2026-11-01 07:22:47,578 WARNING [tech-news] no collect provider available
+2026-11-01 07:22:47,786 WARNING [politics] no collect provider available
+2026-11-01 07:22:48,577 WARNING [products] no collect provider available
+2026-11-01 07:22:48,928 INFO collect done: 0 item(s) published — target 4/10, next run ≈ 2026-11-02T01:00:00+00:00 UTC

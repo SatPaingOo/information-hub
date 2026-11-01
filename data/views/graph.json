@@ -10002,6 +10002,97 @@
       "name": "arms control"
     },
     {
+      "id": "info:item:world:global:2026-11-01-001",
+      "type": "item",
+      "date": "2026-11-01",
+      "title": "Shops looted as German cost of living protests turn violent"
+    },
+    {
+      "id": "info:entity:organization:Gen Z regelt",
+      "type": "organization",
+      "name": "Gen Z regelt"
+    },
+    {
+      "id": "info:item:world:global:2026-11-01-002",
+      "type": "item",
+      "date": "2026-11-01",
+      "title": "'We came back from hell', say Ukrainians after years in Russia-occupied front-line city"
+    },
+    {
+      "id": "info:entity:person:Olha",
+      "type": "person",
+      "name": "Olha"
+    },
+    {
+      "id": "info:entity:person:Viacheslav",
+      "type": "person",
+      "name": "Viacheslav"
+    },
+    {
+      "id": "taxonomy/misc/Humanitarian Aid",
+      "type": "taxonomy",
+      "name": "Humanitarian Aid"
+    },
+    {
+      "id": "taxonomy/misc/Eastern Europe",
+      "type": "taxonomy",
+      "name": "Eastern Europe"
+    },
+    {
+      "id": "taxonomy/misc/Refugee Policy",
+      "type": "taxonomy",
+      "name": "Refugee Policy"
+    },
+    {
+      "id": "info:item:politics:global:2026-11-01-004",
+      "type": "item",
+      "date": "2026-11-01",
+      "title": "Laura Kuenssberg: Healey risks breaking minimum wage promise for younger workers"
+    },
+    {
+      "id": "info:entity:organization:Trades Union Congress (TUC)",
+      "type": "organization",
+      "name": "Trades Union Congress (TUC)"
+    },
+    {
+      "id": "taxonomy/misc/social justice",
+      "type": "taxonomy",
+      "name": "social justice"
+    },
+    {
+      "id": "info:item:politics:global:2026-11-01-005",
+      "type": "item",
+      "date": "2026-11-01",
+      "title": "Reeves says UK's future should be inside the EU"
+    },
+    {
+      "id": "info:entity:event:Brexit",
+      "type": "event",
+      "name": "Brexit"
+    },
+    {
+      "id": "taxonomy/misc/EU",
+      "type": "taxonomy",
+      "name": "EU"
+    },
+    {
+      "id": "info:item:products:global:2026-11-01-006",
+      "type": "item",
+      "date": "2026-11-01",
+      "title": "Usage for Claude + ChatGPT 4.0"
+    },
+    {
+      "id": "info:item:products:global:2026-11-01-007",
+      "type": "item",
+      "date": "2026-11-01",
+      "title": "ClawsGO Science"
+    },
+    {
+      "id": "info:entity:product:ClawsGO Science",
+      "type": "product",
+      "name": "ClawsGO Science"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -44208,6 +44299,391 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-11-01-001",
+      "target": "info:entity:organization:Gen Z regelt",
+      "relation": "organizer of the German protests"
+    },
+    {
+      "source": "info:item:world:global:2026-11-01-001",
+      "target": "info:entity:organization:German Federal Intelligence Service (BND)",
+      "relation": "monitoring extremist infiltration"
+    },
+    {
+      "source": "info:item:world:global:2026-11-01-001",
+      "target": "info:entity:company:OpenAI",
+      "relation": "provides AI tools for crowd analysis"
+    },
+    {
+      "source": "info:item:world:global:2026-11-01-001",
+      "target": "info:entity:model:Gemini",
+      "relation": "AI model considered for predictive policing"
+    },
+    {
+      "source": "info:item:world:global:2026-11-01-001",
+      "target": "info:item:world:global:2026-10-31-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-01-001",
+      "target": "info:item:world:global:2026-10-30-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-01-001",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-01-001",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-01-001",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-01-001",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-01-001",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-01-001",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-01-001",
+      "target": "taxonomy/category/industry",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-01-002",
+      "target": "info:entity:person:Olha",
+      "relation": "survivor and evacuee"
+    },
+    {
+      "source": "info:item:world:global:2026-11-01-002",
+      "target": "info:entity:person:Viacheslav",
+      "relation": "survivor and evacuee"
+    },
+    {
+      "source": "info:item:world:global:2026-11-01-002",
+      "target": "info:entity:person:Melania Trump",
+      "relation": "broker of humanitarian ceasefire"
+    },
+    {
+      "source": "info:item:world:global:2026-11-01-002",
+      "target": "info:entity:organization:Ukrainian Armed Forces",
+      "relation": "defended surrounding areas"
+    },
+    {
+      "source": "info:item:world:global:2026-11-01-002",
+      "target": "info:entity:event:Russian invasion of Ukraine",
+      "relation": "context for occupation of Oleshky"
+    },
+    {
+      "source": "info:item:world:global:2026-11-01-002",
+      "target": "info:item:world:global:2026-11-01-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-01-002",
+      "target": "info:item:world:global:2026-10-31-008",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-01-002",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-01-002",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-01-002",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-01-002",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-01-002",
+      "target": "taxonomy/misc/Humanitarian Aid",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-01-002",
+      "target": "taxonomy/misc/Eastern Europe",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-01-002",
+      "target": "taxonomy/misc/Refugee Policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-01-004",
+      "target": "info:entity:person:John Healey",
+      "relation": "Chancellor of the Exchequer proposing the differential minimum wage"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-01-004",
+      "target": "info:entity:organization:Institute for Fiscal Studies (IFS)",
+      "relation": "independent fiscal watchdog questioning the budget’s spending‑cut assumptions"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-01-004",
+      "target": "info:entity:organization:Labour Party",
+      "relation": "political party that made the original manifesto pledge on age‑band elimination"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-01-004",
+      "target": "info:entity:organization:Trades Union Congress (TUC)",
+      "relation": "representative body raising concerns over the broken promise"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-01-004",
+      "target": "info:item:politics:global:2026-10-31-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-01-004",
+      "target": "info:item:politics:global:2026-10-31-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-01-004",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-01-004",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-01-004",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-01-004",
+      "target": "taxonomy/misc/labour market policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-01-004",
+      "target": "taxonomy/misc/UK fiscal policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-01-004",
+      "target": "taxonomy/misc/social justice",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-01-005",
+      "target": "info:entity:person:Rachel Reeves",
+      "relation": "advocate for UK rejoining the EU"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-01-005",
+      "target": "info:entity:organization:European Union",
+      "relation": "target of membership bid and strategic partner"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-01-005",
+      "target": "info:entity:event:Brexit",
+      "relation": "context for Reeves’s critique"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-01-005",
+      "target": "info:entity:organization:Labour Party",
+      "relation": "political party with 2024 manifesto opposing EU membership"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-01-005",
+      "target": "info:entity:company:OpenAI",
+      "relation": "entity linked to AI policy priorities discussed"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-01-005",
+      "target": "info:item:politics:global:2026-11-01-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-01-005",
+      "target": "info:item:politics:global:2026-10-31-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-01-005",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-01-005",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-01-005",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-01-005",
+      "target": "taxonomy/misc/EU",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-01-005",
+      "target": "taxonomy/misc/Brexit",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-01-005",
+      "target": "taxonomy/misc/AI regulation",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-11-01-006",
+      "target": "info:entity:model:Anthropic Claude",
+      "relation": "monitored for usage limits"
+    },
+    {
+      "source": "info:item:products:global:2026-11-01-006",
+      "target": "info:entity:model:OpenAI GPT-4",
+      "relation": "monitored for usage limits"
+    },
+    {
+      "source": "info:item:products:global:2026-11-01-006",
+      "target": "info:entity:company:Product Hunt",
+      "relation": "platform where product launched"
+    },
+    {
+      "source": "info:item:products:global:2026-11-01-006",
+      "target": "info:entity:model:Gemini",
+      "relation": "potential future integration"
+    },
+    {
+      "source": "info:item:products:global:2026-11-01-006",
+      "target": "info:item:products:global:2026-10-31-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-11-01-006",
+      "target": "info:item:products:global:2026-10-31-007",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-11-01-006",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-11-01-006",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-11-01-006",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-11-01-006",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-11-01-006",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-11-01-006",
+      "target": "taxonomy/misc/regulation",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-11-01-007",
+      "target": "info:entity:product:ClawsGO Science",
+      "relation": "offers AI research agent and cloud lab"
+    },
+    {
+      "source": "info:item:products:global:2026-11-01-007",
+      "target": "info:entity:model:OpenAI GPT-4",
+      "relation": "supported for fine‑tuning and inference"
+    },
+    {
+      "source": "info:item:products:global:2026-11-01-007",
+      "target": "info:entity:model:Google Gemini",
+      "relation": "integrated for multi‑model workflows"
+    },
+    {
+      "source": "info:item:products:global:2026-11-01-007",
+      "target": "info:entity:model:Anthropic Claude",
+      "relation": "available for research tasks"
+    },
+    {
+      "source": "info:item:products:global:2026-11-01-007",
+      "target": "info:entity:region:Myanmar",
+      "relation": "target market for low‑resource language research"
+    },
+    {
+      "source": "info:item:products:global:2026-11-01-007",
+      "target": "info:item:products:global:2026-11-01-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-11-01-007",
+      "target": "info:item:products:global:2026-10-31-007",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-11-01-007",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-11-01-007",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-11-01-007",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-11-01-007",
+      "target": "taxonomy/misc/Agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-11-01-007",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-11-01-007",
+      "target": "taxonomy/misc/Myanmar",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -46509,6 +46985,12 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:event:Brexit",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:model:ChatGPT",
       "relation": "co-occurs",
       "weight": "1"
@@ -46583,7 +47065,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "54"
+      "weight": "55"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -46695,6 +47177,12 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:organization:European Union",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:organization:FBI",
       "relation": "co-occurs",
       "weight": "2"
@@ -46708,6 +47196,18 @@
     {
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:organization:Federal Intelligence Service (BND)",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:organization:Gen Z regelt",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:organization:German Federal Intelligence Service (BND)",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -46757,7 +47257,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:organization:Labour Party",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -47201,7 +47701,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Rachel Reeves",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -47493,6 +47993,12 @@
     },
     {
       "source": "info:entity:company:Product Hunt",
+      "target": "info:entity:model:Anthropic Claude",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Product Hunt",
       "target": "info:entity:model:GPT-4‑Turbo",
       "relation": "co-occurs",
       "weight": "1"
@@ -47500,6 +48006,12 @@
     {
       "source": "info:entity:company:Product Hunt",
       "target": "info:entity:model:Gemini",
+      "relation": "co-occurs",
+      "weight": "2"
+    },
+    {
+      "source": "info:entity:company:Product Hunt",
+      "target": "info:entity:model:OpenAI GPT-4",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -49526,6 +50038,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:event:Brexit",
+      "target": "info:entity:organization:European Union",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:event:Brexit",
+      "target": "info:entity:organization:Labour Party",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:event:Brexit",
+      "target": "info:entity:person:Rachel Reeves",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:event:Champs‑Élysées Mass",
       "target": "info:entity:person:Brigitte Macron",
       "relation": "co-occurs",
@@ -49665,13 +50195,37 @@
     },
     {
       "source": "info:entity:event:Russian invasion of Ukraine",
+      "target": "info:entity:organization:Ukrainian Armed Forces",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:event:Russian invasion of Ukraine",
       "target": "info:entity:organization:Ukrainian Government",
       "relation": "co-occurs",
       "weight": "1"
     },
     {
       "source": "info:entity:event:Russian invasion of Ukraine",
+      "target": "info:entity:person:Melania Trump",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:event:Russian invasion of Ukraine",
       "target": "info:entity:person:Mykhailo Fedorov",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:event:Russian invasion of Ukraine",
+      "target": "info:entity:person:Olha",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:event:Russian invasion of Ukraine",
+      "target": "info:entity:person:Viacheslav",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -49773,9 +50327,15 @@
     },
     {
       "source": "info:entity:model:Anthropic Claude",
+      "target": "info:entity:model:Gemini",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Anthropic Claude",
       "target": "info:entity:model:Google Gemini",
       "relation": "co-occurs",
-      "weight": "5"
+      "weight": "6"
     },
     {
       "source": "info:entity:model:Anthropic Claude",
@@ -49793,7 +50353,7 @@
       "source": "info:entity:model:Anthropic Claude",
       "target": "info:entity:model:OpenAI GPT-4",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "3"
     },
     {
       "source": "info:entity:model:Anthropic Claude",
@@ -49815,6 +50375,12 @@
     },
     {
       "source": "info:entity:model:Anthropic Claude",
+      "target": "info:entity:product:ClawsGO Science",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Anthropic Claude",
       "target": "info:entity:product:Context.dev",
       "relation": "co-occurs",
       "weight": "1"
@@ -49829,7 +50395,7 @@
       "source": "info:entity:model:Anthropic Claude",
       "target": "info:entity:region:Myanmar",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:model:ChatGPT",
@@ -50147,7 +50713,7 @@
       "source": "info:entity:model:Gemini",
       "target": "info:entity:model:OpenAI GPT-4",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:model:Gemini",
@@ -50188,6 +50754,18 @@
     {
       "source": "info:entity:model:Gemini",
       "target": "info:entity:organization:European Serbia",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
+      "target": "info:entity:organization:Gen Z regelt",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
+      "target": "info:entity:organization:German Federal Intelligence Service (BND)",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -50733,6 +51311,12 @@
     },
     {
       "source": "info:entity:model:Google Gemini",
+      "target": "info:entity:model:OpenAI GPT-4",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Google Gemini",
       "target": "info:entity:model:OpenAI GPT‑4",
       "relation": "co-occurs",
       "weight": "4"
@@ -50746,6 +51330,12 @@
     {
       "source": "info:entity:model:Google Gemini",
       "target": "info:entity:product:Ace",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Google Gemini",
+      "target": "info:entity:product:ClawsGO Science",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -50765,7 +51355,7 @@
       "source": "info:entity:model:Google Gemini",
       "target": "info:entity:region:Myanmar",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:model:Google Gemini 1.5",
@@ -50865,7 +51455,19 @@
     },
     {
       "source": "info:entity:model:OpenAI GPT-4",
+      "target": "info:entity:product:ClawsGO Science",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:OpenAI GPT-4",
       "target": "info:entity:product:Context.dev",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:OpenAI GPT-4",
+      "target": "info:entity:region:Myanmar",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -52683,6 +53285,12 @@
     },
     {
       "source": "info:entity:organization:European Union",
+      "target": "info:entity:organization:Labour Party",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:European Union",
       "target": "info:entity:organization:NATO",
       "relation": "co-occurs",
       "weight": "4"
@@ -52792,6 +53400,12 @@
     {
       "source": "info:entity:organization:European Union",
       "target": "info:entity:person:Pierre Michel Formosa",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:European Union",
+      "target": "info:entity:person:Rachel Reeves",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -53140,6 +53754,12 @@
     {
       "source": "info:entity:organization:Gemini",
       "target": "info:entity:person:Dr Bleddyn Bowen",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Gen Z regelt",
+      "target": "info:entity:organization:German Federal Intelligence Service (BND)",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -53781,7 +54401,19 @@
     },
     {
       "source": "info:entity:organization:Institute for Fiscal Studies (IFS)",
+      "target": "info:entity:organization:Labour Party",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Institute for Fiscal Studies (IFS)",
       "target": "info:entity:organization:Resolution Foundation",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Institute for Fiscal Studies (IFS)",
+      "target": "info:entity:organization:Trades Union Congress (TUC)",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -53795,7 +54427,7 @@
       "source": "info:entity:organization:Institute for Fiscal Studies (IFS)",
       "target": "info:entity:person:John Healey",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:International Civil Aviation Organization",
@@ -54333,6 +54965,12 @@
     },
     {
       "source": "info:entity:organization:Labour Party",
+      "target": "info:entity:organization:Trades Union Congress (TUC)",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Labour Party",
       "target": "info:entity:organization:Trussell Trust",
       "relation": "co-occurs",
       "weight": "1"
@@ -54413,7 +55051,7 @@
       "source": "info:entity:organization:Labour Party",
       "target": "info:entity:person:John Healey",
       "relation": "co-occurs",
-      "weight": "7"
+      "weight": "8"
     },
     {
       "source": "info:entity:organization:Labour Party",
@@ -54460,6 +55098,12 @@
     {
       "source": "info:entity:organization:Labour Party",
       "target": "info:entity:person:Perran Moon",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Labour Party",
+      "target": "info:entity:person:Rachel Reeves",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -56450,6 +57094,12 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Trades Union Congress (TUC)",
+      "target": "info:entity:person:John Healey",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Transport for All",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
@@ -56963,11 +57613,23 @@
       "source": "info:entity:organization:Ukrainian Armed Forces",
       "target": "info:entity:person:Melania Trump",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Ukrainian Armed Forces",
       "target": "info:entity:person:Mykhailo Fedorov",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Ukrainian Armed Forces",
+      "target": "info:entity:person:Olha",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Ukrainian Armed Forces",
+      "target": "info:entity:person:Viacheslav",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -60039,7 +60701,19 @@
     },
     {
       "source": "info:entity:person:Melania Trump",
+      "target": "info:entity:person:Olha",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Melania Trump",
       "target": "info:entity:person:Pope Leo XIV",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Melania Trump",
+      "target": "info:entity:person:Viacheslav",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -60100,6 +60774,12 @@
     {
       "source": "info:entity:person:Nigel Farage",
       "target": "info:entity:person:Tim Montgomerie",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Olha",
+      "target": "info:entity:person:Viacheslav",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -60388,6 +61068,12 @@
     {
       "source": "info:entity:product:Claude Opus 4.6",
       "target": "info:entity:product:GPT-4-Turbo",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:product:ClawsGO Science",
+      "target": "info:entity:region:Myanmar",
       "relation": "co-occurs",
       "weight": "1"
     },

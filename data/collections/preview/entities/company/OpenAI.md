@@ -1,7 +1,7 @@
 ---
 name: "OpenAI"
 entity_type: company
-backlink_count: 160
+backlink_count: 162
 ---
 
 # OpenAI
@@ -10,6 +10,8 @@ backlink_count: 160
 
 ## Referenced by
 
+- 2026-11-01 · [[2026-11-01-001-shops-looted-as-german-cost-of-living-protests-turn-violent]] — Shops looted as German cost of living protests turn violent
+- 2026-11-01 · [[2026-11-01-005-reeves-says-uk-s-future-should-be-inside-the-eu]] — Reeves says UK's future should be inside the EU
 - 2026-10-31 · [[2026-10-31-006-speakon-agent]] — SpeakON Agent
 - 2026-10-31 · [[2026-10-31-007-canva-brush]] — Canva Brush
 - 2026-10-30 · [[2026-10-30-001-israeli-opposition-accuses-netanyahu-of-trying-to]] — Israeli opposition accuses Netanyahu of trying to 'delegitimise' election

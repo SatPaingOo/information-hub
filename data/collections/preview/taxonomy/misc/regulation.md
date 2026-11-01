@@ -1,7 +1,7 @@
 ---
 node: "Regulation"
 layer: misc
-item_count: 46
+item_count: 47
 ---
 
 # Regulation
@@ -17,6 +17,7 @@ item_count: 46
 
 ## Items
 
+- 2026-11-01 · [[2026-11-01-006-usage-for-claude-chatgpt-4-0]] — Usage for Claude + ChatGPT 4.0
 - 2026-10-31 · [[2026-10-31-006-speakon-agent]] — SpeakON Agent
 - 2026-10-29 · [[2026-10-29-006-yardlet]] — Yardlet
 - 2026-10-28 · [[2026-10-28-006-pulsedev-ai-powered-local-ui-bug-fixing]] — PulseDev: AI‑Powered Local UI Bug Fixing

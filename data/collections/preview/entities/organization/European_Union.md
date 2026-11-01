@@ -1,7 +1,7 @@
 ---
 name: "European Union"
 entity_type: organization
-backlink_count: 18
+backlink_count: 19
 ---
 
 # European Union
@@ -10,6 +10,7 @@ backlink_count: 18
 
 ## Referenced by
 
+- 2026-11-01 · [[2026-11-01-005-reeves-says-uk-s-future-should-be-inside-the-eu]] — Reeves says UK's future should be inside the EU
 - 2026-10-26 · [[2026-10-26-001-elation-across-serbia-after-veteran-ruler-vu-i-concedes-to]] — Elation across Serbia after veteran ruler Vučić concedes to student-led protest movement
 - 2026-10-22 · [[2026-10-22-003-macron-accuses-foreign-leaders-of-exploiting-french-riots]] — Macron accuses foreign leaders of exploiting French riots
 - 2026-10-13 · [[2026-10-13-004-burnham-to-push-for-new-post-brexit-deals-at-eu-summit]] — Burnham to push for new post-Brexit deals at EU summit

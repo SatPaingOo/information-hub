@@ -1,7 +1,7 @@
 ---
 node: "Myanmar"
 layer: misc
-item_count: 16
+item_count: 17
 ---
 
 # Myanmar
@@ -17,6 +17,7 @@ item_count: 16
 
 ## Items
 
+- 2026-11-01 · [[2026-11-01-007-clawsgo-science]] — ClawsGO Science
 - 2026-10-26 · [[2026-10-26-006-moli-by-lexmount-the-fastest-headless-browser-for-agents]] — Moli by Lexmount – The Fastest Headless Browser for Agents and Harnesses
 - 2026-10-18 · [[2026-10-18-002-a-wave-of-homemade-synthetic-drugs-sweeps-us-and-deepens]] — A wave of homemade, synthetic drugs sweeps US and deepens crisis
 - 2026-10-11 · [[2026-10-11-001-young-men-live-in-fear-of-being-snatched-off-the-streets]] — Young men live in fear of being snatched off the streets and sold to Myanmar's army

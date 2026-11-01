@@ -1,7 +1,7 @@
 ---
 name: "Labour Party"
 entity_type: organization
-backlink_count: 32
+backlink_count: 34
 ---
 
 # Labour Party
@@ -10,6 +10,8 @@ backlink_count: 32
 
 ## Referenced by
 
+- 2026-11-01 · [[2026-11-01-004-laura-kuenssberg-healey-risks-breaking-minimum-wage]] — Laura Kuenssberg: Healey risks breaking minimum wage promise for younger workers
+- 2026-11-01 · [[2026-11-01-005-reeves-says-uk-s-future-should-be-inside-the-eu]] — Reeves says UK's future should be inside the EU
 - 2026-10-28 · [[2026-10-28-005-minimum-wage-set-to-rise-but-18-20-year-olds-will-not-get]] — Minimum wage set to rise but 18‑20 year‑olds will not get bigger increase
 - 2026-10-26 · [[2026-10-26-004-funding-set-to-double-for-plan-to-get-rough-sleepers-off]] — Funding set to double for plan to get rough sleepers off streets by Christmas
 - 2026-10-25 · [[2026-10-25-005-burnham-open-to-honest-discussion-on-eu-free-movement]] — Burnham open to 'honest discussion' on EU free movement
