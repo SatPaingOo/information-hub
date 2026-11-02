@@ -1,7 +1,7 @@
 ---
 node: "Global"
 layer: misc
-item_count: 542
+item_count: 543
 ---
 
 # Global
@@ -33,6 +33,7 @@ item_count: 542
 - 2026-11-02 · [[2026-11-02-006-agentmash]] — agentmash
 - 2026-11-02 · [[2026-11-02-007-embage]] — Embage
 - 2026-11-02 · [[2026-11-02-008-israeli-airstrikes-in-gaza-result-in-eight-fatalities]] — Israeli Airstrikes in Gaza Result in Eight Fatalities, Including a Child
+- 2026-11-02 · [[2026-11-02-009-how-a-democrat-in-michigan-rocked-the-party-days-before]] — How a Democrat in Michigan rocked the party days before the US midterms
 - 2026-11-01 · [[2026-11-01-001-shops-looted-as-german-cost-of-living-protests-turn-violent]] — Shops looted as German cost of living protests turn violent
 - 2026-11-01 · [[2026-11-01-002-we-came-back-from-hell-say-ukrainians-after-years-in]] — 'We came back from hell', say Ukrainians after years in Russia-occupied front-line city
 - 2026-11-01 · [[2026-11-01-004-laura-kuenssberg-healey-risks-breaking-minimum-wage]] — Laura Kuenssberg: Healey risks breaking minimum wage promise for younger workers

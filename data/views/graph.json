@@ -10226,6 +10226,22 @@
       "name": "Humanitarian Crisis"
     },
     {
+      "id": "info:item:world:global:2026-11-02-009",
+      "type": "item",
+      "date": "2026-11-02",
+      "title": "How a Democrat in Michigan rocked the party days before the US midterms"
+    },
+    {
+      "id": "taxonomy/misc/Political parties",
+      "type": "taxonomy",
+      "name": "Political parties"
+    },
+    {
+      "id": "taxonomy/misc/Swing states",
+      "type": "taxonomy",
+      "name": "Swing states"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -45312,6 +45328,66 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-11-02-009",
+      "target": "info:entity:person:Haley Stevens",
+      "relation": "Democratic congresswoman who endorsed Republican Mike Rogers"
+    },
+    {
+      "source": "info:item:world:global:2026-11-02-009",
+      "target": "info:entity:person:Mike Rogers",
+      "relation": "Republican Senate candidate endorsed by Stevens"
+    },
+    {
+      "source": "info:item:world:global:2026-11-02-009",
+      "target": "info:entity:person:Abdul El‑Said",
+      "relation": "Democratic Senate nominee and progressive challenger"
+    },
+    {
+      "source": "info:item:world:global:2026-11-02-009",
+      "target": "info:item:world:global:2026-11-02-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-02-009",
+      "target": "info:item:world:global:2026-11-02-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-02-009",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-02-009",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-02-009",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-02-009",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-02-009",
+      "target": "taxonomy/misc/US elections",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-02-009",
+      "target": "taxonomy/misc/Political parties",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-02-009",
+      "target": "taxonomy/misc/Swing states",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -58973,13 +59049,13 @@
       "source": "info:entity:person:Abdul El‑Said",
       "target": "info:entity:person:Haley Stevens",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Abdul El‑Said",
       "target": "info:entity:person:Mike Rogers",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Abdulrahman Alfozan",
@@ -60761,7 +60837,7 @@
       "source": "info:entity:person:Haley Stevens",
       "target": "info:entity:person:Mike Rogers",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Harald V",
