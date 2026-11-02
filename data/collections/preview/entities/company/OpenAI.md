@@ -1,7 +1,7 @@
 ---
 name: "OpenAI"
 entity_type: company
-backlink_count: 162
+backlink_count: 166
 ---
 
 # OpenAI
@@ -10,6 +10,10 @@ backlink_count: 162
 
 ## Referenced by
 
+- 2026-11-02 · [[2026-11-02-002-russian-strikes-cut-power-to-thousands-in-ukraine-as]] — Russian strikes cut power to thousands in Ukraine as Kherson ceasefire ends
+- 2026-11-02 · [[2026-11-02-003-democrat-endorses-republican-candidate-in-key-michigan]] — Democrat endorses Republican candidate in key Michigan Senate race as party spat erupts
+- 2026-11-02 · [[2026-11-02-006-agentmash]] — agentmash
+- 2026-11-02 · [[2026-11-02-007-embage]] — Embage
 - 2026-11-01 · [[2026-11-01-001-shops-looted-as-german-cost-of-living-protests-turn-violent]] — Shops looted as German cost of living protests turn violent
 - 2026-11-01 · [[2026-11-01-005-reeves-says-uk-s-future-should-be-inside-the-eu]] — Reeves says UK's future should be inside the EU
 - 2026-10-31 · [[2026-10-31-006-speakon-agent]] — SpeakON Agent

@@ -1,7 +1,7 @@
 ---
 node: "geopolitics"
 layer: topic
-item_count: 135
+item_count: 138
 ---
 
 # geopolitics
@@ -25,6 +25,9 @@ item_count: 135
 
 ## Items
 
+- 2026-11-02 · [[2026-11-02-003-democrat-endorses-republican-candidate-in-key-michigan]] — Democrat endorses Republican candidate in key Michigan Senate race as party spat erupts
+- 2026-11-02 · [[2026-11-02-004-green-party-at-crossroads-says-former-co-leader]] — Green Party at 'crossroads', says former co-leader
+- 2026-11-02 · [[2026-11-02-005-burnham-open-to-calls-for-slavery-apology-but-not]] — Burnham 'open' to calls for slavery apology but not reparations
 - 2026-10-30 · [[2026-10-30-001-israeli-opposition-accuses-netanyahu-of-trying-to]] — Israeli opposition accuses Netanyahu of trying to 'delegitimise' election
 - 2026-10-30 · [[2026-10-30-004-burnham-says-he-wants-to-cut-welfare-bill-as-soon-as-we]] — Burnham says he wants to cut welfare bill 'as soon as we possibly can'
 - 2026-10-29 · [[2026-10-29-003-fl-vio-bolsonaro-denies-fleeing-brazil-after-landing-in]] — Flávio Bolsonaro denies fleeing Brazil after landing in Miami

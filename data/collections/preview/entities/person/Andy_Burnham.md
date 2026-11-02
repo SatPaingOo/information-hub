@@ -1,7 +1,7 @@
 ---
 name: "Andy Burnham"
 entity_type: person
-backlink_count: 72
+backlink_count: 73
 ---
 
 # Andy Burnham
@@ -10,6 +10,7 @@ backlink_count: 72
 
 ## Referenced by
 
+- 2026-11-02 · [[2026-11-02-005-burnham-open-to-calls-for-slavery-apology-but-not]] — Burnham 'open' to calls for slavery apology but not reparations
 - 2026-10-31 · [[2026-10-31-004-burnham-s-number-10-north-goes-on-multi-million-pound]] — Burnham's Number 10 North goes on multi-million pound hiring spree
 - 2026-10-31 · [[2026-10-31-005-no-nation-left-behind-says-burnham-after-meeting-first]] — 'No nation left behind' says Burnham after meeting first ministers in Glasgow
 - 2026-10-30 · [[2026-10-30-004-burnham-says-he-wants-to-cut-welfare-bill-as-soon-as-we]] — Burnham says he wants to cut welfare bill 'as soon as we possibly can'

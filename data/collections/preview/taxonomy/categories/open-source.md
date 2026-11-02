@@ -1,7 +1,7 @@
 ---
 node: "open-source"
 layer: category
-item_count: 40
+item_count: 41
 ---
 
 # open-source
@@ -20,6 +20,7 @@ item_count: 40
 
 ## Items
 
+- 2026-11-02 · [[2026-11-02-006-agentmash]] — agentmash
 - 2026-10-23 · [[2026-10-23-004-left-alone-with-nothing-to-do-ai-agents-started-playing]] — Left alone with nothing to do, AI agents started playing
 - 2026-10-23 · [[2026-10-23-004-left-alone-with-nothing-to-do-ai-agents-started-playing]] — Left alone with nothing to do, AI agents started playing
 - 2026-10-23 · [[2026-10-23-005-openai-working-on-new-30b-raise-at-1-25t-valuation-ahead]] — OpenAI working on new $30B raise at $1.25T valuation ahead of IPO

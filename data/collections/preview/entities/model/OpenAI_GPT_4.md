@@ -1,7 +1,7 @@
 ---
 name: "OpenAI GPT‑4"
 entity_type: model
-backlink_count: 7
+backlink_count: 8
 ---
 
 # OpenAI GPT‑4
@@ -10,6 +10,7 @@ backlink_count: 7
 
 ## Referenced by
 
+- 2026-11-02 · [[2026-11-02-001-ukraine-air-raid-app-apparently-hacked-as-users-receive]] — Ukraine air raid app apparently hacked as users receive false radiation threat, Air Force says
 - 2026-10-14 · [[2026-10-14-005-gemini-4-argon]] — Gemini 4 Argon
 - 2026-10-11 · [[2026-10-11-001-young-men-live-in-fear-of-being-snatched-off-the-streets]] — Young men live in fear of being snatched off the streets and sold to Myanmar's army
 - 2026-10-05 · [[2026-10-05-006-clair]] — Clair

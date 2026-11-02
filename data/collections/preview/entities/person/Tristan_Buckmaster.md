@@ -1,7 +1,7 @@
 ---
 name: "Tristan Buckmaster"
 entity_type: person
-backlink_count: 1
+backlink_count: 2
 ---
 
 # Tristan Buckmaster
@@ -10,4 +10,5 @@ backlink_count: 1
 
 ## Referenced by
 
+- 2026-11-02 · [[2026-11-02-006-agentmash]] — agentmash
 - 2026-09-12 · [[2026-09-12-004-openai-s-feud-with-mathematicians-is-only-escalating]] — OpenAI’s feud with mathematicians is only escalating

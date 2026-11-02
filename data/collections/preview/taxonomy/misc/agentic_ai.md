@@ -1,7 +1,7 @@
 ---
 node: "Agentic AI"
 layer: misc
-item_count: 105
+item_count: 106
 ---
 
 # Agentic AI
@@ -17,6 +17,7 @@ item_count: 105
 
 ## Items
 
+- 2026-11-02 · [[2026-11-02-006-agentmash]] — agentmash
 - 2026-11-01 · [[2026-11-01-007-clawsgo-science]] — ClawsGO Science
 - 2026-11-01 · [[2026-11-01-006-usage-for-claude-chatgpt-4-0]] — Usage for Claude + ChatGPT 4.0
 - 2026-10-31 · [[2026-10-31-006-speakon-agent]] — SpeakON Agent

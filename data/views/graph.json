@@ -10093,6 +10093,139 @@
       "name": "ClawsGO Science"
     },
     {
+      "id": "info:item:world:global:2026-11-02-001",
+      "type": "item",
+      "date": "2026-11-02",
+      "title": "Ukraine air raid app apparently hacked as users receive false radiation threat, Air Force says"
+    },
+    {
+      "id": "info:entity:organization:Ukrainian Ministry of Digital Transformation",
+      "type": "organization",
+      "name": "Ukrainian Ministry of Digital Transformation"
+    },
+    {
+      "id": "info:entity:organization:Russian Ministry of Emergency Situations",
+      "type": "organization",
+      "name": "Russian Ministry of Emergency Situations"
+    },
+    {
+      "id": "taxonomy/misc/cyber security",
+      "type": "taxonomy",
+      "name": "cyber security"
+    },
+    {
+      "id": "taxonomy/misc/information operations",
+      "type": "taxonomy",
+      "name": "information operations"
+    },
+    {
+      "id": "info:item:world:global:2026-11-02-002",
+      "type": "item",
+      "date": "2026-11-02",
+      "title": "Russian strikes cut power to thousands in Ukraine as Kherson ceasefire ends"
+    },
+    {
+      "id": "info:item:world:global:2026-11-02-003",
+      "type": "item",
+      "date": "2026-11-02",
+      "title": "Democrat endorses Republican candidate in key Michigan Senate race as party spat erupts"
+    },
+    {
+      "id": "info:entity:person:Haley Stevens",
+      "type": "person",
+      "name": "Haley Stevens"
+    },
+    {
+      "id": "info:entity:person:Mike Rogers",
+      "type": "person",
+      "name": "Mike Rogers"
+    },
+    {
+      "id": "info:entity:person:Abdul El‑Said",
+      "type": "person",
+      "name": "Abdul El‑Said"
+    },
+    {
+      "id": "taxonomy/misc/midterm elections",
+      "type": "taxonomy",
+      "name": "midterm elections"
+    },
+    {
+      "id": "info:item:politics:global:2026-11-02-004",
+      "type": "item",
+      "date": "2026-11-02",
+      "title": "Green Party at 'crossroads', says former co-leader"
+    },
+    {
+      "id": "info:entity:person:Adrian Ramsay",
+      "type": "person",
+      "name": "Adrian Ramsay"
+    },
+    {
+      "id": "info:item:politics:global:2026-11-02-005",
+      "type": "item",
+      "date": "2026-11-02",
+      "title": "Burnham 'open' to calls for slavery apology but not reparations"
+    },
+    {
+      "id": "info:entity:person:Bell Ribeiro-Adday",
+      "type": "person",
+      "name": "Bell Ribeiro-Adday"
+    },
+    {
+      "id": "info:entity:person:King Charles III",
+      "type": "person",
+      "name": "King Charles III"
+    },
+    {
+      "id": "info:item:products:global:2026-11-02-006",
+      "type": "item",
+      "date": "2026-11-02",
+      "title": "agentmash"
+    },
+    {
+      "id": "info:entity:product:Agentmash",
+      "type": "product",
+      "name": "Agentmash"
+    },
+    {
+      "id": "info:item:products:global:2026-11-02-007",
+      "type": "item",
+      "date": "2026-11-02",
+      "title": "Embage"
+    },
+    {
+      "id": "info:entity:product:Embage",
+      "type": "product",
+      "name": "Embage"
+    },
+    {
+      "id": "taxonomy/misc/AI agents",
+      "type": "taxonomy",
+      "name": "AI agents"
+    },
+    {
+      "id": "taxonomy/misc/Regulatory compliance",
+      "type": "taxonomy",
+      "name": "Regulatory compliance"
+    },
+    {
+      "id": "info:item:world:global:2026-11-02-008",
+      "type": "item",
+      "date": "2026-11-02",
+      "title": "Israeli Airstrikes in Gaza Result in Eight Fatalities, Including a Child"
+    },
+    {
+      "id": "info:entity:organization:Israel",
+      "type": "organization",
+      "name": "Israel"
+    },
+    {
+      "id": "taxonomy/misc/Humanitarian Crisis",
+      "type": "taxonomy",
+      "name": "Humanitarian Crisis"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -44684,6 +44817,501 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-11-02-001",
+      "target": "info:entity:organization:Ukrainian Ministry of Digital Transformation",
+      "relation": "operator of Air Alert app"
+    },
+    {
+      "source": "info:item:world:global:2026-11-02-001",
+      "target": "info:entity:model:OpenAI GPT‑4",
+      "relation": "used in multilingual alert generation"
+    },
+    {
+      "source": "info:item:world:global:2026-11-02-001",
+      "target": "info:entity:organization:Russian Ministry of Emergency Situations",
+      "relation": "reported cyberattack on its alert app"
+    },
+    {
+      "source": "info:item:world:global:2026-11-02-001",
+      "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "President of Ukraine, overseeing national digital defense"
+    },
+    {
+      "source": "info:item:world:global:2026-11-02-001",
+      "target": "info:item:world:global:2026-11-01-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-02-001",
+      "target": "info:item:world:global:2026-10-31-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-02-001",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-02-001",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-02-001",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-02-001",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-02-001",
+      "target": "taxonomy/misc/cyber security",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-02-001",
+      "target": "taxonomy/misc/information operations",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-02-001",
+      "target": "taxonomy/misc/AI governance",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-02-002",
+      "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "President of Ukraine, leading calls for Patriot missiles and commenting on strike intensity"
+    },
+    {
+      "source": "info:item:world:global:2026-11-02-002",
+      "target": "info:entity:organization:OpenAI",
+      "relation": "highlighted in editorial priorities for AI‑policy and regulation discussions"
+    },
+    {
+      "source": "info:item:world:global:2026-11-02-002",
+      "target": "info:entity:model:Gemini",
+      "relation": "cited as a key LLM technology in the context of AI‑enabled threat detection"
+    },
+    {
+      "source": "info:item:world:global:2026-11-02-002",
+      "target": "info:entity:person:Melania Trump",
+      "relation": "involved in brokering the humanitarian ceasefire"
+    },
+    {
+      "source": "info:item:world:global:2026-11-02-002",
+      "target": "info:item:world:global:2026-11-02-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-02-002",
+      "target": "info:item:world:global:2026-11-01-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-02-002",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-02-002",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-02-002",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-02-002",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-02-002",
+      "target": "taxonomy/topic/world",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-02-002",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-02-002",
+      "target": "taxonomy/misc/energy security",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-02-003",
+      "target": "info:entity:person:Haley Stevens",
+      "relation": "centrist Democrat who endorsed Republican candidate"
+    },
+    {
+      "source": "info:item:world:global:2026-11-02-003",
+      "target": "info:entity:person:Mike Rogers",
+      "relation": "Republican Senate candidate endorsed by Stevens"
+    },
+    {
+      "source": "info:item:world:global:2026-11-02-003",
+      "target": "info:entity:person:Abdul El‑Said",
+      "relation": "progressive Democratic nominee who criticized Stevens"
+    },
+    {
+      "source": "info:item:world:global:2026-11-02-003",
+      "target": "info:entity:company:OpenAI",
+      "relation": "editorial priority entity influencing AI policy discussions"
+    },
+    {
+      "source": "info:item:world:global:2026-11-02-003",
+      "target": "info:entity:model:Gemini",
+      "relation": "AI model referenced in campaign technology planning"
+    },
+    {
+      "source": "info:item:world:global:2026-11-02-003",
+      "target": "info:item:world:global:2026-11-02-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-02-003",
+      "target": "info:item:world:global:2026-11-02-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-02-003",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-02-003",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-02-003",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-02-003",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-02-003",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-02-003",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-02-003",
+      "target": "taxonomy/misc/midterm elections",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-02-004",
+      "target": "info:entity:person:Adrian Ramsay",
+      "relation": "former co-leader of the Green Party of England and Wales"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-02-004",
+      "target": "info:entity:person:Zack Polanski",
+      "relation": "current leader of the Green Party of England and Wales"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-02-004",
+      "target": "info:entity:organization:Green Party of England and Wales",
+      "relation": "political party at the centre of the controversy"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-02-004",
+      "target": "info:entity:organization:Equality and Human Rights Commission",
+      "relation": "regulatory body investigating the motion"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-02-004",
+      "target": "info:item:politics:global:2026-11-01-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-02-004",
+      "target": "info:item:politics:global:2026-10-31-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-02-004",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-02-004",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-02-004",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-02-004",
+      "target": "taxonomy/topic/politics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-02-004",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-02-004",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-02-005",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "UK Prime Minister who signalled openness to an apology for historic slavery"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-02-005",
+      "target": "info:entity:person:Bell Ribeiro-Adday",
+      "relation": "Chair of the APPG for Afrikan Reparations, advocating for formal apology and reparations"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-02-005",
+      "target": "info:entity:person:King Charles III",
+      "relation": "Monarch touring Caribbean Commonwealth nations, highlighting historical suffering"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-02-005",
+      "target": "info:entity:person:Rishi Sunak",
+      "relation": "Former Prime Minister who rejected both apology and reparations in 2023"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-02-005",
+      "target": "info:item:politics:global:2026-11-02-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-02-005",
+      "target": "info:item:politics:global:2026-11-01-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-02-005",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-02-005",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-02-005",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-02-005",
+      "target": "taxonomy/topic/politics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-02-005",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-02-005",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-11-02-006",
+      "target": "info:entity:product:Agentmash",
+      "relation": "product launched"
+    },
+    {
+      "source": "info:item:products:global:2026-11-02-006",
+      "target": "info:entity:company:OpenAI",
+      "relation": "LLM provider supported"
+    },
+    {
+      "source": "info:item:products:global:2026-11-02-006",
+      "target": "info:entity:person:Tristan Buckmaster",
+      "relation": "co‑founder and lead maintainer"
+    },
+    {
+      "source": "info:item:products:global:2026-11-02-006",
+      "target": "info:entity:person:Julian Brazil",
+      "relation": "technical advisor"
+    },
+    {
+      "source": "info:item:products:global:2026-11-02-006",
+      "target": "info:item:products:global:2026-11-01-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-11-02-006",
+      "target": "info:item:products:global:2026-11-01-007",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-11-02-006",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-11-02-006",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-11-02-006",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-11-02-006",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-11-02-006",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-11-02-006",
+      "target": "taxonomy/category/open-source",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-11-02-007",
+      "target": "info:entity:product:Embage",
+      "relation": "subject"
+    },
+    {
+      "source": "info:item:products:global:2026-11-02-007",
+      "target": "info:entity:company:OpenAI",
+      "relation": "provides LLM integration"
+    },
+    {
+      "source": "info:item:products:global:2026-11-02-007",
+      "target": "info:entity:model:Gemini",
+      "relation": "supported LLM"
+    },
+    {
+      "source": "info:item:products:global:2026-11-02-007",
+      "target": "info:entity:company:Anthropic",
+      "relation": "provides Claude model"
+    },
+    {
+      "source": "info:item:products:global:2026-11-02-007",
+      "target": "info:item:products:global:2026-11-02-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-11-02-007",
+      "target": "info:item:products:global:2026-11-01-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-11-02-007",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-11-02-007",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-11-02-007",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-11-02-007",
+      "target": "taxonomy/misc/AI agents",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-11-02-007",
+      "target": "taxonomy/misc/Open-source software",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-11-02-007",
+      "target": "taxonomy/misc/Regulatory compliance",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-02-008",
+      "target": "info:entity:organization:Israel",
+      "relation": "state actor"
+    },
+    {
+      "source": "info:item:world:global:2026-11-02-008",
+      "target": "info:entity:organization:Hamas",
+      "relation": "non‑state actor"
+    },
+    {
+      "source": "info:item:world:global:2026-11-02-008",
+      "target": "info:item:world:global:2026-11-02-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-02-008",
+      "target": "info:item:world:global:2026-11-02-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-02-008",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-02-008",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-02-008",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-02-008",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-02-008",
+      "target": "taxonomy/misc/Middle East Conflict",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-02-008",
+      "target": "taxonomy/misc/Humanitarian Crisis",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-02-008",
+      "target": "taxonomy/misc/International Law",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -45007,7 +45635,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
-      "weight": "78"
+      "weight": "79"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -45217,7 +45845,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "32"
+      "weight": "33"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -45588,6 +46216,12 @@
     {
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:product:Cuey",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:product:Embage",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -47065,7 +47699,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "55"
+      "weight": "57"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -47387,6 +48021,12 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:person:Abdul El‑Said",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Abdulrahman Alfozan",
       "relation": "co-occurs",
       "weight": "2"
@@ -47579,6 +48219,12 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:person:Haley Stevens",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Jacob Coxon",
       "relation": "co-occurs",
       "weight": "2"
@@ -47594,6 +48240,12 @@
       "target": "info:entity:person:John Healey",
       "relation": "co-occurs",
       "weight": "2"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:person:Julian Brazil",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -47675,6 +48327,12 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:person:Mike Rogers",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Mothin Ali",
       "relation": "co-occurs",
       "weight": "1"
@@ -47713,7 +48371,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Tristan Buckmaster",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -47738,6 +48396,12 @@
       "target": "info:entity:person:Zack Polanski",
       "relation": "co-occurs",
       "weight": "2"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:product:Agentmash",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -47784,6 +48448,12 @@
     {
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:product:Cuey",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:product:Embage",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -50827,7 +51497,7 @@
       "source": "info:entity:model:Gemini",
       "target": "info:entity:organization:OpenAI",
       "relation": "co-occurs",
-      "weight": "15"
+      "weight": "16"
     },
     {
       "source": "info:entity:model:Gemini",
@@ -50874,6 +51544,12 @@
     {
       "source": "info:entity:model:Gemini",
       "target": "info:entity:organization:World Meteorological Organization (WMO)",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
+      "target": "info:entity:person:Abdul El‑Said",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -50958,6 +51634,12 @@
     {
       "source": "info:entity:model:Gemini",
       "target": "info:entity:person:Gerald Bourguet",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
+      "target": "info:entity:person:Haley Stevens",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -51065,6 +51747,12 @@
     },
     {
       "source": "info:entity:model:Gemini",
+      "target": "info:entity:person:Melania Trump",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
       "target": "info:entity:person:Mette Frederiksen",
       "relation": "co-occurs",
       "weight": "1"
@@ -51084,6 +51772,12 @@
     {
       "source": "info:entity:model:Gemini",
       "target": "info:entity:person:Mike",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
+      "target": "info:entity:person:Mike Rogers",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -51133,7 +51827,7 @@
       "source": "info:entity:model:Gemini",
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:model:Gemini",
@@ -51144,6 +51838,12 @@
     {
       "source": "info:entity:model:Gemini",
       "target": "info:entity:product:Checksum AI",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
+      "target": "info:entity:product:Embage",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -51509,7 +52209,25 @@
     },
     {
       "source": "info:entity:model:OpenAI GPT‑4",
+      "target": "info:entity:organization:Russian Ministry of Emergency Situations",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:OpenAI GPT‑4",
       "target": "info:entity:organization:U.S. Department of State",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:OpenAI GPT‑4",
+      "target": "info:entity:organization:Ukrainian Ministry of Digital Transformation",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:OpenAI GPT‑4",
+      "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -53167,7 +53885,7 @@
       "source": "info:entity:organization:Equality and Human Rights Commission",
       "target": "info:entity:organization:Green Party of England and Wales",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Equality and Human Rights Commission",
@@ -53177,9 +53895,15 @@
     },
     {
       "source": "info:entity:organization:Equality and Human Rights Commission",
-      "target": "info:entity:person:Zack Polanski",
+      "target": "info:entity:person:Adrian Ramsay",
       "relation": "co-occurs",
       "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Equality and Human Rights Commission",
+      "target": "info:entity:person:Zack Polanski",
+      "relation": "co-occurs",
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:European Broadcasting Union (EBU)",
@@ -53963,6 +54687,12 @@
     },
     {
       "source": "info:entity:organization:Green Party of England and Wales",
+      "target": "info:entity:person:Adrian Ramsay",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Green Party of England and Wales",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
       "weight": "1"
@@ -54013,7 +54743,7 @@
       "source": "info:entity:organization:Green Party of England and Wales",
       "target": "info:entity:person:Zack Polanski",
       "relation": "co-occurs",
-      "weight": "9"
+      "weight": "10"
     },
     {
       "source": "info:entity:organization:Green Party of England and Wales",
@@ -54066,6 +54796,12 @@
     {
       "source": "info:entity:organization:HUR (Main Intelligence Directorate of the Ukrainian Ministry of Defence)",
       "target": "info:entity:person:Vladyslav Reut",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Hamas",
+      "target": "info:entity:organization:Israel",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -56147,6 +56883,12 @@
     },
     {
       "source": "info:entity:organization:OpenAI",
+      "target": "info:entity:person:Melania Trump",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:OpenAI",
       "target": "info:entity:person:Mette Frederiksen",
       "relation": "co-occurs",
       "weight": "1"
@@ -56197,7 +56939,7 @@
       "source": "info:entity:organization:OpenAI",
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:organization:OpenAI",
@@ -56744,6 +57486,18 @@
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
       "weight": "2"
+    },
+    {
+      "source": "info:entity:organization:Russian Ministry of Emergency Situations",
+      "target": "info:entity:organization:Ukrainian Ministry of Digital Transformation",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Russian Ministry of Emergency Situations",
+      "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:organization:SNCF",
@@ -57664,6 +58418,12 @@
       "weight": "2"
     },
     {
+      "source": "info:entity:organization:Ukrainian Ministry of Digital Transformation",
+      "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Ukrenergo",
       "target": "info:entity:person:Donald Trump",
       "relation": "co-occurs",
@@ -58210,6 +58970,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:person:Abdul El‑Said",
+      "target": "info:entity:person:Haley Stevens",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Abdul El‑Said",
+      "target": "info:entity:person:Mike Rogers",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:person:Abdulrahman Alfozan",
       "target": "info:entity:region:Saudi Arabia",
       "relation": "co-occurs",
@@ -58218,6 +58990,12 @@
     {
       "source": "info:entity:person:Abu Adam",
       "target": "info:entity:person:Vincent Guerra",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Adrian Ramsay",
+      "target": "info:entity:person:Zack Polanski",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -58367,6 +59145,12 @@
     },
     {
       "source": "info:entity:person:Andy Burnham",
+      "target": "info:entity:person:Bell Ribeiro-Adday",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Andy Burnham",
       "target": "info:entity:person:Ben Delo",
       "relation": "co-occurs",
       "weight": "1"
@@ -58446,6 +59230,12 @@
     {
       "source": "info:entity:person:Andy Burnham",
       "target": "info:entity:person:Khaldoon Al Mubarak",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Andy Burnham",
+      "target": "info:entity:person:King Charles III",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -58531,7 +59321,7 @@
       "source": "info:entity:person:Andy Burnham",
       "target": "info:entity:person:Rishi Sunak",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:person:Andy Burnham",
@@ -58800,6 +59590,18 @@
     {
       "source": "info:entity:person:Beatrix von Storch",
       "target": "info:entity:person:Ulrich Siegmund",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Bell Ribeiro-Adday",
+      "target": "info:entity:person:King Charles III",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Bell Ribeiro-Adday",
+      "target": "info:entity:person:Rishi Sunak",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -59956,6 +60758,12 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:person:Haley Stevens",
+      "target": "info:entity:person:Mike Rogers",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:person:Harald V",
       "target": "info:entity:person:Mette‑Marit",
       "relation": "co-occurs",
@@ -60376,6 +61184,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:person:Julian Brazil",
+      "target": "info:entity:person:Tristan Buckmaster",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Julian Brazil",
+      "target": "info:entity:product:Agentmash",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:person:Kathy Hochul",
       "target": "info:entity:person:Letitia James",
       "relation": "co-occurs",
@@ -60486,6 +61306,12 @@
     {
       "source": "info:entity:person:King Abdullah II",
       "target": "info:entity:region:Karak governorate",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:King Charles III",
+      "target": "info:entity:person:Rishi Sunak",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -60721,7 +61547,7 @@
       "source": "info:entity:person:Melania Trump",
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:person:Mike Searle",
@@ -60930,6 +61756,12 @@
     {
       "source": "info:entity:person:Tom Barrack",
       "target": "info:entity:region:Middle East",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Tristan Buckmaster",
+      "target": "info:entity:product:Agentmash",
       "relation": "co-occurs",
       "weight": "1"
     },

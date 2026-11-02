@@ -1,7 +1,7 @@
 ---
 node: "politics"
 layer: topic
-item_count: 182
+item_count: 186
 ---
 
 # politics
@@ -17,6 +17,10 @@ item_count: 182
 
 ## Items
 
+- 2026-11-02 · [[2026-11-02-004-green-party-at-crossroads-says-former-co-leader]] — Green Party at 'crossroads', says former co-leader
+- 2026-11-02 · [[2026-11-02-004-green-party-at-crossroads-says-former-co-leader]] — Green Party at 'crossroads', says former co-leader
+- 2026-11-02 · [[2026-11-02-005-burnham-open-to-calls-for-slavery-apology-but-not]] — Burnham 'open' to calls for slavery apology but not reparations
+- 2026-11-02 · [[2026-11-02-005-burnham-open-to-calls-for-slavery-apology-but-not]] — Burnham 'open' to calls for slavery apology but not reparations
 - 2026-11-01 · [[2026-11-01-004-laura-kuenssberg-healey-risks-breaking-minimum-wage]] — Laura Kuenssberg: Healey risks breaking minimum wage promise for younger workers
 - 2026-11-01 · [[2026-11-01-005-reeves-says-uk-s-future-should-be-inside-the-eu]] — Reeves says UK's future should be inside the EU
 - 2026-10-31 · [[2026-10-31-004-burnham-s-number-10-north-goes-on-multi-million-pound]] — Burnham's Number 10 North goes on multi-million pound hiring spree

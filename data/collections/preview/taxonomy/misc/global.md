@@ -1,7 +1,7 @@
 ---
 node: "Global"
 layer: misc
-item_count: 534
+item_count: 542
 ---
 
 # Global
@@ -25,6 +25,14 @@ item_count: 534
 
 ## Items
 
+- 2026-11-02 · [[2026-11-02-001-ukraine-air-raid-app-apparently-hacked-as-users-receive]] — Ukraine air raid app apparently hacked as users receive false radiation threat, Air Force says
+- 2026-11-02 · [[2026-11-02-002-russian-strikes-cut-power-to-thousands-in-ukraine-as]] — Russian strikes cut power to thousands in Ukraine as Kherson ceasefire ends
+- 2026-11-02 · [[2026-11-02-003-democrat-endorses-republican-candidate-in-key-michigan]] — Democrat endorses Republican candidate in key Michigan Senate race as party spat erupts
+- 2026-11-02 · [[2026-11-02-004-green-party-at-crossroads-says-former-co-leader]] — Green Party at 'crossroads', says former co-leader
+- 2026-11-02 · [[2026-11-02-005-burnham-open-to-calls-for-slavery-apology-but-not]] — Burnham 'open' to calls for slavery apology but not reparations
+- 2026-11-02 · [[2026-11-02-006-agentmash]] — agentmash
+- 2026-11-02 · [[2026-11-02-007-embage]] — Embage
+- 2026-11-02 · [[2026-11-02-008-israeli-airstrikes-in-gaza-result-in-eight-fatalities]] — Israeli Airstrikes in Gaza Result in Eight Fatalities, Including a Child
 - 2026-11-01 · [[2026-11-01-001-shops-looted-as-german-cost-of-living-protests-turn-violent]] — Shops looted as German cost of living protests turn violent
 - 2026-11-01 · [[2026-11-01-002-we-came-back-from-hell-say-ukrainians-after-years-in]] — 'We came back from hell', say Ukrainians after years in Russia-occupied front-line city
 - 2026-11-01 · [[2026-11-01-004-laura-kuenssberg-healey-risks-breaking-minimum-wage]] — Laura Kuenssberg: Healey risks breaking minimum wage promise for younger workers

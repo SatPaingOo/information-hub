@@ -1,7 +1,7 @@
 ---
 name: "Gemini"
 entity_type: model
-backlink_count: 81
+backlink_count: 84
 ---
 
 # Gemini
@@ -10,6 +10,9 @@ backlink_count: 81
 
 ## Referenced by
 
+- 2026-11-02 · [[2026-11-02-002-russian-strikes-cut-power-to-thousands-in-ukraine-as]] — Russian strikes cut power to thousands in Ukraine as Kherson ceasefire ends
+- 2026-11-02 · [[2026-11-02-003-democrat-endorses-republican-candidate-in-key-michigan]] — Democrat endorses Republican candidate in key Michigan Senate race as party spat erupts
+- 2026-11-02 · [[2026-11-02-007-embage]] — Embage
 - 2026-11-01 · [[2026-11-01-001-shops-looted-as-german-cost-of-living-protests-turn-violent]] — Shops looted as German cost of living protests turn violent
 - 2026-11-01 · [[2026-11-01-006-usage-for-claude-chatgpt-4-0]] — Usage for Claude + ChatGPT 4.0
 - 2026-10-31 · [[2026-10-31-007-canva-brush]] — Canva Brush

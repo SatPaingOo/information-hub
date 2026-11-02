@@ -1,7 +1,7 @@
 ---
 node: "industry"
 layer: category
-item_count: 348
+item_count: 352
 ---
 
 # industry
@@ -21,6 +21,10 @@ item_count: 348
 
 ## Items
 
+- 2026-11-02 · [[2026-11-02-001-ukraine-air-raid-app-apparently-hacked-as-users-receive]] — Ukraine air raid app apparently hacked as users receive false radiation threat, Air Force says
+- 2026-11-02 · [[2026-11-02-002-russian-strikes-cut-power-to-thousands-in-ukraine-as]] — Russian strikes cut power to thousands in Ukraine as Kherson ceasefire ends
+- 2026-11-02 · [[2026-11-02-003-democrat-endorses-republican-candidate-in-key-michigan]] — Democrat endorses Republican candidate in key Michigan Senate race as party spat erupts
+- 2026-11-02 · [[2026-11-02-008-israeli-airstrikes-in-gaza-result-in-eight-fatalities]] — Israeli Airstrikes in Gaza Result in Eight Fatalities, Including a Child
 - 2026-11-01 · [[2026-11-01-001-shops-looted-as-german-cost-of-living-protests-turn-violent]] — Shops looted as German cost of living protests turn violent
 - 2026-11-01 · [[2026-11-01-001-shops-looted-as-german-cost-of-living-protests-turn-violent]] — Shops looted as German cost of living protests turn violent
 - 2026-11-01 · [[2026-11-01-002-we-came-back-from-hell-say-ukrainians-after-years-in]] — 'We came back from hell', say Ukrainians after years in Russia-occupied front-line city
