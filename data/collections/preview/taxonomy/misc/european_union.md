@@ -1,7 +1,7 @@
 ---
 node: "European Union"
 layer: misc
-item_count: 6
+item_count: 7
 ---
 
 # European Union
@@ -14,6 +14,7 @@ item_count: 6
 
 ## Items
 
+- 2026-11-03 · [[2026-11-03-002-thousands-of-european-troops-to-rehearse-ukraine]] — Thousands of European troops to rehearse Ukraine deployment in event of peace
 - 2026-10-31 · [[2026-10-31-008-us-approves-sale-of-500-patriot-missiles-to-ukraine]] — US approves sale of 500 Patriot missiles to Ukraine
 - 2026-10-24 · [[2026-10-24-001-deadly-shooting-near-paris-is-a-racist-terrorist-attack]] — Deadly shooting near Paris is a 'racist terrorist attack', Macron says
 - 2026-10-18 · [[2026-10-18-003-european-diplomats-attacked-by-israeli-settlers-in-west-bank]] — European diplomats attacked by Israeli settlers in West Bank

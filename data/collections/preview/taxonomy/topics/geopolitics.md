@@ -1,7 +1,7 @@
 ---
 node: "geopolitics"
 layer: topic
-item_count: 138
+item_count: 139
 ---
 
 # geopolitics
@@ -25,6 +25,7 @@ item_count: 138
 
 ## Items
 
+- 2026-11-03 · [[2026-11-03-001-russian-bombing-kills-26-people-at-ukraine-aid-centre-kyiv]] — Russian bombing kills 26 people at Ukraine aid centre, Kyiv says
 - 2026-11-02 · [[2026-11-02-003-democrat-endorses-republican-candidate-in-key-michigan]] — Democrat endorses Republican candidate in key Michigan Senate race as party spat erupts
 - 2026-11-02 · [[2026-11-02-004-green-party-at-crossroads-says-former-co-leader]] — Green Party at 'crossroads', says former co-leader
 - 2026-11-02 · [[2026-11-02-005-burnham-open-to-calls-for-slavery-apology-but-not]] — Burnham 'open' to calls for slavery apology but not reparations

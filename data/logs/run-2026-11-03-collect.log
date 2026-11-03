@@ -1,0 +1,26 @@
+2026-11-03 02:37:51,989 INFO [world-news] published 2026-11-03-001 — Russian bombing kills 26 people at Ukraine aid centre, Kyiv 
+2026-11-03 02:38:05,324 INFO [world-news] attempt 1 invalid: ["entities/3/type: 'country' is not one of ['concept', 'company', 'model', 'person', 'product', 'region', 'organization', 'event']"]
+2026-11-03 02:38:19,410 INFO [world-news] published 2026-11-03-002 — Thousands of European troops to rehearse Ukraine deployment 
+2026-11-03 02:38:36,314 INFO [world-news] published 2026-11-03-003 — Plane may have broken apart ahead of deadly Florida jet cras
+2026-11-03 02:38:39,002 INFO [tech-news] nothing selected
+2026-11-03 02:39:06,539 INFO [politics] published 2026-11-03-004 — Labour MPs pull their punches on immigration changes
+2026-11-03 02:39:32,999 ERROR [politics] generate error: bad response: Unterminated string starting at: line 76 column 5 (char 8438)
+2026-11-03 02:39:36,088 ERROR [politics] generate error: HTTP 404: {"error":{"message":"poolside/laguna-s-2.1:free is no longer available on OpenRouter: no provider serves this model anymore. See available models at https://openrouter.ai/models","code":404},"user_id":"user_2mqLaYz9PPTm2loHhHg0PQ896kb"}
+2026-11-03 02:39:46,069 INFO [politics] published 2026-11-03-005 — UK and EU agree draft deal to scrap Brexit red tape over foo
+2026-11-03 02:39:47,116 ERROR [products] select failed: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7712, Requested 2788. Please try again in 18.75s. Need more tokens? Upgrade to Dev Tier today at https://cons
+2026-11-03 02:39:47,154 INFO [products] model returned no selection — using heuristic fallback (2)
+2026-11-03 02:39:47,310 ERROR [products] generate error: HTTP 404: {"error":{"message":"poolside/laguna-xs-2.1:free is no longer available on OpenRouter: no provider serves this model anymore. See available models at https://openrouter.ai/models","code":404},"user_id":"user_2mqLaYz9PPTm2loHhHg0PQ896kb"}
+2026-11-03 02:39:50,528 ERROR [products] generate error: HTTP 429: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"liquid/lfm-2.5-2.6b:free is temporarily rate-limited upstream. Please retry shortly, or add your own provider key to use your own limits: https://openrouter.ai/workspaces/default/byok","provider_name":"Liquid","is_byok":fals
+2026-11-03 02:40:48,265 ERROR [products] generate error: bad response: Unterminated string starting at: line 22 column 7 (char 2013)
+2026-11-03 02:41:32,744 INFO [products] published 2026-11-03-007 — Looper
+2026-11-03 02:41:33,383 INFO collect done: 6 item(s) published — target 4/10, next run ≈ 2026-11-03T02:56:33+00:00 UTC
+2026-11-03 02:41:35,890 ERROR [world-news] generate error: HTTP 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Requested 8549, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https
+2026-11-03 02:41:41,611 ERROR [world-news] generate error: HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
+
+2026-11-03 02:41:47,613 WARNING [world-news] no collect provider for deep-dive
+2026-11-03 02:41:47,695 WARNING [world-news] no collect provider for deep-dive
+2026-11-03 02:41:47,770 WARNING [world-news] no collect provider for deep-dive
+2026-11-03 02:41:48,511 WARNING [tech-news] no collect provider available
+2026-11-03 02:41:48,927 WARNING [politics] no collect provider available
+2026-11-03 02:41:49,776 WARNING [products] no collect provider available
+2026-11-03 02:41:50,228 INFO collect done: 0 item(s) published — target 4/10, next run ≈ 2026-11-04T01:00:00+00:00 UTC

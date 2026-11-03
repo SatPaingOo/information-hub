@@ -1,7 +1,7 @@
 ---
 node: "world"
 layer: topic
-item_count: 318
+item_count: 321
 ---
 
 # world
@@ -17,6 +17,9 @@ item_count: 318
 
 ## Items
 
+- 2026-11-03 · [[2026-11-03-001-russian-bombing-kills-26-people-at-ukraine-aid-centre-kyiv]] — Russian bombing kills 26 people at Ukraine aid centre, Kyiv says
+- 2026-11-03 · [[2026-11-03-002-thousands-of-european-troops-to-rehearse-ukraine]] — Thousands of European troops to rehearse Ukraine deployment in event of peace
+- 2026-11-03 · [[2026-11-03-003-plane-may-have-broken-apart-ahead-of-deadly-florida-jet]] — Plane may have broken apart ahead of deadly Florida jet crash, say investigators
 - 2026-11-02 · [[2026-11-02-001-ukraine-air-raid-app-apparently-hacked-as-users-receive]] — Ukraine air raid app apparently hacked as users receive false radiation threat, Air Force says
 - 2026-11-02 · [[2026-11-02-002-russian-strikes-cut-power-to-thousands-in-ukraine-as]] — Russian strikes cut power to thousands in Ukraine as Kherson ceasefire ends
 - 2026-11-02 · [[2026-11-02-002-russian-strikes-cut-power-to-thousands-in-ukraine-as]] — Russian strikes cut power to thousands in Ukraine as Kherson ceasefire ends

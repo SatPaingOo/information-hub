@@ -1,7 +1,7 @@
 ---
 node: "open-source"
 layer: category
-item_count: 41
+item_count: 42
 ---
 
 # open-source
@@ -20,6 +20,7 @@ item_count: 41
 
 ## Items
 
+- 2026-11-03 · [[2026-11-03-007-looper]] — Looper
 - 2026-11-02 · [[2026-11-02-006-agentmash]] — agentmash
 - 2026-10-23 · [[2026-10-23-004-left-alone-with-nothing-to-do-ai-agents-started-playing]] — Left alone with nothing to do, AI agents started playing
 - 2026-10-23 · [[2026-10-23-004-left-alone-with-nothing-to-do-ai-agents-started-playing]] — Left alone with nothing to do, AI agents started playing

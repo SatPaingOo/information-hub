@@ -1,7 +1,7 @@
 ---
 name: "European Union"
 entity_type: organization
-backlink_count: 19
+backlink_count: 21
 ---
 
 # European Union
@@ -10,6 +10,8 @@ backlink_count: 19
 
 ## Referenced by
 
+- 2026-11-03 · [[2026-11-03-002-thousands-of-european-troops-to-rehearse-ukraine]] — Thousands of European troops to rehearse Ukraine deployment in event of peace
+- 2026-11-03 · [[2026-11-03-005-uk-and-eu-agree-draft-deal-to-scrap-brexit-red-tape-over]] — UK and EU agree draft deal to scrap Brexit red tape over food exports
 - 2026-11-01 · [[2026-11-01-005-reeves-says-uk-s-future-should-be-inside-the-eu]] — Reeves says UK's future should be inside the EU
 - 2026-10-26 · [[2026-10-26-001-elation-across-serbia-after-veteran-ruler-vu-i-concedes-to]] — Elation across Serbia after veteran ruler Vučić concedes to student-led protest movement
 - 2026-10-22 · [[2026-10-22-003-macron-accuses-foreign-leaders-of-exploiting-french-riots]] — Macron accuses foreign leaders of exploiting French riots

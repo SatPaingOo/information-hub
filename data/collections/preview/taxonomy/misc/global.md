@@ -1,7 +1,7 @@
 ---
 node: "Global"
 layer: misc
-item_count: 543
+item_count: 549
 ---
 
 # Global
@@ -25,6 +25,12 @@ item_count: 543
 
 ## Items
 
+- 2026-11-03 · [[2026-11-03-001-russian-bombing-kills-26-people-at-ukraine-aid-centre-kyiv]] — Russian bombing kills 26 people at Ukraine aid centre, Kyiv says
+- 2026-11-03 · [[2026-11-03-002-thousands-of-european-troops-to-rehearse-ukraine]] — Thousands of European troops to rehearse Ukraine deployment in event of peace
+- 2026-11-03 · [[2026-11-03-003-plane-may-have-broken-apart-ahead-of-deadly-florida-jet]] — Plane may have broken apart ahead of deadly Florida jet crash, say investigators
+- 2026-11-03 · [[2026-11-03-004-labour-mps-pull-their-punches-on-immigration-changes]] — Labour MPs pull their punches on immigration changes
+- 2026-11-03 · [[2026-11-03-005-uk-and-eu-agree-draft-deal-to-scrap-brexit-red-tape-over]] — UK and EU agree draft deal to scrap Brexit red tape over food exports
+- 2026-11-03 · [[2026-11-03-007-looper]] — Looper
 - 2026-11-02 · [[2026-11-02-001-ukraine-air-raid-app-apparently-hacked-as-users-receive]] — Ukraine air raid app apparently hacked as users receive false radiation threat, Air Force says
 - 2026-11-02 · [[2026-11-02-002-russian-strikes-cut-power-to-thousands-in-ukraine-as]] — Russian strikes cut power to thousands in Ukraine as Kherson ceasefire ends
 - 2026-11-02 · [[2026-11-02-003-democrat-endorses-republican-candidate-in-key-michigan]] — Democrat endorses Republican candidate in key Michigan Senate race as party spat erupts

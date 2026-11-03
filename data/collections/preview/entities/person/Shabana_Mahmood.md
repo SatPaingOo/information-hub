@@ -1,7 +1,7 @@
 ---
 name: "Shabana Mahmood"
 entity_type: person
-backlink_count: 6
+backlink_count: 7
 ---
 
 # Shabana Mahmood
@@ -10,6 +10,7 @@ backlink_count: 6
 
 ## Referenced by
 
+- 2026-11-03 · [[2026-11-03-004-labour-mps-pull-their-punches-on-immigration-changes]] — Labour MPs pull their punches on immigration changes
 - 2026-10-13 · [[2026-10-13-005-government-expands-police-support-to-political-figures-who]] — Government expands police support to political figures who are not MPs
 - 2026-10-03 · [[2026-10-03-004-widdecombe-suspect-charged-with-planning-terror-act]] — Widdecombe suspect charged with planning terror act against Farage
 - 2026-09-27 · [[2026-09-27-005-rayner-criticises-visa-rule-proposals-ahead-of-labour]] — Rayner criticises visa rule proposals ahead of Labour conference

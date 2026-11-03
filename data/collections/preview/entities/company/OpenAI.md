@@ -1,7 +1,7 @@
 ---
 name: "OpenAI"
 entity_type: company
-backlink_count: 166
+backlink_count: 169
 ---
 
 # OpenAI
@@ -10,6 +10,9 @@ backlink_count: 166
 
 ## Referenced by
 
+- 2026-11-03 · [[2026-11-03-001-russian-bombing-kills-26-people-at-ukraine-aid-centre-kyiv]] — Russian bombing kills 26 people at Ukraine aid centre, Kyiv says
+- 2026-11-03 · [[2026-11-03-003-plane-may-have-broken-apart-ahead-of-deadly-florida-jet]] — Plane may have broken apart ahead of deadly Florida jet crash, say investigators
+- 2026-11-03 · [[2026-11-03-007-looper]] — Looper
 - 2026-11-02 · [[2026-11-02-002-russian-strikes-cut-power-to-thousands-in-ukraine-as]] — Russian strikes cut power to thousands in Ukraine as Kherson ceasefire ends
 - 2026-11-02 · [[2026-11-02-003-democrat-endorses-republican-candidate-in-key-michigan]] — Democrat endorses Republican candidate in key Michigan Senate race as party spat erupts
 - 2026-11-02 · [[2026-11-02-006-agentmash]] — agentmash

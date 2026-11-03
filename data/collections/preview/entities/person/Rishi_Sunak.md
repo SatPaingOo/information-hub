@@ -1,7 +1,7 @@
 ---
 name: "Rishi Sunak"
 entity_type: person
-backlink_count: 6
+backlink_count: 7
 ---
 
 # Rishi Sunak
@@ -10,6 +10,7 @@ backlink_count: 6
 
 ## Referenced by
 
+- 2026-11-03 · [[2026-11-03-005-uk-and-eu-agree-draft-deal-to-scrap-brexit-red-tape-over]] — UK and EU agree draft deal to scrap Brexit red tape over food exports
 - 2026-11-02 · [[2026-11-02-005-burnham-open-to-calls-for-slavery-apology-but-not]] — Burnham 'open' to calls for slavery apology but not reparations
 - 2026-10-16 · [[2026-10-16-004-banks-say-healey-is-planning-budget-tax-raid-on-their]] — Banks say Healey is planning Budget tax raid on their profits
 - 2026-10-02 · [[2026-10-02-002-man-city-not-above-the-rules-says-no-10-after-backlash-to]] — Man City not 'above the rules', says No 10 after backlash to Burnham remarks

@@ -1,7 +1,7 @@
 ---
 name: "Angela Rayner"
 entity_type: person
-backlink_count: 5
+backlink_count: 6
 ---
 
 # Angela Rayner
@@ -10,6 +10,7 @@ backlink_count: 5
 
 ## Referenced by
 
+- 2026-11-03 · [[2026-11-03-004-labour-mps-pull-their-punches-on-immigration-changes]] — Labour MPs pull their punches on immigration changes
 - 2026-09-27 · [[2026-09-27-004-burnham-announces-scheme-to-help-first-time-buyers-on-to]] — Burnham announces scheme to help first-time buyers on to housing ladder
 - 2026-09-27 · [[2026-09-27-005-rayner-criticises-visa-rule-proposals-ahead-of-labour]] — Rayner criticises visa rule proposals ahead of Labour conference
 - 2026-09-14 · [[2026-09-14-006-reform-confident-it-won-t-need-to-repay-any-of-72m-under]] — Reform confident it won't need to repay any of £72m under proposed new donor rules

@@ -10242,6 +10242,87 @@
       "name": "Swing states"
     },
     {
+      "id": "info:item:world:global:2026-11-03-001",
+      "type": "item",
+      "date": "2026-11-03",
+      "title": "Russian bombing kills 26 people at Ukraine aid centre, Kyiv says"
+    },
+    {
+      "id": "taxonomy/misc/Ukraine",
+      "type": "taxonomy",
+      "name": "Ukraine"
+    },
+    {
+      "id": "info:item:world:global:2026-11-03-002",
+      "type": "item",
+      "date": "2026-11-03",
+      "title": "Thousands of European troops to rehearse Ukraine deployment in event of peace"
+    },
+    {
+      "id": "info:entity:event:Exercise Koalicja",
+      "type": "event",
+      "name": "Exercise Koalicja"
+    },
+    {
+      "id": "taxonomy/misc/NATO",
+      "type": "taxonomy",
+      "name": "NATO"
+    },
+    {
+      "id": "info:item:world:global:2026-11-03-003",
+      "type": "item",
+      "date": "2026-11-03",
+      "title": "Plane may have broken apart ahead of deadly Florida jet crash, say investigators"
+    },
+    {
+      "id": "info:item:politics:global:2026-11-03-004",
+      "type": "item",
+      "date": "2026-11-03",
+      "title": "Labour MPs pull their punches on immigration changes"
+    },
+    {
+      "id": "taxonomy/misc/Immigration policy",
+      "type": "taxonomy",
+      "name": "Immigration policy"
+    },
+    {
+      "id": "taxonomy/misc/Social care reform",
+      "type": "taxonomy",
+      "name": "Social care reform"
+    },
+    {
+      "id": "info:item:politics:global:2026-11-03-005",
+      "type": "item",
+      "date": "2026-11-03",
+      "title": "UK and EU agree draft deal to scrap Brexit red tape over food exports"
+    },
+    {
+      "id": "info:entity:organization:British Chamber of Commerce",
+      "type": "organization",
+      "name": "British Chamber of Commerce"
+    },
+    {
+      "id": "info:entity:concept:Dynamic alignment",
+      "type": "concept",
+      "name": "Dynamic alignment"
+    },
+    {
+      "id": "taxonomy/misc/agricultural regulation",
+      "type": "taxonomy",
+      "name": "agricultural regulation"
+    },
+    {
+      "id": "taxonomy/misc/post‑Brexit negotiations",
+      "type": "taxonomy",
+      "name": "post‑Brexit negotiations"
+    },
+    {
+      "id": "info:item:products:global:2026-11-03-007",
+      "type": "item",
+      "date": "2026-11-03",
+      "title": "Looper"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -45388,6 +45469,381 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-11-03-001",
+      "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "Ukrainian President condemning the attack"
+    },
+    {
+      "source": "info:item:world:global:2026-11-03-001",
+      "target": "info:entity:person:Vladimir Putin",
+      "relation": "Russian President overseeing military strategy"
+    },
+    {
+      "source": "info:item:world:global:2026-11-03-001",
+      "target": "info:entity:company:OpenAI",
+      "relation": "LLM provider referenced in AI‑misinformation concerns"
+    },
+    {
+      "source": "info:item:world:global:2026-11-03-001",
+      "target": "info:entity:model:Gemini",
+      "relation": "AI model cited for synthetic media generation"
+    },
+    {
+      "source": "info:item:world:global:2026-11-03-001",
+      "target": "info:item:world:global:2026-11-02-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-03-001",
+      "target": "info:item:world:global:2026-11-02-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-03-001",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-03-001",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-03-001",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-03-001",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-03-001",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-03-001",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-03-001",
+      "target": "taxonomy/misc/Ukraine",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-03-002",
+      "target": "info:entity:organization:NATO",
+      "relation": "intended command structure reference"
+    },
+    {
+      "source": "info:item:world:global:2026-11-03-002",
+      "target": "info:entity:person:Wes Streeting",
+      "relation": "UK Defence Secretary commenting on the exercise"
+    },
+    {
+      "source": "info:item:world:global:2026-11-03-002",
+      "target": "info:entity:organization:European Union",
+      "relation": "political backdrop for defence autonomy"
+    },
+    {
+      "source": "info:item:world:global:2026-11-03-002",
+      "target": "info:entity:event:Exercise Koalicja",
+      "relation": "multinational military rehearsal"
+    },
+    {
+      "source": "info:item:world:global:2026-11-03-002",
+      "target": "info:item:world:global:2026-11-03-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-03-002",
+      "target": "info:item:world:global:2026-11-02-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-03-002",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-03-002",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-03-002",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-03-002",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-03-002",
+      "target": "taxonomy/misc/Ukraine",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-03-002",
+      "target": "taxonomy/misc/NATO",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-03-002",
+      "target": "taxonomy/misc/European Union",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-03-003",
+      "target": "info:entity:organization:National Transportation Safety Board (NTSB)",
+      "relation": "lead investigative agency"
+    },
+    {
+      "source": "info:item:world:global:2026-11-03-003",
+      "target": "info:entity:company:OpenAI",
+      "relation": "provider of AI language models used in aviation tools"
+    },
+    {
+      "source": "info:item:world:global:2026-11-03-003",
+      "target": "info:entity:model:Gemini",
+      "relation": "AI model integrated into flight‑planning software"
+    },
+    {
+      "source": "info:item:world:global:2026-11-03-003",
+      "target": "info:entity:company:Anthropic",
+      "relation": "developer of AI assistants for aviation diagnostics"
+    },
+    {
+      "source": "info:item:world:global:2026-11-03-003",
+      "target": "info:item:world:global:2026-11-03-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-03-003",
+      "target": "info:item:world:global:2026-11-02-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-03-003",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-03-003",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-03-003",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-03-003",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-03-003",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-03-003",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-03-003",
+      "target": "taxonomy/category/industry",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-03-004",
+      "target": "info:entity:person:Angela Rayner",
+      "relation": "Labour MP and Housing Secretary who criticised the retrospective clause as \"un‑British\""
+    },
+    {
+      "source": "info:item:politics:global:2026-11-03-004",
+      "target": "info:entity:person:Shabana Mahmood",
+      "relation": "Home Secretary who announced the watered‑down settlement proposals"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-03-004",
+      "target": "info:entity:person:Keir Starmer",
+      "relation": "Prime Minister and Labour Party leader overseeing the immigration reforms"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-03-004",
+      "target": "info:entity:organization:Home Office",
+      "relation": "Government department responsible for implementing the settlement changes"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-03-004",
+      "target": "info:item:politics:global:2026-11-02-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-03-004",
+      "target": "info:item:politics:global:2026-11-02-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-03-004",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-03-004",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-03-004",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-03-004",
+      "target": "taxonomy/misc/Immigration policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-03-004",
+      "target": "taxonomy/misc/UK domestic politics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-03-004",
+      "target": "taxonomy/misc/Social care reform",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-03-005",
+      "target": "info:entity:organization:European Union",
+      "relation": "partner in SPS agreement"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-03-005",
+      "target": "info:entity:organization:British Chamber of Commerce",
+      "relation": "industry advocate for closer UK‑EU ties"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-03-005",
+      "target": "info:entity:person:Rishi Sunak",
+      "relation": "UK Prime Minister championing the Brexit reset"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-03-005",
+      "target": "info:entity:concept:Dynamic alignment",
+      "relation": "mechanism for regulatory synchronization"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-03-005",
+      "target": "info:item:politics:global:2026-11-03-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-03-005",
+      "target": "info:item:politics:global:2026-11-02-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-03-005",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-03-005",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-03-005",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-03-005",
+      "target": "taxonomy/misc/trade policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-03-005",
+      "target": "taxonomy/misc/agricultural regulation",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-03-005",
+      "target": "taxonomy/misc/post‑Brexit negotiations",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-11-03-007",
+      "target": "info:entity:company:OpenAI",
+      "relation": "benchmark and reference model for Looper's capabilities"
+    },
+    {
+      "source": "info:item:products:global:2026-11-03-007",
+      "target": "info:entity:model:Gemini",
+      "relation": "comparative AI model referenced in Looper's development discussions"
+    },
+    {
+      "source": "info:item:products:global:2026-11-03-007",
+      "target": "info:entity:company:Anthropic",
+      "relation": "key competitor in the agentic AI space, influencing Looper's design"
+    },
+    {
+      "source": "info:item:products:global:2026-11-03-007",
+      "target": "info:entity:region:Myanmar",
+      "relation": "target market for Looper's open‑source AI deployment"
+    },
+    {
+      "source": "info:item:products:global:2026-11-03-007",
+      "target": "info:item:products:global:2026-11-02-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-11-03-007",
+      "target": "info:item:products:global:2026-11-02-007",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-11-03-007",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-11-03-007",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-11-03-007",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-11-03-007",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-11-03-007",
+      "target": "taxonomy/category/open-source",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-11-03-007",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -45711,7 +46167,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
-      "weight": "79"
+      "weight": "81"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -45921,7 +46377,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "33"
+      "weight": "35"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -46046,6 +46502,12 @@
     {
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:organization:Israeli Defense Forces",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:organization:National Transportation Safety Board (NTSB)",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -46425,7 +46887,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:region:Myanmar",
       "relation": "co-occurs",
-      "weight": "15"
+      "weight": "16"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -47775,7 +48237,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "57"
+      "weight": "60"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -47996,6 +48458,12 @@
     {
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:organization:National Rally",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:organization:National Transportation Safety Board (NTSB)",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -48453,7 +48921,13 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Vladimir Putin",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -48669,7 +49143,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:region:Myanmar",
       "relation": "co-occurs",
-      "weight": "19"
+      "weight": "20"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -49742,6 +50216,24 @@
     {
       "source": "info:entity:concept:Double-tap strike",
       "target": "info:entity:region:Kryvyi Rih",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Dynamic alignment",
+      "target": "info:entity:organization:British Chamber of Commerce",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Dynamic alignment",
+      "target": "info:entity:organization:European Union",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Dynamic alignment",
+      "target": "info:entity:person:Rishi Sunak",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -50832,6 +51324,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:event:Exercise Koalicja",
+      "target": "info:entity:organization:European Union",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:event:Exercise Koalicja",
+      "target": "info:entity:organization:NATO",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:event:Exercise Koalicja",
+      "target": "info:entity:person:Wes Streeting",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:event:G20 summit 2027",
       "target": "info:entity:organization:Manchester Central Convention Centre",
       "relation": "co-occurs",
@@ -51571,6 +52081,12 @@
     },
     {
       "source": "info:entity:model:Gemini",
+      "target": "info:entity:organization:National Transportation Safety Board (NTSB)",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
       "target": "info:entity:organization:OpenAI",
       "relation": "co-occurs",
       "weight": "16"
@@ -51897,13 +52413,13 @@
       "source": "info:entity:model:Gemini",
       "target": "info:entity:person:Vladimir Putin",
       "relation": "co-occurs",
-      "weight": "4"
+      "weight": "5"
     },
     {
       "source": "info:entity:model:Gemini",
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
-      "weight": "4"
+      "weight": "5"
     },
     {
       "source": "info:entity:model:Gemini",
@@ -51987,7 +52503,7 @@
       "source": "info:entity:model:Gemini",
       "target": "info:entity:region:Myanmar",
       "relation": "co-occurs",
-      "weight": "8"
+      "weight": "9"
     },
     {
       "source": "info:entity:model:Gemini",
@@ -52966,6 +53482,18 @@
       "target": "info:entity:person:Zack Polanski",
       "relation": "co-occurs",
       "weight": "3"
+    },
+    {
+      "source": "info:entity:organization:British Chamber of Commerce",
+      "target": "info:entity:organization:European Union",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:British Chamber of Commerce",
+      "target": "info:entity:person:Rishi Sunak",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:organization:British Museum",
@@ -54093,7 +54621,7 @@
       "source": "info:entity:organization:European Union",
       "target": "info:entity:organization:NATO",
       "relation": "co-occurs",
-      "weight": "4"
+      "weight": "5"
     },
     {
       "source": "info:entity:organization:European Union",
@@ -54211,6 +54739,12 @@
     },
     {
       "source": "info:entity:organization:European Union",
+      "target": "info:entity:person:Rishi Sunak",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:European Union",
       "target": "info:entity:person:Ursula von der Leyen",
       "relation": "co-occurs",
       "weight": "2"
@@ -54226,6 +54760,12 @@
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
       "weight": "3"
+    },
+    {
+      "source": "info:entity:organization:European Union",
+      "target": "info:entity:person:Wes Streeting",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:organization:European Union",
@@ -54963,6 +55503,12 @@
       "source": "info:entity:organization:Home Office",
       "target": "info:entity:person:Angela Rayner",
       "relation": "co-occurs",
+      "weight": "2"
+    },
+    {
+      "source": "info:entity:organization:Home Office",
+      "target": "info:entity:person:Keir Starmer",
+      "relation": "co-occurs",
       "weight": "1"
     },
     {
@@ -54975,7 +55521,7 @@
       "source": "info:entity:organization:Home Office",
       "target": "info:entity:person:Shabana Mahmood",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:organization:Hong Kong Alliance (HKA)",
@@ -56422,6 +56968,12 @@
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
       "weight": "2"
+    },
+    {
+      "source": "info:entity:organization:NATO",
+      "target": "info:entity:person:Wes Streeting",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:organization:NATO",
@@ -59545,6 +60097,12 @@
     },
     {
       "source": "info:entity:person:Angela Rayner",
+      "target": "info:entity:person:Keir Starmer",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Angela Rayner",
       "target": "info:entity:person:Lisa Nandy",
       "relation": "co-occurs",
       "weight": "1"
@@ -59559,7 +60117,7 @@
       "source": "info:entity:person:Angela Rayner",
       "target": "info:entity:person:Shabana Mahmood",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Anoushka Mutanda-Dougherty",
@@ -61321,6 +61879,12 @@
     },
     {
       "source": "info:entity:person:Keir Starmer",
+      "target": "info:entity:person:Shabana Mahmood",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Keir Starmer",
       "target": "info:entity:person:Sir Olly Robbins",
       "relation": "co-occurs",
       "weight": "1"
@@ -61881,7 +62445,7 @@
       "source": "info:entity:person:Vladimir Putin",
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
-      "weight": "18"
+      "weight": "19"
     },
     {
       "source": "info:entity:person:Vladimir Putin",
