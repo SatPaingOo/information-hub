@@ -1,7 +1,7 @@
 ---
 name: "Pedro Sánchez"
 entity_type: person
-backlink_count: 6
+backlink_count: 7
 ---
 
 # Pedro Sánchez
@@ -10,6 +10,7 @@ backlink_count: 6
 
 ## Referenced by
 
+- 2026-11-04 · [[2026-11-04-001-spanish-transport-minister-resigns-days-after-deadly-train]] — Spanish transport minister resigns days after deadly train crash
 - 2026-10-30 · [[2026-10-30-002-audio-reveals-exchanges-between-spain-train-operators-and]] — Audio reveals exchanges between Spain train operators and drivers moments before deadly crash
 - 2026-10-08 · [[2026-10-08-001-spanish-pensioner-whose-eviction-sparked-nationwide]] — Spanish pensioner whose eviction sparked nationwide protests dies, union says
 - 2026-09-30 · [[2026-09-30-002-spain-announces-ban-on-evictions-after-protests-over-87]] — Spain announces ban on evictions after protests over 87-year-old woman's removal from flat

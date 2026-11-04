@@ -1,0 +1,12 @@
+2026-11-04 03:03:05,382 INFO [world-news] published 2026-11-04-001 — Spanish transport minister resigns days after deadly train c
+2026-11-04 03:03:42,000 INFO [world-news] published 2026-11-04-002 — Seven flights across Europe targeted by suspected bomb threa
+2026-11-04 03:04:12,791 INFO [world-news] published 2026-11-04-003 — Binance says fake job interviews used as part of $6.3bn cryp
+2026-11-04 03:04:19,530 INFO [tech-news] nothing selected
+2026-11-04 03:05:35,069 INFO [politics] published 2026-11-04-004 — Miliband says slavery apology will not bring cost for UK tax
+2026-11-04 03:06:07,247 INFO [politics] published 2026-11-04-005 — Mahmood refuses to put cost on care worker settlement climbd
+2026-11-04 03:07:20,537 INFO [products] published 2026-11-04-006 — Testifly
+2026-11-04 03:07:25,621 INFO [products] attempt 1 invalid: [": 'tags' is a required property", ": 'related_items' is a required property"]
+2026-11-04 03:07:25,715 ERROR [products] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7331, Requested 6043. Please try again in 40.305s. Need more tokens? Upgrade to Dev Tier today at https://con
+2026-11-04 03:07:34,585 ERROR [products] generate error: HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
+
+2026-11-04 03:07:44,147 INFO collect done: 6 item(s) published — target 4/10, next run ≈ 2026-11-05T01:00:00+00:00 UTC

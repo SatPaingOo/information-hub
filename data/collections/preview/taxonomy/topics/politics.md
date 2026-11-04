@@ -1,7 +1,7 @@
 ---
 node: "politics"
 layer: topic
-item_count: 188
+item_count: 192
 ---
 
 # politics
@@ -17,6 +17,10 @@ item_count: 188
 
 ## Items
 
+- 2026-11-04 · [[2026-11-04-004-miliband-says-slavery-apology-will-not-bring-cost-for-uk]] — Miliband says slavery apology will not bring cost for UK taxpayers
+- 2026-11-04 · [[2026-11-04-004-miliband-says-slavery-apology-will-not-bring-cost-for-uk]] — Miliband says slavery apology will not bring cost for UK taxpayers
+- 2026-11-04 · [[2026-11-04-005-mahmood-refuses-to-put-cost-on-care-worker-settlement]] — Mahmood refuses to put cost on care worker settlement climbdown
+- 2026-11-04 · [[2026-11-04-005-mahmood-refuses-to-put-cost-on-care-worker-settlement]] — Mahmood refuses to put cost on care worker settlement climbdown
 - 2026-11-03 · [[2026-11-03-004-labour-mps-pull-their-punches-on-immigration-changes]] — Labour MPs pull their punches on immigration changes
 - 2026-11-03 · [[2026-11-03-005-uk-and-eu-agree-draft-deal-to-scrap-brexit-red-tape-over]] — UK and EU agree draft deal to scrap Brexit red tape over food exports
 - 2026-11-02 · [[2026-11-02-004-green-party-at-crossroads-says-former-co-leader]] — Green Party at 'crossroads', says former co-leader

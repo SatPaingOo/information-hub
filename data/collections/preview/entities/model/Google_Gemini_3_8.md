@@ -1,7 +1,7 @@
 ---
 name: "Google Gemini 3.8"
 entity_type: model
-backlink_count: 5
+backlink_count: 6
 ---
 
 # Google Gemini 3.8
@@ -10,6 +10,7 @@ backlink_count: 5
 
 ## Referenced by
 
+- 2026-11-04 · [[2026-11-04-006-testifly]] — Testifly
 - 2026-10-07 · [[2026-10-07-005-cosmic-ai-support-agent]] — Cosmic AI Support Agent
 - 2026-10-07 · [[2026-10-07-006-iphone-use]] — iphone-use
 - 2026-10-06 · [[2026-10-06-006-opengeni-ship-ai-agents-within-minutes-infrastructure-for]] — Opengeni: Ship AI agents within minutes. Infrastructure for Agents

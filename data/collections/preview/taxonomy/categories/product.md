@@ -1,7 +1,7 @@
 ---
 node: "product"
 layer: category
-item_count: 119
+item_count: 120
 ---
 
 # product
@@ -19,6 +19,7 @@ item_count: 119
 
 ## Items
 
+- 2026-11-04 · [[2026-11-04-006-testifly]] — Testifly
 - 2026-11-03 · [[2026-11-03-007-looper]] — Looper
 - 2026-11-02 · [[2026-11-02-006-agentmash]] — agentmash
 - 2026-11-02 · [[2026-11-02-007-embage]] — Embage

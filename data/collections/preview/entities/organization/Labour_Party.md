@@ -1,7 +1,7 @@
 ---
 name: "Labour Party"
 entity_type: organization
-backlink_count: 34
+backlink_count: 35
 ---
 
 # Labour Party
@@ -10,6 +10,7 @@ backlink_count: 34
 
 ## Referenced by
 
+- 2026-11-04 · [[2026-11-04-005-mahmood-refuses-to-put-cost-on-care-worker-settlement]] — Mahmood refuses to put cost on care worker settlement climbdown
 - 2026-11-01 · [[2026-11-01-004-laura-kuenssberg-healey-risks-breaking-minimum-wage]] — Laura Kuenssberg: Healey risks breaking minimum wage promise for younger workers
 - 2026-11-01 · [[2026-11-01-005-reeves-says-uk-s-future-should-be-inside-the-eu]] — Reeves says UK's future should be inside the EU
 - 2026-10-28 · [[2026-10-28-005-minimum-wage-set-to-rise-but-18-20-year-olds-will-not-get]] — Minimum wage set to rise but 18‑20 year‑olds will not get bigger increase

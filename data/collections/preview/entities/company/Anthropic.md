@@ -1,7 +1,7 @@
 ---
 name: "Anthropic"
 entity_type: company
-backlink_count: 99
+backlink_count: 100
 ---
 
 # Anthropic
@@ -10,6 +10,7 @@ backlink_count: 99
 
 ## Referenced by
 
+- 2026-11-04 · [[2026-11-04-006-testifly]] — Testifly
 - 2026-11-03 · [[2026-11-03-003-plane-may-have-broken-apart-ahead-of-deadly-florida-jet]] — Plane may have broken apart ahead of deadly Florida jet crash, say investigators
 - 2026-11-03 · [[2026-11-03-007-looper]] — Looper
 - 2026-11-02 · [[2026-11-02-007-embage]] — Embage

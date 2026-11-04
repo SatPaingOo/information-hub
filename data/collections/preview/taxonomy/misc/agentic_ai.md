@@ -1,7 +1,7 @@
 ---
 node: "Agentic AI"
 layer: misc
-item_count: 107
+item_count: 108
 ---
 
 # Agentic AI
@@ -17,6 +17,7 @@ item_count: 107
 
 ## Items
 
+- 2026-11-04 · [[2026-11-04-006-testifly]] — Testifly
 - 2026-11-03 · [[2026-11-03-007-looper]] — Looper
 - 2026-11-02 · [[2026-11-02-006-agentmash]] — agentmash
 - 2026-11-01 · [[2026-11-01-007-clawsgo-science]] — ClawsGO Science

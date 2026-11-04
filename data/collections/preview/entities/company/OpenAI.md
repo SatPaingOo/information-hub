@@ -1,7 +1,7 @@
 ---
 name: "OpenAI"
 entity_type: company
-backlink_count: 169
+backlink_count: 172
 ---
 
 # OpenAI
@@ -10,6 +10,9 @@ backlink_count: 169
 
 ## Referenced by
 
+- 2026-11-04 · [[2026-11-04-002-seven-flights-across-europe-targeted-by-suspected-bomb]] — Seven flights across Europe targeted by suspected bomb threats
+- 2026-11-04 · [[2026-11-04-004-miliband-says-slavery-apology-will-not-bring-cost-for-uk]] — Miliband says slavery apology will not bring cost for UK taxpayers
+- 2026-11-04 · [[2026-11-04-006-testifly]] — Testifly
 - 2026-11-03 · [[2026-11-03-001-russian-bombing-kills-26-people-at-ukraine-aid-centre-kyiv]] — Russian bombing kills 26 people at Ukraine aid centre, Kyiv says
 - 2026-11-03 · [[2026-11-03-003-plane-may-have-broken-apart-ahead-of-deadly-florida-jet]] — Plane may have broken apart ahead of deadly Florida jet crash, say investigators
 - 2026-11-03 · [[2026-11-03-007-looper]] — Looper

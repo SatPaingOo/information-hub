@@ -10323,6 +10323,92 @@
       "title": "Looper"
     },
     {
+      "id": "info:item:world:global:2026-11-04-001",
+      "type": "item",
+      "date": "2026-11-04",
+      "title": "Spanish transport minister resigns days after deadly train crash"
+    },
+    {
+      "id": "info:entity:company:Iryo",
+      "type": "company",
+      "name": "Iryo"
+    },
+    {
+      "id": "info:entity:organization:People's Party (PP)",
+      "type": "organization",
+      "name": "People's Party (PP)"
+    },
+    {
+      "id": "info:item:world:global:2026-11-04-002",
+      "type": "item",
+      "date": "2026-11-04",
+      "title": "Seven flights across Europe targeted by suspected bomb threats"
+    },
+    {
+      "id": "info:entity:company:Ryanair",
+      "type": "company",
+      "name": "Ryanair"
+    },
+    {
+      "id": "info:item:world:global:2026-11-04-003",
+      "type": "item",
+      "date": "2026-11-04",
+      "title": "Binance says fake job interviews used as part of $6.3bn crypto hack"
+    },
+    {
+      "id": "info:entity:region:North Korea",
+      "type": "region",
+      "name": "North Korea"
+    },
+    {
+      "id": "info:entity:concept:AI tool compromise",
+      "type": "concept",
+      "name": "AI tool compromise"
+    },
+    {
+      "id": "taxonomy/misc/financial regulation",
+      "type": "taxonomy",
+      "name": "financial regulation"
+    },
+    {
+      "id": "info:item:politics:global:2026-11-04-004",
+      "type": "item",
+      "date": "2026-11-04",
+      "title": "Miliband says slavery apology will not bring cost for UK taxpayers"
+    },
+    {
+      "id": "info:entity:concept:Transatlantic Slave Trade",
+      "type": "concept",
+      "name": "Transatlantic Slave Trade"
+    },
+    {
+      "id": "taxonomy/misc/Commonwealth",
+      "type": "taxonomy",
+      "name": "Commonwealth"
+    },
+    {
+      "id": "info:item:politics:global:2026-11-04-005",
+      "type": "item",
+      "date": "2026-11-04",
+      "title": "Mahmood refuses to put cost on care worker settlement climbdown"
+    },
+    {
+      "id": "info:entity:organization:Conservatives",
+      "type": "organization",
+      "name": "Conservatives"
+    },
+    {
+      "id": "info:item:products:global:2026-11-04-006",
+      "type": "item",
+      "date": "2026-11-04",
+      "title": "Testifly"
+    },
+    {
+      "id": "info:entity:product:Testifly",
+      "type": "product",
+      "name": "Testifly"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -45844,6 +45930,391 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-11-04-001",
+      "target": "info:entity:person:Óscar Puente",
+      "relation": "minister_resigned"
+    },
+    {
+      "source": "info:item:world:global:2026-11-04-001",
+      "target": "info:entity:organization:Renfe",
+      "relation": "operator_of_crashed_train"
+    },
+    {
+      "source": "info:item:world:global:2026-11-04-001",
+      "target": "info:entity:company:Iryo",
+      "relation": "operator_of_stationary_train"
+    },
+    {
+      "source": "info:item:world:global:2026-11-04-001",
+      "target": "info:entity:person:Pedro Sánchez",
+      "relation": "prime_minister"
+    },
+    {
+      "source": "info:item:world:global:2026-11-04-001",
+      "target": "info:entity:organization:People's Party (PP)",
+      "relation": "opposition_party_calling_for_resignation"
+    },
+    {
+      "source": "info:item:world:global:2026-11-04-001",
+      "target": "info:entity:organization:Vox",
+      "relation": "opposition_party_calling_for_resignation"
+    },
+    {
+      "source": "info:item:world:global:2026-11-04-001",
+      "target": "info:item:world:global:2026-11-03-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-04-001",
+      "target": "info:item:world:global:2026-11-03-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-04-001",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-04-001",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-04-001",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-04-001",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-04-001",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-04-001",
+      "target": "taxonomy/misc/transport safety",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-04-001",
+      "target": "taxonomy/misc/European Union",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-04-002",
+      "target": "info:entity:company:Ryanair",
+      "relation": "operator of multiple flights targeted by bomb threats"
+    },
+    {
+      "source": "info:item:world:global:2026-11-04-002",
+      "target": "info:entity:organization:Polish Interior Ministry",
+      "relation": "oversaw investigation of threats to flights entering Poland"
+    },
+    {
+      "source": "info:item:world:global:2026-11-04-002",
+      "target": "info:entity:company:OpenAI",
+      "relation": "AI model provider referenced in regulatory discussions on hoax threat generation"
+    },
+    {
+      "source": "info:item:world:global:2026-11-04-002",
+      "target": "info:entity:model:Gemini",
+      "relation": "LLM cited as a potential tool for crafting credible hoax warnings"
+    },
+    {
+      "source": "info:item:world:global:2026-11-04-002",
+      "target": "info:item:world:global:2026-11-04-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-04-002",
+      "target": "info:item:world:global:2026-11-03-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-04-002",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-04-002",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-04-002",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-04-002",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-04-002",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-04-002",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-04-002",
+      "target": "taxonomy/category/industry",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-04-003",
+      "target": "info:entity:company:Binance",
+      "relation": "target of the hack and primary responder"
+    },
+    {
+      "source": "info:item:world:global:2026-11-04-003",
+      "target": "info:entity:region:North Korea",
+      "relation": "suspected sponsor of the cyber‑attack"
+    },
+    {
+      "source": "info:item:world:global:2026-11-04-003",
+      "target": "info:entity:organization:Lazarus Group",
+      "relation": "cyber‑unit linked to the breach"
+    },
+    {
+      "source": "info:item:world:global:2026-11-04-003",
+      "target": "info:entity:concept:AI tool compromise",
+      "relation": "attack vector used to expand access"
+    },
+    {
+      "source": "info:item:world:global:2026-11-04-003",
+      "target": "info:item:world:global:2026-11-04-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-04-003",
+      "target": "info:item:world:global:2026-11-04-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-04-003",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-04-003",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-04-003",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-04-003",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-04-003",
+      "target": "taxonomy/misc/cybersecurity",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-04-003",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-04-003",
+      "target": "taxonomy/misc/financial regulation",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-04-004",
+      "target": "info:entity:person:Ed Miliband",
+      "relation": "UK Foreign Secretary leading the apology initiative"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-04-004",
+      "target": "info:entity:company:OpenAI",
+      "relation": "AI model developer whose technologies could support historical documentation"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-04-004",
+      "target": "info:entity:person:King Charles III",
+      "relation": "Head of the Commonwealth whose institutions are affected by the slavery apology"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-04-004",
+      "target": "info:entity:concept:Transatlantic Slave Trade",
+      "relation": "Historical issue prompting the UK’s formal apology"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-04-004",
+      "target": "info:item:politics:global:2026-11-03-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-04-004",
+      "target": "info:item:politics:global:2026-11-02-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-04-004",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-04-004",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-04-004",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-04-004",
+      "target": "taxonomy/topic/politics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-04-004",
+      "target": "taxonomy/misc/human rights",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-04-004",
+      "target": "taxonomy/misc/Commonwealth",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-04-005",
+      "target": "info:entity:person:Shabana Mahmood",
+      "relation": "Home Secretary who announced the revised settlement rules"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-04-005",
+      "target": "info:entity:organization:Home Office",
+      "relation": "department responsible for the immigration policy changes"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-04-005",
+      "target": "info:entity:organization:Labour Party",
+      "relation": "governing party facing internal dissent over the policy"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-04-005",
+      "target": "info:entity:organization:Conservatives",
+      "relation": "opposition party criticizing the U‑turn"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-04-005",
+      "target": "info:item:politics:global:2026-11-04-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-04-005",
+      "target": "info:item:politics:global:2026-11-03-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-04-005",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-04-005",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-04-005",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-04-005",
+      "target": "taxonomy/topic/politics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-04-005",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-04-005",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-11-04-006",
+      "target": "info:entity:company:OpenAI",
+      "relation": "LLM provider powering Testifly’s autonomous testing engine"
+    },
+    {
+      "source": "info:item:products:global:2026-11-04-006",
+      "target": "info:entity:model:Google Gemini 3.8",
+      "relation": "LLM service integrated into Testifly for contextual test generation"
+    },
+    {
+      "source": "info:item:products:global:2026-11-04-006",
+      "target": "info:entity:company:Anthropic",
+      "relation": "LLM provider whose Claude models are utilized by Testifly"
+    },
+    {
+      "source": "info:item:products:global:2026-11-04-006",
+      "target": "info:entity:product:Testifly",
+      "relation": "AI QA platform under analysis"
+    },
+    {
+      "source": "info:item:products:global:2026-11-04-006",
+      "target": "info:item:products:global:2026-11-03-007",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-11-04-006",
+      "target": "info:item:products:global:2026-11-02-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-11-04-006",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-11-04-006",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-11-04-006",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-11-04-006",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-11-04-006",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-11-04-006",
+      "target": "taxonomy/misc/Myanmar",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -46167,7 +46638,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
-      "weight": "81"
+      "weight": "82"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -46407,7 +46878,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:model:Google Gemini 3.8",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -46867,6 +47338,12 @@
     },
     {
       "source": "info:entity:company:Anthropic",
+      "target": "info:entity:product:Testifly",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
       "target": "info:entity:product:Weave Router 2.0",
       "relation": "co-occurs",
       "weight": "1"
@@ -47023,6 +47500,12 @@
     },
     {
       "source": "info:entity:company:Binance",
+      "target": "info:entity:concept:AI tool compromise",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Binance",
       "target": "info:entity:organization:Chainalysis",
       "relation": "co-occurs",
       "weight": "1"
@@ -47037,7 +47520,7 @@
       "source": "info:entity:company:Binance",
       "target": "info:entity:organization:Lazarus Group",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:company:Binance",
@@ -47048,6 +47531,12 @@
     {
       "source": "info:entity:company:Binance",
       "target": "info:entity:product:Tether (USDT)",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Binance",
+      "target": "info:entity:region:North Korea",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -47544,6 +48033,36 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:company:Iryo",
+      "target": "info:entity:organization:People's Party (PP)",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Iryo",
+      "target": "info:entity:organization:Renfe",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Iryo",
+      "target": "info:entity:organization:Vox",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Iryo",
+      "target": "info:entity:person:Pedro Sánchez",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Iryo",
+      "target": "info:entity:person:Óscar Puente",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:company:JP Morgan",
       "target": "info:entity:organization:Federal Reserve",
       "relation": "co-occurs",
@@ -48025,6 +48544,12 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:company:Ryanair",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:company:Sider Omni",
       "relation": "co-occurs",
       "weight": "1"
@@ -48151,6 +48676,12 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:concept:Transatlantic Slave Trade",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:concept:agentic AI",
       "relation": "co-occurs",
       "weight": "4"
@@ -48237,7 +48768,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "60"
+      "weight": "61"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -48267,7 +48798,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:model:Google Gemini 3.8",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -48482,6 +49013,12 @@
     {
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:organization:Office for Budget Responsibility (OBR)",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:organization:Polish Interior Ministry",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -48715,6 +49252,12 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:person:Ed Miliband",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Ed Sheeran",
       "relation": "co-occurs",
       "weight": "1"
@@ -48806,6 +49349,12 @@
     {
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Kemi Badenoch",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:person:King Charles III",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -49123,6 +49672,12 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:product:Testifly",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:product:WeWeb MCP",
       "relation": "co-occurs",
       "weight": "1"
@@ -49286,6 +49841,18 @@
     {
       "source": "info:entity:company:Rockstar Games",
       "target": "info:entity:product:Grand Theft Auto 6",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Ryanair",
+      "target": "info:entity:model:Gemini",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Ryanair",
+      "target": "info:entity:organization:Polish Interior Ministry",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -49706,6 +50273,18 @@
     {
       "source": "info:entity:concept:AI data centers",
       "target": "info:entity:person:Sam Altman",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:AI tool compromise",
+      "target": "info:entity:organization:Lazarus Group",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:AI tool compromise",
+      "target": "info:entity:region:North Korea",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -50870,6 +51449,18 @@
     {
       "source": "info:entity:concept:Super Intelligence (SI)",
       "target": "info:entity:person:Klara Herman",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Transatlantic Slave Trade",
+      "target": "info:entity:person:Ed Miliband",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Transatlantic Slave Trade",
+      "target": "info:entity:person:King Charles III",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -52093,6 +52684,12 @@
     },
     {
       "source": "info:entity:model:Gemini",
+      "target": "info:entity:organization:Polish Interior Ministry",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
       "target": "info:entity:organization:Progressive Party of Serbia",
       "relation": "co-occurs",
       "weight": "1"
@@ -52688,6 +53285,12 @@
     {
       "source": "info:entity:model:Google Gemini 3.8",
       "target": "info:entity:product:Opengeni",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Google Gemini 3.8",
+      "target": "info:entity:product:Testifly",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -54156,6 +54759,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Conservatives",
+      "target": "info:entity:organization:Home Office",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Conservatives",
+      "target": "info:entity:organization:Labour Party",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Conservatives",
+      "target": "info:entity:person:Shabana Mahmood",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Cornell University",
       "target": "info:entity:person:Jane Doe",
       "relation": "co-occurs",
@@ -55485,7 +56106,7 @@
       "source": "info:entity:organization:Home Office",
       "target": "info:entity:organization:Labour Party",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Home Office",
@@ -55521,7 +56142,7 @@
       "source": "info:entity:organization:Home Office",
       "target": "info:entity:person:Shabana Mahmood",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:organization:Hong Kong Alliance (HKA)",
@@ -56469,7 +57090,7 @@
       "source": "info:entity:organization:Labour Party",
       "target": "info:entity:person:Shabana Mahmood",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:organization:Labour Party",
@@ -56516,6 +57137,12 @@
     {
       "source": "info:entity:organization:Lazarus Group",
       "target": "info:entity:product:Tether (USDT)",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Lazarus Group",
+      "target": "info:entity:region:North Korea",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -57672,6 +58299,30 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:People's Party (PP)",
+      "target": "info:entity:organization:Renfe",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:People's Party (PP)",
+      "target": "info:entity:organization:Vox",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:People's Party (PP)",
+      "target": "info:entity:person:Pedro Sánchez",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:People's Party (PP)",
+      "target": "info:entity:person:Óscar Puente",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Philippine Coast Guard",
       "target": "info:entity:person:Marlon Magbanua",
       "relation": "co-occurs",
@@ -57985,9 +58636,15 @@
     },
     {
       "source": "info:entity:organization:Renfe",
-      "target": "info:entity:person:Pedro Sánchez",
+      "target": "info:entity:organization:Vox",
       "relation": "co-occurs",
       "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Renfe",
+      "target": "info:entity:person:Pedro Sánchez",
+      "relation": "co-occurs",
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Renfe",
@@ -57999,7 +58656,7 @@
       "source": "info:entity:organization:Renfe",
       "target": "info:entity:person:Óscar Puente",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:organization:Resolution Foundation",
@@ -59469,7 +60126,13 @@
       "source": "info:entity:organization:Vox",
       "target": "info:entity:person:Pedro Sánchez",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
+    },
+    {
+      "source": "info:entity:organization:Vox",
+      "target": "info:entity:person:Óscar Puente",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:organization:Vox",
@@ -61141,6 +61804,12 @@
     },
     {
       "source": "info:entity:person:Ed Miliband",
+      "target": "info:entity:person:King Charles III",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Ed Miliband",
       "target": "info:entity:region:East Jerusalem",
       "relation": "co-occurs",
       "weight": "1"
@@ -62253,7 +62922,7 @@
       "source": "info:entity:person:Pedro Sánchez",
       "target": "info:entity:person:Óscar Puente",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Pedro Sánchez",
