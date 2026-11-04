@@ -10409,6 +10409,27 @@
       "name": "Testifly"
     },
     {
+      "id": "info:item:world:global:2026-11-04-007",
+      "type": "item",
+      "date": "2026-11-04",
+      "title": "South Carolina elects Democratic senator for first time in almost three decades"
+    },
+    {
+      "id": "info:entity:person:Annie Andrews",
+      "type": "person",
+      "name": "Annie Andrews"
+    },
+    {
+      "id": "info:entity:person:Darline Graham",
+      "type": "person",
+      "name": "Darline Graham"
+    },
+    {
+      "id": "taxonomy/misc/US Senate elections",
+      "type": "taxonomy",
+      "name": "US Senate elections"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -46315,6 +46336,66 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-11-04-007",
+      "target": "info:entity:person:Annie Andrews",
+      "relation": "Democratic Senate candidate and projected winner"
+    },
+    {
+      "source": "info:item:world:global:2026-11-04-007",
+      "target": "info:entity:person:Darline Graham",
+      "relation": "Appointed Republican incumbent and Trump‑backed candidate"
+    },
+    {
+      "source": "info:item:world:global:2026-11-04-007",
+      "target": "info:entity:person:Lindsey Graham",
+      "relation": "Former Republican senator whose death triggered the appointment"
+    },
+    {
+      "source": "info:item:world:global:2026-11-04-007",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "Former President who endorsed Darline Graham"
+    },
+    {
+      "source": "info:item:world:global:2026-11-04-007",
+      "target": "info:item:world:global:2026-11-04-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-04-007",
+      "target": "info:item:world:global:2026-11-04-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-04-007",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-04-007",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-04-007",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-04-007",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-04-007",
+      "target": "taxonomy/misc/US Senate elections",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-04-007",
+      "target": "taxonomy/misc/Geopolitics",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -60783,6 +60864,24 @@
       "weight": "2"
     },
     {
+      "source": "info:entity:person:Annie Andrews",
+      "target": "info:entity:person:Darline Graham",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Annie Andrews",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Annie Andrews",
+      "target": "info:entity:person:Lindsey Graham",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:person:Anoushka Mutanda-Dougherty",
       "target": "info:entity:person:Duane \"Keffe D\" Davis",
       "relation": "co-occurs",
@@ -61347,6 +61446,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:person:Darline Graham",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Darline Graham",
+      "target": "info:entity:person:Lindsey Graham",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:person:Delcy Rodriguez",
       "target": "info:entity:person:Donald Trump",
       "relation": "co-occurs",
@@ -61536,7 +61647,7 @@
       "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:Lindsey Graham",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:person:Donald Trump",

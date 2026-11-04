@@ -1,14 +1,14 @@
 {
   "world-news": {
-    "last_fetched": "2026-11-04T03:04:12+00:00",
+    "last_fetched": "2026-11-04T07:23:53+00:00",
     "candidates_found": 8,
-    "items_published": 3,
+    "items_published": 1,
     "last_error": null,
     "grounding_failures": 0,
     "grounding_scores": []
   },
   "tech-news": {
-    "last_fetched": "2026-11-04T03:04:19+00:00",
+    "last_fetched": "2026-11-04T07:23:55+00:00",
     "candidates_found": 8,
     "items_published": 0,
     "last_error": null,
@@ -16,17 +16,17 @@
     "grounding_scores": []
   },
   "politics": {
-    "last_fetched": "2026-11-04T03:06:07+00:00",
+    "last_fetched": "2026-11-04T07:23:55+00:00",
     "candidates_found": 8,
-    "items_published": 2,
+    "items_published": 0,
     "last_error": null,
     "grounding_failures": 0,
     "grounding_scores": []
   },
   "products": {
-    "last_fetched": "2026-11-04T03:07:43+00:00",
+    "last_fetched": "2026-11-04T07:23:56+00:00",
     "candidates_found": 8,
-    "items_published": 1,
+    "items_published": 0,
     "last_error": null,
     "grounding_failures": 0,
     "grounding_scores": []
@@ -34,12 +34,6 @@
   "feeds.bbci.co.uk": {
     "grounding_scores": [
       1.0,
-      1.0,
-      1.0,
-      0.833,
-      0.833,
-      1.0,
-      1.0,
       0.833,
       0.833,
       1.0,
@@ -73,6 +67,12 @@
       1.0,
       1.0,
       0.833,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
       1.0,
       1.0,
       1.0,
@@ -84,18 +84,18 @@
       1.0,
       1.0
     ],
-    "avg_grounding_score": 0.97,
+    "avg_grounding_score": 0.977,
     "grounding_failures": 5
   },
   "producthunt.com": {
     "grounding_scores": [
-      0.167,
       0.0,
       0.167,
       0.0,
       0.167,
       0.0,
       0.167,
+      0.0,
       0.0,
       0.0,
       0.0,
@@ -140,8 +140,8 @@
       0.0,
       0.0
     ],
-    "grounding_failures": 230,
-    "avg_grounding_score": 0.013
+    "grounding_failures": 231,
+    "avg_grounding_score": 0.01
   },
   "arXiv": {
     "grounding_scores": [

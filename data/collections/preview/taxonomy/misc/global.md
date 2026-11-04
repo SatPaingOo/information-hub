@@ -1,7 +1,7 @@
 ---
 node: "Global"
 layer: misc
-item_count: 555
+item_count: 556
 ---
 
 # Global
@@ -31,6 +31,7 @@ item_count: 555
 - 2026-11-04 · [[2026-11-04-004-miliband-says-slavery-apology-will-not-bring-cost-for-uk]] — Miliband says slavery apology will not bring cost for UK taxpayers
 - 2026-11-04 · [[2026-11-04-005-mahmood-refuses-to-put-cost-on-care-worker-settlement]] — Mahmood refuses to put cost on care worker settlement climbdown
 - 2026-11-04 · [[2026-11-04-006-testifly]] — Testifly
+- 2026-11-04 · [[2026-11-04-007-south-carolina-elects-democratic-senator-for-first-time-in]] — South Carolina elects Democratic senator for first time in almost three decades
 - 2026-11-03 · [[2026-11-03-001-russian-bombing-kills-26-people-at-ukraine-aid-centre-kyiv]] — Russian bombing kills 26 people at Ukraine aid centre, Kyiv says
 - 2026-11-03 · [[2026-11-03-002-thousands-of-european-troops-to-rehearse-ukraine]] — Thousands of European troops to rehearse Ukraine deployment in event of peace
 - 2026-11-03 · [[2026-11-03-003-plane-may-have-broken-apart-ahead-of-deadly-florida-jet]] — Plane may have broken apart ahead of deadly Florida jet crash, say investigators
