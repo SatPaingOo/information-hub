@@ -1,5 +1,256 @@
 [
   {
+    "id": "info:item:world:global:2026-11-05-001",
+    "key": "2026-11-05-001",
+    "date": "2026-11-05",
+    "collection": "world-news",
+    "content_type": "digest",
+    "topic": "world",
+    "region": "global",
+    "categories": [
+      "policy",
+      "industry"
+    ],
+    "title": "'This is a disaster': Angry Republicans blame Trump for midterms defeat",
+    "tldr": "Republicans are turning on former President Donald Trump after the 2026 midterms, accusing him of costing the party control of Congress through his legacy‑driven agenda and indifference to voter concerns.",
+    "source": "feeds.bbci.co.uk",
+    "source_url": "https://www.bbc.co.uk/news/articles/c6x29rr8djy3o?at_medium=RSS&at_campaign=rss",
+    "entities": [
+      "Donald Trump",
+      "Bill Miller",
+      "JD Vance",
+      "MAGA Inc."
+    ],
+    "tags": [
+      "midterms",
+      "Republican",
+      "Trump",
+      "Democrats",
+      "US politics",
+      "election analysis"
+    ],
+    "word_count": 828,
+    "provider": "openrouter",
+    "model": "cohere/north-mini-code:free",
+    "verify": "lexical",
+    "file": "collections/data-set/2026-11-05-001-this-is-a-disaster-angry-republicans-blame-trump-for.json"
+  },
+  {
+    "id": "info:item:world:global:2026-11-05-002",
+    "key": "2026-11-05-002",
+    "date": "2026-11-05",
+    "collection": "world-news",
+    "content_type": "digest",
+    "topic": "world",
+    "region": "global",
+    "categories": [
+      "policy",
+      "industry"
+    ],
+    "title": "US midterm results a 'victory' for Canadians hopeful of tariff relief",
+    "tldr": "Canadian leaders see the Democratic midterm sweep as a political opening for tariff relief, though immediate changes are unlikely. The new congressional balance may improve Ottawa’s leverage as on‑again‑off‑again trade talks resume, but many tariffs remain under executive authority.",
+    "source": "feeds.bbci.co.uk",
+    "source_url": "https://www.bbc.co.uk/news/articles/cqev3mw3e0kdo?at_medium=RSS&at_campaign=rss",
+    "entities": [
+      "Doug Ford",
+      "Mark Carney",
+      "Dominic LeBlanc",
+      "Donald Trump"
+    ],
+    "tags": [
+      "tariffs",
+      "Canada‑U.S. trade",
+      "midterm elections",
+      "policy"
+    ],
+    "word_count": 630,
+    "provider": "openrouter",
+    "model": "cohere/north-mini-code:free",
+    "verify": "lexical",
+    "file": "collections/data-set/2026-11-05-002-us-midterm-results-a-victory-for-canadians-hopeful-of.json"
+  },
+  {
+    "id": "info:item:world:global:2026-11-05-003",
+    "key": "2026-11-05-003",
+    "date": "2026-11-05",
+    "collection": "world-news",
+    "content_type": "digest",
+    "topic": "world",
+    "region": "global",
+    "categories": [
+      "policy",
+      "industry"
+    ],
+    "title": "Ukraine says bodycam video shows deadly Russian double-tap bombing",
+    "tldr": "Ukrainian police released a body‑cam video showing two successive Russian glide‑bomb strikes on a shelter in Kamyshuvakha, killing at least 40 civilians. President Zelensky highlighted the attack as another war crime and noted the world's muted response, while diplomatic talks continue in Abu Dhabi and Brussels.",
+    "source": "feeds.bbci.co.uk",
+    "source_url": "https://www.bbc.co.uk/news/articles/c98rz6penv86o?at_medium=RSS&at_campaign=rss",
+    "entities": [
+      "Volodymyr Zelensky",
+      "Vladimir Putin",
+      "Ukrainian Ministry of Digital Transformation"
+    ],
+    "tags": [
+      "double-tap strike",
+      "Ukraine war",
+      "humanitarian crisis",
+      "international law",
+      "war crimes",
+      "Russian aggression"
+    ],
+    "word_count": 794,
+    "provider": "openrouter",
+    "model": "cohere/north-mini-code:free",
+    "verify": "lexical",
+    "file": "collections/data-set/2026-11-05-003-ukraine-says-bodycam-video-shows-deadly-russian-double-tap.json"
+  },
+  {
+    "id": "info:item:politics:global:2026-11-05-004",
+    "key": "2026-11-05-004",
+    "date": "2026-11-05",
+    "collection": "politics",
+    "content_type": "digest",
+    "topic": "politics",
+    "region": "global",
+    "categories": [
+      "policy"
+    ],
+    "title": "UK commits to 'time‑bound' talks on slavery apology",
+    "tldr": "The United Kingdom has agreed to structured, time‑bound talks on the historical harms of the transatlantic slave trade, offering a potential formal apology while ruling out reparations. Diplomats say the dialogue, likely to conclude within a year, aims to address long‑standing demands for recognition and healing.",
+    "source": "feeds.bbci.co.uk",
+    "source_url": "https://www.bbc.co.uk/news/articles/cqdr872jkk7vo?at_medium=RSS&at_campaign=rss",
+    "entities": [
+      "Ed Miliband",
+      "Andy Burnham",
+      "King Charles III",
+      "OpenAI"
+    ],
+    "tags": [
+      "agentic AI",
+      "LLM",
+      "regulation",
+      "open-source",
+      "Commonwealth",
+      "human rights",
+      "UK politics"
+    ],
+    "word_count": 719,
+    "provider": "openrouter",
+    "model": "cohere/north-mini-code:free",
+    "verify": "lexical",
+    "file": "collections/data-set/2026-11-05-004-uk-commits-to-time-bound-talks-on-slavery-apology.json"
+  },
+  {
+    "id": "info:item:politics:global:2026-11-05-005",
+    "key": "2026-11-05-005",
+    "date": "2026-11-05",
+    "collection": "politics",
+    "content_type": "digest",
+    "topic": "politics",
+    "region": "global",
+    "categories": [
+      "policy"
+    ],
+    "title": "Time to focus on cost of living, says PM after US election results",
+    "tldr": "Prime Minister Andy Burnham urged a global shift toward addressing the cost of living crisis, citing the unresolved US‑Iran conflict as a key driver of rising fuel prices and economic pressure.",
+    "source": "feeds.bbci.co.uk",
+    "source_url": "https://www.bbc.co.uk/news/articles/c6kgl0xk8en9o?at_medium=RSS&at_campaign=rss",
+    "entities": [
+      "Andy Burnham",
+      "Donald Trump",
+      "Iran",
+      "Labour Party",
+      "Conservative Party"
+    ],
+    "tags": [
+      "cost of living",
+      "US elections",
+      "Iran conflict",
+      "UK policy",
+      "energy security"
+    ],
+    "word_count": 801,
+    "provider": "openrouter",
+    "model": "cohere/north-mini-code:free",
+    "verify": "lexical",
+    "file": "collections/data-set/2026-11-05-005-time-to-focus-on-cost-of-living-says-pm-after-us-election.json"
+  },
+  {
+    "id": "info:item:products:global:2026-11-05-006",
+    "key": "2026-11-05-006",
+    "date": "2026-11-05",
+    "collection": "products",
+    "content_type": "article",
+    "topic": "products",
+    "region": "global",
+    "categories": [
+      "product"
+    ],
+    "title": "Render Sandboxes – A Cloud‑Native Playground for Agentic AI",
+    "tldr": "Render Sandboxes offers developers a managed, container‑based environment that can host autonomous AI agents at scale. By coupling low‑latency networking with open‑source tooling, it lowers the barrier for LLM‑driven applications while surfacing new regulatory and security challenges.",
+    "source": "producthunt.com",
+    "source_url": "https://www.producthunt.com/products/render",
+    "entities": [
+      "Render",
+      "GPT‑4‑Turbo",
+      "Claude",
+      "Gemini",
+      "OpenAI",
+      "Anthropic"
+    ],
+    "tags": [
+      "Render",
+      "sandboxes",
+      "cloud",
+      "agentic AI",
+      "LLM",
+      "open-source",
+      "regulation",
+      "Zero‑Trust Mesh",
+      "GPU"
+    ],
+    "word_count": 673,
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "verify": "lexical",
+    "file": "collections/data-set/2026-11-05-006-render-sandboxes-a-cloud-native-playground-for-agentic-ai.json"
+  },
+  {
+    "id": "info:item:products:global:2026-11-05-007",
+    "key": "2026-11-05-007",
+    "date": "2026-11-05",
+    "collection": "products",
+    "content_type": "article",
+    "topic": "products",
+    "region": "global",
+    "categories": [
+      "product"
+    ],
+    "title": "Zero Wire: Cloudflare’s Agentic AI for CVE Exposure Scanning",
+    "tldr": "Zero Wire, a new Cloudflare product, leverages agentic AI to scan for critical CVEs in real time. By prompting a single agent, security teams can instantly assess exposure across their stack. The solution blends LLM-driven inference with automated remediation workflows, positioning it at the intersection of AI and cybersecurity.",
+    "source": "producthunt.com",
+    "source_url": "https://www.producthunt.com/products/cloudflare",
+    "entities": [
+      "Cloudflare",
+      "OpenAI",
+      "Anthropic",
+      "Zero Wire"
+    ],
+    "tags": [
+      "Zero Wire",
+      "Cloudflare",
+      "agentic AI",
+      "LLM",
+      "cybersecurity",
+      "regulation"
+    ],
+    "word_count": 650,
+    "provider": "groq",
+    "model": "openai/gpt-oss-20b",
+    "verify": "lexical",
+    "file": "collections/data-set/2026-11-05-007-zero-wire-cloudflare-s-agentic-ai-for-cve-exposure-scanning.json"
+  },
+  {
     "id": "info:item:world:global:2026-11-04-001",
     "key": "2026-11-04-001",
     "date": "2026-11-04",

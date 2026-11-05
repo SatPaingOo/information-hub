@@ -1,0 +1,20 @@
+2026-11-05 03:48:13,195 INFO [world-news] published 2026-11-05-001 — 'This is a disaster': Angry Republicans blame Trump for midt
+2026-11-05 03:48:43,931 INFO [world-news] published 2026-11-05-002 — US midterm results a 'victory' for Canadians hopeful of tari
+2026-11-05 03:49:41,361 INFO [world-news] published 2026-11-05-003 — Ukraine says bodycam video shows deadly Russian double-tap b
+2026-11-05 03:49:46,884 INFO [tech-news] nothing selected
+2026-11-05 03:50:33,216 INFO [politics] published 2026-11-05-004 — UK commits to 'time‑bound' talks on slavery apology
+2026-11-05 03:51:02,703 INFO [politics] attempt 1 invalid: ["entities/2/type: 'country' is not one of ['concept', 'company', 'model', 'person', 'product', 'region', 'organization', 'event']"]
+2026-11-05 03:51:39,137 INFO [politics] published 2026-11-05-005 — Time to focus on cost of living, says PM after US election r
+2026-11-05 03:51:45,827 INFO [products] published 2026-11-05-006 — Render Sandboxes – A Cloud‑Native Playground for Agentic AI
+2026-11-05 03:51:45,990 ERROR [products] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7973, Requested 6298. Please try again in 47.0325s. Need more tokens? Upgrade to Dev Tier today at https://co
+2026-11-05 03:51:51,710 INFO [products] published 2026-11-05-007 — Zero Wire: Cloudflare’s Agentic AI for CVE Exposure Scanning
+2026-11-05 03:51:52,198 INFO collect done: 7 item(s) published — target 3/10, next run ≈ 2026-11-05T04:00:03+00:00 UTC
+2026-11-05 03:52:35,894 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 2674, Requested 7335. Please try again in 15.067499999s. Need more tokens? Upgrade to Dev Tier today at https
+2026-11-05 03:52:38,968 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 1265, Requested 7964. Please try again in 9.2175s. Need more tokens? Upgrade to Dev Tier today at https://cons
+2026-11-05 03:52:44,970 WARNING [world-news] no collect provider for deep-dive
+2026-11-05 03:52:45,113 WARNING [world-news] no collect provider for deep-dive
+2026-11-05 03:52:45,263 WARNING [world-news] no collect provider for deep-dive
+2026-11-05 03:52:45,778 WARNING [tech-news] no collect provider available
+2026-11-05 03:52:46,144 WARNING [politics] no collect provider available
+2026-11-05 03:52:46,407 WARNING [products] no collect provider available
+2026-11-05 03:52:46,882 INFO collect done: 0 item(s) published — target 3/10, next run ≈ 2026-11-06T01:00:00+00:00 UTC

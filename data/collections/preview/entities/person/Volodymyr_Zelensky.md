@@ -1,7 +1,7 @@
 ---
 name: "Volodymyr Zelensky"
 entity_type: person
-backlink_count: 43
+backlink_count: 44
 ---
 
 # Volodymyr Zelensky
@@ -10,6 +10,7 @@ backlink_count: 43
 
 ## Referenced by
 
+- 2026-11-05 · [[2026-11-05-003-ukraine-says-bodycam-video-shows-deadly-russian-double-tap]] — Ukraine says bodycam video shows deadly Russian double-tap bombing
 - 2026-11-03 · [[2026-11-03-001-russian-bombing-kills-26-people-at-ukraine-aid-centre-kyiv]] — Russian bombing kills 26 people at Ukraine aid centre, Kyiv says
 - 2026-11-02 · [[2026-11-02-001-ukraine-air-raid-app-apparently-hacked-as-users-receive]] — Ukraine air raid app apparently hacked as users receive false radiation threat, Air Force says
 - 2026-11-02 · [[2026-11-02-002-russian-strikes-cut-power-to-thousands-in-ukraine-as]] — Russian strikes cut power to thousands in Ukraine as Kherson ceasefire ends

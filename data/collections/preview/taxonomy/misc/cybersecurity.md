@@ -1,7 +1,7 @@
 ---
 node: "Cybersecurity"
 layer: misc
-item_count: 6
+item_count: 7
 ---
 
 # Cybersecurity
@@ -16,6 +16,7 @@ item_count: 6
 
 ## Items
 
+- 2026-11-05 · [[2026-11-05-007-zero-wire-cloudflare-s-agentic-ai-for-cve-exposure-scanning]] — Zero Wire: Cloudflare’s Agentic AI for CVE Exposure Scanning
 - 2026-11-04 · [[2026-11-04-003-binance-says-fake-job-interviews-used-as-part-of-6-3bn]] — Binance says fake job interviews used as part of $6.3bn crypto hack
 - 2026-10-31 · [[2026-10-31-002-crypto-giant-binance-attempting-to-recover-6-3bn-stolen-in]] — Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea
 - 2026-10-06 · [[2026-10-06-007-openai-concedes-inadequate-response-to-australian]] — OpenAI Concedes Inadequate Response to Australian Government Hack, Promises New Safeguards

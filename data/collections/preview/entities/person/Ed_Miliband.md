@@ -1,7 +1,7 @@
 ---
 name: "Ed Miliband"
 entity_type: person
-backlink_count: 5
+backlink_count: 6
 ---
 
 # Ed Miliband
@@ -10,6 +10,7 @@ backlink_count: 5
 
 ## Referenced by
 
+- 2026-11-05 · [[2026-11-05-004-uk-commits-to-time-bound-talks-on-slavery-apology]] — UK commits to 'time‑bound' talks on slavery apology
 - 2026-11-04 · [[2026-11-04-004-miliband-says-slavery-apology-will-not-bring-cost-for-uk]] — Miliband says slavery apology will not bring cost for UK taxpayers
 - 2026-10-08 · [[2026-10-08-007-uk-says-vital-services-to-continue-in-east-jerusalem-as]] — UK says 'vital services' to continue in East Jerusalem as Israel says most consulate diplomats leaving
 - 2026-10-03 · [[2026-10-03-001-g7-to-release-millions-of-barrels-of-oil-and-diesel-after]] — G7 to release millions of barrels of oil and diesel after Trump threat

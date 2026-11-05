@@ -1,7 +1,7 @@
 ---
 name: "OpenAI"
 entity_type: company
-backlink_count: 172
+backlink_count: 175
 ---
 
 # OpenAI
@@ -10,6 +10,9 @@ backlink_count: 172
 
 ## Referenced by
 
+- 2026-11-05 · [[2026-11-05-004-uk-commits-to-time-bound-talks-on-slavery-apology]] — UK commits to 'time‑bound' talks on slavery apology
+- 2026-11-05 · [[2026-11-05-006-render-sandboxes-a-cloud-native-playground-for-agentic-ai]] — Render Sandboxes – A Cloud‑Native Playground for Agentic AI
+- 2026-11-05 · [[2026-11-05-007-zero-wire-cloudflare-s-agentic-ai-for-cve-exposure-scanning]] — Zero Wire: Cloudflare’s Agentic AI for CVE Exposure Scanning
 - 2026-11-04 · [[2026-11-04-002-seven-flights-across-europe-targeted-by-suspected-bomb]] — Seven flights across Europe targeted by suspected bomb threats
 - 2026-11-04 · [[2026-11-04-004-miliband-says-slavery-apology-will-not-bring-cost-for-uk]] — Miliband says slavery apology will not bring cost for UK taxpayers
 - 2026-11-04 · [[2026-11-04-006-testifly]] — Testifly

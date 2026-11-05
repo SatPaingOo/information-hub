@@ -1,7 +1,7 @@
 ---
 name: "Donald Trump"
 entity_type: person
-backlink_count: 79
+backlink_count: 82
 ---
 
 # Donald Trump
@@ -10,6 +10,9 @@ backlink_count: 79
 
 ## Referenced by
 
+- 2026-11-05 · [[2026-11-05-001-this-is-a-disaster-angry-republicans-blame-trump-for]] — 'This is a disaster': Angry Republicans blame Trump for midterms defeat
+- 2026-11-05 · [[2026-11-05-002-us-midterm-results-a-victory-for-canadians-hopeful-of]] — US midterm results a 'victory' for Canadians hopeful of tariff relief
+- 2026-11-05 · [[2026-11-05-005-time-to-focus-on-cost-of-living-says-pm-after-us-election]] — Time to focus on cost of living, says PM after US election results
 - 2026-11-04 · [[2026-11-04-007-south-carolina-elects-democratic-senator-for-first-time-in]] — South Carolina elects Democratic senator for first time in almost three decades
 - 2026-10-29 · [[2026-10-29-003-fl-vio-bolsonaro-denies-fleeing-brazil-after-landing-in]] — Flávio Bolsonaro denies fleeing Brazil after landing in Miami
 - 2026-10-28 · [[2026-10-28-008-lula-s-comeback-in-brazil-dents-trump-s-ambitions-for]] — Lula's comeback in Brazil dents Trump's ambitions for Latin America

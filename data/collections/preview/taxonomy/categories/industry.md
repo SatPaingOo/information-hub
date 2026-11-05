@@ -1,7 +1,7 @@
 ---
 node: "industry"
 layer: category
-item_count: 362
+item_count: 367
 ---
 
 # industry
@@ -21,6 +21,11 @@ item_count: 362
 
 ## Items
 
+- 2026-11-05 · [[2026-11-05-001-this-is-a-disaster-angry-republicans-blame-trump-for]] — 'This is a disaster': Angry Republicans blame Trump for midterms defeat
+- 2026-11-05 · [[2026-11-05-001-this-is-a-disaster-angry-republicans-blame-trump-for]] — 'This is a disaster': Angry Republicans blame Trump for midterms defeat
+- 2026-11-05 · [[2026-11-05-002-us-midterm-results-a-victory-for-canadians-hopeful-of]] — US midterm results a 'victory' for Canadians hopeful of tariff relief
+- 2026-11-05 · [[2026-11-05-003-ukraine-says-bodycam-video-shows-deadly-russian-double-tap]] — Ukraine says bodycam video shows deadly Russian double-tap bombing
+- 2026-11-05 · [[2026-11-05-003-ukraine-says-bodycam-video-shows-deadly-russian-double-tap]] — Ukraine says bodycam video shows deadly Russian double-tap bombing
 - 2026-11-04 · [[2026-11-04-001-spanish-transport-minister-resigns-days-after-deadly-train]] — Spanish transport minister resigns days after deadly train crash
 - 2026-11-04 · [[2026-11-04-002-seven-flights-across-europe-targeted-by-suspected-bomb]] — Seven flights across Europe targeted by suspected bomb threats
 - 2026-11-04 · [[2026-11-04-002-seven-flights-across-europe-targeted-by-suspected-bomb]] — Seven flights across Europe targeted by suspected bomb threats

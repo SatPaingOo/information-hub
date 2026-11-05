@@ -10430,6 +10430,83 @@
       "name": "US Senate elections"
     },
     {
+      "id": "info:item:world:global:2026-11-05-001",
+      "type": "item",
+      "date": "2026-11-05",
+      "title": "'This is a disaster': Angry Republicans blame Trump for midterms defeat"
+    },
+    {
+      "id": "info:entity:person:Bill Miller",
+      "type": "person",
+      "name": "Bill Miller"
+    },
+    {
+      "id": "info:entity:organization:MAGA Inc.",
+      "type": "organization",
+      "name": "MAGA Inc."
+    },
+    {
+      "id": "info:item:world:global:2026-11-05-002",
+      "type": "item",
+      "date": "2026-11-05",
+      "title": "US midterm results a 'victory' for Canadians hopeful of tariff relief"
+    },
+    {
+      "id": "info:item:world:global:2026-11-05-003",
+      "type": "item",
+      "date": "2026-11-05",
+      "title": "Ukraine says bodycam video shows deadly Russian double-tap bombing"
+    },
+    {
+      "id": "info:item:politics:global:2026-11-05-004",
+      "type": "item",
+      "date": "2026-11-05",
+      "title": "UK commits to 'time‑bound' talks on slavery apology"
+    },
+    {
+      "id": "info:item:politics:global:2026-11-05-005",
+      "type": "item",
+      "date": "2026-11-05",
+      "title": "Time to focus on cost of living, says PM after US election results"
+    },
+    {
+      "id": "info:item:products:global:2026-11-05-006",
+      "type": "item",
+      "date": "2026-11-05",
+      "title": "Render Sandboxes – A Cloud‑Native Playground for Agentic AI"
+    },
+    {
+      "id": "info:entity:company:Render",
+      "type": "company",
+      "name": "Render"
+    },
+    {
+      "id": "taxonomy/misc/cloud computing",
+      "type": "taxonomy",
+      "name": "cloud computing"
+    },
+    {
+      "id": "taxonomy/misc/developer tools",
+      "type": "taxonomy",
+      "name": "developer tools"
+    },
+    {
+      "id": "info:item:products:global:2026-11-05-007",
+      "type": "item",
+      "date": "2026-11-05",
+      "title": "Zero Wire: Cloudflare’s Agentic AI for CVE Exposure Scanning"
+    },
+    {
+      "id": "info:entity:company:Cloudflare",
+      "type": "company",
+      "name": "Cloudflare"
+    },
+    {
+      "id": "info:entity:product:Zero Wire",
+      "type": "product",
+      "name": "Zero Wire"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -46396,6 +46473,451 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-11-05-001",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "former president blamed for midterm losses"
+    },
+    {
+      "source": "info:item:world:global:2026-11-05-001",
+      "target": "info:entity:person:Bill Miller",
+      "relation": "Texas Republican lobbyist quoting disaster"
+    },
+    {
+      "source": "info:item:world:global:2026-11-05-001",
+      "target": "info:entity:person:JD Vance",
+      "relation": "potential 2028 Republican alternative"
+    },
+    {
+      "source": "info:item:world:global:2026-11-05-001",
+      "target": "info:entity:organization:MAGA Inc.",
+      "relation": "principal Trump‑aligned Super PAC that funded Republican candidates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-05-001",
+      "target": "info:item:world:global:2026-11-04-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-05-001",
+      "target": "info:item:world:global:2026-11-04-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-05-001",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-05-001",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-05-001",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-05-001",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-05-001",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-05-001",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-05-001",
+      "target": "taxonomy/category/industry",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-05-002",
+      "target": "info:entity:person:Doug Ford",
+      "relation": "Ontario Premier who hailed the midterm result as a victory for Canada"
+    },
+    {
+      "source": "info:item:world:global:2026-11-05-002",
+      "target": "info:entity:person:Mark Carney",
+      "relation": "Canadian Prime Minister who signaled optimism in Canada‑U.S. trade talks"
+    },
+    {
+      "source": "info:item:world:global:2026-11-05-002",
+      "target": "info:entity:person:Dominic LeBlanc",
+      "relation": "Canadian Trade Minister commenting on the midterm impact"
+    },
+    {
+      "source": "info:item:world:global:2026-11-05-002",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "U.S. President who imposed tariffs and warned of further escalations"
+    },
+    {
+      "source": "info:item:world:global:2026-11-05-002",
+      "target": "info:item:world:global:2026-11-05-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-05-002",
+      "target": "info:item:world:global:2026-11-04-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-05-002",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-05-002",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-05-002",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-05-002",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-05-002",
+      "target": "taxonomy/topic/world",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-05-002",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-05-002",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-05-003",
+      "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "President of Ukraine"
+    },
+    {
+      "source": "info:item:world:global:2026-11-05-003",
+      "target": "info:entity:person:Vladimir Putin",
+      "relation": "President of Russia"
+    },
+    {
+      "source": "info:item:world:global:2026-11-05-003",
+      "target": "info:entity:organization:Ukrainian Ministry of Digital Transformation",
+      "relation": "coordinated release of body‑cam evidence"
+    },
+    {
+      "source": "info:item:world:global:2026-11-05-003",
+      "target": "info:item:world:global:2026-11-05-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-05-003",
+      "target": "info:item:world:global:2026-11-04-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-05-003",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-05-003",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-05-003",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-05-003",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-05-003",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-05-003",
+      "target": "taxonomy/category/industry",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-05-003",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-05-004",
+      "target": "info:entity:person:Ed Miliband",
+      "relation": "UK Foreign Secretary overseeing the slavery talks"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-05-004",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "Prime Minister of the UK who announced possible formal apology"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-05-004",
+      "target": "info:entity:person:King Charles III",
+      "relation": "Head of the Commonwealth who acknowledged the slave trade's legacy"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-05-004",
+      "target": "info:entity:company:OpenAI",
+      "relation": "AI model provider referenced in editorial priorities for related technology discussions"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-05-004",
+      "target": "info:item:politics:global:2026-11-04-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-05-004",
+      "target": "info:item:politics:global:2026-11-03-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-05-004",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-05-004",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-05-004",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-05-004",
+      "target": "taxonomy/topic/politics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-05-004",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-05-004",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-05-005",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "UK Prime Minister calling for global focus on cost of living"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-05-005",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "US President acknowledging fuel price impact of Iran conflict"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-05-005",
+      "target": "info:entity:region:Iran",
+      "relation": "source of geopolitical tension affecting oil prices"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-05-005",
+      "target": "info:entity:organization:Labour Party",
+      "relation": "UK governing party under Burnham"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-05-005",
+      "target": "info:entity:organization:Conservative Party",
+      "relation": "US opposition party in midterm elections"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-05-005",
+      "target": "info:item:politics:global:2026-11-05-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-05-005",
+      "target": "info:item:politics:global:2026-11-04-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-05-005",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-05-005",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-05-005",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-05-005",
+      "target": "taxonomy/topic/politics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-05-005",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-05-005",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-11-05-006",
+      "target": "info:entity:company:Render",
+      "relation": "provider of cloud sandbox platform"
+    },
+    {
+      "source": "info:item:products:global:2026-11-05-006",
+      "target": "info:entity:model:GPT‑4‑Turbo",
+      "relation": "supported LLM"
+    },
+    {
+      "source": "info:item:products:global:2026-11-05-006",
+      "target": "info:entity:model:Claude",
+      "relation": "supported LLM"
+    },
+    {
+      "source": "info:item:products:global:2026-11-05-006",
+      "target": "info:entity:model:Gemini",
+      "relation": "supported LLM"
+    },
+    {
+      "source": "info:item:products:global:2026-11-05-006",
+      "target": "info:entity:company:OpenAI",
+      "relation": "competitor and model provider"
+    },
+    {
+      "source": "info:item:products:global:2026-11-05-006",
+      "target": "info:entity:company:Anthropic",
+      "relation": "competitor and model provider"
+    },
+    {
+      "source": "info:item:products:global:2026-11-05-006",
+      "target": "info:item:products:global:2026-11-04-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-11-05-006",
+      "target": "info:item:products:global:2026-11-03-007",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-11-05-006",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-11-05-006",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-11-05-006",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-11-05-006",
+      "target": "taxonomy/misc/cloud computing",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-11-05-006",
+      "target": "taxonomy/misc/artificial intelligence",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-11-05-006",
+      "target": "taxonomy/misc/developer tools",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-11-05-007",
+      "target": "info:entity:company:Cloudflare",
+      "relation": "developer"
+    },
+    {
+      "source": "info:item:products:global:2026-11-05-007",
+      "target": "info:entity:company:OpenAI",
+      "relation": "LLM competitor"
+    },
+    {
+      "source": "info:item:products:global:2026-11-05-007",
+      "target": "info:entity:company:Anthropic",
+      "relation": "LLM competitor"
+    },
+    {
+      "source": "info:item:products:global:2026-11-05-007",
+      "target": "info:entity:product:Zero Wire",
+      "relation": "subject"
+    },
+    {
+      "source": "info:item:products:global:2026-11-05-007",
+      "target": "info:item:products:global:2026-11-05-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-11-05-007",
+      "target": "info:item:products:global:2026-11-04-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-11-05-007",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-11-05-007",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-11-05-007",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-11-05-007",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-11-05-007",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-11-05-007",
+      "target": "taxonomy/misc/cybersecurity",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -46657,6 +47179,12 @@
     },
     {
       "source": "info:entity:company:Anthropic",
+      "target": "info:entity:company:Cloudflare",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:Gemini",
       "relation": "co-occurs",
       "weight": "1"
@@ -46719,11 +47247,17 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
-      "weight": "82"
+      "weight": "84"
     },
     {
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:OpenObserve",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:company:Render",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -46869,7 +47403,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:model:Claude",
       "relation": "co-occurs",
-      "weight": "4"
+      "weight": "5"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -46917,7 +47451,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:model:GPT‑4‑Turbo",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -46929,7 +47463,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "35"
+      "weight": "36"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -47431,6 +47965,12 @@
     },
     {
       "source": "info:entity:company:Anthropic",
+      "target": "info:entity:product:Zero Wire",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
       "target": "info:entity:region:China",
       "relation": "co-occurs",
       "weight": "1"
@@ -47660,6 +48200,18 @@
     {
       "source": "info:entity:company:Canva",
       "target": "info:entity:model:OpenAI",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Cloudflare",
+      "target": "info:entity:company:OpenAI",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Cloudflare",
+      "target": "info:entity:product:Zero Wire",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -48625,6 +49177,12 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:company:Render",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:company:Ryanair",
       "relation": "co-occurs",
       "weight": "1"
@@ -48789,7 +49347,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:model:Claude",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -48837,7 +49395,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:model:GPT‑4‑Turbo",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -48849,7 +49407,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "61"
+      "weight": "62"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -49221,7 +49779,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
-      "weight": "8"
+      "weight": "9"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -49335,7 +49893,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Ed Miliband",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -49437,7 +49995,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:King Charles III",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -49771,6 +50329,12 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:product:Zero Wire",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:region:Diego Garcia",
       "relation": "co-occurs",
       "weight": "1"
@@ -49880,6 +50444,24 @@
     {
       "source": "info:entity:company:Product Hunt",
       "target": "info:entity:product:SimpleSpread",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Render",
+      "target": "info:entity:model:Claude",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Render",
+      "target": "info:entity:model:GPT‑4‑Turbo",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Render",
+      "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -52335,7 +52917,7 @@
       "source": "info:entity:model:Claude",
       "target": "info:entity:model:GPT‑4‑Turbo",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:model:Claude",
@@ -52347,7 +52929,7 @@
       "source": "info:entity:model:Claude",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:model:Claude",
@@ -52592,6 +53174,12 @@
     {
       "source": "info:entity:model:GPT‑4",
       "target": "info:entity:product:Relaticle",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:GPT‑4‑Turbo",
+      "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -54717,7 +55305,7 @@
       "source": "info:entity:organization:Conservative Party",
       "target": "info:entity:organization:Labour Party",
       "relation": "co-occurs",
-      "weight": "11"
+      "weight": "12"
     },
     {
       "source": "info:entity:organization:Conservative Party",
@@ -54771,7 +55359,7 @@
       "source": "info:entity:organization:Conservative Party",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
-      "weight": "8"
+      "weight": "9"
     },
     {
       "source": "info:entity:organization:Conservative Party",
@@ -54782,6 +55370,12 @@
     {
       "source": "info:entity:organization:Conservative Party",
       "target": "info:entity:person:Chris Philp",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Conservative Party",
+      "target": "info:entity:person:Donald Trump",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -54830,6 +55424,12 @@
     {
       "source": "info:entity:organization:Conservative Party",
       "target": "info:entity:person:Wes Streeting",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Conservative Party",
+      "target": "info:entity:region:Iran",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -57069,7 +57669,7 @@
       "source": "info:entity:organization:Labour Party",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
-      "weight": "18"
+      "weight": "19"
     },
     {
       "source": "info:entity:organization:Labour Party",
@@ -57104,6 +57704,12 @@
     {
       "source": "info:entity:organization:Labour Party",
       "target": "info:entity:person:Christopher Harborne",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Labour Party",
+      "target": "info:entity:person:Donald Trump",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -57190,6 +57796,12 @@
       "target": "info:entity:person:Zack Polanski",
       "relation": "co-occurs",
       "weight": "4"
+    },
+    {
+      "source": "info:entity:organization:Labour Party",
+      "target": "info:entity:region:Iran",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:organization:Lahore Deputy Commissioner Office",
@@ -57332,6 +57944,24 @@
     {
       "source": "info:entity:organization:MA Holdings",
       "target": "info:entity:person:Mothin Ali",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:MAGA Inc.",
+      "target": "info:entity:person:Bill Miller",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:MAGA Inc.",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:MAGA Inc.",
+      "target": "info:entity:person:JD Vance",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -59785,9 +60415,15 @@
     },
     {
       "source": "info:entity:organization:Ukrainian Ministry of Digital Transformation",
-      "target": "info:entity:person:Volodymyr Zelensky",
+      "target": "info:entity:person:Vladimir Putin",
       "relation": "co-occurs",
       "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Ukrainian Ministry of Digital Transformation",
+      "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "co-occurs",
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Ukrenergo",
@@ -60543,11 +61179,17 @@
       "source": "info:entity:person:Andy Burnham",
       "target": "info:entity:person:Donald Trump",
       "relation": "co-occurs",
-      "weight": "6"
+      "weight": "7"
     },
     {
       "source": "info:entity:person:Andy Burnham",
       "target": "info:entity:person:Ed Davey",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Andy Burnham",
+      "target": "info:entity:person:Ed Miliband",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -60609,7 +61251,7 @@
       "source": "info:entity:person:Andy Burnham",
       "target": "info:entity:person:King Charles III",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Andy Burnham",
@@ -60789,7 +61431,7 @@
       "source": "info:entity:person:Andy Burnham",
       "target": "info:entity:region:Iran",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Andy Burnham",
@@ -61124,6 +61766,18 @@
     {
       "source": "info:entity:person:Bill Lee",
       "target": "info:entity:person:Frank Strada",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Bill Miller",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Bill Miller",
+      "target": "info:entity:person:JD Vance",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -61479,6 +62133,12 @@
       "source": "info:entity:person:Dominic LeBlanc",
       "target": "info:entity:person:Donald Trump",
       "relation": "co-occurs",
+      "weight": "2"
+    },
+    {
+      "source": "info:entity:person:Dominic LeBlanc",
+      "target": "info:entity:person:Doug Ford",
+      "relation": "co-occurs",
       "weight": "1"
     },
     {
@@ -61491,7 +62151,7 @@
       "source": "info:entity:person:Dominic LeBlanc",
       "target": "info:entity:person:Mark Carney",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Dominic LeBlanc",
@@ -61503,7 +62163,7 @@
       "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:Doug Ford",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Donald Trump",
@@ -61557,7 +62217,7 @@
       "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:JD Vance",
       "relation": "co-occurs",
-      "weight": "4"
+      "weight": "5"
     },
     {
       "source": "info:entity:person:Donald Trump",
@@ -61665,7 +62325,7 @@
       "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:Mark Carney",
       "relation": "co-occurs",
-      "weight": "8"
+      "weight": "9"
     },
     {
       "source": "info:entity:person:Donald Trump",
@@ -61821,7 +62481,7 @@
       "source": "info:entity:person:Donald Trump",
       "target": "info:entity:region:Iran",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:person:Donald Trump",
@@ -61851,7 +62511,7 @@
       "source": "info:entity:person:Doug Ford",
       "target": "info:entity:person:Mark Carney",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Dr. Rajeev Lochan",
@@ -61917,7 +62577,7 @@
       "source": "info:entity:person:Ed Miliband",
       "target": "info:entity:person:King Charles III",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Ed Miliband",
@@ -63225,7 +63885,7 @@
       "source": "info:entity:person:Vladimir Putin",
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
-      "weight": "19"
+      "weight": "20"
     },
     {
       "source": "info:entity:person:Vladimir Putin",

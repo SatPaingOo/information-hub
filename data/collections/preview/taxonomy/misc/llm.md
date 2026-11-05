@@ -1,7 +1,7 @@
 ---
 node: "LLM"
 layer: misc
-item_count: 91
+item_count: 92
 ---
 
 # LLM
@@ -17,6 +17,7 @@ item_count: 91
 
 ## Items
 
+- 2026-11-05 · [[2026-11-05-007-zero-wire-cloudflare-s-agentic-ai-for-cve-exposure-scanning]] — Zero Wire: Cloudflare’s Agentic AI for CVE Exposure Scanning
 - 2026-11-04 · [[2026-11-04-006-testifly]] — Testifly
 - 2026-11-03 · [[2026-11-03-007-looper]] — Looper
 - 2026-11-02 · [[2026-11-02-006-agentmash]] — agentmash
