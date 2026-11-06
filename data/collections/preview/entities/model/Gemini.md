@@ -1,7 +1,7 @@
 ---
 name: "Gemini"
 entity_type: model
-backlink_count: 89
+backlink_count: 90
 ---
 
 # Gemini
@@ -10,6 +10,7 @@ backlink_count: 89
 
 ## Referenced by
 
+- 2026-11-06 · [[2026-11-06-003-california-governor-commutes-sentences-for-state-s-548]] — California governor commutes sentences for state's 548 death row inmates
 - 2026-11-05 · [[2026-11-05-006-render-sandboxes-a-cloud-native-playground-for-agentic-ai]] — Render Sandboxes – A Cloud‑Native Playground for Agentic AI
 - 2026-11-04 · [[2026-11-04-002-seven-flights-across-europe-targeted-by-suspected-bomb]] — Seven flights across Europe targeted by suspected bomb threats
 - 2026-11-03 · [[2026-11-03-001-russian-bombing-kills-26-people-at-ukraine-aid-centre-kyiv]] — Russian bombing kills 26 people at Ukraine aid centre, Kyiv says

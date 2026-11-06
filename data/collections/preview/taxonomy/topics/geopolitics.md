@@ -1,7 +1,7 @@
 ---
 node: "geopolitics"
 layer: topic
-item_count: 144
+item_count: 146
 ---
 
 # geopolitics
@@ -25,6 +25,8 @@ item_count: 144
 
 ## Items
 
+- 2026-11-06 · [[2026-11-06-001-major-tech-stocks-plunge-as-us-midterms-add-to-fears-of-ai]] — Major tech stocks plunge as US midterms add to fears of AI slowdown
+- 2026-11-06 · [[2026-11-06-005-interest-rates-hiked-to-4-in-first-increase-in-over-three]] — Interest rates hiked to 4% in first increase in over three years
 - 2026-11-05 · [[2026-11-05-002-us-midterm-results-a-victory-for-canadians-hopeful-of]] — US midterm results a 'victory' for Canadians hopeful of tariff relief
 - 2026-11-05 · [[2026-11-05-003-ukraine-says-bodycam-video-shows-deadly-russian-double-tap]] — Ukraine says bodycam video shows deadly Russian double-tap bombing
 - 2026-11-05 · [[2026-11-05-004-uk-commits-to-time-bound-talks-on-slavery-apology]] — UK commits to 'time‑bound' talks on slavery apology

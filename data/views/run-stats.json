@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T19:04:24+00:00",
+  "generated_at": "2026-11-06T00:30:50+00:00",
   "per_day_provider_model": {
     "2026-08-17": {
       "groq": {
@@ -3574,6 +3574,80 @@
           "tokens": 0
         }
       }
+    },
+    "2026-11-06": {
+      "openrouter": {
+        "cohere/north-mini-code:free": {
+          "calls": 11,
+          "ok": 6,
+          "errors": 5,
+          "tokens": 25336
+        },
+        "poolside/laguna-xs-2.1:free": {
+          "calls": 1,
+          "ok": 0,
+          "errors": 1,
+          "tokens": 0
+        },
+        "poolside/laguna-s-2.1:free": {
+          "calls": 1,
+          "ok": 0,
+          "errors": 1,
+          "tokens": 0
+        },
+        "liquid/lfm-2.5-2.6b:free": {
+          "calls": 5,
+          "ok": 1,
+          "errors": 4,
+          "tokens": 8913
+        },
+        "dots-studio/dots-3-note-preview:free": {
+          "calls": 2,
+          "ok": 0,
+          "errors": 2,
+          "tokens": 0
+        },
+        "openrouter/free": {
+          "calls": 3,
+          "ok": 0,
+          "errors": 3,
+          "tokens": 0
+        },
+        "nvidia/nemotron-3-super-120b-a12b:free": {
+          "calls": 1,
+          "ok": 0,
+          "errors": 1,
+          "tokens": 0
+        }
+      },
+      "groq": {
+        "openai/gpt-oss-120b": {
+          "calls": 3,
+          "ok": 1,
+          "errors": 2,
+          "tokens": 8914
+        },
+        "openai/gpt-oss-20b": {
+          "calls": 1,
+          "ok": 0,
+          "errors": 1,
+          "tokens": 0
+        }
+      },
+      "gemini": {
+        "gemini-3.5-flash-lite": {
+          "calls": 1,
+          "ok": 0,
+          "errors": 1,
+          "tokens": 0
+        },
+        "gemini-3.5-flash": {
+          "calls": 1,
+          "ok": 0,
+          "errors": 1,
+          "tokens": 0
+        }
+      }
     }
   },
   "errors_by_day": {
@@ -3923,6 +3997,13 @@
     "2026-11-05": {
       "HTTP 429": 12,
       "HTTP 400": 1
+    },
+    "2026-11-06": {
+      "network": 9,
+      "HTTP 429": 7,
+      "HTTP 404": 3,
+      "HTTP 413": 1,
+      "HTTP 400": 2
     }
   }
 }

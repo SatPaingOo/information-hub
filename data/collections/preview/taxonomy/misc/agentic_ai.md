@@ -1,7 +1,7 @@
 ---
 node: "Agentic AI"
 layer: misc
-item_count: 109
+item_count: 110
 ---
 
 # Agentic AI
@@ -17,6 +17,7 @@ item_count: 109
 
 ## Items
 
+- 2026-11-06 · [[2026-11-06-003-california-governor-commutes-sentences-for-state-s-548]] — California governor commutes sentences for state's 548 death row inmates
 - 2026-11-05 · [[2026-11-05-007-zero-wire-cloudflare-s-agentic-ai-for-cve-exposure-scanning]] — Zero Wire: Cloudflare’s Agentic AI for CVE Exposure Scanning
 - 2026-11-04 · [[2026-11-04-006-testifly]] — Testifly
 - 2026-11-03 · [[2026-11-03-007-looper]] — Looper

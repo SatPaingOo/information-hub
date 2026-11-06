@@ -1,7 +1,7 @@
 ---
 node: "politics"
 layer: topic
-item_count: 196
+item_count: 197
 ---
 
 # politics
@@ -17,6 +17,7 @@ item_count: 196
 
 ## Items
 
+- 2026-11-06 · [[2026-11-06-005-interest-rates-hiked-to-4-in-first-increase-in-over-three]] — Interest rates hiked to 4% in first increase in over three years
 - 2026-11-05 · [[2026-11-05-004-uk-commits-to-time-bound-talks-on-slavery-apology]] — UK commits to 'time‑bound' talks on slavery apology
 - 2026-11-05 · [[2026-11-05-004-uk-commits-to-time-bound-talks-on-slavery-apology]] — UK commits to 'time‑bound' talks on slavery apology
 - 2026-11-05 · [[2026-11-05-005-time-to-focus-on-cost-of-living-says-pm-after-us-election]] — Time to focus on cost of living, says PM after US election results

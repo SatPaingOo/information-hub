@@ -1,7 +1,7 @@
 ---
 name: "OpenAI"
 entity_type: company
-backlink_count: 175
+backlink_count: 177
 ---
 
 # OpenAI
@@ -10,6 +10,8 @@ backlink_count: 175
 
 ## Referenced by
 
+- 2026-11-06 · [[2026-11-06-001-major-tech-stocks-plunge-as-us-midterms-add-to-fears-of-ai]] — Major tech stocks plunge as US midterms add to fears of AI slowdown
+- 2026-11-06 · [[2026-11-06-003-california-governor-commutes-sentences-for-state-s-548]] — California governor commutes sentences for state's 548 death row inmates
 - 2026-11-05 · [[2026-11-05-004-uk-commits-to-time-bound-talks-on-slavery-apology]] — UK commits to 'time‑bound' talks on slavery apology
 - 2026-11-05 · [[2026-11-05-006-render-sandboxes-a-cloud-native-playground-for-agentic-ai]] — Render Sandboxes – A Cloud‑Native Playground for Agentic AI
 - 2026-11-05 · [[2026-11-05-007-zero-wire-cloudflare-s-agentic-ai-for-cve-exposure-scanning]] — Zero Wire: Cloudflare’s Agentic AI for CVE Exposure Scanning

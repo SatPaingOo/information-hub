@@ -1,7 +1,7 @@
 ---
 node: "industry"
 layer: category
-item_count: 367
+item_count: 371
 ---
 
 # industry
@@ -21,6 +21,10 @@ item_count: 367
 
 ## Items
 
+- 2026-11-06 · [[2026-11-06-001-major-tech-stocks-plunge-as-us-midterms-add-to-fears-of-ai]] — Major tech stocks plunge as US midterms add to fears of AI slowdown
+- 2026-11-06 · [[2026-11-06-001-major-tech-stocks-plunge-as-us-midterms-add-to-fears-of-ai]] — Major tech stocks plunge as US midterms add to fears of AI slowdown
+- 2026-11-06 · [[2026-11-06-003-california-governor-commutes-sentences-for-state-s-548]] — California governor commutes sentences for state's 548 death row inmates
+- 2026-11-06 · [[2026-11-06-003-california-governor-commutes-sentences-for-state-s-548]] — California governor commutes sentences for state's 548 death row inmates
 - 2026-11-05 · [[2026-11-05-001-this-is-a-disaster-angry-republicans-blame-trump-for]] — 'This is a disaster': Angry Republicans blame Trump for midterms defeat
 - 2026-11-05 · [[2026-11-05-001-this-is-a-disaster-angry-republicans-blame-trump-for]] — 'This is a disaster': Angry Republicans blame Trump for midterms defeat
 - 2026-11-05 · [[2026-11-05-002-us-midterm-results-a-victory-for-canadians-hopeful-of]] — US midterm results a 'victory' for Canadians hopeful of tariff relief

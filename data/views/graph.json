@@ -10507,6 +10507,59 @@
       "name": "Zero Wire"
     },
     {
+      "id": "info:item:world:global:2026-11-06-001",
+      "type": "item",
+      "date": "2026-11-06",
+      "title": "Major tech stocks plunge as US midterms add to fears of AI slowdown"
+    },
+    {
+      "id": "info:entity:person:Bernie Sanders",
+      "type": "person",
+      "name": "Bernie Sanders"
+    },
+    {
+      "id": "info:item:world:global:2026-11-06-003",
+      "type": "item",
+      "date": "2026-11-06",
+      "title": "California governor commutes sentences for state's 548 death row inmates"
+    },
+    {
+      "id": "info:entity:person:Gavin Newsom",
+      "type": "person",
+      "name": "Gavin Newsom"
+    },
+    {
+      "id": "info:entity:person:Keith Doolin",
+      "type": "person",
+      "name": "Keith Doolin"
+    },
+    {
+      "id": "info:item:politics:global:2026-11-06-005",
+      "type": "item",
+      "date": "2026-11-06",
+      "title": "Interest rates hiked to 4% in first increase in over three years"
+    },
+    {
+      "id": "info:entity:person:Andrew Bailey",
+      "type": "person",
+      "name": "Andrew Bailey"
+    },
+    {
+      "id": "info:entity:organization:Bank of England",
+      "type": "organization",
+      "name": "Bank of England"
+    },
+    {
+      "id": "info:entity:event:US‑Iran war",
+      "type": "event",
+      "name": "US‑Iran war"
+    },
+    {
+      "id": "info:entity:concept:inflation",
+      "type": "concept",
+      "name": "inflation"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -46918,6 +46971,206 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-11-06-001",
+      "target": "info:entity:company:Nvidia",
+      "relation": "major AI chip supplier affected by market sell‑off"
+    },
+    {
+      "source": "info:item:world:global:2026-11-06-001",
+      "target": "info:entity:company:OpenAI",
+      "relation": "developer of leading LLMs whose infrastructure is subject to new regulation"
+    },
+    {
+      "source": "info:item:world:global:2026-11-06-001",
+      "target": "info:entity:model:GPT‑4‑Turbo",
+      "relation": "high‑profile LLM illustrating the scale of compute demand"
+    },
+    {
+      "source": "info:item:world:global:2026-11-06-001",
+      "target": "info:entity:person:Bernie Sanders",
+      "relation": "senator advocating for a national data‑centre moratorium"
+    },
+    {
+      "source": "info:item:world:global:2026-11-06-001",
+      "target": "info:item:world:global:2026-11-05-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-06-001",
+      "target": "info:item:world:global:2026-11-05-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-06-001",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-06-001",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-06-001",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-06-001",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-06-001",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-06-001",
+      "target": "taxonomy/category/industry",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-06-001",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-06-003",
+      "target": "info:entity:person:Gavin Newsom",
+      "relation": "Governor of California who commuted death sentences"
+    },
+    {
+      "source": "info:item:world:global:2026-11-06-003",
+      "target": "info:entity:person:Keith Doolin",
+      "relation": "death‑row inmate who maintains innocence"
+    },
+    {
+      "source": "info:item:world:global:2026-11-06-003",
+      "target": "info:entity:company:OpenAI",
+      "relation": "AI research organization providing risk‑assessment tools for criminal‑justice systems"
+    },
+    {
+      "source": "info:item:world:global:2026-11-06-003",
+      "target": "info:entity:model:Gemini",
+      "relation": "LLM used by some state agencies for predictive policing analytics"
+    },
+    {
+      "source": "info:item:world:global:2026-11-06-003",
+      "target": "info:entity:company:Anthropic",
+      "relation": "AI developer whose models are being evaluated for parole‑decision support"
+    },
+    {
+      "source": "info:item:world:global:2026-11-06-003",
+      "target": "info:item:world:global:2026-11-06-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-06-003",
+      "target": "info:item:world:global:2026-11-05-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-06-003",
+      "target": "info:item:world:global:2026-11-05-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-06-003",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-06-003",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-06-003",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-06-003",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-06-003",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-06-003",
+      "target": "taxonomy/category/industry",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-06-003",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-06-005",
+      "target": "info:entity:person:Andrew Bailey",
+      "relation": "Governor of the Bank of England"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-06-005",
+      "target": "info:entity:organization:Bank of England",
+      "relation": "Central bank setting policy rates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-06-005",
+      "target": "info:entity:event:US‑Iran war",
+      "relation": "Geopolitical driver of energy price shocks"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-06-005",
+      "target": "info:entity:concept:inflation",
+      "relation": "Key metric influencing rate decisions"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-06-005",
+      "target": "info:item:politics:global:2026-11-05-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-06-005",
+      "target": "info:item:politics:global:2026-11-05-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-06-005",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-06-005",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-06-005",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-06-005",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-06-005",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-06-005",
+      "target": "taxonomy/misc/economics",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -47247,7 +47500,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
-      "weight": "84"
+      "weight": "85"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -47463,7 +47716,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "36"
+      "weight": "37"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -47701,6 +47954,12 @@
     },
     {
       "source": "info:entity:company:Anthropic",
+      "target": "info:entity:person:Gavin Newsom",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
       "target": "info:entity:person:Gerald Bourguet",
       "relation": "co-occurs",
       "weight": "1"
@@ -47744,6 +48003,12 @@
     {
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:person:Kanishka Narayan",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:person:Keith Doolin",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -49105,6 +49370,12 @@
     },
     {
       "source": "info:entity:company:Nvidia",
+      "target": "info:entity:company:OpenAI",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Nvidia",
       "target": "info:entity:concept:AI data centers",
       "relation": "co-occurs",
       "weight": "1"
@@ -49117,7 +49388,19 @@
     },
     {
       "source": "info:entity:company:Nvidia",
+      "target": "info:entity:model:GPT‑4‑Turbo",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Nvidia",
       "target": "info:entity:organization:OpenAI",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Nvidia",
+      "target": "info:entity:person:Bernie Sanders",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -49395,7 +49678,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:model:GPT‑4‑Turbo",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -49407,7 +49690,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "62"
+      "weight": "63"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -49831,6 +50114,12 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:person:Bernie Sanders",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Brendan Boyle",
       "relation": "co-occurs",
       "weight": "1"
@@ -49933,6 +50222,12 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:person:Gavin Newsom",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Gerald Bourguet",
       "relation": "co-occurs",
       "weight": "1"
@@ -49982,6 +50277,12 @@
     {
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Keir Starmer",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:person:Keith Doolin",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -52362,6 +52663,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:concept:inflation",
+      "target": "info:entity:event:US‑Iran war",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:inflation",
+      "target": "info:entity:organization:Bank of England",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:inflation",
+      "target": "info:entity:person:Andrew Bailey",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:concept:postpartum psychosis",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
@@ -52794,6 +53113,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:event:US‑Iran war",
+      "target": "info:entity:organization:Bank of England",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:event:US‑Iran war",
+      "target": "info:entity:person:Andrew Bailey",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:event:US‑Israel war with Iran (Feb 2024‑present)",
       "target": "info:entity:organization:Iranian Red Crescent Society (IRCS)",
       "relation": "co-occurs",
@@ -53191,6 +53522,12 @@
     },
     {
       "source": "info:entity:model:GPT‑4‑Turbo",
+      "target": "info:entity:person:Bernie Sanders",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:GPT‑4‑Turbo",
       "target": "info:entity:person:Donald Trump",
       "relation": "co-occurs",
       "weight": "1"
@@ -53491,6 +53828,12 @@
     },
     {
       "source": "info:entity:model:Gemini",
+      "target": "info:entity:person:Gavin Newsom",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
       "target": "info:entity:person:Gerald Bourguet",
       "relation": "co-occurs",
       "weight": "1"
@@ -53546,6 +53889,12 @@
     {
       "source": "info:entity:model:Gemini",
       "target": "info:entity:person:Keir Starmer",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
+      "target": "info:entity:person:Keith Doolin",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -54686,6 +55035,12 @@
     {
       "source": "info:entity:organization:BSW (Bündnis Sahra Wagenknecht)",
       "target": "info:entity:person:Ulrich Siegmund",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Bank of England",
+      "target": "info:entity:person:Andrew Bailey",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -62786,6 +63141,12 @@
     {
       "source": "info:entity:person:Friedrich Merz",
       "target": "info:entity:region:Russia",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Gavin Newsom",
+      "target": "info:entity:person:Keith Doolin",
       "relation": "co-occurs",
       "weight": "1"
     },
