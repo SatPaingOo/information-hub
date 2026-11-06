@@ -119,29 +119,24 @@
   ],
   "grounding": {
     "checked_by": {
-      "provider": "web",
+      "provider": "lexical",
       "model": "lexical",
       "search_tool": null
     },
-    "checked_at": "2026-11-06T07:02:12+00:00",
-    "grounding_score": 1.0,
+    "checked_at": "2026-11-06T07:52:42+00:00",
+    "grounding_score": 0.833,
     "claims_total": 6,
-    "claims_grounded": 6,
-    "sources_verified": [
-      {
-        "url": "https://finance.biggo.com/",
-        "title": "Magnificent Seven Lose Over $1 Trillion in a Single Day as Philadelphia Semiconductor Index Plunges 12% - BigGo Finance"
-      }
-    ],
-    "method": "web"
+    "claims_grounded": 5,
+    "sources_verified": [],
+    "method": "lexical"
   },
   "review": {
     "status": "verified",
     "approved_by": {
       "type": "ai",
-      "provider": "web",
+      "provider": "lexical",
       "model": "lexical"
     },
-    "approved_at": "2026-11-06T07:02:12+00:00"
+    "approved_at": "2026-11-06T07:52:42+00:00"
   }
 }
