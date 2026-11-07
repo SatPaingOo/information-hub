@@ -1,7 +1,7 @@
 ---
 name: "Myanmar"
 entity_type: region
-backlink_count: 23
+backlink_count: 24
 ---
 
 # Myanmar
@@ -10,6 +10,7 @@ backlink_count: 23
 
 ## Referenced by
 
+- 2026-11-07 · [[2026-11-07-005-alysis-code]] — Alysis Code
 - 2026-11-03 · [[2026-11-03-007-looper]] — Looper
 - 2026-11-01 · [[2026-11-01-007-clawsgo-science]] — ClawsGO Science
 - 2026-10-13 · [[2026-10-13-007-squadroom-ai-employees-that-work-24-7]] — SquadRoom – AI Employees That Work 24/7

@@ -1,7 +1,7 @@
 ---
 name: "Gemini"
 entity_type: model
-backlink_count: 90
+backlink_count: 93
 ---
 
 # Gemini
@@ -10,6 +10,9 @@ backlink_count: 90
 
 ## Referenced by
 
+- 2026-11-07 · [[2026-11-07-003-two-dead-after-bus-crashes-in-france-officials-say]] — Two dead after bus crashes in France, officials say
+- 2026-11-07 · [[2026-11-07-007-four-midterms-takeaways-for-2028-white-house-race]] — Four midterms takeaways for 2028 White House race
+- 2026-11-07 · [[2026-11-07-008-new-wave-of-bomb-threats-hit-european-airlines]] — New wave of bomb threats hit European airlines
 - 2026-11-06 · [[2026-11-06-003-california-governor-commutes-sentences-for-state-s-548]] — California governor commutes sentences for state's 548 death row inmates
 - 2026-11-05 · [[2026-11-05-006-render-sandboxes-a-cloud-native-playground-for-agentic-ai]] — Render Sandboxes – A Cloud‑Native Playground for Agentic AI
 - 2026-11-04 · [[2026-11-04-002-seven-flights-across-europe-targeted-by-suspected-bomb]] — Seven flights across Europe targeted by suspected bomb threats

@@ -1,7 +1,7 @@
 ---
 node: "Regulation"
 layer: misc
-item_count: 47
+item_count: 50
 ---
 
 # Regulation
@@ -17,6 +17,9 @@ item_count: 47
 
 ## Items
 
+- 2026-11-07 · [[2026-11-07-005-alysis-code]] — Alysis Code
+- 2026-11-07 · [[2026-11-07-006-rankfender-v3-0]] — Rankfender v3.0
+- 2026-11-07 · [[2026-11-07-008-new-wave-of-bomb-threats-hit-european-airlines]] — New wave of bomb threats hit European airlines
 - 2026-11-01 · [[2026-11-01-006-usage-for-claude-chatgpt-4-0]] — Usage for Claude + ChatGPT 4.0
 - 2026-10-31 · [[2026-10-31-006-speakon-agent]] — SpeakON Agent
 - 2026-10-29 · [[2026-10-29-006-yardlet]] — Yardlet

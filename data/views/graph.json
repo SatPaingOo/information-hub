@@ -10560,6 +10560,72 @@
       "name": "inflation"
     },
     {
+      "id": "info:item:world:global:2026-11-07-001",
+      "type": "item",
+      "date": "2026-11-07",
+      "title": "AI stocks climb after trillions wiped from market values"
+    },
+    {
+      "id": "taxonomy/misc/global economy",
+      "type": "taxonomy",
+      "name": "global economy"
+    },
+    {
+      "id": "taxonomy/misc/technology policy",
+      "type": "taxonomy",
+      "name": "technology policy"
+    },
+    {
+      "id": "info:item:world:global:2026-11-07-003",
+      "type": "item",
+      "date": "2026-11-07",
+      "title": "Two dead after bus crashes in France, officials say"
+    },
+    {
+      "id": "taxonomy/misc/Transport Safety",
+      "type": "taxonomy",
+      "name": "Transport Safety"
+    },
+    {
+      "id": "taxonomy/misc/EU Policy",
+      "type": "taxonomy",
+      "name": "EU Policy"
+    },
+    {
+      "id": "taxonomy/misc/AI Regulation",
+      "type": "taxonomy",
+      "name": "AI Regulation"
+    },
+    {
+      "id": "info:item:products:global:2026-11-07-005",
+      "type": "item",
+      "date": "2026-11-07",
+      "title": "Alysis Code"
+    },
+    {
+      "id": "info:item:products:global:2026-11-07-006",
+      "type": "item",
+      "date": "2026-11-07",
+      "title": "Rankfender v3.0"
+    },
+    {
+      "id": "info:entity:product:Rankfender v3.0",
+      "type": "product",
+      "name": "Rankfender v3.0"
+    },
+    {
+      "id": "info:item:world:global:2026-11-07-007",
+      "type": "item",
+      "date": "2026-11-07",
+      "title": "Four midterms takeaways for 2028 White House race"
+    },
+    {
+      "id": "info:item:world:global:2026-11-07-008",
+      "type": "item",
+      "date": "2026-11-07",
+      "title": "New wave of bomb threats hit European airlines"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -47171,6 +47237,391 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-11-07-001",
+      "target": "info:entity:company:Nvidia",
+      "relation": "major AI chip provider and market mover"
+    },
+    {
+      "source": "info:item:world:global:2026-11-07-001",
+      "target": "info:entity:company:OpenAI",
+      "relation": "key AI model developer influencing sector sentiment"
+    },
+    {
+      "source": "info:item:world:global:2026-11-07-001",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "U.S. President supporting AI development"
+    },
+    {
+      "source": "info:item:world:global:2026-11-07-001",
+      "target": "info:item:world:global:2026-11-06-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-07-001",
+      "target": "info:item:world:global:2026-11-05-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-07-001",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-07-001",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-07-001",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-07-001",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-07-001",
+      "target": "taxonomy/misc/global economy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-07-001",
+      "target": "taxonomy/misc/AI regulation",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-07-001",
+      "target": "taxonomy/misc/technology policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-07-003",
+      "target": "info:entity:person:Emmanuel Macron",
+      "relation": "head of state offering condolences"
+    },
+    {
+      "source": "info:item:world:global:2026-11-07-003",
+      "target": "info:entity:person:Philippe Tabarot",
+      "relation": "French Transport Minister commenting on driver tests"
+    },
+    {
+      "source": "info:item:world:global:2026-11-07-003",
+      "target": "info:entity:company:OpenAI",
+      "relation": "AI model provider referenced for safety analytics"
+    },
+    {
+      "source": "info:item:world:global:2026-11-07-003",
+      "target": "info:entity:model:Gemini",
+      "relation": "AI platform mentioned for predictive traffic analysis"
+    },
+    {
+      "source": "info:item:world:global:2026-11-07-003",
+      "target": "info:item:world:global:2026-11-07-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-07-003",
+      "target": "info:item:world:global:2026-11-06-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-07-003",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-07-003",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-07-003",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-07-003",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-07-003",
+      "target": "taxonomy/misc/Transport Safety",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-07-003",
+      "target": "taxonomy/misc/EU Policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-07-003",
+      "target": "taxonomy/misc/AI Regulation",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-11-07-005",
+      "target": "info:entity:company:OpenAI",
+      "relation": "provider of underlying model technology referenced by Alysis Code"
+    },
+    {
+      "source": "info:item:products:global:2026-11-07-005",
+      "target": "info:entity:model:GPT-4-Turbo",
+      "relation": "base language model used in Alysis Code"
+    },
+    {
+      "source": "info:item:products:global:2026-11-07-005",
+      "target": "info:entity:company:Anthropic",
+      "relation": "competitor in AI coding assistant space, influencing open‑source strategy"
+    },
+    {
+      "source": "info:item:products:global:2026-11-07-005",
+      "target": "info:entity:region:Myanmar",
+      "relation": "region exploring AI policy and adopting open‑source AI tools for education"
+    },
+    {
+      "source": "info:item:products:global:2026-11-07-005",
+      "target": "info:item:products:global:2026-11-05-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-11-07-005",
+      "target": "info:item:products:global:2026-11-05-007",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-11-07-005",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-11-07-005",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-11-07-005",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-11-07-005",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-11-07-005",
+      "target": "taxonomy/category/open-source",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-11-07-005",
+      "target": "taxonomy/misc/regulation",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-11-07-006",
+      "target": "info:entity:product:Rankfender v3.0",
+      "relation": "primary offering"
+    },
+    {
+      "source": "info:item:products:global:2026-11-07-006",
+      "target": "info:entity:model:OpenAI GPT-4-Turbo",
+      "relation": "core LLM for semantic keyword generation"
+    },
+    {
+      "source": "info:item:products:global:2026-11-07-006",
+      "target": "info:entity:model:Google Gemini 4 Argon",
+      "relation": "visual search intent plugin"
+    },
+    {
+      "source": "info:item:products:global:2026-11-07-006",
+      "target": "info:entity:company:OpenAI",
+      "relation": "provider of core language model"
+    },
+    {
+      "source": "info:item:products:global:2026-11-07-006",
+      "target": "info:entity:organization:Open Rights Group",
+      "relation": "partner for compliance auditing"
+    },
+    {
+      "source": "info:item:products:global:2026-11-07-006",
+      "target": "info:item:products:global:2026-11-07-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-11-07-006",
+      "target": "info:item:products:global:2026-11-05-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-11-07-006",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-11-07-006",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-11-07-006",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-11-07-006",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-11-07-006",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-11-07-006",
+      "target": "taxonomy/misc/regulation",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-07-007",
+      "target": "info:entity:person:JD Vance",
+      "relation": "Vice President and potential 2028 Republican candidate"
+    },
+    {
+      "source": "info:item:world:global:2026-11-07-007",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "Incumbent president influencing 2028 race dynamics"
+    },
+    {
+      "source": "info:item:world:global:2026-11-07-007",
+      "target": "info:entity:company:OpenAI",
+      "relation": "AI provider used by campaigns for analytics and messaging"
+    },
+    {
+      "source": "info:item:world:global:2026-11-07-007",
+      "target": "info:entity:model:Gemini",
+      "relation": "LLM platform leveraged for voter targeting"
+    },
+    {
+      "source": "info:item:world:global:2026-11-07-007",
+      "target": "info:entity:company:Anthropic",
+      "relation": "AI research organization contributing to campaign AI tools"
+    },
+    {
+      "source": "info:item:world:global:2026-11-07-007",
+      "target": "info:item:world:global:2026-11-07-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-07-007",
+      "target": "info:item:world:global:2026-11-07-003",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-07-007",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-07-007",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-07-007",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-07-007",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-07-007",
+      "target": "taxonomy/topic/world",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-07-007",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-07-007",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-07-008",
+      "target": "info:entity:person:Micheál Martin",
+      "relation": "Irish Prime Minister who described the threats as worrying and emphasised public safety."
+    },
+    {
+      "source": "info:item:world:global:2026-11-07-008",
+      "target": "info:entity:model:OpenAI",
+      "relation": "AI model potentially leveraged for generating hoax communications."
+    },
+    {
+      "source": "info:item:world:global:2026-11-07-008",
+      "target": "info:entity:model:Gemini",
+      "relation": "LLM platform referenced in analysis of automated threat generation."
+    },
+    {
+      "source": "info:item:world:global:2026-11-07-008",
+      "target": "info:entity:organization:European Union",
+      "relation": "Political body whose upcoming meetings in Dublin are a focal point for security concerns."
+    },
+    {
+      "source": "info:item:world:global:2026-11-07-008",
+      "target": "info:item:world:global:2026-11-07-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-07-008",
+      "target": "info:item:world:global:2026-11-07-003",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-07-008",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-07-008",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-07-008",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-07-008",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-07-008",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-07-008",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-07-008",
+      "target": "taxonomy/misc/regulation",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -47500,7 +47951,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
-      "weight": "85"
+      "weight": "87"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -47692,7 +48143,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:model:GPT-4-Turbo",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -47716,7 +48167,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "37"
+      "weight": "38"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -47932,7 +48383,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:person:Donald Trump",
       "relation": "co-occurs",
-      "weight": "8"
+      "weight": "9"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -47961,6 +48412,12 @@
     {
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:person:Gerald Bourguet",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:person:JD Vance",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -48250,7 +48707,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:region:Myanmar",
       "relation": "co-occurs",
-      "weight": "16"
+      "weight": "17"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -49372,7 +49829,7 @@
       "source": "info:entity:company:Nvidia",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:company:Nvidia",
@@ -49414,7 +49871,7 @@
       "source": "info:entity:company:Nvidia",
       "target": "info:entity:person:Donald Trump",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:company:Nvidia",
@@ -49666,7 +50123,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:model:GPT-4-Turbo",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -49690,7 +50147,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "63"
+      "weight": "65"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -49724,9 +50181,15 @@
     },
     {
       "source": "info:entity:company:OpenAI",
-      "target": "info:entity:model:OpenAI GPT-4-Turbo",
+      "target": "info:entity:model:Google Gemini 4 Argon",
       "relation": "co-occurs",
       "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:model:OpenAI GPT-4-Turbo",
+      "relation": "co-occurs",
+      "weight": "2"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -49935,6 +50398,12 @@
     {
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:organization:Office for Budget Responsibility (OBR)",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:organization:Open Rights Group",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -50158,7 +50627,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Donald Trump",
       "relation": "co-occurs",
-      "weight": "6"
+      "weight": "8"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -50200,7 +50669,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Emmanuel Macron",
       "relation": "co-occurs",
-      "weight": "5"
+      "weight": "6"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -50241,6 +50710,12 @@
     {
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Haley Stevens",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:person:JD Vance",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -50385,6 +50860,12 @@
     {
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Pete Hegseth",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:person:Philippe Tabarot",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -50582,6 +51063,12 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:product:Rankfender v3.0",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:product:Reeno",
       "relation": "co-occurs",
       "weight": "1"
@@ -50644,7 +51131,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:region:Myanmar",
       "relation": "co-occurs",
-      "weight": "20"
+      "weight": "21"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -53455,6 +53942,12 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:model:GPT-4-Turbo",
+      "target": "info:entity:region:Myanmar",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:model:GPT-4‑Turbo",
       "target": "info:entity:product:SimpleSpread",
       "relation": "co-occurs",
@@ -53560,7 +54053,7 @@
       "source": "info:entity:model:Gemini",
       "target": "info:entity:model:OpenAI",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:model:Gemini",
@@ -53607,6 +54100,12 @@
     {
       "source": "info:entity:model:Gemini",
       "target": "info:entity:organization:European Serbia",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
+      "target": "info:entity:organization:European Union",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -53800,7 +54299,7 @@
       "source": "info:entity:model:Gemini",
       "target": "info:entity:person:Donald Trump",
       "relation": "co-occurs",
-      "weight": "4"
+      "weight": "5"
     },
     {
       "source": "info:entity:model:Gemini",
@@ -53812,7 +54311,7 @@
       "source": "info:entity:model:Gemini",
       "target": "info:entity:person:Emmanuel Macron",
       "relation": "co-occurs",
-      "weight": "5"
+      "weight": "6"
     },
     {
       "source": "info:entity:model:Gemini",
@@ -53847,6 +54346,12 @@
     {
       "source": "info:entity:model:Gemini",
       "target": "info:entity:person:Heather Adkins",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
+      "target": "info:entity:person:JD Vance",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -53972,6 +54477,12 @@
     },
     {
       "source": "info:entity:model:Gemini",
+      "target": "info:entity:person:Micheál Martin",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
       "target": "info:entity:person:Mick Mulvaney",
       "relation": "co-occurs",
       "weight": "1"
@@ -53997,6 +54508,12 @@
     {
       "source": "info:entity:model:Gemini",
       "target": "info:entity:person:Nigel Farage",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
+      "target": "info:entity:person:Philippe Tabarot",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -54326,13 +54843,31 @@
     },
     {
       "source": "info:entity:model:Google Gemini 4 Argon",
+      "target": "info:entity:model:OpenAI GPT-4-Turbo",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Google Gemini 4 Argon",
       "target": "info:entity:model:OpenAI GPT‑4",
       "relation": "co-occurs",
       "weight": "1"
     },
     {
       "source": "info:entity:model:Google Gemini 4 Argon",
+      "target": "info:entity:organization:Open Rights Group",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Google Gemini 4 Argon",
       "target": "info:entity:organization:U.S. Department of State",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Google Gemini 4 Argon",
+      "target": "info:entity:product:Rankfender v3.0",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -54351,6 +54886,18 @@
     {
       "source": "info:entity:model:Kimi K3 Swarm",
       "target": "info:entity:person:Peter Garraghan",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:OpenAI",
+      "target": "info:entity:organization:European Union",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:OpenAI",
+      "target": "info:entity:person:Micheál Martin",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -54386,6 +54933,12 @@
     },
     {
       "source": "info:entity:model:OpenAI GPT-4-Turbo",
+      "target": "info:entity:organization:Open Rights Group",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:OpenAI GPT-4-Turbo",
       "target": "info:entity:product:AgentValley",
       "relation": "co-occurs",
       "weight": "1"
@@ -54393,6 +54946,12 @@
     {
       "source": "info:entity:model:OpenAI GPT-4-Turbo",
       "target": "info:entity:product:Notchware",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:OpenAI GPT-4-Turbo",
+      "target": "info:entity:product:Rankfender v3.0",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -56380,7 +56939,7 @@
       "source": "info:entity:organization:European Union",
       "target": "info:entity:person:Micheál Martin",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:European Union",
@@ -59067,6 +59626,12 @@
     {
       "source": "info:entity:organization:Open Rights Group",
       "target": "info:entity:person:Lisa Nandy",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Open Rights Group",
+      "target": "info:entity:product:Rankfender v3.0",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -62572,7 +63137,7 @@
       "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:JD Vance",
       "relation": "co-occurs",
-      "weight": "5"
+      "weight": "6"
     },
     {
       "source": "info:entity:person:Donald Trump",
@@ -63034,7 +63599,7 @@
       "source": "info:entity:person:Emmanuel Macron",
       "target": "info:entity:person:Philippe Tabarot",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Emmanuel Macron",

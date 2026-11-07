@@ -1,0 +1,26 @@
+2026-11-07 00:51:28,342 INFO [world-news] published 2026-11-07-001 — AI stocks climb after trillions wiped from market values
+2026-11-07 00:51:44,494 ERROR [world-news] generate error: bad response: Expecting property name enclosed in double quotes: line 26 column 7 (char 2471)
+2026-11-07 00:51:52,401 ERROR [world-news] generate error: HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
+
+2026-11-07 00:51:58,519 ERROR [world-news] generate error: HTTP 404: {"error":{"message":"poolside/laguna-xs-2.1:free is no longer available on OpenRouter: no provider serves this model anymore. See available models at https://openrouter.ai/models","code":404},"user_id":"user_2mqLaYz9PPTm2loHhHg0PQ896kb"}
+2026-11-07 00:52:07,857 ERROR [world-news] generate error: HTTP 404: {"error":{"message":"poolside/laguna-s-2.1:free is no longer available on OpenRouter: no provider serves this model anymore. See available models at https://openrouter.ai/models","code":404},"user_id":"user_2mqLaYz9PPTm2loHhHg0PQ896kb"}
+2026-11-07 00:52:47,105 ERROR [world-news] generate error: empty model content
+2026-11-07 00:53:05,188 INFO [world-news] published 2026-11-07-003 — Two dead after bus crashes in France, officials say
+2026-11-07 00:53:07,999 INFO [tech-news] nothing selected
+2026-11-07 00:53:24,955 ERROR [politics] generate error: bad response: Expecting property name enclosed in double quotes: line 21 column 7 (char 1449)
+2026-11-07 00:53:29,115 ERROR [politics] generate error: HTTP 400: {"error":{"message":"Provider returned error","code":400,"metadata":{"raw":"{\"code\":400,\"msg\":\"bad request\",\"request_id\":\"e7a56b7c-86e0-4918-962a-633f2ddcb298\"}","provider_name":"AtlasCloud","is_byok":false}},"user_id":"user_2mqLaYz9PPTm2loHhHg0PQ896kb"}
+2026-11-07 00:54:17,303 ERROR [politics] generate error: empty model content
+2026-11-07 00:55:04,717 INFO [products] published 2026-11-07-005 — Alysis Code
+2026-11-07 00:55:17,947 ERROR [products] generate error: bad response: Expecting property name enclosed in double quotes: line 49 column 6 (char 6681)
+2026-11-07 00:55:55,058 ERROR [products] generate error: empty model content
+2026-11-07 00:56:10,621 INFO [products] published 2026-11-07-006 — Rankfender v3.0
+2026-11-07 00:56:11,406 INFO collect done: 4 item(s) published — target 6/10, next run ≈ 2026-11-07T01:11:11+00:00 UTC
+2026-11-07 00:56:36,483 INFO [world-news] published 2026-11-07-007 — Four midterms takeaways for 2028 White House race
+2026-11-07 00:56:47,798 INFO [world-news] published 2026-11-07-008 — New wave of bomb threats hit European airlines
+2026-11-07 00:56:51,205 ERROR [world-news] generate error: HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
+
+2026-11-07 00:56:54,207 WARNING [world-news] no collect provider for deep-dive
+2026-11-07 00:56:54,833 WARNING [tech-news] no collect provider available
+2026-11-07 00:56:55,357 WARNING [politics] no collect provider available
+2026-11-07 00:56:56,407 WARNING [products] no collect provider available
+2026-11-07 00:56:57,147 INFO collect done: 2 item(s) published — target 4/10, next run ≈ 2026-11-08T01:00:00+00:00 UTC

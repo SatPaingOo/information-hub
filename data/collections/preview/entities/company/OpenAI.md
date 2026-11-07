@@ -1,7 +1,7 @@
 ---
 name: "OpenAI"
 entity_type: company
-backlink_count: 177
+backlink_count: 183
 ---
 
 # OpenAI
@@ -10,6 +10,12 @@ backlink_count: 177
 
 ## Referenced by
 
+- 2026-11-07 · [[2026-11-07-001-ai-stocks-climb-after-trillions-wiped-from-market-values]] — AI stocks climb after trillions wiped from market values
+- 2026-11-07 · [[2026-11-07-003-two-dead-after-bus-crashes-in-france-officials-say]] — Two dead after bus crashes in France, officials say
+- 2026-11-07 · [[2026-11-07-005-alysis-code]] — Alysis Code
+- 2026-11-07 · [[2026-11-07-006-rankfender-v3-0]] — Rankfender v3.0
+- 2026-11-07 · [[2026-11-07-007-four-midterms-takeaways-for-2028-white-house-race]] — Four midterms takeaways for 2028 White House race
+- 2026-11-07 · [[2026-11-07-008-new-wave-of-bomb-threats-hit-european-airlines]] — New wave of bomb threats hit European airlines
 - 2026-11-06 · [[2026-11-06-001-major-tech-stocks-plunge-as-us-midterms-add-to-fears-of-ai]] — Major tech stocks plunge as US midterms add to fears of AI slowdown
 - 2026-11-06 · [[2026-11-06-003-california-governor-commutes-sentences-for-state-s-548]] — California governor commutes sentences for state's 548 death row inmates
 - 2026-11-05 · [[2026-11-05-004-uk-commits-to-time-bound-talks-on-slavery-apology]] — UK commits to 'time‑bound' talks on slavery apology

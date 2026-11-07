@@ -1,7 +1,7 @@
 ---
 node: "LLM"
 layer: misc
-item_count: 92
+item_count: 94
 ---
 
 # LLM
@@ -17,6 +17,8 @@ item_count: 92
 
 ## Items
 
+- 2026-11-07 · [[2026-11-07-006-rankfender-v3-0]] — Rankfender v3.0
+- 2026-11-07 · [[2026-11-07-008-new-wave-of-bomb-threats-hit-european-airlines]] — New wave of bomb threats hit European airlines
 - 2026-11-05 · [[2026-11-05-007-zero-wire-cloudflare-s-agentic-ai-for-cve-exposure-scanning]] — Zero Wire: Cloudflare’s Agentic AI for CVE Exposure Scanning
 - 2026-11-04 · [[2026-11-04-006-testifly]] — Testifly
 - 2026-11-03 · [[2026-11-03-007-looper]] — Looper

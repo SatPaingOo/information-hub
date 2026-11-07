@@ -1,7 +1,7 @@
 ---
 name: "Anthropic"
 entity_type: company
-backlink_count: 103
+backlink_count: 105
 ---
 
 # Anthropic
@@ -10,6 +10,8 @@ backlink_count: 103
 
 ## Referenced by
 
+- 2026-11-07 · [[2026-11-07-005-alysis-code]] — Alysis Code
+- 2026-11-07 · [[2026-11-07-007-four-midterms-takeaways-for-2028-white-house-race]] — Four midterms takeaways for 2028 White House race
 - 2026-11-06 · [[2026-11-06-003-california-governor-commutes-sentences-for-state-s-548]] — California governor commutes sentences for state's 548 death row inmates
 - 2026-11-05 · [[2026-11-05-006-render-sandboxes-a-cloud-native-playground-for-agentic-ai]] — Render Sandboxes – A Cloud‑Native Playground for Agentic AI
 - 2026-11-05 · [[2026-11-05-007-zero-wire-cloudflare-s-agentic-ai-for-cve-exposure-scanning]] — Zero Wire: Cloudflare’s Agentic AI for CVE Exposure Scanning

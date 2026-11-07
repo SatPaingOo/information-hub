@@ -1,7 +1,7 @@
 ---
 name: "Donald Trump"
 entity_type: person
-backlink_count: 82
+backlink_count: 84
 ---
 
 # Donald Trump
@@ -10,6 +10,8 @@ backlink_count: 82
 
 ## Referenced by
 
+- 2026-11-07 · [[2026-11-07-001-ai-stocks-climb-after-trillions-wiped-from-market-values]] — AI stocks climb after trillions wiped from market values
+- 2026-11-07 · [[2026-11-07-007-four-midterms-takeaways-for-2028-white-house-race]] — Four midterms takeaways for 2028 White House race
 - 2026-11-05 · [[2026-11-05-001-this-is-a-disaster-angry-republicans-blame-trump-for]] — 'This is a disaster': Angry Republicans blame Trump for midterms defeat
 - 2026-11-05 · [[2026-11-05-002-us-midterm-results-a-victory-for-canadians-hopeful-of]] — US midterm results a 'victory' for Canadians hopeful of tariff relief
 - 2026-11-05 · [[2026-11-05-005-time-to-focus-on-cost-of-living-says-pm-after-us-election]] — Time to focus on cost of living, says PM after US election results
