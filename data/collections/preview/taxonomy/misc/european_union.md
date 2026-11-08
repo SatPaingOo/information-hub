@@ -1,7 +1,7 @@
 ---
 node: "European Union"
 layer: misc
-item_count: 8
+item_count: 9
 ---
 
 # European Union
@@ -14,6 +14,7 @@ item_count: 8
 
 ## Items
 
+- 2026-11-08 · [[2026-11-08-006-uk-cannot-cherry-pick-eu-single-market-deal-barnier-tells]] — UK cannot 'cherry pick' EU single market deal, Barnier tells BBC
 - 2026-11-04 · [[2026-11-04-001-spanish-transport-minister-resigns-days-after-deadly-train]] — Spanish transport minister resigns days after deadly train crash
 - 2026-11-03 · [[2026-11-03-002-thousands-of-european-troops-to-rehearse-ukraine]] — Thousands of European troops to rehearse Ukraine deployment in event of peace
 - 2026-10-31 · [[2026-10-31-008-us-approves-sale-of-500-patriot-missiles-to-ukraine]] — US approves sale of 500 Patriot missiles to Ukraine

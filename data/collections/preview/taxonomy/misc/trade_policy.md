@@ -1,7 +1,7 @@
 ---
 node: "Trade Policy"
 layer: misc
-item_count: 7
+item_count: 8
 ---
 
 # Trade Policy
@@ -15,6 +15,7 @@ item_count: 7
 
 ## Items
 
+- 2026-11-08 · [[2026-11-08-006-uk-cannot-cherry-pick-eu-single-market-deal-barnier-tells]] — UK cannot 'cherry pick' EU single market deal, Barnier tells BBC
 - 2026-11-03 · [[2026-11-03-005-uk-and-eu-agree-draft-deal-to-scrap-brexit-red-tape-over]] — UK and EU agree draft deal to scrap Brexit red tape over food exports
 - 2026-10-28 · [[2026-10-28-008-lula-s-comeback-in-brazil-dents-trump-s-ambitions-for]] — Lula's comeback in Brazil dents Trump's ambitions for Latin America
 - 2026-09-16 · [[2026-09-16-008-us-limits-visas-for-south-african-officials-over-alleged]] — US limits visas for South African officials over alleged anti‑white discrimination

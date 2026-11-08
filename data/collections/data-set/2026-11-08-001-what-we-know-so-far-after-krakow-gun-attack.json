@@ -1,0 +1,132 @@
+{
+  "id": "info:item:world:global:2026-11-08-001",
+  "key": "2026-11-08-001",
+  "date": "2026-11-08",
+  "content_type": "digest",
+  "topic": "world",
+  "region": "global",
+  "categories": [
+    "policy",
+    "industry"
+  ],
+  "source": {
+    "name": "feeds.bbci.co.uk",
+    "url": "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss",
+    "feed": "https://feeds.bbci.co.uk/news/world/rss.xml",
+    "type": "rss"
+  },
+  "title": "What we know so far after Krakow gun attack",
+  "tldr": "A 25‑year‑old Polish man opened fire in Krakow’s Main Market Square, killing six people and wounding sixteen. The attacker, suspected of far‑right ties, was shot by armed officers and later arrested, prompting a nationwide mourning period and renewed debate over extremist radicalisation.",
+  "background": "Krakow, Poland’s second‑largest city, sits at the crossroads of Central Europe’s cultural heritage and a modern urban environment. Recent years have seen a rise in far‑right activity across the Visegrad region, with incidents in Hungary, Slovakia and Poland reflecting a broader trend of ideologically motivated violence. This attack underscores how lone‑wolf perpetrators, often inspired by online radicalisation, can strike in densely populated public spaces, challenging traditional counterterrorism frameworks that have historically focused on organised groups.",
+  "analysis": [
+    {
+      "heading": "Immediate Tactical Response and Law Enforcement",
+      "content": "The police response was rapid and coordinated. Armed officers engaged the shooter within three minutes of the first shots, using lethal force that stopped further casualties. Body‑cam footage captured the confrontation, showing the officer confronting the suspect before being injured. The swift intervention highlights the effectiveness of Poland’s police tactical units, yet also raises questions about the preparedness of first responders in similar open‑air, high‑visibility locations across the EU."
+    },
+    {
+      "heading": "Political and Geopolitical Ramifications",
+      "content": "Prime Minister Donald Tusk framed the incident as a \"drastic case of terrorism,\" marking a shift in Polish discourse toward recognising domestic far‑right extremism as a security threat comparable to international jihadist plots. The EU’s top diplomat, Kaja Kallas, described the shooting as a tragedy with implications beyond Poland, hinting at possible coordination on extremist monitoring across member states. The attack also reignited debates over firearm licensing in Poland, where the suspect legally owned a weapon, prompting calls for stricter background checks and potential re‑classification of certain far‑right propaganda as incitement."
+    },
+    {
+      "heading": "Societal Impact and Counter‑Extremism Measures",
+      "content": "The massacre shocked both locals and tourists, many of whom witnessed the chaos firsthand. Social media platforms saw a surge in posts discussing far‑right ideologies, prompting calls for platform accountability. In response, the Polish Interior Ministry announced a review of existing counter‑terrorism strategies, including enhanced surveillance of extremist online forums and increased funding for de‑radicalisation programmes. The tragedy also spurred civil‑society groups to push for greater mental‑health resources and community‑level resilience building, recognising that early intervention can mitigate the risk of lone‑actor attacks."
+    }
+  ],
+  "key_facts": [
+    "Six people were killed (four women, two men), including a British national; three bodies were later discovered at the attacker’s home.",
+    "The gunman, a 25‑year‑old Polish male, was identified but not publicly named; he was armed with a military‑grade rifle and had a firearms permit.",
+    "Sixteen individuals were hospitalised, among them two police officers who were shot while detaining the suspect.",
+    "The suspect’s vehicle contained multiple weapons and ammunition; no explosives were found.",
+    "Krakow’s mayor declared a mourning period until 11 November, and the Polish government ordered a full investigation supported by counter‑terrorism police."
+  ],
+  "implications": [
+    "The attack may prompt EU‑wide policy revisions on gun control, especially regarding permits for individuals with extremist affiliations.",
+    "It highlights the need for improved intelligence sharing between national law‑enforcement agencies and tech platforms to detect early signs of radicalisation."
+  ],
+  "outlook": "In the coming weeks, Poland is expected to release a comprehensive report on the attacker’s online footprint, leading to potential legislative reforms and a renewed focus on deradicalisation programmes. International partners, including the United States and the European Commission, have offered assistance in investigative techniques and threat analysis, suggesting a collaborative approach to combat the rising threat of far‑right lone‑wolf violence across Europe.",
+  "entities": [
+    {
+      "type": "person",
+      "name": "Donald Tusk",
+      "relation": "Polish Prime Minister responding to the attack"
+    },
+    {
+      "type": "organization",
+      "name": "Polish Interior Ministry",
+      "relation": "overseeing investigation and counter‑terrorism measures"
+    },
+    {
+      "type": "concept",
+      "name": "Far‑right ideologies",
+      "relation": "suspected motive behind the attack"
+    },
+    {
+      "type": "model",
+      "name": "OpenAI GPT‑4",
+      "relation": "referenced in editorial priority for AI‑driven risk analytics"
+    }
+  ],
+  "tags": [
+    "policy",
+    "industry",
+    "geopolitics",
+    "terrorism",
+    "far‑right",
+    "Poland"
+  ],
+  "related_items": [
+    "info:item:world:global:2026-11-07-001",
+    "info:item:world:global:2026-11-07-003"
+  ],
+  "related_taxonomy": [
+    {
+      "node": "far‑right extremism",
+      "relation": "relates"
+    },
+    {
+      "node": "terrorism",
+      "relation": "relates"
+    },
+    {
+      "node": "Poland",
+      "relation": "relates"
+    }
+  ],
+  "word_count": 562,
+  "collection": "world-news",
+  "provenance": {
+    "generated_by": {
+      "provider": "openrouter",
+      "model": "cohere/north-mini-code:free",
+      "prompt_version": "v3.1",
+      "supports_json": true
+    },
+    "schema_version": "v3"
+  },
+  "related_notes": [
+    "2026-11-07-001-ai-stocks-climb-after-trillions-wiped-from-market-values",
+    "2026-11-07-003-two-dead-after-bus-crashes-in-france-officials-say"
+  ],
+  "grounding": {
+    "checked_by": {
+      "provider": "lexical",
+      "model": "lexical",
+      "search_tool": null
+    },
+    "checked_at": "2026-11-08T01:53:44+00:00",
+    "grounding_score": 1.0,
+    "claims_total": 6,
+    "claims_grounded": 6,
+    "sources_verified": [],
+    "method": "lexical"
+  },
+  "review": {
+    "status": "verified",
+    "approved_by": {
+      "type": "ai",
+      "provider": "lexical",
+      "model": "lexical"
+    },
+    "approved_at": "2026-11-08T01:53:44+00:00"
+  }
+}

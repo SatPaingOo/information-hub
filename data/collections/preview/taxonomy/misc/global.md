@@ -1,7 +1,7 @@
 ---
 node: "Global"
 layer: misc
-item_count: 572
+item_count: 577
 ---
 
 # Global
@@ -25,6 +25,11 @@ item_count: 572
 
 ## Items
 
+- 2026-11-08 · [[2026-11-08-001-what-we-know-so-far-after-krakow-gun-attack]] — What we know so far after Krakow gun attack
+- 2026-11-08 · [[2026-11-08-003-no-clear-winner-after-tight-new-zealand-general-election]] — No clear winner after tight New Zealand general election
+- 2026-11-08 · [[2026-11-08-004-parliament-restoration-delays-frustrating-says-commons]] — Parliament restoration delays 'frustrating', says Commons Speaker
+- 2026-11-08 · [[2026-11-08-005-pm-tells-firms-to-publish-salaries-in-job-adverts-ahead-of]] — PM tells firms to publish salaries in job adverts ahead of new law
+- 2026-11-08 · [[2026-11-08-006-uk-cannot-cherry-pick-eu-single-market-deal-barnier-tells]] — UK cannot 'cherry pick' EU single market deal, Barnier tells BBC
 - 2026-11-07 · [[2026-11-07-001-ai-stocks-climb-after-trillions-wiped-from-market-values]] — AI stocks climb after trillions wiped from market values
 - 2026-11-07 · [[2026-11-07-003-two-dead-after-bus-crashes-in-france-officials-say]] — Two dead after bus crashes in France, officials say
 - 2026-11-07 · [[2026-11-07-005-alysis-code]] — Alysis Code

@@ -1,7 +1,7 @@
 ---
 name: "OpenAI"
 entity_type: company
-backlink_count: 183
+backlink_count: 186
 ---
 
 # OpenAI
@@ -10,6 +10,9 @@ backlink_count: 183
 
 ## Referenced by
 
+- 2026-11-08 · [[2026-11-08-004-parliament-restoration-delays-frustrating-says-commons]] — Parliament restoration delays 'frustrating', says Commons Speaker
+- 2026-11-08 · [[2026-11-08-005-pm-tells-firms-to-publish-salaries-in-job-adverts-ahead-of]] — PM tells firms to publish salaries in job adverts ahead of new law
+- 2026-11-08 · [[2026-11-08-006-uk-cannot-cherry-pick-eu-single-market-deal-barnier-tells]] — UK cannot 'cherry pick' EU single market deal, Barnier tells BBC
 - 2026-11-07 · [[2026-11-07-001-ai-stocks-climb-after-trillions-wiped-from-market-values]] — AI stocks climb after trillions wiped from market values
 - 2026-11-07 · [[2026-11-07-003-two-dead-after-bus-crashes-in-france-officials-say]] — Two dead after bus crashes in France, officials say
 - 2026-11-07 · [[2026-11-07-005-alysis-code]] — Alysis Code

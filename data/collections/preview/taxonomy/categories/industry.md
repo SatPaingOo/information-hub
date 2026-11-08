@@ -1,7 +1,7 @@
 ---
 node: "industry"
 layer: category
-item_count: 375
+item_count: 378
 ---
 
 # industry
@@ -21,6 +21,9 @@ item_count: 375
 
 ## Items
 
+- 2026-11-08 · [[2026-11-08-001-what-we-know-so-far-after-krakow-gun-attack]] — What we know so far after Krakow gun attack
+- 2026-11-08 · [[2026-11-08-003-no-clear-winner-after-tight-new-zealand-general-election]] — No clear winner after tight New Zealand general election
+- 2026-11-08 · [[2026-11-08-006-uk-cannot-cherry-pick-eu-single-market-deal-barnier-tells]] — UK cannot 'cherry pick' EU single market deal, Barnier tells BBC
 - 2026-11-07 · [[2026-11-07-001-ai-stocks-climb-after-trillions-wiped-from-market-values]] — AI stocks climb after trillions wiped from market values
 - 2026-11-07 · [[2026-11-07-003-two-dead-after-bus-crashes-in-france-officials-say]] — Two dead after bus crashes in France, officials say
 - 2026-11-07 · [[2026-11-07-007-four-midterms-takeaways-for-2028-white-house-race]] — Four midterms takeaways for 2028 White House race

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T00:57:40+00:00",
+  "generated_at": "2026-11-08T01:54:00+00:00",
   "per_day_provider_model": {
     "2026-08-17": {
       "groq": {
@@ -3716,6 +3716,74 @@
           "tokens": 0
         }
       }
+    },
+    "2026-11-08": {
+      "openrouter": {
+        "cohere/north-mini-code:free": {
+          "calls": 13,
+          "ok": 9,
+          "errors": 4,
+          "tokens": 53237
+        },
+        "poolside/laguna-xs-2.1:free": {
+          "calls": 1,
+          "ok": 0,
+          "errors": 1,
+          "tokens": 0
+        },
+        "poolside/laguna-s-2.1:free": {
+          "calls": 1,
+          "ok": 0,
+          "errors": 1,
+          "tokens": 0
+        },
+        "dots-studio/dots-3-note-preview:free": {
+          "calls": 1,
+          "ok": 0,
+          "errors": 1,
+          "tokens": 0
+        },
+        "openrouter/free": {
+          "calls": 5,
+          "ok": 2,
+          "errors": 3,
+          "tokens": 12727
+        },
+        "nvidia/nemotron-3-super-120b-a12b:free": {
+          "calls": 1,
+          "ok": 0,
+          "errors": 1,
+          "tokens": 0
+        }
+      },
+      "groq": {
+        "openai/gpt-oss-120b": {
+          "calls": 1,
+          "ok": 0,
+          "errors": 1,
+          "tokens": 0
+        },
+        "openai/gpt-oss-20b": {
+          "calls": 2,
+          "ok": 1,
+          "errors": 1,
+          "tokens": 8659
+        }
+      },
+      "gemini": {
+        "gemini-3.5-flash-lite": {
+          "calls": 1,
+          "ok": 0,
+          "errors": 1,
+          "tokens": 0
+        },
+        "gemini-3.5-flash": {
+          "calls": 1,
+          "ok": 0,
+          "errors": 1,
+          "tokens": 0
+        }
+      }
     }
   },
   "errors_by_day": {
@@ -4078,6 +4146,13 @@
       "HTTP 400": 3,
       "HTTP 404": 2,
       "HTTP 429": 4
+    },
+    "2026-11-08": {
+      "network": 7,
+      "HTTP 413": 1,
+      "HTTP 404": 3,
+      "HTTP 400": 1,
+      "HTTP 429": 3
     }
   }
 }

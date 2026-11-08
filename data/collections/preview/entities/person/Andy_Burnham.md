@@ -1,7 +1,7 @@
 ---
 name: "Andy Burnham"
 entity_type: person
-backlink_count: 75
+backlink_count: 77
 ---
 
 # Andy Burnham
@@ -10,6 +10,8 @@ backlink_count: 75
 
 ## Referenced by
 
+- 2026-11-08 · [[2026-11-08-005-pm-tells-firms-to-publish-salaries-in-job-adverts-ahead-of]] — PM tells firms to publish salaries in job adverts ahead of new law
+- 2026-11-08 · [[2026-11-08-006-uk-cannot-cherry-pick-eu-single-market-deal-barnier-tells]] — UK cannot 'cherry pick' EU single market deal, Barnier tells BBC
 - 2026-11-05 · [[2026-11-05-004-uk-commits-to-time-bound-talks-on-slavery-apology]] — UK commits to 'time‑bound' talks on slavery apology
 - 2026-11-05 · [[2026-11-05-005-time-to-focus-on-cost-of-living-says-pm-after-us-election]] — Time to focus on cost of living, says PM after US election results
 - 2026-11-02 · [[2026-11-02-005-burnham-open-to-calls-for-slavery-apology-but-not]] — Burnham 'open' to calls for slavery apology but not reparations

@@ -1,7 +1,7 @@
 ---
 node: "United Kingdom"
 layer: misc
-item_count: 3
+item_count: 4
 ---
 
 # United Kingdom
@@ -11,9 +11,11 @@ item_count: 3
 ## Cross-layer relations
 
 - [[politics]] — *relates*
+- [[world]] — *relates*
 
 ## Items
 
+- 2026-11-08 · [[2026-11-08-006-uk-cannot-cherry-pick-eu-single-market-deal-barnier-tells]] — UK cannot 'cherry pick' EU single market deal, Barnier tells BBC
 - 2026-10-31 · [[2026-10-31-005-no-nation-left-behind-says-burnham-after-meeting-first]] — 'No nation left behind' says Burnham after meeting first ministers in Glasgow
 - 2026-09-22 · [[2026-09-22-005-manchester-to-host-world-leaders-at-g20-summit-in-2027]] — Manchester to host world leaders at G20 summit in 2027
 - 2026-08-31 · [[2026-08-31-005-emergency-measures-needed-to-stop-teachers-quitting-say]] — Emergency measures needed to stop teachers quitting, say Lib Dems

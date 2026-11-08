@@ -1,0 +1,28 @@
+2026-11-08 01:46:24,600 INFO [world-news] published 2026-11-08-001 — What we know so far after Krakow gun attack
+2026-11-08 01:46:46,617 ERROR [world-news] generate error: bad response: Expecting ':' delimiter: line 49 column 145 (char 5861)
+2026-11-08 01:46:49,773 ERROR [world-news] generate error: HTTP 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Requested 8629, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https
+2026-11-08 01:46:55,836 ERROR [world-news] generate error: HTTP 404: {"error":{"message":"poolside/laguna-xs-2.1:free is no longer available on OpenRouter: no provider serves this model anymore. See available models at https://openrouter.ai/models","code":404},"user_id":"user_2mqLaYz9PPTm2loHhHg0PQ896kb"}
+2026-11-08 01:47:05,006 ERROR [world-news] generate error: HTTP 404: {"error":{"message":"poolside/laguna-s-2.1:free is no longer available on OpenRouter: no provider serves this model anymore. See available models at https://openrouter.ai/models","code":404},"user_id":"user_2mqLaYz9PPTm2loHhHg0PQ896kb"}
+2026-11-08 01:47:09,042 ERROR [world-news] generate error: HTTP 400: {"error":{"message":"Provider returned error","code":400,"metadata":{"raw":"{\"code\":400,\"msg\":\"bad request\",\"request_id\":\"ebaa6ff2-a0c6-4e8b-b241-55db18e1091a\"}","provider_name":"AtlasCloud","is_byok":false}},"user_id":"user_2mqLaYz9PPTm2loHhHg0PQ896kb"}
+2026-11-08 01:47:45,234 INFO [world-news] published 2026-11-08-003 — No clear winner after tight New Zealand general election
+2026-11-08 01:47:52,604 INFO [tech-news] nothing selected
+2026-11-08 01:48:05,972 INFO [politics] model returned no selection — using heuristic fallback (2)
+2026-11-08 01:48:24,474 INFO [politics] published 2026-11-08-004 — Parliament restoration delays 'frustrating', says Commons Sp
+2026-11-08 01:48:41,162 INFO [politics] published 2026-11-08-005 — PM tells firms to publish salaries in job adverts ahead of n
+2026-11-08 01:49:07,480 ERROR [products] generate error: bad response: Expecting property name enclosed in double quotes: line 7 column 3 (char 160)
+2026-11-08 01:49:32,473 ERROR [products] generate error: bad response: Unterminated string starting at: line 1 column 339 (char 338)
+2026-11-08 01:50:03,819 ERROR [products] generate error: bad response: Expecting property name enclosed in double quotes: line 25 column 7 (char 2415)
+2026-11-08 01:50:13,334 INFO collect done: 4 item(s) published — target 6/10, next run ≈ 2026-11-08T02:05:13+00:00 UTC
+2026-11-08 01:50:46,873 ERROR [world-news] generate error: HTTP 404: {"error":{"message":"This model is unavailable for free. The paid version is available now - use this slug instead: nvidia/nemotron-3-super-120b-a12b","code":404},"user_id":"user_2mqLaYz9PPTm2loHhHg0PQ896kb"}
+2026-11-08 01:51:30,751 ERROR [world-news] generate error: empty model content
+2026-11-08 01:51:53,631 INFO [world-news] published 2026-11-08-006 — UK cannot 'cherry pick' EU single market deal, Barnier tells
+2026-11-08 01:52:11,376 ERROR [world-news] generate error: bad response: Expecting property name enclosed in double quotes: line 41 column 2 (char 5217)
+2026-11-08 01:53:06,026 ERROR [world-news] generate error: bad response: Unterminated string starting at: line 1 column 22285 (char 22284)
+2026-11-08 01:53:23,269 INFO [world-news] attempt 3 invalid: [": 'key_facts' is a required property"]
+2026-11-08 01:53:26,324 INFO [world-news] attempt 1 invalid: [": 'title' is a required property", ": 'tldr' is a required property"]
+2026-11-08 01:53:26,420 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7988, Requested 7384. Please try again in 55.29s. Need more tokens? Upgrade to Dev Tier today at https://conso
+2026-11-08 01:53:32,420 WARNING [world-news] no collect provider for deep-dive
+2026-11-08 01:53:32,919 WARNING [tech-news] no collect provider available
+2026-11-08 01:53:33,327 WARNING [politics] no collect provider available
+2026-11-08 01:53:34,072 WARNING [products] no collect provider available
+2026-11-08 01:53:34,594 INFO collect done: 1 item(s) published — target 5/10, next run ≈ 2026-11-09T01:00:00+00:00 UTC

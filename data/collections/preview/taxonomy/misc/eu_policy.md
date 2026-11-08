@@ -1,7 +1,7 @@
 ---
 node: "EU Policy"
 layer: misc
-item_count: 4
+item_count: 5
 ---
 
 # EU Policy
@@ -15,6 +15,7 @@ item_count: 4
 
 ## Items
 
+- 2026-11-08 · [[2026-11-08-005-pm-tells-firms-to-publish-salaries-in-job-adverts-ahead-of]] — PM tells firms to publish salaries in job adverts ahead of new law
 - 2026-11-07 · [[2026-11-07-003-two-dead-after-bus-crashes-in-france-officials-say]] — Two dead after bus crashes in France, officials say
 - 2026-10-29 · [[2026-10-29-001-high-speed-train-crash-kills-at-least-68-people-in-spain]] — High-speed train crash kills at least 68 people in Spain
 - 2026-10-25 · [[2026-10-25-005-burnham-open-to-honest-discussion-on-eu-free-movement]] — Burnham open to 'honest discussion' on EU free movement

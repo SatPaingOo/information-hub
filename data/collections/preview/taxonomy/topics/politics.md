@@ -1,7 +1,7 @@
 ---
 node: "politics"
 layer: topic
-item_count: 197
+item_count: 199
 ---
 
 # politics
@@ -17,6 +17,8 @@ item_count: 197
 
 ## Items
 
+- 2026-11-08 · [[2026-11-08-004-parliament-restoration-delays-frustrating-says-commons]] — Parliament restoration delays 'frustrating', says Commons Speaker
+- 2026-11-08 · [[2026-11-08-005-pm-tells-firms-to-publish-salaries-in-job-adverts-ahead-of]] — PM tells firms to publish salaries in job adverts ahead of new law
 - 2026-11-06 · [[2026-11-06-005-interest-rates-hiked-to-4-in-first-increase-in-over-three]] — Interest rates hiked to 4% in first increase in over three years
 - 2026-11-05 · [[2026-11-05-004-uk-commits-to-time-bound-talks-on-slavery-apology]] — UK commits to 'time‑bound' talks on slavery apology
 - 2026-11-05 · [[2026-11-05-004-uk-commits-to-time-bound-talks-on-slavery-apology]] — UK commits to 'time‑bound' talks on slavery apology

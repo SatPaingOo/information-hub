@@ -10626,6 +10626,116 @@
       "title": "New wave of bomb threats hit European airlines"
     },
     {
+      "id": "info:item:world:global:2026-11-08-001",
+      "type": "item",
+      "date": "2026-11-08",
+      "title": "What we know so far after Krakow gun attack"
+    },
+    {
+      "id": "info:entity:concept:Far‑right ideologies",
+      "type": "concept",
+      "name": "Far‑right ideologies"
+    },
+    {
+      "id": "taxonomy/misc/far‑right extremism",
+      "type": "taxonomy",
+      "name": "far‑right extremism"
+    },
+    {
+      "id": "taxonomy/misc/Poland",
+      "type": "taxonomy",
+      "name": "Poland"
+    },
+    {
+      "id": "info:item:world:global:2026-11-08-003",
+      "type": "item",
+      "date": "2026-11-08",
+      "title": "No clear winner after tight New Zealand general election"
+    },
+    {
+      "id": "info:entity:person:Christopher Luxon",
+      "type": "person",
+      "name": "Christopher Luxon"
+    },
+    {
+      "id": "info:entity:person:Chris Hipkins",
+      "type": "person",
+      "name": "Chris Hipkins"
+    },
+    {
+      "id": "info:entity:organization:Opportunity Party",
+      "type": "organization",
+      "name": "Opportunity Party"
+    },
+    {
+      "id": "info:entity:person:Andrew Geddis",
+      "type": "person",
+      "name": "Andrew Geddis"
+    },
+    {
+      "id": "info:entity:person:Julian McCrann",
+      "type": "person",
+      "name": "Julian McCrann"
+    },
+    {
+      "id": "taxonomy/misc/world.geopolitics",
+      "type": "taxonomy",
+      "name": "world.geopolitics"
+    },
+    {
+      "id": "taxonomy/misc/policy.coalition-building",
+      "type": "taxonomy",
+      "name": "policy.coalition-building"
+    },
+    {
+      "id": "taxonomy/misc/industry.election-analysis",
+      "type": "taxonomy",
+      "name": "industry.election-analysis"
+    },
+    {
+      "id": "info:item:politics:global:2026-11-08-004",
+      "type": "item",
+      "date": "2026-11-08",
+      "title": "Parliament restoration delays 'frustrating', says Commons Speaker"
+    },
+    {
+      "id": "taxonomy/misc/infrastructure",
+      "type": "taxonomy",
+      "name": "infrastructure"
+    },
+    {
+      "id": "info:item:politics:global:2026-11-08-005",
+      "type": "item",
+      "date": "2026-11-08",
+      "title": "PM tells firms to publish salaries in job adverts ahead of new law"
+    },
+    {
+      "id": "taxonomy/misc/pay transparency",
+      "type": "taxonomy",
+      "name": "pay transparency"
+    },
+    {
+      "id": "taxonomy/misc/labour rights",
+      "type": "taxonomy",
+      "name": "labour rights"
+    },
+    {
+      "id": "info:item:world:global:2026-11-08-006",
+      "type": "item",
+      "date": "2026-11-08",
+      "title": "UK cannot 'cherry pick' EU single market deal, Barnier tells BBC"
+    },
+    {
+      "id": "info:entity:person:Michel Barnier",
+      "type": "person",
+      "name": "Michel Barnier"
+    },
+    {
+      "id": "taxonomy/misc/Trade policy",
+      "type": "taxonomy",
+      "name": "Trade policy"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -47622,6 +47732,301 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-11-08-001",
+      "target": "info:entity:person:Donald Tusk",
+      "relation": "Polish Prime Minister responding to the attack"
+    },
+    {
+      "source": "info:item:world:global:2026-11-08-001",
+      "target": "info:entity:organization:Polish Interior Ministry",
+      "relation": "overseeing investigation and counter‑terrorism measures"
+    },
+    {
+      "source": "info:item:world:global:2026-11-08-001",
+      "target": "info:entity:concept:Far‑right ideologies",
+      "relation": "suspected motive behind the attack"
+    },
+    {
+      "source": "info:item:world:global:2026-11-08-001",
+      "target": "info:entity:model:OpenAI GPT‑4",
+      "relation": "referenced in editorial priority for AI‑driven risk analytics"
+    },
+    {
+      "source": "info:item:world:global:2026-11-08-001",
+      "target": "info:item:world:global:2026-11-07-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-08-001",
+      "target": "info:item:world:global:2026-11-07-003",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-08-001",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-08-001",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-08-001",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-08-001",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-08-001",
+      "target": "taxonomy/misc/far‑right extremism",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-08-001",
+      "target": "taxonomy/misc/terrorism",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-08-001",
+      "target": "taxonomy/misc/Poland",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-08-003",
+      "target": "info:entity:person:Christopher Luxon",
+      "relation": "Prime Minister and National Party leader"
+    },
+    {
+      "source": "info:item:world:global:2026-11-08-003",
+      "target": "info:entity:person:Chris Hipkins",
+      "relation": "Labour Party leader and opposition leader"
+    },
+    {
+      "source": "info:item:world:global:2026-11-08-003",
+      "target": "info:entity:organization:Opportunity Party",
+      "relation": "New centrist party holding 7 seats, potential kingmaker"
+    },
+    {
+      "source": "info:item:world:global:2026-11-08-003",
+      "target": "info:entity:person:Andrew Geddis",
+      "relation": "University of Otago election‑law expert commenting on coalition dynamics"
+    },
+    {
+      "source": "info:item:world:global:2026-11-08-003",
+      "target": "info:entity:person:Julian McCrann",
+      "relation": "Roy Morgan polling head highlighting cost‑of‑living concerns"
+    },
+    {
+      "source": "info:item:world:global:2026-11-08-003",
+      "target": "info:item:world:global:2026-11-08-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-08-003",
+      "target": "info:item:world:global:2026-11-07-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-08-003",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-08-003",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-08-003",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-08-003",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-08-003",
+      "target": "taxonomy/misc/world.geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-08-003",
+      "target": "taxonomy/misc/policy.coalition-building",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-08-003",
+      "target": "taxonomy/misc/industry.election-analysis",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-08-004",
+      "target": "info:entity:company:OpenAI",
+      "relation": "mentioned"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-08-004",
+      "target": "info:entity:model:Gemini",
+      "relation": "referenced"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-08-004",
+      "target": "info:item:politics:global:2026-11-06-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-08-004",
+      "target": "info:item:politics:global:2026-11-05-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-08-004",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-08-004",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-08-004",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-08-004",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-08-004",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-08-004",
+      "target": "taxonomy/misc/infrastructure",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-08-005",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "Prime Minister of the United Kingdom, advocate of salary transparency in job adverts"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-08-005",
+      "target": "info:entity:company:OpenAI",
+      "relation": "AI developer whose policy positions intersect with broader regulatory debates, including labour‑market reforms"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-08-005",
+      "target": "info:item:politics:global:2026-11-08-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-08-005",
+      "target": "info:item:politics:global:2026-11-06-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-08-005",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-08-005",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-08-005",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-08-005",
+      "target": "taxonomy/misc/pay transparency",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-08-005",
+      "target": "taxonomy/misc/labour rights",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-08-005",
+      "target": "taxonomy/misc/EU policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-08-006",
+      "target": "info:entity:person:Michel Barnier",
+      "relation": "former EU Brexit negotiator, spokesperson for EU stance"
+    },
+    {
+      "source": "info:item:world:global:2026-11-08-006",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "UK Labour leader advocating closer EU ties"
+    },
+    {
+      "source": "info:item:world:global:2026-11-08-006",
+      "target": "info:entity:company:OpenAI",
+      "relation": "AI model provider relevant to upcoming EU AI regulation discussions"
+    },
+    {
+      "source": "info:item:world:global:2026-11-08-006",
+      "target": "info:item:world:global:2026-11-08-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-08-006",
+      "target": "info:item:world:global:2026-11-07-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-08-006",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-08-006",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-08-006",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-08-006",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-08-006",
+      "target": "taxonomy/misc/European Union",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-08-006",
+      "target": "taxonomy/misc/United Kingdom",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-08-006",
+      "target": "taxonomy/misc/Trade policy",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -50147,7 +50552,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "65"
+      "weight": "66"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -50531,7 +50936,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
-      "weight": "9"
+      "weight": "11"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -50818,6 +51223,12 @@
     {
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:María Corina Machado",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:person:Michel Barnier",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -52360,6 +52771,24 @@
     {
       "source": "info:entity:concept:Fair Rents Guarantee",
       "target": "info:entity:person:Zack Polanski",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Far‑right ideologies",
+      "target": "info:entity:model:OpenAI GPT‑4",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Far‑right ideologies",
+      "target": "info:entity:organization:Polish Interior Ministry",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Far‑right ideologies",
+      "target": "info:entity:person:Donald Tusk",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -54981,6 +55410,12 @@
     },
     {
       "source": "info:entity:model:OpenAI GPT‑4",
+      "target": "info:entity:organization:Polish Interior Ministry",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:OpenAI GPT‑4",
       "target": "info:entity:organization:Russian Ministry of Emergency Situations",
       "relation": "co-occurs",
       "weight": "1"
@@ -54994,6 +55429,12 @@
     {
       "source": "info:entity:model:OpenAI GPT‑4",
       "target": "info:entity:organization:Ukrainian Ministry of Digital Transformation",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:OpenAI GPT‑4",
+      "target": "info:entity:person:Donald Tusk",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -59858,6 +60299,30 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Opportunity Party",
+      "target": "info:entity:person:Andrew Geddis",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Opportunity Party",
+      "target": "info:entity:person:Chris Hipkins",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Opportunity Party",
+      "target": "info:entity:person:Christopher Luxon",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Opportunity Party",
+      "target": "info:entity:person:Julian McCrann",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Oregon Public Broadcasting (OPB)",
       "target": "info:entity:person:Griffin J John II",
       "relation": "co-occurs",
@@ -59999,7 +60464,7 @@
       "source": "info:entity:organization:Polish Interior Ministry",
       "target": "info:entity:person:Donald Tusk",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Polish Interior Ministry",
@@ -62018,6 +62483,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:person:Andrew Geddis",
+      "target": "info:entity:person:Chris Hipkins",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Andrew Geddis",
+      "target": "info:entity:person:Christopher Luxon",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Andrew Geddis",
+      "target": "info:entity:person:Julian McCrann",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:person:Andrew Griffith",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
@@ -62214,6 +62697,12 @@
       "target": "info:entity:person:Miatta Fahnbulleh",
       "relation": "co-occurs",
       "weight": "2"
+    },
+    {
+      "source": "info:entity:person:Andy Burnham",
+      "target": "info:entity:person:Michel Barnier",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:person:Andy Burnham",
@@ -62846,6 +63335,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:person:Chris Hipkins",
+      "target": "info:entity:person:Christopher Luxon",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Chris Hipkins",
+      "target": "info:entity:person:Julian McCrann",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:person:Chris Philp",
       "target": "info:entity:person:Keir Starmer",
       "relation": "co-occurs",
@@ -62902,6 +63403,12 @@
     {
       "source": "info:entity:person:Christopher Harborne",
       "target": "info:entity:person:Robert Jenrick",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Christopher Luxon",
+      "target": "info:entity:person:Julian McCrann",
       "relation": "co-occurs",
       "weight": "1"
     },

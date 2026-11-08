@@ -1,7 +1,7 @@
 ---
 name: "Gemini"
 entity_type: model
-backlink_count: 93
+backlink_count: 94
 ---
 
 # Gemini
@@ -10,6 +10,7 @@ backlink_count: 93
 
 ## Referenced by
 
+- 2026-11-08 · [[2026-11-08-004-parliament-restoration-delays-frustrating-says-commons]] — Parliament restoration delays 'frustrating', says Commons Speaker
 - 2026-11-07 · [[2026-11-07-003-two-dead-after-bus-crashes-in-france-officials-say]] — Two dead after bus crashes in France, officials say
 - 2026-11-07 · [[2026-11-07-007-four-midterms-takeaways-for-2028-white-house-race]] — Four midterms takeaways for 2028 White House race
 - 2026-11-07 · [[2026-11-07-008-new-wave-of-bomb-threats-hit-european-airlines]] — New wave of bomb threats hit European airlines
