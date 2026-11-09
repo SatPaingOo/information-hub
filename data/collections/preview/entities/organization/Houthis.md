@@ -1,7 +1,7 @@
 ---
 name: "Houthis"
 entity_type: organization
-backlink_count: 9
+backlink_count: 10
 ---
 
 # Houthis
@@ -10,6 +10,7 @@ backlink_count: 9
 
 ## Referenced by
 
+- 2026-11-09 · [[2026-11-09-008-aramco-tower-hit-in-heart-of-saudi-capital-as-houthis]] — Aramco Tower hit in heart of Saudi capital as Houthis launch fresh strikes
 - 2026-10-23 · [[2026-10-23-003-newborn-twins-fight-for-survival-as-conflict-fuels-yemen-s]] — Newborn twins fight for survival as conflict fuels Yemen's hunger crisis
 - 2026-10-12 · [[2026-10-12-002-one-killed-11-injured-in-second-houthi-strike-on-riyadh]] — One killed, 11 injured in second Houthi strike on Riyadh airport in two days
 - 2026-10-11 · [[2026-10-11-003-twelve-killed-in-attack-on-airport-in-saudi-capital-riyadh]] — Twelve killed in attack on airport in Saudi capital Riyadh

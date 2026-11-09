@@ -1,7 +1,7 @@
 ---
 node: "geopolitics"
 layer: topic
-item_count: 147
+item_count: 149
 ---
 
 # geopolitics
@@ -25,6 +25,8 @@ item_count: 147
 
 ## Items
 
+- 2026-11-09 · [[2026-11-09-004-smoky-bacon-crisps-and-the-eu-food-standards-deal-a-new]] — Smoky Bacon Crisps and the EU Food Standards Deal: A New Front in UK‑EU Regulatory Tensions
+- 2026-11-09 · [[2026-11-09-008-aramco-tower-hit-in-heart-of-saudi-capital-as-houthis]] — Aramco Tower hit in heart of Saudi capital as Houthis launch fresh strikes
 - 2026-11-07 · [[2026-11-07-007-four-midterms-takeaways-for-2028-white-house-race]] — Four midterms takeaways for 2028 White House race
 - 2026-11-06 · [[2026-11-06-001-major-tech-stocks-plunge-as-us-midterms-add-to-fears-of-ai]] — Major tech stocks plunge as US midterms add to fears of AI slowdown
 - 2026-11-06 · [[2026-11-06-005-interest-rates-hiked-to-4-in-first-increase-in-over-three]] — Interest rates hiked to 4% in first increase in over three years

@@ -1,7 +1,7 @@
 ---
 name: "Anthropic"
 entity_type: company
-backlink_count: 105
+backlink_count: 107
 ---
 
 # Anthropic
@@ -10,6 +10,8 @@ backlink_count: 105
 
 ## Referenced by
 
+- 2026-11-09 · [[2026-11-09-005-nandy-rejects-claims-of-politicising-remembrance-sunday]] — Nandy rejects claims of politicising Remembrance Sunday after Erasmus row
+- 2026-11-09 · [[2026-11-09-006-agent-clan]] — Agent Clan
 - 2026-11-07 · [[2026-11-07-005-alysis-code]] — Alysis Code
 - 2026-11-07 · [[2026-11-07-007-four-midterms-takeaways-for-2028-white-house-race]] — Four midterms takeaways for 2028 White House race
 - 2026-11-06 · [[2026-11-06-003-california-governor-commutes-sentences-for-state-s-548]] — California governor commutes sentences for state's 548 death row inmates

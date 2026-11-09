@@ -1,7 +1,7 @@
 ---
 name: "Iran"
 entity_type: organization
-backlink_count: 12
+backlink_count: 13
 ---
 
 # Iran
@@ -10,6 +10,7 @@ backlink_count: 12
 
 ## Referenced by
 
+- 2026-11-09 · [[2026-11-09-008-aramco-tower-hit-in-heart-of-saudi-capital-as-houthis]] — Aramco Tower hit in heart of Saudi capital as Houthis launch fresh strikes
 - 2026-11-05 · [[2026-11-05-005-time-to-focus-on-cost-of-living-says-pm-after-us-election]] — Time to focus on cost of living, says PM after US election results
 - 2026-10-12 · [[2026-10-12-002-one-killed-11-injured-in-second-houthi-strike-on-riyadh]] — One killed, 11 injured in second Houthi strike on Riyadh airport in two days
 - 2026-09-28 · [[2026-09-28-001-inside-yemen-s-front-line-city-as-houthis-battle-for-control]] — Inside Yemen's front-line city as Houthis battle for control

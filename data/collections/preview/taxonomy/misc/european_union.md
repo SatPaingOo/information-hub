@@ -1,7 +1,7 @@
 ---
 node: "European Union"
 layer: misc
-item_count: 9
+item_count: 10
 ---
 
 # European Union
@@ -10,10 +10,12 @@ item_count: 9
 
 ## Cross-layer relations
 
+- [[politics]] — *relates*
 - [[world]] — *relates*
 
 ## Items
 
+- 2026-11-09 · [[2026-11-09-005-nandy-rejects-claims-of-politicising-remembrance-sunday]] — Nandy rejects claims of politicising Remembrance Sunday after Erasmus row
 - 2026-11-08 · [[2026-11-08-006-uk-cannot-cherry-pick-eu-single-market-deal-barnier-tells]] — UK cannot 'cherry pick' EU single market deal, Barnier tells BBC
 - 2026-11-04 · [[2026-11-04-001-spanish-transport-minister-resigns-days-after-deadly-train]] — Spanish transport minister resigns days after deadly train crash
 - 2026-11-03 · [[2026-11-03-002-thousands-of-european-troops-to-rehearse-ukraine]] — Thousands of European troops to rehearse Ukraine deployment in event of peace

@@ -10736,6 +10736,123 @@
       "name": "Trade policy"
     },
     {
+      "id": "info:item:world:global:2026-11-09-001",
+      "type": "item",
+      "date": "2026-11-09",
+      "title": "Surgeon having lunch near Krakow shooting undoubtedly saved officer's life, colleague says"
+    },
+    {
+      "id": "info:entity:person:Professor Michal PÄdziwiatr",
+      "type": "person",
+      "name": "Professor Michal PÄdziwiatr"
+    },
+    {
+      "id": "info:entity:person:Dr Mateusz Wierdak",
+      "type": "person",
+      "name": "Dr Mateusz Wierdak"
+    },
+    {
+      "id": "info:entity:region:Krakow",
+      "type": "region",
+      "name": "Krakow"
+    },
+    {
+      "id": "info:item:world:global:2026-11-09-002",
+      "type": "item",
+      "date": "2026-11-09",
+      "title": "Seven dead and over 100 injured after train collision near Giza, Egypt"
+    },
+    {
+      "id": "info:entity:person:Abdul Fattah al‑Sisi",
+      "type": "person",
+      "name": "Abdul Fattah al‑Sisi"
+    },
+    {
+      "id": "info:entity:organization:Egyptian Railway Authority",
+      "type": "organization",
+      "name": "Egyptian Railway Authority"
+    },
+    {
+      "id": "info:item:politics:global:2026-11-09-004",
+      "type": "item",
+      "date": "2026-11-09",
+      "title": "Smoky Bacon Crisps and the EU Food Standards Deal: A New Front in UK‑EU Regulatory Tensions"
+    },
+    {
+      "id": "info:entity:person:Angela Eagle",
+      "type": "person",
+      "name": "Angela Eagle"
+    },
+    {
+      "id": "info:entity:organization:Food and Drink Federation",
+      "type": "organization",
+      "name": "Food and Drink Federation"
+    },
+    {
+      "id": "info:entity:organization:Department for Environment, Food & Rural Affairs (Defra)",
+      "type": "organization",
+      "name": "Department for Environment, Food & Rural Affairs (Defra)"
+    },
+    {
+      "id": "taxonomy/topic/trade",
+      "type": "taxonomy",
+      "name": "trade"
+    },
+    {
+      "id": "info:item:politics:global:2026-11-09-005",
+      "type": "item",
+      "date": "2026-11-09",
+      "title": "Nandy rejects claims of politicising Remembrance Sunday after Erasmus row"
+    },
+    {
+      "id": "info:entity:person:Kevin Hollinrake",
+      "type": "person",
+      "name": "Kevin Hollinrake"
+    },
+    {
+      "id": "taxonomy/misc/Youth Policy",
+      "type": "taxonomy",
+      "name": "Youth Policy"
+    },
+    {
+      "id": "info:item:products:global:2026-11-09-006",
+      "type": "item",
+      "date": "2026-11-09",
+      "title": "Agent Clan"
+    },
+    {
+      "id": "info:entity:product:Agent Clan",
+      "type": "product",
+      "name": "Agent Clan"
+    },
+    {
+      "id": "info:item:world:global:2026-11-09-008",
+      "type": "item",
+      "date": "2026-11-09",
+      "title": "Aramco Tower hit in heart of Saudi capital as Houthis launch fresh strikes"
+    },
+    {
+      "id": "info:entity:company:Saudi Aramco",
+      "type": "company",
+      "name": "Saudi Aramco"
+    },
+    {
+      "id": "info:entity:concept:Iran",
+      "type": "concept",
+      "name": "Iran"
+    },
+    {
+      "id": "info:item:world:global:2026-11-09-009",
+      "type": "item",
+      "date": "2026-11-09",
+      "title": "'Flat', 'tired', 'cynical': Unusually gloomy Kiwis deliver New Zealand's tightest election in years"
+    },
+    {
+      "id": "info:entity:person:Quilae Wong",
+      "type": "person",
+      "name": "Quilae Wong"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -10800,12 +10917,6 @@
       "type": "taxonomy",
       "layer": "topic",
       "name": "vision"
-    },
-    {
-      "id": "taxonomy/topic/trade",
-      "type": "taxonomy",
-      "layer": "topic",
-      "name": "trade"
     },
     {
       "id": "taxonomy/topic/dev-oss",
@@ -48027,6 +48138,421 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-11-09-001",
+      "target": "info:entity:person:Professor Michal PÄdziwiatr",
+      "relation": "surgeon who saved police officer's life"
+    },
+    {
+      "source": "info:item:world:global:2026-11-09-001",
+      "target": "info:entity:person:Dr Mateusz Wierdak",
+      "relation": "colleague of Professor PÄdziwiatr, assisted in emergency treatment"
+    },
+    {
+      "source": "info:item:world:global:2026-11-09-001",
+      "target": "info:entity:organization:Polish Interior Ministry",
+      "relation": "investigating the attack as a terrorist act"
+    },
+    {
+      "source": "info:item:world:global:2026-11-09-001",
+      "target": "info:entity:region:Krakow",
+      "relation": "location of the mass shooting"
+    },
+    {
+      "source": "info:item:world:global:2026-11-09-001",
+      "target": "info:item:world:global:2026-11-08-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-09-001",
+      "target": "info:item:world:global:2026-11-08-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-09-001",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-09-001",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-09-001",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-09-001",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-09-001",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-09-001",
+      "target": "taxonomy/category/industry",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-09-001",
+      "target": "taxonomy/misc/terrorism",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-09-002",
+      "target": "info:entity:person:Abdul Fattah al‑Sisi",
+      "relation": "ordered investigation and accountability"
+    },
+    {
+      "source": "info:item:world:global:2026-11-09-002",
+      "target": "info:entity:organization:Egyptian Railway Authority",
+      "relation": "operates the national rail network and issued the suspension"
+    },
+    {
+      "source": "info:item:world:global:2026-11-09-002",
+      "target": "info:item:world:global:2026-11-09-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-09-002",
+      "target": "info:item:world:global:2026-11-08-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-09-002",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-09-002",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-09-002",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-09-002",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-09-002",
+      "target": "taxonomy/misc/transport safety",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-09-004",
+      "target": "info:entity:person:Angela Eagle",
+      "relation": "Environment Secretary, UK Government"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-09-004",
+      "target": "info:entity:organization:European Commission",
+      "relation": "Regulatory authority drafting the meat‑term restrictions"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-09-004",
+      "target": "info:entity:organization:Food and Drink Federation",
+      "relation": "Industry body representing crispmakers"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-09-004",
+      "target": "info:entity:organization:Department for Environment, Food & Rural Affairs (Defra)",
+      "relation": "UK agency coordinating compliance support"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-09-004",
+      "target": "info:item:politics:global:2026-11-08-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-09-004",
+      "target": "info:item:politics:global:2026-11-08-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-09-004",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-09-004",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-09-004",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-09-004",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-09-004",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-09-004",
+      "target": "taxonomy/topic/trade",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-09-005",
+      "target": "info:entity:person:Lisa Nandy",
+      "relation": "Culture Secretary who defended linking Erasmus+ to Remembrance Sunday"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-09-005",
+      "target": "info:entity:person:Kevin Hollinrake",
+      "relation": "Conservative Party chairman who criticised Nandy’s remarks"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-09-005",
+      "target": "info:entity:person:Nigel Farage",
+      "relation": "Reform UK leader who called the timing poor taste"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-09-005",
+      "target": "info:entity:company:OpenAI",
+      "relation": "AI model referenced in editorial priorities for policy analysis"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-09-005",
+      "target": "info:entity:model:Gemini",
+      "relation": "LLM highlighted in editorial priorities for content monitoring"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-09-005",
+      "target": "info:entity:company:Anthropic",
+      "relation": "AI developer noted in editorial priorities for regulatory considerations"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-09-005",
+      "target": "info:item:politics:global:2026-11-09-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-09-005",
+      "target": "info:item:politics:global:2026-11-08-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-09-005",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-09-005",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-09-005",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-09-005",
+      "target": "taxonomy/misc/European Union",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-09-005",
+      "target": "taxonomy/misc/Brexit",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-09-005",
+      "target": "taxonomy/misc/Youth Policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-11-09-006",
+      "target": "info:entity:company:Anthropic",
+      "relation": "competitor in agentic AI space"
+    },
+    {
+      "source": "info:item:products:global:2026-11-09-006",
+      "target": "info:entity:company:OpenAI",
+      "relation": "provider of Codex and GPT models"
+    },
+    {
+      "source": "info:item:products:global:2026-11-09-006",
+      "target": "info:entity:product:Agent Clan",
+      "relation": "subject of briefing"
+    },
+    {
+      "source": "info:item:products:global:2026-11-09-006",
+      "target": "info:item:products:global:2026-11-07-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-11-09-006",
+      "target": "info:item:products:global:2026-11-07-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-11-09-006",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-11-09-006",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-11-09-006",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-11-09-006",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-11-09-006",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-11-09-006",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-09-008",
+      "target": "info:entity:organization:Houthis",
+      "relation": "perpetrator"
+    },
+    {
+      "source": "info:item:world:global:2026-11-09-008",
+      "target": "info:entity:company:Saudi Aramco",
+      "relation": "owner of targeted tower"
+    },
+    {
+      "source": "info:item:world:global:2026-11-09-008",
+      "target": "info:entity:region:Saudi Arabia",
+      "relation": "target country"
+    },
+    {
+      "source": "info:item:world:global:2026-11-09-008",
+      "target": "info:entity:concept:Iran",
+      "relation": "state sponsor"
+    },
+    {
+      "source": "info:item:world:global:2026-11-09-008",
+      "target": "info:item:world:global:2026-11-09-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-09-008",
+      "target": "info:item:world:global:2026-11-08-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-09-008",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-09-008",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-09-008",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-09-008",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-09-008",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-09-008",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-09-008",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-09-009",
+      "target": "info:entity:organization:Opportunity Party",
+      "relation": "emerged as a kingmaker in the 2026 election"
+    },
+    {
+      "source": "info:item:world:global:2026-11-09-009",
+      "target": "info:entity:person:Quilae Wong",
+      "relation": "leader of the Opportunity Party and election night speaker"
+    },
+    {
+      "source": "info:item:world:global:2026-11-09-009",
+      "target": "info:item:world:global:2026-11-09-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-09-009",
+      "target": "info:item:world:global:2026-11-09-008",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-09-009",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-09-009",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-09-009",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-09-009",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-09-009",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-09-009",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-09-009",
+      "target": "taxonomy/category/industry",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -48356,7 +48882,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
-      "weight": "87"
+      "weight": "89"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -48572,7 +49098,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "38"
+      "weight": "39"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -48876,6 +49402,18 @@
     },
     {
       "source": "info:entity:company:Anthropic",
+      "target": "info:entity:person:Kevin Hollinrake",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:person:Lisa Nandy",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
       "target": "info:entity:person:Mike",
       "relation": "co-occurs",
       "weight": "1"
@@ -48889,6 +49427,12 @@
     {
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:person:Nidal Hasan",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:person:Nigel Farage",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -48921,6 +49465,12 @@
       "target": "info:entity:person:Xi Jinping",
       "relation": "co-occurs",
       "weight": "2"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:product:Agent Clan",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -50552,7 +51102,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "66"
+      "weight": "67"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -51174,6 +51724,12 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:person:Kevin Hollinrake",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:King Charles III",
       "relation": "co-occurs",
       "weight": "2"
@@ -51181,6 +51737,12 @@
     {
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Kylian Mbappé",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:person:Lisa Nandy",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -51264,6 +51826,12 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:person:Nigel Farage",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Pedro Sánchez",
       "relation": "co-occurs",
       "weight": "1"
@@ -51327,6 +51895,12 @@
       "target": "info:entity:person:Zack Polanski",
       "relation": "co-occurs",
       "weight": "2"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:product:Agent Clan",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -51715,6 +52289,24 @@
     {
       "source": "info:entity:company:Ryanair",
       "target": "info:entity:organization:Polish Interior Ministry",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Saudi Aramco",
+      "target": "info:entity:concept:Iran",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Saudi Aramco",
+      "target": "info:entity:organization:Houthis",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Saudi Aramco",
+      "target": "info:entity:region:Saudi Arabia",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -52921,6 +53513,18 @@
     {
       "source": "info:entity:concept:IPO",
       "target": "info:entity:person:Sam Altman",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Iran",
+      "target": "info:entity:organization:Houthis",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Iran",
+      "target": "info:entity:region:Saudi Arabia",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -54840,6 +55444,12 @@
     },
     {
       "source": "info:entity:model:Gemini",
+      "target": "info:entity:person:Kevin Hollinrake",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
       "target": "info:entity:person:Kevin Reddington",
       "relation": "co-occurs",
       "weight": "1"
@@ -54853,6 +55463,12 @@
     {
       "source": "info:entity:model:Gemini",
       "target": "info:entity:person:Lindsay Clancy",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
+      "target": "info:entity:person:Lisa Nandy",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -54938,7 +55554,7 @@
       "source": "info:entity:model:Gemini",
       "target": "info:entity:person:Nigel Farage",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:model:Gemini",
@@ -56969,6 +57585,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Department for Environment, Food & Rural Affairs (Defra)",
+      "target": "info:entity:organization:European Commission",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Department for Environment, Food & Rural Affairs (Defra)",
+      "target": "info:entity:organization:Food and Drink Federation",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Department for Environment, Food & Rural Affairs (Defra)",
+      "target": "info:entity:person:Angela Eagle",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Department for Transport",
       "target": "info:entity:organization:RAC",
       "relation": "co-occurs",
@@ -57083,6 +57717,12 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Egyptian Railway Authority",
+      "target": "info:entity:person:Abdul Fattah al‑Sisi",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Electoral Commission",
       "target": "info:entity:organization:Labour Party",
       "relation": "co-occurs",
@@ -57192,7 +57832,19 @@
     },
     {
       "source": "info:entity:organization:European Commission",
+      "target": "info:entity:organization:Food and Drink Federation",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:European Commission",
       "target": "info:entity:organization:NATO",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:European Commission",
+      "target": "info:entity:person:Angela Eagle",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -57651,6 +58303,12 @@
       "target": "info:entity:region:Saudi Arabia",
       "relation": "co-occurs",
       "weight": "2"
+    },
+    {
+      "source": "info:entity:organization:Food and Drink Federation",
+      "target": "info:entity:person:Angela Eagle",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:organization:Football Supporters' Association",
@@ -58316,7 +58974,7 @@
       "source": "info:entity:organization:Houthis",
       "target": "info:entity:region:Saudi Arabia",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Human Rights Activists News Agency (Hrana)",
@@ -60323,6 +60981,12 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Opportunity Party",
+      "target": "info:entity:person:Quilae Wong",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Oregon Public Broadcasting (OPB)",
       "target": "info:entity:person:Griffin J John II",
       "relation": "co-occurs",
@@ -60468,7 +61132,25 @@
     },
     {
       "source": "info:entity:organization:Polish Interior Ministry",
+      "target": "info:entity:person:Dr Mateusz Wierdak",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Polish Interior Ministry",
       "target": "info:entity:person:Jacek Dobrzynski",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Polish Interior Ministry",
+      "target": "info:entity:person:Professor Michal PÄdziwiatr",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Polish Interior Ministry",
+      "target": "info:entity:region:Krakow",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -63941,6 +64623,18 @@
       "weight": "2"
     },
     {
+      "source": "info:entity:person:Dr Mateusz Wierdak",
+      "target": "info:entity:person:Professor Michal PÄdziwiatr",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Dr Mateusz Wierdak",
+      "target": "info:entity:region:Krakow",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:person:Dr. Rajeev Lochan",
       "target": "info:entity:region:Uttarakhand",
       "relation": "co-occurs",
@@ -64805,6 +65499,18 @@
       "weight": "2"
     },
     {
+      "source": "info:entity:person:Kevin Hollinrake",
+      "target": "info:entity:person:Lisa Nandy",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Kevin Hollinrake",
+      "target": "info:entity:person:Nigel Farage",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:person:Kevin Reddington",
       "target": "info:entity:person:Lindsay Clancy",
       "relation": "co-occurs",
@@ -64879,6 +65585,12 @@
     {
       "source": "info:entity:person:Lindsey Graham",
       "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Lisa Nandy",
+      "target": "info:entity:person:Nigel Farage",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -65161,6 +65873,12 @@
     {
       "source": "info:entity:person:Priti Patel",
       "target": "info:entity:person:Tom Tugendhat",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Professor Michal PÄdziwiatr",
+      "target": "info:entity:region:Krakow",
       "relation": "co-occurs",
       "weight": "1"
     },

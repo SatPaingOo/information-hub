@@ -1,7 +1,7 @@
 ---
 node: "politics"
 layer: topic
-item_count: 199
+item_count: 201
 ---
 
 # politics
@@ -17,6 +17,8 @@ item_count: 199
 
 ## Items
 
+- 2026-11-09 · [[2026-11-09-004-smoky-bacon-crisps-and-the-eu-food-standards-deal-a-new]] — Smoky Bacon Crisps and the EU Food Standards Deal: A New Front in UK‑EU Regulatory Tensions
+- 2026-11-09 · [[2026-11-09-005-nandy-rejects-claims-of-politicising-remembrance-sunday]] — Nandy rejects claims of politicising Remembrance Sunday after Erasmus row
 - 2026-11-08 · [[2026-11-08-004-parliament-restoration-delays-frustrating-says-commons]] — Parliament restoration delays 'frustrating', says Commons Speaker
 - 2026-11-08 · [[2026-11-08-005-pm-tells-firms-to-publish-salaries-in-job-adverts-ahead-of]] — PM tells firms to publish salaries in job adverts ahead of new law
 - 2026-11-06 · [[2026-11-06-005-interest-rates-hiked-to-4-in-first-increase-in-over-three]] — Interest rates hiked to 4% in first increase in over three years

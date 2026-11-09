@@ -1,7 +1,7 @@
 ---
 node: "product"
 layer: category
-item_count: 124
+item_count: 125
 ---
 
 # product
@@ -19,6 +19,7 @@ item_count: 124
 
 ## Items
 
+- 2026-11-09 · [[2026-11-09-006-agent-clan]] — Agent Clan
 - 2026-11-07 · [[2026-11-07-005-alysis-code]] — Alysis Code
 - 2026-11-07 · [[2026-11-07-006-rankfender-v3-0]] — Rankfender v3.0
 - 2026-11-05 · [[2026-11-05-006-render-sandboxes-a-cloud-native-playground-for-agentic-ai]] — Render Sandboxes – A Cloud‑Native Playground for Agentic AI

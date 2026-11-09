@@ -1,0 +1,29 @@
+2026-11-09 02:44:36,856 INFO [world-news] published 2026-11-09-001 — Surgeon having lunch near Krakow shooting undoubtedly saved 
+2026-11-09 02:45:01,621 ERROR [world-news] generate error: bad response: Expecting property name enclosed in double quotes: line 22 column 6 (char 1406)
+2026-11-09 02:45:09,488 INFO [world-news] published 2026-11-09-002 — Seven dead and over 100 injured after train collision near G
+2026-11-09 02:45:09,729 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7903, Requested 7184. Please try again in 53.1525s. Need more tokens? Upgrade to Dev Tier today at https://co
+2026-11-09 02:45:12,771 ERROR [world-news] generate error: HTTP 404: {"error":{"message":"poolside/laguna-xs-2.1:free is no longer available on OpenRouter: no provider serves this model anymore. See available models at https://openrouter.ai/models","code":404},"user_id":"user_2mqLaYz9PPTm2loHhHg0PQ896kb"}
+2026-11-09 02:45:18,815 ERROR [world-news] generate error: HTTP 404: {"error":{"message":"poolside/laguna-s-2.1:free is no longer available on OpenRouter: no provider serves this model anymore. See available models at https://openrouter.ai/models","code":404},"user_id":"user_2mqLaYz9PPTm2loHhHg0PQ896kb"}
+2026-11-09 02:45:58,273 INFO [tech-news] nothing selected
+2026-11-09 02:46:25,085 ERROR [politics] generate error: bad response: Expecting property name enclosed in double quotes: line 21 column 6 (char 1462)
+2026-11-09 02:46:32,784 INFO [politics] published 2026-11-09-004 — Smoky Bacon Crisps and the EU Food Standards Deal: A New Fro
+2026-11-09 02:46:32,962 ERROR [politics] generate error: HTTP 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Requested 9033, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https
+2026-11-09 02:47:23,510 ERROR [politics] generate error: empty model content
+2026-11-09 02:48:33,649 INFO [politics] published 2026-11-09-005 — Nandy rejects claims of politicising Remembrance Sunday afte
+2026-11-09 02:49:05,401 INFO [products] published 2026-11-09-006 — Agent Clan
+2026-11-09 02:49:33,447 ERROR [products] generate error: bad response: Expecting property name enclosed in double quotes: line 25 column 7 (char 2186)
+2026-11-09 02:49:37,482 ERROR [products] generate error: HTTP 400: {"error":{"message":"Provider returned error","code":400,"metadata":{"raw":"{\"code\":400,\"msg\":\"bad request\",\"request_id\":\"4c1cf0f6-10d3-48ce-ac40-f3b449adffd8\"}","provider_name":"AtlasCloud","is_byok":false}},"user_id":"user_2mqLaYz9PPTm2loHhHg0PQ896kb"}
+2026-11-09 02:49:43,524 ERROR [products] generate error: HTTP 404: {"error":{"message":"This model is unavailable for free. The paid version is available now - use this slug instead: nvidia/nemotron-3-super-120b-a12b","code":404},"user_id":"user_2mqLaYz9PPTm2loHhHg0PQ896kb"}
+2026-11-09 02:49:53,274 INFO collect done: 5 item(s) published — target 5/10, next run ≈ 2026-11-09T03:04:53+00:00 UTC
+2026-11-09 02:50:47,558 ERROR [world-news] generate error: bad response: Expecting property name enclosed in double quotes: line 30 column 7 (char 3205)
+2026-11-09 02:51:15,796 ERROR [world-news] generate error: empty model content
+2026-11-09 02:51:36,395 ERROR [world-news] generate error: bad response: Unterminated string starting at: line 35 column 5 (char 4488)
+2026-11-09 02:52:47,819 INFO [world-news] attempt 1 invalid: ["entities/3/type: 'location' is not one of ['concept', 'company', 'model', 'person', 'product', 'region', 'organization', 'event']"]
+2026-11-09 02:53:01,808 INFO [world-news] published 2026-11-09-008 — Aramco Tower hit in heart of Saudi capital as Houthis launch
+2026-11-09 02:53:14,548 INFO [world-news] published 2026-11-09-009 — 'Flat', 'tired', 'cynical': Unusually gloomy Kiwis deliver N
+2026-11-09 02:53:15,851 INFO [tech-news] nothing selected
+2026-11-09 02:53:17,673 ERROR [politics] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 2103, Requested 7155. Please try again in 9.435s. Need more tokens? Upgrade to Dev Tier today at https://conso
+2026-11-09 02:53:20,675 WARNING [politics] no collect provider for deep-dive
+2026-11-09 02:53:20,767 WARNING [politics] no collect provider for deep-dive
+2026-11-09 02:53:20,998 WARNING [products] no collect provider available
+2026-11-09 02:53:21,733 INFO collect done: 2 item(s) published — target 3/10, next run ≈ 2026-11-10T01:00:00+00:00 UTC

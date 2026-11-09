@@ -1,7 +1,7 @@
 ---
 node: "Agentic AI"
 layer: misc
-item_count: 113
+item_count: 114
 ---
 
 # Agentic AI
@@ -17,6 +17,7 @@ item_count: 113
 
 ## Items
 
+- 2026-11-09 · [[2026-11-09-006-agent-clan]] — Agent Clan
 - 2026-11-07 · [[2026-11-07-005-alysis-code]] — Alysis Code
 - 2026-11-07 · [[2026-11-07-006-rankfender-v3-0]] — Rankfender v3.0
 - 2026-11-07 · [[2026-11-07-008-new-wave-of-bomb-threats-hit-european-airlines]] — New wave of bomb threats hit European airlines

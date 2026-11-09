@@ -1,7 +1,7 @@
 ---
 name: "Lisa Nandy"
 entity_type: person
-backlink_count: 2
+backlink_count: 3
 ---
 
 # Lisa Nandy
@@ -10,5 +10,6 @@ backlink_count: 2
 
 ## Referenced by
 
+- 2026-11-09 · [[2026-11-09-005-nandy-rejects-claims-of-politicising-remembrance-sunday]] — Nandy rejects claims of politicising Remembrance Sunday after Erasmus row
 - 2026-09-27 · [[2026-09-27-005-rayner-criticises-visa-rule-proposals-ahead-of-labour]] — Rayner criticises visa rule proposals ahead of Labour conference
 - 2026-09-09 · [[2026-09-09-004-new-law-to-force-tech-firms-to-stop-children-taking-or]] — New law to force tech firms to stop children taking or sharing nude images

@@ -1,7 +1,7 @@
 ---
 name: "Saudi Arabia"
 entity_type: organization
-backlink_count: 12
+backlink_count: 13
 ---
 
 # Saudi Arabia
@@ -10,6 +10,7 @@ backlink_count: 12
 
 ## Referenced by
 
+- 2026-11-09 · [[2026-11-09-008-aramco-tower-hit-in-heart-of-saudi-capital-as-houthis]] — Aramco Tower hit in heart of Saudi capital as Houthis launch fresh strikes
 - 2026-10-20 · [[2026-10-20-001-ex-openai-worker-accused-of-planting-device-had-saudi]] — Ex-OpenAI worker accused of planting device had Saudi support, says court filing
 - 2026-10-12 · [[2026-10-12-002-one-killed-11-injured-in-second-houthi-strike-on-riyadh]] — One killed, 11 injured in second Houthi strike on Riyadh airport in two days
 - 2026-10-11 · [[2026-10-11-003-twelve-killed-in-attack-on-airport-in-saudi-capital-riyadh]] — Twelve killed in attack on airport in Saudi capital Riyadh

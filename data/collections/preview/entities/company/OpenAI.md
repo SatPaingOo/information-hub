@@ -1,7 +1,7 @@
 ---
 name: "OpenAI"
 entity_type: company
-backlink_count: 186
+backlink_count: 188
 ---
 
 # OpenAI
@@ -10,6 +10,8 @@ backlink_count: 186
 
 ## Referenced by
 
+- 2026-11-09 · [[2026-11-09-005-nandy-rejects-claims-of-politicising-remembrance-sunday]] — Nandy rejects claims of politicising Remembrance Sunday after Erasmus row
+- 2026-11-09 · [[2026-11-09-006-agent-clan]] — Agent Clan
 - 2026-11-08 · [[2026-11-08-004-parliament-restoration-delays-frustrating-says-commons]] — Parliament restoration delays 'frustrating', says Commons Speaker
 - 2026-11-08 · [[2026-11-08-005-pm-tells-firms-to-publish-salaries-in-job-adverts-ahead-of]] — PM tells firms to publish salaries in job adverts ahead of new law
 - 2026-11-08 · [[2026-11-08-006-uk-cannot-cherry-pick-eu-single-market-deal-barnier-tells]] — UK cannot 'cherry pick' EU single market deal, Barnier tells BBC

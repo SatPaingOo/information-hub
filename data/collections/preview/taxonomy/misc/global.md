@@ -1,7 +1,7 @@
 ---
 node: "Global"
 layer: misc
-item_count: 577
+item_count: 584
 ---
 
 # Global
@@ -25,6 +25,13 @@ item_count: 577
 
 ## Items
 
+- 2026-11-09 · [[2026-11-09-001-surgeon-having-lunch-near-krakow-shooting-undoubtedly]] — Surgeon having lunch near Krakow shooting undoubtedly saved officer's life, colleague says
+- 2026-11-09 · [[2026-11-09-002-seven-dead-and-over-100-injured-after-train-collision-near]] — Seven dead and over 100 injured after train collision near Giza, Egypt
+- 2026-11-09 · [[2026-11-09-004-smoky-bacon-crisps-and-the-eu-food-standards-deal-a-new]] — Smoky Bacon Crisps and the EU Food Standards Deal: A New Front in UK‑EU Regulatory Tensions
+- 2026-11-09 · [[2026-11-09-005-nandy-rejects-claims-of-politicising-remembrance-sunday]] — Nandy rejects claims of politicising Remembrance Sunday after Erasmus row
+- 2026-11-09 · [[2026-11-09-006-agent-clan]] — Agent Clan
+- 2026-11-09 · [[2026-11-09-008-aramco-tower-hit-in-heart-of-saudi-capital-as-houthis]] — Aramco Tower hit in heart of Saudi capital as Houthis launch fresh strikes
+- 2026-11-09 · [[2026-11-09-009-flat-tired-cynical-unusually-gloomy-kiwis-deliver-new]] — 'Flat', 'tired', 'cynical': Unusually gloomy Kiwis deliver New Zealand's tightest election in years
 - 2026-11-08 · [[2026-11-08-001-what-we-know-so-far-after-krakow-gun-attack]] — What we know so far after Krakow gun attack
 - 2026-11-08 · [[2026-11-08-003-no-clear-winner-after-tight-new-zealand-general-election]] — No clear winner after tight New Zealand general election
 - 2026-11-08 · [[2026-11-08-004-parliament-restoration-delays-frustrating-says-commons]] — Parliament restoration delays 'frustrating', says Commons Speaker

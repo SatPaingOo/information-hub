@@ -1,7 +1,7 @@
 ---
 node: "Transport Safety"
 layer: misc
-item_count: 3
+item_count: 4
 ---
 
 # Transport Safety
@@ -14,6 +14,7 @@ item_count: 3
 
 ## Items
 
+- 2026-11-09 · [[2026-11-09-002-seven-dead-and-over-100-injured-after-train-collision-near]] — Seven dead and over 100 injured after train collision near Giza, Egypt
 - 2026-11-07 · [[2026-11-07-003-two-dead-after-bus-crashes-in-france-officials-say]] — Two dead after bus crashes in France, officials say
 - 2026-11-04 · [[2026-11-04-001-spanish-transport-minister-resigns-days-after-deadly-train]] — Spanish transport minister resigns days after deadly train crash
 - 2026-10-21 · [[2026-10-21-008-man-charged-with-attack-on-australia-mp-to-face-court]] — Man charged with attack on Australia MP to face court

@@ -1,7 +1,7 @@
 ---
 name: "Polish Interior Ministry"
 entity_type: organization
-backlink_count: 3
+backlink_count: 4
 ---
 
 # Polish Interior Ministry
@@ -10,6 +10,7 @@ backlink_count: 3
 
 ## Referenced by
 
+- 2026-11-09 · [[2026-11-09-001-surgeon-having-lunch-near-krakow-shooting-undoubtedly]] — Surgeon having lunch near Krakow shooting undoubtedly saved officer's life, colleague says
 - 2026-11-08 · [[2026-11-08-001-what-we-know-so-far-after-krakow-gun-attack]] — What we know so far after Krakow gun attack
 - 2026-11-04 · [[2026-11-04-002-seven-flights-across-europe-targeted-by-suspected-bomb]] — Seven flights across Europe targeted by suspected bomb threats
 - 2026-10-12 · [[2026-10-12-003-poland-detains-man-suspected-of-planning-assassination-of]] — Poland detains man suspected of planning assassination of PM Tusk
