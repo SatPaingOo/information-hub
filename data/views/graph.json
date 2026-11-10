@@ -10853,6 +10853,85 @@
       "name": "Quilae Wong"
     },
     {
+      "id": "info:item:world:global:2026-11-10-001",
+      "type": "item",
+      "date": "2026-11-10",
+      "title": "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy"
+    },
+    {
+      "id": "info:entity:person:Alice Huang",
+      "type": "person",
+      "name": "Alice Huang"
+    },
+    {
+      "id": "info:entity:organization:Chinese Government",
+      "type": "organization",
+      "name": "Chinese Government"
+    },
+    {
+      "id": "taxonomy/misc/AI geopolitics",
+      "type": "taxonomy",
+      "name": "AI geopolitics"
+    },
+    {
+      "id": "taxonomy/misc/Corporate espionage",
+      "type": "taxonomy",
+      "name": "Corporate espionage"
+    },
+    {
+      "id": "taxonomy/misc/US-China relations",
+      "type": "taxonomy",
+      "name": "US-China relations"
+    },
+    {
+      "id": "info:item:politics:global:2026-11-10-005",
+      "type": "item",
+      "date": "2026-11-10",
+      "title": "Government's EV targets expected to be reduced this week"
+    },
+    {
+      "id": "info:entity:organization:UK government",
+      "type": "organization",
+      "name": "UK government"
+    },
+    {
+      "id": "info:entity:organization:Energy UK",
+      "type": "organization",
+      "name": "Energy UK"
+    },
+    {
+      "id": "info:entity:region:EU",
+      "type": "region",
+      "name": "EU"
+    },
+    {
+      "id": "info:entity:event:COP31",
+      "type": "event",
+      "name": "COP31"
+    },
+    {
+      "id": "info:item:world:global:2026-11-10-006",
+      "type": "item",
+      "date": "2026-11-10",
+      "title": "Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy"
+    },
+    {
+      "id": "info:entity:organization:US intelligence community",
+      "type": "organization",
+      "name": "US intelligence community"
+    },
+    {
+      "id": "info:item:world:global:2026-11-10-007",
+      "type": "item",
+      "date": "2026-11-10",
+      "title": "Ukraine peace talks resume with 'some flexibility' by warring sides, US officials say"
+    },
+    {
+      "id": "info:entity:person:Mikhail Kudrin",
+      "type": "person",
+      "name": "Mikhail Kudrin"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -48553,6 +48632,281 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-11-10-001",
+      "target": "info:entity:person:Jensen Huang",
+      "relation": "CEO of Nvidia"
+    },
+    {
+      "source": "info:item:world:global:2026-11-10-001",
+      "target": "info:entity:company:Nvidia",
+      "relation": "Designer of AI‑critical GPUs"
+    },
+    {
+      "source": "info:item:world:global:2026-11-10-001",
+      "target": "info:entity:person:Alice Huang",
+      "relation": "Alleged Chinese intelligence asset"
+    },
+    {
+      "source": "info:item:world:global:2026-11-10-001",
+      "target": "info:entity:organization:FBI",
+      "relation": "Conducting investigation"
+    },
+    {
+      "source": "info:item:world:global:2026-11-10-001",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "Former U.S. President commenting on investigation"
+    },
+    {
+      "source": "info:item:world:global:2026-11-10-001",
+      "target": "info:entity:organization:Chinese Government",
+      "relation": "Accused of directing espionage"
+    },
+    {
+      "source": "info:item:world:global:2026-11-10-001",
+      "target": "info:item:world:global:2026-11-09-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-10-001",
+      "target": "info:item:world:global:2026-11-09-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-10-001",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-10-001",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-10-001",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-10-001",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-10-001",
+      "target": "taxonomy/misc/AI geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-10-001",
+      "target": "taxonomy/misc/Corporate espionage",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-10-001",
+      "target": "taxonomy/misc/US-China relations",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-10-005",
+      "target": "info:entity:organization:UK government",
+      "relation": "policy maker"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-10-005",
+      "target": "info:entity:organization:Energy UK",
+      "relation": "industry association opposing target reduction"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-10-005",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "Prime Minister recused from the issue"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-10-005",
+      "target": "info:entity:region:EU",
+      "relation": "regional comparison for policy context"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-10-005",
+      "target": "info:entity:event:COP31",
+      "relation": "climate summit where UK will meet other leaders"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-10-005",
+      "target": "info:item:politics:global:2026-11-09-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-10-005",
+      "target": "info:item:politics:global:2026-11-09-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-10-005",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-10-005",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-10-005",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-10-005",
+      "target": "taxonomy/misc/regions",
+      "relation": "global"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-10-005",
+      "target": "taxonomy/misc/topics",
+      "relation": "politics, geopolitics"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-10-005",
+      "target": "taxonomy/misc/categories",
+      "relation": "policy"
+    },
+    {
+      "source": "info:item:world:global:2026-11-10-006",
+      "target": "info:entity:person:Jensen Huang",
+      "relation": "CEO of Nvidia, accused of affair with alleged Chinese spy"
+    },
+    {
+      "source": "info:item:world:global:2026-11-10-006",
+      "target": "info:entity:company:Nvidia",
+      "relation": "Semiconductor company central to AI hardware development, facing market decline and investigation"
+    },
+    {
+      "source": "info:item:world:global:2026-11-10-006",
+      "target": "info:entity:region:China",
+      "relation": "Accused of espionage targeting Nvidia's CEO, rejecting the allegations as groundless"
+    },
+    {
+      "source": "info:item:world:global:2026-11-10-006",
+      "target": "info:entity:organization:US intelligence community",
+      "relation": "Believes Nvidia's CEO was targeted by a foreign intelligence effort"
+    },
+    {
+      "source": "info:item:world:global:2026-11-10-006",
+      "target": "info:item:world:global:2026-11-09-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-10-006",
+      "target": "info:item:world:global:2026-11-09-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-10-006",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-10-006",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-10-006",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-10-006",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-10-006",
+      "target": "taxonomy/misc/regions",
+      "relation": "connects to global region"
+    },
+    {
+      "source": "info:item:world:global:2026-11-10-006",
+      "target": "taxonomy/misc/topics",
+      "relation": "connects to world and geopolitics topics"
+    },
+    {
+      "source": "info:item:world:global:2026-11-10-006",
+      "target": "taxonomy/misc/categories",
+      "relation": "connects to policy and industry categories"
+    },
+    {
+      "source": "info:item:world:global:2026-11-10-007",
+      "target": "info:entity:person:Jared Kushner",
+      "relation": "US peace delegation leader and son-in-law of Donald Trump"
+    },
+    {
+      "source": "info:item:world:global:2026-11-10-007",
+      "target": "info:entity:organization:United Arab Emirates",
+      "relation": "Host country for the trilateral peace talks"
+    },
+    {
+      "source": "info:item:world:global:2026-11-10-007",
+      "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "President of Ukraine, seeking European inclusion in peace talks"
+    },
+    {
+      "source": "info:item:world:global:2026-11-10-007",
+      "target": "info:entity:person:Mikhail Kudrin",
+      "relation": "Kremlin aide attending the Abu Dhabi talks"
+    },
+    {
+      "source": "info:item:world:global:2026-11-10-007",
+      "target": "info:entity:organization:European Commission",
+      "relation": "Calling for EU members to participate in peace negotiations"
+    },
+    {
+      "source": "info:item:world:global:2026-11-10-007",
+      "target": "info:item:world:global:2026-11-09-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-10-007",
+      "target": "info:item:world:global:2026-11-10-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-10-007",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-10-007",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-10-007",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-10-007",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-10-007",
+      "target": "taxonomy/misc/regions",
+      "relation": "connects to global geopolitical regions"
+    },
+    {
+      "source": "info:item:world:global:2026-11-10-007",
+      "target": "taxonomy/misc/topics",
+      "relation": "relates to world and geopolitics topics"
+    },
+    {
+      "source": "info:item:world:global:2026-11-10-007",
+      "target": "taxonomy/misc/categories",
+      "relation": "links to policy and industry categories"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -50806,7 +51160,31 @@
     },
     {
       "source": "info:entity:company:Nvidia",
+      "target": "info:entity:organization:Chinese Government",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Nvidia",
+      "target": "info:entity:organization:FBI",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Nvidia",
       "target": "info:entity:organization:OpenAI",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Nvidia",
+      "target": "info:entity:organization:US intelligence community",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Nvidia",
+      "target": "info:entity:person:Alice Huang",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -50826,7 +51204,7 @@
       "source": "info:entity:company:Nvidia",
       "target": "info:entity:person:Donald Trump",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:company:Nvidia",
@@ -50838,7 +51216,7 @@
       "source": "info:entity:company:Nvidia",
       "target": "info:entity:person:Jensen Huang",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "4"
     },
     {
       "source": "info:entity:company:Nvidia",
@@ -50855,6 +51233,12 @@
     {
       "source": "info:entity:company:Nvidia",
       "target": "info:entity:product:Samsung Galaxy Fold 8",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Nvidia",
+      "target": "info:entity:region:China",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -54387,6 +54771,30 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:event:COP31",
+      "target": "info:entity:organization:Energy UK",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:event:COP31",
+      "target": "info:entity:organization:UK government",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:event:COP31",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:event:COP31",
+      "target": "info:entity:region:EU",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:event:Champs‑Élysées Mass",
       "target": "info:entity:person:Brigitte Macron",
       "relation": "co-occurs",
@@ -57207,6 +57615,30 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Chinese Government",
+      "target": "info:entity:organization:FBI",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Chinese Government",
+      "target": "info:entity:person:Alice Huang",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Chinese Government",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Chinese Government",
+      "target": "info:entity:person:Jensen Huang",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Christian Democratic Union (CDU)",
       "target": "info:entity:organization:Social Democratic Party (SPD)",
       "relation": "co-occurs",
@@ -57783,6 +58215,24 @@
       "weight": "2"
     },
     {
+      "source": "info:entity:organization:Energy UK",
+      "target": "info:entity:organization:UK government",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Energy UK",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Energy UK",
+      "target": "info:entity:region:EU",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Equality and Human Rights Commission",
       "target": "info:entity:organization:Green Party of England and Wales",
       "relation": "co-occurs",
@@ -57844,6 +58294,12 @@
     },
     {
       "source": "info:entity:organization:European Commission",
+      "target": "info:entity:organization:United Arab Emirates",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:European Commission",
       "target": "info:entity:person:Angela Eagle",
       "relation": "co-occurs",
       "weight": "1"
@@ -57862,6 +58318,12 @@
     },
     {
       "source": "info:entity:organization:European Commission",
+      "target": "info:entity:person:Jared Kushner",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:European Commission",
       "target": "info:entity:person:Marine Le Pen",
       "relation": "co-occurs",
       "weight": "1"
@@ -57874,6 +58336,12 @@
     },
     {
       "source": "info:entity:organization:European Commission",
+      "target": "info:entity:person:Mikhail Kudrin",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:European Commission",
       "target": "info:entity:person:Ursula von der Leyen",
       "relation": "co-occurs",
       "weight": "1"
@@ -57881,6 +58349,12 @@
     {
       "source": "info:entity:organization:European Commission",
       "target": "info:entity:person:Vladimir Putin",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:European Commission",
+      "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -58120,6 +58594,12 @@
     },
     {
       "source": "info:entity:organization:FBI",
+      "target": "info:entity:person:Alice Huang",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:FBI",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
       "weight": "1"
@@ -58140,7 +58620,7 @@
       "source": "info:entity:organization:FBI",
       "target": "info:entity:person:Donald Trump",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:FBI",
@@ -58151,6 +58631,12 @@
     {
       "source": "info:entity:organization:FBI",
       "target": "info:entity:person:James Comey",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:FBI",
+      "target": "info:entity:person:Jensen Huang",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -62343,6 +62829,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:UK government",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:UK government",
+      "target": "info:entity:region:EU",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:US Central Command (Centcom)",
       "target": "info:entity:person:Donald Trump",
       "relation": "co-occurs",
@@ -62393,6 +62891,18 @@
     {
       "source": "info:entity:organization:US Department of Justice",
       "target": "info:entity:person:Tristan Tate",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:US intelligence community",
+      "target": "info:entity:person:Jensen Huang",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:US intelligence community",
+      "target": "info:entity:region:China",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -62597,6 +63107,24 @@
     {
       "source": "info:entity:organization:United Arab Emirates",
       "target": "info:entity:person:Captain Smit Machchhar",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:United Arab Emirates",
+      "target": "info:entity:person:Jared Kushner",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:United Arab Emirates",
+      "target": "info:entity:person:Mikhail Kudrin",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:United Arab Emirates",
+      "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -63153,6 +63681,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:person:Alice Huang",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Alice Huang",
+      "target": "info:entity:person:Jensen Huang",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:person:Alice Weidel",
       "target": "info:entity:person:Friedrich Merz",
       "relation": "co-occurs",
@@ -63509,6 +64049,12 @@
     {
       "source": "info:entity:person:Andy Burnham",
       "target": "info:entity:region:Diego Garcia",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Andy Burnham",
+      "target": "info:entity:region:EU",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -64368,7 +64914,7 @@
       "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:Jensen Huang",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:person:Donald Trump",
@@ -65134,6 +65680,12 @@
     },
     {
       "source": "info:entity:person:Jared Kushner",
+      "target": "info:entity:person:Mikhail Kudrin",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Jared Kushner",
       "target": "info:entity:person:Steve Witkoff",
       "relation": "co-occurs",
       "weight": "4"
@@ -65148,7 +65700,7 @@
       "source": "info:entity:person:Jared Kushner",
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
-      "weight": "4"
+      "weight": "5"
     },
     {
       "source": "info:entity:person:Javier Milei",
@@ -65201,6 +65753,12 @@
     {
       "source": "info:entity:person:Jensen Huang",
       "target": "info:entity:product:Samsung Galaxy Fold 8",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Jensen Huang",
+      "target": "info:entity:region:China",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -65777,6 +66335,12 @@
     {
       "source": "info:entity:person:Mike Searle",
       "target": "info:entity:person:Simon Cook",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Mikhail Kudrin",
+      "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
       "weight": "1"
     },

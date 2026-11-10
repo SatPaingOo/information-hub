@@ -1,7 +1,7 @@
 ---
 name: "FBI"
 entity_type: organization
-backlink_count: 7
+backlink_count: 8
 ---
 
 # FBI
@@ -10,6 +10,7 @@ backlink_count: 7
 
 ## Referenced by
 
+- 2026-11-10 · [[2026-11-10-001-trump-says-fbi-investigating-nvidia-boss-s-affair-with]] — Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy
 - 2026-10-31 · [[2026-10-31-002-crypto-giant-binance-attempting-to-recover-6-3bn-stolen-in]] — Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea
 - 2026-10-27 · [[2026-10-27-008-ex-fbi-director-james-comey-charged-for-third-time-legal]] — Ex‑FBI Director James Comey Charged for Third Time: Legal, Political and Institutional Ramifications
 - 2026-10-20 · [[2026-10-20-001-ex-openai-worker-accused-of-planting-device-had-saudi]] — Ex-OpenAI worker accused of planting device had Saudi support, says court filing

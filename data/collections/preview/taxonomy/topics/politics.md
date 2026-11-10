@@ -1,7 +1,7 @@
 ---
 node: "politics"
 layer: topic
-item_count: 201
+item_count: 202
 ---
 
 # politics
@@ -17,6 +17,7 @@ item_count: 201
 
 ## Items
 
+- 2026-11-10 · [[2026-11-10-005-government-s-ev-targets-expected-to-be-reduced-this-week]] — Government's EV targets expected to be reduced this week
 - 2026-11-09 · [[2026-11-09-004-smoky-bacon-crisps-and-the-eu-food-standards-deal-a-new]] — Smoky Bacon Crisps and the EU Food Standards Deal: A New Front in UK‑EU Regulatory Tensions
 - 2026-11-09 · [[2026-11-09-005-nandy-rejects-claims-of-politicising-remembrance-sunday]] — Nandy rejects claims of politicising Remembrance Sunday after Erasmus row
 - 2026-11-08 · [[2026-11-08-004-parliament-restoration-delays-frustrating-says-commons]] — Parliament restoration delays 'frustrating', says Commons Speaker

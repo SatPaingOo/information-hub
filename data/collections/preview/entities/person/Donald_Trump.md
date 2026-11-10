@@ -1,7 +1,7 @@
 ---
 name: "Donald Trump"
 entity_type: person
-backlink_count: 84
+backlink_count: 85
 ---
 
 # Donald Trump
@@ -10,6 +10,7 @@ backlink_count: 84
 
 ## Referenced by
 
+- 2026-11-10 · [[2026-11-10-001-trump-says-fbi-investigating-nvidia-boss-s-affair-with]] — Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy
 - 2026-11-07 · [[2026-11-07-001-ai-stocks-climb-after-trillions-wiped-from-market-values]] — AI stocks climb after trillions wiped from market values
 - 2026-11-07 · [[2026-11-07-007-four-midterms-takeaways-for-2028-white-house-race]] — Four midterms takeaways for 2028 White House race
 - 2026-11-05 · [[2026-11-05-001-this-is-a-disaster-angry-republicans-blame-trump-for]] — 'This is a disaster': Angry Republicans blame Trump for midterms defeat

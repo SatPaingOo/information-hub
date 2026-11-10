@@ -1,7 +1,7 @@
 ---
 name: "Jared Kushner"
 entity_type: person
-backlink_count: 5
+backlink_count: 6
 ---
 
 # Jared Kushner
@@ -10,6 +10,7 @@ backlink_count: 5
 
 ## Referenced by
 
+- 2026-11-10 · [[2026-11-10-007-ukraine-peace-talks-resume-with-some-flexibility-by]] — Ukraine peace talks resume with 'some flexibility' by warring sides, US officials say
 - 2026-10-21 · [[2026-10-21-001-us-envoy-to-meet-putin-in-russia-as-zelensky-says]] — US envoy to meet Putin in Russia as Zelensky says intelligence sharing 'works now'
 - 2026-10-21 · [[2026-10-21-009-trump-and-zelensky-appear-at-loggerheads-despite-oslo]] — Trump and Zelensky appear at loggerheads despite Oslo optimism
 - 2026-10-15 · [[2026-10-15-003-student-protesters-attack-government-buildings-in-albania]] — Student protesters attack government buildings in Albania

@@ -1,7 +1,7 @@
 ---
 node: "Policy"
 layer: misc
-item_count: 463
+item_count: 467
 ---
 
 # Policy
@@ -17,6 +17,10 @@ item_count: 463
 
 ## Items
 
+- 2026-11-10 · [[2026-11-10-001-trump-says-fbi-investigating-nvidia-boss-s-affair-with]] — Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy
+- 2026-11-10 · [[2026-11-10-005-government-s-ev-targets-expected-to-be-reduced-this-week]] — Government's EV targets expected to be reduced this week
+- 2026-11-10 · [[2026-11-10-006-nvidia-shares-tumble-over-investigation-into-huang-s]] — Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy
+- 2026-11-10 · [[2026-11-10-007-ukraine-peace-talks-resume-with-some-flexibility-by]] — Ukraine peace talks resume with 'some flexibility' by warring sides, US officials say
 - 2026-11-09 · [[2026-11-09-001-surgeon-having-lunch-near-krakow-shooting-undoubtedly]] — Surgeon having lunch near Krakow shooting undoubtedly saved officer's life, colleague says
 - 2026-11-09 · [[2026-11-09-002-seven-dead-and-over-100-injured-after-train-collision-near]] — Seven dead and over 100 injured after train collision near Giza, Egypt
 - 2026-11-09 · [[2026-11-09-004-smoky-bacon-crisps-and-the-eu-food-standards-deal-a-new]] — Smoky Bacon Crisps and the EU Food Standards Deal: A New Front in UK‑EU Regulatory Tensions

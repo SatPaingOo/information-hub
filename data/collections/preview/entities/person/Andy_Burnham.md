@@ -1,7 +1,7 @@
 ---
 name: "Andy Burnham"
 entity_type: person
-backlink_count: 77
+backlink_count: 78
 ---
 
 # Andy Burnham
@@ -10,6 +10,7 @@ backlink_count: 77
 
 ## Referenced by
 
+- 2026-11-10 · [[2026-11-10-005-government-s-ev-targets-expected-to-be-reduced-this-week]] — Government's EV targets expected to be reduced this week
 - 2026-11-08 · [[2026-11-08-005-pm-tells-firms-to-publish-salaries-in-job-adverts-ahead-of]] — PM tells firms to publish salaries in job adverts ahead of new law
 - 2026-11-08 · [[2026-11-08-006-uk-cannot-cherry-pick-eu-single-market-deal-barnier-tells]] — UK cannot 'cherry pick' EU single market deal, Barnier tells BBC
 - 2026-11-05 · [[2026-11-05-004-uk-commits-to-time-bound-talks-on-slavery-apology]] — UK commits to 'time‑bound' talks on slavery apology

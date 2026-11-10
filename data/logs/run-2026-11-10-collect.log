@@ -1,0 +1,34 @@
+2026-11-10 03:29:09,111 ERROR [world-news] generate error: bad response: Invalid control character at: line 2 column 78 (char 79)
+2026-11-10 03:29:16,877 INFO [world-news] published 2026-11-10-001 — Trump says FBI investigating Nvidia boss's affair with alleg
+2026-11-10 03:29:17,189 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7954, Requested 7343. Please try again in 54.7275s. Need more tokens? Upgrade to Dev Tier today at https://co
+2026-11-10 03:29:20,225 ERROR [world-news] generate error: HTTP 404: {"error":{"message":"poolside/laguna-xs-2.1:free is no longer available on OpenRouter: no provider serves this model anymore. See available models at https://openrouter.ai/models","code":404},"user_id":"user_2mqLaYz9PPTm2loHhHg0PQ896kb"}
+2026-11-10 03:29:27,406 ERROR [world-news] generate error: HTTP 400: {"error":{"message":"Provider returned error","code":400,"metadata":{"raw":"{\"code\":400,\"msg\":\"bad request\",\"request_id\":\"44727efb-8789-4c8e-9589-3257e2355def\"}","provider_name":"AtlasCloud","is_byok":false}},"user_id":"user_2mqLaYz9PPTm2loHhHg0PQ896kb"}
+2026-11-10 03:29:36,593 ERROR [world-news] generate error: HTTP 404: {"error":{"message":"This model is unavailable for free. The paid version is available now - use this slug instead: nvidia/nemotron-3-super-120b-a12b","code":404},"user_id":"user_2mqLaYz9PPTm2loHhHg0PQ896kb"}
+2026-11-10 03:30:06,034 ERROR [world-news] generate error: bad response: Expecting property name enclosed in double quotes: line 22 column 6 (char 1452)
+2026-11-10 03:30:12,160 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 631, Requested 7411. Please try again in 315ms. Need more tokens? Upgrade to Dev Tier today at https://consol
+2026-11-10 03:30:25,061 INFO [tech-news] nothing selected
+2026-11-10 03:31:57,264 ERROR [politics] generate error: empty model content
+2026-11-10 03:32:19,127 ERROR [politics] generate error: bad response: Expecting property name enclosed in double quotes: line 21 column 7 (char 1605)
+2026-11-10 03:32:29,922 ERROR [politics] generate error: HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
+
+2026-11-10 03:33:00,097 ERROR [politics] generate error: empty model content
+2026-11-10 03:33:03,139 ERROR [politics] generate error: HTTP 404: {"error":{"message":"poolside/laguna-s-2.1:free is no longer available on OpenRouter: no provider serves this model anymore. See available models at https://openrouter.ai/models","code":404},"user_id":"user_2mqLaYz9PPTm2loHhHg0PQ896kb"}
+2026-11-10 03:33:20,878 INFO [politics] published 2026-11-10-005 — Government's EV targets expected to be reduced this week
+2026-11-10 03:33:42,338 ERROR [products] generate error: empty model content
+2026-11-10 03:33:48,454 ERROR [products] generate error: HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
+
+2026-11-10 03:33:57,607 WARNING [products] no collect provider for deep-dive
+2026-11-10 03:34:01,530 WARNING [products] no collect provider for deep-dive
+2026-11-10 03:34:02,044 INFO collect done: 2 item(s) published — target 8/10, next run ≈ 2026-11-10T03:41:42+00:00 UTC
+2026-11-10 03:34:43,646 ERROR [world-news] select failed: empty model content
+2026-11-10 03:34:43,709 INFO [world-news] model returned no selection — using heuristic fallback (3)
+2026-11-10 03:34:57,119 INFO [world-news] published 2026-11-10-006 — Nvidia shares tumble over investigation into Huang's affair 
+2026-11-10 03:35:09,012 INFO [world-news] attempt 1 invalid: ["entities/2/type: 'individual' is not one of ['concept', 'company', 'model', 'person', 'product', 'region', 'organization', 'event']", "related_taxonomy/0: 'regions' is not of type 'object'"]
+2026-11-10 03:35:22,078 INFO [world-news] published 2026-11-10-007 — Ukraine peace talks resume with 'some flexibility' by warrin
+2026-11-10 03:35:33,144 INFO [world-news] attempt 1 invalid: ["entities/4/type: 'individual' is not one of ['concept', 'company', 'model', 'person', 'product', 'region', 'organization', 'event']", "related_taxonomy/0: 'regions' is not of type 'object'"]
+2026-11-10 03:35:43,099 INFO [world-news] attempt 2 invalid: ["related_taxonomy/0: 'model agencies' is not of type 'object'", "related_taxonomy/1: 'sex trafficking' is not of type 'object'"]
+2026-11-10 03:35:43,100 WARNING [world-news] no collect provider for deep-dive
+2026-11-10 03:35:43,544 WARNING [tech-news] no collect provider available
+2026-11-10 03:35:43,917 WARNING [politics] no collect provider available
+2026-11-10 03:35:44,114 WARNING [products] no collect provider available
+2026-11-10 03:35:44,625 INFO collect done: 2 item(s) published — target 6/10, next run ≈ 2026-11-11T01:00:00+00:00 UTC

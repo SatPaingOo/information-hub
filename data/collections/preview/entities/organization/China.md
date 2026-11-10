@@ -1,7 +1,7 @@
 ---
 name: "China"
 entity_type: organization
-backlink_count: 5
+backlink_count: 6
 ---
 
 # China
@@ -10,6 +10,7 @@ backlink_count: 5
 
 ## Referenced by
 
+- 2026-11-10 · [[2026-11-10-006-nvidia-shares-tumble-over-investigation-into-huang-s]] — Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy
 - 2026-09-19 · [[2026-09-19-009-trump-signs-sweeping-russia-sanctions-bill]] — Trump signs sweeping Russia sanctions bill
 - 2026-09-14 · [[2026-09-14-002-trump-downplays-warnings-of-ai-risks-citing-rivalry-with]] — Trump downplays warnings of AI risks, citing rivalry with China
 - 2026-08-28 · [[2026-08-28-009-watch-why-rescuers-fear-new-barrier-lake-could-cause]] — Watch: Why rescuers fear new barrier lake could cause another Nepal‑Tibet flood

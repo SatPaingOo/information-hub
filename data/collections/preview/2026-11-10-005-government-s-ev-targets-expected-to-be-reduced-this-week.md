@@ -1,0 +1,71 @@
+---
+id: "info:item:politics:global:2026-11-10-005"
+key: "2026-11-10-005"
+date: 2026-11-10
+content_type: digest
+topic: politics
+region: global
+categories: ["policy"]
+source: "feeds.bbci.co.uk"
+source_url: "https://www.bbc.co.uk/news/articles/cqkg5g2970epo?at_medium=RSS&at_campaign=rss"
+word_count: 543
+tags: ["politics", "geopolitics", "climate policy", "EV transition", "UK government"]
+---
+
+# Government's EV targets expected to be reduced this week
+
+> [!summary] TL;DR — The UK government is expected to water down its electric vehicle (EV) targets, moving from 80% zero-emission car sales by 2030 to a lower threshold, a move welcomed by carmakers but opposed by environmental groups ahead of COP31.
+
+## Background
+
+Under current rules, 80% of new cars sold in the UK must be electric by 2030, with all new cars required to be zero-emission by 2035. The government has been consulting on reducing its 80% rule, and a significant reduction is now expected. Prime Minister Andy Burnham has recused himself from the issue due to his wife's links to an electric vehicle company. Cabinet Office minister Louise Haigh will lead the consultations. Industry groups including Energy UK and the Society of Motor Manufacturers and Traders (SMMT) have opposed the move, warning that weakened targets could damage investment certainty. The government maintains its commitment to net zero targets and its participation in COP31 in Turkey.
+
+## Policy Impact and Climate Leadership
+
+The proposed reduction of EV targets could undermine the UK's climate leadership position ahead of COP31 in Turkey. The 2030 and 2035 deadlines are central to the country's net zero strategy and its ability to attract green investment. A weaker target may signal regulatory uncertainty and could affect the UK's standing as a climate leader during the high-profile UN climate summit. This move comes amid ongoing debates about the pace of the transition to electric vehicles, with pressure from both industry groups and environmental organizations.
+
+## Industry Response and Economic Considerations
+
+The automotive industry, including Energy UK and the Society of Motor Manufacturers and Traders (SMMT), has welcomed the review of EV targets but warned that weakened targets could damage the investment certainty needed for infrastructure, innovation, and services required for the transition. Car manufacturers have long called for urgent relief from the current targets, arguing that the speed of the transition is too slow. The government's Zero Emission Vehicles (ZEV) mandate (28% by 2025, 33% by 2026, 80% by 2030) represents a gradual increase, but the proposed reduction would accelerate this timeline and potentially create market disruption for manufacturers and dealers.
+
+## Geopolitical Context and EU Comparison
+
+The European Union scrapped a similar plan to end new petrol and diesel car sales by 2035, creating a regional comparison with UK policy. While the UK government insists the reduction is driven by economic considerations rather than environmental priorities, the contrast with EU uncertainty highlights the UK's divergent approach to climate policy. This divergence could influence global perceptions of the UK's climate leadership and may affect international partnerships on green technology and infrastructure investment.
+
+## Key facts
+
+- Current UK EV targets: 80% zero-emission cars by 2030, 100% by 2035
+- Proposed change: water down the 2030 target
+- Industry opposition: Energy UK and SMMT
+- Government stance: Committed to net zero targets
+- COP31: UK to meet other leaders at Turkey for climate summit
+- Cabinet Office minister Louise Haigh to lead consultations
+- Prime Minister Andy Burnham recused from the issue due to wife's EV company links
+
+## Implications
+
+- Potential delay in UK's net zero progress and climate targets
+- Mixed signals for global climate leadership ahead of COP31
+- Industry uncertainty about investment in EV infrastructure and innovation
+- Possible diplomatic implications with EU on climate policy consistency
+
+## Outlook
+
+The government is expected to announce the specific changes in the coming weeks. The outcome will be closely watched by environmental groups, industry stakeholders, and international observers ahead of COP31. The decision could set a precedent for future policy adjustments on climate targets and influence the UK's broader climate policy trajectory.
+
+## Entities
+
+- [[UK_government]] — *organization* (policy maker)
+- [[Energy_UK]] — *organization* (industry association opposing target reduction)
+- [[Andy_Burnham]] — *person* (Prime Minister recused from the issue)
+- [[EU]] — *region* (regional comparison for policy context)
+- [[COP31]] — *event* (climate summit where UK will meet other leaders)
+
+## Related
+
+- [[2026-11-09-004-smoky-bacon-crisps-and-the-eu-food-standards-deal-a-new]]
+- [[2026-11-09-005-nandy-rejects-claims-of-politicising-remembrance-sunday]]
+
+---
+
+*Source: [feeds.bbci.co.uk](https://www.bbc.co.uk/news/articles/cqkg5g2970epo?at_medium=RSS&at_campaign=rss)*
