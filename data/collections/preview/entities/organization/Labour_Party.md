@@ -1,7 +1,7 @@
 ---
 name: "Labour Party"
 entity_type: organization
-backlink_count: 36
+backlink_count: 37
 ---
 
 # Labour Party
@@ -10,6 +10,7 @@ backlink_count: 36
 
 ## Referenced by
 
+- 2026-11-11 · [[2026-11-11-004-tories-pledge-to-cut-benefits-for-children-with-milder]] — Tories pledge to cut benefits for children with 'milder cases' of ADHD
 - 2026-11-05 · [[2026-11-05-005-time-to-focus-on-cost-of-living-says-pm-after-us-election]] — Time to focus on cost of living, says PM after US election results
 - 2026-11-04 · [[2026-11-04-005-mahmood-refuses-to-put-cost-on-care-worker-settlement]] — Mahmood refuses to put cost on care worker settlement climbdown
 - 2026-11-01 · [[2026-11-01-004-laura-kuenssberg-healey-risks-breaking-minimum-wage]] — Laura Kuenssberg: Healey risks breaking minimum wage promise for younger workers

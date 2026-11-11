@@ -1,7 +1,7 @@
 ---
 node: "Policy"
 layer: misc
-item_count: 467
+item_count: 472
 ---
 
 # Policy
@@ -17,6 +17,11 @@ item_count: 467
 
 ## Items
 
+- 2026-11-11 · [[2026-11-11-001-three-iran-backed-suspects-plotted-attacks-including-raf]] — Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says
+- 2026-11-11 · [[2026-11-11-002-us-army-soldier-suspected-of-spying-for-russia-arrested-in]] — US Army soldier suspected of spying for Russia arrested in UK
+- 2026-11-11 · [[2026-11-11-003-us-house-blocks-bid-to-impeach-defence-secretary-pete]] — US House blocks bid to impeach Defence Secretary Pete Hegseth, for now
+- 2026-11-11 · [[2026-11-11-004-tories-pledge-to-cut-benefits-for-children-with-milder]] — Tories pledge to cut benefits for children with 'milder cases' of ADHD
+- 2026-11-11 · [[2026-11-11-005-census-should-include-black-english-and-asian-english]] — Census should include black English and Asian English options, says MP
 - 2026-11-10 · [[2026-11-10-001-trump-says-fbi-investigating-nvidia-boss-s-affair-with]] — Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy
 - 2026-11-10 · [[2026-11-10-005-government-s-ev-targets-expected-to-be-reduced-this-week]] — Government's EV targets expected to be reduced this week
 - 2026-11-10 · [[2026-11-10-006-nvidia-shares-tumble-over-investigation-into-huang-s]] — Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy

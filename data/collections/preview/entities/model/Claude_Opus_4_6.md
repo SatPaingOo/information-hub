@@ -1,7 +1,7 @@
 ---
 name: "Claude Opus 4.6"
 entity_type: model
-backlink_count: 6
+backlink_count: 7
 ---
 
 # Claude Opus 4.6
@@ -10,6 +10,7 @@ backlink_count: 6
 
 ## Referenced by
 
+- 2026-11-11 · [[2026-11-11-006-sidekick-by-open]] — SideKick By Open
 - 2026-10-05 · [[2026-10-05-006-clair]] — Clair
 - 2026-09-26 · [[2026-09-26-004-jango]] — Jango
 - 2026-09-25 · [[2026-09-25-006-floot-mcp]] — Floot MCP

@@ -1,0 +1,68 @@
+---
+id: "info:item:politics:global:2026-11-11-005"
+key: "2026-11-11-005"
+date: 2026-11-11
+content_type: digest
+topic: politics
+region: global
+categories: ["policy"]
+source: "feeds.bbci.co.uk"
+source_url: "https://www.bbc.co.uk/news/articles/c3lylyy24xl5o?at_medium=RSS&at_campaign=rss"
+word_count: 733
+tags: ["census reform", "ethnic identity", "UK politics", "inclusive statistics", "national identity"]
+---
+
+# Census should include black English and Asian English options, says MP
+
+> [!summary] TL;DR — Liberal Democrat MP Josh Babarinde has introduced a private member's bill, the "St George's Bill", to add black English and Asian English ethnicity options to the UK census, a move backed by Labour’s David Lammy and Conservative Sir James Cleverly. The proposal challenges the current census framework, which only lists English under the white category, and highlights a growing debate over how ethnicity and national identity are recorded in official statistics.
+
+## Background
+
+The UK census has historically grouped English ethnicity within the white category, while Wales and Scotland have introduced distinct ethnic headings for black and Asian populations. Recent commentary from figures such as Suella Braverman, who contested the notion of being both British Asian and English, has intensified discussions about whether Englishness should be treated as a separate ethnicity. Babarinde’s bill seeks to align England’s census categories with those of its devolved nations, arguing that the current system marginalises black and Asian residents who identify as English. The private member's bill (PMB) was tabled on a 10‑minute rule, a procedural device that allows MPs to present a proposal without immediate debate, and is scheduled for a second reading on St George’s Day (23 April 2027).
+
+## Political Context and Cross‑Party Support
+
+Babarinde’s initiative illustrates a rare cross‑party consensus on identity politics. While the Liberal Democrats traditionally champion inclusive definitions of nationality, the backing from Labour’s David Lammy and Conservative Sir James Cleverly signals that the issue transcends partisan lines. This convergence reflects broader societal shifts: a growing segment of the population no longer accepts a monolithic, race‑based definition of Englishness. The bill also serves as a strategic response to recent rhetoric from Suella Braverman, who has framed English identity as incompatible with Asian heritage, thereby prompting a legislative counter‑narrative that asserts a more fluid, inclusive conception of English ethnicity.
+
+## Census History and Legal Framework
+
+Since the 2021 census, the ethnicity question has offered “English” only under the “White” heading, a legacy of historical categorisation that conflated nationality with race. In contrast, the Welsh and Scottish censuses have adopted more granular options: “Black Welsh” and “Scottish Asian”, respectively. These devolved approaches have set precedents for recognising intersectional identities. Babarinde’s bill draws on these models, arguing that the UK’s central census should mirror the devolved nations’ inclusivity. Legally, the census is governed by the Statistics and Registration Service Act 2007, which mandates the Office for National Statistics (ONS) to collect data that reflects the population’s diversity. Updating the categories would require ONS approval and a formal amendment to the census questionnaire, a process that typically involves consultation with stakeholder groups.
+
+## Implications for Policy, Representation, and Social Cohesion
+
+Adding black English and Asian English options would have far‑reaching consequences. First, it would improve the accuracy of demographic data, informing policy decisions on education, health, and housing that currently rely on coarse ethnicity classifications. Second, the change would enhance political representation by giving a statistical voice to communities that currently must write in “miscellaneous” or select “British” categories. Third, the move could foster greater social cohesion by legitimising dual identities, thereby reducing feelings of exclusion. However, critics may argue that expanding ethnicity categories could complicate data analysis and fuel debates over resource allocation. The bill’s success will hinge on parliamentary time, the willingness of the governing parties to prioritise identity‑related reforms, and public perception of the census’s role in defining national identity.
+
+## Key facts
+
+- Josh Babarinde (Liberal Democrat MP for Eastbourne) introduced the "St George's Bill" as a private member's bill on 10‑minute rule.
+- The bill proposes adding "Black English" and "Asian English" as separate ethnicity options in the UK census, mirroring Welsh and Scottish categories.
+- Prominent supporters include Labour’s David Lammy and Conservative Sir James Cleverly.
+- Current UK census (2021) lists English only under the white category, whereas Wales and Scotland have distinct black and Asian headings.
+- The second reading is scheduled for 23 April 2027 (St George’s Day), though the bill faces an uncertain path due to limited parliamentary time.
+
+## Implications
+
+- More precise demographic data could lead to better‑targeted public services for black and Asian English communities.
+- Enhanced statistical visibility may strengthen advocacy for underrepresented groups in policy arenas.
+- Potential political friction if the change is perceived as redefining national identity, especially by those who view Englishness as race‑neutral.
+- Administrative challenges for the ONS in integrating new categories into existing census software and analysis frameworks.
+
+## Outlook
+
+While the cross‑party backing and symbolic timing on St George’s Day generate momentum, the bill’s progression remains uncertain. Success will depend on securing sufficient parliamentary support, navigating ONS procedural requirements, and managing public discourse around ethnicity versus nationality. If enacted, the reform could set a precedent for other devolved regions and influence broader conversations about identity‑based data collection worldwide.
+
+## Entities
+
+- [[Josh_Babarinde]] — *person* (proposer)
+- [[David_Lammy]] — *person* (supporter)
+- [[Sir_James_Cleverly]] — *person* (supporter)
+- [[UK_government]] — *organization* (oversees census)
+
+## Related
+
+- [[2026-11-11-004-tories-pledge-to-cut-benefits-for-children-with-milder]]
+- [[2026-11-10-005-government-s-ev-targets-expected-to-be-reduced-this-week]]
+
+---
+
+*Source: [feeds.bbci.co.uk](https://www.bbc.co.uk/news/articles/c3lylyy24xl5o?at_medium=RSS&at_campaign=rss)*

@@ -1,7 +1,7 @@
 ---
 node: "Myanmar"
 layer: misc
-item_count: 18
+item_count: 19
 ---
 
 # Myanmar
@@ -17,6 +17,7 @@ item_count: 18
 
 ## Items
 
+- 2026-11-11 · [[2026-11-11-006-sidekick-by-open]] — SideKick By Open
 - 2026-11-04 · [[2026-11-04-006-testifly]] — Testifly
 - 2026-11-01 · [[2026-11-01-007-clawsgo-science]] — ClawsGO Science
 - 2026-10-26 · [[2026-10-26-006-moli-by-lexmount-the-fastest-headless-browser-for-agents]] — Moli by Lexmount – The Fastest Headless Browser for Agents and Harnesses

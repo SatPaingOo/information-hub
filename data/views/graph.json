@@ -10932,6 +10932,102 @@
       "name": "Mikhail Kudrin"
     },
     {
+      "id": "info:item:world:global:2026-11-11-001",
+      "type": "item",
+      "date": "2026-11-11",
+      "title": "Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says"
+    },
+    {
+      "id": "info:entity:person:Mohsen Mohajeri",
+      "type": "person",
+      "name": "Mohsen Mohajeri"
+    },
+    {
+      "id": "info:entity:person:Mohammad Ali al‑Hassani",
+      "type": "person",
+      "name": "Mohammad Ali al‑Hassani"
+    },
+    {
+      "id": "info:item:world:global:2026-11-11-002",
+      "type": "item",
+      "date": "2026-11-11",
+      "title": "US Army soldier suspected of spying for Russia arrested in UK"
+    },
+    {
+      "id": "info:entity:organization:US Army Counterintelligence Command",
+      "type": "organization",
+      "name": "US Army Counterintelligence Command"
+    },
+    {
+      "id": "info:entity:organization:Counter Terrorism Policing London",
+      "type": "organization",
+      "name": "Counter Terrorism Policing London"
+    },
+    {
+      "id": "info:item:world:global:2026-11-11-003",
+      "type": "item",
+      "date": "2026-11-11",
+      "title": "US House blocks bid to impeach Defence Secretary Pete Hegseth, for now"
+    },
+    {
+      "id": "info:entity:person:Thomas Massie",
+      "type": "person",
+      "name": "Thomas Massie"
+    },
+    {
+      "id": "info:item:politics:global:2026-11-11-004",
+      "type": "item",
+      "date": "2026-11-11",
+      "title": "Tories pledge to cut benefits for children with 'milder cases' of ADHD"
+    },
+    {
+      "id": "info:item:politics:global:2026-11-11-005",
+      "type": "item",
+      "date": "2026-11-11",
+      "title": "Census should include black English and Asian English options, says MP"
+    },
+    {
+      "id": "info:entity:person:Josh Babarinde",
+      "type": "person",
+      "name": "Josh Babarinde"
+    },
+    {
+      "id": "info:entity:person:David Lammy",
+      "type": "person",
+      "name": "David Lammy"
+    },
+    {
+      "id": "info:entity:person:Sir James Cleverly",
+      "type": "person",
+      "name": "Sir James Cleverly"
+    },
+    {
+      "id": "taxonomy/misc/ethnic identity",
+      "type": "taxonomy",
+      "name": "ethnic identity"
+    },
+    {
+      "id": "taxonomy/misc/census reform",
+      "type": "taxonomy",
+      "name": "census reform"
+    },
+    {
+      "id": "taxonomy/misc/UK regional policy",
+      "type": "taxonomy",
+      "name": "UK regional policy"
+    },
+    {
+      "id": "info:item:products:global:2026-11-11-006",
+      "type": "item",
+      "date": "2026-11-11",
+      "title": "SideKick By Open"
+    },
+    {
+      "id": "info:entity:product:SideKick",
+      "type": "product",
+      "name": "SideKick"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -48907,6 +49003,381 @@
       "relation": "links to policy and industry categories"
     },
     {
+      "source": "info:item:world:global:2026-11-11-001",
+      "target": "info:entity:organization:US Department of Justice",
+      "relation": "accuser and prosecutor"
+    },
+    {
+      "source": "info:item:world:global:2026-11-11-001",
+      "target": "info:entity:organization:Islamic Revolutionary Guard Corps (IRGC)",
+      "relation": "alleged sponsor"
+    },
+    {
+      "source": "info:item:world:global:2026-11-11-001",
+      "target": "info:entity:person:Mohsen Mohajeri",
+      "relation": "charged suspect"
+    },
+    {
+      "source": "info:item:world:global:2026-11-11-001",
+      "target": "info:entity:person:Mohammad Ali al‑Hassani",
+      "relation": "charged suspect"
+    },
+    {
+      "source": "info:item:world:global:2026-11-11-001",
+      "target": "info:item:world:global:2026-11-10-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-11-001",
+      "target": "info:item:world:global:2026-11-10-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-11-001",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-11-001",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-11-001",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-11-001",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-11-001",
+      "target": "taxonomy/topic/world",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-11-001",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-11-001",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-11-002",
+      "target": "info:entity:organization:US Army Counterintelligence Command",
+      "relation": "led the investigation and coordination with UK authorities"
+    },
+    {
+      "source": "info:item:world:global:2026-11-11-002",
+      "target": "info:entity:company:OpenAI",
+      "relation": "subject of regulatory scrutiny for potential AI‑model misuse in espionage contexts"
+    },
+    {
+      "source": "info:item:world:global:2026-11-11-002",
+      "target": "info:entity:model:Gemini",
+      "relation": "cited as a key LLM whose data provenance may be exploited by hostile actors"
+    },
+    {
+      "source": "info:item:world:global:2026-11-11-002",
+      "target": "info:entity:organization:Counter Terrorism Policing London",
+      "relation": "executed the arrest and initiated the investigative search"
+    },
+    {
+      "source": "info:item:world:global:2026-11-11-002",
+      "target": "info:item:world:global:2026-11-11-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-11-002",
+      "target": "info:item:world:global:2026-11-10-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-11-002",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-11-002",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-11-002",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-11-002",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-11-002",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-11-002",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-11-002",
+      "target": "taxonomy/category/industry",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-11-003",
+      "target": "info:entity:person:Pete Hegseth",
+      "relation": "U.S. Secretary of Defense, subject of impeachment articles"
+    },
+    {
+      "source": "info:item:world:global:2026-11-11-003",
+      "target": "info:entity:person:Thomas Massie",
+      "relation": "Republican Congressman who introduced the impeachment resolution"
+    },
+    {
+      "source": "info:item:world:global:2026-11-11-003",
+      "target": "info:entity:organization:U.S. Congress",
+      "relation": "legislative body with authority over impeachment"
+    },
+    {
+      "source": "info:item:world:global:2026-11-11-003",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "President who defended Hegseth and declared the impeachment effort a failure"
+    },
+    {
+      "source": "info:item:world:global:2026-11-11-003",
+      "target": "info:item:world:global:2026-11-11-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-11-003",
+      "target": "info:item:world:global:2026-11-11-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-11-003",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-11-003",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-11-003",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-11-003",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-11-003",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-11-003",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-11-003",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-11-004",
+      "target": "info:entity:organization:Conservative Party",
+      "relation": "proposer of welfare cuts"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-11-004",
+      "target": "info:entity:person:Helen Whately",
+      "relation": "shadow work and pensions secretary, key advocate"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-11-004",
+      "target": "info:entity:organization:Labour Party",
+      "relation": "opposition critic"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-11-004",
+      "target": "info:entity:person:Kemi Badenoch",
+      "relation": "Conservative leader outlining policy rationale"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-11-004",
+      "target": "info:item:politics:global:2026-11-10-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-11-004",
+      "target": "info:item:politics:global:2026-11-09-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-11-004",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-11-004",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-11-004",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-11-004",
+      "target": "taxonomy/misc/welfare reform",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-11-004",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-11-004",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-11-005",
+      "target": "info:entity:person:Josh Babarinde",
+      "relation": "proposer"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-11-005",
+      "target": "info:entity:person:David Lammy",
+      "relation": "supporter"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-11-005",
+      "target": "info:entity:person:Sir James Cleverly",
+      "relation": "supporter"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-11-005",
+      "target": "info:entity:organization:UK government",
+      "relation": "oversees census"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-11-005",
+      "target": "info:item:politics:global:2026-11-11-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-11-005",
+      "target": "info:item:politics:global:2026-11-10-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-11-005",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-11-005",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-11-005",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-11-005",
+      "target": "taxonomy/misc/ethnic identity",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-11-005",
+      "target": "taxonomy/misc/census reform",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-11-005",
+      "target": "taxonomy/misc/UK regional policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-11-11-006",
+      "target": "info:entity:company:OpenAI",
+      "relation": "foundation model provider"
+    },
+    {
+      "source": "info:item:products:global:2026-11-11-006",
+      "target": "info:entity:model:Claude Opus 4.6",
+      "relation": "benchmark competitor"
+    },
+    {
+      "source": "info:item:products:global:2026-11-11-006",
+      "target": "info:entity:product:SideKick",
+      "relation": "AI assistant product"
+    },
+    {
+      "source": "info:item:products:global:2026-11-11-006",
+      "target": "info:entity:concept:Agentic AI",
+      "relation": "category of technology"
+    },
+    {
+      "source": "info:item:products:global:2026-11-11-006",
+      "target": "info:item:products:global:2026-11-09-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-11-11-006",
+      "target": "info:item:products:global:2026-11-07-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-11-11-006",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-11-11-006",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-11-11-006",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-11-11-006",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-11-11-006",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-11-11-006",
+      "target": "taxonomy/misc/Myanmar",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -51312,7 +51783,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:concept:Agentic AI",
       "relation": "co-occurs",
-      "weight": "17"
+      "weight": "18"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -51432,7 +51903,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:model:Claude Opus 4.6",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -51486,7 +51957,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "67"
+      "weight": "68"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -51575,6 +52046,12 @@
     {
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:organization:Coatue",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:organization:Counter Terrorism Policing London",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -51803,6 +52280,12 @@
     {
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:organization:UK Foreign Office",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:organization:US Army Counterintelligence Command",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -52445,6 +52928,12 @@
     {
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:product:Relaticle",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:product:SideKick",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -53284,6 +53773,12 @@
     },
     {
       "source": "info:entity:concept:Agentic AI",
+      "target": "info:entity:model:Claude Opus 4.6",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Agentic AI",
       "target": "info:entity:model:GPT‑4",
       "relation": "co-occurs",
       "weight": "1"
@@ -53435,6 +53930,12 @@
     {
       "source": "info:entity:concept:Agentic AI",
       "target": "info:entity:product:Samsung Galaxy Fold 8",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Agentic AI",
+      "target": "info:entity:product:SideKick",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -55276,6 +55777,12 @@
     },
     {
       "source": "info:entity:model:Claude Opus 4.6",
+      "target": "info:entity:product:SideKick",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Claude Opus 4.6",
       "target": "info:entity:region:Myanmar",
       "relation": "co-occurs",
       "weight": "1"
@@ -55534,6 +56041,12 @@
     },
     {
       "source": "info:entity:model:Gemini",
+      "target": "info:entity:organization:Counter Terrorism Policing London",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
       "target": "info:entity:organization:European Commission",
       "relation": "co-occurs",
       "weight": "1"
@@ -55667,6 +56180,12 @@
     {
       "source": "info:entity:model:Gemini",
       "target": "info:entity:organization:UK Foreign Office",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
+      "target": "info:entity:organization:US Army Counterintelligence Command",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -57708,7 +58227,7 @@
       "source": "info:entity:organization:Conservative Party",
       "target": "info:entity:organization:Labour Party",
       "relation": "co-occurs",
-      "weight": "12"
+      "weight": "13"
     },
     {
       "source": "info:entity:organization:Conservative Party",
@@ -57784,6 +58303,12 @@
     },
     {
       "source": "info:entity:organization:Conservative Party",
+      "target": "info:entity:person:Helen Whately",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Conservative Party",
       "target": "info:entity:person:James Cartlidge",
       "relation": "co-occurs",
       "weight": "1"
@@ -57804,7 +58329,7 @@
       "source": "info:entity:organization:Conservative Party",
       "target": "info:entity:person:Kemi Badenoch",
       "relation": "co-occurs",
-      "weight": "8"
+      "weight": "9"
     },
     {
       "source": "info:entity:organization:Conservative Party",
@@ -57923,6 +58448,12 @@
     {
       "source": "info:entity:organization:Counter Terrorism Policing",
       "target": "info:entity:person:Shabana Mahmood",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Counter Terrorism Policing London",
+      "target": "info:entity:organization:US Army Counterintelligence Command",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -59788,6 +60319,12 @@
     },
     {
       "source": "info:entity:organization:Islamic Revolutionary Guard Corps (IRGC)",
+      "target": "info:entity:organization:US Department of Justice",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Islamic Revolutionary Guard Corps (IRGC)",
       "target": "info:entity:organization:United Nations Human Rights Council",
       "relation": "co-occurs",
       "weight": "1"
@@ -59803,6 +60340,18 @@
       "target": "info:entity:person:Masoud Pezeshkian",
       "relation": "co-occurs",
       "weight": "4"
+    },
+    {
+      "source": "info:entity:organization:Islamic Revolutionary Guard Corps (IRGC)",
+      "target": "info:entity:person:Mohammad Ali al‑Hassani",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Islamic Revolutionary Guard Corps (IRGC)",
+      "target": "info:entity:person:Mohsen Mohajeri",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:organization:Islamic Revolutionary Guard Corps (IRGC)",
@@ -60214,6 +60763,12 @@
     },
     {
       "source": "info:entity:organization:Labour Party",
+      "target": "info:entity:person:Helen Whately",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Labour Party",
       "target": "info:entity:person:John Healey",
       "relation": "co-occurs",
       "weight": "8"
@@ -60240,7 +60795,7 @@
       "source": "info:entity:organization:Labour Party",
       "target": "info:entity:person:Kemi Badenoch",
       "relation": "co-occurs",
-      "weight": "9"
+      "weight": "10"
     },
     {
       "source": "info:entity:organization:Labour Party",
@@ -62484,7 +63039,7 @@
       "source": "info:entity:organization:U.S. Congress",
       "target": "info:entity:person:Donald Trump",
       "relation": "co-occurs",
-      "weight": "5"
+      "weight": "6"
     },
     {
       "source": "info:entity:organization:U.S. Congress",
@@ -62501,6 +63056,18 @@
     {
       "source": "info:entity:organization:U.S. Congress",
       "target": "info:entity:person:Lindsey Graham",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:U.S. Congress",
+      "target": "info:entity:person:Pete Hegseth",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:U.S. Congress",
+      "target": "info:entity:person:Thomas Massie",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -62836,6 +63403,24 @@
     },
     {
       "source": "info:entity:organization:UK government",
+      "target": "info:entity:person:David Lammy",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:UK government",
+      "target": "info:entity:person:Josh Babarinde",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:UK government",
+      "target": "info:entity:person:Sir James Cleverly",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:UK government",
       "target": "info:entity:region:EU",
       "relation": "co-occurs",
       "weight": "1"
@@ -62885,6 +63470,18 @@
     {
       "source": "info:entity:organization:US Department of Justice",
       "target": "info:entity:person:Donald Trump",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:US Department of Justice",
+      "target": "info:entity:person:Mohammad Ali al‑Hassani",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:US Department of Justice",
+      "target": "info:entity:person:Mohsen Mohajeri",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -64767,6 +65364,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:person:David Lammy",
+      "target": "info:entity:person:Josh Babarinde",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:David Lammy",
+      "target": "info:entity:person:Sir James Cleverly",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:person:Delcy Rodriguez",
       "target": "info:entity:person:Donald Trump",
       "relation": "co-occurs",
@@ -65016,7 +65625,7 @@
       "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:Pete Hegseth",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:person:Donald Trump",
@@ -65035,6 +65644,12 @@
       "target": "info:entity:person:Steve Witkoff",
       "relation": "co-occurs",
       "weight": "4"
+    },
+    {
+      "source": "info:entity:person:Donald Trump",
+      "target": "info:entity:person:Thomas Massie",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:person:Donald Trump",
@@ -65530,6 +66145,12 @@
     },
     {
       "source": "info:entity:person:Helen Whately",
+      "target": "info:entity:person:Kemi Badenoch",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Helen Whately",
       "target": "info:entity:person:Rishi Sunak",
       "relation": "co-occurs",
       "weight": "1"
@@ -65891,6 +66512,12 @@
     {
       "source": "info:entity:person:Jordan Bardella",
       "target": "info:entity:person:Nigel Farage",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Josh Babarinde",
+      "target": "info:entity:person:Sir James Cleverly",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -66357,6 +66984,12 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:person:Mohammad Ali al‑Hassani",
+      "target": "info:entity:person:Mohsen Mohajeri",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:person:Mustafa Koc",
       "target": "info:entity:person:Recep Tayyip Erdoğan",
       "relation": "co-occurs",
@@ -66409,6 +67042,12 @@
       "target": "info:entity:region:Morocco",
       "relation": "co-occurs",
       "weight": "2"
+    },
+    {
+      "source": "info:entity:person:Pete Hegseth",
+      "target": "info:entity:person:Thomas Massie",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:person:Petteri Orpo",

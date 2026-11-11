@@ -1,0 +1,20 @@
+2026-11-11 05:58:25,091 INFO [world-news] published 2026-11-11-001 — Three Iran-backed suspects plotted attacks including RAF Fai
+2026-11-11 05:58:35,154 INFO [world-news] published 2026-11-11-002 — US Army soldier suspected of spying for Russia arrested in U
+2026-11-11 05:58:44,695 INFO [world-news] published 2026-11-11-003 — US House blocks bid to impeach Defence Secretary Pete Hegset
+2026-11-11 05:58:46,969 INFO [tech-news] nothing selected
+2026-11-11 05:59:13,516 INFO [politics] published 2026-11-11-004 — Tories pledge to cut benefits for children with 'milder case
+2026-11-11 05:59:27,054 INFO [politics] published 2026-11-11-005 — Census should include black English and Asian English option
+2026-11-11 06:00:10,334 INFO [products] published 2026-11-11-006 — SideKick By Open
+2026-11-11 06:00:15,487 INFO [products] attempt 1 invalid: [": 'key_facts' is a required property", ": 'implications' is a required property"]
+2026-11-11 06:00:15,554 ERROR [products] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7583, Requested 6600. Please try again in 46.3725s. Need more tokens? Upgrade to Dev Tier today at https://co
+2026-11-11 06:00:23,330 INFO [products] attempt 3 invalid: ['body word count 459 < minimum 500']
+2026-11-11 06:00:24,047 INFO collect done: 6 item(s) published — target 4/10, next run ≈ 2026-11-11T06:08:32+00:00 UTC
+2026-11-11 06:01:04,075 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 2264, Requested 7260. Please try again in 11.43s. Need more tokens? Upgrade to Dev Tier today at https://cons
+2026-11-11 06:01:07,140 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 1311, Requested 7699. Please try again in 7.575s. Need more tokens? Upgrade to Dev Tier today at https://conso
+2026-11-11 06:01:13,142 WARNING [world-news] no collect provider for deep-dive
+2026-11-11 06:01:13,260 WARNING [world-news] no collect provider for deep-dive
+2026-11-11 06:01:13,371 WARNING [world-news] no collect provider for deep-dive
+2026-11-11 06:01:13,687 WARNING [tech-news] no collect provider available
+2026-11-11 06:01:14,016 WARNING [politics] no collect provider available
+2026-11-11 06:01:15,131 WARNING [products] no collect provider available
+2026-11-11 06:01:15,841 INFO collect done: 0 item(s) published — target 4/10, next run ≈ 2026-11-12T01:00:00+00:00 UTC

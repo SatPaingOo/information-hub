@@ -1,7 +1,7 @@
 ---
 name: "U.S. Congress"
 entity_type: organization
-backlink_count: 5
+backlink_count: 6
 ---
 
 # U.S. Congress
@@ -10,6 +10,7 @@ backlink_count: 5
 
 ## Referenced by
 
+- 2026-11-11 · [[2026-11-11-003-us-house-blocks-bid-to-impeach-defence-secretary-pete]] — US House blocks bid to impeach Defence Secretary Pete Hegseth, for now
 - 2026-10-17 · [[2026-10-17-003-trump-waives-several-russia-sanctions-as-new-us-law-takes]] — Trump waives several Russia sanctions as new US law takes effect
 - 2026-10-12 · [[2026-10-12-001-trump-s-energy-ceasefire-claim-welcomed-by-zelensky-but]] — Trump's 'energy ceasefire' claim welcomed by Zelensky but Russia silent
 - 2026-09-11 · [[2026-09-11-002-can-trump-really-pay-5-000-to-every-american-adult]] — Can Trump really pay $5,000 to every American adult?

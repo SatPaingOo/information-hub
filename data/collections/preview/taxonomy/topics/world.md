@@ -1,7 +1,7 @@
 ---
 node: "world"
 layer: topic
-item_count: 346
+item_count: 350
 ---
 
 # world
@@ -17,6 +17,10 @@ item_count: 346
 
 ## Items
 
+- 2026-11-11 · [[2026-11-11-001-three-iran-backed-suspects-plotted-attacks-including-raf]] — Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says
+- 2026-11-11 · [[2026-11-11-001-three-iran-backed-suspects-plotted-attacks-including-raf]] — Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says
+- 2026-11-11 · [[2026-11-11-002-us-army-soldier-suspected-of-spying-for-russia-arrested-in]] — US Army soldier suspected of spying for Russia arrested in UK
+- 2026-11-11 · [[2026-11-11-003-us-house-blocks-bid-to-impeach-defence-secretary-pete]] — US House blocks bid to impeach Defence Secretary Pete Hegseth, for now
 - 2026-11-10 · [[2026-11-10-001-trump-says-fbi-investigating-nvidia-boss-s-affair-with]] — Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy
 - 2026-11-10 · [[2026-11-10-006-nvidia-shares-tumble-over-investigation-into-huang-s]] — Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy
 - 2026-11-10 · [[2026-11-10-007-ukraine-peace-talks-resume-with-some-flexibility-by]] — Ukraine peace talks resume with 'some flexibility' by warring sides, US officials say

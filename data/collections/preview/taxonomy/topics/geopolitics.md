@@ -1,7 +1,7 @@
 ---
 node: "geopolitics"
 layer: topic
-item_count: 149
+item_count: 152
 ---
 
 # geopolitics
@@ -25,6 +25,9 @@ item_count: 149
 
 ## Items
 
+- 2026-11-11 · [[2026-11-11-001-three-iran-backed-suspects-plotted-attacks-including-raf]] — Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says
+- 2026-11-11 · [[2026-11-11-002-us-army-soldier-suspected-of-spying-for-russia-arrested-in]] — US Army soldier suspected of spying for Russia arrested in UK
+- 2026-11-11 · [[2026-11-11-003-us-house-blocks-bid-to-impeach-defence-secretary-pete]] — US House blocks bid to impeach Defence Secretary Pete Hegseth, for now
 - 2026-11-09 · [[2026-11-09-004-smoky-bacon-crisps-and-the-eu-food-standards-deal-a-new]] — Smoky Bacon Crisps and the EU Food Standards Deal: A New Front in UK‑EU Regulatory Tensions
 - 2026-11-09 · [[2026-11-09-008-aramco-tower-hit-in-heart-of-saudi-capital-as-houthis]] — Aramco Tower hit in heart of Saudi capital as Houthis launch fresh strikes
 - 2026-11-07 · [[2026-11-07-007-four-midterms-takeaways-for-2028-white-house-race]] — Four midterms takeaways for 2028 White House race
