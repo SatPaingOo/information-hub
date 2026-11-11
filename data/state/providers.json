@@ -1,11 +1,11 @@
 {
   "groq": {
     "quota_date": "2026-11-11",
-    "tokens_used": 17846,
-    "items": 2,
-    "calls": 4,
-    "errors": 5,
-    "cooldown_until": "2026-11-11T07:39:10+00:00",
+    "tokens_used": 27518,
+    "items": 3,
+    "calls": 6,
+    "errors": 6,
+    "cooldown_until": "2026-11-11T14:04:19+00:00",
     "models": {
       "llama-3.3-70b-versatile": {
         "calls": 0,
@@ -30,15 +30,15 @@
         "cooldown_until": null
       },
       "openai/gpt-oss-120b": {
-        "calls": 381,
-        "items": 173,
-        "errors": 221,
+        "calls": 383,
+        "items": 174,
+        "errors": 222,
         "consecutive_failures": 1,
         "healthy": true,
-        "last_health_check": "2026-11-11T07:38:40+00:00",
-        "latency_ms": 767,
+        "last_health_check": "2026-11-11T14:03:49+00:00",
+        "latency_ms": 4358,
         "supports_json": true,
-        "cooldown_until": "2026-11-11T07:39:10+00:00"
+        "cooldown_until": "2026-11-11T14:04:19+00:00"
       },
       "openai/gpt-oss-20b": {
         "calls": 77,
@@ -532,6 +532,17 @@
         "last_health_check": null,
         "latency_ms": null,
         "supports_json": false,
+        "cooldown_until": null
+      },
+      "baidu/ernie-5.5-flash-preview:free": {
+        "calls": 0,
+        "items": 0,
+        "errors": 0,
+        "consecutive_failures": 0,
+        "healthy": true,
+        "last_health_check": null,
+        "latency_ms": null,
+        "supports_json": true,
         "cooldown_until": null
       }
     }

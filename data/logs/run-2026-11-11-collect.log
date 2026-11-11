@@ -28,3 +28,12 @@
 2026-11-11 07:38:52,937 WARNING [politics] no collect provider available
 2026-11-11 07:38:53,666 WARNING [products] no collect provider available
 2026-11-11 07:38:54,193 INFO collect done: 0 item(s) published — target 4/10, next run ≈ 2026-11-12T01:00:00+00:00 UTC
+2026-11-11 14:03:49,584 INFO [world-news] attempt 1 invalid: ["analysis/2: 'content' is a required property", "analysis/3: 'heading' is a required property"]
+2026-11-11 14:03:49,718 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7984, Requested 6819. Please try again in 51.0225s. Need more tokens? Upgrade to Dev Tier today at https://co
+2026-11-11 14:03:55,719 WARNING [world-news] no collect provider for deep-dive
+2026-11-11 14:03:55,837 WARNING [world-news] no collect provider for deep-dive
+2026-11-11 14:03:55,935 WARNING [world-news] no collect provider for deep-dive
+2026-11-11 14:03:56,615 WARNING [tech-news] no collect provider available
+2026-11-11 14:03:57,199 WARNING [politics] no collect provider available
+2026-11-11 14:03:58,096 WARNING [products] no collect provider available
+2026-11-11 14:03:58,405 INFO collect done: 0 item(s) published — target 4/10, next run ≈ 2026-11-12T01:00:00+00:00 UTC
