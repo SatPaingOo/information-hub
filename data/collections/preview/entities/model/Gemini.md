@@ -1,7 +1,7 @@
 ---
 name: "Gemini"
 entity_type: model
-backlink_count: 96
+backlink_count: 98
 ---
 
 # Gemini
@@ -10,6 +10,8 @@ backlink_count: 96
 
 ## Referenced by
 
+- 2026-11-12 · [[2026-11-12-002-democrat-scott-colom-seals-historic-win-in-mississippi]] — Democrat Scott Colom seals historic win in Mississippi Senate race
+- 2026-11-12 · [[2026-11-12-003-russia-ukraine-talks-turn-to-post-war-security-but-end]] — Russia-Ukraine talks turn to post-war security but end without breakthrough
 - 2026-11-11 · [[2026-11-11-002-us-army-soldier-suspected-of-spying-for-russia-arrested-in]] — US Army soldier suspected of spying for Russia arrested in UK
 - 2026-11-09 · [[2026-11-09-005-nandy-rejects-claims-of-politicising-remembrance-sunday]] — Nandy rejects claims of politicising Remembrance Sunday after Erasmus row
 - 2026-11-08 · [[2026-11-08-004-parliament-restoration-delays-frustrating-says-commons]] — Parliament restoration delays 'frustrating', says Commons Speaker

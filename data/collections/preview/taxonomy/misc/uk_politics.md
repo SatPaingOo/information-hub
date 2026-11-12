@@ -1,7 +1,7 @@
 ---
 node: "UK Politics"
 layer: misc
-item_count: 7
+item_count: 8
 ---
 
 # UK Politics
@@ -14,6 +14,7 @@ item_count: 7
 
 ## Items
 
+- 2026-11-12 · [[2026-11-12-004-some-under-25s-should-get-less-benefits-milburn-review-to]] — Some under-25s should get less benefits, Milburn review to say
 - 2026-10-31 · [[2026-10-31-004-burnham-s-number-10-north-goes-on-multi-million-pound]] — Burnham's Number 10 North goes on multi-million pound hiring spree
 - 2026-10-30 · [[2026-10-30-004-burnham-says-he-wants-to-cut-welfare-bill-as-soon-as-we]] — Burnham says he wants to cut welfare bill 'as soon as we possibly can'
 - 2026-09-26 · [[2026-09-26-003-new-policies-election-speculation-what-to-expect-from]] — New policies, election speculation: What to expect from Burnham's first Labour conference as PM

@@ -1,7 +1,7 @@
 ---
 node: "Myanmar"
 layer: misc
-item_count: 19
+item_count: 20
 ---
 
 # Myanmar
@@ -17,6 +17,7 @@ item_count: 19
 
 ## Items
 
+- 2026-11-12 · [[2026-11-12-002-democrat-scott-colom-seals-historic-win-in-mississippi]] — Democrat Scott Colom seals historic win in Mississippi Senate race
 - 2026-11-11 · [[2026-11-11-006-sidekick-by-open]] — SideKick By Open
 - 2026-11-04 · [[2026-11-04-006-testifly]] — Testifly
 - 2026-11-01 · [[2026-11-01-007-clawsgo-science]] — ClawsGO Science

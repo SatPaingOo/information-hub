@@ -1,0 +1,70 @@
+---
+id: "info:item:politics:global:2026-11-12-004"
+key: "2026-11-12-004"
+date: 2026-11-12
+content_type: digest
+topic: politics
+region: global
+categories: ["policy"]
+source: "feeds.bbci.co.uk"
+source_url: "https://www.bbc.co.uk/news/articles/cwn70l1628l0o?at_medium=RSS&at_campaign=rss"
+word_count: 870
+tags: ["welfare reform", "benefits cut", "UK politics", "NEET", "employment support"]
+---
+
+# Some under-25s should get less benefits, Milburn review to say
+
+> [!summary] TL;DR — Alan Milburn’s government‑commissioned review will recommend cutting benefit levels for under‑25s, moving them off main sickness schemes and onto a basic universal‑credit rate, while urging a multi‑billion‑pound push for employment support and training.
+
+## Background
+
+The United Kingdom currently spends roughly £30 billion annually on welfare for young people, with one in eight 18‑to‑24‑year‑olds classified as NEET (not in education, employment or training). Recent Office for National Statistics data shows a 3 % rise in NEETs to just under one million, prompting the government to commission former Labour Secretary Alan Milburn to devise a radical overhaul. Milburn’s year‑long report, due on Tuesday, argues that the existing system “prioritises immediate finances over longer‑term life chances”, trapping many young claimants in poverty. The proposed changes aim to reshape the benefits landscape, increase labour‑market participation, and re‑allocate funds toward active labour‑market policies such as work placements, job subsidies and personalised advice. The reforms sit against a backdrop of heightened fiscal pressure, with the UK needing to free up resources for defence spending and other priorities.
+
+## Policy redesign and eligibility shifts
+
+Milburn’s review recommends removing under‑25s from the main sickness and disability benefits—Universal Credit’s health element and Personal Independence Payment—and placing them on a uniform basic allowance equivalent to the standard Universal Credit rate. This would reduce the financial support many young claimants receive, particularly those without severe disabilities. The plan introduces a new “additional cost allowance” for claimants with specific conditions, but the majority would see a net reduction. In exchange, the government would invest billions in employment‑support measures, including expanded work‑placement programmes, targeted job subsidies, and one‑to‑one personal advisers. The carrot‑and‑stick approach means benefits could be withdrawn if young people fail to engage with these support options, reflecting a shift from passive entitlement to active participation.
+
+## Fiscal impact and cost‑benefit calculus
+
+The review estimates that the new system, while requiring an upfront “significant investment” to rebuild employment services, could generate monetary savings over the long term. Proponents argue that reducing dependency on sickness benefits and increasing labour‑market entry could lower overall welfare spending by up to £5 billion within a decade. However, the initial outlay for expanded job‑creation schemes, training infrastructure, and personalised advisory services is projected to be in the tens of billions. The government’s willingness to accept short‑term fiscal strain reflects a strategic bet that a better‑skilled, employed youth cohort will boost tax revenues and reduce future benefit liabilities, thereby offsetting current costs.
+
+## Political ramifications and party dynamics
+
+Prime Minister Andy Burnham is expected to back the reforms, positioning the Labour government as decisive on welfare reform despite historical Labour opposition to such changes under his predecessor Sir Keir Starmer. The proposals could prove contentious among Labour MPs, especially those representing constituencies with high NEET rates, where benefit reductions may be politically toxic. The Conservatives, meanwhile, may seize on any perceived shortcomings to criticise the government’s economic management. Internationally, the UK’s move adds to a broader trend of welfare states re‑examining entitlement structures amid rising defence budgets and competing fiscal demands. The review’s emphasis on “investing in success rather than paying for failure” aligns with global debates on active labour‑market policies and the role of the state in shaping individual economic outcomes.
+
+## Key facts
+
+- Milburn’s report will advise moving under‑25s off main sickness benefits such as the health element of Universal Credit and PIP.
+- The new allowance would be at the basic Universal Credit rate, with a possible “additional cost allowance” for specific conditions.
+- NEET figures have risen 3 % to just under one million young people in the latest ONS quarter.
+- The government plans to invest billions in employment support, including work placements, job subsidies and personal advisers.
+- Prime Minister Andy Burnham is expected to endorse the reforms, despite potential Labour MP opposition.
+- The changes could take almost a decade to yield net monetary savings for the British state.
+- Milburn warns the current system “traps young people in poverty” and prioritises short‑term finances over long‑term prospects.
+- The reforms are part of a broader push to free fiscal resources for increased defence spending.
+
+## Implications
+
+- Younger claimants may face immediate financial strain, potentially affecting housing, education and health outcomes.
+- Increased funding for employment services could improve skills matching and reduce long‑term unemployment.
+- Political backlash may force the government to soften the proposals or introduce safeguards for vulnerable groups.
+- If successful, the reforms could serve as a model for other welfare systems seeking to balance fiscal responsibility with social support.
+
+## Outlook
+
+The Milburn review heralds a pivotal moment for UK welfare policy, balancing the urgent need to reduce public spending with the strategic investment in human capital. While the short‑term pain for some under‑25s is inevitable, the longer‑term goal is to break the cycle of dependency and improve economic prospects for a generation that has been disproportionately affected by stagnant wages and limited opportunities. The government’s willingness to accept an initial fiscal hit underscores a broader philosophical shift toward active labour‑market participation, echoing global trends in welfare modernisation. The ultimate success of the reforms will hinge on the effectiveness of the new employment‑support infrastructure, the political durability of the policy amid potential opposition, and the ability to measure tangible improvements in youth employment and economic independence over the coming decade.
+
+## Entities
+
+- [[Alan_Milburn]] — *person* (author of the welfare reform review)
+- [[Andy_Burnham]] — *person* (prime minister supporting the reforms)
+- [[Labour_Party]] — *organization* (political party overseeing the reforms)
+
+## Related
+
+- [[2026-11-11-004-tories-pledge-to-cut-benefits-for-children-with-milder]]
+- [[2026-11-11-005-census-should-include-black-english-and-asian-english]]
+
+---
+
+*Source: [feeds.bbci.co.uk](https://www.bbc.co.uk/news/articles/cwn70l1628l0o?at_medium=RSS&at_campaign=rss)*

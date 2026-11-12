@@ -1,7 +1,7 @@
 ---
 name: "Volodymyr Zelensky"
 entity_type: person
-backlink_count: 45
+backlink_count: 46
 ---
 
 # Volodymyr Zelensky
@@ -10,6 +10,7 @@ backlink_count: 45
 
 ## Referenced by
 
+- 2026-11-12 · [[2026-11-12-003-russia-ukraine-talks-turn-to-post-war-security-but-end]] — Russia-Ukraine talks turn to post-war security but end without breakthrough
 - 2026-11-10 · [[2026-11-10-007-ukraine-peace-talks-resume-with-some-flexibility-by]] — Ukraine peace talks resume with 'some flexibility' by warring sides, US officials say
 - 2026-11-05 · [[2026-11-05-003-ukraine-says-bodycam-video-shows-deadly-russian-double-tap]] — Ukraine says bodycam video shows deadly Russian double-tap bombing
 - 2026-11-03 · [[2026-11-03-001-russian-bombing-kills-26-people-at-ukraine-aid-centre-kyiv]] — Russian bombing kills 26 people at Ukraine aid centre, Kyiv says

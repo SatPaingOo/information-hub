@@ -1,7 +1,7 @@
 ---
 name: "Andy Burnham"
 entity_type: person
-backlink_count: 78
+backlink_count: 79
 ---
 
 # Andy Burnham
@@ -10,6 +10,7 @@ backlink_count: 78
 
 ## Referenced by
 
+- 2026-11-12 · [[2026-11-12-004-some-under-25s-should-get-less-benefits-milburn-review-to]] — Some under-25s should get less benefits, Milburn review to say
 - 2026-11-10 · [[2026-11-10-005-government-s-ev-targets-expected-to-be-reduced-this-week]] — Government's EV targets expected to be reduced this week
 - 2026-11-08 · [[2026-11-08-005-pm-tells-firms-to-publish-salaries-in-job-adverts-ahead-of]] — PM tells firms to publish salaries in job adverts ahead of new law
 - 2026-11-08 · [[2026-11-08-006-uk-cannot-cherry-pick-eu-single-market-deal-barnier-tells]] — UK cannot 'cherry pick' EU single market deal, Barnier tells BBC

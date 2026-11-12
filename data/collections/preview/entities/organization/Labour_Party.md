@@ -1,7 +1,7 @@
 ---
 name: "Labour Party"
 entity_type: organization
-backlink_count: 37
+backlink_count: 38
 ---
 
 # Labour Party
@@ -10,6 +10,7 @@ backlink_count: 37
 
 ## Referenced by
 
+- 2026-11-12 · [[2026-11-12-004-some-under-25s-should-get-less-benefits-milburn-review-to]] — Some under-25s should get less benefits, Milburn review to say
 - 2026-11-11 · [[2026-11-11-004-tories-pledge-to-cut-benefits-for-children-with-milder]] — Tories pledge to cut benefits for children with 'milder cases' of ADHD
 - 2026-11-05 · [[2026-11-05-005-time-to-focus-on-cost-of-living-says-pm-after-us-election]] — Time to focus on cost of living, says PM after US election results
 - 2026-11-04 · [[2026-11-04-005-mahmood-refuses-to-put-cost-on-care-worker-settlement]] — Mahmood refuses to put cost on care worker settlement climbdown

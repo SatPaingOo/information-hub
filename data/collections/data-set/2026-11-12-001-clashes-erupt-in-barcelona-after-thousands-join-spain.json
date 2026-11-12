@@ -1,0 +1,132 @@
+{
+  "id": "info:item:world:global:2026-11-12-001",
+  "key": "2026-11-12-001",
+  "date": "2026-11-12",
+  "content_type": "digest",
+  "topic": "world",
+  "region": "global",
+  "categories": [
+    "policy",
+    "industry"
+  ],
+  "source": {
+    "name": "feeds.bbci.co.uk",
+    "url": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&at_campaign=rss",
+    "feed": "https://feeds.bbci.co.uk/news/world/rss.xml",
+    "type": "rss"
+  },
+  "title": "Clashes erupt in Barcelona after thousands join Spain general strike",
+  "tldr": "Clashes erupted in Barcelona during Spain's first general strike in 14 years, as tens of thousands protested housing unaffordability and rising living costs. Masked rioters set fires and looted shops while police fired tear gas, underscoring deep social tension ahead of the November 29 parliamentary election.",
+  "background": "Spain's housing market has become a pressure point after years of rising rents and stagnant wages. The eviction of 87‑year‑old Maricarmen Abascal from a Madrid flat she occupied for seven decades, followed by her death, ignited widespread anger. Prime Minister Pedro Sánchez called a snap election after his housing reform stalled in parliament, while the opposition People's Party (PP) accused the government of weaponising the strike for electoral gain. The strike, the first since 2012, is the largest mobilisation of major unions (UGT and CC OO) in over a decade, reflecting a broader cost‑of‑living crisis that now shapes the political landscape.",
+  "analysis": [
+    {
+      "heading": "Socio‑economic roots of the unrest",
+      "content": "The core grievance is the gap between average salaries (≈€2,460) and rental costs for a modest 50 m² apartment (€1,170). This represents nearly 50 % of a worker’s income, far above the 30 % affordability threshold recommended by housing experts. The eviction of Abascal, whose rent tripled under new landlords, symbolised the human cost of speculative real‑estate practices and the erosion of tenant protections. The strike thus functions as a collective response to structural inequality, linking housing to broader concerns about job security, pension adequacy, and public services."
+    },
+    {
+      "heading": "Political instrumentalisation and electoral calculus",
+      "content": "Both the ruling Socialists and the PP have framed the strike to suit their narratives. Sánchez’s government highlighted the strike as a legitimate demand for affordable housing, even encouraging workers to participate, while the PP’s leader Alberto Núñez Feijóo denounced the action as “nonsense” and labelled unions “mafia”. This polarisation reflects the tight race ahead of the 29 Nov election, where the strike’s turnout will be interpreted as a barometer of public discontent. The government’s early election call suggests an attempt to capitalise on the momentum, yet the opposition risks alienating voters who view the crackdown as anti‑worker."
+    },
+    {
+      "heading": "Security response and public order implications",
+      "content": "Barcelona’s streets saw a heavy police presence, with officers equipped in helmets and riot shields. Masked groups set fire to bins, smashed shop windows, and looted stores such as the Lego and Apple outlets. Police deployed tear gas, leading to dozens of arrests for vandalism, looting, and fireworks attacks. While many demonstrators reported a peaceful, “joyful” atmosphere, the violent fringe raises concerns about radicalisation and the potential for organised extremism to exploit economic grievances. The incident will likely prompt a review of crowd‑control tactics and legal frameworks governing protest in Spain."
+    }
+  ],
+  "key_facts": [
+    "Approximately 120,000 protesters gathered in Madrid and over 50,000 in Barcelona during the strike.",
+    "The eviction of 87‑year‑old Maricarmen Abascal, after a rent triple‑increase, sparked the movement.",
+    "Average Madrid rent for a 50 m² apartment is €1,170 per month, consuming ~50 % of the average €2,460 salary.",
+    "Dozens of arrests were made for vandalism, looting, and firing fireworks at police.",
+    "The strike is Spain’s first general strike in 14 years, the last being in 2012 under Mariano Rajoy’s government."
+  ],
+  "implications": [
+    "The scale of participation signals a potent challenge to incumbent housing policy and may force rapid legislative action on affordability.",
+    "The violent incidents could lead to stricter protest regulations and increased police budgets, influencing civil‑ liberties debates.",
+    "The upcoming election outcome may hinge on how voters perceive the government’s handling of the crisis and the opposition’s rhetoric."
+  ],
+  "outlook": "If the government delivers concrete housing reforms—rent controls, expanded social housing, and stronger tenant rights—the strike could mark a turning point in Spanish socio‑economic policy. Conversely, continued unrest and political polarisation may destabilise the parliamentary agenda and embolden far‑right or populist movements. The European Union’s focus on affordable housing will likely add external pressure for Madrid to align with broader EU social standards.",
+  "entities": [
+    {
+      "type": "person",
+      "name": "Pedro Sánchez",
+      "relation": "Prime Minister of Spain, called snap election"
+    },
+    {
+      "type": "person",
+      "name": "Alberto Núñez Feijóo",
+      "relation": "PP leader, criticised the strike"
+    },
+    {
+      "type": "organization",
+      "name": "UGT",
+      "relation": "major Spanish labour union, organised the strike"
+    },
+    {
+      "type": "organization",
+      "name": "CC OO",
+      "relation": "second major Spanish labour union, supported the strike"
+    }
+  ],
+  "tags": [
+    "spain",
+    "labour strike",
+    "housing crisis",
+    "elections",
+    "civil unrest"
+  ],
+  "related_items": [
+    "info:item:world:global:2026-11-11-001",
+    "info:item:world:global:2026-11-11-002"
+  ],
+  "related_taxonomy": [
+    {
+      "node": "policy",
+      "relation": "relates"
+    },
+    {
+      "node": "industry",
+      "relation": "relates"
+    },
+    {
+      "node": "global",
+      "relation": "relates"
+    }
+  ],
+  "word_count": 622,
+  "collection": "world-news",
+  "provenance": {
+    "generated_by": {
+      "provider": "openrouter",
+      "model": "cohere/north-mini-code:free",
+      "prompt_version": "v3.1",
+      "supports_json": true
+    },
+    "schema_version": "v3"
+  },
+  "related_notes": [
+    "2026-11-11-001-three-iran-backed-suspects-plotted-attacks-including-raf",
+    "2026-11-11-002-us-army-soldier-suspected-of-spying-for-russia-arrested-in"
+  ],
+  "grounding": {
+    "checked_by": {
+      "provider": "lexical",
+      "model": "lexical",
+      "search_tool": null
+    },
+    "checked_at": "2026-11-12T02:32:36+00:00",
+    "grounding_score": 1.0,
+    "claims_total": 6,
+    "claims_grounded": 6,
+    "sources_verified": [],
+    "method": "lexical"
+  },
+  "review": {
+    "status": "verified",
+    "approved_by": {
+      "type": "ai",
+      "provider": "lexical",
+      "model": "lexical"
+    },
+    "approved_at": "2026-11-12T02:32:36+00:00"
+  }
+}

@@ -1,7 +1,7 @@
 ---
 node: "Global"
 layer: misc
-item_count: 594
+item_count: 600
 ---
 
 # Global
@@ -25,6 +25,12 @@ item_count: 594
 
 ## Items
 
+- 2026-11-12 · [[2026-11-12-001-clashes-erupt-in-barcelona-after-thousands-join-spain]] — Clashes erupt in Barcelona after thousands join Spain general strike
+- 2026-11-12 · [[2026-11-12-002-democrat-scott-colom-seals-historic-win-in-mississippi]] — Democrat Scott Colom seals historic win in Mississippi Senate race
+- 2026-11-12 · [[2026-11-12-003-russia-ukraine-talks-turn-to-post-war-security-but-end]] — Russia-Ukraine talks turn to post-war security but end without breakthrough
+- 2026-11-12 · [[2026-11-12-004-some-under-25s-should-get-less-benefits-milburn-review-to]] — Some under-25s should get less benefits, Milburn review to say
+- 2026-11-12 · [[2026-11-12-005-acquitted-china-spy-tells-bbc-i-was-fall-guy-for-security]] — Acquitted 'China spy' tells BBC: I was fall guy for security services but also naive
+- 2026-11-12 · [[2026-11-12-006-nod-by-n8n-the-open-source-personal-agent-redefining]] — Nod by n8n: The Open‑Source Personal Agent Redefining Automation
 - 2026-11-11 · [[2026-11-11-001-three-iran-backed-suspects-plotted-attacks-including-raf]] — Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says
 - 2026-11-11 · [[2026-11-11-002-us-army-soldier-suspected-of-spying-for-russia-arrested-in]] — US Army soldier suspected of spying for Russia arrested in UK
 - 2026-11-11 · [[2026-11-11-003-us-house-blocks-bid-to-impeach-defence-secretary-pete]] — US House blocks bid to impeach Defence Secretary Pete Hegseth, for now

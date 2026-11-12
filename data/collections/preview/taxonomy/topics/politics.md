@@ -1,7 +1,7 @@
 ---
 node: "politics"
 layer: topic
-item_count: 204
+item_count: 207
 ---
 
 # politics
@@ -17,6 +17,9 @@ item_count: 204
 
 ## Items
 
+- 2026-11-12 · [[2026-11-12-004-some-under-25s-should-get-less-benefits-milburn-review-to]] — Some under-25s should get less benefits, Milburn review to say
+- 2026-11-12 · [[2026-11-12-005-acquitted-china-spy-tells-bbc-i-was-fall-guy-for-security]] — Acquitted 'China spy' tells BBC: I was fall guy for security services but also naive
+- 2026-11-12 · [[2026-11-12-005-acquitted-china-spy-tells-bbc-i-was-fall-guy-for-security]] — Acquitted 'China spy' tells BBC: I was fall guy for security services but also naive
 - 2026-11-11 · [[2026-11-11-004-tories-pledge-to-cut-benefits-for-children-with-milder]] — Tories pledge to cut benefits for children with 'milder cases' of ADHD
 - 2026-11-11 · [[2026-11-11-005-census-should-include-black-english-and-asian-english]] — Census should include black English and Asian English options, says MP
 - 2026-11-10 · [[2026-11-10-005-government-s-ev-targets-expected-to-be-reduced-this-week]] — Government's EV targets expected to be reduced this week

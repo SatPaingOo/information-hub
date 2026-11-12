@@ -1,7 +1,7 @@
 ---
 name: "Anthropic"
 entity_type: company
-backlink_count: 107
+backlink_count: 108
 ---
 
 # Anthropic
@@ -10,6 +10,7 @@ backlink_count: 107
 
 ## Referenced by
 
+- 2026-11-12 · [[2026-11-12-006-nod-by-n8n-the-open-source-personal-agent-redefining]] — Nod by n8n: The Open‑Source Personal Agent Redefining Automation
 - 2026-11-09 · [[2026-11-09-005-nandy-rejects-claims-of-politicising-remembrance-sunday]] — Nandy rejects claims of politicising Remembrance Sunday after Erasmus row
 - 2026-11-09 · [[2026-11-09-006-agent-clan]] — Agent Clan
 - 2026-11-07 · [[2026-11-07-005-alysis-code]] — Alysis Code

@@ -1,7 +1,7 @@
 ---
 node: "geopolitics"
 layer: topic
-item_count: 152
+item_count: 153
 ---
 
 # geopolitics
@@ -25,6 +25,7 @@ item_count: 152
 
 ## Items
 
+- 2026-11-12 · [[2026-11-12-005-acquitted-china-spy-tells-bbc-i-was-fall-guy-for-security]] — Acquitted 'China spy' tells BBC: I was fall guy for security services but also naive
 - 2026-11-11 · [[2026-11-11-001-three-iran-backed-suspects-plotted-attacks-including-raf]] — Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says
 - 2026-11-11 · [[2026-11-11-002-us-army-soldier-suspected-of-spying-for-russia-arrested-in]] — US Army soldier suspected of spying for Russia arrested in UK
 - 2026-11-11 · [[2026-11-11-003-us-house-blocks-bid-to-impeach-defence-secretary-pete]] — US House blocks bid to impeach Defence Secretary Pete Hegseth, for now

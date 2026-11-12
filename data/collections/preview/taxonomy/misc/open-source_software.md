@@ -1,7 +1,7 @@
 ---
 node: "Open-source Software"
 layer: misc
-item_count: 4
+item_count: 5
 ---
 
 # Open-source Software
@@ -14,6 +14,7 @@ item_count: 4
 
 ## Items
 
+- 2026-11-12 · [[2026-11-12-006-nod-by-n8n-the-open-source-personal-agent-redefining]] — Nod by n8n: The Open‑Source Personal Agent Redefining Automation
 - 2026-11-02 · [[2026-11-02-007-embage]] — Embage
 - 2026-10-28 · [[2026-10-28-007-openradview-open-source-ai-ready-viewer-for-ct-mri-and-x]] — OpenRadView: Open‑Source, AI‑Ready Viewer for CT, MRI and X‑Ray Imaging
 - 2026-09-06 · [[2026-09-06-007-gitwarren-ai-driven-pre-commit-code-review-for-the-agentic]] — GitWarren – AI‑Driven Pre‑Commit Code Review for the Agentic Era

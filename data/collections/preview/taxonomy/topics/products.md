@@ -1,7 +1,7 @@
 ---
 node: "products"
 layer: topic
-item_count: 100
+item_count: 101
 ---
 
 # products
@@ -16,6 +16,7 @@ item_count: 100
 
 ## Items
 
+- 2026-11-12 · [[2026-11-12-006-nod-by-n8n-the-open-source-personal-agent-redefining]] — Nod by n8n: The Open‑Source Personal Agent Redefining Automation
 - 2026-11-11 · [[2026-11-11-006-sidekick-by-open]] — SideKick By Open
 - 2026-11-09 · [[2026-11-09-006-agent-clan]] — Agent Clan
 - 2026-11-07 · [[2026-11-07-005-alysis-code]] — Alysis Code

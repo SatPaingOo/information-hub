@@ -1,7 +1,7 @@
 ---
 node: "industry"
 layer: category
-item_count: 391
+item_count: 395
 ---
 
 # industry
@@ -21,6 +21,10 @@ item_count: 391
 
 ## Items
 
+- 2026-11-12 · [[2026-11-12-001-clashes-erupt-in-barcelona-after-thousands-join-spain]] — Clashes erupt in Barcelona after thousands join Spain general strike
+- 2026-11-12 · [[2026-11-12-001-clashes-erupt-in-barcelona-after-thousands-join-spain]] — Clashes erupt in Barcelona after thousands join Spain general strike
+- 2026-11-12 · [[2026-11-12-002-democrat-scott-colom-seals-historic-win-in-mississippi]] — Democrat Scott Colom seals historic win in Mississippi Senate race
+- 2026-11-12 · [[2026-11-12-003-russia-ukraine-talks-turn-to-post-war-security-but-end]] — Russia-Ukraine talks turn to post-war security but end without breakthrough
 - 2026-11-11 · [[2026-11-11-001-three-iran-backed-suspects-plotted-attacks-including-raf]] — Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says
 - 2026-11-11 · [[2026-11-11-002-us-army-soldier-suspected-of-spying-for-russia-arrested-in]] — US Army soldier suspected of spying for Russia arrested in UK
 - 2026-11-11 · [[2026-11-11-002-us-army-soldier-suspected-of-spying-for-russia-arrested-in]] — US Army soldier suspected of spying for Russia arrested in UK

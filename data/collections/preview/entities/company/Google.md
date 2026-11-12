@@ -1,7 +1,7 @@
 ---
 name: "Google"
 entity_type: company
-backlink_count: 13
+backlink_count: 14
 ---
 
 # Google
@@ -10,6 +10,7 @@ backlink_count: 13
 
 ## Referenced by
 
+- 2026-11-12 · [[2026-11-12-006-nod-by-n8n-the-open-source-personal-agent-redefining]] — Nod by n8n: The Open‑Source Personal Agent Redefining Automation
 - 2026-10-14 · [[2026-10-14-005-gemini-4-argon]] — Gemini 4 Argon
 - 2026-10-07 · [[2026-10-07-008-finland-orders-halt-to-work-on-two-google-data-centres]] — Finland orders halt to work on two Google data centres
 - 2026-10-02 · [[2026-10-02-005-omnia-agent]] — Omnia Agent

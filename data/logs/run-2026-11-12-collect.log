@@ -1,0 +1,21 @@
+2026-11-12 02:29:21,619 INFO [world-news] published 2026-11-12-001 — Clashes erupt in Barcelona after thousands join Spain genera
+2026-11-12 02:29:35,188 INFO [world-news] published 2026-11-12-002 — Democrat Scott Colom seals historic win in Mississippi Senat
+2026-11-12 02:29:48,256 INFO [world-news] published 2026-11-12-003 — Russia-Ukraine talks turn to post-war security but end witho
+2026-11-12 02:29:53,420 INFO [tech-news] nothing selected
+2026-11-12 02:30:17,399 INFO [politics] published 2026-11-12-004 — Some under-25s should get less benefits, Milburn review to s
+2026-11-12 02:30:31,624 INFO [politics] published 2026-11-12-005 — Acquitted 'China spy' tells BBC: I was fall guy for security
+2026-11-12 02:31:21,169 ERROR [products] generate error: bad response: Expecting property name enclosed in double quotes: line 29 column 7 (char 3083)
+2026-11-12 02:31:28,418 INFO [products] published 2026-11-12-006 — Nod by n8n: The Open‑Source Personal Agent Redefining Automa
+2026-11-12 02:31:28,560 ERROR [products] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7428, Requested 6676. Please try again in 45.78s. Need more tokens? Upgrade to Dev Tier today at https://cons
+2026-11-12 02:31:52,385 INFO [products] attempt 2 invalid: ["related_taxonomy/0: 'regions' is not of type 'object'", "related_taxonomy/1: 'topics' is not of type 'object'"]
+2026-11-12 02:31:55,472 INFO [products] attempt 3 invalid: [": 'key_facts' is a required property", ": 'implications' is a required property"]
+2026-11-12 02:31:56,221 INFO collect done: 6 item(s) published — target 4/10, next run ≈ 2026-11-12T02:39:44+00:00 UTC
+2026-11-12 02:32:16,194 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 2358, Requested 6519. Please try again in 6.5775s. Need more tokens? Upgrade to Dev Tier today at https://con
+2026-11-12 02:32:19,256 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 4717, Requested 7001. Please try again in 27.884999999s. Need more tokens? Upgrade to Dev Tier today at https:
+2026-11-12 02:32:25,257 WARNING [world-news] no collect provider for deep-dive
+2026-11-12 02:32:25,367 WARNING [world-news] no collect provider for deep-dive
+2026-11-12 02:32:25,482 WARNING [world-news] no collect provider for deep-dive
+2026-11-12 02:32:25,746 WARNING [tech-news] no collect provider available
+2026-11-12 02:32:26,038 WARNING [politics] no collect provider available
+2026-11-12 02:32:26,907 WARNING [products] no collect provider available
+2026-11-12 02:32:27,331 INFO collect done: 0 item(s) published — target 4/10, next run ≈ 2026-11-13T01:00:00+00:00 UTC

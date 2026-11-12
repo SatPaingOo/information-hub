@@ -11028,6 +11028,97 @@
       "name": "SideKick"
     },
     {
+      "id": "info:item:world:global:2026-11-12-001",
+      "type": "item",
+      "date": "2026-11-12",
+      "title": "Clashes erupt in Barcelona after thousands join Spain general strike"
+    },
+    {
+      "id": "info:entity:organization:UGT",
+      "type": "organization",
+      "name": "UGT"
+    },
+    {
+      "id": "info:entity:organization:CC OO",
+      "type": "organization",
+      "name": "CC OO"
+    },
+    {
+      "id": "info:item:world:global:2026-11-12-002",
+      "type": "item",
+      "date": "2026-11-12",
+      "title": "Democrat Scott Colom seals historic win in Mississippi Senate race"
+    },
+    {
+      "id": "info:entity:person:Scott Colom",
+      "type": "person",
+      "name": "Scott Colom"
+    },
+    {
+      "id": "info:entity:person:Cindy Hyde-Smith",
+      "type": "person",
+      "name": "Cindy Hyde-Smith"
+    },
+    {
+      "id": "info:item:world:global:2026-11-12-003",
+      "type": "item",
+      "date": "2026-11-12",
+      "title": "Russia-Ukraine talks turn to post-war security but end without breakthrough"
+    },
+    {
+      "id": "taxonomy/misc/post‑war reconstruction",
+      "type": "taxonomy",
+      "name": "post‑war reconstruction"
+    },
+    {
+      "id": "info:item:politics:global:2026-11-12-004",
+      "type": "item",
+      "date": "2026-11-12",
+      "title": "Some under-25s should get less benefits, Milburn review to say"
+    },
+    {
+      "id": "info:item:politics:global:2026-11-12-005",
+      "type": "item",
+      "date": "2026-11-12",
+      "title": "Acquitted 'China spy' tells BBC: I was fall guy for security services but also naive"
+    },
+    {
+      "id": "info:entity:person:Chris Cash",
+      "type": "person",
+      "name": "Chris Cash"
+    },
+    {
+      "id": "info:entity:person:Chris Berry",
+      "type": "person",
+      "name": "Chris Berry"
+    },
+    {
+      "id": "info:entity:person:Cai Qi",
+      "type": "person",
+      "name": "Cai Qi"
+    },
+    {
+      "id": "info:entity:organization:UK security services",
+      "type": "organization",
+      "name": "UK security services"
+    },
+    {
+      "id": "info:item:products:global:2026-11-12-006",
+      "type": "item",
+      "date": "2026-11-12",
+      "title": "Nod by n8n: The Open‑Source Personal Agent Redefining Automation"
+    },
+    {
+      "id": "info:entity:product:Nod",
+      "type": "product",
+      "name": "Nod"
+    },
+    {
+      "id": "taxonomy/misc/LLM integration",
+      "type": "taxonomy",
+      "name": "LLM integration"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -49378,6 +49469,376 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-11-12-001",
+      "target": "info:entity:person:Pedro Sánchez",
+      "relation": "Prime Minister of Spain, called snap election"
+    },
+    {
+      "source": "info:item:world:global:2026-11-12-001",
+      "target": "info:entity:person:Alberto Núñez Feijóo",
+      "relation": "PP leader, criticised the strike"
+    },
+    {
+      "source": "info:item:world:global:2026-11-12-001",
+      "target": "info:entity:organization:UGT",
+      "relation": "major Spanish labour union, organised the strike"
+    },
+    {
+      "source": "info:item:world:global:2026-11-12-001",
+      "target": "info:entity:organization:CC OO",
+      "relation": "second major Spanish labour union, supported the strike"
+    },
+    {
+      "source": "info:item:world:global:2026-11-12-001",
+      "target": "info:item:world:global:2026-11-11-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-12-001",
+      "target": "info:item:world:global:2026-11-11-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-12-001",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-12-001",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-12-001",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-12-001",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-12-001",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-12-001",
+      "target": "taxonomy/category/industry",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-12-001",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-12-002",
+      "target": "info:entity:person:Scott Colom",
+      "relation": "winning Democratic candidate"
+    },
+    {
+      "source": "info:item:world:global:2026-11-12-002",
+      "target": "info:entity:person:Cindy Hyde-Smith",
+      "relation": "Republican incumbent"
+    },
+    {
+      "source": "info:item:world:global:2026-11-12-002",
+      "target": "info:entity:company:OpenAI",
+      "relation": "AI model developer referenced in policy priorities"
+    },
+    {
+      "source": "info:item:world:global:2026-11-12-002",
+      "target": "info:entity:model:Gemini",
+      "relation": "AI model highlighted in editorial focus"
+    },
+    {
+      "source": "info:item:world:global:2026-11-12-002",
+      "target": "info:item:world:global:2026-11-12-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-12-002",
+      "target": "info:item:world:global:2026-11-11-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-12-002",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-12-002",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-12-002",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-12-002",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-12-002",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-12-002",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-12-002",
+      "target": "taxonomy/misc/Myanmar",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-12-003",
+      "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "Ukrainian President negotiating security guarantees"
+    },
+    {
+      "source": "info:item:world:global:2026-11-12-003",
+      "target": "info:entity:person:Jared Kushner",
+      "relation": "U.S. special envoy heading to Moscow and Dublin"
+    },
+    {
+      "source": "info:item:world:global:2026-11-12-003",
+      "target": "info:entity:organization:OpenAI",
+      "relation": "AI model provider referenced for conflict‑verification analytics"
+    },
+    {
+      "source": "info:item:world:global:2026-11-12-003",
+      "target": "info:entity:model:Gemini",
+      "relation": "AI system highlighted for potential diplomatic monitoring"
+    },
+    {
+      "source": "info:item:world:global:2026-11-12-003",
+      "target": "info:item:world:global:2026-11-12-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-12-003",
+      "target": "info:item:world:global:2026-11-12-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-12-003",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-12-003",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-12-003",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-12-003",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-12-003",
+      "target": "taxonomy/misc/global security",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-12-003",
+      "target": "taxonomy/misc/post‑war reconstruction",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-12-003",
+      "target": "taxonomy/misc/AI governance",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-12-004",
+      "target": "info:entity:person:Alan Milburn",
+      "relation": "author of the welfare reform review"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-12-004",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "prime minister supporting the reforms"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-12-004",
+      "target": "info:entity:organization:Labour Party",
+      "relation": "political party overseeing the reforms"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-12-004",
+      "target": "info:item:politics:global:2026-11-11-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-12-004",
+      "target": "info:item:politics:global:2026-11-11-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-12-004",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-12-004",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-12-004",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-12-004",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-12-004",
+      "target": "taxonomy/misc/welfare reform",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-12-004",
+      "target": "taxonomy/misc/UK politics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-12-005",
+      "target": "info:entity:person:Chris Cash",
+      "relation": "defendant and source of leaked messages"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-12-005",
+      "target": "info:entity:person:Chris Berry",
+      "relation": "Chinese contact and co‑defendant"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-12-005",
+      "target": "info:entity:person:Cai Qi",
+      "relation": "senior Chinese official identified in messages"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-12-005",
+      "target": "info:entity:organization:UK security services",
+      "relation": "alleged orchestrators of prosecution narrative"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-12-005",
+      "target": "info:item:politics:global:2026-11-12-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-12-005",
+      "target": "info:item:politics:global:2026-11-11-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-12-005",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-12-005",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-12-005",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-12-005",
+      "target": "taxonomy/topic/politics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-12-005",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-12-005",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-11-12-006",
+      "target": "info:entity:product:Nod",
+      "relation": "personal AI agent built on n8n"
+    },
+    {
+      "source": "info:item:products:global:2026-11-12-006",
+      "target": "info:entity:company:OpenAI",
+      "relation": "provides LLMs compatible with Nod"
+    },
+    {
+      "source": "info:item:products:global:2026-11-12-006",
+      "target": "info:entity:company:Anthropic",
+      "relation": "alternative LLM source for Nod"
+    },
+    {
+      "source": "info:item:products:global:2026-11-12-006",
+      "target": "info:entity:company:Google",
+      "relation": "offers Gemini models usable within Nod"
+    },
+    {
+      "source": "info:item:products:global:2026-11-12-006",
+      "target": "info:item:products:global:2026-11-11-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-11-12-006",
+      "target": "info:item:products:global:2026-11-09-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-11-12-006",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-11-12-006",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-11-12-006",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-11-12-006",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-11-12-006",
+      "target": "taxonomy/misc/open-source software",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-11-12-006",
+      "target": "taxonomy/misc/LLM integration",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -49659,7 +50120,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:Google",
       "relation": "co-occurs",
-      "weight": "8"
+      "weight": "9"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -49707,7 +50168,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
-      "weight": "89"
+      "weight": "90"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -50407,6 +50868,12 @@
     },
     {
       "source": "info:entity:company:Anthropic",
+      "target": "info:entity:product:Nod",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
       "target": "info:entity:product:Notchware",
       "relation": "co-occurs",
       "weight": "1"
@@ -50991,7 +51458,7 @@
       "source": "info:entity:company:Google",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
-      "weight": "8"
+      "weight": "9"
     },
     {
       "source": "info:entity:company:Google",
@@ -51098,6 +51565,12 @@
     {
       "source": "info:entity:company:Google",
       "target": "info:entity:product:Gemini",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Google",
+      "target": "info:entity:product:Nod",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -51957,7 +52430,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "68"
+      "weight": "69"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -52429,6 +52902,12 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:person:Cindy Hyde-Smith",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Cyril Ramaphosa",
       "relation": "co-occurs",
       "weight": "2"
@@ -52729,6 +53208,12 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:person:Scott Colom",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Tristan Buckmaster",
       "relation": "co-occurs",
       "weight": "2"
@@ -52880,6 +53365,12 @@
     {
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:product:Never Boring AI",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:product:Nod",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -56139,7 +56630,7 @@
       "source": "info:entity:model:Gemini",
       "target": "info:entity:organization:OpenAI",
       "relation": "co-occurs",
-      "weight": "16"
+      "weight": "17"
     },
     {
       "source": "info:entity:model:Gemini",
@@ -56251,6 +56742,12 @@
     },
     {
       "source": "info:entity:model:Gemini",
+      "target": "info:entity:person:Cindy Hyde-Smith",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
       "target": "info:entity:person:Cyril Ramaphosa",
       "relation": "co-occurs",
       "weight": "2"
@@ -56325,7 +56822,7 @@
       "source": "info:entity:model:Gemini",
       "target": "info:entity:person:Jared Kushner",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:model:Gemini",
@@ -56503,6 +57000,12 @@
     },
     {
       "source": "info:entity:model:Gemini",
+      "target": "info:entity:person:Scott Colom",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
       "target": "info:entity:person:Sir Ken McCallum",
       "relation": "co-occurs",
       "weight": "1"
@@ -56523,7 +57026,7 @@
       "source": "info:entity:model:Gemini",
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
-      "weight": "5"
+      "weight": "6"
     },
     {
       "source": "info:entity:model:Gemini",
@@ -57698,6 +58201,24 @@
     {
       "source": "info:entity:organization:CBI",
       "target": "info:entity:person:John Healey",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:CC OO",
+      "target": "info:entity:organization:UGT",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:CC OO",
+      "target": "info:entity:person:Alberto Núñez Feijóo",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:CC OO",
+      "target": "info:entity:person:Pedro Sánchez",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -60711,13 +61232,13 @@
       "source": "info:entity:organization:Labour Party",
       "target": "info:entity:person:Alan Milburn",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Labour Party",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
-      "weight": "19"
+      "weight": "20"
     },
     {
       "source": "info:entity:organization:Labour Party",
@@ -61857,7 +62378,7 @@
       "source": "info:entity:organization:OpenAI",
       "target": "info:entity:person:Jared Kushner",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:OpenAI",
@@ -61965,7 +62486,7 @@
       "source": "info:entity:organization:OpenAI",
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:organization:OpenAI",
@@ -63294,6 +63815,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:UGT",
+      "target": "info:entity:person:Alberto Núñez Feijóo",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:UGT",
+      "target": "info:entity:person:Pedro Sánchez",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:UK Finance",
       "target": "info:entity:person:John Healey",
       "relation": "co-occurs",
@@ -63422,6 +63955,24 @@
     {
       "source": "info:entity:organization:UK government",
       "target": "info:entity:region:EU",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:UK security services",
+      "target": "info:entity:person:Cai Qi",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:UK security services",
+      "target": "info:entity:person:Chris Berry",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:UK security services",
+      "target": "info:entity:person:Chris Cash",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -64227,7 +64778,7 @@
       "source": "info:entity:person:Alan Milburn",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Alan Milburn",
@@ -64239,7 +64790,7 @@
       "source": "info:entity:person:Alberto Núñez Feijóo",
       "target": "info:entity:person:Pedro Sánchez",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Alberto Núñez Feijóo",
@@ -65076,6 +65627,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:person:Cai Qi",
+      "target": "info:entity:person:Chris Berry",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Cai Qi",
+      "target": "info:entity:person:Chris Cash",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:person:Captain Smit Machchhar",
       "target": "info:entity:person:Hamam al‑Hammami",
       "relation": "co-occurs",
@@ -65160,6 +65723,12 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:person:Chris Berry",
+      "target": "info:entity:person:Chris Cash",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:person:Chris Hipkins",
       "target": "info:entity:person:Christopher Luxon",
       "relation": "co-occurs",
@@ -65234,6 +65803,12 @@
     {
       "source": "info:entity:person:Christopher Luxon",
       "target": "info:entity:person:Julian McCrann",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Cindy Hyde-Smith",
+      "target": "info:entity:person:Scott Colom",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -66321,7 +66896,7 @@
       "source": "info:entity:person:Jared Kushner",
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
-      "weight": "5"
+      "weight": "6"
     },
     {
       "source": "info:entity:person:Javier Milei",

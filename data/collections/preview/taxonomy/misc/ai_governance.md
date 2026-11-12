@@ -1,7 +1,7 @@
 ---
 node: "AI Governance"
 layer: misc
-item_count: 4
+item_count: 5
 ---
 
 # AI Governance
@@ -15,6 +15,7 @@ item_count: 4
 
 ## Items
 
+- 2026-11-12 · [[2026-11-12-003-russia-ukraine-talks-turn-to-post-war-security-but-end]] — Russia-Ukraine talks turn to post-war security but end without breakthrough
 - 2026-11-02 · [[2026-11-02-001-ukraine-air-raid-app-apparently-hacked-as-users-receive]] — Ukraine air raid app apparently hacked as users receive false radiation threat, Air Force says
 - 2026-09-13 · [[2026-09-13-009-ai-staff-genuinely-frightened-for-humanity-s-future-ex]] — AI staff 'genuinely frightened' for humanity's future, ex-Anthropic researcher tells BBC
 - 2026-08-29 · [[2026-08-29-004-greens-call-for-temporary-ban-on-new-data-centres]] — Greens call for temporary ban on new data centres
