@@ -19,3 +19,13 @@
 2026-11-12 02:32:26,038 WARNING [politics] no collect provider available
 2026-11-12 02:32:26,907 WARNING [products] no collect provider available
 2026-11-12 02:32:27,331 INFO collect done: 0 item(s) published — target 4/10, next run ≈ 2026-11-13T01:00:00+00:00 UTC
+2026-11-12 08:07:18,298 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 817, Requested 7532. Please try again in 2.617499999s. Need more tokens? Upgrade to Dev Tier today at https:/
+2026-11-12 08:07:24,819 ERROR [world-news] generate error: HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
+
+2026-11-12 08:07:30,821 WARNING [world-news] no collect provider for deep-dive
+2026-11-12 08:07:30,909 WARNING [world-news] no collect provider for deep-dive
+2026-11-12 08:07:31,004 WARNING [world-news] no collect provider for deep-dive
+2026-11-12 08:07:31,716 WARNING [tech-news] no collect provider available
+2026-11-12 08:07:31,989 WARNING [politics] no collect provider available
+2026-11-12 08:07:32,719 WARNING [products] no collect provider available
+2026-11-12 08:07:33,454 INFO collect done: 0 item(s) published — target 4/10, next run ≈ 2026-11-13T01:00:00+00:00 UTC

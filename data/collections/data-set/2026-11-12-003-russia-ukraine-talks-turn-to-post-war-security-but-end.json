@@ -112,24 +112,29 @@
   ],
   "grounding": {
     "checked_by": {
-      "provider": "lexical",
+      "provider": "web",
       "model": "lexical",
       "search_tool": null
     },
-    "checked_at": "2026-11-12T02:32:45+00:00",
-    "grounding_score": 0.833,
+    "checked_at": "2026-11-12T08:07:50+00:00",
+    "grounding_score": 1.0,
     "claims_total": 6,
-    "claims_grounded": 5,
-    "sources_verified": [],
-    "method": "lexical"
+    "claims_grounded": 6,
+    "sources_verified": [
+      {
+        "url": "https://www.jpost.com/",
+        "title": "Jared Kushner, Steve Witkoff, will meet Vladimir Putin as part of US mediation in Russia-Ukraine war - The Jerusalem Post"
+      }
+    ],
+    "method": "web"
   },
   "review": {
     "status": "verified",
     "approved_by": {
       "type": "ai",
-      "provider": "lexical",
+      "provider": "web",
       "model": "lexical"
     },
-    "approved_at": "2026-11-12T02:32:45+00:00"
+    "approved_at": "2026-11-12T08:07:50+00:00"
   }
 }
