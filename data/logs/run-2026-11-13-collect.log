@@ -1,0 +1,27 @@
+2026-11-13 06:26:45,967 INFO [world-news] published 2026-11-13-001 — Ex-Nvidia CEO Jensen Huang summoned to testify before Congre
+2026-11-13 06:27:06,077 INFO [world-news] published 2026-11-13-002 — Zelensky welcomes US bringing Europe into Russia-Ukraine pea
+2026-11-13 06:27:25,117 ERROR [world-news] generate error: bad response: Expecting property name enclosed in double quotes: line 22 column 7 (char 1903)
+2026-11-13 06:27:32,188 INFO [world-news] attempt 2 invalid: ["entities/1/type: 'country' is not one of ['concept', 'company', 'model', 'person', 'product', 'region', 'organization', 'event']"]
+2026-11-13 06:27:32,230 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7821, Requested 6864. Please try again in 50.137499999s. Need more tokens? Upgrade to Dev Tier today at https
+2026-11-13 06:27:44,900 INFO [tech-news] nothing selected
+2026-11-13 06:28:02,188 ERROR [politics] generate error: bad response: Expecting property name enclosed in double quotes: line 86 column 24 (char 6673)
+2026-11-13 06:28:34,916 ERROR [politics] generate error: bad response: Expecting property name enclosed in double quotes: line 25 column 7 (char 2726)
+2026-11-13 06:28:45,841 INFO [politics] published 2026-11-13-004 — Can Burnham avoid another Labour welfare rebellion?
+2026-11-13 06:28:45,997 ERROR [politics] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7973, Requested 7624. Please try again in 56.9775s. Need more tokens? Upgrade to Dev Tier today at https://co
+2026-11-13 06:29:00,373 INFO [politics] published 2026-11-13-005 — Burnham's push for closer EU ties causes ripples in his part
+2026-11-13 06:29:15,628 INFO [products] attempt 1 invalid: ["related_taxonomy/0: 'regions' is not of type 'object'", "related_taxonomy/1: 'topics' is not of type 'object'"]
+2026-11-13 06:29:15,672 ERROR [products] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 4017, Requested 6471. Please try again in 18.66s. Need more tokens? Upgrade to Dev Tier today at https://cons
+2026-11-13 06:29:30,142 INFO [products] published 2026-11-13-006 — Toki Matter
+2026-11-13 06:29:50,056 ERROR [products] generate error: empty model content
+2026-11-13 06:30:18,972 ERROR [products] generate error: bad response: Expecting property name enclosed in double quotes: line 29 column 7 (char 3413)
+2026-11-13 06:30:25,017 ERROR [products] generate error: HTTP 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Requested 8214, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https
+2026-11-13 06:30:34,737 INFO collect done: 5 item(s) published — target 5/10, next run ≈ 2026-11-13T06:38:45+00:00 UTC
+2026-11-13 06:31:30,367 INFO [world-news] published 2026-11-13-007 — North Korean hackers used fake video calls in $400m crypto h
+2026-11-13 06:31:33,650 ERROR [world-news] generate error: HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
+
+2026-11-13 06:31:36,652 WARNING [world-news] no collect provider for deep-dive
+2026-11-13 06:31:36,763 WARNING [world-news] no collect provider for deep-dive
+2026-11-13 06:31:37,133 WARNING [tech-news] no collect provider available
+2026-11-13 06:31:37,662 WARNING [politics] no collect provider available
+2026-11-13 06:31:38,509 WARNING [products] no collect provider available
+2026-11-13 06:31:39,234 INFO collect done: 1 item(s) published — target 4/10, next run ≈ 2026-11-14T01:00:00+00:00 UTC

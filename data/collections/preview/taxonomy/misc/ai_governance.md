@@ -1,7 +1,7 @@
 ---
 node: "AI Governance"
 layer: misc
-item_count: 5
+item_count: 6
 ---
 
 # AI Governance
@@ -15,6 +15,7 @@ item_count: 5
 
 ## Items
 
+- 2026-11-13 · [[2026-11-13-001-ex-nvidia-ceo-jensen-huang-summoned-to-testify-before]] — Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy
 - 2026-11-12 · [[2026-11-12-003-russia-ukraine-talks-turn-to-post-war-security-but-end]] — Russia-Ukraine talks turn to post-war security but end without breakthrough
 - 2026-11-02 · [[2026-11-02-001-ukraine-air-raid-app-apparently-hacked-as-users-receive]] — Ukraine air raid app apparently hacked as users receive false radiation threat, Air Force says
 - 2026-09-13 · [[2026-09-13-009-ai-staff-genuinely-frightened-for-humanity-s-future-ex]] — AI staff 'genuinely frightened' for humanity's future, ex-Anthropic researcher tells BBC

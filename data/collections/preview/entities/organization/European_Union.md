@@ -1,7 +1,7 @@
 ---
 name: "European Union"
 entity_type: organization
-backlink_count: 22
+backlink_count: 23
 ---
 
 # European Union
@@ -10,6 +10,7 @@ backlink_count: 22
 
 ## Referenced by
 
+- 2026-11-13 · [[2026-11-13-005-burnham-s-push-for-closer-eu-ties-causes-ripples-in-his]] — Burnham's push for closer EU ties causes ripples in his party and others
 - 2026-11-07 · [[2026-11-07-008-new-wave-of-bomb-threats-hit-european-airlines]] — New wave of bomb threats hit European airlines
 - 2026-11-03 · [[2026-11-03-002-thousands-of-european-troops-to-rehearse-ukraine]] — Thousands of European troops to rehearse Ukraine deployment in event of peace
 - 2026-11-03 · [[2026-11-03-005-uk-and-eu-agree-draft-deal-to-scrap-brexit-red-tape-over]] — UK and EU agree draft deal to scrap Brexit red tape over food exports

@@ -1,7 +1,7 @@
 ---
 node: "product"
 layer: category
-item_count: 127
+item_count: 128
 ---
 
 # product
@@ -19,6 +19,7 @@ item_count: 127
 
 ## Items
 
+- 2026-11-13 · [[2026-11-13-006-toki-matter]] — Toki Matter
 - 2026-11-12 · [[2026-11-12-006-nod-by-n8n-the-open-source-personal-agent-redefining]] — Nod by n8n: The Open‑Source Personal Agent Redefining Automation
 - 2026-11-11 · [[2026-11-11-006-sidekick-by-open]] — SideKick By Open
 - 2026-11-09 · [[2026-11-09-006-agent-clan]] — Agent Clan

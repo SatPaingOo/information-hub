@@ -1,7 +1,7 @@
 ---
 name: "Nvidia"
 entity_type: company
-backlink_count: 7
+backlink_count: 8
 ---
 
 # Nvidia
@@ -10,6 +10,7 @@ backlink_count: 7
 
 ## Referenced by
 
+- 2026-11-13 · [[2026-11-13-001-ex-nvidia-ceo-jensen-huang-summoned-to-testify-before]] — Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy
 - 2026-11-10 · [[2026-11-10-001-trump-says-fbi-investigating-nvidia-boss-s-affair-with]] — Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy
 - 2026-11-10 · [[2026-11-10-006-nvidia-shares-tumble-over-investigation-into-huang-s]] — Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy
 - 2026-11-07 · [[2026-11-07-001-ai-stocks-climb-after-trillions-wiped-from-market-values]] — AI stocks climb after trillions wiped from market values

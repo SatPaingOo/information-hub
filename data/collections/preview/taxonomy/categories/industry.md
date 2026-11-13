@@ -1,7 +1,7 @@
 ---
 node: "industry"
 layer: category
-item_count: 395
+item_count: 398
 ---
 
 # industry
@@ -21,6 +21,9 @@ item_count: 395
 
 ## Items
 
+- 2026-11-13 · [[2026-11-13-001-ex-nvidia-ceo-jensen-huang-summoned-to-testify-before]] — Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy
+- 2026-11-13 · [[2026-11-13-002-zelensky-welcomes-us-bringing-europe-into-russia-ukraine]] — Zelensky welcomes US bringing Europe into Russia-Ukraine peace talks
+- 2026-11-13 · [[2026-11-13-007-north-korean-hackers-used-fake-video-calls-in-400m-crypto]] — North Korean hackers used fake video calls in $400m crypto hack, says FBI
 - 2026-11-12 · [[2026-11-12-001-clashes-erupt-in-barcelona-after-thousands-join-spain]] — Clashes erupt in Barcelona after thousands join Spain general strike
 - 2026-11-12 · [[2026-11-12-001-clashes-erupt-in-barcelona-after-thousands-join-spain]] — Clashes erupt in Barcelona after thousands join Spain general strike
 - 2026-11-12 · [[2026-11-12-002-democrat-scott-colom-seals-historic-win-in-mississippi]] — Democrat Scott Colom seals historic win in Mississippi Senate race

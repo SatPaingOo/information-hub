@@ -1,7 +1,7 @@
 ---
 node: "regions"
 layer: misc
-item_count: 6
+item_count: 9
 ---
 
 # regions
@@ -15,9 +15,13 @@ item_count: 6
 - [[world]] — *connects to global geopolitical regions*
 - [[world]] — *connects to global geopolitical zones*
 - [[world]] — *connects to global region*
+- [[world]] — *global*
 
 ## Items
 
+- 2026-11-13 · [[2026-11-13-005-burnham-s-push-for-closer-eu-ties-causes-ripples-in-his]] — Burnham's push for closer EU ties causes ripples in his party and others
+- 2026-11-13 · [[2026-11-13-006-toki-matter]] — Toki Matter
+- 2026-11-13 · [[2026-11-13-007-north-korean-hackers-used-fake-video-calls-in-400m-crypto]] — North Korean hackers used fake video calls in $400m crypto hack, says FBI
 - 2026-11-10 · [[2026-11-10-005-government-s-ev-targets-expected-to-be-reduced-this-week]] — Government's EV targets expected to be reduced this week
 - 2026-11-10 · [[2026-11-10-006-nvidia-shares-tumble-over-investigation-into-huang-s]] — Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy
 - 2026-11-10 · [[2026-11-10-007-ukraine-peace-talks-resume-with-some-flexibility-by]] — Ukraine peace talks resume with 'some flexibility' by warring sides, US officials say

@@ -1,0 +1,122 @@
+{
+  "run_timestamp": "2026-11-13T06:31:38+00:00",
+  "items": [
+    {
+      "id": "info:item:world:global:2026-11-13-007",
+      "key": "2026-11-13-007",
+      "date": "2026-11-13",
+      "content_type": "digest",
+      "topic": "world",
+      "region": "global",
+      "categories": [
+        "policy",
+        "industry"
+      ],
+      "source": {
+        "name": "feeds.bbci.co.uk",
+        "url": "https://www.bbc.co.uk/news/articles/cqdj1ellpd70o?at_medium=RSS&at_campaign=rss",
+        "feed": "https://feeds.bbci.co.uk/news/world/rss.xml",
+        "type": "rss"
+      },
+      "title": "North Korean hackers used fake video calls in $400m crypto hack, says FBI",
+      "tldr": "The FBI has identified North Korean hackers operating the FaceStealer scheme, which used fake video calls to steal identities and $400 million from cryptocurrency victims over 18 months. The scheme targets cryptocurrency and web3 professionals, and is linked to North Korea's funding of illicit weapons programs.",
+      "background": "The FBI's cyber director Brett Leatherman stated that North Korean regime proceeds from large-scale cryptocurrency theft fund its illicit weapons program. This follows a week after Binance revealed a record $6.3 billion hack attributed to North Korea-linked actors. The FaceStealer scheme is described as a highly effective social engineering operation that exploits trust in video conference platforms to deceive victims into downloading malware.",
+      "analysis": [
+        {
+          "heading": "The FaceStealer Attack Mechanism",
+          "content": "The FaceStealer scheme operates through a multi-stage social engineering attack. Hackers hijack or compromise social media accounts to invite victims into impersonated video conference calls (fake Zoom, Teams, or Meet sessions). The attackers play pre-recorded videos of previous victims to simulate legitimacy, but the audio quality is deliberately degraded. A prompt appears asking the victim to 'fix' the audio by clicking a link, which downloads malware onto the device. This malware grants access to contact lists, apps, and other sensitive data, enabling further scams against the victim's network. The FBI describes this as a 'highly effective social engineering scheme capable of deceiving even the most experienced technical and security conscious computer user.'"
+        },
+        {
+          "heading": "Geopolitical Implications for North Korea",
+          "content": "The FBI's attribution of the FaceStealer scheme to North Korean hackers reveals a direct link between state-sponsored cyber operations and the regime's broader strategic objectives. The agency states that proceeds from such large-scale cryptocurrency theft fund North Korea's illicit weapons program. This represents a significant escalation in the regime's use of cybercrime to support military capabilities, particularly given the ongoing conflict in Ukraine and other regional tensions. The scheme's focus on cryptocurrency and web3 professionals suggests a deliberate targeting of the digital economy sector to maximize financial gain while avoiding traditional banking detection."
+        },
+        {
+          "heading": "Impact on the Crypto and Open-Source Industries",
+          "content": "The FaceStealer scheme has affected over 900 victims in the past 18 months, primarily targeting those in the cryptocurrency and web3 sectors. The FBI notes that the hackers specifically target developers and maintainers of open-source software, who are critical to the ecosystem's security and stability. By compromising these professionals, the attackers gain access to secure development environments, private keys, and internal communications. This represents a threat to the integrity of the global crypto infrastructure and could facilitate further cyberattacks on financial institutions and other critical sectors. The scheme also demonstrates how state-sponsored actors exploit the growing digital economy to fund military operations."
+        }
+      ],
+      "key_facts": [
+        "The FBI identifies North Korean hackers as the perpetrators of the FaceStealer scheme",
+        "Over 900 victims have been affected by the FaceStealer scheme in the last 18 months",
+        "The scheme generates approximately $400 million in cryptocurrency theft",
+        "FaceStealer targets cryptocurrency and web3 professionals, particularly open-source software developers",
+        "The FBI attributes the scheme to North Korea, linking it to the regime's funding of illicit weapons programs",
+        "A previous major hack at Binance (record $6.3 billion) was also attributed to North Korea-linked actors"
+      ],
+      "implications": [
+        "The FaceStealer scheme represents a sophisticated evolution of state-sponsored cybercrime targeting the digital economy",
+        "North Korea's use of cryptocurrency theft to fund weapons programs raises serious international security concerns",
+        "The attack on open-source software developers threatens the security and resilience of the global crypto ecosystem",
+        "The scale of the operation (900+ victims, $400 million) indicates significant resources and organizational capacity",
+        "The FBI's attribution provides important intelligence for international countermeasures against North Korean cyber activities"
+      ],
+      "outlook": "The FBI continues to investigate the FaceStealer operation and its connections to North Korea's broader cyber warfare strategy. The attackers may adapt their tactics to evade detection, and the use of open-source software as a target suggests ongoing vulnerabilities in the global digital infrastructure. International cooperation between US and Korean authorities will be critical in disrupting this operation and preventing further financial losses. The case also highlights the growing intersection between cybercrime, state sponsorship, and military funding in modern geopolitical conflicts.",
+      "entities": [
+        {
+          "type": "organization",
+          "name": "North Korean regime",
+          "relation": "perpetrator of the FaceStealer scheme and funding source for illicit weapons programs"
+        },
+        {
+          "type": "organization",
+          "name": "FBI",
+          "relation": "attributing the FaceStealer scheme to North Korean hackers and leading the investigation"
+        },
+        {
+          "type": "company",
+          "name": "Binance",
+          "relation": "target of a previous $6.3 billion hack attributed to North Korea-linked actors"
+        },
+        {
+          "type": "concept",
+          "name": "FaceStealer",
+          "relation": "the name of the social engineering attack scheme used by North Korean hackers"
+        }
+      ],
+      "tags": [
+        "geopolitics",
+        "cybercrime",
+        "state-sponsored hacking",
+        "crypto security",
+        "open-source software",
+        "North Korea",
+        "FBI"
+      ],
+      "related_items": [
+        "info:item:world:global:2026-11-13-001",
+        "info:item:world:global:2026-11-12-001"
+      ],
+      "related_taxonomy": [
+        {
+          "node": "regions",
+          "relation": "global"
+        },
+        {
+          "node": "topics",
+          "relation": "world, geopolitics"
+        },
+        {
+          "node": "categories",
+          "relation": "policy, industry"
+        }
+      ],
+      "word_count": 624,
+      "collection": "world-news",
+      "provenance": {
+        "generated_by": {
+          "provider": "openrouter",
+          "model": "liquid/lfm-2.5-2.6b:free",
+          "prompt_version": "v3.1",
+          "supports_json": true
+        },
+        "schema_version": "v3"
+      },
+      "related_notes": [
+        "2026-11-13-001-ex-nvidia-ceo-jensen-huang-summoned-to-testify-before",
+        "2026-11-12-001-clashes-erupt-in-barcelona-after-thousands-join-spain"
+      ],
+      "fulltext": "North Korean hackers used fake video calls in $400m crypto hack, says FBI\n- Published\nState-sponsored hackers from North Korea have taken more than $400 million in cryptocurrency by using fake video calls to steal people's identities, US authorities say.\nMore than 900 victims have fallen prey to the scheme, which the FBI refers to as FaceStealer, in the last 18 months, according to the bureau.\n\"The North Korean regime relies on proceeds from large-scale cryptocurrency theft to fund its illicit weapons program, stealing billions of dollars in recent years,\" says FBI cyber director Brett Leatherman.\nThis comes a week after the world's largest crypto exchange Binance revealed that hackers had used fake job interviews to steal a record $6.3bn (Â£4.7bn) from the company.\nUS law enforcement agencies attributed the Binance hack, thought to be the largest crypto hack to date, to North Korea-linked actors. Pyongyang has denied this claim.\nAuthorities say FaceStealer, the latest scheme, \"aggressively targets\" those who work in the cryptocurrency and web3 sectors, particularly those who are involved in the development and maintenance of open-source software.\nAccording to the FBI and US Justice Department, FaceStealer hackers use fake or hijacked social media accounts to invite potential victims into video calls hosted over \"imposter versions\" of Zoom, Microsoft Teams, and Google Meet.\nNext, the hackers play pre-recorded videos of previous victims the target is acquainted with to simulate a legitimate call â except that the audio would appear to malfunction.\nA message then pops up on the target's screen, asking them to \"fix\" the audio by clicking on a link. This \"fix\" would eventually download malware onto the target's device, which allows hackers to access their contact lists and apps, widening their pool of potential victims.\nHackers would secretly record these calls and use the recordings as material to scam their new victims, according to the US authorities.\nThe FBI has described FaceStealer as \"a highly effective social engineering scheme capable of deceiving even the most experienced technical and security conscious computer user\".\n\"It exploits our trust in ubiquitous video conference platforms and valued personal relationships,\" Patrick Grandy, assistant director in charge of the bureau's Los Angeles field office, said in a statement on Thursday.\n\"If you can't imagine a scenario where you might fall prey to it, you are not thinking creatively enough.\""
+    }
+  ],
+  "item_count": 1
+}

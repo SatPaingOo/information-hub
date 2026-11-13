@@ -1,7 +1,7 @@
 ---
 name: "Andy Burnham"
 entity_type: person
-backlink_count: 79
+backlink_count: 81
 ---
 
 # Andy Burnham
@@ -10,6 +10,8 @@ backlink_count: 79
 
 ## Referenced by
 
+- 2026-11-13 · [[2026-11-13-004-can-burnham-avoid-another-labour-welfare-rebellion]] — Can Burnham avoid another Labour welfare rebellion?
+- 2026-11-13 · [[2026-11-13-005-burnham-s-push-for-closer-eu-ties-causes-ripples-in-his]] — Burnham's push for closer EU ties causes ripples in his party and others
 - 2026-11-12 · [[2026-11-12-004-some-under-25s-should-get-less-benefits-milburn-review-to]] — Some under-25s should get less benefits, Milburn review to say
 - 2026-11-10 · [[2026-11-10-005-government-s-ev-targets-expected-to-be-reduced-this-week]] — Government's EV targets expected to be reduced this week
 - 2026-11-08 · [[2026-11-08-005-pm-tells-firms-to-publish-salaries-in-job-adverts-ahead-of]] — PM tells firms to publish salaries in job adverts ahead of new law

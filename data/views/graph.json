@@ -11119,6 +11119,92 @@
       "name": "LLM integration"
     },
     {
+      "id": "info:item:world:global:2026-11-13-001",
+      "type": "item",
+      "date": "2026-11-13",
+      "title": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy"
+    },
+    {
+      "id": "info:entity:person:Howard Lutnick",
+      "type": "person",
+      "name": "Howard Lutnick"
+    },
+    {
+      "id": "taxonomy/misc/Export controls",
+      "type": "taxonomy",
+      "name": "Export controls"
+    },
+    {
+      "id": "taxonomy/misc/Silicon Valley scandals",
+      "type": "taxonomy",
+      "name": "Silicon Valley scandals"
+    },
+    {
+      "id": "info:item:world:global:2026-11-13-002",
+      "type": "item",
+      "date": "2026-11-13",
+      "title": "Zelensky welcomes US bringing Europe into Russia-Ukraine peace talks"
+    },
+    {
+      "id": "info:item:politics:global:2026-11-13-004",
+      "type": "item",
+      "date": "2026-11-13",
+      "title": "Can Burnham avoid another Labour welfare rebellion?"
+    },
+    {
+      "id": "info:entity:concept:AI‑enabled welfare analytics",
+      "type": "concept",
+      "name": "AI‑enabled welfare analytics"
+    },
+    {
+      "id": "taxonomy/misc/welfare",
+      "type": "taxonomy",
+      "name": "welfare"
+    },
+    {
+      "id": "taxonomy/misc/Labour Party",
+      "type": "taxonomy",
+      "name": "Labour Party"
+    },
+    {
+      "id": "info:item:politics:global:2026-11-13-005",
+      "type": "item",
+      "date": "2026-11-13",
+      "title": "Burnham's push for closer EU ties causes ripples in his party and others"
+    },
+    {
+      "id": "info:item:products:global:2026-11-13-006",
+      "type": "item",
+      "date": "2026-11-13",
+      "title": "Toki Matter"
+    },
+    {
+      "id": "info:entity:product:Toki AI",
+      "type": "product",
+      "name": "Toki AI"
+    },
+    {
+      "id": "info:entity:concept:AI Agent",
+      "type": "concept",
+      "name": "AI Agent"
+    },
+    {
+      "id": "info:item:world:global:2026-11-13-007",
+      "type": "item",
+      "date": "2026-11-13",
+      "title": "North Korean hackers used fake video calls in $400m crypto hack, says FBI"
+    },
+    {
+      "id": "info:entity:organization:North Korean regime",
+      "type": "organization",
+      "name": "North Korean regime"
+    },
+    {
+      "id": "info:entity:concept:FaceStealer",
+      "type": "concept",
+      "name": "FaceStealer"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -49839,6 +49925,391 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-11-13-001",
+      "target": "info:entity:person:Jensen Huang",
+      "relation": "Former Nvidia CEO, central figure in the scandal"
+    },
+    {
+      "source": "info:item:world:global:2026-11-13-001",
+      "target": "info:entity:person:Alice Huang",
+      "relation": "Megaspeed executive, alleged Chinese spy link"
+    },
+    {
+      "source": "info:item:world:global:2026-11-13-001",
+      "target": "info:entity:company:Nvidia",
+      "relation": "Technology firm whose CEO resigned amid scandal"
+    },
+    {
+      "source": "info:item:world:global:2026-11-13-001",
+      "target": "info:entity:person:Howard Lutnick",
+      "relation": "U.S. Commerce Secretary, subpoenaed over export controls"
+    },
+    {
+      "source": "info:item:world:global:2026-11-13-001",
+      "target": "info:item:world:global:2026-11-12-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-13-001",
+      "target": "info:item:world:global:2026-11-12-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-13-001",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-13-001",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-13-001",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-13-001",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-13-001",
+      "target": "taxonomy/misc/AI governance",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-13-001",
+      "target": "taxonomy/misc/Export controls",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-13-001",
+      "target": "taxonomy/misc/Silicon Valley scandals",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-13-002",
+      "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "Ukrainian President advocating for EU involvement in peace talks"
+    },
+    {
+      "source": "info:item:world:global:2026-11-13-002",
+      "target": "info:entity:person:Jared Kushner",
+      "relation": "US envoy pledging EU inclusion in negotiations"
+    },
+    {
+      "source": "info:item:world:global:2026-11-13-002",
+      "target": "info:entity:person:Steve Witkoff",
+      "relation": "US envoy participating in peace‑talk outreach"
+    },
+    {
+      "source": "info:item:world:global:2026-11-13-002",
+      "target": "info:entity:organization:European Commission",
+      "relation": "EU governing body whose top diplomat commented on the talks"
+    },
+    {
+      "source": "info:item:world:global:2026-11-13-002",
+      "target": "info:entity:company:OpenAI",
+      "relation": "AI model provider referenced in editorial priorities on agentic AI"
+    },
+    {
+      "source": "info:item:world:global:2026-11-13-002",
+      "target": "info:entity:model:Gemini",
+      "relation": "LLM platform highlighted in editorial focus on AI and regulation"
+    },
+    {
+      "source": "info:item:world:global:2026-11-13-002",
+      "target": "info:entity:company:Anthropic",
+      "relation": "AI research organization noted in editorial priorities"
+    },
+    {
+      "source": "info:item:world:global:2026-11-13-002",
+      "target": "info:item:world:global:2026-11-13-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-13-002",
+      "target": "info:item:world:global:2026-11-12-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-13-002",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-13-002",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-13-002",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-13-002",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-13-002",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-13-002",
+      "target": "taxonomy/misc/EU",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-13-002",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-13-004",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "prime ministerial candidate"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-13-004",
+      "target": "info:entity:person:Alan Milburn",
+      "relation": "former cabinet minister, author of welfare review"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-13-004",
+      "target": "info:entity:organization:Department for Work and Pensions (DWP)",
+      "relation": "policy implementer"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-13-004",
+      "target": "info:entity:concept:AI‑enabled welfare analytics",
+      "relation": "policy tool"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-13-004",
+      "target": "info:item:politics:global:2026-11-12-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-13-004",
+      "target": "info:item:politics:global:2026-11-12-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-13-004",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-13-004",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-13-004",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-13-004",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-13-004",
+      "target": "taxonomy/misc/welfare",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-13-004",
+      "target": "taxonomy/misc/Labour Party",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-13-005",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "Labour leader advocating for closer EU ties"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-13-005",
+      "target": "info:entity:organization:European Union",
+      "relation": "target of Burnham's policy push"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-13-005",
+      "target": "info:entity:person:Shabana Mahmood",
+      "relation": "Home Secretary expressing caution about EU re-engagement"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-13-005",
+      "target": "info:entity:person:Jonathan Reynolds",
+      "relation": "Business and Trade Secretary supporting closer EU ties"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-13-005",
+      "target": "info:item:politics:global:2026-11-12-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-13-005",
+      "target": "info:item:politics:global:2026-11-12-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-13-005",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-13-005",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-13-005",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-13-005",
+      "target": "taxonomy/misc/regions",
+      "relation": "global"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-13-005",
+      "target": "taxonomy/misc/topics",
+      "relation": "politics, geopolitics"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-13-005",
+      "target": "taxonomy/misc/categories",
+      "relation": "policy"
+    },
+    {
+      "source": "info:item:products:global:2026-11-13-006",
+      "target": "info:entity:product:Toki AI",
+      "relation": "primary product featured on Product Hunt"
+    },
+    {
+      "source": "info:item:products:global:2026-11-13-006",
+      "target": "info:entity:company:OpenAI",
+      "relation": "mentioned in known entities as a reference point for LLM capabilities that Toki may build upon"
+    },
+    {
+      "source": "info:item:products:global:2026-11-13-006",
+      "target": "info:entity:concept:AI Agent",
+      "relation": "core architectural concept enabling autonomous task execution"
+    },
+    {
+      "source": "info:item:products:global:2026-11-13-006",
+      "target": "info:item:products:global:2026-11-11-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-11-13-006",
+      "target": "info:item:products:global:2026-11-09-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-11-13-006",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-11-13-006",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-11-13-006",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-11-13-006",
+      "target": "taxonomy/misc/regions",
+      "relation": "global"
+    },
+    {
+      "source": "info:item:products:global:2026-11-13-006",
+      "target": "taxonomy/misc/topics",
+      "relation": "products"
+    },
+    {
+      "source": "info:item:products:global:2026-11-13-006",
+      "target": "taxonomy/misc/categories",
+      "relation": "product"
+    },
+    {
+      "source": "info:item:world:global:2026-11-13-007",
+      "target": "info:entity:organization:North Korean regime",
+      "relation": "perpetrator of the FaceStealer scheme and funding source for illicit weapons programs"
+    },
+    {
+      "source": "info:item:world:global:2026-11-13-007",
+      "target": "info:entity:organization:FBI",
+      "relation": "attributing the FaceStealer scheme to North Korean hackers and leading the investigation"
+    },
+    {
+      "source": "info:item:world:global:2026-11-13-007",
+      "target": "info:entity:company:Binance",
+      "relation": "target of a previous $6.3 billion hack attributed to North Korea-linked actors"
+    },
+    {
+      "source": "info:item:world:global:2026-11-13-007",
+      "target": "info:entity:concept:FaceStealer",
+      "relation": "the name of the social engineering attack scheme used by North Korean hackers"
+    },
+    {
+      "source": "info:item:world:global:2026-11-13-007",
+      "target": "info:item:world:global:2026-11-13-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-13-007",
+      "target": "info:item:world:global:2026-11-12-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-13-007",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-13-007",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-13-007",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-13-007",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-13-007",
+      "target": "taxonomy/misc/regions",
+      "relation": "global"
+    },
+    {
+      "source": "info:item:world:global:2026-11-13-007",
+      "target": "taxonomy/misc/topics",
+      "relation": "world, geopolitics"
+    },
+    {
+      "source": "info:item:world:global:2026-11-13-007",
+      "target": "taxonomy/misc/categories",
+      "relation": "policy, industry"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -50168,7 +50639,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
-      "weight": "90"
+      "weight": "91"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -50384,7 +50855,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "39"
+      "weight": "40"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -50485,6 +50956,12 @@
     {
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:organization:Coatue",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:organization:European Commission",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -50652,6 +51129,12 @@
     },
     {
       "source": "info:entity:company:Anthropic",
+      "target": "info:entity:person:Jared Kushner",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
       "target": "info:entity:person:Jason Kwon",
       "relation": "co-occurs",
       "weight": "1"
@@ -50742,7 +51225,19 @@
     },
     {
       "source": "info:entity:company:Anthropic",
+      "target": "info:entity:person:Steve Witkoff",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
       "target": "info:entity:person:Tristan Buckmaster",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -51096,6 +51591,12 @@
     },
     {
       "source": "info:entity:company:Binance",
+      "target": "info:entity:concept:FaceStealer",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Binance",
       "target": "info:entity:organization:Chainalysis",
       "relation": "co-occurs",
       "weight": "1"
@@ -51104,13 +51605,19 @@
       "source": "info:entity:company:Binance",
       "target": "info:entity:organization:FBI",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:company:Binance",
       "target": "info:entity:organization:Lazarus Group",
       "relation": "co-occurs",
       "weight": "2"
+    },
+    {
+      "source": "info:entity:company:Binance",
+      "target": "info:entity:organization:North Korean regime",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:company:Binance",
@@ -52130,7 +52637,7 @@
       "source": "info:entity:company:Nvidia",
       "target": "info:entity:person:Alice Huang",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:company:Nvidia",
@@ -52158,9 +52665,15 @@
     },
     {
       "source": "info:entity:company:Nvidia",
+      "target": "info:entity:person:Howard Lutnick",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Nvidia",
       "target": "info:entity:person:Jensen Huang",
       "relation": "co-occurs",
-      "weight": "4"
+      "weight": "5"
     },
     {
       "source": "info:entity:company:Nvidia",
@@ -52231,6 +52744,12 @@
     {
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:company:Zhipu AI",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:concept:AI Agent",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -52430,7 +52949,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "69"
+      "weight": "70"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -52544,7 +53063,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:organization:European Commission",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -53028,6 +53547,12 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:person:Jared Kushner",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Jason Kwon",
       "relation": "co-occurs",
       "weight": "1"
@@ -53214,6 +53739,12 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:person:Steve Witkoff",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Tristan Buckmaster",
       "relation": "co-occurs",
       "weight": "2"
@@ -53228,7 +53759,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -53449,6 +53980,12 @@
     {
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:product:Testifly",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:product:Toki AI",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -54029,6 +54566,12 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:concept:AI Agent",
+      "target": "info:entity:product:Toki AI",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:concept:AI Biosecurity Lab",
       "target": "info:entity:organization:AI Security Institute (AISI)",
       "relation": "co-occurs",
@@ -54175,6 +54718,24 @@
     {
       "source": "info:entity:concept:AI‑enabled surveillance",
       "target": "info:entity:product:Vegemite",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:AI‑enabled welfare analytics",
+      "target": "info:entity:organization:Department for Work and Pensions (DWP)",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:AI‑enabled welfare analytics",
+      "target": "info:entity:person:Alan Milburn",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:AI‑enabled welfare analytics",
+      "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -54715,6 +55276,18 @@
     {
       "source": "info:entity:concept:Extremist ideology",
       "target": "info:entity:region:Karak governorate",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:FaceStealer",
+      "target": "info:entity:organization:FBI",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:FaceStealer",
+      "target": "info:entity:organization:North Korean regime",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -56540,7 +57113,7 @@
       "source": "info:entity:model:Gemini",
       "target": "info:entity:organization:European Commission",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:model:Gemini",
@@ -56822,7 +57395,7 @@
       "source": "info:entity:model:Gemini",
       "target": "info:entity:person:Jared Kushner",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:model:Gemini",
@@ -57014,7 +57587,7 @@
       "source": "info:entity:model:Gemini",
       "target": "info:entity:person:Steve Witkoff",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:model:Gemini",
@@ -57026,7 +57599,7 @@
       "source": "info:entity:model:Gemini",
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
-      "weight": "6"
+      "weight": "7"
     },
     {
       "source": "info:entity:model:Gemini",
@@ -59118,9 +59691,15 @@
     },
     {
       "source": "info:entity:organization:Department for Work and Pensions (DWP)",
-      "target": "info:entity:person:Andy Burnham",
+      "target": "info:entity:person:Alan Milburn",
       "relation": "co-occurs",
       "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Department for Work and Pensions (DWP)",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "co-occurs",
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Department for Work and Pensions (DWP)",
@@ -59372,7 +59951,7 @@
       "source": "info:entity:organization:European Commission",
       "target": "info:entity:person:Jared Kushner",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:European Commission",
@@ -59394,6 +59973,12 @@
     },
     {
       "source": "info:entity:organization:European Commission",
+      "target": "info:entity:person:Steve Witkoff",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:European Commission",
       "target": "info:entity:person:Ursula von der Leyen",
       "relation": "co-occurs",
       "weight": "1"
@@ -59408,7 +59993,7 @@
       "source": "info:entity:organization:European Commission",
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:European Green Party",
@@ -59492,7 +60077,7 @@
       "source": "info:entity:organization:European Union",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
-      "weight": "4"
+      "weight": "5"
     },
     {
       "source": "info:entity:organization:European Union",
@@ -59527,6 +60112,12 @@
     {
       "source": "info:entity:organization:European Union",
       "target": "info:entity:person:Friedrich Merz",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:European Union",
+      "target": "info:entity:person:Jonathan Reynolds",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -59575,6 +60166,12 @@
     {
       "source": "info:entity:organization:European Union",
       "target": "info:entity:person:Rishi Sunak",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:European Union",
+      "target": "info:entity:person:Shabana Mahmood",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -59629,6 +60226,12 @@
     {
       "source": "info:entity:organization:FBI",
       "target": "info:entity:organization:Lebanese General Directorate of General Security",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:FBI",
+      "target": "info:entity:organization:North Korean regime",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -64778,7 +65381,7 @@
       "source": "info:entity:person:Alan Milburn",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:person:Alan Milburn",
@@ -64836,9 +65439,15 @@
     },
     {
       "source": "info:entity:person:Alice Huang",
-      "target": "info:entity:person:Jensen Huang",
+      "target": "info:entity:person:Howard Lutnick",
       "relation": "co-occurs",
       "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Alice Huang",
+      "target": "info:entity:person:Jensen Huang",
+      "relation": "co-occurs",
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Alice Weidel",
@@ -64998,6 +65607,12 @@
     },
     {
       "source": "info:entity:person:Andy Burnham",
+      "target": "info:entity:person:Jonathan Reynolds",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Andy Burnham",
       "target": "info:entity:person:Katie Lam",
       "relation": "co-occurs",
       "weight": "1"
@@ -65120,7 +65735,7 @@
       "source": "info:entity:person:Andy Burnham",
       "target": "info:entity:person:Shabana Mahmood",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:person:Andy Burnham",
@@ -66737,6 +67352,12 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:person:Howard Lutnick",
+      "target": "info:entity:person:Jensen Huang",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:person:Iain Dale",
       "target": "info:entity:person:Wes Streeting",
       "relation": "co-occurs",
@@ -66884,7 +67505,7 @@
       "source": "info:entity:person:Jared Kushner",
       "target": "info:entity:person:Steve Witkoff",
       "relation": "co-occurs",
-      "weight": "4"
+      "weight": "5"
     },
     {
       "source": "info:entity:person:Jared Kushner",
@@ -66896,7 +67517,7 @@
       "source": "info:entity:person:Jared Kushner",
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
-      "weight": "6"
+      "weight": "7"
     },
     {
       "source": "info:entity:person:Javier Milei",
@@ -67081,6 +67702,12 @@
     {
       "source": "info:entity:person:Jonathan Powell",
       "target": "info:entity:person:Sarah Helm",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Jonathan Reynolds",
+      "target": "info:entity:person:Shabana Mahmood",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -67748,7 +68375,7 @@
       "source": "info:entity:person:Steve Witkoff",
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
-      "weight": "7"
+      "weight": "8"
     },
     {
       "source": "info:entity:person:Steve Witkoff",

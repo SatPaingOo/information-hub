@@ -1,7 +1,7 @@
 ---
 name: "Department for Work and Pensions (DWP)"
 entity_type: organization
-backlink_count: 1
+backlink_count: 2
 ---
 
 # Department for Work and Pensions (DWP)
@@ -10,4 +10,5 @@ backlink_count: 1
 
 ## Referenced by
 
+- 2026-11-13 · [[2026-11-13-004-can-burnham-avoid-another-labour-welfare-rebellion]] — Can Burnham avoid another Labour welfare rebellion?
 - 2026-10-18 · [[2026-10-18-004-burnham-invites-swinney-to-work-together-on-deeper]] — Burnham invites Swinney to work together on 'deeper Scottish devolution'

@@ -1,7 +1,7 @@
 ---
 name: "Steve Witkoff"
 entity_type: person
-backlink_count: 8
+backlink_count: 9
 ---
 
 # Steve Witkoff
@@ -10,6 +10,7 @@ backlink_count: 8
 
 ## Referenced by
 
+- 2026-11-13 · [[2026-11-13-002-zelensky-welcomes-us-bringing-europe-into-russia-ukraine]] — Zelensky welcomes US bringing Europe into Russia-Ukraine peace talks
 - 2026-10-28 · [[2026-10-28-001-norway-and-finland-leaders-hold-rare-call-with-putin]] — Norway and Finland leaders hold rare call with Putin
 - 2026-10-22 · [[2026-10-22-001-missiles-hit-kyiv-after-russia-agrees-to-us-call-to-resume]] — Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks
 - 2026-10-22 · [[2026-10-22-002-rosenberg-us-diplomatic-push-offers-little-hope-for]] — Rosenberg: US diplomatic push offers little hope for imminent Ukraine peace

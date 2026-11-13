@@ -1,7 +1,7 @@
 ---
 node: "politics"
 layer: topic
-item_count: 207
+item_count: 209
 ---
 
 # politics
@@ -17,6 +17,8 @@ item_count: 207
 
 ## Items
 
+- 2026-11-13 · [[2026-11-13-004-can-burnham-avoid-another-labour-welfare-rebellion]] — Can Burnham avoid another Labour welfare rebellion?
+- 2026-11-13 · [[2026-11-13-005-burnham-s-push-for-closer-eu-ties-causes-ripples-in-his]] — Burnham's push for closer EU ties causes ripples in his party and others
 - 2026-11-12 · [[2026-11-12-004-some-under-25s-should-get-less-benefits-milburn-review-to]] — Some under-25s should get less benefits, Milburn review to say
 - 2026-11-12 · [[2026-11-12-005-acquitted-china-spy-tells-bbc-i-was-fall-guy-for-security]] — Acquitted 'China spy' tells BBC: I was fall guy for security services but also naive
 - 2026-11-12 · [[2026-11-12-005-acquitted-china-spy-tells-bbc-i-was-fall-guy-for-security]] — Acquitted 'China spy' tells BBC: I was fall guy for security services but also naive

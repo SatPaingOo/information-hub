@@ -1,7 +1,7 @@
 ---
 name: "Jensen Huang"
 entity_type: person
-backlink_count: 5
+backlink_count: 6
 ---
 
 # Jensen Huang
@@ -10,6 +10,7 @@ backlink_count: 5
 
 ## Referenced by
 
+- 2026-11-13 · [[2026-11-13-001-ex-nvidia-ceo-jensen-huang-summoned-to-testify-before]] — Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy
 - 2026-11-10 · [[2026-11-10-001-trump-says-fbi-investigating-nvidia-boss-s-affair-with]] — Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy
 - 2026-11-10 · [[2026-11-10-006-nvidia-shares-tumble-over-investigation-into-huang-s]] — Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy
 - 2026-09-19 · [[2026-09-19-008-google-s-gemini-ai-hacked-three-companies-in-security-test]] — Google's Gemini AI hacked three companies in security test
