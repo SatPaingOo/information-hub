@@ -1,0 +1,45 @@
+2026-11-14 01:42:43,369 ERROR [world-news] generate error: bad response: Expecting property name enclosed in double quotes: line 26 column 7 (char 2406)
+2026-11-14 01:42:51,129 INFO [world-news] attempt 2 invalid: [": 'tags' is a required property", ": 'related_items' is a required property"]
+2026-11-14 01:42:51,204 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7997, Requested 7212. Please try again in 54.067499999s. Need more tokens? Upgrade to Dev Tier today at https
+2026-11-14 01:43:00,433 ERROR [world-news] generate error: HTTP 404: {"error":{"message":"poolside/laguna-xs-2.1:free is no longer available on OpenRouter: no provider serves this model anymore. See available models at https://openrouter.ai/models","code":404},"user_id":"user_2mqLaYz9PPTm2loHhHg0PQ896kb"}
+2026-11-14 01:43:51,948 ERROR [world-news] generate error: bad response: Unterminated string starting at: line 1 column 7248 (char 7247)
+2026-11-14 01:44:13,731 INFO [world-news] published 2026-11-14-002 — Microsoft 'deeply sorry' for global outage after almost 24 h
+2026-11-14 01:44:29,102 INFO [world-news] published 2026-11-14-003 — Why is Microsoft's outage lasting so long and will emails be
+2026-11-14 01:44:32,311 INFO [tech-news] nothing selected
+2026-11-14 01:45:01,653 ERROR [politics] generate error: bad response: Expecting property name enclosed in double quotes: line 6 column 3 (char 151)
+2026-11-14 01:45:09,566 INFO [politics] attempt 2 invalid: [": 'key_facts' is a required property", ": 'implications' is a required property"]
+2026-11-14 01:45:09,624 ERROR [politics] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7996, Requested 7656. Please try again in 57.39s. Need more tokens? Upgrade to Dev Tier today at https://cons
+2026-11-14 01:45:30,324 ERROR [politics] generate error: empty model content
+2026-11-14 01:45:46,714 ERROR [politics] generate error: bad response: Expecting property name enclosed in double quotes: line 21 column 7 (char 1666)
+2026-11-14 01:45:52,779 ERROR [politics] generate error: HTTP 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Requested 9438, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https
+2026-11-14 01:46:02,734 ERROR [products] select failed: HTTP 404: {"error":{"message":"This model is unavailable for free. The paid version is available now - use this slug instead: nvidia/nemotron-3-super-120b-a12b","code":404},"user_id":"user_2mqLaYz9PPTm2loHhHg0PQ896kb"}
+2026-11-14 01:46:02,790 INFO [products] model returned no selection — using heuristic fallback (2)
+2026-11-14 01:48:47,944 ERROR [products] generate error: bad response: Unterminated string starting at: line 22 column 18 (char 1316)
+2026-11-14 01:49:07,081 ERROR [products] generate error: bad response: Expecting property name enclosed in double quotes: line 101 column 3 (char 7933)
+2026-11-14 01:49:14,054 ERROR [products] generate error: HTTP 400: {"error":{"message":"Provider returned error","code":400,"metadata":{"raw":"{\"code\":400,\"msg\":\"bad request\",\"request_id\":\"689de81c-75fc-4141-8d5b-d265a0145b0c\"}","provider_name":"AtlasCloud","is_byok":false}},"user_id":"user_2mqLaYz9PPTm2loHhHg0PQ896kb"}
+2026-11-14 01:50:05,843 ERROR [products] generate error: empty model content
+2026-11-14 01:50:08,886 ERROR [products] generate error: HTTP 404: {"error":{"message":"poolside/laguna-s-2.1:free is no longer available on OpenRouter: no provider serves this model anymore. See available models at https://openrouter.ai/models","code":404},"user_id":"user_2mqLaYz9PPTm2loHhHg0PQ896kb"}
+2026-11-14 01:50:17,682 INFO [products] attempt 3 invalid: [": 'title' is a required property", ": 'tldr' is a required property"]
+2026-11-14 01:50:18,425 INFO collect done: 2 item(s) published — target 8/10, next run ≈ 2026-11-14T02:05:18+00:00 UTC
+2026-11-14 01:50:19,226 ERROR [world-news] select failed: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7767, Requested 1409. Please try again in 8.82s. Need more tokens? Upgrade to Dev Tier today at https://consol
+2026-11-14 01:50:19,292 INFO [world-news] model returned no selection — using heuristic fallback (3)
+2026-11-14 01:50:22,567 WARNING [world-news] no collect provider for deep-dive
+2026-11-14 01:50:26,423 WARNING [world-news] no collect provider for deep-dive
+2026-11-14 01:50:53,919 WARNING [world-news] no collect provider for deep-dive
+2026-11-14 01:50:55,525 INFO [tech-news] nothing selected
+2026-11-14 01:50:57,156 INFO [politics] model returned no selection — using heuristic fallback (2)
+2026-11-14 01:50:57,571 ERROR [politics] generate error: HTTP 413: {"error":{"message":"Request too large for model `openai/gpt-oss-20b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Requested 9313, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https:
+2026-11-14 01:51:11,032 WARNING [politics] no collect provider for deep-dive
+2026-11-14 01:51:27,819 INFO [politics] attempt 1 invalid: [": 'categories' is a required property", ": 'title' is a required property"]
+2026-11-14 01:51:52,773 INFO [politics] published 2026-11-14-008 — Firm offers to fake artworks for wealthy migrants seeking UK
+2026-11-14 01:52:23,160 INFO [products] published 2026-11-14-009 — Filament by Galaxy: Open-Source Data Movement for Terminal a
+2026-11-14 01:56:10,981 ERROR [products] generate error: empty model content
+2026-11-14 01:56:19,936 WARNING [products] no collect provider for deep-dive
+2026-11-14 01:56:20,721 INFO collect done: 2 item(s) published — target 6/10, next run ≈ 2026-11-14T02:04:10+00:00 UTC
+2026-11-14 01:56:59,722 INFO [world-news] published 2026-11-14-010 — Microsoft Teams and Outlook outage: server stress exposes th
+2026-11-14 01:56:59,825 WARNING [world-news] no collect provider for deep-dive
+2026-11-14 01:56:59,938 WARNING [world-news] no collect provider for deep-dive
+2026-11-14 01:57:00,286 WARNING [tech-news] no collect provider available
+2026-11-14 01:57:00,563 WARNING [politics] no collect provider available
+2026-11-14 01:57:01,405 WARNING [products] no collect provider available
+2026-11-14 01:57:02,156 INFO collect done: 1 item(s) published — target 5/10, next run ≈ 2026-11-15T01:00:00+00:00 UTC

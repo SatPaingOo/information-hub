@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T06:32:09+00:00",
+  "generated_at": "2026-11-14T01:57:32+00:00",
   "per_day_provider_model": {
     "2026-08-17": {
       "groq": {
@@ -4058,6 +4058,74 @@
           "tokens": 0
         }
       }
+    },
+    "2026-11-14": {
+      "openrouter": {
+        "cohere/north-mini-code:free": {
+          "calls": 9,
+          "ok": 5,
+          "errors": 4,
+          "tokens": 22749
+        },
+        "poolside/laguna-xs-2.1:free": {
+          "calls": 1,
+          "ok": 0,
+          "errors": 1,
+          "tokens": 0
+        },
+        "dots-studio/dots-3-note-preview:free": {
+          "calls": 3,
+          "ok": 0,
+          "errors": 3,
+          "tokens": 0
+        },
+        "nvidia/nemotron-3-super-120b-a12b:free": {
+          "calls": 1,
+          "ok": 0,
+          "errors": 1,
+          "tokens": 0
+        },
+        "openrouter/free": {
+          "calls": 9,
+          "ok": 6,
+          "errors": 3,
+          "tokens": 43317
+        },
+        "poolside/laguna-s-2.1:free": {
+          "calls": 1,
+          "ok": 0,
+          "errors": 1,
+          "tokens": 0
+        }
+      },
+      "groq": {
+        "openai/gpt-oss-120b": {
+          "calls": 5,
+          "ok": 2,
+          "errors": 3,
+          "tokens": 18183
+        },
+        "openai/gpt-oss-20b": {
+          "calls": 5,
+          "ok": 3,
+          "errors": 2,
+          "tokens": 10414
+        }
+      },
+      "gemini": {
+        "gemini-3.5-flash-lite": {
+          "calls": 1,
+          "ok": 0,
+          "errors": 1,
+          "tokens": 0
+        },
+        "gemini-3.5-flash": {
+          "calls": 1,
+          "ok": 0,
+          "errors": 1,
+          "tokens": 0
+        }
+      }
     }
   },
   "errors_by_day": {
@@ -4454,6 +4522,13 @@
       "network": 5,
       "HTTP 429": 5,
       "HTTP 413": 1,
+      "HTTP 400": 1
+    },
+    "2026-11-14": {
+      "network": 9,
+      "HTTP 429": 5,
+      "HTTP 404": 3,
+      "HTTP 413": 2,
       "HTTP 400": 1
     }
   }

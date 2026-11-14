@@ -1,7 +1,7 @@
 ---
 node: "world"
 layer: topic
-item_count: 356
+item_count: 359
 ---
 
 # world
@@ -17,6 +17,9 @@ item_count: 356
 
 ## Items
 
+- 2026-11-14 · [[2026-11-14-002-microsoft-deeply-sorry-for-global-outage-after-almost-24]] — Microsoft 'deeply sorry' for global outage after almost 24 hours of disruption
+- 2026-11-14 · [[2026-11-14-003-why-is-microsoft-s-outage-lasting-so-long-and-will-emails]] — Why is Microsoft's outage lasting so long and will emails be lost?
+- 2026-11-14 · [[2026-11-14-010-microsoft-teams-and-outlook-outage-server-stress-exposes]] — Microsoft Teams and Outlook outage: server stress exposes the fragility of the AI-era productivity stack
 - 2026-11-13 · [[2026-11-13-001-ex-nvidia-ceo-jensen-huang-summoned-to-testify-before]] — Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy
 - 2026-11-13 · [[2026-11-13-002-zelensky-welcomes-us-bringing-europe-into-russia-ukraine]] — Zelensky welcomes US bringing Europe into Russia-Ukraine peace talks
 - 2026-11-13 · [[2026-11-13-007-north-korean-hackers-used-fake-video-calls-in-400m-crypto]] — North Korean hackers used fake video calls in $400m crypto hack, says FBI

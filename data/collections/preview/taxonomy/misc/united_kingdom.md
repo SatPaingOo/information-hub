@@ -1,7 +1,7 @@
 ---
 node: "United Kingdom"
 layer: misc
-item_count: 4
+item_count: 5
 ---
 
 # United Kingdom
@@ -15,6 +15,7 @@ item_count: 4
 
 ## Items
 
+- 2026-11-14 · [[2026-11-14-008-firm-offers-to-fake-artworks-for-wealthy-migrants-seeking]] — Firm offers to fake artworks for wealthy migrants seeking UK 'talent' visas - BBC investigation
 - 2026-11-08 · [[2026-11-08-006-uk-cannot-cherry-pick-eu-single-market-deal-barnier-tells]] — UK cannot 'cherry pick' EU single market deal, Barnier tells BBC
 - 2026-10-31 · [[2026-10-31-005-no-nation-left-behind-says-burnham-after-meeting-first]] — 'No nation left behind' says Burnham after meeting first ministers in Glasgow
 - 2026-09-22 · [[2026-09-22-005-manchester-to-host-world-leaders-at-g20-summit-in-2027]] — Manchester to host world leaders at G20 summit in 2027

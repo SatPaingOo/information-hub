@@ -1,7 +1,7 @@
 ---
 node: "Regulation"
 layer: misc
-item_count: 50
+item_count: 52
 ---
 
 # Regulation
@@ -17,6 +17,8 @@ item_count: 50
 
 ## Items
 
+- 2026-11-14 · [[2026-11-14-008-firm-offers-to-fake-artworks-for-wealthy-migrants-seeking]] — Firm offers to fake artworks for wealthy migrants seeking UK 'talent' visas - BBC investigation
+- 2026-11-14 · [[2026-11-14-010-microsoft-teams-and-outlook-outage-server-stress-exposes]] — Microsoft Teams and Outlook outage: server stress exposes the fragility of the AI-era productivity stack
 - 2026-11-07 · [[2026-11-07-005-alysis-code]] — Alysis Code
 - 2026-11-07 · [[2026-11-07-006-rankfender-v3-0]] — Rankfender v3.0
 - 2026-11-07 · [[2026-11-07-008-new-wave-of-bomb-threats-hit-european-airlines]] — New wave of bomb threats hit European airlines

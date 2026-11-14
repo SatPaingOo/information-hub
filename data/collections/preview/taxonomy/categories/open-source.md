@@ -1,7 +1,7 @@
 ---
 node: "open-source"
 layer: category
-item_count: 43
+item_count: 44
 ---
 
 # open-source
@@ -20,6 +20,7 @@ item_count: 43
 
 ## Items
 
+- 2026-11-14 · [[2026-11-14-009-filament-by-galaxy-open-source-data-movement-for-terminal]] — Filament by Galaxy: Open-Source Data Movement for Terminal and Agentic Workflows
 - 2026-11-07 · [[2026-11-07-005-alysis-code]] — Alysis Code
 - 2026-11-03 · [[2026-11-03-007-looper]] — Looper
 - 2026-11-02 · [[2026-11-02-006-agentmash]] — agentmash

@@ -1,7 +1,7 @@
 ---
 name: "OpenAI"
 entity_type: company
-backlink_count: 195
+backlink_count: 197
 ---
 
 # OpenAI
@@ -10,6 +10,8 @@ backlink_count: 195
 
 ## Referenced by
 
+- 2026-11-14 · [[2026-11-14-003-why-is-microsoft-s-outage-lasting-so-long-and-will-emails]] — Why is Microsoft's outage lasting so long and will emails be lost?
+- 2026-11-14 · [[2026-11-14-010-microsoft-teams-and-outlook-outage-server-stress-exposes]] — Microsoft Teams and Outlook outage: server stress exposes the fragility of the AI-era productivity stack
 - 2026-11-13 · [[2026-11-13-002-zelensky-welcomes-us-bringing-europe-into-russia-ukraine]] — Zelensky welcomes US bringing Europe into Russia-Ukraine peace talks
 - 2026-11-13 · [[2026-11-13-006-toki-matter]] — Toki Matter
 - 2026-11-12 · [[2026-11-12-002-democrat-scott-colom-seals-historic-win-in-mississippi]] — Democrat Scott Colom seals historic win in Mississippi Senate race

@@ -1,5 +1,206 @@
 [
   {
+    "id": "info:item:world:global:2026-11-14-002",
+    "key": "2026-11-14-002",
+    "date": "2026-11-14",
+    "collection": "world-news",
+    "content_type": "digest",
+    "topic": "world",
+    "region": "global",
+    "categories": [
+      "policy",
+      "industry"
+    ],
+    "title": "Microsoft 'deeply sorry' for global outage after almost 24 hours of disruption",
+    "tldr": "Microsoft issued a public apology after a technical glitch during a network upgrade knocked out Outlook, Teams and other essential services for roughly 24 hours, impacting over 70 countries and more than 430 million users. The incident highlighted the fragile dependence of governments, hospitals, schools and businesses on a handful of cloud providers, prompting fresh debate over infrastructure resilience and regulatory oversight.",
+    "source": "feeds.bbci.co.uk",
+    "source_url": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
+    "entities": [
+      "Microsoft",
+      "European Commission"
+    ],
+    "tags": [
+      "outage",
+      "cloud services",
+      "dependency",
+      "policy",
+      "infrastructure resilience"
+    ],
+    "word_count": 671,
+    "provider": "openrouter",
+    "model": "cohere/north-mini-code:free",
+    "verify": "lexical",
+    "file": "collections/data-set/2026-11-14-002-microsoft-deeply-sorry-for-global-outage-after-almost-24.json"
+  },
+  {
+    "id": "info:item:world:global:2026-11-14-003",
+    "key": "2026-11-14-003",
+    "date": "2026-11-14",
+    "collection": "world-news",
+    "content_type": "digest",
+    "topic": "world",
+    "region": "global",
+    "categories": [
+      "policy",
+      "industry"
+    ],
+    "title": "Why is Microsoft's outage lasting so long and will emails be lost?",
+    "tldr": "Microsoft’s global outage, now over 20 hours, is a technical capacity‑upgrade failure that threatens email delivery and critical services. The incident highlights the fragility of cloud‑based communications and raises concerns about regulatory oversight of digital infrastructure.",
+    "source": "feeds.bbci.co.uk",
+    "source_url": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss",
+    "entities": [
+      "Microsoft",
+      "OpenAI",
+      "Gemini",
+      "Anthropic"
+    ],
+    "tags": [
+      "agentic AI",
+      "LLM",
+      "Myanmar",
+      "OpenAI",
+      "Gemini",
+      "Anthropic",
+      "regulation",
+      "open-source",
+      "cloud outage",
+      "Microsoft 365"
+    ],
+    "word_count": 592,
+    "provider": "openrouter",
+    "model": "cohere/north-mini-code:free",
+    "verify": "lexical",
+    "file": "collections/data-set/2026-11-14-003-why-is-microsoft-s-outage-lasting-so-long-and-will-emails.json"
+  },
+  {
+    "id": "info:item:politics:global:2026-11-14-008",
+    "key": "2026-11-14-008",
+    "date": "2026-11-14",
+    "collection": "politics",
+    "content_type": "digest",
+    "topic": "politics",
+    "region": "global",
+    "categories": [
+      "policy"
+    ],
+    "title": "Firm offers to fake artworks for wealthy migrants seeking UK 'talent' visas - BBC investigation",
+    "tldr": "A BBC undercover investigation found London-based consultancies selling 'fully inclusive' packages of fabricated evidence — including artworks produced in China, staged exhibitions and planted newspaper reviews — to wealthy migrants applying for the UK's Global Talent visa. The Home Office has begun revoking visas obtained by deception and says the route is already under review, exposing a structural integrity problem in a scheme the government otherwise champions.",
+    "source": "feeds.bbci.co.uk",
+    "source_url": "https://www.bbc.co.uk/news/articles/cmkgdw24l1kdo?at_medium=RSS&at_campaign=rss",
+    "entities": [
+      "Home Office",
+      "BBC",
+      "Arts Council England",
+      "iCareer Consultancy UK",
+      "ADArt Global Ltd",
+      "Shilong Guan",
+      "Molara Wood",
+      "Harjap Singh Bhangal",
+      "Shabana Mahmood",
+      "Labour Party",
+      "AI-generated synthetic media",
+      "China"
+    ],
+    "tags": [
+      "immigration",
+      "Global Talent visa",
+      "fraud",
+      "Home Office",
+      "Arts Council England",
+      "United Kingdom",
+      "visa policy",
+      "undercover investigation",
+      "synthetic media",
+      "regulation"
+    ],
+    "word_count": 1182,
+    "provider": "openrouter",
+    "model": "openrouter/free",
+    "verify": "lexical",
+    "file": "collections/data-set/2026-11-14-008-firm-offers-to-fake-artworks-for-wealthy-migrants-seeking.json"
+  },
+  {
+    "id": "info:item:products:global:2026-11-14-009",
+    "key": "2026-11-14-009",
+    "date": "2026-11-14",
+    "collection": "products",
+    "content_type": "article",
+    "topic": "products",
+    "region": "global",
+    "categories": [
+      "product"
+    ],
+    "title": "Filament by Galaxy: Open-Source Data Movement for Terminal and Agentic Workflows",
+    "tldr": "Galaxy has launched Filament, an open-source data movement tool designed to be operated from a terminal or an AI agent. The product bets that developers and agentic systems need a faster, more composable way to move data than traditional ETL/ELT interfaces provide. Its Product Hunt debut signals a broader shift toward CLI-first, agent-accessible data infrastructure.",
+    "source": "producthunt.com",
+    "source_url": "https://www.producthunt.com/products/galaxy",
+    "entities": [
+      "Galaxy",
+      "Filament",
+      "Agentic AI",
+      "Open-source software",
+      "Product Hunt",
+      "LLM"
+    ],
+    "tags": [
+      "Filament",
+      "Galaxy",
+      "Product Hunt",
+      "data movement",
+      "open source",
+      "agentic AI",
+      "developer tools",
+      "CLI",
+      "data infrastructure",
+      "ETL"
+    ],
+    "word_count": 1089,
+    "provider": "openrouter",
+    "model": "openrouter/free",
+    "verify": "lexical",
+    "file": "collections/data-set/2026-11-14-009-filament-by-galaxy-open-source-data-movement-for-terminal.json"
+  },
+  {
+    "id": "info:item:world:global:2026-11-14-010",
+    "key": "2026-11-14-010",
+    "date": "2026-11-14",
+    "collection": "world-news",
+    "content_type": "digest",
+    "topic": "world",
+    "region": "global",
+    "categories": [
+      "policy",
+      "industry"
+    ],
+    "title": "Microsoft Teams and Outlook outage: server stress exposes the fragility of the AI-era productivity stack",
+    "tldr": "A Microsoft outage disrupted Teams, Outlook and the Copilot AI assistant, with the company attributing the failure to higher-than-usual stress on its servers and reporting 'early signs of stabilisation' as remediation continued. The incident is a reminder that the productivity and AI tooling a large share of the global workforce depends on runs on a small number of shared cloud backends, and that resilience is now a policy question as much as an engineering one.",
+    "source": "feeds.bbci.co.uk",
+    "source_url": "https://www.bbc.co.uk/news/videos/cqzjr903n01po?at_medium=RSS&at_campaign=rss",
+    "entities": [
+      "Microsoft",
+      "Copilot",
+      "Teams",
+      "Outlook",
+      "OpenAI",
+      "BBC"
+    ],
+    "tags": [
+      "microsoft",
+      "outage",
+      "cloud-infrastructure",
+      "copilot",
+      "agentic-ai",
+      "resilience",
+      "regulation",
+      "critical-infrastructure"
+    ],
+    "word_count": 995,
+    "provider": "openrouter",
+    "model": "openrouter/free",
+    "verify": "lexical",
+    "file": "collections/data-set/2026-11-14-010-microsoft-teams-and-outlook-outage-server-stress-exposes.json"
+  },
+  {
     "id": "info:item:world:global:2026-11-13-001",
     "key": "2026-11-13-001",
     "date": "2026-11-13",

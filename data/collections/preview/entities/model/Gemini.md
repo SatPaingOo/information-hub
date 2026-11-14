@@ -1,7 +1,7 @@
 ---
 name: "Gemini"
 entity_type: model
-backlink_count: 99
+backlink_count: 100
 ---
 
 # Gemini
@@ -10,6 +10,7 @@ backlink_count: 99
 
 ## Referenced by
 
+- 2026-11-14 · [[2026-11-14-003-why-is-microsoft-s-outage-lasting-so-long-and-will-emails]] — Why is Microsoft's outage lasting so long and will emails be lost?
 - 2026-11-13 · [[2026-11-13-002-zelensky-welcomes-us-bringing-europe-into-russia-ukraine]] — Zelensky welcomes US bringing Europe into Russia-Ukraine peace talks
 - 2026-11-12 · [[2026-11-12-002-democrat-scott-colom-seals-historic-win-in-mississippi]] — Democrat Scott Colom seals historic win in Mississippi Senate race
 - 2026-11-12 · [[2026-11-12-003-russia-ukraine-talks-turn-to-post-war-security-but-end]] — Russia-Ukraine talks turn to post-war security but end without breakthrough

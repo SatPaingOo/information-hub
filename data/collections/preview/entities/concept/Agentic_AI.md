@@ -1,7 +1,7 @@
 ---
 name: "Agentic AI"
 entity_type: concept
-backlink_count: 38
+backlink_count: 39
 ---
 
 # Agentic AI
@@ -10,6 +10,7 @@ backlink_count: 38
 
 ## Referenced by
 
+- 2026-11-14 · [[2026-11-14-009-filament-by-galaxy-open-source-data-movement-for-terminal]] — Filament by Galaxy: Open-Source Data Movement for Terminal and Agentic Workflows
 - 2026-11-11 · [[2026-11-11-006-sidekick-by-open]] — SideKick By Open
 - 2026-10-29 · [[2026-10-29-001-high-speed-train-crash-kills-at-least-68-people-in-spain]] — High-speed train crash kills at least 68 people in Spain
 - 2026-10-28 · [[2026-10-28-006-pulsedev-ai-powered-local-ui-bug-fixing]] — PulseDev: AI‑Powered Local UI Bug Fixing

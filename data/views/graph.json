@@ -11205,6 +11205,116 @@
       "name": "FaceStealer"
     },
     {
+      "id": "info:item:world:global:2026-11-14-002",
+      "type": "item",
+      "date": "2026-11-14",
+      "title": "Microsoft 'deeply sorry' for global outage after almost 24 hours of disruption"
+    },
+    {
+      "id": "info:item:world:global:2026-11-14-003",
+      "type": "item",
+      "date": "2026-11-14",
+      "title": "Why is Microsoft's outage lasting so long and will emails be lost?"
+    },
+    {
+      "id": "info:item:politics:global:2026-11-14-008",
+      "type": "item",
+      "date": "2026-11-14",
+      "title": "Firm offers to fake artworks for wealthy migrants seeking UK 'talent' visas - BBC investigation"
+    },
+    {
+      "id": "info:entity:organization:Arts Council England",
+      "type": "organization",
+      "name": "Arts Council England"
+    },
+    {
+      "id": "info:entity:company:iCareer Consultancy UK",
+      "type": "company",
+      "name": "iCareer Consultancy UK"
+    },
+    {
+      "id": "info:entity:company:ADArt Global Ltd",
+      "type": "company",
+      "name": "ADArt Global Ltd"
+    },
+    {
+      "id": "info:entity:person:Shilong Guan",
+      "type": "person",
+      "name": "Shilong Guan"
+    },
+    {
+      "id": "info:entity:person:Molara Wood",
+      "type": "person",
+      "name": "Molara Wood"
+    },
+    {
+      "id": "info:entity:person:Harjap Singh Bhangal",
+      "type": "person",
+      "name": "Harjap Singh Bhangal"
+    },
+    {
+      "id": "info:entity:concept:AI-generated synthetic media",
+      "type": "concept",
+      "name": "AI-generated synthetic media"
+    },
+    {
+      "id": "taxonomy/misc/Immigration & Border Policy",
+      "type": "taxonomy",
+      "name": "Immigration & Border Policy"
+    },
+    {
+      "id": "info:item:products:global:2026-11-14-009",
+      "type": "item",
+      "date": "2026-11-14",
+      "title": "Filament by Galaxy: Open-Source Data Movement for Terminal and Agentic Workflows"
+    },
+    {
+      "id": "info:entity:company:Galaxy",
+      "type": "company",
+      "name": "Galaxy"
+    },
+    {
+      "id": "info:entity:product:Filament",
+      "type": "product",
+      "name": "Filament"
+    },
+    {
+      "id": "info:entity:concept:Open-source software",
+      "type": "concept",
+      "name": "Open-source software"
+    },
+    {
+      "id": "info:entity:organization:Product Hunt",
+      "type": "organization",
+      "name": "Product Hunt"
+    },
+    {
+      "id": "info:item:world:global:2026-11-14-010",
+      "type": "item",
+      "date": "2026-11-14",
+      "title": "Microsoft Teams and Outlook outage: server stress exposes the fragility of the AI-era productivity stack"
+    },
+    {
+      "id": "info:entity:product:Copilot",
+      "type": "product",
+      "name": "Copilot"
+    },
+    {
+      "id": "info:entity:product:Teams",
+      "type": "product",
+      "name": "Teams"
+    },
+    {
+      "id": "info:entity:product:Outlook",
+      "type": "product",
+      "name": "Outlook"
+    },
+    {
+      "id": "taxonomy/misc/Artificial Intelligence (AI)",
+      "type": "taxonomy",
+      "name": "Artificial Intelligence (AI)"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -50310,6 +50420,386 @@
       "relation": "policy, industry"
     },
     {
+      "source": "info:item:world:global:2026-11-14-002",
+      "target": "info:entity:company:Microsoft",
+      "relation": "affected service provider"
+    },
+    {
+      "source": "info:item:world:global:2026-11-14-002",
+      "target": "info:entity:organization:European Commission",
+      "relation": "potential regulator of cloud services"
+    },
+    {
+      "source": "info:item:world:global:2026-11-14-002",
+      "target": "info:item:world:global:2026-11-13-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-14-002",
+      "target": "info:item:world:global:2026-11-13-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-14-002",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-14-002",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-14-002",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-14-002",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-14-002",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-14-002",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-14-002",
+      "target": "taxonomy/category/industry",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-14-003",
+      "target": "info:entity:company:Microsoft",
+      "relation": "primary service provider affected"
+    },
+    {
+      "source": "info:item:world:global:2026-11-14-003",
+      "target": "info:entity:company:OpenAI",
+      "relation": "AI service dependent on Microsoft infrastructure"
+    },
+    {
+      "source": "info:item:world:global:2026-11-14-003",
+      "target": "info:entity:model:Gemini",
+      "relation": "AI model impacted by outage"
+    },
+    {
+      "source": "info:item:world:global:2026-11-14-003",
+      "target": "info:entity:organization:Anthropic",
+      "relation": "AI provider affected"
+    },
+    {
+      "source": "info:item:world:global:2026-11-14-003",
+      "target": "info:item:world:global:2026-11-14-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-14-003",
+      "target": "info:item:world:global:2026-11-13-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-14-003",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-14-003",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-14-003",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-14-003",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-14-003",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-14-003",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-14-003",
+      "target": "taxonomy/category/industry",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-14-008",
+      "target": "info:entity:organization:Home Office",
+      "relation": "Administers the Global Talent visa, is revoking fraudulently obtained visas and has the route under review."
+    },
+    {
+      "source": "info:item:politics:global:2026-11-14-008",
+      "target": "info:entity:organization:BBC",
+      "relation": "Conducted the undercover investigation that exposed the fraud."
+    },
+    {
+      "source": "info:item:politics:global:2026-11-14-008",
+      "target": "info:entity:organization:Arts Council England",
+      "relation": "Endorsing body for arts and culture applications; endorsed just under half of nearly 3,500 applications."
+    },
+    {
+      "source": "info:item:politics:global:2026-11-14-008",
+      "target": "info:entity:company:iCareer Consultancy UK",
+      "relation": "Canary Wharf consultancy whose consultant offered the £100,000 package; denies selling visa services."
+    },
+    {
+      "source": "info:item:politics:global:2026-11-14-008",
+      "target": "info:entity:company:ADArt Global Ltd",
+      "relation": "Sister company registered with the immigration regulator to provide advice, based at the same address."
+    },
+    {
+      "source": "info:item:politics:global:2026-11-14-008",
+      "target": "info:entity:person:Shilong Guan",
+      "relation": "Consultant marketed as 'Peter' who promoted 'fully inclusive' guaranteed-approval visa services on Xiaohongshu."
+    },
+    {
+      "source": "info:item:politics:global:2026-11-14-008",
+      "target": "info:entity:person:Molara Wood",
+      "relation": "Nigerian art critic whose byline was attached to fabricated reviews of visa applicants' work."
+    },
+    {
+      "source": "info:item:politics:global:2026-11-14-008",
+      "target": "info:entity:person:Harjap Singh Bhangal",
+      "relation": "Senior immigration lawyer who reviewed the findings and described them as sophisticated fraud."
+    },
+    {
+      "source": "info:item:politics:global:2026-11-14-008",
+      "target": "info:entity:person:Shabana Mahmood",
+      "relation": "Home secretary overseeing the review of the Global Talent route and pledged action against abuse."
+    },
+    {
+      "source": "info:item:politics:global:2026-11-14-008",
+      "target": "info:entity:organization:Labour Party",
+      "relation": "Government championing the Global Talent route while tightening other migration channels."
+    },
+    {
+      "source": "info:item:politics:global:2026-11-14-008",
+      "target": "info:entity:concept:AI-generated synthetic media",
+      "relation": "Emerging vector for fabricating portfolios, reviews and credentials at near-zero cost."
+    },
+    {
+      "source": "info:item:politics:global:2026-11-14-008",
+      "target": "info:entity:region:China",
+      "relation": "Source of supplied artworks and a key target market for the visa-marketing operation."
+    },
+    {
+      "source": "info:item:politics:global:2026-11-14-008",
+      "target": "info:item:politics:global:2026-11-13-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-14-008",
+      "target": "info:item:politics:global:2026-11-13-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-14-008",
+      "target": "info:item:politics:global:2026-11-12-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-14-008",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-14-008",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-14-008",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-14-008",
+      "target": "taxonomy/misc/Immigration & Border Policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-14-008",
+      "target": "taxonomy/misc/United Kingdom",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-14-008",
+      "target": "taxonomy/misc/Regulation",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-11-14-009",
+      "target": "info:entity:company:Galaxy",
+      "relation": "Developer of Filament"
+    },
+    {
+      "source": "info:item:products:global:2026-11-14-009",
+      "target": "info:entity:product:Filament",
+      "relation": "Open-source data movement tool launched on Product Hunt"
+    },
+    {
+      "source": "info:item:products:global:2026-11-14-009",
+      "target": "info:entity:concept:Agentic AI",
+      "relation": "Primary demand driver for agent-accessible data tooling"
+    },
+    {
+      "source": "info:item:products:global:2026-11-14-009",
+      "target": "info:entity:concept:Open-source software",
+      "relation": "Distribution and adoption model for Filament"
+    },
+    {
+      "source": "info:item:products:global:2026-11-14-009",
+      "target": "info:entity:organization:Product Hunt",
+      "relation": "Launch and discovery platform for the product"
+    },
+    {
+      "source": "info:item:products:global:2026-11-14-009",
+      "target": "info:entity:concept:LLM",
+      "relation": "Underlying technology for agent-driven data operations"
+    },
+    {
+      "source": "info:item:products:global:2026-11-14-009",
+      "target": "info:item:products:global:2026-11-13-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-11-14-009",
+      "target": "info:item:products:global:2026-11-12-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-11-14-009",
+      "target": "info:item:products:global:2026-11-11-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-11-14-009",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-11-14-009",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-11-14-009",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-11-14-009",
+      "target": "taxonomy/topic/products",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-11-14-009",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-11-14-009",
+      "target": "taxonomy/category/open-source",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-14-010",
+      "target": "info:entity:company:Microsoft",
+      "relation": "Operator of the affected Teams, Outlook and Copilot services"
+    },
+    {
+      "source": "info:item:world:global:2026-11-14-010",
+      "target": "info:entity:product:Copilot",
+      "relation": "AI assistant disrupted by the underlying server stress"
+    },
+    {
+      "source": "info:item:world:global:2026-11-14-010",
+      "target": "info:entity:product:Teams",
+      "relation": "Collaboration platform affected by the outage"
+    },
+    {
+      "source": "info:item:world:global:2026-11-14-010",
+      "target": "info:entity:product:Outlook",
+      "relation": "Email and calendar service affected by the outage"
+    },
+    {
+      "source": "info:item:world:global:2026-11-14-010",
+      "target": "info:entity:company:OpenAI",
+      "relation": "Model partner underpinning Microsoft's Copilot offerings"
+    },
+    {
+      "source": "info:item:world:global:2026-11-14-010",
+      "target": "info:entity:organization:BBC",
+      "relation": "Publisher of the original report and explainer video"
+    },
+    {
+      "source": "info:item:world:global:2026-11-14-010",
+      "target": "info:item:world:global:2026-11-14-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-14-010",
+      "target": "info:item:world:global:2026-11-14-003",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-14-010",
+      "target": "info:item:world:global:2026-11-13-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-14-010",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-14-010",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-14-010",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-14-010",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-14-010",
+      "target": "taxonomy/misc/Artificial Intelligence (AI)",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-14-010",
+      "target": "taxonomy/misc/Regulation",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-14-010",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -50440,6 +50930,72 @@
     {
       "source": "info:entity:company:21 Air",
       "target": "info:entity:person:Jennifer Homendy",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:ADArt Global Ltd",
+      "target": "info:entity:company:iCareer Consultancy UK",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:ADArt Global Ltd",
+      "target": "info:entity:concept:AI-generated synthetic media",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:ADArt Global Ltd",
+      "target": "info:entity:organization:Arts Council England",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:ADArt Global Ltd",
+      "target": "info:entity:organization:BBC",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:ADArt Global Ltd",
+      "target": "info:entity:organization:Home Office",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:ADArt Global Ltd",
+      "target": "info:entity:organization:Labour Party",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:ADArt Global Ltd",
+      "target": "info:entity:person:Harjap Singh Bhangal",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:ADArt Global Ltd",
+      "target": "info:entity:person:Molara Wood",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:ADArt Global Ltd",
+      "target": "info:entity:person:Shabana Mahmood",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:ADArt Global Ltd",
+      "target": "info:entity:person:Shilong Guan",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:ADArt Global Ltd",
+      "target": "info:entity:region:China",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -51854,6 +52410,36 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:company:Galaxy",
+      "target": "info:entity:concept:Agentic AI",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Galaxy",
+      "target": "info:entity:concept:LLM",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Galaxy",
+      "target": "info:entity:concept:Open-source software",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Galaxy",
+      "target": "info:entity:organization:Product Hunt",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Galaxy",
+      "target": "info:entity:product:Filament",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:company:Gemini",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
@@ -52445,7 +53031,7 @@
       "source": "info:entity:company:Microsoft",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "3"
     },
     {
       "source": "info:entity:company:Microsoft",
@@ -52456,6 +53042,24 @@
     {
       "source": "info:entity:company:Microsoft",
       "target": "info:entity:model:Gemini",
+      "relation": "co-occurs",
+      "weight": "2"
+    },
+    {
+      "source": "info:entity:company:Microsoft",
+      "target": "info:entity:organization:Anthropic",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Microsoft",
+      "target": "info:entity:organization:BBC",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Microsoft",
+      "target": "info:entity:organization:European Commission",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -52468,6 +53072,24 @@
     {
       "source": "info:entity:company:Microsoft",
       "target": "info:entity:person:Jack Clark",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Microsoft",
+      "target": "info:entity:product:Copilot",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Microsoft",
+      "target": "info:entity:product:Outlook",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Microsoft",
+      "target": "info:entity:product:Teams",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -52949,7 +53571,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "70"
+      "weight": "71"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -53013,6 +53635,12 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:organization:Anthropic",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:organization:Armed Police Force (APF) of Nepal",
       "relation": "co-occurs",
       "weight": "1"
@@ -53022,6 +53650,12 @@
       "target": "info:entity:organization:Australian Government",
       "relation": "co-occurs",
       "weight": "2"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:organization:BBC",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -53829,6 +54463,12 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:product:Copilot",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:product:Cosmic AI Support Agent",
       "relation": "co-occurs",
       "weight": "1"
@@ -53925,6 +54565,12 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:product:Outlook",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:product:Pluto",
       "relation": "co-occurs",
       "weight": "1"
@@ -53974,6 +54620,12 @@
     {
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:product:SurgePix",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:product:Teams",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -54566,6 +55218,66 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:company:iCareer Consultancy UK",
+      "target": "info:entity:concept:AI-generated synthetic media",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:iCareer Consultancy UK",
+      "target": "info:entity:organization:Arts Council England",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:iCareer Consultancy UK",
+      "target": "info:entity:organization:BBC",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:iCareer Consultancy UK",
+      "target": "info:entity:organization:Home Office",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:iCareer Consultancy UK",
+      "target": "info:entity:organization:Labour Party",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:iCareer Consultancy UK",
+      "target": "info:entity:person:Harjap Singh Bhangal",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:iCareer Consultancy UK",
+      "target": "info:entity:person:Molara Wood",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:iCareer Consultancy UK",
+      "target": "info:entity:person:Shabana Mahmood",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:iCareer Consultancy UK",
+      "target": "info:entity:person:Shilong Guan",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:iCareer Consultancy UK",
+      "target": "info:entity:region:China",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:concept:AI Agent",
       "target": "info:entity:product:Toki AI",
       "relation": "co-occurs",
@@ -54658,6 +55370,60 @@
     {
       "source": "info:entity:concept:AI tsar",
       "target": "info:entity:product:Gemini",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:AI-generated synthetic media",
+      "target": "info:entity:organization:Arts Council England",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:AI-generated synthetic media",
+      "target": "info:entity:organization:BBC",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:AI-generated synthetic media",
+      "target": "info:entity:organization:Home Office",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:AI-generated synthetic media",
+      "target": "info:entity:organization:Labour Party",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:AI-generated synthetic media",
+      "target": "info:entity:person:Harjap Singh Bhangal",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:AI-generated synthetic media",
+      "target": "info:entity:person:Molara Wood",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:AI-generated synthetic media",
+      "target": "info:entity:person:Shabana Mahmood",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:AI-generated synthetic media",
+      "target": "info:entity:person:Shilong Guan",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:AI-generated synthetic media",
+      "target": "info:entity:region:China",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -54795,6 +55561,18 @@
     },
     {
       "source": "info:entity:concept:Agentic AI",
+      "target": "info:entity:concept:LLM",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Agentic AI",
+      "target": "info:entity:concept:Open-source software",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Agentic AI",
       "target": "info:entity:concept:Open‑source LLM",
       "relation": "co-occurs",
       "weight": "1"
@@ -54909,6 +55687,12 @@
     },
     {
       "source": "info:entity:concept:Agentic AI",
+      "target": "info:entity:organization:Product Hunt",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Agentic AI",
       "target": "info:entity:organization:Renfe",
       "relation": "co-occurs",
       "weight": "1"
@@ -54964,6 +55748,12 @@
     {
       "source": "info:entity:concept:Agentic AI",
       "target": "info:entity:product:Context.dev",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Agentic AI",
+      "target": "info:entity:product:Filament",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -55515,6 +56305,12 @@
     },
     {
       "source": "info:entity:concept:LLM",
+      "target": "info:entity:concept:Open-source software",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:LLM",
       "target": "info:entity:concept:OpenTelemetry",
       "relation": "co-occurs",
       "weight": "1"
@@ -55528,6 +56324,18 @@
     {
       "source": "info:entity:concept:LLM",
       "target": "info:entity:model:Gemini 3.8",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:LLM",
+      "target": "info:entity:organization:Product Hunt",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:LLM",
+      "target": "info:entity:product:Filament",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -55654,6 +56462,18 @@
     {
       "source": "info:entity:concept:Oil Prices",
       "target": "info:entity:region:Iran",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Open-source software",
+      "target": "info:entity:organization:Product Hunt",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Open-source software",
+      "target": "info:entity:product:Filament",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -57083,7 +57903,7 @@
       "source": "info:entity:model:Gemini",
       "target": "info:entity:organization:Anthropic",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:model:Gemini",
@@ -58436,6 +59256,54 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Arts Council England",
+      "target": "info:entity:organization:BBC",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Arts Council England",
+      "target": "info:entity:organization:Home Office",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Arts Council England",
+      "target": "info:entity:organization:Labour Party",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Arts Council England",
+      "target": "info:entity:person:Harjap Singh Bhangal",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Arts Council England",
+      "target": "info:entity:person:Molara Wood",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Arts Council England",
+      "target": "info:entity:person:Shabana Mahmood",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Arts Council England",
+      "target": "info:entity:person:Shilong Guan",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Arts Council England",
+      "target": "info:entity:region:China",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Australian Government",
       "target": "info:entity:organization:Victoria Police",
       "relation": "co-occurs",
@@ -58533,6 +59401,18 @@
     },
     {
       "source": "info:entity:organization:BBC",
+      "target": "info:entity:organization:Home Office",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:BBC",
+      "target": "info:entity:organization:Labour Party",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:BBC",
       "target": "info:entity:organization:Rapid Support Forces (RSF)",
       "relation": "co-occurs",
       "weight": "1"
@@ -58557,13 +59437,37 @@
     },
     {
       "source": "info:entity:organization:BBC",
+      "target": "info:entity:person:Harjap Singh Bhangal",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:BBC",
       "target": "info:entity:person:Holly Ratchford",
       "relation": "co-occurs",
       "weight": "1"
     },
     {
       "source": "info:entity:organization:BBC",
+      "target": "info:entity:person:Molara Wood",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:BBC",
       "target": "info:entity:person:Omar al‑Bayoumi",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:BBC",
+      "target": "info:entity:person:Shabana Mahmood",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:BBC",
+      "target": "info:entity:person:Shilong Guan",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -58576,6 +59480,30 @@
     {
       "source": "info:entity:organization:BBC",
       "target": "info:entity:person:Volker Türk",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:BBC",
+      "target": "info:entity:product:Copilot",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:BBC",
+      "target": "info:entity:product:Outlook",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:BBC",
+      "target": "info:entity:product:Teams",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:BBC",
+      "target": "info:entity:region:China",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -60941,7 +61869,7 @@
       "source": "info:entity:organization:Home Office",
       "target": "info:entity:organization:Labour Party",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:organization:Home Office",
@@ -60963,6 +61891,12 @@
     },
     {
       "source": "info:entity:organization:Home Office",
+      "target": "info:entity:person:Harjap Singh Bhangal",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Home Office",
       "target": "info:entity:person:Keir Starmer",
       "relation": "co-occurs",
       "weight": "1"
@@ -60975,9 +61909,27 @@
     },
     {
       "source": "info:entity:organization:Home Office",
+      "target": "info:entity:person:Molara Wood",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Home Office",
       "target": "info:entity:person:Shabana Mahmood",
       "relation": "co-occurs",
-      "weight": "4"
+      "weight": "5"
+    },
+    {
+      "source": "info:entity:organization:Home Office",
+      "target": "info:entity:person:Shilong Guan",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Home Office",
+      "target": "info:entity:region:China",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:organization:Hong Kong Alliance (HKA)",
@@ -61887,6 +62839,12 @@
     },
     {
       "source": "info:entity:organization:Labour Party",
+      "target": "info:entity:person:Harjap Singh Bhangal",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Labour Party",
       "target": "info:entity:person:Helen Whately",
       "relation": "co-occurs",
       "weight": "1"
@@ -61935,6 +62893,12 @@
     },
     {
       "source": "info:entity:organization:Labour Party",
+      "target": "info:entity:person:Molara Wood",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Labour Party",
       "target": "info:entity:person:Nigel Farage",
       "relation": "co-occurs",
       "weight": "5"
@@ -61955,7 +62919,13 @@
       "source": "info:entity:organization:Labour Party",
       "target": "info:entity:person:Shabana Mahmood",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
+    },
+    {
+      "source": "info:entity:organization:Labour Party",
+      "target": "info:entity:person:Shilong Guan",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:organization:Labour Party",
@@ -61974,6 +62944,12 @@
       "target": "info:entity:person:Zack Polanski",
       "relation": "co-occurs",
       "weight": "4"
+    },
+    {
+      "source": "info:entity:organization:Labour Party",
+      "target": "info:entity:region:China",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:organization:Labour Party",
@@ -63340,6 +64316,12 @@
     {
       "source": "info:entity:organization:Prison Governors' Association",
       "target": "info:entity:person:Kemi Badenoch",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Product Hunt",
+      "target": "info:entity:product:Filament",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -67322,6 +68304,30 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:person:Harjap Singh Bhangal",
+      "target": "info:entity:person:Molara Wood",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Harjap Singh Bhangal",
+      "target": "info:entity:person:Shabana Mahmood",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Harjap Singh Bhangal",
+      "target": "info:entity:person:Shilong Guan",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Harjap Singh Bhangal",
+      "target": "info:entity:region:China",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:person:Heather Adkins",
       "target": "info:entity:person:Jensen Huang",
       "relation": "co-occurs",
@@ -68192,6 +69198,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:person:Molara Wood",
+      "target": "info:entity:person:Shabana Mahmood",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Molara Wood",
+      "target": "info:entity:person:Shilong Guan",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Molara Wood",
+      "target": "info:entity:region:China",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:person:Mustafa Koc",
       "target": "info:entity:person:Recep Tayyip Erdoğan",
       "relation": "co-occurs",
@@ -68355,13 +69379,31 @@
     },
     {
       "source": "info:entity:person:Shabana Mahmood",
+      "target": "info:entity:person:Shilong Guan",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Shabana Mahmood",
       "target": "info:entity:person:Stephen Lovegrove",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Shabana Mahmood",
+      "target": "info:entity:region:China",
       "relation": "co-occurs",
       "weight": "1"
     },
     {
       "source": "info:entity:person:Shaun Hughes",
       "target": "info:entity:region:Gaza Strip",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Shilong Guan",
+      "target": "info:entity:region:China",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -68546,6 +69588,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:product:Copilot",
+      "target": "info:entity:product:Outlook",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:product:Copilot",
+      "target": "info:entity:product:Teams",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:product:Cosmic AI Support Agent",
       "target": "info:entity:region:Myanmar",
       "relation": "co-occurs",
@@ -68572,6 +69626,12 @@
     {
       "source": "info:entity:product:Opengeni",
       "target": "info:entity:region:Myanmar",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:product:Outlook",
+      "target": "info:entity:product:Teams",
       "relation": "co-occurs",
       "weight": "1"
     },

@@ -1,7 +1,7 @@
 ---
 name: "Shabana Mahmood"
 entity_type: person
-backlink_count: 9
+backlink_count: 10
 ---
 
 # Shabana Mahmood
@@ -10,6 +10,7 @@ backlink_count: 9
 
 ## Referenced by
 
+- 2026-11-14 · [[2026-11-14-008-firm-offers-to-fake-artworks-for-wealthy-migrants-seeking]] — Firm offers to fake artworks for wealthy migrants seeking UK 'talent' visas - BBC investigation
 - 2026-11-13 · [[2026-11-13-005-burnham-s-push-for-closer-eu-ties-causes-ripples-in-his]] — Burnham's push for closer EU ties causes ripples in his party and others
 - 2026-11-04 · [[2026-11-04-005-mahmood-refuses-to-put-cost-on-care-worker-settlement]] — Mahmood refuses to put cost on care worker settlement climbdown
 - 2026-11-03 · [[2026-11-03-004-labour-mps-pull-their-punches-on-immigration-changes]] — Labour MPs pull their punches on immigration changes
