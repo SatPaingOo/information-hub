@@ -1,7 +1,7 @@
 ---
 node: "Geopolitics"
 layer: misc
-item_count: 26
+item_count: 27
 ---
 
 # Geopolitics
@@ -15,6 +15,7 @@ item_count: 26
 
 ## Items
 
+- 2026-11-15 · [[2026-11-15-001-us-has-floated-ukraine-ceding-donbas-for-nato-membership]] — US has floated Ukraine ceding Donbas for NATO membership, Zelensky says
 - 2026-11-04 · [[2026-11-04-007-south-carolina-elects-democratic-senator-for-first-time-in]] — South Carolina elects Democratic senator for first time in almost three decades
 - 2026-10-28 · [[2026-10-28-008-lula-s-comeback-in-brazil-dents-trump-s-ambitions-for]] — Lula's comeback in Brazil dents Trump's ambitions for Latin America
 - 2026-10-27 · [[2026-10-27-004-chris-mason-the-budget-is-imminent-as-tricky-things-pile]] — Chris Mason: The Budget is imminent as tricky things pile up for Burnham

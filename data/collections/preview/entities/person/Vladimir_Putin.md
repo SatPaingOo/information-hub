@@ -1,7 +1,7 @@
 ---
 name: "Vladimir Putin"
 entity_type: person
-backlink_count: 29
+backlink_count: 30
 ---
 
 # Vladimir Putin
@@ -10,6 +10,7 @@ backlink_count: 29
 
 ## Referenced by
 
+- 2026-11-15 · [[2026-11-15-001-us-has-floated-ukraine-ceding-donbas-for-nato-membership]] — US has floated Ukraine ceding Donbas for NATO membership, Zelensky says
 - 2026-11-05 · [[2026-11-05-003-ukraine-says-bodycam-video-shows-deadly-russian-double-tap]] — Ukraine says bodycam video shows deadly Russian double-tap bombing
 - 2026-11-03 · [[2026-11-03-001-russian-bombing-kills-26-people-at-ukraine-aid-centre-kyiv]] — Russian bombing kills 26 people at Ukraine aid centre, Kyiv says
 - 2026-10-28 · [[2026-10-28-001-norway-and-finland-leaders-hold-rare-call-with-putin]] — Norway and Finland leaders hold rare call with Putin

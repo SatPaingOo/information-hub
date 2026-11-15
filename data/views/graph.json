@@ -11315,6 +11315,70 @@
       "name": "Artificial Intelligence (AI)"
     },
     {
+      "id": "info:item:world:global:2026-11-15-001",
+      "type": "item",
+      "date": "2026-11-15",
+      "title": "US has floated Ukraine ceding Donbas for NATO membership, Zelensky says"
+    },
+    {
+      "id": "taxonomy/misc/International Negotiations",
+      "type": "taxonomy",
+      "name": "International Negotiations"
+    },
+    {
+      "id": "info:item:politics:global:2026-11-15-004",
+      "type": "item",
+      "date": "2026-11-15",
+      "title": "Milburn's youth opportunity guarantee: welfare reform with legal force"
+    },
+    {
+      "id": "info:item:politics:global:2026-11-15-005",
+      "type": "item",
+      "date": "2026-11-15",
+      "title": "UK ethics watchdog chief steps back from role over sexual misconduct claims"
+    },
+    {
+      "id": "info:entity:person:Stuart Sterling",
+      "type": "person",
+      "name": "Stuart Sterling"
+    },
+    {
+      "id": "info:entity:organization:Ethics and Integrity Commission",
+      "type": "organization",
+      "name": "Ethics and Integrity Commission"
+    },
+    {
+      "id": "info:entity:organization:Northamptonshire Police",
+      "type": "organization",
+      "name": "Northamptonshire Police"
+    },
+    {
+      "id": "info:entity:organization:Cabinet Office",
+      "type": "organization",
+      "name": "Cabinet Office"
+    },
+    {
+      "id": "info:entity:organization:Sunday Times",
+      "type": "organization",
+      "name": "Sunday Times"
+    },
+    {
+      "id": "taxonomy/misc/public integrity",
+      "type": "taxonomy",
+      "name": "public integrity"
+    },
+    {
+      "id": "info:item:products:global:2026-11-15-006",
+      "type": "item",
+      "date": "2026-11-15",
+      "title": "HiringNow"
+    },
+    {
+      "id": "info:entity:product:HiringNow",
+      "type": "product",
+      "name": "HiringNow"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -50800,6 +50864,296 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-11-15-001",
+      "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "Ukrainian President, publicizing the proposal"
+    },
+    {
+      "source": "info:item:world:global:2026-11-15-001",
+      "target": "info:entity:person:Jared Kushner",
+      "relation": "US envoy, involved in back‑channel talks"
+    },
+    {
+      "source": "info:item:world:global:2026-11-15-001",
+      "target": "info:entity:person:Vladimir Putin",
+      "relation": "Russian President, opposing NATO expansion"
+    },
+    {
+      "source": "info:item:world:global:2026-11-15-001",
+      "target": "info:entity:organization:NATO",
+      "relation": "Potential future member, central to security guarantees"
+    },
+    {
+      "source": "info:item:world:global:2026-11-15-001",
+      "target": "info:entity:organization:United States",
+      "relation": "Mediator proposing conditional membership"
+    },
+    {
+      "source": "info:item:world:global:2026-11-15-001",
+      "target": "info:item:world:global:2026-11-14-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-15-001",
+      "target": "info:item:world:global:2026-11-14-010",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-15-001",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-15-001",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-15-001",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-15-001",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-15-001",
+      "target": "taxonomy/misc/Geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-15-001",
+      "target": "taxonomy/misc/Security Policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-15-001",
+      "target": "taxonomy/misc/International Negotiations",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-15-004",
+      "target": "info:entity:person:Alan Milburn",
+      "relation": "Author of the youth unemployment review and former Labour minister"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-15-004",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "Prime Minister, who welcomed the report without committing to it in full"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-15-004",
+      "target": "info:entity:person:Kemi Badenoch",
+      "relation": "Conservative Party leader who has criticised employment schemes"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-15-004",
+      "target": "info:entity:person:Robert Jenrick",
+      "relation": "Reform UK economy spokesman calling for immediate action on youth benefits"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-15-004",
+      "target": "info:entity:person:Zack Polanski",
+      "relation": "Green Party leader critical of benefit sanctions"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-15-004",
+      "target": "info:entity:organization:Trades Union Congress (TUC)",
+      "relation": "Welcomed the legal guarantee but warned against funding it from public service budgets"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-15-004",
+      "target": "info:entity:organization:Department for Work and Pensions (DWP)",
+      "relation": "Department responsible for Universal Credit and benefit conditionality"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-15-004",
+      "target": "info:entity:concept:NEET",
+      "relation": "Young people not in education, employment or training, the target group of the review"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-15-004",
+      "target": "info:entity:concept:Universal Credit",
+      "relation": "Benefit system affected by proposed cuts to the health element for under-25s"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-15-004",
+      "target": "info:item:politics:global:2026-11-14-008",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-15-004",
+      "target": "info:item:politics:global:2026-11-13-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-15-004",
+      "target": "info:item:politics:global:2026-11-13-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-15-004",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-15-004",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-15-004",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-15-004",
+      "target": "taxonomy/topic/politics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-15-004",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-15-004",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-15-005",
+      "target": "info:entity:person:Stuart Sterling",
+      "relation": "Chief executive of the Ethics and Integrity Commission who has stepped back from the role."
+    },
+    {
+      "source": "info:item:politics:global:2026-11-15-005",
+      "target": "info:entity:organization:Ethics and Integrity Commission",
+      "relation": "New UK watchdog at the centre of the controversy."
+    },
+    {
+      "source": "info:item:politics:global:2026-11-15-005",
+      "target": "info:entity:organization:Labour Party",
+      "relation": "Committed to creating the commission in its 2024 manifesto."
+    },
+    {
+      "source": "info:item:politics:global:2026-11-15-005",
+      "target": "info:entity:organization:Northamptonshire Police",
+      "relation": "Force that held the 2002 misconduct process and later allegation records."
+    },
+    {
+      "source": "info:item:politics:global:2026-11-15-005",
+      "target": "info:entity:organization:Cabinet Office",
+      "relation": "Will examine whether appropriate disclosures were made."
+    },
+    {
+      "source": "info:item:politics:global:2026-11-15-005",
+      "target": "info:entity:organization:Sunday Times",
+      "relation": "First reported the allegations and investigations."
+    },
+    {
+      "source": "info:item:politics:global:2026-11-15-005",
+      "target": "info:item:politics:global:2026-11-15-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-15-005",
+      "target": "info:item:politics:global:2026-11-14-008",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-15-005",
+      "target": "info:item:politics:global:2026-11-13-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-15-005",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-15-005",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-15-005",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-15-005",
+      "target": "taxonomy/topic/politics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-15-005",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-15-005",
+      "target": "taxonomy/misc/public integrity",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-11-15-006",
+      "target": "info:entity:model:OpenAI GPT-4",
+      "relation": "powers the core language model for job matching"
+    },
+    {
+      "source": "info:item:products:global:2026-11-15-006",
+      "target": "info:entity:company:AgentGrid.io",
+      "relation": "competitor in the AI job automation space"
+    },
+    {
+      "source": "info:item:products:global:2026-11-15-006",
+      "target": "info:entity:product:HiringNow",
+      "relation": "AI job agent that automates applications"
+    },
+    {
+      "source": "info:item:products:global:2026-11-15-006",
+      "target": "info:item:products:global:2026-11-14-009",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-11-15-006",
+      "target": "info:item:products:global:2026-11-13-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-11-15-006",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-11-15-006",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-11-15-006",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-11-15-006",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-11-15-006",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-11-15-006",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -51043,7 +51397,19 @@
     },
     {
       "source": "info:entity:company:AgentGrid.io",
+      "target": "info:entity:model:OpenAI GPT-4",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:AgentGrid.io",
       "target": "info:entity:model:OpenAI GPT‑4‑Turbo",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:AgentGrid.io",
+      "target": "info:entity:product:HiringNow",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -56377,7 +56743,19 @@
     },
     {
       "source": "info:entity:concept:NEET",
+      "target": "info:entity:concept:Universal Credit",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:NEET",
       "target": "info:entity:model:Gemini",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:NEET",
+      "target": "info:entity:organization:Department for Work and Pensions (DWP)",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -56395,13 +56773,43 @@
     },
     {
       "source": "info:entity:concept:NEET",
+      "target": "info:entity:organization:Trades Union Congress (TUC)",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:NEET",
       "target": "info:entity:person:Alan Milburn",
+      "relation": "co-occurs",
+      "weight": "2"
+    },
+    {
+      "source": "info:entity:concept:NEET",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:NEET",
+      "target": "info:entity:person:Kemi Badenoch",
       "relation": "co-occurs",
       "weight": "1"
     },
     {
       "source": "info:entity:concept:NEET",
       "target": "info:entity:person:Mothin Ali",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:NEET",
+      "target": "info:entity:person:Robert Jenrick",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:NEET",
+      "target": "info:entity:person:Zack Polanski",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -56719,7 +57127,19 @@
     },
     {
       "source": "info:entity:concept:Universal Credit",
+      "target": "info:entity:organization:Department for Work and Pensions (DWP)",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Universal Credit",
       "target": "info:entity:organization:Labour Party",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Universal Credit",
+      "target": "info:entity:organization:Trades Union Congress (TUC)",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -56731,6 +57151,18 @@
     },
     {
       "source": "info:entity:concept:Universal Credit",
+      "target": "info:entity:person:Alan Milburn",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Universal Credit",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Universal Credit",
       "target": "info:entity:person:Helen Whately",
       "relation": "co-occurs",
       "weight": "1"
@@ -56739,11 +57171,23 @@
       "source": "info:entity:concept:Universal Credit",
       "target": "info:entity:person:Kemi Badenoch",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:concept:Universal Credit",
       "target": "info:entity:person:Rishi Sunak",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Universal Credit",
+      "target": "info:entity:person:Robert Jenrick",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Universal Credit",
+      "target": "info:entity:person:Zack Polanski",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -58795,6 +59239,12 @@
     },
     {
       "source": "info:entity:model:OpenAI GPT-4",
+      "target": "info:entity:product:HiringNow",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:OpenAI GPT-4",
       "target": "info:entity:region:Myanmar",
       "relation": "co-occurs",
       "weight": "1"
@@ -59856,6 +60306,36 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Cabinet Office",
+      "target": "info:entity:organization:Ethics and Integrity Commission",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Cabinet Office",
+      "target": "info:entity:organization:Labour Party",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Cabinet Office",
+      "target": "info:entity:organization:Northamptonshire Police",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Cabinet Office",
+      "target": "info:entity:organization:Sunday Times",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Cabinet Office",
+      "target": "info:entity:person:Stuart Sterling",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Campaign Against Antisemitism",
       "target": "info:entity:organization:Equality and Human Rights Commission",
       "relation": "co-occurs",
@@ -60619,19 +61099,43 @@
     },
     {
       "source": "info:entity:organization:Department for Work and Pensions (DWP)",
-      "target": "info:entity:person:Alan Milburn",
+      "target": "info:entity:organization:Trades Union Congress (TUC)",
       "relation": "co-occurs",
       "weight": "1"
     },
     {
       "source": "info:entity:organization:Department for Work and Pensions (DWP)",
-      "target": "info:entity:person:Andy Burnham",
+      "target": "info:entity:person:Alan Milburn",
       "relation": "co-occurs",
       "weight": "2"
     },
     {
       "source": "info:entity:organization:Department for Work and Pensions (DWP)",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "co-occurs",
+      "weight": "3"
+    },
+    {
+      "source": "info:entity:organization:Department for Work and Pensions (DWP)",
       "target": "info:entity:person:John Swinney",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Department for Work and Pensions (DWP)",
+      "target": "info:entity:person:Kemi Badenoch",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Department for Work and Pensions (DWP)",
+      "target": "info:entity:person:Robert Jenrick",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Department for Work and Pensions (DWP)",
+      "target": "info:entity:person:Zack Polanski",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -60814,6 +61318,30 @@
       "target": "info:entity:person:Zack Polanski",
       "relation": "co-occurs",
       "weight": "2"
+    },
+    {
+      "source": "info:entity:organization:Ethics and Integrity Commission",
+      "target": "info:entity:organization:Labour Party",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Ethics and Integrity Commission",
+      "target": "info:entity:organization:Northamptonshire Police",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Ethics and Integrity Commission",
+      "target": "info:entity:organization:Sunday Times",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Ethics and Integrity Commission",
+      "target": "info:entity:person:Stuart Sterling",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:organization:European Broadcasting Union (EBU)",
@@ -62737,6 +63265,12 @@
     },
     {
       "source": "info:entity:organization:Labour Party",
+      "target": "info:entity:organization:Northamptonshire Police",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Labour Party",
       "target": "info:entity:organization:Prison Governors' Association",
       "relation": "co-occurs",
       "weight": "1"
@@ -62746,6 +63280,12 @@
       "target": "info:entity:organization:Reform UK",
       "relation": "co-occurs",
       "weight": "5"
+    },
+    {
+      "source": "info:entity:organization:Labour Party",
+      "target": "info:entity:organization:Sunday Times",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:organization:Labour Party",
@@ -62924,6 +63464,12 @@
     {
       "source": "info:entity:organization:Labour Party",
       "target": "info:entity:person:Shilong Guan",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Labour Party",
+      "target": "info:entity:person:Stuart Sterling",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -63361,6 +63907,12 @@
     },
     {
       "source": "info:entity:organization:NATO",
+      "target": "info:entity:organization:United States",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:NATO",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
       "weight": "2"
@@ -63380,6 +63932,12 @@
     {
       "source": "info:entity:organization:NATO",
       "target": "info:entity:person:Friedrich Merz",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:NATO",
+      "target": "info:entity:person:Jared Kushner",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -63453,13 +64011,13 @@
       "source": "info:entity:organization:NATO",
       "target": "info:entity:person:Vladimir Putin",
       "relation": "co-occurs",
-      "weight": "4"
+      "weight": "5"
     },
     {
       "source": "info:entity:organization:NATO",
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:organization:NATO",
@@ -63782,6 +64340,18 @@
     {
       "source": "info:entity:organization:Nepal's Ministry of Health",
       "target": "info:entity:region:Tibet",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Northamptonshire Police",
+      "target": "info:entity:organization:Sunday Times",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Northamptonshire Police",
+      "target": "info:entity:person:Stuart Sterling",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -64980,6 +65550,12 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Sunday Times",
+      "target": "info:entity:person:Stuart Sterling",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Syrian Government",
       "target": "info:entity:person:Ahmed al-Sharaa",
       "relation": "co-occurs",
@@ -65059,7 +65635,37 @@
     },
     {
       "source": "info:entity:organization:Trades Union Congress (TUC)",
+      "target": "info:entity:person:Alan Milburn",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Trades Union Congress (TUC)",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Trades Union Congress (TUC)",
       "target": "info:entity:person:John Healey",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Trades Union Congress (TUC)",
+      "target": "info:entity:person:Kemi Badenoch",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Trades Union Congress (TUC)",
+      "target": "info:entity:person:Robert Jenrick",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Trades Union Congress (TUC)",
+      "target": "info:entity:person:Zack Polanski",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -66043,7 +66649,25 @@
     },
     {
       "source": "info:entity:organization:United States",
+      "target": "info:entity:person:Jared Kushner",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:United States",
       "target": "info:entity:person:Marco Rubio",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:United States",
+      "target": "info:entity:person:Vladimir Putin",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:United States",
+      "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -66363,7 +66987,25 @@
       "source": "info:entity:person:Alan Milburn",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
+    },
+    {
+      "source": "info:entity:person:Alan Milburn",
+      "target": "info:entity:person:Kemi Badenoch",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Alan Milburn",
+      "target": "info:entity:person:Robert Jenrick",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Alan Milburn",
+      "target": "info:entity:person:Zack Polanski",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:person:Alan Milburn",
@@ -66609,7 +67251,7 @@
       "source": "info:entity:person:Andy Burnham",
       "target": "info:entity:person:Kemi Badenoch",
       "relation": "co-occurs",
-      "weight": "11"
+      "weight": "12"
     },
     {
       "source": "info:entity:person:Andy Burnham",
@@ -66715,6 +67357,12 @@
     },
     {
       "source": "info:entity:person:Andy Burnham",
+      "target": "info:entity:person:Robert Jenrick",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Andy Burnham",
       "target": "info:entity:person:Shabana Mahmood",
       "relation": "co-occurs",
       "weight": "3"
@@ -66771,7 +67419,7 @@
       "source": "info:entity:person:Andy Burnham",
       "target": "info:entity:person:Zack Polanski",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:person:Andy Burnham",
@@ -68517,13 +69165,13 @@
       "source": "info:entity:person:Jared Kushner",
       "target": "info:entity:person:Vladimir Putin",
       "relation": "co-occurs",
-      "weight": "4"
+      "weight": "5"
     },
     {
       "source": "info:entity:person:Jared Kushner",
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
-      "weight": "7"
+      "weight": "8"
     },
     {
       "source": "info:entity:person:Javier Milei",
@@ -68887,9 +69535,21 @@
     },
     {
       "source": "info:entity:person:Kemi Badenoch",
+      "target": "info:entity:person:Robert Jenrick",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Kemi Badenoch",
       "target": "info:entity:person:Tom Tugendhat",
       "relation": "co-occurs",
       "weight": "2"
+    },
+    {
+      "source": "info:entity:person:Kemi Badenoch",
+      "target": "info:entity:person:Zack Polanski",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:person:Kevin Hollinrake",
@@ -69342,6 +70002,12 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:person:Robert Jenrick",
+      "target": "info:entity:person:Zack Polanski",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:person:Sally Rooney",
       "target": "info:entity:person:Sarah Helm",
       "relation": "co-occurs",
@@ -69483,7 +70149,7 @@
       "source": "info:entity:person:Vladimir Putin",
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
-      "weight": "20"
+      "weight": "21"
     },
     {
       "source": "info:entity:person:Vladimir Putin",

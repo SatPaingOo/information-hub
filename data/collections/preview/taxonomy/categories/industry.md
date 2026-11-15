@@ -1,7 +1,7 @@
 ---
 node: "industry"
 layer: category
-item_count: 403
+item_count: 404
 ---
 
 # industry
@@ -21,6 +21,7 @@ item_count: 403
 
 ## Items
 
+- 2026-11-15 · [[2026-11-15-001-us-has-floated-ukraine-ceding-donbas-for-nato-membership]] — US has floated Ukraine ceding Donbas for NATO membership, Zelensky says
 - 2026-11-14 · [[2026-11-14-002-microsoft-deeply-sorry-for-global-outage-after-almost-24]] — Microsoft 'deeply sorry' for global outage after almost 24 hours of disruption
 - 2026-11-14 · [[2026-11-14-002-microsoft-deeply-sorry-for-global-outage-after-almost-24]] — Microsoft 'deeply sorry' for global outage after almost 24 hours of disruption
 - 2026-11-14 · [[2026-11-14-003-why-is-microsoft-s-outage-lasting-so-long-and-will-emails]] — Why is Microsoft's outage lasting so long and will emails be lost?

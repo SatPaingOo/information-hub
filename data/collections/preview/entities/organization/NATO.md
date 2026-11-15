@@ -1,7 +1,7 @@
 ---
 name: "NATO"
 entity_type: organization
-backlink_count: 14
+backlink_count: 15
 ---
 
 # NATO
@@ -10,6 +10,7 @@ backlink_count: 14
 
 ## Referenced by
 
+- 2026-11-15 · [[2026-11-15-001-us-has-floated-ukraine-ceding-donbas-for-nato-membership]] — US has floated Ukraine ceding Donbas for NATO membership, Zelensky says
 - 2026-11-03 · [[2026-11-03-002-thousands-of-european-troops-to-rehearse-ukraine]] — Thousands of European troops to rehearse Ukraine deployment in event of peace
 - 2026-10-04 · [[2026-10-04-007-kyiv-bridge-hit-in-further-russian-drone-attack-as-german]] — Kyiv bridge hit in further Russian drone attack as German chancellor makes surprise visit
 - 2026-10-01 · [[2026-10-01-008-putin-shows-no-sign-of-stopping-the-war-as-russia-doubles]] — Putin shows no sign of stopping the war as Russia doubles down on Ukraine

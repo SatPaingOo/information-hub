@@ -1,7 +1,7 @@
 ---
 name: "Zack Polanski"
 entity_type: person
-backlink_count: 12
+backlink_count: 13
 ---
 
 # Zack Polanski
@@ -10,6 +10,7 @@ backlink_count: 12
 
 ## Referenced by
 
+- 2026-11-15 · [[2026-11-15-004-milburn-s-youth-opportunity-guarantee-welfare-reform-with]] — Milburn's youth opportunity guarantee: welfare reform with legal force
 - 2026-11-02 · [[2026-11-02-004-green-party-at-crossroads-says-former-co-leader]] — Green Party at 'crossroads', says former co-leader
 - 2026-10-19 · [[2026-10-19-004-polanski-says-he-will-not-overturn-green-party-s-zionism]] — Polanski says he will not overturn Green Party's 'Zionism is racism' motion
 - 2026-10-16 · [[2026-10-16-005-equality-watchdog-writes-to-greens-over-zionism-is-racism]] — Equality watchdog writes to Greens over ‘Zionism is racism’ motion

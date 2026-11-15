@@ -1,7 +1,7 @@
 ---
 name: "Andy Burnham"
 entity_type: person
-backlink_count: 81
+backlink_count: 82
 ---
 
 # Andy Burnham
@@ -10,6 +10,7 @@ backlink_count: 81
 
 ## Referenced by
 
+- 2026-11-15 · [[2026-11-15-004-milburn-s-youth-opportunity-guarantee-welfare-reform-with]] — Milburn's youth opportunity guarantee: welfare reform with legal force
 - 2026-11-13 · [[2026-11-13-004-can-burnham-avoid-another-labour-welfare-rebellion]] — Can Burnham avoid another Labour welfare rebellion?
 - 2026-11-13 · [[2026-11-13-005-burnham-s-push-for-closer-eu-ties-causes-ripples-in-his]] — Burnham's push for closer EU ties causes ripples in his party and others
 - 2026-11-12 · [[2026-11-12-004-some-under-25s-should-get-less-benefits-milburn-review-to]] — Some under-25s should get less benefits, Milburn review to say

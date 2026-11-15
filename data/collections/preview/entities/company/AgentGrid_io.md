@@ -1,7 +1,7 @@
 ---
 name: "AgentGrid.io"
 entity_type: company
-backlink_count: 1
+backlink_count: 2
 ---
 
 # AgentGrid.io
@@ -10,4 +10,5 @@ backlink_count: 1
 
 ## Referenced by
 
+- 2026-11-15 · [[2026-11-15-006-hiringnow]] — HiringNow
 - 2026-10-26 · [[2026-10-26-007-agentgrid-io-a-shared-workspace-for-humans-and-ai-agents]] — AgentGrid.io – A Shared Workspace for Humans and AI Agents

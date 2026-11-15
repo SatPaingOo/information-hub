@@ -1,7 +1,7 @@
 ---
 node: "geopolitics"
 layer: topic
-item_count: 154
+item_count: 155
 ---
 
 # geopolitics
@@ -25,6 +25,7 @@ item_count: 154
 
 ## Items
 
+- 2026-11-15 · [[2026-11-15-004-milburn-s-youth-opportunity-guarantee-welfare-reform-with]] — Milburn's youth opportunity guarantee: welfare reform with legal force
 - 2026-11-13 · [[2026-11-13-002-zelensky-welcomes-us-bringing-europe-into-russia-ukraine]] — Zelensky welcomes US bringing Europe into Russia-Ukraine peace talks
 - 2026-11-12 · [[2026-11-12-005-acquitted-china-spy-tells-bbc-i-was-fall-guy-for-security]] — Acquitted 'China spy' tells BBC: I was fall guy for security services but also naive
 - 2026-11-11 · [[2026-11-11-001-three-iran-backed-suspects-plotted-attacks-including-raf]] — Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says

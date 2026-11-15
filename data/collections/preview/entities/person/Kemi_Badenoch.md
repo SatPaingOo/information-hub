@@ -1,7 +1,7 @@
 ---
 name: "Kemi Badenoch"
 entity_type: person
-backlink_count: 23
+backlink_count: 24
 ---
 
 # Kemi Badenoch
@@ -10,6 +10,7 @@ backlink_count: 23
 
 ## Referenced by
 
+- 2026-11-15 · [[2026-11-15-004-milburn-s-youth-opportunity-guarantee-welfare-reform-with]] — Milburn's youth opportunity guarantee: welfare reform with legal force
 - 2026-11-11 · [[2026-11-11-004-tories-pledge-to-cut-benefits-for-children-with-milder]] — Tories pledge to cut benefits for children with 'milder cases' of ADHD
 - 2026-10-30 · [[2026-10-30-004-burnham-says-he-wants-to-cut-welfare-bill-as-soon-as-we]] — Burnham says he wants to cut welfare bill 'as soon as we possibly can'
 - 2026-10-29 · [[2026-10-29-004-healey-unveils-100-for-energy-bills-and-bank-tax-in-first]] — Healey unveils £100 for energy bills and bank tax in first Budget

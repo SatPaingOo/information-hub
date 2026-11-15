@@ -1,0 +1,56 @@
+2026-11-15 06:14:40,269 ERROR [world-news] generate error: bad response: Expecting property name enclosed in double quotes: line 22 column 6 (char 2004)
+2026-11-15 06:14:46,699 INFO [world-news] published 2026-11-15-001 — US has floated Ukraine ceding Donbas for NATO membership, Ze
+2026-11-15 06:14:46,879 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7968, Requested 7440. Please try again in 55.56s. Need more tokens? Upgrade to Dev Tier today at https://cons
+2026-11-15 06:14:49,927 ERROR [world-news] generate error: HTTP 404: {"error":{"message":"poolside/laguna-xs-2.1:free is no longer available on OpenRouter: no provider serves this model anymore. See available models at https://openrouter.ai/models","code":404},"user_id":"user_2mqLaYz9PPTm2loHhHg0PQ896kb"}
+2026-11-15 06:14:57,314 ERROR [world-news] generate error: HTTP 400: {"error":{"message":"Provider returned error","code":400,"metadata":{"raw":"{\"code\":400,\"msg\":\"bad request\",\"request_id\":\"1c414ce3-5cb2-44fc-9311-0598122b4a4c\"}","provider_name":"AtlasCloud","is_byok":false}},"user_id":"user_2mqLaYz9PPTm2loHhHg0PQ896kb"}
+2026-11-15 06:15:06,504 ERROR [world-news] generate error: HTTP 404: {"error":{"message":"This model is unavailable for free. The paid version is available now - use this slug instead: nvidia/nemotron-3-super-120b-a12b","code":404},"user_id":"user_2mqLaYz9PPTm2loHhHg0PQ896kb"}
+2026-11-15 06:15:09,553 ERROR [world-news] generate error: HTTP 404: {"error":{"message":"poolside/laguna-s-2.1:free is no longer available on OpenRouter: no provider serves this model anymore. See available models at https://openrouter.ai/models","code":404},"user_id":"user_2mqLaYz9PPTm2loHhHg0PQ896kb"}
+2026-11-15 06:15:41,409 ERROR [world-news] generate error: bad response: Expecting property name enclosed in double quotes: line 34 column 2 (char 5269)
+2026-11-15 06:15:51,774 INFO [tech-news] nothing selected
+2026-11-15 06:15:53,708 ERROR [politics] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 1732, Requested 7887. Please try again in 12.1425s. Need more tokens? Upgrade to Dev Tier today at https://co
+2026-11-15 06:16:24,181 INFO [politics] published 2026-11-15-004 — Milburn's youth opportunity guarantee: welfare reform with l
+2026-11-15 06:16:29,106 INFO [politics] attempt 1 invalid: [": 'key_facts' is a required property", ": 'implications' is a required property"]
+2026-11-15 06:16:29,165 ERROR [politics] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7992, Requested 7293. Please try again in 54.6375s. Need more tokens? Upgrade to Dev Tier today at https://co
+2026-11-15 06:16:57,927 INFO [politics] published 2026-11-15-005 — UK ethics watchdog chief steps back from role over sexual mi
+2026-11-15 06:17:35,907 INFO [products] published 2026-11-15-006 — HiringNow
+2026-11-15 06:17:54,339 ERROR [products] generate error: bad response: Expecting property name enclosed in double quotes: line 33 column 2 (char 3880)
+2026-11-15 06:17:57,399 ERROR [products] generate error: HTTP 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Requested 8418, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https
+2026-11-15 06:18:26,272 ERROR [products] generate error: empty model content
+2026-11-15 06:18:36,118 INFO collect done: 4 item(s) published — target 6/10, next run ≈ 2026-11-15T06:33:36+00:00 UTC
+2026-11-15 06:19:14,557 ERROR [world-news] generate error: bad response: Expecting property name enclosed in double quotes: line 22 column 6 (char 1595)
+2026-11-15 06:19:35,939 ERROR [world-news] generate error: empty model content
+2026-11-15 06:19:44,713 ERROR [world-news] generate error: HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
+
+2026-11-15 06:20:21,871 ERROR [world-news] generate error: bad response: Expecting property name enclosed in double quotes: line 3 column 2 (char 54)
+2026-11-15 06:20:27,586 WARNING [world-news] no collect provider for deep-dive
+2026-11-15 06:20:31,770 WARNING [world-news] no collect provider for deep-dive
+2026-11-15 06:20:35,589 WARNING [tech-news] no collect provider available
+2026-11-15 06:23:23,680 ERROR [politics] generate error: empty model content
+2026-11-15 06:23:58,587 ERROR [politics] generate error: empty model content
+2026-11-15 06:27:39,170 ERROR [politics] generate error: bad response: Expecting ',' delimiter: line 61 column 132 (char 7519)
+2026-11-15 06:27:52,060 WARNING [politics] no collect provider for deep-dive
+2026-11-15 06:27:59,141 WARNING [products] no collect provider available
+2026-11-15 06:28:00,001 INFO collect done: 0 item(s) published — target 6/10, next run ≈ 2026-11-15T06:36:09+00:00 UTC
+2026-11-15 06:29:20,584 ERROR [world-news] generate error: empty model content
+2026-11-15 06:29:27,846 WARNING [world-news] no collect provider for deep-dive
+2026-11-15 06:29:32,132 WARNING [tech-news] no collect provider available
+2026-11-15 06:29:36,388 WARNING [politics] no collect provider available
+2026-11-15 06:29:40,608 WARNING [products] no collect provider available
+2026-11-15 06:29:41,541 INFO collect done: 0 item(s) published — target 6/10, next run ≈ 2026-11-15T06:37:20+00:00 UTC
+2026-11-15 06:29:50,889 ERROR [world-news] select failed: HTTP 429: {"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day: https://openrouter.ai/settings/credits?utm_source=api&utm_campaign=free_daily_limit","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50","X-RateLimit-Remaining":"0","X-Rat
+2026-11-15 06:29:50,970 INFO [world-news] model returned no selection — using heuristic fallback (3)
+2026-11-15 06:29:52,683 WARNING [world-news] no collect provider for deep-dive
+2026-11-15 06:29:54,245 WARNING [world-news] no collect provider for deep-dive
+2026-11-15 06:29:55,555 WARNING [world-news] no collect provider for deep-dive
+2026-11-15 06:29:57,145 WARNING [tech-news] no collect provider available
+2026-11-15 06:29:59,547 WARNING [politics] no collect provider available
+2026-11-15 06:30:00,835 WARNING [products] no collect provider available
+2026-11-15 06:30:01,577 INFO collect done: 0 item(s) published — target 6/10, next run ≈ 2026-11-15T06:38:20+00:00 UTC
+2026-11-15 06:33:45,877 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day: https://openrouter.ai/settings/credits?utm_source=api&utm_campaign=free_daily_limit","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50","X-RateLimit-Remaining":"0","X-Rat
+2026-11-15 06:33:50,356 WARNING [world-news] no collect provider for deep-dive
+2026-11-15 06:33:51,753 WARNING [world-news] no collect provider for deep-dive
+2026-11-15 06:33:53,660 WARNING [world-news] no collect provider for deep-dive
+2026-11-15 06:33:55,784 WARNING [tech-news] no collect provider available
+2026-11-15 06:33:58,049 WARNING [politics] no collect provider available
+2026-11-15 06:34:01,096 WARNING [products] no collect provider available
+2026-11-15 06:34:01,962 INFO collect done: 0 item(s) published — target 6/10, next run ≈ 2026-11-15T06:41:45+00:00 UTC

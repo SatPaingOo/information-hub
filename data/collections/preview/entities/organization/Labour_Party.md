@@ -1,7 +1,7 @@
 ---
 name: "Labour Party"
 entity_type: organization
-backlink_count: 39
+backlink_count: 40
 ---
 
 # Labour Party
@@ -10,6 +10,7 @@ backlink_count: 39
 
 ## Referenced by
 
+- 2026-11-15 · [[2026-11-15-005-uk-ethics-watchdog-chief-steps-back-from-role-over-sexual]] — UK ethics watchdog chief steps back from role over sexual misconduct claims
 - 2026-11-14 · [[2026-11-14-008-firm-offers-to-fake-artworks-for-wealthy-migrants-seeking]] — Firm offers to fake artworks for wealthy migrants seeking UK 'talent' visas - BBC investigation
 - 2026-11-12 · [[2026-11-12-004-some-under-25s-should-get-less-benefits-milburn-review-to]] — Some under-25s should get less benefits, Milburn review to say
 - 2026-11-11 · [[2026-11-11-004-tories-pledge-to-cut-benefits-for-children-with-milder]] — Tories pledge to cut benefits for children with 'milder cases' of ADHD

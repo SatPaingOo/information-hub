@@ -1,7 +1,7 @@
 ---
 name: "Volodymyr Zelensky"
 entity_type: person
-backlink_count: 47
+backlink_count: 48
 ---
 
 # Volodymyr Zelensky
@@ -10,6 +10,7 @@ backlink_count: 47
 
 ## Referenced by
 
+- 2026-11-15 · [[2026-11-15-001-us-has-floated-ukraine-ceding-donbas-for-nato-membership]] — US has floated Ukraine ceding Donbas for NATO membership, Zelensky says
 - 2026-11-13 · [[2026-11-13-002-zelensky-welcomes-us-bringing-europe-into-russia-ukraine]] — Zelensky welcomes US bringing Europe into Russia-Ukraine peace talks
 - 2026-11-12 · [[2026-11-12-003-russia-ukraine-talks-turn-to-post-war-security-but-end]] — Russia-Ukraine talks turn to post-war security but end without breakthrough
 - 2026-11-10 · [[2026-11-10-007-ukraine-peace-talks-resume-with-some-flexibility-by]] — Ukraine peace talks resume with 'some flexibility' by warring sides, US officials say

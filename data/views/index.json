@@ -1,5 +1,155 @@
 [
   {
+    "id": "info:item:world:global:2026-11-15-001",
+    "key": "2026-11-15-001",
+    "date": "2026-11-15",
+    "collection": "world-news",
+    "content_type": "digest",
+    "topic": "world",
+    "region": "global",
+    "categories": [
+      "policy",
+      "industry"
+    ],
+    "title": "US has floated Ukraine ceding Donbas for NATO membership, Zelensky says",
+    "tldr": "President Zelensky says US envoys suggested that Ukraine could regain NATO membership by withdrawing forces from the occupied Donbas. Washington has not confirmed the proposal, but the idea revives a contentious diplomatic track that could reshape the war’s ending framework.",
+    "source": "feeds.bbci.co.uk",
+    "source_url": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss",
+    "entities": [
+      "Volodymyr Zelensky",
+      "Jared Kushner",
+      "Vladimir Putin",
+      "NATO",
+      "United States"
+    ],
+    "tags": [
+      "Ukraine",
+      "Russia",
+      "NATO",
+      "Donbas",
+      "US diplomacy",
+      "European security"
+    ],
+    "word_count": 575,
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "verify": "lexical",
+    "file": "collections/data-set/2026-11-15-001-us-has-floated-ukraine-ceding-donbas-for-nato-membership.json"
+  },
+  {
+    "id": "info:item:politics:global:2026-11-15-004",
+    "key": "2026-11-15-004",
+    "date": "2026-11-15",
+    "collection": "politics",
+    "content_type": "digest",
+    "topic": "politics",
+    "region": "global",
+    "categories": [
+      "policy"
+    ],
+    "title": "Milburn's youth opportunity guarantee: welfare reform with legal force",
+    "tldr": "Alan Milburn has proposed a legal guarantee of a job, training or employment support for young people, backed by benefit sanctions for those who refuse help. The plan would shift spending from youth benefits toward employment support, but Prime Minister Andy Burnham has welcomed it without committing to every recommendation.",
+    "source": "feeds.bbci.co.uk",
+    "source_url": "https://www.bbc.co.uk/news/articles/c69vwp09d7vvo?at_medium=RSS&at_campaign=rss",
+    "entities": [
+      "Alan Milburn",
+      "Andy Burnham",
+      "Kemi Badenoch",
+      "Robert Jenrick",
+      "Zack Polanski",
+      "Trades Union Congress (TUC)",
+      "Department for Work and Pensions (DWP)",
+      "NEET",
+      "Universal Credit"
+    ],
+    "tags": [
+      "youth unemployment",
+      "welfare reform",
+      "opportunity guarantee",
+      "benefit sanctions",
+      "NEET",
+      "UK politics",
+      "Labour Party",
+      "employment policy"
+    ],
+    "word_count": 1133,
+    "provider": "openrouter",
+    "model": "openrouter/free",
+    "verify": "lexical",
+    "file": "collections/data-set/2026-11-15-004-milburn-s-youth-opportunity-guarantee-welfare-reform-with.json"
+  },
+  {
+    "id": "info:item:politics:global:2026-11-15-005",
+    "key": "2026-11-15-005",
+    "date": "2026-11-15",
+    "collection": "politics",
+    "content_type": "digest",
+    "topic": "politics",
+    "region": "global",
+    "categories": [
+      "policy"
+    ],
+    "title": "UK ethics watchdog chief steps back from role over sexual misconduct claims",
+    "tldr": "Stuart Sterling, the first chief executive of the UK's new Ethics and Integrity Commission, has stepped back after reports that he was investigated over alleged sexual misconduct in the early 2000s and again in 2008. The government says it is establishing the facts, while the Cabinet Office examines whether proper disclosures were made during his appointment.",
+    "source": "feeds.bbci.co.uk",
+    "source_url": "https://www.bbc.co.uk/news/articles/cmewv2kzq2e5o?at_medium=RSS&at_campaign=rss",
+    "entities": [
+      "Stuart Sterling",
+      "Ethics and Integrity Commission",
+      "Labour Party",
+      "Northamptonshire Police",
+      "Cabinet Office",
+      "Sunday Times"
+    ],
+    "tags": [
+      "UK politics",
+      "public integrity",
+      "ethics watchdog",
+      "misconduct allegations",
+      "vetting",
+      "regulation",
+      "Labour Party"
+    ],
+    "word_count": 949,
+    "provider": "openrouter",
+    "model": "openrouter/free",
+    "verify": "lexical",
+    "file": "collections/data-set/2026-11-15-005-uk-ethics-watchdog-chief-steps-back-from-role-over-sexual.json"
+  },
+  {
+    "id": "info:item:products:global:2026-11-15-006",
+    "key": "2026-11-15-006",
+    "date": "2026-11-15",
+    "collection": "products",
+    "content_type": "article",
+    "topic": "products",
+    "region": "global",
+    "categories": [
+      "product"
+    ],
+    "title": "HiringNow",
+    "tldr": "HiringNow uses agentic AI to autonomously scan job boards, customize applications, and submit them before human recruiters see them. It promises job seekers a decisive edge by automating the repetitive hunt for openings. Its Product Hunt debut has ignited interest amid broader debates over AI’s expanding role in employment.",
+    "source": "producthunt.com",
+    "source_url": "https://www.producthunt.com/products/hiringnow",
+    "entities": [
+      "OpenAI GPT-4",
+      "AgentGrid.io",
+      "HiringNow"
+    ],
+    "tags": [
+      "agentic AI",
+      "LLM",
+      "recruitment automation",
+      "job search",
+      "AI ethics"
+    ],
+    "word_count": 625,
+    "provider": "openrouter",
+    "model": "cohere/north-mini-code:free",
+    "verify": "lexical",
+    "file": "collections/data-set/2026-11-15-006-hiringnow.json"
+  },
+  {
     "id": "info:item:world:global:2026-11-14-002",
     "key": "2026-11-14-002",
     "date": "2026-11-14",
