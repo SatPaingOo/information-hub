@@ -11379,6 +11379,42 @@
       "name": "HiringNow"
     },
     {
+      "id": "info:item:world:global:2026-11-16-003",
+      "type": "item",
+      "date": "2026-11-16",
+      "title": "Five EU countries announce migrant deportation centre in Rwanda"
+    },
+    {
+      "id": "info:entity:region:Rwanda",
+      "type": "region",
+      "name": "Rwanda"
+    },
+    {
+      "id": "info:entity:organization:International Organisation for Migration",
+      "type": "organization",
+      "name": "International Organisation for Migration"
+    },
+    {
+      "id": "info:entity:organization:Human Rights Watch",
+      "type": "organization",
+      "name": "Human Rights Watch"
+    },
+    {
+      "id": "info:entity:organization:European Border and Coast Guard Agency",
+      "type": "organization",
+      "name": "European Border and Coast Guard Agency"
+    },
+    {
+      "id": "info:entity:organization:European Union Agency for Fundamental Rights",
+      "type": "organization",
+      "name": "European Union Agency for Fundamental Rights"
+    },
+    {
+      "id": "taxonomy/misc/Migration policy",
+      "type": "taxonomy",
+      "name": "Migration policy"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -51154,6 +51190,86 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-11-16-003",
+      "target": "info:entity:organization:European Union",
+      "relation": "passed the reform enabling external return hubs; the five member states act under its framework"
+    },
+    {
+      "source": "info:item:world:global:2026-11-16-003",
+      "target": "info:entity:region:Rwanda",
+      "relation": "host country for the proposed return hub"
+    },
+    {
+      "source": "info:item:world:global:2026-11-16-003",
+      "target": "info:entity:organization:International Organisation for Migration",
+      "relation": "in discussions with EU countries on return hubs; possible ancillary role"
+    },
+    {
+      "source": "info:item:world:global:2026-11-16-003",
+      "target": "info:entity:organization:Human Rights Watch",
+      "relation": "criticised the choice of Rwanda over its human-rights record"
+    },
+    {
+      "source": "info:item:world:global:2026-11-16-003",
+      "target": "info:entity:organization:European Border and Coast Guard Agency",
+      "relation": "provided irregular-crossing statistics cited in the announcement context"
+    },
+    {
+      "source": "info:item:world:global:2026-11-16-003",
+      "target": "info:entity:organization:European Union Agency for Fundamental Rights",
+      "relation": "set conditions on rights safeguards for any third-country hub"
+    },
+    {
+      "source": "info:item:world:global:2026-11-16-003",
+      "target": "info:item:world:global:2026-11-15-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-16-003",
+      "target": "info:item:world:global:2026-11-14-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-16-003",
+      "target": "info:item:world:global:2026-11-14-003",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-16-003",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-16-003",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-16-003",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-16-003",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-16-003",
+      "target": "taxonomy/misc/Geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-16-003",
+      "target": "taxonomy/misc/Migration policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-16-003",
+      "target": "taxonomy/misc/Human rights",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -61344,6 +61460,36 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:European Border and Coast Guard Agency",
+      "target": "info:entity:organization:European Union",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:European Border and Coast Guard Agency",
+      "target": "info:entity:organization:European Union Agency for Fundamental Rights",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:European Border and Coast Guard Agency",
+      "target": "info:entity:organization:Human Rights Watch",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:European Border and Coast Guard Agency",
+      "target": "info:entity:organization:International Organisation for Migration",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:European Border and Coast Guard Agency",
+      "target": "info:entity:region:Rwanda",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:European Broadcasting Union (EBU)",
       "target": "info:entity:organization:Islamic State (IS)",
       "relation": "co-occurs",
@@ -61484,6 +61630,24 @@
     {
       "source": "info:entity:organization:European Serbia",
       "target": "info:entity:person:Aleksandar Vučić",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:European Union",
+      "target": "info:entity:organization:European Union Agency for Fundamental Rights",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:European Union",
+      "target": "info:entity:organization:Human Rights Watch",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:European Union",
+      "target": "info:entity:organization:International Organisation for Migration",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -61669,7 +61833,31 @@
     },
     {
       "source": "info:entity:organization:European Union",
+      "target": "info:entity:region:Rwanda",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:European Union",
       "target": "info:entity:region:West Bank",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:European Union Agency for Fundamental Rights",
+      "target": "info:entity:organization:Human Rights Watch",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:European Union Agency for Fundamental Rights",
+      "target": "info:entity:organization:International Organisation for Migration",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:European Union Agency for Fundamental Rights",
+      "target": "info:entity:region:Rwanda",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -62634,6 +62822,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Human Rights Watch",
+      "target": "info:entity:organization:International Organisation for Migration",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Human Rights Watch",
+      "target": "info:entity:region:Rwanda",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Immigration and Customs Enforcement",
       "target": "info:entity:person:Laura Loomer",
       "relation": "co-occurs",
@@ -62774,6 +62974,12 @@
     {
       "source": "info:entity:organization:International Energy Agency (IEA)",
       "target": "info:entity:person:Emmanuel Macron",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:International Organisation for Migration",
+      "target": "info:entity:region:Rwanda",
       "relation": "co-occurs",
       "weight": "1"
     },

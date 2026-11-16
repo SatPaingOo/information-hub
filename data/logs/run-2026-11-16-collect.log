@@ -1,0 +1,28 @@
+2026-11-16 16:04:16,075 ERROR [world-news] select failed: HTTP 429: {"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day: https://openrouter.ai/settings/credits?utm_source=api&utm_campaign=free_daily_limit","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50","X-RateLimit-Remaining":"0","X-Rat
+2026-11-16 16:04:16,143 INFO [world-news] model returned no selection — using heuristic fallback (3)
+2026-11-16 16:04:21,530 ERROR [world-news] generate error: HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
+
+2026-11-16 16:04:24,574 ERROR [world-news] generate error: HTTP 404: {"error":{"message":"poolside/laguna-xs-2.1:free is no longer available on OpenRouter: no provider serves this model anymore. See available models at https://openrouter.ai/models","code":404},"user_id":"user_2mqLaYz9PPTm2loHhHg0PQ896kb"}
+2026-11-16 16:04:30,639 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day: https://openrouter.ai/settings/credits?utm_source=api&utm_campaign=free_daily_limit","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50","X-RateLimit-Remaining":"0","X-Rat
+2026-11-16 16:04:39,780 ERROR [world-news] generate error: HTTP 404: {"error":{"message":"This model is unavailable for free. The paid version is available now - use this slug instead: nvidia/nemotron-3-super-120b-a12b","code":404},"user_id":"user_2mqLaYz9PPTm2loHhHg0PQ896kb"}
+2026-11-16 16:04:42,815 ERROR [world-news] generate error: HTTP 404: {"error":{"message":"poolside/laguna-s-2.1:free is no longer available on OpenRouter: no provider serves this model anymore. See available models at https://openrouter.ai/models","code":404},"user_id":"user_2mqLaYz9PPTm2loHhHg0PQ896kb"}
+2026-11-16 16:04:48,928 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day: https://openrouter.ai/settings/credits?utm_source=api&utm_campaign=free_daily_limit","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50","X-RateLimit-Remaining":"0","X-Rat
+2026-11-16 16:09:29,283 INFO [world-news] published 2026-11-16-003 — Five EU countries announce migrant deportation centre in Rwa
+2026-11-16 16:09:30,195 ERROR [tech-news] select failed: HTTP 429: {"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day: https://openrouter.ai/settings/credits?utm_source=api&utm_campaign=free_daily_limit","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50","X-RateLimit-Remaining":"0","X-Rat
+2026-11-16 16:09:30,212 INFO [tech-news] nothing selected
+2026-11-16 16:09:30,569 ERROR [politics] select failed: HTTP 429: {"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day: https://openrouter.ai/settings/credits?utm_source=api&utm_campaign=free_daily_limit","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50","X-RateLimit-Remaining":"0","X-Rat
+2026-11-16 16:09:30,622 INFO [politics] model returned no selection — using heuristic fallback (2)
+2026-11-16 16:17:25,880 ERROR [politics] generate error: empty model content
+2026-11-16 16:17:29,002 ERROR [politics] generate error: HTTP 429: {"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day: https://openrouter.ai/settings/credits?utm_source=api&utm_campaign=free_daily_limit","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50","X-RateLimit-Remaining":"0","X-Rat
+2026-11-16 16:17:35,380 ERROR [politics] generate error: HTTP 413: {"error":{"message":"Request too large for model `openai/gpt-oss-20b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Requested 8010, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https:
+2026-11-16 16:17:46,405 WARNING [politics] no collect provider for deep-dive
+2026-11-16 16:17:51,133 WARNING [products] no collect provider available
+2026-11-16 16:17:51,915 INFO collect done: 1 item(s) published — target 9/10, next run ≈ 2026-11-16T16:25:25+00:00 UTC
+2026-11-16 16:22:41,403 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day: https://openrouter.ai/settings/credits?utm_source=api&utm_campaign=free_daily_limit","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50","X-RateLimit-Remaining":"0","X-Rat
+2026-11-16 16:22:45,257 WARNING [world-news] no collect provider for deep-dive
+2026-11-16 16:22:46,448 WARNING [world-news] no collect provider for deep-dive
+2026-11-16 16:22:47,933 WARNING [world-news] no collect provider for deep-dive
+2026-11-16 16:22:49,631 WARNING [tech-news] no collect provider available
+2026-11-16 16:22:56,036 WARNING [politics] no collect provider available
+2026-11-16 16:22:58,597 WARNING [products] no collect provider available
+2026-11-16 16:22:59,385 INFO collect done: 0 item(s) published — target 9/10, next run ≈ 2026-11-16T16:30:41+00:00 UTC

@@ -1,7 +1,7 @@
 ---
 node: "world"
 layer: topic
-item_count: 360
+item_count: 361
 ---
 
 # world
@@ -17,6 +17,7 @@ item_count: 360
 
 ## Items
 
+- 2026-11-16 · [[2026-11-16-003-five-eu-countries-announce-migrant-deportation-centre-in]] — Five EU countries announce migrant deportation centre in Rwanda
 - 2026-11-15 · [[2026-11-15-001-us-has-floated-ukraine-ceding-donbas-for-nato-membership]] — US has floated Ukraine ceding Donbas for NATO membership, Zelensky says
 - 2026-11-14 · [[2026-11-14-002-microsoft-deeply-sorry-for-global-outage-after-almost-24]] — Microsoft 'deeply sorry' for global outage after almost 24 hours of disruption
 - 2026-11-14 · [[2026-11-14-003-why-is-microsoft-s-outage-lasting-so-long-and-will-emails]] — Why is Microsoft's outage lasting so long and will emails be lost?

@@ -1,7 +1,7 @@
 ---
 node: "Global"
 layer: misc
-item_count: 615
+item_count: 616
 ---
 
 # Global
@@ -25,6 +25,7 @@ item_count: 615
 
 ## Items
 
+- 2026-11-16 · [[2026-11-16-003-five-eu-countries-announce-migrant-deportation-centre-in]] — Five EU countries announce migrant deportation centre in Rwanda
 - 2026-11-15 · [[2026-11-15-001-us-has-floated-ukraine-ceding-donbas-for-nato-membership]] — US has floated Ukraine ceding Donbas for NATO membership, Zelensky says
 - 2026-11-15 · [[2026-11-15-004-milburn-s-youth-opportunity-guarantee-welfare-reform-with]] — Milburn's youth opportunity guarantee: welfare reform with legal force
 - 2026-11-15 · [[2026-11-15-005-uk-ethics-watchdog-chief-steps-back-from-role-over-sexual]] — UK ethics watchdog chief steps back from role over sexual misconduct claims

@@ -1,7 +1,7 @@
 ---
 node: "Human Rights"
 layer: misc
-item_count: 22
+item_count: 23
 ---
 
 # Human Rights
@@ -16,6 +16,7 @@ item_count: 22
 
 ## Items
 
+- 2026-11-16 · [[2026-11-16-003-five-eu-countries-announce-migrant-deportation-centre-in]] — Five EU countries announce migrant deportation centre in Rwanda
 - 2026-11-04 · [[2026-11-04-004-miliband-says-slavery-apology-will-not-bring-cost-for-uk]] — Miliband says slavery apology will not bring cost for UK taxpayers
 - 2026-10-25 · [[2026-10-25-003-palestinian-families-displaced-as-israeli-forces-demolish]] — Palestinian families displaced as Israeli forces demolish Hebron homes
 - 2026-10-23 · [[2026-10-23-001-hospitals-deliberately-targeted-by-sudan-s-rsf-fighters]] — Hospitals deliberately targeted by Sudan's RSF fighters, BBC investigation finds
