@@ -1,7 +1,7 @@
 ---
 node: "Artificial Intelligence"
 layer: misc
-item_count: 12
+item_count: 13
 ---
 
 # Artificial Intelligence
@@ -10,11 +10,13 @@ item_count: 12
 
 ## Cross-layer relations
 
+- [[politics]] — *relates*
 - [[products]] — *relates*
 - [[world]] — *relates*
 
 ## Items
 
+- 2026-11-15 · [[2026-11-15-007-uk-will-have-voice-but-no-vote-on-eu-food-rules-in-brexit]] — UK will have 'voice' but no vote on EU food rules in Brexit reset
 - 2026-11-05 · [[2026-11-05-006-render-sandboxes-a-cloud-native-playground-for-agentic-ai]] — Render Sandboxes – A Cloud‑Native Playground for Agentic AI
 - 2026-10-28 · [[2026-10-28-007-openradview-open-source-ai-ready-viewer-for-ct-mri-and-x]] — OpenRadView: Open‑Source, AI‑Ready Viewer for CT, MRI and X‑Ray Imaging
 - 2026-10-26 · [[2026-10-26-007-agentgrid-io-a-shared-workspace-for-humans-and-ai-agents]] — AgentGrid.io – A Shared Workspace for Humans and AI Agents

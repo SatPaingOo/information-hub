@@ -1,7 +1,7 @@
 ---
 node: "Brexit"
 layer: misc
-item_count: 3
+item_count: 4
 ---
 
 # Brexit
@@ -14,6 +14,7 @@ item_count: 3
 
 ## Items
 
+- 2026-11-15 · [[2026-11-15-007-uk-will-have-voice-but-no-vote-on-eu-food-rules-in-brexit]] — UK will have 'voice' but no vote on EU food rules in Brexit reset
 - 2026-11-09 · [[2026-11-09-005-nandy-rejects-claims-of-politicising-remembrance-sunday]] — Nandy rejects claims of politicising Remembrance Sunday after Erasmus row
 - 2026-11-01 · [[2026-11-01-005-reeves-says-uk-s-future-should-be-inside-the-eu]] — Reeves says UK's future should be inside the EU
 - 2026-10-13 · [[2026-10-13-004-burnham-to-push-for-new-post-brexit-deals-at-eu-summit]] — Burnham to push for new post-Brexit deals at EU summit

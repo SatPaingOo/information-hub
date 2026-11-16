@@ -1,7 +1,7 @@
 ---
 node: "LLM"
 layer: misc
-item_count: 97
+item_count: 99
 ---
 
 # LLM
@@ -18,6 +18,8 @@ item_count: 97
 ## Items
 
 - 2026-11-15 · [[2026-11-15-006-hiringnow]] — HiringNow
+- 2026-11-15 · [[2026-11-15-009-talyn]] — Talyn
+- 2026-11-15 · [[2026-11-15-010-pixel-office]] — Pixel Office
 - 2026-11-11 · [[2026-11-11-006-sidekick-by-open]] — SideKick By Open
 - 2026-11-09 · [[2026-11-09-006-agent-clan]] — Agent Clan
 - 2026-11-07 · [[2026-11-07-006-rankfender-v3-0]] — Rankfender v3.0

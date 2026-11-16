@@ -1,7 +1,7 @@
 ---
 name: "Elon Musk"
 entity_type: person
-backlink_count: 8
+backlink_count: 9
 ---
 
 # Elon Musk
@@ -10,6 +10,7 @@ backlink_count: 8
 
 ## Referenced by
 
+- 2026-11-16 · [[2026-11-16-002-zelensky-urges-us-and-musk-to-lift-starlink-restrictions]] — Zelensky Urges US and Musk to Lift Starlink Restrictions and Be on 'Right Side of History'
 - 2026-10-25 · [[2026-10-25-002-ukraine-says-starlink-connection-now-stable-after-network]] — Ukraine says Starlink connection 'now stable' after network limits
 - 2026-10-23 · [[2026-10-23-002-trump-says-musk-has-restored-access-to-ukraine-s-starlink]] — Trump says Musk has restored access to Ukraine's Starlink network
 - 2026-10-21 · [[2026-10-21-003-elon-musk-says-tesla-spacex-merger-being-considered]] — Elon Musk says Tesla-SpaceX merger being considered

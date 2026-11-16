@@ -1,7 +1,7 @@
 ---
 node: "Agentic AI"
 layer: misc
-item_count: 118
+item_count: 120
 ---
 
 # Agentic AI
@@ -18,6 +18,8 @@ item_count: 118
 ## Items
 
 - 2026-11-15 · [[2026-11-15-006-hiringnow]] — HiringNow
+- 2026-11-15 · [[2026-11-15-009-talyn]] — Talyn
+- 2026-11-15 · [[2026-11-15-010-pixel-office]] — Pixel Office
 - 2026-11-14 · [[2026-11-14-009-filament-by-galaxy-open-source-data-movement-for-terminal]] — Filament by Galaxy: Open-Source Data Movement for Terminal and Agentic Workflows
 - 2026-11-12 · [[2026-11-12-006-nod-by-n8n-the-open-source-personal-agent-redefining]] — Nod by n8n: The Open‑Source Personal Agent Redefining Automation
 - 2026-11-11 · [[2026-11-11-006-sidekick-by-open]] — SideKick By Open

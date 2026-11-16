@@ -1,7 +1,7 @@
 ---
 node: "products"
 layer: topic
-item_count: 105
+item_count: 107
 ---
 
 # products
@@ -17,6 +17,8 @@ item_count: 105
 ## Items
 
 - 2026-11-15 · [[2026-11-15-006-hiringnow]] — HiringNow
+- 2026-11-15 · [[2026-11-15-009-talyn]] — Talyn
+- 2026-11-15 · [[2026-11-15-010-pixel-office]] — Pixel Office
 - 2026-11-14 · [[2026-11-14-009-filament-by-galaxy-open-source-data-movement-for-terminal]] — Filament by Galaxy: Open-Source Data Movement for Terminal and Agentic Workflows
 - 2026-11-14 · [[2026-11-14-009-filament-by-galaxy-open-source-data-movement-for-terminal]] — Filament by Galaxy: Open-Source Data Movement for Terminal and Agentic Workflows
 - 2026-11-13 · [[2026-11-13-006-toki-matter]] — Toki Matter

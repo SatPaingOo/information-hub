@@ -1,7 +1,7 @@
 ---
 node: "global security"
 layer: misc
-item_count: 4
+item_count: 5
 ---
 
 # global security
@@ -14,6 +14,7 @@ item_count: 4
 
 ## Items
 
+- 2026-11-16 · [[2026-11-16-002-zelensky-urges-us-and-musk-to-lift-starlink-restrictions]] — Zelensky Urges US and Musk to Lift Starlink Restrictions and Be on 'Right Side of History'
 - 2026-11-12 · [[2026-11-12-003-russia-ukraine-talks-turn-to-post-war-security-but-end]] — Russia-Ukraine talks turn to post-war security but end without breakthrough
 - 2026-10-31 · [[2026-10-31-008-us-approves-sale-of-500-patriot-missiles-to-ukraine]] — US approves sale of 500 Patriot missiles to Ukraine
 - 2026-10-19 · [[2026-10-19-003-major-fire-at-canada-military-base-leaves-four-dead-dozens]] — Major fire at Canada military base leaves four dead, dozens injured

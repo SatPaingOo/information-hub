@@ -1,7 +1,7 @@
 ---
 node: "Policy"
 layer: misc
-item_count: 489
+item_count: 491
 ---
 
 # Policy
@@ -17,9 +17,11 @@ item_count: 489
 
 ## Items
 
+- 2026-11-16 · [[2026-11-16-002-zelensky-urges-us-and-musk-to-lift-starlink-restrictions]] — Zelensky Urges US and Musk to Lift Starlink Restrictions and Be on 'Right Side of History'
 - 2026-11-15 · [[2026-11-15-001-us-has-floated-ukraine-ceding-donbas-for-nato-membership]] — US has floated Ukraine ceding Donbas for NATO membership, Zelensky says
 - 2026-11-15 · [[2026-11-15-004-milburn-s-youth-opportunity-guarantee-welfare-reform-with]] — Milburn's youth opportunity guarantee: welfare reform with legal force
 - 2026-11-15 · [[2026-11-15-005-uk-ethics-watchdog-chief-steps-back-from-role-over-sexual]] — UK ethics watchdog chief steps back from role over sexual misconduct claims
+- 2026-11-15 · [[2026-11-15-007-uk-will-have-voice-but-no-vote-on-eu-food-rules-in-brexit]] — UK will have 'voice' but no vote on EU food rules in Brexit reset
 - 2026-11-14 · [[2026-11-14-002-microsoft-deeply-sorry-for-global-outage-after-almost-24]] — Microsoft 'deeply sorry' for global outage after almost 24 hours of disruption
 - 2026-11-14 · [[2026-11-14-003-why-is-microsoft-s-outage-lasting-so-long-and-will-emails]] — Why is Microsoft's outage lasting so long and will emails be lost?
 - 2026-11-14 · [[2026-11-14-008-firm-offers-to-fake-artworks-for-wealthy-migrants-seeking]] — Firm offers to fake artworks for wealthy migrants seeking UK 'talent' visas - BBC investigation

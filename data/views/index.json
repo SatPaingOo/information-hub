@@ -1,5 +1,42 @@
 [
   {
+    "id": "info:item:world:global:2026-11-16-002",
+    "key": "2026-11-16-002",
+    "date": "2026-11-16",
+    "collection": "world-news",
+    "content_type": "digest",
+    "topic": "world",
+    "region": "global",
+    "categories": [
+      "policy",
+      "industry"
+    ],
+    "title": "Zelensky Urges US and Musk to Lift Starlink Restrictions and Be on 'Right Side of History'",
+    "tldr": "Ukrainian President Volodymyr Zelensky calls for the removal of speed limits on the US‑provided Starshield satellite internet service, warning that slowed connectivity hampers efforts to stop Russian attacks and threatens energy infrastructure ahead of winter.",
+    "source": "feeds.bbci.co.uk",
+    "source_url": "https://www.bbc.co.uk/news/articles/c6m25zg88k45o?at_medium=RSS&at_campaign=rss",
+    "entities": [
+      "Volodymyr Zelensky",
+      "Elon Musk",
+      "Starlink",
+      "SpaceX",
+      "US Department of Defense"
+    ],
+    "tags": [
+      "Starlink",
+      "Ukraine",
+      "geopolitics",
+      "satellite communications",
+      "US-Russia relations",
+      "defense technology"
+    ],
+    "word_count": 607,
+    "provider": "openrouter",
+    "model": "cohere/north-mini-code:free",
+    "verify": "lexical",
+    "file": "collections/data-set/2026-11-16-002-zelensky-urges-us-and-musk-to-lift-starlink-restrictions.json"
+  },
+  {
     "id": "info:item:world:global:2026-11-15-001",
     "key": "2026-11-15-001",
     "date": "2026-11-15",
@@ -148,6 +185,113 @@
     "model": "cohere/north-mini-code:free",
     "verify": "lexical",
     "file": "collections/data-set/2026-11-15-006-hiringnow.json"
+  },
+  {
+    "id": "info:item:politics:global:2026-11-15-007",
+    "key": "2026-11-15-007",
+    "date": "2026-11-15",
+    "collection": "politics",
+    "content_type": "digest",
+    "topic": "politics",
+    "region": "global",
+    "categories": [
+      "policy"
+    ],
+    "title": "UK will have 'voice' but no vote on EU food rules in Brexit reset",
+    "tldr": "The UK will gain a consultative \"voice\" on EU food standards under a new Brexit reset, but will not retain voting rights, sparking debate over regulatory sovereignty, trade costs and the future of UK‑EU food relations.",
+    "source": "feeds.bbci.co.uk",
+    "source_url": "https://www.bbc.co.uk/news/articles/c6wy4l8nl42wo?at_medium=RSS&at_campaign=rss",
+    "entities": [
+      "Hamish Falconer",
+      "Andy Burnham",
+      "European Union",
+      "National Farmers' Union",
+      "Large Language Model (LLM)"
+    ],
+    "tags": [
+      "Brexit",
+      "food safety",
+      "trade policy",
+      "RegTech",
+      "AI",
+      "LLM",
+      "EU-UK relations"
+    ],
+    "word_count": 682,
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "verify": "unverified",
+    "file": "collections/data-set/2026-11-15-007-uk-will-have-voice-but-no-vote-on-eu-food-rules-in-brexit.json"
+  },
+  {
+    "id": "info:item:products:global:2026-11-15-009",
+    "key": "2026-11-15-009",
+    "date": "2026-11-15",
+    "collection": "products",
+    "content_type": "article",
+    "topic": "products",
+    "region": "global",
+    "categories": [
+      "product"
+    ],
+    "title": "Talyn",
+    "tldr": "Talyn launches a parallel sandbox platform that runs Claude Code and OpenAI Codex side‑by‑side in isolated cloud environments, promising faster, safer AI‑assisted development. Early adopters highlight reduced latency and tighter security for building complex codebases, positioning Talyn as a key tool for enterprises navigating emerging AI regulation.",
+    "source": "producthunt.com",
+    "source_url": "https://www.producthunt.com/products/talyn",
+    "entities": [
+      "Talyn",
+      "Claude Opus 4.7",
+      "OpenAI",
+      "Product Hunt"
+    ],
+    "tags": [
+      "agentic AI",
+      "LLM",
+      "cloud sandbox",
+      "AI regulation",
+      "open-source",
+      "development tools"
+    ],
+    "word_count": 585,
+    "provider": "openrouter",
+    "model": "cohere/north-mini-code:free",
+    "verify": "unverified",
+    "file": "collections/data-set/2026-11-15-009-talyn.json"
+  },
+  {
+    "id": "info:item:products:global:2026-11-15-010",
+    "key": "2026-11-15-010",
+    "date": "2026-11-15",
+    "collection": "products",
+    "content_type": "article",
+    "topic": "products",
+    "region": "global",
+    "categories": [
+      "product"
+    ],
+    "title": "Pixel Office",
+    "tldr": "Pixel Office lets teams run AI agents from a pixel‑art office, offering a playful yet functional interface for agent orchestration. It taps into leading LLMs and agentic frameworks to simplify workflow automation for businesses of all sizes.",
+    "source": "producthunt.com",
+    "source_url": "https://www.producthunt.com/products/pixel-office-3",
+    "entities": [
+      "Pixel Office",
+      "OpenAI",
+      "Gemini"
+    ],
+    "tags": [
+      "AI agents",
+      "agentic AI",
+      "LLM integration",
+      "pixel art UI",
+      "workflow automation",
+      "data privacy",
+      "Product Hunt"
+    ],
+    "word_count": 619,
+    "provider": "openrouter",
+    "model": "cohere/north-mini-code:free",
+    "verify": "unverified",
+    "file": "collections/data-set/2026-11-15-010-pixel-office.json"
   },
   {
     "id": "info:item:world:global:2026-11-14-002",

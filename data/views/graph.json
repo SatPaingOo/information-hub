@@ -11379,6 +11379,70 @@
       "name": "HiringNow"
     },
     {
+      "id": "info:item:politics:global:2026-11-15-007",
+      "type": "item",
+      "date": "2026-11-15",
+      "title": "UK will have 'voice' but no vote on EU food rules in Brexit reset"
+    },
+    {
+      "id": "info:entity:person:Hamish Falconer",
+      "type": "person",
+      "name": "Hamish Falconer"
+    },
+    {
+      "id": "info:entity:organization:National Farmers' Union",
+      "type": "organization",
+      "name": "National Farmers' Union"
+    },
+    {
+      "id": "info:entity:concept:Large Language Model (LLM)",
+      "type": "concept",
+      "name": "Large Language Model (LLM)"
+    },
+    {
+      "id": "taxonomy/misc/Food Regulation",
+      "type": "taxonomy",
+      "name": "Food Regulation"
+    },
+    {
+      "id": "info:item:products:global:2026-11-15-009",
+      "type": "item",
+      "date": "2026-11-15",
+      "title": "Talyn"
+    },
+    {
+      "id": "info:entity:product:Talyn",
+      "type": "product",
+      "name": "Talyn"
+    },
+    {
+      "id": "info:item:products:global:2026-11-15-010",
+      "type": "item",
+      "date": "2026-11-15",
+      "title": "Pixel Office"
+    },
+    {
+      "id": "info:entity:product:Pixel Office",
+      "type": "product",
+      "name": "Pixel Office"
+    },
+    {
+      "id": "info:item:world:global:2026-11-16-002",
+      "type": "item",
+      "date": "2026-11-16",
+      "title": "Zelensky Urges US and Musk to Lift Starlink Restrictions and Be on 'Right Side of History'"
+    },
+    {
+      "id": "taxonomy/misc/telecommunications",
+      "type": "taxonomy",
+      "name": "telecommunications"
+    },
+    {
+      "id": "taxonomy/misc/US-Ukraine relations",
+      "type": "taxonomy",
+      "name": "US-Ukraine relations"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -51154,6 +51218,256 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:politics:global:2026-11-15-007",
+      "target": "info:entity:person:Hamish Falconer",
+      "relation": "EU relations minister presenting the reset"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-15-007",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "UK prime minister championing the deal"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-15-007",
+      "target": "info:entity:organization:European Union",
+      "relation": "Regulatory authority setting food standards"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-15-007",
+      "target": "info:entity:organization:National Farmers' Union",
+      "relation": "Industry body assessing impact"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-15-007",
+      "target": "info:entity:concept:Large Language Model (LLM)",
+      "relation": "Technology enabling automated compliance"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-15-007",
+      "target": "info:item:politics:global:2026-11-15-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-15-007",
+      "target": "info:item:politics:global:2026-11-15-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-15-007",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-15-007",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-15-007",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-15-007",
+      "target": "taxonomy/misc/Brexit",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-15-007",
+      "target": "taxonomy/misc/Food Regulation",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-15-007",
+      "target": "taxonomy/misc/Artificial Intelligence",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-11-15-009",
+      "target": "info:entity:product:Talyn",
+      "relation": "provides parallel sandbox for AI code generation"
+    },
+    {
+      "source": "info:item:products:global:2026-11-15-009",
+      "target": "info:entity:model:Claude Opus 4.7",
+      "relation": "AI model run in Talyn sandboxes"
+    },
+    {
+      "source": "info:item:products:global:2026-11-15-009",
+      "target": "info:entity:company:OpenAI",
+      "relation": "provider of Codex and GPT‑4‑Turbo used by Talyn"
+    },
+    {
+      "source": "info:item:products:global:2026-11-15-009",
+      "target": "info:entity:organization:Product Hunt",
+      "relation": "platform where Talyn launched"
+    },
+    {
+      "source": "info:item:products:global:2026-11-15-009",
+      "target": "info:item:products:global:2026-11-15-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-11-15-009",
+      "target": "info:item:products:global:2026-11-13-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-11-15-009",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-11-15-009",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-11-15-009",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-11-15-009",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-11-15-009",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-11-15-009",
+      "target": "taxonomy/misc/regulation",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-11-15-010",
+      "target": "info:entity:product:Pixel Office",
+      "relation": "offers AI agent orchestration"
+    },
+    {
+      "source": "info:item:products:global:2026-11-15-010",
+      "target": "info:entity:company:OpenAI",
+      "relation": "provides GPT‑4‑Turbo API used by Pixel Office"
+    },
+    {
+      "source": "info:item:products:global:2026-11-15-010",
+      "target": "info:entity:model:Gemini",
+      "relation": "supported LLM backend in Pixel Office"
+    },
+    {
+      "source": "info:item:products:global:2026-11-15-010",
+      "target": "info:item:products:global:2026-11-15-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-11-15-010",
+      "target": "info:item:products:global:2026-11-15-009",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-11-15-010",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-11-15-010",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-11-15-010",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-11-15-010",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-11-15-010",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-11-15-010",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-16-002",
+      "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "President of Ukraine, primary requester of Starlink restriction lift"
+    },
+    {
+      "source": "info:item:world:global:2026-11-16-002",
+      "target": "info:entity:person:Elon Musk",
+      "relation": "Owner of SpaceX, operator of Starlink and Starshield"
+    },
+    {
+      "source": "info:item:world:global:2026-11-16-002",
+      "target": "info:entity:product:Starlink",
+      "relation": "Commercial satellite internet constellation used by Ukraine"
+    },
+    {
+      "source": "info:item:world:global:2026-11-16-002",
+      "target": "info:entity:company:SpaceX",
+      "relation": "Developer and operator of Starlink/Starshield services"
+    },
+    {
+      "source": "info:item:world:global:2026-11-16-002",
+      "target": "info:entity:organization:US Department of Defense",
+      "relation": "Provider of Starshield to Ukraine and arbiter of speed restrictions"
+    },
+    {
+      "source": "info:item:world:global:2026-11-16-002",
+      "target": "info:item:world:global:2026-11-15-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-16-002",
+      "target": "info:item:world:global:2026-11-14-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-16-002",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-16-002",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-16-002",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-16-002",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-16-002",
+      "target": "taxonomy/misc/global security",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-16-002",
+      "target": "taxonomy/misc/telecommunications",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-16-002",
+      "target": "taxonomy/misc/US-Ukraine relations",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -53887,6 +54201,12 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:model:Claude Opus 4.7",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:model:Codex",
       "relation": "co-occurs",
       "weight": "1"
@@ -53937,7 +54257,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "71"
+      "weight": "72"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -54218,6 +54538,12 @@
     {
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:organization:Polish Interior Ministry",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:organization:Product Hunt",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -54937,6 +55263,12 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:product:Pixel Office",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:product:Pluto",
       "relation": "co-occurs",
       "weight": "1"
@@ -54986,6 +55318,12 @@
     {
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:product:SurgePix",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:product:Talyn",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -55321,6 +55659,12 @@
     },
     {
       "source": "info:entity:company:SpaceX",
+      "target": "info:entity:organization:US Department of Defense",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:SpaceX",
       "target": "info:entity:person:Dario Amodei",
       "relation": "co-occurs",
       "weight": "1"
@@ -55335,7 +55679,7 @@
       "source": "info:entity:company:SpaceX",
       "target": "info:entity:person:Elon Musk",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:company:SpaceX",
@@ -55347,13 +55691,13 @@
       "source": "info:entity:company:SpaceX",
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:company:SpaceX",
       "target": "info:entity:product:Starlink",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:company:Speakeasy",
@@ -56720,6 +57064,30 @@
     {
       "source": "info:entity:concept:LSTM Decoder",
       "target": "info:entity:model:Conditioning LSTM Decoder",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Large Language Model (LLM)",
+      "target": "info:entity:organization:European Union",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Large Language Model (LLM)",
+      "target": "info:entity:organization:National Farmers' Union",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Large Language Model (LLM)",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Large Language Model (LLM)",
+      "target": "info:entity:person:Hamish Falconer",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -58135,6 +58503,12 @@
     },
     {
       "source": "info:entity:model:Claude Opus 4.7",
+      "target": "info:entity:organization:Product Hunt",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Claude Opus 4.7",
       "target": "info:entity:person:Eunice Yiu",
       "relation": "co-occurs",
       "weight": "1"
@@ -58142,6 +58516,12 @@
     {
       "source": "info:entity:model:Claude Opus 4.7",
       "target": "info:entity:product:AgentValley",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Claude Opus 4.7",
+      "target": "info:entity:product:Talyn",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -58910,6 +59290,12 @@
     {
       "source": "info:entity:model:Gemini",
       "target": "info:entity:product:Maritime",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
+      "target": "info:entity:product:Pixel Office",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -61501,6 +61887,12 @@
     },
     {
       "source": "info:entity:organization:European Union",
+      "target": "info:entity:organization:National Farmers' Union",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:European Union",
       "target": "info:entity:organization:National Weather Service",
       "relation": "co-occurs",
       "weight": "1"
@@ -61533,7 +61925,7 @@
       "source": "info:entity:organization:European Union",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
-      "weight": "5"
+      "weight": "6"
     },
     {
       "source": "info:entity:organization:European Union",
@@ -61568,6 +61960,12 @@
     {
       "source": "info:entity:organization:European Union",
       "target": "info:entity:person:Friedrich Merz",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:European Union",
+      "target": "info:entity:person:Hamish Falconer",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -64176,6 +64574,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:National Farmers' Union",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:National Farmers' Union",
+      "target": "info:entity:person:Hamish Falconer",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:National Housing Federation",
       "target": "info:entity:organization:Shelter",
       "relation": "co-occurs",
@@ -64892,6 +65302,12 @@
     {
       "source": "info:entity:organization:Product Hunt",
       "target": "info:entity:product:Filament",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Product Hunt",
+      "target": "info:entity:product:Talyn",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -66193,6 +66609,12 @@
     },
     {
       "source": "info:entity:organization:US Department of Defense",
+      "target": "info:entity:person:Elon Musk",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:US Department of Defense",
       "target": "info:entity:person:Jens-Frederik Nielsen",
       "relation": "co-occurs",
       "weight": "1"
@@ -66200,6 +66622,18 @@
     {
       "source": "info:entity:organization:US Department of Defense",
       "target": "info:entity:person:Mette Frederiksen",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:US Department of Defense",
+      "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:US Department of Defense",
+      "target": "info:entity:product:Starlink",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -67214,6 +67648,12 @@
     {
       "source": "info:entity:person:Andy Burnham",
       "target": "info:entity:person:Gordon Brown",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Andy Burnham",
+      "target": "info:entity:person:Hamish Falconer",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -68745,13 +69185,13 @@
       "source": "info:entity:person:Elon Musk",
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
-      "weight": "4"
+      "weight": "5"
     },
     {
       "source": "info:entity:person:Elon Musk",
       "target": "info:entity:product:Starlink",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:person:Elon Musk",
@@ -70179,7 +70619,7 @@
       "source": "info:entity:person:Volodymyr Zelensky",
       "target": "info:entity:product:Starlink",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:person:Volodymyr Zelensky",

@@ -1,0 +1,64 @@
+2026-11-16 00:06:54,916 ERROR [world-news] generate error: bad response: Expecting property name enclosed in double quotes: line 6 column 3 (char 132)
+2026-11-16 00:07:00,433 ERROR [world-news] generate error: HTTP 400: {"error":{"message":"Provider returned error","code":400,"metadata":{"raw":"{\"code\":400,\"msg\":\"bad request\",\"request_id\":\"1c9299c8-50f4-4439-bbf4-e31a8d599160\"}","provider_name":"AtlasCloud","is_byok":false}},"user_id":"user_2mqLaYz9PPTm2loHhHg0PQ896kb"}
+2026-11-16 00:07:06,504 ERROR [world-news] generate error: HTTP 404: {"error":{"message":"This model is unavailable for free. The paid version is available now - use this slug instead: nvidia/nemotron-3-super-120b-a12b","code":404},"user_id":"user_2mqLaYz9PPTm2loHhHg0PQ896kb"}
+2026-11-16 00:07:15,838 ERROR [world-news] generate error: HTTP 404: {"error":{"message":"poolside/laguna-s-2.1:free is no longer available on OpenRouter: no provider serves this model anymore. See available models at https://openrouter.ai/models","code":404},"user_id":"user_2mqLaYz9PPTm2loHhHg0PQ896kb"}
+2026-11-16 00:07:49,587 ERROR [world-news] generate error: bad response: Unterminated string starting at: line 1 column 7442 (char 7441)
+2026-11-16 00:09:02,431 INFO [world-news] published 2026-11-16-002 — Zelensky Urges US and Musk to Lift Starlink Restrictions and
+2026-11-16 00:09:26,261 ERROR [world-news] generate error: bad response: Expecting property name enclosed in double quotes: line 34 column 3 (char 4123)
+2026-11-16 00:09:47,311 ERROR [world-news] generate error: bad response: Unterminated string starting at: line 31 column 18 (char 3158)
+2026-11-16 00:09:53,454 ERROR [world-news] generate error: HTTP 413: {"error":{"message":"Request too large for model `openai/gpt-oss-20b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Requested 9037, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https:
+2026-11-16 00:10:08,672 INFO [tech-news] nothing selected
+2026-11-16 00:11:09,476 ERROR [politics] generate error: bad response: Expecting property name enclosed in double quotes: line 33 column 2 (char 4307)
+2026-11-16 00:11:51,861 ERROR [politics] generate error: empty model content
+2026-11-16 00:12:15,796 ERROR [politics] generate error: bad response: Expecting property name enclosed in double quotes: line 71 column 3 (char 6259)
+2026-11-16 00:12:34,290 WARNING [politics] no collect provider for deep-dive
+2026-11-16 00:12:45,539 WARNING [products] no collect provider available
+2026-11-16 00:12:46,264 INFO collect done: 1 item(s) published — target 9/10, next run ≈ 2026-11-16T00:20:45+00:00 UTC
+2026-11-16 00:14:00,746 ERROR [world-news] generate error: empty model content
+2026-11-16 00:14:14,046 WARNING [world-news] no collect provider for deep-dive
+2026-11-16 00:14:18,555 WARNING [world-news] no collect provider for deep-dive
+2026-11-16 00:14:33,263 WARNING [world-news] no collect provider for deep-dive
+2026-11-16 00:14:37,961 INFO [tech-news] nothing selected
+2026-11-16 00:15:17,770 ERROR [politics] generate error: bad response: Expecting property name enclosed in double quotes: line 25 column 7 (char 2994)
+2026-11-16 00:15:29,480 WARNING [politics] no collect provider for deep-dive
+2026-11-16 00:15:40,071 WARNING [politics] no collect provider for deep-dive
+2026-11-16 00:15:43,732 WARNING [products] no collect provider available
+2026-11-16 00:15:44,463 INFO collect done: 0 item(s) published — target 9/10, next run ≈ 2026-11-16T00:23:17+00:00 UTC
+2026-11-16 00:15:47,966 ERROR [world-news] select failed: HTTP 429: {"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day: https://openrouter.ai/settings/credits?utm_source=api&utm_campaign=free_daily_limit","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50","X-RateLimit-Remaining":"0","X-Rat
+2026-11-16 00:15:48,022 INFO [world-news] model returned no selection — using heuristic fallback (3)
+2026-11-16 00:15:49,619 WARNING [world-news] no collect provider for deep-dive
+2026-11-16 00:15:55,059 WARNING [world-news] no collect provider for deep-dive
+2026-11-16 00:15:56,846 WARNING [world-news] no collect provider for deep-dive
+2026-11-16 00:15:58,219 WARNING [tech-news] no collect provider available
+2026-11-16 00:16:00,677 WARNING [politics] no collect provider available
+2026-11-16 00:16:03,020 WARNING [products] no collect provider available
+2026-11-16 00:16:03,460 INFO collect done: 0 item(s) published — target 9/10, next run ≈ 2026-11-16T00:24:17+00:00 UTC
+2026-11-16 00:16:47,672 ERROR [world-news] select failed: HTTP 429: {"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day: https://openrouter.ai/settings/credits?utm_source=api&utm_campaign=free_daily_limit","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50","X-RateLimit-Remaining":"0","X-Rat
+2026-11-16 00:16:47,726 INFO [world-news] model returned no selection — using heuristic fallback (3)
+2026-11-16 00:16:49,911 WARNING [world-news] no collect provider for deep-dive
+2026-11-16 00:16:51,460 WARNING [world-news] no collect provider for deep-dive
+2026-11-16 00:16:54,673 WARNING [world-news] no collect provider for deep-dive
+2026-11-16 00:16:56,825 WARNING [tech-news] no collect provider available
+2026-11-16 00:16:58,764 WARNING [politics] no collect provider available
+2026-11-16 00:17:00,447 WARNING [products] no collect provider available
+2026-11-16 00:17:01,180 INFO collect done: 0 item(s) published — target 9/10, next run ≈ 2026-11-16T00:26:17+00:00 UTC
+2026-11-16 00:18:49,246 WARNING [world-news] no collect provider available
+2026-11-16 00:18:51,532 WARNING [tech-news] no collect provider available
+2026-11-16 00:18:53,828 WARNING [politics] no collect provider available
+2026-11-16 00:18:55,629 WARNING [products] no collect provider available
+2026-11-16 00:18:56,363 INFO collect done: 0 item(s) published — target 9/10, next run ≈ 2026-11-16T00:33:56+00:00 UTC
+2026-11-16 00:18:58,454 WARNING [world-news] no collect provider available
+2026-11-16 00:18:59,996 WARNING [tech-news] no collect provider available
+2026-11-16 00:19:01,899 WARNING [politics] no collect provider available
+2026-11-16 00:19:03,634 WARNING [products] no collect provider available
+2026-11-16 00:19:04,259 INFO collect done: 0 item(s) published — target 9/10, next run ≈ 2026-11-16T00:34:04+00:00 UTC
+2026-11-16 00:19:06,088 WARNING [world-news] no collect provider available
+2026-11-16 00:19:08,124 WARNING [tech-news] no collect provider available
+2026-11-16 00:19:10,028 WARNING [politics] no collect provider available
+2026-11-16 00:19:11,656 WARNING [products] no collect provider available
+2026-11-16 00:19:12,094 INFO collect done: 0 item(s) published — target 9/10, next run ≈ 2026-11-16T00:34:12+00:00 UTC
+2026-11-16 00:19:14,936 WARNING [world-news] no collect provider available
+2026-11-16 00:19:16,771 WARNING [tech-news] no collect provider available
+2026-11-16 00:19:18,153 WARNING [politics] no collect provider available
+2026-11-16 00:19:19,767 WARNING [products] no collect provider available
+2026-11-16 00:19:20,207 INFO collect done: 0 item(s) published — target 9/10, next run ≈ 2026-11-16T00:34:20+00:00 UTC
