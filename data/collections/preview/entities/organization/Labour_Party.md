@@ -1,7 +1,7 @@
 ---
 name: "Labour Party"
 entity_type: organization
-backlink_count: 40
+backlink_count: 42
 ---
 
 # Labour Party
@@ -10,6 +10,8 @@ backlink_count: 40
 
 ## Referenced by
 
+- 2026-11-17 · [[2026-11-17-004-children-dropping-out-of-school-what-can-politicians-do]] — Children dropping out of school: What can politicians do about it?
+- 2026-11-17 · [[2026-11-17-005-cass-report-author-says-she-does-not-support-draft]] — Cass report author says she does not support draft conversion practices bill
 - 2026-11-15 · [[2026-11-15-005-uk-ethics-watchdog-chief-steps-back-from-role-over-sexual]] — UK ethics watchdog chief steps back from role over sexual misconduct claims
 - 2026-11-14 · [[2026-11-14-008-firm-offers-to-fake-artworks-for-wealthy-migrants-seeking]] — Firm offers to fake artworks for wealthy migrants seeking UK 'talent' visas - BBC investigation
 - 2026-11-12 · [[2026-11-12-004-some-under-25s-should-get-less-benefits-milburn-review-to]] — Some under-25s should get less benefits, Milburn review to say

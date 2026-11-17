@@ -1,7 +1,7 @@
 ---
 name: "Conservative Party"
 entity_type: organization
-backlink_count: 17
+backlink_count: 18
 ---
 
 # Conservative Party
@@ -10,6 +10,7 @@ backlink_count: 17
 
 ## Referenced by
 
+- 2026-11-17 · [[2026-11-17-004-children-dropping-out-of-school-what-can-politicians-do]] — Children dropping out of school: What can politicians do about it?
 - 2026-11-11 · [[2026-11-11-004-tories-pledge-to-cut-benefits-for-children-with-milder]] — Tories pledge to cut benefits for children with 'milder cases' of ADHD
 - 2026-11-05 · [[2026-11-05-005-time-to-focus-on-cost-of-living-says-pm-after-us-election]] — Time to focus on cost of living, says PM after US election results
 - 2026-10-31 · [[2026-10-31-004-burnham-s-number-10-north-goes-on-multi-million-pound]] — Burnham's Number 10 North goes on multi-million pound hiring spree

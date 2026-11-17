@@ -1,7 +1,7 @@
 ---
 name: "Anthropic"
 entity_type: company
-backlink_count: 110
+backlink_count: 112
 ---
 
 # Anthropic
@@ -10,6 +10,8 @@ backlink_count: 110
 
 ## Referenced by
 
+- 2026-11-17 · [[2026-11-17-001-openai-sued-by-california-over-hugging-face-attack]] — OpenAI sued by California over Hugging Face attack
+- 2026-11-17 · [[2026-11-17-006-trading-agents]] — Trading Agents
 - 2026-11-14 · [[2026-11-14-003-why-is-microsoft-s-outage-lasting-so-long-and-will-emails]] — Why is Microsoft's outage lasting so long and will emails be lost?
 - 2026-11-13 · [[2026-11-13-002-zelensky-welcomes-us-bringing-europe-into-russia-ukraine]] — Zelensky welcomes US bringing Europe into Russia-Ukraine peace talks
 - 2026-11-12 · [[2026-11-12-006-nod-by-n8n-the-open-source-personal-agent-redefining]] — Nod by n8n: The Open‑Source Personal Agent Redefining Automation

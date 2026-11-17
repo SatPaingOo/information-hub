@@ -1,7 +1,7 @@
 ---
 node: "politics"
 layer: topic
-item_count: 214
+item_count: 217
 ---
 
 # politics
@@ -17,6 +17,9 @@ item_count: 214
 
 ## Items
 
+- 2026-11-17 · [[2026-11-17-004-children-dropping-out-of-school-what-can-politicians-do]] — Children dropping out of school: What can politicians do about it?
+- 2026-11-17 · [[2026-11-17-005-cass-report-author-says-she-does-not-support-draft]] — Cass report author says she does not support draft conversion practices bill
+- 2026-11-17 · [[2026-11-17-005-cass-report-author-says-she-does-not-support-draft]] — Cass report author says she does not support draft conversion practices bill
 - 2026-11-15 · [[2026-11-15-004-milburn-s-youth-opportunity-guarantee-welfare-reform-with]] — Milburn's youth opportunity guarantee: welfare reform with legal force
 - 2026-11-15 · [[2026-11-15-004-milburn-s-youth-opportunity-guarantee-welfare-reform-with]] — Milburn's youth opportunity guarantee: welfare reform with legal force
 - 2026-11-15 · [[2026-11-15-005-uk-ethics-watchdog-chief-steps-back-from-role-over-sexual]] — UK ethics watchdog chief steps back from role over sexual misconduct claims

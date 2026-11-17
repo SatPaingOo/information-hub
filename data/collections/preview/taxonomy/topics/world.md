@@ -1,7 +1,7 @@
 ---
 node: "world"
 layer: topic
-item_count: 361
+item_count: 363
 ---
 
 # world
@@ -17,6 +17,8 @@ item_count: 361
 
 ## Items
 
+- 2026-11-17 · [[2026-11-17-001-openai-sued-by-california-over-hugging-face-attack]] — OpenAI sued by California over Hugging Face attack
+- 2026-11-17 · [[2026-11-17-009-ukraine-accuses-russia-of-targeting-rescue-operation-after]] — Ukraine accuses Russia of targeting rescue operation after 'double-tap' strike kills 72
 - 2026-11-16 · [[2026-11-16-003-five-eu-countries-announce-migrant-deportation-centre-in]] — Five EU countries announce migrant deportation centre in Rwanda
 - 2026-11-15 · [[2026-11-15-001-us-has-floated-ukraine-ceding-donbas-for-nato-membership]] — US has floated Ukraine ceding Donbas for NATO membership, Zelensky says
 - 2026-11-14 · [[2026-11-14-002-microsoft-deeply-sorry-for-global-outage-after-almost-24]] — Microsoft 'deeply sorry' for global outage after almost 24 hours of disruption

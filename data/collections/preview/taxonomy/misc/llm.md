@@ -1,7 +1,7 @@
 ---
 node: "LLM"
 layer: misc
-item_count: 97
+item_count: 100
 ---
 
 # LLM
@@ -17,6 +17,9 @@ item_count: 97
 
 ## Items
 
+- 2026-11-17 · [[2026-11-17-001-openai-sued-by-california-over-hugging-face-attack]] — OpenAI sued by California over Hugging Face attack
+- 2026-11-17 · [[2026-11-17-006-trading-agents]] — Trading Agents
+- 2026-11-17 · [[2026-11-17-007-gatherhq-agent-research-let-your-agent-take-surveys-for-you]] — GatherHQ Agent Research – Let Your Agent Take Surveys for You
 - 2026-11-15 · [[2026-11-15-006-hiringnow]] — HiringNow
 - 2026-11-11 · [[2026-11-11-006-sidekick-by-open]] — SideKick By Open
 - 2026-11-09 · [[2026-11-09-006-agent-clan]] — Agent Clan

@@ -1,7 +1,7 @@
 ---
 name: "OpenAI GPT-4-Turbo"
 entity_type: model
-backlink_count: 6
+backlink_count: 7
 ---
 
 # OpenAI GPT-4-Turbo
@@ -10,6 +10,7 @@ backlink_count: 6
 
 ## Referenced by
 
+- 2026-11-17 · [[2026-11-17-007-gatherhq-agent-research-let-your-agent-take-surveys-for-you]] — GatherHQ Agent Research – Let Your Agent Take Surveys for You
 - 2026-11-07 · [[2026-11-07-006-rankfender-v3-0]] — Rankfender v3.0
 - 2026-10-27 · [[2026-10-27-007-strawberry-1-0-ai-browser-that-saves-your-team-100h-week]] — Strawberry 1.0 – AI Browser that saves your team >100h/week
 - 2026-10-25 · [[2026-10-25-006-agentvalley-every-claude-code-agent-at-a-glance-in-your]] — AgentValley – Every Claude Code Agent, at a Glance, in Your Mac's Notch

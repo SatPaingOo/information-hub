@@ -1,7 +1,7 @@
 ---
 node: "geopolitics"
 layer: topic
-item_count: 155
+item_count: 157
 ---
 
 # geopolitics
@@ -25,6 +25,8 @@ item_count: 155
 
 ## Items
 
+- 2026-11-17 · [[2026-11-17-005-cass-report-author-says-she-does-not-support-draft]] — Cass report author says she does not support draft conversion practices bill
+- 2026-11-17 · [[2026-11-17-009-ukraine-accuses-russia-of-targeting-rescue-operation-after]] — Ukraine accuses Russia of targeting rescue operation after 'double-tap' strike kills 72
 - 2026-11-15 · [[2026-11-15-004-milburn-s-youth-opportunity-guarantee-welfare-reform-with]] — Milburn's youth opportunity guarantee: welfare reform with legal force
 - 2026-11-13 · [[2026-11-13-002-zelensky-welcomes-us-bringing-europe-into-russia-ukraine]] — Zelensky welcomes US bringing Europe into Russia-Ukraine peace talks
 - 2026-11-12 · [[2026-11-12-005-acquitted-china-spy-tells-bbc-i-was-fall-guy-for-security]] — Acquitted 'China spy' tells BBC: I was fall guy for security services but also naive

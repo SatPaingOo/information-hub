@@ -11415,6 +11415,77 @@
       "name": "Migration policy"
     },
     {
+      "id": "info:item:world:global:2026-11-17-001",
+      "type": "item",
+      "date": "2026-11-17",
+      "title": "OpenAI sued by California over Hugging Face attack"
+    },
+    {
+      "id": "info:entity:person:Rob Bonta",
+      "type": "person",
+      "name": "Rob Bonta"
+    },
+    {
+      "id": "info:entity:company:Hugging Face",
+      "type": "company",
+      "name": "Hugging Face"
+    },
+    {
+      "id": "info:item:politics:global:2026-11-17-004",
+      "type": "item",
+      "date": "2026-11-17",
+      "title": "Children dropping out of school: What can politicians do about it?"
+    },
+    {
+      "id": "taxonomy/misc/social inclusion",
+      "type": "taxonomy",
+      "name": "social inclusion"
+    },
+    {
+      "id": "info:item:politics:global:2026-11-17-005",
+      "type": "item",
+      "date": "2026-11-17",
+      "title": "Cass report author says she does not support draft conversion practices bill"
+    },
+    {
+      "id": "info:entity:person:Baroness Cass",
+      "type": "person",
+      "name": "Baroness Cass"
+    },
+    {
+      "id": "info:item:products:global:2026-11-17-006",
+      "type": "item",
+      "date": "2026-11-17",
+      "title": "Trading Agents"
+    },
+    {
+      "id": "info:entity:product:Trading Agents",
+      "type": "product",
+      "name": "Trading Agents"
+    },
+    {
+      "id": "info:item:products:global:2026-11-17-007",
+      "type": "item",
+      "date": "2026-11-17",
+      "title": "GatherHQ Agent Research – Let Your Agent Take Surveys for You"
+    },
+    {
+      "id": "info:item:world:global:2026-11-17-009",
+      "type": "item",
+      "date": "2026-11-17",
+      "title": "Ukraine accuses Russia of targeting rescue operation after 'double-tap' strike kills 72"
+    },
+    {
+      "id": "info:entity:organization:Russia",
+      "type": "organization",
+      "name": "Russia"
+    },
+    {
+      "id": "info:entity:organization:Ukraine",
+      "type": "organization",
+      "name": "Ukraine"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -51270,6 +51341,376 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-11-17-001",
+      "target": "info:entity:company:OpenAI",
+      "relation": "defendant"
+    },
+    {
+      "source": "info:item:world:global:2026-11-17-001",
+      "target": "info:entity:person:Rob Bonta",
+      "relation": "plaintiff"
+    },
+    {
+      "source": "info:item:world:global:2026-11-17-001",
+      "target": "info:entity:company:Hugging Face",
+      "relation": "victim"
+    },
+    {
+      "source": "info:item:world:global:2026-11-17-001",
+      "target": "info:entity:company:Anthropic",
+      "relation": "peer_with_similar_incidents"
+    },
+    {
+      "source": "info:item:world:global:2026-11-17-001",
+      "target": "info:item:world:global:2026-11-16-003",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-17-001",
+      "target": "info:item:world:global:2026-11-15-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-17-001",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-17-001",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-17-001",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-17-001",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-17-001",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-17-001",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-17-001",
+      "target": "taxonomy/misc/regulation",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-17-004",
+      "target": "info:entity:person:Alan Milburn",
+      "relation": "lead of the Milburn Review"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-17-004",
+      "target": "info:entity:person:Lucy Powell",
+      "relation": "Education Secretary, author of upcoming reforms"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-17-004",
+      "target": "info:entity:organization:Labour Party",
+      "relation": "critic of Conservative education policies"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-17-004",
+      "target": "info:entity:organization:Conservative Party",
+      "relation": "incumbent government, target of education criticism"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-17-004",
+      "target": "info:entity:model:OpenAI GPT‑4",
+      "relation": "AI model referenced in policy discussions on education analytics"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-17-004",
+      "target": "info:entity:model:Gemini",
+      "relation": "AI tool highlighted in editorial priorities for potential school use"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-17-004",
+      "target": "info:item:politics:global:2026-11-15-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-17-004",
+      "target": "info:item:politics:global:2026-11-15-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-17-004",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-17-004",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-17-004",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-17-004",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-17-004",
+      "target": "taxonomy/category/education",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-17-004",
+      "target": "taxonomy/misc/social inclusion",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-17-005",
+      "target": "info:entity:person:Baroness Cass",
+      "relation": "author of the Cass review and critic of the draft bill"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-17-005",
+      "target": "info:entity:organization:UK government",
+      "relation": "proposer of the draft conversion practices bill"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-17-005",
+      "target": "info:entity:organization:NHS England",
+      "relation": "provider of gender dysphoria services affected by the bill"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-17-005",
+      "target": "info:entity:organization:Labour Party",
+      "relation": "original political sponsor of the conversion practices ban"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-17-005",
+      "target": "info:item:politics:global:2026-11-17-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-17-005",
+      "target": "info:item:politics:global:2026-11-15-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-17-005",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-17-005",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-17-005",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-17-005",
+      "target": "taxonomy/topic/politics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-17-005",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-17-005",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-11-17-006",
+      "target": "info:entity:company:OpenAI",
+      "relation": "provides GPT‑4‑Turbo model used by Trading Agents"
+    },
+    {
+      "source": "info:item:products:global:2026-11-17-006",
+      "target": "info:entity:company:Google",
+      "relation": "provides Gemini 3.8 model integrated into the platform"
+    },
+    {
+      "source": "info:item:products:global:2026-11-17-006",
+      "target": "info:entity:company:Anthropic",
+      "relation": "provides Claude Opus 4.7 model for agent reasoning"
+    },
+    {
+      "source": "info:item:products:global:2026-11-17-006",
+      "target": "info:entity:product:Trading Agents",
+      "relation": "AI‑driven equity research platform that uses multi‑agent debate"
+    },
+    {
+      "source": "info:item:products:global:2026-11-17-006",
+      "target": "info:item:products:global:2026-11-15-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-11-17-006",
+      "target": "info:item:products:global:2026-11-14-009",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-11-17-006",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-11-17-006",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-11-17-006",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-11-17-006",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-11-17-006",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-11-17-006",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-11-17-007",
+      "target": "info:entity:model:OpenAI GPT-4-Turbo",
+      "relation": "primary LLM model used for prompt‑to‑survey conversion"
+    },
+    {
+      "source": "info:item:products:global:2026-11-17-007",
+      "target": "info:entity:model:Google Gemini 1.5",
+      "relation": "alternative LLM model supported by GatherHQ"
+    },
+    {
+      "source": "info:item:products:global:2026-11-17-007",
+      "target": "info:entity:concept:Agentic AI",
+      "relation": "core technology paradigm enabling autonomous survey agents"
+    },
+    {
+      "source": "info:item:products:global:2026-11-17-007",
+      "target": "info:item:products:global:2026-11-17-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-11-17-007",
+      "target": "info:item:products:global:2026-11-15-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-11-17-007",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-11-17-007",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-11-17-007",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-11-17-007",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-11-17-007",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-11-17-007",
+      "target": "taxonomy/misc/regulation",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-17-009",
+      "target": "info:entity:organization:Russia",
+      "relation": "perpetrator of the double‑tap strike"
+    },
+    {
+      "source": "info:item:world:global:2026-11-17-009",
+      "target": "info:entity:organization:Ukraine",
+      "relation": "victim and responder in the incident"
+    },
+    {
+      "source": "info:item:world:global:2026-11-17-009",
+      "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "President of Ukraine commenting on the attack"
+    },
+    {
+      "source": "info:item:world:global:2026-11-17-009",
+      "target": "info:item:world:global:2026-11-17-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-17-009",
+      "target": "info:item:world:global:2026-11-16-003",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-17-009",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-17-009",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-17-009",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-17-009",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-17-009",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-17-009",
+      "target": "taxonomy/category/industry",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-17-009",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -51629,11 +52070,17 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:Google",
       "relation": "co-occurs",
-      "weight": "9"
+      "weight": "10"
     },
     {
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:Google Gemini",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:company:Hugging Face",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -51677,7 +52124,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
-      "weight": "91"
+      "weight": "93"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -52257,6 +52704,12 @@
     },
     {
       "source": "info:entity:company:Anthropic",
+      "target": "info:entity:person:Rob Bonta",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
       "target": "info:entity:person:Sam Altman",
       "relation": "co-occurs",
       "weight": "10"
@@ -52456,6 +52909,12 @@
     {
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:product:Testifly",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:product:Trading Agents",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -53033,7 +53492,7 @@
       "source": "info:entity:company:Google",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
-      "weight": "9"
+      "weight": "10"
     },
     {
       "source": "info:entity:company:Google",
@@ -53163,6 +53622,12 @@
     },
     {
       "source": "info:entity:company:Google",
+      "target": "info:entity:product:Trading Agents",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Google",
       "target": "info:entity:region:Finland",
       "relation": "co-occurs",
       "weight": "2"
@@ -53194,6 +53659,18 @@
     {
       "source": "info:entity:company:Google Gemini",
       "target": "info:entity:person:Xi Jinping",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Hugging Face",
+      "target": "info:entity:company:OpenAI",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Hugging Face",
+      "target": "info:entity:person:Rob Bonta",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -54843,6 +55320,12 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:person:Rob Bonta",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Sam Altman",
       "relation": "co-occurs",
       "weight": "12"
@@ -55120,6 +55603,12 @@
     {
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:product:Toki AI",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
+      "target": "info:entity:product:Trading Agents",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -56129,7 +56618,7 @@
       "source": "info:entity:concept:Agentic AI",
       "target": "info:entity:model:Google Gemini 1.5",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:concept:Agentic AI",
@@ -56140,6 +56629,12 @@
     {
       "source": "info:entity:concept:Agentic AI",
       "target": "info:entity:model:OpenAI GPT-4",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Agentic AI",
+      "target": "info:entity:model:OpenAI GPT-4-Turbo",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -58461,6 +58956,12 @@
     },
     {
       "source": "info:entity:model:Gemini",
+      "target": "info:entity:model:OpenAI GPT‑4",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
       "target": "info:entity:organization:Anthropic",
       "relation": "co-occurs",
       "weight": "3"
@@ -58480,6 +58981,12 @@
     {
       "source": "info:entity:model:Gemini",
       "target": "info:entity:organization:Coatue",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
+      "target": "info:entity:organization:Conservative Party",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -58553,7 +59060,7 @@
       "source": "info:entity:model:Gemini",
       "target": "info:entity:organization:Labour Party",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:model:Gemini",
@@ -58654,6 +59161,12 @@
     {
       "source": "info:entity:model:Gemini",
       "target": "info:entity:person:Adolf Hitler",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
+      "target": "info:entity:person:Alan Milburn",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -58846,6 +59359,12 @@
     {
       "source": "info:entity:model:Gemini",
       "target": "info:entity:person:Lisa Nandy",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
+      "target": "info:entity:person:Lucy Powell",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -59211,6 +59730,12 @@
     },
     {
       "source": "info:entity:model:Google Gemini 1.5",
+      "target": "info:entity:model:OpenAI GPT-4-Turbo",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Google Gemini 1.5",
       "target": "info:entity:model:OpenAI GPT‑4‑Turbo",
       "relation": "co-occurs",
       "weight": "1"
@@ -59409,6 +59934,18 @@
     },
     {
       "source": "info:entity:model:OpenAI GPT‑4",
+      "target": "info:entity:organization:Conservative Party",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:OpenAI GPT‑4",
+      "target": "info:entity:organization:Labour Party",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:OpenAI GPT‑4",
       "target": "info:entity:organization:Myanmar military (Tatmadaw)",
       "relation": "co-occurs",
       "weight": "1"
@@ -59439,7 +59976,19 @@
     },
     {
       "source": "info:entity:model:OpenAI GPT‑4",
+      "target": "info:entity:person:Alan Milburn",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:OpenAI GPT‑4",
       "target": "info:entity:person:Donald Tusk",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:OpenAI GPT‑4",
+      "target": "info:entity:person:Lucy Powell",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -60845,7 +61394,7 @@
       "source": "info:entity:organization:Conservative Party",
       "target": "info:entity:organization:Labour Party",
       "relation": "co-occurs",
-      "weight": "13"
+      "weight": "14"
     },
     {
       "source": "info:entity:organization:Conservative Party",
@@ -60887,7 +61436,7 @@
       "source": "info:entity:organization:Conservative Party",
       "target": "info:entity:person:Alan Milburn",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Conservative Party",
@@ -60953,7 +61502,7 @@
       "source": "info:entity:organization:Conservative Party",
       "target": "info:entity:person:Lucy Powell",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Conservative Party",
@@ -63465,6 +64014,12 @@
     },
     {
       "source": "info:entity:organization:Labour Party",
+      "target": "info:entity:organization:NHS England",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Labour Party",
       "target": "info:entity:organization:National Housing Federation",
       "relation": "co-occurs",
       "weight": "1"
@@ -63507,6 +64062,12 @@
     },
     {
       "source": "info:entity:organization:Labour Party",
+      "target": "info:entity:organization:UK government",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Labour Party",
       "target": "info:entity:organization:Unison",
       "relation": "co-occurs",
       "weight": "1"
@@ -63533,7 +64094,7 @@
       "source": "info:entity:organization:Labour Party",
       "target": "info:entity:person:Alan Milburn",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:organization:Labour Party",
@@ -63556,6 +64117,12 @@
     {
       "source": "info:entity:organization:Labour Party",
       "target": "info:entity:person:Baroness Casey",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Labour Party",
+      "target": "info:entity:person:Baroness Cass",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -63635,7 +64202,7 @@
       "source": "info:entity:organization:Labour Party",
       "target": "info:entity:person:Lucy Powell",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Labour Party",
@@ -64264,6 +64831,18 @@
     {
       "source": "info:entity:organization:NHS England",
       "target": "info:entity:organization:Royal College of Nursing (RCN)",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:NHS England",
+      "target": "info:entity:organization:UK government",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:NHS England",
+      "target": "info:entity:person:Baroness Cass",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -65438,6 +66017,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Russia",
+      "target": "info:entity:organization:Ukraine",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Russia",
+      "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Russian Embassy to the UK",
       "target": "info:entity:organization:UK Ministry of Defence",
       "relation": "co-occurs",
@@ -66333,6 +66924,12 @@
     },
     {
       "source": "info:entity:organization:UK government",
+      "target": "info:entity:person:Baroness Cass",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:UK government",
       "target": "info:entity:person:David Lammy",
       "relation": "co-occurs",
       "weight": "1"
@@ -66474,6 +67071,12 @@
       "target": "info:entity:person:Mark Carney",
       "relation": "co-occurs",
       "weight": "3"
+    },
+    {
+      "source": "info:entity:organization:Ukraine",
+      "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:organization:Ukrainian Armed Forces",
@@ -67198,6 +67801,12 @@
     {
       "source": "info:entity:person:Alan Milburn",
       "target": "info:entity:person:Kemi Badenoch",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Alan Milburn",
+      "target": "info:entity:person:Lucy Powell",
       "relation": "co-occurs",
       "weight": "1"
     },

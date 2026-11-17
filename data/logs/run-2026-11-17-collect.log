@@ -1,0 +1,27 @@
+2026-11-17 08:07:58,645 INFO [world-news] published 2026-11-17-001 — OpenAI sued by California over Hugging Face attack
+2026-11-17 08:08:10,187 ERROR [world-news] generate error: bad response: Expecting property name enclosed in double quotes: line 22 column 6 (char 1427)
+2026-11-17 08:08:18,122 ERROR [world-news] generate error: HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
+
+2026-11-17 08:08:24,174 ERROR [world-news] generate error: HTTP 404: {"error":{"message":"poolside/laguna-xs-2.1:free is no longer available on OpenRouter: no provider serves this model anymore. See available models at https://openrouter.ai/models","code":404},"user_id":"user_2mqLaYz9PPTm2loHhHg0PQ896kb"}
+2026-11-17 08:08:35,115 ERROR [world-news] generate error: HTTP 400: {"error":{"message":"Provider returned error","code":400,"metadata":{"raw":"{\"code\":400,\"msg\":\"bad request\",\"request_id\":\"02d96ef8-32e5-4fa2-8338-e31ebfdbfb67\"}","provider_name":"AtlasCloud","is_byok":false}},"user_id":"user_2mqLaYz9PPTm2loHhHg0PQ896kb"}
+2026-11-17 08:08:38,307 ERROR [world-news] generate error: HTTP 404: {"error":{"message":"This model is unavailable for free. The paid version is available now - use this slug instead: nvidia/nemotron-3-super-120b-a12b","code":404},"user_id":"user_2mqLaYz9PPTm2loHhHg0PQ896kb"}
+2026-11-17 08:09:02,574 ERROR [world-news] generate error: bad response: Expecting property name enclosed in double quotes: line 26 column 7 (char 2411)
+2026-11-17 08:09:12,882 ERROR [tech-news] select failed: HTTP 404: {"error":{"message":"poolside/laguna-s-2.1:free is no longer available on OpenRouter: no provider serves this model anymore. See available models at https://openrouter.ai/models","code":404},"user_id":"user_2mqLaYz9PPTm2loHhHg0PQ896kb"}
+2026-11-17 08:09:12,891 INFO [tech-news] nothing selected
+2026-11-17 08:11:25,530 INFO [politics] published 2026-11-17-004 — Children dropping out of school: What can politicians do abo
+2026-11-17 08:11:36,405 INFO [politics] published 2026-11-17-005 — Cass report author says she does not support draft conversio
+2026-11-17 08:11:56,855 INFO [products] published 2026-11-17-006 — Trading Agents
+2026-11-17 08:12:10,413 ERROR [products] generate error: bad response: Expecting property name enclosed in double quotes: line 21 column 7 (char 1589)
+2026-11-17 08:12:50,380 ERROR [products] generate error: empty model content
+2026-11-17 08:13:07,477 INFO [products] published 2026-11-17-007 — GatherHQ Agent Research – Let Your Agent Take Surveys for Yo
+2026-11-17 08:13:08,049 INFO collect done: 5 item(s) published — target 5/10, next run ≈ 2026-11-17T08:28:08+00:00 UTC
+2026-11-17 08:13:28,459 ERROR [world-news] generate error: bad response: Expecting property name enclosed in double quotes: line 70 column 3 (char 6207)
+2026-11-17 08:13:49,279 ERROR [world-news] generate error: empty model content
+2026-11-17 08:13:58,295 ERROR [world-news] generate error: HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
+
+2026-11-17 08:14:17,517 INFO [world-news] published 2026-11-17-009 — Ukraine accuses Russia of targeting rescue operation after '
+2026-11-17 08:14:17,602 WARNING [world-news] no collect provider for deep-dive
+2026-11-17 08:14:17,926 WARNING [tech-news] no collect provider available
+2026-11-17 08:14:18,224 WARNING [politics] no collect provider available
+2026-11-17 08:14:18,826 WARNING [products] no collect provider available
+2026-11-17 08:14:19,433 INFO collect done: 1 item(s) published — target 4/10, next run ≈ 2026-11-18T01:00:00+00:00 UTC

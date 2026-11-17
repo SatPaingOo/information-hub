@@ -1,7 +1,7 @@
 ---
 node: "Global"
 layer: misc
-item_count: 616
+item_count: 622
 ---
 
 # Global
@@ -25,6 +25,12 @@ item_count: 616
 
 ## Items
 
+- 2026-11-17 · [[2026-11-17-001-openai-sued-by-california-over-hugging-face-attack]] — OpenAI sued by California over Hugging Face attack
+- 2026-11-17 · [[2026-11-17-004-children-dropping-out-of-school-what-can-politicians-do]] — Children dropping out of school: What can politicians do about it?
+- 2026-11-17 · [[2026-11-17-005-cass-report-author-says-she-does-not-support-draft]] — Cass report author says she does not support draft conversion practices bill
+- 2026-11-17 · [[2026-11-17-006-trading-agents]] — Trading Agents
+- 2026-11-17 · [[2026-11-17-007-gatherhq-agent-research-let-your-agent-take-surveys-for-you]] — GatherHQ Agent Research – Let Your Agent Take Surveys for You
+- 2026-11-17 · [[2026-11-17-009-ukraine-accuses-russia-of-targeting-rescue-operation-after]] — Ukraine accuses Russia of targeting rescue operation after 'double-tap' strike kills 72
 - 2026-11-16 · [[2026-11-16-003-five-eu-countries-announce-migrant-deportation-centre-in]] — Five EU countries announce migrant deportation centre in Rwanda
 - 2026-11-15 · [[2026-11-15-001-us-has-floated-ukraine-ceding-donbas-for-nato-membership]] — US has floated Ukraine ceding Donbas for NATO membership, Zelensky says
 - 2026-11-15 · [[2026-11-15-004-milburn-s-youth-opportunity-guarantee-welfare-reform-with]] — Milburn's youth opportunity guarantee: welfare reform with legal force

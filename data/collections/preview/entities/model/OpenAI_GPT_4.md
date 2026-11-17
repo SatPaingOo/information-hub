@@ -1,7 +1,7 @@
 ---
 name: "OpenAI GPT‑4"
 entity_type: model
-backlink_count: 9
+backlink_count: 10
 ---
 
 # OpenAI GPT‑4
@@ -10,6 +10,7 @@ backlink_count: 9
 
 ## Referenced by
 
+- 2026-11-17 · [[2026-11-17-004-children-dropping-out-of-school-what-can-politicians-do]] — Children dropping out of school: What can politicians do about it?
 - 2026-11-08 · [[2026-11-08-001-what-we-know-so-far-after-krakow-gun-attack]] — What we know so far after Krakow gun attack
 - 2026-11-02 · [[2026-11-02-001-ukraine-air-raid-app-apparently-hacked-as-users-receive]] — Ukraine air raid app apparently hacked as users receive false radiation threat, Air Force says
 - 2026-10-14 · [[2026-10-14-005-gemini-4-argon]] — Gemini 4 Argon
