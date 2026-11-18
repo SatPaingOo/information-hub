@@ -1,7 +1,7 @@
 ---
 name: "Volodymyr Zelensky"
 entity_type: person
-backlink_count: 49
+backlink_count: 50
 ---
 
 # Volodymyr Zelensky
@@ -10,6 +10,7 @@ backlink_count: 49
 
 ## Referenced by
 
+- 2026-11-18 · [[2026-11-18-002-how-the-attack-on-putin-s-prized-crimean-bridge-unfolded]] — How the attack on Putin's prized Crimean Bridge unfolded
 - 2026-11-17 · [[2026-11-17-009-ukraine-accuses-russia-of-targeting-rescue-operation-after]] — Ukraine accuses Russia of targeting rescue operation after 'double-tap' strike kills 72
 - 2026-11-15 · [[2026-11-15-001-us-has-floated-ukraine-ceding-donbas-for-nato-membership]] — US has floated Ukraine ceding Donbas for NATO membership, Zelensky says
 - 2026-11-13 · [[2026-11-13-002-zelensky-welcomes-us-bringing-europe-into-russia-ukraine]] — Zelensky welcomes US bringing Europe into Russia-Ukraine peace talks

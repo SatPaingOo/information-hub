@@ -1,0 +1,29 @@
+2026-11-18 07:14:14,083 ERROR [world-news] generate error: bad response: Expecting property name enclosed in double quotes: line 22 column 7 (char 1647)
+2026-11-18 07:14:21,962 INFO [world-news] attempt 2 invalid: [": 'tags' is a required property", ": 'related_items' is a required property"]
+2026-11-18 07:14:22,006 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7994, Requested 7908. Please try again in 59.265s. Need more tokens? Upgrade to Dev Tier today at https://con
+2026-11-18 07:14:31,101 ERROR [world-news] generate error: HTTP 404: {"error":{"message":"poolside/laguna-xs-2.1:free is no longer available on OpenRouter: no provider serves this model anymore. See available models at https://openrouter.ai/models","code":404},"user_id":"user_2mqLaYz9PPTm2loHhHg0PQ896kb"}
+2026-11-18 07:15:30,808 ERROR [world-news] generate error: bad response: Unterminated string starting at: line 31 column 18 (char 2978)
+2026-11-18 07:15:51,413 INFO [world-news] published 2026-11-18-002 — How the attack on Putin's prized Crimean Bridge unfolded
+2026-11-18 07:16:11,412 INFO [world-news] published 2026-11-18-003 — Nvidia says it won't reinstate Huang as it reports soaring s
+2026-11-18 07:16:15,715 INFO [tech-news] nothing selected
+2026-11-18 07:16:39,125 ERROR [politics] generate error: bad response: Expecting property name enclosed in double quotes: line 21 column 7 (char 1236)
+2026-11-18 07:16:46,796 INFO [politics] published 2026-11-18-004 — Burnham promises to 'move quickly' on Neets report
+2026-11-18 07:16:46,942 ERROR [politics] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7976, Requested 7804. Please try again in 58.35s. Need more tokens? Upgrade to Dev Tier today at https://cons
+2026-11-18 07:17:54,883 ERROR [politics] generate error: bad response: Unterminated string starting at: line 22 column 18 (char 1870)
+2026-11-18 07:18:18,781 INFO [politics] published 2026-11-18-005 — Chris Mason: Milburn may have gifted Labour MPs a moral argu
+2026-11-18 07:18:40,772 INFO [products] published 2026-11-18-006 — RankSpot – Pay‑as‑you‑go SEO and AI Search execution layer f
+2026-11-18 07:18:58,353 INFO [products] published 2026-11-18-007 — Lasso: Draw on your Mac screen, then let AI agents see it
+2026-11-18 07:18:59,132 INFO collect done: 6 item(s) published — target 4/10, next run ≈ 2026-11-18T07:33:59+00:00 UTC
+2026-11-18 07:19:42,434 ERROR [world-news] generate error: bad response: Expecting property name enclosed in double quotes: line 30 column 7 (char 3806)
+2026-11-18 07:19:45,504 ERROR [world-news] generate error: HTTP 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Requested 9547, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https
+2026-11-18 07:19:53,025 ERROR [world-news] generate error: HTTP 400: {"error":{"message":"Provider returned error","code":400,"metadata":{"raw":"{\"code\":400,\"msg\":\"bad request\",\"request_id\":\"aa11bbff-eab8-4bc6-914b-d63d49802e9d\"}","provider_name":"AtlasCloud","is_byok":false}},"user_id":"user_2mqLaYz9PPTm2loHhHg0PQ896kb"}
+2026-11-18 07:20:02,167 ERROR [world-news] generate error: HTTP 404: {"error":{"message":"This model is unavailable for free. The paid version is available now - use this slug instead: nvidia/nemotron-3-super-120b-a12b","code":404},"user_id":"user_2mqLaYz9PPTm2loHhHg0PQ896kb"}
+2026-11-18 07:20:05,205 ERROR [world-news] generate error: HTTP 404: {"error":{"message":"poolside/laguna-s-2.1:free is no longer available on OpenRouter: no provider serves this model anymore. See available models at https://openrouter.ai/models","code":404},"user_id":"user_2mqLaYz9PPTm2loHhHg0PQ896kb"}
+2026-11-18 07:20:34,136 INFO [world-news] published 2026-11-18-009 — Philippines police ask prosecutors to charge Thomas Markle o
+2026-11-18 07:20:37,178 ERROR [world-news] generate error: HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
+
+2026-11-18 07:20:40,179 WARNING [world-news] no collect provider for deep-dive
+2026-11-18 07:20:40,455 WARNING [tech-news] no collect provider available
+2026-11-18 07:20:40,783 WARNING [politics] no collect provider available
+2026-11-18 07:20:41,459 WARNING [products] no collect provider available
+2026-11-18 07:20:42,319 INFO collect done: 1 item(s) published — target 3/10, next run ≈ 2026-11-19T01:00:00+00:00 UTC

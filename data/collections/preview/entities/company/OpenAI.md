@@ -1,7 +1,7 @@
 ---
 name: "OpenAI"
 entity_type: company
-backlink_count: 199
+backlink_count: 201
 ---
 
 # OpenAI
@@ -10,6 +10,8 @@ backlink_count: 199
 
 ## Referenced by
 
+- 2026-11-18 · [[2026-11-18-006-rankspot-pay-as-you-go-seo-and-ai-search-execution-layer]] — RankSpot – Pay‑as‑you‑go SEO and AI Search execution layer for agents
+- 2026-11-18 · [[2026-11-18-007-lasso-draw-on-your-mac-screen-then-let-ai-agents-see-it]] — Lasso: Draw on your Mac screen, then let AI agents see it
 - 2026-11-17 · [[2026-11-17-001-openai-sued-by-california-over-hugging-face-attack]] — OpenAI sued by California over Hugging Face attack
 - 2026-11-17 · [[2026-11-17-006-trading-agents]] — Trading Agents
 - 2026-11-14 · [[2026-11-14-003-why-is-microsoft-s-outage-lasting-so-long-and-will-emails]] — Why is Microsoft's outage lasting so long and will emails be lost?

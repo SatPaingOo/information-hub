@@ -1,7 +1,7 @@
 ---
 node: "LLM"
 layer: misc
-item_count: 100
+item_count: 103
 ---
 
 # LLM
@@ -17,6 +17,9 @@ item_count: 100
 
 ## Items
 
+- 2026-11-18 · [[2026-11-18-003-nvidia-says-it-won-t-reinstate-huang-as-it-reports-soaring]] — Nvidia says it won't reinstate Huang as it reports soaring sales
+- 2026-11-18 · [[2026-11-18-006-rankspot-pay-as-you-go-seo-and-ai-search-execution-layer]] — RankSpot – Pay‑as‑you‑go SEO and AI Search execution layer for agents
+- 2026-11-18 · [[2026-11-18-007-lasso-draw-on-your-mac-screen-then-let-ai-agents-see-it]] — Lasso: Draw on your Mac screen, then let AI agents see it
 - 2026-11-17 · [[2026-11-17-001-openai-sued-by-california-over-hugging-face-attack]] — OpenAI sued by California over Hugging Face attack
 - 2026-11-17 · [[2026-11-17-006-trading-agents]] — Trading Agents
 - 2026-11-17 · [[2026-11-17-007-gatherhq-agent-research-let-your-agent-take-surveys-for-you]] — GatherHQ Agent Research – Let Your Agent Take Surveys for You

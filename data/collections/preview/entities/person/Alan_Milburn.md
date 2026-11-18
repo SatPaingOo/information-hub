@@ -1,7 +1,7 @@
 ---
 name: "Alan Milburn"
 entity_type: person
-backlink_count: 6
+backlink_count: 8
 ---
 
 # Alan Milburn
@@ -10,6 +10,8 @@ backlink_count: 6
 
 ## Referenced by
 
+- 2026-11-18 · [[2026-11-18-004-burnham-promises-to-move-quickly-on-neets-report]] — Burnham promises to 'move quickly' on Neets report
+- 2026-11-18 · [[2026-11-18-005-chris-mason-milburn-may-have-gifted-labour-mps-a-moral]] — Chris Mason: Milburn may have gifted Labour MPs a moral argument for welfare reform
 - 2026-11-17 · [[2026-11-17-004-children-dropping-out-of-school-what-can-politicians-do]] — Children dropping out of school: What can politicians do about it?
 - 2026-11-15 · [[2026-11-15-004-milburn-s-youth-opportunity-guarantee-welfare-reform-with]] — Milburn's youth opportunity guarantee: welfare reform with legal force
 - 2026-11-13 · [[2026-11-13-004-can-burnham-avoid-another-labour-welfare-rebellion]] — Can Burnham avoid another Labour welfare rebellion?

@@ -1,7 +1,7 @@
 ---
 node: "Global"
 layer: misc
-item_count: 622
+item_count: 629
 ---
 
 # Global
@@ -25,6 +25,13 @@ item_count: 622
 
 ## Items
 
+- 2026-11-18 · [[2026-11-18-002-how-the-attack-on-putin-s-prized-crimean-bridge-unfolded]] — How the attack on Putin's prized Crimean Bridge unfolded
+- 2026-11-18 · [[2026-11-18-003-nvidia-says-it-won-t-reinstate-huang-as-it-reports-soaring]] — Nvidia says it won't reinstate Huang as it reports soaring sales
+- 2026-11-18 · [[2026-11-18-004-burnham-promises-to-move-quickly-on-neets-report]] — Burnham promises to 'move quickly' on Neets report
+- 2026-11-18 · [[2026-11-18-005-chris-mason-milburn-may-have-gifted-labour-mps-a-moral]] — Chris Mason: Milburn may have gifted Labour MPs a moral argument for welfare reform
+- 2026-11-18 · [[2026-11-18-006-rankspot-pay-as-you-go-seo-and-ai-search-execution-layer]] — RankSpot – Pay‑as‑you‑go SEO and AI Search execution layer for agents
+- 2026-11-18 · [[2026-11-18-007-lasso-draw-on-your-mac-screen-then-let-ai-agents-see-it]] — Lasso: Draw on your Mac screen, then let AI agents see it
+- 2026-11-18 · [[2026-11-18-009-philippines-police-ask-prosecutors-to-charge-thomas-markle]] — Philippines police ask prosecutors to charge Thomas Markle over child sex abuse material
 - 2026-11-17 · [[2026-11-17-001-openai-sued-by-california-over-hugging-face-attack]] — OpenAI sued by California over Hugging Face attack
 - 2026-11-17 · [[2026-11-17-004-children-dropping-out-of-school-what-can-politicians-do]] — Children dropping out of school: What can politicians do about it?
 - 2026-11-17 · [[2026-11-17-005-cass-report-author-says-she-does-not-support-draft]] — Cass report author says she does not support draft conversion practices bill

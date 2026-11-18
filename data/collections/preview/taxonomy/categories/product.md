@@ -1,7 +1,7 @@
 ---
 node: "product"
 layer: category
-item_count: 132
+item_count: 134
 ---
 
 # product
@@ -19,6 +19,8 @@ item_count: 132
 
 ## Items
 
+- 2026-11-18 · [[2026-11-18-006-rankspot-pay-as-you-go-seo-and-ai-search-execution-layer]] — RankSpot – Pay‑as‑you‑go SEO and AI Search execution layer for agents
+- 2026-11-18 · [[2026-11-18-007-lasso-draw-on-your-mac-screen-then-let-ai-agents-see-it]] — Lasso: Draw on your Mac screen, then let AI agents see it
 - 2026-11-17 · [[2026-11-17-006-trading-agents]] — Trading Agents
 - 2026-11-17 · [[2026-11-17-007-gatherhq-agent-research-let-your-agent-take-surveys-for-you]] — GatherHQ Agent Research – Let Your Agent Take Surveys for You
 - 2026-11-15 · [[2026-11-15-006-hiringnow]] — HiringNow

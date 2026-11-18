@@ -11486,6 +11486,98 @@
       "name": "Ukraine"
     },
     {
+      "id": "info:item:world:global:2026-11-18-002",
+      "type": "item",
+      "date": "2026-11-18",
+      "title": "How the attack on Putin's prized Crimean Bridge unfolded"
+    },
+    {
+      "id": "info:entity:product:Flamingo missile",
+      "type": "product",
+      "name": "Flamingo missile"
+    },
+    {
+      "id": "info:item:world:global:2026-11-18-003",
+      "type": "item",
+      "date": "2026-11-18",
+      "title": "Nvidia says it won't reinstate Huang as it reports soaring sales"
+    },
+    {
+      "id": "info:entity:person:Colette Kress",
+      "type": "person",
+      "name": "Colette Kress"
+    },
+    {
+      "id": "info:entity:person:Harvey Jones",
+      "type": "person",
+      "name": "Harvey Jones"
+    },
+    {
+      "id": "info:item:politics:global:2026-11-18-004",
+      "type": "item",
+      "date": "2026-11-18",
+      "title": "Burnham promises to 'move quickly' on Neets report"
+    },
+    {
+      "id": "taxonomy/misc/youth unemployment",
+      "type": "taxonomy",
+      "name": "youth unemployment"
+    },
+    {
+      "id": "info:item:politics:global:2026-11-18-005",
+      "type": "item",
+      "date": "2026-11-18",
+      "title": "Chris Mason: Milburn may have gifted Labour MPs a moral argument for welfare reform"
+    },
+    {
+      "id": "info:entity:organization:Youth Opportunities Unit",
+      "type": "organization",
+      "name": "Youth Opportunities Unit"
+    },
+    {
+      "id": "info:item:products:global:2026-11-18-006",
+      "type": "item",
+      "date": "2026-11-18",
+      "title": "RankSpot – Pay‑as‑you‑go SEO and AI Search execution layer for agents"
+    },
+    {
+      "id": "info:item:products:global:2026-11-18-007",
+      "type": "item",
+      "date": "2026-11-18",
+      "title": "Lasso: Draw on your Mac screen, then let AI agents see it"
+    },
+    {
+      "id": "info:entity:product:Lasso",
+      "type": "product",
+      "name": "Lasso"
+    },
+    {
+      "id": "info:item:world:global:2026-11-18-009",
+      "type": "item",
+      "date": "2026-11-18",
+      "title": "Philippines police ask prosecutors to charge Thomas Markle over child sex abuse material"
+    },
+    {
+      "id": "info:entity:person:Thomas Markle Sr.",
+      "type": "person",
+      "name": "Thomas Markle Sr."
+    },
+    {
+      "id": "info:entity:person:Meghan, Duchess of Sussex",
+      "type": "person",
+      "name": "Meghan, Duchess of Sussex"
+    },
+    {
+      "id": "info:entity:organization:Philippine National Police",
+      "type": "organization",
+      "name": "Philippine National Police"
+    },
+    {
+      "id": "taxonomy/misc/criminal justice",
+      "type": "taxonomy",
+      "name": "criminal justice"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -51711,6 +51803,441 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-11-18-002",
+      "target": "info:entity:person:Vladimir Putin",
+      "relation": "Russian President who promoted the bridge as a symbol of annexation"
+    },
+    {
+      "source": "info:item:world:global:2026-11-18-002",
+      "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "President of Ukraine who confirmed the multi‑stage attack"
+    },
+    {
+      "source": "info:item:world:global:2026-11-18-002",
+      "target": "info:entity:organization:Ukrainian Armed Forces",
+      "relation": "Executed the coordinated strike on the Crimean Bridge"
+    },
+    {
+      "source": "info:item:world:global:2026-11-18-002",
+      "target": "info:entity:product:Flamingo missile",
+      "relation": "Weapon system used in the final stage of the attack"
+    },
+    {
+      "source": "info:item:world:global:2026-11-18-002",
+      "target": "info:item:world:global:2026-11-17-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-18-002",
+      "target": "info:item:world:global:2026-11-16-003",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-18-002",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-18-002",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-18-002",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-18-002",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-18-002",
+      "target": "taxonomy/topic/world",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-18-002",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-18-002",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-18-003",
+      "target": "info:entity:company:Nvidia",
+      "relation": "subject of earnings report and leadership transition"
+    },
+    {
+      "source": "info:item:world:global:2026-11-18-003",
+      "target": "info:entity:person:Jensen Huang",
+      "relation": "co‑founder and former CEO whose return was rejected"
+    },
+    {
+      "source": "info:item:world:global:2026-11-18-003",
+      "target": "info:entity:person:Colette Kress",
+      "relation": "interim CEO guiding continuity"
+    },
+    {
+      "source": "info:item:world:global:2026-11-18-003",
+      "target": "info:entity:person:Harvey Jones",
+      "relation": "board chair overseeing governance decision"
+    },
+    {
+      "source": "info:item:world:global:2026-11-18-003",
+      "target": "info:item:world:global:2026-11-18-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-18-003",
+      "target": "info:item:world:global:2026-11-17-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-18-003",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-18-003",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-18-003",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-18-003",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-18-003",
+      "target": "taxonomy/misc/Agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-18-003",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-18-003",
+      "target": "taxonomy/misc/Policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-18-004",
+      "target": "info:entity:person:Andy Burnham",
+      "relation": "Prime Minister advocating rapid implementation"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-18-004",
+      "target": "info:entity:person:Alan Milburn",
+      "relation": "Former Labour minister author of the NEET review"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-18-004",
+      "target": "info:entity:organization:Department for Work and Pensions (DWP)",
+      "relation": "Lead agency for benefits reform"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-18-004",
+      "target": "info:entity:concept:NEET",
+      "relation": "Target group for the policy"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-18-004",
+      "target": "info:item:politics:global:2026-11-17-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-18-004",
+      "target": "info:item:politics:global:2026-11-17-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-18-004",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-18-004",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-18-004",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-18-004",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-18-004",
+      "target": "taxonomy/misc/youth unemployment",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-18-004",
+      "target": "taxonomy/misc/welfare reform",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-18-005",
+      "target": "info:entity:person:Alan Milburn",
+      "relation": "author of the Neets report and chairman of the Youth Opportunities Unit"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-18-005",
+      "target": "info:entity:person:Rishi Sunak",
+      "relation": "prime minister who endorsed Milburn’s report as a watershed moment"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-18-005",
+      "target": "info:entity:organization:Labour Party",
+      "relation": "governing party seeking moral justification for welfare reform"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-18-005",
+      "target": "info:entity:organization:Youth Opportunities Unit",
+      "relation": "new cross‑departmental body chaired by Milburn"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-18-005",
+      "target": "info:item:politics:global:2026-11-18-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-18-005",
+      "target": "info:item:politics:global:2026-11-17-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-18-005",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-18-005",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-18-005",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-18-005",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-18-005",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-18-005",
+      "target": "taxonomy/misc/welfare",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-11-18-006",
+      "target": "info:entity:company:OpenAI",
+      "relation": "AI model provider integrated into RankSpot"
+    },
+    {
+      "source": "info:item:products:global:2026-11-18-006",
+      "target": "info:entity:model:Gemini",
+      "relation": "LLM used by RankSpot agents"
+    },
+    {
+      "source": "info:item:products:global:2026-11-18-006",
+      "target": "info:item:products:global:2026-11-17-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-11-18-006",
+      "target": "info:item:products:global:2026-11-17-007",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-11-18-006",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-11-18-006",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-11-18-006",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-11-18-006",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-11-18-006",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-11-18-006",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-11-18-007",
+      "target": "info:entity:company:OpenAI",
+      "relation": "LLM provider integrated with Lasso"
+    },
+    {
+      "source": "info:item:products:global:2026-11-18-007",
+      "target": "info:entity:model:GPT-4",
+      "relation": "used by Lasso for agentic AI inference"
+    },
+    {
+      "source": "info:item:products:global:2026-11-18-007",
+      "target": "info:entity:company:Google",
+      "relation": "provider of Gemini models"
+    },
+    {
+      "source": "info:item:products:global:2026-11-18-007",
+      "target": "info:entity:company:Anthropic",
+      "relation": "provider of Claude models"
+    },
+    {
+      "source": "info:item:products:global:2026-11-18-007",
+      "target": "info:entity:product:Lasso",
+      "relation": "target product"
+    },
+    {
+      "source": "info:item:products:global:2026-11-18-007",
+      "target": "info:entity:concept:AI Agent",
+      "relation": "consumer of Lasso output"
+    },
+    {
+      "source": "info:item:products:global:2026-11-18-007",
+      "target": "info:item:products:global:2026-11-18-006",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-11-18-007",
+      "target": "info:item:products:global:2026-11-17-007",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:products:global:2026-11-18-007",
+      "target": "taxonomy/topic/products",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-11-18-007",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-11-18-007",
+      "target": "taxonomy/category/product",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:products:global:2026-11-18-007",
+      "target": "taxonomy/misc/Agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-11-18-007",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:products:global:2026-11-18-007",
+      "target": "taxonomy/misc/Open-source",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-18-009",
+      "target": "info:entity:person:Thomas Markle Sr.",
+      "relation": "defendant in child sexual abuse material case"
+    },
+    {
+      "source": "info:item:world:global:2026-11-18-009",
+      "target": "info:entity:person:Meghan, Duchess of Sussex",
+      "relation": "daughter of defendant, public figure"
+    },
+    {
+      "source": "info:item:world:global:2026-11-18-009",
+      "target": "info:entity:organization:Philippine National Police",
+      "relation": "investigating agency"
+    },
+    {
+      "source": "info:item:world:global:2026-11-18-009",
+      "target": "info:entity:organization:U.S. Department of Justice",
+      "relation": "prosecuting agency in U.S. case"
+    },
+    {
+      "source": "info:item:world:global:2026-11-18-009",
+      "target": "info:item:world:global:2026-11-18-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-18-009",
+      "target": "info:item:world:global:2026-11-17-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-18-009",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-18-009",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-18-009",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-18-009",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-18-009",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-18-009",
+      "target": "taxonomy/misc/human rights",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-18-009",
+      "target": "taxonomy/misc/criminal justice",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -52070,7 +52597,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:Google",
       "relation": "co-occurs",
-      "weight": "10"
+      "weight": "11"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -52124,7 +52651,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
-      "weight": "93"
+      "weight": "94"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -52171,6 +52698,12 @@
     {
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:Zhipu AI",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:concept:AI Agent",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -52310,7 +52843,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:model:GPT-4",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -52825,6 +53358,12 @@
     {
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:product:Kit",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Anthropic",
+      "target": "info:entity:product:Lasso",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -53492,7 +54031,13 @@
       "source": "info:entity:company:Google",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
-      "weight": "10"
+      "weight": "11"
+    },
+    {
+      "source": "info:entity:company:Google",
+      "target": "info:entity:concept:AI Agent",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:company:Google",
@@ -53509,6 +54054,12 @@
     {
       "source": "info:entity:company:Google",
       "target": "info:entity:model:ChatGPT Images 2.5",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Google",
+      "target": "info:entity:model:GPT-4",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -53599,6 +54150,12 @@
     {
       "source": "info:entity:company:Google",
       "target": "info:entity:product:Gemini",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Google",
+      "target": "info:entity:product:Lasso",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -54228,6 +54785,12 @@
     },
     {
       "source": "info:entity:company:Nvidia",
+      "target": "info:entity:person:Colette Kress",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Nvidia",
       "target": "info:entity:person:Dario Amodei",
       "relation": "co-occurs",
       "weight": "1"
@@ -54246,6 +54809,12 @@
     },
     {
       "source": "info:entity:company:Nvidia",
+      "target": "info:entity:person:Harvey Jones",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Nvidia",
       "target": "info:entity:person:Howard Lutnick",
       "relation": "co-occurs",
       "weight": "1"
@@ -54254,7 +54823,7 @@
       "source": "info:entity:company:Nvidia",
       "target": "info:entity:person:Jensen Huang",
       "relation": "co-occurs",
-      "weight": "5"
+      "weight": "6"
     },
     {
       "source": "info:entity:company:Nvidia",
@@ -54332,7 +54901,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:concept:AI Agent",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -54500,7 +55069,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:model:GPT-4",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -54530,7 +55099,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:model:Gemini",
       "relation": "co-occurs",
-      "weight": "71"
+      "weight": "72"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -55476,6 +56045,12 @@
     },
     {
       "source": "info:entity:company:OpenAI",
+      "target": "info:entity:product:Lasso",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:OpenAI",
       "target": "info:entity:product:Lune",
       "relation": "co-occurs",
       "weight": "1"
@@ -56245,6 +56820,18 @@
     {
       "source": "info:entity:company:iCareer Consultancy UK",
       "target": "info:entity:region:China",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:AI Agent",
+      "target": "info:entity:model:GPT-4",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:AI Agent",
+      "target": "info:entity:product:Lasso",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -57368,7 +57955,7 @@
       "source": "info:entity:concept:NEET",
       "target": "info:entity:organization:Department for Work and Pensions (DWP)",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:concept:NEET",
@@ -57392,13 +57979,13 @@
       "source": "info:entity:concept:NEET",
       "target": "info:entity:person:Alan Milburn",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:concept:NEET",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:concept:NEET",
@@ -58819,6 +59406,12 @@
     {
       "source": "info:entity:model:GPT-4",
       "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:GPT-4",
+      "target": "info:entity:product:Lasso",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -61772,13 +62365,13 @@
       "source": "info:entity:organization:Department for Work and Pensions (DWP)",
       "target": "info:entity:person:Alan Milburn",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:organization:Department for Work and Pensions (DWP)",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:organization:Department for Work and Pensions (DWP)",
@@ -64086,6 +64679,12 @@
     },
     {
       "source": "info:entity:organization:Labour Party",
+      "target": "info:entity:organization:Youth Opportunities Unit",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Labour Party",
       "target": "info:entity:person:Alan Feeney",
       "relation": "co-occurs",
       "weight": "1"
@@ -64094,7 +64693,7 @@
       "source": "info:entity:organization:Labour Party",
       "target": "info:entity:person:Alan Milburn",
       "relation": "co-occurs",
-      "weight": "3"
+      "weight": "4"
     },
     {
       "source": "info:entity:organization:Labour Party",
@@ -64225,6 +64824,12 @@
     {
       "source": "info:entity:organization:Labour Party",
       "target": "info:entity:person:Rachel Reeves",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Labour Party",
+      "target": "info:entity:person:Rishi Sunak",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -65591,6 +66196,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Philippine National Police",
+      "target": "info:entity:organization:U.S. Department of Justice",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Philippine National Police",
+      "target": "info:entity:person:Meghan, Duchess of Sussex",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Philippine National Police",
+      "target": "info:entity:person:Thomas Markle Sr.",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Plaid Cymru",
       "target": "info:entity:organization:Reform UK",
       "relation": "co-occurs",
@@ -66690,6 +67313,18 @@
     },
     {
       "source": "info:entity:organization:U.S. Department of Justice",
+      "target": "info:entity:person:Meghan, Duchess of Sussex",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:U.S. Department of Justice",
+      "target": "info:entity:person:Thomas Markle Sr.",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:U.S. Department of Justice",
       "target": "info:entity:person:Xi Jinping",
       "relation": "co-occurs",
       "weight": "1"
@@ -67112,13 +67747,19 @@
       "source": "info:entity:organization:Ukrainian Armed Forces",
       "target": "info:entity:person:Vladimir Putin",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:Ukrainian Armed Forces",
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
-      "weight": "4"
+      "weight": "5"
+    },
+    {
+      "source": "info:entity:organization:Ukrainian Armed Forces",
+      "target": "info:entity:product:Flamingo missile",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:organization:Ukrainian Government",
@@ -67697,6 +68338,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Youth Opportunities Unit",
+      "target": "info:entity:person:Alan Milburn",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Youth Opportunities Unit",
+      "target": "info:entity:person:Rishi Sunak",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:arXiv",
       "target": "info:entity:person:Song-Kyoo Amang Kim",
       "relation": "co-occurs",
@@ -67796,7 +68449,7 @@
       "source": "info:entity:person:Alan Milburn",
       "target": "info:entity:person:Andy Burnham",
       "relation": "co-occurs",
-      "weight": "4"
+      "weight": "5"
     },
     {
       "source": "info:entity:person:Alan Milburn",
@@ -67807,6 +68460,12 @@
     {
       "source": "info:entity:person:Alan Milburn",
       "target": "info:entity:person:Lucy Powell",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Alan Milburn",
+      "target": "info:entity:person:Rishi Sunak",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -68873,6 +69532,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:person:Colette Kress",
+      "target": "info:entity:person:Harvey Jones",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Colette Kress",
+      "target": "info:entity:person:Jensen Huang",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:person:Crown Prince Haakon",
       "target": "info:entity:person:King Harald V",
       "relation": "co-occurs",
@@ -69791,6 +70462,12 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:person:Harvey Jones",
+      "target": "info:entity:person:Jensen Huang",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:person:Heather Adkins",
       "target": "info:entity:person:Jensen Huang",
       "relation": "co-occurs",
@@ -70619,6 +71296,12 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:person:Meghan, Duchess of Sussex",
+      "target": "info:entity:person:Thomas Markle Sr.",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:person:Melania Trump",
       "target": "info:entity:person:Olha",
       "relation": "co-occurs",
@@ -70964,7 +71647,13 @@
       "source": "info:entity:person:Vladimir Putin",
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
-      "weight": "21"
+      "weight": "22"
+    },
+    {
+      "source": "info:entity:person:Vladimir Putin",
+      "target": "info:entity:product:Flamingo missile",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:person:Vladimir Putin",
@@ -70981,6 +71670,12 @@
     {
       "source": "info:entity:person:Vladimir Putin",
       "target": "info:entity:region:Ukraine",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Volodymyr Zelensky",
+      "target": "info:entity:product:Flamingo missile",
       "relation": "co-occurs",
       "weight": "1"
     },

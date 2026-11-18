@@ -1,7 +1,7 @@
 ---
 name: "Labour Party"
 entity_type: organization
-backlink_count: 42
+backlink_count: 43
 ---
 
 # Labour Party
@@ -10,6 +10,7 @@ backlink_count: 42
 
 ## Referenced by
 
+- 2026-11-18 · [[2026-11-18-005-chris-mason-milburn-may-have-gifted-labour-mps-a-moral]] — Chris Mason: Milburn may have gifted Labour MPs a moral argument for welfare reform
 - 2026-11-17 · [[2026-11-17-004-children-dropping-out-of-school-what-can-politicians-do]] — Children dropping out of school: What can politicians do about it?
 - 2026-11-17 · [[2026-11-17-005-cass-report-author-says-she-does-not-support-draft]] — Cass report author says she does not support draft conversion practices bill
 - 2026-11-15 · [[2026-11-15-005-uk-ethics-watchdog-chief-steps-back-from-role-over-sexual]] — UK ethics watchdog chief steps back from role over sexual misconduct claims
