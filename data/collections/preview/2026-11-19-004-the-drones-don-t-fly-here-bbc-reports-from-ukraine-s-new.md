@@ -1,0 +1,65 @@
+---
+id: "info:item:world:global:2026-11-19-004"
+key: "2026-11-19-004"
+date: 2026-11-19
+content_type: digest
+topic: world
+region: global
+categories: ["policy", "industry"]
+source: "feeds.bbci.co.uk"
+source_url: "https://www.bbc.co.uk/news/articles/c32l507ev4v4o?at_medium=RSS&at_campaign=rss"
+word_count: 568
+tags: ["Ukraine", "Underground warfare", "Drone warfare", "Energy infrastructure", "Subterranean combat"]
+---
+
+# 'The drones don't fly here' - BBC reports from Ukraine's new front line
+
+> [!summary] TL;DR — Ukrainian forces have turned an old Soviet gas pipeline in Kharkiv into a subterranean battlefield, using electric carts to move troops while evading drone surveillance. The underground war marks a shift in tactics as both sides fortify tunnels and rely on close‑quarters combat.
+
+## Background
+
+For seven months, Ukrainian troops have been living and fighting inside a 1.2‑meter‑diameter Soviet‑era gas pipeline in northeastern Kharkiv. The tunnel network, originally designed for gas transport, now serves as a refuge from the dense drone fleets that dominate the surface, making conventional ground advances nearly impossible. Russian forces first exploited the pipeline to infiltrate nearby Kupyansk in September 2025, but Ukrainian engineers have since re‑claimed large sections, establishing supply routes, command posts, and fortified positions. The conflict has evolved into a grueling underground struggle, blending traditional infantry tactics with engineering, logistics, and psychological endurance.
+
+## Tactical Shift to Subterranean Warfare
+
+The pipeline’s narrow confines force combatants into head‑on engagements, eliminating the maneuver space typical of surface battles. Ukrainian planners, led by figures such as Zanuda of the 13th Khartiia Brigade, treat the tunnel as a “new world of fighting,” employing specially designed electric carts to shuttle troops and ammunition. The underground environment neutralizes drone threats and artillery, but introduces challenges of limited visibility, poor ventilation, and the constant risk of tunnel collapses or enemy infiltration.
+
+## Technological Adaptation and Logistics
+
+Both sides have repurposed civilian infrastructure for military use. Ukrainians have installed welded steel barriers, improvised barricades, and rudimentary medical stations inside the pipeline. Colombian volunteers from the RUG 23rd Assault Regiment report clearing 500 m of tunnel in 30 days, highlighting the labor‑intensive nature of the operation. The electric carts, though occasionally breaking down, provide a critical mobility advantage, allowing rapid redeployment and resupply while minimizing exposure to surface surveillance.
+
+## Human Cost, Morale, and Psychological Strain
+
+Living in cramped, poorly lit tunnels exacts a heavy toll. Soldiers endure cramped postures, frequent abrasions, and intermittent panic attacks, as recounted by commander Biashym. Sleep is disrupted by the proximity of comrades and the ever‑present fear of enemy contact. Despite these hardships, morale remains bolstered by the sense of security underground and the strategic gains achieved, such as the 15 km advance along the pipeline since Operation Veles began in April 2025.
+
+## Key facts
+
+- Ukrainian forces have operated inside a Soviet gas pipeline in Kharkiv for over seven months, using electric carts to navigate the 1.2‑meter‑wide tunnels.
+- Russian troops first used the pipeline to infiltrate Kupyansk in September 2025; Ukraine has since reclaimed sections and advanced 15 km along the network.
+- Operation Veles, launched in April 2025, has resulted in over 100 Russian casualties and 30 captured, according to Ukrainian reports.
+- Colombian volunteers from the RUG 23rd Assault Regiment have participated, clearing 500 m of tunnel in 30 days.
+- The underground front eliminates drone and artillery threats but introduces risks of tunnel collapses, limited ventilation, and psychological stress.
+
+## Implications
+
+- The shift to underground combat may force militaries worldwide to develop new doctrines for subterranean operations and invest in tunnel‑warfare technologies.
+- Energy infrastructure vulnerability is highlighted, raising policy questions about the protection of critical civilian assets in conflict zones.
+- International volunteer involvement signals growing foreign engagement in the Ukraine conflict, with potential diplomatic and legal ramifications.
+
+## Outlook
+
+If the underground front stabilizes, both sides are likely to entrench further, turning the pipeline into a semi‑permanent bastion. Future offensives may combine surface breakthroughs with underground raids, while technological innovations such as autonomous tunnel‑robots and enhanced subterranean drones could reshape the battlefield. The experience will likely influence NATO and Russian training curricula, emphasizing the need for specialized engineering, medical, and psychological support units.
+
+## Entities
+
+- [[Ukrainian_Armed_Forces]] — *organization* (primary operator of underground pipeline network)
+- [[Russian_Ministry_of_Emergency_Situations]] — *organization* (logistical support for Russian tunnel operations)
+
+## Related
+
+- [[2026-11-19-001-myanmar-faces-historic-genocide-verdict-at-un-court-over]]
+- [[2026-11-18-002-how-the-attack-on-putin-s-prized-crimean-bridge-unfolded]]
+
+---
+
+*Source: [feeds.bbci.co.uk](https://www.bbc.co.uk/news/articles/c32l507ev4v4o?at_medium=RSS&at_campaign=rss)*

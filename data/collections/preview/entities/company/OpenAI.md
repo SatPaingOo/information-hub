@@ -1,7 +1,7 @@
 ---
 name: "OpenAI"
 entity_type: company
-backlink_count: 201
+backlink_count: 203
 ---
 
 # OpenAI
@@ -10,6 +10,8 @@ backlink_count: 201
 
 ## Referenced by
 
+- 2026-11-19 · [[2026-11-19-001-myanmar-faces-historic-genocide-verdict-at-un-court-over]] — Myanmar faces historic genocide verdict at UN court over Rohingya massacres
+- 2026-11-19 · [[2026-11-19-002-ai-giant-anthropic-valued-at-up-to-1-5tn-ahead-of-stock]] — AI giant Anthropic valued at up to $1.5tn ahead of stock market debut
 - 2026-11-18 · [[2026-11-18-006-rankspot-pay-as-you-go-seo-and-ai-search-execution-layer]] — RankSpot – Pay‑as‑you‑go SEO and AI Search execution layer for agents
 - 2026-11-18 · [[2026-11-18-007-lasso-draw-on-your-mac-screen-then-let-ai-agents-see-it]] — Lasso: Draw on your Mac screen, then let AI agents see it
 - 2026-11-17 · [[2026-11-17-001-openai-sued-by-california-over-hugging-face-attack]] — OpenAI sued by California over Hugging Face attack

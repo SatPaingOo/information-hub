@@ -11578,6 +11578,85 @@
       "name": "criminal justice"
     },
     {
+      "id": "info:item:world:global:2026-11-19-001",
+      "type": "item",
+      "date": "2026-11-19",
+      "title": "Myanmar faces historic genocide verdict at UN court over Rohingya massacres"
+    },
+    {
+      "id": "info:entity:organization:International Court of Justice (ICJ)",
+      "type": "organization",
+      "name": "International Court of Justice (ICJ)"
+    },
+    {
+      "id": "info:entity:person:Arsalan Suleman",
+      "type": "person",
+      "name": "Arsalan Suleman"
+    },
+    {
+      "id": "taxonomy/misc/topic: geopolitics",
+      "type": "taxonomy",
+      "name": "topic: geopolitics"
+    },
+    {
+      "id": "taxonomy/misc/category: policy",
+      "type": "taxonomy",
+      "name": "category: policy"
+    },
+    {
+      "id": "info:item:world:global:2026-11-19-002",
+      "type": "item",
+      "date": "2026-11-19",
+      "title": "AI giant Anthropic valued at up to $1.5tn ahead of stock market debut"
+    },
+    {
+      "id": "info:item:world:global:2026-11-19-004",
+      "type": "item",
+      "date": "2026-11-19",
+      "title": "'The drones don't fly here' - BBC reports from Ukraine's new front line"
+    },
+    {
+      "id": "taxonomy/misc/subterranean conflict",
+      "type": "taxonomy",
+      "name": "subterranean conflict"
+    },
+    {
+      "id": "taxonomy/misc/critical infrastructure security",
+      "type": "taxonomy",
+      "name": "critical infrastructure security"
+    },
+    {
+      "id": "taxonomy/misc/Eastern Europe security",
+      "type": "taxonomy",
+      "name": "Eastern Europe security"
+    },
+    {
+      "id": "info:item:politics:global:2026-11-19-006",
+      "type": "item",
+      "date": "2026-11-19",
+      "title": "Google rejects UK request for Russell Brand YouTube video to be removed, sources say"
+    },
+    {
+      "id": "info:entity:person:Russell Brand",
+      "type": "person",
+      "name": "Russell Brand"
+    },
+    {
+      "id": "info:entity:organization:Ministry of Justice (UK)",
+      "type": "organization",
+      "name": "Ministry of Justice (UK)"
+    },
+    {
+      "id": "info:entity:organization:Prison Service of England and Wales",
+      "type": "organization",
+      "name": "Prison Service of England and Wales"
+    },
+    {
+      "id": "taxonomy/misc/digital rights",
+      "type": "taxonomy",
+      "name": "digital rights"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -52238,6 +52317,246 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-11-19-001",
+      "target": "info:entity:organization:International Court of Justice (ICJ)",
+      "relation": "adjudicating the genocide case against Myanmar"
+    },
+    {
+      "source": "info:item:world:global:2026-11-19-001",
+      "target": "info:entity:person:Arsalan Suleman",
+      "relation": "lead counsel for The Gambia in the case"
+    },
+    {
+      "source": "info:item:world:global:2026-11-19-001",
+      "target": "info:entity:organization:OpenAI",
+      "relation": "provides AI language models used for evidence analysis in the case"
+    },
+    {
+      "source": "info:item:world:global:2026-11-19-001",
+      "target": "info:entity:model:Gemini",
+      "relation": "AI platform contributing to satellite and social‑media verification"
+    },
+    {
+      "source": "info:item:world:global:2026-11-19-001",
+      "target": "info:item:world:global:2026-11-18-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-19-001",
+      "target": "info:item:world:global:2026-11-18-003",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-19-001",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-19-001",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-19-001",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-19-001",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-19-001",
+      "target": "taxonomy/misc/region: global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-19-001",
+      "target": "taxonomy/misc/topic: geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-19-001",
+      "target": "taxonomy/misc/category: policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-19-002",
+      "target": "info:entity:company:Anthropic",
+      "relation": "subject of IPO and public listing"
+    },
+    {
+      "source": "info:item:world:global:2026-11-19-002",
+      "target": "info:entity:person:Dario Amodei",
+      "relation": "CEO and co‑founder"
+    },
+    {
+      "source": "info:item:world:global:2026-11-19-002",
+      "target": "info:entity:company:OpenAI",
+      "relation": "rival AI developer and competitor"
+    },
+    {
+      "source": "info:item:world:global:2026-11-19-002",
+      "target": "info:item:world:global:2026-11-19-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-19-002",
+      "target": "info:item:world:global:2026-11-18-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-19-002",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-19-002",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-19-002",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-19-002",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-19-002",
+      "target": "taxonomy/misc/agentic AI",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-19-002",
+      "target": "taxonomy/misc/LLM",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-19-002",
+      "target": "taxonomy/misc/global",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-19-004",
+      "target": "info:entity:organization:Ukrainian Armed Forces",
+      "relation": "primary operator of underground pipeline network"
+    },
+    {
+      "source": "info:item:world:global:2026-11-19-004",
+      "target": "info:entity:organization:Russian Ministry of Emergency Situations",
+      "relation": "logistical support for Russian tunnel operations"
+    },
+    {
+      "source": "info:item:world:global:2026-11-19-004",
+      "target": "info:item:world:global:2026-11-19-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-19-004",
+      "target": "info:item:world:global:2026-11-18-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-19-004",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-19-004",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-19-004",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-19-004",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-19-004",
+      "target": "taxonomy/misc/subterranean conflict",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-19-004",
+      "target": "taxonomy/misc/critical infrastructure security",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-19-004",
+      "target": "taxonomy/misc/Eastern Europe security",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-19-006",
+      "target": "info:entity:organization:Google",
+      "relation": "refused UK government removal request for Russell Brand video"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-19-006",
+      "target": "info:entity:person:Russell Brand",
+      "relation": "convicted rapist; posted innocence claim in YouTube video"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-19-006",
+      "target": "info:entity:organization:Ministry of Justice (UK)",
+      "relation": "initiated request to remove video"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-19-006",
+      "target": "info:entity:organization:Prison Service of England and Wales",
+      "relation": "submitted removal request"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-19-006",
+      "target": "info:item:politics:global:2026-11-18-004",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-19-006",
+      "target": "info:item:politics:global:2026-11-18-005",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-19-006",
+      "target": "taxonomy/topic/politics",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-19-006",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-19-006",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-19-006",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-19-006",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:politics:global:2026-11-19-006",
+      "target": "taxonomy/misc/digital rights",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -52651,7 +52970,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:company:OpenAI",
       "relation": "co-occurs",
-      "weight": "94"
+      "weight": "95"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -53083,7 +53402,7 @@
       "source": "info:entity:company:Anthropic",
       "target": "info:entity:person:Dario Amodei",
       "relation": "co-occurs",
-      "weight": "8"
+      "weight": "9"
     },
     {
       "source": "info:entity:company:Anthropic",
@@ -55597,7 +55916,7 @@
       "source": "info:entity:company:OpenAI",
       "target": "info:entity:person:Dario Amodei",
       "relation": "co-occurs",
-      "weight": "7"
+      "weight": "8"
     },
     {
       "source": "info:entity:company:OpenAI",
@@ -59651,6 +59970,12 @@
     },
     {
       "source": "info:entity:model:Gemini",
+      "target": "info:entity:organization:International Court of Justice (ICJ)",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
       "target": "info:entity:organization:Labour Party",
       "relation": "co-occurs",
       "weight": "2"
@@ -59683,7 +60008,7 @@
       "source": "info:entity:model:Gemini",
       "target": "info:entity:organization:OpenAI",
       "relation": "co-occurs",
-      "weight": "17"
+      "weight": "18"
     },
     {
       "source": "info:entity:model:Gemini",
@@ -59778,6 +60103,12 @@
     {
       "source": "info:entity:model:Gemini",
       "target": "info:entity:person:António Guterres",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:model:Gemini",
+      "target": "info:entity:person:Arsalan Suleman",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -63413,7 +63744,19 @@
     },
     {
       "source": "info:entity:organization:Google",
+      "target": "info:entity:organization:Ministry of Justice (UK)",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Google",
       "target": "info:entity:organization:OpenAI",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Google",
+      "target": "info:entity:organization:Prison Service of England and Wales",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -63426,6 +63769,12 @@
     {
       "source": "info:entity:organization:Google",
       "target": "info:entity:person:Jensen Huang",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Google",
+      "target": "info:entity:person:Russell Brand",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -64068,6 +64417,18 @@
     {
       "source": "info:entity:organization:International Civil Aviation Organization",
       "target": "info:entity:region:Indonesia",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:International Court of Justice (ICJ)",
+      "target": "info:entity:organization:OpenAI",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:International Court of Justice (ICJ)",
+      "target": "info:entity:person:Arsalan Suleman",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -65242,6 +65603,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Ministry of Justice (UK)",
+      "target": "info:entity:organization:Prison Service of England and Wales",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Ministry of Justice (UK)",
+      "target": "info:entity:person:Russell Brand",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Myanmar military (Tatmadaw)",
       "target": "info:entity:person:Zaw Min",
       "relation": "co-occurs",
@@ -65867,6 +66240,12 @@
     },
     {
       "source": "info:entity:organization:OpenAI",
+      "target": "info:entity:person:Arsalan Suleman",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:OpenAI",
       "target": "info:entity:person:Benjamin Netanyahu",
       "relation": "co-occurs",
       "weight": "1"
@@ -66298,6 +66677,12 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Prison Service of England and Wales",
+      "target": "info:entity:person:Russell Brand",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Product Hunt",
       "target": "info:entity:product:Filament",
       "relation": "co-occurs",
@@ -66686,6 +67071,12 @@
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
       "weight": "2"
+    },
+    {
+      "source": "info:entity:organization:Russian Ministry of Emergency Situations",
+      "target": "info:entity:organization:Ukrainian Armed Forces",
+      "relation": "co-occurs",
+      "weight": "1"
     },
     {
       "source": "info:entity:organization:Russian Ministry of Emergency Situations",

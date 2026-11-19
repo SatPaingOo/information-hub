@@ -1,7 +1,7 @@
 ---
 name: "Gemini"
 entity_type: model
-backlink_count: 102
+backlink_count: 103
 ---
 
 # Gemini
@@ -10,6 +10,7 @@ backlink_count: 102
 
 ## Referenced by
 
+- 2026-11-19 · [[2026-11-19-001-myanmar-faces-historic-genocide-verdict-at-un-court-over]] — Myanmar faces historic genocide verdict at UN court over Rohingya massacres
 - 2026-11-18 · [[2026-11-18-006-rankspot-pay-as-you-go-seo-and-ai-search-execution-layer]] — RankSpot – Pay‑as‑you‑go SEO and AI Search execution layer for agents
 - 2026-11-17 · [[2026-11-17-004-children-dropping-out-of-school-what-can-politicians-do]] — Children dropping out of school: What can politicians do about it?
 - 2026-11-14 · [[2026-11-14-003-why-is-microsoft-s-outage-lasting-so-long-and-will-emails]] — Why is Microsoft's outage lasting so long and will emails be lost?

@@ -1,7 +1,7 @@
 ---
 name: "Ukrainian Armed Forces"
 entity_type: organization
-backlink_count: 6
+backlink_count: 7
 ---
 
 # Ukrainian Armed Forces
@@ -10,6 +10,7 @@ backlink_count: 6
 
 ## Referenced by
 
+- 2026-11-19 · [[2026-11-19-004-the-drones-don-t-fly-here-bbc-reports-from-ukraine-s-new]] — 'The drones don't fly here' - BBC reports from Ukraine's new front line
 - 2026-11-18 · [[2026-11-18-002-how-the-attack-on-putin-s-prized-crimean-bridge-unfolded]] — How the attack on Putin's prized Crimean Bridge unfolded
 - 2026-11-01 · [[2026-11-01-002-we-came-back-from-hell-say-ukrainians-after-years-in]] — 'We came back from hell', say Ukrainians after years in Russia-occupied front-line city
 - 2026-10-30 · [[2026-10-30-003-the-city-is-alive-a-brief-peace-in-kherson-but-residents]] — 'The city is alive': A brief peace in Kherson, but residents fear what comes next

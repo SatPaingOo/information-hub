@@ -1,7 +1,7 @@
 ---
 node: "geopolitics"
 layer: topic
-item_count: 158
+item_count: 159
 ---
 
 # geopolitics
@@ -25,6 +25,7 @@ item_count: 158
 
 ## Items
 
+- 2026-11-19 · [[2026-11-19-006-google-rejects-uk-request-for-russell-brand-youtube-video]] — Google rejects UK request for Russell Brand YouTube video to be removed, sources say
 - 2026-11-18 · [[2026-11-18-002-how-the-attack-on-putin-s-prized-crimean-bridge-unfolded]] — How the attack on Putin's prized Crimean Bridge unfolded
 - 2026-11-17 · [[2026-11-17-005-cass-report-author-says-she-does-not-support-draft]] — Cass report author says she does not support draft conversion practices bill
 - 2026-11-17 · [[2026-11-17-009-ukraine-accuses-russia-of-targeting-rescue-operation-after]] — Ukraine accuses Russia of targeting rescue operation after 'double-tap' strike kills 72

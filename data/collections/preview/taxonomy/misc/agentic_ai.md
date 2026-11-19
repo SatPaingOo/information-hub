@@ -1,7 +1,7 @@
 ---
 node: "Agentic AI"
 layer: misc
-item_count: 124
+item_count: 125
 ---
 
 # Agentic AI
@@ -17,6 +17,7 @@ item_count: 124
 
 ## Items
 
+- 2026-11-19 · [[2026-11-19-002-ai-giant-anthropic-valued-at-up-to-1-5tn-ahead-of-stock]] — AI giant Anthropic valued at up to $1.5tn ahead of stock market debut
 - 2026-11-18 · [[2026-11-18-003-nvidia-says-it-won-t-reinstate-huang-as-it-reports-soaring]] — Nvidia says it won't reinstate Huang as it reports soaring sales
 - 2026-11-18 · [[2026-11-18-007-lasso-draw-on-your-mac-screen-then-let-ai-agents-see-it]] — Lasso: Draw on your Mac screen, then let AI agents see it
 - 2026-11-18 · [[2026-11-18-006-rankspot-pay-as-you-go-seo-and-ai-search-execution-layer]] — RankSpot – Pay‑as‑you‑go SEO and AI Search execution layer for agents

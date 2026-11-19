@@ -1,7 +1,7 @@
 ---
 node: "world"
 layer: topic
-item_count: 367
+item_count: 370
 ---
 
 # world
@@ -17,6 +17,9 @@ item_count: 367
 
 ## Items
 
+- 2026-11-19 · [[2026-11-19-001-myanmar-faces-historic-genocide-verdict-at-un-court-over]] — Myanmar faces historic genocide verdict at UN court over Rohingya massacres
+- 2026-11-19 · [[2026-11-19-002-ai-giant-anthropic-valued-at-up-to-1-5tn-ahead-of-stock]] — AI giant Anthropic valued at up to $1.5tn ahead of stock market debut
+- 2026-11-19 · [[2026-11-19-004-the-drones-don-t-fly-here-bbc-reports-from-ukraine-s-new]] — 'The drones don't fly here' - BBC reports from Ukraine's new front line
 - 2026-11-18 · [[2026-11-18-002-how-the-attack-on-putin-s-prized-crimean-bridge-unfolded]] — How the attack on Putin's prized Crimean Bridge unfolded
 - 2026-11-18 · [[2026-11-18-002-how-the-attack-on-putin-s-prized-crimean-bridge-unfolded]] — How the attack on Putin's prized Crimean Bridge unfolded
 - 2026-11-18 · [[2026-11-18-003-nvidia-says-it-won-t-reinstate-huang-as-it-reports-soaring]] — Nvidia says it won't reinstate Huang as it reports soaring sales

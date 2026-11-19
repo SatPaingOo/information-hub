@@ -1,7 +1,7 @@
 ---
 name: "Dario Amodei"
 entity_type: person
-backlink_count: 9
+backlink_count: 10
 ---
 
 # Dario Amodei
@@ -10,6 +10,7 @@ backlink_count: 9
 
 ## Referenced by
 
+- 2026-11-19 · [[2026-11-19-002-ai-giant-anthropic-valued-at-up-to-1-5tn-ahead-of-stock]] — AI giant Anthropic valued at up to $1.5tn ahead of stock market debut
 - 2026-10-27 · [[2026-10-27-001-anthropic-warns-of-catastrophic-risk-to-humankind-ahead-of]] — Anthropic warns of 'catastrophic risk' to humankind ahead of blockbuster share listing
 - 2026-10-15 · [[2026-10-15-001-anthropic-flags-revenue-surge-to-investors-ahead-of-stock]] — Anthropic flags revenue surge to investors ahead of stock market debut
 - 2026-09-15 · [[2026-09-15-002-china-criticises-idea-it-is-in-malicious-competition-over-ai]] — China criticises idea it is in 'malicious competition' over AI

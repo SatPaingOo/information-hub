@@ -1,7 +1,7 @@
 ---
 name: "Google"
 entity_type: company
-backlink_count: 16
+backlink_count: 17
 ---
 
 # Google
@@ -10,6 +10,7 @@ backlink_count: 16
 
 ## Referenced by
 
+- 2026-11-19 · [[2026-11-19-006-google-rejects-uk-request-for-russell-brand-youtube-video]] — Google rejects UK request for Russell Brand YouTube video to be removed, sources say
 - 2026-11-18 · [[2026-11-18-007-lasso-draw-on-your-mac-screen-then-let-ai-agents-see-it]] — Lasso: Draw on your Mac screen, then let AI agents see it
 - 2026-11-17 · [[2026-11-17-006-trading-agents]] — Trading Agents
 - 2026-11-12 · [[2026-11-12-006-nod-by-n8n-the-open-source-personal-agent-redefining]] — Nod by n8n: The Open‑Source Personal Agent Redefining Automation

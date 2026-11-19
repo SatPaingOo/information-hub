@@ -1,7 +1,7 @@
 ---
 node: "politics"
 layer: topic
-item_count: 219
+item_count: 220
 ---
 
 # politics
@@ -17,6 +17,7 @@ item_count: 219
 
 ## Items
 
+- 2026-11-19 · [[2026-11-19-006-google-rejects-uk-request-for-russell-brand-youtube-video]] — Google rejects UK request for Russell Brand YouTube video to be removed, sources say
 - 2026-11-18 · [[2026-11-18-004-burnham-promises-to-move-quickly-on-neets-report]] — Burnham promises to 'move quickly' on Neets report
 - 2026-11-18 · [[2026-11-18-005-chris-mason-milburn-may-have-gifted-labour-mps-a-moral]] — Chris Mason: Milburn may have gifted Labour MPs a moral argument for welfare reform
 - 2026-11-17 · [[2026-11-17-004-children-dropping-out-of-school-what-can-politicians-do]] — Children dropping out of school: What can politicians do about it?

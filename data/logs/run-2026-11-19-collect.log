@@ -1,0 +1,34 @@
+2026-11-19 04:16:16,016 INFO [world-news] published 2026-11-19-001 — Myanmar faces historic genocide verdict at UN court over Roh
+2026-11-19 04:16:37,740 INFO [world-news] published 2026-11-19-002 — AI giant Anthropic valued at up to $1.5tn ahead of stock mar
+2026-11-19 04:16:42,787 INFO [tech-news] nothing selected
+2026-11-19 04:17:04,185 ERROR [politics] generate error: bad response: Expecting property name enclosed in double quotes: line 25 column 6 (char 2614)
+2026-11-19 04:17:11,917 INFO [politics] attempt 2 invalid: [": 'tags' is a required property", ": 'related_items' is a required property"]
+2026-11-19 04:17:12,135 ERROR [politics] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7975, Requested 7465. Please try again in 55.8s. Need more tokens? Upgrade to Dev Tier today at https://conso
+2026-11-19 04:17:22,494 ERROR [politics] generate error: HTTP 404: {"error":{"message":"poolside/laguna-xs-2.1:free is no longer available on OpenRouter: no provider serves this model anymore. See available models at https://openrouter.ai/models","code":404},"user_id":"user_2mqLaYz9PPTm2loHhHg0PQ896kb"}
+2026-11-19 04:17:26,672 ERROR [politics] generate error: HTTP 400: {"error":{"message":"Provider returned error","code":400,"metadata":{"raw":"{\"code\":400,\"msg\":\"bad request\",\"request_id\":\"6f4fae66-e489-4342-b7e5-81e578b1198b\"}","provider_name":"AtlasCloud","is_byok":false}},"user_id":"user_2mqLaYz9PPTm2loHhHg0PQ896kb"}
+2026-11-19 04:17:32,730 ERROR [politics] generate error: HTTP 404: {"error":{"message":"This model is unavailable for free. The paid version is available now - use this slug instead: nvidia/nemotron-3-super-120b-a12b","code":404},"user_id":"user_2mqLaYz9PPTm2loHhHg0PQ896kb"}
+2026-11-19 04:18:14,213 INFO [products] attempt 1 invalid: ['body word count 453 < minimum 500']
+2026-11-19 04:18:37,113 ERROR [products] generate error: bad response: Expecting property name enclosed in double quotes: line 29 column 7 (char 2969)
+2026-11-19 04:18:48,022 INFO [products] attempt 3 invalid: [": 'tags' is a required property", ": 'related_items' is a required property"]
+2026-11-19 04:18:48,266 ERROR [products] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7874, Requested 6725. Please try again in 49.4925s. Need more tokens? Upgrade to Dev Tier today at https://co
+2026-11-19 04:18:51,327 ERROR [products] generate error: HTTP 404: {"error":{"message":"poolside/laguna-s-2.1:free is no longer available on OpenRouter: no provider serves this model anymore. See available models at https://openrouter.ai/models","code":404},"user_id":"user_2mqLaYz9PPTm2loHhHg0PQ896kb"}
+2026-11-19 04:19:39,845 ERROR [products] generate error: empty model content
+2026-11-19 04:19:49,619 INFO collect done: 2 item(s) published — target 8/10, next run ≈ 2026-11-19T04:34:49+00:00 UTC
+2026-11-19 04:20:08,985 ERROR [world-news] generate error: bad response: Expecting property name enclosed in double quotes: line 26 column 6 (char 2121)
+2026-11-19 04:20:12,064 ERROR [world-news] generate error: HTTP 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Requested 8635, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https
+2026-11-19 04:21:14,724 ERROR [world-news] generate error: bad response: Unterminated string starting at: line 70 column 19 (char 6722)
+2026-11-19 04:21:35,048 INFO [world-news] published 2026-11-19-004 — 'The drones don't fly here' - BBC reports from Ukraine's new
+2026-11-19 04:22:02,256 ERROR [world-news] generate error: bad response: Expecting property name enclosed in double quotes: line 34 column 2 (char 4003)
+2026-11-19 04:22:08,116 INFO [world-news] attempt 2 invalid: [": 'title' is a required property", ": 'tldr' is a required property"]
+2026-11-19 04:22:08,233 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7992, Requested 7460. Please try again in 55.89s. Need more tokens? Upgrade to Dev Tier today at https://conso
+2026-11-19 04:22:19,085 INFO [tech-news] nothing selected
+2026-11-19 04:22:38,581 ERROR [politics] select failed: empty model content
+2026-11-19 04:22:38,624 INFO [politics] model returned no selection — using heuristic fallback (2)
+2026-11-19 04:23:44,587 INFO [politics] published 2026-11-19-006 — Google rejects UK request for Russell Brand YouTube video to
+2026-11-19 04:24:13,911 ERROR [politics] generate error: bad response: Expecting property name enclosed in double quotes: line 29 column 6 (char 3344)
+2026-11-19 04:24:34,715 ERROR [politics] generate error: empty model content
+2026-11-19 04:24:43,715 INFO [politics] attempt 3 invalid: [": 'title' is a required property", ": 'tldr' is a required property"]
+2026-11-19 04:25:15,691 INFO [products] attempt 1 invalid: ["title: 'Kino' is too short"]
+2026-11-19 04:25:15,692 WARNING [products] no collect provider for deep-dive
+2026-11-19 04:25:15,766 WARNING [products] no collect provider for deep-dive
+2026-11-19 04:25:16,562 INFO collect done: 2 item(s) published — target 6/10, next run ≈ 2026-11-20T01:00:00+00:00 UTC
