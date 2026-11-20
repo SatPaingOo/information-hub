@@ -1,0 +1,104 @@
+2026-11-20 02:41:13,863 ERROR [world-news] select failed: HTTP 404: {"error":{"message":"cohere/north-mini-code:free is no longer available on OpenRouter: no provider serves this model anymore. See available models at https://openrouter.ai/models","code":404},"user_id":"user_2mqLaYz9PPTm2loHhHg0PQ896kb"}
+2026-11-20 02:41:13,904 INFO [world-news] model returned no selection — using heuristic fallback (3)
+2026-11-20 02:41:14,432 ERROR [world-news] generate error: HTTP 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Requested 8968, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https
+2026-11-20 02:41:18,493 ERROR [world-news] generate error: HTTP 400: {"error":{"message":"Provider returned error","code":400,"metadata":{"raw":"{\"code\":400,\"msg\":\"bad request\",\"request_id\":\"eacc52e7-1c52-4a60-9ef6-9cea702ae465\"}","provider_name":"AtlasCloud","is_byok":false}},"user_id":"user_2mqLaYz9PPTm2loHhHg0PQ896kb"}
+2026-11-20 02:41:24,566 ERROR [world-news] generate error: HTTP 404: {"error":{"message":"This model is unavailable for free. The paid version is available now - use this slug instead: nvidia/nemotron-3-super-120b-a12b","code":404},"user_id":"user_2mqLaYz9PPTm2loHhHg0PQ896kb"}
+2026-11-20 02:41:33,780 ERROR [world-news] generate error: HTTP 404: {"error":{"message":"poolside/laguna-s-2.1:free is no longer available on OpenRouter: no provider serves this model anymore. See available models at https://openrouter.ai/models","code":404},"user_id":"user_2mqLaYz9PPTm2loHhHg0PQ896kb"}
+2026-11-20 02:41:52,737 ERROR [world-news] generate error: bad response: Expecting value: line 112 column 19 (char 11098)
+2026-11-20 02:41:58,835 ERROR [world-news] generate error: HTTP 404: {"error":{"message":"poolside/laguna-xs-2.1:free is no longer available on OpenRouter: no provider serves this model anymore. See available models at https://openrouter.ai/models","code":404},"user_id":"user_2mqLaYz9PPTm2loHhHg0PQ896kb"}
+2026-11-20 02:42:08,037 ERROR [world-news] generate error: HTTP 413: {"error":{"message":"Request too large for model `openai/gpt-oss-20b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Requested 8338, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https:
+2026-11-20 02:42:28,636 WARNING [world-news] no collect provider for deep-dive
+2026-11-20 02:42:34,082 WARNING [tech-news] no collect provider available
+2026-11-20 02:42:43,567 WARNING [politics] no collect provider available
+2026-11-20 02:43:02,466 WARNING [products] no collect provider available
+2026-11-20 02:43:03,096 INFO collect done: 0 item(s) published — target 10/10, next run ≈ 2026-11-20T02:51:22+00:00 UTC
+2026-11-20 02:43:54,817 WARNING [world-news] no collect provider available
+2026-11-20 02:43:58,761 WARNING [tech-news] no collect provider available
+2026-11-20 02:44:01,985 WARNING [politics] no collect provider available
+2026-11-20 02:44:05,833 WARNING [products] no collect provider available
+2026-11-20 02:44:06,447 INFO collect done: 0 item(s) published — target 10/10, next run ≈ 2026-11-20T02:59:06+00:00 UTC
+2026-11-20 02:44:33,414 WARNING [world-news] no collect provider available
+2026-11-20 02:44:41,131 WARNING [tech-news] no collect provider available
+2026-11-20 02:44:51,088 WARNING [politics] no collect provider available
+2026-11-20 02:44:55,092 WARNING [products] no collect provider available
+2026-11-20 02:44:55,777 INFO collect done: 0 item(s) published — target 10/10, next run ≈ 2026-11-20T02:59:55+00:00 UTC
+2026-11-20 02:45:13,199 WARNING [world-news] no collect provider available
+2026-11-20 02:45:14,099 WARNING [tech-news] no collect provider available
+2026-11-20 02:45:15,231 WARNING [politics] no collect provider available
+2026-11-20 02:45:15,962 WARNING [products] no collect provider available
+2026-11-20 02:45:16,282 INFO collect done: 0 item(s) published — target 10/10, next run ≈ 2026-11-20T03:00:16+00:00 UTC
+2026-11-20 02:45:17,372 WARNING [world-news] no collect provider available
+2026-11-20 02:45:18,061 WARNING [tech-news] no collect provider available
+2026-11-20 02:45:18,983 WARNING [politics] no collect provider available
+2026-11-20 02:45:19,729 WARNING [products] no collect provider available
+2026-11-20 02:45:20,062 INFO collect done: 0 item(s) published — target 10/10, next run ≈ 2026-11-20T03:00:20+00:00 UTC
+2026-11-20 02:45:21,065 WARNING [world-news] no collect provider available
+2026-11-20 02:45:21,736 WARNING [tech-news] no collect provider available
+2026-11-20 02:45:23,332 WARNING [politics] no collect provider available
+2026-11-20 02:45:23,983 WARNING [products] no collect provider available
+2026-11-20 02:45:24,310 INFO collect done: 0 item(s) published — target 10/10, next run ≈ 2026-11-20T03:00:24+00:00 UTC
+2026-11-20 02:45:27,004 WARNING [world-news] no collect provider available
+2026-11-20 02:45:27,801 WARNING [tech-news] no collect provider available
+2026-11-20 02:45:28,731 WARNING [politics] no collect provider available
+2026-11-20 02:45:29,439 WARNING [products] no collect provider available
+2026-11-20 02:45:29,761 INFO collect done: 0 item(s) published — target 10/10, next run ≈ 2026-11-20T03:00:29+00:00 UTC
+2026-11-20 02:45:30,785 WARNING [world-news] no collect provider available
+2026-11-20 02:45:31,657 WARNING [tech-news] no collect provider available
+2026-11-20 02:45:32,569 WARNING [politics] no collect provider available
+2026-11-20 02:45:33,244 WARNING [products] no collect provider available
+2026-11-20 02:45:33,568 INFO collect done: 0 item(s) published — target 10/10, next run ≈ 2026-11-20T03:00:33+00:00 UTC
+2026-11-20 02:45:34,503 WARNING [world-news] no collect provider available
+2026-11-20 02:45:35,279 WARNING [tech-news] no collect provider available
+2026-11-20 02:45:35,997 WARNING [politics] no collect provider available
+2026-11-20 02:45:36,680 WARNING [products] no collect provider available
+2026-11-20 02:45:37,001 INFO collect done: 0 item(s) published — target 10/10, next run ≈ 2026-11-20T03:00:37+00:00 UTC
+2026-11-20 02:45:38,179 WARNING [world-news] no collect provider available
+2026-11-20 02:45:38,871 WARNING [tech-news] no collect provider available
+2026-11-20 02:45:40,033 WARNING [politics] no collect provider available
+2026-11-20 02:45:40,808 WARNING [products] no collect provider available
+2026-11-20 02:45:41,132 INFO collect done: 0 item(s) published — target 10/10, next run ≈ 2026-11-20T03:00:41+00:00 UTC
+2026-11-20 02:45:42,188 WARNING [world-news] no collect provider available
+2026-11-20 02:45:42,998 WARNING [tech-news] no collect provider available
+2026-11-20 02:45:43,763 WARNING [politics] no collect provider available
+2026-11-20 02:45:44,428 WARNING [products] no collect provider available
+2026-11-20 02:45:44,752 INFO collect done: 0 item(s) published — target 10/10, next run ≈ 2026-11-20T03:00:44+00:00 UTC
+2026-11-20 02:45:45,722 WARNING [world-news] no collect provider available
+2026-11-20 02:45:46,460 WARNING [tech-news] no collect provider available
+2026-11-20 02:45:47,276 WARNING [politics] no collect provider available
+2026-11-20 02:45:47,996 WARNING [products] no collect provider available
+2026-11-20 02:45:48,318 INFO collect done: 0 item(s) published — target 10/10, next run ≈ 2026-11-20T03:00:48+00:00 UTC
+2026-11-20 02:45:49,285 WARNING [world-news] no collect provider available
+2026-11-20 02:45:50,037 WARNING [tech-news] no collect provider available
+2026-11-20 02:45:50,934 WARNING [politics] no collect provider available
+2026-11-20 02:45:51,542 WARNING [products] no collect provider available
+2026-11-20 02:45:51,864 INFO collect done: 0 item(s) published — target 10/10, next run ≈ 2026-11-20T03:00:51+00:00 UTC
+2026-11-20 02:45:52,823 WARNING [world-news] no collect provider available
+2026-11-20 02:45:53,770 WARNING [tech-news] no collect provider available
+2026-11-20 02:45:54,763 WARNING [politics] no collect provider available
+2026-11-20 02:45:55,665 WARNING [products] no collect provider available
+2026-11-20 02:45:55,990 INFO collect done: 0 item(s) published — target 10/10, next run ≈ 2026-11-20T03:00:55+00:00 UTC
+2026-11-20 02:45:56,994 WARNING [world-news] no collect provider available
+2026-11-20 02:45:57,752 WARNING [tech-news] no collect provider available
+2026-11-20 02:45:59,026 WARNING [politics] no collect provider available
+2026-11-20 02:45:59,920 WARNING [products] no collect provider available
+2026-11-20 02:46:00,311 INFO collect done: 0 item(s) published — target 10/10, next run ≈ 2026-11-20T03:01:00+00:00 UTC
+2026-11-20 02:46:01,381 WARNING [world-news] no collect provider available
+2026-11-20 02:46:02,287 WARNING [tech-news] no collect provider available
+2026-11-20 02:46:03,287 WARNING [politics] no collect provider available
+2026-11-20 02:46:04,005 WARNING [products] no collect provider available
+2026-11-20 02:46:04,384 INFO collect done: 0 item(s) published — target 10/10, next run ≈ 2026-11-20T03:01:04+00:00 UTC
+2026-11-20 02:46:05,799 WARNING [world-news] no collect provider available
+2026-11-20 02:46:06,534 WARNING [tech-news] no collect provider available
+2026-11-20 02:46:07,295 WARNING [politics] no collect provider available
+2026-11-20 02:46:08,032 WARNING [products] no collect provider available
+2026-11-20 02:46:08,407 INFO collect done: 0 item(s) published — target 10/10, next run ≈ 2026-11-20T03:01:08+00:00 UTC
+2026-11-20 02:46:09,532 WARNING [world-news] no collect provider available
+2026-11-20 02:46:10,453 WARNING [tech-news] no collect provider available
+2026-11-20 02:46:11,682 WARNING [politics] no collect provider available
+2026-11-20 02:46:12,487 WARNING [products] no collect provider available
+2026-11-20 02:46:12,864 INFO collect done: 0 item(s) published — target 10/10, next run ≈ 2026-11-20T03:01:12+00:00 UTC
+2026-11-20 02:46:13,948 WARNING [world-news] no collect provider available
+2026-11-20 02:46:14,973 WARNING [tech-news] no collect provider available
+2026-11-20 02:46:16,077 WARNING [politics] no collect provider available
+2026-11-20 02:46:16,843 WARNING [products] no collect provider available
+2026-11-20 02:46:17,215 INFO collect done: 0 item(s) published — target 10/10, next run ≈ 2026-11-20T03:01:17+00:00 UTC
