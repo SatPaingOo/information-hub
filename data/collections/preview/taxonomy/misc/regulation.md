@@ -1,7 +1,7 @@
 ---
 node: "Regulation"
 layer: misc
-item_count: 54
+item_count: 56
 ---
 
 # Regulation
@@ -17,6 +17,8 @@ item_count: 54
 
 ## Items
 
+- 2026-11-21 · [[2026-11-21-001-tech-stock-sell-off-drags-markets-down-as-anthropic-shares]] — Tech stock sell‑off drags markets down as Anthropic shares slide
+- 2026-11-21 · [[2026-11-21-006-french-court-convicts-police-in-zecler-beating-upholds]] — French Court Convicts Police in Zecler Beating, Upholds Racist Aggravation
 - 2026-11-17 · [[2026-11-17-001-openai-sued-by-california-over-hugging-face-attack]] — OpenAI sued by California over Hugging Face attack
 - 2026-11-17 · [[2026-11-17-007-gatherhq-agent-research-let-your-agent-take-surveys-for-you]] — GatherHQ Agent Research – Let Your Agent Take Surveys for You
 - 2026-11-14 · [[2026-11-14-008-firm-offers-to-fake-artworks-for-wealthy-migrants-seeking]] — Firm offers to fake artworks for wealthy migrants seeking UK 'talent' visas - BBC investigation

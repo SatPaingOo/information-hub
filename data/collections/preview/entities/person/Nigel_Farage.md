@@ -1,7 +1,7 @@
 ---
 name: "Nigel Farage"
 entity_type: person
-backlink_count: 20
+backlink_count: 21
 ---
 
 # Nigel Farage
@@ -10,6 +10,7 @@ backlink_count: 20
 
 ## Referenced by
 
+- 2026-11-21 · [[2026-11-21-003-uk-to-explore-even-closer-ties-with-eu-after-agreeing-deal]] — UK to explore even closer ties with EU after agreeing deal, says Burnham
 - 2026-11-09 · [[2026-11-09-005-nandy-rejects-claims-of-politicising-remembrance-sunday]] — Nandy rejects claims of politicising Remembrance Sunday after Erasmus row
 - 2026-10-25 · [[2026-10-25-005-burnham-open-to-honest-discussion-on-eu-free-movement]] — Burnham open to 'honest discussion' on EU free movement
 - 2026-10-15 · [[2026-10-15-005-reform-faces-criticism-after-councillors-filmed-making]] — Reform faces criticism after councillors filmed making racist comments

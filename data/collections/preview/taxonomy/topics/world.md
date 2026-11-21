@@ -1,7 +1,7 @@
 ---
 node: "world"
 layer: topic
-item_count: 370
+item_count: 375
 ---
 
 # world
@@ -17,6 +17,11 @@ item_count: 370
 
 ## Items
 
+- 2026-11-21 · [[2026-11-21-001-tech-stock-sell-off-drags-markets-down-as-anthropic-shares]] — Tech stock sell‑off drags markets down as Anthropic shares slide
+- 2026-11-21 · [[2026-11-21-002-in-a-year-of-ai-solving-maths-problems-anthropic-may-have]] — In a year of AI solving maths problems, Anthropic may have just solved the biggest
+- 2026-11-21 · [[2026-11-21-004-russian-missile-hits-poland-as-ukraine-s-allies-hold]] — Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk
+- 2026-11-21 · [[2026-11-21-005-russia-targets-kyiv-crossings-days-after-ukraine-hits]] — Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge
+- 2026-11-21 · [[2026-11-21-006-french-court-convicts-police-in-zecler-beating-upholds]] — French Court Convicts Police in Zecler Beating, Upholds Racist Aggravation
 - 2026-11-19 · [[2026-11-19-001-myanmar-faces-historic-genocide-verdict-at-un-court-over]] — Myanmar faces historic genocide verdict at UN court over Rohingya massacres
 - 2026-11-19 · [[2026-11-19-002-ai-giant-anthropic-valued-at-up-to-1-5tn-ahead-of-stock]] — AI giant Anthropic valued at up to $1.5tn ahead of stock market debut
 - 2026-11-19 · [[2026-11-19-004-the-drones-don-t-fly-here-bbc-reports-from-ukraine-s-new]] — 'The drones don't fly here' - BBC reports from Ukraine's new front line

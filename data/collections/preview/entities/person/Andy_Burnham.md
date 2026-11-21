@@ -1,7 +1,7 @@
 ---
 name: "Andy Burnham"
 entity_type: person
-backlink_count: 83
+backlink_count: 84
 ---
 
 # Andy Burnham
@@ -10,6 +10,7 @@ backlink_count: 83
 
 ## Referenced by
 
+- 2026-11-21 · [[2026-11-21-003-uk-to-explore-even-closer-ties-with-eu-after-agreeing-deal]] — UK to explore even closer ties with EU after agreeing deal, says Burnham
 - 2026-11-18 · [[2026-11-18-004-burnham-promises-to-move-quickly-on-neets-report]] — Burnham promises to 'move quickly' on Neets report
 - 2026-11-15 · [[2026-11-15-004-milburn-s-youth-opportunity-guarantee-welfare-reform-with]] — Milburn's youth opportunity guarantee: welfare reform with legal force
 - 2026-11-13 · [[2026-11-13-004-can-burnham-avoid-another-labour-welfare-rebellion]] — Can Burnham avoid another Labour welfare rebellion?

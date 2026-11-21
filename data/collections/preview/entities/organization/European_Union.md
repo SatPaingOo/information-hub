@@ -1,7 +1,7 @@
 ---
 name: "European Union"
 entity_type: organization
-backlink_count: 24
+backlink_count: 25
 ---
 
 # European Union
@@ -10,6 +10,7 @@ backlink_count: 24
 
 ## Referenced by
 
+- 2026-11-21 · [[2026-11-21-003-uk-to-explore-even-closer-ties-with-eu-after-agreeing-deal]] — UK to explore even closer ties with EU after agreeing deal, says Burnham
 - 2026-11-16 · [[2026-11-16-003-five-eu-countries-announce-migrant-deportation-centre-in]] — Five EU countries announce migrant deportation centre in Rwanda
 - 2026-11-13 · [[2026-11-13-005-burnham-s-push-for-closer-eu-ties-causes-ripples-in-his]] — Burnham's push for closer EU ties causes ripples in his party and others
 - 2026-11-07 · [[2026-11-07-008-new-wave-of-bomb-threats-hit-european-airlines]] — New wave of bomb threats hit European airlines

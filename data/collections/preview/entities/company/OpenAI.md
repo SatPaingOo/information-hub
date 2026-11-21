@@ -1,7 +1,7 @@
 ---
 name: "OpenAI"
 entity_type: company
-backlink_count: 203
+backlink_count: 204
 ---
 
 # OpenAI
@@ -10,6 +10,7 @@ backlink_count: 203
 
 ## Referenced by
 
+- 2026-11-21 · [[2026-11-21-002-in-a-year-of-ai-solving-maths-problems-anthropic-may-have]] — In a year of AI solving maths problems, Anthropic may have just solved the biggest
 - 2026-11-19 · [[2026-11-19-001-myanmar-faces-historic-genocide-verdict-at-un-court-over]] — Myanmar faces historic genocide verdict at UN court over Rohingya massacres
 - 2026-11-19 · [[2026-11-19-002-ai-giant-anthropic-valued-at-up-to-1-5tn-ahead-of-stock]] — AI giant Anthropic valued at up to $1.5tn ahead of stock market debut
 - 2026-11-18 · [[2026-11-18-006-rankspot-pay-as-you-go-seo-and-ai-search-execution-layer]] — RankSpot – Pay‑as‑you‑go SEO and AI Search execution layer for agents

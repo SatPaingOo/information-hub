@@ -1,7 +1,7 @@
 ---
 name: "NATO"
 entity_type: organization
-backlink_count: 15
+backlink_count: 17
 ---
 
 # NATO
@@ -10,6 +10,8 @@ backlink_count: 15
 
 ## Referenced by
 
+- 2026-11-21 · [[2026-11-21-004-russian-missile-hits-poland-as-ukraine-s-allies-hold]] — Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk
+- 2026-11-21 · [[2026-11-21-005-russia-targets-kyiv-crossings-days-after-ukraine-hits]] — Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge
 - 2026-11-15 · [[2026-11-15-001-us-has-floated-ukraine-ceding-donbas-for-nato-membership]] — US has floated Ukraine ceding Donbas for NATO membership, Zelensky says
 - 2026-11-03 · [[2026-11-03-002-thousands-of-european-troops-to-rehearse-ukraine]] — Thousands of European troops to rehearse Ukraine deployment in event of peace
 - 2026-10-04 · [[2026-10-04-007-kyiv-bridge-hit-in-further-russian-drone-attack-as-german]] — Kyiv bridge hit in further Russian drone attack as German chancellor makes surprise visit
