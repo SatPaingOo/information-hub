@@ -124,12 +124,21 @@
     "method": "lexical"
   },
   "review": {
-    "status": "verified",
-    "approved_by": {
-      "type": "ai",
-      "provider": "lexical",
-      "model": "lexical"
-    },
-    "approved_at": "2026-09-12T10:38:19+00:00"
+    "status": "provisional",
+    "approved_by": null,
+    "approved_at": null,
+    "history": [
+      {
+        "status": "verified",
+        "approved_by": {
+          "type": "ai",
+          "provider": "lexical",
+          "model": "lexical"
+        },
+        "approved_at": "2026-09-12T10:38:19+00:00",
+        "changed_at": "2026-11-22T14:52:30+00:00",
+        "reason": "relabel: fallback check (method=lexical) cannot mark an item verified; only the Gemini search check can"
+      }
+    ]
   }
 }
