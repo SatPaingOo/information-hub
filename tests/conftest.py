@@ -2,7 +2,25 @@
 
 from __future__ import annotations
 
+import urllib.request
 from typing import Any
+
+import pytest
+
+
+@pytest.fixture(autouse=True)
+def _no_urllib_network(monkeypatch):
+    """Tests never reach the real web through urllib.
+
+    The check-phase web corroboration calls Google News with
+    ``urllib.request.urlopen``.  CI runs this suite as a gate before every
+    scheduler run, so a slow or failing Google News made the gate fail and
+    blocked data collection.  Tests that need a response patch ``urlopen``
+    themselves (see tests/quality/test_grounding.py).
+    """
+    def _blocked(*_a, **_kw):
+        raise OSError("network disabled in tests")
+    monkeypatch.setattr(urllib.request, "urlopen", _blocked)
 
 
 def sample_record(key: str = "2026-08-14-001", title: str = "Sample deep dive title",

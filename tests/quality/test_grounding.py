@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import urllib.request
 from pathlib import Path
 
 from src.config import Config
@@ -101,9 +102,46 @@ def test_lexical_fallback_when_provider_unavailable(tmp_path: Path):
     assert status["approved_by"] is None
 
 
-def test_web_corroboration_finds_independent_source(tmp_path: Path):
+_GNEWS_RSS = b"""<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel><title>Google News</title>
+<item>
+  <title>Iceland holds knife-edge referendum on EU membership talks - Reuters</title>
+  <link>https://news.google.com/rss/articles/abc</link>
+  <source url="https://www.reuters.com">Reuters</source>
+</item>
+</channel></rss>"""
+
+
+class _FakeResponse:
+    def __init__(self, body: bytes):
+        self._body = body
+
+    def read(self) -> bytes:
+        return self._body
+
+    def __enter__(self):
+        return self
+
+    def __exit__(self, *exc):
+        return False
+
+
+def _fake_gnews(monkeypatch, body: bytes = _GNEWS_RSS) -> list[str]:
+    """Serve a canned Google News RSS response; returns the requested URLs."""
+    calls: list[str] = []
+
+    def fake_urlopen(req, timeout=None):
+        calls.append(getattr(req, "full_url", str(req)))
+        return _FakeResponse(body)
+
+    monkeypatch.setattr(urllib.request, "urlopen", fake_urlopen)
+    return calls
+
+
+def test_web_corroboration_finds_independent_source(tmp_path: Path, monkeypatch):
     """Gemini down + claim not in source text → web corroboration grounds it
     with an INDEPENDENT outlet citation (method 'web')."""
+    calls = _fake_gnews(monkeypatch)
     cfg, reg, run_log, pm = _setup(tmp_path)
     engine = GroundingEngine(cfg, reg, run_log, pm)
     rec = sample_record(key="2026-08-14-005")
@@ -121,10 +159,48 @@ def test_web_corroboration_finds_independent_source(tmp_path: Path):
     assert result["method"] == "web"
     assert result["claims_grounded"] >= 1
     assert result["sources_verified"]          # real citation(s) attached
+    assert calls and calls[0].startswith("https://news.google.com/rss/search?q=")
+    assert result["sources_verified"][0]["url"] == "https://www.reuters.com/"
     # corroborated by other outlets is still NOT verified
     assert result["review_status"] == "provisional"
     assert result["approved_by"] is None
     assert reg.item_status(rec["id"])["review_status"] == "provisional"
+
+
+def test_web_corroboration_network_failure_stays_lexical(tmp_path: Path):
+    """Google News unreachable (the autouse fixture blocks urlopen) → the
+    check still completes on the lexical score; it must not crash or fail."""
+    cfg, reg, run_log, pm = _setup(tmp_path)
+    engine = GroundingEngine(cfg, reg, run_log, pm)
+    rec = sample_record(key="2026-08-14-009")
+    rec["key_facts"] = [
+        "Iceland holds knife-edge referendum on EU membership talks"]
+    reg.record_item(rec, status="published", gemini_calls=1, validated=True,
+                    provider="mock", model="mock")
+    gem = cfg.providers["gemini"]
+    reg.record_provider_call("gemini", gem.models[0], tokens=gem.max_daily_tokens)
+    result = engine.check_record(rec, spec=None,
+                                 fulltext="completely unrelated filler text")
+    assert result["method"] == "lexical"
+    assert result["sources_verified"] == []
+    assert result["review_status"] != "verified"
+
+
+def test_web_corroboration_skips_same_outlet(tmp_path: Path, monkeypatch):
+    """A hit from the record's own outlet is not independent → not grounded."""
+    _fake_gnews(monkeypatch, _GNEWS_RSS.replace(b"https://www.reuters.com",
+                                                b"https://arxiv.org"))
+    cfg, reg, run_log, pm = _setup(tmp_path)
+    engine = GroundingEngine(cfg, reg, run_log, pm)
+    rec = sample_record(key="2026-08-14-010")   # source host: arxiv.org
+    rec["key_facts"] = [
+        "Iceland holds knife-edge referendum on EU membership talks"]
+    gem = cfg.providers["gemini"]
+    reg.record_provider_call("gemini", gem.models[0], tokens=gem.max_daily_tokens)
+    result = engine.check_record(rec, spec=None,
+                                 fulltext="completely unrelated filler text")
+    assert result["method"] == "lexical"
+    assert result["sources_verified"] == []
 
 
 def test_web_corroboration_disabled_stays_lexical(tmp_path: Path):
