@@ -124,7 +124,7 @@
       "model": "lexical",
       "search_tool": null
     },
-    "checked_at": "2026-11-22T07:55:37+00:00",
+    "checked_at": "2026-11-22T16:13:49+00:00",
     "grounding_score": 1.0,
     "claims_total": 6,
     "claims_grounded": 6,
@@ -134,19 +134,6 @@
   "review": {
     "status": "provisional",
     "approved_by": null,
-    "approved_at": null,
-    "history": [
-      {
-        "status": "verified",
-        "approved_by": {
-          "type": "ai",
-          "provider": "lexical",
-          "model": "lexical"
-        },
-        "approved_at": "2026-11-22T07:55:37+00:00",
-        "changed_at": "2026-11-22T14:52:30+00:00",
-        "reason": "relabel: fallback check (method=lexical) cannot mark an item verified; only the Gemini search check can"
-      }
-    ]
+    "approved_at": null
   }
 }
