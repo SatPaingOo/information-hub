@@ -88,17 +88,24 @@ After the check phase, records gain `grounding` and `review` blocks:
     "method": "gemini-search"
   },
   "review": {
-    "status": "verified | pending_review",
+    "status": "verified | provisional | pending_review",
     "approved_by": {"type": "ai", "provider": "gemini", "model": "..."},
-    "approved_at": "2026-08-14T13:01:00Z"
+    "approved_at": "2026-08-14T13:01:00Z",
+    "history": [{"status": "...", "approved_by": "...", "changed_at": "...", "reason": "..."}]
   }
 }
 ```
 
-- `grounding_score < quality.reject_threshold` (0.5) → `pending_review`
-  (data is kept; a human can flip it to `verified` by editing the registry)
-- `method: "lexical"` means the Gemini search quota was unavailable and the
-  local token-coverage fallback was used
+- `verified` — **only** `method: "gemini-search"` with score ≥
+  `quality.reject_threshold` (0.5). The only status with an `approved_by`.
+- `provisional` — Gemini was unavailable and a fallback check passed:
+  `method: "lexical"` (claims match the source text) or `method: "web"`
+  (independent outlets carry the story). Not verified; `approved_by` is null.
+- `pending_review` — score below the threshold (data is kept; a human can
+  approve it by editing the registry), or no score.
+- `history` (optional) — earlier review states, kept when a status is
+  corrected so the old approval trail is not lost
+  (see `scripts/relabel_fallback_reviews.py`).
 
 ## Classification (data, not paths)
 

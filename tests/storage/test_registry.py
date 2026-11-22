@@ -40,12 +40,27 @@ def test_registry_approval_trail(tmp_path: Path):
     rec = sample_record(key="2026-08-14-001")
     reg.record_item(rec, status="published", gemini_calls=1, validated=True,
                     provider="mock", model="mock-generator")
-    reg.update_approval(rec["id"], 0.8, "ai", "gemini", "gemini-2.5-flash")
+    reg.update_approval(rec["id"], 0.8, review_status="verified",
+                        approved_by={"type": "ai", "provider": "gemini",
+                                     "model": "gemini-2.5-flash"})
     status = reg.item_status(rec["id"])
     assert status["grounding_score"] == 0.8
     assert status["review_status"] == "verified"
     assert status["approved_by"]["provider"] == "gemini"
     assert status["approved_by"]["type"] == "ai"
+    assert status["approved_at"]
+
+
+def test_registry_provisional_has_no_approver(tmp_path: Path):
+    reg = Registry(tmp_path)
+    rec = sample_record(key="2026-08-14-002")
+    reg.record_item(rec, status="published", gemini_calls=1, validated=True,
+                    provider="mock", model="mock-generator")
+    reg.update_approval(rec["id"], 1.0, review_status="provisional", approved_by=None)
+    status = reg.item_status(rec["id"])
+    assert status["review_status"] == "provisional"
+    assert status["approved_by"] is None
+    assert status["approved_at"] is None
 
 
 def test_registry_source_reputation(tmp_path: Path):

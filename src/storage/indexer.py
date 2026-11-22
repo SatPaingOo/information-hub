@@ -154,6 +154,7 @@ class Indexer:
         per_provider: dict[str, int] = {}
         per_model: dict[str, int] = {}
         per_verify: dict[str, int] = {}
+        per_review: dict[str, int] = {}
         total_words = 0
         for r in records:
             bucket(per_day, r["date"])
@@ -174,6 +175,7 @@ class Indexer:
             raw_method = g.get("method") or ("unverified" if not g.get("checked_by") else "other")
             method = "gemini" if raw_method.startswith("gemini") else raw_method
             bucket(per_verify, method)
+            bucket(per_review, (r.get("review") or {}).get("status") or "unchecked")
             total_words += r.get("word_count") or 0
 
         stats = {
@@ -189,6 +191,7 @@ class Indexer:
             "per_region": per_region,
             "per_provider_model": per_provider,
             "per_verify_method": per_verify,
+            "per_review_status": per_review,   # verified (Gemini only) / provisional / pending_review
         }
         (self.index_dir / "stats.json").write_text(
             json.dumps(stats, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")

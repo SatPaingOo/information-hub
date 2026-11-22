@@ -113,9 +113,13 @@ DEEP_DIVE_SCHEMA = {
         "review": {
             "type": "object",
             "properties": {
-                "status": {"type": "string", "enum": ["verified", "pending_review"]},
-                "approved_by": {"type": "object"},
-                "approved_at": {"type": "string"},
+                # verified = Gemini search grounding only; provisional = a
+                # fallback (lexical/web) check passed, awaiting Gemini
+                "status": {"type": "string",
+                           "enum": ["verified", "provisional", "pending_review"]},
+                "approved_by": {"type": ["object", "null"]},
+                "approved_at": {"type": ["string", "null"]},
+                "history": {"type": "array", "items": {"type": "object"}},
             },
         },
         "word_count": {"type": "integer", "minimum": 1},

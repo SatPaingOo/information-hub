@@ -32,6 +32,16 @@ SYSTEM_VERIFY = (
 )
 
 
+VERIFY_METHOD = "gemini-search"   # the only method that may mark an item verified
+
+
+def review_status_for(score: float | None, method: str, threshold: float) -> str:
+    """Review status for a grounding result — see ``GroundingEngine._finalize``."""
+    if score is None or score < threshold:
+        return "pending_review"
+    return "verified" if method == VERIFY_METHOD else "provisional"
+
+
 class GroundingEngine:
     def __init__(self, cfg: Config, registry: Registry, run_log: RunLog,
                  provider_manager: Any):
@@ -79,7 +89,7 @@ class GroundingEngine:
 
         if result is not None:
             parsed = self._parse(result, claims)
-            return self._finalize(record, parsed, used_spec, method="gemini-search")
+            return self._finalize(record, parsed, used_spec, method=VERIFY_METHOD)
 
         # Fallback: lexical grounding against the source fulltext (no API).
         if used_spec is None:
@@ -94,24 +104,33 @@ class GroundingEngine:
             parsed = self._corroborate(record, claims, parsed)
             if parsed["sources_verified"]:
                 method = "web"  # independent citations found — no longer bare lexical
-        return self._finalize(record, parsed, used_spec, method=method)
+        # spec=None: Gemini did NOT check this item, so it must not appear as
+        # the checker/approver in the provenance trail.
+        return self._finalize(record, parsed, None, method=method)
 
     def _finalize(self, record: dict[str, Any], parsed: dict[str, Any],
                   spec: Any, method: str) -> dict[str, Any]:
-        """Shared scoring + review/approval + source reputation."""
+        """Shared scoring + review/approval + source reputation.
+
+        Review status (golden rule: only the Gemini check verifies):
+          verified        Gemini search grounding, score >= threshold
+          provisional     fallback check (lexical / web) passed the threshold —
+                          NOT verified; waits for a Gemini check
+          pending_review  score below threshold, or no score
+        Only ``verified`` carries an approver; the others have none.
+        """
         total = parsed["claims_total"]
         grounded = parsed["claims_grounded"]
         score = round(grounded / total, 3) if total else None
         sources = parsed["sources_verified"]
-        reject = self.cfg.quality.reject_threshold
-        status = "verified" if score is not None and score >= reject else "pending_review"
+        status = review_status_for(score, method, self.cfg.quality.reject_threshold)
+        approver = ({"type": "ai", "provider": spec.provider, "model": spec.model}
+                    if status == "verified" and spec is not None else None)
 
         # provenance trail: grounding + approval
         self.registry.update_approval(
             record["id"], score if score is not None else 0.0,
-            approved_by_type="ai",
-            approved_by_provider=getattr(spec, "provider", method),
-            approved_by_model=getattr(spec, "model", method),
+            review_status=status, approved_by=approver,
         )
         # source reputation
         self.registry.record_grounding(
@@ -131,6 +150,7 @@ class GroundingEngine:
             "sources_verified": sources,
             "method": method,
             "review_status": status,
+            "approved_by": approver,
             "_spec": spec,
         }
 

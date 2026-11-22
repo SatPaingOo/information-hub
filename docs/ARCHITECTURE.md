@@ -66,12 +66,17 @@ grounding) verifies the record's claims and returns:
 
 - `grounding_score` (grounded claims / total)
 - `sources_verified` (cited URLs + titles)
-- `review_status` (`verified` when score ≥ threshold, else `pending_review`)
-- an **approval trail** (who checked/approved, when)
+- `review_status` — `verified` only when the Gemini search check scores
+  ≥ threshold; `provisional` when a fallback check (lexical / web) scores
+  ≥ threshold; otherwise `pending_review`
+- an **approval trail** (who checked/approved, when). Only `verified` items
+  have an approver.
 
 When the Gemini search quota is unavailable, a **lexical fallback** scores
-claim token-overlap against the source fulltext — the pipeline always produces
-a grounding result and never crashes on a quota error.
+claim token-overlap against the source fulltext, and **web corroboration**
+looks for independent outlets. The pipeline always produces a grounding result
+and never crashes on a quota error. A fallback can never mark an item
+`verified`; at most it is `provisional`.
 
 ## Layered package layout (`src/`)
 

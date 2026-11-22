@@ -146,22 +146,20 @@ class Registry:
         self.items[url_hash(record["source"]["url"])] = base
         self.items[title_hash(record["title"])] = base
 
-    def update_approval(self, item_id: str, grounding_score: float,
-                        approved_by_type: str, approved_by_provider: str,
-                        approved_by_model: str) -> None:
-        """Record grounding result + approval trail for an item."""
+    def update_approval(self, item_id: str, grounding_score: float, *,
+                        review_status: str,
+                        approved_by: dict[str, Any] | None) -> None:
+        """Record grounding result + approval trail for an item.
+
+        ``review_status`` is decided by the grounding engine (only a Gemini
+        check yields ``verified``); ``approved_by`` is None unless verified.
+        """
         for entry in self.items.values():
             if entry.get("id") == item_id:
                 entry["grounding_score"] = grounding_score
-                entry["review_status"] = (
-                    "verified" if grounding_score >= 0.5 else "pending_review"
-                )
-                entry["approved_by"] = {
-                    "type": approved_by_type,
-                    "provider": approved_by_provider,
-                    "model": approved_by_model,
-                }
-                entry["approved_at"] = _utcnow()
+                entry["review_status"] = review_status
+                entry["approved_by"] = approved_by
+                entry["approved_at"] = _utcnow() if approved_by else None
 
     def item_status(self, item_id: str) -> dict[str, Any] | None:
         for entry in self.items.values():

@@ -410,6 +410,7 @@ def run_check(cfg: Config, registry: Registry, store: Store, indexer: Indexer,
 
     cap = cfg.quality.max_ai_verify_per_run
     checked = 0
+    outcomes: dict[str, int] = {}
     for rec in records_today[:cap]:
         # GroundingEngine picks a FRESH check provider per attempt (gate-aware)
         result = engine.check_record(rec, spec=None, fulltext=fulltext_by_id.get(rec["id"], ""))
@@ -420,7 +421,7 @@ def run_check(cfg: Config, registry: Registry, store: Store, indexer: Indexer,
         spec = result.get("_spec")   # spec used (set by _finalize for provenance)
         rec["grounding"] = {
             "checked_by": {"provider": spec.provider if spec else result["method"],
-                           "model": spec.model if spec else "lexical",
+                           "model": spec.model if spec else result["method"],
                            "search_tool": spec.search_tool if spec else None},
             "checked_at": _utcnow(),
             "grounding_score": result["grounding_score"],
@@ -430,24 +431,25 @@ def run_check(cfg: Config, registry: Registry, store: Store, indexer: Indexer,
             "method": result["method"],
         }
         status = result.get("review_status", "pending_review")
+        approver = result.get("approved_by")   # set only when Gemini verified it
         rec["review"] = {
             "status": status,
-            "approved_by": {"type": "ai",
-                            "provider": spec.provider if spec else result["method"],
-                            "model": spec.model if spec else "lexical"},
-            "approved_at": _utcnow(),
+            "approved_by": approver,
+            "approved_at": _utcnow() if approver else None,
         }
         store.write_record(rec)
-        logger.info("check: %s score=%s status=%s sources=%d",
-                    rec["id"], result["grounding_score"], status,
+        logger.info("check: %s score=%s status=%s method=%s sources=%d",
+                    rec["id"], result["grounding_score"], status, result["method"],
                     len(result["sources_verified"]))
         checked += 1
+        outcomes[status] = outcomes.get(status, 0) + 1
         time.sleep(3)  # pace rate-limited free tier between verify calls
 
     if checked:
         indexer.rebuild(store.iter_records(), taxonomy=cfg.taxonomy, relations=cfg.relations)
     registry.save()
-    logger.info("check done: %d item(s) verified", checked)
+    logger.info("check done: %d item(s) checked — %s", checked,
+                ", ".join(f"{k} {v}" for k, v in sorted(outcomes.items())) or "none")
     return 0
 
 

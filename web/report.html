@@ -116,11 +116,15 @@
     <!-- verify explainer -->
     <div class="surface p-5 text-sm text-slate-400 leading-relaxed">
       <h2 class="font-semibold text-white mb-2 text-sm">What does “verified” mean?</h2>
-      <p><span class="text-emerald-300 font-semibold">🤖 AI check (Gemini)</span> — claims verified with an AI web-search grounding pass
-        against live sources (Gemini search quota permitting).</p>
-      <p class="mt-2"><span class="text-sky-300 font-semibold">⚙️ Lexical check</span> — no AI search quota at run time; claims checked
-        lexically against the fetched source text.</p>
-      <p class="mt-2"><span class="text-slate-500 font-semibold">Unverified</span> — not yet through a check pass.</p>
+      <p>Only one method can mark a briefing <span class="text-emerald-300 font-semibold">verified</span>:</p>
+      <p class="mt-2"><span class="text-emerald-300 font-semibold">🤖 AI check (Gemini)</span> — claims verified with an AI web-search grounding pass
+        against live sources (Gemini search quota permitting). Review status: <b>verified</b>.</p>
+      <p class="mt-2">When Gemini search is unavailable, a fallback check runs instead. A pass gives review status
+        <b>provisional</b>, which means not verified yet:</p>
+      <p class="mt-2"><span class="text-sky-300 font-semibold">🌐 Web corroborated</span> — independent outlets report the same story.</p>
+      <p class="mt-2"><span class="text-indigo-300 font-semibold">⚙️ Lexical check</span> — claims match the fetched source text
+        (consistency with the source, not an independent fact-check).</p>
+      <p class="mt-2"><span class="text-slate-500 font-semibold">Pending review / unchecked</span> — the check scored below 0.5, or no check has run yet.</p>
     </div>
   </main>
 
@@ -133,7 +137,7 @@
             <span class="logo-mark">IH</span>
             <span class="font-bold tracking-tight text-white">Information&nbsp;Hub</span>
           </div>
-          <p class="text-xs text-slate-500 leading-relaxed max-w-xs">An autonomous daily intelligence library — deep briefings on world, tech, politics and products, written and verified by machines.</p>
+          <p class="text-xs text-slate-500 leading-relaxed max-w-xs">An autonomous daily intelligence library — deep briefings on world, tech, politics and products, written and checked by machines.</p>
         </div>
         <!-- explore -->
         <div>
