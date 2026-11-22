@@ -11783,6 +11783,79 @@
       "name": "World"
     },
     {
+      "id": "info:item:world:global:2026-11-22-001",
+      "type": "item",
+      "date": "2026-11-22",
+      "title": "Zelensky defends Crimean Bridge strikes as a proportional response amid rising Russian attacks"
+    },
+    {
+      "id": "info:entity:concept:Crimean Bridge",
+      "type": "concept",
+      "name": "Crimean Bridge"
+    },
+    {
+      "id": "info:item:world:global:2026-11-22-003",
+      "type": "item",
+      "date": "2026-11-22",
+      "title": "FBI reportedly investigating apparent hack of its criminal database"
+    },
+    {
+      "id": "info:entity:organization:Federal Bureau of Investigation",
+      "type": "organization",
+      "name": "Federal Bureau of Investigation"
+    },
+    {
+      "id": "info:entity:organization:National Crime Information Center",
+      "type": "organization",
+      "name": "National Crime Information Center"
+    },
+    {
+      "id": "info:entity:person:Sean Cairncross",
+      "type": "person",
+      "name": "Sean Cairncross"
+    },
+    {
+      "id": "taxonomy/misc/cybersecurity policy",
+      "type": "taxonomy",
+      "name": "cybersecurity policy"
+    },
+    {
+      "id": "taxonomy/misc/law enforcement technology",
+      "type": "taxonomy",
+      "name": "law enforcement technology"
+    },
+    {
+      "id": "info:item:world:global:2026-11-22-004",
+      "type": "item",
+      "date": "2026-11-22",
+      "title": "Russia-bound ship attacked in Gulf of Finland"
+    },
+    {
+      "id": "info:entity:product:Sparta II",
+      "type": "product",
+      "name": "Sparta II"
+    },
+    {
+      "id": "info:entity:region:Kaliningrad",
+      "type": "region",
+      "name": "Kaliningrad"
+    },
+    {
+      "id": "taxonomy/misc/Geopolitics > Baltic Sea Security",
+      "type": "taxonomy",
+      "name": "Geopolitics > Baltic Sea Security"
+    },
+    {
+      "id": "taxonomy/misc/Policy > Maritime Security",
+      "type": "taxonomy",
+      "name": "Policy > Maritime Security"
+    },
+    {
+      "id": "taxonomy/misc/Industry > Defense Logistics",
+      "type": "taxonomy",
+      "name": "Industry > Defense Logistics"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -53113,6 +53186,211 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-11-22-001",
+      "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "Ukrainian President, defending bridge strikes"
+    },
+    {
+      "source": "info:item:world:global:2026-11-22-001",
+      "target": "info:entity:person:Wes Streeting",
+      "relation": "UK Defence Secretary, meeting with Zelensky"
+    },
+    {
+      "source": "info:item:world:global:2026-11-22-001",
+      "target": "info:entity:organization:NATO",
+      "relation": "Alliance providing security guarantees to Ukraine"
+    },
+    {
+      "source": "info:item:world:global:2026-11-22-001",
+      "target": "info:entity:concept:Crimean Bridge",
+      "relation": "Strategic Russian supply route, target of Ukrainian strikes"
+    },
+    {
+      "source": "info:item:world:global:2026-11-22-001",
+      "target": "info:item:world:global:2026-11-21-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-22-001",
+      "target": "info:item:world:global:2026-11-21-002",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-22-001",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-22-001",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-22-001",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-22-001",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-22-001",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-22-001",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-22-001",
+      "target": "taxonomy/category/industry",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-22-003",
+      "target": "info:entity:organization:Federal Bureau of Investigation",
+      "relation": "target of breach"
+    },
+    {
+      "source": "info:item:world:global:2026-11-22-003",
+      "target": "info:entity:organization:National Crime Information Center",
+      "relation": "database compromised"
+    },
+    {
+      "source": "info:item:world:global:2026-11-22-003",
+      "target": "info:entity:person:Sean Cairncross",
+      "relation": "former National Cyber Director, dismissed amid fallout"
+    },
+    {
+      "source": "info:item:world:global:2026-11-22-003",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "publicly commented on breach"
+    },
+    {
+      "source": "info:item:world:global:2026-11-22-003",
+      "target": "info:item:world:global:2026-11-22-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-22-003",
+      "target": "info:item:world:global:2026-11-21-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-22-003",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-22-003",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-22-003",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-22-003",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-22-003",
+      "target": "taxonomy/misc/cybersecurity policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-22-003",
+      "target": "taxonomy/misc/law enforcement technology",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-22-003",
+      "target": "taxonomy/misc/AI governance",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-22-004",
+      "target": "info:entity:region:Russia",
+      "relation": "target state and owner of the attacked vessel"
+    },
+    {
+      "source": "info:item:world:global:2026-11-22-004",
+      "target": "info:entity:region:Ukraine",
+      "relation": "assessed perpetrator of the drone strike"
+    },
+    {
+      "source": "info:item:world:global:2026-11-22-004",
+      "target": "info:entity:region:Finland",
+      "relation": "NATO member whose waters and airspace were affected"
+    },
+    {
+      "source": "info:item:world:global:2026-11-22-004",
+      "target": "info:entity:organization:NATO",
+      "relation": "informed and monitoring the incident"
+    },
+    {
+      "source": "info:item:world:global:2026-11-22-004",
+      "target": "info:entity:product:Sparta II",
+      "relation": "sanctioned Russian cargo vessel hit by drones"
+    },
+    {
+      "source": "info:item:world:global:2026-11-22-004",
+      "target": "info:entity:region:Kaliningrad",
+      "relation": "Russian exclave destination of the vessel"
+    },
+    {
+      "source": "info:item:world:global:2026-11-22-004",
+      "target": "info:item:world:global:2026-11-22-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-22-004",
+      "target": "info:item:world:global:2026-11-21-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-22-004",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-22-004",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-22-004",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-22-004",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-22-004",
+      "target": "taxonomy/misc/Geopolitics > Baltic Sea Security",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-22-004",
+      "target": "taxonomy/misc/Policy > Maritime Security",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-22-004",
+      "target": "taxonomy/misc/Industry > Defense Logistics",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -58463,6 +58741,24 @@
     {
       "source": "info:entity:concept:Computer Vision",
       "target": "info:entity:concept:Crowdsourcing",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Crimean Bridge",
+      "target": "info:entity:organization:NATO",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Crimean Bridge",
+      "target": "info:entity:person:Volodymyr Zelensky",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:concept:Crimean Bridge",
+      "target": "info:entity:person:Wes Streeting",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -64215,6 +64511,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Federal Bureau of Investigation",
+      "target": "info:entity:organization:National Crime Information Center",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Federal Bureau of Investigation",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Federal Bureau of Investigation",
+      "target": "info:entity:person:Sean Cairncross",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Federal Election Commission",
       "target": "info:entity:organization:U.S. Congress",
       "relation": "co-occurs",
@@ -66522,11 +66836,29 @@
       "source": "info:entity:organization:NATO",
       "target": "info:entity:person:Volodymyr Zelensky",
       "relation": "co-occurs",
-      "weight": "4"
+      "weight": "5"
     },
     {
       "source": "info:entity:organization:NATO",
       "target": "info:entity:person:Wes Streeting",
+      "relation": "co-occurs",
+      "weight": "2"
+    },
+    {
+      "source": "info:entity:organization:NATO",
+      "target": "info:entity:product:Sparta II",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:NATO",
+      "target": "info:entity:region:Finland",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:NATO",
+      "target": "info:entity:region:Kaliningrad",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -66538,9 +66870,15 @@
     },
     {
       "source": "info:entity:organization:NATO",
-      "target": "info:entity:region:Ukraine",
+      "target": "info:entity:region:Russia",
       "relation": "co-occurs",
       "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:NATO",
+      "target": "info:entity:region:Ukraine",
+      "relation": "co-occurs",
+      "weight": "2"
     },
     {
       "source": "info:entity:organization:NHS",
@@ -66629,6 +66967,18 @@
     {
       "source": "info:entity:organization:National Association of Head Teachers (NAHT)",
       "target": "info:entity:region:Scotland",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:National Crime Information Center",
+      "target": "info:entity:person:Donald Trump",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:National Crime Information Center",
+      "target": "info:entity:person:Sean Cairncross",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -71098,6 +71448,12 @@
     },
     {
       "source": "info:entity:person:Donald Trump",
+      "target": "info:entity:person:Sean Cairncross",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Donald Trump",
       "target": "info:entity:person:Sergei Lavrov",
       "relation": "co-occurs",
       "weight": "1"
@@ -72868,6 +73224,12 @@
     },
     {
       "source": "info:entity:person:Volodymyr Zelensky",
+      "target": "info:entity:person:Wes Streeting",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Volodymyr Zelensky",
       "target": "info:entity:product:Flamingo missile",
       "relation": "co-occurs",
       "weight": "1"
@@ -73029,6 +73391,30 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:product:Sparta II",
+      "target": "info:entity:region:Finland",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:product:Sparta II",
+      "target": "info:entity:region:Kaliningrad",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:product:Sparta II",
+      "target": "info:entity:region:Russia",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:product:Sparta II",
+      "target": "info:entity:region:Ukraine",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:product:Starlink",
       "target": "info:entity:product:Starshield",
       "relation": "co-occurs",
@@ -73043,6 +73429,42 @@
     {
       "source": "info:entity:region:China",
       "target": "info:entity:region:Nepal",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:region:Finland",
+      "target": "info:entity:region:Kaliningrad",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:region:Finland",
+      "target": "info:entity:region:Russia",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:region:Finland",
+      "target": "info:entity:region:Ukraine",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:region:Kaliningrad",
+      "target": "info:entity:region:Russia",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:region:Kaliningrad",
+      "target": "info:entity:region:Ukraine",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:region:Russia",
+      "target": "info:entity:region:Ukraine",
       "relation": "co-occurs",
       "weight": "1"
     }

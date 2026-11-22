@@ -1,7 +1,7 @@
 ---
 node: "industry"
 layer: category
-item_count: 420
+item_count: 424
 ---
 
 # industry
@@ -21,6 +21,10 @@ item_count: 420
 
 ## Items
 
+- 2026-11-22 · [[2026-11-22-001-zelensky-defends-crimean-bridge-strikes-as-a-proportional]] — Zelensky defends Crimean Bridge strikes as a proportional response amid rising Russian attacks
+- 2026-11-22 · [[2026-11-22-001-zelensky-defends-crimean-bridge-strikes-as-a-proportional]] — Zelensky defends Crimean Bridge strikes as a proportional response amid rising Russian attacks
+- 2026-11-22 · [[2026-11-22-003-fbi-reportedly-investigating-apparent-hack-of-its-criminal]] — FBI reportedly investigating apparent hack of its criminal database
+- 2026-11-22 · [[2026-11-22-004-russia-bound-ship-attacked-in-gulf-of-finland]] — Russia-bound ship attacked in Gulf of Finland
 - 2026-11-21 · [[2026-11-21-001-tech-stock-sell-off-drags-markets-down-as-anthropic-shares]] — Tech stock sell‑off drags markets down as Anthropic shares slide
 - 2026-11-21 · [[2026-11-21-002-in-a-year-of-ai-solving-maths-problems-anthropic-may-have]] — In a year of AI solving maths problems, Anthropic may have just solved the biggest
 - 2026-11-21 · [[2026-11-21-002-in-a-year-of-ai-solving-maths-problems-anthropic-may-have]] — In a year of AI solving maths problems, Anthropic may have just solved the biggest

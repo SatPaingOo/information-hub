@@ -1,7 +1,7 @@
 ---
 name: "Volodymyr Zelensky"
 entity_type: person
-backlink_count: 51
+backlink_count: 52
 ---
 
 # Volodymyr Zelensky
@@ -10,6 +10,7 @@ backlink_count: 51
 
 ## Referenced by
 
+- 2026-11-22 · [[2026-11-22-001-zelensky-defends-crimean-bridge-strikes-as-a-proportional]] — Zelensky defends Crimean Bridge strikes as a proportional response amid rising Russian attacks
 - 2026-11-21 · [[2026-11-21-005-russia-targets-kyiv-crossings-days-after-ukraine-hits]] — Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge
 - 2026-11-18 · [[2026-11-18-002-how-the-attack-on-putin-s-prized-crimean-bridge-unfolded]] — How the attack on Putin's prized Crimean Bridge unfolded
 - 2026-11-17 · [[2026-11-17-009-ukraine-accuses-russia-of-targeting-rescue-operation-after]] — Ukraine accuses Russia of targeting rescue operation after 'double-tap' strike kills 72

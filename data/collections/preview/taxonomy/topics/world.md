@@ -1,7 +1,7 @@
 ---
 node: "world"
 layer: topic
-item_count: 375
+item_count: 378
 ---
 
 # world
@@ -17,6 +17,9 @@ item_count: 375
 
 ## Items
 
+- 2026-11-22 · [[2026-11-22-001-zelensky-defends-crimean-bridge-strikes-as-a-proportional]] — Zelensky defends Crimean Bridge strikes as a proportional response amid rising Russian attacks
+- 2026-11-22 · [[2026-11-22-003-fbi-reportedly-investigating-apparent-hack-of-its-criminal]] — FBI reportedly investigating apparent hack of its criminal database
+- 2026-11-22 · [[2026-11-22-004-russia-bound-ship-attacked-in-gulf-of-finland]] — Russia-bound ship attacked in Gulf of Finland
 - 2026-11-21 · [[2026-11-21-001-tech-stock-sell-off-drags-markets-down-as-anthropic-shares]] — Tech stock sell‑off drags markets down as Anthropic shares slide
 - 2026-11-21 · [[2026-11-21-002-in-a-year-of-ai-solving-maths-problems-anthropic-may-have]] — In a year of AI solving maths problems, Anthropic may have just solved the biggest
 - 2026-11-21 · [[2026-11-21-004-russian-missile-hits-poland-as-ukraine-s-allies-hold]] — Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk

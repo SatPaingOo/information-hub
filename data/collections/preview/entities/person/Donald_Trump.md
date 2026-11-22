@@ -1,7 +1,7 @@
 ---
 name: "Donald Trump"
 entity_type: person
-backlink_count: 86
+backlink_count: 87
 ---
 
 # Donald Trump
@@ -10,6 +10,7 @@ backlink_count: 86
 
 ## Referenced by
 
+- 2026-11-22 · [[2026-11-22-003-fbi-reportedly-investigating-apparent-hack-of-its-criminal]] — FBI reportedly investigating apparent hack of its criminal database
 - 2026-11-11 · [[2026-11-11-003-us-house-blocks-bid-to-impeach-defence-secretary-pete]] — US House blocks bid to impeach Defence Secretary Pete Hegseth, for now
 - 2026-11-10 · [[2026-11-10-001-trump-says-fbi-investigating-nvidia-boss-s-affair-with]] — Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy
 - 2026-11-07 · [[2026-11-07-001-ai-stocks-climb-after-trillions-wiped-from-market-values]] — AI stocks climb after trillions wiped from market values

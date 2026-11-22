@@ -1,7 +1,7 @@
 ---
 name: "Wes Streeting"
 entity_type: person
-backlink_count: 4
+backlink_count: 5
 ---
 
 # Wes Streeting
@@ -10,6 +10,7 @@ backlink_count: 4
 
 ## Referenced by
 
+- 2026-11-22 · [[2026-11-22-001-zelensky-defends-crimean-bridge-strikes-as-a-proportional]] — Zelensky defends Crimean Bridge strikes as a proportional response amid rising Russian attacks
 - 2026-11-03 · [[2026-11-03-002-thousands-of-european-troops-to-rehearse-ukraine]] — Thousands of European troops to rehearse Ukraine deployment in event of peace
 - 2026-10-06 · [[2026-10-06-005-tories-pledge-10bn-british-iron-dome-air-defence-system]] — Tories pledge £10bn British 'Iron Dome' air defence system
 - 2026-08-29 · [[2026-08-29-005-burnham-says-he-will-not-vote-on-assisted-dying-unlike]] — Burnham says he will not vote on assisted dying unlike Starmer

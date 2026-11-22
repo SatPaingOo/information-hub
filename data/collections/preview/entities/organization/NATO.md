@@ -1,7 +1,7 @@
 ---
 name: "NATO"
 entity_type: organization
-backlink_count: 17
+backlink_count: 19
 ---
 
 # NATO
@@ -10,6 +10,8 @@ backlink_count: 17
 
 ## Referenced by
 
+- 2026-11-22 · [[2026-11-22-001-zelensky-defends-crimean-bridge-strikes-as-a-proportional]] — Zelensky defends Crimean Bridge strikes as a proportional response amid rising Russian attacks
+- 2026-11-22 · [[2026-11-22-004-russia-bound-ship-attacked-in-gulf-of-finland]] — Russia-bound ship attacked in Gulf of Finland
 - 2026-11-21 · [[2026-11-21-004-russian-missile-hits-poland-as-ukraine-s-allies-hold]] — Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk
 - 2026-11-21 · [[2026-11-21-005-russia-targets-kyiv-crossings-days-after-ukraine-hits]] — Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge
 - 2026-11-15 · [[2026-11-15-001-us-has-floated-ukraine-ceding-donbas-for-nato-membership]] — US has floated Ukraine ceding Donbas for NATO membership, Zelensky says
