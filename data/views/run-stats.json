@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T03:05:26+00:00",
+  "generated_at": "2026-11-23T08:52:36+00:00",
   "per_day_provider_model": {
     "2026-08-17": {
       "groq": {
@@ -4682,6 +4682,12 @@
           "ok": 2,
           "errors": 6,
           "tokens": 4892
+        },
+        "dots-studio/dots-3-note-preview:free": {
+          "calls": 3,
+          "ok": 0,
+          "errors": 3,
+          "tokens": 0
         }
       },
       "groq": {
@@ -5160,7 +5166,7 @@
       "HTTP 413": 1,
       "network": 3,
       "HTTP 400": 1,
-      "HTTP 429": 3
+      "HTTP 429": 6
     }
   }
 }
