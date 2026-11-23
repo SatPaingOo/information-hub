@@ -1,0 +1,96 @@
+2026-11-23 02:54:06,553 ERROR [world-news] select failed: HTTP 404: {"error":{"message":"cohere/north-mini-code:free is no longer available on OpenRouter: no provider serves this model anymore. See available models at https://openrouter.ai/models","code":404},"user_id":"user_2mqLaYz9PPTm2loHhHg0PQ896kb"}
+2026-11-23 02:54:06,602 INFO [world-news] model returned no selection — using heuristic fallback (3)
+2026-11-23 02:54:07,180 ERROR [world-news] generate error: HTTP 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `org_01jxveatz8fq4azf0y0459c1xd` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Requested 8084, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https
+2026-11-23 02:54:10,246 ERROR [world-news] generate error: HTTP 404: {"error":{"message":"This model is unavailable for free. The paid version is available now - use this slug instead: nvidia/nemotron-3-super-120b-a12b","code":404},"user_id":"user_2mqLaYz9PPTm2loHhHg0PQ896kb"}
+2026-11-23 02:54:16,312 ERROR [world-news] generate error: HTTP 404: {"error":{"message":"poolside/laguna-s-2.1:free is no longer available on OpenRouter: no provider serves this model anymore. See available models at https://openrouter.ai/models","code":404},"user_id":"user_2mqLaYz9PPTm2loHhHg0PQ896kb"}
+2026-11-23 02:54:25,525 ERROR [world-news] generate error: HTTP 404: {"error":{"message":"poolside/laguna-xs-2.1:free is no longer available on OpenRouter: no provider serves this model anymore. See available models at https://openrouter.ai/models","code":404},"user_id":"user_2mqLaYz9PPTm2loHhHg0PQ896kb"}
+2026-11-23 02:55:09,758 ERROR [world-news] generate error: empty model content
+2026-11-23 02:55:18,372 ERROR [world-news] generate error: HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
+
+2026-11-23 02:55:31,092 WARNING [world-news] no collect provider for deep-dive
+2026-11-23 02:55:35,397 WARNING [tech-news] no collect provider available
+2026-11-23 02:55:40,590 WARNING [politics] no collect provider available
+2026-11-23 02:58:25,161 ERROR [products] generate error: bad response: Unterminated string starting at: line 2 column 9 (char 10)
+2026-11-23 02:58:32,729 WARNING [products] no collect provider for deep-dive
+2026-11-23 02:58:36,383 WARNING [products] no collect provider for deep-dive
+2026-11-23 02:58:37,402 INFO collect done: 0 item(s) published — target 10/10, next run ≈ 2026-11-23T03:06:25+00:00 UTC
+2026-11-23 03:00:02,607 ERROR [world-news] select failed: empty model content
+2026-11-23 03:00:02,658 INFO [world-news] model returned no selection — using heuristic fallback (3)
+2026-11-23 03:00:07,731 WARNING [world-news] no collect provider for deep-dive
+2026-11-23 03:00:10,905 WARNING [world-news] no collect provider for deep-dive
+2026-11-23 03:00:14,908 WARNING [world-news] no collect provider for deep-dive
+2026-11-23 03:00:19,113 WARNING [tech-news] no collect provider available
+2026-11-23 03:00:24,694 WARNING [politics] no collect provider available
+2026-11-23 03:00:29,165 WARNING [products] no collect provider available
+2026-11-23 03:00:30,258 INFO collect done: 0 item(s) published — target 10/10, next run ≈ 2026-11-23T03:08:32+00:00 UTC
+2026-11-23 03:01:19,002 ERROR [world-news] generate error: HTTP 429: {"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day: https://openrouter.ai/settings/credits?utm_source=api&utm_campaign=free_daily_limit","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50","X-RateLimit-Remaining":"0","X-Rat
+2026-11-23 03:01:22,458 WARNING [world-news] no collect provider for deep-dive
+2026-11-23 03:01:23,116 WARNING [world-news] no collect provider for deep-dive
+2026-11-23 03:01:23,665 WARNING [world-news] no collect provider for deep-dive
+2026-11-23 03:01:24,654 WARNING [tech-news] no collect provider available
+2026-11-23 03:01:25,533 WARNING [politics] no collect provider available
+2026-11-23 03:01:26,326 WARNING [products] no collect provider available
+2026-11-23 03:01:27,411 INFO collect done: 0 item(s) published — target 10/10, next run ≈ 2026-11-23T03:09:19+00:00 UTC
+2026-11-23 03:01:49,876 ERROR [world-news] select failed: HTTP 429: {"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day: https://openrouter.ai/settings/credits?utm_source=api&utm_campaign=free_daily_limit","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50","X-RateLimit-Remaining":"0","X-Rat
+2026-11-23 03:01:49,926 INFO [world-news] model returned no selection — using heuristic fallback (3)
+2026-11-23 03:01:50,858 WARNING [world-news] no collect provider for deep-dive
+2026-11-23 03:01:51,572 WARNING [world-news] no collect provider for deep-dive
+2026-11-23 03:01:52,489 WARNING [world-news] no collect provider for deep-dive
+2026-11-23 03:01:53,373 WARNING [tech-news] no collect provider available
+2026-11-23 03:01:54,992 WARNING [politics] no collect provider available
+2026-11-23 03:01:55,702 WARNING [products] no collect provider available
+2026-11-23 03:01:56,104 INFO collect done: 0 item(s) published — target 10/10, next run ≈ 2026-11-23T03:10:19+00:00 UTC
+2026-11-23 03:02:49,845 ERROR [world-news] select failed: HTTP 429: {"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day: https://openrouter.ai/settings/credits?utm_source=api&utm_campaign=free_daily_limit","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50","X-RateLimit-Remaining":"0","X-Rat
+2026-11-23 03:02:49,895 INFO [world-news] model returned no selection — using heuristic fallback (3)
+2026-11-23 03:02:50,532 WARNING [world-news] no collect provider for deep-dive
+2026-11-23 03:02:51,116 WARNING [world-news] no collect provider for deep-dive
+2026-11-23 03:02:51,740 WARNING [world-news] no collect provider for deep-dive
+2026-11-23 03:02:52,636 WARNING [tech-news] no collect provider available
+2026-11-23 03:02:53,631 WARNING [politics] no collect provider available
+2026-11-23 03:02:54,387 WARNING [products] no collect provider available
+2026-11-23 03:02:55,467 INFO collect done: 0 item(s) published — target 10/10, next run ≈ 2026-11-23T03:12:19+00:00 UTC
+2026-11-23 03:04:50,392 WARNING [world-news] no collect provider available
+2026-11-23 03:04:51,449 WARNING [tech-news] no collect provider available
+2026-11-23 03:04:52,556 WARNING [politics] no collect provider available
+2026-11-23 03:04:53,911 WARNING [products] no collect provider available
+2026-11-23 03:04:55,108 INFO collect done: 0 item(s) published — target 10/10, next run ≈ 2026-11-23T03:19:55+00:00 UTC
+2026-11-23 03:04:56,237 WARNING [world-news] no collect provider available
+2026-11-23 03:04:57,222 WARNING [tech-news] no collect provider available
+2026-11-23 03:04:58,148 WARNING [politics] no collect provider available
+2026-11-23 03:04:58,858 WARNING [products] no collect provider available
+2026-11-23 03:04:59,242 INFO collect done: 0 item(s) published — target 10/10, next run ≈ 2026-11-23T03:19:59+00:00 UTC
+2026-11-23 03:05:00,300 WARNING [world-news] no collect provider available
+2026-11-23 03:05:01,137 WARNING [tech-news] no collect provider available
+2026-11-23 03:05:02,022 WARNING [politics] no collect provider available
+2026-11-23 03:05:03,950 WARNING [products] no collect provider available
+2026-11-23 03:05:04,331 INFO collect done: 0 item(s) published — target 10/10, next run ≈ 2026-11-23T03:20:04+00:00 UTC
+2026-11-23 03:05:05,460 WARNING [world-news] no collect provider available
+2026-11-23 03:05:06,416 WARNING [tech-news] no collect provider available
+2026-11-23 03:05:07,109 WARNING [politics] no collect provider available
+2026-11-23 03:05:07,718 WARNING [products] no collect provider available
+2026-11-23 03:05:08,120 INFO collect done: 0 item(s) published — target 10/10, next run ≈ 2026-11-23T03:20:08+00:00 UTC
+2026-11-23 03:05:09,089 WARNING [world-news] no collect provider available
+2026-11-23 03:05:10,339 WARNING [tech-news] no collect provider available
+2026-11-23 03:05:11,027 WARNING [politics] no collect provider available
+2026-11-23 03:05:11,740 WARNING [products] no collect provider available
+2026-11-23 03:05:12,124 INFO collect done: 0 item(s) published — target 10/10, next run ≈ 2026-11-23T03:20:12+00:00 UTC
+2026-11-23 03:05:13,268 WARNING [world-news] no collect provider available
+2026-11-23 03:05:14,104 WARNING [tech-news] no collect provider available
+2026-11-23 03:05:14,878 WARNING [politics] no collect provider available
+2026-11-23 03:05:15,605 WARNING [products] no collect provider available
+2026-11-23 03:05:15,983 INFO collect done: 0 item(s) published — target 10/10, next run ≈ 2026-11-23T03:20:15+00:00 UTC
+2026-11-23 03:05:17,179 WARNING [world-news] no collect provider available
+2026-11-23 03:05:17,878 WARNING [tech-news] no collect provider available
+2026-11-23 03:05:18,696 WARNING [politics] no collect provider available
+2026-11-23 03:05:19,290 WARNING [products] no collect provider available
+2026-11-23 03:05:19,671 INFO collect done: 0 item(s) published — target 10/10, next run ≈ 2026-11-23T03:20:19+00:00 UTC
+2026-11-23 03:05:20,624 WARNING [world-news] no collect provider available
+2026-11-23 03:05:21,418 WARNING [tech-news] no collect provider available
+2026-11-23 03:05:22,247 WARNING [politics] no collect provider available
+2026-11-23 03:05:22,883 WARNING [products] no collect provider available
+2026-11-23 03:05:23,259 INFO collect done: 0 item(s) published — target 10/10, next run ≈ 2026-11-23T03:20:23+00:00 UTC
+2026-11-23 03:05:24,213 WARNING [world-news] no collect provider available
+2026-11-23 03:05:24,995 WARNING [tech-news] no collect provider available
+2026-11-23 03:05:25,721 WARNING [politics] no collect provider available
+2026-11-23 03:05:26,352 WARNING [products] no collect provider available
+2026-11-23 03:05:26,732 INFO collect done: 0 item(s) published — target 10/10, next run ≈ 2026-11-23T03:20:26+00:00 UTC
