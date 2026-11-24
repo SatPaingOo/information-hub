@@ -1,7 +1,7 @@
 ---
 node: "Geopolitics"
 layer: misc
-item_count: 28
+item_count: 29
 ---
 
 # Geopolitics
@@ -15,6 +15,7 @@ item_count: 28
 
 ## Items
 
+- 2026-11-24 · [[2026-11-24-001-us-to-blacklist-asian-ai-firm-megaspeed-after-nvidia-scandal]] — US to blacklist Asian AI firm Megaspeed after Nvidia scandal
 - 2026-11-16 · [[2026-11-16-003-five-eu-countries-announce-migrant-deportation-centre-in]] — Five EU countries announce migrant deportation centre in Rwanda
 - 2026-11-15 · [[2026-11-15-001-us-has-floated-ukraine-ceding-donbas-for-nato-membership]] — US has floated Ukraine ceding Donbas for NATO membership, Zelensky says
 - 2026-11-04 · [[2026-11-04-007-south-carolina-elects-democratic-senator-for-first-time-in]] — South Carolina elects Democratic senator for first time in almost three decades

@@ -1,7 +1,7 @@
 ---
 node: "world"
 layer: topic
-item_count: 378
+item_count: 379
 ---
 
 # world
@@ -17,6 +17,7 @@ item_count: 378
 
 ## Items
 
+- 2026-11-24 · [[2026-11-24-001-us-to-blacklist-asian-ai-firm-megaspeed-after-nvidia-scandal]] — US to blacklist Asian AI firm Megaspeed after Nvidia scandal
 - 2026-11-22 · [[2026-11-22-001-zelensky-defends-crimean-bridge-strikes-as-a-proportional]] — Zelensky defends Crimean Bridge strikes as a proportional response amid rising Russian attacks
 - 2026-11-22 · [[2026-11-22-003-fbi-reportedly-investigating-apparent-hack-of-its-criminal]] — FBI reportedly investigating apparent hack of its criminal database
 - 2026-11-22 · [[2026-11-22-004-russia-bound-ship-attacked-in-gulf-of-finland]] — Russia-bound ship attacked in Gulf of Finland

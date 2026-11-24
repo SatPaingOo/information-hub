@@ -11856,6 +11856,22 @@
       "name": "Industry > Defense Logistics"
     },
     {
+      "id": "info:item:world:global:2026-11-24-001",
+      "type": "item",
+      "date": "2026-11-24",
+      "title": "US to blacklist Asian AI firm Megaspeed after Nvidia scandal"
+    },
+    {
+      "id": "info:entity:company:Megaspeed Ltd",
+      "type": "company",
+      "name": "Megaspeed Ltd"
+    },
+    {
+      "id": "info:entity:organization:US Department of Commerce",
+      "type": "organization",
+      "name": "US Department of Commerce"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -53391,6 +53407,76 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-11-24-001",
+      "target": "info:entity:company:Megaspeed Ltd",
+      "relation": "subject of US blacklist"
+    },
+    {
+      "source": "info:item:world:global:2026-11-24-001",
+      "target": "info:entity:person:Alice Huang",
+      "relation": "former executive accused of espionage"
+    },
+    {
+      "source": "info:item:world:global:2026-11-24-001",
+      "target": "info:entity:company:Nvidia",
+      "relation": "supplier of AI chips implicated in the case"
+    },
+    {
+      "source": "info:item:world:global:2026-11-24-001",
+      "target": "info:entity:person:Jensen Huang",
+      "relation": "Nvidia CEO whose personal ties sparked the scandal"
+    },
+    {
+      "source": "info:item:world:global:2026-11-24-001",
+      "target": "info:entity:organization:US Department of Commerce",
+      "relation": "issuing authority for the Entity List"
+    },
+    {
+      "source": "info:item:world:global:2026-11-24-001",
+      "target": "info:item:world:global:2026-11-22-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-24-001",
+      "target": "info:item:world:global:2026-11-22-003",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-24-001",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-24-001",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-24-001",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-24-001",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-24-001",
+      "target": "taxonomy/misc/Geopolitics",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-24-001",
+      "target": "taxonomy/misc/Technology Regulation",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-24-001",
+      "target": "taxonomy/misc/Artificial Intelligence",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -55637,6 +55723,30 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:company:Megaspeed Ltd",
+      "target": "info:entity:company:Nvidia",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Megaspeed Ltd",
+      "target": "info:entity:organization:US Department of Commerce",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Megaspeed Ltd",
+      "target": "info:entity:person:Alice Huang",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Megaspeed Ltd",
+      "target": "info:entity:person:Jensen Huang",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:company:MeritServus",
       "target": "info:entity:organization:BBC Panorama",
       "relation": "co-occurs",
@@ -55950,6 +56060,12 @@
     },
     {
       "source": "info:entity:company:Nvidia",
+      "target": "info:entity:organization:US Department of Commerce",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Nvidia",
       "target": "info:entity:organization:US intelligence community",
       "relation": "co-occurs",
       "weight": "1"
@@ -55958,7 +56074,7 @@
       "source": "info:entity:company:Nvidia",
       "target": "info:entity:person:Alice Huang",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:company:Nvidia",
@@ -56012,7 +56128,7 @@
       "source": "info:entity:company:Nvidia",
       "target": "info:entity:person:Jensen Huang",
       "relation": "co-occurs",
-      "weight": "6"
+      "weight": "7"
     },
     {
       "source": "info:entity:company:Nvidia",
@@ -69125,6 +69241,18 @@
       "weight": "2"
     },
     {
+      "source": "info:entity:organization:US Department of Commerce",
+      "target": "info:entity:person:Alice Huang",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:US Department of Commerce",
+      "target": "info:entity:person:Jensen Huang",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:US Department of Defense",
       "target": "info:entity:person:Donald Trump",
       "relation": "co-occurs",
@@ -70046,7 +70174,7 @@
       "source": "info:entity:person:Alice Huang",
       "target": "info:entity:person:Jensen Huang",
       "relation": "co-occurs",
-      "weight": "2"
+      "weight": "3"
     },
     {
       "source": "info:entity:person:Alice Weidel",
