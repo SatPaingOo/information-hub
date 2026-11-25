@@ -1,7 +1,7 @@
 ---
 node: "Policy"
 layer: misc
-item_count: 513
+item_count: 516
 ---
 
 # Policy
@@ -17,6 +17,9 @@ item_count: 513
 
 ## Items
 
+- 2026-11-25 · [[2026-11-25-001-us-attorney-general-dodges-questions-about-nvidia]] — US Attorney General Dodges Questions About Nvidia Investigation
+- 2026-11-25 · [[2026-11-25-003-indian-government-has-lost-the-plot-says-cockroach-leader]] — Indian government has 'lost the plot', says 'cockroach' leader barred from UK flight
+- 2026-11-25 · [[2026-11-25-004-french-ex-president-nicolas-sarkozy-and-wife-carla-bruni]] — French ex‑President Nicolas Sarkozy and wife Carla Bruni to face new trial over alleged Libyan money trail
 - 2026-11-24 · [[2026-11-24-001-us-to-blacklist-asian-ai-firm-megaspeed-after-nvidia-scandal]] — US to blacklist Asian AI firm Megaspeed after Nvidia scandal
 - 2026-11-22 · [[2026-11-22-001-zelensky-defends-crimean-bridge-strikes-as-a-proportional]] — Zelensky defends Crimean Bridge strikes as a proportional response amid rising Russian attacks
 - 2026-11-22 · [[2026-11-22-003-fbi-reportedly-investigating-apparent-hack-of-its-criminal]] — FBI reportedly investigating apparent hack of its criminal database

@@ -1,7 +1,7 @@
 ---
 node: "Human Rights"
 layer: misc
-item_count: 24
+item_count: 25
 ---
 
 # Human Rights
@@ -16,6 +16,7 @@ item_count: 24
 
 ## Items
 
+- 2026-11-25 · [[2026-11-25-003-indian-government-has-lost-the-plot-says-cockroach-leader]] — Indian government has 'lost the plot', says 'cockroach' leader barred from UK flight
 - 2026-11-18 · [[2026-11-18-009-philippines-police-ask-prosecutors-to-charge-thomas-markle]] — Philippines police ask prosecutors to charge Thomas Markle over child sex abuse material
 - 2026-11-16 · [[2026-11-16-003-five-eu-countries-announce-migrant-deportation-centre-in]] — Five EU countries announce migrant deportation centre in Rwanda
 - 2026-11-04 · [[2026-11-04-004-miliband-says-slavery-apology-will-not-bring-cost-for-uk]] — Miliband says slavery apology will not bring cost for UK taxpayers

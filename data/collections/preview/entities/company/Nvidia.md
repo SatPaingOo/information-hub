@@ -1,7 +1,7 @@
 ---
 name: "Nvidia"
 entity_type: company
-backlink_count: 11
+backlink_count: 12
 ---
 
 # Nvidia
@@ -10,6 +10,7 @@ backlink_count: 11
 
 ## Referenced by
 
+- 2026-11-25 · [[2026-11-25-001-us-attorney-general-dodges-questions-about-nvidia]] — US Attorney General Dodges Questions About Nvidia Investigation
 - 2026-11-24 · [[2026-11-24-001-us-to-blacklist-asian-ai-firm-megaspeed-after-nvidia-scandal]] — US to blacklist Asian AI firm Megaspeed after Nvidia scandal
 - 2026-11-21 · [[2026-11-21-001-tech-stock-sell-off-drags-markets-down-as-anthropic-shares]] — Tech stock sell‑off drags markets down as Anthropic shares slide
 - 2026-11-18 · [[2026-11-18-003-nvidia-says-it-won-t-reinstate-huang-as-it-reports-soaring]] — Nvidia says it won't reinstate Huang as it reports soaring sales

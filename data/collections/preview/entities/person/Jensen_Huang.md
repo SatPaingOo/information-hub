@@ -1,7 +1,7 @@
 ---
 name: "Jensen Huang"
 entity_type: person
-backlink_count: 8
+backlink_count: 9
 ---
 
 # Jensen Huang
@@ -10,6 +10,7 @@ backlink_count: 8
 
 ## Referenced by
 
+- 2026-11-25 · [[2026-11-25-001-us-attorney-general-dodges-questions-about-nvidia]] — US Attorney General Dodges Questions About Nvidia Investigation
 - 2026-11-24 · [[2026-11-24-001-us-to-blacklist-asian-ai-firm-megaspeed-after-nvidia-scandal]] — US to blacklist Asian AI firm Megaspeed after Nvidia scandal
 - 2026-11-18 · [[2026-11-18-003-nvidia-says-it-won-t-reinstate-huang-as-it-reports-soaring]] — Nvidia says it won't reinstate Huang as it reports soaring sales
 - 2026-11-13 · [[2026-11-13-001-ex-nvidia-ceo-jensen-huang-summoned-to-testify-before]] — Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy

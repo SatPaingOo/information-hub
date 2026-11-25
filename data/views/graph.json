@@ -11872,6 +11872,84 @@
       "name": "US Department of Commerce"
     },
     {
+      "id": "info:item:world:global:2026-11-25-001",
+      "type": "item",
+      "date": "2026-11-25",
+      "title": "US Attorney General Dodges Questions About Nvidia Investigation"
+    },
+    {
+      "id": "info:entity:person:Todd Blanche",
+      "type": "person",
+      "name": "Todd Blanche"
+    },
+    {
+      "id": "taxonomy/misc/global AI competition",
+      "type": "taxonomy",
+      "name": "global AI competition"
+    },
+    {
+      "id": "taxonomy/misc/export regulation",
+      "type": "taxonomy",
+      "name": "export regulation"
+    },
+    {
+      "id": "info:item:world:global:2026-11-25-003",
+      "type": "item",
+      "date": "2026-11-25",
+      "title": "Indian government has 'lost the plot', says 'cockroach' leader barred from UK flight"
+    },
+    {
+      "id": "info:entity:person:Saurav Das",
+      "type": "person",
+      "name": "Saurav Das"
+    },
+    {
+      "id": "info:entity:organization:Cockroach Janta Party",
+      "type": "organization",
+      "name": "Cockroach Janta Party"
+    },
+    {
+      "id": "info:entity:organization:Ministry of Home Affairs (India)",
+      "type": "organization",
+      "name": "Ministry of Home Affairs (India)"
+    },
+    {
+      "id": "info:entity:organization:Oxford Union",
+      "type": "organization",
+      "name": "Oxford Union"
+    },
+    {
+      "id": "taxonomy/misc/immigration policy",
+      "type": "taxonomy",
+      "name": "immigration policy"
+    },
+    {
+      "id": "info:item:world:global:2026-11-25-004",
+      "type": "item",
+      "date": "2026-11-25",
+      "title": "French ex‑President Nicolas Sarkozy and wife Carla Bruni to face new trial over alleged Libyan money trail"
+    },
+    {
+      "id": "info:entity:person:Nicolas Sarkozy",
+      "type": "person",
+      "name": "Nicolas Sarkozy"
+    },
+    {
+      "id": "info:entity:person:Carla Bruni‑Sarkozy",
+      "type": "person",
+      "name": "Carla Bruni‑Sarkozy"
+    },
+    {
+      "id": "info:entity:person:Ziad Takieddine",
+      "type": "person",
+      "name": "Ziad Takieddine"
+    },
+    {
+      "id": "info:entity:organization:French judiciary",
+      "type": "organization",
+      "name": "French judiciary"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -53477,6 +53555,201 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-11-25-001",
+      "target": "info:entity:person:Jensen Huang",
+      "relation": "CEO of Nvidia, subject of security‑clearance inquiries"
+    },
+    {
+      "source": "info:item:world:global:2026-11-25-001",
+      "target": "info:entity:person:Todd Blanche",
+      "relation": "U.S. Attorney General, declined to confirm investigation"
+    },
+    {
+      "source": "info:item:world:global:2026-11-25-001",
+      "target": "info:entity:company:Nvidia",
+      "relation": "AI‑chip manufacturer at the centre of the controversy"
+    },
+    {
+      "source": "info:item:world:global:2026-11-25-001",
+      "target": "info:entity:company:Megaspeed Ltd",
+      "relation": "Singapore customer accused of diverting chips to China"
+    },
+    {
+      "source": "info:item:world:global:2026-11-25-001",
+      "target": "info:item:world:global:2026-11-24-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-25-001",
+      "target": "info:item:world:global:2026-11-22-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-25-001",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-25-001",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-25-001",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-25-001",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-25-001",
+      "target": "taxonomy/misc/technology policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-25-001",
+      "target": "taxonomy/misc/global AI competition",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-25-001",
+      "target": "taxonomy/misc/export regulation",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-25-003",
+      "target": "info:entity:person:Saurav Das",
+      "relation": "CJP spokesperson and activist"
+    },
+    {
+      "source": "info:item:world:global:2026-11-25-003",
+      "target": "info:entity:organization:Cockroach Janta Party",
+      "relation": "Youth‑led pressure group"
+    },
+    {
+      "source": "info:item:world:global:2026-11-25-003",
+      "target": "info:entity:organization:Ministry of Home Affairs (India)",
+      "relation": "Passport‑flagging authority"
+    },
+    {
+      "source": "info:item:world:global:2026-11-25-003",
+      "target": "info:entity:organization:Oxford Union",
+      "relation": "Inviting speaker"
+    },
+    {
+      "source": "info:item:world:global:2026-11-25-003",
+      "target": "info:item:world:global:2026-11-25-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-25-003",
+      "target": "info:item:world:global:2026-11-24-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-25-003",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-25-003",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-25-003",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-25-003",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-25-003",
+      "target": "taxonomy/misc/human rights",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-25-003",
+      "target": "taxonomy/misc/political movements",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-25-003",
+      "target": "taxonomy/misc/immigration policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-25-004",
+      "target": "info:entity:person:Nicolas Sarkozy",
+      "relation": "defendant"
+    },
+    {
+      "source": "info:item:world:global:2026-11-25-004",
+      "target": "info:entity:person:Carla Bruni‑Sarkozy",
+      "relation": "defendant"
+    },
+    {
+      "source": "info:item:world:global:2026-11-25-004",
+      "target": "info:entity:person:Ziad Takieddine",
+      "relation": "key witness"
+    },
+    {
+      "source": "info:item:world:global:2026-11-25-004",
+      "target": "info:entity:organization:French judiciary",
+      "relation": "prosecutor"
+    },
+    {
+      "source": "info:item:world:global:2026-11-25-004",
+      "target": "info:item:world:global:2026-11-25-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-25-004",
+      "target": "info:item:world:global:2026-11-25-003",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-25-004",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-25-004",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-25-004",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-25-004",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-25-004",
+      "target": "taxonomy/topic/world",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-25-004",
+      "target": "taxonomy/misc/policy",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-25-004",
+      "target": "taxonomy/topic/geopolitics",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -55726,7 +55999,7 @@
       "source": "info:entity:company:Megaspeed Ltd",
       "target": "info:entity:company:Nvidia",
       "relation": "co-occurs",
-      "weight": "1"
+      "weight": "2"
     },
     {
       "source": "info:entity:company:Megaspeed Ltd",
@@ -55743,6 +56016,12 @@
     {
       "source": "info:entity:company:Megaspeed Ltd",
       "target": "info:entity:person:Jensen Huang",
+      "relation": "co-occurs",
+      "weight": "2"
+    },
+    {
+      "source": "info:entity:company:Megaspeed Ltd",
+      "target": "info:entity:person:Todd Blanche",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -56128,11 +56407,17 @@
       "source": "info:entity:company:Nvidia",
       "target": "info:entity:person:Jensen Huang",
       "relation": "co-occurs",
-      "weight": "7"
+      "weight": "8"
     },
     {
       "source": "info:entity:company:Nvidia",
       "target": "info:entity:person:Sam Altman",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:company:Nvidia",
+      "target": "info:entity:person:Todd Blanche",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -63433,6 +63718,24 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Cockroach Janta Party",
+      "target": "info:entity:organization:Ministry of Home Affairs (India)",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Cockroach Janta Party",
+      "target": "info:entity:organization:Oxford Union",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Cockroach Janta Party",
+      "target": "info:entity:person:Saurav Das",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Companies House",
       "target": "info:entity:organization:Labour Party",
       "relation": "co-occurs",
@@ -64785,6 +65088,24 @@
     {
       "source": "info:entity:organization:French Coastguard",
       "target": "info:entity:person:Obaidullah Maroofkhel",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:French judiciary",
+      "target": "info:entity:person:Carla Bruni‑Sarkozy",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:French judiciary",
+      "target": "info:entity:person:Nicolas Sarkozy",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:French judiciary",
+      "target": "info:entity:person:Ziad Takieddine",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -66781,6 +67102,18 @@
       "weight": "1"
     },
     {
+      "source": "info:entity:organization:Ministry of Home Affairs (India)",
+      "target": "info:entity:organization:Oxford Union",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Ministry of Home Affairs (India)",
+      "target": "info:entity:person:Saurav Das",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:organization:Ministry of Justice (UK)",
       "target": "info:entity:organization:Prison Service of England and Wales",
       "relation": "co-occurs",
@@ -67707,6 +68040,12 @@
     {
       "source": "info:entity:organization:Oregon Public Broadcasting (OPB)",
       "target": "info:entity:person:Tina Kotek",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Oxford Union",
+      "target": "info:entity:person:Saurav Das",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -71011,6 +71350,18 @@
       "weight": "2"
     },
     {
+      "source": "info:entity:person:Carla Bruni‑Sarkozy",
+      "target": "info:entity:person:Nicolas Sarkozy",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Carla Bruni‑Sarkozy",
+      "target": "info:entity:person:Ziad Takieddine",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
       "source": "info:entity:person:Carlo Cosco",
       "target": "info:entity:person:Denise Cosco",
       "relation": "co-occurs",
@@ -72362,6 +72713,12 @@
     },
     {
       "source": "info:entity:person:Jensen Huang",
+      "target": "info:entity:person:Todd Blanche",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Jensen Huang",
       "target": "info:entity:product:Samsung Galaxy Fold 8",
       "relation": "co-occurs",
       "weight": "1"
@@ -73053,6 +73410,12 @@
     {
       "source": "info:entity:person:Mónica García",
       "target": "info:entity:person:Pedro Sánchez",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:person:Nicolas Sarkozy",
+      "target": "info:entity:person:Ziad Takieddine",
       "relation": "co-occurs",
       "weight": "1"
     },
