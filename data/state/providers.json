@@ -1,11 +1,11 @@
 {
   "groq": {
-    "quota_date": "2026-11-26",
-    "tokens_used": 0,
-    "items": 0,
-    "calls": 0,
-    "errors": 2,
-    "cooldown_until": null,
+    "quota_date": "2026-11-27",
+    "tokens_used": 9589,
+    "items": 1,
+    "calls": 1,
+    "errors": 3,
+    "cooldown_until": "2026-11-27T05:27:00+00:00",
     "models": {
       "llama-3.3-70b-versatile": {
         "calls": 0,
@@ -32,34 +32,34 @@
       "openai/gpt-oss-120b": {
         "calls": 409,
         "items": 192,
-        "errors": 258,
+        "errors": 259,
         "consecutive_failures": 1,
         "healthy": false,
-        "last_health_check": "2026-11-26T04:53:26+00:00",
+        "last_health_check": "2026-11-27T05:25:48+00:00",
         "latency_ms": 5226,
         "supports_json": true,
         "cooldown_until": null
       },
       "openai/gpt-oss-20b": {
-        "calls": 89,
-        "items": 51,
-        "errors": 132,
-        "consecutive_failures": 1,
+        "calls": 90,
+        "items": 52,
+        "errors": 134,
+        "consecutive_failures": 2,
         "healthy": false,
-        "last_health_check": "2026-11-26T04:54:22+00:00",
-        "latency_ms": 1420,
+        "last_health_check": "2026-11-27T05:28:53+00:00",
+        "latency_ms": 2725,
         "supports_json": true,
-        "cooldown_until": null
+        "cooldown_until": "2026-11-27T05:27:00+00:00"
       }
     }
   },
   "openrouter": {
-    "quota_date": "2026-11-26",
-    "tokens_used": 3499,
+    "quota_date": "2026-11-27",
+    "tokens_used": 3004,
     "items": 0,
-    "calls": 1,
-    "errors": 1857,
-    "cooldown_until": "2026-11-26T05:06:05+00:00",
+    "calls": 2,
+    "errors": 441,
+    "cooldown_until": "2026-11-27T05:33:17+00:00",
     "models": {
       "dots-studio/dots-3-note-preview:free": {
         "calls": 5,
@@ -130,10 +130,10 @@
       "nvidia/nemotron-3-super-120b-a12b:free": {
         "calls": 4,
         "items": 2,
-        "errors": 21,
+        "errors": 22,
         "consecutive_failures": 1,
         "healthy": false,
-        "last_health_check": "2026-11-26T04:53:29+00:00",
+        "last_health_check": "2026-11-27T05:25:51+00:00",
         "latency_ms": 52235,
         "supports_json": true,
         "cooldown_until": null
@@ -161,23 +161,23 @@
         "cooldown_until": null
       },
       "openrouter/free": {
-        "calls": 42,
+        "calls": 44,
         "items": 16,
-        "errors": 65,
+        "errors": 70,
         "consecutive_failures": 3,
         "healthy": false,
-        "last_health_check": "2026-11-26T05:04:05+00:00",
-        "latency_ms": 14630,
+        "last_health_check": "2026-11-27T05:31:17+00:00",
+        "latency_ms": 7442,
         "supports_json": true,
-        "cooldown_until": "2026-11-26T05:06:05+00:00"
+        "cooldown_until": "2026-11-27T05:33:17+00:00"
       },
       "cohere/north-mini-code:free": {
         "calls": 781,
         "items": 469,
-        "errors": 77,
+        "errors": 78,
         "consecutive_failures": 1,
         "healthy": false,
-        "last_health_check": "2026-11-26T04:53:26+00:00",
+        "last_health_check": "2026-11-27T05:25:48+00:00",
         "latency_ms": 20365,
         "supports_json": false,
         "cooldown_until": null
@@ -251,10 +251,10 @@
       "poolside/laguna-s-2.1:free": {
         "calls": 11,
         "items": 9,
-        "errors": 25,
+        "errors": 26,
         "consecutive_failures": 1,
         "healthy": false,
-        "last_health_check": "2026-11-26T04:53:35+00:00",
+        "last_health_check": "2026-11-27T05:25:57+00:00",
         "latency_ms": 35654,
         "supports_json": false,
         "cooldown_until": null
@@ -262,10 +262,10 @@
       "poolside/laguna-xs-2.1:free": {
         "calls": 30,
         "items": 22,
-        "errors": 37,
+        "errors": 38,
         "consecutive_failures": 1,
         "healthy": false,
-        "last_health_check": "2026-11-26T04:53:44+00:00",
+        "last_health_check": "2026-11-27T05:26:07+00:00",
         "latency_ms": 25408,
         "supports_json": false,
         "cooldown_until": null
@@ -460,10 +460,10 @@
       "nvidia/nemotron-3.5-super-vl:free": {
         "calls": 0,
         "items": 0,
-        "errors": 2963,
-        "consecutive_failures": 2963,
+        "errors": 3035,
+        "consecutive_failures": 3035,
         "healthy": true,
-        "last_health_check": "2026-11-26T23:46:12+00:00",
+        "last_health_check": "2026-11-27T05:33:53+00:00",
         "latency_ms": null,
         "supports_json": true,
         "cooldown_until": null
@@ -493,10 +493,10 @@
       "recursive/flint-v1.0:free": {
         "calls": 0,
         "items": 0,
-        "errors": 2963,
-        "consecutive_failures": 2963,
+        "errors": 3035,
+        "consecutive_failures": 3035,
         "healthy": true,
-        "last_health_check": "2026-11-26T23:46:12+00:00",
+        "last_health_check": "2026-11-27T05:33:53+00:00",
         "latency_ms": null,
         "supports_json": true,
         "cooldown_until": null
@@ -515,10 +515,10 @@
       "liquid/lfm-3-1.7b:free": {
         "calls": 0,
         "items": 0,
-        "errors": 2570,
-        "consecutive_failures": 2570,
+        "errors": 2642,
+        "consecutive_failures": 2642,
         "healthy": true,
-        "last_health_check": "2026-11-26T23:46:12+00:00",
+        "last_health_check": "2026-11-27T05:33:53+00:00",
         "latency_ms": null,
         "supports_json": true,
         "cooldown_until": null
@@ -537,10 +537,10 @@
       "baidu/ernie-5.5-flash-preview:free": {
         "calls": 0,
         "items": 0,
-        "errors": 2568,
-        "consecutive_failures": 2568,
+        "errors": 2640,
+        "consecutive_failures": 2640,
         "healthy": true,
-        "last_health_check": "2026-11-26T23:46:12+00:00",
+        "last_health_check": "2026-11-27T05:33:53+00:00",
         "latency_ms": null,
         "supports_json": true,
         "cooldown_until": null
@@ -548,10 +548,10 @@
       "particle-ai/particle-1:free": {
         "calls": 0,
         "items": 0,
-        "errors": 2568,
-        "consecutive_failures": 2568,
+        "errors": 2640,
+        "consecutive_failures": 2640,
         "healthy": true,
-        "last_health_check": "2026-11-26T23:46:12+00:00",
+        "last_health_check": "2026-11-27T05:33:53+00:00",
         "latency_ms": null,
         "supports_json": true,
         "cooldown_until": null
@@ -559,10 +559,10 @@
       "inclusionai/ling-3.2-flash:free": {
         "calls": 0,
         "items": 0,
-        "errors": 2568,
-        "consecutive_failures": 2568,
+        "errors": 2640,
+        "consecutive_failures": 2640,
         "healthy": true,
-        "last_health_check": "2026-11-26T23:46:12+00:00",
+        "last_health_check": "2026-11-27T05:33:53+00:00",
         "latency_ms": null,
         "supports_json": true,
         "cooldown_until": null
@@ -570,7 +570,7 @@
     }
   },
   "gemini": {
-    "quota_date": "2026-11-26",
+    "quota_date": "2026-11-27",
     "tokens_used": 0,
     "items": 0,
     "calls": 0,
