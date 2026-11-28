@@ -11950,6 +11950,37 @@
       "name": "French judiciary"
     },
     {
+      "id": "info:item:world:global:2026-11-28-002",
+      "type": "item",
+      "date": "2026-11-28",
+      "title": "Turkish officials 'destroyed' pro-opposition TV channel, owner tells BBC"
+    },
+    {
+      "id": "info:entity:organization:Halk TV",
+      "type": "organization",
+      "name": "Halk TV"
+    },
+    {
+      "id": "info:entity:organization:Turkish Government",
+      "type": "organization",
+      "name": "Turkish Government"
+    },
+    {
+      "id": "taxonomy/misc/press freedom",
+      "type": "taxonomy",
+      "name": "press freedom"
+    },
+    {
+      "id": "taxonomy/misc/media regulation",
+      "type": "taxonomy",
+      "name": "media regulation"
+    },
+    {
+      "id": "taxonomy/misc/Turkey politics",
+      "type": "taxonomy",
+      "name": "Turkey politics"
+    },
+    {
       "id": "taxonomy/region/asia",
       "type": "taxonomy",
       "layer": "region",
@@ -53750,6 +53781,71 @@
       "relation": "relates"
     },
     {
+      "source": "info:item:world:global:2026-11-28-002",
+      "target": "info:entity:person:Recep Tayyip Erdoğan",
+      "relation": "President of Turkey; central figure directing media crackdown"
+    },
+    {
+      "source": "info:item:world:global:2026-11-28-002",
+      "target": "info:entity:organization:Halk TV",
+      "relation": "Pro‑opposition television channel seized by authorities"
+    },
+    {
+      "source": "info:item:world:global:2026-11-28-002",
+      "target": "info:entity:organization:BBC",
+      "relation": "International broadcaster that interviewed the channel owner"
+    },
+    {
+      "source": "info:item:world:global:2026-11-28-002",
+      "target": "info:entity:organization:Turkish Government",
+      "relation": "Executive authority implementing media seizures and legal proceedings"
+    },
+    {
+      "source": "info:item:world:global:2026-11-28-002",
+      "target": "info:item:world:global:2026-11-25-001",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-28-002",
+      "target": "info:item:world:global:2026-11-25-003",
+      "relation": "related"
+    },
+    {
+      "source": "info:item:world:global:2026-11-28-002",
+      "target": "taxonomy/topic/world",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-28-002",
+      "target": "taxonomy/region/global",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-28-002",
+      "target": "taxonomy/category/policy",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-28-002",
+      "target": "taxonomy/category/industry",
+      "relation": "classified_in"
+    },
+    {
+      "source": "info:item:world:global:2026-11-28-002",
+      "target": "taxonomy/misc/press freedom",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-28-002",
+      "target": "taxonomy/misc/media regulation",
+      "relation": "relates"
+    },
+    {
+      "source": "info:item:world:global:2026-11-28-002",
+      "target": "taxonomy/misc/Turkey politics",
+      "relation": "relates"
+    },
+    {
       "source": "taxonomy/region/asia",
       "target": "taxonomy/region/myanmar",
       "relation": "parent_of"
@@ -62855,6 +62951,12 @@
     },
     {
       "source": "info:entity:organization:BBC",
+      "target": "info:entity:organization:Halk TV",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:BBC",
       "target": "info:entity:organization:Home Office",
       "relation": "co-occurs",
       "weight": "1"
@@ -62868,6 +62970,12 @@
     {
       "source": "info:entity:organization:BBC",
       "target": "info:entity:organization:Rapid Support Forces (RSF)",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:BBC",
+      "target": "info:entity:organization:Turkish Government",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -62910,6 +63018,12 @@
     {
       "source": "info:entity:organization:BBC",
       "target": "info:entity:person:Omar al‑Bayoumi",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:BBC",
+      "target": "info:entity:person:Recep Tayyip Erdoğan",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -65490,6 +65604,18 @@
     {
       "source": "info:entity:organization:HUR (Main Intelligence Directorate of the Ukrainian Ministry of Defence)",
       "target": "info:entity:person:Vladyslav Reut",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Halk TV",
+      "target": "info:entity:organization:Turkish Government",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Halk TV",
+      "target": "info:entity:person:Recep Tayyip Erdoğan",
       "relation": "co-occurs",
       "weight": "1"
     },
@@ -69066,6 +69192,12 @@
     {
       "source": "info:entity:organization:Trussell Trust",
       "target": "info:entity:person:Rishi Sunak",
+      "relation": "co-occurs",
+      "weight": "1"
+    },
+    {
+      "source": "info:entity:organization:Turkish Government",
+      "target": "info:entity:person:Recep Tayyip Erdoğan",
       "relation": "co-occurs",
       "weight": "1"
     },

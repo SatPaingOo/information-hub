@@ -1,7 +1,7 @@
 ---
 node: "Global"
 layer: misc
-item_count: 646
+item_count: 647
 ---
 
 # Global
@@ -25,6 +25,7 @@ item_count: 646
 
 ## Items
 
+- 2026-11-28 · [[2026-11-28-002-turkish-officials-destroyed-pro-opposition-tv-channel]] — Turkish officials 'destroyed' pro-opposition TV channel, owner tells BBC
 - 2026-11-25 · [[2026-11-25-001-us-attorney-general-dodges-questions-about-nvidia]] — US Attorney General Dodges Questions About Nvidia Investigation
 - 2026-11-25 · [[2026-11-25-003-indian-government-has-lost-the-plot-says-cockroach-leader]] — Indian government has 'lost the plot', says 'cockroach' leader barred from UK flight
 - 2026-11-25 · [[2026-11-25-004-french-ex-president-nicolas-sarkozy-and-wife-carla-bruni]] — French ex‑President Nicolas Sarkozy and wife Carla Bruni to face new trial over alleged Libyan money trail

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T23:43:38+00:00",
+  "generated_at": "2026-11-28T05:10:07+00:00",
   "per_day_provider_model": {
     "2026-08-17": {
       "groq": {
@@ -4930,6 +4930,68 @@
           "tokens": 9589
         }
       }
+    },
+    "2026-11-28": {
+      "openrouter": {
+        "cohere/north-mini-code:free": {
+          "calls": 1,
+          "ok": 0,
+          "errors": 1,
+          "tokens": 0
+        },
+        "nvidia/nemotron-3-super-120b-a12b:free": {
+          "calls": 1,
+          "ok": 0,
+          "errors": 1,
+          "tokens": 0
+        },
+        "poolside/laguna-s-2.1:free": {
+          "calls": 1,
+          "ok": 0,
+          "errors": 1,
+          "tokens": 0
+        },
+        "poolside/laguna-xs-2.1:free": {
+          "calls": 1,
+          "ok": 0,
+          "errors": 1,
+          "tokens": 0
+        },
+        "openrouter/free": {
+          "calls": 7,
+          "ok": 2,
+          "errors": 5,
+          "tokens": 12549
+        }
+      },
+      "groq": {
+        "openai/gpt-oss-120b": {
+          "calls": 1,
+          "ok": 0,
+          "errors": 1,
+          "tokens": 0
+        },
+        "openai/gpt-oss-20b": {
+          "calls": 1,
+          "ok": 0,
+          "errors": 1,
+          "tokens": 0
+        }
+      },
+      "gemini": {
+        "gemini-3.5-flash-lite": {
+          "calls": 1,
+          "ok": 0,
+          "errors": 1,
+          "tokens": 0
+        },
+        "gemini-3.5-flash": {
+          "calls": 1,
+          "ok": 0,
+          "errors": 1,
+          "tokens": 0
+        }
+      }
     }
   },
   "errors_by_day": {
@@ -5417,6 +5479,13 @@
       "HTTP 413": 2,
       "network": 3,
       "HTTP 429": 3
+    },
+    "2026-11-28": {
+      "HTTP 404": 4,
+      "HTTP 413": 1,
+      "network": 3,
+      "HTTP 400": 1,
+      "HTTP 429": 4
     }
   }
 }
